@@ -37,11 +37,7 @@ def test_outlier_retrieval():
     
     # Test different approaches using current hybrid model
     approaches = {
-        'Citation Network Only': ModelWeights(citation_network=1.0, content_similarity=0.0),
-        'Content Similarity Only': ModelWeights(citation_network=0.0, content_similarity=1.0),
-        'Citation Heavy': ModelWeights(citation_network=0.8, content_similarity=0.2),
-        'Content Heavy': ModelWeights(citation_network=0.2, content_similarity=0.8),
-        'Balanced': ModelWeights(citation_network=0.5, content_similarity=0.5),
+        'Balanced (All Three)': ModelWeights(citation_network=0.33, content_similarity=0.33, confidence_calibration=0.34),
     }
     
     results = {}
@@ -126,11 +122,11 @@ def test_stopping_rule_scenario():
     outlier_id = missed_outlier.iloc[0]['openalex_id']
     search_candidates = remaining_docs['openalex_id'].tolist()
     
-    # Use hybrid approach with balanced weights
+    # Use hybrid approach with optimal weights from tuning
     print("Testing hybrid approach on remaining documents...")
     
     # Fit models on the "found" relevant documents (simulating real scenario)
-    detector = HybridOutlierDetector(model_weights=ModelWeights(citation_network=0.5, content_similarity=0.5))
+    detector = HybridOutlierDetector(model_weights=ModelWeights(citation_network=0.4, content_similarity=0.6, confidence_calibration=0.2))
     detector.fit(training_data)  # Use training data without rank 26
     
     # Score remaining documents
@@ -182,8 +178,8 @@ def analyze_score_distribution():
         lambda x: 1 if x <= 25 else 0
     )
     
-    # Setup hybrid model
-    detector = HybridOutlierDetector(model_weights=ModelWeights(citation_network=0.5, content_similarity=0.5))
+    # Setup hybrid model with optimal weights
+    detector = HybridOutlierDetector(model_weights=ModelWeights(citation_network=0.4, content_similarity=0.6, confidence_calibration=0.2))
     detector.fit(training_data)  # Use training data without rank 26
     
     # Get different document groups

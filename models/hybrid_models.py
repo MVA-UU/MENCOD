@@ -12,13 +12,15 @@ from dataclasses import dataclass
 
 from .citation_network import CitationNetworkModel
 from .content_similarity import ContentSimilarityModel
+from .confidence_calibration import ConfidenceCalibrationModel
 
 
 @dataclass
 class ModelWeights:
     """Configuration for model weights in hybrid system."""
     citation_network: float = 0.2
-    content_similarity: float = 0.8
+    content_similarity: float = 0.6
+    confidence_calibration: float = 0.2
     # metadata_analysis: float = 0.0
     # temporal_patterns: float = 0.0
 
@@ -29,9 +31,10 @@ class HybridOutlierDetector:
     
     Currently includes:
     - Citation network analysis
+    - Content similarity analysis 
+    - Confidence calibration analysis
     
     Future extensions:
-    - Content similarity analysis 
     - Metadata pattern analysis
     - Temporal publication patterns
     - Author/venue analysis
@@ -53,6 +56,7 @@ class HybridOutlierDetector:
         # Initialize individual models
         self.citation_model = CitationNetworkModel(dataset_name)
         self.content_model = ContentSimilarityModel(dataset_name)
+        self.confidence_model = ConfidenceCalibrationModel()
         
         # Future models will be initialized here
         # self.metadata_model = MetadataAnalysisModel()
@@ -90,10 +94,12 @@ class HybridOutlierDetector:
         self.citation_model.fit(simulation_df)
         print("\n2. Fitting Content Similarity Model...")
         self.content_model.fit(simulation_df)
+        print("\n3. Fitting Confidence Calibration Model...")
+        self.confidence_model.fit(simulation_df)
         
         # Future model fitting will go here
-        # print("2. Fitting Content Similarity Model...")
-        # self.content_model.fit(simulation_df)
+        # print("4. Fitting Metadata Analysis Model...")
+        # self.metadata_model.fit(simulation_df)
         
         self.is_fitted = True
         print("\nHybrid system successfully fitted!")
@@ -162,18 +168,22 @@ class HybridOutlierDetector:
         # Get scores from individual models
         citation_scores = self.citation_model.predict_relevance_scores(target_documents)
         content_scores = self.content_model.predict_relevance_scores(target_documents)
+        confidence_scores = self.confidence_model.predict_relevance_scores(target_documents)
         
         # Combine scores using weights
         combined_scores = {}
-        total_weight = self.model_weights.citation_network + self.model_weights.content_similarity
+        total_weight = (self.model_weights.citation_network + 
+                       self.model_weights.content_similarity + 
+                       self.model_weights.confidence_calibration)
         
         for doc_id in target_documents:
             score = (
-                self.model_weights.citation_network * citation_scores.get(doc_id, 0.0)
-                + self.model_weights.content_similarity * content_scores.get(doc_id, 0.0)
+                self.model_weights.citation_network * citation_scores.get(doc_id, 0.0) +
+                self.model_weights.content_similarity * content_scores.get(doc_id, 0.0) +
+                self.model_weights.confidence_calibration * confidence_scores.get(doc_id, 0.0)
             )
             
-            combined_scores[doc_id] = score / total_weight
+            combined_scores[doc_id] = score / total_weight if total_weight > 0 else 0.0
         
         return combined_scores
     
@@ -241,9 +251,14 @@ class HybridOutlierDetector:
     
     def _get_individual_scores(self, doc_id: str) -> Dict[str, float]:
         """Get scores from individual models."""
+        citation_score = self.citation_model.predict_relevance_scores([doc_id]).get(doc_id, 0.0)
+        content_score = self.content_model.predict_relevance_scores([doc_id]).get(doc_id, 0.0)
+        confidence_score = self.confidence_model.predict_relevance_scores([doc_id]).get(doc_id, 0.0)
+        
         scores = {
-            'citation_network': self.citation_model.predict_relevance_scores([doc_id]).get(doc_id, 0.0),
-            'content_similarity': self.content_model.predict_relevance_scores([doc_id]).get(doc_id, 0.0)
+            'citation_network': citation_score,
+            'content_similarity': content_score,
+            'confidence_calibration': confidence_score
         }
         
         return scores
@@ -354,8 +369,13 @@ def main():
     # Load simulation data
     simulation_df = pd.read_csv('data/simulation.csv')
     
-    # Initialize hybrid detector
-    detector = HybridOutlierDetector()
+    # Initialize hybrid detector with optimal weights
+    optimal_weights = ModelWeights(
+        citation_network=0.4,
+        content_similarity=0.6,
+        confidence_calibration=0.2
+    )
+    detector = HybridOutlierDetector(model_weights=optimal_weights)
     
     # Fit the system
     detector.fit(simulation_df)
@@ -371,6 +391,7 @@ def main():
         print(f"Combined Score: {analysis['combined_score']:.4f}")
         print(f"Citation Score: {analysis['individual_scores']['citation_network']:.4f}")
         print(f"Content Similarity Score: {analysis['individual_scores']['content_similarity']:.4f}")
+        print(f"Confidence Calibration Score: {analysis['individual_scores']['confidence_calibration']:.4f}")
         print(f"ASReview Ranking: {analysis['document_info'].get('asreview_ranking', 'N/A')}")
         
         print("\nOutlier Characteristics:")
