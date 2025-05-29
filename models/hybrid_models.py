@@ -13,14 +13,16 @@ from dataclasses import dataclass
 from .citation_network import CitationNetworkModel
 from .content_similarity import ContentSimilarityModel
 from .confidence_calibration import ConfidenceCalibrationModel
+from .minilm_embeddings import MiniLMEmbeddingsModel
 
 
 @dataclass
 class ModelWeights:
     """Configuration for model weights in hybrid system."""
     citation_network: float = 0.2
-    content_similarity: float = 0.6
+    content_similarity: float = 0.4
     confidence_calibration: float = 0.2
+    minilm_embeddings: float = 0.2
     # metadata_analysis: float = 0.0
     # temporal_patterns: float = 0.0
 
@@ -33,6 +35,7 @@ class HybridOutlierDetector:
     - Citation network analysis
     - Content similarity analysis 
     - Confidence calibration analysis
+    - MiniLM semantic embeddings analysis
     
     Future extensions:
     - Metadata pattern analysis
@@ -57,6 +60,7 @@ class HybridOutlierDetector:
         self.citation_model = CitationNetworkModel(dataset_name)
         self.content_model = ContentSimilarityModel(dataset_name)
         self.confidence_model = ConfidenceCalibrationModel()
+        self.minilm_model = MiniLMEmbeddingsModel(dataset_name)
         
         # Future models will be initialized here
         # self.metadata_model = MetadataAnalysisModel()
@@ -96,9 +100,11 @@ class HybridOutlierDetector:
         self.content_model.fit(simulation_df)
         print("\n3. Fitting Confidence Calibration Model...")
         self.confidence_model.fit(simulation_df)
+        print("\n4. Fitting MiniLM Embeddings Model...")
+        self.minilm_model.fit(simulation_df)
         
         # Future model fitting will go here
-        # print("4. Fitting Metadata Analysis Model...")
+        # print("5. Fitting Metadata Analysis Model...")
         # self.metadata_model.fit(simulation_df)
         
         self.is_fitted = True
@@ -169,18 +175,21 @@ class HybridOutlierDetector:
         citation_scores = self.citation_model.predict_relevance_scores(target_documents)
         content_scores = self.content_model.predict_relevance_scores(target_documents)
         confidence_scores = self.confidence_model.predict_relevance_scores(target_documents)
+        minilm_scores = self.minilm_model.predict_relevance_scores(target_documents)
         
         # Combine scores using weights
         combined_scores = {}
         total_weight = (self.model_weights.citation_network + 
                        self.model_weights.content_similarity + 
-                       self.model_weights.confidence_calibration)
+                       self.model_weights.confidence_calibration +
+                       self.model_weights.minilm_embeddings)
         
         for doc_id in target_documents:
             score = (
                 self.model_weights.citation_network * citation_scores.get(doc_id, 0.0) +
                 self.model_weights.content_similarity * content_scores.get(doc_id, 0.0) +
-                self.model_weights.confidence_calibration * confidence_scores.get(doc_id, 0.0)
+                self.model_weights.confidence_calibration * confidence_scores.get(doc_id, 0.0) +
+                self.model_weights.minilm_embeddings * minilm_scores.get(doc_id, 0.0)
             )
             
             combined_scores[doc_id] = score / total_weight if total_weight > 0 else 0.0
@@ -254,11 +263,13 @@ class HybridOutlierDetector:
         citation_score = self.citation_model.predict_relevance_scores([doc_id]).get(doc_id, 0.0)
         content_score = self.content_model.predict_relevance_scores([doc_id]).get(doc_id, 0.0)
         confidence_score = self.confidence_model.predict_relevance_scores([doc_id]).get(doc_id, 0.0)
+        minilm_score = self.minilm_model.predict_relevance_scores([doc_id]).get(doc_id, 0.0)
         
         scores = {
             'citation_network': citation_score,
             'content_similarity': content_score,
-            'confidence_calibration': confidence_score
+            'confidence_calibration': confidence_score,
+            'minilm_embeddings': minilm_score
         }
         
         return scores

@@ -37,7 +37,11 @@ def test_outlier_retrieval():
     
     # Test different approaches using current hybrid model
     approaches = {
-        'Balanced (All Three)': ModelWeights(citation_network=0.33, content_similarity=0.33, confidence_calibration=0.34),
+        'Original Hybrid (3 models)': ModelWeights(citation_network=0.33, content_similarity=0.33, confidence_calibration=0.34, minilm_embeddings=0.0),
+        'Balanced (All Four)': ModelWeights(citation_network=0.25, content_similarity=0.25, confidence_calibration=0.25, minilm_embeddings=0.25),
+        'MiniLM Focused': ModelWeights(citation_network=0.2, content_similarity=0.2, confidence_calibration=0.2, minilm_embeddings=0.4),
+        'MiniLM Heavy': ModelWeights(citation_network=0.15, content_similarity=0.15, confidence_calibration=0.2, minilm_embeddings=0.5),
+        'Content + MiniLM': ModelWeights(citation_network=0.2, content_similarity=0.4, confidence_calibration=0.0, minilm_embeddings=0.4),
     }
     
     results = {}
@@ -126,7 +130,7 @@ def test_stopping_rule_scenario():
     print("Testing hybrid approach on remaining documents...")
     
     # Fit models on the "found" relevant documents (simulating real scenario)
-    detector = HybridOutlierDetector(model_weights=ModelWeights(citation_network=0.4, content_similarity=0.6, confidence_calibration=0.2))
+    detector = HybridOutlierDetector(model_weights=ModelWeights(citation_network=0.15, content_similarity=0.15, confidence_calibration=0.2, minilm_embeddings=0.5))
     detector.fit(training_data)  # Use training data without rank 26
     
     # Score remaining documents
@@ -179,7 +183,7 @@ def analyze_score_distribution():
     )
     
     # Setup hybrid model with optimal weights
-    detector = HybridOutlierDetector(model_weights=ModelWeights(citation_network=0.4, content_similarity=0.6, confidence_calibration=0.2))
+    detector = HybridOutlierDetector(model_weights=ModelWeights(citation_network=0.15, content_similarity=0.15, confidence_calibration=0.2, minilm_embeddings=0.5))
     detector.fit(training_data)  # Use training data without rank 26
     
     # Get different document groups
