@@ -1,0 +1,24 @@
+We are working on ASReview, an application designed to find relevant papers related to the paper you have. There is 3 kinds of papers:
+
+- Prior documents => Relevant papers we have before starting our search process.
+- Relevant papers => Papers deemed relevant, so prior documents and the documents we are trying to find (those about the same topic as the prior documents)
+- Irrelevant papers => All other papers in the database that are about different subjects
+
+Say we have 8000 papers, 26 relevant. This is approximately the dataset we are testing with (called the Appenzeller dataset). ASReview ranks all papers using ML algorithms such as TF-IDF (many choices are possible but this is not important). While 25/26 relevant documents we want to find are ranked very high, there is one document (the outlier) that is for some reason ranked very low. The application works with a stopping rule (which is also configurable) such as "when 100 irrelevant documents are found subsequently, we halt our search". This means that we find the first 25 relevant documents, but never find the last one, as it is located at a way lower rank and ASReview works from top to bottom rank. 
+
+And finding this paper is exactly our task. We are building a new hybrid model, which will be run after the stopping rule is triggered. At that point, we have the 25 relevant at hand and this is valuable information. 
+
+We are trying to formulate a hybrid approach, combining:
+
+- Citation networks
+- Scientific embeddings (using SPECTRE2?)
+- Uncertainty measures 
+- Possibly more?
+
+We can do everything, so I am always up for suggestions. We should use the best algorithms available. 
+
+In order to build this algorithm, we have ran a simulation. This data is within data/simulation.csv. The simulation is ran on the Appenzeller dataset. The outlier we are trying to find is the one with asreview_ranking 26. We cannot use this ranking obviously: our simulation has gone through the entire dataset but normally a stopping rule is already triggered early in the process. The prior documents have asreview_prior = 1. All documents with an asreview_ranking < 26 and asreview_prior = 0 are the relevant documents we have found. 
+
+So the prior & relevant documents are our valuable information and our task is to find the outlier. Currently we have tried a citation network analysis to find the outlier but this has proven insufficient as far as I know. We are building a hybrid model step by step: adding models inside the 'models' folder, implementing them as part of our hybrid model (hybrid_model.py in the same folder) & implementing this hybrid model for testing purposes within implementation.py (project root). 
+
+It is also important to note that the citations are not included in the simulation.csv. However, we can retrieve the citations of each record from the Appenzeller dataset which is part of the Synergy library. This way we can combine them and still be able to make the citation network (we already do this). 
