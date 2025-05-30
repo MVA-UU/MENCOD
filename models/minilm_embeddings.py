@@ -7,13 +7,39 @@ of scientific papers and detect outliers based on semantic similarity to known r
 
 import pandas as pd
 import numpy as np
-from typing import Dict, List, Tuple
+import os
+import sys
+from typing import Dict, List, Optional
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
 import warnings
 warnings.filterwarnings('ignore')
+
+# Fix import for direct script execution
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(script_dir)
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
+
+# Import dataset utilities
+try:
+    from models.dataset_utils import (
+        load_datasets_config,
+        prompt_dataset_selection,
+        load_dataset,
+        identify_outlier_in_simulation,
+        create_training_data,
+        get_search_pool
+    )
+except ModuleNotFoundError:
+    from dataset_utils import (
+        load_datasets_config,
+        prompt_dataset_selection,
+        load_dataset,
+        identify_outlier_in_simulation,
+        create_training_data,
+        get_search_pool
+    )
 
 
 class MiniLMEmbeddingsModel:
@@ -24,9 +50,28 @@ class MiniLMEmbeddingsModel:
     identifies outliers based on their semantic distance from typical relevant documents.
     """
     
-    def __init__(self, dataset_name: str = "Appenzeller-Herzog_2019"):
-        """Initialize the MiniLM embeddings model."""
-        self.dataset_name = dataset_name
+    def __init__(self, dataset_name: Optional[str] = None):
+        """
+        Initialize the MiniLM embeddings model.
+        
+        Args:
+            dataset_name: Optional name of dataset to use. If None, will prompt user.
+        """
+        # If dataset_name is not provided, prompt user to select one
+        if dataset_name is None:
+            self.dataset_name = prompt_dataset_selection()
+        else:
+            self.dataset_name = dataset_name
+            
+        print(f"Using dataset: {self.dataset_name}")
+        
+        # Load dataset configuration
+        self.datasets_config = load_datasets_config()
+        if self.dataset_name not in self.datasets_config:
+            raise ValueError(f"Dataset '{self.dataset_name}' not found in configuration")
+        
+        self.dataset_config = self.datasets_config[self.dataset_name]
+        
         self.is_fitted = False
         self.simulation_data = None
         
@@ -40,17 +85,22 @@ class MiniLMEmbeddingsModel:
         self.relevant_centroid = None
         self.embedding_dim = 384  # MiniLM-L6-v2 output dimension
         
-    def fit(self, simulation_df: pd.DataFrame) -> 'MiniLMEmbeddingsModel':
+    def fit(self, simulation_df: Optional[pd.DataFrame] = None) -> 'MiniLMEmbeddingsModel':
         """
         Fit the MiniLM embeddings model.
         
         Args:
-            simulation_df: DataFrame with simulation results
+            simulation_df: Optional DataFrame with simulation results.
+                           If None, will load from dataset configuration.
         
         Returns:
             self: Returns the fitted model
         """
         print("Fitting MiniLM Embeddings Model...")
+        
+        # Load simulation data if not provided
+        if simulation_df is None:
+            simulation_df, _ = load_dataset(self.dataset_name)
         
         self.simulation_data = simulation_df.copy()
         
@@ -164,157 +214,19 @@ class MiniLMEmbeddingsModel:
         
         return embeddings
     
-    def calculate_similarity_scores(self, target_documents: List[str]) -> Dict[str, float]:
+    def calculate_novelty_scores(self, target_documents: List[str]) -> Dict[str, float]:
         """
-        Calculate similarity scores for target documents.
-        
-        Args:
-            target_documents: List of OpenAlex IDs to score
-        
-        Returns:
-            Dictionary mapping document IDs to similarity scores
+        Novelty-based scoring: similar to relevant docs but different from typical patterns.
+        Uses dynamically calculated thresholds based on dataset statistics.
         """
         if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating similarity scores")
-        
-        # Create embeddings for target documents
-        target_embeddings = self.create_embeddings(target_documents)
-        
-        scores = {}
-        
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            # Calculate multiple similarity metrics
-            
-            # 1. Cosine similarity to centroid
-            centroid_similarity = cosine_similarity(
-                embedding.reshape(1, -1), 
-                self.relevant_centroid.reshape(1, -1)
-            )[0, 0]
-            
-            # 2. Max similarity to any relevant document
-            max_similarity = 0.0
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                similarities_to_relevant = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                max_similarity = np.max(similarities_to_relevant)
-            
-            # 3. Mean similarity to all relevant documents
-            mean_similarity = 0.0
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                similarities_to_relevant = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                mean_similarity = np.mean(similarities_to_relevant)
-            
-            # Combine metrics (weighted average)
-            combined_score = (
-                0.4 * centroid_similarity + 
-                0.4 * max_similarity + 
-                0.2 * mean_similarity
-            )
-            
-            scores[doc_id] = combined_score
-        
-        return scores
-    
-    def calculate_outlier_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Alternative scoring method focused on outlier detection.
-        Looks for documents that are similar to relevant docs but different from typical patterns.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating outlier scores")
+            raise ValueError("Model must be fitted before calculating novelty scores")
         
         target_embeddings = self.create_embeddings(target_documents)
         scores = {}
         
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                # Calculate similarities to all relevant documents
-                similarities = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                
-                # Outlier score: high max similarity but diverse similarity pattern
-                max_sim = np.max(similarities)
-                mean_sim = np.mean(similarities)
-                std_sim = np.std(similarities)
-                
-                # Distance from centroid (normalized)
-                centroid_dist = np.linalg.norm(embedding - self.relevant_centroid)
-                normalized_dist = (centroid_dist - self.mean_centroid_distance) / self.std_centroid_distance
-                
-                # Outlier score: documents with high max similarity but unusual patterns
-                outlier_score = (
-                    0.4 * max_sim +  # Should be similar to at least one relevant doc
-                    0.3 * std_sim +  # Should have diverse similarities (some high, some low)
-                    0.2 * (1.0 / (1.0 + abs(normalized_dist))) +  # Prefer moderate distance from centroid
-                    0.1 * (max_sim - mean_sim)  # High max but lower mean indicates outlier pattern
-                )
-                
-                scores[doc_id] = outlier_score
-            else:
-                scores[doc_id] = 0.0
-        
-        return scores
-    
-    def calculate_isolation_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Use isolation forest approach to find outliers in embedding space.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating isolation scores")
-        
-        target_embeddings = self.create_embeddings(target_documents)
-        
-        # Combine relevant embeddings with target embeddings for isolation forest
-        all_embeddings = np.vstack([self.relevant_embeddings, target_embeddings])
-        
-        # Use a simple distance-based outlier score
-        scores = {}
-        
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            # Calculate distances to all relevant documents
-            distances = []
-            for rel_emb in self.relevant_embeddings:
-                dist = np.linalg.norm(embedding - rel_emb)
-                distances.append(dist)
-            
-            # Outlier score based on distance distribution
-            mean_dist = np.mean(distances)
-            min_dist = np.min(distances)
-            
-            # Lower distance to closest relevant doc = higher score
-            # But we want documents that are close to some but not all
-            closest_similarity = 1.0 / (1.0 + min_dist)
-            average_similarity = 1.0 / (1.0 + mean_dist)
-            
-            # Isolation score: close to some relevant docs but not typical
-            isolation_score = closest_similarity * (1.0 - average_similarity + 0.5)
-            
-            scores[doc_id] = isolation_score
-        
-        return scores
-    
-    def calculate_aggressive_outlier_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Very aggressive outlier detection focusing on max similarity.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating aggressive scores")
-        
-        target_embeddings = self.create_embeddings(target_documents)
-        scores = {}
+        # Calculate dynamic threshold based on relevant document patterns
+        min_sim_threshold = self.mean_relevant_similarity - 0.5 * self.std_relevant_similarity
         
         for i, doc_id in enumerate(target_documents):
             embedding = target_embeddings[i]
@@ -327,179 +239,32 @@ class MiniLMEmbeddingsModel:
                 
                 max_sim = np.max(similarities)
                 
-                # Very aggressive: if max similarity > 0.75, boost heavily
-                if max_sim > 0.75:
-                    aggressive_score = max_sim * 2.0  # Double the score
-                elif max_sim > 0.7:
-                    aggressive_score = max_sim * 1.5
+                # Calculate "novelty" - how different this doc is from the typical relevant pattern
+                # High max similarity but low similarity to centroid = novel
+                centroid_sim = cosine_similarity(
+                    embedding.reshape(1, -1), 
+                    self.relevant_centroid.reshape(1, -1)
+                )[0, 0]
+                
+                # Novelty score: high max similarity but lower centroid similarity
+                novelty_gap = max_sim - centroid_sim
+                
+                # Only consider documents with reasonably high max similarity
+                if max_sim > min_sim_threshold:
+                    novelty_score = max_sim + novelty_gap  # Boost for novelty
                 else:
-                    aggressive_score = max_sim
+                    novelty_score = max_sim
                 
-                scores[doc_id] = aggressive_score
+                scores[doc_id] = novelty_score
             else:
                 scores[doc_id] = 0.0
         
         return scores
-    
-    def calculate_top_k_similarity_scores(self, target_documents: List[str], k: int = 3) -> Dict[str, float]:
-        """
-        Focus on top-k similarities instead of just max.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating top-k scores")
-        
-        target_embeddings = self.create_embeddings(target_documents)
-        scores = {}
-        
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                similarities = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                
-                # Get top-k similarities
-                top_k_sims = np.sort(similarities)[-k:]
-                
-                # Score based on top-k average with heavy weight on highest
-                top_k_score = (
-                    0.6 * top_k_sims[-1] +  # Highest similarity
-                    0.3 * top_k_sims[-2] if len(top_k_sims) > 1 else 0 +  # Second highest
-                    0.1 * np.mean(top_k_sims[:-1]) if len(top_k_sims) > 2 else 0  # Rest
-                )
-                
-                scores[doc_id] = top_k_score
-            else:
-                scores[doc_id] = 0.0
-        
-        return scores
-    
-    def calculate_threshold_based_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Threshold-based scoring: documents with any similarity > threshold get high scores.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating threshold scores")
-        
-        target_embeddings = self.create_embeddings(target_documents)
-        scores = {}
-        
-        # Set threshold based on relevant document patterns
-        high_threshold = self.mean_relevant_similarity + 0.5 * self.std_relevant_similarity
-        
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                similarities = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                
-                # Count similarities above threshold
-                above_threshold = np.sum(similarities > high_threshold)
-                max_sim = np.max(similarities)
-                
-                # Score: combination of max similarity and count above threshold
-                threshold_score = 0.7 * max_sim + 0.3 * (above_threshold / len(similarities))
-                
-                scores[doc_id] = threshold_score
-            else:
-                scores[doc_id] = 0.0
-        
-        return scores
-    
-    def calculate_percentile_based_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Score based on what percentile the max similarity falls into among relevant docs.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating percentile scores")
-        
-        target_embeddings = self.create_embeddings(target_documents)
-        scores = {}
-        
-        # Create reference distribution from relevant similarities
-        ref_similarities = self.relevant_similarities
-        
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                similarities = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                
-                max_sim = np.max(similarities)
-                
-                # Calculate percentile of max similarity in reference distribution
-                percentile = (np.sum(ref_similarities < max_sim) / len(ref_similarities)) * 100
-                
-                # Convert percentile to score (higher percentile = higher score)
-                percentile_score = percentile / 100.0
-                
-                # Boost if percentile is very high
-                if percentile > 80:
-                    percentile_score *= 1.5
-                elif percentile > 60:
-                    percentile_score *= 1.2
-                
-                scores[doc_id] = percentile_score
-            else:
-                scores[doc_id] = 0.0
-        
-        return scores
-    
-    def calculate_super_ensemble_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Super ensemble combining all methods including the new aggressive ones.
-        """
-        # Get all scoring methods
-        all_scores = {
-            'original': self.calculate_similarity_scores(target_documents),
-            'outlier': self.calculate_outlier_scores(target_documents),
-            'isolation': self.calculate_isolation_scores(target_documents),
-            'aggressive': self.calculate_aggressive_outlier_scores(target_documents),
-            'top_k': self.calculate_top_k_similarity_scores(target_documents),
-            'threshold': self.calculate_threshold_based_scores(target_documents),
-            'percentile': self.calculate_percentile_based_scores(target_documents)
-        }
-        
-        # Normalize all scores
-        def normalize_scores(scores_dict):
-            values = list(scores_dict.values())
-            if len(values) == 0:
-                return scores_dict
-            min_val, max_val = min(values), max(values)
-            if max_val == min_val:
-                return {k: 0.5 for k in scores_dict.keys()}
-            return {k: (v - min_val) / (max_val - min_val) for k, v in scores_dict.items()}
-        
-        normalized_scores = {name: normalize_scores(scores) for name, scores in all_scores.items()}
-        
-        # Combine with heavy weights on aggressive methods
-        super_ensemble = {}
-        for doc_id in target_documents:
-            combined_score = (
-                0.1 * normalized_scores['original'].get(doc_id, 0) +
-                0.1 * normalized_scores['outlier'].get(doc_id, 0) +
-                0.15 * normalized_scores['isolation'].get(doc_id, 0) +
-                0.25 * normalized_scores['aggressive'].get(doc_id, 0) +  # Heavy weight
-                0.2 * normalized_scores['top_k'].get(doc_id, 0) +
-                0.1 * normalized_scores['threshold'].get(doc_id, 0) +
-                0.1 * normalized_scores['percentile'].get(doc_id, 0)
-            )
-            super_ensemble[doc_id] = combined_score
-        
-        return super_ensemble
     
     def predict_relevance_scores(self, target_documents: List[str]) -> Dict[str, float]:
         """
         Predict relevance scores for target documents based on semantic similarity.
-        Uses the best performing 'Novelty' approach by default.
+        Uses the novelty approach.
         
         Args:
             target_documents: List of OpenAlex IDs to score
@@ -507,7 +272,6 @@ class MiniLMEmbeddingsModel:
         Returns:
             Dictionary mapping document IDs to relevance scores
         """
-        # Use the best performing method (Novelty) by default
         return self.calculate_novelty_scores(target_documents)
     
     def analyze_outlier_embedding(self, outlier_id: str) -> Dict[str, float]:
@@ -555,235 +319,34 @@ class MiniLMEmbeddingsModel:
             analysis['similarity_zscore'] = (np.mean(similarities) - self.mean_relevant_similarity) / self.std_relevant_similarity
         
         return analysis
-    
-    def calculate_pure_max_similarity_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Pure max similarity - just rank by highest similarity to any relevant doc.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating pure max scores")
-        
-        target_embeddings = self.create_embeddings(target_documents)
-        scores = {}
-        
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                similarities = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                
-                # Just use max similarity as score
-                scores[doc_id] = np.max(similarities)
-            else:
-                scores[doc_id] = 0.0
-        
-        return scores
-    
-    def calculate_novelty_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Novelty-based scoring: similar to relevant docs but different from typical patterns.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating novelty scores")
-        
-        target_embeddings = self.create_embeddings(target_documents)
-        scores = {}
-        
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                similarities = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                
-                max_sim = np.max(similarities)
-                
-                # Calculate "novelty" - how different this doc is from the typical relevant pattern
-                # High max similarity but low similarity to centroid = novel
-                centroid_sim = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_centroid.reshape(1, -1)
-                )[0, 0]
-                
-                # Novelty score: high max similarity but lower centroid similarity
-                novelty_gap = max_sim - centroid_sim
-                
-                # Only consider documents with reasonably high max similarity
-                if max_sim > 0.6:
-                    novelty_score = max_sim + novelty_gap  # Boost for novelty
-                else:
-                    novelty_score = max_sim
-                
-                scores[doc_id] = novelty_score
-            else:
-                scores[doc_id] = 0.0
-        
-        return scores
-    
-    def calculate_semantic_bridge_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Look for documents that bridge semantic gaps between relevant documents.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating bridge scores")
-        
-        target_embeddings = self.create_embeddings(target_documents)
-        scores = {}
-        
-        # Find pairs of relevant documents that are most dissimilar
-        relevant_similarities = cosine_similarity(self.relevant_embeddings)
-        np.fill_diagonal(relevant_similarities, 1.0)  # Ignore self-similarity
-        
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                similarities = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                
-                # Find if this document "bridges" between dissimilar relevant docs
-                bridge_score = 0.0
-                
-                for j in range(len(self.relevant_embeddings)):
-                    for k in range(j+1, len(self.relevant_embeddings)):
-                        # If j and k are dissimilar relevant docs
-                        if relevant_similarities[j, k] < 0.5:  # Dissimilar threshold
-                            # Check if current doc is similar to both
-                            sim_to_j = similarities[j]
-                            sim_to_k = similarities[k]
-                            
-                            if sim_to_j > 0.6 and sim_to_k > 0.6:
-                                bridge_score = max(bridge_score, min(sim_to_j, sim_to_k))
-                
-                # Combine with regular max similarity
-                max_sim = np.max(similarities)
-                combined_score = 0.7 * max_sim + 0.3 * bridge_score
-                
-                scores[doc_id] = combined_score
-            else:
-                scores[doc_id] = 0.0
-        
-        return scores
-    
-    def calculate_rarity_weighted_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Weight similarities by how rare/unique the relevant documents are.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating rarity scores")
-        
-        target_embeddings = self.create_embeddings(target_documents)
-        scores = {}
-        
-        # Calculate "rarity" of each relevant document
-        # Documents that are dissimilar to other relevant docs are "rare"
-        relevant_similarities = cosine_similarity(self.relevant_embeddings)
-        np.fill_diagonal(relevant_similarities, 0.0)  # Ignore self-similarity
-        
-        rarity_weights = []
-        for i in range(len(self.relevant_embeddings)):
-            avg_sim_to_others = np.mean(relevant_similarities[i])
-            rarity = 1.0 - avg_sim_to_others  # Lower similarity = higher rarity
-            rarity_weights.append(rarity)
-        
-        rarity_weights = np.array(rarity_weights)
-        
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                similarities = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                
-                # Weight similarities by rarity of relevant documents
-                weighted_similarities = similarities * rarity_weights
-                
-                # Use max weighted similarity
-                rarity_score = np.max(weighted_similarities)
-                
-                scores[doc_id] = rarity_score
-            else:
-                scores[doc_id] = 0.0
-        
-        return scores
-    
-    def calculate_ultra_aggressive_scores(self, target_documents: List[str]) -> Dict[str, float]:
-        """
-        Ultra aggressive: just find documents with very high max similarity.
-        """
-        if not self.is_fitted:
-            raise ValueError("Model must be fitted before calculating ultra aggressive scores")
-        
-        target_embeddings = self.create_embeddings(target_documents)
-        scores = {}
-        
-        for i, doc_id in enumerate(target_documents):
-            embedding = target_embeddings[i]
-            
-            if self.relevant_embeddings is not None and len(self.relevant_embeddings) > 0:
-                similarities = cosine_similarity(
-                    embedding.reshape(1, -1), 
-                    self.relevant_embeddings
-                )[0]
-                
-                max_sim = np.max(similarities)
-                
-                # Ultra aggressive boosting
-                if max_sim > 0.8:
-                    ultra_score = max_sim * 5.0  # 5x boost
-                elif max_sim > 0.75:
-                    ultra_score = max_sim * 3.0  # 3x boost
-                elif max_sim > 0.7:
-                    ultra_score = max_sim * 2.0  # 2x boost
-                else:
-                    ultra_score = max_sim
-                
-                scores[doc_id] = ultra_score
-            else:
-                scores[doc_id] = 0.0
-        
-        return scores
 
 
 def main():
-    """Test the MiniLM embeddings model standalone."""
+    """Test the MiniLM embeddings model with a selected dataset."""
     print("Testing MiniLM Embeddings Model...")
     
-    # Load simulation data
-    simulation_df = pd.read_csv('../data/simulation.csv')
+    # Create model (will prompt user to select dataset)
+    model = MiniLMEmbeddingsModel()
+    
+    # Load dataset
+    simulation_df, dataset_config = load_dataset(model.dataset_name)
     print(f"Loaded {len(simulation_df)} documents from simulation")
     
-    # CRITICAL FIX: Create training data that excludes rank 26 (like in test.py)
-    training_data = simulation_df.copy()
-    training_data['label_included'] = training_data['asreview_ranking'].apply(
-        lambda x: 1 if x <= 25 else 0
-    )
+    # Find the outlier record
+    outlier_row = identify_outlier_in_simulation(simulation_df, dataset_config)
+    outlier_id = outlier_row['openalex_id']
+    print(f"\nOutlier: {outlier_id} (Record ID: {outlier_row['record_id']})")
     
-    print(f"Training with {training_data['label_included'].sum()} relevant documents (ranks 1-25 only)")
-    print("Rank 26 is NOT included in training - this is the outlier we're trying to find")
+    # Create training data that excludes the outlier
+    training_data = create_training_data(simulation_df, outlier_id)
     
-    # Create and fit model
-    model = MiniLMEmbeddingsModel()
-    model.fit(training_data)  # Use training data without rank 26
+    # Count relevant documents for reporting
+    num_relevant = training_data['label_included'].sum()
+    print(f"Training with {num_relevant} relevant documents (excluding outlier)")
+    print("Outlier is NOT included in training - this is what we're trying to find")
     
-    # Get the known outlier
-    outlier_row = simulation_df[simulation_df['record_id'] == 497]
-    if outlier_row.empty:
-        print("ERROR: Outlier with record_id=497 not found!")
-        return
-        
-    outlier_id = outlier_row.iloc[0]['openalex_id']
-    outlier_ranking = outlier_row.iloc[0]['asreview_ranking']
-    print(f"\nOutlier: {outlier_id} (ASReview ranking: {outlier_ranking})")
+    # Fit model
+    model.fit(training_data)
     
     # Test outlier analysis
     analysis = model.analyze_outlier_embedding(outlier_id)
@@ -794,96 +357,28 @@ def main():
     # Test outlier retrieval among irrelevant documents
     print(f"\n=== OUTLIER RETRIEVAL TEST ===")
     
-    # Get all irrelevant documents
-    irrelevant_docs = simulation_df[simulation_df['label_included'] == 0]
-    print(f"Total irrelevant documents: {len(irrelevant_docs)}")
-    
-    # Create search pool: outlier + all irrelevant documents
-    search_pool = [outlier_id] + irrelevant_docs['openalex_id'].tolist()
+    # Get search pool: outlier + all irrelevant documents
+    search_pool = get_search_pool(simulation_df, outlier_id)
     print(f"Search pool size: {len(search_pool)} documents")
     
     # Score all documents in search pool
-    print("Scoring all documents...")
+    print("Scoring all documents using novelty approach...")
     
-    # Test different scoring approaches
-    approaches = {
-        'Original Similarity': model.calculate_similarity_scores,
-        'Outlier Detection': model.calculate_outlier_scores,
-        'Isolation Method': model.calculate_isolation_scores,
-        'Aggressive Outlier': model.calculate_aggressive_outlier_scores,
-        'Top-K Similarity': model.calculate_top_k_similarity_scores,
-        'Threshold Based': model.calculate_threshold_based_scores,
-        'Percentile Based': model.calculate_percentile_based_scores,
-        'Super Ensemble': model.calculate_super_ensemble_scores,
-        'Pure Max Similarity': model.calculate_pure_max_similarity_scores,
-        'Novelty': model.calculate_novelty_scores,
-        'Semantic Bridge': model.calculate_semantic_bridge_scores,
-        'Rarity Weighted': model.calculate_rarity_weighted_scores,
-        'Ultra Aggressive': model.calculate_ultra_aggressive_scores
-    }
-    
-    best_approach = None
-    best_position = float('inf')
-    
-    for approach_name, scoring_method in approaches.items():
-        print(f"\n--- Testing: {approach_name} ---")
-        scores = scoring_method(search_pool)
-        
-        # Sort documents by score
-        sorted_results = sorted(scores.items(), key=lambda x: x[1], reverse=True)
-        
-        # Find outlier position
-        outlier_position = None
-        outlier_score = None
-        for i, (doc_id, score) in enumerate(sorted_results):
-            if doc_id == outlier_id:
-                outlier_position = i + 1  # 1-indexed
-                outlier_score = score
-                break
-        
-        print(f"Outlier found at position: {outlier_position} out of {len(search_pool)}")
-        print(f"Outlier score: {outlier_score:.4f}")
-        percentile = ((len(search_pool) - outlier_position) / len(search_pool)) * 100
-        print(f"Percentile: {percentile:.2f}th percentile")
-        
-        # Check top results
-        top_50_ids = [doc_id for doc_id, _ in sorted_results[:50]]
-        top_100_ids = [doc_id for doc_id, _ in sorted_results[:100]]
-        
-        found_in_top_50 = outlier_id in top_50_ids
-        found_in_top_100 = outlier_id in top_100_ids
-        
-        print(f"Found in top 50: {'YES' if found_in_top_50 else 'NO'}")
-        print(f"Found in top 100: {'YES' if found_in_top_100 else 'NO'}")
-        
-        # Track best approach
-        if outlier_position < best_position:
-            best_position = outlier_position
-            best_approach = approach_name
-    
-    print(f"\n=== SUMMARY ===")
-    print(f"Best approach: {best_approach}")
-    print(f"Best position: {best_position} out of {len(search_pool)}")
-    
-    # Show detailed results for best approach
-    print(f"\n=== DETAILED RESULTS FOR {best_approach.upper()} ===")
-    best_method = approaches[best_approach]
-    scores = best_method(search_pool)
+    scores = model.calculate_novelty_scores(search_pool)
     sorted_results = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     
-    # Find outlier position again
+    # Find outlier position
     outlier_position = None
     outlier_score = None
     for i, (doc_id, score) in enumerate(sorted_results):
         if doc_id == outlier_id:
-            outlier_position = i + 1
+            outlier_position = i + 1  # 1-indexed
             outlier_score = score
             break
     
-    percentile = ((len(search_pool) - outlier_position) / len(search_pool)) * 100
-    
     print(f"Outlier found at position: {outlier_position} out of {len(search_pool)}")
     print(f"Outlier score: {outlier_score:.4f}")
+    percentile = ((len(search_pool) - outlier_position) / len(search_pool)) * 100
     print(f"Percentile: {percentile:.2f}th percentile")
     
     # Show top 10 results
@@ -911,7 +406,6 @@ def main():
         print("❌ NEEDS IMPROVEMENT: Outlier not found in top 100")
     
     return {
-        'best_approach': best_approach,
         'outlier_position': outlier_position,
         'outlier_score': outlier_score,
         'total_documents': len(search_pool),
