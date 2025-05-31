@@ -11,14 +11,10 @@ And finding this paper is exactly our task. We are building a new hybrid model, 
 We are trying to formulate a hybrid approach, combining:
 
 - Citation networks
-- Scientific embeddings (using SPECTRE2?)
-- Uncertainty measures 
-- Possibly more?
+- Scientific embeddings for content similarity (SPECTER2, miniLM, etc.)
+- Confidence calibration
 
-We can do everything, so I am always up for suggestions. We should use the best algorithms available. 
-
-In order to build this algorithm, we have ran a simulation. This data is within data/simulation.csv. The simulation is ran on the Appenzeller dataset. The outlier we are trying to find is the one with asreview_ranking 26. We cannot use this ranking obviously: our simulation has gone through the entire dataset but normally a stopping rule is already triggered early in the process. The prior documents have asreview_prior = 1. All documents with an asreview_ranking < 26 and asreview_prior = 0 are the relevant documents we have found. 
-
-So the prior & relevant documents are our valuable information and our task is to find the outlier. Currently we have tried a citation network analysis to find the outlier but this has proven insufficient as far as I know. We are building a hybrid model step by step: adding models inside the 'models' folder, implementing them as part of our hybrid model (hybrid_model.py in the same folder) & implementing this hybrid model for testing purposes within implementation.py (project root). 
-
-It is also important to note that the citations are not included in the simulation.csv. However, we can retrieve the citations of each record from the Appenzeller dataset which is part of the Synergy library. This way we can combine them and still be able to make the citation network (we already do this). 
+We can do everything, so I am always up for suggestions. We should use the best algorithms available, and we can always add more.
+First we will build all models standalone. We support multiple datasets for testing as described in the datasets.json file, as our approach should
+generalize well to new datasets (performance should remain great). We will rerank the new papers after the initial search process, trying to rank the 
+outlier as high as possible in the remaining papers. We should always get top 100 to make it easy to find.
