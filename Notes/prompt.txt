@@ -18,3 +18,14 @@ We can do everything, so I am always up for suggestions. We should use the best 
 First we will build all models standalone. We support multiple datasets for testing as described in the datasets.json file, as our approach should
 generalize well to new datasets (performance should remain great). We will rerank the new papers after the initial search process, trying to rank the 
 outlier as high as possible in the remaining papers. We should always get top 100 to make it easy to find.
+
+This code will be for my master thesis, so keep in mind we cannot do any cheating or shortcuts. We cannot add code for specific 
+datasets, as we want to make one general model that works for all datasets, including unseen ones. We are testing with a couple of 
+datasets but these are just for testing purposes, our final aim is not to only have a model that works with these. 
+
+So, make sure:
+- you dont add dataset specific code or code that does something different for a specific (type of) dataset
+- the same measures should always be applied
+- use continuous scaling to make sure we represent our dataset well
+- dont use harsh cutoff values or hardcoded values, always dynamically calculate these based on dataset characteristics,
+have them be continuous and dont forget to normalize whenever necessary
