@@ -18,7 +18,12 @@ from functools import partial
 
 # Fix import for direct script execution
 script_dir = os.path.dirname(os.path.abspath(__file__))
-project_root = os.path.dirname(os.path.dirname(script_dir))  # Two levels up: CitationNetwork -> models -> project_root
+# First add the CITATION_NETWORK_ENRICHED directory (one level up)
+citation_network_dir = os.path.dirname(script_dir)
+if citation_network_dir not in sys.path:
+    sys.path.insert(0, citation_network_dir)
+# Then add the project root (two levels up) as fallback
+project_root = os.path.dirname(citation_network_dir)
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
