@@ -88,7 +88,7 @@ def build_network_from_simulation(simulation_df: pd.DataFrame, dataset_name: str
     
     # Add co-citation and bibliographic coupling edges
     add_cocitation_edges(G, simulation_df, synergy_data)
-    add_bibliographic_coupling_edges(G, simulation_df, synergy_data)
+    add_bibliographic_coupling_edges(G, simulation_df, synergy_data, n_cores)
     
     return G
 
@@ -524,7 +524,30 @@ def add_cocitation_edges(G: nx.DiGraph, simulation_df: pd.DataFrame, synergy_dat
     print(f"Added {cocitation_edge_count} co-citation edges")
 
 
-def add_bibliographic_coupling_edges(G: nx.DiGraph, simulation_df: pd.DataFrame, synergy_data: Optional[Dict] = None) -> None:
+def _process_coupling_batch(args):
+    """Process a batch of papers for bibliographic coupling calculation."""
+    batch_start, batch_end, papers, paper_references, min_coupling_threshold = args
+    
+    coupling_counts = defaultdict(lambda: defaultdict(int))
+    batch_papers = papers[batch_start:batch_end]
+    
+    for i, paper1 in enumerate(batch_papers):
+        global_i = batch_start + i
+        for global_j, paper2 in enumerate(papers):
+            if global_i >= global_j:  # Avoid duplicates
+                continue
+                
+            # Count common references
+            common_refs = paper_references[paper1].intersection(paper_references[paper2])
+            if len(common_refs) >= min_coupling_threshold:
+                count = len(common_refs)
+                coupling_counts[paper1][paper2] = count
+                coupling_counts[paper2][paper1] = count
+    
+    return dict(coupling_counts)
+
+
+def add_bibliographic_coupling_edges(G: nx.DiGraph, simulation_df: pd.DataFrame, synergy_data: Optional[Dict] = None, n_cores: Optional[int] = None) -> None:
     """Add bibliographic coupling edges between papers that cite the same references."""
     print("Adding bibliographic coupling edges...")
     
@@ -563,25 +586,46 @@ def add_bibliographic_coupling_edges(G: nx.DiGraph, simulation_df: pd.DataFrame,
     
     print(f"Calculating coupling for {len(papers)} papers...")
     
-    for i, paper1 in enumerate(papers):
-        for j, paper2 in enumerate(papers):
-            if i < j:  # Avoid duplicates
-                # Count common references
-                common_refs = paper_references[paper1].intersection(paper_references[paper2])
-                if len(common_refs) >= 2:  # Minimum coupling threshold
-                    coupling_counts[paper1][paper2] = len(common_refs)
-                    coupling_counts[paper2][paper1] = len(common_refs)
-        
-        # Progress reporting for coupling calculation
-        if (i + 1) % 200 == 0:
-            print(f"Calculated coupling for {i + 1}/{len(papers)} papers")
+    # Create batches for parallel processing
+    batch_size = 200
+    total_batches = (len(papers) + batch_size - 1) // batch_size
     
-    # Add bibliographic coupling edges
+    # Prepare batch arguments
+    batch_args = []
+    for batch_start in range(0, len(papers), batch_size):
+        batch_end = min(batch_start + batch_size, len(papers))
+        batch_args.append((batch_start, batch_end, papers, paper_references, 2))
+    
+    # Process batches in parallel
+    if n_cores is None:
+        n_cores = min(mp.cpu_count(), 8)  # Use up to 8 cores by default
+    print(f"Using {n_cores} cores for bibliographic coupling calculation")
+    
+    if n_cores > 1:
+        try:
+            with mp.Pool(processes=n_cores) as pool:
+                results = pool.map(_process_coupling_batch, batch_args)
+        except Exception as e:
+            print(f"Multiprocessing failed: {e}, falling back to single-threaded processing")
+            results = [_process_coupling_batch(args) for args in batch_args]
+    else:
+        results = [_process_coupling_batch(args) for args in batch_args]
+    
+    # Combine results from all batches
+    print("Combining results from all batches...")
+    all_coupling_counts = defaultdict(lambda: defaultdict(int))
+    for coupling_counts in results:
+        for paper1, cited_by in coupling_counts.items():
+            for paper2, count in cited_by.items():
+                all_coupling_counts[paper1][paper2] = max(all_coupling_counts[paper1][paper2], count)
+    
+    # Add edges to graph
+    print("Adding bibliographic coupling edges to graph...")
     coupling_edge_count = 0
-    min_coupling_threshold = 2  # Minimum coupling threshold
+    min_coupling_threshold = 2
     
-    for paper1, coupled_with in coupling_counts.items():
-        for paper2, count in coupled_with.items():
+    for paper1, cited_by in all_coupling_counts.items():
+        for paper2, count in cited_by.items():
             if count >= min_coupling_threshold:
                 # Bibliographic coupling weight (moderate strength)
                 weight = min(1.8, 0.8 + count * 0.1)
