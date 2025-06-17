@@ -175,19 +175,19 @@ def _process_semantic_batch(args):
     """Process a batch of documents for semantic similarity calculation."""
     batch_start, batch_end, tfidf_matrix, doc_ids, relevant_indices, similarity_threshold, relevant_threshold = args
     
-    # Convert to dense for batch processing
-    batch_matrix = tfidf_matrix[batch_start:batch_end].toarray()
-    full_matrix = tfidf_matrix.toarray()
+    # Keep matrix sparse and only convert the batch portion
+    batch_matrix = tfidf_matrix[batch_start:batch_end]
     
     edges = []
     semantic_edges = 0
+    batch_size = batch_end - batch_start
     
     for i, doc_i_idx in enumerate(range(batch_start, batch_end)):
         doc_i = doc_ids[doc_i_idx]
         is_i_relevant = doc_i_idx in relevant_indices
         
-        # Calculate similarities for this document against all others
-        similarities = cosine_similarity(batch_matrix[i:i+1], full_matrix)[0]
+        # Calculate similarities for this document against all others using sparse matrix
+        similarities = cosine_similarity(batch_matrix[i:i+1], tfidf_matrix)[0]
         
         for doc_j_idx, similarity in enumerate(similarities):
             if doc_j_idx <= doc_i_idx:  # Avoid duplicates and self-edges
@@ -218,6 +218,10 @@ def _process_semantic_batch(args):
                     'relevance_pattern': is_i_relevant or is_j_relevant
                 }))
                 semantic_edges += 2
+        
+        # Progress reporting for long batches
+        if batch_size > 100 and (i + 1) % 50 == 0:
+            print(f"  Batch {batch_start}-{batch_end}: processed {i+1}/{batch_size} documents, found {semantic_edges} edges so far")
     
     return edges, semantic_edges
 
@@ -317,19 +321,23 @@ def add_semantic_edges(G: nx.DiGraph, simulation_df: pd.DataFrame, n_cores: Opti
     # Adjust thresholds based on relevant document density
     sparsity_factor = relevant_count / total_count
     if sparsity_factor < 0.01:  # Extremely sparse
-        base_threshold = 0.20
-        relevant_threshold = 0.15
-        print("Using high thresholds for extremely sparse dataset")
+        base_threshold = 0.25  # Increased from 0.20 to reduce computational load
+        relevant_threshold = 0.20  # Increased from 0.15
+        print("Using very high thresholds for extremely sparse dataset")
     elif sparsity_factor < 0.05:  # Very sparse
-        base_threshold = 0.18
-        relevant_threshold = 0.14
+        base_threshold = 0.20  # Increased from 0.18
+        relevant_threshold = 0.16  # Increased from 0.14
         print("Using elevated thresholds for very sparse dataset")
     
     print(f"Using similarity thresholds: general={base_threshold:.4f}, relevant={relevant_threshold:.4f}")
     
     # Create semantic edges using multiprocessing
     total_docs = len(doc_ids)
-    batch_size = max(50, total_docs // (n_cores * 4))  # Adaptive batch size
+    # Reduce batch size for very large datasets to improve memory efficiency
+    if total_docs > 20000:
+        batch_size = max(50, min(300, total_docs // (n_cores * 6)))  # Smaller batches for large datasets
+    else:
+        batch_size = max(50, total_docs // (n_cores * 4))  # Original batch size
     
     print(f"Processing {total_docs} documents in batches of {batch_size} using {n_cores} cores")
     
