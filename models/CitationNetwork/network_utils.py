@@ -8,14 +8,17 @@ for outlier detection in scientific document collections.
 import pandas as pd
 import numpy as np
 import networkx as nx
-from typing import Dict, List, Set, Tuple
+from typing import Dict, List, Set, Tuple, Optional
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+from collections import defaultdict, Counter
+import json
 
 
-def build_network_from_simulation(simulation_df: pd.DataFrame) -> nx.Graph:
-    """Build a citation network from simulation data."""
-    G = nx.Graph()
+def build_network_from_simulation(simulation_df: pd.DataFrame) -> nx.DiGraph:
+    """Build a citation network from simulation data with both semantic and citation edges."""
+    # Use directed graph to properly represent citation relationships
+    G = nx.DiGraph()
     
     # Add all documents as nodes
     for _, row in simulation_df.iterrows():
@@ -37,12 +40,80 @@ def build_network_from_simulation(simulation_df: pd.DataFrame) -> nx.Graph:
             G.nodes[doc_id]['asreview_prior'] = row['asreview_prior']
     
     print(f"Created graph with {len(G.nodes)} nodes")
+    
+    # Add direct citation edges
+    add_citation_edges(G, simulation_df)
+    
+    # Add semantic similarity edges (undirected edges for content similarity)
+    add_semantic_edges(G, simulation_df)
+    
+    # Add co-citation and bibliographic coupling edges
+    add_cocitation_edges(G, simulation_df)
+    add_bibliographic_coupling_edges(G, simulation_df)
+    
     return G
 
 
-def create_similarity_edges(G: nx.Graph, simulation_df: pd.DataFrame) -> None:
-    """Create edges between documents based on text similarity."""
-    print(f"Creating edges based on text similarity for {len(simulation_df)} documents...")
+def add_citation_edges(G: nx.DiGraph, simulation_df: pd.DataFrame) -> None:
+    """Add direct citation edges with weights based on citation frequency."""
+    print("Adding direct citation edges...")
+    
+    # Create mapping from URL to openalex_id for efficient lookup
+    url_to_id = {}
+    for _, row in simulation_df.iterrows():
+        openalex_id = row['openalex_id']
+        # Handle both full URLs and just IDs
+        if openalex_id.startswith('https://openalex.org/'):
+            url_to_id[openalex_id] = openalex_id
+            url_to_id[openalex_id.split('/')[-1]] = openalex_id
+        else:
+            url_to_id[f"https://openalex.org/{openalex_id}"] = openalex_id
+            url_to_id[openalex_id] = openalex_id
+    
+    citation_count = 0
+    total_papers = len(simulation_df)
+    
+    for idx, row in simulation_df.iterrows():
+        citing_paper = row['openalex_id']
+        referenced_works = row.get('referenced_works', [])
+        
+        if referenced_works and isinstance(referenced_works, list):
+            for ref_url in referenced_works:
+                # Clean and normalize the reference URL/ID
+                ref_clean = ref_url.strip()
+                
+                # Try to find the referenced paper in our dataset
+                cited_paper = None
+                if ref_clean in url_to_id:
+                    cited_paper = url_to_id[ref_clean]
+                elif ref_clean.startswith('https://openalex.org/'):
+                    ref_id = ref_clean.split('/')[-1]
+                    if ref_id in url_to_id:
+                        cited_paper = url_to_id[ref_id]
+                
+                if cited_paper and cited_paper in G.nodes and citing_paper != cited_paper:
+                    # Add directed edge from citing to cited paper
+                    if G.has_edge(citing_paper, cited_paper):
+                        # Increase weight if edge already exists
+                        G[citing_paper][cited_paper]['weight'] += 1
+                        G[citing_paper][cited_paper]['citation_count'] += 1
+                    else:
+                        # Add new citation edge
+                        G.add_edge(citing_paper, cited_paper, 
+                                 edge_type='citation', 
+                                 weight=2.0,  # Higher weight for direct citations
+                                 citation_count=1)
+                    citation_count += 1
+        
+        if (idx + 1) % 500 == 0:
+            print(f"Processed {idx + 1}/{total_papers} papers, found {citation_count} citation edges")
+    
+    print(f"Added {citation_count} direct citation edges")
+
+
+def add_semantic_edges(G: nx.DiGraph, simulation_df: pd.DataFrame) -> None:
+    """Add semantic similarity edges based on text content."""
+    print("Adding semantic similarity edges...")
     
     # Create text representations for TF-IDF
     documents = []
@@ -143,8 +214,8 @@ def create_similarity_edges(G: nx.Graph, simulation_df: pd.DataFrame) -> None:
         print(f"Using similarity thresholds: general={similarity_threshold:.4f}, relevant={relevant_threshold:.4f}")
         
         # Process documents in batches for efficiency
-        _create_edges_in_batches(G, tfidf_matrix, doc_ids, relevant_indices, 
-                               similarity_threshold, relevant_threshold)
+        _create_semantic_edges_in_batches(G, tfidf_matrix, doc_ids, relevant_indices, 
+                                        similarity_threshold, relevant_threshold)
         
     except Exception as e:
         print(f"Error creating similarity edges: {e}")
@@ -152,10 +223,167 @@ def create_similarity_edges(G: nx.Graph, simulation_df: pd.DataFrame) -> None:
         traceback.print_exc()
 
 
-def _create_edges_in_batches(G: nx.Graph, tfidf_matrix, doc_ids: List[str], 
-                           relevant_indices: List[int], similarity_threshold: float,
-                           relevant_threshold: float) -> None:
-    """Create similarity edges efficiently using batched processing."""
+def add_cocitation_edges(G: nx.DiGraph, simulation_df: pd.DataFrame) -> None:
+    """Add co-citation edges between papers cited together."""
+    print("Adding co-citation edges...")
+    
+    # Create efficient mapping from URL to openalex_id
+    url_to_id = {}
+    id_set = set()
+    for _, row in simulation_df.iterrows():
+        openalex_id = row['openalex_id']
+        id_set.add(openalex_id)
+        # Handle both full URLs and just IDs
+        if openalex_id.startswith('https://openalex.org/'):
+            url_to_id[openalex_id] = openalex_id
+            url_to_id[openalex_id.split('/')[-1]] = openalex_id
+        else:
+            url_to_id[f"https://openalex.org/{openalex_id}"] = openalex_id
+            url_to_id[openalex_id] = openalex_id
+    
+    # Build co-citation matrix efficiently
+    cocitation_counts = defaultdict(lambda: defaultdict(int))
+    total_papers = len(simulation_df)
+    
+    # Process papers in batches for progress reporting
+    for idx, row in simulation_df.iterrows():
+        citing_paper = row['openalex_id']
+        referenced_works = row.get('referenced_works', [])
+        
+        if referenced_works and isinstance(referenced_works, list):
+            # Find cited papers that are in our dataset
+            cited_papers_in_dataset = []
+            
+            for ref_url in referenced_works:
+                ref_clean = ref_url.strip()
+                
+                # Quick lookup using our mapping
+                cited_paper = None
+                if ref_clean in url_to_id:
+                    cited_paper = url_to_id[ref_clean]
+                elif ref_clean.startswith('https://openalex.org/'):
+                    ref_id = ref_clean.split('/')[-1]
+                    if ref_id in url_to_id:
+                        cited_paper = url_to_id[ref_id]
+                
+                if cited_paper and cited_paper in G.nodes:
+                    cited_papers_in_dataset.append(cited_paper)
+            
+            # Calculate co-citation for pairs of cited papers
+            for i, paper1 in enumerate(cited_papers_in_dataset):
+                for j, paper2 in enumerate(cited_papers_in_dataset):
+                    if i < j:  # Avoid duplicates and self-citations
+                        cocitation_counts[paper1][paper2] += 1
+                        cocitation_counts[paper2][paper1] += 1
+        
+        # Progress reporting
+        if (idx + 1) % 500 == 0:
+            print(f"Processed {idx + 1}/{total_papers} papers for co-citation analysis")
+    
+    # Add co-citation edges
+    cocitation_edge_count = 0
+    min_cocitation_threshold = 2  # Minimum co-citation threshold
+    
+    for paper1, cited_by in cocitation_counts.items():
+        for paper2, count in cited_by.items():
+            if count >= min_cocitation_threshold:
+                # Co-citation weight (lower than direct citation)
+                weight = min(1.5, 0.5 + count * 0.1)
+                
+                if not G.has_edge(paper1, paper2):
+                    G.add_edge(paper1, paper2, edge_type='cocitation', weight=weight, cocitation_count=count)
+                    cocitation_edge_count += 1
+                else:
+                    # Update existing edge
+                    G[paper1][paper2]['cocitation_count'] = count
+                    G[paper1][paper2]['weight'] = max(G[paper1][paper2]['weight'], weight)
+                
+                if not G.has_edge(paper2, paper1):
+                    G.add_edge(paper2, paper1, edge_type='cocitation', weight=weight, cocitation_count=count)
+                    cocitation_edge_count += 1
+                else:
+                    # Update existing edge
+                    G[paper2][paper1]['cocitation_count'] = count
+                    G[paper2][paper1]['weight'] = max(G[paper2][paper1]['weight'], weight)
+    
+    print(f"Added {cocitation_edge_count} co-citation edges")
+
+
+def add_bibliographic_coupling_edges(G: nx.DiGraph, simulation_df: pd.DataFrame) -> None:
+    """Add bibliographic coupling edges between papers that cite the same references."""
+    print("Adding bibliographic coupling edges...")
+    
+    # Build paper references efficiently
+    paper_references = {}
+    total_papers = len(simulation_df)
+    
+    for idx, row in simulation_df.iterrows():
+        paper_id = row['openalex_id']
+        referenced_works = row.get('referenced_works', [])
+        
+        if referenced_works and isinstance(referenced_works, list):
+            paper_references[paper_id] = set()
+            
+            for ref_url in referenced_works:
+                ref_clean = ref_url.strip()
+                paper_references[paper_id].add(ref_clean)
+        
+        # Progress reporting
+        if (idx + 1) % 500 == 0:
+            print(f"Processed {idx + 1}/{total_papers} papers for bibliographic coupling")
+    
+    # Calculate bibliographic coupling counts efficiently
+    coupling_counts = defaultdict(lambda: defaultdict(int))
+    papers = [p for p in paper_references.keys() if p in G.nodes]
+    
+    print(f"Calculating coupling for {len(papers)} papers...")
+    
+    for i, paper1 in enumerate(papers):
+        for j, paper2 in enumerate(papers):
+            if i < j:  # Avoid duplicates
+                # Count common references
+                common_refs = paper_references[paper1].intersection(paper_references[paper2])
+                if len(common_refs) >= 2:  # Minimum coupling threshold
+                    coupling_counts[paper1][paper2] = len(common_refs)
+                    coupling_counts[paper2][paper1] = len(common_refs)
+        
+        # Progress reporting for coupling calculation
+        if (i + 1) % 200 == 0:
+            print(f"Calculated coupling for {i + 1}/{len(papers)} papers")
+    
+    # Add bibliographic coupling edges
+    coupling_edge_count = 0
+    min_coupling_threshold = 2  # Minimum coupling threshold
+    
+    for paper1, coupled_with in coupling_counts.items():
+        for paper2, count in coupled_with.items():
+            if count >= min_coupling_threshold:
+                # Bibliographic coupling weight (moderate strength)
+                weight = min(1.8, 0.8 + count * 0.1)
+                
+                if not G.has_edge(paper1, paper2):
+                    G.add_edge(paper1, paper2, edge_type='coupling', weight=weight, coupling_count=count)
+                    coupling_edge_count += 1
+                else:
+                    # Update existing edge
+                    G[paper1][paper2]['coupling_count'] = count
+                    G[paper1][paper2]['weight'] = max(G[paper1][paper2]['weight'], weight)
+                
+                if not G.has_edge(paper2, paper1):
+                    G.add_edge(paper2, paper1, edge_type='coupling', weight=weight, coupling_count=count)
+                    coupling_edge_count += 1
+                else:
+                    # Update existing edge
+                    G[paper2][paper1]['coupling_count'] = count
+                    G[paper2][paper1]['weight'] = max(G[paper2][paper1]['weight'], weight)
+    
+    print(f"Added {coupling_edge_count} bibliographic coupling edges")
+
+
+def _create_semantic_edges_in_batches(G: nx.DiGraph, tfidf_matrix, doc_ids: List[str], 
+                                    relevant_indices: List[int], similarity_threshold: float,
+                                    relevant_threshold: float) -> None:
+    """Create semantic similarity edges efficiently using batched processing."""
     n_docs = tfidf_matrix.shape[0]
     edge_count = 0
     
@@ -170,8 +398,23 @@ def _create_edges_in_batches(G: nx.Graph, tfidf_matrix, doc_ids: List[str],
         rel_edges = np.where(rel_sims >= relevant_threshold)
         for i, j in zip(rel_edges[0], rel_edges[1]):
             if i < j:  # Avoid duplicates
-                G.add_edge(doc_ids[relevant_indices[i]], doc_ids[relevant_indices[j]])
-                edge_count += 1
+                doc1, doc2 = doc_ids[relevant_indices[i]], doc_ids[relevant_indices[j]]
+                sim_weight = min(1.0, rel_sims[i, j])  # Semantic similarity weight
+                
+                # Add undirected semantic edge (both directions)
+                if not G.has_edge(doc1, doc2):
+                    G.add_edge(doc1, doc2, edge_type='semantic', weight=sim_weight, similarity=rel_sims[i, j])
+                    edge_count += 1
+                else:
+                    G[doc1][doc2]['similarity'] = rel_sims[i, j]
+                    G[doc1][doc2]['weight'] = max(G[doc1][doc2]['weight'], sim_weight)
+                
+                if not G.has_edge(doc2, doc1):
+                    G.add_edge(doc2, doc1, edge_type='semantic', weight=sim_weight, similarity=rel_sims[i, j])
+                    edge_count += 1
+                else:
+                    G[doc2][doc1]['similarity'] = rel_sims[i, j]
+                    G[doc2][doc1]['weight'] = max(G[doc2][doc1]['weight'], sim_weight)
     
     # 2. Efficiently connect non-relevant docs
     # Process in manageable batch sizes
@@ -193,8 +436,23 @@ def _create_edges_in_batches(G: nx.Graph, tfidf_matrix, doc_ids: List[str],
                 batch_idx = batch[i]
                 rel_idx = relevant_indices[j]
                 if batch_idx != rel_idx:
-                    G.add_edge(doc_ids[batch_idx], doc_ids[rel_idx])
-                    edge_count += 1
+                    doc1, doc2 = doc_ids[batch_idx], doc_ids[rel_idx]
+                    sim_weight = min(1.0, cross_sims[i, j])
+                    
+                    # Add undirected semantic edge (both directions)
+                    if not G.has_edge(doc1, doc2):
+                        G.add_edge(doc1, doc2, edge_type='semantic', weight=sim_weight, similarity=cross_sims[i, j])
+                        edge_count += 1
+                    else:
+                        G[doc1][doc2]['similarity'] = cross_sims[i, j]
+                        G[doc1][doc2]['weight'] = max(G[doc1][doc2]['weight'], sim_weight)
+                    
+                    if not G.has_edge(doc2, doc1):
+                        G.add_edge(doc2, doc1, edge_type='semantic', weight=sim_weight, similarity=cross_sims[i, j])
+                        edge_count += 1
+                    else:
+                        G[doc2][doc1]['similarity'] = cross_sims[i, j]
+                        G[doc2][doc1]['weight'] = max(G[doc2][doc1]['weight'], sim_weight)
         
         # b. Connect batch docs to their top neighbors
         # For each doc in batch, find top-k neighbors
@@ -218,12 +476,20 @@ def _create_edges_in_batches(G: nx.Graph, tfidf_matrix, doc_ids: List[str],
             for j, sim in zip(top_k_indices, top_k_sims):
                 threshold = relevant_threshold if j in relevant_indices else similarity_threshold
                 if sim >= threshold:
-                    G.add_edge(doc_ids[idx], doc_ids[j])
-                    edge_count += 1
+                    doc1, doc2 = doc_ids[idx], doc_ids[j]
+                    sim_weight = min(1.0, sim)
+                    
+                    # Add undirected semantic edge
+                    if not G.has_edge(doc1, doc2):
+                        G.add_edge(doc1, doc2, edge_type='semantic', weight=sim_weight, similarity=sim)
+                        edge_count += 1
+                    else:
+                        G[doc1][doc2]['similarity'] = sim
+                        G[doc1][doc2]['weight'] = max(G[doc1][doc2]['weight'], sim_weight)
         
-        print(f"Processed batch {batch_start+1}-{batch_end} of {n_docs}, edges so far: {edge_count}")
+        print(f"Processed batch {batch_start+1}-{batch_end} of {n_docs}, semantic edges so far: {edge_count}")
     
-    print(f"Created {edge_count} edges based on text similarity")
+    print(f"Created {edge_count} semantic similarity edges")
 
 
 def calculate_distance_baselines(G: nx.Graph, relevant_documents: Set[str]) -> Dict[str, float]:

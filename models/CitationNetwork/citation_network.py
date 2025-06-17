@@ -12,6 +12,7 @@ import os
 import sys
 from typing import Dict, List, Tuple, Optional
 from scipy.sparse import csr_matrix
+from collections import defaultdict
 
 # Fix import for direct script execution
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -35,6 +36,8 @@ from models.CitationNetwork.citation_features import (
     get_coupling_features, 
     get_neighborhood_features,
     get_advanced_features,
+    get_temporal_features,
+    get_efficiency_features,
     get_zero_features
 )
 
@@ -44,14 +47,15 @@ from models.CitationNetwork.citation_scoring import (
     calculate_coupling_deviation,
     calculate_neighborhood_deviation,
     calculate_advanced_score,
+    calculate_temporal_score,
+    calculate_efficiency_score,
     get_adaptive_weights
 )
 
 # Import network utilities
 from models.CitationNetwork.network_utils import (
     build_network_from_simulation,
-    calculate_distance_baselines,
-    create_similarity_edges
+    calculate_distance_baselines
 )
 
 # Import ranking module
@@ -100,7 +104,7 @@ class CitationNetworkModel:
         Returns:
             self: Returns the fitted model
         """
-        print("Building citation network...")
+        print("Building comprehensive citation network...")
         
         # Load simulation data if not provided
         if simulation_df is None:
@@ -109,11 +113,9 @@ class CitationNetworkModel:
         # Store the simulation data for later use
         self.simulation_data = simulation_df.copy()
         
-        # Create a simple network from the simulation data
+        # Create a comprehensive network from the simulation data
+        # This now includes citation, semantic, co-citation, and bibliographic coupling edges
         self.G = build_network_from_simulation(simulation_df)
-        
-        # Add similarity edges
-        create_similarity_edges(self.G, simulation_df)
         
         # Identify relevant documents
         self.relevant_documents = set([
@@ -124,7 +126,18 @@ class CitationNetworkModel:
         self.is_fitted = True
         self.baseline_stats = self._calculate_baseline_stats()
         
-        print(f"Citation network built: {len(self.G.nodes)} nodes, {len(self.G.edges)} edges")
+        # Print network statistics by edge type
+        edge_types = defaultdict(int)
+        total_edges = 0
+        for u, v, data in self.G.edges(data=True):
+            edge_type = data.get('edge_type', 'unknown')
+            edge_types[edge_type] += 1
+            total_edges += 1
+        
+        print(f"Citation network built: {len(self.G.nodes)} nodes, {total_edges} edges")
+        print("Edge distribution by type:")
+        for edge_type, count in sorted(edge_types.items()):
+            print(f"  {edge_type}: {count} edges")
         print(f"Relevant documents identified: {len(self.relevant_documents)}")
         print(f"Baseline citation patterns calculated from {len(self.relevant_documents)} relevant docs")
         
@@ -146,7 +159,9 @@ class CitationNetworkModel:
                 **get_connectivity_features(self.G, doc_id, self.relevant_documents),
                 **get_coupling_features(self.G, doc_id, self.relevant_documents),
                 **get_neighborhood_features(self.G, doc_id, self.relevant_documents),
-                **get_advanced_features(self.G, doc_id, self.relevant_documents)
+                **get_advanced_features(self.G, doc_id, self.relevant_documents),
+                **get_temporal_features(self.G, doc_id, self.relevant_documents, self.simulation_data),
+                **get_efficiency_features(self.G, doc_id, self.relevant_documents)
             }
             features.append(doc_features)
         
@@ -181,7 +196,7 @@ class CitationNetworkModel:
         isolation_scaling = 1.0 - sparsity_factor * 0.2
         
         # Process in batches
-        all_scores = {'isolation': [], 'coupling': [], 'neighborhood': [], 'advanced': []}
+        all_scores = {'isolation': [], 'coupling': [], 'neighborhood': [], 'advanced': [], 'temporal': [], 'efficiency': []}
         raw_scores = {}
         feature_cache = {}  # Cache features for score normalization
         
@@ -205,6 +220,8 @@ class CitationNetworkModel:
                 coup_score = calculate_coupling_deviation(row, self.baseline_stats)
                 neigh_score = calculate_neighborhood_deviation(row, self.baseline_stats)
                 adv_score = calculate_advanced_score(row, relevant_ratio)
+                temp_score = calculate_temporal_score(row, self.baseline_stats)
+                eff_score = calculate_efficiency_score(row, self.baseline_stats)
                 
                 # Apply scaling factors
                 coup_score = min(1.0, coup_score * coupling_scaling)
@@ -215,9 +232,9 @@ class CitationNetworkModel:
                     # For very sparse datasets, boost documents with any relevant connections
                     if row['relevant_connections'] > 0:
                         # Calculate boost based on relevant connection ratio compared to average
-                        mean_ratio = self.baseline_stats.get('mean_relevant_connections_ratio', 0.2)
+                        mean_ratio = self.baseline_stats.get('mean_relevant_ratio', 0.2)
                         if mean_ratio > 0:
-                            ratio_factor = min(1.5, row['relevant_connections_ratio'] / mean_ratio)
+                            ratio_factor = min(1.5, row.get('relevant_ratio', 0) / mean_ratio)
                             coup_score = min(0.95, coup_score * ratio_factor)
                 
                 # Store component scores
@@ -225,13 +242,17 @@ class CitationNetworkModel:
                 all_scores['coupling'].append(coup_score)
                 all_scores['neighborhood'].append(neigh_score)
                 all_scores['advanced'].append(adv_score)
+                all_scores['temporal'].append(temp_score)
+                all_scores['efficiency'].append(eff_score)
                 
-                # Store raw combined score
+                # Store raw combined score (DISABLED advanced_score for testing)
                 raw_scores[doc_id] = (
                     weights['isolation'] * iso_score + 
                     weights['coupling'] * coup_score + 
                     weights['neighborhood'] * neigh_score +
-                    weights['advanced'] * adv_score
+                    weights['temporal'] * temp_score +
+                    weights['efficiency'] * eff_score
+                    # + weights['advanced'] * adv_score  # DISABLED
                 )
             
             # Report progress for large search pools
@@ -273,10 +294,11 @@ class CitationNetworkModel:
             scores[doc_id] = min(1.0, max(0.0, adj_score))
         
         # For extremely sparse datasets, apply rank-based normalization
-        if sparsity_factor > 0.8:
-            scores = apply_sparse_dataset_ranking_adjustments(
-                scores, feature_cache, self.relevant_documents, sparsity_factor, self.baseline_stats
-            )
+        # DISABLED: This was making results worse for academic outlier detection
+        # if sparsity_factor > 0.8:
+        #     scores = apply_sparse_dataset_ranking_adjustments(
+        #         scores, feature_cache, self.relevant_documents, sparsity_factor, self.baseline_stats
+        #     )
         
         return scores
     
@@ -309,7 +331,7 @@ class CitationNetworkModel:
                 except nx.NetworkXNoPath:
                     continue
         
-        # Get deviation scores
+        # Get relevance scores (higher = more relevant)
         iso_score = calculate_isolation_deviation(features, self.baseline_stats, self.G, self.relevant_documents)
         coup_score = calculate_coupling_deviation(features, self.baseline_stats)
         neigh_score = calculate_neighborhood_deviation(features, self.baseline_stats)
@@ -318,19 +340,22 @@ class CitationNetworkModel:
         relevant_ratio = len(self.relevant_documents) / len(self.G.nodes) if self.G.nodes else 0
         adv_score = calculate_advanced_score(features, relevant_ratio)
         
-        # Create analysis dictionary
+        # Create analysis dictionary with safe feature access
         analysis = {
             'distance_to_relevant': dist,
-            'total_citations': features['total_citations'],
-            'relevant_connections': features['relevant_connections'],
-            'relevant_connections_ratio': features['relevant_connections_ratio'],
-            'max_coupling_strength': features['max_coupling_strength'],
-            'neighborhood_enrichment_1hop': features['neighborhood_enrichment_1hop'],
-            'neighborhood_enrichment_2hop': features['neighborhood_enrichment_2hop'],
-            'citation_diversity': features['citation_diversity'],
-            'relevant_betweenness': features['relevant_betweenness'],
-            'structural_anomaly': features['structural_anomaly'],
+            'total_citations': features.get('citation_in_degree', 0),
+            'relevant_connections': features.get('relevant_connections', 0),
+            'relevant_connections_ratio': features.get('relevant_ratio', 0),
+            'max_coupling_strength': features.get('coupling_score', 0),
+            'neighborhood_enrichment_1hop': features.get('neighborhood_enrichment_1hop', 0),
+            'neighborhood_enrichment_2hop': features.get('neighborhood_enrichment_2hop', 0),
+            'citation_diversity': features.get('coupling_diversity', 0),
+            'relevant_betweenness': features.get('relevant_betweenness', 0),
+            'structural_anomaly': features.get('structural_anomaly', 0),
             'semantic_isolation': features.get('semantic_isolation', 0.0),
+            'weighted_influence': features.get('weighted_influence', 0),
+            'weighted_connections': features.get('weighted_connections', 0),
+            'cocitation_score': features.get('cocitation_score', 0),
             'dataset_sparsity_ratio': relevant_ratio,
             'isolation_score': iso_score,
             'coupling_score': coup_score,
@@ -338,13 +363,13 @@ class CitationNetworkModel:
             'advanced_score': adv_score
         }
         
-        # Calculate combined score based on dataset characteristics
+        # Calculate combined score based on dataset characteristics (DISABLED advanced_score)
         weights = get_adaptive_weights(1 - min(0.9, max(0.1, relevant_ratio * 10)))
         combined_score = (
             weights['isolation'] * iso_score + 
             weights['coupling'] * coup_score + 
-            weights['neighborhood'] * neigh_score + 
-            weights['advanced'] * adv_score
+            weights['neighborhood'] * neigh_score
+            # + weights['advanced'] * adv_score  # DISABLED
         )
             
         analysis['combined_score'] = combined_score
@@ -361,14 +386,57 @@ class CitationNetworkModel:
         if rel_features.empty:
             return {}
         
-        # Calculate baseline statistics
-        stats = rel_features[['total_citations', 'relevant_connections_ratio', 
-                             'max_coupling_strength', 'neighborhood_enrichment_1hop']].describe()
+        # Use the correct feature column names from the updated citation features
+        key_features = []
+        available_cols = rel_features.columns.tolist()
         
-        baseline = {}
-        for col in stats.columns:
-            baseline[f'mean_{col}'] = stats.loc['mean', col]
-            baseline[f'std_{col}'] = max(stats.loc['std', col], 0.01)  # Avoid division by zero
+        # Map old feature names to new ones
+        feature_mapping = {
+            'total_citations': 'citation_in_degree',  # Citations received
+            'relevant_connections_ratio': 'relevant_ratio',  # Ratio of relevant connections
+            'max_coupling_strength': 'coupling_score',  # Bibliographic coupling strength
+            'neighborhood_enrichment_1hop': 'neighborhood_enrichment_1hop'  # This one should exist
+        }
+        
+        # Only include features that actually exist
+        for old_name, new_name in feature_mapping.items():
+            if new_name in available_cols:
+                key_features.append(new_name)
+        
+        # Add other important features that exist
+        additional_features = ['weighted_influence', 'weighted_connections', 'cocitation_score', 'relevant_connections']
+        for feat in additional_features:
+            if feat in available_cols and feat not in key_features:
+                key_features.append(feat)
+        
+        # Add temporal features if they exist
+        temporal_features = ['citation_velocity', 'age_normalized_impact', 'citation_burst_score', 
+                           'temporal_isolation', 'recent_citation_ratio', 'citation_acceleration']
+        for feat in temporal_features:
+            if feat in available_cols and feat not in key_features:
+                key_features.append(feat)
+        
+        # Add efficiency features if they exist
+        efficiency_features = ['local_clustering', 'edge_type_diversity', 'relevant_path_efficiency',
+                             'citation_authority', 'semantic_coherence', 'network_position_score']
+        for feat in efficiency_features:
+            if feat in available_cols and feat not in key_features:
+                key_features.append(feat)
+        
+        if not key_features:
+            # Fallback to basic features if none of the expected ones exist
+            key_features = [col for col in available_cols if col not in ['doc_id']][:5]
+        
+        # Calculate baseline statistics
+        if key_features:
+            stats = rel_features[key_features].describe()
+            
+            baseline = {}
+            for col in stats.columns:
+                baseline[f'mean_{col}'] = stats.loc['mean', col]
+                baseline[f'std_{col}'] = max(stats.loc['std', col], 0.01)  # Avoid division by zero
+        else:
+            baseline = {}
         
         # Calculate distance statistics
         distances = calculate_distance_baselines(self.G, self.relevant_documents)
