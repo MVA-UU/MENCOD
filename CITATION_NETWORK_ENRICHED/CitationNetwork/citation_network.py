@@ -318,29 +318,19 @@ class CitationNetworkModel:
                 }
                 features.append(doc_features)
         else:
-            # Use multiprocessing for large document sets
-            print(f"Extracting features for {len(target_documents)} documents using {self.n_cores} cores")
+            # For large graphs (>100k edges), avoid multiprocessing due to serialization overhead
+            # Process in batches with progress reporting instead
+            print(f"Large graph detected ({self.G.number_of_edges()} edges). Using optimized single-threaded processing with progress reporting.")
             
-            # Split documents into batches
-            batch_size = max(10, len(target_documents) // self.n_cores)
-            batches = [target_documents[i:i + batch_size] for i in range(0, len(target_documents), batch_size)]
-            
-            # Prepare arguments for parallel processing
-            batch_args = [(batch, self.G, self.relevant_documents, self.simulation_data) for batch in batches]
-            
-            # Process batches in parallel
             features = []
-            try:
-                with mp.Pool(processes=self.n_cores) as pool:
-                    batch_results = pool.map(_extract_features_batch, batch_args)
+            batch_size = 100  # Process in smaller batches for progress reporting
+            
+            for batch_start in range(0, len(target_documents), batch_size):
+                batch_end = min(batch_start + batch_size, len(target_documents))
+                batch_docs = target_documents[batch_start:batch_end]
                 
-                # Flatten results
-                for batch_features in batch_results:
-                    features.extend(batch_features)
-            except Exception as e:
-                print(f"Multiprocessing failed: {e}, falling back to single-threaded processing")
-                # Fallback to single-threaded processing
-                for doc_id in target_documents:
+                # Process batch
+                for doc_id in batch_docs:
                     if doc_id not in self.G.nodes:
                         features.append(get_zero_features(doc_id))
                         continue
@@ -355,6 +345,12 @@ class CitationNetworkModel:
                         **get_efficiency_features(self.G, doc_id, self.relevant_documents)
                     }
                     features.append(doc_features)
+                
+                # Progress reporting
+                progress = min(100, (batch_end / len(target_documents)) * 100)
+                print(f"  Feature extraction progress: {batch_end}/{len(target_documents)} ({progress:.1f}%)")
+            
+            print(f"Feature extraction completed for {len(target_documents)} documents")
         
         return pd.DataFrame(features)
     
@@ -379,54 +375,14 @@ class CitationNetworkModel:
         coupling_scaling = 1.0 + sparsity_factor * 0.5  # More scaling for sparser datasets
         isolation_scaling = 1.0 - sparsity_factor * 0.2
         
-        # For large datasets, use multiprocessing
-        if search_pool_size > 1000 and self.n_cores > 1:
+        # For large graphs, avoid multiprocessing due to serialization overhead
+        if search_pool_size > 1000 and self.G.number_of_edges() > 100000:
+            print(f"Large graph detected. Using optimized single-threaded processing for {search_pool_size} documents...")
+        elif search_pool_size > 1000 and self.n_cores > 1:
             print(f"Processing {search_pool_size} documents using {self.n_cores} cores...")
-            
-            # Split documents into batches for parallel processing
-            batch_size = max(100, search_pool_size // self.n_cores)
-            batches = [target_documents[i:i + batch_size] for i in range(0, search_pool_size, batch_size)]
-            
-            # Prepare arguments for parallel processing
-            batch_args = [(batch, self.G, self.relevant_documents, self.baseline_stats) for batch in batches]
-            
-            # Process batches in parallel
-            all_batch_scores = {}
-            try:
-                with mp.Pool(processes=self.n_cores) as pool:
-                    batch_results = pool.map(_calculate_scores_batch, batch_args)
-                
-                # Combine results
-                for batch_scores in batch_results:
-                    for doc_id, component_scores in batch_scores.items():
-                        if isinstance(component_scores, dict):
-                            all_batch_scores[doc_id] = component_scores
-                        else:
-                            all_batch_scores[doc_id] = {'combined': component_scores}
-                
-                # Calculate final scores with weights
-                scores = {}
-                for doc_id, component_scores in all_batch_scores.items():
-                    if 'combined' in component_scores:
-                        scores[doc_id] = component_scores['combined']
-                    else:
-                        # Apply weights and scaling
-                        iso_score = min(1.0, component_scores.get('isolation', 0.0) * isolation_scaling)
-                        coup_score = min(1.0, component_scores.get('coupling', 0.0) * coupling_scaling)
-                        
-                        final_score = (
-                            weights['isolation'] * iso_score + 
-                            weights['coupling'] * coup_score + 
-                            weights['neighborhood'] * component_scores.get('neighborhood', 0.0) +
-                            weights['temporal'] * component_scores.get('temporal', 0.0) +
-                            weights['efficiency'] * component_scores.get('efficiency', 0.0)
-                        )
-                        scores[doc_id] = min(1.0, max(0.0, final_score))
-                
-                return scores
-                
-            except Exception as e:
-                print(f"Multiprocessing failed: {e}, falling back to single-threaded processing")
+            # Note: This path is now only for smaller graphs
+        else:
+            print(f"Processing {search_pool_size} documents in single-threaded mode...")
         
         # Single-threaded processing (for smaller datasets or fallback)
         print(f"Processing {search_pool_size} documents in single-threaded mode...")
