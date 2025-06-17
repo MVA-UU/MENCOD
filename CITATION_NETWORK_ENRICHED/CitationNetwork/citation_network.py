@@ -795,15 +795,41 @@ class CitationNetworkModel:
             
         features = features_df.iloc[0]
         
-        # Calculate distances using NetworkX's shortest_path_length
+        # OPTIMIZED: Calculate distances using efficient methods
         dist = float('inf')
-        for rel_doc in self.relevant_documents:
-            if rel_doc in self.G.nodes:
-                try:
-                    d = nx.shortest_path_length(self.G, outlier_id, rel_doc)
-                    dist = min(dist, d)
-                except nx.NetworkXNoPath:
-                    continue
+        
+        # First check direct connections (distance = 1)
+        if outlier_id in self.G.nodes:
+            outlier_neighbors = set(self.G.neighbors(outlier_id))
+            direct_relevant_connections = outlier_neighbors.intersection(self.relevant_documents)
+            
+            if direct_relevant_connections:
+                dist = 1  # Direct connection found
+            else:
+                # Check 2-hop connections (distance = 2) 
+                two_hop_relevant = set()
+                for neighbor in outlier_neighbors:
+                    if neighbor in self.G.nodes:
+                        neighbor_neighbors = set(self.G.neighbors(neighbor))
+                        two_hop_relevant.update(neighbor_neighbors.intersection(self.relevant_documents))
+                
+                if two_hop_relevant:
+                    dist = 2  # 2-hop connection found
+                else:
+                    # Only do expensive shortest path for a sample of relevant docs
+                    sample_size = min(5, len(self.relevant_documents))  # Limit expensive calculations
+                    import random
+                    relevant_sample = random.sample(list(self.relevant_documents), sample_size)
+                    
+                    for rel_doc in relevant_sample:
+                        if rel_doc in self.G.nodes:
+                            try:
+                                d = nx.shortest_path_length(self.G, outlier_id, rel_doc)
+                                dist = min(dist, d)
+                                if dist <= 3:  # Stop early if we find a reasonably close connection
+                                    break
+                            except nx.NetworkXNoPath:
+                                continue
         
         # Get relevance scores (higher = more relevant)
         iso_score = calculate_isolation_deviation(features, self.baseline_stats, self.G, self.relevant_documents)
@@ -914,30 +940,60 @@ class CitationNetworkModel:
                     baseline[f'std_{col}'] = max(values.std(), 0.01)
         
         # Calculate pairwise distances between relevant documents for network analysis
+        # OPTIMIZED: Limit expensive shortest path calculations for sparse datasets
         distances = []
         centralities = []
         
-        for doc1 in self.relevant_documents:
-            if doc1 not in self.G.nodes:
-                continue
-                
-            # Calculate centrality within relevant document subgraph
+        # Only calculate distances if we have a reasonable number of relevant docs
+        if len(self.relevant_documents) <= 50:  # Limit to avoid O(n²) explosion
+            print(f"Calculating baseline network statistics for {len(self.relevant_documents)} relevant documents...")
+            
+            # Create relevant subgraph once for efficiency
             relevant_subgraph = self.G.subgraph(self.relevant_documents)
-            if len(relevant_subgraph.nodes) > 1:
-                try:
+            
+            for doc1 in self.relevant_documents:
+                if doc1 not in self.G.nodes:
+                    continue
+                    
+                # Calculate centrality within relevant document subgraph
+                if len(relevant_subgraph.nodes) > 1:
+                    try:
+                        degree_cent = relevant_subgraph.degree(doc1)
+                        centralities.append(degree_cent)
+                    except:
+                        pass
+                
+                # OPTIMIZED: Only calculate distances to a sample of other relevant docs
+                sample_size = min(10, len(self.relevant_documents) - 1)  # Max 10 distance calculations per doc
+                other_docs = [d for d in self.relevant_documents if d != doc1 and d in self.G.nodes]
+                
+                if other_docs:
+                    # Sample random subset to avoid O(n²) complexity
+                    import random
+                    sample_docs = random.sample(other_docs, min(sample_size, len(other_docs)))
+                    
+                    for doc2 in sample_docs:
+                        try:
+                            # Try efficient path in relevant subgraph first
+                            if doc2 in relevant_subgraph.nodes:
+                                try:
+                                    dist = nx.shortest_path_length(relevant_subgraph, doc1, doc2)
+                                except nx.NetworkXNoPath:
+                                    # Fallback to full graph (more expensive)
+                                    dist = nx.shortest_path_length(self.G, doc1, doc2)
+                            else:
+                                dist = nx.shortest_path_length(self.G, doc1, doc2)
+                            distances.append(dist)
+                        except nx.NetworkXNoPath:
+                            distances.append(float('inf'))
+        else:
+            print(f"Skipping expensive distance calculations for {len(self.relevant_documents)} relevant documents (too many)")
+            # For large numbers of relevant docs, use simpler connectivity measures
+            relevant_subgraph = self.G.subgraph(self.relevant_documents)
+            for doc1 in self.relevant_documents:
+                if doc1 in relevant_subgraph.nodes:
                     degree_cent = relevant_subgraph.degree(doc1)
                     centralities.append(degree_cent)
-                except:
-                    pass
-            
-            # Calculate distances to other relevant documents
-            for doc2 in self.relevant_documents:
-                if doc1 != doc2 and doc2 in self.G.nodes:
-                    try:
-                        dist = nx.shortest_path_length(self.G, doc1, doc2)
-                        distances.append(dist)
-                    except nx.NetworkXNoPath:
-                        distances.append(float('inf'))
         
         # Distance statistics
         if distances:
@@ -1026,7 +1082,9 @@ def main():
     print(f"Search pool size: {len(search_pool)} documents")
     
     # Score all documents in search pool
+    print("Scoring documents in search pool...")
     scores = model.predict_relevance_scores(search_pool)
+    print("Sorting results...")
     sorted_results = sorted(scores.items(), key=lambda x: x[1], reverse=True)
     
     # Find outlier position
