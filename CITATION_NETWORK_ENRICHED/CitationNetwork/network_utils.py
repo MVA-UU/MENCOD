@@ -40,26 +40,32 @@ def build_network_from_simulation(simulation_df: pd.DataFrame, dataset_name: str
     G = nx.DiGraph()
     
     # Add all documents as nodes
-    for _, row in simulation_df.iterrows():
-        doc_id = row['openalex_id']
-        title = str(row.get('title', '') or '')
-        abstract = str(row.get('abstract', '') or '')
-        
-        # Add the node with title and abstract
-        G.add_node(doc_id, title=title, abstract=abstract)
-        
-        # Add label information
-        G.nodes[doc_id]['label_included'] = row['label_included']
-        G.nodes[doc_id]['record_id'] = row['record_id']
-        
-        # Mark if this is external data
-        G.nodes[doc_id]['is_external'] = row.get('is_external', False)
-        
-        # If asreview columns exist, add them
-        if 'asreview_ranking' in row:
-            G.nodes[doc_id]['asreview_ranking'] = row['asreview_ranking']
-        if 'asreview_prior' in row:
-            G.nodes[doc_id]['asreview_prior'] = row['asreview_prior']
+    # Process in chunks to avoid memory issues with large datasets
+    for idx, row in simulation_df.iterrows():
+        try:
+            doc_id = row['openalex_id']
+            title = str(row.get('title', '') or '')
+            abstract = str(row.get('abstract', '') or '')
+            
+            # Add the node with title and abstract
+            G.add_node(doc_id, title=title, abstract=abstract)
+            
+            # Add label information safely
+            G.nodes[doc_id]['label_included'] = int(row.get('label_included', 0))
+            G.nodes[doc_id]['record_id'] = int(row.get('record_id', -1))
+            
+            # Mark if this is external data
+            G.nodes[doc_id]['is_external'] = bool(row.get('is_external', False))
+            
+            # If asreview columns exist, add them safely
+            if 'asreview_ranking' in simulation_df.columns and pd.notna(row.get('asreview_ranking')):
+                G.nodes[doc_id]['asreview_ranking'] = float(row['asreview_ranking'])
+            if 'asreview_prior' in simulation_df.columns and pd.notna(row.get('asreview_prior')):
+                G.nodes[doc_id]['asreview_prior'] = int(row['asreview_prior'])
+                
+        except Exception as e:
+            print(f"Warning: Error processing row {idx} with doc_id {row.get('openalex_id', 'unknown')}: {e}")
+            continue
     
     print(f"Created graph with {len(G.nodes)} nodes")
     

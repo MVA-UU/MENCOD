@@ -200,25 +200,52 @@ class CitationNetworkModel:
         # Combine simulation data with external data for network building
         network_data = simulation_df.copy()
         if external_df is not None and len(external_df) > 0:
-            # Ensure external data has the same columns as simulation data
-            # Add missing columns with default values
-            for col in simulation_df.columns:
-                if col not in external_df.columns:
-                    if col == 'label_included':
-                        external_df[col] = 0  # External docs are never relevant
-                    elif col == 'is_external':
-                        external_df[col] = True
-                    else:
-                        external_df[col] = None
-            
-            # Reorder columns to match simulation_df
-            external_df = external_df[simulation_df.columns]
-            
-            # Combine datasets
-            print(f"Combining {len(simulation_df)} simulation documents with {len(external_df)} external documents")
-            network_data = pd.concat([simulation_df, external_df], ignore_index=True)
-            network_data = network_data.drop_duplicates(subset=['openalex_id'])
-            print(f"Total network data: {len(network_data)} unique documents")
+            try:
+                # Make a copy to avoid modifying the original external_df
+                external_clean = external_df.copy()
+                
+                # Ensure external data has the same columns as simulation data
+                # Add missing columns with default values
+                for col in simulation_df.columns:
+                    if col not in external_clean.columns:
+                        if col == 'label_included':
+                            external_clean[col] = 0  # External docs are never relevant
+                        elif col == 'is_external':
+                            external_clean[col] = True
+                        else:
+                            external_clean[col] = None
+                
+                # Convert data types to match simulation_df where possible
+                for col in simulation_df.columns:
+                    if col in external_clean.columns:
+                        try:
+                            # Try to match the dtype from simulation_df
+                            if simulation_df[col].dtype != external_clean[col].dtype:
+                                external_clean[col] = external_clean[col].astype(simulation_df[col].dtype)
+                        except (TypeError, ValueError):
+                            # If type conversion fails, keep as is
+                            print(f"Warning: Could not convert column '{col}' to match simulation data type")
+                            pass
+                
+                # Remove any columns that are in external but not in simulation
+                extra_columns = set(external_clean.columns) - set(simulation_df.columns)
+                if extra_columns:
+                    print(f"Removing extra columns from external data: {extra_columns}")
+                    external_clean = external_clean.drop(columns=list(extra_columns))
+                
+                # Reorder columns to match simulation_df
+                external_clean = external_clean[simulation_df.columns]
+                
+                # Combine datasets
+                print(f"Combining {len(simulation_df)} simulation documents with {len(external_clean)} external documents")
+                network_data = pd.concat([simulation_df, external_clean], ignore_index=True)
+                network_data = network_data.drop_duplicates(subset=['openalex_id'])
+                print(f"Total network data: {len(network_data)} unique documents")
+                
+            except Exception as e:
+                print(f"Error combining external data: {e}")
+                print("Proceeding with simulation data only")
+                network_data = simulation_df.copy()
         
         # Create a comprehensive network from the combined data
         # This now includes citation, semantic, co-citation, and bibliographic coupling edges
@@ -716,7 +743,7 @@ def main():
     model = CitationNetworkModel()
     
     # Load dataset
-    simulation_df, dataset_config = load_dataset(model.dataset_name)
+    simulation_df, dataset_config, _ = load_dataset(model.dataset_name)
     print(f"Loaded {len(simulation_df)} documents from simulation")
     
     # Find the outlier record
