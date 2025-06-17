@@ -532,23 +532,115 @@ class CitationNetworkModel:
         coupling_scaling = 1.0 + sparsity_factor * 0.5  # More scaling for sparser datasets
         isolation_scaling = 1.0 - sparsity_factor * 0.2
         
-        # For large graphs, avoid multiprocessing due to serialization overhead
-        if search_pool_size > 1000 and self.G.number_of_edges() > 100000:
-            print(f"Large graph detected. Using optimized single-threaded processing for {search_pool_size} documents...")
-        elif search_pool_size > 1000 and self.n_cores > 1:
-            print(f"Processing {search_pool_size} documents using {self.n_cores} cores...")
-            # Note: This path is now only for smaller graphs
+        # Use optimized multiprocessing for all large datasets
+        if search_pool_size > 500 and self.n_cores > 1:
+            print(f"Processing {search_pool_size} documents using {self.n_cores} cores (optimized scoring)...")
+            
+            # Process in larger batches for scoring (less overhead than feature extraction)
+            batch_size = max(200, search_pool_size // self.n_cores)
+            batches = [target_documents[i:i + batch_size] for i in range(0, len(target_documents), batch_size)]
+            
+            print(f"Processing {len(batches)} batches with ~{batch_size} documents each")
+            
+            # Prepare graph data for multiprocessing
+            adjacency, node_attributes = _prepare_graph_for_multiprocessing(self.G, self.relevant_documents)
+            
+            all_scores = {'isolation': [], 'coupling': [], 'neighborhood': [], 'advanced': [], 'temporal': [], 'efficiency': []}
+            raw_scores = {}
+            feature_cache = {}
+            
+            try:
+                with ProcessPoolExecutor(
+                    max_workers=self.n_cores,
+                    initializer=_init_worker,
+                    initargs=(adjacency, node_attributes, self.relevant_documents)
+                ) as executor:
+                    # Submit all batches for feature extraction
+                    future_to_batch = {executor.submit(_extract_features_worker, batch): i for i, batch in enumerate(batches)}
+                    
+                    # Process results as they complete
+                    completed = 0
+                    for future in as_completed(future_to_batch):
+                        batch_idx = future_to_batch[future]
+                        try:
+                            batch_features = future.result()
+                            
+                            # Calculate scores for this batch
+                            for doc_features in batch_features:
+                                doc_id = doc_features['openalex_id']
+                                feature_cache[doc_id] = doc_features
+                                
+                                # Calculate component scores
+                                iso_score = calculate_isolation_deviation(doc_features, self.baseline_stats, self.G, self.relevant_documents)
+                                coup_score = calculate_coupling_deviation(doc_features, self.baseline_stats)
+                                neigh_score = calculate_neighborhood_deviation(doc_features, self.baseline_stats)
+                                adv_score = calculate_advanced_score(doc_features, relevant_ratio)
+                                temp_score = calculate_temporal_score(doc_features, self.baseline_stats)
+                                eff_score = calculate_efficiency_score(doc_features, self.baseline_stats)
+                                
+                                # Apply scaling factors
+                                coup_score = min(1.0, coup_score * coupling_scaling)
+                                iso_score = min(1.0, iso_score * isolation_scaling)
+                                
+                                # Data-driven score adjustments based on sparsity
+                                if sparsity_factor > 0.7:  # Very sparse dataset
+                                    if doc_features.get('relevant_connections', 0) > 0:
+                                        mean_ratio = self.baseline_stats.get('mean_relevant_ratio', 0.2)
+                                        if mean_ratio > 0:
+                                            ratio_factor = min(1.5, doc_features.get('relevant_ratio', 0) / mean_ratio)
+                                            coup_score = min(0.95, coup_score * ratio_factor)
+                                
+                                # Store component scores
+                                all_scores['isolation'].append(iso_score)
+                                all_scores['coupling'].append(coup_score)
+                                all_scores['neighborhood'].append(neigh_score)
+                                all_scores['advanced'].append(adv_score)
+                                all_scores['temporal'].append(temp_score)
+                                all_scores['efficiency'].append(eff_score)
+                                
+                                # Store raw combined score
+                                raw_scores[doc_id] = (
+                                    weights['isolation'] * iso_score + 
+                                    weights['coupling'] * coup_score + 
+                                    weights['neighborhood'] * neigh_score +
+                                    weights['temporal'] * temp_score +
+                                    weights['efficiency'] * eff_score
+                                )
+                            
+                            completed += 1
+                            progress = (completed / len(batches)) * 100
+                            print(f"  Completed scoring batch {completed}/{len(batches)} ({progress:.1f}%)")
+                            
+                        except Exception as exc:
+                            print(f"Scoring batch {batch_idx} generated an exception: {exc}")
+                            # Add zero scores for failed batch
+                            failed_batch = batches[batch_idx]
+                            for doc_id in failed_batch:
+                                raw_scores[doc_id] = 0.0
+                                feature_cache[doc_id] = get_zero_features(doc_id)
+                
+                print(f"Multiprocessing scoring completed: {len(raw_scores)} documents processed")
+                
+            except Exception as e:
+                print(f"Multiprocessing scoring failed: {e}, falling back to single-threaded")
+                # Fallback to single-threaded processing
+                return self._process_single_threaded(target_documents, weights, coupling_scaling, isolation_scaling, sparsity_factor, relevant_ratio)
+        
         else:
+            # Single-threaded processing for smaller datasets
             print(f"Processing {search_pool_size} documents in single-threaded mode...")
+            return self._process_single_threaded(target_documents, weights, coupling_scaling, isolation_scaling, sparsity_factor, relevant_ratio)
         
-        # Single-threaded processing (for smaller datasets or fallback)
-        print(f"Processing {search_pool_size} documents in single-threaded mode...")
+        # Normalize and post-process scores
+        scores = self._normalize_scores(raw_scores, all_scores, feature_cache, sparsity_factor)
+        return scores
+    
+    def _process_single_threaded(self, target_documents, weights, coupling_scaling, isolation_scaling, sparsity_factor, relevant_ratio):
+        """Single-threaded processing fallback."""
         batch_size = 200
-        
-        # Process in batches
         all_scores = {'isolation': [], 'coupling': [], 'neighborhood': [], 'advanced': [], 'temporal': [], 'efficiency': []}
         raw_scores = {}
-        feature_cache = {}  # Cache features for score normalization
+        feature_cache = {}
         
         # Process in batches
         for batch_start in range(0, len(target_documents), batch_size):
@@ -561,8 +653,6 @@ class CitationNetworkModel:
             # Calculate scores for each document in batch
             for _, row in features_df.iterrows():
                 doc_id = row['openalex_id']
-                
-                # Cache features for later use
                 feature_cache[doc_id] = row.to_dict()
                 
                 # Calculate component scores
@@ -577,11 +667,9 @@ class CitationNetworkModel:
                 coup_score = min(1.0, coup_score * coupling_scaling)
                 iso_score = min(1.0, iso_score * isolation_scaling)
                 
-                # Data-driven score adjustments based on sparsity
-                if sparsity_factor > 0.7:  # Very sparse dataset
-                    # For very sparse datasets, boost documents with any relevant connections
+                # Data-driven score adjustments
+                if sparsity_factor > 0.7:
                     if row['relevant_connections'] > 0:
-                        # Calculate boost based on relevant connection ratio compared to average
                         mean_ratio = self.baseline_stats.get('mean_relevant_ratio', 0.2)
                         if mean_ratio > 0:
                             ratio_factor = min(1.5, row.get('relevant_ratio', 0) / mean_ratio)
@@ -595,23 +683,21 @@ class CitationNetworkModel:
                 all_scores['temporal'].append(temp_score)
                 all_scores['efficiency'].append(eff_score)
                 
-                # Store raw combined score (DISABLED advanced_score for testing)
+                # Store raw combined score
                 raw_scores[doc_id] = (
                     weights['isolation'] * iso_score + 
                     weights['coupling'] * coup_score + 
                     weights['neighborhood'] * neigh_score +
                     weights['temporal'] * temp_score +
                     weights['efficiency'] * eff_score
-                    # + weights['advanced'] * adv_score  # DISABLED
                 )
             
-            # Report progress for large search pools
-            if search_pool_size > 500:
-                print(f"Processed batch {batch_start+1}-{batch_end} of {search_pool_size}")
+            # Report progress
+            if len(target_documents) > 500:
+                print(f"Processed batch {batch_start+1}-{batch_end} of {len(target_documents)}")
         
         # Normalize and post-process scores
         scores = self._normalize_scores(raw_scores, all_scores, feature_cache, sparsity_factor)
-        
         return scores
     
     def _normalize_scores(self, raw_scores, all_scores, feature_cache, sparsity_factor):
