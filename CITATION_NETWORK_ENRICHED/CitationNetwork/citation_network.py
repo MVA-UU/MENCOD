@@ -228,19 +228,32 @@ class CitationNetworkModel:
                             pass
                 
                 # Remove any columns that are in external but not in simulation
-                extra_columns = set(external_clean.columns) - set(simulation_df.columns)
+                # BUT keep important citation columns for network building
+                important_citation_columns = {'referenced_works', 'referenced_works_count', 'cited_by_count'}
+                extra_columns = set(external_clean.columns) - set(simulation_df.columns) - important_citation_columns
                 if extra_columns:
                     print(f"Removing extra columns from external data: {extra_columns}")
                     external_clean = external_clean.drop(columns=list(extra_columns))
                 
-                # Reorder columns to match simulation_df
-                external_clean = external_clean[simulation_df.columns]
+                # Add citation columns to simulation_df if they don't exist
+                for citation_col in important_citation_columns:
+                    if citation_col in external_clean.columns and citation_col not in simulation_df.columns:
+                        simulation_df[citation_col] = None  # Add as None for simulation data
+                
+                # Reorder columns to match simulation_df (now includes citation columns)
+                common_columns = [col for col in simulation_df.columns if col in external_clean.columns]
+                external_clean = external_clean[common_columns]
                 
                 # Combine datasets
                 print(f"Combining {len(simulation_df)} simulation documents with {len(external_clean)} external documents")
                 network_data = pd.concat([simulation_df, external_clean], ignore_index=True)
                 network_data = network_data.drop_duplicates(subset=['openalex_id'])
                 print(f"Total network data: {len(network_data)} unique documents")
+                
+                # Verify citation data is available
+                if 'referenced_works' in network_data.columns:
+                    docs_with_refs = network_data['referenced_works'].notna().sum()
+                    print(f"Citation data available: {docs_with_refs} documents have reference information")
                 
             except Exception as e:
                 print(f"Error combining external data: {e}")

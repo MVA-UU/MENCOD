@@ -29,13 +29,19 @@ if models_dir not in sys.path:
 from synergy_dataset import Dataset
 
 
-def build_network_from_simulation(simulation_df: pd.DataFrame, dataset_name: str = None, n_cores: Optional[int] = None) -> nx.DiGraph:
+def build_network_from_simulation(simulation_df: pd.DataFrame, dataset_name: str = None, n_cores: Optional[int] = None, sample_size: Optional[int] = None) -> nx.DiGraph:
     """Build a citation network from simulation data with both semantic and citation edges.
     
     Args:
         simulation_df: DataFrame containing simulation results
         dataset_name: Name of the dataset (e.g., 'appenzeller', 'hall', etc.) for loading synergy data
+        sample_size: Optional limit on number of documents to process (for testing)
     """
+    # Sample data if requested
+    if sample_size is not None and len(simulation_df) > sample_size:
+        print(f"Sampling {sample_size} documents from {len(simulation_df)} total documents for testing")
+        simulation_df = simulation_df.sample(n=sample_size, random_state=42).copy()
+    
     # Use directed graph to properly represent citation relationships
     G = nx.DiGraph()
     
