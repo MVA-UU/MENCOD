@@ -173,6 +173,31 @@ def _calculate_features_from_adjacency(doc_id, graph_data, relevant_documents):
         'network_position_score': relevant_ratio
     }
 
+def _extract_direct_adjacency(G, target_documents, relevant_documents):
+    """Extract adjacency data directly for target and relevant documents only."""
+    print("Extracting direct adjacency data for essential documents only...")
+    
+    # Only process target documents + relevant documents
+    essential_docs = set(target_documents).union(set(relevant_documents))
+    
+    adjacency = {}
+    node_attributes = {}
+    
+    for doc_id in essential_docs:
+        if doc_id in G.nodes:
+            # Store node attributes
+            node_attributes[doc_id] = G.nodes[doc_id]
+            adjacency[doc_id] = {}
+            
+            # Store edges to other essential documents only
+            for neighbor in G.neighbors(doc_id):
+                if neighbor in essential_docs and G.has_edge(doc_id, neighbor):
+                    edge_data = G[doc_id][neighbor]
+                    adjacency[doc_id][neighbor] = edge_data
+    
+    print(f"Direct adjacency extracted: {len(adjacency)} nodes, {sum(len(neighbors) for neighbors in adjacency.values())} edges")
+    return adjacency, node_attributes
+
 def _prepare_graph_for_multiprocessing(G, relevant_documents, target_documents=None):
     """Convert NetworkX graph to multiprocessing-friendly format."""
     print("Preparing graph data for multiprocessing...")
@@ -181,16 +206,47 @@ def _prepare_graph_for_multiprocessing(G, relevant_documents, target_documents=N
     if target_documents:
         print(f"Extracting subgraph for {len(target_documents)} target documents...")
         
-        # Get all nodes we need: target docs + relevant docs + their immediate neighbors
+        # Get all nodes we need: target docs + relevant docs
         nodes_needed = set(target_documents)
         nodes_needed.update(relevant_documents)
         
-        # Add immediate neighbors of target and relevant documents
-        for doc in list(nodes_needed):
-            if doc in G.nodes:
-                nodes_needed.update(G.neighbors(doc))
+        # For very large graphs, be more selective about neighbors
+        if len(G.nodes) > 20000:  # Large graph - be selective
+            print("Large graph detected - using selective neighbor sampling...")
+            
+            # Only add neighbors of relevant documents (most important for features)
+            for doc in relevant_documents:
+                if doc in G.nodes:
+                    neighbors = list(G.neighbors(doc))
+                    # Limit neighbors per document to avoid explosion
+                    if len(neighbors) > 100:  # If highly connected, sample
+                        import random
+                        neighbors = random.sample(neighbors, 100)
+                    nodes_needed.update(neighbors)
+            
+            # For target documents, only add a sample of neighbors
+            for doc in list(target_documents):
+                if doc in G.nodes:
+                    neighbors = list(G.neighbors(doc))
+                    # Much more limited for target docs
+                    if len(neighbors) > 50:
+                        import random
+                        neighbors = random.sample(neighbors, 50)
+                    elif len(neighbors) > 20:
+                        neighbors = neighbors[:20]  # Take first 20
+                    nodes_needed.update(neighbors)
+        else:
+            # For smaller graphs, add all immediate neighbors
+            for doc in list(nodes_needed):
+                if doc in G.nodes:
+                    nodes_needed.update(G.neighbors(doc))
         
         print(f"Subgraph contains {len(nodes_needed)} nodes (reduced from {len(G.nodes)})")
+        
+        # If subgraph is still too large (>80% of original), fall back to direct processing
+        if len(nodes_needed) > 0.8 * len(G.nodes):
+            print(f"Subgraph still too large ({len(nodes_needed)} nodes), using direct adjacency extraction...")
+            return _extract_direct_adjacency(G, target_documents, relevant_documents)
         
         # Extract subgraph
         subgraph = G.subgraph(nodes_needed)
