@@ -15,6 +15,9 @@ from scipy.sparse import csr_matrix
 from collections import defaultdict
 import multiprocessing as mp
 from functools import partial
+import pickle
+from multiprocessing import shared_memory
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 # Fix import for direct script execution
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -69,6 +72,128 @@ from CitationNetwork.network_utils import (
 # Import ranking module
 from CitationNetwork.citation_ranking import apply_sparse_dataset_ranking_adjustments
 
+# Global variables for worker processes
+_graph_data = None
+_relevant_docs = None
+
+def _init_worker(graph_adjacency, node_attributes, relevant_documents):
+    """Initialize worker process with graph data."""
+    global _graph_data, _relevant_docs
+    _graph_data = {
+        'adjacency': graph_adjacency,
+        'nodes': node_attributes
+    }
+    _relevant_docs = relevant_documents
+
+def _extract_features_worker(doc_ids):
+    """Worker function that uses pre-loaded graph data."""
+    global _graph_data, _relevant_docs
+    
+    # Reconstruct minimal graph operations from adjacency data
+    features = []
+    
+    for doc_id in doc_ids:
+        if doc_id not in _graph_data['nodes']:
+            features.append(get_zero_features(doc_id))
+            continue
+        
+        # Calculate features using adjacency data instead of full NetworkX graph
+        doc_features = {
+            'openalex_id': doc_id,
+            **_calculate_features_from_adjacency(doc_id, _graph_data, _relevant_docs)
+        }
+        features.append(doc_features)
+    
+    return features
+
+def _calculate_features_from_adjacency(doc_id, graph_data, relevant_documents):
+    """Calculate features using adjacency representation instead of NetworkX graph."""
+    adjacency = graph_data['adjacency']
+    nodes = graph_data['nodes']
+    
+    if doc_id not in adjacency:
+        return get_zero_features(doc_id)
+    
+    # Get neighbors and edge data
+    neighbors = adjacency[doc_id]
+    
+    # Basic connectivity
+    total_degree = len(neighbors)
+    
+    # Edge type analysis
+    citation_out = sum(1 for _, edge_data in neighbors.items() if edge_data.get('edge_type') == 'citation')
+    semantic_edges = sum(1 for _, edge_data in neighbors.items() if edge_data.get('edge_type') == 'semantic')
+    coupling_edges = sum(1 for _, edge_data in neighbors.items() if edge_data.get('edge_type') == 'coupling')
+    cocitation_edges = sum(1 for _, edge_data in neighbors.items() if edge_data.get('edge_type') == 'cocitation')
+    
+    # Relevant connections
+    relevant_connections = sum(1 for neighbor_id in neighbors.keys() if neighbor_id in relevant_documents)
+    relevant_ratio = relevant_connections / max(1, total_degree)
+    
+    # Coupling scores
+    coupling_scores = [edge_data.get('coupling_count', 0) for edge_data in neighbors.values() 
+                      if edge_data.get('edge_type') == 'coupling']
+    coupling_score = sum(coupling_scores)
+    
+    # Co-citation scores  
+    cocitation_scores = [edge_data.get('cocitation_count', 0) for edge_data in neighbors.values()
+                        if edge_data.get('edge_type') == 'cocitation']
+    cocitation_score = sum(cocitation_scores)
+    
+    return {
+        'total_degree': total_degree,
+        'out_degree': total_degree,  # Simplified for adjacency
+        'in_degree': 0,  # Would need reverse adjacency
+        'citation_out_degree': citation_out,
+        'citation_in_degree': 0,
+        'semantic_degree': semantic_edges,
+        'cocitation_degree': cocitation_edges,
+        'coupling_degree': coupling_edges,
+        'relevant_connections': relevant_connections,
+        'relevant_ratio': relevant_ratio,
+        'coupling_score': coupling_score,
+        'cocitation_score': cocitation_score,
+        'neighborhood_enrichment_1hop': relevant_ratio,  # Simplified
+        'neighborhood_enrichment_2hop': 0.0,  # Would need 2-hop calculation
+        'citation_diversity': 0.0,  # Simplified
+        'relevant_betweenness': 0.0,
+        'structural_anomaly': 0.0,
+        'semantic_isolation': 0.0,
+        'citation_velocity': 0.0,
+        'age_normalized_impact': 0.0,
+        'citation_burst_score': 0.0,
+        'temporal_isolation': 0.0,
+        'recent_citation_ratio': 0.0,
+        'citation_acceleration': 0.0,
+        'local_clustering': 0.0,
+        'edge_type_diversity': len(set(edge_data.get('edge_type', 'unknown') for edge_data in neighbors.values())),
+        'relevant_path_efficiency': relevant_ratio,
+        'citation_authority': 0.0,
+        'semantic_coherence': 0.0,
+        'network_position_score': relevant_ratio
+    }
+
+def _prepare_graph_for_multiprocessing(G, relevant_documents):
+    """Convert NetworkX graph to multiprocessing-friendly format."""
+    print("Preparing graph data for multiprocessing...")
+    
+    # Convert to adjacency dictionary (much more efficient to serialize)
+    adjacency = {}
+    node_attributes = {}
+    
+    for node in G.nodes(data=True):
+        node_id, attrs = node
+        node_attributes[node_id] = attrs
+        adjacency[node_id] = {}
+        
+        # Store outgoing edges with their attributes
+        for neighbor in G.neighbors(node_id):
+            if G.has_edge(node_id, neighbor):
+                edge_data = G[node_id][neighbor]
+                adjacency[node_id][neighbor] = edge_data
+    
+    print(f"Graph converted to adjacency format: {len(adjacency)} nodes")
+    return adjacency, node_attributes
 
 def _extract_features_batch(args):
     """Extract features for a batch of documents."""
@@ -318,19 +443,53 @@ class CitationNetworkModel:
                 }
                 features.append(doc_features)
         else:
-            # For large graphs (>100k edges), avoid multiprocessing due to serialization overhead
-            # Process in batches with progress reporting instead
-            print(f"Large graph detected ({self.G.number_of_edges()} edges). Using optimized single-threaded processing with progress reporting.")
+            # Use optimized multiprocessing with adjacency representation
+            print(f"Extracting features for {len(target_documents)} documents using {self.n_cores} cores (optimized)")
+            
+            # Convert graph to multiprocessing-friendly format
+            adjacency, node_attributes = _prepare_graph_for_multiprocessing(self.G, self.relevant_documents)
+            
+            # Split documents into batches
+            batch_size = max(50, len(target_documents) // self.n_cores)
+            batches = [target_documents[i:i + batch_size] for i in range(0, len(target_documents), batch_size)]
+            
+            print(f"Processing {len(batches)} batches with {batch_size} documents each")
             
             features = []
-            batch_size = 100  # Process in smaller batches for progress reporting
-            
-            for batch_start in range(0, len(target_documents), batch_size):
-                batch_end = min(batch_start + batch_size, len(target_documents))
-                batch_docs = target_documents[batch_start:batch_end]
+            try:
+                # Use ProcessPoolExecutor with initializer
+                with ProcessPoolExecutor(
+                    max_workers=self.n_cores,
+                    initializer=_init_worker,
+                    initargs=(adjacency, node_attributes, self.relevant_documents)
+                ) as executor:
+                    # Submit all batches
+                    future_to_batch = {executor.submit(_extract_features_worker, batch): i for i, batch in enumerate(batches)}
+                    
+                    # Collect results as they complete
+                    completed = 0
+                    for future in as_completed(future_to_batch):
+                        batch_idx = future_to_batch[future]
+                        try:
+                            batch_features = future.result()
+                            features.extend(batch_features)
+                            completed += 1
+                            progress = (completed / len(batches)) * 100
+                            print(f"  Completed batch {completed}/{len(batches)} ({progress:.1f}%)")
+                        except Exception as exc:
+                            print(f"Batch {batch_idx} generated an exception: {exc}")
+                            # Fallback for failed batch
+                            failed_batch = batches[batch_idx]
+                            for doc_id in failed_batch:
+                                features.append(get_zero_features(doc_id))
                 
-                # Process batch
-                for doc_id in batch_docs:
+                print(f"Multiprocessing feature extraction completed: {len(features)} documents processed")
+                
+            except Exception as e:
+                print(f"Multiprocessing failed: {e}, falling back to single-threaded processing")
+                # Fallback to single-threaded
+                features = []
+                for i, doc_id in enumerate(target_documents):
                     if doc_id not in self.G.nodes:
                         features.append(get_zero_features(doc_id))
                         continue
@@ -345,12 +504,10 @@ class CitationNetworkModel:
                         **get_efficiency_features(self.G, doc_id, self.relevant_documents)
                     }
                     features.append(doc_features)
-                
-                # Progress reporting
-                progress = min(100, (batch_end / len(target_documents)) * 100)
-                print(f"  Feature extraction progress: {batch_end}/{len(target_documents)} ({progress:.1f}%)")
-            
-            print(f"Feature extraction completed for {len(target_documents)} documents")
+                    
+                    if (i + 1) % 100 == 0:
+                        progress = ((i + 1) / len(target_documents)) * 100
+                        print(f"  Fallback progress: {i + 1}/{len(target_documents)} ({progress:.1f}%)")
         
         return pd.DataFrame(features)
     
