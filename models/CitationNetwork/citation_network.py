@@ -115,7 +115,7 @@ class CitationNetworkModel:
         
         # Create a comprehensive network from the simulation data
         # This now includes citation, semantic, co-citation, and bibliographic coupling edges
-        self.G = build_network_from_simulation(simulation_df)
+        self.G = build_network_from_simulation(simulation_df, self.dataset_name)
         
         # Identify relevant documents
         self.relevant_documents = set([
@@ -377,7 +377,7 @@ class CitationNetworkModel:
         return analysis
     
     def _calculate_baseline_stats(self) -> Dict[str, float]:
-        """Calculate baseline citation statistics from relevant documents."""
+        """Calculate enhanced baseline citation statistics from relevant documents for sparse networks."""
         if not self.relevant_documents:
             return {}
         
@@ -386,61 +386,128 @@ class CitationNetworkModel:
         if rel_features.empty:
             return {}
         
-        # Use the correct feature column names from the updated citation features
-        key_features = []
-        available_cols = rel_features.columns.tolist()
+        baseline = {}
         
-        # Map old feature names to new ones
-        feature_mapping = {
-            'total_citations': 'citation_in_degree',  # Citations received
-            'relevant_connections_ratio': 'relevant_ratio',  # Ratio of relevant connections
-            'max_coupling_strength': 'coupling_score',  # Bibliographic coupling strength
-            'neighborhood_enrichment_1hop': 'neighborhood_enrichment_1hop'  # This one should exist
-        }
+        # Basic citation statistics with proper handling of sparse data
+        citation_cols = ['citation_in_degree', 'citation_out_degree', 'total_citations']
+        for col in citation_cols:
+            if col in rel_features.columns:
+                values = rel_features[col].dropna()
+                if not values.empty:
+                    baseline[f'mean_{col}'] = values.mean()
+                    baseline[f'std_{col}'] = max(values.std(), 0.1)  # Minimum std for stability
+                    baseline[f'median_{col}'] = values.median()
+                    baseline[f'q75_{col}'] = values.quantile(0.75)
+                    baseline[f'q90_{col}'] = values.quantile(0.90)
         
-        # Only include features that actually exist
-        for old_name, new_name in feature_mapping.items():
-            if new_name in available_cols:
-                key_features.append(new_name)
+        # Connection and relationship statistics
+        connection_cols = ['relevant_connections', 'relevant_ratio', 'coupling_score', 'cocitation_score']
+        for col in connection_cols:
+            if col in rel_features.columns:
+                values = rel_features[col].dropna()
+                if not values.empty:
+                    baseline[f'mean_{col}'] = values.mean()
+                    baseline[f'std_{col}'] = max(values.std(), 0.01)
+                    baseline[f'median_{col}'] = values.median()
         
-        # Add other important features that exist
-        additional_features = ['weighted_influence', 'weighted_connections', 'cocitation_score', 'relevant_connections']
-        for feat in additional_features:
-            if feat in available_cols and feat not in key_features:
-                key_features.append(feat)
+        # Neighborhood enrichment statistics
+        neighborhood_cols = ['neighborhood_enrichment_1hop', 'neighborhood_enrichment_2hop']
+        for col in neighborhood_cols:
+            if col in rel_features.columns:
+                values = rel_features[col].dropna()
+                if not values.empty:
+                    baseline[f'mean_{col}'] = values.mean()
+                    baseline[f'std_{col}'] = max(values.std(), 0.01)
+                    baseline[f'max_{col}'] = values.max()
         
-        # Add temporal features if they exist
-        temporal_features = ['citation_velocity', 'age_normalized_impact', 'citation_burst_score', 
-                           'temporal_isolation', 'recent_citation_ratio', 'citation_acceleration']
-        for feat in temporal_features:
-            if feat in available_cols and feat not in key_features:
-                key_features.append(feat)
+        # Advanced network statistics
+        advanced_cols = ['weighted_influence', 'weighted_connections', 'semantic_coherence', 
+                        'citation_authority', 'network_position_score']
+        for col in advanced_cols:
+            if col in rel_features.columns:
+                values = rel_features[col].dropna()
+                if not values.empty:
+                    baseline[f'mean_{col}'] = values.mean()
+                    baseline[f'std_{col}'] = max(values.std(), 0.01)
         
-        # Add efficiency features if they exist
-        efficiency_features = ['local_clustering', 'edge_type_diversity', 'relevant_path_efficiency',
-                             'citation_authority', 'semantic_coherence', 'network_position_score']
-        for feat in efficiency_features:
-            if feat in available_cols and feat not in key_features:
-                key_features.append(feat)
+        # Temporal statistics
+        temporal_cols = ['citation_velocity', 'age_normalized_impact', 'citation_burst_score']
+        for col in temporal_cols:
+            if col in rel_features.columns:
+                values = rel_features[col].dropna()
+                if not values.empty:
+                    baseline[f'mean_{col}'] = values.mean()
+                    baseline[f'std_{col}'] = max(values.std(), 0.01)
         
-        if not key_features:
-            # Fallback to basic features if none of the expected ones exist
-            key_features = [col for col in available_cols if col not in ['doc_id']][:5]
+        # Calculate pairwise distances between relevant documents for network analysis
+        distances = []
+        centralities = []
         
-        # Calculate baseline statistics
-        if key_features:
-            stats = rel_features[key_features].describe()
+        for doc1 in self.relevant_documents:
+            if doc1 not in self.G.nodes:
+                continue
+                
+            # Calculate centrality within relevant document subgraph
+            relevant_subgraph = self.G.subgraph(self.relevant_documents)
+            if len(relevant_subgraph.nodes) > 1:
+                try:
+                    degree_cent = relevant_subgraph.degree(doc1)
+                    centralities.append(degree_cent)
+                except:
+                    pass
             
-            baseline = {}
-            for col in stats.columns:
-                baseline[f'mean_{col}'] = stats.loc['mean', col]
-                baseline[f'std_{col}'] = max(stats.loc['std', col], 0.01)  # Avoid division by zero
-        else:
-            baseline = {}
+            # Calculate distances to other relevant documents
+            for doc2 in self.relevant_documents:
+                if doc1 != doc2 and doc2 in self.G.nodes:
+                    try:
+                        dist = nx.shortest_path_length(self.G, doc1, doc2)
+                        distances.append(dist)
+                    except nx.NetworkXNoPath:
+                        distances.append(float('inf'))
         
-        # Calculate distance statistics
-        distances = calculate_distance_baselines(self.G, self.relevant_documents)
-        baseline.update(distances)
+        # Distance statistics
+        if distances:
+            finite_distances = [d for d in distances if d != float('inf')]
+            if finite_distances:
+                baseline['mean_relevant_distance'] = np.mean(finite_distances)
+                baseline['std_relevant_distance'] = max(np.std(finite_distances), 0.1)
+                baseline['median_relevant_distance'] = np.median(finite_distances)
+                baseline['connectivity_ratio'] = len(finite_distances) / len(distances)
+            else:
+                baseline['mean_relevant_distance'] = float('inf')
+                baseline['connectivity_ratio'] = 0.0
+        
+        # Centrality statistics
+        if centralities:
+            baseline['mean_relevant_centrality'] = np.mean(centralities)
+            baseline['std_relevant_centrality'] = max(np.std(centralities), 0.1)
+        
+        # Network density and sparsity measures
+        total_possible_edges = len(self.relevant_documents) * (len(self.relevant_documents) - 1)
+        if total_possible_edges > 0:
+            actual_edges = sum(1 for doc1 in self.relevant_documents 
+                             for doc2 in self.relevant_documents 
+                             if doc1 != doc2 and doc1 in self.G.nodes and doc2 in self.G.nodes 
+                             and self.G.has_edge(doc1, doc2))
+            baseline['relevant_network_density'] = actual_edges / total_possible_edges
+        else:
+            baseline['relevant_network_density'] = 0.0
+        
+        # Edge type distribution in relevant subgraph
+        edge_types = defaultdict(int)
+        for doc1 in self.relevant_documents:
+            for doc2 in self.relevant_documents:
+                if (doc1 != doc2 and doc1 in self.G.nodes and doc2 in self.G.nodes 
+                    and self.G.has_edge(doc1, doc2)):
+                    edge_data = self.G.get_edge_data(doc1, doc2)
+                    if edge_data:
+                        edge_type = edge_data.get('edge_type', 'unknown')
+                        edge_types[edge_type] += 1
+        
+        total_relevant_edges = sum(edge_types.values())
+        if total_relevant_edges > 0:
+            for edge_type, count in edge_types.items():
+                baseline[f'relevant_{edge_type}_ratio'] = count / total_relevant_edges
         
         return baseline
 

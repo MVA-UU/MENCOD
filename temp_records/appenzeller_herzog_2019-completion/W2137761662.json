@@ -1,0 +1,1989 @@
+{
+  "id": "https://openalex.org/W2137761662",
+  "doi": "https://doi.org/10.1242/jcs.03164",
+  "title": "In vivo expression and functional characterization of the zinc transporter ZnT8 in glucose-induced insulin secretion",
+  "display_name": "In vivo expression and functional characterization of the zinc transporter ZnT8 in glucose-induced insulin secretion",
+  "publication_year": 2006,
+  "publication_date": "2006-09-20",
+  "ids": {
+    "openalex": "https://openalex.org/W2137761662",
+    "doi": "https://doi.org/10.1242/jcs.03164",
+    "mag": "2137761662",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16984975"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1242/jcs.03164",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S5677253",
+      "display_name": "Journal of Cell Science",
+      "issn_l": "0021-9533",
+      "issn": [
+        "0021-9533",
+        "1477-9137"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311847",
+      "host_organization_name": "The Company of Biologists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311847"
+      ],
+      "host_organization_lineage_names": [
+        "The Company of Biologists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://lirias.kuleuven.be/bitstream/123456789/10235/1/16984975%28Chiementi.ZnT8%29JCellSci119.4199.06.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5033102611",
+        "display_name": "Fabrice Chimienti",
+        "orcid": "https://orcid.org/0000-0002-9907-3394"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3020098449",
+          "display_name": "CEA Grenoble",
+          "ror": "https://ror.org/02mg6n827",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I3020098449"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I177483745",
+          "display_name": "Université Joseph Fourier",
+          "ror": "https://ror.org/02aj0kh94",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I177483745"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I899635006",
+          "display_name": "Université Grenoble Alpes",
+          "ror": "https://ror.org/02rx3b187",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I899635006"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2738703131",
+          "display_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+          "ror": "https://ror.org/00jjx8s55",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210158615",
+          "display_name": "Mellitech (France)",
+          "ror": "https://ror.org/05d9wka04",
+          "country_code": "FR",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210158615"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Fabrice Chimienti",
+      "raw_affiliation_strings": [
+        "DRFMC/SCIB/LAN, UMR-E3 CEA/UJF, CEA Grenoble, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France",
+        "Mellitech, DRFMC/SCIB, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "DRFMC/SCIB/LAN, UMR-E3 CEA/UJF, CEA Grenoble, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France",
+          "institution_ids": [
+            "https://openalex.org/I3020098449",
+            "https://openalex.org/I177483745",
+            "https://openalex.org/I899635006",
+            "https://openalex.org/I2738703131"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Mellitech, DRFMC/SCIB, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France",
+          "institution_ids": [
+            "https://openalex.org/I4210158615"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044077931",
+        "display_name": "Séverine Devergnas",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2738703131",
+          "display_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+          "ror": "https://ror.org/00jjx8s55",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I3020098449",
+          "display_name": "CEA Grenoble",
+          "ror": "https://ror.org/02mg6n827",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I3020098449"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I177483745",
+          "display_name": "Université Joseph Fourier",
+          "ror": "https://ror.org/02aj0kh94",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I177483745"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I899635006",
+          "display_name": "Université Grenoble Alpes",
+          "ror": "https://ror.org/02rx3b187",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I899635006"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Séverine Devergnas",
+      "raw_affiliation_strings": [
+        "DRFMC/SCIB/LAN, UMR-E3 CEA/UJF, CEA Grenoble, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "DRFMC/SCIB/LAN, UMR-E3 CEA/UJF, CEA Grenoble, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France",
+          "institution_ids": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I3020098449",
+            "https://openalex.org/I177483745",
+            "https://openalex.org/I899635006"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006759849",
+        "display_name": "François Pattou",
+        "orcid": "https://orcid.org/0000-0001-8388-3766"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "François Pattou",
+      "raw_affiliation_strings": [
+        "Thérapie Cellulaire du Diabète, INSERM ERIT-M 0106 Faculté de Médecine, Place de Verdun, 59045 Lille, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Thérapie Cellulaire du Diabète, INSERM ERIT-M 0106 Faculté de Médecine, Place de Verdun, 59045 Lille, France",
+          "institution_ids": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5066952822",
+        "display_name": "Frans Schuit",
+        "orcid": "https://orcid.org/0000-0003-3225-6695"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99464096",
+          "display_name": "KU Leuven",
+          "ror": "https://ror.org/05f950310",
+          "country_code": "BE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99464096"
+          ]
+        }
+      ],
+      "countries": [
+        "BE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Frans Schuit",
+      "raw_affiliation_strings": [
+        "Gene Expression Unit, Division of Biochemistry, Katholieke Universiteit Leuven, 3000 Leuven, Belgium"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gene Expression Unit, Division of Biochemistry, Katholieke Universiteit Leuven, 3000 Leuven, Belgium",
+          "institution_ids": [
+            "https://openalex.org/I99464096"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5015892488",
+        "display_name": "Rachel Garcia-Cuenca",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158615",
+          "display_name": "Mellitech (France)",
+          "ror": "https://ror.org/05d9wka04",
+          "country_code": "FR",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210158615"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rachel Garcia-Cuenca",
+      "raw_affiliation_strings": [
+        "Mellitech, DRFMC/SCIB, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Mellitech, DRFMC/SCIB, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France",
+          "institution_ids": [
+            "https://openalex.org/I4210158615"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042269235",
+        "display_name": "B. Vandewalle",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brigitte Vandewalle",
+      "raw_affiliation_strings": [
+        "Thérapie Cellulaire du Diabète, INSERM ERIT-M 0106 Faculté de Médecine, Place de Verdun, 59045 Lille, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Thérapie Cellulaire du Diabète, INSERM ERIT-M 0106 Faculté de Médecine, Place de Verdun, 59045 Lille, France",
+          "institution_ids": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084330205",
+        "display_name": "Julie Kerr–Conte",
+        "orcid": "https://orcid.org/0000-0002-7590-1896"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Julie Kerr-Conte",
+      "raw_affiliation_strings": [
+        "Thérapie Cellulaire du Diabète, INSERM ERIT-M 0106 Faculté de Médecine, Place de Verdun, 59045 Lille, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Thérapie Cellulaire du Diabète, INSERM ERIT-M 0106 Faculté de Médecine, Place de Verdun, 59045 Lille, France",
+          "institution_ids": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085128448",
+        "display_name": "Leentje Van Lommel",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99464096",
+          "display_name": "KU Leuven",
+          "ror": "https://ror.org/05f950310",
+          "country_code": "BE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99464096"
+          ]
+        }
+      ],
+      "countries": [
+        "BE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Leentje Van Lommel",
+      "raw_affiliation_strings": [
+        "Gene Expression Unit, Division of Biochemistry, Katholieke Universiteit Leuven, 3000 Leuven, Belgium"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gene Expression Unit, Division of Biochemistry, Katholieke Universiteit Leuven, 3000 Leuven, Belgium",
+          "institution_ids": [
+            "https://openalex.org/I99464096"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034399082",
+        "display_name": "Didier Grünwald",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3020098449",
+          "display_name": "CEA Grenoble",
+          "ror": "https://ror.org/02mg6n827",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I3020098449"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2738703131",
+          "display_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+          "ror": "https://ror.org/00jjx8s55",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Didier Grunwald",
+      "raw_affiliation_strings": [
+        "Laboratoire Canaux Ioniques et Signalisation, DRDC/LCI, CEA Grenoble, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratoire Canaux Ioniques et Signalisation, DRDC/LCI, CEA Grenoble, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France",
+          "institution_ids": [
+            "https://openalex.org/I3020098449",
+            "https://openalex.org/I2738703131"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108462264",
+        "display_name": "Alain Favier",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2738703131",
+          "display_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+          "ror": "https://ror.org/00jjx8s55",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I3020098449",
+          "display_name": "CEA Grenoble",
+          "ror": "https://ror.org/02mg6n827",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I3020098449"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I177483745",
+          "display_name": "Université Joseph Fourier",
+          "ror": "https://ror.org/02aj0kh94",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I177483745"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I899635006",
+          "display_name": "Université Grenoble Alpes",
+          "ror": "https://ror.org/02rx3b187",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I899635006"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alain Favier",
+      "raw_affiliation_strings": [
+        "DRFMC/SCIB/LAN, UMR-E3 CEA/UJF, CEA Grenoble, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "DRFMC/SCIB/LAN, UMR-E3 CEA/UJF, CEA Grenoble, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France",
+          "institution_ids": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I3020098449",
+            "https://openalex.org/I177483745",
+            "https://openalex.org/I899635006"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5050546414",
+        "display_name": "Michel Sève",
+        "orcid": "https://orcid.org/0000-0001-5503-9488"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3020098449",
+          "display_name": "CEA Grenoble",
+          "ror": "https://ror.org/02mg6n827",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I3020098449"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I177483745",
+          "display_name": "Université Joseph Fourier",
+          "ror": "https://ror.org/02aj0kh94",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I177483745"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I899635006",
+          "display_name": "Université Grenoble Alpes",
+          "ror": "https://ror.org/02rx3b187",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I899635006"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2738703131",
+          "display_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+          "ror": "https://ror.org/00jjx8s55",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michel Seve",
+      "raw_affiliation_strings": [
+        "DRFMC/SCIB/LAN, UMR-E3 CEA/UJF, CEA Grenoble, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "DRFMC/SCIB/LAN, UMR-E3 CEA/UJF, CEA Grenoble, 17 rue des Martyrs, 38054 Grenoble CEDEX 9, France",
+          "institution_ids": [
+            "https://openalex.org/I3020098449",
+            "https://openalex.org/I177483745",
+            "https://openalex.org/I899635006",
+            "https://openalex.org/I2738703131"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 7,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 14.532,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 344,
+  "citation_normalized_percentile": {
+    "value": 0.954959,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "119",
+    "issue": "20",
+    "first_page": "4199",
+    "last_page": "4206"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10915",
+    "display_name": "Trace Elements in Health",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10915",
+      "display_name": "Trace Elements in Health",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10790",
+      "display_name": "Heavy Metal Exposure and Toxicity",
+      "score": 0.9885,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10452",
+      "display_name": "Iron Metabolism and Disorders",
+      "score": 0.9864,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/pancreatic-islets",
+      "display_name": "Pancreatic Islets",
+      "score": 0.4714592
+    },
+    {
+      "id": "https://openalex.org/keywords/insulin-oscillation",
+      "display_name": "Insulin oscillation",
+      "score": 0.4130764
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779306644",
+      "wikidata": "https://www.wikidata.org/wiki/Q2002370",
+      "display_name": "Insulin",
+      "level": 2,
+      "score": 0.79905075
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.7568754
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.66398835
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.6381172
+    },
+    {
+      "id": "https://openalex.org/C128240485",
+      "wikidata": "https://www.wikidata.org/wiki/Q786998",
+      "display_name": "Autocrine signalling",
+      "level": 3,
+      "score": 0.5999785
+    },
+    {
+      "id": "https://openalex.org/C7876069",
+      "wikidata": "https://www.wikidata.org/wiki/Q14873666",
+      "display_name": "Paracrine signalling",
+      "level": 3,
+      "score": 0.5949034
+    },
+    {
+      "id": "https://openalex.org/C535196362",
+      "wikidata": "https://www.wikidata.org/wiki/Q758",
+      "display_name": "Zinc",
+      "level": 2,
+      "score": 0.5452684
+    },
+    {
+      "id": "https://openalex.org/C49039625",
+      "wikidata": "https://www.wikidata.org/wiki/Q84230",
+      "display_name": "Secretion",
+      "level": 2,
+      "score": 0.5280902
+    },
+    {
+      "id": "https://openalex.org/C2778764654",
+      "wikidata": "https://www.wikidata.org/wiki/Q9618",
+      "display_name": "Pancreas",
+      "level": 2,
+      "score": 0.47997808
+    },
+    {
+      "id": "https://openalex.org/C2779855799",
+      "wikidata": "https://www.wikidata.org/wiki/Q728309",
+      "display_name": "Pancreatic islets",
+      "level": 4,
+      "score": 0.4714592
+    },
+    {
+      "id": "https://openalex.org/C165220095",
+      "wikidata": "https://www.wikidata.org/wiki/Q207524",
+      "display_name": "Islet",
+      "level": 3,
+      "score": 0.44829348
+    },
+    {
+      "id": "https://openalex.org/C144855686",
+      "wikidata": "https://www.wikidata.org/wiki/Q6042245",
+      "display_name": "Insulin oscillation",
+      "level": 4,
+      "score": 0.4130764
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.19444981
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.12743667
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.09911397
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.053049564
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D027682",
+      "descriptor_name": "Cation Transport Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005947",
+      "descriptor_name": "Glucose",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007328",
+      "descriptor_name": "Insulin",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001692",
+      "descriptor_name": "Biological Transport",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001692",
+      "descriptor_name": "Biological Transport",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D027682",
+      "descriptor_name": "Cation Transport Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D027682",
+      "descriptor_name": "Cation Transport Proteins",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D027682",
+      "descriptor_name": "Cation Transport Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002460",
+      "descriptor_name": "Cell Line",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002462",
+      "descriptor_name": "Cell Membrane",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002462",
+      "descriptor_name": "Cell Membrane",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002462",
+      "descriptor_name": "Cell Membrane",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002470",
+      "descriptor_name": "Cell Survival",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002470",
+      "descriptor_name": "Cell Survival",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004305",
+      "descriptor_name": "Dose-Response Relationship, Drug",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015870",
+      "descriptor_name": "Gene Expression",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015870",
+      "descriptor_name": "Gene Expression",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015870",
+      "descriptor_name": "Gene Expression",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005934",
+      "descriptor_name": "Glucagon",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005934",
+      "descriptor_name": "Glucagon",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005947",
+      "descriptor_name": "Glucose",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049452",
+      "descriptor_name": "Green Fluorescent Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049452",
+      "descriptor_name": "Green Fluorescent Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049452",
+      "descriptor_name": "Green Fluorescent Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006367",
+      "descriptor_name": "HeLa Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007328",
+      "descriptor_name": "Insulin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000078790",
+      "descriptor_name": "Insulin Secretion",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D050417",
+      "descriptor_name": "Insulin-Secreting Cells",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D050417",
+      "descriptor_name": "Insulin-Secreting Cells",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D050417",
+      "descriptor_name": "Insulin-Secreting Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D050417",
+      "descriptor_name": "Insulin-Secreting Cells",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007515",
+      "descriptor_name": "Islets of Langerhans",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007515",
+      "descriptor_name": "Islets of Langerhans",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007515",
+      "descriptor_name": "Islets of Langerhans",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007515",
+      "descriptor_name": "Islets of Langerhans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018613",
+      "descriptor_name": "Microscopy, Confocal",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008856",
+      "descriptor_name": "Microscopy, Fluorescence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008954",
+      "descriptor_name": "Models, Biological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011993",
+      "descriptor_name": "Recombinant Fusion Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011993",
+      "descriptor_name": "Recombinant Fusion Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011993",
+      "descriptor_name": "Recombinant Fusion Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D022142",
+      "descriptor_name": "Secretory Vesicles",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D022142",
+      "descriptor_name": "Secretory Vesicles",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D022142",
+      "descriptor_name": "Secretory Vesicles",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015032",
+      "descriptor_name": "Zinc",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015032",
+      "descriptor_name": "Zinc",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015032",
+      "descriptor_name": "Zinc",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000075703",
+      "descriptor_name": "Zinc Transporter 8",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 7,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1242/jcs.03164",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S5677253",
+        "display_name": "Journal of Cell Science",
+        "issn_l": "0021-9533",
+        "issn": [
+          "0021-9533",
+          "1477-9137"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311847",
+        "host_organization_name": "The Company of Biologists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311847"
+        ],
+        "host_organization_lineage_names": [
+          "The Company of Biologists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://lirias.kuleuven.be/handle/123456789/10235",
+      "pdf_url": "https://lirias.kuleuven.be/bitstream/123456789/10235/1/16984975%28Chiementi.ZnT8%29JCellSci119.4199.06.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401954",
+        "display_name": "Lirias (KU Leuven)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I99464096",
+        "host_organization_name": "KU Leuven",
+        "host_organization_lineage": [
+          "https://openalex.org/I99464096"
+        ],
+        "host_organization_lineage_names": [
+          "KU Leuven"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://inserm.hal.science/inserm-00176696",
+      "pdf_url": "https://inserm.hal.science/inserm-00176696/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.hal.inserm.fr/inserm-00176696/file/Chimienti_2006_In_vivo_ME.pdf",
+      "pdf_url": "https://www.hal.inserm.fr/inserm-00176696/file/Chimienti_2006_In_vivo_ME.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.hal.inserm.fr/inserm-00176696/document",
+      "pdf_url": "https://www.hal.inserm.fr/inserm-00176696/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://inserm.hal.science/inserm-00176696/file/Chimienti_2006_In_vivo_ME.pdf",
+      "pdf_url": "https://inserm.hal.science/inserm-00176696/file/Chimienti_2006_In_vivo_ME.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16984975",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://lirias.kuleuven.be/handle/123456789/10235",
+    "pdf_url": "https://lirias.kuleuven.be/bitstream/123456789/10235/1/16984975%28Chiementi.ZnT8%29JCellSci119.4199.06.pdf",
+    "source": {
+      "id": "https://openalex.org/S4306401954",
+      "display_name": "Lirias (KU Leuven)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I99464096",
+      "host_organization_name": "KU Leuven",
+      "host_organization_lineage": [
+        "https://openalex.org/I99464096"
+      ],
+      "host_organization_lineage_names": [
+        "KU Leuven"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 48,
+  "referenced_works": [
+    "https://openalex.org/W1522924058",
+    "https://openalex.org/W1546288213",
+    "https://openalex.org/W1561410732",
+    "https://openalex.org/W1833675877",
+    "https://openalex.org/W1901783123",
+    "https://openalex.org/W1963661748",
+    "https://openalex.org/W1977636369",
+    "https://openalex.org/W1978153227",
+    "https://openalex.org/W1982650705",
+    "https://openalex.org/W1983418785",
+    "https://openalex.org/W1989257844",
+    "https://openalex.org/W1993044829",
+    "https://openalex.org/W1994470496",
+    "https://openalex.org/W1994486025",
+    "https://openalex.org/W1998420980",
+    "https://openalex.org/W1999319033",
+    "https://openalex.org/W1999519277",
+    "https://openalex.org/W2002871827",
+    "https://openalex.org/W2005347036",
+    "https://openalex.org/W2006544095",
+    "https://openalex.org/W2008603008",
+    "https://openalex.org/W2015180293",
+    "https://openalex.org/W2021209937",
+    "https://openalex.org/W2025969021",
+    "https://openalex.org/W2033837919",
+    "https://openalex.org/W2035748369",
+    "https://openalex.org/W2036227669",
+    "https://openalex.org/W2041704302",
+    "https://openalex.org/W2046164813",
+    "https://openalex.org/W2062229551",
+    "https://openalex.org/W2068264087",
+    "https://openalex.org/W2081330494",
+    "https://openalex.org/W2088805278",
+    "https://openalex.org/W2089560759",
+    "https://openalex.org/W2110652761",
+    "https://openalex.org/W2115337518",
+    "https://openalex.org/W2117919289",
+    "https://openalex.org/W2140927361",
+    "https://openalex.org/W2146718888",
+    "https://openalex.org/W2146877877",
+    "https://openalex.org/W2148175667",
+    "https://openalex.org/W2162184782",
+    "https://openalex.org/W2162265362",
+    "https://openalex.org/W2316416826",
+    "https://openalex.org/W2338220692",
+    "https://openalex.org/W2415663663",
+    "https://openalex.org/W2419673421",
+    "https://openalex.org/W2473427445"
+  ],
+  "related_works": [
+    "https://openalex.org/W2144747390",
+    "https://openalex.org/W2064538767",
+    "https://openalex.org/W2062334532",
+    "https://openalex.org/W2049316221",
+    "https://openalex.org/W2035378733",
+    "https://openalex.org/W2030768859",
+    "https://openalex.org/W2026226896",
+    "https://openalex.org/W1986775667",
+    "https://openalex.org/W1985965417",
+    "https://openalex.org/W1973049774"
+  ],
+  "abstract_inverted_index": {
+    "Insulin-secreting": [
+      0
+    ],
+    "pancreatic": [
+      1,
+      40,
+      85,
+      100,
+      178
+    ],
+    "beta": [
+      2,
+      43,
+      74,
+      109,
+      179
+    ],
+    "cells": [
+      3,
+      134
+    ],
+    "are": [
+      4
+    ],
+    "exceptionally": [
+      5
+    ],
+    "rich": [
+      6
+    ],
+    "in": [
+      7,
+      39,
+      57,
+      72,
+      83,
+      107,
+      115,
+      128,
+      177
+    ],
+    "zinc.": [
+      8
+    ],
+    "In": [
+      9,
+      76,
+      98
+    ],
+    "these": [
+      10,
+      116,
+      155
+    ],
+    "cells,": [
+      11,
+      44,
+      87,
+      102,
+      110,
+      143
+    ],
+    "zinc": [
+      12,
+      22,
+      55,
+      65,
+      93,
+      121,
+      127,
+      161,
+      170
+    ],
+    "is": [
+      13,
+      48,
+      164
+    ],
+    "required": [
+      14
+    ],
+    "for": [
+      15,
+      145,
+      168
+    ],
+    "zinc-insulin": [
+      16
+    ],
+    "crystallization": [
+      17
+    ],
+    "within": [
+      18
+    ],
+    "secretory": [
+      19
+    ],
+    "vesicles.": [
+      20,
+      59
+    ],
+    "Secreted": [
+      21
+    ],
+    "has": [
+      23
+    ],
+    "also": [
+      24
+    ],
+    "been": [
+      25
+    ],
+    "proposed": [
+      26
+    ],
+    "to": [
+      27
+    ],
+    "be": [
+      28
+    ],
+    "a": [
+      29,
+      63,
+      146,
+      165
+    ],
+    "paracrine": [
+      30
+    ],
+    "and": [
+      31,
+      36,
+      42,
+      88,
+      95,
+      111,
+      123,
+      172
+    ],
+    "autocrine": [
+      32
+    ],
+    "modulator": [
+      33
+    ],
+    "of": [
+      34,
+      174
+    ],
+    "glucagon": [
+      35
+    ],
+    "insulin": [
+      37,
+      71,
+      96,
+      114,
+      138,
+      175
+    ],
+    "secretion": [
+      38,
+      139,
+      176
+    ],
+    "alpha": [
+      41
+    ],
+    "respectively.": [
+      45
+    ],
+    "However,": [
+      46
+    ],
+    "little": [
+      47
+    ],
+    "known": [
+      49
+    ],
+    "about": [
+      50
+    ],
+    "the": [
+      51,
+      160
+    ],
+    "molecular": [
+      52
+    ],
+    "mechanisms": [
+      53
+    ],
+    "underlying": [
+      54
+    ],
+    "accumulation": [
+      56,
+      122,
+      171
+    ],
+    "insulin-containing": [
+      58
+    ],
+    "We": [
+      60
+    ],
+    "previously": [
+      61
+    ],
+    "identified": [
+      62
+    ],
+    "pancreas-specific": [
+      64
+    ],
+    "transporter,": [
+      66
+    ],
+    "ZnT-8,": [
+      67
+    ],
+    "which": [
+      68
+    ],
+    "colocalized": [
+      69,
+      112
+    ],
+    "with": [
+      70,
+      113,
+      141
+    ],
+    "cultured": [
+      73
+    ],
+    "cells.": [
+      75,
+      117,
+      131,
+      180
+    ],
+    "this": [
+      77
+    ],
+    "paper": [
+      78
+    ],
+    "we": [
+      79
+    ],
+    "studied": [
+      80
+    ],
+    "its": [
+      81,
+      89
+    ],
+    "localization": [
+      82
+    ],
+    "human": [
+      84,
+      99
+    ],
+    "islet": [
+      86,
+      101
+    ],
+    "effect": [
+      90
+    ],
+    "on": [
+      91
+    ],
+    "cellular": [
+      92
+    ],
+    "content": [
+      94
+    ],
+    "secretion.": [
+      97
+    ],
+    "ZnT-8": [
+      103,
+      118,
+      163
+    ],
+    "was": [
+      104
+    ],
+    "exclusively": [
+      105
+    ],
+    "expressed": [
+      106
+    ],
+    "insulin-producing": [
+      108
+    ],
+    "overexpression": [
+      119
+    ],
+    "stimulated": [
+      120
+    ],
+    "increased": [
+      124
+    ],
+    "total": [
+      125
+    ],
+    "intracellular": [
+      126
+    ],
+    "insulin-secreting": [
+      129
+    ],
+    "INS-1E": [
+      130
+    ],
+    "Furthermore,": [
+      132
+    ],
+    "ZnT-8-overexpressing": [
+      133
+    ],
+    "display": [
+      135
+    ],
+    "enhanced": [
+      136
+    ],
+    "glucose-stimulated": [
+      137
+    ],
+    "compared": [
+      140
+    ],
+    "control": [
+      142
+    ],
+    "only": [
+      144
+    ],
+    "high": [
+      147
+    ],
+    "glucose": [
+      148
+    ],
+    "challenge,": [
+      149
+    ],
+    "i.e.": [
+      150
+    ],
+    ">10": [
+      151
+    ],
+    "mM": [
+      152
+    ],
+    "glucose.": [
+      153
+    ],
+    "Altogether,": [
+      154
+    ],
+    "data": [
+      156
+    ],
+    "strongly": [
+      157
+    ],
+    "suggest": [
+      158
+    ],
+    "that": [
+      159
+    ],
+    "transporter": [
+      162
+    ],
+    "key": [
+      166
+    ],
+    "protein": [
+      167
+    ],
+    "both": [
+      169
+    ],
+    "regulation": [
+      173
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2137761662",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 33
+    }
+  ],
+  "updated_date": "2025-05-20T06:10:28.178849",
+  "created_date": "2016-06-24"
+}

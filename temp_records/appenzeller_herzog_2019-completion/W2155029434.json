@@ -1,0 +1,967 @@
+{
+  "id": "https://openalex.org/W2155029434",
+  "doi": "https://doi.org/10.1016/s0165-0270(03)00173-0",
+  "title": "Methods for studying synaptosomal copper release",
+  "display_name": "Methods for studying synaptosomal copper release",
+  "publication_year": 2003,
+  "publication_date": "2003-08-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2155029434",
+    "doi": "https://doi.org/10.1016/s0165-0270(03)00173-0",
+    "mag": "2155029434",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/12948559"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/s0165-0270(03)00173-0",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S132751470",
+      "display_name": "Journal of Neuroscience Methods",
+      "issn_l": "0165-0270",
+      "issn": [
+        "0165-0270",
+        "1872-678X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://pure.mpg.de/pubman/item/item_599073_5/component/file_599072/124269.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5049495902",
+        "display_name": "Alexander Hopt",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I8204097",
+          "display_name": "Ludwig-Maximilians-Universität München",
+          "ror": "https://ror.org/05591te55",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Alexander Hopt",
+      "raw_affiliation_strings": [
+        "Institut für Neuropathologie, Ludwig-Maximilians-Universität München, Marchioninistr. 17, 81377 München, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut für Neuropathologie, Ludwig-Maximilians-Universität München, Marchioninistr. 17, 81377 München, Germany",
+          "institution_ids": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5090680664",
+        "display_name": "Stefan Korte",
+        "orcid": "https://orcid.org/0000-0001-9273-3727"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I8204097",
+          "display_name": "Ludwig-Maximilians-Universität München",
+          "ror": "https://ror.org/05591te55",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stefan Korte",
+      "raw_affiliation_strings": [
+        "Institut für Neuropathologie, Ludwig-Maximilians-Universität München, Marchioninistr. 17, 81377 München, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut für Neuropathologie, Ludwig-Maximilians-Universität München, Marchioninistr. 17, 81377 München, Germany",
+          "institution_ids": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057720849",
+        "display_name": "H. Fink",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I62916508",
+          "display_name": "Technical University of Munich",
+          "ror": "https://ror.org/02kkvpp62",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I62916508"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Herbert Fink",
+      "raw_affiliation_strings": [
+        "Institut für Wasserchemie, Technische Universität München, Marchioninistr. 17, München, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut für Wasserchemie, Technische Universität München, Marchioninistr. 17, München, Germany",
+          "institution_ids": [
+            "https://openalex.org/I62916508"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035665821",
+        "display_name": "Ulrich Panne",
+        "orcid": "https://orcid.org/0000-0001-6044-4998"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I62916508",
+          "display_name": "Technical University of Munich",
+          "ror": "https://ror.org/02kkvpp62",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I62916508"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ulrich Panne",
+      "raw_affiliation_strings": [
+        "Institut für Wasserchemie, Technische Universität München, Marchioninistr. 17, München, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut für Wasserchemie, Technische Universität München, Marchioninistr. 17, München, Germany",
+          "institution_ids": [
+            "https://openalex.org/I62916508"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5015095882",
+        "display_name": "Reinhard Nießner",
+        "orcid": "https://orcid.org/0000-0002-3781-0248"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I62916508",
+          "display_name": "Technical University of Munich",
+          "ror": "https://ror.org/02kkvpp62",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I62916508"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Reinhard Niessner",
+      "raw_affiliation_strings": [
+        "Institut für Wasserchemie, Technische Universität München, Marchioninistr. 17, München, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut für Wasserchemie, Technische Universität München, Marchioninistr. 17, München, Germany",
+          "institution_ids": [
+            "https://openalex.org/I62916508"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077214003",
+        "display_name": "Reinhard Jahn",
+        "orcid": "https://orcid.org/0000-0003-1542-3498"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210131661",
+          "display_name": "Max Planck Institute for Biophysical Chemistry",
+          "ror": "https://ror.org/03e76ya46",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210131661"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Reinhard Jahn",
+      "raw_affiliation_strings": [
+        "Abteilung Neurobiologie, Max-Planck Institut für biophysikalische Chemie, Am Faßberg, Göttingen, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Abteilung Neurobiologie, Max-Planck Institut für biophysikalische Chemie, Am Faßberg, Göttingen, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210131661"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103372260",
+        "display_name": "Hans A. Kretzschmar",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I8204097",
+          "display_name": "Ludwig-Maximilians-Universität München",
+          "ror": "https://ror.org/05591te55",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hans Kretzschmar",
+      "raw_affiliation_strings": [
+        "Institut für Neuropathologie, Ludwig-Maximilians-Universität München, Marchioninistr. 17, 81377 München, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut für Neuropathologie, Ludwig-Maximilians-Universität München, Marchioninistr. 17, 81377 München, Germany",
+          "institution_ids": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5069184646",
+        "display_name": "Jochen Herms",
+        "orcid": "https://orcid.org/0000-0002-6201-1042"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I8204097",
+          "display_name": "Ludwig-Maximilians-Universität München",
+          "ror": "https://ror.org/05591te55",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Jochen Herms",
+      "raw_affiliation_strings": [
+        "Institut für Neuropathologie, Ludwig-Maximilians-Universität München, Marchioninistr. 17, 81377 München, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut für Neuropathologie, Ludwig-Maximilians-Universität München, Marchioninistr. 17, 81377 München, Germany",
+          "institution_ids": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5049495902",
+    "https://openalex.org/A5069184646"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I8204097",
+    "https://openalex.org/I8204097"
+  ],
+  "apc_list": {
+    "value": 3290,
+    "currency": "USD",
+    "value_usd": 3290
+  },
+  "apc_paid": null,
+  "fwci": 2.846,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 137,
+  "citation_normalized_percentile": {
+    "value": 0.954941,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "128",
+    "issue": "1-2",
+    "first_page": "159",
+    "last_page": "172"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10915",
+    "display_name": "Trace Elements in Health",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10915",
+      "display_name": "Trace Elements in Health",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10086",
+      "display_name": "Alzheimer's disease research and treatments",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10077",
+      "display_name": "Neuroscience and Neuropharmacology Research",
+      "score": 0.9979,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/divalent",
+      "display_name": "Divalent",
+      "score": 0.73728657
+    },
+    {
+      "id": "https://openalex.org/keywords/dissociation-constant",
+      "display_name": "Dissociation constant",
+      "score": 0.52346694
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2778617687",
+      "wikidata": "https://www.wikidata.org/wiki/Q2448456",
+      "display_name": "Fluorophore",
+      "level": 3,
+      "score": 0.8056773
+    },
+    {
+      "id": "https://openalex.org/C74884574",
+      "wikidata": "https://www.wikidata.org/wiki/Q171407",
+      "display_name": "Divalent",
+      "level": 2,
+      "score": 0.73728657
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.7197854
+    },
+    {
+      "id": "https://openalex.org/C207001950",
+      "wikidata": "https://www.wikidata.org/wiki/Q141124",
+      "display_name": "In vivo",
+      "level": 2,
+      "score": 0.66318345
+    },
+    {
+      "id": "https://openalex.org/C91881484",
+      "wikidata": "https://www.wikidata.org/wiki/Q191807",
+      "display_name": "Fluorescence",
+      "level": 2,
+      "score": 0.6393601
+    },
+    {
+      "id": "https://openalex.org/C544778455",
+      "wikidata": "https://www.wikidata.org/wiki/Q753",
+      "display_name": "Copper",
+      "level": 2,
+      "score": 0.55848974
+    },
+    {
+      "id": "https://openalex.org/C74998103",
+      "wikidata": "https://www.wikidata.org/wiki/Q898254",
+      "display_name": "Dissociation constant",
+      "level": 3,
+      "score": 0.52346694
+    },
+    {
+      "id": "https://openalex.org/C102931765",
+      "wikidata": "https://www.wikidata.org/wiki/Q189673",
+      "display_name": "Dissociation (chemistry)",
+      "level": 2,
+      "score": 0.5002711
+    },
+    {
+      "id": "https://openalex.org/C12554922",
+      "wikidata": "https://www.wikidata.org/wiki/Q7100",
+      "display_name": "Biophysics",
+      "level": 1,
+      "score": 0.4824284
+    },
+    {
+      "id": "https://openalex.org/C113196181",
+      "wikidata": "https://www.wikidata.org/wiki/Q485223",
+      "display_name": "Analytical Chemistry (journal)",
+      "level": 2,
+      "score": 0.34610456
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.23194197
+    },
+    {
+      "id": "https://openalex.org/C43617362",
+      "wikidata": "https://www.wikidata.org/wiki/Q170050",
+      "display_name": "Chromatography",
+      "level": 1,
+      "score": 0.21519402
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.10677734
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.093102425
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C150903083",
+      "wikidata": "https://www.wikidata.org/wiki/Q7108",
+      "display_name": "Biotechnology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003300",
+      "descriptor_name": "Copper",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003300",
+      "descriptor_name": "Copper",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013574",
+      "descriptor_name": "Synaptosomes",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013574",
+      "descriptor_name": "Synaptosomes",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002417",
+      "descriptor_name": "Cattle",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002463",
+      "descriptor_name": "Cell Membrane Permeability",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002463",
+      "descriptor_name": "Cell Membrane Permeability",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019439",
+      "descriptor_name": "Chromaffin Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019439",
+      "descriptor_name": "Chromaffin Cells",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019439",
+      "descriptor_name": "Chromaffin Cells",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003300",
+      "descriptor_name": "Copper",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013058",
+      "descriptor_name": "Mass Spectrometry",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013058",
+      "descriptor_name": "Mass Spectrometry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011166",
+      "descriptor_name": "Porphyrins",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011166",
+      "descriptor_name": "Porphyrins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013574",
+      "descriptor_name": "Synaptosomes",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/s0165-0270(03)00173-0",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S132751470",
+        "display_name": "Journal of Neuroscience Methods",
+        "issn_l": "0165-0270",
+        "issn": [
+          "0165-0270",
+          "1872-678X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/11858/00-001M-0000-0012-F01E-6",
+      "pdf_url": "https://pure.mpg.de/pubman/item/item_599073_5/component/file_599072/124269.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400655",
+        "display_name": "MPG.PuRe (Max Planck Society)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I149899117",
+        "host_organization_name": "Max Planck Society",
+        "host_organization_lineage": [
+          "https://openalex.org/I149899117"
+        ],
+        "host_organization_lineage_names": [
+          "Max Planck Society"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/12948559",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://hdl.handle.net/11858/00-001M-0000-0012-F01E-6",
+    "pdf_url": "https://pure.mpg.de/pubman/item/item_599073_5/component/file_599072/124269.pdf",
+    "source": {
+      "id": "https://openalex.org/S4306400655",
+      "display_name": "MPG.PuRe (Max Planck Society)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I149899117",
+      "host_organization_name": "Max Planck Society",
+      "host_organization_lineage": [
+        "https://openalex.org/I149899117"
+      ],
+      "host_organization_lineage_names": [
+        "Max Planck Society"
+      ],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/6",
+      "display_name": "Clean water and sanitation",
+      "score": 0.43
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 42,
+  "referenced_works": [
+    "https://openalex.org/W1550540174",
+    "https://openalex.org/W1571965370",
+    "https://openalex.org/W1601936385",
+    "https://openalex.org/W1606920154",
+    "https://openalex.org/W1704732331",
+    "https://openalex.org/W1956314911",
+    "https://openalex.org/W1968363725",
+    "https://openalex.org/W1981891596",
+    "https://openalex.org/W1982807202",
+    "https://openalex.org/W1989137361",
+    "https://openalex.org/W1989225220",
+    "https://openalex.org/W1989403800",
+    "https://openalex.org/W1993037855",
+    "https://openalex.org/W2017797090",
+    "https://openalex.org/W2019279182",
+    "https://openalex.org/W2019869230",
+    "https://openalex.org/W2034791541",
+    "https://openalex.org/W2038554778",
+    "https://openalex.org/W2042582424",
+    "https://openalex.org/W2045414486",
+    "https://openalex.org/W2049055716",
+    "https://openalex.org/W2054978422",
+    "https://openalex.org/W2055690153",
+    "https://openalex.org/W2057679401",
+    "https://openalex.org/W2068393756",
+    "https://openalex.org/W2069246118",
+    "https://openalex.org/W2073839269",
+    "https://openalex.org/W2075556587",
+    "https://openalex.org/W2085271736",
+    "https://openalex.org/W2129995310",
+    "https://openalex.org/W2130953154",
+    "https://openalex.org/W2138727954",
+    "https://openalex.org/W2141260882",
+    "https://openalex.org/W2152081523",
+    "https://openalex.org/W2238132545",
+    "https://openalex.org/W2258798914",
+    "https://openalex.org/W2462638022",
+    "https://openalex.org/W2767369023",
+    "https://openalex.org/W3129292152",
+    "https://openalex.org/W4236811683",
+    "https://openalex.org/W4300569677",
+    "https://openalex.org/W4388245583"
+  ],
+  "related_works": [
+    "https://openalex.org/W4302022927",
+    "https://openalex.org/W4242560470",
+    "https://openalex.org/W2772468872",
+    "https://openalex.org/W2342794938",
+    "https://openalex.org/W2198056047",
+    "https://openalex.org/W2071724032",
+    "https://openalex.org/W2071030197",
+    "https://openalex.org/W2022926363",
+    "https://openalex.org/W2013621820",
+    "https://openalex.org/W1973992812"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2155029434",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 11
+    }
+  ],
+  "updated_date": "2025-05-19T07:15:54.560312",
+  "created_date": "2016-06-24"
+}

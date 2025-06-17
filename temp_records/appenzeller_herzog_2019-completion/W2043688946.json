@@ -1,0 +1,1093 @@
+{
+  "id": "https://openalex.org/W2043688946",
+  "doi": "https://doi.org/10.1016/j.virusres.2006.09.011",
+  "title": "Hepatitis B virus X protein (HBx) activates ATF6 and IRE1-XBP1 pathways of unfolded protein response",
+  "display_name": "Hepatitis B virus X protein (HBx) activates ATF6 and IRE1-XBP1 pathways of unfolded protein response",
+  "publication_year": 2006,
+  "publication_date": "2006-11-08",
+  "ids": {
+    "openalex": "https://openalex.org/W2043688946",
+    "doi": "https://doi.org/10.1016/j.virusres.2006.09.011",
+    "mag": "2043688946",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/17092596"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.virusres.2006.09.011",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S114911520",
+      "display_name": "Virus Research",
+      "issn_l": "0168-1702",
+      "issn": [
+        "0168-1702",
+        "1872-7492"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5028354954",
+        "display_name": "Baozong Li",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Baozong Li",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059402212",
+        "display_name": "Bo Gao",
+        "orcid": "https://orcid.org/0000-0002-4029-1258"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bo Gao",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031173121",
+        "display_name": "Linbai Ye",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Linbai Ye",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100627388",
+        "display_name": "Xue Han",
+        "orcid": "https://orcid.org/0000-0002-5276-8631"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xue Han",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100392031",
+        "display_name": "Wei Wang",
+        "orcid": "https://orcid.org/0000-0002-6179-4188"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wei Wang",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101183967",
+        "display_name": "Lingbao Kong",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lingbao Kong",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088766446",
+        "display_name": "Xiaonan Fang",
+        "orcid": "https://orcid.org/0000-0002-4787-5977"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xiaonan Fang",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102859124",
+        "display_name": "Yingchun Zeng",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yingchun Zeng",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110405039",
+        "display_name": "Hong Zheng",
+        "orcid": "https://orcid.org/0000-0002-8108-3009"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hong Zheng",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100371470",
+        "display_name": "Shanshan Li",
+        "orcid": "https://orcid.org/0000-0002-0359-2369"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shanshan Li",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103441638",
+        "display_name": "Zhenghui Wu",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhenghui Wu",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5100339208",
+        "display_name": "Ye Li",
+        "orcid": "https://orcid.org/0000-0002-1624-8831"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37461747",
+          "display_name": "Wuhan University",
+          "ror": "https://ror.org/033vjfk17",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Li Ye",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Virology, College of Life Sciences, Wuhan University, Wuhan, Hubei 430072, China.",
+          "institution_ids": [
+            "https://openalex.org/I37461747"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2650,
+    "currency": "USD",
+    "value_usd": 2650
+  },
+  "apc_paid": null,
+  "fwci": 1.489,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 132,
+  "citation_normalized_percentile": {
+    "value": 0.876745,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "124",
+    "issue": "1-2",
+    "first_page": "44",
+    "last_page": "49"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11150",
+    "display_name": "Endoplasmic Reticulum Stress and Disease",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1307",
+      "display_name": "Cell Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11150",
+      "display_name": "Endoplasmic Reticulum Stress and Disease",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10351",
+      "display_name": "Liver Disease Diagnosis and Treatment",
+      "score": 0.9664,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10587",
+      "display_name": "Autophagy in Disease and Therapy",
+      "score": 0.9574,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hbx",
+      "display_name": "HBx",
+      "score": 0.9566451
+    },
+    {
+      "id": "https://openalex.org/keywords/xbp1",
+      "display_name": "XBP1",
+      "score": 0.8758266
+    },
+    {
+      "id": "https://openalex.org/keywords/atf6",
+      "display_name": "ATF6",
+      "score": 0.87273705
+    },
+    {
+      "id": "https://openalex.org/keywords/atf4",
+      "display_name": "ATF4",
+      "score": 0.52887297
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C67567795",
+      "wikidata": "https://www.wikidata.org/wiki/Q5629069",
+      "display_name": "HBx",
+      "level": 4,
+      "score": 0.9566451
+    },
+    {
+      "id": "https://openalex.org/C139447449",
+      "wikidata": "https://www.wikidata.org/wiki/Q14633900",
+      "display_name": "Unfolded protein response",
+      "level": 3,
+      "score": 0.93411374
+    },
+    {
+      "id": "https://openalex.org/C2781331208",
+      "wikidata": "https://www.wikidata.org/wiki/Q18032378",
+      "display_name": "XBP1",
+      "level": 5,
+      "score": 0.8758266
+    },
+    {
+      "id": "https://openalex.org/C2778997996",
+      "wikidata": "https://www.wikidata.org/wiki/Q18036598",
+      "display_name": "ATF6",
+      "level": 4,
+      "score": 0.87273705
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.6653887
+    },
+    {
+      "id": "https://openalex.org/C158617107",
+      "wikidata": "https://www.wikidata.org/wiki/Q79927",
+      "display_name": "Endoplasmic reticulum",
+      "level": 2,
+      "score": 0.63227814
+    },
+    {
+      "id": "https://openalex.org/C2780900454",
+      "wikidata": "https://www.wikidata.org/wiki/Q21102119",
+      "display_name": "ATF4",
+      "level": 4,
+      "score": 0.52887297
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.50357
+    },
+    {
+      "id": "https://openalex.org/C2780593183",
+      "wikidata": "https://www.wikidata.org/wiki/Q6844",
+      "display_name": "Hepatitis B virus",
+      "level": 3,
+      "score": 0.3174521
+    },
+    {
+      "id": "https://openalex.org/C159047783",
+      "wikidata": "https://www.wikidata.org/wiki/Q7215",
+      "display_name": "Virology",
+      "level": 1,
+      "score": 0.16819984
+    },
+    {
+      "id": "https://openalex.org/C67705224",
+      "wikidata": "https://www.wikidata.org/wiki/Q11053",
+      "display_name": "RNA",
+      "level": 3,
+      "score": 0.14273092
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.11946115
+    },
+    {
+      "id": "https://openalex.org/C2522874641",
+      "wikidata": "https://www.wikidata.org/wiki/Q808",
+      "display_name": "Virus",
+      "level": 2,
+      "score": 0.11427677
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.07784021
+    },
+    {
+      "id": "https://openalex.org/C54458228",
+      "wikidata": "https://www.wikidata.org/wiki/Q237218",
+      "display_name": "RNA splicing",
+      "level": 4,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D051702",
+      "descriptor_name": "Activating Transcription Factor 6",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004268",
+      "descriptor_name": "DNA-Binding Proteins",
+      "qualifier_ui": "Q000096",
+      "qualifier_name": "biosynthesis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006515",
+      "descriptor_name": "Hepatitis B virus",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009687",
+      "descriptor_name": "Nuclear Proteins",
+      "qualifier_ui": "Q000096",
+      "qualifier_name": "biosynthesis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015534",
+      "descriptor_name": "Trans-Activators",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D051702",
+      "descriptor_name": "Activating Transcription Factor 6",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015153",
+      "descriptor_name": "Blotting, Western",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002460",
+      "descriptor_name": "Cell Line",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004268",
+      "descriptor_name": "DNA-Binding Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017930",
+      "descriptor_name": "Genes, Reporter",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006515",
+      "descriptor_name": "Hepatitis B virus",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006515",
+      "descriptor_name": "Hepatitis B virus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008156",
+      "descriptor_name": "Luciferases",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008156",
+      "descriptor_name": "Luciferases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008156",
+      "descriptor_name": "Luciferases",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009687",
+      "descriptor_name": "Nuclear Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017918",
+      "descriptor_name": "Orthohepadnavirus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010957",
+      "descriptor_name": "Plasmids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000071701",
+      "descriptor_name": "Regulatory Factor X Transcription Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015534",
+      "descriptor_name": "Trans-Activators",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015534",
+      "descriptor_name": "Trans-Activators",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014157",
+      "descriptor_name": "Transcription Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D054334",
+      "descriptor_name": "Viral Regulatory and Accessory Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000071717",
+      "descriptor_name": "X-Box Binding Protein 1",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.virusres.2006.09.011",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S114911520",
+        "display_name": "Virus Research",
+        "issn_l": "0168-1702",
+        "issn": [
+          "0168-1702",
+          "1872-7492"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17092596",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.73,
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 29,
+  "referenced_works": [
+    "https://openalex.org/W1489883635",
+    "https://openalex.org/W1546139069",
+    "https://openalex.org/W1862022351",
+    "https://openalex.org/W1970090817",
+    "https://openalex.org/W1986987167",
+    "https://openalex.org/W1988482079",
+    "https://openalex.org/W2005383067",
+    "https://openalex.org/W2007251666",
+    "https://openalex.org/W2008734149",
+    "https://openalex.org/W2062918974",
+    "https://openalex.org/W2071273959",
+    "https://openalex.org/W2074134609",
+    "https://openalex.org/W2084944302",
+    "https://openalex.org/W2087564721",
+    "https://openalex.org/W2093813815",
+    "https://openalex.org/W2104085655",
+    "https://openalex.org/W2106314483",
+    "https://openalex.org/W2122647692",
+    "https://openalex.org/W2125546678",
+    "https://openalex.org/W2127639686",
+    "https://openalex.org/W2127906377",
+    "https://openalex.org/W2137230586",
+    "https://openalex.org/W2141636174",
+    "https://openalex.org/W2143116542",
+    "https://openalex.org/W2152126682",
+    "https://openalex.org/W2155874562",
+    "https://openalex.org/W2161083011",
+    "https://openalex.org/W2162299386",
+    "https://openalex.org/W2163568031"
+  ],
+  "related_works": [
+    "https://openalex.org/W4366989473",
+    "https://openalex.org/W2948718801",
+    "https://openalex.org/W2334966793",
+    "https://openalex.org/W2198714286",
+    "https://openalex.org/W2052034388",
+    "https://openalex.org/W2030522721",
+    "https://openalex.org/W1992319922",
+    "https://openalex.org/W1986045624",
+    "https://openalex.org/W1978188507",
+    "https://openalex.org/W1803870220"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2043688946",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 9
+    }
+  ],
+  "updated_date": "2025-05-24T11:51:38.288249",
+  "created_date": "2016-06-24"
+}

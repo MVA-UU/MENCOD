@@ -1,0 +1,803 @@
+{
+  "id": "https://openalex.org/W2011022140",
+  "doi": null,
+  "title": "Genetics of Parkinson's disease.",
+  "display_name": "Genetics of Parkinson's disease.",
+  "publication_year": 2004,
+  "publication_date": "2004-09-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2011022140",
+    "mag": "2011022140",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/22033678",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3181809"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/11697518",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5067744605",
+        "display_name": "Thomas Gasser",
+        "orcid": "https://orcid.org/0000-0002-1069-1146"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I8087733",
+          "display_name": "University of Tübingen",
+          "ror": "https://ror.org/03a1kwz48",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I8087733"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210141865",
+          "display_name": "Hertie Institute for Clinical Brain Research",
+          "ror": "https://ror.org/04zzwzx41",
+          "country_code": "DE",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210141865",
+            "https://openalex.org/I8087733"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Thomas Gasser",
+      "raw_affiliation_strings": [
+        "Department of Neurodegenerative Diseases, Hertie-Institute for Clinical Brain Research, University of Tübingen, Tübingen, Germany."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurodegenerative Diseases, Hertie-Institute for Clinical Brain Research, University of Tübingen, Tübingen, Germany.",
+          "institution_ids": [
+            "https://openalex.org/I8087733",
+            "https://openalex.org/I4210141865"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5067744605"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I8087733",
+    "https://openalex.org/I4210141865"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 8.862,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 110,
+  "citation_normalized_percentile": {
+    "value": 0.857409,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "6",
+    "issue": "3",
+    "first_page": "295",
+    "last_page": "301"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10085",
+    "display_name": "Parkinson's Disease Mechanisms and Treatments",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2728",
+      "display_name": "Neurology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10085",
+      "display_name": "Parkinson's Disease Mechanisms and Treatments",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13481",
+      "display_name": "Neurological diseases and metabolism",
+      "score": 0.9906,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10949",
+      "display_name": "Genetic Neurodegenerative Diseases",
+      "score": 0.9876,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/lewy-body",
+      "display_name": "Lewy body",
+      "score": 0.5799195
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777668072",
+      "wikidata": "https://www.wikidata.org/wiki/Q2472777",
+      "display_name": "Parkin",
+      "level": 4,
+      "score": 0.9197681
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.7773622
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.65997744
+    },
+    {
+      "id": "https://openalex.org/C2779734285",
+      "wikidata": "https://www.wikidata.org/wiki/Q11085",
+      "display_name": "Parkinson's disease",
+      "level": 3,
+      "score": 0.589276
+    },
+    {
+      "id": "https://openalex.org/C2779097696",
+      "wikidata": "https://www.wikidata.org/wiki/Q1822234",
+      "display_name": "Lewy body",
+      "level": 4,
+      "score": 0.5799195
+    },
+    {
+      "id": "https://openalex.org/C2776525014",
+      "wikidata": "https://www.wikidata.org/wiki/Q1531991",
+      "display_name": "Parkinsonism",
+      "level": 3,
+      "score": 0.5307137
+    },
+    {
+      "id": "https://openalex.org/C501734568",
+      "wikidata": "https://www.wikidata.org/wiki/Q42918",
+      "display_name": "Mutation",
+      "level": 3,
+      "score": 0.4814831
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.46331787
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.3302018
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.18954864
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.15025869
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/11697518",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 53,
+  "referenced_works": [
+    "https://openalex.org/W1529474377",
+    "https://openalex.org/W1550876205",
+    "https://openalex.org/W1603797935",
+    "https://openalex.org/W1618846043",
+    "https://openalex.org/W1877873625",
+    "https://openalex.org/W1965778124",
+    "https://openalex.org/W1967196887",
+    "https://openalex.org/W1970687029",
+    "https://openalex.org/W1983951782",
+    "https://openalex.org/W1986188355",
+    "https://openalex.org/W1987041769",
+    "https://openalex.org/W1990115112",
+    "https://openalex.org/W1994715640",
+    "https://openalex.org/W2001783959",
+    "https://openalex.org/W2007316513",
+    "https://openalex.org/W2008825369",
+    "https://openalex.org/W2011603170",
+    "https://openalex.org/W2040140774",
+    "https://openalex.org/W2042201192",
+    "https://openalex.org/W2051087311",
+    "https://openalex.org/W2062895765",
+    "https://openalex.org/W2075170646",
+    "https://openalex.org/W2076344205",
+    "https://openalex.org/W2076634545",
+    "https://openalex.org/W2082471010",
+    "https://openalex.org/W2091265794",
+    "https://openalex.org/W2094907890",
+    "https://openalex.org/W2098525070",
+    "https://openalex.org/W2104382960",
+    "https://openalex.org/W2105631970",
+    "https://openalex.org/W2107977469",
+    "https://openalex.org/W2108134679",
+    "https://openalex.org/W2110106470",
+    "https://openalex.org/W2113352333",
+    "https://openalex.org/W2116229231",
+    "https://openalex.org/W2118544659",
+    "https://openalex.org/W2119520931",
+    "https://openalex.org/W2123431154",
+    "https://openalex.org/W2125427342",
+    "https://openalex.org/W2129676131",
+    "https://openalex.org/W2134412560",
+    "https://openalex.org/W2136388422",
+    "https://openalex.org/W2140647923",
+    "https://openalex.org/W2150469601",
+    "https://openalex.org/W2150656456",
+    "https://openalex.org/W2151198603",
+    "https://openalex.org/W2152756396",
+    "https://openalex.org/W2170748127",
+    "https://openalex.org/W2171205749",
+    "https://openalex.org/W2317804643",
+    "https://openalex.org/W2436580327",
+    "https://openalex.org/W3145067819",
+    "https://openalex.org/W4248000073"
+  ],
+  "related_works": [
+    "https://openalex.org/W4381488107",
+    "https://openalex.org/W4237883097",
+    "https://openalex.org/W4211142735",
+    "https://openalex.org/W2422205228",
+    "https://openalex.org/W2397255951",
+    "https://openalex.org/W2169059319",
+    "https://openalex.org/W2150348503",
+    "https://openalex.org/W1969611978",
+    "https://openalex.org/W1942166399",
+    "https://openalex.org/W1529474377"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      117
+    ],
+    "etiology": [
+      1
+    ],
+    "of": [
+      2,
+      5,
+      26,
+      39,
+      46,
+      75,
+      80,
+      91,
+      99,
+      111,
+      115,
+      120,
+      151
+    ],
+    "most": [
+      3
+    ],
+    "cases": [
+      4
+    ],
+    "Parkinson's": [
+      6
+    ],
+    "disease": [
+      7
+    ],
+    "(PD)": [
+      8
+    ],
+    "remains": [
+      9
+    ],
+    "unknown.": [
+      10
+    ],
+    "In": [
+      11
+    ],
+    "recent": [
+      12,
+      118
+    ],
+    "years,": [
+      13
+    ],
+    "however,": [
+      14
+    ],
+    "research": [
+      15
+    ],
+    "has": [
+      16
+    ],
+    "successfully": [
+      17
+    ],
+    "focused": [
+      18
+    ],
+    "on": [
+      19
+    ],
+    "genetic": [
+      20,
+      44
+    ],
+    "factors": [
+      21
+    ],
+    "contributing": [
+      22
+    ],
+    "to": [
+      23,
+      56,
+      72,
+      84
+    ],
+    "the": [
+      24,
+      40,
+      51,
+      65,
+      73,
+      77,
+      92,
+      97,
+      102,
+      108,
+      129,
+      136,
+      141,
+      149
+    ],
+    "degeneration": [
+      25
+    ],
+    "dopaminergic": [
+      27
+    ],
+    "neurons.": [
+      28
+    ],
+    "Causative": [
+      29
+    ],
+    "mutations": [
+      30,
+      87,
+      127
+    ],
+    "have": [
+      31,
+      70,
+      134
+    ],
+    "been": [
+      32
+    ],
+    "identified": [
+      33
+    ],
+    "in": [
+      34,
+      64,
+      101,
+      107,
+      128
+    ],
+    "several": [
+      35
+    ],
+    "monogenically": [
+      36
+    ],
+    "inherited": [
+      37
+    ],
+    "forms": [
+      38,
+      45,
+      114,
+      124
+    ],
+    "disease.": [
+      41
+    ],
+    "Although": [
+      42
+    ],
+    "these": [
+      43
+    ],
+    "PD": [
+      47
+    ],
+    "are": [
+      48,
+      54,
+      61
+    ],
+    "usually": [
+      49
+    ],
+    "rare,": [
+      50
+    ],
+    "gene": [
+      52
+    ],
+    "discoveries": [
+      53,
+      119
+    ],
+    "likely": [
+      55
+    ],
+    "identify": [
+      57
+    ],
+    "molecular": [
+      58,
+      109
+    ],
+    "pathways": [
+      59
+    ],
+    "that": [
+      60
+    ],
+    "also": [
+      62
+    ],
+    "relevant": [
+      63
+    ],
+    "sporadic": [
+      66
+    ],
+    "disorder.": [
+      67
+    ],
+    "These": [
+      68
+    ],
+    "studies": [
+      69
+    ],
+    "led": [
+      71
+    ],
+    "identification": [
+      74
+    ],
+    "(i)": [
+      76
+    ],
+    "central": [
+      78
+    ],
+    "role": [
+      79
+    ],
+    "α-synuclein": [
+      81,
+      93
+    ],
+    "aggregation,": [
+      82
+    ],
+    "secondary": [
+      83
+    ],
+    "either": [
+      85
+    ],
+    "point": [
+      86
+    ],
+    "or": [
+      88
+    ],
+    "an": [
+      89
+    ],
+    "amplification": [
+      90
+    ],
+    "gene;": [
+      94
+    ],
+    "and": [
+      95,
+      132,
+      140
+    ],
+    "(ii)": [
+      96
+    ],
+    "relevance": [
+      98
+    ],
+    "defects": [
+      100
+    ],
+    "proteasomal": [
+      103
+    ],
+    "protein": [
+      104
+    ],
+    "degradation": [
+      105
+    ],
+    "pathway": [
+      106
+    ],
+    "pathogenesis": [
+      110
+    ],
+    "recessive": [
+      112,
+      123
+    ],
+    "parkin-linked": [
+      113
+    ],
+    "PD.": [
+      116
+    ],
+    "two": [
+      121
+    ],
+    "additional": [
+      122
+    ],
+    "associated": [
+      125
+    ],
+    "with": [
+      126
+    ],
+    "genes": [
+      130
+    ],
+    "DJ-1": [
+      131
+    ],
+    "PINK1": [
+      133
+    ],
+    "brought": [
+      135
+    ],
+    "mitochondrial": [
+      137
+    ],
+    "energy": [
+      138
+    ],
+    "metabolism": [
+      139
+    ],
+    "cell's": [
+      142
+    ],
+    "defence": [
+      143
+    ],
+    "against": [
+      144
+    ],
+    "toxic": [
+      145
+    ],
+    "free": [
+      146
+    ],
+    "radicals": [
+      147
+    ],
+    "into": [
+      148
+    ],
+    "focus": [
+      150
+    ],
+    "research.": [
+      152
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2011022140",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-05-22T13:05:25.918489",
+  "created_date": "2016-06-24"
+}

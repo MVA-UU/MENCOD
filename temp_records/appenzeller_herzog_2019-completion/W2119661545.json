@@ -1,0 +1,1505 @@
+{
+  "id": "https://openalex.org/W2119661545",
+  "doi": "https://doi.org/10.1128/ec.00077-07",
+  "title": "<i>Saccharomyces cerevisiae</i> Vacuole in Zinc Storage and Intracellular Zinc Distribution",
+  "display_name": "<i>Saccharomyces cerevisiae</i> Vacuole in Zinc Storage and Intracellular Zinc Distribution",
+  "publication_year": 2007,
+  "publication_date": "2007-05-26",
+  "ids": {
+    "openalex": "https://openalex.org/W2119661545",
+    "doi": "https://doi.org/10.1128/ec.00077-07",
+    "mag": "2119661545",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/17526722",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/1951117"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1128/ec.00077-07",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S177547185",
+      "display_name": "Eukaryotic Cell",
+      "issn_l": "1535-9786",
+      "issn": [
+        "1535-9786",
+        "1535-9778"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320263",
+      "host_organization_name": "American Society for Microbiology",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320263"
+      ],
+      "host_organization_lineage_names": [
+        "American Society for Microbiology"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1128/ec.00077-07",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5057960406",
+        "display_name": "Claudia Simm",
+        "orcid": "https://orcid.org/0000-0002-1747-0418"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Claudia Simm",
+      "raw_affiliation_strings": [
+        "Department of Nutritional Sciences, University of Wisconsin—Madison, Madison, Wisconsin 53706"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Nutritional Sciences, University of Wisconsin—Madison, Madison, Wisconsin 53706",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031951556",
+        "display_name": "Brett Lahner",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I219193219",
+          "display_name": "Purdue University West Lafayette",
+          "ror": "https://ror.org/02dqehb95",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I219193219"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brett Lahner",
+      "raw_affiliation_strings": [
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, Indiana 47907-2010"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, Indiana 47907-2010",
+          "institution_ids": [
+            "https://openalex.org/I219193219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044903153",
+        "display_name": "David E. Salt",
+        "orcid": "https://orcid.org/0000-0003-0283-0991"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I219193219",
+          "display_name": "Purdue University West Lafayette",
+          "ror": "https://ror.org/02dqehb95",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I219193219"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Salt",
+      "raw_affiliation_strings": [
+        "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, Indiana 47907-2010"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Horticulture and Landscape Architecture, Purdue University, West Lafayette, Indiana 47907-2010",
+          "institution_ids": [
+            "https://openalex.org/I219193219"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5080754243",
+        "display_name": "Ann LeFurgey",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210153043",
+          "display_name": "Duke University Hospital",
+          "ror": "https://ror.org/04bct7p84",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210126298",
+            "https://openalex.org/I4210144876",
+            "https://openalex.org/I4210153043"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210126298",
+          "display_name": "Duke Medical Center",
+          "ror": "https://ror.org/03njmea73",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210126298",
+            "https://openalex.org/I4210144876"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ann LeFurgey",
+      "raw_affiliation_strings": [
+        "Department of Cell Biology, Duke University Medical Center and Veterans Affairs Medical Center, Durham, North Carolina 27705"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Cell Biology, Duke University Medical Center and Veterans Affairs Medical Center, Durham, North Carolina 27705",
+          "institution_ids": [
+            "https://openalex.org/I4210153043",
+            "https://openalex.org/I4210126298"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113670110",
+        "display_name": "Peter Ingram",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210153043",
+          "display_name": "Duke University Hospital",
+          "ror": "https://ror.org/04bct7p84",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210126298",
+            "https://openalex.org/I4210144876",
+            "https://openalex.org/I4210153043"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210126298",
+          "display_name": "Duke Medical Center",
+          "ror": "https://ror.org/03njmea73",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210126298",
+            "https://openalex.org/I4210144876"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter Ingram",
+      "raw_affiliation_strings": [
+        "Department of Pathology, Duke University Medical Center, Durham, North Carolina 27710"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pathology, Duke University Medical Center, Durham, North Carolina 27710",
+          "institution_ids": [
+            "https://openalex.org/I4210153043",
+            "https://openalex.org/I4210126298"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014921044",
+        "display_name": "Brian S. Yandell",
+        "orcid": "https://orcid.org/0000-0002-8774-9377"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brian Yandell",
+      "raw_affiliation_strings": [
+        "Departments of Statistics and Horticulture, University of Wisconsin—Madison, Madison, Wisconsin 53706"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departments of Statistics and Horticulture, University of Wisconsin—Madison, Madison, Wisconsin 53706",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5068553066",
+        "display_name": "David Eide",
+        "orcid": "https://orcid.org/0000-0001-5386-2796"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "David J. Eide",
+      "raw_affiliation_strings": [
+        "Department of Nutritional Sciences, University of Wisconsin—Madison, Madison, Wisconsin 53706"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Nutritional Sciences, University of Wisconsin—Madison, Madison, Wisconsin 53706",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5068553066"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I135310074"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.562,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 105,
+  "citation_normalized_percentile": {
+    "value": 0.950499,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "6",
+    "issue": "7",
+    "first_page": "1166",
+    "last_page": "1177"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10915",
+    "display_name": "Trace Elements in Health",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10915",
+      "display_name": "Trace Elements in Health",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12211",
+      "display_name": "Aluminum toxicity and tolerance in plants and animals",
+      "score": 0.9935,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11418",
+      "display_name": "Plant Micronutrient Interactions and Effects",
+      "score": 0.9861,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C535196362",
+      "wikidata": "https://www.wikidata.org/wiki/Q758",
+      "display_name": "Zinc",
+      "level": 2,
+      "score": 0.9464871
+    },
+    {
+      "id": "https://openalex.org/C102568950",
+      "wikidata": "https://www.wikidata.org/wiki/Q127702",
+      "display_name": "Vacuole",
+      "level": 3,
+      "score": 0.8663105
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.61302483
+    },
+    {
+      "id": "https://openalex.org/C2777576037",
+      "wikidata": "https://www.wikidata.org/wiki/Q719725",
+      "display_name": "Saccharomyces cerevisiae",
+      "level": 3,
+      "score": 0.6076015
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.5077294
+    },
+    {
+      "id": "https://openalex.org/C2779222958",
+      "wikidata": "https://www.wikidata.org/wiki/Q45422",
+      "display_name": "Yeast",
+      "level": 2,
+      "score": 0.50687295
+    },
+    {
+      "id": "https://openalex.org/C79879829",
+      "wikidata": "https://www.wikidata.org/wiki/Q5571762",
+      "display_name": "Intracellular",
+      "level": 2,
+      "score": 0.48995295
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.2854426
+    },
+    {
+      "id": "https://openalex.org/C190062978",
+      "wikidata": "https://www.wikidata.org/wiki/Q79899",
+      "display_name": "Cytoplasm",
+      "level": 2,
+      "score": 0.09051317
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D012441",
+      "descriptor_name": "Saccharomyces cerevisiae",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014617",
+      "descriptor_name": "Vacuoles",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015032",
+      "descriptor_name": "Zinc",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002458",
+      "descriptor_name": "Cell Fractionation",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002458",
+      "descriptor_name": "Cell Fractionation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004577",
+      "descriptor_name": "Electron Probe Microanalysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008274",
+      "descriptor_name": "Magnesium",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008274",
+      "descriptor_name": "Magnesium",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010758",
+      "descriptor_name": "Phosphorus",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010758",
+      "descriptor_name": "Phosphorus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011188",
+      "descriptor_name": "Potassium",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011188",
+      "descriptor_name": "Potassium",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012441",
+      "descriptor_name": "Saccharomyces cerevisiae",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012441",
+      "descriptor_name": "Saccharomyces cerevisiae",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013223",
+      "descriptor_name": "Statistics as Topic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014617",
+      "descriptor_name": "Vacuoles",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015032",
+      "descriptor_name": "Zinc",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1128/ec.00077-07",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S177547185",
+        "display_name": "Eukaryotic Cell",
+        "issn_l": "1535-9786",
+        "issn": [
+          "1535-9786",
+          "1535-9778"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320263",
+        "host_organization_name": "American Society for Microbiology",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320263"
+        ],
+        "host_organization_lineage_names": [
+          "American Society for Microbiology"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc1951117",
+      "pdf_url": "https://europepmc.org/articles/pmc1951117?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1951117",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.217.242",
+      "pdf_url": "http://www.stat.wisc.edu/~yandell/doc/2007/74.ECell.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400349",
+        "display_name": "CiteSeer X (The Pennsylvania State University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I130769515",
+        "host_organization_name": "Pennsylvania State University",
+        "host_organization_lineage": [
+          "https://openalex.org/I130769515"
+        ],
+        "host_organization_lineage_names": [
+          "Pennsylvania State University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17526722",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1128/ec.00077-07",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S177547185",
+      "display_name": "Eukaryotic Cell",
+      "issn_l": "1535-9786",
+      "issn": [
+        "1535-9786",
+        "1535-9778"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320263",
+      "host_organization_name": "American Society for Microbiology",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320263"
+      ],
+      "host_organization_lineage_names": [
+        "American Society for Microbiology"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 54,
+  "referenced_works": [
+    "https://openalex.org/W1499097678",
+    "https://openalex.org/W1527068060",
+    "https://openalex.org/W1552886287",
+    "https://openalex.org/W1588290914",
+    "https://openalex.org/W1594700207",
+    "https://openalex.org/W1682642099",
+    "https://openalex.org/W1747506719",
+    "https://openalex.org/W1972120846",
+    "https://openalex.org/W1978298108",
+    "https://openalex.org/W1979312638",
+    "https://openalex.org/W1981341936",
+    "https://openalex.org/W1988590690",
+    "https://openalex.org/W1993635090",
+    "https://openalex.org/W2000458825",
+    "https://openalex.org/W2021411881",
+    "https://openalex.org/W2024264388",
+    "https://openalex.org/W2025487210",
+    "https://openalex.org/W2029143720",
+    "https://openalex.org/W2029651366",
+    "https://openalex.org/W2032648343",
+    "https://openalex.org/W2035594105",
+    "https://openalex.org/W2042538603",
+    "https://openalex.org/W2052759998",
+    "https://openalex.org/W2053099864",
+    "https://openalex.org/W2060465768",
+    "https://openalex.org/W2068851211",
+    "https://openalex.org/W2072660483",
+    "https://openalex.org/W2073461422",
+    "https://openalex.org/W2075736354",
+    "https://openalex.org/W2078849431",
+    "https://openalex.org/W2078918290",
+    "https://openalex.org/W2080696761",
+    "https://openalex.org/W2082827967",
+    "https://openalex.org/W2083041421",
+    "https://openalex.org/W2087467144",
+    "https://openalex.org/W2092473371",
+    "https://openalex.org/W2112310296",
+    "https://openalex.org/W2112717109",
+    "https://openalex.org/W2115915341",
+    "https://openalex.org/W2124420562",
+    "https://openalex.org/W2125452667",
+    "https://openalex.org/W2130346547",
+    "https://openalex.org/W2131437696",
+    "https://openalex.org/W2144884109",
+    "https://openalex.org/W2155136631",
+    "https://openalex.org/W2157177321",
+    "https://openalex.org/W2158084036",
+    "https://openalex.org/W2165237919",
+    "https://openalex.org/W2168684404",
+    "https://openalex.org/W2485304415",
+    "https://openalex.org/W3129911986",
+    "https://openalex.org/W582068642",
+    "https://openalex.org/W651611001",
+    "https://openalex.org/W84152055"
+  ],
+  "related_works": [
+    "https://openalex.org/W943725836",
+    "https://openalex.org/W756953339",
+    "https://openalex.org/W4232406862",
+    "https://openalex.org/W37433126",
+    "https://openalex.org/W3141301766",
+    "https://openalex.org/W2485322604",
+    "https://openalex.org/W2397070560",
+    "https://openalex.org/W2352261812",
+    "https://openalex.org/W2028107853",
+    "https://openalex.org/W1982584572"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Previous": [
+      1
+    ],
+    "studies": [
+      2,
+      24
+    ],
+    "of": [
+      3,
+      16,
+      31,
+      45,
+      51,
+      61,
+      65,
+      69,
+      110,
+      126,
+      132,
+      184,
+      192,
+      207,
+      223,
+      238,
+      241
+    ],
+    "the": [
+      4,
+      10,
+      20,
+      28,
+      37,
+      43,
+      52,
+      62,
+      90,
+      124,
+      140,
+      152,
+      165,
+      185,
+      221,
+      239,
+      242
+    ],
+    "yeast": [
+      5
+    ],
+    "Saccharomyces": [
+      6
+    ],
+    "cerevisiae": [
+      7
+    ],
+    "indicated": [
+      8
+    ],
+    "that": [
+      9,
+      33,
+      86,
+      181
+    ],
+    "vacuole": [
+      11,
+      38,
+      91,
+      153,
+      166
+    ],
+    "is": [
+      12,
+      200,
+      203
+    ],
+    "a": [
+      13,
+      214,
+      235
+    ],
+    "major": [
+      14,
+      236
+    ],
+    "site": [
+      15
+    ],
+    "zinc": [
+      17,
+      32,
+      47,
+      66,
+      87,
+      94,
+      103,
+      112,
+      117,
+      136,
+      144,
+      149,
+      162,
+      196,
+      209,
+      218,
+      233
+    ],
+    "storage": [
+      18
+    ],
+    "in": [
+      19,
+      36,
+      48,
+      89,
+      198,
+      228
+    ],
+    "cell.": [
+      21,
+      53
+    ],
+    "However,": [
+      22
+    ],
+    "these": [
+      23,
+      82,
+      246
+    ],
+    "did": [
+      25,
+      40
+    ],
+    "not": [
+      26,
+      188
+    ],
+    "address": [
+      27
+    ],
+    "absolute": [
+      29
+    ],
+    "level": [
+      30
+    ],
+    "was": [
+      34
+    ],
+    "stored": [
+      35,
+      46
+    ],
+    "nor": [
+      39
+    ],
+    "they": [
+      41
+    ],
+    "examine": [
+      42
+    ],
+    "abundances": [
+      44
+    ],
+    "other": [
+      49,
+      182,
+      247
+    ],
+    "compartments": [
+      50,
+      183
+    ],
+    "In": [
+      54,
+      177,
+      194
+    ],
+    "this": [
+      55,
+      116
+    ],
+    "report,": [
+      56
+    ],
+    "we": [
+      57,
+      84,
+      179,
+      212
+    ],
+    "describe": [
+      58
+    ],
+    "an": [
+      59,
+      71,
+      76
+    ],
+    "analysis": [
+      60
+    ],
+    "cellular": [
+      63
+    ],
+    "distribution": [
+      64
+    ],
+    "by": [
+      67
+    ],
+    "use": [
+      68
+    ],
+    "both": [
+      70
+    ],
+    "organellar": [
+      72
+    ],
+    "fractionation": [
+      73
+    ],
+    "method": [
+      74
+    ],
+    "and": [
+      75,
+      96,
+      142,
+      202,
+      220,
+      225
+    ],
+    "electron": [
+      77
+    ],
+    "probe": [
+      78
+    ],
+    "X-ray": [
+      79
+    ],
+    "microanalysis.": [
+      80
+    ],
+    "With": [
+      81
+    ],
+    "methods,": [
+      83
+    ],
+    "determined": [
+      85
+    ],
+    "levels": [
+      88,
+      222
+    ],
+    "vary": [
+      92
+    ],
+    "with": [
+      93,
+      175
+    ],
+    "status": [
+      95,
+      219
+    ],
+    "can": [
+      97,
+      118
+    ],
+    "rise": [
+      98
+    ],
+    "to": [
+      99,
+      122,
+      244
+    ],
+    "almost": [
+      100
+    ],
+    "100": [
+      101
+    ],
+    "mM": [
+      102
+    ],
+    "(i.e.,": [
+      104
+    ],
+    "7": [
+      105
+    ],
+    "×": [
+      106
+    ],
+    "10": [
+      107
+    ],
+    "8": [
+      108
+    ],
+    "atoms": [
+      109
+    ],
+    "vacuolar": [
+      111,
+      208
+    ],
+    "per": [
+      113
+    ],
+    "cell).": [
+      114
+    ],
+    "Moreover,": [
+      115
+    ],
+    "be": [
+      119
+    ],
+    "mobilized": [
+      120
+    ],
+    "effectively": [
+      121
+    ],
+    "supply": [
+      123
+    ],
+    "needs": [
+      125
+    ],
+    "as": [
+      127,
+      129,
+      234
+    ],
+    "many": [
+      128
+    ],
+    "eight": [
+      130
+    ],
+    "generations": [
+      131
+    ],
+    "progeny": [
+      133
+    ],
+    "cells": [
+      134,
+      172
+    ],
+    "under": [
+      135,
+      154
+    ],
+    "starvation": [
+      137
+    ],
+    "conditions.": [
+      138
+    ],
+    "While": [
+      139
+    ],
+    "Zrc1": [
+      141
+    ],
+    "Cot1": [
+      143
+    ],
+    "transporters": [
+      145,
+      159
+    ],
+    "are": [
+      146,
+      173
+    ],
+    "essential": [
+      147
+    ],
+    "for": [
+      148
+    ],
+    "uptake": [
+      150,
+      163
+    ],
+    "into": [
+      151,
+      164
+    ],
+    "steady-state": [
+      155
+    ],
+    "growth": [
+      156
+    ],
+    "conditions,": [
+      157
+    ],
+    "additional": [
+      158
+    ],
+    "help": [
+      160
+    ],
+    "mediate": [
+      161
+    ],
+    "during": [
+      167
+    ],
+    "“zinc": [
+      168
+    ],
+    "shock,”": [
+      169
+    ],
+    "when": [
+      170
+    ],
+    "zinc-limited": [
+      171
+    ],
+    "resupplied": [
+      174
+    ],
+    "zinc.": [
+      176,
+      193
+    ],
+    "addition,": [
+      178
+    ],
+    "found": [
+      180
+    ],
+    "cell": [
+      186,
+      243
+    ],
+    "do": [
+      187
+    ],
+    "provide": [
+      189
+    ],
+    "significant": [
+      190
+    ],
+    "stores": [
+      191
+    ],
+    "particular,": [
+      195
+    ],
+    "accumulation": [
+      197
+    ],
+    "mitochondria": [
+      199
+    ],
+    "low": [
+      201
+    ],
+    "homeostatically": [
+      204
+    ],
+    "regulated": [
+      205
+    ],
+    "independently": [
+      206
+    ],
+    "storage.": [
+      210
+    ],
+    "Finally,": [
+      211
+    ],
+    "observed": [
+      213
+    ],
+    "strong": [
+      215
+    ],
+    "correlation": [
+      216
+    ],
+    "between": [
+      217
+    ],
+    "magnesium": [
+      224
+    ],
+    "phosphorus": [
+      226
+    ],
+    "accumulated": [
+      227
+    ],
+    "cells.": [
+      229
+    ],
+    "Our": [
+      230
+    ],
+    "results": [
+      231
+    ],
+    "implicate": [
+      232
+    ],
+    "determinant": [
+      237
+    ],
+    "ability": [
+      240
+    ],
+    "store": [
+      245
+    ],
+    "important": [
+      248
+    ],
+    "nutrients.": [
+      249
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2119661545",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-05-20T09:14:17.436622",
+  "created_date": "2016-06-24"
+}

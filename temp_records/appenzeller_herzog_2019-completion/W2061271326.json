@@ -1,0 +1,1396 @@
+{
+  "id": "https://openalex.org/W2061271326",
+  "doi": "https://doi.org/10.1038/nn.2410",
+  "title": "The oligodendrocyte-specific G protein–coupled receptor GPR17 is a cell-intrinsic timer of myelination",
+  "display_name": "The oligodendrocyte-specific G protein–coupled receptor GPR17 is a cell-intrinsic timer of myelination",
+  "publication_year": 2009,
+  "publication_date": "2009-10-18",
+  "ids": {
+    "openalex": "https://openalex.org/W2061271326",
+    "doi": "https://doi.org/10.1038/nn.2410",
+    "mag": "2061271326",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19838178",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2783566"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1038/nn.2410",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2298632",
+      "display_name": "Nature Neuroscience",
+      "issn_l": "1097-6256",
+      "issn": [
+        "1097-6256",
+        "1546-1726"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2783566",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5100382994",
+        "display_name": "Ying Chen",
+        "orcid": "https://orcid.org/0000-0001-5675-1928"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802640032",
+          "display_name": "Foundation Center",
+          "ror": "https://ror.org/0377f6951",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802640032"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I867280407",
+          "display_name": "The University of Texas Southwestern Medical Center",
+          "ror": "https://ror.org/05byvp690",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ying Chen",
+      "raw_affiliation_strings": [
+        "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802640032",
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047448307",
+        "display_name": "Heng Wu",
+        "orcid": "https://orcid.org/0000-0002-7161-7281"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802640032",
+          "display_name": "Foundation Center",
+          "ror": "https://ror.org/0377f6951",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802640032"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I867280407",
+          "display_name": "The University of Texas Southwestern Medical Center",
+          "ror": "https://ror.org/05byvp690",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Heng Wu",
+      "raw_affiliation_strings": [
+        "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802640032",
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010474232",
+        "display_name": "Wang Shu-zong",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802640032",
+          "display_name": "Foundation Center",
+          "ror": "https://ror.org/0377f6951",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802640032"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I867280407",
+          "display_name": "The University of Texas Southwestern Medical Center",
+          "ror": "https://ror.org/05byvp690",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shuzong Wang",
+      "raw_affiliation_strings": [
+        "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802640032",
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056543039",
+        "display_name": "Hisami Koito",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I91045830",
+          "display_name": "Texas A&M University",
+          "ror": "https://ror.org/01f5ytq51",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hisami Koito",
+      "raw_affiliation_strings": [
+        "Department of Veterinary Integrative Biosciences, Texas A&M University, College Station, Texas, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Veterinary Integrative Biosciences, Texas A&M University, College Station, Texas, USA",
+          "institution_ids": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100627205",
+        "display_name": "Jianrong Li",
+        "orcid": "https://orcid.org/0000-0002-8232-9322"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I91045830",
+          "display_name": "Texas A&M University",
+          "ror": "https://ror.org/01f5ytq51",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jianrong Li",
+      "raw_affiliation_strings": [
+        "Department of Veterinary Integrative Biosciences, Texas A&M University, College Station, Texas, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Veterinary Integrative Biosciences, Texas A&M University, College Station, Texas, USA",
+          "institution_ids": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100398487",
+        "display_name": "Feng Ye",
+        "orcid": "https://orcid.org/0000-0002-4983-8520"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I867280407",
+          "display_name": "The University of Texas Southwestern Medical Center",
+          "ror": "https://ror.org/05byvp690",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I867280407"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802640032",
+          "display_name": "Foundation Center",
+          "ror": "https://ror.org/0377f6951",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802640032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Feng Ye",
+      "raw_affiliation_strings": [
+        "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA",
+          "institution_ids": [
+            "https://openalex.org/I867280407",
+            "https://openalex.org/I2802640032"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109173907",
+        "display_name": "Jenny Hoang",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802640032",
+          "display_name": "Foundation Center",
+          "ror": "https://ror.org/0377f6951",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802640032"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I867280407",
+          "display_name": "The University of Texas Southwestern Medical Center",
+          "ror": "https://ror.org/05byvp690",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jenny Hoang",
+      "raw_affiliation_strings": [
+        "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Developmental Biology and Kent Waldrep Foundation Center for Basic Neuroscience Research on Nerve Growth and Regeneration, University of Texas Southwestern Medical Center, Dallas, Texas, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802640032",
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5079003556",
+        "display_name": "Sabine Escobar",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1320553840",
+          "display_name": "Amgen (United States)",
+          "ror": "https://ror.org/03g03ge92",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1320553840"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sabine S Escobar",
+      "raw_affiliation_strings": [
+        "Department of Inflammation, Amgen, Seattle, Washington, USA.,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Inflammation, Amgen, Seattle, Washington, USA.,",
+          "institution_ids": [
+            "https://openalex.org/I1320553840"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5018916255",
+        "display_name": "Alexander Gow",
+        "orcid": "https://orcid.org/0000-0001-7446-8990"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I185443292",
+          "display_name": "Wayne State University",
+          "ror": "https://ror.org/01070mq45",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185443292"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alexander Gow",
+      "raw_affiliation_strings": [
+        "Center for Molecular Medicine and Genetics, Wayne State University, Detroit, Michigan, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Molecular Medicine and Genetics, Wayne State University, Detroit, Michigan, USA",
+          "institution_ids": [
+            "https://openalex.org/I185443292"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5015953222",
+        "display_name": "Heather A. Arnett",
+        "orcid": "https://orcid.org/0000-0002-8442-3312"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1320553840",
+          "display_name": "Amgen (United States)",
+          "ror": "https://ror.org/03g03ge92",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1320553840"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Heather A Arnett",
+      "raw_affiliation_strings": [
+        "Department of Inflammation, Amgen, Seattle, Washington, USA.,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Inflammation, Amgen, Seattle, Washington, USA.,",
+          "institution_ids": [
+            "https://openalex.org/I1320553840"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044468051",
+        "display_name": "Bruce D. Trapp",
+        "orcid": "https://orcid.org/0000-0001-6682-3737"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36373038",
+          "display_name": "Cleveland Clinic Lerner College of Medicine",
+          "ror": "https://ror.org/02x4b0932",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1316902750",
+            "https://openalex.org/I36373038"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bruce D Trapp",
+      "raw_affiliation_strings": [
+        "Department of Neurosciences, Lerner Research Institute, Cleveland Clinic, Cleveland, Ohio, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurosciences, Lerner Research Institute, Cleveland Clinic, Cleveland, Ohio, USA",
+          "institution_ids": [
+            "https://openalex.org/I36373038"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052637260",
+        "display_name": "Nitin J. Karandikar",
+        "orcid": "https://orcid.org/0000-0002-6867-6950"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I867280407",
+          "display_name": "The University of Texas Southwestern Medical Center",
+          "ror": "https://ror.org/05byvp690",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nitin J Karandikar",
+      "raw_affiliation_strings": [
+        "Department of Pathology, University of Texas Southwestern Medical Center, Dallas, Texas, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pathology, University of Texas Southwestern Medical Center, Dallas, Texas, USA",
+          "institution_ids": [
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047381470",
+        "display_name": "Jenny Hsieh",
+        "orcid": "https://orcid.org/0000-0003-0214-0771"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I867280407",
+          "display_name": "The University of Texas Southwestern Medical Center",
+          "ror": "https://ror.org/05byvp690",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jenny Hsieh",
+      "raw_affiliation_strings": [
+        "Department of Molecular Biology, University of Texas Southwestern Medical Center, Dallas, Texas, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular Biology, University of Texas Southwestern Medical Center, Dallas, Texas, USA",
+          "institution_ids": [
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5101658549",
+        "display_name": "Q. Richard Lu",
+        "orcid": "https://orcid.org/0000-0001-6846-9014"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I867280407",
+          "display_name": "The University of Texas Southwestern Medical Center",
+          "ror": "https://ror.org/05byvp690",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Q Richard Lu",
+      "raw_affiliation_strings": [
+        "Department of Pathology, University of Texas Southwestern Medical Center, Dallas, Texas, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pathology, University of Texas Southwestern Medical Center, Dallas, Texas, USA",
+          "institution_ids": [
+            "https://openalex.org/I867280407"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 9750,
+    "currency": "EUR",
+    "value_usd": 11690
+  },
+  "apc_paid": null,
+  "fwci": 7.118,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 314,
+  "citation_normalized_percentile": {
+    "value": 0.918564,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "12",
+    "issue": "11",
+    "first_page": "1398",
+    "last_page": "1406"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10608",
+    "display_name": "Neurogenesis and neuroplasticity mechanisms",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2806",
+      "display_name": "Developmental Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10608",
+      "display_name": "Neurogenesis and neuroplasticity mechanisms",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2806",
+        "display_name": "Developmental Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11772",
+      "display_name": "Genetics and Neurodevelopmental Disorders",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12820",
+      "display_name": "Chromatin Remodeling and Cancer",
+      "score": 0.9982,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/olig2",
+      "display_name": "OLIG2",
+      "score": 0.46397907
+    },
+    {
+      "id": "https://openalex.org/keywords/knockout-mouse",
+      "display_name": "Knockout mouse",
+      "score": 0.43599367
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776985911",
+      "wikidata": "https://www.wikidata.org/wiki/Q916698",
+      "display_name": "Oligodendrocyte",
+      "level": 4,
+      "score": 0.9383173
+    },
+    {
+      "id": "https://openalex.org/C2778609137",
+      "wikidata": "https://www.wikidata.org/wiki/Q105790271",
+      "display_name": "Myelin",
+      "level": 3,
+      "score": 0.6335416
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.6099828
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.5627151
+    },
+    {
+      "id": "https://openalex.org/C127561419",
+      "wikidata": "https://www.wikidata.org/wiki/Q224527",
+      "display_name": "Downregulation and upregulation",
+      "level": 3,
+      "score": 0.52105373
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.5099288
+    },
+    {
+      "id": "https://openalex.org/C86339819",
+      "wikidata": "https://www.wikidata.org/wiki/Q407384",
+      "display_name": "Transcription factor",
+      "level": 3,
+      "score": 0.48035276
+    },
+    {
+      "id": "https://openalex.org/C2779055221",
+      "wikidata": "https://www.wikidata.org/wiki/Q18035130",
+      "display_name": "OLIG2",
+      "level": 5,
+      "score": 0.46397907
+    },
+    {
+      "id": "https://openalex.org/C2780876595",
+      "wikidata": "https://www.wikidata.org/wiki/Q410974",
+      "display_name": "Myelin basic protein",
+      "level": 4,
+      "score": 0.44029135
+    },
+    {
+      "id": "https://openalex.org/C182704531",
+      "wikidata": "https://www.wikidata.org/wiki/Q1364740",
+      "display_name": "Knockout mouse",
+      "level": 3,
+      "score": 0.43599367
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.35992485
+    },
+    {
+      "id": "https://openalex.org/C529278444",
+      "wikidata": "https://www.wikidata.org/wiki/Q47273",
+      "display_name": "Central nervous system",
+      "level": 2,
+      "score": 0.21743342
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.09337592
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.081329435
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003711",
+      "descriptor_name": "Demyelinating Diseases",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003711",
+      "descriptor_name": "Demyelinating Diseases",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009419",
+      "descriptor_name": "Nerve Tissue Proteins",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D043562",
+      "descriptor_name": "Receptors, G-Protein-Coupled",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002478",
+      "descriptor_name": "Cells, Cultured",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D047369",
+      "descriptor_name": "Chromatin Immunoprecipitation",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D047369",
+      "descriptor_name": "Chromatin Immunoprecipitation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003711",
+      "descriptor_name": "Demyelinating Diseases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004195",
+      "descriptor_name": "Disease Models, Animal",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004622",
+      "descriptor_name": "Embryo, Mammalian",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004681",
+      "descriptor_name": "Encephalomyelitis, Autoimmune, Experimental",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004681",
+      "descriptor_name": "Encephalomyelitis, Autoimmune, Experimental",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004681",
+      "descriptor_name": "Encephalomyelitis, Autoimmune, Experimental",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049452",
+      "descriptor_name": "Green Fluorescent Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049452",
+      "descriptor_name": "Green Fluorescent Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008810",
+      "descriptor_name": "Mice, Inbred C57BL",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008822",
+      "descriptor_name": "Mice, Transgenic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009103",
+      "descriptor_name": "Multiple Sclerosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009103",
+      "descriptor_name": "Multiple Sclerosis",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009103",
+      "descriptor_name": "Multiple Sclerosis",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009103",
+      "descriptor_name": "Multiple Sclerosis",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009419",
+      "descriptor_name": "Nerve Tissue Proteins",
+      "qualifier_ui": "Q000172",
+      "qualifier_name": "deficiency",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009419",
+      "descriptor_name": "Nerve Tissue Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009836",
+      "descriptor_name": "Oligodendroglia",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009900",
+      "descriptor_name": "Optic Nerve",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009900",
+      "descriptor_name": "Optic Nerve",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051381",
+      "descriptor_name": "Rats",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011916",
+      "descriptor_name": "Rats, Inbred F344",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D043562",
+      "descriptor_name": "Receptors, G-Protein-Coupled",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D043562",
+      "descriptor_name": "Receptors, G-Protein-Coupled",
+      "qualifier_ui": "Q000172",
+      "qualifier_name": "deficiency",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013116",
+      "descriptor_name": "Spinal Cord",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013116",
+      "descriptor_name": "Spinal Cord",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013234",
+      "descriptor_name": "Stem Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014162",
+      "descriptor_name": "Transfection",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014162",
+      "descriptor_name": "Transfection",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1038/nn.2410",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2298632",
+        "display_name": "Nature Neuroscience",
+        "issn_l": "1097-6256",
+        "issn": [
+          "1097-6256",
+          "1546-1726"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2783566",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19838178",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2783566",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.61
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 50,
+  "referenced_works": [
+    "https://openalex.org/W1900556344",
+    "https://openalex.org/W1921871464",
+    "https://openalex.org/W1968931043",
+    "https://openalex.org/W1973240518",
+    "https://openalex.org/W1977333251",
+    "https://openalex.org/W1983827617",
+    "https://openalex.org/W1992272763",
+    "https://openalex.org/W2001888569",
+    "https://openalex.org/W2011870229",
+    "https://openalex.org/W2021692265",
+    "https://openalex.org/W2023367024",
+    "https://openalex.org/W2029606645",
+    "https://openalex.org/W2029910957",
+    "https://openalex.org/W2030241802",
+    "https://openalex.org/W2033322963",
+    "https://openalex.org/W2035098555",
+    "https://openalex.org/W2036518710",
+    "https://openalex.org/W2038757125",
+    "https://openalex.org/W2039383073",
+    "https://openalex.org/W2041781614",
+    "https://openalex.org/W2043364678",
+    "https://openalex.org/W2047057421",
+    "https://openalex.org/W2053176712",
+    "https://openalex.org/W2058358434",
+    "https://openalex.org/W2060525739",
+    "https://openalex.org/W2063639010",
+    "https://openalex.org/W2064769936",
+    "https://openalex.org/W2070749396",
+    "https://openalex.org/W2080559139",
+    "https://openalex.org/W2081697342",
+    "https://openalex.org/W2082178034",
+    "https://openalex.org/W2085087860",
+    "https://openalex.org/W2085256528",
+    "https://openalex.org/W2098499905",
+    "https://openalex.org/W2105844486",
+    "https://openalex.org/W2108627571",
+    "https://openalex.org/W2114103296",
+    "https://openalex.org/W2114389372",
+    "https://openalex.org/W2124940469",
+    "https://openalex.org/W2125920059",
+    "https://openalex.org/W2128464557",
+    "https://openalex.org/W2129256667",
+    "https://openalex.org/W2129955844",
+    "https://openalex.org/W2135271976",
+    "https://openalex.org/W2146636701",
+    "https://openalex.org/W2184947876",
+    "https://openalex.org/W2187173242",
+    "https://openalex.org/W2325038063",
+    "https://openalex.org/W2333851418",
+    "https://openalex.org/W2488614868"
+  ],
+  "related_works": [
+    "https://openalex.org/W3177154855",
+    "https://openalex.org/W2292296896",
+    "https://openalex.org/W2140533863",
+    "https://openalex.org/W2128464557",
+    "https://openalex.org/W2098499905",
+    "https://openalex.org/W2066344417",
+    "https://openalex.org/W2059496781",
+    "https://openalex.org/W1986437954",
+    "https://openalex.org/W1978950019",
+    "https://openalex.org/W1653719112"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2061271326",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 16
+    }
+  ],
+  "updated_date": "2025-06-02T08:12:47.734971",
+  "created_date": "2016-06-24"
+}

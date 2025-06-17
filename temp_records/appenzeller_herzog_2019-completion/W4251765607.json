@@ -1,0 +1,970 @@
+{
+  "id": "https://openalex.org/W4251765607",
+  "doi": "https://doi.org/10.1038/nature07086",
+  "title": "SMAD proteins control DROSHA-mediated microRNA maturation",
+  "display_name": "SMAD proteins control DROSHA-mediated microRNA maturation",
+  "publication_year": 2008,
+  "publication_date": "2008-06-11",
+  "ids": {
+    "openalex": "https://openalex.org/W4251765607",
+    "doi": "https://doi.org/10.1038/nature07086",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/18548003"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1038/nature07086",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2653422",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5076934479",
+        "display_name": "Brandi N. Davis‐Dusenbery",
+        "orcid": "https://orcid.org/0000-0001-7811-8613"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I121934306",
+          "display_name": "Tufts University",
+          "ror": "https://ror.org/05wvpxv85",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I121934306"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1290900354",
+          "display_name": "Tufts Medical Center",
+          "ror": "https://ror.org/002hsbm82",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1290900354"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brandi N. Davis",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry, Tufts University School of Medicine,",
+        "Molecular Cardiology Research Institute, Tufts Medical Center, Boston, Massachusetts 02111, USA ,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biochemistry, Tufts University School of Medicine,",
+          "institution_ids": [
+            "https://openalex.org/I121934306"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Molecular Cardiology Research Institute, Tufts Medical Center, Boston, Massachusetts 02111, USA ,",
+          "institution_ids": [
+            "https://openalex.org/I1290900354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042609664",
+        "display_name": "Aaron C. Hilyard",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1290900354",
+          "display_name": "Tufts Medical Center",
+          "ror": "https://ror.org/002hsbm82",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1290900354"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Aaron C. Hilyard",
+      "raw_affiliation_strings": [
+        "Molecular Cardiology Research Institute, Tufts Medical Center, Boston, Massachusetts 02111, USA ,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Cardiology Research Institute, Tufts Medical Center, Boston, Massachusetts 02111, USA ,",
+          "institution_ids": [
+            "https://openalex.org/I1290900354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088569489",
+        "display_name": "Giorgio Lagna",
+        "orcid": "https://orcid.org/0000-0001-9228-4554"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1290900354",
+          "display_name": "Tufts Medical Center",
+          "ror": "https://ror.org/002hsbm82",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1290900354"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Giorgio Lagna",
+      "raw_affiliation_strings": [
+        "Molecular Cardiology Research Institute, Tufts Medical Center, Boston, Massachusetts 02111, USA ,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Cardiology Research Institute, Tufts Medical Center, Boston, Massachusetts 02111, USA ,",
+          "institution_ids": [
+            "https://openalex.org/I1290900354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5084560496",
+        "display_name": "Akiko Hata",
+        "orcid": "https://orcid.org/0000-0003-3784-1738"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I121934306",
+          "display_name": "Tufts University",
+          "ror": "https://ror.org/05wvpxv85",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I121934306"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1290900354",
+          "display_name": "Tufts Medical Center",
+          "ror": "https://ror.org/002hsbm82",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1290900354"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Akiko Hata",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry, Tufts University School of Medicine,",
+        "Molecular Cardiology Research Institute, Tufts Medical Center, Boston, Massachusetts 02111, USA ,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biochemistry, Tufts University School of Medicine,",
+          "institution_ids": [
+            "https://openalex.org/I121934306"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Molecular Cardiology Research Institute, Tufts Medical Center, Boston, Massachusetts 02111, USA ,",
+          "institution_ids": [
+            "https://openalex.org/I1290900354"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5084560496"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I121934306",
+    "https://openalex.org/I1290900354"
+  ],
+  "apc_list": {
+    "value": 9750,
+    "currency": "EUR",
+    "value_usd": 11690
+  },
+  "apc_paid": null,
+  "fwci": 42.03,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 1211,
+  "citation_normalized_percentile": {
+    "value": 0.999983,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "454",
+    "issue": "7200",
+    "first_page": "56",
+    "last_page": "61"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11482",
+    "display_name": "RNA modifications and cancer",
+    "score": 0.9997,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11482",
+      "display_name": "RNA modifications and cancer",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10062",
+      "display_name": "MicroRNA in disease regulation",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10515",
+      "display_name": "Cancer-related molecular mechanisms research",
+      "score": 0.9989,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/drosha",
+      "display_name": "Drosha",
+      "score": 0.9214097
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776802755",
+      "wikidata": "https://www.wikidata.org/wiki/Q261483",
+      "display_name": "Drosha",
+      "level": 5,
+      "score": 0.9214097
+    },
+    {
+      "id": "https://openalex.org/C2781080636",
+      "wikidata": "https://www.wikidata.org/wiki/Q700000",
+      "display_name": "SMAD",
+      "level": 3,
+      "score": 0.82608163
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.6799052
+    },
+    {
+      "id": "https://openalex.org/C145059251",
+      "wikidata": "https://www.wikidata.org/wiki/Q310899",
+      "display_name": "microRNA",
+      "level": 3,
+      "score": 0.6442249
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.5856641
+    },
+    {
+      "id": "https://openalex.org/C2778229498",
+      "wikidata": "https://www.wikidata.org/wiki/Q24785672",
+      "display_name": "Transforming growth factor beta",
+      "level": 3,
+      "score": 0.51500225
+    },
+    {
+      "id": "https://openalex.org/C31507581",
+      "wikidata": "https://www.wikidata.org/wiki/Q425383",
+      "display_name": "Bone morphogenetic protein",
+      "level": 3,
+      "score": 0.50328773
+    },
+    {
+      "id": "https://openalex.org/C41282012",
+      "wikidata": "https://www.wikidata.org/wiki/Q3928341",
+      "display_name": "RNA-binding protein",
+      "level": 4,
+      "score": 0.4118917
+    },
+    {
+      "id": "https://openalex.org/C62478195",
+      "wikidata": "https://www.wikidata.org/wiki/Q828130",
+      "display_name": "Signal transduction",
+      "level": 2,
+      "score": 0.3628766
+    },
+    {
+      "id": "https://openalex.org/C67705224",
+      "wikidata": "https://www.wikidata.org/wiki/Q11053",
+      "display_name": "RNA",
+      "level": 3,
+      "score": 0.23843277
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.17480198
+    },
+    {
+      "id": "https://openalex.org/C166703698",
+      "wikidata": "https://www.wikidata.org/wiki/Q201993",
+      "display_name": "RNA interference",
+      "level": 4,
+      "score": 0.1698688
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.13936412
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D035683",
+      "descriptor_name": "MicroRNAs",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012323",
+      "descriptor_name": "RNA Processing, Post-Transcriptional",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D043244",
+      "descriptor_name": "Ribonuclease III",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D051785",
+      "descriptor_name": "Smad Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051017",
+      "descriptor_name": "Apoptosis Regulatory Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051017",
+      "descriptor_name": "Apoptosis Regulatory Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055415",
+      "descriptor_name": "Bone Morphogenetic Protein 4",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019485",
+      "descriptor_name": "Bone Morphogenetic Proteins",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019485",
+      "descriptor_name": "Bone Morphogenetic Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019485",
+      "descriptor_name": "Bone Morphogenetic Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001943",
+      "descriptor_name": "Breast Neoplasms",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001943",
+      "descriptor_name": "Breast Neoplasms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002460",
+      "descriptor_name": "Cell Line",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002522",
+      "descriptor_name": "Chlorocebus aethiops",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053487",
+      "descriptor_name": "DEAD-box RNA Helicases",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053487",
+      "descriptor_name": "DEAD-box RNA Helicases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008024",
+      "descriptor_name": "Ligands",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D035683",
+      "descriptor_name": "MicroRNAs",
+      "qualifier_ui": "Q000096",
+      "qualifier_name": "biosynthesis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D035683",
+      "descriptor_name": "MicroRNAs",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009130",
+      "descriptor_name": "Muscle, Smooth",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009130",
+      "descriptor_name": "Muscle, Smooth",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010641",
+      "descriptor_name": "Phenotype",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011485",
+      "descriptor_name": "Protein Binding",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016601",
+      "descriptor_name": "RNA-Binding Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016601",
+      "descriptor_name": "RNA-Binding Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D043244",
+      "descriptor_name": "Ribonuclease III",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051785",
+      "descriptor_name": "Smad Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016212",
+      "descriptor_name": "Transforming Growth Factor beta",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016212",
+      "descriptor_name": "Transforming Growth Factor beta",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016212",
+      "descriptor_name": "Transforming Growth Factor beta",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1038/nature07086",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S137773608",
+        "display_name": "Nature",
+        "issn_l": "0028-0836",
+        "issn": [
+          "0028-0836",
+          "1476-4687"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2653422",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/18548003",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2653422",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.77,
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 50,
+  "referenced_works": [
+    "https://openalex.org/W1528120845",
+    "https://openalex.org/W1604721396",
+    "https://openalex.org/W1912592877",
+    "https://openalex.org/W1967380741",
+    "https://openalex.org/W1972892962",
+    "https://openalex.org/W1980269624",
+    "https://openalex.org/W1982708433",
+    "https://openalex.org/W1984162437",
+    "https://openalex.org/W1986706724",
+    "https://openalex.org/W1989722096",
+    "https://openalex.org/W1996427377",
+    "https://openalex.org/W2008955962",
+    "https://openalex.org/W2010180766",
+    "https://openalex.org/W2010487043",
+    "https://openalex.org/W2031252637",
+    "https://openalex.org/W2039068212",
+    "https://openalex.org/W2042742026",
+    "https://openalex.org/W2050079849",
+    "https://openalex.org/W2051403674",
+    "https://openalex.org/W2055992003",
+    "https://openalex.org/W2057640612",
+    "https://openalex.org/W2069104846",
+    "https://openalex.org/W2072363222",
+    "https://openalex.org/W2073718731",
+    "https://openalex.org/W2074629755",
+    "https://openalex.org/W2075418491",
+    "https://openalex.org/W2079248832",
+    "https://openalex.org/W2095605427",
+    "https://openalex.org/W2096166765",
+    "https://openalex.org/W2099517697",
+    "https://openalex.org/W2101408271",
+    "https://openalex.org/W2102868284",
+    "https://openalex.org/W2103211592",
+    "https://openalex.org/W2110043783",
+    "https://openalex.org/W2121822802",
+    "https://openalex.org/W2127770815",
+    "https://openalex.org/W2128674168",
+    "https://openalex.org/W2131883344",
+    "https://openalex.org/W2131936396",
+    "https://openalex.org/W2133220812",
+    "https://openalex.org/W2135810600",
+    "https://openalex.org/W2135836598",
+    "https://openalex.org/W2141915880",
+    "https://openalex.org/W2144717644",
+    "https://openalex.org/W2152673117",
+    "https://openalex.org/W2162038712",
+    "https://openalex.org/W2166920557",
+    "https://openalex.org/W2168241534",
+    "https://openalex.org/W2170952313",
+    "https://openalex.org/W2312524270"
+  ],
+  "related_works": [
+    "https://openalex.org/W2800624143",
+    "https://openalex.org/W2549865326",
+    "https://openalex.org/W2352788820",
+    "https://openalex.org/W2111063080",
+    "https://openalex.org/W2082684861",
+    "https://openalex.org/W2075091167",
+    "https://openalex.org/W2038559883",
+    "https://openalex.org/W2031572777",
+    "https://openalex.org/W1997562107",
+    "https://openalex.org/W1996477046"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4251765607",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 31
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 40
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 42
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 46
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 64
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 77
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 81
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 87
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 88
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 121
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 131
+    }
+  ],
+  "updated_date": "2025-06-08T10:58:11.700551",
+  "created_date": "2022-05-12"
+}

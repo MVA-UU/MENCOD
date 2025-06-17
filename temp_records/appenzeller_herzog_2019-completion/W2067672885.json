@@ -1,0 +1,8292 @@
+{
+  "id": "https://openalex.org/W2067672885",
+  "doi": "https://doi.org/10.1074/jbc.274.2.1116",
+  "title": "Ceruloplasmin Ferroxidase Activity Stimulates Cellular Iron Uptake by a Trivalent Cation-specific Transport Mechanism",
+  "display_name": "Ceruloplasmin Ferroxidase Activity Stimulates Cellular Iron Uptake by a Trivalent Cation-specific Transport Mechanism",
+  "publication_year": 1999,
+  "publication_date": "1999-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2067672885",
+    "doi": "https://doi.org/10.1074/jbc.274.2.1116",
+    "mag": "2067672885",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/9873059"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1074/jbc.274.2.1116",
+    "pdf_url": "http://www.jbc.org/article/S0021925819883837/pdf",
+    "source": {
+      "id": "https://openalex.org/S140251998",
+      "display_name": "Journal of Biological Chemistry",
+      "issn_l": "0021-9258",
+      "issn": [
+        "0021-9258",
+        "1067-8816",
+        "1083-351X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "http://www.jbc.org/article/S0021925819883837/pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5024647083",
+        "display_name": "Zouhair K. Attieh",
+        "orcid": "https://orcid.org/0000-0002-6223-2259"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1316902750",
+          "display_name": "Cleveland Clinic",
+          "ror": "https://ror.org/03xjacd83",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1316902750"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I102607778",
+          "display_name": "Cleveland State University",
+          "ror": "https://ror.org/002tx1f22",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I102607778"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zouhair K. Attieh",
+      "raw_affiliation_strings": [
+        "Department of Biological, Geological and Environmental Sciences, Cleveland State University, Cleveland, Ohio 44115",
+        "Department of Cell Biology, The Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, Ohio 44195 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Cell Biology, The Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, Ohio 44195 and the",
+          "institution_ids": [
+            "https://openalex.org/I1316902750"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Biological, Geological and Environmental Sciences, Cleveland State University, Cleveland, Ohio 44115",
+          "institution_ids": [
+            "https://openalex.org/I102607778"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083982977",
+        "display_name": "Chinmay K. Mukhopadhyay",
+        "orcid": "https://orcid.org/0000-0001-7094-3088"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1316902750",
+          "display_name": "Cleveland Clinic",
+          "ror": "https://ror.org/03xjacd83",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1316902750"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chinmay K. Mukhopadhyay",
+      "raw_affiliation_strings": [
+        "Department of Cell Biology, The Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, Ohio 44195 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Cell Biology, The Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, Ohio 44195 and the",
+          "institution_ids": [
+            "https://openalex.org/I1316902750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017688815",
+        "display_name": "Vasudevan Seshadri",
+        "orcid": "https://orcid.org/0000-0002-1603-2969"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1316902750",
+          "display_name": "Cleveland Clinic",
+          "ror": "https://ror.org/03xjacd83",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1316902750"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Vasudevan Seshadri",
+      "raw_affiliation_strings": [
+        "Department of Cell Biology, The Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, Ohio 44195 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Cell Biology, The Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, Ohio 44195 and the",
+          "institution_ids": [
+            "https://openalex.org/I1316902750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5019415326",
+        "display_name": "Nicholas A. Tripoulas",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1316902750",
+          "display_name": "Cleveland Clinic",
+          "ror": "https://ror.org/03xjacd83",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1316902750"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nicholas A. Tripoulas",
+      "raw_affiliation_strings": [
+        "Department of Cell Biology, The Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, Ohio 44195 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Cell Biology, The Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, Ohio 44195 and the",
+          "institution_ids": [
+            "https://openalex.org/I1316902750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5086615981",
+        "display_name": "Paul L. Fox",
+        "orcid": "https://orcid.org/0000-0002-6033-1528"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1316902750",
+          "display_name": "Cleveland Clinic",
+          "ror": "https://ror.org/03xjacd83",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1316902750"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paul L. Fox",
+      "raw_affiliation_strings": [
+        "Department of Cell Biology, The Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, Ohio 44195 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Cell Biology, The Lerner Research Institute, Cleveland Clinic Foundation, Cleveland, Ohio 44195 and the",
+          "institution_ids": [
+            "https://openalex.org/I1316902750"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2500,
+    "currency": "USD",
+    "value_usd": 2500
+  },
+  "apc_paid": {
+    "value": 2500,
+    "currency": "USD",
+    "value_usd": 2500
+  },
+  "fwci": 11.072,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 144,
+  "citation_normalized_percentile": {
+    "value": 0.999758,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "274",
+    "issue": "2",
+    "first_page": "1116",
+    "last_page": "1123"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10915",
+    "display_name": "Trace Elements in Health",
+    "score": 0.9997,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10915",
+      "display_name": "Trace Elements in Health",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10452",
+      "display_name": "Iron Metabolism and Disorders",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10790",
+      "display_name": "Heavy Metal Exposure and Toxicity",
+      "score": 0.9824,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/ceruloplasmin",
+      "display_name": "Ceruloplasmin",
+      "score": 0.9773774
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C28452662",
+      "wikidata": "https://www.wikidata.org/wiki/Q422752",
+      "display_name": "Ceruloplasmin",
+      "level": 2,
+      "score": 0.9773774
+    },
+    {
+      "id": "https://openalex.org/C89611455",
+      "wikidata": "https://www.wikidata.org/wiki/Q6804646",
+      "display_name": "Mechanism (biology)",
+      "level": 2,
+      "score": 0.72325635
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.62273204
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.42740536
+    },
+    {
+      "id": "https://openalex.org/C12554922",
+      "wikidata": "https://www.wikidata.org/wiki/Q7100",
+      "display_name": "Biophysics",
+      "level": 1,
+      "score": 0.38380775
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.16192085
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111472728",
+      "wikidata": "https://www.wikidata.org/wiki/Q9471",
+      "display_name": "Epistemology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002570",
+      "descriptor_name": "Ceruloplasmin",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007501",
+      "descriptor_name": "Iron",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002412",
+      "descriptor_name": "Cations",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002570",
+      "descriptor_name": "Ceruloplasmin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017136",
+      "descriptor_name": "Ion Transport",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007501",
+      "descriptor_name": "Iron",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020014",
+      "descriptor_name": "K562 Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1074/jbc.274.2.1116",
+      "pdf_url": "http://www.jbc.org/article/S0021925819883837/pdf",
+      "source": {
+        "id": "https://openalex.org/S140251998",
+        "display_name": "Journal of Biological Chemistry",
+        "issn_l": "0021-9258",
+        "issn": [
+          "0021-9258",
+          "1067-8816",
+          "1083-351X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/9873059",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1074/jbc.274.2.1116",
+    "pdf_url": "http://www.jbc.org/article/S0021925819883837/pdf",
+    "source": {
+      "id": "https://openalex.org/S140251998",
+      "display_name": "Journal of Biological Chemistry",
+      "issn_l": "0021-9258",
+      "issn": [
+        "0021-9258",
+        "1067-8816",
+        "1083-351X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/6",
+      "score": 0.46,
+      "display_name": "Clean water and sanitation"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 46,
+  "referenced_works": [
+    "https://openalex.org/W128791626",
+    "https://openalex.org/W1496473441",
+    "https://openalex.org/W1508143080",
+    "https://openalex.org/W1509880727",
+    "https://openalex.org/W1543145576",
+    "https://openalex.org/W1558751029",
+    "https://openalex.org/W1568628619",
+    "https://openalex.org/W1570650398",
+    "https://openalex.org/W1574749596",
+    "https://openalex.org/W1575369553",
+    "https://openalex.org/W1587837383",
+    "https://openalex.org/W1591755807",
+    "https://openalex.org/W1595921363",
+    "https://openalex.org/W1602373035",
+    "https://openalex.org/W1603628987",
+    "https://openalex.org/W1781712456",
+    "https://openalex.org/W1969060808",
+    "https://openalex.org/W1982995422",
+    "https://openalex.org/W2002605005",
+    "https://openalex.org/W2005687534",
+    "https://openalex.org/W2005806732",
+    "https://openalex.org/W2007061375",
+    "https://openalex.org/W2007632640",
+    "https://openalex.org/W2017861724",
+    "https://openalex.org/W2019597550",
+    "https://openalex.org/W2024460610",
+    "https://openalex.org/W2029443758",
+    "https://openalex.org/W2036615604",
+    "https://openalex.org/W2041686088",
+    "https://openalex.org/W2046260941",
+    "https://openalex.org/W2046440396",
+    "https://openalex.org/W2049849193",
+    "https://openalex.org/W2050742607",
+    "https://openalex.org/W2059737016",
+    "https://openalex.org/W2060621718",
+    "https://openalex.org/W2065352821",
+    "https://openalex.org/W2069175874",
+    "https://openalex.org/W2079443520",
+    "https://openalex.org/W2091086401",
+    "https://openalex.org/W2092027227",
+    "https://openalex.org/W2094622862",
+    "https://openalex.org/W2109069207",
+    "https://openalex.org/W2120532960",
+    "https://openalex.org/W2141937988",
+    "https://openalex.org/W2417246010",
+    "https://openalex.org/W4251819674"
+  ],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W4387497383",
+    "https://openalex.org/W4290370462",
+    "https://openalex.org/W2948807893",
+    "https://openalex.org/W2778153218",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2527526854",
+    "https://openalex.org/W2078814861",
+    "https://openalex.org/W1976181487",
+    "https://openalex.org/W1531601525"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      233,
+      656,
+      680,
+      753,
+      807,
+      934,
+      1055,
+      1563,
+      1722,
+      1999,
+      2019,
+      2124,
+      2153,
+      2206,
+      2493,
+      3021,
+      3491,
+      3604,
+      3683,
+      3734,
+      3837,
+      3926,
+      4021,
+      4106,
+      4194,
+      4211,
+      4295,
+      4352,
+      4376,
+      4413
+    ],
+    "balance": [
+      1,
+      234,
+      658
+    ],
+    "required": [
+      2,
+      190,
+      235,
+      423,
+      659,
+      1214,
+      1495,
+      3510
+    ],
+    "to": [
+      3,
+      13,
+      19,
+      52,
+      61,
+      236,
+      246,
+      252,
+      285,
+      294,
+      561,
+      660,
+      670,
+      718,
+      941,
+      1104,
+      1373,
+      1540,
+      1560,
+      2117,
+      2122,
+      2172,
+      2315,
+      2609,
+      2629,
+      2765,
+      2782,
+      2928,
+      3080,
+      3135,
+      3157,
+      3168,
+      3181,
+      3211,
+      3225,
+      3228,
+      3235,
+      3245,
+      3354,
+      3479,
+      3542,
+      3610,
+      3688,
+      3738,
+      3746,
+      3752,
+      3801,
+      3833,
+      3932,
+      4014,
+      4125,
+      4184,
+      4337,
+      4460
+    ],
+    "maintain": [
+      4,
+      237,
+      661
+    ],
+    "appropriate": [
+      5,
+      238,
+      662
+    ],
+    "cellular": [
+      6,
+      107,
+      239,
+      340,
+      522,
+      676,
+      1004,
+      3480,
+      3779,
+      4175
+    ],
+    "and": [
+      7,
+      26,
+      69,
+      142,
+      161,
+      169,
+      206,
+      217,
+      240,
+      259,
+      302,
+      375,
+      394,
+      402,
+      439,
+      450,
+      480,
+      495,
+      526,
+      565,
+      631,
+      664,
+      689,
+      714,
+      730,
+      770,
+      923,
+      945,
+      998,
+      1036,
+      1149,
+      1211,
+      1290,
+      1466,
+      1544,
+      1567,
+      1639,
+      1741,
+      1837,
+      1869,
+      1872,
+      1934,
+      1956,
+      1972,
+      2027,
+      2033,
+      2115,
+      2144,
+      2181,
+      2218,
+      2232,
+      2249,
+      2287,
+      2289,
+      2310,
+      2321,
+      2383,
+      2486,
+      2496,
+      2511,
+      2740,
+      2895,
+      3000,
+      3145,
+      3230,
+      3286,
+      3301,
+      3303,
+      3326,
+      3373,
+      3389,
+      3482,
+      3587,
+      4041,
+      4128,
+      4220,
+      4310,
+      4321,
+      4362,
+      4374,
+      4397,
+      4458
+    ],
+    "tissue": [
+      8,
+      241,
+      562,
+      665
+    ],
+    "iron": [
+      9,
+      22,
+      30,
+      39,
+      67,
+      78,
+      90,
+      108,
+      132,
+      135,
+      153,
+      192,
+      215,
+      226,
+      242,
+      255,
+      263,
+      272,
+      300,
+      311,
+      323,
+      341,
+      365,
+      368,
+      386,
+      425,
+      448,
+      459,
+      518,
+      563,
+      616,
+      666,
+      677,
+      682,
+      715,
+      953,
+      1005,
+      1095,
+      1217,
+      1253,
+      1263,
+      1319,
+      1337,
+      1369,
+      1497,
+      1579,
+      1615,
+      1701,
+      1712,
+      1734,
+      1751,
+      1820,
+      1831,
+      2084,
+      2853,
+      2884,
+      2930,
+      3024,
+      3066,
+      3117,
+      3140,
+      3156,
+      3174,
+      3186,
+      3259,
+      3283,
+      3288,
+      3468,
+      3489,
+      3498,
+      3521,
+      3543,
+      3546,
+      3559,
+      3566,
+      3576,
+      3589,
+      3600,
+      3678,
+      3751,
+      3780,
+      3843,
+      3874,
+      3975,
+      4160,
+      4169,
+      4192,
+      4242,
+      4367,
+      4395,
+      4420,
+      4463
+    ],
+    "levels": [
+      10,
+      243,
+      667
+    ],
+    "has": [
+      11,
+      244,
+      668,
+      685,
+      1007,
+      1371,
+      1536
+    ],
+    "led": [
+      12,
+      245,
+      669,
+      1372
+    ],
+    "the": [
+      14,
+      101,
+      112,
+      197,
+      247,
+      334,
+      345,
+      430,
+      671,
+      696,
+      719,
+      757,
+      772,
+      811,
+      821,
+      942,
+      995,
+      1058,
+      1291,
+      1374,
+      1508,
+      1512,
+      1574,
+      1813,
+      1885,
+      2037,
+      2192,
+      2267,
+      2284,
+      2335,
+      2348,
+      2467,
+      2478,
+      2487,
+      2624,
+      2707,
+      2736,
+      2786,
+      2828,
+      2880,
+      2893,
+      3013,
+      3070,
+      3087,
+      3098,
+      3111,
+      3114,
+      3122,
+      3143,
+      3148,
+      3158,
+      3249,
+      3271,
+      3275,
+      3297,
+      3338,
+      3348,
+      3361,
+      3381,
+      3392,
+      3449,
+      3465,
+      3473,
+      3513,
+      3611,
+      3695,
+      3703,
+      3748,
+      3784,
+      3834,
+      3883,
+      3895,
+      4061,
+      4070,
+      4094,
+      4121,
+      4174,
+      4179,
+      4235,
+      4311,
+      4315,
+      4330,
+      4344,
+      4400,
+      4406,
+      4434,
+      4440,
+      4453
+    ],
+    "evolution": [
+      15,
+      248,
+      672
+    ],
+    "of": [
+      16,
+      50,
+      56,
+      72,
+      114,
+      130,
+      199,
+      249,
+      283,
+      289,
+      305,
+      347,
+      363,
+      432,
+      521,
+      615,
+      673,
+      728,
+      756,
+      810,
+      819,
+      828,
+      835,
+      931,
+      1057,
+      1376,
+      1558,
+      1700,
+      1711,
+      1720,
+      1889,
+      2042,
+      2056,
+      2099,
+      2132,
+      2155,
+      2196,
+      2306,
+      2308,
+      2394,
+      2477,
+      2604,
+      2623,
+      2715,
+      2735,
+      2738,
+      2822,
+      2831,
+      2879,
+      2882,
+      2977,
+      3018,
+      3023,
+      3046,
+      3073,
+      3100,
+      3113,
+      3124,
+      3155,
+      3165,
+      3184,
+      3329,
+      3347,
+      3364,
+      3384,
+      3409,
+      3448,
+      3475,
+      3557,
+      3606,
+      3651,
+      3697,
+      3707,
+      3736,
+      3750,
+      3786,
+      3826,
+      3894,
+      3973,
+      4024,
+      4072,
+      4104,
+      4108,
+      4120,
+      4123,
+      4152,
+      4173,
+      4181,
+      4213,
+      4237,
+      4250,
+      4297,
+      4314,
+      4332,
+      4346,
+      4358,
+      4365,
+      4379,
+      4383,
+      4428,
+      4433,
+      4455
+    ],
+    "multiple": [
+      17,
+      81,
+      250,
+      314,
+      4448
+    ],
+    "mechanisms": [
+      18,
+      251,
+      1139
+    ],
+    "precisely": [
+      20,
+      253
+    ],
+    "regulate": [
+      21,
+      254
+    ],
+    "uptake": [
+      23,
+      91,
+      117,
+      133,
+      154,
+      193,
+      227,
+      256,
+      324,
+      350,
+      366,
+      387,
+      426,
+      460,
+      683,
+      1006,
+      1138,
+      1218,
+      1320,
+      1338,
+      1370,
+      1589,
+      1821,
+      1832,
+      2854,
+      2897,
+      2931,
+      2981,
+      3002,
+      3025,
+      3067,
+      3075,
+      3089,
+      3175,
+      3260,
+      3481,
+      3499,
+      3547,
+      3781,
+      3844,
+      3849,
+      3875,
+      3976,
+      4058,
+      4161,
+      4170,
+      4368,
+      4421
+    ],
+    "from": [
+      24,
+      257,
+      1257,
+      1268,
+      1294,
+      1850,
+      1901,
+      1914,
+      1926,
+      1940,
+      1945,
+      1952,
+      1977,
+      2169,
+      2266,
+      2542,
+      3076,
+      3439,
+      3680
+    ],
+    "transferrin": [
+      25,
+      126,
+      258,
+      359,
+      705,
+      712,
+      729,
+      758,
+      812,
+      943,
+      996,
+      1596,
+      1919,
+      3792,
+      3803,
+      3831,
+      3852,
+      3864,
+      3877
+    ],
+    "low": [
+      27,
+      260,
+      1092
+    ],
+    "molecular": [
+      28,
+      261,
+      1093,
+      1814
+    ],
+    "weight": [
+      29,
+      262,
+      1094
+    ],
+    "chelates.": [
+      31,
+      264
+    ],
+    "A": [
+      32,
+      265,
+      1204,
+      1324,
+      1364,
+      2040,
+      2574,
+      2619
+    ],
+    "role": [
+      33,
+      266,
+      1572,
+      1747,
+      4107,
+      4236
+    ],
+    "for": [
+      34,
+      191,
+      224,
+      267,
+      424,
+      457,
+      694,
+      921,
+      928,
+      949,
+      1215,
+      1335,
+      1366,
+      1496,
+      1573,
+      1748,
+      2016,
+      2103,
+      2174,
+      2200,
+      2259,
+      2276,
+      2355,
+      2490,
+      2644,
+      2662,
+      2799,
+      2839,
+      3116,
+      3334,
+      3511,
+      4055,
+      4088,
+      4101,
+      4205,
+      4393,
+      4462
+    ],
+    "ceruloplasmin": [
+      35,
+      268,
+      1542
+    ],
+    "(Cp)": [
+      36,
+      269
+    ],
+    "in": [
+      37,
+      80,
+      213,
+      270,
+      313,
+      446,
+      469,
+      496,
+      519,
+      583,
+      621,
+      646,
+      765,
+      826,
+      1010,
+      1109,
+      1155,
+      1368,
+      1382,
+      1470,
+      1576,
+      1642,
+      1703,
+      1736,
+      1750,
+      1753,
+      1988,
+      2006,
+      2036,
+      2058,
+      2096,
+      2191,
+      2221,
+      2283,
+      2332,
+      2347,
+      2613,
+      2631,
+      2670,
+      2794,
+      2812,
+      2924,
+      3030,
+      3035,
+      3263,
+      3318,
+      3321,
+      3337,
+      3380,
+      3436,
+      3467,
+      3472,
+      3629,
+      3677,
+      4069,
+      4241,
+      4343
+    ],
+    "vertebrate": [
+      38,
+      271,
+      1577
+    ],
+    "metabolism": [
+      40,
+      273,
+      1254
+    ],
+    "is": [
+      41,
+      274,
+      467,
+      475,
+      492,
+      524,
+      690,
+      706,
+      716,
+      760,
+      814,
+      1061,
+      1208,
+      1332,
+      1547,
+      3477,
+      3744,
+      3773,
+      4096,
+      4385,
+      4391,
+      4403,
+      4442
+    ],
+    "suggested": [
+      42,
+      275,
+      761,
+      3506
+    ],
+    "by": [
+      43,
+      54,
+      70,
+      92,
+      103,
+      118,
+      122,
+      134,
+      139,
+      158,
+      162,
+      173,
+      196,
+      220,
+      276,
+      287,
+      303,
+      325,
+      336,
+      351,
+      355,
+      367,
+      372,
+      391,
+      395,
+      406,
+      429,
+      453,
+      708,
+      721,
+      726,
+      762,
+      771,
+      816,
+      939,
+      1321,
+      1590,
+      1594,
+      1621,
+      1816,
+      1822,
+      1859,
+      1870,
+      2004,
+      2046,
+      2149,
+      2212,
+      2236,
+      2253,
+      2270,
+      2294,
+      2353,
+      2392,
+      2397,
+      2406,
+      2457,
+      2474,
+      2501,
+      2513,
+      2532,
+      2546,
+      2602,
+      2651,
+      2679,
+      2703,
+      2720,
+      2732,
+      2806,
+      2819,
+      2827,
+      2855,
+      2982,
+      2986,
+      3026,
+      3068,
+      3106,
+      3128,
+      3162,
+      3261,
+      3307,
+      3335,
+      3371,
+      3416,
+      3423,
+      3442,
+      3454,
+      3500,
+      3520,
+      3551,
+      3565,
+      3732,
+      3740,
+      3782,
+      3791,
+      3824,
+      3851,
+      4171,
+      4196,
+      4201,
+      4217,
+      4248,
+      4252,
+      4303,
+      4319,
+      4339,
+      4408,
+      4422,
+      4431
+    ],
+    "its": [
+      44,
+      277,
+      731,
+      763,
+      947,
+      1329,
+      1467,
+      4159,
+      4359,
+      4366
+    ],
+    "potent": [
+      45,
+      278
+    ],
+    "ferroxidase": [
+      46,
+      187,
+      279,
+      420,
+      1553,
+      1835,
+      2535,
+      2728,
+      3742,
+      4102,
+      4110,
+      4132,
+      4206,
+      4239,
+      4299,
+      4360,
+      4389
+    ],
+    "activity": [
+      47,
+      188,
+      280,
+      421,
+      1554,
+      1836,
+      2729,
+      3743,
+      4103,
+      4111,
+      4133,
+      4162,
+      4207,
+      4240,
+      4300,
+      4361,
+      4370,
+      4390
+    ],
+    "catalyzing": [
+      48,
+      281
+    ],
+    "conversion": [
+      49,
+      282,
+      1557,
+      3164,
+      3735
+    ],
+    "Fe2+": [
+      51,
+      284,
+      3167,
+      3229,
+      3737,
+      4064
+    ],
+    "Fe3+,": [
+      53,
+      286
+    ],
+    "identification": [
+      55,
+      288
+    ],
+    "yeast": [
+      57,
+      290,
+      1259,
+      1336,
+      1643
+    ],
+    "copper": [
+      58,
+      291,
+      1367,
+      1549,
+      2396,
+      2605,
+      2648,
+      4127,
+      4251,
+      4342
+    ],
+    "oxidases": [
+      59,
+      292,
+      1504
+    ],
+    "homologous": [
+      60,
+      293,
+      1292
+    ],
+    "Cp": [
+      62,
+      88,
+      105,
+      110,
+      180,
+      186,
+      202,
+      205,
+      221,
+      295,
+      321,
+      338,
+      343,
+      413,
+      419,
+      435,
+      438,
+      454,
+      1546,
+      1568,
+      1586,
+      1619,
+      1729,
+      1749,
+      1818,
+      1834,
+      1847,
+      1855,
+      2197,
+      2395,
+      2435,
+      2657,
+      2727,
+      2759,
+      2762,
+      2849,
+      2923,
+      2952,
+      2979,
+      2999,
+      3027,
+      3064,
+      3138,
+      3151,
+      3257,
+      3312,
+      3430,
+      3476,
+      3494,
+      3574,
+      3596,
+      3698,
+      3741,
+      3777,
+      3897,
+      4073,
+      4081,
+      4109,
+      4131,
+      4153,
+      4183,
+      4189,
+      4238,
+      4354,
+      4384,
+      4418
+    ],
+    "that": [
+      63,
+      87,
+      179,
+      296,
+      320,
+      412,
+      774,
+      1087,
+      1493,
+      1555,
+      1585,
+      1725,
+      1829,
+      1879,
+      2848,
+      3097,
+      3110,
+      3121,
+      3137,
+      3150,
+      3401,
+      3464,
+      3493,
+      3507,
+      3776,
+      3872,
+      3885,
+      4080,
+      4388,
+      4399,
+      4417
+    ],
+    "facilitate": [
+      64,
+      297,
+      1316,
+      3747
+    ],
+    "high": [
+      65,
+      230,
+      298,
+      463,
+      1317,
+      2851
+    ],
+    "affinity": [
+      66,
+      299,
+      948,
+      1318,
+      2852,
+      3112
+    ],
+    "uptake,": [
+      68,
+      301,
+      2085,
+      2885,
+      3966,
+      4396
+    ],
+    "studies": [
+      71,
+      304,
+      818,
+      834,
+      3045
+    ],
+    "\"aceruloplasminemic\"": [
+      73,
+      306
+    ],
+    "patients": [
+      74,
+      307,
+      1727
+    ],
+    "who": [
+      75,
+      308,
+      3671
+    ],
+    "have": [
+      76,
+      84,
+      309,
+      317,
+      618,
+      1085,
+      1151,
+      1255,
+      1582,
+      1732,
+      2845
+    ],
+    "extensive": [
+      77,
+      310
+    ],
+    "deposits": [
+      79,
+      312,
+      1735
+    ],
+    "tissues.": [
+      82,
+      315
+    ],
+    "We": [
+      83,
+      209,
+      316,
+      442,
+      1581,
+      2844,
+      4117
+    ],
+    "recently": [
+      85,
+      318,
+      1153,
+      1584
+    ],
+    "shown": [
+      86,
+      195,
+      319,
+      428,
+      815,
+      1583,
+      2473,
+      2847,
+      3453,
+      4318
+    ],
+    "increases": [
+      89,
+      322,
+      1587,
+      1819,
+      4419
+    ],
+    "cultured": [
+      93,
+      326,
+      768,
+      1012
+    ],
+    "HepG2": [
+      94,
+      327,
+      1015,
+      1592,
+      1622,
+      2857,
+      2919,
+      3047,
+      3630,
+      3681
+    ],
+    "cells.": [
+      95,
+      328,
+      1054,
+      1825,
+      3682
+    ],
+    "In": [
+      96,
+      329,
+      516,
+      701,
+      1808,
+      2342,
+      2757,
+      3309,
+      4060
+    ],
+    "this": [
+      97,
+      330,
+      702,
+      1000,
+      1809,
+      3212,
+      3310,
+      3330,
+      3526,
+      3619,
+      3820
+    ],
+    "report,": [
+      98,
+      331
+    ],
+    "we": [
+      99,
+      332,
+      1811,
+      2886,
+      3172,
+      4451
+    ],
+    "investigated": [
+      100,
+      333
+    ],
+    "mechanism": [
+      102,
+      335,
+      1815,
+      2881
+    ],
+    "which": [
+      104,
+      214,
+      337,
+      447,
+      1505,
+      1817,
+      2836,
+      2921,
+      3788,
+      4224
+    ],
+    "stimulates": [
+      106,
+      339,
+      2850,
+      3575,
+      3778,
+      4082
+    ],
+    "uptake.": [
+      109,
+      342,
+      1498,
+      1580,
+      4076,
+      4193,
+      4464
+    ],
+    "stimulated": [
+      111,
+      344,
+      3065,
+      3139,
+      3313
+    ],
+    "rate": [
+      113,
+      346,
+      3090
+    ],
+    "non-transferrin": [
+      115,
+      348,
+      1098,
+      1252
+    ],
+    "55Fe": [
+      116,
+      349,
+      1588,
+      2156,
+      3848,
+      4057
+    ],
+    "iron-deficient": [
+      119,
+      352,
+      1322,
+      1591,
+      2003,
+      2182,
+      2856,
+      2983,
+      3031,
+      3264,
+      3440,
+      4290
+    ],
+    "K562": [
+      120,
+      353,
+      1037,
+      1824,
+      1981,
+      2089,
+      2177,
+      2890,
+      2947,
+      2984,
+      3265,
+      3291,
+      3532,
+      3582,
+      3796,
+      4291
+    ],
+    "cells": [
+      121,
+      354,
+      769,
+      1013,
+      1157,
+      1593,
+      1623,
+      1982,
+      2000,
+      2020,
+      2090,
+      2207,
+      2858,
+      2891,
+      2920,
+      2948,
+      2985,
+      3032,
+      3037,
+      3048,
+      3214,
+      3266,
+      3292,
+      3298,
+      3441,
+      3471,
+      3502,
+      3533,
+      3583,
+      3631,
+      3797,
+      4185,
+      4292
+    ],
+    "2–3-fold,": [
+      123,
+      356
+    ],
+    "using": [
+      124,
+      357,
+      3176,
+      3269,
+      3860,
+      3984,
+      4114
+    ],
+    "a": [
+      125,
+      146,
+      182,
+      211,
+      358,
+      379,
+      415,
+      444,
+      486,
+      709,
+      918,
+      1105,
+      1548,
+      1552,
+      1570,
+      1595,
+      1839,
+      2052,
+      2118,
+      2159,
+      2240,
+      2343,
+      2366,
+      2733,
+      2768,
+      2832,
+      2875,
+      3008,
+      3041,
+      3177,
+      3218,
+      3315,
+      3396,
+      3424,
+      3485,
+      3508,
+      3562,
+      3673,
+      3827,
+      3861,
+      3969,
+      4047,
+      4083,
+      4090,
+      4099,
+      4226,
+      4349,
+      4409
+    ],
+    "receptor-independent": [
+      127,
+      360,
+      1597
+    ],
+    "pathway.": [
+      128,
+      361,
+      700,
+      1844
+    ],
+    "Induction": [
+      129,
+      362
+    ],
+    "Cp-stimulated": [
+      131,
+      152,
+      364,
+      385,
+      1830,
+      2883,
+      3545,
+      3588,
+      3675,
+      3842,
+      3873,
+      4025,
+      4056,
+      4394
+    ],
+    "deficiency": [
+      136,
+      369,
+      491,
+      1713,
+      3567
+    ],
+    "was": [
+      137,
+      155,
+      189,
+      370,
+      388,
+      422,
+      1848,
+      1857,
+      1882,
+      1913,
+      1925,
+      1939,
+      1951,
+      2044,
+      2113,
+      2126,
+      2147,
+      2167,
+      2292,
+      2337,
+      2351,
+      2390,
+      2436,
+      2464,
+      2484,
+      2530,
+      2540,
+      2577,
+      2627,
+      2649,
+      2660,
+      2701,
+      2718,
+      2730,
+      2763,
+      2788,
+      2825,
+      2837,
+      2994,
+      3003,
+      3028,
+      3103,
+      3118,
+      3126,
+      3289,
+      3332,
+      3352,
+      3369,
+      3377,
+      3414,
+      3452,
+      3516,
+      3548,
+      3591,
+      3623,
+      3822,
+      3876,
+      3930,
+      3968,
+      4028,
+      4112,
+      4199,
+      4215,
+      4246,
+      4301,
+      4317,
+      4335
+    ],
+    "blocked": [
+      138,
+      157,
+      371,
+      390,
+      3550,
+      3847,
+      4158
+    ],
+    "actinomycin": [
+      140,
+      373,
+      3537
+    ],
+    "D": [
+      141,
+      374,
+      3388,
+      3538,
+      4373
+    ],
+    "cycloheximide,": [
+      143,
+      376,
+      1965
+    ],
+    "consistent": [
+      144,
+      377,
+      3043,
+      3624,
+      4097
+    ],
+    "with": [
+      145,
+      229,
+      378,
+      462,
+      1511,
+      1551,
+      1728,
+      1994,
+      2024,
+      2029,
+      2051,
+      2129,
+      2187,
+      2339,
+      2358,
+      2365,
+      2380,
+      2399,
+      2460,
+      2665,
+      2790,
+      2808,
+      3044,
+      3217,
+      3231,
+      3248,
+      3295,
+      3403,
+      3418,
+      3470,
+      3536,
+      3625,
+      3649,
+      4085,
+      4098,
+      4154,
+      4187,
+      4254,
+      4341
+    ],
+    "transcriptionally": [
+      147,
+      380,
+      1617
+    ],
+    "induced": [
+      148,
+      381,
+      3517
+    ],
+    "or": [
+      149,
+      382,
+      529,
+      2194,
+      2364,
+      2760,
+      3120,
+      3274,
+      3345,
+      3518,
+      3539,
+      3608,
+      3922,
+      4037,
+      4444
+    ],
+    "regulated": [
+      150,
+      383
+    ],
+    "transporter.": [
+      151,
+      185,
+      384,
+      418,
+      4412
+    ],
+    "completely": [
+      156,
+      389,
+      3549,
+      3846,
+      4074,
+      4157
+    ],
+    "unlabeled": [
+      159,
+      392
+    ],
+    "Fe3+": [
+      160,
+      393,
+      3227,
+      3614,
+      3739,
+      3790,
+      4401
+    ],
+    "other": [
+      163,
+      396,
+      1707,
+      1742,
+      1973,
+      3886,
+      3923
+    ],
+    "trivalent": [
+      164,
+      183,
+      397,
+      416,
+      1841,
+      4091,
+      4410,
+      4449,
+      4467
+    ],
+    "cations": [
+      165,
+      398,
+      4468
+    ],
+    "including": [
+      166,
+      399,
+      625,
+      1014,
+      4033
+    ],
+    "Al3+,": [
+      167,
+      400,
+      4456
+    ],
+    "Ga3+,": [
+      168,
+      401
+    ],
+    "Cr3+,": [
+      170,
+      403,
+      4457
+    ],
+    "but": [
+      171,
+      404,
+      1063,
+      3033,
+      3108,
+      3421,
+      3647,
+      3845,
+      3879,
+      3967
+    ],
+    "not": [
+      172,
+      405,
+      993,
+      1141,
+      2950,
+      3034,
+      3104,
+      3279,
+      3378,
+      3422,
+      3496,
+      3598,
+      3617,
+      3648,
+      3799,
+      3881,
+      4019,
+      4043,
+      4052,
+      4167,
+      4286,
+      4430
+    ],
+    "divalent": [
+      174,
+      407,
+      4031
+    ],
+    "cations.": [
+      175,
+      408
+    ],
+    "These": [
+      176,
+      409,
+      1499,
+      3461,
+      3869
+    ],
+    "results": [
+      177,
+      410,
+      1827,
+      3242,
+      3462,
+      3650,
+      3857,
+      3870,
+      3981,
+      4414
+    ],
+    "indicate": [
+      178,
+      411
+    ],
+    "utilizes": [
+      181,
+      414,
+      1838
+    ],
+    "cation-specific": [
+      184,
+      417,
+      1842
+    ],
+    "as": [
+      194,
+      427,
+      485,
+      917,
+      1884,
+      2183,
+      2404,
+      2472,
+      2544,
+      2677,
+      3412,
+      3578,
+      3580,
+      3613,
+      4348
+    ],
+    "ineffectiveness": [
+      198,
+      431
+    ],
+    "two": [
+      200,
+      433,
+      924,
+      1145,
+      2210,
+      4380
+    ],
+    "ferroxidase-deficient": [
+      201,
+      434
+    ],
+    "preparations,": [
+      203,
+      436
+    ],
+    "copper-deficient": [
+      204,
+      437
+    ],
+    "thiomolybdate-treated": [
+      207,
+      440,
+      4188
+    ],
+    "Cp.": [
+      208,
+      441,
+      1721,
+      1890,
+      3129,
+      3733,
+      4105,
+      4116
+    ],
+    "propose": [
+      210,
+      443
+    ],
+    "model": [
+      212,
+      445,
+      693
+    ],
+    "reduction": [
+      216,
+      449
+    ],
+    "subsequent": [
+      218,
+      451
+    ],
+    "re-oxidation": [
+      219,
+      452
+    ],
+    "are": [
+      222,
+      455,
+      1140,
+      1494,
+      1501,
+      2899,
+      3215,
+      3798
+    ],
+    "essential": [
+      223,
+      456
+    ],
+    "an": [
+      225,
+      458,
+      476,
+      691,
+      722,
+      1716,
+      1745,
+      1860,
+      2514,
+      2533,
+      2783,
+      2925,
+      3558,
+      4202,
+      4304
+    ],
+    "pathway": [
+      228,
+      461,
+      684,
+      724,
+      813,
+      1598,
+      3821,
+      4177
+    ],
+    "ion": [
+      231,
+      464,
+      2817
+    ],
+    "specificity.": [
+      232,
+      465
+    ],
+    "Iron": [
+      466,
+      490,
+      581,
+      644
+    ],
+    "important": [
+      468,
+      692,
+      1717,
+      1746
+    ],
+    "many": [
+      470,
+      1011
+    ],
+    "biological": [
+      471
+    ],
+    "processes": [
+      472,
+      3730,
+      3889
+    ],
+    "because": [
+      473,
+      481
+    ],
+    "it": [
+      474,
+      482,
+      1088,
+      4334,
+      4446
+    ],
+    "ideal": [
+      477
+    ],
+    "O2": [
+      478
+    ],
+    "carrier": [
+      479
+    ],
+    "can": [
+      483,
+      498
+    ],
+    "function": [
+      484,
+      1056,
+      1719
+    ],
+    "protein-bound": [
+      487
+    ],
+    "redox": [
+      488
+    ],
+    "element.": [
+      489
+    ],
+    "common": [
+      493,
+      823
+    ],
+    "worldwide": [
+      494
+    ],
+    "infants": [
+      497
+    ],
+    "cause": [
+      499
+    ],
+    "severe": [
+      500,
+      778
+    ],
+    "neurological": [
+      501
+    ],
+    "deficit": [
+      502
+    ],
+    "(1DeMaeyer": [
+      503
+    ],
+    "E.": [
+      504,
+      876,
+      886,
+      970,
+      2687,
+      3759,
+      4139
+    ],
+    "Adiels-Tegman": [
+      505
+    ],
+    "M.": [
+      506,
+      785,
+      1041,
+      1114,
+      1165,
+      1224,
+      2587,
+      2745,
+      2905,
+      3658,
+      3714,
+      3912,
+      3914
+    ],
+    "World": [
+      507
+    ],
+    "Health": [
+      508,
+      584,
+      647
+    ],
+    "Stat.": [
+      509
+    ],
+    "Quart.": [
+      510
+    ],
+    "1985;": [
+      511,
+      3917
+    ],
+    "38:": [
+      512
+    ],
+    "302-316PubMed": [
+      513
+    ],
+    "Google": [
+      514,
+      612,
+      751,
+      805,
+      913,
+      988,
+      1034,
+      1052,
+      1083,
+      1135,
+      1175,
+      1202,
+      1232,
+      1246,
+      1288,
+      1314,
+      1362,
+      1412,
+      1437,
+      1464,
+      1491,
+      1531,
+      1612,
+      1637,
+      1671,
+      1696,
+      1780,
+      1793,
+      1806,
+      2080,
+      2433,
+      2572,
+      2600,
+      2697,
+      2755,
+      2872,
+      2916,
+      2945,
+      2970,
+      3062,
+      3208,
+      3645,
+      3669,
+      3725,
+      3770,
+      3818,
+      3920,
+      3957,
+      4012,
+      4149,
+      4282
+    ],
+    "Scholar).": [
+      515,
+      613,
+      655,
+      752,
+      806,
+      989,
+      1136,
+      1203,
+      1247,
+      1363,
+      1532,
+      1613,
+      1697,
+      1807,
+      2081,
+      2434,
+      2573,
+      2698,
+      2756,
+      2873,
+      2917,
+      3063,
+      3209,
+      3771,
+      3958,
+      4150,
+      4283
+    ],
+    "contrast,": [
+      517
+    ],
+    "excess": [
+      520,
+      2055,
+      2497,
+      2622,
+      4050
+    ],
+    "needs": [
+      523
+    ],
+    "toxic": [
+      525
+    ],
+    "dietary": [
+      527
+    ],
+    "overload": [
+      528
+    ],
+    "hereditary": [
+      530,
+      538
+    ],
+    "hemochromatosis": [
+      531,
+      779
+    ],
+    "(HH)": [
+      532
+    ],
+    "1The": [
+      533
+    ],
+    "abbreviations": [
+      534
+    ],
+    "used": [
+      535,
+      2887,
+      3931
+    ],
+    "are:": [
+      536
+    ],
+    "HH,": [
+      537,
+      820,
+      922
+    ],
+    "hemochromatosis;": [
+      539
+    ],
+    "Cp,": [
+      540,
+      3107
+    ],
+    "ceruloplasmin;": [
+      541
+    ],
+    "GSH,": [
+      542
+    ],
+    "reduced": [
+      543,
+      1962,
+      2471
+    ],
+    "glutathione;": [
+      544
+    ],
+    "Nramp,": [
+      545
+    ],
+    "natural": [
+      546
+    ],
+    "resistance-associated": [
+      547
+    ],
+    "macrophage": [
+      548
+    ],
+    "protein;": [
+      549
+    ],
+    "NTA,": [
+      550
+    ],
+    "nitrilotriacetic": [
+      551,
+      1966
+    ],
+    "acid;": [
+      552
+    ],
+    "PAGE,": [
+      553
+    ],
+    "polyacrylamdie": [
+      554
+    ],
+    "gel": [
+      555,
+      2336,
+      2771,
+      3450
+    ],
+    "electrophoresis;": [
+      556
+    ],
+    "MOPS,": [
+      557,
+      2522
+    ],
+    "4-morpholinepropanesulfonic": [
+      558
+    ],
+    "acid.": [
+      559
+    ],
+    "leads": [
+      560
+    ],
+    "deposition": [
+      564
+    ],
+    "injury": [
+      566
+    ],
+    "(2Britton": [
+      567
+    ],
+    "R.S.": [
+      568,
+      1039,
+      1220,
+      2903
+    ],
+    "Tavill": [
+      569,
+      599
+    ],
+    "A.S.": [
+      570,
+      600
+    ],
+    "Bacon": [
+      571,
+      901
+    ],
+    "B.R.": [
+      572,
+      594,
+      902
+    ],
+    "Brock": [
+      573,
+      636
+    ],
+    "J.H.": [
+      574,
+      635,
+      637
+    ],
+    "Halliday": [
+      575,
+      638
+    ],
+    "J.W.": [
+      576,
+      639
+    ],
+    "Pippard": [
+      577,
+      640
+    ],
+    "M.J.": [
+      578,
+      641
+    ],
+    "Powell": [
+      579,
+      642
+    ],
+    "L.W.": [
+      580,
+      643
+    ],
+    "Metabolism": [
+      582,
+      645
+    ],
+    "&": [
+      585,
+      648
+    ],
+    "Disease.": [
+      586,
+      649
+    ],
+    "W.": [
+      587,
+      650,
+      843,
+      2070
+    ],
+    "B.": [
+      588,
+      651,
+      1118,
+      1180
+    ],
+    "Saunders,": [
+      589,
+      652
+    ],
+    "London1994:": [
+      590,
+      653
+    ],
+    "311-351Google": [
+      591
+    ],
+    "Scholar,": [
+      592,
+      1176,
+      1233,
+      1413,
+      1438,
+      1672,
+      1781,
+      1794
+    ],
+    "3Bacon": [
+      593
+    ],
+    "Brittenham": [
+      595
+    ],
+    "G.M.": [
+      596
+    ],
+    "Park": [
+      597
+    ],
+    "C.H.": [
+      598
+    ],
+    "Ann.": [
+      601
+    ],
+    "N.": [
+      602,
+      882,
+      966
+    ],
+    "Y.": [
+      603,
+      1184,
+      1276,
+      1519
+    ],
+    "Acad.": [
+      604,
+      794,
+      977,
+      1351,
+      1453,
+      1769,
+      3946
+    ],
+    "Sci.": [
+      605,
+      795,
+      978,
+      1352,
+      1454,
+      1770,
+      3947
+    ],
+    "1988;": [
+      606,
+      3908
+    ],
+    "526:": [
+      607
+    ],
+    "155-163Crossref": [
+      608
+    ],
+    "PubMed": [
+      609,
+      748,
+      802,
+      910,
+      985,
+      1033,
+      1051,
+      1082,
+      1134,
+      1172,
+      1199,
+      1229,
+      1243,
+      1285,
+      1311,
+      1359,
+      1409,
+      1434,
+      1461,
+      1488,
+      1528,
+      1609,
+      1634,
+      1668,
+      1693,
+      1777,
+      1790,
+      1803,
+      2077,
+      2430,
+      2569,
+      2599,
+      2694,
+      2752,
+      2869,
+      2915,
+      2942,
+      2969,
+      3059,
+      3205,
+      3642,
+      3666,
+      3722,
+      3769,
+      3817,
+      3954,
+      4011,
+      4146,
+      4279
+    ],
+    "Scopus": [
+      610,
+      749,
+      803,
+      911,
+      986,
+      1173,
+      1200,
+      1230,
+      1244,
+      1286,
+      1312,
+      1360,
+      1410,
+      1435,
+      1462,
+      1489,
+      1529,
+      1610,
+      1635,
+      1669,
+      1694,
+      1778,
+      1791,
+      1804,
+      2078,
+      2431,
+      2570,
+      2695,
+      2753,
+      2870,
+      2943,
+      3060,
+      3206,
+      3643,
+      3667,
+      3723,
+      3955,
+      4147,
+      4280
+    ],
+    "(11)": [
+      611
+    ],
+    "Alterations": [
+      614
+    ],
+    "pools": [
+      617
+    ],
+    "been": [
+      619,
+      686,
+      1008,
+      1152
+    ],
+    "implicated": [
+      620
+    ],
+    "diverse": [
+      622
+    ],
+    "human": [
+      623,
+      1541,
+      1846,
+      1957,
+      2888,
+      3015
+    ],
+    "diseases,": [
+      624
+    ],
+    "neurodegenerative": [
+      626
+    ],
+    "disease,": [
+      627
+    ],
+    "aging,": [
+      628
+    ],
+    "atherosclerosis,": [
+      629
+    ],
+    "cancer,": [
+      630
+    ],
+    "microbial": [
+      632
+    ],
+    "infection": [
+      633
+    ],
+    "(4Brock": [
+      634
+    ],
+    "353-389Google": [
+      654
+    ],
+    "precise": [
+      657,
+      2975
+    ],
+    "intracellular": [
+      663,
+      3285,
+      3362,
+      3488
+    ],
+    "several": [
+      674
+    ],
+    "independent": [
+      675
+    ],
+    "transport": [
+      678,
+      1843,
+      4027,
+      4176
+    ],
+    "pathways.": [
+      679
+    ],
+    "transferrin-mediated": [
+      681,
+      3974
+    ],
+    "extensively": [
+      687
+    ],
+    "studied": [
+      688
+    ],
+    "understanding": [
+      695
+    ],
+    "recycling,": [
+      697
+    ],
+    "receptor-mediated": [
+      698,
+      3793,
+      3887,
+      3934,
+      4016
+    ],
+    "endocytosis": [
+      699,
+      3893,
+      3935,
+      4017
+    ],
+    "pathway,": [
+      703
+    ],
+    "diferric": [
+      704
+    ],
+    "endocytosed": [
+      707
+    ],
+    "cell": [
+      710,
+      720,
+      1205,
+      1509,
+      1578,
+      3159,
+      3350,
+      4026,
+      4407
+    ],
+    "surface": [
+      711,
+      1206,
+      1325,
+      3160
+    ],
+    "receptor": [
+      713,
+      732,
+      759,
+      944,
+      997,
+      1920,
+      3865
+    ],
+    "delivered": [
+      717
+    ],
+    "endosomal": [
+      723
+    ],
+    "accompanied": [
+      725
+    ],
+    "recycling": [
+      727
+    ],
+    "(5De": [
+      733
+    ],
+    "Jong": [
+      734
+    ],
+    "G.": [
+      735,
+      2411,
+      2550,
+      2589,
+      2685,
+      3993,
+      4137,
+      4260
+    ],
+    "Van": [
+      736,
+      739,
+      1389,
+      1648,
+      3191,
+      3989
+    ],
+    "Dijk": [
+      737
+    ],
+    "J.P.": [
+      738,
+      787
+    ],
+    "Eijk": [
+      740
+    ],
+    "H.G.": [
+      741
+    ],
+    "Clin.": [
+      742,
+      1798,
+      2072,
+      2746
+    ],
+    "Chim.": [
+      743,
+      2747
+    ],
+    "Acta.": [
+      744,
+      2748
+    ],
+    "1990;": [
+      745,
+      2074,
+      2593
+    ],
+    "190:": [
+      746
+    ],
+    "1-46Crossref": [
+      747
+    ],
+    "(340)": [
+      750
+    ],
+    "physiological": [
+      754,
+      1718
+    ],
+    "significance": [
+      755
+    ],
+    "presence": [
+      764,
+      2193,
+      3474,
+      4071,
+      4345
+    ],
+    "virtually": [
+      766
+    ],
+    "all": [
+      767,
+      932,
+      3328
+    ],
+    "fact": [
+      773
+    ],
+    "hypotransferrinemic": [
+      775
+    ],
+    "animals": [
+      776
+    ],
+    "develop": [
+      777
+    ],
+    "(6Craven": [
+      780
+    ],
+    "C.M.": [
+      781
+    ],
+    "Alexander": [
+      782
+    ],
+    "J.": [
+      783,
+      791,
+      1024,
+      1042,
+      1068,
+      1073,
+      1125,
+      1161,
+      1166,
+      1237,
+      1239,
+      1299,
+      1300,
+      1401,
+      1422,
+      1423,
+      1476,
+      1477,
+      1660,
+      1681,
+      1682,
+      1783,
+      1796,
+      1797,
+      2071,
+      2419,
+      2558,
+      2590,
+      2688,
+      2906,
+      2960,
+      3200,
+      3760,
+      3808,
+      3903,
+      3991,
+      4002,
+      4140,
+      4268
+    ],
+    "Eldridge": [
+      784
+    ],
+    "Kushner": [
+      786
+    ],
+    "Bernstein": [
+      788
+    ],
+    "S.": [
+      789,
+      797,
+      980,
+      1163,
+      1190,
+      1354,
+      1383,
+      1397,
+      1456,
+      1471,
+      1656,
+      1772,
+      2414,
+      2553,
+      3660,
+      3716,
+      3755,
+      3949,
+      4263
+    ],
+    "Kaplan": [
+      790,
+      1064,
+      1236,
+      1298,
+      1400,
+      1421,
+      1475,
+      1659,
+      1680
+    ],
+    "Proc.": [
+      792,
+      975,
+      1349,
+      1451,
+      1767,
+      3944
+    ],
+    "Natl.": [
+      793,
+      976,
+      1350,
+      1452,
+      1768,
+      3945
+    ],
+    "U.": [
+      796,
+      979,
+      1353,
+      1455,
+      1771,
+      3948
+    ],
+    "A.": [
+      798,
+      841,
+      849,
+      858,
+      960,
+      981,
+      1072,
+      1122,
+      1280,
+      1340,
+      1355,
+      1391,
+      1444,
+      1457,
+      1523,
+      1650,
+      1760,
+      1773,
+      2585,
+      3950,
+      3999
+    ],
+    "1987;": [
+      799
+    ],
+    "84:": [
+      800
+    ],
+    "3457-3461Crossref": [
+      801
+    ],
+    "(224)": [
+      804
+    ],
+    "central": [
+      808
+    ],
+    "importance": [
+      809
+    ],
+    "recent": [
+      817,
+      1258,
+      1723
+    ],
+    "most": [
+      822
+    ],
+    "inherited": [
+      824
+    ],
+    "disease": [
+      825
+    ],
+    "people": [
+      827
+    ],
+    "northern": [
+      829
+    ],
+    "European": [
+      830
+    ],
+    "descent.": [
+      831
+    ],
+    "Positional": [
+      832
+    ],
+    "cloning": [
+      833,
+      1375
+    ],
+    "Feder": [
+      836
+    ],
+    "et": [
+      837,
+      1065,
+      2408,
+      2681,
+      3653,
+      3709
+    ],
+    "al.(7Feder": [
+      838
+    ],
+    "J.N.": [
+      839,
+      956
+    ],
+    "Gnirke": [
+      840
+    ],
+    "Thomas": [
+      842
+    ],
+    "Tsuchihashi": [
+      844,
+      967
+    ],
+    "Z.": [
+      845,
+      968
+    ],
+    "Ruddy": [
+      846
+    ],
+    "D.A.": [
+      847,
+      3757
+    ],
+    "Basava": [
+      848
+    ],
+    "Dormishian": [
+      850
+    ],
+    "F.": [
+      851
+    ],
+    "Domingo": [
+      852
+    ],
+    "Jr.,": [
+      853
+    ],
+    "R.": [
+      854,
+      1272,
+      1442,
+      1515,
+      1758,
+      2068,
+      3937
+    ],
+    "Ellis": [
+      855
+    ],
+    "M.C.": [
+      856,
+      3941
+    ],
+    "Fullan": [
+      857
+    ],
+    "Hinton": [
+      859
+    ],
+    "L.M.": [
+      860
+    ],
+    "Jones": [
+      861
+    ],
+    "N.L.": [
+      862
+    ],
+    "Kimmel": [
+      863
+    ],
+    "B.E.": [
+      864
+    ],
+    "Kronmal": [
+      865
+    ],
+    "G.S.": [
+      866
+    ],
+    "Lauer": [
+      867
+    ],
+    "P.": [
+      868
+    ],
+    "Lee": [
+      869,
+      961
+    ],
+    "V.K.": [
+      870,
+      962
+    ],
+    "Loeb": [
+      871
+    ],
+    "D.B.": [
+      872
+    ],
+    "Mapa": [
+      873
+    ],
+    "F.A.": [
+      874
+    ],
+    "McClelland": [
+      875
+    ],
+    "Meyer": [
+      877
+    ],
+    "N.C.": [
+      878
+    ],
+    "Mintier": [
+      879
+    ],
+    "G.A.": [
+      880
+    ],
+    "Moeller": [
+      881
+    ],
+    "Moore": [
+      883
+    ],
+    "T.": [
+      884,
+      1446,
+      1448,
+      1762,
+      1764
+    ],
+    "Morikang": [
+      885
+    ],
+    "Prass": [
+      887
+    ],
+    "C.E.": [
+      888
+    ],
+    "Quintana": [
+      889
+    ],
+    "L.": [
+      890,
+      1395,
+      1654,
+      2418,
+      2557,
+      4267
+    ],
+    "Starnes": [
+      891
+    ],
+    "S.M.": [
+      892
+    ],
+    "Schatzman": [
+      893,
+      973
+    ],
+    "R.C.": [
+      894,
+      974
+    ],
+    "Brunke": [
+      895
+    ],
+    "K.J.": [
+      896
+    ],
+    "Drayna": [
+      897
+    ],
+    "D.T.": [
+      898
+    ],
+    "Risch": [
+      899
+    ],
+    "N.J.": [
+      900
+    ],
+    "Wolff": [
+      903
+    ],
+    "R.K.": [
+      904
+    ],
+    "Nat.": [
+      905
+    ],
+    "Genet.": [
+      906
+    ],
+    "1996;": [
+      907,
+      1282,
+      1525,
+      1787,
+      1800,
+      2422,
+      2561,
+      4271
+    ],
+    "13:": [
+      908,
+      2750,
+      3918
+    ],
+    "399-408Crossref": [
+      909
+    ],
+    "(3366)": [
+      912
+    ],
+    "Scholar)": [
+      914,
+      1035,
+      1053,
+      1084,
+      1289,
+      1465,
+      2601,
+      2971,
+      3670,
+      3726,
+      3921,
+      4013
+    ],
+    "identified": [
+      915,
+      1154
+    ],
+    "HFE": [
+      916,
+      925,
+      936,
+      991
+    ],
+    "candidate": [
+      919
+    ],
+    "gene": [
+      920,
+      937,
+      1730
+    ],
+    "mutations": [
+      926
+    ],
+    "account": [
+      927
+    ],
+    "about": [
+      929,
+      1880,
+      2987,
+      2996,
+      3005,
+      3077,
+      3081,
+      3314,
+      3443,
+      4356,
+      4363
+    ],
+    "80–85%": [
+      930,
+      1881
+    ],
+    "HH.": [
+      933
+    ],
+    "normal": [
+      935,
+      3250,
+      3276
+    ],
+    "product,": [
+      938
+    ],
+    "binding": [
+      940,
+      3154,
+      3749
+    ],
+    "lowering": [
+      946
+    ],
+    "transferrin,": [
+      950,
+      2954
+    ],
+    "down-regulates": [
+      951
+    ],
+    "intestinal": [
+      952
+    ],
+    "absorption": [
+      954
+    ],
+    "(8Feder": [
+      955
+    ],
+    "Penny": [
+      957
+    ],
+    "D.M.": [
+      958,
+      1023,
+      1399,
+      1416,
+      1658,
+      1675
+    ],
+    "Irrinki": [
+      959
+    ],
+    "Lebrón": [
+      963
+    ],
+    "J.A.": [
+      964,
+      1159
+    ],
+    "Watson": [
+      965
+    ],
+    "Sigal": [
+      969
+    ],
+    "Bjorkman": [
+      971
+    ],
+    "P.J.": [
+      972,
+      1124
+    ],
+    "1998;": [
+      982,
+      1606,
+      1631,
+      2866,
+      2939,
+      3056,
+      3639
+    ],
+    "95:": [
+      983
+    ],
+    "1472-1477Crossref": [
+      984
+    ],
+    "(731)": [
+      987
+    ],
+    "Mutant": [
+      990
+    ],
+    "does": [
+      992
+    ],
+    "bind": [
+      994,
+      4126
+    ],
+    "lacks": [
+      999
+    ],
+    "suppressor": [
+      1001
+    ],
+    "activity.": [
+      1002
+    ],
+    "Transferrin-independent": [
+      1003,
+      1137
+    ],
+    "described": [
+      1009,
+      2405,
+      2545,
+      2678
+    ],
+    "(9Randell": [
+      1016
+    ],
+    "E.W.": [
+      1017
+    ],
+    "Parkes": [
+      1018
+    ],
+    "J.G.": [
+      1019
+    ],
+    "Olivieri": [
+      1020
+    ],
+    "N.F.": [
+      1021
+    ],
+    "Templeton": [
+      1022
+    ],
+    "Biol.": [
+      1025,
+      1043,
+      1074,
+      1126,
+      1168,
+      1301,
+      1424,
+      1478,
+      1683,
+      2420,
+      2559,
+      2591,
+      2907,
+      2961,
+      3761,
+      3809,
+      4003,
+      4269
+    ],
+    "Chem.": [
+      1026,
+      1044,
+      1075,
+      1127,
+      1302,
+      1425,
+      1479,
+      1684,
+      2421,
+      2560,
+      2592,
+      2908,
+      2962,
+      3762,
+      3810,
+      4004,
+      4270
+    ],
+    "1994;": [
+      1027,
+      1226,
+      1240,
+      1403,
+      1662
+    ],
+    "269:": [
+      1028
+    ],
+    "16046-16053Abstract": [
+      1029
+    ],
+    "Full": [
+      1030,
+      1048,
+      1079,
+      1131,
+      1306,
+      1308,
+      1406,
+      1429,
+      1431,
+      1483,
+      1485,
+      1665,
+      1688,
+      1690,
+      2425,
+      2427,
+      2564,
+      2566,
+      2596,
+      2912,
+      2966,
+      3766,
+      3814,
+      4008,
+      4274,
+      4276
+    ],
+    "Text": [
+      1031,
+      1049,
+      1080,
+      1132,
+      1307,
+      1309,
+      1407,
+      1430,
+      1432,
+      1484,
+      1486,
+      1666,
+      1689,
+      1691,
+      2426,
+      2428,
+      2565,
+      2567,
+      2597,
+      2913,
+      2967,
+      3767,
+      3815,
+      4009,
+      4275,
+      4277
+    ],
+    "PDF": [
+      1032,
+      1050,
+      1081,
+      1133,
+      1310,
+      1408,
+      1433,
+      1487,
+      1667,
+      1692,
+      2429,
+      2568,
+      2598,
+      2914,
+      2968,
+      3768,
+      3816,
+      4010,
+      4278
+    ],
+    "(10Inman": [
+      1038,
+      2902
+    ],
+    "Wessling-Resnick": [
+      1040,
+      1164,
+      1223,
+      2904
+    ],
+    "1993;": [
+      1045,
+      2909
+    ],
+    "268:": [
+      1046,
+      2910
+    ],
+    "8521-8528Abstract": [
+      1047,
+      2911
+    ],
+    "transferrin-independent": [
+      1059,
+      1216
+    ],
+    "system": [
+      1060
+    ],
+    "unknown,": [
+      1062
+    ],
+    "al.": [
+      1066,
+      2409,
+      2548,
+      3654,
+      3710
+    ],
+    "(11Kaplan": [
+      1067
+    ],
+    "Jordan": [
+      1069
+    ],
+    "I.": [
+      1070,
+      1235
+    ],
+    "Sturrock": [
+      1071
+    ],
+    "1991;": [
+      1076
+    ],
+    "266:": [
+      1077
+    ],
+    "2997-3004Abstract": [
+      1078
+    ],
+    "proposed": [
+      1086
+    ],
+    "clears": [
+      1089
+    ],
+    "potentially": [
+      1090
+    ],
+    "toxic,": [
+      1091
+    ],
+    "chelates": [
+      1096,
+      1102
+    ],
+    "(e.g.": [
+      1097,
+      3161
+    ],
+    "bound": [
+      1099,
+      2157,
+      3353
+    ],
+    "iron).": [
+      1100
+    ],
+    "Such": [
+      1101
+    ],
+    "accumulate": [
+      1103
+    ],
+    "very": [
+      1106,
+      3970
+    ],
+    "large": [
+      1107
+    ],
+    "extent": [
+      1108
+    ],
+    "HH": [
+      1110
+    ],
+    "patient": [
+      1111
+    ],
+    "plasma": [
+      1112,
+      3016
+    ],
+    "(12Grootveld": [
+      1113
+    ],
+    "Bell": [
+      1115
+    ],
+    "J.D.": [
+      1116
+    ],
+    "Halliwell": [
+      1117
+    ],
+    "Aruoma": [
+      1119
+    ],
+    "O.I.": [
+      1120
+    ],
+    "Bomford": [
+      1121
+    ],
+    "Sadler": [
+      1123
+    ],
+    "1989;": [
+      1128
+    ],
+    "264:": [
+      1129
+    ],
+    "4417-4422Abstract": [
+      1130
+    ],
+    "well": [
+      1142,
+      2900,
+      3579
+    ],
+    "understood;": [
+      1143
+    ],
+    "however,": [
+      1144
+    ],
+    "putative": [
+      1146,
+      3896
+    ],
+    "transporters,": [
+      1147
+    ],
+    "DCT1": [
+      1148
+    ],
+    "SFT,": [
+      1150
+    ],
+    "mammalian": [
+      1156
+    ],
+    "(13Gutierrez": [
+      1158
+    ],
+    "Yu": [
+      1160
+    ],
+    "Rivera": [
+      1162
+    ],
+    "Cell": [
+      1167
+    ],
+    "1997;": [
+      1169,
+      1196,
+      1303,
+      1480,
+      3663,
+      3719
+    ],
+    "139:": [
+      1170
+    ],
+    "895-905Crossref": [
+      1171
+    ],
+    "(79)": [
+      1174
+    ],
+    "14Gunshin": [
+      1177
+    ],
+    "H.": [
+      1178
+    ],
+    "Mackenzie": [
+      1179
+    ],
+    "Berger": [
+      1181
+    ],
+    "U.V.": [
+      1182
+    ],
+    "Gunshin": [
+      1183
+    ],
+    "Romero": [
+      1185
+    ],
+    "M.F.": [
+      1186
+    ],
+    "Boron": [
+      1187
+    ],
+    "W.F.": [
+      1188
+    ],
+    "Nussberger": [
+      1189
+    ],
+    "Gollan": [
+      1191
+    ],
+    "J.L.": [
+      1192
+    ],
+    "Hediger": [
+      1193
+    ],
+    "M.A.": [
+      1194
+    ],
+    "Nature.": [
+      1195
+    ],
+    "388:": [
+      1197
+    ],
+    "482-488Crossref": [
+      1198
+    ],
+    "(2679)": [
+      1201
+    ],
+    "ferrireductase": [
+      1207
+    ],
+    "also": [
+      1209,
+      1333,
+      4415
+    ],
+    "active": [
+      1210,
+      3101,
+      3487
+    ],
+    "may": [
+      1212,
+      1714,
+      3685,
+      3727
+    ],
+    "be": [
+      1213,
+      1715,
+      3529,
+      3686
+    ],
+    "(15Inman": [
+      1219
+    ],
+    "Coughlan": [
+      1221
+    ],
+    "M.M.": [
+      1222
+    ],
+    "Biochemistry.": [
+      1225
+    ],
+    "33:": [
+      1227
+    ],
+    "11850-11857Crossref": [
+      1228
+    ],
+    "(72)": [
+      1231
+    ],
+    "16Jordan": [
+      1234
+    ],
+    "Biochem.": [
+      1238,
+      2690,
+      4142
+    ],
+    "302:": [
+      1241
+    ],
+    "875-879Crossref": [
+      1242
+    ],
+    "(82)": [
+      1245
+    ],
+    "Important": [
+      1248
+    ],
+    "insights": [
+      1249
+    ],
+    "into": [
+      1250,
+      2300,
+      3142,
+      3367,
+      3434,
+      3484,
+      4289,
+      4405
+    ],
+    "eukaryotic": [
+      1251
+    ],
+    "come": [
+      1256
+    ],
+    "genetic": [
+      1260
+    ],
+    "studies.": [
+      1261
+    ],
+    "Two": [
+      1262
+    ],
+    "transporters": [
+      1264,
+      1513,
+      3102
+    ],
+    "(or": [
+      1265,
+      1328,
+      2953,
+      3561
+    ],
+    "\"permeases\"),": [
+      1266
+    ],
+    "Ftr1p": [
+      1267
+    ],
+    "Saccharomyces": [
+      1269
+    ],
+    "cerevisiae": [
+      1270,
+      1384
+    ],
+    "(17Stearman": [
+      1271,
+      1514
+    ],
+    "Yuan": [
+      1273,
+      1516
+    ],
+    "D.S.": [
+      1274,
+      1440,
+      1517,
+      1756
+    ],
+    "Yamaguchi-Iwai": [
+      1275,
+      1518
+    ],
+    "Klausner": [
+      1277,
+      1347,
+      1449,
+      1520,
+      1765
+    ],
+    "R.D.": [
+      1278,
+      1348,
+      1450,
+      1521,
+      1766,
+      3988
+    ],
+    "Dancis": [
+      1279,
+      1443,
+      1522,
+      1759
+    ],
+    "Science.": [
+      1281,
+      1524,
+      1605,
+      1630,
+      1786,
+      2865,
+      2938,
+      3055,
+      3638
+    ],
+    "271:": [
+      1283,
+      1526,
+      1788,
+      2423,
+      2562,
+      4272
+    ],
+    "1552-1557Crossref": [
+      1284,
+      1527
+    ],
+    "(582)": [
+      1287,
+      1530
+    ],
+    "Fip1p": [
+      1293
+    ],
+    "Schizosaccharomyces": [
+      1295
+    ],
+    "pombe(18Askwith": [
+      1296
+    ],
+    "C.": [
+      1297,
+      1386,
+      1474,
+      1645,
+      3995
+    ],
+    "272:": [
+      1304,
+      1481
+    ],
+    "401-405Abstract": [
+      1305,
+      1482
+    ],
+    "(125)": [
+      1313,
+      1490
+    ],
+    "Scholar),": [
+      1315,
+      1492,
+      1638,
+      2946,
+      3646,
+      3819
+    ],
+    "yeast.": [
+      1323
+    ],
+    "ferrireductase,": [
+      1326
+    ],
+    "Fre1p": [
+      1327
+    ],
+    "homologue": [
+      1330,
+      1468
+    ],
+    "Fre2p),": [
+      1331
+    ],
+    "necessary": [
+      1334,
+      4392
+    ],
+    "(19Dancis": [
+      1339
+    ],
+    "Roman": [
+      1341
+    ],
+    "D.G.": [
+      1342
+    ],
+    "Anderson": [
+      1343
+    ],
+    "G.J.": [
+      1344
+    ],
+    "Hinnebusch": [
+      1345
+    ],
+    "A.G.": [
+      1346
+    ],
+    "1992;": [
+      1356
+    ],
+    "89:": [
+      1357
+    ],
+    "3869-3873Crossref": [
+      1358
+    ],
+    "(282)": [
+      1361
+    ],
+    "requirement": [
+      1365,
+      4100
+    ],
+    "genes": [
+      1377
+    ],
+    "encoding": [
+      1378
+    ],
+    "copper-containing": [
+      1379
+    ],
+    "proteins,": [
+      1380,
+      2302
+    ],
+    "Fet3p": [
+      1381,
+      1533,
+      1566,
+      1640
+    ],
+    "(20Askwith": [
+      1385,
+      1644
+    ],
+    "Eide": [
+      1387,
+      1419,
+      1646,
+      1678
+    ],
+    "D.": [
+      1388,
+      1420,
+      1647,
+      1679
+    ],
+    "Ho": [
+      1390,
+      1649
+    ],
+    "Bernard": [
+      1392,
+      1651
+    ],
+    "P.S.": [
+      1393,
+      1652
+    ],
+    "Li": [
+      1394,
+      1653
+    ],
+    "Davis-Kaplan": [
+      1396,
+      1655
+    ],
+    "Sipe": [
+      1398,
+      1657
+    ],
+    "Cell.": [
+      1402,
+      1661
+    ],
+    "76:": [
+      1404,
+      1663
+    ],
+    "403-410Abstract": [
+      1405,
+      1664
+    ],
+    "(588)": [
+      1411,
+      1670
+    ],
+    "21De": [
+      1414,
+      1673
+    ],
+    "Silva": [
+      1415,
+      1674
+    ],
+    "Askwith": [
+      1417,
+      1676
+    ],
+    "C.C.": [
+      1418,
+      1677
+    ],
+    "1995;": [
+      1426,
+      1458,
+      1685,
+      1774,
+      3202
+    ],
+    "270:": [
+      1427,
+      1686
+    ],
+    "1098-1101Abstract": [
+      1428,
+      1687
+    ],
+    "(208)": [
+      1436,
+      1695
+    ],
+    "22Yuan": [
+      1439
+    ],
+    "Stearman": [
+      1441,
+      1757
+    ],
+    "Dunn": [
+      1445,
+      1761
+    ],
+    "Beeler": [
+      1447,
+      1763
+    ],
+    "92:": [
+      1459,
+      1775
+    ],
+    "2632-2636Crossref": [
+      1460,
+      1776
+    ],
+    "(394)": [
+      1463,
+      1779
+    ],
+    "Fio1p": [
+      1469
+    ],
+    "pombe": [
+      1472
+    ],
+    "(18Askwith": [
+      1473
+    ],
+    "proteins": [
+      1500
+    ],
+    "membrane-spanning,": [
+      1502
+    ],
+    "multicopper": [
+      1503
+    ],
+    "interact": [
+      1506
+    ],
+    "at": [
+      1507,
+      2106,
+      2203,
+      2214,
+      2243,
+      2255,
+      2272,
+      2279,
+      2385,
+      2438,
+      2724,
+      2802,
+      2840,
+      2995,
+      3004,
+      4046
+    ],
+    "membrane": [
+      1510,
+      2288,
+      2309,
+      3302,
+      3382
+    ],
+    "(and": [
+      1534,
+      1705,
+      3323,
+      4039
+    ],
+    "Fio1p)": [
+      1535
+    ],
+    "limited": [
+      1537
+    ],
+    "sequence": [
+      1538
+    ],
+    "homology": [
+      1539
+    ],
+    "(Cp),": [
+      1543
+    ],
+    "like": [
+      1545
+    ],
+    "protein": [
+      1550,
+      2331,
+      2381,
+      3368,
+      3376,
+      3446,
+      4229,
+      4316
+    ],
+    "catalyzes": [
+      1556
+    ],
+    "ferrous": [
+      1559,
+      2792,
+      2823
+    ],
+    "ferric": [
+      1561
+    ],
+    "ion.": [
+      1562
+    ],
+    "similarities": [
+      1564
+    ],
+    "between": [
+      1565
+    ],
+    "suggest": [
+      1569,
+      4416
+    ],
+    "possible": [
+      1571,
+      3775
+    ],
+    "latter": [
+      1575,
+      4095
+    ],
+    "(23Mukhopadhyay": [
+      1599,
+      1624,
+      2859,
+      2932,
+      3049,
+      3632
+    ],
+    "C.K.": [
+      1600,
+      1625,
+      2860,
+      2933,
+      3050,
+      3633
+    ],
+    "Attieh": [
+      1601,
+      1626,
+      2861,
+      2934,
+      3051,
+      3634
+    ],
+    "Z.K.": [
+      1602,
+      1627,
+      2862,
+      2935,
+      3052,
+      3635
+    ],
+    "Fox": [
+      1603,
+      1628,
+      2863,
+      2936,
+      3053,
+      3636
+    ],
+    "P.L.": [
+      1604,
+      1629,
+      2864,
+      2937,
+      3054,
+      3637
+    ],
+    "279:": [
+      1607,
+      1632,
+      2867,
+      2940,
+      3057,
+      3640
+    ],
+    "714-717Crossref": [
+      1608,
+      1633,
+      2868,
+      2941,
+      3058,
+      3641
+    ],
+    "(179)": [
+      1611,
+      1636,
+      2871,
+      2944,
+      3061,
+      3644
+    ],
+    "Furthermore,": [
+      1614
+    ],
+    "deprivation": [
+      1616
+    ],
+    "induces": [
+      1618
+    ],
+    "synthesis": [
+      1620,
+      1641
+    ],
+    "Thus": [
+      1698
+    ],
+    "maintenance": [
+      1699
+    ],
+    "homeostasis": [
+      1702,
+      1752
+    ],
+    "liver": [
+      1704
+    ],
+    "possibly": [
+      1706
+    ],
+    "tissues)": [
+      1708
+    ],
+    "during": [
+      1709
+    ],
+    "periods": [
+      1710
+    ],
+    "observation": [
+      1724
+    ],
+    "\"aceruloplasminemia\"": [
+      1726
+    ],
+    "defects": [
+      1731
+    ],
+    "massive": [
+      1733
+    ],
+    "liver,": [
+      1737
+    ],
+    "pancreas,": [
+      1738
+    ],
+    "brain,": [
+      1739
+    ],
+    "retina,": [
+      1740
+    ],
+    "tissues": [
+      1743
+    ],
+    "indicates": [
+      1744
+    ],
+    "vivo": [
+      1754
+    ],
+    "(22Yuan": [
+      1755
+    ],
+    "24Kaplan": [
+      1782
+    ],
+    "O'Halloran": [
+      1784
+    ],
+    "T.V.": [
+      1785
+    ],
+    "1510-1512Crossref": [
+      1789
+    ],
+    "(124)": [
+      1792
+    ],
+    "25Kaplan": [
+      1795
+    ],
+    "Invest.": [
+      1799,
+      2073
+    ],
+    "98:": [
+      1801
+    ],
+    "3-4Crossref": [
+      1802
+    ],
+    "(4)": [
+      1805
+    ],
+    "report": [
+      1810
+    ],
+    "investigate": [
+      1812
+    ],
+    "erythroleukemic": [
+      1823,
+      1980,
+      2889
+    ],
+    "Our": [
+      1826
+    ],
+    "show": [
+      1828,
+      3136,
+      3871
+    ],
+    "requires": [
+      1833
+    ],
+    "novel,": [
+      1840
+    ],
+    "Purified": [
+      1845
+    ],
+    "obtained": [
+      1849,
+      3247,
+      3859,
+      3983
+    ],
+    "Calbiochem": [
+      1851
+    ],
+    "(La": [
+      1852
+    ],
+    "Jolla,": [
+      1853
+    ],
+    "CA).": [
+      1854
+    ],
+    "homogeneity": [
+      1856
+    ],
+    "verified": [
+      1858,
+      2531
+    ],
+    "absorbance": [
+      1861
+    ],
+    "ratio": [
+      1862
+    ],
+    "(610": [
+      1863
+    ],
+    "nm/280": [
+      1864
+    ],
+    "nm)": [
+      1865
+    ],
+    "higher": [
+      1866
+    ],
+    "than": [
+      1867,
+      2164,
+      3012
+    ],
+    "0.045,": [
+      1868
+    ],
+    "SDS-PAGE": [
+      1871,
+      2316,
+      3372,
+      4218,
+      4320
+    ],
+    "Coomassie": [
+      1873,
+      2340,
+      3455,
+      4221,
+      4322
+    ],
+    "Blue": [
+      1874,
+      3456,
+      4222,
+      4323
+    ],
+    "staining.": [
+      1875
+    ],
+    "Densitometric": [
+      1876
+    ],
+    "analysis": [
+      1877,
+      2878,
+      4219
+    ],
+    "showed": [
+      1878
+    ],
+    "present": [
+      1883
+    ],
+    "intact,": [
+      1886
+    ],
+    "132-kDa": [
+      1887,
+      4227
+    ],
+    "form": [
+      1888
+    ],
+    "55FeCl3": [
+      1891,
+      2048
+    ],
+    "(20": [
+      1892,
+      2304
+    ],
+    "mCi/mg),": [
+      1893,
+      1896
+    ],
+    "59FeCl3": [
+      1894
+    ],
+    "(19.22": [
+      1895
+    ],
+    "and51CrCl3": [
+      1897
+    ],
+    "(789": [
+      1898
+    ],
+    "mCi/mg)": [
+      1899
+    ],
+    "were": [
+      1900,
+      1944,
+      1976,
+      1986,
+      2001,
+      2021,
+      2091,
+      2185,
+      2208,
+      2251,
+      2264,
+      2313,
+      2470,
+      2499,
+      3133,
+      3293,
+      3299,
+      3534,
+      3584,
+      3858,
+      3890,
+      3982
+    ],
+    "NEN": [
+      1902
+    ],
+    "Life": [
+      1903
+    ],
+    "Science": [
+      1904
+    ],
+    "Products": [
+      1905
+    ],
+    "Inc.": [
+      1906,
+      1929
+    ],
+    "(Boston,": [
+      1907
+    ],
+    "MA).": [
+      1908,
+      1948
+    ],
+    "Rabbit": [
+      1909
+    ],
+    "anti-human": [
+      1910,
+      1918,
+      1936,
+      2360,
+      2370,
+      3830,
+      3863
+    ],
+    "apotransferrin": [
+      1911,
+      3753
+    ],
+    "antibody": [
+      1912,
+      1923,
+      2368,
+      3426,
+      3832,
+      3838,
+      3866
+    ],
+    "Accurate": [
+      1915
+    ],
+    "(Westbury,": [
+      1916
+    ],
+    "NY),": [
+      1917
+    ],
+    "mouse": [
+      1921
+    ],
+    "monoclonal": [
+      1922,
+      3862
+    ],
+    "(H68.4)": [
+      1924
+    ],
+    "Zymed": [
+      1927
+    ],
+    "Laboratories": [
+      1928
+    ],
+    "(South": [
+      1930
+    ],
+    "San": [
+      1931
+    ],
+    "Francisco,": [
+      1932
+    ],
+    "CA),": [
+      1933,
+      2378
+    ],
+    "rabbit": [
+      1935,
+      2359,
+      3828
+    ],
+    "ferritin": [
+      1937,
+      2346,
+      2361,
+      3404,
+      3413,
+      3435
+    ],
+    "IgG": [
+      1938,
+      2362
+    ],
+    "Boehringer-Mannheim.": [
+      1941
+    ],
+    "Nitrocellulose": [
+      1942
+    ],
+    "filters": [
+      1943
+    ],
+    "Millipore": [
+      1946
+    ],
+    "(Bedford,": [
+      1947
+    ],
+    "Ammonium": [
+      1949
+    ],
+    "tetrathiomolybdate": [
+      1950,
+      2667,
+      4156
+    ],
+    "Sigma-Aldrich": [
+      1953
+    ],
+    "(Milwaukee,": [
+      1954
+    ],
+    "WI),": [
+      1955
+    ],
+    "apotransferrin,": [
+      1958
+    ],
+    "horse": [
+      1959
+    ],
+    "spleen": [
+      1960
+    ],
+    "apoferritin,": [
+      1961
+    ],
+    "glutathione": [
+      1963
+    ],
+    "(GSH),": [
+      1964
+    ],
+    "acid": [
+      1967
+    ],
+    "(NTA),": [
+      1968
+    ],
+    "bathophenanthroline": [
+      1969,
+      2012
+    ],
+    "disulfonic": [
+      1970
+    ],
+    "acid,": [
+      1971
+    ],
+    "assay": [
+      1974,
+      2536,
+      4204,
+      4306
+    ],
+    "reagents": [
+      1975
+    ],
+    "Sigma.": [
+      1978
+    ],
+    "Human": [
+      1979
+    ],
+    "(ATCC,": [
+      1983
+    ],
+    "Rockville,": [
+      1984
+    ],
+    "MA)": [
+      1985
+    ],
+    "grown": [
+      1987
+    ],
+    "iron-free": [
+      1989
+    ],
+    "RPMI": [
+      1990,
+      2008,
+      2030,
+      2060,
+      2100
+    ],
+    "1640": [
+      1991,
+      2009,
+      2031,
+      2061,
+      2101
+    ],
+    "medium": [
+      1992,
+      2010,
+      2062,
+      2102,
+      3612
+    ],
+    "supplemented": [
+      1993
+    ],
+    "10%": [
+      1995,
+      3344
+    ],
+    "fetal": [
+      1996
+    ],
+    "bovine": [
+      1997
+    ],
+    "serum.": [
+      1998
+    ],
+    "made": [
+      2002,
+      2179,
+      3438
+    ],
+    "resuspension": [
+      2005
+    ],
+    "serum-free": [
+      2007
+    ],
+    "containing": [
+      2011,
+      2063,
+      2136,
+      2449,
+      2508,
+      2519,
+      3220,
+      3253
+    ],
+    "disulfonate": [
+      2013,
+      3234
+    ],
+    "(100": [
+      2014
+    ],
+    "μm)": [
+      2015,
+      2050,
+      2095,
+      2190,
+      2659
+    ],
+    "4–8": [
+      2017
+    ],
+    "h.": [
+      2018,
+      2492,
+      2646,
+      2843
+    ],
+    "washed": [
+      2022,
+      2127,
+      2209
+    ],
+    "twice": [
+      2023,
+      2128
+    ],
+    "phosphate-buffered": [
+      2025,
+      2655,
+      2712
+    ],
+    "saline": [
+      2026
+    ],
+    "once": [
+      2028
+    ],
+    "medium,": [
+      2032
+    ],
+    "then": [
+      2034,
+      2219,
+      2379,
+      2512,
+      2710
+    ],
+    "resuspended": [
+      2035
+    ],
+    "same": [
+      2038,
+      2708,
+      4062
+    ],
+    "medium.": [
+      2039,
+      3836
+    ],
+    "solution": [
+      2041,
+      3219,
+      3252
+    ],
+    "55Fe-NTA": [
+      2043,
+      3074
+    ],
+    "prepared": [
+      2045,
+      2391,
+      2578,
+      4247
+    ],
+    "mixing": [
+      2047
+    ],
+    "(15–20": [
+      2049
+    ],
+    "4-fold": [
+      2053
+    ],
+    "molar": [
+      2054,
+      2621,
+      4049
+    ],
+    "NTA": [
+      2057,
+      3609
+    ],
+    "colorless": [
+      2059
+    ],
+    "1": [
+      2064,
+      2509,
+      2990,
+      3039,
+      3092,
+      3342,
+      3406,
+      3428,
+      3459,
+      3504,
+      3569
+    ],
+    "mm": [
+      2065,
+      2134,
+      2223,
+      2228,
+      2443,
+      2451,
+      2505,
+      2521,
+      2524,
+      2635,
+      2639
+    ],
+    "ascorbate": [
+      2066,
+      2452
+    ],
+    "(26Teichmann": [
+      2067
+    ],
+    "Stremmel": [
+      2069
+    ],
+    "86:": [
+      2075
+    ],
+    "2145-2153Crossref": [
+      2076
+    ],
+    "(85)": [
+      2079
+    ],
+    "To": [
+      2082,
+      2296,
+      2328,
+      3281,
+      3359,
+      3523,
+      3571,
+      4233,
+      4327,
+      4437
+    ],
+    "measure": [
+      2083,
+      3694
+    ],
+    "5": [
+      2086,
+      2260,
+      2491,
+      2638,
+      3221,
+      3232
+    ],
+    "×": [
+      2087,
+      2216,
+      2257,
+      2274
+    ],
+    "106": [
+      2088
+    ],
+    "incubated": [
+      2092,
+      2186,
+      2661,
+      2789,
+      3294,
+      4186
+    ],
+    "with55Fe-NTA": [
+      2093
+    ],
+    "(1.4": [
+      2094,
+      2189
+    ],
+    "0.5": [
+      2097,
+      3082
+    ],
+    "ml": [
+      2098,
+      2131
+    ],
+    "20–30": [
+      2104
+    ],
+    "min": [
+      2105,
+      2202,
+      2278,
+      2664,
+      2801
+    ],
+    "25": [
+      2107,
+      2204
+    ],
+    "°C.": [
+      2108,
+      2205,
+      2245,
+      2281
+    ],
+    "An": [
+      2109
+    ],
+    "aliquot": [
+      2110
+    ],
+    "(0.1": [
+      2111,
+      2607
+    ],
+    "ml)": [
+      2112
+    ],
+    "removed": [
+      2114,
+      2252,
+      2500,
+      2650,
+      2702
+    ],
+    "applied": [
+      2116
+    ],
+    "nitrocellulose": [
+      2119
+    ],
+    "filter": [
+      2120,
+      2125
+    ],
+    "subjected": [
+      2121,
+      2314,
+      2764
+    ],
+    "vacuum.": [
+      2123
+    ],
+    "3": [
+      2130
+    ],
+    "150": [
+      2133,
+      2523,
+      2634
+    ],
+    "NaCl": [
+      2135
+    ],
+    "10": [
+      2137,
+      2277,
+      2450,
+      2997,
+      3254
+    ],
+    "μm": [
+      2138,
+      3079,
+      3083,
+      3222,
+      3255
+    ],
+    "EDTA": [
+      2139
+    ],
+    "(to": [
+      2140
+    ],
+    "remove": [
+      2141,
+      3182
+    ],
+    "surface-bound": [
+      2142,
+      3185
+    ],
+    "iron)": [
+      2143
+    ],
+    "cell-associated": [
+      2145
+    ],
+    "radioactivity": [
+      2146,
+      3319,
+      3351
+    ],
+    "measured": [
+      2148,
+      2293,
+      2731,
+      3173,
+      3268,
+      3320
+    ],
+    "liquid": [
+      2150
+    ],
+    "scintillation": [
+      2151
+    ],
+    "counting.": [
+      2152
+    ],
+    "amount": [
+      2154,
+      2926,
+      3123
+    ],
+    "after": [
+      2158
+    ],
+    "\"zero": [
+      2160
+    ],
+    "time\"": [
+      2161
+    ],
+    "incubation": [
+      2162,
+      2354,
+      2807,
+      3835,
+      4340
+    ],
+    "(less": [
+      2163
+    ],
+    "15": [
+      2165
+    ],
+    "s)": [
+      2166
+    ],
+    "subtracted": [
+      2168
+    ],
+    "experimental": [
+      2170,
+      3689
+    ],
+    "measurements": [
+      2171
+    ],
+    "correct": [
+      2173
+    ],
+    "nonspecific": [
+      2175,
+      2367,
+      3425
+    ],
+    "binding.": [
+      2176
+    ],
+    "cells,": [
+      2178,
+      2247,
+      2286,
+      3325
+    ],
+    "iron-sufficient": [
+      2180,
+      3036,
+      3501
+    ],
+    "above,": [
+      2184
+    ],
+    "59Fe-NTA": [
+      2188
+    ],
+    "absence": [
+      2195,
+      4296
+    ],
+    "(30": [
+      2198
+    ],
+    "μg/ml)": [
+      2199
+    ],
+    "20": [
+      2201,
+      2222,
+      2663
+    ],
+    "times": [
+      2211
+    ],
+    "centrifugation": [
+      2213,
+      2254,
+      2271
+    ],
+    "16,000": [
+      2215,
+      2273,
+      2386
+    ],
+    "g,": [
+      2217
+    ],
+    "lysed": [
+      2220
+    ],
+    "HEPES,": [
+      2224
+    ],
+    "pH": [
+      2225,
+      2675
+    ],
+    "8.0,": [
+      2226
+    ],
+    "2": [
+      2227,
+      3078,
+      3978
+    ],
+    "MgCl2,": [
+      2229
+    ],
+    "1%": [
+      2230,
+      2769,
+      2809
+    ],
+    "aprotinin,": [
+      2231
+    ],
+    "200": [
+      2233
+    ],
+    "μg/ml": [
+      2234,
+      2998
+    ],
+    "leupeptin": [
+      2235
+    ],
+    "repeated": [
+      2237
+    ],
+    "passage": [
+      2238
+    ],
+    "through": [
+      2239
+    ],
+    "27-gauge": [
+      2241
+    ],
+    "needle": [
+      2242
+    ],
+    "0": [
+      2244
+    ],
+    "Unbroken": [
+      2246
+    ],
+    "nuclei,": [
+      2248
+    ],
+    "debris": [
+      2250
+    ],
+    "2000": [
+      2256
+    ],
+    "g": [
+      2258,
+      2275
+    ],
+    "min.": [
+      2261
+    ],
+    "Membrane": [
+      2262
+    ],
+    "fragments": [
+      2263
+    ],
+    "separated": [
+      2265
+    ],
+    "cytosol-containing": [
+      2268
+    ],
+    "fraction": [
+      2269,
+      2350,
+      3340,
+      3383,
+      3394
+    ],
+    "4": [
+      2280,
+      2439,
+      2645,
+      4209,
+      4231,
+      4308
+    ],
+    "Radioactivity": [
+      2282
+    ],
+    "intact": [
+      2285,
+      3322
+    ],
+    "cytosol": [
+      2290,
+      3304
+    ],
+    "fractions": [
+      2291,
+      2312,
+      3305
+    ],
+    "γ-counting.": [
+      2295
+    ],
+    "determine": [
+      2297,
+      3572
+    ],
+    "incorporation": [
+      2298,
+      3366,
+      3432
+    ],
+    "of59Fe": [
+      2299,
+      3433
+    ],
+    "individual": [
+      2301
+    ],
+    "aliquots": [
+      2303
+    ],
+    "μg": [
+      2305
+    ],
+    "protein)": [
+      2307,
+      3564
+    ],
+    "cytosolic": [
+      2311,
+      2349,
+      3339,
+      3393
+    ],
+    "(6.5%)": [
+      2317
+    ],
+    "under": [
+      2318,
+      2401,
+      2453,
+      2777,
+      3356,
+      4256
+    ],
+    "nonreducing": [
+      2319
+    ],
+    "conditions": [
+      2320,
+      2403,
+      2455,
+      4258
+    ],
+    "autoradiography": [
+      2322
+    ],
+    "(Hyperfilm,": [
+      2323
+    ],
+    "Amersham,": [
+      2324
+    ],
+    "Buckinghamshire,": [
+      2325
+    ],
+    "United": [
+      2326
+    ],
+    "Kingdom).": [
+      2327
+    ],
+    "evaluate": [
+      2329
+    ],
+    "total": [
+      2330,
+      3349
+    ],
+    "these": [
+      2333,
+      3594
+    ],
+    "fractions,": [
+      2334
+    ],
+    "stained": [
+      2338
+    ],
+    "Blue.": [
+      2341
+    ],
+    "control": [
+      2344,
+      2976,
+      3131
+    ],
+    "experiment,": [
+      2345
+    ],
+    "immunodepleted": [
+      2352
+    ],
+    "18": [
+      2356
+    ],
+    "h": [
+      2357
+    ],
+    "(1:1000)": [
+      2363
+    ],
+    "(rabbit": [
+      2369
+    ],
+    "Gqα": [
+      2371
+    ],
+    "IgG;": [
+      2372
+    ],
+    "Santa": [
+      2373,
+      2376
+    ],
+    "Cruz": [
+      2374
+    ],
+    "Biotechnology,": [
+      2375
+    ],
+    "Cruz,": [
+      2377
+    ],
+    "A-Sepharose,": [
+      2382
+    ],
+    "centrifuged": [
+      2384
+    ],
+    "×g.": [
+      2387
+    ],
+    "Apoceruloplasmin": [
+      2388
+    ],
+    "(apoCp)": [
+      2389
+    ],
+    "removal": [
+      2393,
+      4249
+    ],
+    "complexing": [
+      2398,
+      4253
+    ],
+    "cyanide": [
+      2400,
+      2481,
+      2498,
+      4255
+    ],
+    "reducing": [
+      2402,
+      4257,
+      4350
+    ],
+    "Musci": [
+      2407
+    ],
+    "(27Musci": [
+      2410,
+      2549,
+      4259
+    ],
+    "Di": [
+      2412,
+      2551,
+      4261
+    ],
+    "Marco": [
+      2413,
+      2552,
+      4262
+    ],
+    "Bellenchi": [
+      2415,
+      2554,
+      4264
+    ],
+    "G.C.": [
+      2416,
+      2555,
+      4265
+    ],
+    "Calabrese": [
+      2417,
+      2556,
+      4266
+    ],
+    "1972-1978Abstract": [
+      2424,
+      2563,
+      4273
+    ],
+    "(46)": [
+      2432,
+      2571,
+      4281
+    ],
+    "dialyzed": [
+      2437
+    ],
+    "°C": [
+      2440
+    ],
+    "against": [
+      2441,
+      2503,
+      2517,
+      2654,
+      2706,
+      2711
+    ],
+    "100": [
+      2442,
+      2504
+    ],
+    "sodium": [
+      2444,
+      2506,
+      3223
+    ],
+    "acetate": [
+      2445,
+      2507,
+      2671,
+      2795
+    ],
+    "buffer": [
+      2446,
+      2518,
+      2616,
+      2672,
+      2796
+    ],
+    "(pH": [
+      2447,
+      2527,
+      2617,
+      2642,
+      2797
+    ],
+    "5.9)": [
+      2448
+    ],
+    "anaerobic": [
+      2454
+    ],
+    "achieved": [
+      2456
+    ],
+    "continuous": [
+      2458
+    ],
+    "bubbling": [
+      2459
+    ],
+    "N2": [
+      2461
+    ],
+    "gas.": [
+      2462
+    ],
+    "Dialysis": [
+      2463
+    ],
+    "continued": [
+      2465,
+      2489
+    ],
+    "until": [
+      2466
+    ],
+    "\"blue\"": [
+      2468
+    ],
+    "coppers": [
+      2469
+    ],
+    "complete": [
+      2475,
+      4377
+    ],
+    "decolorization": [
+      2476
+    ],
+    "sample.": [
+      2479
+    ],
+    "Potassium": [
+      2480
+    ],
+    "(50": [
+      2482
+    ],
+    "mm)": [
+      2483,
+      2608,
+      2612,
+      2669
+    ],
+    "added": [
+      2485,
+      2628,
+      4045
+    ],
+    "dialysis": [
+      2488,
+      2502,
+      2516,
+      2653,
+      2704
+    ],
+    "copper-cyanide": [
+      2494
+    ],
+    "complex": [
+      2495,
+      2576,
+      2626
+    ],
+    "mmcysteine,": [
+      2510
+    ],
+    "overnight": [
+      2515,
+      2652,
+      2705
+    ],
+    "50": [
+      2520,
+      2632
+    ],
+    "potassium": [
+      2525,
+      2636,
+      2810
+    ],
+    "chloride": [
+      2526,
+      2641,
+      3986
+    ],
+    "7.0).": [
+      2528,
+      2618
+    ],
+    "Inactivation": [
+      2529
+    ],
+    "\"in-gel\"": [
+      2534
+    ],
+    "(see": [
+      2537
+    ],
+    "below).": [
+      2538
+    ],
+    "Holoceruloplasmin": [
+      2539
+    ],
+    "reconstituted": [
+      2541,
+      4336,
+      4353
+    ],
+    "apoCp": [
+      2543,
+      2630,
+      4214,
+      4245,
+      4298
+    ],
+    "Musciet": [
+      2547
+    ],
+    "Cu1+-glutathione": [
+      2575
+    ],
+    "immediately": [
+      2579
+    ],
+    "before": [
+      2580
+    ],
+    "use": [
+      2581
+    ],
+    "(28Ciriolo": [
+      2582
+    ],
+    "M.R.": [
+      2583
+    ],
+    "Desideri": [
+      2584
+    ],
+    "Paci": [
+      2586
+    ],
+    "Rotilio": [
+      2588
+    ],
+    "265:": [
+      2594
+    ],
+    "11030-11034Abstract": [
+      2595
+    ],
+    "addition": [
+      2603,
+      3605,
+      3825,
+      4180
+    ],
+    "sulfate": [
+      2606,
+      2793
+    ],
+    "GSH": [
+      2610,
+      4347
+    ],
+    "(0.3": [
+      2611
+    ],
+    "0.1": [
+      2614,
+      2813
+    ],
+    "mphosphate": [
+      2615
+    ],
+    "7-fold": [
+      2620
+    ],
+    "Cu1+-GSH": [
+      2625
+    ],
+    "mmMOPS,": [
+      2633
+    ],
+    "chloride,": [
+      2637
+    ],
+    "magnesium": [
+      2640
+    ],
+    "7.0)": [
+      2643
+    ],
+    "Unbound": [
+      2647
+    ],
+    "saline.": [
+      2656,
+      2713
+    ],
+    "(7.61": [
+      2658
+    ],
+    "ammonium": [
+      2666,
+      3985,
+      4155
+    ],
+    "(1.52": [
+      2668
+    ],
+    "(320": [
+      2673
+    ],
+    "mm,": [
+      2674
+    ],
+    "6.0)": [
+      2676
+    ],
+    "Chidambaram": [
+      2680
+    ],
+    "al.(29Chidambaram": [
+      2682
+    ],
+    "M.V.": [
+      2683,
+      4135
+    ],
+    "Barnes": [
+      2684,
+      4136
+    ],
+    "Frieden": [
+      2686,
+      3758,
+      4138
+    ],
+    "Inorg.": [
+      2689,
+      4141
+    ],
+    "1984;": [
+      2691,
+      4143
+    ],
+    "22:": [
+      2692,
+      4144
+    ],
+    "231-240Crossref": [
+      2693,
+      4145
+    ],
+    "(45)": [
+      2696,
+      4148
+    ],
+    "Excess": [
+      2699
+    ],
+    "thiomolybdate": [
+      2700,
+      2717,
+      4124,
+      4197
+    ],
+    "buffer,": [
+      2709
+    ],
+    "Removal": [
+      2714
+    ],
+    "unreacted": [
+      2716
+    ],
+    "monitored": [
+      2719
+    ],
+    "monitoring": [
+      2721
+    ],
+    "optical": [
+      2722
+    ],
+    "density": [
+      2723
+    ],
+    "470": [
+      2725
+    ],
+    "nm.": [
+      2726
+    ],
+    "modification": [
+      2734
+    ],
+    "method": [
+      2737
+    ],
+    "Schen": [
+      2739
+    ],
+    "Rabinovitz": [
+      2741,
+      2744
+    ],
+    "(30Schen": [
+      2742
+    ],
+    "R.J.": [
+      2743
+    ],
+    "1966;": [
+      2749,
+      3763
+    ],
+    "537-538Crossref": [
+      2751
+    ],
+    "(14)": [
+      2754
+    ],
+    "brief,": [
+      2758
+    ],
+    "modified": [
+      2761
+    ],
+    "electrophoresis": [
+      2766
+    ],
+    "on": [
+      2767,
+      3699,
+      3964
+    ],
+    "agarose": [
+      2770
+    ],
+    "(Seakem": [
+      2772
+    ],
+    "Gold,": [
+      2773
+    ],
+    "FMC,": [
+      2774
+    ],
+    "Rockland,": [
+      2775
+    ],
+    "ME)": [
+      2776
+    ],
+    "nondenaturing": [
+      2778
+    ],
+    "conditions.": [
+      2779,
+      2978
+    ],
+    "After": [
+      2780
+    ],
+    "transfer": [
+      2781
+    ],
+    "Immobilon-P": [
+      2784
+    ],
+    "membrane,": [
+      2785
+    ],
+    "blot": [
+      2787
+    ],
+    "0.08%": [
+      2791
+    ],
+    "5.7),": [
+      2798
+    ],
+    "30": [
+      2800,
+      3006
+    ],
+    "37": [
+      2803
+    ],
+    "°C,": [
+      2804
+    ],
+    "followed": [
+      2805
+    ],
+    "ferrocyanide": [
+      2811
+    ],
+    "n": [
+      2814
+    ],
+    "HCl.": [
+      2815
+    ],
+    "Ferric": [
+      2816
+    ],
+    "(formed": [
+      2818
+    ],
+    "Cp-catalyzed": [
+      2820
+    ],
+    "oxidation": [
+      2821
+    ],
+    "ion)": [
+      2824
+    ],
+    "detected": [
+      2826,
+      3379
+    ],
+    "rapid": [
+      2829
+    ],
+    "formation": [
+      2830,
+      3785,
+      4427
+    ],
+    "\"Prussian": [
+      2833
+    ],
+    "blue\"": [
+      2834
+    ],
+    "band": [
+      2835,
+      3400,
+      3411
+    ],
+    "stable": [
+      2838
+    ],
+    "least": [
+      2841
+    ],
+    "24": [
+      2842
+    ],
+    "previously": [
+      2846
+    ],
+    "For": [
+      2874
+    ],
+    "more": [
+      2876,
+      2974
+    ],
+    "detailed": [
+      2877
+    ],
+    "since": [
+      2892,
+      4178
+    ],
+    "transferrin-dependent": [
+      2894
+    ],
+    "-independent": [
+      2896
+    ],
+    "pathways": [
+      2898
+    ],
+    "characterized": [
+      2901
+    ],
+    "Unlike": [
+      2918
+    ],
+    "secrete": [
+      2922,
+      2951,
+      3802
+    ],
+    "sufficient": [
+      2927
+    ],
+    "promote": [
+      2929
+    ],
+    "do": [
+      2949
+    ],
+    "Ref.": [
+      2955
+    ],
+    "31Stein": [
+      2956
+    ],
+    "B.S.": [
+      2957,
+      3805
+    ],
+    "Sussman": [
+      2958,
+      3806
+    ],
+    "H.H.": [
+      2959,
+      3807
+    ],
+    "1986;": [
+      2963,
+      3811
+    ],
+    "261:": [
+      2964,
+      3812
+    ],
+    "10319-10331Abstract": [
+      2965,
+      3813
+    ],
+    "thereby": [
+      2972
+    ],
+    "permitting": [
+      2973
+    ],
+    "stimulated55Fe-NTA": [
+      2980
+    ],
+    "2–3-fold": [
+      2988,
+      3262
+    ],
+    "(Fig.": [
+      2989,
+      3038,
+      3091,
+      3341,
+      3405,
+      3427,
+      3458,
+      3503,
+      3568,
+      3977,
+      4208,
+      4230,
+      4307,
+      4371
+    ],
+    "A).": [
+      2991,
+      3854,
+      4164
+    ],
+    "Half-maximal": [
+      2992
+    ],
+    "stimulation": [
+      2993,
+      3022
+    ],
+    "maximal": [
+      3001
+    ],
+    "μg/ml,": [
+      3007
+    ],
+    "level": [
+      3009
+    ],
+    "much": [
+      3010
+    ],
+    "lower": [
+      3011
+    ],
+    "unevoked": [
+      3014
+    ],
+    "concentration": [
+      3017
+    ],
+    "300": [
+      3019
+    ],
+    "μg/ml.": [
+      3020
+    ],
+    "observed": [
+      3029
+    ],
+    "B),": [
+      3040
+    ],
+    "finding": [
+      3042,
+      3492
+    ],
+    "decreasing": [
+      3069
+    ],
+    "apparentK": [
+      3071
+    ],
+    "m": [
+      3072
+    ],
+    "iron,": [
+      3084
+    ],
+    "without": [
+      3085
+    ],
+    "changing": [
+      3086
+    ],
+    "maximum": [
+      3088
+    ],
+    "B).": [
+      3093,
+      3979,
+      4210
+    ],
+    "This": [
+      3094,
+      3239,
+      3621,
+      4077
+    ],
+    "result": [
+      3095,
+      3622,
+      4078
+    ],
+    "indicated": [
+      3096
+    ],
+    "number": [
+      3099
+    ],
+    "altered": [
+      3105
+    ],
+    "rather": [
+      3109
+    ],
+    "transporter": [
+      3115,
+      3514,
+      3560,
+      4084,
+      4435,
+      4441
+    ],
+    "increased": [
+      3119,
+      3127,
+      3152,
+      3258,
+      3431
+    ],
+    "substrate": [
+      3125,
+      4425
+    ],
+    "Several": [
+      3130
+    ],
+    "experiments": [
+      3132
+    ],
+    "done": [
+      3134
+    ],
+    "entry": [
+      3141,
+      3483
+    ],
+    "cell,": [
+      3144
+    ],
+    "thus": [
+      3146,
+      3774
+    ],
+    "exclude": [
+      3147,
+      3882
+    ],
+    "possibility": [
+      3149,
+      3884
+    ],
+    "extracellular": [
+      3153
+    ],
+    "ferroxidase-dependent": [
+      3163
+    ],
+    "soluble": [
+      3166
+    ],
+    "insoluble": [
+      3169
+    ],
+    "Fe3+).": [
+      3170
+    ],
+    "First,": [
+      3171
+    ],
+    "procedure": [
+      3178,
+      3240
+    ],
+    "specifically": [
+      3179,
+      3236
+    ],
+    "designed": [
+      3180
+    ],
+    "complexes": [
+      3183
+    ],
+    "(32Glahn": [
+      3187
+    ],
+    "R.P.": [
+      3188
+    ],
+    "Gangloff": [
+      3189
+    ],
+    "M.B.": [
+      3190
+    ],
+    "Campen": [
+      3192
+    ],
+    "D.R.": [
+      3193
+    ],
+    "Miller": [
+      3194
+    ],
+    "D.D.": [
+      3195
+    ],
+    "Wien": [
+      3196
+    ],
+    "E.M.": [
+      3197
+    ],
+    "Norvell": [
+      3198
+    ],
+    "W.A.": [
+      3199
+    ],
+    "Nutr.": [
+      3201
+    ],
+    "125:": [
+      3203
+    ],
+    "1833-1840Crossref": [
+      3204
+    ],
+    "(47)": [
+      3207
+    ],
+    "According": [
+      3210
+    ],
+    "method,": [
+      3213
+    ],
+    "rinsed": [
+      3216
+    ],
+    "dithionite": [
+      3224
+    ],
+    "reduce": [
+      3226
+    ],
+    "μmbathophenanthroline": [
+      3233
+    ],
+    "chelate": [
+      3237
+    ],
+    "Fe2+.": [
+      3238
+    ],
+    "gave": [
+      3241
+    ],
+    "essentially": [
+      3243,
+      3961
+    ],
+    "identical": [
+      3244,
+      3856
+    ],
+    "those": [
+      3246
+    ],
+    "rinse": [
+      3251
+    ],
+    "EDTA;": [
+      3256
+    ],
+    "when": [
+      3267
+    ],
+    "either": [
+      3270
+    ],
+    "\"reducing\"": [
+      3272
+    ],
+    "wash": [
+      3273,
+      3277
+    ],
+    "(data": [
+      3278,
+      4018
+    ],
+    "shown).": [
+      3280,
+      3868,
+      4020
+    ],
+    "verify": [
+      3282,
+      3360,
+      4234
+    ],
+    "internalization,": [
+      3284
+    ],
+    "membrane-bound": [
+      3287
+    ],
+    "measured.": [
+      3290,
+      3592
+    ],
+    "59Fe-NTA,": [
+      3296
+    ],
+    "lysed,": [
+      3300
+    ],
+    "isolated": [
+      3306
+    ],
+    "centrifugation.": [
+      3308
+    ],
+    "experiment": [
+      3311,
+      4063
+    ],
+    "2-fold": [
+      3316
+    ],
+    "increase": [
+      3317,
+      3331,
+      3466,
+      3676
+    ],
+    "iron-deficient)": [
+      3324
+    ],
+    "nearly": [
+      3327
+    ],
+    "accounted": [
+      3333
+    ],
+    "59Fe": [
+      3336
+    ],
+    "C);": [
+      3343
+    ],
+    "less": [
+      3346
+    ],
+    "membranes": [
+      3355
+    ],
+    "any": [
+      3357,
+      3385
+    ],
+    "condition.": [
+      3358
+    ],
+    "localization": [
+      3363
+    ],
+    "59Fe,": [
+      3365
+    ],
+    "determined": [
+      3370
+    ],
+    "autoradiography.": [
+      3374
+    ],
+    "Radiolabeled": [
+      3375
+    ],
+    "samples": [
+      3386
+    ],
+    "(Fig.1,": [
+      3387
+    ],
+    "E).": [
+      3390,
+      4375
+    ],
+    "However,": [
+      3391
+    ],
+    "exhibited": [
+      3395
+    ],
+    "single": [
+      3397
+    ],
+    "major": [
+      3398
+    ],
+    "59Fe-labeled": [
+      3399
+    ],
+    "co-migrated": [
+      3402
+    ],
+    "F).": [
+      3407,
+      3429,
+      4326
+    ],
+    "Identification": [
+      3408
+    ],
+    "the59Fe-labeled": [
+      3410
+    ],
+    "confirmed": [
+      3415,
+      4200,
+      4302
+    ],
+    "immunodepletion": [
+      3417
+    ],
+    "anti-ferritin": [
+      3419
+    ],
+    "IgG,": [
+      3420
+    ],
+    "lysates": [
+      3437
+    ],
+    "90%;": [
+      3444
+    ],
+    "equal": [
+      3445
+    ],
+    "loading": [
+      3447
+    ],
+    "lanes": [
+      3451
+    ],
+    "stain": [
+      3457
+    ],
+    "G).": [
+      3460
+    ],
+    "demonstrate": [
+      3463,
+      4329
+    ],
+    "associated": [
+      3469
+    ],
+    "due": [
+      3478,
+      3687
+    ],
+    "metabolically": [
+      3486
+    ],
+    "pool.": [
+      3490
+    ],
+    "did": [
+      3495,
+      3597,
+      3616,
+      3880,
+      4051,
+      4166,
+      4285
+    ],
+    "stimulate": [
+      3497
+    ],
+    "B)": [
+      3505
+    ],
+    "factor": [
+      3509,
+      3527
+    ],
+    "uptake,e.g.": [
+      3512
+    ],
+    "itself,": [
+      3515
+    ],
+    "activated": [
+      3519
+    ],
+    "deficiency.": [
+      3522
+    ],
+    "test": [
+      3524,
+      4438
+    ],
+    "whether": [
+      3525,
+      3573,
+      4439
+    ],
+    "must": [
+      3528
+    ],
+    "synthesizedde": [
+      3530
+    ],
+    "novo,": [
+      3531
+    ],
+    "treated": [
+      3535
+    ],
+    "cycloheximide": [
+      3540
+    ],
+    "prior": [
+      3541
+    ],
+    "depletion.": [
+      3544
+    ],
+    "both": [
+      3552
+    ],
+    "inhibitors": [
+      3553
+    ],
+    "suggesting": [
+      3554
+    ],
+    "transcriptional": [
+      3555
+    ],
+    "up-regulation": [
+      3556
+    ],
+    "regulatory": [
+      3563
+    ],
+    "H).": [
+      3570
+    ],
+    "efflux": [
+      3577,
+      3679,
+      3705
+    ],
+    "influx,": [
+      3581
+    ],
+    "preloaded": [
+      3585
+    ],
+    "with55Fe-NTA,": [
+      3586
+    ],
+    "release": [
+      3590,
+      3601
+    ],
+    "Under": [
+      3593
+    ],
+    "conditions,": [
+      3595,
+      3690
+    ],
+    "enhance": [
+      3599
+    ],
+    "(Fig.1": [
+      3602
+    ],
+    "I).": [
+      3603
+    ],
+    "apo-transferrin": [
+      3607
+    ],
+    "acceptors": [
+      3615
+    ],
+    "alter": [
+      3618
+    ],
+    "result.": [
+      3620
+    ],
+    "our": [
+      3626,
+      3692
+    ],
+    "previous": [
+      3627
+    ],
+    "findings": [
+      3628
+    ],
+    "Young": [
+      3652,
+      3708
+    ],
+    "(33Young": [
+      3655,
+      3711
+    ],
+    "S.P.": [
+      3656,
+      3712
+    ],
+    "Fahmy": [
+      3657,
+      3713
+    ],
+    "Golding": [
+      3659,
+      3715
+    ],
+    "FEBS": [
+      3661,
+      3717
+    ],
+    "Lett.": [
+      3662,
+      3718
+    ],
+    "411:": [
+      3664,
+      3720
+    ],
+    "93-96Crossref": [
+      3665,
+      3721
+    ],
+    "(56)": [
+      3668,
+      3724
+    ],
+    "reported": [
+      3672
+    ],
+    "small": [
+      3674
+    ],
+    "difference": [
+      3684
+    ],
+    "e.g.": [
+      3691,
+      3892
+    ],
+    "methods": [
+      3693
+    ],
+    "effects": [
+      3696
+    ],
+    "initial": [
+      3700
+    ],
+    "rates": [
+      3701
+    ],
+    "whereas": [
+      3702
+    ],
+    "18-h": [
+      3704
+    ],
+    "intervals": [
+      3706
+    ],
+    "reflect": [
+      3728
+    ],
+    "equilibrium": [
+      3729
+    ],
+    "shifted": [
+      3731
+    ],
+    "thought": [
+      3745
+    ],
+    "(34Osaki": [
+      3754
+    ],
+    "Johnson": [
+      3756
+    ],
+    "241:": [
+      3764
+    ],
+    "2746-2751Abstract": [
+      3765
+    ],
+    "It": [
+      3772
+    ],
+    "stimulating": [
+      3783
+    ],
+    "Fe2-transferrin": [
+      3787
+    ],
+    "delivers": [
+      3789
+    ],
+    "endocytosis.": [
+      3794
+    ],
+    "Although": [
+      3795
+    ],
+    "known": [
+      3800
+    ],
+    "(31Stein": [
+      3804
+    ],
+    "tested": [
+      3823,
+      4216
+    ],
+    "polyclonal": [
+      3829
+    ],
+    "only": [
+      3839
+    ],
+    "slightly": [
+      3840
+    ],
+    "inhibited": [
+      3841,
+      4469
+    ],
+    "mediated": [
+      3850
+    ],
+    "(Fig.2": [
+      3853
+    ],
+    "Essentially": [
+      3855
+    ],
+    "(not": [
+      3867
+    ],
+    "receptor-independent,": [
+      3878
+    ],
+    "endocytic": [
+      3888
+    ],
+    "involved,": [
+      3891
+    ],
+    "receptors": [
+      3898
+    ],
+    "(35Percival": [
+      3899
+    ],
+    "S.S.": [
+      3900
+    ],
+    "Harris": [
+      3901
+    ],
+    "E.D.": [
+      3902
+    ],
+    "Trace": [
+      3904
+    ],
+    "Elem.": [
+      3905
+    ],
+    "Exp.": [
+      3906,
+      3915
+    ],
+    "Med.": [
+      3907
+    ],
+    "1:": [
+      3909
+    ],
+    "63-70Google": [
+      3910
+    ],
+    "Scholar,36Kataoka": [
+      3911
+    ],
+    "Tavassoli": [
+      3913
+    ],
+    "Hematol.": [
+      3916
+    ],
+    "806-810PubMed": [
+      3919
+    ],
+    "iron-protein": [
+      3924
+    ],
+    "receptors.": [
+      3925
+    ],
+    "lysosomatropic": [
+      3927
+    ],
+    "inhibitor,": [
+      3928
+    ],
+    "amantadine,": [
+      3929
+    ],
+    "inhibit": [
+      3933,
+      4015,
+      4130,
+      4168
+    ],
+    "(37Schlegel": [
+      3936
+    ],
+    "Dickson": [
+      3938
+    ],
+    "R.B.": [
+      3939
+    ],
+    "Willingham": [
+      3940
+    ],
+    "Pastan": [
+      3942
+    ],
+    "I.H.": [
+      3943
+    ],
+    "1982;": [
+      3951
+    ],
+    "79:": [
+      3952
+    ],
+    "2291-2295Crossref": [
+      3953
+    ],
+    "(130)": [
+      3956
+    ],
+    "Amantadine": [
+      3959
+    ],
+    "had": [
+      3960
+    ],
+    "no": [
+      3962
+    ],
+    "effect": [
+      3963
+    ],
+    "Cp-stimulated55Fe-NTA": [
+      3965
+    ],
+    "effective": [
+      3971
+    ],
+    "inhibitor": [
+      3972
+    ],
+    "Comparable": [
+      3980
+    ],
+    "(38Klausner": [
+      3987
+    ],
+    "Renswoude": [
+      3990
+    ],
+    "Ashwell": [
+      3992
+    ],
+    "Kempf": [
+      3994
+    ],
+    "Schechter": [
+      3996
+    ],
+    "A.N.": [
+      3997
+    ],
+    "Dean": [
+      3998
+    ],
+    "Bridges": [
+      4000
+    ],
+    "K.R.": [
+      4001
+    ],
+    "1983;": [
+      4005
+    ],
+    "258:": [
+      4006
+    ],
+    "4715-4724Abstract": [
+      4007
+    ],
+    "cation": [
+      4022,
+      4092,
+      4411
+    ],
+    "specificity": [
+      4023,
+      4087
+    ],
+    "investigated.": [
+      4029
+    ],
+    "Multiple": [
+      4030
+    ],
+    "cations,": [
+      4032,
+      4450
+    ],
+    "Ca2+,": [
+      4034
+    ],
+    "Mg2+,": [
+      4035
+    ],
+    "Cu2+,": [
+      4036
+    ],
+    "Zn2+": [
+      4038
+    ],
+    "Mn2+": [
+      4040
+    ],
+    "Co2+,": [
+      4042
+    ],
+    "shown),": [
+      4044
+    ],
+    "70-fold": [
+      4048
+    ],
+    "substantially": [
+      4053
+    ],
+    "compete": [
+      4054,
+      4461
+    ],
+    "(Fig.3).": [
+      4059
+    ],
+    "(FeCl3": [
+      4065
+    ],
+    "plus": [
+      4066
+    ],
+    "ascorbic": [
+      4067
+    ],
+    "acid)": [
+      4068
+    ],
+    "suppressed": [
+      4075
+    ],
+    "suggests": [
+      4079,
+      4398
+    ],
+    "absolute": [
+      4086
+    ],
+    "Fe2+or": [
+      4089
+    ],
+    "transporter;": [
+      4093
+    ],
+    "examined": [
+      4113,
+      4452
+    ],
+    "ferroxidase-defective": [
+      4115,
+      4244,
+      4381
+    ],
+    "took": [
+      4118
+    ],
+    "advantage": [
+      4119
+    ],
+    "ability": [
+      4122,
+      4454
+    ],
+    "irreversibly": [
+      4129
+    ],
+    "(29Chidambaram": [
+      4134
+    ],
+    "Treatment": [
+      4151
+    ],
+    "(Fig.4": [
+      4163,
+      4293,
+      4325
+    ],
+    "Thiomolybdate": [
+      4165
+    ],
+    "inactivation": [
+      4172,
+      4195
+    ],
+    "untreated": [
+      4182
+    ],
+    "fully": [
+      4190
+    ],
+    "restored": [
+      4191
+    ],
+    "treatment": [
+      4198
+    ],
+    "in-gel": [
+      4203,
+      4305
+    ],
+    "integrity": [
+      4212,
+      4313,
+      4331
+    ],
+    "staining": [
+      4223,
+      4324
+    ],
+    "revealed": [
+      4225
+    ],
+    "undegraded": [
+      4228
+    ],
+    "C).": [
+      4232
+    ],
+    "transport,": [
+      4243
+    ],
+    "ApoCp": [
+      4284
+    ],
+    "stimulate55Fe": [
+      4287
+    ],
+    "influx": [
+      4288
+    ],
+    "D).": [
+      4294
+    ],
+    "E),": [
+      4309
+    ],
+    "structural": [
+      4312
+    ],
+    "further": [
+      4328
+    ],
+    "apoCp,": [
+      4333
+    ],
+    "holoCp": [
+      4338
+    ],
+    "agent.": [
+      4351
+    ],
+    "regained": [
+      4355
+    ],
+    "80%": [
+      4357
+    ],
+    "70%": [
+      4364
+    ],
+    "enhancing": [
+      4369
+    ],
+    "4,": [
+      4372
+    ],
+    "inactivity": [
+      4378
+    ],
+    "forms": [
+      4382
+    ],
+    "persuasive": [
+      4386
+    ],
+    "evidence": [
+      4387
+    ],
+    "product": [
+      4402
+    ],
+    "transported": [
+      4404
+    ],
+    "increasing": [
+      4423
+    ],
+    "available": [
+      4424
+    ],
+    "(by": [
+      4426
+    ],
+    "Fe3+),": [
+      4429
+    ],
+    "activation": [
+      4432
+    ],
+    "itself.": [
+      4436
+    ],
+    "Fe3+-specific": [
+      4443
+    ],
+    "if": [
+      4445
+    ],
+    "transports": [
+      4447
+    ],
+    "Ga3+": [
+      4459
+    ],
+    "All": [
+      4465
+    ],
+    "three": [
+      4466
+    ],
+    "Cp-stimula": [
+      4470
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2067672885",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-06-17T03:55:13.706796",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,953 @@
+{
+  "id": "https://openalex.org/W94076342",
+  "doi": null,
+  "title": "The management of renal failure in patients at risk of cerebral edema/hypoxia.",
+  "display_name": "The management of renal failure in patients at risk of cerebral edema/hypoxia.",
+  "publication_year": 1995,
+  "publication_date": "1995-11-01",
+  "ids": {
+    "openalex": "https://openalex.org/W94076342",
+    "mag": "94076342",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/8574602"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/8574602",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5088913338",
+        "display_name": "Andrew Davenport",
+        "orcid": "https://orcid.org/0000-0002-4467-6833"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124357947",
+          "display_name": "University of London",
+          "ror": "https://ror.org/04cw6st05",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "A Davenport",
+      "raw_affiliation_strings": [
+        "University of London, UK."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of London, UK.",
+          "institution_ids": [
+            "https://openalex.org/I124357947"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5088913338"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I124357947"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.751,
+  "has_fulltext": false,
+  "cited_by_count": 36,
+  "citation_normalized_percentile": {
+    "value": 0.775314,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 90
+  },
+  "biblio": {
+    "volume": "3",
+    "issue": "4",
+    "first_page": "717",
+    "last_page": "24"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13966",
+    "display_name": "Neurological and metabolic disorders",
+    "score": 0.9945,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2712",
+      "display_name": "Endocrinology, Diabetes and Metabolism"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13966",
+      "display_name": "Neurological and metabolic disorders",
+      "score": 0.9945,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10706",
+      "display_name": "Traumatic Brain Injury and Neurovascular Disturbances",
+      "score": 0.9929,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11763",
+      "display_name": "Intracerebral and Subarachnoid Hemorrhage Research",
+      "score": 0.9926,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/cerebral-edema",
+      "display_name": "Cerebral edema",
+      "score": 0.8295866
+    },
+    {
+      "id": "https://openalex.org/keywords/renal-replacement-therapy",
+      "display_name": "Renal replacement therapy",
+      "score": 0.8102107
+    },
+    {
+      "id": "https://openalex.org/keywords/hemofiltration",
+      "display_name": "Hemofiltration",
+      "score": 0.56351495
+    },
+    {
+      "id": "https://openalex.org/keywords/extracorporeal",
+      "display_name": "Extracorporeal",
+      "score": 0.49744013
+    },
+    {
+      "id": "https://openalex.org/keywords/hyperlactatemia",
+      "display_name": "Hyperlactatemia",
+      "score": 0.49600872
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.8616855
+    },
+    {
+      "id": "https://openalex.org/C2779493303",
+      "wikidata": "https://www.wikidata.org/wiki/Q979168",
+      "display_name": "Cerebral edema",
+      "level": 2,
+      "score": 0.8295866
+    },
+    {
+      "id": "https://openalex.org/C2779541074",
+      "wikidata": "https://www.wikidata.org/wiki/Q185643",
+      "display_name": "Renal replacement therapy",
+      "level": 2,
+      "score": 0.8102107
+    },
+    {
+      "id": "https://openalex.org/C2780954326",
+      "wikidata": "https://www.wikidata.org/wiki/Q1416096",
+      "display_name": "Intracranial pressure",
+      "level": 2,
+      "score": 0.6349296
+    },
+    {
+      "id": "https://openalex.org/C154281038",
+      "wikidata": "https://www.wikidata.org/wiki/Q629232",
+      "display_name": "Cerebral perfusion pressure",
+      "level": 3,
+      "score": 0.6018166
+    },
+    {
+      "id": "https://openalex.org/C2778865887",
+      "wikidata": "https://www.wikidata.org/wiki/Q2720606",
+      "display_name": "Hemofiltration",
+      "level": 3,
+      "score": 0.56351495
+    },
+    {
+      "id": "https://openalex.org/C2779978075",
+      "wikidata": "https://www.wikidata.org/wiki/Q202301",
+      "display_name": "Dialysis",
+      "level": 2,
+      "score": 0.51498324
+    },
+    {
+      "id": "https://openalex.org/C2779915274",
+      "wikidata": "https://www.wikidata.org/wiki/Q1115882",
+      "display_name": "Extracorporeal",
+      "level": 2,
+      "score": 0.49744013
+    },
+    {
+      "id": "https://openalex.org/C2909186138",
+      "wikidata": "https://www.wikidata.org/wiki/Q1500373",
+      "display_name": "Hyperlactatemia",
+      "level": 2,
+      "score": 0.49600872
+    },
+    {
+      "id": "https://openalex.org/C42219234",
+      "wikidata": "https://www.wikidata.org/wiki/Q131130",
+      "display_name": "Anesthesia",
+      "level": 1,
+      "score": 0.44142845
+    },
+    {
+      "id": "https://openalex.org/C164705383",
+      "wikidata": "https://www.wikidata.org/wiki/Q10379",
+      "display_name": "Cardiology",
+      "level": 1,
+      "score": 0.32441783
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.28807735
+    },
+    {
+      "id": "https://openalex.org/C2778063415",
+      "wikidata": "https://www.wikidata.org/wiki/Q391744",
+      "display_name": "Hemodialysis",
+      "level": 2,
+      "score": 0.25693524
+    },
+    {
+      "id": "https://openalex.org/C157767197",
+      "wikidata": "https://www.wikidata.org/wiki/Q886843",
+      "display_name": "Cerebral blood flow",
+      "level": 2,
+      "score": 0.19441131
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001929",
+      "descriptor_name": "Brain Edema",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006440",
+      "descriptor_name": "Hemofiltration",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002534",
+      "descriptor_name": "Hypoxia, Brain",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D051437",
+      "descriptor_name": "Renal Insufficiency",
+      "qualifier_ui": "Q000150",
+      "qualifier_name": "complications",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D051437",
+      "descriptor_name": "Renal Insufficiency",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001929",
+      "descriptor_name": "Brain Edema",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002560",
+      "descriptor_name": "Cerebrovascular Circulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006440",
+      "descriptor_name": "Hemofiltration",
+      "qualifier_ui": "Q000295",
+      "qualifier_name": "instrumentation",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006440",
+      "descriptor_name": "Hemofiltration",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002534",
+      "descriptor_name": "Hypoxia, Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051437",
+      "descriptor_name": "Renal Insufficiency",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051437",
+      "descriptor_name": "Renal Insufficiency",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012307",
+      "descriptor_name": "Risk Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/8574602",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W94076342",
+    "https://openalex.org/W780801915",
+    "https://openalex.org/W4220764851",
+    "https://openalex.org/W2997819112",
+    "https://openalex.org/W22748144",
+    "https://openalex.org/W2078896287",
+    "https://openalex.org/W2074518953",
+    "https://openalex.org/W2001941377",
+    "https://openalex.org/W1813317520",
+    "https://openalex.org/W1597670552"
+  ],
+  "abstract_inverted_index": {
+    "Intermittent": [
+      0
+    ],
+    "modes": [
+      1
+    ],
+    "of": [
+      2,
+      40,
+      54,
+      88,
+      94,
+      101,
+      112,
+      125,
+      144,
+      177,
+      182
+    ],
+    "renal": [
+      3,
+      65,
+      186
+    ],
+    "replacement": [
+      4,
+      66,
+      147
+    ],
+    "therapy": [
+      5,
+      67
+    ],
+    "have": [
+      6
+    ],
+    "been": [
+      7,
+      193
+    ],
+    "shown": [
+      8
+    ],
+    "to": [
+      9,
+      37,
+      107,
+      164,
+      172
+    ],
+    "cause": [
+      10
+    ],
+    "an": [
+      11,
+      55
+    ],
+    "increase": [
+      12
+    ],
+    "in": [
+      13,
+      16,
+      118,
+      135,
+      156,
+      160,
+      179
+    ],
+    "intracranial": [
+      14,
+      90
+    ],
+    "pressure": [
+      15,
+      50
+    ],
+    "susceptible": [
+      17
+    ],
+    "patients,": [
+      18
+    ],
+    "including": [
+      19
+    ],
+    "those": [
+      20,
+      83
+    ],
+    "with": [
+      21,
+      79,
+      122,
+      137,
+      184,
+      195
+    ],
+    "acute": [
+      22,
+      185
+    ],
+    "liver": [
+      23,
+      139
+    ],
+    "failure": [
+      24,
+      81,
+      140,
+      163,
+      187
+    ],
+    "and": [
+      25,
+      51,
+      60,
+      71,
+      82,
+      127,
+      141,
+      162,
+      199
+    ],
+    "cerebral": [
+      26,
+      44,
+      48,
+      61,
+      190
+    ],
+    "edema": [
+      27,
+      191
+    ],
+    "from": [
+      28
+    ],
+    "trauma": [
+      29
+    ],
+    "or": [
+      30
+    ],
+    "post": [
+      31
+    ],
+    "neurosurgery.": [
+      32
+    ],
+    "Such": [
+      33
+    ],
+    "changes": [
+      34,
+      73
+    ],
+    "are": [
+      35,
+      74,
+      85,
+      171
+    ],
+    "due": [
+      36
+    ],
+    "the": [
+      38,
+      52,
+      97,
+      102,
+      123,
+      142,
+      152,
+      180
+    ],
+    "combination": [
+      39
+    ],
+    "adverse": [
+      41
+    ],
+    "effects": [
+      42,
+      124
+    ],
+    "on": [
+      43
+    ],
+    "oxygen": [
+      45
+    ],
+    "delivery": [
+      46
+    ],
+    "and/or": [
+      47
+    ],
+    "perfusion": [
+      49
+    ],
+    "generation": [
+      53
+    ],
+    "osmotic": [
+      56
+    ],
+    "gradient": [
+      57
+    ],
+    "between": [
+      58
+    ],
+    "plasma": [
+      59
+    ],
+    "tissues.": [
+      62
+    ],
+    "With": [
+      63
+    ],
+    "continuous": [
+      64
+    ],
+    "(CRRT)": [
+      68
+    ],
+    "these": [
+      69,
+      119
+    ],
+    "cardiovascular": [
+      70
+    ],
+    "cerebrovascular": [
+      72
+    ],
+    "generally": [
+      75
+    ],
+    "much": [
+      76
+    ],
+    "reduced.": [
+      77
+    ],
+    "Patients": [
+      78
+    ],
+    "hepatic": [
+      80
+    ],
+    "postneurosurgery": [
+      84
+    ],
+    "at": [
+      86,
+      151
+    ],
+    "risk": [
+      87,
+      111
+    ],
+    "fatal": [
+      89
+    ],
+    "hemorrhage.": [
+      91
+    ],
+    "A": [
+      92
+    ],
+    "drawback": [
+      93
+    ],
+    "CRRT": [
+      95,
+      178
+    ],
+    "is": [
+      96,
+      132
+    ],
+    "need": [
+      98
+    ],
+    "for": [
+      99
+    ],
+    "anticoagulation": [
+      100
+    ],
+    "extracorporeal": [
+      103
+    ],
+    "circuit.": [
+      104
+    ],
+    "Epoprostenol": [
+      105
+    ],
+    "appears": [
+      106
+    ],
+    "confer": [
+      108
+    ],
+    "a": [
+      109
+    ],
+    "reduced": [
+      110,
+      153
+    ],
+    "hemorrhage": [
+      113
+    ],
+    "without": [
+      114
+    ],
+    "reducing": [
+      115
+    ],
+    "circuit": [
+      116
+    ],
+    "lifespan": [
+      117
+    ],
+    "patients": [
+      120,
+      136,
+      183
+    ],
+    "compared": [
+      121
+    ],
+    "standard": [
+      126
+    ],
+    "fractionated": [
+      128
+    ],
+    "heparins.": [
+      129
+    ],
+    "Lactate": [
+      130
+    ],
+    "metabolism": [
+      131
+    ],
+    "often": [
+      133
+    ],
+    "impaired": [
+      134
+    ],
+    "severe": [
+      138
+    ],
+    "use": [
+      143
+    ],
+    "lactate-buffered": [
+      145
+    ],
+    "hemofiltration": [
+      146
+    ],
+    "dialysis": [
+      148
+    ],
+    "fluids,": [
+      149
+    ],
+    "even": [
+      150
+    ],
+    "rates": [
+      154
+    ],
+    "used": [
+      155
+    ],
+    "CRRT,": [
+      157
+    ],
+    "may": [
+      158
+    ],
+    "result": [
+      159
+    ],
+    "hyperlactatemia": [
+      161
+    ],
+    "correct": [
+      165
+    ],
+    "acid-base": [
+      166
+    ],
+    "deficits;": [
+      167
+    ],
+    "therefore,": [
+      168
+    ],
+    "\"lactate-free\"": [
+      169
+    ],
+    "fluids": [
+      170
+    ],
+    "be": [
+      173
+    ],
+    "preferred.": [
+      174
+    ],
+    "The": [
+      175
+    ],
+    "introduction": [
+      176
+    ],
+    "management": [
+      181
+    ],
+    "complicated": [
+      188
+    ],
+    "by": [
+      189
+    ],
+    "has": [
+      192
+    ],
+    "associated": [
+      194
+    ],
+    "greater": [
+      196
+    ],
+    "patient": [
+      197
+    ],
+    "stability": [
+      198
+    ],
+    "improved": [
+      200
+    ],
+    "outcome.": [
+      201
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W94076342",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-05-24T00:52:55.267622",
+  "created_date": "2016-06-24"
+}

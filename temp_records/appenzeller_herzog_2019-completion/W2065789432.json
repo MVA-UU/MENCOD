@@ -1,0 +1,1442 @@
+{
+  "id": "https://openalex.org/W2065789432",
+  "doi": "https://doi.org/10.1074/jbc.274.15.10595",
+  "title": "Oxidative Stress Disrupts Insulin-induced Cellular Redistribution of Insulin Receptor Substrate-1 and Phosphatidylinositol 3-Kinase in 3T3-L1 Adipocytes",
+  "display_name": "Oxidative Stress Disrupts Insulin-induced Cellular Redistribution of Insulin Receptor Substrate-1 and Phosphatidylinositol 3-Kinase in 3T3-L1 Adipocytes",
+  "publication_year": 1999,
+  "publication_date": "1999-04-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2065789432",
+    "doi": "https://doi.org/10.1074/jbc.274.15.10595",
+    "mag": "2065789432",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/10187855"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1074/jbc.274.15.10595",
+    "pdf_url": "http://www.jbc.org/article/S0021925819737533/pdf",
+    "source": {
+      "id": "https://openalex.org/S140251998",
+      "display_name": "Journal of Biological Chemistry",
+      "issn_l": "0021-9258",
+      "issn": [
+        "0021-9258",
+        "1067-8816",
+        "1083-351X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "http://www.jbc.org/article/S0021925819737533/pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5046711950",
+        "display_name": "Amir Tirosh",
+        "orcid": "https://orcid.org/0000-0003-2210-5906"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124227911",
+          "display_name": "Ben-Gurion University of the Negev",
+          "ror": "https://ror.org/05tkyf982",
+          "country_code": "IL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Amir Tirosh",
+      "raw_affiliation_strings": [
+        "Department of Clinical Biochemistry, Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel 84103."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Biochemistry, Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel 84103.",
+          "institution_ids": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084722745",
+        "display_name": "R. Potashnik",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124227911",
+          "display_name": "Ben-Gurion University of the Negev",
+          "ror": "https://ror.org/05tkyf982",
+          "country_code": "IL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ruth Potashnik",
+      "raw_affiliation_strings": [
+        "Department of Clinical Biochemistry, Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel 84103 and"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Biochemistry, Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel 84103 and",
+          "institution_ids": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053333088",
+        "display_name": "Nava Bashan",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124227911",
+          "display_name": "Ben-Gurion University of the Negev",
+          "ror": "https://ror.org/05tkyf982",
+          "country_code": "IL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124227911"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800633300",
+          "display_name": "Soroka Medical Center",
+          "ror": "https://ror.org/003sphj24",
+          "country_code": "IL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800633300",
+            "https://openalex.org/I64767286"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nava Bashan",
+      "raw_affiliation_strings": [
+        "Department of Clinical Biochemistry, Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel 84103 and",
+        "Soroka Medical Center, Beer-Sheva, Israel 84101"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Biochemistry, Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel 84103 and",
+          "institution_ids": [
+            "https://openalex.org/I124227911"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Soroka Medical Center, Beer-Sheva, Israel 84101",
+          "institution_ids": [
+            "https://openalex.org/I2800633300"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5014740581",
+        "display_name": "Assaf Rudich",
+        "orcid": "https://orcid.org/0000-0002-1366-1444"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124227911",
+          "display_name": "Ben-Gurion University of the Negev",
+          "ror": "https://ror.org/05tkyf982",
+          "country_code": "IL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Assaf Rudich",
+      "raw_affiliation_strings": [
+        "Department of Clinical Biochemistry, Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel 84103 and"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Biochemistry, Faculty of Health Sciences, Ben-Gurion University of the Negev, Beer-Sheva, Israel 84103 and",
+          "institution_ids": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2500,
+    "currency": "USD",
+    "value_usd": 2500
+  },
+  "apc_paid": {
+    "value": 2500,
+    "currency": "USD",
+    "value_usd": 2500
+  },
+  "fwci": 7.398,
+  "has_fulltext": false,
+  "cited_by_count": 307,
+  "citation_normalized_percentile": {
+    "value": 0.97022,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "274",
+    "issue": "15",
+    "first_page": "10595",
+    "last_page": "10602"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11457",
+    "display_name": "Adipose Tissue and Metabolism",
+    "score": 0.9991,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11457",
+      "display_name": "Adipose Tissue and Metabolism",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10528",
+      "display_name": "Adipokines, Inflammation, and Metabolic Diseases",
+      "score": 0.9984,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10839",
+      "display_name": "Pancreatic function and diabetes",
+      "score": 0.9977,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/insulin-receptor-substrate",
+      "display_name": "Insulin receptor substrate",
+      "score": 0.5573779
+    },
+    {
+      "id": "https://openalex.org/keywords/redistribution",
+      "display_name": "Redistribution",
+      "score": 0.54662895
+    },
+    {
+      "id": "https://openalex.org/keywords/irs1",
+      "display_name": "IRS1",
+      "score": 0.5172735
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780610907",
+      "wikidata": "https://www.wikidata.org/wiki/Q2273248",
+      "display_name": "Phosphatidylinositol",
+      "level": 3,
+      "score": 0.74389255
+    },
+    {
+      "id": "https://openalex.org/C112446052",
+      "wikidata": "https://www.wikidata.org/wiki/Q422579",
+      "display_name": "Insulin receptor",
+      "level": 4,
+      "score": 0.67917806
+    },
+    {
+      "id": "https://openalex.org/C2779306644",
+      "wikidata": "https://www.wikidata.org/wiki/Q2002370",
+      "display_name": "Insulin",
+      "level": 2,
+      "score": 0.5831639
+    },
+    {
+      "id": "https://openalex.org/C185967709",
+      "wikidata": "https://www.wikidata.org/wiki/Q101433828",
+      "display_name": "Insulin receptor substrate",
+      "level": 5,
+      "score": 0.5573779
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.5518452
+    },
+    {
+      "id": "https://openalex.org/C74080474",
+      "wikidata": "https://www.wikidata.org/wiki/Q7305975",
+      "display_name": "Redistribution (election)",
+      "level": 3,
+      "score": 0.54662895
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.530784
+    },
+    {
+      "id": "https://openalex.org/C2776151105",
+      "wikidata": "https://www.wikidata.org/wiki/Q898814",
+      "display_name": "Oxidative stress",
+      "level": 2,
+      "score": 0.5307797
+    },
+    {
+      "id": "https://openalex.org/C201624660",
+      "wikidata": "https://www.wikidata.org/wiki/Q15334084",
+      "display_name": "IRS1",
+      "level": 5,
+      "score": 0.5172735
+    },
+    {
+      "id": "https://openalex.org/C184235292",
+      "wikidata": "https://www.wikidata.org/wiki/Q421851",
+      "display_name": "Kinase",
+      "level": 2,
+      "score": 0.4617349
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.4240118
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.3985317
+    },
+    {
+      "id": "https://openalex.org/C2777391703",
+      "wikidata": "https://www.wikidata.org/wiki/Q1053470",
+      "display_name": "Insulin resistance",
+      "level": 3,
+      "score": 0.30083042
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.26937157
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.21998909
+    },
+    {
+      "id": "https://openalex.org/C94625758",
+      "wikidata": "https://www.wikidata.org/wiki/Q7163",
+      "display_name": "Politics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D017667",
+      "descriptor_name": "Adipocytes",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007328",
+      "descriptor_name": "Insulin",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009004",
+      "descriptor_name": "Monosaccharide Transport Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009124",
+      "descriptor_name": "Muscle Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018384",
+      "descriptor_name": "Oxidative Stress",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D019869",
+      "descriptor_name": "Phosphatidylinositol 3-Kinases",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010750",
+      "descriptor_name": "Phosphoproteins",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011518",
+      "descriptor_name": "Proto-Oncogene Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016475",
+      "descriptor_name": "3T3 Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017667",
+      "descriptor_name": "Adipocytes",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001692",
+      "descriptor_name": "Biological Transport",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002451",
+      "descriptor_name": "Cell Compartmentation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051275",
+      "descriptor_name": "Glucose Transporter Type 4",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007328",
+      "descriptor_name": "Insulin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055504",
+      "descriptor_name": "Insulin Receptor Substrate Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009004",
+      "descriptor_name": "Monosaccharide Transport Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015513",
+      "descriptor_name": "Oncogene Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015513",
+      "descriptor_name": "Oncogene Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019869",
+      "descriptor_name": "Phosphatidylinositol 3-Kinases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010750",
+      "descriptor_name": "Phosphoproteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017346",
+      "descriptor_name": "Protein-Serine-Threonine Kinases",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017346",
+      "descriptor_name": "Protein-Serine-Threonine Kinases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011518",
+      "descriptor_name": "Proto-Oncogene Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051057",
+      "descriptor_name": "Proto-Oncogene Proteins c-akt",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1074/jbc.274.15.10595",
+      "pdf_url": "http://www.jbc.org/article/S0021925819737533/pdf",
+      "source": {
+        "id": "https://openalex.org/S140251998",
+        "display_name": "Journal of Biological Chemistry",
+        "issn_l": "0021-9258",
+        "issn": [
+          "0021-9258",
+          "1067-8816",
+          "1083-351X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10187855",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1074/jbc.274.15.10595",
+    "pdf_url": "http://www.jbc.org/article/S0021925819737533/pdf",
+    "source": {
+      "id": "https://openalex.org/S140251998",
+      "display_name": "Journal of Biological Chemistry",
+      "issn_l": "0021-9258",
+      "issn": [
+        "0021-9258",
+        "1067-8816",
+        "1083-351X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 67,
+  "referenced_works": [
+    "https://openalex.org/W1506509855",
+    "https://openalex.org/W1523721174",
+    "https://openalex.org/W1537062554",
+    "https://openalex.org/W1537820722",
+    "https://openalex.org/W1566830427",
+    "https://openalex.org/W1570362997",
+    "https://openalex.org/W1570629413",
+    "https://openalex.org/W1572009433",
+    "https://openalex.org/W1585457099",
+    "https://openalex.org/W1773423646",
+    "https://openalex.org/W1786911182",
+    "https://openalex.org/W1876033686",
+    "https://openalex.org/W1909526655",
+    "https://openalex.org/W1931082872",
+    "https://openalex.org/W1970529208",
+    "https://openalex.org/W1970548320",
+    "https://openalex.org/W1972307668",
+    "https://openalex.org/W1978781152",
+    "https://openalex.org/W1983566655",
+    "https://openalex.org/W1988870963",
+    "https://openalex.org/W1989294105",
+    "https://openalex.org/W1999447199",
+    "https://openalex.org/W2002398354",
+    "https://openalex.org/W2004078164",
+    "https://openalex.org/W2013529909",
+    "https://openalex.org/W2020182585",
+    "https://openalex.org/W2023348498",
+    "https://openalex.org/W2033549091",
+    "https://openalex.org/W2042414962",
+    "https://openalex.org/W2044868069",
+    "https://openalex.org/W2047531477",
+    "https://openalex.org/W2048569323",
+    "https://openalex.org/W2049113370",
+    "https://openalex.org/W2049875806",
+    "https://openalex.org/W2056564646",
+    "https://openalex.org/W2058138221",
+    "https://openalex.org/W2061152334",
+    "https://openalex.org/W2066052044",
+    "https://openalex.org/W2066457776",
+    "https://openalex.org/W2071444458",
+    "https://openalex.org/W2071686558",
+    "https://openalex.org/W2074712105",
+    "https://openalex.org/W2081698610",
+    "https://openalex.org/W2082365634",
+    "https://openalex.org/W2089127518",
+    "https://openalex.org/W2094430270",
+    "https://openalex.org/W2097595798",
+    "https://openalex.org/W2103190648",
+    "https://openalex.org/W2109300167",
+    "https://openalex.org/W2112009693",
+    "https://openalex.org/W2119210469",
+    "https://openalex.org/W2125239101",
+    "https://openalex.org/W2125547155",
+    "https://openalex.org/W2128635872",
+    "https://openalex.org/W2138391708",
+    "https://openalex.org/W2145545657",
+    "https://openalex.org/W2147825853",
+    "https://openalex.org/W2152186846",
+    "https://openalex.org/W2159622967",
+    "https://openalex.org/W2171830717",
+    "https://openalex.org/W2293724331",
+    "https://openalex.org/W2339672572",
+    "https://openalex.org/W2344973376",
+    "https://openalex.org/W3215619572",
+    "https://openalex.org/W4246150723",
+    "https://openalex.org/W4293247451",
+    "https://openalex.org/W71336344"
+  ],
+  "related_works": [
+    "https://openalex.org/W4243247781",
+    "https://openalex.org/W4206613984",
+    "https://openalex.org/W233490114",
+    "https://openalex.org/W2188233681",
+    "https://openalex.org/W2158948321",
+    "https://openalex.org/W2116713371",
+    "https://openalex.org/W2105412616",
+    "https://openalex.org/W2058280890",
+    "https://openalex.org/W2011333153",
+    "https://openalex.org/W1969744026"
+  ],
+  "abstract_inverted_index": {
+    "In": [
+      0,
+      47
+    ],
+    "a": [
+      1,
+      139,
+      169,
+      193,
+      211
+    ],
+    "recent": [
+      2
+    ],
+    "study": [
+      3,
+      49
+    ],
+    "we": [
+      4,
+      50
+    ],
+    "have": [
+      5
+    ],
+    "demonstrated": [
+      6,
+      137
+    ],
+    "that": [
+      7,
+      180
+    ],
+    "3T3-L1": [
+      8
+    ],
+    "adipocytes": [
+      9
+    ],
+    "exposed": [
+      10,
+      164
+    ],
+    "to": [
+      11,
+      26,
+      62,
+      72,
+      165,
+      223
+    ],
+    "low": [
+      12
+    ],
+    "micromolar": [
+      13
+    ],
+    "H2O2": [
+      14,
+      66
+    ],
+    "concentrations": [
+      15
+    ],
+    "display": [
+      16
+    ],
+    "impaired": [
+      17,
+      153
+    ],
+    "insulin": [
+      18,
+      81,
+      83,
+      134,
+      143,
+      188,
+      195,
+      219
+    ],
+    "stimulated": [
+      19,
+      82,
+      144
+    ],
+    "GLUT4": [
+      20,
+      185
+    ],
+    "translocation": [
+      21,
+      186
+    ],
+    "from": [
+      22
+    ],
+    "internal": [
+      23,
+      98
+    ],
+    "membrane": [
+      24,
+      29,
+      99
+    ],
+    "pools": [
+      25
+    ],
+    "the": [
+      27,
+      53,
+      73,
+      79,
+      94,
+      119,
+      132,
+      216,
+      226
+    ],
+    "plasma": [
+      28
+    ],
+    "(Rudich,": [
+      30
+    ],
+    "A.,": [
+      31,
+      33
+    ],
+    "Tirosh,": [
+      32
+    ],
+    "Potashnik,": [
+      34
+    ],
+    "R.,": [
+      35,
+      37
+    ],
+    "Hemi,": [
+      36
+    ],
+    "Kannety,": [
+      38
+    ],
+    "H.,": [
+      39
+    ],
+    "and": [
+      40,
+      87,
+      96,
+      113,
+      122,
+      152,
+      157,
+      161,
+      175,
+      184,
+      202
+    ],
+    "Bashan,": [
+      41
+    ],
+    "N.": [
+      42
+    ],
+    "(1998)": [
+      43
+    ],
+    "Diabetes": [
+      44
+    ],
+    "47,": [
+      45
+    ],
+    "1562-1569).": [
+      46
+    ],
+    "this": [
+      48,
+      58,
+      129
+    ],
+    "further": [
+      51
+    ],
+    "characterize": [
+      52
+    ],
+    "cellular": [
+      54,
+      91,
+      197,
+      213
+    ],
+    "mechanisms": [
+      55
+    ],
+    "responsible": [
+      56
+    ],
+    "for": [
+      57,
+      215
+    ],
+    "observation.": [
+      59
+    ],
+    "Two-hour": [
+      60
+    ],
+    "exposure": [
+      61
+    ],
+    "approximately": [
+      63
+    ],
+    "25": [
+      64
+    ],
+    "microM": [
+      65
+    ],
+    "(generated": [
+      67
+    ],
+    "by": [
+      68,
+      138
+    ],
+    "adding": [
+      69
+    ],
+    "glucose": [
+      70
+    ],
+    "oxidase": [
+      71
+    ],
+    "medium)": [
+      74
+    ],
+    "resulted": [
+      75
+    ],
+    "in": [
+      76,
+      118,
+      142,
+      221,
+      225
+    ],
+    "disruption": [
+      77
+    ],
+    "of": [
+      78,
+      128,
+      155,
+      182,
+      199,
+      218
+    ],
+    "normal": [
+      80,
+      194
+    ],
+    "receptor": [
+      84
+    ],
+    "substrate": [
+      85
+    ],
+    "(IRS)-1": [
+      86
+    ],
+    "phosphatidylinositol": [
+      88
+    ],
+    "(PI)": [
+      89
+    ],
+    "3-kinase": [
+      90,
+      116,
+      201
+    ],
+    "redistribution": [
+      92
+    ],
+    "between": [
+      93
+    ],
+    "cytosol": [
+      95
+    ],
+    "an": [
+      97
+    ],
+    "pool": [
+      100
+    ],
+    "(low": [
+      101
+    ],
+    "density": [
+      102
+    ],
+    "microsomal": [
+      103
+    ],
+    "fraction": [
+      104
+    ],
+    "(LDM)).": [
+      105
+    ],
+    "This": [
+      106
+    ],
+    "was": [
+      107,
+      136
+    ],
+    "associated": [
+      108
+    ],
+    "with": [
+      109
+    ],
+    "reduced": [
+      110
+    ],
+    "insulin-stimulated": [
+      111
+    ],
+    "IRS-1": [
+      112
+    ],
+    "p85-associated": [
+      114
+    ],
+    "PI": [
+      115,
+      200
+    ],
+    "activities": [
+      117
+    ],
+    "LDM": [
+      120
+    ],
+    "(84": [
+      121
+    ],
+    "96%": [
+      123
+    ],
+    "inhibition,": [
+      124
+    ],
+    "respectively).": [
+      125
+    ],
+    "The": [
+      126
+    ],
+    "effect": [
+      127
+    ],
+    "finding": [
+      130
+    ],
+    "on": [
+      131
+    ],
+    "downstream": [
+      133
+    ],
+    "signal": [
+      135
+    ],
+    "90%": [
+      140
+    ],
+    "reduction": [
+      141
+    ],
+    "protein": [
+      145
+    ],
+    "kinase": [
+      146
+    ],
+    "B": [
+      147
+    ],
+    "(PKB)": [
+      148
+    ],
+    "serine": [
+      149,
+      173
+    ],
+    "473": [
+      150
+    ],
+    "phosphorylation": [
+      151,
+      174
+    ],
+    "activation": [
+      154,
+      181
+    ],
+    "PKBalpha": [
+      156
+    ],
+    "PKBgamma.": [
+      158
+    ],
+    "Both": [
+      159
+    ],
+    "control": [
+      160
+    ],
+    "oxidized": [
+      162
+    ],
+    "cells": [
+      163
+    ],
+    "heat": [
+      166
+    ],
+    "shock": [
+      167
+    ],
+    "displayed": [
+      168
+    ],
+    "wortmannin": [
+      170
+    ],
+    "insensitive": [
+      171
+    ],
+    "PKB": [
+      172,
+      183
+    ],
+    "activity.": [
+      176
+    ],
+    "These": [
+      177,
+      208
+    ],
+    "data": [
+      178
+    ],
+    "suggest": [
+      179
+    ],
+    "are": [
+      187
+    ],
+    "signaling": [
+      189
+    ],
+    "events": [
+      190
+    ],
+    "dependent": [
+      191
+    ],
+    "upon": [
+      192
+    ],
+    "induced": [
+      196
+    ],
+    "compartmentalization": [
+      198
+    ],
+    "IRS-1,": [
+      203
+    ],
+    "which": [
+      204
+    ],
+    "is": [
+      205
+    ],
+    "oxidative": [
+      206
+    ],
+    "stress-sensitive.": [
+      207
+    ],
+    "findings": [
+      209
+    ],
+    "represent": [
+      210
+    ],
+    "novel": [
+      212
+    ],
+    "mechanism": [
+      214
+    ],
+    "induction": [
+      217
+    ],
+    "resistance": [
+      220
+    ],
+    "response": [
+      222
+    ],
+    "changes": [
+      224
+    ],
+    "extracellular": [
+      227
+    ],
+    "environment.": [
+      228
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2065789432",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 12
+    }
+  ],
+  "updated_date": "2025-05-21T23:32:02.066570",
+  "created_date": "2016-06-24"
+}

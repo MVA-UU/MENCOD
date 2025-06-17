@@ -1,0 +1,1436 @@
+{
+  "id": "https://openalex.org/W2068557214",
+  "doi": "https://doi.org/10.1073/pnas.0701413104",
+  "title": "Vertebrate Ctr1 coordinates morphogenesis and progenitor cell fate and regulates embryonic stem cell differentiation",
+  "display_name": "Vertebrate Ctr1 coordinates morphogenesis and progenitor cell fate and regulates embryonic stem cell differentiation",
+  "publication_year": 2007,
+  "publication_date": "2007-07-10",
+  "ids": {
+    "openalex": "https://openalex.org/W2068557214",
+    "doi": "https://doi.org/10.1073/pnas.0701413104",
+    "mag": "2068557214",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/17620605",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/1924542"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1073/pnas.0701413104",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc1924542?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5056868896",
+        "display_name": "Tomomi Haremaki",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210103308",
+          "display_name": "Therapeutics Clinical Research",
+          "ror": "https://ror.org/00vp43e16",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210103308"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tomomi Haremaki",
+      "raw_affiliation_strings": [
+        "Departments of †Pharmacology and Systems Therapeutics,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departments of †Pharmacology and Systems Therapeutics,",
+          "institution_ids": [
+            "https://openalex.org/I4210103308"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031396379",
+        "display_name": "Stuart T. Fraser",
+        "orcid": "https://orcid.org/0000-0003-3795-9461"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98704320",
+          "display_name": "Icahn School of Medicine at Mount Sinai",
+          "ror": "https://ror.org/04a9tmd77",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1320796813",
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stuart T. Fraser",
+      "raw_affiliation_strings": [
+        "Medicine, and; The Black Family Stem Cell Institute, Mount Sinai School of Medicine, New York, NY 10029; and",
+        "The Black Family Stem Cell Institute, Mount Sinai School of Medicine, New York, NY 10029; and"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Black Family Stem Cell Institute, Mount Sinai School of Medicine, New York, NY 10029; and",
+          "institution_ids": [
+            "https://openalex.org/I98704320"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Medicine, and; The Black Family Stem Cell Institute, Mount Sinai School of Medicine, New York, NY 10029; and",
+          "institution_ids": [
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037442312",
+        "display_name": "Yien–Ming Kuo",
+        "orcid": "https://orcid.org/0000-0001-9925-3013"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1344073410",
+          "display_name": "Howard Hughes Medical Institute",
+          "ror": "https://ror.org/006w34k90",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1344073410"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yien-Ming Kuo",
+      "raw_affiliation_strings": [
+        "Departments of Medicine and Pediatrics and Howard Hughes Medical Institute, University of California, San Francisco, CA 94143"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departments of Medicine and Pediatrics and Howard Hughes Medical Institute, University of California, San Francisco, CA 94143",
+          "institution_ids": [
+            "https://openalex.org/I1344073410",
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108792323",
+        "display_name": "Margaret H. Baron",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98704320",
+          "display_name": "Icahn School of Medicine at Mount Sinai",
+          "ror": "https://ror.org/04a9tmd77",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1320796813",
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Margaret H. Baron",
+      "raw_affiliation_strings": [
+        "Medicine, and; Molecular, Cell, and Developmental Biology, Oncological Sciences, and Gene and Cell Medicine, and; The Black Family Stem Cell Institute, Mount Sinai School of Medicine, New York, NY 10029; and",
+        "Molecular, Cell, and Developmental Biology, Oncological Sciences, and Gene and Cell Medicine, and",
+        "The Black Family Stem Cell Institute, Mount Sinai School of Medicine, New York, NY 10029; and"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Medicine, and; Molecular, Cell, and Developmental Biology, Oncological Sciences, and Gene and Cell Medicine, and; The Black Family Stem Cell Institute, Mount Sinai School of Medicine, New York, NY 10029; and",
+          "institution_ids": [
+            "https://openalex.org/I98704320"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The Black Family Stem Cell Institute, Mount Sinai School of Medicine, New York, NY 10029; and",
+          "institution_ids": [
+            "https://openalex.org/I98704320"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Molecular, Cell, and Developmental Biology, Oncological Sciences, and Gene and Cell Medicine, and",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5070019312",
+        "display_name": "Daniel C. Weinstein",
+        "orcid": "https://orcid.org/0000-0001-7832-9285"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210103308",
+          "display_name": "Therapeutics Clinical Research",
+          "ror": "https://ror.org/00vp43e16",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210103308"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98704320",
+          "display_name": "Icahn School of Medicine at Mount Sinai",
+          "ror": "https://ror.org/04a9tmd77",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1320796813",
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Daniel C. Weinstein",
+      "raw_affiliation_strings": [
+        "Departments of †Pharmacology and Systems Therapeutics,",
+        "The Black Family Stem Cell Institute, Mount Sinai School of Medicine, New York, NY 10029; and"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departments of †Pharmacology and Systems Therapeutics,",
+          "institution_ids": [
+            "https://openalex.org/I4210103308"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The Black Family Stem Cell Institute, Mount Sinai School of Medicine, New York, NY 10029; and",
+          "institution_ids": [
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.379,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 42,
+  "citation_normalized_percentile": {
+    "value": 0.808076,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 92,
+    "max": 93
+  },
+  "biblio": {
+    "volume": "104",
+    "issue": "29",
+    "first_page": "12029",
+    "last_page": "12034"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10505",
+    "display_name": "Pluripotent Stem Cells Research",
+    "score": 0.9988,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10505",
+      "display_name": "Pluripotent Stem Cells Research",
+      "score": 0.9988,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12140",
+      "display_name": "Renal and related cancers",
+      "score": 0.9977,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10269",
+      "display_name": "Epigenetics and DNA Methylation",
+      "score": 0.9909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/germ-layer",
+      "display_name": "Germ layer",
+      "score": 0.57150877
+    },
+    {
+      "id": "https://openalex.org/keywords/cell-fate-determination",
+      "display_name": "Cell fate determination",
+      "score": 0.5449705
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.77160144
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.74248624
+    },
+    {
+      "id": "https://openalex.org/C40692019",
+      "wikidata": "https://www.wikidata.org/wiki/Q815547",
+      "display_name": "Morphogenesis",
+      "level": 3,
+      "score": 0.68896806
+    },
+    {
+      "id": "https://openalex.org/C2780915607",
+      "wikidata": "https://www.wikidata.org/wiki/Q323438",
+      "display_name": "Mesoderm",
+      "level": 4,
+      "score": 0.6791525
+    },
+    {
+      "id": "https://openalex.org/C145103041",
+      "wikidata": "https://www.wikidata.org/wiki/Q1151519",
+      "display_name": "Embryonic stem cell",
+      "level": 3,
+      "score": 0.6376103
+    },
+    {
+      "id": "https://openalex.org/C18155467",
+      "wikidata": "https://www.wikidata.org/wiki/Q660498",
+      "display_name": "Germ layer",
+      "level": 5,
+      "score": 0.57150877
+    },
+    {
+      "id": "https://openalex.org/C201750760",
+      "wikidata": "https://www.wikidata.org/wiki/Q1896218",
+      "display_name": "Progenitor cell",
+      "level": 3,
+      "score": 0.5646359
+    },
+    {
+      "id": "https://openalex.org/C74373430",
+      "wikidata": "https://www.wikidata.org/wiki/Q24727126",
+      "display_name": "Fibroblast growth factor",
+      "level": 3,
+      "score": 0.559374
+    },
+    {
+      "id": "https://openalex.org/C163952510",
+      "wikidata": "https://www.wikidata.org/wiki/Q5058196",
+      "display_name": "Cell fate determination",
+      "level": 4,
+      "score": 0.5449705
+    },
+    {
+      "id": "https://openalex.org/C148738053",
+      "wikidata": "https://www.wikidata.org/wiki/Q210861",
+      "display_name": "Cellular differentiation",
+      "level": 3,
+      "score": 0.54195243
+    },
+    {
+      "id": "https://openalex.org/C2777164004",
+      "wikidata": "https://www.wikidata.org/wiki/Q331858",
+      "display_name": "Endoderm",
+      "level": 4,
+      "score": 0.4390257
+    },
+    {
+      "id": "https://openalex.org/C28328180",
+      "wikidata": "https://www.wikidata.org/wiki/Q48196",
+      "display_name": "Stem cell",
+      "level": 2,
+      "score": 0.42189395
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.25277293
+    },
+    {
+      "id": "https://openalex.org/C86339819",
+      "wikidata": "https://www.wikidata.org/wiki/Q407384",
+      "display_name": "Transcription factor",
+      "level": 3,
+      "score": 0.1708506
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.15492171
+    },
+    {
+      "id": "https://openalex.org/C107459253",
+      "wikidata": "https://www.wikidata.org/wiki/Q674925",
+      "display_name": "Induced pluripotent stem cell",
+      "level": 4,
+      "score": 0.082936704
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.06990662
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D027682",
+      "descriptor_name": "Cation Transport Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002454",
+      "descriptor_name": "Cell Differentiation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D019070",
+      "descriptor_name": "Cell Lineage",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D053595",
+      "descriptor_name": "Embryonic Stem Cells",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009024",
+      "descriptor_name": "Morphogenesis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014982",
+      "descriptor_name": "Xenopus laevis",
+      "qualifier_ui": "Q000196",
+      "qualifier_name": "embryology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D027682",
+      "descriptor_name": "Cation Transport Proteins",
+      "qualifier_ui": "Q000172",
+      "qualifier_name": "deficiency",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D027682",
+      "descriptor_name": "Cation Transport Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D027682",
+      "descriptor_name": "Cation Transport Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000079923",
+      "descriptor_name": "Copper Transporter 1",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004625",
+      "descriptor_name": "Embryo, Nonmammalian",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004625",
+      "descriptor_name": "Embryo, Nonmammalian",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053595",
+      "descriptor_name": "Embryonic Stem Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018507",
+      "descriptor_name": "Gene Expression Regulation, Developmental",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020935",
+      "descriptor_name": "MAP Kinase Signaling System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012333",
+      "descriptor_name": "RNA, Messenger",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012333",
+      "descriptor_name": "RNA, Messenger",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012333",
+      "descriptor_name": "RNA, Messenger",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D029867",
+      "descriptor_name": "Xenopus Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014982",
+      "descriptor_name": "Xenopus laevis",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014982",
+      "descriptor_name": "Xenopus laevis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1073/pnas.0701413104",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S125754415",
+        "display_name": "Proceedings of the National Academy of Sciences",
+        "issn_l": "0027-8424",
+        "issn": [
+          "0027-8424",
+          "1091-6490"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320052",
+        "host_organization_name": "National Academy of Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320052"
+        ],
+        "host_organization_lineage_names": [
+          "National Academy of Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc1924542",
+      "pdf_url": "https://europepmc.org/articles/pmc1924542?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1924542",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17620605",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc1924542",
+    "pdf_url": "https://europepmc.org/articles/pmc1924542?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 44,
+  "referenced_works": [
+    "https://openalex.org/W1676489766",
+    "https://openalex.org/W1852654097",
+    "https://openalex.org/W1927305112",
+    "https://openalex.org/W1967080927",
+    "https://openalex.org/W1967886525",
+    "https://openalex.org/W1981177192",
+    "https://openalex.org/W1981729504",
+    "https://openalex.org/W1989137361",
+    "https://openalex.org/W1990729534",
+    "https://openalex.org/W1993199560",
+    "https://openalex.org/W1997506291",
+    "https://openalex.org/W2006138834",
+    "https://openalex.org/W2006322727",
+    "https://openalex.org/W2007632640",
+    "https://openalex.org/W2009822564",
+    "https://openalex.org/W2019870906",
+    "https://openalex.org/W2021046945",
+    "https://openalex.org/W2028517758",
+    "https://openalex.org/W2039610005",
+    "https://openalex.org/W2042299581",
+    "https://openalex.org/W2063157862",
+    "https://openalex.org/W2076860978",
+    "https://openalex.org/W2081794739",
+    "https://openalex.org/W2096535470",
+    "https://openalex.org/W2103478108",
+    "https://openalex.org/W2111712036",
+    "https://openalex.org/W2112609051",
+    "https://openalex.org/W2114115521",
+    "https://openalex.org/W2116250541",
+    "https://openalex.org/W2119633179",
+    "https://openalex.org/W2134485689",
+    "https://openalex.org/W2138719091",
+    "https://openalex.org/W2139020188",
+    "https://openalex.org/W2139043462",
+    "https://openalex.org/W2139961479",
+    "https://openalex.org/W2143789585",
+    "https://openalex.org/W2151790597",
+    "https://openalex.org/W2153391988",
+    "https://openalex.org/W2188543190",
+    "https://openalex.org/W2322374102",
+    "https://openalex.org/W2414485106",
+    "https://openalex.org/W2793841049",
+    "https://openalex.org/W4249745159",
+    "https://openalex.org/W72739152"
+  ],
+  "related_works": [
+    "https://openalex.org/W4210553678",
+    "https://openalex.org/W2925210005",
+    "https://openalex.org/W2782813173",
+    "https://openalex.org/W2586749675",
+    "https://openalex.org/W2514982189",
+    "https://openalex.org/W2182110932",
+    "https://openalex.org/W2098049105",
+    "https://openalex.org/W2068557214",
+    "https://openalex.org/W2048445760",
+    "https://openalex.org/W1979145849"
+  ],
+  "abstract_inverted_index": {
+    "Embryogenesis": [
+      0
+    ],
+    "involves": [
+      1,
+      116
+    ],
+    "two": [
+      2
+    ],
+    "distinct": [
+      3
+    ],
+    "processes.": [
+      4
+    ],
+    "On": [
+      5
+    ],
+    "the": [
+      6,
+      20,
+      27,
+      52,
+      71,
+      90,
+      94,
+      103,
+      117,
+      120,
+      188
+    ],
+    "one": [
+      7
+    ],
+    "hand,": [
+      8,
+      22
+    ],
+    "cells": [
+      9,
+      139
+    ],
+    "must": [
+      10,
+      24
+    ],
+    "specialize,": [
+      11
+    ],
+    "acquiring": [
+      12
+    ],
+    "fates": [
+      13
+    ],
+    "appropriate": [
+      14
+    ],
+    "to": [
+      15,
+      59,
+      126
+    ],
+    "their": [
+      16
+    ],
+    "positions": [
+      17
+    ],
+    "(differentiation);": [
+      18
+    ],
+    "on": [
+      19
+    ],
+    "other": [
+      21
+    ],
+    "they": [
+      23
+    ],
+    "physically": [
+      25
+    ],
+    "construct": [
+      26
+    ],
+    "embryo": [
+      28
+    ],
+    "through": [
+      29
+    ],
+    "coordinated": [
+      30
+    ],
+    "mechanical": [
+      31
+    ],
+    "activity": [
+      32
+    ],
+    "(morphogenesis).": [
+      33
+    ],
+    "In": [
+      34
+    ],
+    "early": [
+      35,
+      85
+    ],
+    "vertebrate": [
+      36,
+      180
+    ],
+    "development,": [
+      37
+    ],
+    "fibroblast": [
+      38
+    ],
+    "growth": [
+      39
+    ],
+    "factor": [
+      40
+    ],
+    "(FGF)": [
+      41
+    ],
+    "regulates": [
+      42
+    ],
+    "multiple": [
+      43
+    ],
+    "embryonic": [
+      44,
+      136
+    ],
+    "events,": [
+      45
+    ],
+    "including": [
+      46
+    ],
+    "germ": [
+      47
+    ],
+    "layer": [
+      48
+    ],
+    "differentiation": [
+      49,
+      91,
+      155,
+      189
+    ],
+    "and": [
+      50,
+      92,
+      98,
+      124,
+      168,
+      194
+    ],
+    "morphogenesis;": [
+      51
+    ],
+    "cellular": [
+      53
+    ],
+    "components": [
+      54
+    ],
+    "that": [
+      55,
+      70,
+      153
+    ],
+    "direct": [
+      56
+    ],
+    "FGF": [
+      57,
+      82
+    ],
+    "signaling": [
+      58
+    ],
+    "evoke": [
+      60
+    ],
+    "these": [
+      61
+    ],
+    "different": [
+      62
+    ],
+    "responses": [
+      63
+    ],
+    "remain": [
+      64
+    ],
+    "largely": [
+      65
+    ],
+    "unknown.": [
+      66
+    ],
+    "We": [
+      67
+    ],
+    "show": [
+      68
+    ],
+    "here": [
+      69
+    ],
+    "copper": [
+      72,
+      133
+    ],
+    "transporter": [
+      73
+    ],
+    "1": [
+      74
+    ],
+    "(Ctr1)": [
+      75
+    ],
+    "protein": [
+      76
+    ],
+    "is": [
+      77
+    ],
+    "a": [
+      78,
+      161,
+      176,
+      184
+    ],
+    "critical": [
+      79
+    ],
+    "router": [
+      80
+    ],
+    "of": [
+      81,
+      96,
+      102,
+      119,
+      129,
+      149,
+      187,
+      191
+    ],
+    "signals": [
+      83
+    ],
+    "during": [
+      84,
+      166
+    ],
+    "embryogenesis.": [
+      86
+    ],
+    "Ctr1": [
+      87,
+      115,
+      142,
+      144,
+      165,
+      181
+    ],
+    "both": [
+      88,
+      192
+    ],
+    "promotes": [
+      89
+    ],
+    "inhibits": [
+      93
+    ],
+    "morphogenesis": [
+      95
+    ],
+    "mesoderm": [
+      97
+    ],
+    "neurectoderm": [
+      99
+    ],
+    "in": [
+      100,
+      132,
+      156,
+      178
+    ],
+    "embryos": [
+      101
+    ],
+    "frog": [
+      104
+    ],
+    "Xenopus": [
+      105
+    ],
+    "laevis": [
+      106
+    ],
+    ",": [
+      107
+    ],
+    "thereby": [
+      108
+    ],
+    "coordinating": [
+      109
+    ],
+    "normal": [
+      110
+    ],
+    "development.": [
+      111
+    ],
+    "Signal": [
+      112
+    ],
+    "sorting": [
+      113
+    ],
+    "by": [
+      114
+    ],
+    "activation": [
+      118
+    ],
+    "Ras–MAP": [
+      121
+    ],
+    "kinase": [
+      122
+    ],
+    "cascade": [
+      123
+    ],
+    "appears": [
+      125
+    ],
+    "be": [
+      127
+    ],
+    "independent": [
+      128
+    ],
+    "its": [
+      130
+    ],
+    "role": [
+      131,
+      163
+    ],
+    "transport.": [
+      134
+    ],
+    "Mouse": [
+      135
+    ],
+    "stem": [
+      137,
+      193
+    ],
+    "(ES)": [
+      138
+    ],
+    "deficient": [
+      140
+    ],
+    "for": [
+      141,
+      164
+    ],
+    "(": [
+      143
+    ],
+    "−/−": [
+      145
+    ],
+    ")": [
+      146
+    ],
+    "retain": [
+      147
+    ],
+    "characteristics": [
+      148
+    ],
+    "pluripotency": [
+      150
+    ],
+    "under": [
+      151
+    ],
+    "conditions": [
+      152
+    ],
+    "favor": [
+      154
+    ],
+    "wild-type": [
+      157
+    ],
+    "ES": [
+      158
+    ],
+    "cells,": [
+      159
+    ],
+    "indicating": [
+      160
+    ],
+    "conserved": [
+      162
+    ],
+    "amphibian": [
+      167
+    ],
+    "mammalian": [
+      169
+    ],
+    "cell": [
+      170,
+      196
+    ],
+    "fate": [
+      171
+    ],
+    "determination.": [
+      172
+    ],
+    "Our": [
+      173
+    ],
+    "studies": [
+      174
+    ],
+    "support": [
+      175
+    ],
+    "model": [
+      177
+    ],
+    "which": [
+      179
+    ],
+    "functions": [
+      182
+    ],
+    "as": [
+      183
+    ],
+    "key": [
+      185
+    ],
+    "regulator": [
+      186
+    ],
+    "capacity": [
+      190
+    ],
+    "progenitor": [
+      195
+    ],
+    "populations.": [
+      197
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2068557214",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2025-05-20T02:07:19.030921",
+  "created_date": "2016-06-24"
+}

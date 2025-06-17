@@ -1,0 +1,681 @@
+{
+  "id": "https://openalex.org/W2063730247",
+  "doi": "https://doi.org/10.1093/emboj/cdg012",
+  "title": "Knockout of 'metal-responsive transcription factor' MTF-1 in Drosophila by homologous recombination reveals its central role in heavy metal homeostasis",
+  "display_name": "Knockout of 'metal-responsive transcription factor' MTF-1 in Drosophila by homologous recombination reveals its central role in heavy metal homeostasis",
+  "publication_year": 2002,
+  "publication_date": "2002-12-28",
+  "ids": {
+    "openalex": "https://openalex.org/W2063730247",
+    "doi": "https://doi.org/10.1093/emboj/cdg012",
+    "mag": "2063730247",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/12505988",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/140060"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1093/emboj/cdg012",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S127916151",
+      "display_name": "The EMBO Journal",
+      "issn_l": "0261-4189",
+      "issn": [
+        "0261-4189",
+        "1460-2075"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc140060?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5032006827",
+        "display_name": "Dieter Egli",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "D. Egli",
+      "raw_affiliation_strings": [
+        "Institut für Molekularbiologie and Zoologisches Institut der Universität Zürich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut für Molekularbiologie and Zoologisches Institut der Universität Zürich, Winterthurerstrasse 190, CH-8057 Zürich, Switzerland.",
+          "institution_ids": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5032006827"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I202697423"
+  ],
+  "apc_list": {
+    "value": 0,
+    "currency": "USD",
+    "value_usd": 0
+  },
+  "apc_paid": null,
+  "fwci": 6.367,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 136,
+  "citation_normalized_percentile": {
+    "value": 0.896801,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "22",
+    "issue": "1",
+    "first_page": "100",
+    "last_page": "108"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10915",
+    "display_name": "Trace Elements in Health",
+    "score": 0.9978,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10915",
+      "display_name": "Trace Elements in Health",
+      "score": 0.9978,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12610",
+      "display_name": "RNA regulation and disease",
+      "score": 0.9483,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14478",
+      "display_name": "Papaya Research and Applications",
+      "score": 0.9332,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2707",
+        "display_name": "Complementary and alternative medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/zhàng",
+      "display_name": "Zhàng",
+      "score": 0.53695434
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777045944",
+      "wikidata": "https://www.wikidata.org/wiki/Q12170198",
+      "display_name": "Zhàng",
+      "level": 3,
+      "score": 0.53695434
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.32606602
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.17807916
+    },
+    {
+      "id": "https://openalex.org/C166957645",
+      "wikidata": "https://www.wikidata.org/wiki/Q23498",
+      "display_name": "Archaeology",
+      "level": 1,
+      "score": 0.08487487
+    },
+    {
+      "id": "https://openalex.org/C191935318",
+      "wikidata": "https://www.wikidata.org/wiki/Q148",
+      "display_name": "China",
+      "level": 2,
+      "score": 0.08374879
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D004331",
+      "descriptor_name": "Drosophila melanogaster",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D019216",
+      "descriptor_name": "Metals, Heavy",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000595",
+      "descriptor_name": "Amino Acid Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001483",
+      "descriptor_name": "Base Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017931",
+      "descriptor_name": "DNA Primers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004268",
+      "descriptor_name": "DNA-Binding Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017353",
+      "descriptor_name": "Gene Deletion",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006706",
+      "descriptor_name": "Homeostasis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018345",
+      "descriptor_name": "Mice, Knockout",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016133",
+      "descriptor_name": "Polymerase Chain Reaction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011995",
+      "descriptor_name": "Recombination, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000097809",
+      "descriptor_name": "Transcription Factor MTF-1",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014157",
+      "descriptor_name": "Transcription Factors",
+      "qualifier_ui": "Q000172",
+      "qualifier_name": "deficiency",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/emboj/cdg012",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S127916151",
+        "display_name": "The EMBO Journal",
+        "issn_l": "0261-4189",
+        "issn": [
+          "0261-4189",
+          "1460-2075"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc140060",
+      "pdf_url": "https://europepmc.org/articles/pmc140060?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC140060",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.zora.uzh.ch/id/eprint/596/11/Egli-1V.pdf",
+      "pdf_url": "https://www.zora.uzh.ch/id/eprint/596/11/Egli-1V.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401281",
+        "display_name": "Zurich Open Repository and Archive (University of Zurich)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I202697423",
+        "host_organization_name": "University of Zurich",
+        "host_organization_lineage": [
+          "https://openalex.org/I202697423"
+        ],
+        "host_organization_lineage_names": [
+          "University of Zurich"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/12505988",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc140060",
+    "pdf_url": "https://europepmc.org/articles/pmc140060?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 65,
+  "referenced_works": [
+    "https://openalex.org/W1545889271",
+    "https://openalex.org/W1573680303",
+    "https://openalex.org/W1612987016",
+    "https://openalex.org/W1751864219",
+    "https://openalex.org/W1759181620",
+    "https://openalex.org/W1846243202",
+    "https://openalex.org/W192250034",
+    "https://openalex.org/W1946138606",
+    "https://openalex.org/W196233321",
+    "https://openalex.org/W1964726418",
+    "https://openalex.org/W1965575986",
+    "https://openalex.org/W1965769301",
+    "https://openalex.org/W1967969993",
+    "https://openalex.org/W1969194948",
+    "https://openalex.org/W1974588461",
+    "https://openalex.org/W1976825268",
+    "https://openalex.org/W1977788794",
+    "https://openalex.org/W1982647833",
+    "https://openalex.org/W1989137361",
+    "https://openalex.org/W1989711396",
+    "https://openalex.org/W1993168796",
+    "https://openalex.org/W2001488804",
+    "https://openalex.org/W2004731363",
+    "https://openalex.org/W2005921033",
+    "https://openalex.org/W2007129212",
+    "https://openalex.org/W2022799624",
+    "https://openalex.org/W2034900642",
+    "https://openalex.org/W2039168627",
+    "https://openalex.org/W2039369666",
+    "https://openalex.org/W2042194040",
+    "https://openalex.org/W2043179564",
+    "https://openalex.org/W2046831727",
+    "https://openalex.org/W2048624815",
+    "https://openalex.org/W2050667797",
+    "https://openalex.org/W2057487100",
+    "https://openalex.org/W2067395327",
+    "https://openalex.org/W2067895067",
+    "https://openalex.org/W2070330324",
+    "https://openalex.org/W2073760131",
+    "https://openalex.org/W2075899507",
+    "https://openalex.org/W2076183513",
+    "https://openalex.org/W2078450337",
+    "https://openalex.org/W2082105991",
+    "https://openalex.org/W2089070950",
+    "https://openalex.org/W2090201814",
+    "https://openalex.org/W2103195551",
+    "https://openalex.org/W2105568529",
+    "https://openalex.org/W2118296350",
+    "https://openalex.org/W2119689096",
+    "https://openalex.org/W2122749282",
+    "https://openalex.org/W2126117869",
+    "https://openalex.org/W2133107935",
+    "https://openalex.org/W2145330633",
+    "https://openalex.org/W2153685597",
+    "https://openalex.org/W2155995453",
+    "https://openalex.org/W2158290831",
+    "https://openalex.org/W2159045808",
+    "https://openalex.org/W2165209574",
+    "https://openalex.org/W2168504426",
+    "https://openalex.org/W2171941574",
+    "https://openalex.org/W2231807690",
+    "https://openalex.org/W2406526834",
+    "https://openalex.org/W2420039433",
+    "https://openalex.org/W4205147558",
+    "https://openalex.org/W4246951358"
+  ],
+  "related_works": [
+    "https://openalex.org/W54078636",
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W3148032049",
+    "https://openalex.org/W3105167352",
+    "https://openalex.org/W3084825885",
+    "https://openalex.org/W2954470139",
+    "https://openalex.org/W2935759653",
+    "https://openalex.org/W2902782467",
+    "https://openalex.org/W2298861036",
+    "https://openalex.org/W1501425562"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2063730247",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-05-19T07:25:26.179471",
+  "created_date": "2016-06-24"
+}

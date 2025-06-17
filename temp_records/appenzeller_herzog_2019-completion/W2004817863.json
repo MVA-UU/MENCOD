@@ -1,0 +1,1456 @@
+{
+  "id": "https://openalex.org/W2004817863",
+  "doi": "https://doi.org/10.1016/j.ymthe.2005.05.006",
+  "title": "Intrastriatal rAAV-mediated delivery of anti-huntingtin shRNAs induces partial reversal of disease progression in R6/1 Huntington's disease transgenic mice",
+  "display_name": "Intrastriatal rAAV-mediated delivery of anti-huntingtin shRNAs induces partial reversal of disease progression in R6/1 Huntington's disease transgenic mice",
+  "publication_year": 2005,
+  "publication_date": "2005-07-13",
+  "ids": {
+    "openalex": "https://openalex.org/W2004817863",
+    "doi": "https://doi.org/10.1016/j.ymthe.2005.05.006",
+    "mag": "2004817863",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16019264",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2656966"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.ymthe.2005.05.006",
+    "pdf_url": "https://www.cell.com/article/S1525001605002005/pdf",
+    "source": {
+      "id": "https://openalex.org/S51596929",
+      "display_name": "Molecular Therapy",
+      "issn_l": "1525-0016",
+      "issn": [
+        "1525-0016",
+        "1525-0024"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://www.cell.com/article/S1525001605002005/pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5067403166",
+        "display_name": "Edgardo Rodríguez-Lebrón",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I33213144",
+          "display_name": "University of Florida",
+          "ror": "https://ror.org/02y3ad647",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I33213144"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1314596251",
+          "display_name": "Allen Institute for Brain Science",
+          "ror": "https://ror.org/00dcv1019",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1314596251",
+            "https://openalex.org/I4210140341"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Edgardo Rodriguez-Lebron",
+      "raw_affiliation_strings": [
+        "Department of Neuroscience, University of Florida McKnight Brain Institute, Gainesville 32610-0244, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neuroscience, University of Florida McKnight Brain Institute, Gainesville 32610-0244, USA.",
+          "institution_ids": [
+            "https://openalex.org/I33213144",
+            "https://openalex.org/I1314596251"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111833222",
+        "display_name": "Eileen M. Denovan‐Wright",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I129902397",
+          "display_name": "Dalhousie University",
+          "ror": "https://ror.org/01e6qks80",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I129902397"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Eileen M. Denovan-Wright",
+      "raw_affiliation_strings": [
+        "Department of Pharmacology, Dalhousie University, Halifax, Canada NS B3H 1X5"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pharmacology, Dalhousie University, Halifax, Canada NS B3H 1X5",
+          "institution_ids": [
+            "https://openalex.org/I129902397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028444221",
+        "display_name": "Kevin Nash",
+        "orcid": "https://orcid.org/0000-0002-8607-1832"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I33213144",
+          "display_name": "University of Florida",
+          "ror": "https://ror.org/02y3ad647",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I33213144"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I94062374",
+          "display_name": "Florida College",
+          "ror": "https://ror.org/010bgev76",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I94062374"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kevin Nash",
+      "raw_affiliation_strings": [
+        "Department of Molecular Genetics and Microbiology, University of Florida College of Medicine, Gainesville, FL 32610-0244, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular Genetics and Microbiology, University of Florida College of Medicine, Gainesville, FL 32610-0244, USA",
+          "institution_ids": [
+            "https://openalex.org/I33213144",
+            "https://openalex.org/I94062374"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081401643",
+        "display_name": "Alfred S. Lewin",
+        "orcid": "https://orcid.org/0000-0002-4192-9727"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I94062374",
+          "display_name": "Florida College",
+          "ror": "https://ror.org/010bgev76",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I94062374"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I33213144",
+          "display_name": "University of Florida",
+          "ror": "https://ror.org/02y3ad647",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I33213144"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alfred S. Lewin",
+      "raw_affiliation_strings": [
+        "Department of Molecular Genetics and Microbiology, University of Florida College of Medicine, Gainesville, FL 32610-0244, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular Genetics and Microbiology, University of Florida College of Medicine, Gainesville, FL 32610-0244, USA",
+          "institution_ids": [
+            "https://openalex.org/I94062374",
+            "https://openalex.org/I33213144"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5112449976",
+        "display_name": "Ronald J. Mandel",
+        "orcid": "https://orcid.org/0000-0002-4070-725X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1314596251",
+          "display_name": "Allen Institute for Brain Science",
+          "ror": "https://ror.org/00dcv1019",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1314596251",
+            "https://openalex.org/I4210140341"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I33213144",
+          "display_name": "University of Florida",
+          "ror": "https://ror.org/02y3ad647",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I33213144"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ronald J. Mandel",
+      "raw_affiliation_strings": [
+        "Department of Neuroscience, University of Florida McKnight Brain Institute and Powell Gene Therapy Center, Gainesville, FL 32610-0244, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neuroscience, University of Florida McKnight Brain Institute and Powell Gene Therapy Center, Gainesville, FL 32610-0244, USA",
+          "institution_ids": [
+            "https://openalex.org/I1314596251",
+            "https://openalex.org/I33213144"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3900,
+    "currency": "USD",
+    "value_usd": 3900
+  },
+  "apc_paid": {
+    "value": 3900,
+    "currency": "USD",
+    "value_usd": 3900
+  },
+  "fwci": 6.264,
+  "has_fulltext": false,
+  "cited_by_count": 275,
+  "citation_normalized_percentile": {
+    "value": 0.925769,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "12",
+    "issue": "4",
+    "first_page": "618",
+    "last_page": "633"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10949",
+    "display_name": "Genetic Neurodegenerative Diseases",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2804",
+      "display_name": "Cellular and Molecular Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10949",
+      "display_name": "Genetic Neurodegenerative Diseases",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10441",
+      "display_name": "Muscle Physiology and Disorders",
+      "score": 0.9713,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12331",
+      "display_name": "Hereditary Neurological Disorders",
+      "score": 0.941,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/huntingtin-protein",
+      "display_name": "Huntingtin Protein",
+      "score": 0.56733906
+    },
+    {
+      "id": "https://openalex.org/keywords/polyglutamine-tract",
+      "display_name": "Polyglutamine tract",
+      "score": 0.47510895
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2781427258",
+      "wikidata": "https://www.wikidata.org/wiki/Q2620886",
+      "display_name": "Huntingtin",
+      "level": 4,
+      "score": 0.9580887
+    },
+    {
+      "id": "https://openalex.org/C102230213",
+      "wikidata": "https://www.wikidata.org/wiki/Q430117",
+      "display_name": "Transgene",
+      "level": 3,
+      "score": 0.6420122
+    },
+    {
+      "id": "https://openalex.org/C153911025",
+      "wikidata": "https://www.wikidata.org/wiki/Q7202",
+      "display_name": "Molecular biology",
+      "level": 1,
+      "score": 0.6098523
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.60514975
+    },
+    {
+      "id": "https://openalex.org/C2910011555",
+      "wikidata": "https://www.wikidata.org/wiki/Q2620886",
+      "display_name": "Huntingtin Protein",
+      "level": 5,
+      "score": 0.56733906
+    },
+    {
+      "id": "https://openalex.org/C2780647506",
+      "wikidata": "https://www.wikidata.org/wiki/Q190564",
+      "display_name": "Huntington's disease",
+      "level": 3,
+      "score": 0.52101517
+    },
+    {
+      "id": "https://openalex.org/C190232843",
+      "wikidata": "https://www.wikidata.org/wiki/Q1950808",
+      "display_name": "Small hairpin RNA",
+      "level": 4,
+      "score": 0.4905519
+    },
+    {
+      "id": "https://openalex.org/C141035611",
+      "wikidata": "https://www.wikidata.org/wiki/Q5532934",
+      "display_name": "Genetically modified mouse",
+      "level": 4,
+      "score": 0.4772758
+    },
+    {
+      "id": "https://openalex.org/C2777616661",
+      "wikidata": "https://www.wikidata.org/wiki/Q7226416",
+      "display_name": "Polyglutamine tract",
+      "level": 5,
+      "score": 0.47510895
+    },
+    {
+      "id": "https://openalex.org/C105580179",
+      "wikidata": "https://www.wikidata.org/wiki/Q188928",
+      "display_name": "Messenger RNA",
+      "level": 3,
+      "score": 0.45212817
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.3270545
+    },
+    {
+      "id": "https://openalex.org/C67705224",
+      "wikidata": "https://www.wikidata.org/wiki/Q11053",
+      "display_name": "RNA",
+      "level": 3,
+      "score": 0.30832
+    },
+    {
+      "id": "https://openalex.org/C143065580",
+      "wikidata": "https://www.wikidata.org/wiki/Q3285695",
+      "display_name": "Mutant",
+      "level": 3,
+      "score": 0.27143103
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.16747129
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.13268226
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.121545225
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.11051792
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.06622931
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000229",
+      "descriptor_name": "Dependovirus",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009419",
+      "descriptor_name": "Nerve Tissue Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009687",
+      "descriptor_name": "Nuclear Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004195",
+      "descriptor_name": "Disease Models, Animal",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018450",
+      "descriptor_name": "Disease Progression",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015870",
+      "descriptor_name": "Gene Expression",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015316",
+      "descriptor_name": "Genetic Therapy",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005822",
+      "descriptor_name": "Genetic Vectors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000071058",
+      "descriptor_name": "Huntingtin Protein",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006816",
+      "descriptor_name": "Huntington Disease",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D045586",
+      "descriptor_name": "Intranuclear Inclusion Bodies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008822",
+      "descriptor_name": "Mice, Transgenic",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010641",
+      "descriptor_name": "Phenotype",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010957",
+      "descriptor_name": "Plasmids",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D034622",
+      "descriptor_name": "RNA Interference",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012333",
+      "descriptor_name": "RNA, Messenger",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D034741",
+      "descriptor_name": "RNA, Small Interfering",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.ymthe.2005.05.006",
+      "pdf_url": "https://www.cell.com/article/S1525001605002005/pdf",
+      "source": {
+        "id": "https://openalex.org/S51596929",
+        "display_name": "Molecular Therapy",
+        "issn_l": "1525-0016",
+        "issn": [
+          "1525-0016",
+          "1525-0024"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc2656966",
+      "pdf_url": "https://europepmc.org/articles/pmc2656966?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2656966",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16019264",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.ymthe.2005.05.006",
+    "pdf_url": "https://www.cell.com/article/S1525001605002005/pdf",
+    "source": {
+      "id": "https://openalex.org/S51596929",
+      "display_name": "Molecular Therapy",
+      "issn_l": "1525-0016",
+      "issn": [
+        "1525-0016",
+        "1525-0024"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.67
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 77,
+  "referenced_works": [
+    "https://openalex.org/W1522048223",
+    "https://openalex.org/W1529494566",
+    "https://openalex.org/W1532930401",
+    "https://openalex.org/W1544361309",
+    "https://openalex.org/W1587727277",
+    "https://openalex.org/W1651597776",
+    "https://openalex.org/W1972747973",
+    "https://openalex.org/W1974790023",
+    "https://openalex.org/W1977383752",
+    "https://openalex.org/W1977847070",
+    "https://openalex.org/W1977983193",
+    "https://openalex.org/W1979308658",
+    "https://openalex.org/W1979837223",
+    "https://openalex.org/W1982138681",
+    "https://openalex.org/W1988142389",
+    "https://openalex.org/W1995321160",
+    "https://openalex.org/W1996437793",
+    "https://openalex.org/W2000904062",
+    "https://openalex.org/W2002644780",
+    "https://openalex.org/W2003456064",
+    "https://openalex.org/W2005927762",
+    "https://openalex.org/W2009979848",
+    "https://openalex.org/W2011035933",
+    "https://openalex.org/W2012442320",
+    "https://openalex.org/W2014796438",
+    "https://openalex.org/W2021733743",
+    "https://openalex.org/W2024679573",
+    "https://openalex.org/W2025578163",
+    "https://openalex.org/W2031291542",
+    "https://openalex.org/W2038432598",
+    "https://openalex.org/W2042716629",
+    "https://openalex.org/W2042739691",
+    "https://openalex.org/W2048008983",
+    "https://openalex.org/W2051159468",
+    "https://openalex.org/W2054693278",
+    "https://openalex.org/W2059108053",
+    "https://openalex.org/W2060148506",
+    "https://openalex.org/W2061941265",
+    "https://openalex.org/W2062682951",
+    "https://openalex.org/W2064791021",
+    "https://openalex.org/W2079879584",
+    "https://openalex.org/W2082501455",
+    "https://openalex.org/W2088255739",
+    "https://openalex.org/W2091718095",
+    "https://openalex.org/W2095099413",
+    "https://openalex.org/W2096765993",
+    "https://openalex.org/W2097670265",
+    "https://openalex.org/W2099856338",
+    "https://openalex.org/W2104979554",
+    "https://openalex.org/W2105248115",
+    "https://openalex.org/W2105382539",
+    "https://openalex.org/W2106200048",
+    "https://openalex.org/W2107522917",
+    "https://openalex.org/W2110268700",
+    "https://openalex.org/W2114326728",
+    "https://openalex.org/W2119605900",
+    "https://openalex.org/W2121642311",
+    "https://openalex.org/W2122440289",
+    "https://openalex.org/W2129630363",
+    "https://openalex.org/W2132479459",
+    "https://openalex.org/W2134654456",
+    "https://openalex.org/W2140748527",
+    "https://openalex.org/W2140795771",
+    "https://openalex.org/W2142125979",
+    "https://openalex.org/W2142781204",
+    "https://openalex.org/W2143116460",
+    "https://openalex.org/W2143284347",
+    "https://openalex.org/W2146267270",
+    "https://openalex.org/W2157513658",
+    "https://openalex.org/W2161239543",
+    "https://openalex.org/W2170453612",
+    "https://openalex.org/W2406117827",
+    "https://openalex.org/W2477852672",
+    "https://openalex.org/W2600639051",
+    "https://openalex.org/W2621258952",
+    "https://openalex.org/W3109068248",
+    "https://openalex.org/W4241815492"
+  ],
+  "related_works": [
+    "https://openalex.org/W4248207405",
+    "https://openalex.org/W4210710996",
+    "https://openalex.org/W2390995953",
+    "https://openalex.org/W2130196517",
+    "https://openalex.org/W2107792324",
+    "https://openalex.org/W2075990091",
+    "https://openalex.org/W2033394951",
+    "https://openalex.org/W1982138681",
+    "https://openalex.org/W1977983193",
+    "https://openalex.org/W143538493"
+  ],
+  "abstract_inverted_index": {
+    "Huntington's": [
+      0
+    ],
+    "disease": [
+      1
+    ],
+    "(HD)": [
+      2
+    ],
+    "is": [
+      3
+    ],
+    "a": [
+      4,
+      25,
+      62,
+      74,
+      140,
+      152,
+      195
+    ],
+    "fatal": [
+      5
+    ],
+    "neurodegenerative": [
+      6
+    ],
+    "disorder": [
+      7
+    ],
+    "caused": [
+      8
+    ],
+    "by": [
+      9,
+      125,
+      187
+    ],
+    "the": [
+      10,
+      19,
+      38,
+      46,
+      79,
+      83,
+      91,
+      108,
+      114,
+      143,
+      158,
+      181,
+      188,
+      198,
+      205
+    ],
+    "presence": [
+      11
+    ],
+    "of": [
+      12,
+      21,
+      40,
+      56,
+      64,
+      82,
+      93,
+      105,
+      110,
+      116,
+      147,
+      157,
+      161,
+      174,
+      180,
+      200,
+      208
+    ],
+    "an": [
+      13
+    ],
+    "abnormally": [
+      14
+    ],
+    "expanded": [
+      15
+    ],
+    "polyglutamine": [
+      16
+    ],
+    "domain": [
+      17
+    ],
+    "in": [
+      18,
+      45,
+      88,
+      90,
+      101,
+      107,
+      135,
+      142,
+      177,
+      197
+    ],
+    "N-terminus": [
+      20
+    ],
+    "huntingtin.": [
+      22
+    ],
+    "We": [
+      23
+    ],
+    "developed": [
+      24
+    ],
+    "recombinant": [
+      26
+    ],
+    "adeno-associated": [
+      27
+    ],
+    "viral": [
+      28
+    ],
+    "serotype": [
+      29
+    ],
+    "5": [
+      30
+    ],
+    "(rAAV5)": [
+      31
+    ],
+    "gene": [
+      32
+    ],
+    "transfer": [
+      33
+    ],
+    "strategy": [
+      34
+    ],
+    "to": [
+      35
+    ],
+    "posttranscriptionally": [
+      36
+    ],
+    "suppress": [
+      37
+    ],
+    "levels": [
+      39,
+      92,
+      115,
+      160,
+      199
+    ],
+    "striatal": [
+      41,
+      201
+    ],
+    "mutant": [
+      42
+    ],
+    "huntingtin": [
+      43
+    ],
+    "(mHtt)": [
+      44
+    ],
+    "R6/1": [
+      47,
+      69,
+      111,
+      189,
+      209
+    ],
+    "HD": [
+      48,
+      71,
+      206
+    ],
+    "transgenic": [
+      49,
+      70
+    ],
+    "mouse": [
+      50
+    ],
+    "via": [
+      51
+    ],
+    "RNA": [
+      52,
+      76
+    ],
+    "interference.": [
+      53
+    ],
+    "Transient": [
+      54
+    ],
+    "cotransfection": [
+      55
+    ],
+    "HEK293": [
+      57
+    ],
+    "cells": [
+      58
+    ],
+    "with": [
+      59,
+      139
+    ],
+    "plasmids": [
+      60
+    ],
+    "expressing": [
+      61
+    ],
+    "portion": [
+      63
+    ],
+    "human": [
+      65
+    ],
+    "mHtt": [
+      66,
+      84,
+      94,
+      117,
+      136,
+      202
+    ],
+    "derived": [
+      67
+    ],
+    "from": [
+      68
+    ],
+    "mice": [
+      72,
+      112
+    ],
+    "and": [
+      73,
+      97,
+      120,
+      128,
+      145,
+      151,
+      163,
+      165
+    ],
+    "short-hairpin": [
+      75
+    ],
+    "directed": [
+      77
+    ],
+    "against": [
+      78
+    ],
+    "5'": [
+      80
+    ],
+    "UTR": [
+      81
+    ],
+    "mRNA": [
+      85,
+      95,
+      118
+    ],
+    "(siHUNT-1)": [
+      86
+    ],
+    "resulted": [
+      87,
+      176
+    ],
+    "reduction": [
+      89,
+      134,
+      141,
+      196
+    ],
+    "(-75%)": [
+      96
+    ],
+    "protein": [
+      98,
+      121
+    ],
+    "(-60%).": [
+      99
+    ],
+    "Long-term": [
+      100
+    ],
+    "vivo": [
+      102
+    ],
+    "rAAV5-mediated": [
+      103
+    ],
+    "expression": [
+      104,
+      173
+    ],
+    "siHUNT-1": [
+      106
+    ],
+    "striatum": [
+      109
+    ],
+    "reduced": [
+      113
+    ],
+    "(-78%)": [
+      119
+    ],
+    "(-28%)": [
+      122
+    ],
+    "as": [
+      123
+    ],
+    "determined": [
+      124
+    ],
+    "quantitative": [
+      126
+    ],
+    "RT-PCR": [
+      127
+    ],
+    "Western": [
+      129
+    ],
+    "blot": [
+      130
+    ],
+    "analysis,": [
+      131
+    ],
+    "respectively.": [
+      132
+    ],
+    "The": [
+      133
+    ],
+    "was": [
+      137
+    ],
+    "concomitant": [
+      138
+    ],
+    "size": [
+      144
+    ],
+    "number": [
+      146
+    ],
+    "neuronal": [
+      148
+    ],
+    "intranuclear": [
+      149
+    ],
+    "inclusions": [
+      150
+    ],
+    "small": [
+      153
+    ],
+    "but": [
+      154
+    ],
+    "significant": [
+      155
+    ],
+    "normalization": [
+      156
+    ],
+    "steady-state": [
+      159
+    ],
+    "preproenkephalin": [
+      162
+    ],
+    "dopamine-": [
+      164
+    ],
+    "cAMP-responsive": [
+      166
+    ],
+    "phosphoprotein": [
+      167
+    ],
+    "32": [
+      168
+    ],
+    "kDa": [
+      169
+    ],
+    "mRNA.": [
+      170
+    ],
+    "Finally,": [
+      171
+    ],
+    "bilateral": [
+      172
+    ],
+    "rAAV5-siHUNT-1": [
+      175
+    ],
+    "delayed": [
+      178
+    ],
+    "onset": [
+      179
+    ],
+    "rear": [
+      182
+    ],
+    "paw": [
+      183
+    ],
+    "clasping": [
+      184
+    ],
+    "phenotype": [
+      185,
+      207
+    ],
+    "exhibited": [
+      186
+    ],
+    "mice.": [
+      190,
+      210
+    ],
+    "These": [
+      191
+    ],
+    "results": [
+      192
+    ],
+    "suggest": [
+      193
+    ],
+    "that": [
+      194
+    ],
+    "can": [
+      203
+    ],
+    "ameliorate": [
+      204
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2004817863",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 27
+    }
+  ],
+  "updated_date": "2025-06-17T13:42:32.689686",
+  "created_date": "2016-06-24"
+}

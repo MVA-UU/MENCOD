@@ -1,0 +1,1052 @@
+{
+  "id": "https://openalex.org/W2219778256",
+  "doi": "https://doi.org/10.1016/j.molmed.2015.11.006",
+  "title": "Genetic Determinism of Primary Early-Onset Osteoarthritis",
+  "display_name": "Genetic Determinism of Primary Early-Onset Osteoarthritis",
+  "publication_year": 2015,
+  "publication_date": "2015-12-17",
+  "ids": {
+    "openalex": "https://openalex.org/W2219778256",
+    "doi": "https://doi.org/10.1016/j.molmed.2015.11.006",
+    "mag": "2219778256",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/26691295"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.molmed.2015.11.006",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S64855341",
+      "display_name": "Trends in Molecular Medicine",
+      "issn_l": "1471-4914",
+      "issn": [
+        "1471-4914",
+        "1471-499X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://hal.science/hal-01249005/document",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5055600290",
+        "display_name": "Juliette Aury‐Landas",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210105918",
+          "display_name": "Normandie Université",
+          "ror": "https://ror.org/01k40cz91",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98702875",
+          "display_name": "Université de Caen Normandie",
+          "ror": "https://ror.org/051kpcy16",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918",
+            "https://openalex.org/I98702875"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Juliette Aury-Landas",
+      "raw_affiliation_strings": [
+        "Normandie Université, 14032 Caen, France",
+        "Université de Caen Normandie (UNICAEN), EA4652 Microenvironnement Cellulaire et Pathologies (MILPAT), BIOCONNECT Team, 14032 Caen, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Normandie Université, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Université de Caen Normandie (UNICAEN), EA4652 Microenvironnement Cellulaire et Pathologies (MILPAT), BIOCONNECT Team, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I98702875"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060727746",
+        "display_name": "Christian Marcelli",
+        "orcid": "https://orcid.org/0000-0002-9699-2467"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210114068",
+          "display_name": "Centre Hospitalier Universitaire de Caen Normandie",
+          "ror": "https://ror.org/027arzy69",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210114068"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98702875",
+          "display_name": "Université de Caen Normandie",
+          "ror": "https://ror.org/051kpcy16",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918",
+            "https://openalex.org/I98702875"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210160723",
+          "display_name": "Chimie Organique, Médicinale et Extractive et Toxicologie Expérimentale",
+          "ror": "https://ror.org/05kt43w73",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I4210128300",
+            "https://openalex.org/I4210160723"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210105918",
+          "display_name": "Normandie Université",
+          "ror": "https://ror.org/01k40cz91",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christian Marcelli",
+      "raw_affiliation_strings": [
+        "Centre Hospitalier Universitaire de Caen, Department of Rheumatology, 14000 Caen, France",
+        "Institut National de la Santé et de la Recherche Médicale (INSERM) Unité 1075, COMETE, 14032 Caen, France",
+        "Normandie Université, 14032 Caen, France",
+        "UNICAEN, COMETE, 14032 Caen, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre Hospitalier Universitaire de Caen, Department of Rheumatology, 14000 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I4210114068"
+          ]
+        },
+        {
+          "raw_affiliation_string": "UNICAEN, COMETE, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I98702875",
+            "https://openalex.org/I4210160723"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Normandie Université, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institut National de la Santé et de la Recherche Médicale (INSERM) Unité 1075, COMETE, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5065125071",
+        "display_name": "S. Leclercq",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210105918",
+          "display_name": "Normandie Université",
+          "ror": "https://ror.org/01k40cz91",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98702875",
+          "display_name": "Université de Caen Normandie",
+          "ror": "https://ror.org/051kpcy16",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918",
+            "https://openalex.org/I98702875"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210156730",
+          "display_name": "Laboratoire Saint Martin",
+          "ror": "https://ror.org/04fyf9d79",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210156730"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sylvain Leclercq",
+      "raw_affiliation_strings": [
+        "Normandie Université, 14032 Caen, France",
+        "Service de Chirurgie Orthopédique, Clinique Saint-Martin, Caen, France",
+        "Université de Caen Normandie (UNICAEN), EA4652 Microenvironnement Cellulaire et Pathologies (MILPAT), BIOCONNECT Team, 14032 Caen, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Normandie Université, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Université de Caen Normandie (UNICAEN), EA4652 Microenvironnement Cellulaire et Pathologies (MILPAT), BIOCONNECT Team, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I98702875"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Service de Chirurgie Orthopédique, Clinique Saint-Martin, Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I4210156730"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034268224",
+        "display_name": "Karim Boumédiene",
+        "orcid": "https://orcid.org/0000-0001-6517-8318"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210105918",
+          "display_name": "Normandie Université",
+          "ror": "https://ror.org/01k40cz91",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98702875",
+          "display_name": "Université de Caen Normandie",
+          "ror": "https://ror.org/051kpcy16",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918",
+            "https://openalex.org/I98702875"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Karim Boumédiene",
+      "raw_affiliation_strings": [
+        "Normandie Université, 14032 Caen, France",
+        "Université de Caen Normandie (UNICAEN), EA4652 Microenvironnement Cellulaire et Pathologies (MILPAT), BIOCONNECT Team, 14032 Caen, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Normandie Université, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Université de Caen Normandie (UNICAEN), EA4652 Microenvironnement Cellulaire et Pathologies (MILPAT), BIOCONNECT Team, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I98702875"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5081062172",
+        "display_name": "Catherine Baugé",
+        "orcid": "https://orcid.org/0000-0001-5642-998X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210105918",
+          "display_name": "Normandie Université",
+          "ror": "https://ror.org/01k40cz91",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98702875",
+          "display_name": "Université de Caen Normandie",
+          "ror": "https://ror.org/051kpcy16",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918",
+            "https://openalex.org/I98702875"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Catherine Baugé",
+      "raw_affiliation_strings": [
+        "Normandie Université, 14032 Caen, France",
+        "Université de Caen Normandie (UNICAEN), EA4652 Microenvironnement Cellulaire et Pathologies (MILPAT), BIOCONNECT Team, 14032 Caen, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Normandie Université, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Université de Caen Normandie (UNICAEN), EA4652 Microenvironnement Cellulaire et Pathologies (MILPAT), BIOCONNECT Team, 14032 Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I98702875"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5055600290",
+    "https://openalex.org/A5081062172"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210105918",
+    "https://openalex.org/I98702875",
+    "https://openalex.org/I4210105918",
+    "https://openalex.org/I98702875"
+  ],
+  "apc_list": {
+    "value": 6830,
+    "currency": "USD",
+    "value_usd": 6830
+  },
+  "apc_paid": null,
+  "fwci": 0.365,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 26,
+  "citation_normalized_percentile": {
+    "value": 0.727891,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 92,
+    "max": 93
+  },
+  "biblio": {
+    "volume": "22",
+    "issue": "1",
+    "first_page": "38",
+    "last_page": "52"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10105",
+    "display_name": "Osteoarthritis Treatment and Mechanisms",
+    "score": 0.9996,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2745",
+      "display_name": "Rheumatology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10105",
+      "display_name": "Osteoarthritis Treatment and Mechanisms",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10831",
+      "display_name": "Cell Adhesion Molecules Research",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2723",
+        "display_name": "Immunology and Allergy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10678",
+      "display_name": "Inflammatory mediators and NSAID effects",
+      "score": 0.9973,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/mendelian-inheritance",
+      "display_name": "Mendelian inheritance",
+      "score": 0.42348573
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.5757865
+    },
+    {
+      "id": "https://openalex.org/C64618202",
+      "wikidata": "https://www.wikidata.org/wiki/Q3733697",
+      "display_name": "Genetic heterogeneity",
+      "level": 4,
+      "score": 0.5702007
+    },
+    {
+      "id": "https://openalex.org/C2776164576",
+      "wikidata": "https://www.wikidata.org/wiki/Q62736",
+      "display_name": "Osteoarthritis",
+      "level": 3,
+      "score": 0.48108885
+    },
+    {
+      "id": "https://openalex.org/C501734568",
+      "wikidata": "https://www.wikidata.org/wiki/Q42918",
+      "display_name": "Mutation",
+      "level": 3,
+      "score": 0.4804294
+    },
+    {
+      "id": "https://openalex.org/C16671776",
+      "wikidata": "https://www.wikidata.org/wiki/Q5420592",
+      "display_name": "Exome sequencing",
+      "level": 4,
+      "score": 0.47736928
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.45536935
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.44507796
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.44137812
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.43228385
+    },
+    {
+      "id": "https://openalex.org/C175783326",
+      "wikidata": "https://www.wikidata.org/wiki/Q185055",
+      "display_name": "Mendelian inheritance",
+      "level": 3,
+      "score": 0.42348573
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.29108775
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.17854667
+    },
+    {
+      "id": "https://openalex.org/C127716648",
+      "wikidata": "https://www.wikidata.org/wiki/Q104053",
+      "display_name": "Phenotype",
+      "level": 3,
+      "score": 0.16936293
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D020022",
+      "descriptor_name": "Genetic Predisposition to Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D017668",
+      "descriptor_name": "Age of Onset",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002356",
+      "descriptor_name": "Cartilage",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002356",
+      "descriptor_name": "Cartilage",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003094",
+      "descriptor_name": "Collagen",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003094",
+      "descriptor_name": "Collagen",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009154",
+      "descriptor_name": "Mutation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053244",
+      "descriptor_name": "Osteoprotegerin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053244",
+      "descriptor_name": "Osteoprotegerin",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 6,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.molmed.2015.11.006",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S64855341",
+        "display_name": "Trends in Molecular Medicine",
+        "issn_l": "1471-4914",
+        "issn": [
+          "1471-4914",
+          "1471-499X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hal.archives-ouvertes.fr/hal-01249005",
+      "pdf_url": "https://hal.science/hal-01249005/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hal.archives-ouvertes.fr/hal-01249005/file/Aury-Landas_TMM_2016_HAL.pdf",
+      "pdf_url": "https://hal.archives-ouvertes.fr/hal-01249005/file/Aury-Landas_TMM_2016_HAL.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hal.archives-ouvertes.fr/hal-01249005/document",
+      "pdf_url": "https://hal.archives-ouvertes.fr/hal-01249005/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hal.science/hal-01249005/file/Aury-Landas_TMM_2016_HAL.pdf",
+      "pdf_url": "https://hal.science/hal-01249005/file/Aury-Landas_TMM_2016_HAL.pdf",
+      "source": null,
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/26691295",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://hal.archives-ouvertes.fr/hal-01249005",
+    "pdf_url": "https://hal.science/hal-01249005/document",
+    "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1294671590",
+      "host_organization_name": "Centre National de la Recherche Scientifique",
+      "host_organization_lineage": [
+        "https://openalex.org/I1294671590"
+      ],
+      "host_organization_lineage_names": [
+        "Centre National de la Recherche Scientifique"
+      ],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 89,
+  "referenced_works": [
+    "https://openalex.org/W1503676600",
+    "https://openalex.org/W1503723136",
+    "https://openalex.org/W1536592659",
+    "https://openalex.org/W1546402364",
+    "https://openalex.org/W1595542501",
+    "https://openalex.org/W1633169450",
+    "https://openalex.org/W1701645076",
+    "https://openalex.org/W1859919406",
+    "https://openalex.org/W1963852809",
+    "https://openalex.org/W1966191762",
+    "https://openalex.org/W1967160569",
+    "https://openalex.org/W1969663365",
+    "https://openalex.org/W1970127647",
+    "https://openalex.org/W1971345463",
+    "https://openalex.org/W1981266849",
+    "https://openalex.org/W1981785965",
+    "https://openalex.org/W1983321321",
+    "https://openalex.org/W1984279934",
+    "https://openalex.org/W1984401784",
+    "https://openalex.org/W1985935486",
+    "https://openalex.org/W1988116972",
+    "https://openalex.org/W1988117220",
+    "https://openalex.org/W1989843183",
+    "https://openalex.org/W1994514833",
+    "https://openalex.org/W1995570432",
+    "https://openalex.org/W2005259839",
+    "https://openalex.org/W2006642266",
+    "https://openalex.org/W2011516528",
+    "https://openalex.org/W2016690689",
+    "https://openalex.org/W2019223535",
+    "https://openalex.org/W2020340959",
+    "https://openalex.org/W2021478031",
+    "https://openalex.org/W2024010572",
+    "https://openalex.org/W2028166566",
+    "https://openalex.org/W2031027318",
+    "https://openalex.org/W2040493765",
+    "https://openalex.org/W2044757260",
+    "https://openalex.org/W2045901325",
+    "https://openalex.org/W2047932768",
+    "https://openalex.org/W2048642192",
+    "https://openalex.org/W2050606344",
+    "https://openalex.org/W2052534203",
+    "https://openalex.org/W2052853106",
+    "https://openalex.org/W2054159263",
+    "https://openalex.org/W2055841694",
+    "https://openalex.org/W2056243378",
+    "https://openalex.org/W2056930496",
+    "https://openalex.org/W2061798549",
+    "https://openalex.org/W2065615191",
+    "https://openalex.org/W2066759027",
+    "https://openalex.org/W2068121966",
+    "https://openalex.org/W2070049157",
+    "https://openalex.org/W2075076202",
+    "https://openalex.org/W2076747902",
+    "https://openalex.org/W2077045646",
+    "https://openalex.org/W2080364103",
+    "https://openalex.org/W2080446840",
+    "https://openalex.org/W2080990457",
+    "https://openalex.org/W2091447263",
+    "https://openalex.org/W2096552017",
+    "https://openalex.org/W2097029682",
+    "https://openalex.org/W2097123318",
+    "https://openalex.org/W2098200345",
+    "https://openalex.org/W2101075046",
+    "https://openalex.org/W2101358116",
+    "https://openalex.org/W2102718605",
+    "https://openalex.org/W2108268092",
+    "https://openalex.org/W2111602420",
+    "https://openalex.org/W2117024487",
+    "https://openalex.org/W2118533961",
+    "https://openalex.org/W2120540791",
+    "https://openalex.org/W2122556757",
+    "https://openalex.org/W2123869309",
+    "https://openalex.org/W2124437532",
+    "https://openalex.org/W2125633197",
+    "https://openalex.org/W2128368643",
+    "https://openalex.org/W2131850695",
+    "https://openalex.org/W2133915381",
+    "https://openalex.org/W2136657528",
+    "https://openalex.org/W2138884129",
+    "https://openalex.org/W2147178450",
+    "https://openalex.org/W2147841068",
+    "https://openalex.org/W2156733069",
+    "https://openalex.org/W2156930994",
+    "https://openalex.org/W2159379031",
+    "https://openalex.org/W2169888042",
+    "https://openalex.org/W2327082194",
+    "https://openalex.org/W75129883",
+    "https://openalex.org/W801791243"
+  ],
+  "related_works": [
+    "https://openalex.org/W650762618",
+    "https://openalex.org/W566554456",
+    "https://openalex.org/W4386590483",
+    "https://openalex.org/W4242815383",
+    "https://openalex.org/W2945797596",
+    "https://openalex.org/W2781841594",
+    "https://openalex.org/W2579996474",
+    "https://openalex.org/W2346491184",
+    "https://openalex.org/W2172139908",
+    "https://openalex.org/W2169904250"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2219778256",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-06-17T12:42:47.389488",
+  "created_date": "2016-06-24"
+}

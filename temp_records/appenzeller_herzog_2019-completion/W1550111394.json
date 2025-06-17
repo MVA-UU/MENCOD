@@ -1,0 +1,812 @@
+{
+  "id": "https://openalex.org/W1550111394",
+  "doi": "https://doi.org/10.1159/000180580",
+  "title": "Prediction of Creatinine Clearance from Serum Creatinine",
+  "display_name": "Prediction of Creatinine Clearance from Serum Creatinine",
+  "publication_year": 1976,
+  "publication_date": "1976-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1550111394",
+    "doi": "https://doi.org/10.1159/000180580",
+    "mag": "1550111394",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/1244564"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1159/000180580",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S87777121",
+      "display_name": "Nephron",
+      "issn_l": "0028-2766",
+      "issn": [
+        "0028-2766",
+        "1423-0186"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310317820",
+      "host_organization_name": "Karger Publishers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310317820"
+      ],
+      "host_organization_lineage_names": [
+        "Karger Publishers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5068367175",
+        "display_name": "Donald W. Cockcroft",
+        "orcid": "https://orcid.org/0000-0001-5281-4266"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130438778",
+          "display_name": "Memorial University of Newfoundland",
+          "ror": "https://ror.org/04haebc03",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130438778"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Donald W. Cockcroft",
+      "raw_affiliation_strings": [
+        "Departments of Medicine, Queen Mary Veterans' Hospital, Montreal, Quebec, and Memorial University, St. John's, Newfoundland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departments of Medicine, Queen Mary Veterans' Hospital, Montreal, Quebec, and Memorial University, St. John's, Newfoundland",
+          "institution_ids": [
+            "https://openalex.org/I130438778"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5075740353",
+        "display_name": "Henry Gault",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Henry Gault",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5068367175"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I130438778"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 8.139,
+  "has_fulltext": false,
+  "cited_by_count": 15237,
+  "citation_normalized_percentile": {
+    "value": 0.999741,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "16",
+    "issue": "1",
+    "first_page": "31",
+    "last_page": "41"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10144",
+    "display_name": "Blood Pressure and Hypertension Studies",
+    "score": 0.9704,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2705",
+      "display_name": "Cardiology and Cardiovascular Medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10144",
+      "display_name": "Blood Pressure and Hypertension Studies",
+      "score": 0.9704,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "score": 0.9423,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10496",
+      "display_name": "Pharmaceutical Practices and Patient Outcomes",
+      "score": 0.9415,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2717",
+        "display_name": "Geriatrics and Gerontology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780306776",
+      "wikidata": "https://www.wikidata.org/wiki/Q426660",
+      "display_name": "Creatinine",
+      "level": 2,
+      "score": 0.9096422
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.769433
+    },
+    {
+      "id": "https://openalex.org/C159641895",
+      "wikidata": "https://www.wikidata.org/wiki/Q108377937",
+      "display_name": "Renal function",
+      "level": 2,
+      "score": 0.6637226
+    },
+    {
+      "id": "https://openalex.org/C126894567",
+      "wikidata": "https://www.wikidata.org/wiki/Q105650",
+      "display_name": "Urology",
+      "level": 1,
+      "score": 0.5126656
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.4582249
+    },
+    {
+      "id": "https://openalex.org/C147583825",
+      "wikidata": "https://www.wikidata.org/wiki/Q620876",
+      "display_name": "Body weight",
+      "level": 2,
+      "score": 0.44800785
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.43495485
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003404",
+      "descriptor_name": "Creatinine",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007668",
+      "descriptor_name": "Kidney",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000367",
+      "descriptor_name": "Age Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001835",
+      "descriptor_name": "Body Weight",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003404",
+      "descriptor_name": "Creatinine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003404",
+      "descriptor_name": "Creatinine",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007668",
+      "descriptor_name": "Kidney",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008433",
+      "descriptor_name": "Mathematics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008722",
+      "descriptor_name": "Methods",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1159/000180580",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S87777121",
+        "display_name": "Nephron",
+        "issn_l": "0028-2766",
+        "issn": [
+          "0028-2766",
+          "1423-0186"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310317820",
+        "host_organization_name": "Karger Publishers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310317820"
+        ],
+        "host_organization_lineage_names": [
+          "Karger Publishers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/1244564",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4226212074",
+    "https://openalex.org/W393698729",
+    "https://openalex.org/W2994250685",
+    "https://openalex.org/W2909812024",
+    "https://openalex.org/W2411849704",
+    "https://openalex.org/W2387860588",
+    "https://openalex.org/W2313598751",
+    "https://openalex.org/W2050789305",
+    "https://openalex.org/W1948603161",
+    "https://openalex.org/W1564222293"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0
+    ],
+    "formula": [
+      1,
+      53,
+      75
+    ],
+    "has": [
+      2
+    ],
+    "been": [
+      3
+    ],
+    "developed": [
+      4
+    ],
+    "to": [
+      5
+    ],
+    "predict": [
+      6
+    ],
+    "creatinine": [
+      7,
+      12,
+      39
+    ],
+    "clearance": [
+      8
+    ],
+    "(Ccr)": [
+      9
+    ],
+    "from": [
+      10
+    ],
+    "serum": [
+      11
+    ],
+    "(Scr)": [
+      13
+    ],
+    "in": [
+      14,
+      28,
+      41,
+      70
+    ],
+    "adult": [
+      15
+    ],
+    "males:": [
+      16
+    ],
+    "Ccr": [
+      17,
+      48
+    ],
+    "=": [
+      18
+    ],
+    "(140": [
+      19
+    ],
+    "–": [
+      20
+    ],
+    "age)": [
+      21
+    ],
+    "(wt": [
+      22
+    ],
+    "kg)/72": [
+      23
+    ],
+    "×": [
+      24
+    ],
+    "Scr(mg/100ml)": [
+      25
+    ],
+    "(15%": [
+      26
+    ],
+    "less": [
+      27
+    ],
+    "females).": [
+      29
+    ],
+    "Derivation": [
+      30
+    ],
+    "included": [
+      31,
+      114
+    ],
+    "the": [
+      32,
+      59,
+      63,
+      90
+    ],
+    "relationship": [
+      33
+    ],
+    "found": [
+      34
+    ],
+    "between": [
+      35,
+      80,
+      92,
+      103
+    ],
+    "age": [
+      36,
+      108
+    ],
+    "and": [
+      37,
+      54,
+      58,
+      82,
+      94,
+      109
+    ],
+    "24-hour": [
+      38,
+      67
+    ],
+    "excretion/kg": [
+      40
+    ],
+    "249": [
+      42
+    ],
+    "patients": [
+      43
+    ],
+    "aged": [
+      44
+    ],
+    "18–92.": [
+      45
+    ],
+    "Values": [
+      46
+    ],
+    "for": [
+      47,
+      107,
+      115
+    ],
+    "were": [
+      49
+    ],
+    "predicted": [
+      50,
+      81,
+      93
+    ],
+    "by": [
+      51
+    ],
+    "this": [
+      52
+    ],
+    "four": [
+      55
+    ],
+    "other": [
+      56
+    ],
+    "methods": [
+      57
+    ],
+    "results": [
+      60
+    ],
+    "compared": [
+      61
+    ],
+    "with": [
+      62
+    ],
+    "means": [
+      64
+    ],
+    "of": [
+      65,
+      86
+    ],
+    "two": [
+      66
+    ],
+    "Ccr's": [
+      68
+    ],
+    "measured": [
+      69,
+      84,
+      96
+    ],
+    "236": [
+      71
+    ],
+    "patients.": [
+      72
+    ],
+    "The": [
+      73
+    ],
+    "above": [
+      74
+    ],
+    "gave": [
+      76
+    ],
+    "a": [
+      77
+    ],
+    "correlation": [
+      78
+    ],
+    "coefficient": [
+      79
+    ],
+    "mean": [
+      83,
+      95
+    ],
+    "Ccr·s": [
+      85
+    ],
+    "0.83;": [
+      87
+    ],
+    "on": [
+      88
+    ],
+    "average,": [
+      89
+    ],
+    "difference": [
+      91
+    ],
+    "values": [
+      97
+    ],
+    "was": [
+      98
+    ],
+    "no": [
+      99
+    ],
+    "greater": [
+      100
+    ],
+    "than": [
+      101
+    ],
+    "that": [
+      102
+    ],
+    "paired": [
+      104
+    ],
+    "clearances.": [
+      105
+    ],
+    "Factors": [
+      106
+    ],
+    "body": [
+      110
+    ],
+    "weight": [
+      111
+    ],
+    "must": [
+      112
+    ],
+    "be": [
+      113
+    ],
+    "reasonable": [
+      116
+    ],
+    "prediction.": [
+      117
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1550111394",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 120
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 340
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 371
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 416
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 484
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 479
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 462
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 472
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 483
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 555
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 570
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 690
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 690
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 682
+    }
+  ],
+  "updated_date": "2025-06-08T11:54:32.555673",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,908 @@
+{
+  "id": "https://openalex.org/W1993597797",
+  "doi": "https://doi.org/10.1073/pnas.79.12.3716",
+  "title": "Catalytic mechanism of glycogen phosphorylase: pyridoxal(5')diphospho(1)-alpha-D-glucose as a transition-state analogue.",
+  "display_name": "Catalytic mechanism of glycogen phosphorylase: pyridoxal(5')diphospho(1)-alpha-D-glucose as a transition-state analogue.",
+  "publication_year": 1982,
+  "publication_date": "1982-06-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1993597797",
+    "doi": "https://doi.org/10.1073/pnas.79.12.3716",
+    "mag": "1993597797",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/6954515",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/346497"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.79.12.3716",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.1073/pnas.79.12.3716",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5047879919",
+        "display_name": "M Takagi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "M Takagi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026874034",
+        "display_name": "Toshiaki Fukui",
+        "orcid": "https://orcid.org/0000-0003-4557-6284"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "T Fukui",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5034557610",
+        "display_name": "Shoji Shimomura",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "S Shimomura",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.333,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 44,
+  "citation_normalized_percentile": {
+    "value": 0.903011,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 94
+  },
+  "biblio": {
+    "volume": "79",
+    "issue": "12",
+    "first_page": "3716",
+    "last_page": "3719"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11027",
+    "display_name": "Metabolism and Genetic Disorders",
+    "score": 0.9992,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1308",
+      "display_name": "Clinical Biochemistry"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11027",
+      "display_name": "Metabolism and Genetic Disorders",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1308",
+        "display_name": "Clinical Biochemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12094",
+      "display_name": "Hemoglobin structure and function",
+      "score": 0.9986,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12604",
+      "display_name": "Glycogen Storage Diseases and Myoclonus",
+      "score": 0.9982,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/pyridoxal-phosphate",
+      "display_name": "Pyridoxal phosphate",
+      "score": 0.6766013
+    },
+    {
+      "id": "https://openalex.org/keywords/phosphorylase-kinase",
+      "display_name": "Phosphorylase kinase",
+      "score": 0.59124136
+    },
+    {
+      "id": "https://openalex.org/keywords/glycogen-branching-enzyme",
+      "display_name": "Glycogen branching enzyme",
+      "score": 0.5420225
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C204779464",
+      "wikidata": "https://www.wikidata.org/wiki/Q412061",
+      "display_name": "Glycogen phosphorylase",
+      "level": 3,
+      "score": 0.771418
+    },
+    {
+      "id": "https://openalex.org/C2780859938",
+      "wikidata": "https://www.wikidata.org/wiki/Q3065731",
+      "display_name": "Pyridoxal",
+      "level": 3,
+      "score": 0.75925606
+    },
+    {
+      "id": "https://openalex.org/C197957613",
+      "wikidata": "https://www.wikidata.org/wiki/Q407280",
+      "display_name": "Cofactor",
+      "level": 3,
+      "score": 0.6981908
+    },
+    {
+      "id": "https://openalex.org/C2776834122",
+      "wikidata": "https://www.wikidata.org/wiki/Q418957",
+      "display_name": "Pyridoxal phosphate",
+      "level": 4,
+      "score": 0.6766013
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.6684137
+    },
+    {
+      "id": "https://openalex.org/C195147555",
+      "wikidata": "https://www.wikidata.org/wiki/Q906540",
+      "display_name": "Phosphorylase kinase",
+      "level": 4,
+      "score": 0.59124136
+    },
+    {
+      "id": "https://openalex.org/C9262364",
+      "wikidata": "https://www.wikidata.org/wiki/Q161537",
+      "display_name": "Glycogen branching enzyme",
+      "level": 4,
+      "score": 0.5420225
+    },
+    {
+      "id": "https://openalex.org/C181199279",
+      "wikidata": "https://www.wikidata.org/wiki/Q8047",
+      "display_name": "Enzyme",
+      "level": 2,
+      "score": 0.4721936
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.45166802
+    },
+    {
+      "id": "https://openalex.org/C71240020",
+      "wikidata": "https://www.wikidata.org/wiki/Q186011",
+      "display_name": "Stereochemistry",
+      "level": 1,
+      "score": 0.43605816
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D006005",
+      "descriptor_name": "Phosphorylases",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011732",
+      "descriptor_name": "Pyridoxal Phosphate",
+      "qualifier_ui": "Q000031",
+      "qualifier_name": "analogs & derivatives",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002384",
+      "descriptor_name": "Catalysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005947",
+      "descriptor_name": "Glucose",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005947",
+      "descriptor_name": "Glucose",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006003",
+      "descriptor_name": "Glycogen",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006003",
+      "descriptor_name": "Glycogen",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006005",
+      "descriptor_name": "Phosphorylases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011732",
+      "descriptor_name": "Pyridoxal Phosphate",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013329",
+      "descriptor_name": "Structure-Activity Relationship",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1073/pnas.79.12.3716",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S125754415",
+        "display_name": "Proceedings of the National Academy of Sciences",
+        "issn_l": "0027-8424",
+        "issn": [
+          "0027-8424",
+          "1091-6490"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320052",
+        "host_organization_name": "National Academy of Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320052"
+        ],
+        "host_organization_lineage_names": [
+          "National Academy of Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc346497",
+      "pdf_url": "https://europepmc.org/articles/pmc346497?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC346497",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/6954515",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.79.12.3716",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 20,
+  "referenced_works": [
+    "https://openalex.org/W1554702559",
+    "https://openalex.org/W1581396438",
+    "https://openalex.org/W1969353242",
+    "https://openalex.org/W1982431451",
+    "https://openalex.org/W1987284734",
+    "https://openalex.org/W1994510878",
+    "https://openalex.org/W2007586786",
+    "https://openalex.org/W2013450347",
+    "https://openalex.org/W2013921543",
+    "https://openalex.org/W2028266541",
+    "https://openalex.org/W2032199426",
+    "https://openalex.org/W2036742424",
+    "https://openalex.org/W2051100588",
+    "https://openalex.org/W2057733351",
+    "https://openalex.org/W2062470797",
+    "https://openalex.org/W2068056165",
+    "https://openalex.org/W2091928868",
+    "https://openalex.org/W2106803314",
+    "https://openalex.org/W2149481297",
+    "https://openalex.org/W2166546987"
+  ],
+  "related_works": [
+    "https://openalex.org/W792605203",
+    "https://openalex.org/W2811032335",
+    "https://openalex.org/W2431630422",
+    "https://openalex.org/W2135671187",
+    "https://openalex.org/W2087662651",
+    "https://openalex.org/W2040306507",
+    "https://openalex.org/W2013450347",
+    "https://openalex.org/W1993597797",
+    "https://openalex.org/W196659790",
+    "https://openalex.org/W1678712701"
+  ],
+  "abstract_inverted_index": {
+    "Pyridoxal(5')diphospho(1)-alpha-D-glucose": [
+      0
+    ],
+    "was": [
+      1,
+      59,
+      72
+    ],
+    "used": [
+      2
+    ],
+    "to": [
+      3,
+      36,
+      62
+    ],
+    "reconstitute": [
+      4
+    ],
+    "glycogen": [
+      5,
+      51
+    ],
+    "phosphorylase": [
+      6
+    ],
+    "beta": [
+      7
+    ],
+    "(1,4-alpha-D-glucan:orthophosphate": [
+      8
+    ],
+    "alpha-D-glucosyltransferase,": [
+      9
+    ],
+    "EC": [
+      10
+    ],
+    "2.4.1.1)": [
+      11
+    ],
+    "from": [
+      12,
+      70
+    ],
+    "rabbit": [
+      13
+    ],
+    "muscle,": [
+      14
+    ],
+    "replacing": [
+      15
+    ],
+    "the": [
+      16,
+      23,
+      29,
+      33,
+      44,
+      53,
+      57,
+      75,
+      88,
+      94,
+      104,
+      109,
+      120,
+      123,
+      126
+    ],
+    "natural": [
+      17
+    ],
+    "pyridoxal": [
+      18,
+      37,
+      63
+    ],
+    "5'-phosphate": [
+      19
+    ],
+    "coenzyme.": [
+      20
+    ],
+    "Incubation": [
+      21
+    ],
+    "of": [
+      22,
+      32,
+      43,
+      48,
+      55,
+      78,
+      97,
+      122
+    ],
+    "reconstituted": [
+      24
+    ],
+    "enzyme": [
+      25
+    ],
+    "alone": [
+      26
+    ],
+    "resulted": [
+      27
+    ],
+    "in": [
+      28,
+      107
+    ],
+    "gradual": [
+      30
+    ],
+    "cleavage": [
+      31
+    ],
+    "synthetic": [
+      34
+    ],
+    "cofactor": [
+      35,
+      58
+    ],
+    "5'-phosphate,": [
+      38
+    ],
+    "which": [
+      39,
+      108
+    ],
+    "caused": [
+      40
+    ],
+    "slow": [
+      41
+    ],
+    "reactivation": [
+      42
+    ],
+    "enzyme.": [
+      45
+    ],
+    "The": [
+      46,
+      65
+    ],
+    "addition": [
+      47
+    ],
+    "maltopentaose": [
+      49
+    ],
+    "or": [
+      50
+    ],
+    "altered": [
+      52
+    ],
+    "mode": [
+      54
+    ],
+    "cleavage;": [
+      56
+    ],
+    "rapidly": [
+      60
+    ],
+    "decomposed": [
+      61
+    ],
+    "5'-diphosphate.": [
+      64
+    ],
+    "radioactive": [
+      66
+    ],
+    "glucose": [
+      67
+    ],
+    "moiety": [
+      68
+    ],
+    "released": [
+      69
+    ],
+    "pyridoxal(5')diphospho(1)-alpha-D-[14C]glucose": [
+      71
+    ],
+    "incorporated": [
+      73
+    ],
+    "into": [
+      74
+    ],
+    "outer": [
+      76
+    ],
+    "chain": [
+      77
+    ],
+    "glycogen,": [
+      79
+    ],
+    "forming": [
+      80,
+      125
+    ],
+    "an": [
+      81
+    ],
+    "alpha-1,4-glucosidic": [
+      82
+    ],
+    "linkage.": [
+      83
+    ],
+    "These": [
+      84
+    ],
+    "results": [
+      85
+    ],
+    "show": [
+      86
+    ],
+    "that": [
+      87
+    ],
+    "glucosyl": [
+      89
+    ],
+    "transfer": [
+      90
+    ],
+    "reaction": [
+      91
+    ],
+    "discovered": [
+      92
+    ],
+    "mimics": [
+      93
+    ],
+    "normal": [
+      95
+    ],
+    "catalysis": [
+      96
+    ],
+    "this": [
+      98
+    ],
+    "enzyme,": [
+      99
+    ],
+    "and": [
+      100
+    ],
+    "they": [
+      101
+    ],
+    "strongly": [
+      102
+    ],
+    "support": [
+      103
+    ],
+    "catalytic": [
+      105
+    ],
+    "mechanism": [
+      106
+    ],
+    "coenzyme": [
+      110
+    ],
+    "phosphate": [
+      111,
+      121
+    ],
+    "acts": [
+      112
+    ],
+    "as": [
+      113
+    ],
+    "a": [
+      114
+    ],
+    "catalyst": [
+      115
+    ],
+    "by": [
+      116
+    ],
+    "direct": [
+      117
+    ],
+    "interaction": [
+      118
+    ],
+    "with": [
+      119
+    ],
+    "substrate,": [
+      124
+    ],
+    "pyrophosphate-like": [
+      127
+    ],
+    "transition": [
+      128
+    ],
+    "intermediate.": [
+      129
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1993597797",
+  "counts_by_year": [
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-02-18T19:31:53.577525",
+  "created_date": "2016-06-24"
+}

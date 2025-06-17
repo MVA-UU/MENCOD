@@ -1,0 +1,781 @@
+{
+  "id": "https://openalex.org/W3195223588",
+  "doi": "https://doi.org/10.3233/jad-2012-120244",
+  "title": "Copper in Alzheimer's Disease: A Meta-Analysis of Serum, Plasma, and Cerebrospinal Fluid Studies",
+  "display_name": "Copper in Alzheimer's Disease: A Meta-Analysis of Serum, Plasma, and Cerebrospinal Fluid Studies",
+  "publication_year": 2012,
+  "publication_date": "2012-06-18",
+  "ids": {
+    "openalex": "https://openalex.org/W3195223588",
+    "doi": "https://doi.org/10.3233/jad-2012-120244",
+    "mag": "3195223588",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/22475798"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3233/jad-2012-120244",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S25155249",
+      "display_name": "Journal of Alzheimer s Disease",
+      "issn_l": "1387-2877",
+      "issn": [
+        "1387-2877",
+        "1875-8908"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310318577",
+      "host_organization_name": "IOS Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310318577"
+      ],
+      "host_organization_lineage_names": [
+        "IOS Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.3233/jad-2012-120244",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5062689986",
+        "display_name": "Mariacarla Ventriglia",
+        "orcid": "https://orcid.org/0000-0001-9797-8854"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210108212",
+          "display_name": "Fatebenefratelli Hospital",
+          "ror": "https://ror.org/01x9zv505",
+          "country_code": "IT",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210108212",
+            "https://openalex.org/I4210153126"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I155125353",
+          "display_name": "Università Campus Bio-Medico",
+          "ror": "https://ror.org/04gqx4x78",
+          "country_code": "IT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I155125353"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mariacarla Ventriglia",
+      "raw_affiliation_strings": [
+        "Department of Neurology, \"Campus Biomedico\" University, Rome, Italy",
+        "Department of Neuroscience, AFaR – Fatebenefratelli Hospital, Isola Tiberina, Rome, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neuroscience, AFaR – Fatebenefratelli Hospital, Isola Tiberina, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I4210108212"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Neurology, \"Campus Biomedico\" University, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I155125353"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067364426",
+        "display_name": "Serena Bucossi",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I155125353",
+          "display_name": "Università Campus Bio-Medico",
+          "ror": "https://ror.org/04gqx4x78",
+          "country_code": "IT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I155125353"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Serena Bucossi",
+      "raw_affiliation_strings": [
+        "Department of Neurology, \"Campus Biomedico\" University, Rome, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, \"Campus Biomedico\" University, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I155125353"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035666491",
+        "display_name": "Valentina Panetta",
+        "orcid": "https://orcid.org/0000-0001-6058-5045"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210108212",
+          "display_name": "Fatebenefratelli Hospital",
+          "ror": "https://ror.org/01x9zv505",
+          "country_code": "IT",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210108212",
+            "https://openalex.org/I4210153126"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210163794",
+          "display_name": "Data Management (Italy)",
+          "ror": "https://ror.org/017j5za44",
+          "country_code": "IT",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210163794"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Valentina Panetta",
+      "raw_affiliation_strings": [
+        "L'altrastatistica srl-Consultancy and Training-Biostatistics office, Rome, Italy",
+        "Medical Statistics and Information Technology, AFaR – Fatebenefratelli Hospital, Isola Tiberina, Rome, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Medical Statistics and Information Technology, AFaR – Fatebenefratelli Hospital, Isola Tiberina, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I4210108212"
+          ]
+        },
+        {
+          "raw_affiliation_string": "L'altrastatistica srl-Consultancy and Training-Biostatistics office, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I4210163794"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5027993475",
+        "display_name": "Rosanna Squitti",
+        "orcid": "https://orcid.org/0000-0002-5624-1140"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I155125353",
+          "display_name": "Università Campus Bio-Medico",
+          "ror": "https://ror.org/04gqx4x78",
+          "country_code": "IT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I155125353"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210108212",
+          "display_name": "Fatebenefratelli Hospital",
+          "ror": "https://ror.org/01x9zv505",
+          "country_code": "IT",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210108212",
+            "https://openalex.org/I4210153126"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Rosanna Squitti",
+      "raw_affiliation_strings": [
+        "Department of Neurology, \"Campus Biomedico\" University, Rome, Italy",
+        "Department of Neuroscience, AFaR – Fatebenefratelli Hospital, Isola Tiberina, Rome, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, \"Campus Biomedico\" University, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I155125353"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Neuroscience, AFaR – Fatebenefratelli Hospital, Isola Tiberina, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I4210108212"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5027993475"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I155125353",
+    "https://openalex.org/I4210108212"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.174,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 176,
+  "citation_normalized_percentile": {
+    "value": 0.999078,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "30",
+    "issue": "4",
+    "first_page": "981",
+    "last_page": "984"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10086",
+    "display_name": "Alzheimer's disease research and treatments",
+    "score": 0.9991,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10086",
+      "display_name": "Alzheimer's disease research and treatments",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10915",
+      "display_name": "Trace Elements in Health",
+      "score": 0.9973,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10790",
+      "display_name": "Heavy Metal Exposure and Toxicity",
+      "score": 0.9928,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779651940",
+      "wikidata": "https://www.wikidata.org/wiki/Q54196",
+      "display_name": "Cerebrospinal fluid",
+      "level": 2,
+      "score": 0.8465922
+    },
+    {
+      "id": "https://openalex.org/C95190672",
+      "wikidata": "https://www.wikidata.org/wiki/Q815382",
+      "display_name": "Meta-analysis",
+      "level": 2,
+      "score": 0.71383035
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.5079997
+    },
+    {
+      "id": "https://openalex.org/C502032728",
+      "wikidata": "https://www.wikidata.org/wiki/Q11081",
+      "display_name": "Alzheimer's disease",
+      "level": 3,
+      "score": 0.500355
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.47321337
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.3532809
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000544",
+      "descriptor_name": "Alzheimer Disease",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000544",
+      "descriptor_name": "Alzheimer Disease",
+      "qualifier_ui": "Q000134",
+      "qualifier_name": "cerebrospinal fluid",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003300",
+      "descriptor_name": "Copper",
+      "qualifier_ui": "Q000134",
+      "qualifier_name": "cerebrospinal fluid",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003300",
+      "descriptor_name": "Copper",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000544",
+      "descriptor_name": "Alzheimer Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000544",
+      "descriptor_name": "Alzheimer Disease",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "Q000134",
+      "qualifier_name": "cerebrospinal fluid",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003300",
+      "descriptor_name": "Copper",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3233/jad-2012-120244",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S25155249",
+        "display_name": "Journal of Alzheimer s Disease",
+        "issn_l": "1387-2877",
+        "issn": [
+          "1387-2877",
+          "1875-8908"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310318577",
+        "host_organization_name": "IOS Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310318577"
+        ],
+        "host_organization_lineage_names": [
+          "IOS Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/22475798",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3233/jad-2012-120244",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S25155249",
+      "display_name": "Journal of Alzheimer s Disease",
+      "issn_l": "1387-2877",
+      "issn": [
+        "1387-2877",
+        "1875-8908"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310318577",
+      "host_organization_name": "IOS Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310318577"
+      ],
+      "host_organization_lineage_names": [
+        "IOS Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "score": 0.48,
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 19,
+  "referenced_works": [
+    "https://openalex.org/W1480826786",
+    "https://openalex.org/W1556662167",
+    "https://openalex.org/W1591844273",
+    "https://openalex.org/W171985350",
+    "https://openalex.org/W1969041362",
+    "https://openalex.org/W1996995303",
+    "https://openalex.org/W2000144325",
+    "https://openalex.org/W2002299648",
+    "https://openalex.org/W2003031206",
+    "https://openalex.org/W2004375219",
+    "https://openalex.org/W2007947235",
+    "https://openalex.org/W2015036079",
+    "https://openalex.org/W2016787732",
+    "https://openalex.org/W2019558259",
+    "https://openalex.org/W2060759214",
+    "https://openalex.org/W2130145678",
+    "https://openalex.org/W2188009925",
+    "https://openalex.org/W2517226475",
+    "https://openalex.org/W4235125540"
+  ],
+  "related_works": [
+    "https://openalex.org/W2241817324",
+    "https://openalex.org/W2081363855",
+    "https://openalex.org/W2075327691",
+    "https://openalex.org/W2060257772",
+    "https://openalex.org/W2058773221",
+    "https://openalex.org/W2020948693",
+    "https://openalex.org/W2014465393",
+    "https://openalex.org/W2003001535",
+    "https://openalex.org/W1972670736",
+    "https://openalex.org/W1932354102"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "contribution": [
+      1
+    ],
+    "reviews": [
+      2
+    ],
+    "and": [
+      3
+    ],
+    "corrects": [
+      4
+    ],
+    "data": [
+      5
+    ],
+    "from": [
+      6
+    ],
+    "our": [
+      7
+    ],
+    "previous": [
+      8
+    ],
+    "meta-analysis,": [
+      9
+    ],
+    "which": [
+      10
+    ],
+    "appeared": [
+      11
+    ],
+    "in": [
+      12,
+      18,
+      25
+    ],
+    "the": [
+      13,
+      21,
+      30,
+      36
+    ],
+    "Journal": [
+      14
+    ],
+    "of": [
+      15,
+      23,
+      35
+    ],
+    "Alzheimer's": [
+      16,
+      26
+    ],
+    "Disease": [
+      17
+    ],
+    "2011": [
+      19
+    ],
+    "concerning": [
+      20
+    ],
+    "role": [
+      22
+    ],
+    "copper": [
+      24
+    ],
+    "disease.": [
+      27
+    ],
+    "We": [
+      28
+    ],
+    "repeated": [
+      29
+    ],
+    "meta-analysis": [
+      31
+    ],
+    "after": [
+      32
+    ],
+    "excluding": [
+      33
+    ],
+    "four": [
+      34
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W3195223588",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 8
+    }
+  ],
+  "updated_date": "2025-05-20T19:06:54.165818",
+  "created_date": "2021-08-30"
+}

@@ -5,4 +5,10 @@ seaborn>=0.11.0
 scikit-learn>=1.0.0
 networkx>=2.6.0
 wordcloud>=1.8.0
-synergy-dataset>=0.1.0 
+synergy-dataset>=0.1.0
+
+# SPECTER2 dependencies
+torch>=1.9.0
+transformers>=4.21.0
+adapters>=3.2.0
+tqdm>=4.62.0 

@@ -1,0 +1,1329 @@
+{
+  "id": "https://openalex.org/W2008213051",
+  "doi": "https://doi.org/10.1002/humu.22157",
+  "title": "ALSoD: A user-friendly online bioinformatics tool for amyotrophic lateral sclerosis genetics",
+  "display_name": "ALSoD: A user-friendly online bioinformatics tool for amyotrophic lateral sclerosis genetics",
+  "publication_year": 2012,
+  "publication_date": "2012-07-02",
+  "ids": {
+    "openalex": "https://openalex.org/W2008213051",
+    "doi": "https://doi.org/10.1002/humu.22157",
+    "mag": "2008213051",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/22753137"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1002/humu.22157",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/humu.22157",
+    "source": {
+      "id": "https://openalex.org/S98809561",
+      "display_name": "Human Mutation",
+      "issn_l": "1059-7794",
+      "issn": [
+        "1059-7794",
+        "1098-1004"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/humu.22157",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5045182543",
+        "display_name": "Olubunmi Abel",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Olubunmi Abel",
+      "raw_affiliation_strings": [
+        "Department of Clinical Neuroscience, King's College London Institute of Psychiatry, London, UK."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Neuroscience, King's College London Institute of Psychiatry, London, UK.",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011932191",
+        "display_name": "John Powell",
+        "orcid": "https://orcid.org/0000-0001-6124-439X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John F Powell",
+      "raw_affiliation_strings": [
+        "Department of Neuroscience, Institute of Psychiatry, King's College London , London , UK."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neuroscience, Institute of Psychiatry, King's College London , London , UK.",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101406818",
+        "display_name": "Peter M. Andersen",
+        "orcid": "https://orcid.org/0000-0003-0094-5429"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I196349391",
+          "display_name": "Universität Ulm",
+          "ror": "https://ror.org/032000t02",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I196349391"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I90267481",
+          "display_name": "Umeå University",
+          "ror": "https://ror.org/05kb8h459",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I90267481"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter M. Andersen",
+      "raw_affiliation_strings": [
+        "Department of Neurology, University of Ulm, Ulm, Germany",
+        "Section for Neurology, Institute of Pharmacology and Clinical Neuroscience, Umeå University, Umeå, Sweden"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, University of Ulm, Ulm, Germany",
+          "institution_ids": [
+            "https://openalex.org/I196349391"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Section for Neurology, Institute of Pharmacology and Clinical Neuroscience, Umeå University, Umeå, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I90267481"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5038119270",
+        "display_name": "Ammar Al‐Chalabi",
+        "orcid": "https://orcid.org/0000-0002-4924-7712"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ammar Al-Chalabi",
+      "raw_affiliation_strings": [
+        "Department of Clinical Neuroscience, P 041, Institute of Psychiatry, King's College London, London SE5 8AF, UK."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Neuroscience, P 041, Institute of Psychiatry, King's College London, London SE5 8AF, UK.",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2300,
+    "currency": "USD",
+    "value_usd": 2300
+  },
+  "apc_paid": {
+    "value": 2300,
+    "currency": "USD",
+    "value_usd": 2300
+  },
+  "fwci": 12.844,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 306,
+  "citation_normalized_percentile": {
+    "value": 0.999904,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "33",
+    "issue": "9",
+    "first_page": "1345",
+    "last_page": "1351"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10855",
+    "display_name": "Amyotrophic Lateral Sclerosis Research",
+    "score": 0.9995,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2728",
+      "display_name": "Neurology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10855",
+      "display_name": "Amyotrophic Lateral Sclerosis Research",
+      "score": 0.9995,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12400",
+      "display_name": "Neurogenetic and Muscular Disorders Research",
+      "score": 0.9955,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2716",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11642",
+      "display_name": "Genomics and Rare Diseases",
+      "score": 0.9763,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hum",
+      "display_name": "Hum",
+      "score": 0.44052145
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780596555",
+      "wikidata": "https://www.wikidata.org/wiki/Q206901",
+      "display_name": "Amyotrophic lateral sclerosis",
+      "level": 3,
+      "score": 0.873961
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.6694655
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.47138554
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.4659126
+    },
+    {
+      "id": "https://openalex.org/C23161992",
+      "wikidata": "https://www.wikidata.org/wiki/Q2922301",
+      "display_name": "Hum",
+      "level": 3,
+      "score": 0.44052145
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.44027114
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.43675858
+    },
+    {
+      "id": "https://openalex.org/C127716648",
+      "wikidata": "https://www.wikidata.org/wiki/Q104053",
+      "display_name": "Phenotype",
+      "level": 3,
+      "score": 0.43329358
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.39739454
+    },
+    {
+      "id": "https://openalex.org/C77088390",
+      "wikidata": "https://www.wikidata.org/wiki/Q8513",
+      "display_name": "Database",
+      "level": 1,
+      "score": 0.32666713
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.21176302
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.081674725
+    },
+    {
+      "id": "https://openalex.org/C142362112",
+      "wikidata": "https://www.wikidata.org/wiki/Q735",
+      "display_name": "Art",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C554144382",
+      "wikidata": "https://www.wikidata.org/wiki/Q213156",
+      "display_name": "Performance art",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C52119013",
+      "wikidata": "https://www.wikidata.org/wiki/Q50637",
+      "display_name": "Art history",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000690",
+      "descriptor_name": "Amyotrophic Lateral Sclerosis",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D019295",
+      "descriptor_name": "Computational Biology",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D030541",
+      "descriptor_name": "Databases, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014584",
+      "descriptor_name": "User-Computer Interface",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000690",
+      "descriptor_name": "Amyotrophic Lateral Sclerosis",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000690",
+      "descriptor_name": "Amyotrophic Lateral Sclerosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019295",
+      "descriptor_name": "Computational Biology",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D056726",
+      "descriptor_name": "Genetic Association Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020022",
+      "descriptor_name": "Genetic Predisposition to Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005843",
+      "descriptor_name": "Geography",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016247",
+      "descriptor_name": "Information Storage and Retrieval",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020407",
+      "descriptor_name": "Internet",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009154",
+      "descriptor_name": "Mutation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010641",
+      "descriptor_name": "Phenotype",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013482",
+      "descriptor_name": "Superoxide Dismutase",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013482",
+      "descriptor_name": "Superoxide Dismutase",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000072105",
+      "descriptor_name": "Superoxide Dismutase-1",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1002/humu.22157",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/humu.22157",
+      "source": {
+        "id": "https://openalex.org/S98809561",
+        "display_name": "Human Mutation",
+        "issn_l": "1059-7794",
+        "issn": [
+          "1059-7794",
+          "1098-1004"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://zenodo.org/record/3409803",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400562",
+        "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [
+          "European Organization for Nuclear Research"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/22753137",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1002/humu.22157",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/humu.22157",
+    "source": {
+      "id": "https://openalex.org/S98809561",
+      "display_name": "Human Mutation",
+      "issn_l": "1059-7794",
+      "issn": [
+        "1059-7794",
+        "1098-1004"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 30,
+  "referenced_works": [
+    "https://openalex.org/W1481507011",
+    "https://openalex.org/W1985213868",
+    "https://openalex.org/W2040022355",
+    "https://openalex.org/W2042127857",
+    "https://openalex.org/W2044514479",
+    "https://openalex.org/W2050028106",
+    "https://openalex.org/W2050335693",
+    "https://openalex.org/W2056675974",
+    "https://openalex.org/W2059600528",
+    "https://openalex.org/W2072393958",
+    "https://openalex.org/W2106083582",
+    "https://openalex.org/W2107580398",
+    "https://openalex.org/W2117243134",
+    "https://openalex.org/W2120772351",
+    "https://openalex.org/W2120973970",
+    "https://openalex.org/W2122732537",
+    "https://openalex.org/W2124213159",
+    "https://openalex.org/W2141545183",
+    "https://openalex.org/W2145065529",
+    "https://openalex.org/W2146980885",
+    "https://openalex.org/W2147791092",
+    "https://openalex.org/W2162622841",
+    "https://openalex.org/W2164771218",
+    "https://openalex.org/W2170441710",
+    "https://openalex.org/W2171437346",
+    "https://openalex.org/W2321125216",
+    "https://openalex.org/W2950949680",
+    "https://openalex.org/W4210430020",
+    "https://openalex.org/W4244736178",
+    "https://openalex.org/W4295135156"
+  ],
+  "related_works": [
+    "https://openalex.org/W4387118726",
+    "https://openalex.org/W4292226083",
+    "https://openalex.org/W4253003836",
+    "https://openalex.org/W4244401456",
+    "https://openalex.org/W4206749202",
+    "https://openalex.org/W2938751847",
+    "https://openalex.org/W2612570103",
+    "https://openalex.org/W2393752460",
+    "https://openalex.org/W2070831599",
+    "https://openalex.org/W2048256717"
+  ],
+  "abstract_inverted_index": {
+    "Amyotrophic": [
+      0
+    ],
+    "lateral": [
+      1
+    ],
+    "sclerosis": [
+      2
+    ],
+    "(ALS)": [
+      3
+    ],
+    "is": [
+      4,
+      28
+    ],
+    "the": [
+      5,
+      19,
+      33,
+      53,
+      69,
+      72,
+      96,
+      169,
+      197
+    ],
+    "commonest": [
+      6
+    ],
+    "adult": [
+      7
+    ],
+    "onset": [
+      8,
+      17
+    ],
+    "motor": [
+      9
+    ],
+    "neuron": [
+      10
+    ],
+    "disease,": [
+      11
+    ],
+    "with": [
+      12,
+      114,
+      131,
+      148,
+      154
+    ],
+    "a": [
+      13,
+      40,
+      63,
+      79,
+      88,
+      100,
+      120,
+      135,
+      140,
+      159
+    ],
+    "peak": [
+      14
+    ],
+    "age": [
+      15
+    ],
+    "of": [
+      16,
+      35,
+      52,
+      71,
+      142,
+      178,
+      199
+    ],
+    "in": [
+      18,
+      24,
+      32,
+      68,
+      95,
+      174
+    ],
+    "seventh": [
+      20
+    ],
+    "decade.": [
+      21
+    ],
+    "With": [
+      22
+    ],
+    "advances": [
+      23
+    ],
+    "genetic": [
+      25,
+      36
+    ],
+    "technology,": [
+      26
+    ],
+    "there": [
+      27
+    ],
+    "an": [
+      29
+    ],
+    "enormous": [
+      30
+    ],
+    "increase": [
+      31
+    ],
+    "volume": [
+      34
+    ],
+    "data": [
+      37
+    ],
+    "produced,": [
+      38
+    ],
+    "and": [
+      39,
+      46,
+      57,
+      105,
+      111,
+      158,
+      187
+    ],
+    "corresponding": [
+      41
+    ],
+    "need": [
+      42
+    ],
+    "for": [
+      43,
+      171,
+      182
+    ],
+    "storage,": [
+      44
+    ],
+    "analysis,": [
+      45
+    ],
+    "interpretation,": [
+      47
+    ],
+    "particularly": [
+      48
+    ],
+    "as": [
+      49
+    ],
+    "our": [
+      50
+    ],
+    "understanding": [
+      51
+    ],
+    "relationships": [
+      54
+    ],
+    "between": [
+      55
+    ],
+    "genotype": [
+      56
+    ],
+    "phenotype": [
+      58
+    ],
+    "mature.": [
+      59
+    ],
+    "Here,": [
+      60
+    ],
+    "we": [
+      61
+    ],
+    "present": [
+      62
+    ],
+    "system": [
+      64
+    ],
+    "to": [
+      65,
+      99,
+      123,
+      145,
+      162,
+      166,
+      190
+    ],
+    "enable": [
+      66,
+      163
+    ],
+    "this": [
+      67
+    ],
+    "form": [
+      70
+    ],
+    "ALS": [
+      73,
+      102,
+      164
+    ],
+    "Online": [
+      74
+    ],
+    "Database": [
+      75
+    ],
+    "(ALSoD": [
+      76
+    ],
+    "at": [
+      77
+    ],
+    "http://alsod.iop.kcl.ac.uk),": [
+      78
+    ],
+    "freely": [
+      80
+    ],
+    "available": [
+      81
+    ],
+    "database": [
+      82
+    ],
+    "that": [
+      83
+    ],
+    "has": [
+      84
+    ],
+    "been": [
+      85
+    ],
+    "transformed": [
+      86
+    ],
+    "from": [
+      87,
+      151
+    ],
+    "single": [
+      89
+    ],
+    "gene": [
+      90,
+      98,
+      172
+    ],
+    "storage": [
+      91
+    ],
+    "facility": [
+      92
+    ],
+    "recording": [
+      93
+    ],
+    "mutations": [
+      94,
+      153
+    ],
+    "SOD1": [
+      97
+    ],
+    "multigene": [
+      101
+    ],
+    "bioinformatics": [
+      103
+    ],
+    "repository": [
+      104
+    ],
+    "analytical": [
+      106
+    ],
+    "instrument": [
+      107
+    ],
+    "combining": [
+      108
+    ],
+    "genotype,": [
+      109
+    ],
+    "phenotype,": [
+      110
+    ],
+    "geographical": [
+      112
+    ],
+    "information": [
+      113
+    ],
+    "associated": [
+      115
+    ],
+    "analysis": [
+      116
+    ],
+    "tools.": [
+      117
+    ],
+    "These": [
+      118
+    ],
+    "include": [
+      119
+    ],
+    "comparison": [
+      121
+    ],
+    "tool": [
+      122,
+      138,
+      161
+    ],
+    "evaluate": [
+      124
+    ],
+    "genes": [
+      125
+    ],
+    "side": [
+      126,
+      128
+    ],
+    "by": [
+      127,
+      185
+    ],
+    "or": [
+      129
+    ],
+    "jointly": [
+      130
+    ],
+    "user": [
+      132
+    ],
+    "configurable": [
+      133
+    ],
+    "features,": [
+      134
+    ],
+    "pathogenicity": [
+      136
+    ],
+    "prediction": [
+      137
+    ],
+    "using": [
+      139
+    ],
+    "combination": [
+      141
+    ],
+    "computational": [
+      143
+    ],
+    "approaches": [
+      144
+    ],
+    "distinguish": [
+      146
+    ],
+    "variants": [
+      147
+    ],
+    "nonfunctional": [
+      149
+    ],
+    "characteristics": [
+      150
+    ],
+    "disease-associated": [
+      152
+    ],
+    "more": [
+      155
+    ],
+    "dangerous": [
+      156
+    ],
+    "consequences,": [
+      157
+    ],
+    "credibility": [
+      160
+    ],
+    "researchers": [
+      165
+    ],
+    "objectively": [
+      167
+    ],
+    "assess": [
+      168
+    ],
+    "evidence": [
+      170
+    ],
+    "causation": [
+      173
+    ],
+    "ALS.": [
+      175
+    ],
+    "Furthermore,": [
+      176
+    ],
+    "integration": [
+      177
+    ],
+    "external": [
+      179
+    ],
+    "tools,": [
+      180
+    ],
+    "systems": [
+      181
+    ],
+    "feedback,": [
+      183
+    ],
+    "annotation": [
+      184
+    ],
+    "users,": [
+      186
+    ],
+    "two-way": [
+      188
+    ],
+    "links": [
+      189
+    ],
+    "collaborators": [
+      191
+    ],
+    "hosting": [
+      192
+    ],
+    "complementary": [
+      193
+    ],
+    "databases": [
+      194
+    ],
+    "further": [
+      195
+    ],
+    "enhance": [
+      196
+    ],
+    "functionality": [
+      198
+    ],
+    "ALSoD.": [
+      200
+    ],
+    "Hum": [
+      201
+    ],
+    "Mutat": [
+      202
+    ],
+    "33:1345–1351,": [
+      203
+    ],
+    "2012.": [
+      204
+    ],
+    "©": [
+      205
+    ],
+    "2012": [
+      206
+    ],
+    "Wiley": [
+      207
+    ],
+    "Periodicals,": [
+      208
+    ],
+    "Inc.": [
+      209
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2008213051",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-06-08T04:06:16.687139",
+  "created_date": "2016-06-24"
+}

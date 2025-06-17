@@ -1,0 +1,1803 @@
+{
+  "id": "https://openalex.org/W2142320568",
+  "doi": "https://doi.org/10.1101/gr.133546.111",
+  "title": "Coding exons function as tissue-specific enhancers of nearby genes",
+  "display_name": "Coding exons function as tissue-specific enhancers of nearby genes",
+  "publication_year": 2012,
+  "publication_date": "2012-03-22",
+  "ids": {
+    "openalex": "https://openalex.org/W2142320568",
+    "doi": "https://doi.org/10.1101/gr.133546.111",
+    "mag": "2142320568",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/22442009",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3371700"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1101/gr.133546.111",
+    "pdf_url": "http://genome.cshlp.org/content/22/6/1059.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S43092948",
+      "display_name": "Genome Research",
+      "issn_l": "1088-9051",
+      "issn": [
+        "1088-9051",
+        "1549-5469"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315909",
+      "host_organization_name": "Cold Spring Harbor Laboratory Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315909"
+      ],
+      "host_organization_lineage_names": [
+        "Cold Spring Harbor Laboratory Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "http://genome.cshlp.org/content/22/6/1059.full.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5028139304",
+        "display_name": "Ramon Y. Birnbaum",
+        "orcid": "https://orcid.org/0000-0002-3792-1095"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ramon Y. Birnbaum",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering and Therapeutic Sciences,",
+        "Institute for Human Genetics,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Bioengineering and Therapeutic Sciences,",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Institute for Human Genetics,",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005939151",
+        "display_name": "E. Josephine Clowney",
+        "orcid": "https://orcid.org/0000-0002-9150-9464"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. Josephine Clowney",
+      "raw_affiliation_strings": [
+        "Department of Anatomy,",
+        "Program in Biomedical Sciences, University of California, San Francisco, California 94143, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Anatomy,",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Program in Biomedical Sciences, University of California, San Francisco, California 94143, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5079481244",
+        "display_name": "Orly Agamy",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124227911",
+          "display_name": "Ben-Gurion University of the Negev",
+          "ror": "https://ror.org/05tkyf982",
+          "country_code": "IL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Orly Agamy",
+      "raw_affiliation_strings": [
+        "The Morris Kahn Laboratory of Human Genetics, NIBN, Ben-Gurion University, Beer-Sheva 84105, Israel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Morris Kahn Laboratory of Human Genetics, NIBN, Ben-Gurion University, Beer-Sheva 84105, Israel",
+          "institution_ids": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068620439",
+        "display_name": "Mee J. Kim",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mee J. Kim",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering and Therapeutic Sciences,",
+        "Institute for Human Genetics,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Human Genetics,",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Department of Bioengineering and Therapeutic Sciences,",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101979492",
+        "display_name": "Jingjing Zhao",
+        "orcid": "https://orcid.org/0000-0003-3802-8220"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I143593769",
+          "display_name": "East China University of Science and Technology",
+          "ror": "https://ror.org/01vyrm377",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I143593769"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jingjing Zhao",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering and Therapeutic Sciences,",
+        "Institute for Human Genetics,",
+        "Key Laboratory of Advanced Control and Optimization for Chemical Processes of the Ministry of Education, East China University\n                           of Science and Technology, Shanghai 200237, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Bioengineering and Therapeutic Sciences,",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Institute for Human Genetics,",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Key Laboratory of Advanced Control and Optimization for Chemical Processes of the Ministry of Education, East China University\n                           of Science and Technology, Shanghai 200237, China",
+          "institution_ids": [
+            "https://openalex.org/I143593769"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110054404",
+        "display_name": "Takayuki Yamanaka",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Takayuki Yamanaka",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering and Therapeutic Sciences,",
+        "Institute for Human Genetics,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Human Genetics,",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Department of Bioengineering and Therapeutic Sciences,",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024523823",
+        "display_name": "Zachary Pappalardo",
+        "orcid": "https://orcid.org/0000-0002-7290-520X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zachary Pappalardo",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering and Therapeutic Sciences,",
+        "Institute for Human Genetics,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Bioengineering and Therapeutic Sciences,",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Institute for Human Genetics,",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082565112",
+        "display_name": "Shoa L. Clarke",
+        "orcid": "https://orcid.org/0000-0002-6592-1172"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Shoa L. Clarke",
+      "raw_affiliation_strings": [
+        "Department of Genetics,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Genetics,",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083782077",
+        "display_name": "Aaron M. Wenger",
+        "orcid": "https://orcid.org/0000-0003-1183-0432"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Aaron M. Wenger",
+      "raw_affiliation_strings": [
+        "Department of Computer Science, Stanford University, Stanford, California 94305-5329, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computer Science, Stanford University, Stanford, California 94305-5329, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081680015",
+        "display_name": "Loan Nguyen",
+        "orcid": "https://orcid.org/0000-0002-7783-5466"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Loan Nguyen",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering and Therapeutic Sciences,",
+        "Institute for Human Genetics,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Human Genetics,",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Department of Bioengineering and Therapeutic Sciences,",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009654638",
+        "display_name": "Fiorella Gurrieri",
+        "orcid": "https://orcid.org/0000-0002-6775-5972"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I103320735",
+          "display_name": "Università Cattolica del Sacro Cuore",
+          "ror": "https://ror.org/03h7r5v07",
+          "country_code": "IT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I103320735"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Fiorella Gurrieri",
+      "raw_affiliation_strings": [
+        "Istituto di Genetica Medica, Università Cattolica S. Cuore, Rome 00168, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Istituto di Genetica Medica, Università Cattolica S. Cuore, Rome 00168, Italy",
+          "institution_ids": [
+            "https://openalex.org/I103320735"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016443533",
+        "display_name": "David B. Everman",
+        "orcid": "https://orcid.org/0000-0001-8331-992X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210149064",
+          "display_name": "Greenwood Genetic Center",
+          "ror": "https://ror.org/03p64mj41",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210149064"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David B. Everman",
+      "raw_affiliation_strings": [
+        "JC Self Research Institute, Greenwood Genetic Center, Greenwood, South Carolina 29646, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "JC Self Research Institute, Greenwood Genetic Center, Greenwood, South Carolina 29646, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210149064"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072815495",
+        "display_name": "Charles E. Schwartz",
+        "orcid": "https://orcid.org/0000-0002-7770-1943"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210149064",
+          "display_name": "Greenwood Genetic Center",
+          "ror": "https://ror.org/03p64mj41",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210149064"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I8078737",
+          "display_name": "Clemson University",
+          "ror": "https://ror.org/037s24f05",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I8078737"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Charles E. Schwartz",
+      "raw_affiliation_strings": [
+        "Department of Genetics and Biochemistry, Clemson University, Clemson, South Carolina 29634, USA",
+        "JC Self Research Institute, Greenwood Genetic Center, Greenwood, South Carolina 29646, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "JC Self Research Institute, Greenwood Genetic Center, Greenwood, South Carolina 29646, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210149064"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Genetics and Biochemistry, Clemson University, Clemson, South Carolina 29634, USA",
+          "institution_ids": [
+            "https://openalex.org/I8078737"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5015278689",
+        "display_name": "Ohad S. Birk",
+        "orcid": "https://orcid.org/0000-0003-1430-1296"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124227911",
+          "display_name": "Ben-Gurion University of the Negev",
+          "ror": "https://ror.org/05tkyf982",
+          "country_code": "IL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ohad S. Birk",
+      "raw_affiliation_strings": [
+        "The Morris Kahn Laboratory of Human Genetics, NIBN, Ben-Gurion University, Beer-Sheva 84105, Israel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Morris Kahn Laboratory of Human Genetics, NIBN, Ben-Gurion University, Beer-Sheva 84105, Israel",
+          "institution_ids": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085525898",
+        "display_name": "Gill Bejerano",
+        "orcid": "https://orcid.org/0000-0001-5179-3635"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gill Bejerano",
+      "raw_affiliation_strings": [
+        "Department of Computer Science, Stanford University, Stanford, California 94305-5329, USA",
+        "Department of Developmental Biology, Stanford University, Stanford, California 94305-5329, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Developmental Biology, Stanford University, Stanford, California 94305-5329, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Computer Science, Stanford University, Stanford, California 94305-5329, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086725918",
+        "display_name": "Stavros Lomvardas",
+        "orcid": "https://orcid.org/0000-0002-7668-3026"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Stavros Lomvardas",
+      "raw_affiliation_strings": [
+        "Department of Anatomy,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Anatomy,",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5086687499",
+        "display_name": "Nadav Ahituv",
+        "orcid": "https://orcid.org/0000-0002-7434-8144"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Nadav Ahituv",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering and Therapeutic Sciences,",
+        "Institute for Human Genetics,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Human Genetics,",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Department of Bioengineering and Therapeutic Sciences,",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 4,
+  "institutions_distinct_count": 7,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 8.425,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 224,
+  "citation_normalized_percentile": {
+    "value": 0.913309,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "22",
+    "issue": "6",
+    "first_page": "1059",
+    "last_page": "1068"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10222",
+    "display_name": "Genomics and Chromatin Dynamics",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10222",
+      "display_name": "Genomics and Chromatin Dynamics",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11482",
+      "display_name": "RNA modifications and cancer",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10604",
+      "display_name": "RNA Research and Splicing",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/coding-region",
+      "display_name": "Coding region",
+      "score": 0.41422206
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.9283935
+    },
+    {
+      "id": "https://openalex.org/C111936080",
+      "wikidata": "https://www.wikidata.org/wiki/Q913367",
+      "display_name": "Enhancer",
+      "level": 4,
+      "score": 0.7157693
+    },
+    {
+      "id": "https://openalex.org/C36823959",
+      "wikidata": "https://www.wikidata.org/wiki/Q373027",
+      "display_name": "Exon",
+      "level": 3,
+      "score": 0.6948313
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.65408796
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.6463277
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.5012922
+    },
+    {
+      "id": "https://openalex.org/C14036430",
+      "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+      "display_name": "Function (biology)",
+      "level": 2,
+      "score": 0.47054058
+    },
+    {
+      "id": "https://openalex.org/C91779695",
+      "wikidata": "https://www.wikidata.org/wiki/Q3780824",
+      "display_name": "Coding region",
+      "level": 3,
+      "score": 0.41422206
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.16163066
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D004742",
+      "descriptor_name": "Enhancer Elements, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005091",
+      "descriptor_name": "Exons",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D047369",
+      "descriptor_name": "Chromatin Immunoprecipitation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002869",
+      "descriptor_name": "Chromosome Aberrations",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D056445",
+      "descriptor_name": "Cytoplasmic Dyneins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D056445",
+      "descriptor_name": "Cytoplasmic Dyneins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005121",
+      "descriptor_name": "Extremities",
+      "qualifier_ui": "Q000196",
+      "qualifier_name": "embryology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005121",
+      "descriptor_name": "Extremities",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005121",
+      "descriptor_name": "Extremities",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018398",
+      "descriptor_name": "Homeodomain Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018398",
+      "descriptor_name": "Homeodomain Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017404",
+      "descriptor_name": "In Situ Hybridization, Fluorescence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017880",
+      "descriptor_name": "Limb Deformities, Congenital",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017880",
+      "descriptor_name": "Limb Deformities, Congenital",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008822",
+      "descriptor_name": "Mice, Transgenic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011401",
+      "descriptor_name": "Promoter Regions, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015027",
+      "descriptor_name": "Zebrafish",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015027",
+      "descriptor_name": "Zebrafish",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1101/gr.133546.111",
+      "pdf_url": "http://genome.cshlp.org/content/22/6/1059.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S43092948",
+        "display_name": "Genome Research",
+        "issn_l": "1088-9051",
+        "issn": [
+          "1088-9051",
+          "1549-5469"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315909",
+        "host_organization_name": "Cold Spring Harbor Laboratory Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315909"
+        ],
+        "host_organization_lineage_names": [
+          "Cold Spring Harbor Laboratory Press"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3371700",
+      "pdf_url": "https://europepmc.org/articles/pmc3371700?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3371700",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/22442009",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1101/gr.133546.111",
+    "pdf_url": "http://genome.cshlp.org/content/22/6/1059.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S43092948",
+      "display_name": "Genome Research",
+      "issn_l": "1088-9051",
+      "issn": [
+        "1088-9051",
+        "1549-5469"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315909",
+      "host_organization_name": "Cold Spring Harbor Laboratory Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315909"
+      ],
+      "host_organization_lineage_names": [
+        "Cold Spring Harbor Laboratory Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.63,
+      "display_name": "Life below water",
+      "id": "https://metadata.un.org/sdg/14"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 57,
+  "referenced_works": [
+    "https://openalex.org/W1487688765",
+    "https://openalex.org/W1544691147",
+    "https://openalex.org/W1822572528",
+    "https://openalex.org/W1892921689",
+    "https://openalex.org/W1982196595",
+    "https://openalex.org/W1982511069",
+    "https://openalex.org/W1996760543",
+    "https://openalex.org/W1998271270",
+    "https://openalex.org/W1999671240",
+    "https://openalex.org/W2002391499",
+    "https://openalex.org/W2005471059",
+    "https://openalex.org/W2005889545",
+    "https://openalex.org/W2009935171",
+    "https://openalex.org/W2018824203",
+    "https://openalex.org/W2020807116",
+    "https://openalex.org/W2041993671",
+    "https://openalex.org/W2042262145",
+    "https://openalex.org/W2047295844",
+    "https://openalex.org/W2047734673",
+    "https://openalex.org/W2048263136",
+    "https://openalex.org/W2066326124",
+    "https://openalex.org/W2073229191",
+    "https://openalex.org/W2073700708",
+    "https://openalex.org/W2076793571",
+    "https://openalex.org/W2080849609",
+    "https://openalex.org/W2085909914",
+    "https://openalex.org/W2106730339",
+    "https://openalex.org/W2107733280",
+    "https://openalex.org/W2108207596",
+    "https://openalex.org/W2114906532",
+    "https://openalex.org/W2115850825",
+    "https://openalex.org/W2116251070",
+    "https://openalex.org/W2117792884",
+    "https://openalex.org/W2119828688",
+    "https://openalex.org/W2123564569",
+    "https://openalex.org/W2124202878",
+    "https://openalex.org/W2125216530",
+    "https://openalex.org/W2127170971",
+    "https://openalex.org/W2129875194",
+    "https://openalex.org/W2137987108",
+    "https://openalex.org/W2140040268",
+    "https://openalex.org/W2144939535",
+    "https://openalex.org/W2148339830",
+    "https://openalex.org/W2151754128",
+    "https://openalex.org/W2151846636",
+    "https://openalex.org/W2155615244",
+    "https://openalex.org/W2159569552",
+    "https://openalex.org/W2160379721",
+    "https://openalex.org/W2161084074",
+    "https://openalex.org/W2163775594",
+    "https://openalex.org/W2167063030",
+    "https://openalex.org/W2171398209",
+    "https://openalex.org/W2172240708",
+    "https://openalex.org/W2499191893",
+    "https://openalex.org/W3020408137",
+    "https://openalex.org/W4248228508",
+    "https://openalex.org/W4388253017"
+  ],
+  "related_works": [
+    "https://openalex.org/W4387598842",
+    "https://openalex.org/W2973036402",
+    "https://openalex.org/W2586783543",
+    "https://openalex.org/W2152841149",
+    "https://openalex.org/W2113330652",
+    "https://openalex.org/W2039330132",
+    "https://openalex.org/W2035381332",
+    "https://openalex.org/W2030119528",
+    "https://openalex.org/W1987295952",
+    "https://openalex.org/W1973164572"
+  ],
+  "abstract_inverted_index": {
+    "Enhancers": [
+      0
+    ],
+    "are": [
+      1
+    ],
+    "essential": [
+      2
+    ],
+    "gene": [
+      3
+    ],
+    "regulatory": [
+      4
+    ],
+    "elements": [
+      5
+    ],
+    "whose": [
+      6
+    ],
+    "alteration": [
+      7,
+      214
+    ],
+    "can": [
+      8,
+      100,
+      180
+    ],
+    "lead": [
+      9
+    ],
+    "to": [
+      10,
+      22,
+      32
+    ],
+    "morphological": [
+      11
+    ],
+    "differences": [
+      12
+    ],
+    "between": [
+      13
+    ],
+    "species,": [
+      14
+    ],
+    "developmental": [
+      15
+    ],
+    "abnormalities,": [
+      16
+    ],
+    "and": [
+      17,
+      30,
+      54,
+      86,
+      108,
+      121,
+      141,
+      164,
+      192
+    ],
+    "human": [
+      18
+    ],
+    "disease.": [
+      19
+    ],
+    "Current": [
+      20
+    ],
+    "strategies": [
+      21
+    ],
+    "identify": [
+      23,
+      46
+    ],
+    "enhancers": [
+      24,
+      47,
+      103,
+      193
+    ],
+    "focus": [
+      25
+    ],
+    "primarily": [
+      26
+    ],
+    "on": [
+      27,
+      64
+    ],
+    "noncoding": [
+      28
+    ],
+    "sequences": [
+      29,
+      179
+    ],
+    "tend": [
+      31
+    ],
+    "exclude": [
+      33
+    ],
+    "protein": [
+      34,
+      213
+    ],
+    "coding": [
+      35,
+      72,
+      187,
+      205
+    ],
+    "sequences.": [
+      36
+    ],
+    "Here,": [
+      37
+    ],
+    "we": [
+      38,
+      90,
+      124
+    ],
+    "analyzed": [
+      39
+    ],
+    "25": [
+      40
+    ],
+    "available": [
+      41
+    ],
+    "ChIP-seq": [
+      42,
+      69
+    ],
+    "data": [
+      43
+    ],
+    "sets": [
+      44
+    ],
+    "that": [
+      45,
+      58,
+      78,
+      92,
+      109,
+      127,
+      177,
+      201
+    ],
+    "in": [
+      48,
+      158,
+      189,
+      197
+    ],
+    "an": [
+      49
+    ],
+    "unbiased": [
+      50
+    ],
+    "manner": [
+      51
+    ],
+    "(H3K4me1,": [
+      52
+    ],
+    "H3K27ac,": [
+      53
+    ],
+    "EP300)": [
+      55
+    ],
+    "for": [
+      56,
+      76,
+      115
+    ],
+    "peaks": [
+      57,
+      70,
+      77
+    ],
+    "overlap": [
+      59,
+      71,
+      79
+    ],
+    "exons.": [
+      60
+    ],
+    "We": [
+      61
+    ],
+    "find": [
+      62
+    ],
+    "that,": [
+      63
+    ],
+    "average,": [
+      65
+    ],
+    "7%": [
+      66
+    ],
+    "of": [
+      67,
+      94,
+      104,
+      129,
+      194,
+      221
+    ],
+    "all": [
+      68
+    ],
+    "exons": [
+      73,
+      188
+    ],
+    "(after": [
+      74
+    ],
+    "excluding": [
+      75
+    ],
+    "with": [
+      80,
+      144,
+      172
+    ],
+    "first": [
+      81
+    ],
+    "exons).": [
+      82
+    ],
+    "By": [
+      83
+    ],
+    "using": [
+      84
+    ],
+    "mouse": [
+      85
+    ],
+    "zebrafish": [
+      87
+    ],
+    "enhancer": [
+      88,
+      97,
+      116,
+      139
+    ],
+    "assays,": [
+      89
+    ],
+    "demonstrate": [
+      91,
+      176
+    ],
+    "several": [
+      93
+    ],
+    "these": [
+      95,
+      130
+    ],
+    "exonic": [
+      96,
+      111,
+      131
+    ],
+    "(eExons)": [
+      98
+    ],
+    "candidates": [
+      99
+    ],
+    "function": [
+      101
+    ],
+    "as": [
+      102,
+      186
+    ],
+    "their": [
+      105
+    ],
+    "neighboring": [
+      106
+    ],
+    "genes": [
+      107
+    ],
+    "the": [
+      110,
+      219
+    ],
+    "sequence": [
+      112
+    ],
+    "is": [
+      113
+    ],
+    "necessary": [
+      114
+    ],
+    "activity.": [
+      117
+    ],
+    "Using": [
+      118
+    ],
+    "ChIP,": [
+      119
+    ],
+    "3C,": [
+      120
+    ],
+    "DNA": [
+      122,
+      178
+    ],
+    "FISH,": [
+      123
+    ],
+    "further": [
+      125
+    ],
+    "show": [
+      126
+    ],
+    "one": [
+      128,
+      190
+    ],
+    "limb": [
+      132
+    ],
+    "enhancers,": [
+      133
+    ],
+    "Dync1i1": [
+      134
+    ],
+    "exon": [
+      135
+    ],
+    "15,": [
+      136
+    ],
+    "has": [
+      137
+    ],
+    "active": [
+      138
+    ],
+    "marks": [
+      140
+    ],
+    "physically": [
+      142
+    ],
+    "interacts": [
+      143
+    ],
+    "Dlx5/6": [
+      145
+    ],
+    "promoter": [
+      146
+    ],
+    "regions": [
+      147
+    ],
+    "900": [
+      148
+    ],
+    "kb": [
+      149
+    ],
+    "away.": [
+      150
+    ],
+    "In": [
+      151
+    ],
+    "addition,": [
+      152
+    ],
+    "its": [
+      153
+    ],
+    "removal": [
+      154
+    ],
+    "by": [
+      155,
+      212,
+      217
+    ],
+    "chromosomal": [
+      156
+    ],
+    "abnormalities": [
+      157
+    ],
+    "humans": [
+      159
+    ],
+    "could": [
+      160,
+      207
+    ],
+    "cause": [
+      161
+    ],
+    "split": [
+      162
+    ],
+    "hand": [
+      163
+    ],
+    "foot": [
+      165
+    ],
+    "malformation": [
+      166
+    ],
+    "1": [
+      167
+    ],
+    "(SHFM1),": [
+      168
+    ],
+    "a": [
+      169,
+      182
+    ],
+    "disorder": [
+      170
+    ],
+    "associated": [
+      171
+    ],
+    "DLX5/6.": [
+      173
+    ],
+    "These": [
+      174
+    ],
+    "results": [
+      175
+    ],
+    "have": [
+      181
+    ],
+    "dual": [
+      183
+    ],
+    "function,": [
+      184
+    ],
+    "operating": [
+      185
+    ],
+    "tissue": [
+      191
+    ],
+    "nearby": [
+      195
+    ],
+    "gene(s)": [
+      196
+    ],
+    "another": [
+      198,
+      222
+    ],
+    "tissue,": [
+      199
+    ],
+    "suggesting": [
+      200
+    ],
+    "phenotypes": [
+      202
+    ],
+    "resulting": [
+      203
+    ],
+    "from": [
+      204
+    ],
+    "mutations": [
+      206
+    ],
+    "be": [
+      208
+    ],
+    "caused": [
+      209
+    ],
+    "not": [
+      210
+    ],
+    "only": [
+      211
+    ],
+    "but": [
+      215
+    ],
+    "also": [
+      216
+    ],
+    "disrupting": [
+      218
+    ],
+    "regulation": [
+      220
+    ],
+    "gene.": [
+      223
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2142320568",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 8
+    }
+  ],
+  "updated_date": "2025-06-03T00:36:57.924426",
+  "created_date": "2016-06-24"
+}

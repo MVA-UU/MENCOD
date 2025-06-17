@@ -1,0 +1,1431 @@
+{
+  "id": "https://openalex.org/W1976867283",
+  "doi": "https://doi.org/10.1002/ppul.10442",
+  "title": "Predicting response to rhDNase and hypertonic saline in children with cystic fibrosis",
+  "display_name": "Predicting response to rhDNase and hypertonic saline in children with cystic fibrosis",
+  "publication_year": 2004,
+  "publication_date": "2004-03-08",
+  "ids": {
+    "openalex": "https://openalex.org/W1976867283",
+    "doi": "https://doi.org/10.1002/ppul.10442",
+    "mag": "1976867283",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/15022126"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1002/ppul.10442",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S144578311",
+      "display_name": "Pediatric Pulmonology",
+      "issn_l": "1099-0496",
+      "issn": [
+        "1099-0496",
+        "8755-6863"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5045685827",
+        "display_name": "Ranjan Suri",
+        "orcid": "https://orcid.org/0000-0001-8470-5291"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800129641",
+          "display_name": "Great Ormond Street Hospital",
+          "ror": "https://ror.org/00zn2c847",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800129641",
+            "https://openalex.org/I2800349819"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210096640",
+          "display_name": "Royal Brompton Hospital",
+          "ror": "https://ror.org/00cv4n034",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800036501",
+            "https://openalex.org/I4210096640"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ranjan Suri",
+      "raw_affiliation_strings": [
+        "Department of Respiratory Paediatrics, Royal Brompton Hospital, London, UK",
+        "Respiratory Unit, Great Ormond Street Hospital, London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Respiratory Unit, Great Ormond Street Hospital, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I2800129641",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Respiratory Paediatrics, Royal Brompton Hospital, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210096640"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078250568",
+        "display_name": "Chris Metcalfe",
+        "orcid": "https://orcid.org/0000-0001-8318-8907"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I90344618",
+          "display_name": "Medical Research Council",
+          "ror": "https://ror.org/03x94j517",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I90344618"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christopher Metcalfe",
+      "raw_affiliation_strings": [
+        "Medical Research Council Biostatistics Unit, Cambridge, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Medical Research Council Biostatistics Unit, Cambridge, UK",
+          "institution_ids": [
+            "https://openalex.org/I90344618"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108275380",
+        "display_name": "Colin Wallis",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800129641",
+          "display_name": "Great Ormond Street Hospital",
+          "ror": "https://ror.org/00zn2c847",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800129641",
+            "https://openalex.org/I2800349819"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Colin Wallis",
+      "raw_affiliation_strings": [
+        "Respiratory Unit, Great Ormond Street Hospital, London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Respiratory Unit, Great Ormond Street Hospital, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I2800129641",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5063471621",
+        "display_name": "Andrew Bush",
+        "orcid": "https://orcid.org/0000-0001-6756-9822"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096640",
+          "display_name": "Royal Brompton Hospital",
+          "ror": "https://ror.org/00cv4n034",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800036501",
+            "https://openalex.org/I4210096640"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Andrew Bush",
+      "raw_affiliation_strings": [
+        "Department of Respiratory Paediatrics, Royal Brompton Hospital, London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Respiratory Paediatrics, Royal Brompton Hospital, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210096640"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5063471621"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210096640"
+  ],
+  "apc_list": {
+    "value": 4740,
+    "currency": "USD",
+    "value_usd": 4740
+  },
+  "apc_paid": null,
+  "fwci": 0.778,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 32,
+  "citation_normalized_percentile": {
+    "value": 0.881626,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 90
+  },
+  "biblio": {
+    "volume": "37",
+    "issue": "4",
+    "first_page": "305",
+    "last_page": "310"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10665",
+    "display_name": "Cystic Fibrosis Research Advances",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2740",
+      "display_name": "Pulmonary and Respiratory Medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10665",
+      "display_name": "Cystic Fibrosis Research Advances",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10549",
+      "display_name": "Neonatal Respiratory Health Research",
+      "score": 0.9774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11260",
+      "display_name": "Tracheal and airway disorders",
+      "score": 0.9367,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hypertonic-saline",
+      "display_name": "Hypertonic saline",
+      "score": 0.751922
+    },
+    {
+      "id": "https://openalex.org/keywords/vital-capacity",
+      "display_name": "Vital capacity",
+      "score": 0.5944501
+    },
+    {
+      "id": "https://openalex.org/keywords/crossover-study",
+      "display_name": "Crossover study",
+      "score": 0.4835179
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.9082775
+    },
+    {
+      "id": "https://openalex.org/C3017567848",
+      "wikidata": "https://www.wikidata.org/wiki/Q275792",
+      "display_name": "Hypertonic saline",
+      "level": 2,
+      "score": 0.751922
+    },
+    {
+      "id": "https://openalex.org/C2776938444",
+      "wikidata": "https://www.wikidata.org/wiki/Q178194",
+      "display_name": "Cystic fibrosis",
+      "level": 2,
+      "score": 0.74157095
+    },
+    {
+      "id": "https://openalex.org/C55520419",
+      "wikidata": "https://www.wikidata.org/wiki/Q660995",
+      "display_name": "Vital capacity",
+      "level": 5,
+      "score": 0.5944501
+    },
+    {
+      "id": "https://openalex.org/C3018587741",
+      "wikidata": "https://www.wikidata.org/wiki/Q7886",
+      "display_name": "Lung function",
+      "level": 3,
+      "score": 0.49306318
+    },
+    {
+      "id": "https://openalex.org/C75603125",
+      "wikidata": "https://www.wikidata.org/wiki/Q1877462",
+      "display_name": "Pulmonary function testing",
+      "level": 2,
+      "score": 0.49001566
+    },
+    {
+      "id": "https://openalex.org/C87813604",
+      "wikidata": "https://www.wikidata.org/wiki/Q1242899",
+      "display_name": "Crossover study",
+      "level": 4,
+      "score": 0.4835179
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.447789
+    },
+    {
+      "id": "https://openalex.org/C168563851",
+      "wikidata": "https://www.wikidata.org/wiki/Q1436668",
+      "display_name": "Randomized controlled trial",
+      "level": 2,
+      "score": 0.44675374
+    },
+    {
+      "id": "https://openalex.org/C2777714996",
+      "wikidata": "https://www.wikidata.org/wiki/Q7886",
+      "display_name": "Lung",
+      "level": 2,
+      "score": 0.27353877
+    },
+    {
+      "id": "https://openalex.org/C165637977",
+      "wikidata": "https://www.wikidata.org/wiki/Q11067835",
+      "display_name": "Diffusing capacity",
+      "level": 4,
+      "score": 0.07366118
+    },
+    {
+      "id": "https://openalex.org/C27081682",
+      "wikidata": "https://www.wikidata.org/wiki/Q269829",
+      "display_name": "Placebo",
+      "level": 3,
+      "score": 0.06730607
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.06363106
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003550",
+      "descriptor_name": "Cystic Fibrosis",
+      "qualifier_ui": "Q000188",
+      "qualifier_name": "drug therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003850",
+      "descriptor_name": "Deoxyribonuclease I",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009330",
+      "descriptor_name": "Nebulizers and Vaporizers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011994",
+      "descriptor_name": "Recombinant Proteins",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012462",
+      "descriptor_name": "Saline Solution, Hypertonic",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018592",
+      "descriptor_name": "Cross-Over Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003550",
+      "descriptor_name": "Cystic Fibrosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003550",
+      "descriptor_name": "Cystic Fibrosis",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003850",
+      "descriptor_name": "Deoxyribonuclease I",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004305",
+      "descriptor_name": "Dose-Response Relationship, Drug",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004334",
+      "descriptor_name": "Drug Administration Schedule",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005541",
+      "descriptor_name": "Forced Expiratory Volume",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005541",
+      "descriptor_name": "Forced Expiratory Volume",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011237",
+      "descriptor_name": "Predictive Value of Tests",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011994",
+      "descriptor_name": "Recombinant Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012462",
+      "descriptor_name": "Saline Solution, Hypertonic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014797",
+      "descriptor_name": "Vital Capacity",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014797",
+      "descriptor_name": "Vital Capacity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1002/ppul.10442",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S144578311",
+        "display_name": "Pediatric Pulmonology",
+        "issn_l": "1099-0496",
+        "issn": [
+          "1099-0496",
+          "8755-6863"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/15022126",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.84
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 19,
+  "referenced_works": [
+    "https://openalex.org/W141526888",
+    "https://openalex.org/W1872952081",
+    "https://openalex.org/W1892403664",
+    "https://openalex.org/W1976976212",
+    "https://openalex.org/W1988095474",
+    "https://openalex.org/W2004715363",
+    "https://openalex.org/W2005802564",
+    "https://openalex.org/W2023546954",
+    "https://openalex.org/W2024990146",
+    "https://openalex.org/W2033260645",
+    "https://openalex.org/W2061909665",
+    "https://openalex.org/W2092940578",
+    "https://openalex.org/W2144145895",
+    "https://openalex.org/W2150399236",
+    "https://openalex.org/W2162444993",
+    "https://openalex.org/W2168454304",
+    "https://openalex.org/W2333398204",
+    "https://openalex.org/W2410508656",
+    "https://openalex.org/W2604596332"
+  ],
+  "related_works": [
+    "https://openalex.org/W3094377252",
+    "https://openalex.org/W2472336533",
+    "https://openalex.org/W2394803673",
+    "https://openalex.org/W2388907151",
+    "https://openalex.org/W2222945420",
+    "https://openalex.org/W2128429289",
+    "https://openalex.org/W2108210606",
+    "https://openalex.org/W2058993966",
+    "https://openalex.org/W1993793320",
+    "https://openalex.org/W1760543772"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Daily": [
+      1
+    ],
+    "recombinant": [
+      2
+    ],
+    "human": [
+      3
+    ],
+    "deoxyribonuclease": [
+      4
+    ],
+    "(rhDNase)": [
+      5
+    ],
+    "is": [
+      6
+    ],
+    "an": [
+      7,
+      124
+    ],
+    "established": [
+      8
+    ],
+    "but": [
+      9
+    ],
+    "expensive": [
+      10
+    ],
+    "treatment": [
+      11,
+      46,
+      182,
+      278
+    ],
+    "in": [
+      12,
+      158,
+      211
+    ],
+    "cystic": [
+      13
+    ],
+    "fibrosis": [
+      14
+    ],
+    "(CF).": [
+      15
+    ],
+    "Alternate‐day": [
+      16
+    ],
+    "rhDNase": [
+      17,
+      55,
+      229,
+      237
+    ],
+    "and": [
+      18,
+      97,
+      148,
+      164,
+      173,
+      177,
+      230,
+      238,
+      253
+    ],
+    "hypertonic": [
+      19
+    ],
+    "saline": [
+      20
+    ],
+    "(HS)": [
+      21
+    ],
+    "represent": [
+      22
+    ],
+    "potential": [
+      23
+    ],
+    "cheaper": [
+      24
+    ],
+    "alternative": [
+      25
+    ],
+    "therapies.": [
+      26
+    ],
+    "However,": [
+      27,
+      218
+    ],
+    "not": [
+      28,
+      280
+    ],
+    "all": [
+      29
+    ],
+    "patients": [
+      30,
+      212
+    ],
+    "improve": [
+      31
+    ],
+    "on": [
+      32
+    ],
+    "treatment.": [
+      33,
+      275
+    ],
+    "To": [
+      34
+    ],
+    "assess": [
+      35,
+      271
+    ],
+    "response,": [
+      36
+    ],
+    "many": [
+      37
+    ],
+    "CF": [
+      38,
+      133
+    ],
+    "centers": [
+      39
+    ],
+    "have": [
+      40
+    ],
+    "developed": [
+      41
+    ],
+    "formal": [
+      42
+    ],
+    "n‐of‐1": [
+      43,
+      112,
+      125
+    ],
+    "trials": [
+      44
+    ],
+    "of": [
+      45,
+      67,
+      141,
+      152,
+      196,
+      246
+    ],
+    "to": [
+      47,
+      53,
+      62,
+      92,
+      138,
+      187,
+      207,
+      225,
+      236,
+      261,
+      270,
+      274,
+      277
+    ],
+    "find": [
+      48
+    ],
+    "out": [
+      49
+    ],
+    "who": [
+      50
+    ],
+    "benefits.": [
+      51
+    ],
+    "Response": [
+      52,
+      276
+    ],
+    "daily": [
+      54,
+      93,
+      228,
+      252
+    ],
+    "at": [
+      56,
+      69,
+      79,
+      106,
+      171,
+      175,
+      190,
+      198,
+      240,
+      248,
+      256,
+      265
+    ],
+    "3": [
+      57,
+      199,
+      249
+    ],
+    "months": [
+      58
+    ],
+    "has": [
+      59
+    ],
+    "been": [
+      60
+    ],
+    "shown": [
+      61
+    ],
+    "be": [
+      63,
+      100,
+      262,
+      281
+    ],
+    "a": [
+      64,
+      80,
+      128
+    ],
+    "good": [
+      65
+    ],
+    "predictor": [
+      66
+    ],
+    "response": [
+      68,
+      78,
+      105,
+      186,
+      197,
+      206,
+      224,
+      235,
+      247,
+      273
+    ],
+    "1": [
+      70,
+      159,
+      162
+    ],
+    "year.": [
+      71
+    ],
+    "There": [
+      72,
+      201
+    ],
+    "are": [
+      73
+    ],
+    "no": [
+      74,
+      221
+    ],
+    "data": [
+      75
+    ],
+    "correlating": [
+      76
+    ],
+    "individual": [
+      77,
+      90
+    ],
+    "shorter": [
+      81
+    ],
+    "time": [
+      82
+    ],
+    "period": [
+      83
+    ],
+    "with": [
+      84,
+      213
+    ],
+    "3‐month": [
+      85
+    ],
+    "response.": [
+      86
+    ],
+    "We": [
+      87
+    ],
+    "assessed": [
+      88
+    ],
+    "whether": [
+      89
+    ],
+    "responses": [
+      91
+    ],
+    "rhDNase,": [
+      94,
+      96,
+      144,
+      147,
+      255
+    ],
+    "alternate‐day": [
+      95,
+      145,
+      226,
+      254
+    ],
+    "HS": [
+      98,
+      208,
+      239
+    ],
+    "could": [
+      99,
+      279
+    ],
+    "predicted": [
+      101,
+      283
+    ],
+    "from": [
+      102,
+      115,
+      284
+    ],
+    "lung": [
+      103,
+      216
+    ],
+    "function": [
+      104,
+      185
+    ],
+    "6": [
+      107,
+      176,
+      191,
+      241,
+      267
+    ],
+    "weeks,": [
+      108
+    ],
+    "thus": [
+      109
+    ],
+    "shortening": [
+      110
+    ],
+    "the": [
+      111,
+      121,
+      188,
+      258
+    ],
+    "trial,": [
+      113,
+      131
+    ],
+    "or": [
+      114,
+      227
+    ],
+    "baseline": [
+      116,
+      172,
+      215,
+      231,
+      285
+    ],
+    "patient": [
+      117
+    ],
+    "characteristics,": [
+      118
+    ],
+    "therefore": [
+      119
+    ],
+    "avoiding": [
+      120
+    ],
+    "need": [
+      122
+    ],
+    "for": [
+      123,
+      264
+    ],
+    "trial.": [
+      126
+    ],
+    "In": [
+      127,
+      233
+    ],
+    "randomized": [
+      129
+    ],
+    "crossover": [
+      130
+    ],
+    "48": [
+      132
+    ],
+    "children": [
+      134
+    ],
+    "were": [
+      135,
+      169
+    ],
+    "allocated": [
+      136
+    ],
+    "consecutively": [
+      137
+    ],
+    "12": [
+      139,
+      178
+    ],
+    "weeks": [
+      140,
+      179,
+      192,
+      242,
+      268
+    ],
+    "once‐daily": [
+      142
+    ],
+    "2.5‐mg": [
+      143,
+      146
+    ],
+    "twice‐daily": [
+      149
+    ],
+    "5": [
+      150
+    ],
+    "ml": [
+      151
+    ],
+    "7%": [
+      153
+    ],
+    "HS.": [
+      154
+    ],
+    "Forced": [
+      155
+    ],
+    "expiratory": [
+      156
+    ],
+    "volume": [
+      157
+    ],
+    "sec": [
+      160
+    ],
+    "(FEV": [
+      161
+    ],
+    ")": [
+      163
+    ],
+    "forced": [
+      165
+    ],
+    "vital": [
+      166
+    ],
+    "capacity": [
+      167
+    ],
+    "(FVC)": [
+      168
+    ],
+    "measured": [
+      170
+    ],
+    "then": [
+      174
+    ],
+    "into": [
+      180
+    ],
+    "each": [
+      181
+    ],
+    "period.": [
+      183
+    ],
+    "Lung": [
+      184
+    ],
+    "drugs": [
+      189
+    ],
+    "was": [
+      193,
+      202,
+      209,
+      220,
+      243
+    ],
+    "highly": [
+      194,
+      244
+    ],
+    "predictive": [
+      195,
+      245
+    ],
+    "months.": [
+      200,
+      250
+    ],
+    "some": [
+      203
+    ],
+    "evidence": [
+      204
+    ],
+    "that": [
+      205
+    ],
+    "worse": [
+      210
+    ],
+    "lower": [
+      214
+    ],
+    "function.": [
+      217
+    ],
+    "there": [
+      219
+    ],
+    "association": [
+      222
+    ],
+    "between": [
+      223
+    ],
+    "characteristics.": [
+      232,
+      286
+    ],
+    "conclusion,": [
+      234
+    ],
+    "For": [
+      251
+    ],
+    "least,": [
+      257
+    ],
+    "drug": [
+      259
+    ],
+    "needs": [
+      260
+    ],
+    "administered": [
+      263
+    ],
+    "most": [
+      266
+    ],
+    "initially": [
+      269
+    ],
+    "long‐term": [
+      272
+    ],
+    "reliably": [
+      282
+    ],
+    "Pediatr": [
+      287
+    ],
+    "Pulmonol.": [
+      288
+    ],
+    "2004;": [
+      289
+    ],
+    "37:305–310.": [
+      290
+    ],
+    "©": [
+      291
+    ],
+    "2004": [
+      292
+    ],
+    "Wiely‐Liss,": [
+      293
+    ],
+    "Inc.": [
+      294
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1976867283",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-05-23T17:18:17.474753",
+  "created_date": "2016-06-24"
+}

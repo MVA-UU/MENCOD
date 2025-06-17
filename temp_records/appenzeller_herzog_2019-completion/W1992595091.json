@@ -1,0 +1,875 @@
+{
+  "id": "https://openalex.org/W1992595091",
+  "doi": "https://doi.org/10.1073/pnas.74.2.560",
+  "title": "A new method for sequencing DNA.",
+  "display_name": "A new method for sequencing DNA.",
+  "publication_year": 1977,
+  "publication_date": "1977-02-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1992595091",
+    "doi": "https://doi.org/10.1073/pnas.74.2.560",
+    "mag": "1992595091",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/265521",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/392330"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.74.2.560",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.1073/pnas.74.2.560",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5074296479",
+        "display_name": "Allan M. Maxam",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "A M Maxam",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5054745665",
+        "display_name": "Wendy V. Gilbert",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "W Gilbert",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 220.16,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 7971,
+  "citation_normalized_percentile": {
+    "value": 0.99993,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "74",
+    "issue": "2",
+    "first_page": "560",
+    "last_page": "564"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10911",
+    "display_name": "Chemical Synthesis and Analysis",
+    "score": 0.9958,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10911",
+      "display_name": "Chemical Synthesis and Analysis",
+      "score": 0.9958,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10432",
+      "display_name": "DNA and Nucleic Acid Chemistry",
+      "score": 0.9955,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10207",
+      "display_name": "Advanced biosensing and bioanalysis techniques",
+      "score": 0.9946,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/cleave",
+      "display_name": "Cleave",
+      "score": 0.6943725
+    },
+    {
+      "id": "https://openalex.org/keywords/sequencing-by-hybridization",
+      "display_name": "Sequencing by hybridization",
+      "score": 0.47930995
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C552990157",
+      "wikidata": "https://www.wikidata.org/wiki/Q7430",
+      "display_name": "DNA",
+      "level": 2,
+      "score": 0.7843494
+    },
+    {
+      "id": "https://openalex.org/C19014433",
+      "wikidata": "https://www.wikidata.org/wiki/Q5130995",
+      "display_name": "Cleave",
+      "level": 3,
+      "score": 0.6943725
+    },
+    {
+      "id": "https://openalex.org/C185581394",
+      "wikidata": "https://www.wikidata.org/wiki/Q145911",
+      "display_name": "Base pair",
+      "level": 3,
+      "score": 0.58708405
+    },
+    {
+      "id": "https://openalex.org/C51679486",
+      "wikidata": "https://www.wikidata.org/wiki/Q380546",
+      "display_name": "DNA sequencing",
+      "level": 3,
+      "score": 0.5558141
+    },
+    {
+      "id": "https://openalex.org/C114851143",
+      "wikidata": "https://www.wikidata.org/wiki/Q13080815",
+      "display_name": "Single molecule real time sequencing",
+      "level": 5,
+      "score": 0.48680994
+    },
+    {
+      "id": "https://openalex.org/C51064596",
+      "wikidata": "https://www.wikidata.org/wiki/Q7452482",
+      "display_name": "Sequencing by hybridization",
+      "level": 5,
+      "score": 0.47930995
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.44410467
+    },
+    {
+      "id": "https://openalex.org/C116084860",
+      "wikidata": "https://www.wikidata.org/wiki/Q48255",
+      "display_name": "Gel electrophoresis",
+      "level": 2,
+      "score": 0.4311367
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.4067338
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.3686434
+    },
+    {
+      "id": "https://openalex.org/C153911025",
+      "wikidata": "https://www.wikidata.org/wiki/Q7202",
+      "display_name": "Molecular biology",
+      "level": 1,
+      "score": 0.33285254
+    },
+    {
+      "id": "https://openalex.org/C70712619",
+      "wikidata": "https://www.wikidata.org/wiki/Q908889",
+      "display_name": "DNA sequencer",
+      "level": 4,
+      "score": 0.16748792
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001483",
+      "descriptor_name": "Base Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001671",
+      "descriptor_name": "Biochemistry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004247",
+      "descriptor_name": "DNA",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000225",
+      "descriptor_name": "Adenine",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000225",
+      "descriptor_name": "Adenine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001669",
+      "descriptor_name": "Biochemical Phenomena",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003596",
+      "descriptor_name": "Cytosine",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003596",
+      "descriptor_name": "Cytosine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004262",
+      "descriptor_name": "DNA Restriction Enzymes",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006147",
+      "descriptor_name": "Guanine",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006147",
+      "descriptor_name": "Guanine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006834",
+      "descriptor_name": "Hydrazines",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008722",
+      "descriptor_name": "Methods",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009693",
+      "descriptor_name": "Nucleic Acid Hybridization",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013941",
+      "descriptor_name": "Thymine",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013941",
+      "descriptor_name": "Thymine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1073/pnas.74.2.560",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S125754415",
+        "display_name": "Proceedings of the National Academy of Sciences",
+        "issn_l": "0027-8424",
+        "issn": [
+          "0027-8424",
+          "1091-6490"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320052",
+        "host_organization_name": "National Academy of Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320052"
+        ],
+        "host_organization_lineage_names": [
+          "National Academy of Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc392330",
+      "pdf_url": "https://europepmc.org/articles/pmc392330?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC392330",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/265521",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.74.2.560",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 11,
+  "referenced_works": [
+    "https://openalex.org/W1238743721",
+    "https://openalex.org/W1259363667",
+    "https://openalex.org/W1967690714",
+    "https://openalex.org/W1969748497",
+    "https://openalex.org/W1985409367",
+    "https://openalex.org/W2012400698",
+    "https://openalex.org/W2035768135",
+    "https://openalex.org/W2039761971",
+    "https://openalex.org/W2053232581",
+    "https://openalex.org/W2062697778",
+    "https://openalex.org/W2068425191"
+  ],
+  "related_works": [
+    "https://openalex.org/W647308575",
+    "https://openalex.org/W2741636287",
+    "https://openalex.org/W2076321102",
+    "https://openalex.org/W2075775435",
+    "https://openalex.org/W2070985991",
+    "https://openalex.org/W2063211137",
+    "https://openalex.org/W2031712869",
+    "https://openalex.org/W1994833900",
+    "https://openalex.org/W1979197188",
+    "https://openalex.org/W1553436411"
+  ],
+  "abstract_inverted_index": {
+    "DNA": [
+      0,
+      13,
+      40,
+      73
+    ],
+    "can": [
+      1,
+      75
+    ],
+    "be": [
+      2,
+      76
+    ],
+    "sequenced": [
+      3
+    ],
+    "by": [
+      4,
+      64,
+      66
+    ],
+    "a": [
+      5,
+      10,
+      20,
+      69
+    ],
+    "chemical": [
+      6
+    ],
+    "procedure": [
+      7
+    ],
+    "that": [
+      8,
+      33,
+      38
+    ],
+    "breaks": [
+      9
+    ],
+    "terminally": [
+      11
+    ],
+    "labeled": [
+      12,
+      26
+    ],
+    "molecule": [
+      14
+    ],
+    "partially": [
+      15
+    ],
+    "at": [
+      16,
+      42,
+      44,
+      46,
+      52,
+      90
+    ],
+    "each": [
+      17
+    ],
+    "repetition": [
+      18
+    ],
+    "of": [
+      19,
+      24,
+      32,
+      58,
+      81,
+      89,
+      97
+    ],
+    "base.": [
+      21,
+      34
+    ],
+    "The": [
+      22,
+      84
+    ],
+    "lengths": [
+      23
+    ],
+    "the": [
+      25,
+      30,
+      56,
+      72,
+      79,
+      95
+    ],
+    "fragments": [
+      27
+    ],
+    "then": [
+      28
+    ],
+    "identify": [
+      29
+    ],
+    "positions": [
+      31
+    ],
+    "We": [
+      35
+    ],
+    "describe": [
+      36
+    ],
+    "reactions": [
+      37,
+      61
+    ],
+    "cleave": [
+      39
+    ],
+    "preferentially": [
+      41
+    ],
+    "guanines,": [
+      43
+    ],
+    "adenines,": [
+      45
+    ],
+    "cytosines": [
+      47,
+      53
+    ],
+    "and": [
+      48,
+      51
+    ],
+    "thymines": [
+      49
+    ],
+    "equally,": [
+      50
+    ],
+    "alone.": [
+      54
+    ],
+    "When": [
+      55
+    ],
+    "products": [
+      57
+    ],
+    "these": [
+      59
+    ],
+    "four": [
+      60
+    ],
+    "are": [
+      62
+    ],
+    "resolved": [
+      63
+    ],
+    "size,": [
+      65
+    ],
+    "electrophoresis": [
+      67
+    ],
+    "on": [
+      68
+    ],
+    "polyacrylamide": [
+      70
+    ],
+    "gel,": [
+      71
+    ],
+    "sequence": [
+      74
+    ],
+    "read": [
+      77
+    ],
+    "from": [
+      78,
+      94
+    ],
+    "pattern": [
+      80
+    ],
+    "radioactive": [
+      82
+    ],
+    "bands.": [
+      83
+    ],
+    "technique": [
+      85
+    ],
+    "will": [
+      86
+    ],
+    "permit": [
+      87
+    ],
+    "sequencing": [
+      88
+    ],
+    "least": [
+      91
+    ],
+    "100": [
+      92
+    ],
+    "bases": [
+      93
+    ],
+    "point": [
+      96
+    ],
+    "labeling.": [
+      98
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1992595091",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 89
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 71
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 75
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 82
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 90
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 79
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 82
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 77
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 98
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 96
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 105
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 111
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 99
+    }
+  ],
+  "updated_date": "2025-06-05T21:40:32.722765",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,1508 @@
+{
+  "id": "https://openalex.org/W2017848780",
+  "doi": "https://doi.org/10.1074/jbc.m704465200",
+  "title": "Disulfide Bond Mediates Aggregation, Toxicity, and Ubiquitylation of Familial Amyotrophic Lateral Sclerosis-linked Mutant SOD1",
+  "display_name": "Disulfide Bond Mediates Aggregation, Toxicity, and Ubiquitylation of Familial Amyotrophic Lateral Sclerosis-linked Mutant SOD1",
+  "publication_year": 2007,
+  "publication_date": "2007-08-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2017848780",
+    "doi": "https://doi.org/10.1074/jbc.m704465200",
+    "mag": "2017848780",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/17666395"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1074/jbc.m704465200",
+    "pdf_url": "http://www.jbc.org/article/S002192582058705X/pdf",
+    "source": {
+      "id": "https://openalex.org/S140251998",
+      "display_name": "Journal of Biological Chemistry",
+      "issn_l": "0021-9258",
+      "issn": [
+        "0021-9258",
+        "1067-8816",
+        "1083-351X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "http://www.jbc.org/article/S002192582058705X/pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5050830875",
+        "display_name": "Jun‐ichi Niwa",
+        "orcid": "https://orcid.org/0000-0002-7137-4662"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I16528096",
+          "display_name": "Aichi Medical University",
+          "ror": "https://ror.org/02h6cs343",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I16528096"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I60134161",
+          "display_name": "Nagoya University",
+          "ror": "https://ror.org/04chrp450",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jun-ichi Niwa",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+        "Stroke Center, Aichi Medical University, Aichi 480-1195, Japan"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Stroke Center, Aichi Medical University, Aichi 480-1195, Japan",
+          "institution_ids": [
+            "https://openalex.org/I16528096"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+          "institution_ids": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087630941",
+        "display_name": "Shin‐ichi Yamada",
+        "orcid": "https://orcid.org/0000-0001-8173-8303"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I60134161",
+          "display_name": "Nagoya University",
+          "ror": "https://ror.org/04chrp450",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shin-ichi Yamada",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+          "institution_ids": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029700102",
+        "display_name": "Shinsuke Ishigaki",
+        "orcid": "https://orcid.org/0000-0002-9555-0659"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I60134161",
+          "display_name": "Nagoya University",
+          "ror": "https://ror.org/04chrp450",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shinsuke Ishigaki",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+          "institution_ids": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031121023",
+        "display_name": "Jun Sone",
+        "orcid": "https://orcid.org/0000-0002-9057-7609"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I60134161",
+          "display_name": "Nagoya University",
+          "ror": "https://ror.org/04chrp450",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jun Sone",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+          "institution_ids": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000822704",
+        "display_name": "Miho Takahashi",
+        "orcid": "https://orcid.org/0000-0002-4483-3894"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I60134161",
+          "display_name": "Nagoya University",
+          "ror": "https://ror.org/04chrp450",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Miho Takahashi",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+          "institution_ids": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036681718",
+        "display_name": "Masahisa Katsuno",
+        "orcid": "https://orcid.org/0000-0001-9453-9311"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I60134161",
+          "display_name": "Nagoya University",
+          "ror": "https://ror.org/04chrp450",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Masahisa Katsuno",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+          "institution_ids": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050964668",
+        "display_name": "Fumiaki Tanaka",
+        "orcid": "https://orcid.org/0000-0002-9961-2693"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I60134161",
+          "display_name": "Nagoya University",
+          "ror": "https://ror.org/04chrp450",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Fumiaki Tanaka",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+          "institution_ids": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039543515",
+        "display_name": "Manabu Doyu",
+        "orcid": "https://orcid.org/0000-0002-6264-9927"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I16528096",
+          "display_name": "Aichi Medical University",
+          "ror": "https://ror.org/02h6cs343",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I16528096"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I60134161",
+          "display_name": "Nagoya University",
+          "ror": "https://ror.org/04chrp450",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Manabu Doyu",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+        "Stroke Center, Aichi Medical University, Aichi 480-1195, Japan"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Stroke Center, Aichi Medical University, Aichi 480-1195, Japan",
+          "institution_ids": [
+            "https://openalex.org/I16528096"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+          "institution_ids": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5045535997",
+        "display_name": "Gen Sobue",
+        "orcid": "https://orcid.org/0000-0003-4769-5922"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I60134161",
+          "display_name": "Nagoya University",
+          "ror": "https://ror.org/04chrp450",
+          "country_code": "JP",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gen Sobue",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Nagoya University Graduate School of Medicine, 65 Tsurumai-cho, Showa-ku, Nagoya 466-8500 and the",
+          "institution_ids": [
+            "https://openalex.org/I60134161"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2500,
+    "currency": "USD",
+    "value_usd": 2500
+  },
+  "apc_paid": {
+    "value": 2500,
+    "currency": "USD",
+    "value_usd": 2500
+  },
+  "fwci": 8.808,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 169,
+  "citation_normalized_percentile": {
+    "value": 0.999874,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "282",
+    "issue": "38",
+    "first_page": "28087",
+    "last_page": "28095"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10855",
+    "display_name": "Amyotrophic Lateral Sclerosis Research",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2728",
+      "display_name": "Neurology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10855",
+      "display_name": "Amyotrophic Lateral Sclerosis Research",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10085",
+      "display_name": "Parkinson's Disease Mechanisms and Treatments",
+      "score": 0.9952,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2728",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13481",
+      "display_name": "Neurological diseases and metabolism",
+      "score": 0.9708,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777615887",
+      "wikidata": "https://www.wikidata.org/wiki/Q15328137",
+      "display_name": "SOD1",
+      "level": 4,
+      "score": 0.95310116
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.7107859
+    },
+    {
+      "id": "https://openalex.org/C143065580",
+      "wikidata": "https://www.wikidata.org/wiki/Q3285695",
+      "display_name": "Mutant",
+      "level": 3,
+      "score": 0.6850581
+    },
+    {
+      "id": "https://openalex.org/C2780596555",
+      "wikidata": "https://www.wikidata.org/wiki/Q206901",
+      "display_name": "Amyotrophic lateral sclerosis",
+      "level": 3,
+      "score": 0.6656916
+    },
+    {
+      "id": "https://openalex.org/C2775838275",
+      "wikidata": "https://www.wikidata.org/wiki/Q410776",
+      "display_name": "Superoxide dismutase",
+      "level": 3,
+      "score": 0.49144876
+    },
+    {
+      "id": "https://openalex.org/C25602115",
+      "wikidata": "https://www.wikidata.org/wiki/Q407111",
+      "display_name": "Ubiquitin",
+      "level": 3,
+      "score": 0.4823948
+    },
+    {
+      "id": "https://openalex.org/C134459356",
+      "wikidata": "https://www.wikidata.org/wiki/Q4274835",
+      "display_name": "Ubiquitin ligase",
+      "level": 4,
+      "score": 0.45204335
+    },
+    {
+      "id": "https://openalex.org/C136238340",
+      "wikidata": "https://www.wikidata.org/wiki/Q7251455",
+      "display_name": "Protein aggregation",
+      "level": 2,
+      "score": 0.4505492
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.43427032
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.4071115
+    },
+    {
+      "id": "https://openalex.org/C2776151105",
+      "wikidata": "https://www.wikidata.org/wiki/Q898814",
+      "display_name": "Oxidative stress",
+      "level": 2,
+      "score": 0.2630679
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.2124657
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.18380082
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.07198995
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000690",
+      "descriptor_name": "Amyotrophic Lateral Sclerosis",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000690",
+      "descriptor_name": "Amyotrophic Lateral Sclerosis",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003545",
+      "descriptor_name": "Cysteine",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004220",
+      "descriptor_name": "Disulfides",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009154",
+      "descriptor_name": "Mutation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013482",
+      "descriptor_name": "Superoxide Dismutase",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013482",
+      "descriptor_name": "Superoxide Dismutase",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D025801",
+      "descriptor_name": "Ubiquitin",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000690",
+      "descriptor_name": "Amyotrophic Lateral Sclerosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002352",
+      "descriptor_name": "Carrier Proteins",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002352",
+      "descriptor_name": "Carrier Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D045744",
+      "descriptor_name": "Cell Line, Tumor",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003432",
+      "descriptor_name": "Cross-Linking Reagents",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003432",
+      "descriptor_name": "Cross-Linking Reagents",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003545",
+      "descriptor_name": "Cysteine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008822",
+      "descriptor_name": "Mice, Transgenic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008954",
+      "descriptor_name": "Models, Biological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018384",
+      "descriptor_name": "Oxidative Stress",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D046988",
+      "descriptor_name": "Proteasome Endopeptidase Complex",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D046988",
+      "descriptor_name": "Proteasome Endopeptidase Complex",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013482",
+      "descriptor_name": "Superoxide Dismutase",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000072105",
+      "descriptor_name": "Superoxide Dismutase-1",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D025801",
+      "descriptor_name": "Ubiquitin",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D025801",
+      "descriptor_name": "Ubiquitin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D044767",
+      "descriptor_name": "Ubiquitin-Protein Ligases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1074/jbc.m704465200",
+      "pdf_url": "http://www.jbc.org/article/S002192582058705X/pdf",
+      "source": {
+        "id": "https://openalex.org/S140251998",
+        "display_name": "Journal of Biological Chemistry",
+        "issn_l": "0021-9258",
+        "issn": [
+          "0021-9258",
+          "1067-8816",
+          "1083-351X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17666395",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1074/jbc.m704465200",
+    "pdf_url": "http://www.jbc.org/article/S002192582058705X/pdf",
+    "source": {
+      "id": "https://openalex.org/S140251998",
+      "display_name": "Journal of Biological Chemistry",
+      "issn_l": "0021-9258",
+      "issn": [
+        "0021-9258",
+        "1067-8816",
+        "1083-351X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 49,
+  "referenced_works": [
+    "https://openalex.org/W1488155304",
+    "https://openalex.org/W1525022089",
+    "https://openalex.org/W1542217606",
+    "https://openalex.org/W1605533832",
+    "https://openalex.org/W1870325908",
+    "https://openalex.org/W1909955981",
+    "https://openalex.org/W1940436875",
+    "https://openalex.org/W1966398941",
+    "https://openalex.org/W1966936049",
+    "https://openalex.org/W1972674040",
+    "https://openalex.org/W1974809155",
+    "https://openalex.org/W1982967923",
+    "https://openalex.org/W1983959956",
+    "https://openalex.org/W1996974151",
+    "https://openalex.org/W1997967702",
+    "https://openalex.org/W2004978936",
+    "https://openalex.org/W2013135033",
+    "https://openalex.org/W2013599007",
+    "https://openalex.org/W2021155980",
+    "https://openalex.org/W2021594222",
+    "https://openalex.org/W2023219143",
+    "https://openalex.org/W2032107666",
+    "https://openalex.org/W2036454611",
+    "https://openalex.org/W2040407175",
+    "https://openalex.org/W2041933318",
+    "https://openalex.org/W2042662902",
+    "https://openalex.org/W2047991384",
+    "https://openalex.org/W2066717249",
+    "https://openalex.org/W2070243481",
+    "https://openalex.org/W2073864172",
+    "https://openalex.org/W2079250951",
+    "https://openalex.org/W2097019287",
+    "https://openalex.org/W2099040799",
+    "https://openalex.org/W2099071260",
+    "https://openalex.org/W2101555677",
+    "https://openalex.org/W2105442888",
+    "https://openalex.org/W2106200048",
+    "https://openalex.org/W2106786078",
+    "https://openalex.org/W2107768418",
+    "https://openalex.org/W2110580010",
+    "https://openalex.org/W2133408527",
+    "https://openalex.org/W2150251501",
+    "https://openalex.org/W2157066013",
+    "https://openalex.org/W2157513658",
+    "https://openalex.org/W2167113152",
+    "https://openalex.org/W2623735571",
+    "https://openalex.org/W4211129887",
+    "https://openalex.org/W4229676205",
+    "https://openalex.org/W4253140965"
+  ],
+  "related_works": [
+    "https://openalex.org/W4229061875",
+    "https://openalex.org/W3151746898",
+    "https://openalex.org/W2357993352",
+    "https://openalex.org/W2168955466",
+    "https://openalex.org/W2158695265",
+    "https://openalex.org/W2131902967",
+    "https://openalex.org/W2100640924",
+    "https://openalex.org/W2053362200",
+    "https://openalex.org/W2029435936",
+    "https://openalex.org/W1999612823"
+  ],
+  "abstract_inverted_index": {
+    "Mutations": [
+      0
+    ],
+    "in": [
+      1,
+      36,
+      52,
+      76,
+      83,
+      139,
+      143
+    ],
+    "the": [
+      2,
+      14,
+      21,
+      44,
+      79,
+      134,
+      174
+    ],
+    "Cu/Zn-superoxide": [
+      3
+    ],
+    "dismutase": [
+      4
+    ],
+    "(SOD1)": [
+      5
+    ],
+    "gene": [
+      6
+    ],
+    "cause": [
+      7
+    ],
+    "familial": [
+      8,
+      154
+    ],
+    "amyotrophic": [
+      9
+    ],
+    "lateral": [
+      10
+    ],
+    "sclerosis": [
+      11
+    ],
+    "(ALS)": [
+      12
+    ],
+    "through": [
+      13
+    ],
+    "gain": [
+      15
+    ],
+    "of": [
+      16,
+      23,
+      32,
+      43,
+      56,
+      86,
+      113,
+      128
+    ],
+    "a": [
+      17,
+      101,
+      148
+    ],
+    "toxic": [
+      18,
+      25
+    ],
+    "function;": [
+      19
+    ],
+    "however,": [
+      20
+    ],
+    "nature": [
+      22
+    ],
+    "this": [
+      24
+    ],
+    "function": [
+      26
+    ],
+    "remains": [
+      27
+    ],
+    "largely": [
+      28
+    ],
+    "unknown.": [
+      29
+    ],
+    "Ubiquitylated": [
+      30
+    ],
+    "aggregates": [
+      31,
+      82
+    ],
+    "mutant": [
+      33,
+      64,
+      114,
+      140,
+      156,
+      170
+    ],
+    "SOD1": [
+      34,
+      65,
+      81,
+      115,
+      141,
+      157,
+      171
+    ],
+    "proteins": [
+      35
+    ],
+    "affected": [
+      37
+    ],
+    "brain": [
+      38
+    ],
+    "lesions": [
+      39
+    ],
+    "are": [
+      40,
+      47
+    ],
+    "pathological": [
+      41
+    ],
+    "hallmarks": [
+      42
+    ],
+    "disease": [
+      45
+    ],
+    "and": [
+      46,
+      78,
+      111,
+      125,
+      158,
+      176,
+      180
+    ],
+    "suggested": [
+      48
+    ],
+    "to": [
+      49
+    ],
+    "be": [
+      50
+    ],
+    "involved": [
+      51
+    ],
+    "several": [
+      53
+    ],
+    "proposed": [
+      54
+    ],
+    "mechanisms": [
+      55
+    ],
+    "motor": [
+      57
+    ],
+    "neuron": [
+      58
+    ],
+    "death.": [
+      59
+    ],
+    "Recent": [
+      60
+    ],
+    "studies": [
+      61
+    ],
+    "suggest": [
+      62
+    ],
+    "that": [
+      63,
+      100,
+      151,
+      167
+    ],
+    "readily": [
+      66
+    ],
+    "forms": [
+      67
+    ],
+    "an": [
+      68
+    ],
+    "incorrect": [
+      69
+    ],
+    "disulfide": [
+      70,
+      95,
+      104
+    ],
+    "bond": [
+      71,
+      105
+    ],
+    "upon": [
+      72
+    ],
+    "mild": [
+      73
+    ],
+    "oxidative": [
+      74
+    ],
+    "stress": [
+      75
+    ],
+    "vitro,": [
+      77
+    ],
+    "insoluble": [
+      80
+    ],
+    "spinal": [
+      84
+    ],
+    "cord": [
+      85
+    ],
+    "ALS": [
+      87
+    ],
+    "model": [
+      88
+    ],
+    "mice": [
+      89
+    ],
+    "contain": [
+      90
+    ],
+    "multimers": [
+      91
+    ],
+    "cross-linked": [
+      92,
+      178
+    ],
+    "via": [
+      93
+    ],
+    "intermolecular": [
+      94,
+      103
+    ],
+    "bonds.": [
+      96
+    ],
+    "Here": [
+      97
+    ],
+    "we": [
+      98
+    ],
+    "show": [
+      99
+    ],
+    "non-physiological": [
+      102
+    ],
+    "between": [
+      106
+    ],
+    "cysteines": [
+      107,
+      136
+    ],
+    "at": [
+      108
+    ],
+    "positions": [
+      109
+    ],
+    "6": [
+      110
+    ],
+    "111": [
+      112
+    ],
+    "is": [
+      116,
+      147
+    ],
+    "important": [
+      117
+    ],
+    "for": [
+      118,
+      183
+    ],
+    "high": [
+      119
+    ],
+    "molecular": [
+      120
+    ],
+    "weight": [
+      121
+    ],
+    "aggregate": [
+      122
+    ],
+    "formation,": [
+      123
+    ],
+    "ubiquitylation,": [
+      124
+    ],
+    "neurotoxicity,": [
+      126
+    ],
+    "all": [
+      127
+    ],
+    "which": [
+      129
+    ],
+    "were": [
+      130,
+      137
+    ],
+    "dramatically": [
+      131
+    ],
+    "reduced": [
+      132
+    ],
+    "when": [
+      133
+    ],
+    "pertinent": [
+      135
+    ],
+    "replaced": [
+      138
+    ],
+    "expressed": [
+      142
+    ],
+    "Neuro-2a": [
+      144
+    ],
+    "cells.": [
+      145
+    ],
+    "Dorfin": [
+      146,
+      168
+    ],
+    "ubiquityl": [
+      149
+    ],
+    "ligase": [
+      150
+    ],
+    "specifically": [
+      152
+    ],
+    "binds": [
+      153
+    ],
+    "ALS-linked": [
+      155
+    ],
+    "ubiquitylates": [
+      159
+    ],
+    "it,": [
+      160
+    ],
+    "thereby": [
+      161
+    ],
+    "promoting": [
+      162
+    ],
+    "its": [
+      163
+    ],
+    "degradation.": [
+      164,
+      185
+    ],
+    "We": [
+      165
+    ],
+    "found": [
+      166
+    ],
+    "ubiquitylated": [
+      169
+    ],
+    "by": [
+      172
+    ],
+    "recognizing": [
+      173
+    ],
+    "Cys(6)-": [
+      175
+    ],
+    "Cys(111)-disulfide": [
+      177
+    ],
+    "form": [
+      179
+    ],
+    "targeted": [
+      181
+    ],
+    "it": [
+      182
+    ],
+    "proteasomal": [
+      184
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2017848780",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 21
+    }
+  ],
+  "updated_date": "2025-05-19T06:05:23.774047",
+  "created_date": "2016-06-24"
+}

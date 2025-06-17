@@ -1,0 +1,987 @@
+{
+  "id": "https://openalex.org/W1985160703",
+  "doi": "https://doi.org/10.1073/pnas.82.24.8572",
+  "title": "Upstream promoter element of the human metallothionein-IIA gene can act like an enhancer element.",
+  "display_name": "Upstream promoter element of the human metallothionein-IIA gene can act like an enhancer element.",
+  "publication_year": 1985,
+  "publication_date": "1985-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1985160703",
+    "doi": "https://doi.org/10.1073/pnas.82.24.8572",
+    "mag": "1985160703",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/3866241",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/390959"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.82.24.8572",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.1073/pnas.82.24.8572",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5024323606",
+        "display_name": "Alois Haslinger",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "A Haslinger",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5056315342",
+        "display_name": "Michael Karin",
+        "orcid": "https://orcid.org/0000-0002-2758-6473"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "M Karin",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 16.719,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 122,
+  "citation_normalized_percentile": {
+    "value": 0.916047,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "82",
+    "issue": "24",
+    "first_page": "8572",
+    "last_page": "8576"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10915",
+    "display_name": "Trace Elements in Health",
+    "score": 0.9983,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10915",
+      "display_name": "Trace Elements in Health",
+      "score": 0.9983,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10521",
+      "display_name": "RNA and protein synthesis mechanisms",
+      "score": 0.9967,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10604",
+      "display_name": "RNA Research and Splicing",
+      "score": 0.9943,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/enhancer-rnas",
+      "display_name": "Enhancer RNAs",
+      "score": 0.6814492
+    },
+    {
+      "id": "https://openalex.org/keywords/transcription",
+      "display_name": "Transcription",
+      "score": 0.6365175
+    },
+    {
+      "id": "https://openalex.org/keywords/response-element",
+      "display_name": "Response element",
+      "score": 0.51393956
+    },
+    {
+      "id": "https://openalex.org/keywords/rna-polymerase-ii",
+      "display_name": "RNA polymerase II",
+      "score": 0.47689512
+    },
+    {
+      "id": "https://openalex.org/keywords/upstream-activating-sequence",
+      "display_name": "Upstream activating sequence",
+      "score": 0.442993
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C111936080",
+      "wikidata": "https://www.wikidata.org/wiki/Q913367",
+      "display_name": "Enhancer",
+      "level": 4,
+      "score": 0.96673656
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.7269062
+    },
+    {
+      "id": "https://openalex.org/C21784809",
+      "wikidata": "https://www.wikidata.org/wiki/Q17119097",
+      "display_name": "Enhancer RNAs",
+      "level": 5,
+      "score": 0.6814492
+    },
+    {
+      "id": "https://openalex.org/C179926584",
+      "wikidata": "https://www.wikidata.org/wiki/Q207714",
+      "display_name": "Transcription (linguistics)",
+      "level": 2,
+      "score": 0.6365175
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.6094045
+    },
+    {
+      "id": "https://openalex.org/C132376346",
+      "wikidata": "https://www.wikidata.org/wiki/Q7315962",
+      "display_name": "Response element",
+      "level": 5,
+      "score": 0.51393956
+    },
+    {
+      "id": "https://openalex.org/C101762097",
+      "wikidata": "https://www.wikidata.org/wiki/Q224093",
+      "display_name": "Promoter",
+      "level": 4,
+      "score": 0.48303255
+    },
+    {
+      "id": "https://openalex.org/C64350747",
+      "wikidata": "https://www.wikidata.org/wiki/Q15334993",
+      "display_name": "RNA polymerase II",
+      "level": 5,
+      "score": 0.47689512
+    },
+    {
+      "id": "https://openalex.org/C21592294",
+      "wikidata": "https://www.wikidata.org/wiki/Q3238407",
+      "display_name": "Regulatory sequence",
+      "level": 4,
+      "score": 0.47022673
+    },
+    {
+      "id": "https://openalex.org/C192245184",
+      "wikidata": "https://www.wikidata.org/wiki/Q3552104",
+      "display_name": "Upstream activating sequence",
+      "level": 5,
+      "score": 0.442993
+    },
+    {
+      "id": "https://openalex.org/C153911025",
+      "wikidata": "https://www.wikidata.org/wiki/Q7202",
+      "display_name": "Molecular biology",
+      "level": 1,
+      "score": 0.435615
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.42780194
+    },
+    {
+      "id": "https://openalex.org/C165864922",
+      "wikidata": "https://www.wikidata.org/wiki/Q411391",
+      "display_name": "Regulation of gene expression",
+      "level": 3,
+      "score": 0.42607367
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.3416357
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D004742",
+      "descriptor_name": "Enhancer Elements, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005809",
+      "descriptor_name": "Genes, Regulator",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008668",
+      "descriptor_name": "Metallothionein",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011401",
+      "descriptor_name": "Promoter Regions, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000123",
+      "descriptor_name": "Acetyltransferases",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000123",
+      "descriptor_name": "Acetyltransferases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015500",
+      "descriptor_name": "Chloramphenicol O-Acetyltransferase",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002872",
+      "descriptor_name": "Chromosome Deletion",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002874",
+      "descriptor_name": "Chromosome Mapping",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004274",
+      "descriptor_name": "DNA, Recombinant",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008668",
+      "descriptor_name": "Metallothionein",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012091",
+      "descriptor_name": "Repetitive Sequences, Nucleic Acid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1073/pnas.82.24.8572",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S125754415",
+        "display_name": "Proceedings of the National Academy of Sciences",
+        "issn_l": "0027-8424",
+        "issn": [
+          "0027-8424",
+          "1091-6490"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320052",
+        "host_organization_name": "National Academy of Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320052"
+        ],
+        "host_organization_lineage_names": [
+          "National Academy of Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc390959",
+      "pdf_url": "https://europepmc.org/articles/pmc390959?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC390959",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/3866241",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.82.24.8572",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 35,
+  "referenced_works": [
+    "https://openalex.org/W1579796122",
+    "https://openalex.org/W1964990343",
+    "https://openalex.org/W1968244375",
+    "https://openalex.org/W1970863559",
+    "https://openalex.org/W1971420993",
+    "https://openalex.org/W1977381463",
+    "https://openalex.org/W1978019649",
+    "https://openalex.org/W1980299957",
+    "https://openalex.org/W1990045705",
+    "https://openalex.org/W2018335584",
+    "https://openalex.org/W2019332162",
+    "https://openalex.org/W2022932732",
+    "https://openalex.org/W2024485290",
+    "https://openalex.org/W2024964870",
+    "https://openalex.org/W2035434814",
+    "https://openalex.org/W2038218774",
+    "https://openalex.org/W2054491767",
+    "https://openalex.org/W2057893650",
+    "https://openalex.org/W2058212923",
+    "https://openalex.org/W2058474728",
+    "https://openalex.org/W2060333964",
+    "https://openalex.org/W2061102119",
+    "https://openalex.org/W2062408930",
+    "https://openalex.org/W2067956561",
+    "https://openalex.org/W2068551847",
+    "https://openalex.org/W2069765528",
+    "https://openalex.org/W2084100792",
+    "https://openalex.org/W2084167132",
+    "https://openalex.org/W2092216600",
+    "https://openalex.org/W2103334728",
+    "https://openalex.org/W2126120030",
+    "https://openalex.org/W2144206181",
+    "https://openalex.org/W2415789938",
+    "https://openalex.org/W4234408131",
+    "https://openalex.org/W4243695823"
+  ],
+  "related_works": [
+    "https://openalex.org/W4292247422",
+    "https://openalex.org/W3199510140",
+    "https://openalex.org/W3045090570",
+    "https://openalex.org/W3014787543",
+    "https://openalex.org/W2903161951",
+    "https://openalex.org/W2763907932",
+    "https://openalex.org/W2253035633",
+    "https://openalex.org/W2084663800",
+    "https://openalex.org/W1980705952",
+    "https://openalex.org/W1924251033"
+  ],
+  "abstract_inverted_index": {
+    "Initiation": [
+      0
+    ],
+    "of": [
+      1,
+      37,
+      63,
+      73,
+      75,
+      84,
+      98,
+      112,
+      116
+    ],
+    "transcription": [
+      2,
+      74
+    ],
+    "by": [
+      3,
+      12,
+      48
+    ],
+    "RNA": [
+      4
+    ],
+    "polymerase": [
+      5
+    ],
+    "II": [
+      6
+    ],
+    "in": [
+      7,
+      24,
+      56,
+      60,
+      103
+    ],
+    "eukaryotes": [
+      8
+    ],
+    "is": [
+      9,
+      53,
+      79,
+      107
+    ],
+    "strongly": [
+      10
+    ],
+    "increased": [
+      11
+    ],
+    "cis-acting": [
+      13
+    ],
+    "genetic": [
+      14
+    ],
+    "elements,": [
+      15
+    ],
+    "known": [
+      16
+    ],
+    "as": [
+      17
+    ],
+    "activators": [
+      18
+    ],
+    "or": [
+      19
+    ],
+    "enhancers.": [
+      20
+    ],
+    "Enhancers,": [
+      21
+    ],
+    "first": [
+      22
+    ],
+    "detected": [
+      23
+    ],
+    "simian": [
+      25
+    ],
+    "virus": [
+      26
+    ],
+    "40": [
+      27
+    ],
+    "(SV40),": [
+      28
+    ],
+    "were": [
+      29
+    ],
+    "subsequently": [
+      30
+    ],
+    "also": [
+      31
+    ],
+    "found": [
+      32
+    ],
+    "to": [
+      33,
+      81,
+      110
+    ],
+    "control": [
+      34
+    ],
+    "the": [
+      35,
+      61,
+      69,
+      76,
+      82,
+      89,
+      113
+    ],
+    "expression": [
+      36
+    ],
+    "several": [
+      38
+    ],
+    "cellular": [
+      39,
+      100
+    ],
+    "genes.": [
+      40
+    ],
+    "The": [
+      41,
+      93
+    ],
+    "human": [
+      42
+    ],
+    "metallothionein-IIA": [
+      43
+    ],
+    "(hMT-IIA)": [
+      44
+    ],
+    "gene,": [
+      45
+    ],
+    "although": [
+      46
+    ],
+    "inducible": [
+      47
+    ],
+    "heavy": [
+      49
+    ],
+    "metals": [
+      50
+    ],
+    "and": [
+      51,
+      95,
+      123,
+      128
+    ],
+    "glucocorticoids,": [
+      52
+    ],
+    "widely": [
+      54
+    ],
+    "expressed": [
+      55
+    ],
+    "most": [
+      57
+    ],
+    "cell": [
+      58
+    ],
+    "types": [
+      59
+    ],
+    "absence": [
+      62
+    ],
+    "inducers.": [
+      64
+    ],
+    "Here": [
+      65
+    ],
+    "we": [
+      66
+    ],
+    "show": [
+      67
+    ],
+    "that": [
+      68,
+      111
+    ],
+    "high": [
+      70
+    ],
+    "basal": [
+      71
+    ],
+    "level": [
+      72
+    ],
+    "hMT-IIA": [
+      77,
+      90
+    ],
+    "gene": [
+      78
+    ],
+    "due": [
+      80
+    ],
+    "presence": [
+      83
+    ],
+    "an": [
+      85
+    ],
+    "enhancer": [
+      86,
+      101,
+      114
+    ],
+    "element": [
+      87,
+      102,
+      115
+    ],
+    "within": [
+      88
+    ],
+    "promoter": [
+      91,
+      130
+    ],
+    "region.": [
+      92
+    ],
+    "structural": [
+      94
+    ],
+    "functional": [
+      96,
+      122
+    ],
+    "organization": [
+      97
+    ],
+    "this": [
+      99
+    ],
+    "two": [
+      104
+    ],
+    "direct": [
+      105
+    ],
+    "repeats": [
+      106
+    ],
+    "strikingly": [
+      108
+    ],
+    "similar": [
+      109
+    ],
+    "SV40.": [
+      117
+    ],
+    "This": [
+      118
+    ],
+    "suggests": [
+      119
+    ],
+    "a": [
+      120
+    ],
+    "possible": [
+      121
+    ],
+    "evolutionary": [
+      124
+    ],
+    "relationship": [
+      125
+    ],
+    "between": [
+      126
+    ],
+    "enhancers": [
+      127
+    ],
+    "upstream": [
+      129
+    ],
+    "elements.": [
+      131
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1985160703",
+  "counts_by_year": [
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-17T00:55:35.418501",
+  "created_date": "2016-06-24"
+}

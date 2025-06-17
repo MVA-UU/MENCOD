@@ -1,0 +1,1382 @@
+{
+  "id": "https://openalex.org/W2037847999",
+  "doi": "https://doi.org/10.1242/jcs.038430",
+  "title": "Bax inhibitor 1 regulates ER-stress-induced ROS accumulation through the regulation of cytochrome P450 2E1",
+  "display_name": "Bax inhibitor 1 regulates ER-stress-induced ROS accumulation through the regulation of cytochrome P450 2E1",
+  "publication_year": 2009,
+  "publication_date": "2009-04-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2037847999",
+    "doi": "https://doi.org/10.1242/jcs.038430",
+    "mag": "2037847999",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19339548"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1242/jcs.038430",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S5677253",
+      "display_name": "Journal of Cell Science",
+      "issn_l": "0021-9533",
+      "issn": [
+        "0021-9533",
+        "1477-9137"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311847",
+      "host_organization_name": "The Company of Biologists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311847"
+      ],
+      "host_organization_lineage_names": [
+        "The Company of Biologists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5041473993",
+        "display_name": "Hyung‐Ryong Kim",
+        "orcid": "https://orcid.org/0000-0002-6710-6964"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I77079311",
+          "display_name": "Wonkwang University",
+          "ror": "https://ror.org/006776986",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I77079311"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hyung-Ryong Kim",
+      "raw_affiliation_strings": [
+        "Department of Dental Pharmacology, School of Dentistry, Wonkwang University, Iksan, Chonbuk, 570-749, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Dental Pharmacology, School of Dentistry, Wonkwang University, Iksan, Chonbuk, 570-749, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I77079311"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5075693201",
+        "display_name": "Geum‐Hwa Lee",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I80611190",
+          "display_name": "Jeonbuk National University",
+          "ror": "https://ror.org/05q92br09",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I80611190"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Geum-Hwa Lee",
+      "raw_affiliation_strings": [
+        "Department of Pharmacology and Institute of Cardiovascular Research, School of Medicine, Chonbuk National University, Jeonju, 560-182, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pharmacology and Institute of Cardiovascular Research, School of Medicine, Chonbuk National University, Jeonju, 560-182, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I80611190"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030085716",
+        "display_name": "Eun Yi Cho",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I111277659",
+          "display_name": "Chonnam National University",
+          "ror": "https://ror.org/05kzjxq56",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111277659"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Eun Yi Cho",
+      "raw_affiliation_strings": [
+        "School of Biological Sciences and Technology, Chonnam National University, Gwangju 500-757, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Biological Sciences and Technology, Chonnam National University, Gwangju 500-757, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I111277659"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050666299",
+        "display_name": "Soo‐Wan Chae",
+        "orcid": "https://orcid.org/0000-0003-3660-8272"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I80611190",
+          "display_name": "Jeonbuk National University",
+          "ror": "https://ror.org/05q92br09",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I80611190"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Soo-Wan Chae",
+      "raw_affiliation_strings": [
+        "Clinical Trial Center, Chonbuk Hospital, Jeonju, 561-712, Republic of Korea",
+        "Department of Pharmacology and Institute of Cardiovascular Research, School of Medicine, Chonbuk National University, Jeonju, 560-182, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pharmacology and Institute of Cardiovascular Research, School of Medicine, Chonbuk National University, Jeonju, 560-182, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I80611190"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Clinical Trial Center, Chonbuk Hospital, Jeonju, 561-712, Republic of Korea",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101621978",
+        "display_name": "Taeho Ahn",
+        "orcid": "https://orcid.org/0000-0002-7804-5861"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I111277659",
+          "display_name": "Chonnam National University",
+          "ror": "https://ror.org/05kzjxq56",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111277659"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Taeho Ahn",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry, College of Veterinary Medicine, Chonnam National University, Gwangju 500-757, Republic of Korea."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biochemistry, College of Veterinary Medicine, Chonnam National University, Gwangju 500-757, Republic of Korea.",
+          "institution_ids": [
+            "https://openalex.org/I111277659"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5077043027",
+        "display_name": "Han‐Jung Chae",
+        "orcid": "https://orcid.org/0000-0003-4190-9889"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I80611190",
+          "display_name": "Jeonbuk National University",
+          "ror": "https://ror.org/05q92br09",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I80611190"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Han-Jung Chae",
+      "raw_affiliation_strings": [
+        "Clinical Trial Center, Chonbuk Hospital, Jeonju, 561-712, Republic of Korea",
+        "Department of Pharmacology and Institute of Cardiovascular Research, School of Medicine, Chonbuk National University, Jeonju, 560-182, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pharmacology and Institute of Cardiovascular Research, School of Medicine, Chonbuk National University, Jeonju, 560-182, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I80611190"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Clinical Trial Center, Chonbuk Hospital, Jeonju, 561-712, Republic of Korea",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.765,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 107,
+  "citation_normalized_percentile": {
+    "value": 0.999873,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "122",
+    "issue": "8",
+    "first_page": "1126",
+    "last_page": "1133"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11150",
+    "display_name": "Endoplasmic Reticulum Stress and Disease",
+    "score": 0.9997,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1307",
+      "display_name": "Cell Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11150",
+      "display_name": "Endoplasmic Reticulum Stress and Disease",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10077",
+      "display_name": "Neuroscience and Neuropharmacology Research",
+      "score": 0.9937,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10587",
+      "display_name": "Autophagy in Disease and Therapy",
+      "score": 0.9889,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C139447449",
+      "wikidata": "https://www.wikidata.org/wiki/Q14633900",
+      "display_name": "Unfolded protein response",
+      "level": 3,
+      "score": 0.7854525
+    },
+    {
+      "id": "https://openalex.org/C48349386",
+      "wikidata": "https://www.wikidata.org/wiki/Q424361",
+      "display_name": "Reactive oxygen species",
+      "level": 2,
+      "score": 0.73263127
+    },
+    {
+      "id": "https://openalex.org/C158617107",
+      "wikidata": "https://www.wikidata.org/wiki/Q79927",
+      "display_name": "Endoplasmic reticulum",
+      "level": 2,
+      "score": 0.7083393
+    },
+    {
+      "id": "https://openalex.org/C526171541",
+      "wikidata": "https://www.wikidata.org/wiki/Q407693",
+      "display_name": "Cytochrome P450",
+      "level": 3,
+      "score": 0.6175579
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.5984444
+    },
+    {
+      "id": "https://openalex.org/C127561419",
+      "wikidata": "https://www.wikidata.org/wiki/Q224527",
+      "display_name": "Downregulation and upregulation",
+      "level": 3,
+      "score": 0.5159448
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.5126166
+    },
+    {
+      "id": "https://openalex.org/C190283241",
+      "wikidata": "https://www.wikidata.org/wiki/Q14599311",
+      "display_name": "Apoptosis",
+      "level": 2,
+      "score": 0.51150215
+    },
+    {
+      "id": "https://openalex.org/C140027455",
+      "wikidata": "https://www.wikidata.org/wiki/Q14864434",
+      "display_name": "CYP2E1",
+      "level": 4,
+      "score": 0.47256938
+    },
+    {
+      "id": "https://openalex.org/C2780829032",
+      "wikidata": "https://www.wikidata.org/wiki/Q898539",
+      "display_name": "Lipid peroxidation",
+      "level": 3,
+      "score": 0.42607462
+    },
+    {
+      "id": "https://openalex.org/C2776151105",
+      "wikidata": "https://www.wikidata.org/wiki/Q898814",
+      "display_name": "Oxidative stress",
+      "level": 2,
+      "score": 0.40210548
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.3039769
+    },
+    {
+      "id": "https://openalex.org/C181199279",
+      "wikidata": "https://www.wikidata.org/wiki/Q8047",
+      "display_name": "Enzyme",
+      "level": 2,
+      "score": 0.149122
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D051017",
+      "descriptor_name": "Apoptosis Regulatory Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D019392",
+      "descriptor_name": "Cytochrome P-450 CYP2E1",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004721",
+      "descriptor_name": "Endoplasmic Reticulum",
+      "qualifier_ui": "Q000201",
+      "qualifier_name": "enzymology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008565",
+      "descriptor_name": "Membrane Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018384",
+      "descriptor_name": "Oxidative Stress",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D017382",
+      "descriptor_name": "Reactive Oxygen Species",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D051017",
+      "descriptor_name": "Apoptosis Regulatory Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051017",
+      "descriptor_name": "Apoptosis Regulatory Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016923",
+      "descriptor_name": "Cell Death",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D045744",
+      "descriptor_name": "Cell Line, Tumor",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002753",
+      "descriptor_name": "Chlorzoxazone",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002753",
+      "descriptor_name": "Chlorzoxazone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019392",
+      "descriptor_name": "Cytochrome P-450 CYP2E1",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019392",
+      "descriptor_name": "Cytochrome P-450 CYP2E1",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D065691",
+      "descriptor_name": "Cytochrome P-450 CYP2E1 Inhibitors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004721",
+      "descriptor_name": "Endoplasmic Reticulum",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004721",
+      "descriptor_name": "Endoplasmic Reticulum",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004791",
+      "descriptor_name": "Enzyme Inhibitors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004791",
+      "descriptor_name": "Enzyme Inhibitors",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006900",
+      "descriptor_name": "Hydroxylation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007700",
+      "descriptor_name": "Kinetics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015227",
+      "descriptor_name": "Lipid Peroxidation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008565",
+      "descriptor_name": "Membrane Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008565",
+      "descriptor_name": "Membrane Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009251",
+      "descriptor_name": "NADPH-Ferrihemoprotein Reductase",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009251",
+      "descriptor_name": "NADPH-Ferrihemoprotein Reductase",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009596",
+      "descriptor_name": "Nitrophenols",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009596",
+      "descriptor_name": "Nitrophenols",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018384",
+      "descriptor_name": "Oxidative Stress",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D034622",
+      "descriptor_name": "RNA Interference",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D034741",
+      "descriptor_name": "RNA, Small Interfering",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D034741",
+      "descriptor_name": "RNA, Small Interfering",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017382",
+      "descriptor_name": "Reactive Oxygen Species",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013379",
+      "descriptor_name": "Substrate Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014162",
+      "descriptor_name": "Transfection",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1242/jcs.038430",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S5677253",
+        "display_name": "Journal of Cell Science",
+        "issn_l": "0021-9533",
+        "issn": [
+          "0021-9533",
+          "1477-9137"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311847",
+        "host_organization_name": "The Company of Biologists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311847"
+        ],
+        "host_organization_lineage_names": [
+          "The Company of Biologists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19339548",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 34,
+  "referenced_works": [
+    "https://openalex.org/W1509553808",
+    "https://openalex.org/W1579297624",
+    "https://openalex.org/W1968064976",
+    "https://openalex.org/W1968827252",
+    "https://openalex.org/W1970077272",
+    "https://openalex.org/W2002681196",
+    "https://openalex.org/W2012027505",
+    "https://openalex.org/W2014362986",
+    "https://openalex.org/W2017302947",
+    "https://openalex.org/W2018179423",
+    "https://openalex.org/W2018904817",
+    "https://openalex.org/W2020934562",
+    "https://openalex.org/W2029313521",
+    "https://openalex.org/W2033607990",
+    "https://openalex.org/W2034213169",
+    "https://openalex.org/W2035831124",
+    "https://openalex.org/W2037812043",
+    "https://openalex.org/W2038480923",
+    "https://openalex.org/W2062266108",
+    "https://openalex.org/W2064194904",
+    "https://openalex.org/W2069208899",
+    "https://openalex.org/W2077370068",
+    "https://openalex.org/W2086090484",
+    "https://openalex.org/W2086300393",
+    "https://openalex.org/W2104034347",
+    "https://openalex.org/W2114026423",
+    "https://openalex.org/W2152399868",
+    "https://openalex.org/W2159357805",
+    "https://openalex.org/W2162690000",
+    "https://openalex.org/W2169345003",
+    "https://openalex.org/W2169408785",
+    "https://openalex.org/W2171917686",
+    "https://openalex.org/W3086930896",
+    "https://openalex.org/W312028319"
+  ],
+  "related_works": [
+    "https://openalex.org/W3031468220",
+    "https://openalex.org/W2991046320",
+    "https://openalex.org/W2766222389",
+    "https://openalex.org/W2385169084",
+    "https://openalex.org/W2148632242",
+    "https://openalex.org/W2095713125",
+    "https://openalex.org/W2089198803",
+    "https://openalex.org/W2039420809",
+    "https://openalex.org/W2006260390",
+    "https://openalex.org/W1967800198"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "study": [
+      1
+    ],
+    "investigated": [
+      2
+    ],
+    "the": [
+      3,
+      13,
+      21,
+      46,
+      58,
+      102,
+      146,
+      164,
+      173,
+      181,
+      199,
+      204
+    ],
+    "molecular": [
+      4
+    ],
+    "mechanism": [
+      5
+    ],
+    "by": [
+      6,
+      193
+    ],
+    "which": [
+      7
+    ],
+    "Bax": [
+      8
+    ],
+    "inhibitor": [
+      9
+    ],
+    "1": [
+      10
+    ],
+    "(BI1)": [
+      11
+    ],
+    "abrogates": [
+      12
+    ],
+    "accumulation": [
+      14,
+      53,
+      125,
+      200
+    ],
+    "of": [
+      15,
+      43,
+      57,
+      70,
+      128,
+      148,
+      166,
+      176,
+      183,
+      201
+    ],
+    "reactive": [
+      16
+    ],
+    "oxygen": [
+      17
+    ],
+    "species": [
+      18
+    ],
+    "(ROS)": [
+      19
+    ],
+    "in": [
+      20,
+      73,
+      80,
+      114
+    ],
+    "endoplasmic": [
+      22
+    ],
+    "reticulum": [
+      23
+    ],
+    "(ER).": [
+      24
+    ],
+    "Electron": [
+      25
+    ],
+    "uncoupling": [
+      26
+    ],
+    "between": [
+      27
+    ],
+    "NADPH-dependent": [
+      28
+    ],
+    "cytochrome": [
+      29,
+      34
+    ],
+    "P450": [
+      30,
+      35,
+      71,
+      87,
+      129,
+      141,
+      158,
+      169,
+      177,
+      188,
+      210
+    ],
+    "reductase": [
+      31
+    ],
+    "(NPR)": [
+      32
+    ],
+    "and": [
+      33,
+      54,
+      101,
+      126,
+      140,
+      168,
+      171,
+      203
+    ],
+    "2E1": [
+      36,
+      72,
+      88,
+      189
+    ],
+    "(P450": [
+      37
+    ],
+    "2E1)": [
+      38
+    ],
+    "is": [
+      39
+    ],
+    "a": [
+      40,
+      132
+    ],
+    "major": [
+      41
+    ],
+    "source": [
+      42
+    ],
+    "ROS": [
+      44,
+      52,
+      95,
+      124,
+      202
+    ],
+    "on": [
+      45
+    ],
+    "ER": [
+      47,
+      49,
+      59,
+      67,
+      97,
+      107
+    ],
+    "membrane.": [
+      48
+    ],
+    "stress": [
+      50
+    ],
+    "produced": [
+      51
+    ],
+    "lipid": [
+      55,
+      99
+    ],
+    "peroxidation": [
+      56,
+      100
+    ],
+    "membrane,": [
+      60
+    ],
+    "but": [
+      61
+    ],
+    "BI1": [
+      62,
+      119,
+      143,
+      150,
+      161,
+      197
+    ],
+    "reduced": [
+      63,
+      163
+    ],
+    "this": [
+      64
+    ],
+    "accumulation.": [
+      65
+    ],
+    "Under": [
+      66
+    ],
+    "stress,": [
+      68
+    ],
+    "expression": [
+      69,
+      127
+    ],
+    "control": [
+      74,
+      84
+    ],
+    "cells": [
+      75
+    ],
+    "was": [
+      76
+    ],
+    "upregulated": [
+      77
+    ],
+    "more": [
+      78
+    ],
+    "than": [
+      79,
+      157
+    ],
+    "BI1-overexpressing": [
+      81,
+      115
+    ],
+    "cells.": [
+      82,
+      116
+    ],
+    "In": [
+      83,
+      117,
+      131,
+      195
+    ],
+    "cells,": [
+      85
+    ],
+    "inhibiting": [
+      86
+    ],
+    "through": [
+      89,
+      208
+    ],
+    "chemical": [
+      90
+    ],
+    "or": [
+      91
+    ],
+    "siRNA": [
+      92
+    ],
+    "approaches": [
+      93
+    ],
+    "suppressed": [
+      94
+    ],
+    "accumulation,": [
+      96
+    ],
+    "membrane": [
+      98,
+      135
+    ],
+    "resultant": [
+      103,
+      205
+    ],
+    "cell": [
+      104,
+      206
+    ],
+    "death": [
+      105,
+      207
+    ],
+    "after": [
+      106
+    ],
+    "stress.": [
+      108
+    ],
+    "However,": [
+      109
+    ],
+    "it": [
+      110
+    ],
+    "had": [
+      111
+    ],
+    "little": [
+      112
+    ],
+    "effect": [
+      113
+    ],
+    "addition,": [
+      118
+    ],
+    "knock": [
+      120
+    ],
+    "down": [
+      121
+    ],
+    "also": [
+      122
+    ],
+    "increased": [
+      123
+    ],
+    "2E1.": [
+      130,
+      159,
+      211
+    ],
+    "reconstituted": [
+      133
+    ],
+    "phospholipid": [
+      134
+    ],
+    "containing": [
+      136
+    ],
+    "purified": [
+      137
+    ],
+    "BI1,": [
+      138
+    ],
+    "NPR": [
+      139,
+      153,
+      167,
+      186
+    ],
+    "2E1,": [
+      142,
+      170,
+      178
+    ],
+    "dose-dependently": [
+      144
+    ],
+    "decreased": [
+      145,
+      172
+    ],
+    "production": [
+      147
+    ],
+    "ROS.": [
+      149
+    ],
+    "bound": [
+      151
+    ],
+    "to": [
+      152,
+      187
+    ],
+    "with": [
+      154
+    ],
+    "higher": [
+      155
+    ],
+    "affinity": [
+      156
+    ],
+    "Furthermore,": [
+      160
+    ],
+    "overexpression": [
+      162
+    ],
+    "interaction": [
+      165
+    ],
+    "catalytic": [
+      174
+    ],
+    "activity": [
+      175
+    ],
+    "suggesting": [
+      179
+    ],
+    "that": [
+      180
+    ],
+    "flow": [
+      182
+    ],
+    "electrons": [
+      184
+    ],
+    "from": [
+      185
+    ],
+    "can": [
+      190
+    ],
+    "be": [
+      191
+    ],
+    "modulated": [
+      192
+    ],
+    "BI1.": [
+      194
+    ],
+    "summary,": [
+      196
+    ],
+    "reduces": [
+      198
+    ],
+    "regulating": [
+      209
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2037847999",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 9
+    }
+  ],
+  "updated_date": "2025-05-24T11:56:37.483900",
+  "created_date": "2016-06-24"
+}

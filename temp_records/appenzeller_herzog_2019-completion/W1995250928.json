@@ -1,0 +1,1570 @@
+{
+  "id": "https://openalex.org/W1995250928",
+  "doi": "https://doi.org/10.1038/tp.2014.78",
+  "title": "Genome-wide distribution of Auts2 binding localizes with active neurodevelopmental genes",
+  "display_name": "Genome-wide distribution of Auts2 binding localizes with active neurodevelopmental genes",
+  "publication_year": 2014,
+  "publication_date": "2014-09-02",
+  "ids": {
+    "openalex": "https://openalex.org/W1995250928",
+    "doi": "https://doi.org/10.1038/tp.2014.78",
+    "mag": "1995250928",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/25180570",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/4199417"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/tp.2014.78",
+    "pdf_url": "https://www.nature.com/articles/tp201478.pdf",
+    "source": {
+      "id": "https://openalex.org/S163345920",
+      "display_name": "Translational Psychiatry",
+      "issn_l": "2158-3188",
+      "issn": [
+        "2158-3188"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.nature.com/articles/tp201478.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5059889796",
+        "display_name": "Nir Oksenberg",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N Oksenberg",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040131866",
+        "display_name": "Genevieve D. E. Haliburton",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G D E Haliburton",
+      "raw_affiliation_strings": [
+        "Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000362354",
+        "display_name": "Walter L. Eckalbar",
+        "orcid": "https://orcid.org/0000-0003-2520-7852"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "W L Eckalbar",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017180897",
+        "display_name": "I Oren",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124227911",
+          "display_name": "Ben-Gurion University of the Negev",
+          "ror": "https://ror.org/05tkyf982",
+          "country_code": "IL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "I Oren",
+      "raw_affiliation_strings": [
+        "Department of Life Sciences, Ben Gurion University of the Negev, Beer Sheva, Israel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Life Sciences, Ben Gurion University of the Negev, Beer Sheva, Israel",
+          "institution_ids": [
+            "https://openalex.org/I124227911"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074265688",
+        "display_name": "Sierra S. Nishizaki",
+        "orcid": "https://orcid.org/0000-0002-4288-4567"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S Nishizaki",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Bioengineering and Therapeutic Sciences, University of California San Francisco, San Francisco, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057843296",
+        "display_name": "Karl K. Murphy",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "K Murphy",
+      "raw_affiliation_strings": [
+        "Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005062415",
+        "display_name": "Katherine S. Pollard",
+        "orcid": "https://orcid.org/0000-0002-9870-6196"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "K S Pollard",
+      "raw_affiliation_strings": [
+        "Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028139304",
+        "display_name": "Ramon Y. Birnbaum",
+        "orcid": "https://orcid.org/0000-0002-3792-1095"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R Y Birnbaum",
+      "raw_affiliation_strings": [
+        "Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5086687499",
+        "display_name": "Nadav Ahituv",
+        "orcid": "https://orcid.org/0000-0002-7434-8144"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N Ahituv",
+      "raw_affiliation_strings": [
+        "Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Human Genetics, University of California San Francisco, San Francisco, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2790,
+    "currency": "GBP",
+    "value_usd": 3422
+  },
+  "apc_paid": {
+    "value": 2790,
+    "currency": "GBP",
+    "value_usd": 3422
+  },
+  "fwci": 2.091,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 57,
+  "citation_normalized_percentile": {
+    "value": 0.893623,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "4",
+    "issue": "9",
+    "first_page": "e431",
+    "last_page": "e431"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12610",
+    "display_name": "RNA regulation and disease",
+    "score": 0.9963,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12610",
+      "display_name": "RNA regulation and disease",
+      "score": 0.9963,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13157",
+      "display_name": "Cancer-related gene regulation",
+      "score": 0.9902,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10604",
+      "display_name": "RNA Research and Splicing",
+      "score": 0.9882,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/chromatin-immunoprecipitation",
+      "display_name": "Chromatin immunoprecipitation",
+      "score": 0.4867799
+    },
+    {
+      "id": "https://openalex.org/keywords/forebrain",
+      "display_name": "Forebrain",
+      "score": 0.4301796
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C111936080",
+      "wikidata": "https://www.wikidata.org/wiki/Q913367",
+      "display_name": "Enhancer",
+      "level": 4,
+      "score": 0.814883
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.6585112
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.64389515
+    },
+    {
+      "id": "https://openalex.org/C134320426",
+      "wikidata": "https://www.wikidata.org/wiki/Q901026",
+      "display_name": "Chromatin immunoprecipitation",
+      "level": 5,
+      "score": 0.4867799
+    },
+    {
+      "id": "https://openalex.org/C6929976",
+      "wikidata": "https://www.wikidata.org/wiki/Q3771881",
+      "display_name": "Regulator",
+      "level": 3,
+      "score": 0.48015898
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.43205732
+    },
+    {
+      "id": "https://openalex.org/C2779715522",
+      "wikidata": "https://www.wikidata.org/wiki/Q507027",
+      "display_name": "Forebrain",
+      "level": 3,
+      "score": 0.4301796
+    },
+    {
+      "id": "https://openalex.org/C101762097",
+      "wikidata": "https://www.wikidata.org/wiki/Q224093",
+      "display_name": "Promoter",
+      "level": 4,
+      "score": 0.39377993
+    },
+    {
+      "id": "https://openalex.org/C86339819",
+      "wikidata": "https://www.wikidata.org/wiki/Q407384",
+      "display_name": "Transcription factor",
+      "level": 3,
+      "score": 0.38358426
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.2803306
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.1577375
+    },
+    {
+      "id": "https://openalex.org/C529278444",
+      "wikidata": "https://www.wikidata.org/wiki/Q47273",
+      "display_name": "Central nervous system",
+      "level": 2,
+      "score": 0.07281083
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002659",
+      "descriptor_name": "Child Development Disorders, Pervasive",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020022",
+      "descriptor_name": "Genetic Predisposition to Disease",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055106",
+      "descriptor_name": "Genome-Wide Association Study",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009687",
+      "descriptor_name": "Nuclear Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002135",
+      "descriptor_name": "Calcium-Binding Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002659",
+      "descriptor_name": "Child Development Disorders, Pervasive",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003598",
+      "descriptor_name": "Cytoskeletal Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020022",
+      "descriptor_name": "Genetic Predisposition to Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008815",
+      "descriptor_name": "Mice, Inbred Strains",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019006",
+      "descriptor_name": "Neural Cell Adhesion Molecules",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019006",
+      "descriptor_name": "Neural Cell Adhesion Molecules",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009687",
+      "descriptor_name": "Nuclear Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053499",
+      "descriptor_name": "Plasma Membrane Calcium-Transporting ATPases",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053499",
+      "descriptor_name": "Plasma Membrane Calcium-Transporting ATPases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011247",
+      "descriptor_name": "Pregnancy",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016548",
+      "descriptor_name": "Prosencephalon",
+      "qualifier_ui": "Q000196",
+      "qualifier_name": "embryology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016548",
+      "descriptor_name": "Prosencephalon",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014157",
+      "descriptor_name": "Transcription Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014157",
+      "descriptor_name": "Transcription Factors",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015533",
+      "descriptor_name": "Transcriptional Activation",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015533",
+      "descriptor_name": "Transcriptional Activation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/tp.2014.78",
+      "pdf_url": "https://www.nature.com/articles/tp201478.pdf",
+      "source": {
+        "id": "https://openalex.org/S163345920",
+        "display_name": "Translational Psychiatry",
+        "issn_l": "2158-3188",
+        "issn": [
+          "2158-3188"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc4199417",
+      "pdf_url": "https://europepmc.org/articles/pmc4199417?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.escholarship.org/uc/item/47v463km",
+      "pdf_url": "https://europepmc.org/articles/PMC4199417?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [
+          "California Digital Library"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4199417",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/25180570",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/tp.2014.78",
+    "pdf_url": "https://www.nature.com/articles/tp201478.pdf",
+    "source": {
+      "id": "https://openalex.org/S163345920",
+      "display_name": "Translational Psychiatry",
+      "issn_l": "2158-3188",
+      "issn": [
+        "2158-3188"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 95,
+  "referenced_works": [
+    "https://openalex.org/W1592870802",
+    "https://openalex.org/W1606900722",
+    "https://openalex.org/W1964444099",
+    "https://openalex.org/W1968514759",
+    "https://openalex.org/W1970748319",
+    "https://openalex.org/W1973800064",
+    "https://openalex.org/W1979594866",
+    "https://openalex.org/W1979830673",
+    "https://openalex.org/W1982747989",
+    "https://openalex.org/W1986579353",
+    "https://openalex.org/W1989726950",
+    "https://openalex.org/W2000031681",
+    "https://openalex.org/W2002212507",
+    "https://openalex.org/W2002938212",
+    "https://openalex.org/W2003479128",
+    "https://openalex.org/W2005889545",
+    "https://openalex.org/W2006126703",
+    "https://openalex.org/W2008319991",
+    "https://openalex.org/W2008504970",
+    "https://openalex.org/W2011514162",
+    "https://openalex.org/W2021880506",
+    "https://openalex.org/W2023886727",
+    "https://openalex.org/W2025553576",
+    "https://openalex.org/W2033481426",
+    "https://openalex.org/W2033629192",
+    "https://openalex.org/W2035149046",
+    "https://openalex.org/W2036021893",
+    "https://openalex.org/W2040245119",
+    "https://openalex.org/W2042930277",
+    "https://openalex.org/W2044355018",
+    "https://openalex.org/W2048128721",
+    "https://openalex.org/W2051133657",
+    "https://openalex.org/W2054217796",
+    "https://openalex.org/W2057695174",
+    "https://openalex.org/W2058335733",
+    "https://openalex.org/W2060248929",
+    "https://openalex.org/W2060256600",
+    "https://openalex.org/W2061394869",
+    "https://openalex.org/W2062758206",
+    "https://openalex.org/W2068329746",
+    "https://openalex.org/W2073062083",
+    "https://openalex.org/W2089397711",
+    "https://openalex.org/W2089748248",
+    "https://openalex.org/W2092825250",
+    "https://openalex.org/W2094004733",
+    "https://openalex.org/W2095032355",
+    "https://openalex.org/W2097065948",
+    "https://openalex.org/W2100320834",
+    "https://openalex.org/W2101289642",
+    "https://openalex.org/W2101791034",
+    "https://openalex.org/W2102619694",
+    "https://openalex.org/W2106188010",
+    "https://openalex.org/W2110374888",
+    "https://openalex.org/W2116442631",
+    "https://openalex.org/W2116858049",
+    "https://openalex.org/W2119483052",
+    "https://openalex.org/W2121484182",
+    "https://openalex.org/W2123260019",
+    "https://openalex.org/W2124289307",
+    "https://openalex.org/W2124362779",
+    "https://openalex.org/W2124624167",
+    "https://openalex.org/W2124712820",
+    "https://openalex.org/W2124985265",
+    "https://openalex.org/W2126867710",
+    "https://openalex.org/W2127857992",
+    "https://openalex.org/W2128301061",
+    "https://openalex.org/W2129676131",
+    "https://openalex.org/W2130376452",
+    "https://openalex.org/W2138142264",
+    "https://openalex.org/W2140729960",
+    "https://openalex.org/W2140833734",
+    "https://openalex.org/W2141829666",
+    "https://openalex.org/W2142331601",
+    "https://openalex.org/W2143252579",
+    "https://openalex.org/W2144620841",
+    "https://openalex.org/W2145055578",
+    "https://openalex.org/W2145191876",
+    "https://openalex.org/W2145709699",
+    "https://openalex.org/W2146120203",
+    "https://openalex.org/W2146258577",
+    "https://openalex.org/W2148147994",
+    "https://openalex.org/W2149914468",
+    "https://openalex.org/W2150420571",
+    "https://openalex.org/W2150462945",
+    "https://openalex.org/W2154131855",
+    "https://openalex.org/W2157952888",
+    "https://openalex.org/W2161084074",
+    "https://openalex.org/W2162530919",
+    "https://openalex.org/W2165924124",
+    "https://openalex.org/W2168950294",
+    "https://openalex.org/W2171323620",
+    "https://openalex.org/W2171808845",
+    "https://openalex.org/W2320580054",
+    "https://openalex.org/W4298357390",
+    "https://openalex.org/W4388253017"
+  ],
+  "related_works": [
+    "https://openalex.org/W4296940635",
+    "https://openalex.org/W4283214369",
+    "https://openalex.org/W4281254649",
+    "https://openalex.org/W3208446472",
+    "https://openalex.org/W3156071777",
+    "https://openalex.org/W2951939896",
+    "https://openalex.org/W2914108095",
+    "https://openalex.org/W2791084809",
+    "https://openalex.org/W2113330652",
+    "https://openalex.org/W1971558040"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0
+    ],
+    "autism": [
+      1,
+      15
+    ],
+    "susceptibility": [
+      2
+    ],
+    "candidate": [
+      3
+    ],
+    "2": [
+      4
+    ],
+    "gene": [
+      5,
+      74
+    ],
+    "(AUTS2)": [
+      6
+    ],
+    "has": [
+      7,
+      24
+    ],
+    "been": [
+      8
+    ],
+    "associated": [
+      9,
+      179
+    ],
+    "with": [
+      10,
+      180
+    ],
+    "multiple": [
+      11
+    ],
+    "neurological": [
+      12
+    ],
+    "diseases": [
+      13
+    ],
+    "including": [
+      14,
+      135
+    ],
+    "spectrum": [
+      16
+    ],
+    "disorders": [
+      17
+    ],
+    "(ASDs).": [
+      18
+    ],
+    "Previous": [
+      19
+    ],
+    "studies": [
+      20
+    ],
+    "showed": [
+      21
+    ],
+    "that": [
+      22,
+      81,
+      99,
+      176
+    ],
+    "AUTS2": [
+      23
+    ],
+    "an": [
+      25,
+      162
+    ],
+    "important": [
+      26,
+      166
+    ],
+    "neurodevelopmental": [
+      27,
+      132,
+      167,
+      184
+    ],
+    "function": [
+      28
+    ],
+    "and": [
+      29,
+      45,
+      63,
+      115,
+      137,
+      152,
+      169,
+      171,
+      182
+    ],
+    "is": [
+      30,
+      101
+    ],
+    "a": [
+      31
+    ],
+    "suspected": [
+      32
+    ],
+    "master": [
+      33
+    ],
+    "regulator": [
+      34,
+      164
+    ],
+    "of": [
+      35,
+      47,
+      77,
+      84,
+      131,
+      165
+    ],
+    "genes": [
+      36,
+      91,
+      119,
+      168
+    ],
+    "implicated": [
+      37
+    ],
+    "in": [
+      38,
+      94,
+      103,
+      121
+    ],
+    "ASD-related": [
+      39
+    ],
+    "pathways.": [
+      40
+    ],
+    "However,": [
+      41
+    ],
+    "the": [
+      42,
+      73,
+      82,
+      95
+    ],
+    "regulatory": [
+      43,
+      75
+    ],
+    "role": [
+      44
+    ],
+    "targets": [
+      46
+    ],
+    "Auts2": [
+      48,
+      88,
+      100,
+      106,
+      149,
+      160
+    ],
+    "are": [
+      49,
+      116,
+      125
+    ],
+    "not": [
+      50
+    ],
+    "well": [
+      51
+    ],
+    "known.": [
+      52
+    ],
+    "Here,": [
+      53
+    ],
+    "by": [
+      54,
+      60,
+      87,
+      148
+    ],
+    "using": [
+      55
+    ],
+    "ChIP-seq": [
+      56
+    ],
+    "(chromatin": [
+      57
+    ],
+    "immunoprecipitation": [
+      58
+    ],
+    "followed": [
+      59
+    ],
+    "deep": [
+      61
+    ],
+    "sequencing)": [
+      62
+    ],
+    "RNA-seq": [
+      64
+    ],
+    "on": [
+      65
+    ],
+    "mouse": [
+      66
+    ],
+    "embryonic": [
+      67
+    ],
+    "day": [
+      68
+    ],
+    "16.5": [
+      69
+    ],
+    "forebrains,": [
+      70
+    ],
+    "we": [
+      71,
+      141
+    ],
+    "elucidated": [
+      72
+    ],
+    "networks": [
+      76
+    ],
+    "Auts2.": [
+      78
+    ],
+    "We": [
+      79
+    ],
+    "find": [
+      80
+    ],
+    "majority": [
+      83
+    ],
+    "promoters": [
+      85
+    ],
+    "bound": [
+      86
+    ],
+    "belong": [
+      89
+    ],
+    "to": [
+      90
+    ],
+    "highly": [
+      92
+    ],
+    "expressed": [
+      93
+    ],
+    "developing": [
+      96,
+      111
+    ],
+    "forebrain,": [
+      97
+    ],
+    "suggesting": [
+      98
+    ],
+    "involved": [
+      102,
+      120
+    ],
+    "transcriptional": [
+      104
+    ],
+    "activation.": [
+      105
+    ],
+    "non-promoter-bound": [
+      107
+    ],
+    "regions": [
+      108,
+      175
+    ],
+    "significantly": [
+      109
+    ],
+    "overlap": [
+      110
+    ],
+    "brain-associated": [
+      112
+    ],
+    "enhancer": [
+      113
+    ],
+    "marks": [
+      114
+    ],
+    "located": [
+      117
+    ],
+    "near": [
+      118,
+      150
+    ],
+    "neurodevelopment.": [
+      122
+    ],
+    "Auts2-marked": [
+      123
+    ],
+    "sequences": [
+      124
+    ],
+    "enriched": [
+      126
+    ],
+    "for": [
+      127
+    ],
+    "binding": [
+      128
+    ],
+    "site": [
+      129
+    ],
+    "motifs": [
+      130
+    ],
+    "transcription": [
+      133
+    ],
+    "factors,": [
+      134
+    ],
+    "Pitx3": [
+      136
+    ],
+    "TCF3.": [
+      138
+    ],
+    "In": [
+      139
+    ],
+    "addition,": [
+      140
+    ],
+    "characterized": [
+      142
+    ],
+    "two": [
+      143
+    ],
+    "functional": [
+      144
+    ],
+    "brain": [
+      145
+    ],
+    "enhancers": [
+      146
+    ],
+    "marked": [
+      147
+    ],
+    "NRXN1": [
+      151
+    ],
+    "ATP2B2,": [
+      153
+    ],
+    "both": [
+      154
+    ],
+    "ASD-implicated": [
+      155
+    ],
+    "genes.": [
+      156
+    ],
+    "Our": [
+      157
+    ],
+    "results": [
+      158
+    ],
+    "implicate": [
+      159
+    ],
+    "as": [
+      161
+    ],
+    "active": [
+      163
+    ],
+    "pathways": [
+      170
+    ],
+    "identify": [
+      172
+    ],
+    "novel": [
+      173
+    ],
+    "genomic": [
+      174
+    ],
+    "could": [
+      177
+    ],
+    "be": [
+      178
+    ],
+    "ASD": [
+      181
+    ],
+    "other": [
+      183
+    ],
+    "diseases.": [
+      185
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1995250928",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2025-06-16T00:22:20.616749",
+  "created_date": "2016-06-24"
+}

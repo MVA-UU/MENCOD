@@ -1,0 +1,1243 @@
+{
+  "id": "https://openalex.org/W2151837778",
+  "doi": "https://doi.org/10.1038/nchembio.1253",
+  "title": "Mechanism-based corrector combination restores ΔF508-CFTR folding and function",
+  "display_name": "Mechanism-based corrector combination restores ΔF508-CFTR folding and function",
+  "publication_year": 2013,
+  "publication_date": "2013-05-12",
+  "ids": {
+    "openalex": "https://openalex.org/W2151837778",
+    "doi": "https://doi.org/10.1038/nchembio.1253",
+    "mag": "2151837778",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/23666117",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3840170"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1038/nchembio.1253",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S51309854",
+      "display_name": "Nature Chemical Biology",
+      "issn_l": "1552-4450",
+      "issn": [
+        "1552-4450",
+        "1552-4469"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3840170",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5002765176",
+        "display_name": "Tsukasa Okiyoneda",
+        "orcid": "https://orcid.org/0000-0002-5175-2224"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tsukasa Okiyoneda",
+      "raw_affiliation_strings": [
+        "Department of Physiology, McGill University, Montréal, Quebec, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physiology, McGill University, Montréal, Quebec, Canada",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058003677",
+        "display_name": "Guido Veit",
+        "orcid": "https://orcid.org/0000-0002-6758-2696"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Guido Veit",
+      "raw_affiliation_strings": [
+        "Department of Physiology, McGill University, Montréal, Quebec, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physiology, McGill University, Montréal, Quebec, Canada",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052340428",
+        "display_name": "Johanna F. Dekkers",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3018483916",
+          "display_name": "University Medical Center Utrecht",
+          "ror": "https://ror.org/0575yy874",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I3018483916"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Johanna F Dekkers",
+      "raw_affiliation_strings": [
+        "Department of Pediatric Pulmonology, University Medical Centre, Utrecht, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatric Pulmonology, University Medical Centre, Utrecht, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I3018483916"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011279810",
+        "display_name": "Miklós Bagdány",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Miklos Bagdany",
+      "raw_affiliation_strings": [
+        "Department of Physiology, McGill University, Montréal, Quebec, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physiology, McGill University, Montréal, Quebec, Canada",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081143866",
+        "display_name": "Naoto Soya",
+        "orcid": "https://orcid.org/0000-0003-0086-4389"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Naoto Soya",
+      "raw_affiliation_strings": [
+        "Department of Physiology, McGill University, Montréal, Quebec, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physiology, McGill University, Montréal, Quebec, Canada",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102999921",
+        "display_name": "Haijin Xu",
+        "orcid": "https://orcid.org/0000-0002-5069-9361"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Haijin Xu",
+      "raw_affiliation_strings": [
+        "Department of Physiology, McGill University, Montréal, Quebec, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physiology, McGill University, Montréal, Quebec, Canada",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055673405",
+        "display_name": "Ariel Roldán",
+        "orcid": "https://orcid.org/0000-0002-8159-5450"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ariel Roldan",
+      "raw_affiliation_strings": [
+        "Department of Physiology, McGill University, Montréal, Quebec, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physiology, McGill University, Montréal, Quebec, Canada",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042356327",
+        "display_name": "A. S. Verkman",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alan S Verkman",
+      "raw_affiliation_strings": [
+        "Department of Medicine, University of California–San Francisco, San Francisco, California, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medicine, University of California–San Francisco, San Francisco, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5002153833",
+        "display_name": "Mark J. Kurth",
+        "orcid": "https://orcid.org/0000-0001-8496-6125"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mark Kurth",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, University of California–Davis, Davis, California"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, University of California–Davis, Davis, California",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5020046245",
+        "display_name": "Ágnes Simon",
+        "orcid": "https://orcid.org/0000-0002-0151-0120"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I7597260",
+          "display_name": "Hungarian Academy of Sciences",
+          "ror": "https://ror.org/02ks8qq67",
+          "country_code": "HU",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I7597260"
+          ]
+        }
+      ],
+      "countries": [
+        "HU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Agnes Simon",
+      "raw_affiliation_strings": [
+        "Department of Molecular Pharmacology, Research Center for Natural Sciences, Hungarian Academy of Sciences, Budapest, Hungary"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular Pharmacology, Research Center for Natural Sciences, Hungarian Academy of Sciences, Budapest, Hungary",
+          "institution_ids": [
+            "https://openalex.org/I7597260"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031681098",
+        "display_name": "Tamás Hegedűs",
+        "orcid": "https://orcid.org/0000-0002-5195-749X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I7597260",
+          "display_name": "Hungarian Academy of Sciences",
+          "ror": "https://ror.org/02ks8qq67",
+          "country_code": "HU",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I7597260"
+          ]
+        }
+      ],
+      "countries": [
+        "HU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tamas Hegedus",
+      "raw_affiliation_strings": [
+        "MTA-SE Molecular Biophysics Research Group, Hungarian Academy of Sciences, Budapest, Hungary"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "MTA-SE Molecular Biophysics Research Group, Hungarian Academy of Sciences, Budapest, Hungary",
+          "institution_ids": [
+            "https://openalex.org/I7597260"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5027077813",
+        "display_name": "Jeffrey M. Beekman",
+        "orcid": "https://orcid.org/0000-0003-4886-3756"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3018483916",
+          "display_name": "University Medical Center Utrecht",
+          "ror": "https://ror.org/0575yy874",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I3018483916"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeffrey M Beekman",
+      "raw_affiliation_strings": [
+        "Centre for Molecular and Cellular Intervention, University Medical Centre, Utrecht, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre for Molecular and Cellular Intervention, University Medical Centre, Utrecht, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I3018483916"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5052136826",
+        "display_name": "Gergely L. Lukács",
+        "orcid": "https://orcid.org/0000-0003-0900-0675"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Gergely L Lukacs",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry, McGill University, Montréal, Quebec, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biochemistry, McGill University, Montréal, Quebec, Canada",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 4,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5052136826"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I5023651"
+  ],
+  "apc_list": {
+    "value": 9750,
+    "currency": "EUR",
+    "value_usd": 11690
+  },
+  "apc_paid": null,
+  "fwci": 31.905,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 379,
+  "citation_normalized_percentile": {
+    "value": 0.999972,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "9",
+    "issue": "7",
+    "first_page": "444",
+    "last_page": "454"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10665",
+    "display_name": "Cystic Fibrosis Research Advances",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2740",
+      "display_name": "Pulmonary and Respiratory Medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10665",
+      "display_name": "Cystic Fibrosis Research Advances",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10549",
+      "display_name": "Neonatal Respiratory Health Research",
+      "score": 0.9794,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11642",
+      "display_name": "Genomics and Rare Diseases",
+      "score": 0.9716,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/δf508",
+      "display_name": "ΔF508",
+      "score": 0.8124355
+    },
+    {
+      "id": "https://openalex.org/keywords/cyclic-nucleotide-binding-domain",
+      "display_name": "Cyclic nucleotide-binding domain",
+      "score": 0.7174343
+    },
+    {
+      "id": "https://openalex.org/keywords/membrane-biology",
+      "display_name": "Membrane biology",
+      "score": 0.4511971
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2778428886",
+      "wikidata": "https://www.wikidata.org/wiki/Q420470",
+      "display_name": "Cystic fibrosis transmembrane conductance regulator",
+      "level": 3,
+      "score": 0.9386784
+    },
+    {
+      "id": "https://openalex.org/C2777893369",
+      "wikidata": "https://www.wikidata.org/wiki/Q420470",
+      "display_name": "ΔF508",
+      "level": 4,
+      "score": 0.8124355
+    },
+    {
+      "id": "https://openalex.org/C2776938444",
+      "wikidata": "https://www.wikidata.org/wiki/Q178194",
+      "display_name": "Cystic fibrosis",
+      "level": 2,
+      "score": 0.791633
+    },
+    {
+      "id": "https://openalex.org/C113027372",
+      "wikidata": "https://www.wikidata.org/wiki/Q24768350",
+      "display_name": "Cyclic nucleotide-binding domain",
+      "level": 4,
+      "score": 0.7174343
+    },
+    {
+      "id": "https://openalex.org/C75563809",
+      "wikidata": "https://www.wikidata.org/wiki/Q2656896",
+      "display_name": "Missense mutation",
+      "level": 4,
+      "score": 0.50960875
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.4905452
+    },
+    {
+      "id": "https://openalex.org/C501734568",
+      "wikidata": "https://www.wikidata.org/wiki/Q42918",
+      "display_name": "Mutation",
+      "level": 3,
+      "score": 0.48857173
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.4704097
+    },
+    {
+      "id": "https://openalex.org/C205365616",
+      "wikidata": "https://www.wikidata.org/wiki/Q16863771",
+      "display_name": "Membrane biology",
+      "level": 3,
+      "score": 0.4511971
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.33272314
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.25061178
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.21466634
+    },
+    {
+      "id": "https://openalex.org/C41625074",
+      "wikidata": "https://www.wikidata.org/wiki/Q176088",
+      "display_name": "Membrane",
+      "level": 2,
+      "score": 0.17614427
+    },
+    {
+      "id": "https://openalex.org/C167625842",
+      "wikidata": "https://www.wikidata.org/wiki/Q899763",
+      "display_name": "Peptide sequence",
+      "level": 3,
+      "score": 0.15322816
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.13986722
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000631",
+      "descriptor_name": "Aminopyridines",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D052117",
+      "descriptor_name": "Benzodioxoles",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D019005",
+      "descriptor_name": "Cystic Fibrosis Transmembrane Conductance Regulator",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000631",
+      "descriptor_name": "Aminopyridines",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D052117",
+      "descriptor_name": "Benzodioxoles",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001665",
+      "descriptor_name": "Binding Sites",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001980",
+      "descriptor_name": "Bronchi",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001980",
+      "descriptor_name": "Bronchi",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002462",
+      "descriptor_name": "Cell Membrane",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002462",
+      "descriptor_name": "Cell Membrane",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006224",
+      "descriptor_name": "Cricetinae",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003550",
+      "descriptor_name": "Cystic Fibrosis",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003550",
+      "descriptor_name": "Cystic Fibrosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003550",
+      "descriptor_name": "Cystic Fibrosis",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019005",
+      "descriptor_name": "Cystic Fibrosis Transmembrane Conductance Regulator",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019005",
+      "descriptor_name": "Cystic Fibrosis Transmembrane Conductance Regulator",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004721",
+      "descriptor_name": "Endoplasmic Reticulum",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004721",
+      "descriptor_name": "Endoplasmic Reticulum",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004847",
+      "descriptor_name": "Epithelial Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004847",
+      "descriptor_name": "Epithelial Cells",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006031",
+      "descriptor_name": "Glycosylation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009154",
+      "descriptor_name": "Mutation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009711",
+      "descriptor_name": "Nucleotides",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009711",
+      "descriptor_name": "Nucleotides",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017510",
+      "descriptor_name": "Protein Folding",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017434",
+      "descriptor_name": "Protein Structure, Tertiary",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011994",
+      "descriptor_name": "Recombinant Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011994",
+      "descriptor_name": "Recombinant Proteins",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1038/nchembio.1253",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S51309854",
+        "display_name": "Nature Chemical Biology",
+        "issn_l": "1552-4450",
+        "issn": [
+          "1552-4450",
+          "1552-4469"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3840170",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/23666117",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3840170",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "score": 0.79,
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 61,
+  "referenced_works": [
+    "https://openalex.org/W1896236092",
+    "https://openalex.org/W1976507289",
+    "https://openalex.org/W1980731449",
+    "https://openalex.org/W1982956224",
+    "https://openalex.org/W1989101763",
+    "https://openalex.org/W1991384225",
+    "https://openalex.org/W1991456846",
+    "https://openalex.org/W1991977085",
+    "https://openalex.org/W1995692151",
+    "https://openalex.org/W1996779865",
+    "https://openalex.org/W2002513358",
+    "https://openalex.org/W2009538230",
+    "https://openalex.org/W2013914743",
+    "https://openalex.org/W2016265972",
+    "https://openalex.org/W2018414056",
+    "https://openalex.org/W2023369702",
+    "https://openalex.org/W2032258216",
+    "https://openalex.org/W2035131077",
+    "https://openalex.org/W2040690917",
+    "https://openalex.org/W2043673791",
+    "https://openalex.org/W2049696186",
+    "https://openalex.org/W2050264979",
+    "https://openalex.org/W2050417444",
+    "https://openalex.org/W2050662826",
+    "https://openalex.org/W2051216049",
+    "https://openalex.org/W2054076148",
+    "https://openalex.org/W2060494769",
+    "https://openalex.org/W2071407356",
+    "https://openalex.org/W2075402066",
+    "https://openalex.org/W2079234445",
+    "https://openalex.org/W2079521511",
+    "https://openalex.org/W2079946015",
+    "https://openalex.org/W2085030832",
+    "https://openalex.org/W2097546936",
+    "https://openalex.org/W2105668062",
+    "https://openalex.org/W2107557685",
+    "https://openalex.org/W2108047993",
+    "https://openalex.org/W2110892460",
+    "https://openalex.org/W2110939349",
+    "https://openalex.org/W2114367386",
+    "https://openalex.org/W2115253521",
+    "https://openalex.org/W2118445531",
+    "https://openalex.org/W2120353086",
+    "https://openalex.org/W2122199548",
+    "https://openalex.org/W2124444513",
+    "https://openalex.org/W2125713628",
+    "https://openalex.org/W2127402429",
+    "https://openalex.org/W2130392121",
+    "https://openalex.org/W2131288855",
+    "https://openalex.org/W2133873320",
+    "https://openalex.org/W2134097876",
+    "https://openalex.org/W2142571336",
+    "https://openalex.org/W2147024375",
+    "https://openalex.org/W2151829259",
+    "https://openalex.org/W2158288696",
+    "https://openalex.org/W2159964828",
+    "https://openalex.org/W2160160194",
+    "https://openalex.org/W2167190425",
+    "https://openalex.org/W2170032136",
+    "https://openalex.org/W3143355796",
+    "https://openalex.org/W46774270"
+  ],
+  "related_works": [
+    "https://openalex.org/W3217397116",
+    "https://openalex.org/W2151837778",
+    "https://openalex.org/W2143514818",
+    "https://openalex.org/W2137704498",
+    "https://openalex.org/W2070593573",
+    "https://openalex.org/W2064468529",
+    "https://openalex.org/W2053020161",
+    "https://openalex.org/W2051216049",
+    "https://openalex.org/W2047623797",
+    "https://openalex.org/W1602887917"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2151837778",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 46
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 40
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 48
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 9
+    }
+  ],
+  "updated_date": "2025-06-08T09:30:29.070052",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,2420 @@
+{
+  "id": "https://openalex.org/W2102409753",
+  "doi": "https://doi.org/10.1089/ars.2009.2743",
+  "title": "Mammalian Mitochondrial Complex I: Biogenesis, Regulation, and Reactive Oxygen Species Generation",
+  "display_name": "Mammalian Mitochondrial Complex I: Biogenesis, Regulation, and Reactive Oxygen Species Generation",
+  "publication_year": 2009,
+  "publication_date": "2009-10-05",
+  "ids": {
+    "openalex": "https://openalex.org/W2102409753",
+    "doi": "https://doi.org/10.1089/ars.2009.2743",
+    "mag": "2102409753",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19803744"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1089/ars.2009.2743",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S88052261",
+      "display_name": "Antioxidants and Redox Signaling",
+      "issn_l": "1523-0864",
+      "issn": [
+        "1523-0864",
+        "1557-7716"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320443",
+      "host_organization_name": "Mary Ann Liebert, Inc.",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320443"
+      ],
+      "host_organization_lineage_names": [
+        "Mary Ann Liebert, Inc."
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/87452/87452.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5035876859",
+        "display_name": "Werner J.H. Koopman",
+        "orcid": "https://orcid.org/0000-0002-5340-6747"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802934949",
+          "display_name": "Radboud University Medical Center",
+          "ror": "https://ror.org/05wg1m734",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Werner J.H. Koopman",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands",
+        "Microscopical Imaging Centre, Nijmegen Centre for Molecular Life Sciences, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biochemistry, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Microscopical Imaging Centre, Nijmegen Centre for Molecular Life Sciences, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands.",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5062064518",
+        "display_name": "Leo Nijtmans",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802934949",
+          "display_name": "Radboud University Medical Center",
+          "ror": "https://ror.org/05wg1m734",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Leo G.J. Nijtmans",
+      "raw_affiliation_strings": [
+        "Department of Pediatrics, Nijmegen Centre for Mitochondrial Disorders, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, Nijmegen Centre for Mitochondrial Disorders, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands.",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052212922",
+        "display_name": "Cindy E. Dieteren",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802934949",
+          "display_name": "Radboud University Medical Center",
+          "ror": "https://ror.org/05wg1m734",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cindy E.J. Dieteren",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands",
+        "Department of Pediatrics, Nijmegen Centre for Mitochondrial Disorders, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, Nijmegen Centre for Mitochondrial Disorders, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands.",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Biochemistry, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029472098",
+        "display_name": "Peggy Roestenberg",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802934949",
+          "display_name": "Radboud University Medical Center",
+          "ror": "https://ror.org/05wg1m734",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peggy Roestenberg",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands",
+        "Department of Pediatrics, Nijmegen Centre for Mitochondrial Disorders, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biochemistry, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Pediatrics, Nijmegen Centre for Mitochondrial Disorders, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands.",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103536179",
+        "display_name": "Federica Valsecchi",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802934949",
+          "display_name": "Radboud University Medical Center",
+          "ror": "https://ror.org/05wg1m734",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Federica Valsecchi",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands",
+        "Department of Pediatrics, Nijmegen Centre for Mitochondrial Disorders, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, Nijmegen Centre for Mitochondrial Disorders, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands.",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Biochemistry, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014162862",
+        "display_name": "Jan Smeitink",
+        "orcid": "https://orcid.org/0000-0003-1392-8038"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802934949",
+          "display_name": "Radboud University Medical Center",
+          "ror": "https://ror.org/05wg1m734",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jan A.M. Smeitink",
+      "raw_affiliation_strings": [
+        "Department of Pediatrics, Nijmegen Centre for Mitochondrial Disorders, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, Nijmegen Centre for Mitochondrial Disorders, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands.",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5047894969",
+        "display_name": "Peter H.G.M. Willems",
+        "orcid": "https://orcid.org/0000-0002-0915-1599"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802934949",
+          "display_name": "Radboud University Medical Center",
+          "ror": "https://ror.org/05wg1m734",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter H.G.M. Willems",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands",
+        "Microscopical Imaging Centre, Nijmegen Centre for Molecular Life Sciences, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Microscopical Imaging Centre, Nijmegen Centre for Molecular Life Sciences, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands.",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Biochemistry, Radboud University Nijmegen Medical Centre, Nijmegen, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I145872427",
+            "https://openalex.org/I2802934949"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5035876859"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I145872427",
+    "https://openalex.org/I2802934949"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.053,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 392,
+  "citation_normalized_percentile": {
+    "value": 0.743766,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "12",
+    "issue": "12",
+    "first_page": "1431",
+    "last_page": "1470"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10301",
+    "display_name": "Mitochondrial Function and Pathology",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10301",
+      "display_name": "Mitochondrial Function and Pathology",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12763",
+      "display_name": "ATP Synthase and ATPases Research",
+      "score": 0.9995,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11027",
+      "display_name": "Metabolism and Genetic Disorders",
+      "score": 0.9974,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1308",
+        "display_name": "Clinical Biochemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/retrograde-signaling",
+      "display_name": "Retrograde signaling",
+      "score": 0.46892196
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C28859421",
+      "wikidata": "https://www.wikidata.org/wiki/Q39572",
+      "display_name": "Mitochondrion",
+      "level": 2,
+      "score": 0.72823256
+    },
+    {
+      "id": "https://openalex.org/C48349386",
+      "wikidata": "https://www.wikidata.org/wiki/Q424361",
+      "display_name": "Reactive oxygen species",
+      "level": 2,
+      "score": 0.66776556
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.66272163
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.53277814
+    },
+    {
+      "id": "https://openalex.org/C2777229759",
+      "wikidata": "https://www.wikidata.org/wiki/Q6881848",
+      "display_name": "Mitochondrial biogenesis",
+      "level": 3,
+      "score": 0.5204411
+    },
+    {
+      "id": "https://openalex.org/C131934819",
+      "wikidata": "https://www.wikidata.org/wiki/Q135390",
+      "display_name": "Biogenesis",
+      "level": 3,
+      "score": 0.4912631
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.47903886
+    },
+    {
+      "id": "https://openalex.org/C194082555",
+      "wikidata": "https://www.wikidata.org/wiki/Q7317034",
+      "display_name": "Retrograde signaling",
+      "level": 3,
+      "score": 0.46892196
+    },
+    {
+      "id": "https://openalex.org/C2909692557",
+      "wikidata": "https://www.wikidata.org/wiki/Q211016",
+      "display_name": "Electron Transport Complex I",
+      "level": 4,
+      "score": 0.45645425
+    },
+    {
+      "id": "https://openalex.org/C14471203",
+      "wikidata": "https://www.wikidata.org/wiki/Q412832",
+      "display_name": "Coenzyme Q – cytochrome c reductase",
+      "level": 4,
+      "score": 0.45386955
+    },
+    {
+      "id": "https://openalex.org/C2776151105",
+      "wikidata": "https://www.wikidata.org/wiki/Q898814",
+      "display_name": "Oxidative stress",
+      "level": 2,
+      "score": 0.44109434
+    },
+    {
+      "id": "https://openalex.org/C57600042",
+      "wikidata": "https://www.wikidata.org/wiki/Q227564",
+      "display_name": "Oxidative phosphorylation",
+      "level": 2,
+      "score": 0.43510652
+    },
+    {
+      "id": "https://openalex.org/C24840226",
+      "wikidata": "https://www.wikidata.org/wiki/Q211016",
+      "display_name": "Electron transport chain",
+      "level": 2,
+      "score": 0.43135282
+    },
+    {
+      "id": "https://openalex.org/C2780795997",
+      "wikidata": "https://www.wikidata.org/wiki/Q413283",
+      "display_name": "Superoxide",
+      "level": 3,
+      "score": 0.42418185
+    },
+    {
+      "id": "https://openalex.org/C75385678",
+      "wikidata": "https://www.wikidata.org/wiki/Q4896390",
+      "display_name": "Inner mitochondrial membrane",
+      "level": 3,
+      "score": 0.42069906
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.33526903
+    },
+    {
+      "id": "https://openalex.org/C3020377403",
+      "wikidata": "https://www.wikidata.org/wiki/Q211016",
+      "display_name": "Respiratory chain",
+      "level": 3,
+      "score": 0.26133424
+    },
+    {
+      "id": "https://openalex.org/C29311851",
+      "wikidata": "https://www.wikidata.org/wiki/Q408223",
+      "display_name": "Cytochrome c",
+      "level": 3,
+      "score": 0.1270724
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C181199279",
+      "wikidata": "https://www.wikidata.org/wiki/Q8047",
+      "display_name": "Enzyme",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D042967",
+      "descriptor_name": "Electron Transport Complex I",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008322",
+      "descriptor_name": "Mammals",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008928",
+      "descriptor_name": "Mitochondria",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D017382",
+      "descriptor_name": "Reactive Oxygen Species",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001692",
+      "descriptor_name": "Biological Transport",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002417",
+      "descriptor_name": "Cattle",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002839",
+      "descriptor_name": "Chromans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002839",
+      "descriptor_name": "Chromans",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004579",
+      "descriptor_name": "Electron Transport",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004579",
+      "descriptor_name": "Electron Transport",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D042967",
+      "descriptor_name": "Electron Transport Complex I",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D042967",
+      "descriptor_name": "Electron Transport Complex I",
+      "qualifier_ui": "Q000172",
+      "qualifier_name": "deficiency",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005057",
+      "descriptor_name": "Eukaryotic Cells",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005057",
+      "descriptor_name": "Eukaryotic Cells",
+      "qualifier_ui": "Q000648",
+      "qualifier_name": "ultrastructure",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005057",
+      "descriptor_name": "Eukaryotic Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005347",
+      "descriptor_name": "Fibroblasts",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005347",
+      "descriptor_name": "Fibroblasts",
+      "qualifier_ui": "Q000648",
+      "qualifier_name": "ultrastructure",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005347",
+      "descriptor_name": "Fibroblasts",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008322",
+      "descriptor_name": "Mammals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008563",
+      "descriptor_name": "Membrane Lipids",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008563",
+      "descriptor_name": "Membrane Lipids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008928",
+      "descriptor_name": "Mitochondria",
+      "qualifier_ui": "Q000648",
+      "qualifier_name": "ultrastructure",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008928",
+      "descriptor_name": "Mitochondria",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D028361",
+      "descriptor_name": "Mitochondrial Diseases",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D028361",
+      "descriptor_name": "Mitochondrial Diseases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D024101",
+      "descriptor_name": "Mitochondrial Proteins",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D024101",
+      "descriptor_name": "Mitochondrial Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009245",
+      "descriptor_name": "NADH Dehydrogenase",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009245",
+      "descriptor_name": "NADH Dehydrogenase",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009928",
+      "descriptor_name": "Organ Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010085",
+      "descriptor_name": "Oxidative Phosphorylation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017382",
+      "descriptor_name": "Reactive Oxygen Species",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012402",
+      "descriptor_name": "Rotenone",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012402",
+      "descriptor_name": "Rotenone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1089/ars.2009.2743",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S88052261",
+        "display_name": "Antioxidants and Redox Signaling",
+        "issn_l": "1523-0864",
+        "issn": [
+          "1523-0864",
+          "1557-7716"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320443",
+        "host_organization_name": "Mary Ann Liebert, Inc.",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320443"
+        ],
+        "host_organization_lineage_names": [
+          "Mary Ann Liebert, Inc."
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/87452/87452.pdf",
+      "pdf_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/87452/87452.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401067",
+        "display_name": "Radboud Repository (Radboud University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I145872427",
+        "host_organization_name": "Radboud University Nijmegen",
+        "host_organization_lineage": [
+          "https://openalex.org/I145872427"
+        ],
+        "host_organization_lineage_names": [
+          "Radboud University Nijmegen"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/2066/87452",
+      "pdf_url": "https://repository.ubn.ru.nl/bitstream/handle/2066/87452/1/87452.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401843",
+        "display_name": "Data Archiving and Networked Services (DANS)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1322597698",
+        "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/I1322597698"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Netherlands Academy of Arts and Sciences"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19803744",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/87452/87452.pdf",
+    "pdf_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/87452/87452.pdf",
+    "source": {
+      "id": "https://openalex.org/S4306401067",
+      "display_name": "Radboud Repository (Radboud University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I145872427",
+      "host_organization_name": "Radboud University Nijmegen",
+      "host_organization_lineage": [
+        "https://openalex.org/I145872427"
+      ],
+      "host_organization_lineage_names": [
+        "Radboud University Nijmegen"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 329,
+  "referenced_works": [
+    "https://openalex.org/W1485297825",
+    "https://openalex.org/W1530071863",
+    "https://openalex.org/W155981730",
+    "https://openalex.org/W1564058497",
+    "https://openalex.org/W1948525638",
+    "https://openalex.org/W1963916684",
+    "https://openalex.org/W1964107188",
+    "https://openalex.org/W1964991966",
+    "https://openalex.org/W1965586048",
+    "https://openalex.org/W1966929727",
+    "https://openalex.org/W1967450606",
+    "https://openalex.org/W1967874462",
+    "https://openalex.org/W1968697103",
+    "https://openalex.org/W1969458750",
+    "https://openalex.org/W1970554352",
+    "https://openalex.org/W1970818338",
+    "https://openalex.org/W1971029588",
+    "https://openalex.org/W1971221919",
+    "https://openalex.org/W1971393256",
+    "https://openalex.org/W1972202832",
+    "https://openalex.org/W1972825401",
+    "https://openalex.org/W1972899801",
+    "https://openalex.org/W1973831727",
+    "https://openalex.org/W1976098831",
+    "https://openalex.org/W1976436058",
+    "https://openalex.org/W1976700708",
+    "https://openalex.org/W1977053231",
+    "https://openalex.org/W1978062256",
+    "https://openalex.org/W1978631786",
+    "https://openalex.org/W1978927831",
+    "https://openalex.org/W1979541421",
+    "https://openalex.org/W1979745754",
+    "https://openalex.org/W1980339513",
+    "https://openalex.org/W1981575376",
+    "https://openalex.org/W1982734478",
+    "https://openalex.org/W1983487087",
+    "https://openalex.org/W1983737836",
+    "https://openalex.org/W1984019957",
+    "https://openalex.org/W1984415053",
+    "https://openalex.org/W1984788563",
+    "https://openalex.org/W1985917760",
+    "https://openalex.org/W1986003680",
+    "https://openalex.org/W1986248905",
+    "https://openalex.org/W1986790448",
+    "https://openalex.org/W1986873096",
+    "https://openalex.org/W1987210290",
+    "https://openalex.org/W1987516659",
+    "https://openalex.org/W1988434706",
+    "https://openalex.org/W1990098732",
+    "https://openalex.org/W1990275093",
+    "https://openalex.org/W1990811092",
+    "https://openalex.org/W1991280425",
+    "https://openalex.org/W1991845993",
+    "https://openalex.org/W1991952977",
+    "https://openalex.org/W1992123175",
+    "https://openalex.org/W1992249063",
+    "https://openalex.org/W1992485652",
+    "https://openalex.org/W1993039541",
+    "https://openalex.org/W1993463852",
+    "https://openalex.org/W1993626201",
+    "https://openalex.org/W1996223205",
+    "https://openalex.org/W1996764498",
+    "https://openalex.org/W1996885665",
+    "https://openalex.org/W1997211840",
+    "https://openalex.org/W1997312454",
+    "https://openalex.org/W1999168476",
+    "https://openalex.org/W1999671103",
+    "https://openalex.org/W2000324747",
+    "https://openalex.org/W2000325349",
+    "https://openalex.org/W2001254662",
+    "https://openalex.org/W2002586559",
+    "https://openalex.org/W2004693594",
+    "https://openalex.org/W2005211913",
+    "https://openalex.org/W2005280808",
+    "https://openalex.org/W2005573382",
+    "https://openalex.org/W2005769249",
+    "https://openalex.org/W2006349794",
+    "https://openalex.org/W2006387254",
+    "https://openalex.org/W2007552109",
+    "https://openalex.org/W2009595653",
+    "https://openalex.org/W2009933907",
+    "https://openalex.org/W2010077871",
+    "https://openalex.org/W2010516222",
+    "https://openalex.org/W2010701715",
+    "https://openalex.org/W2011866187",
+    "https://openalex.org/W2011919712",
+    "https://openalex.org/W2013102287",
+    "https://openalex.org/W2013841882",
+    "https://openalex.org/W2014447062",
+    "https://openalex.org/W2015476639",
+    "https://openalex.org/W2015595683",
+    "https://openalex.org/W2015656249",
+    "https://openalex.org/W2016352453",
+    "https://openalex.org/W2016740788",
+    "https://openalex.org/W2018076136",
+    "https://openalex.org/W2019893391",
+    "https://openalex.org/W2020616105",
+    "https://openalex.org/W2021183904",
+    "https://openalex.org/W2021467041",
+    "https://openalex.org/W2022827866",
+    "https://openalex.org/W2023930182",
+    "https://openalex.org/W2023955250",
+    "https://openalex.org/W2024433192",
+    "https://openalex.org/W2025100814",
+    "https://openalex.org/W2025806266",
+    "https://openalex.org/W2026788188",
+    "https://openalex.org/W2027393096",
+    "https://openalex.org/W2028435292",
+    "https://openalex.org/W2029144840",
+    "https://openalex.org/W2030113997",
+    "https://openalex.org/W2030136187",
+    "https://openalex.org/W2030408645",
+    "https://openalex.org/W2030798913",
+    "https://openalex.org/W2030817463",
+    "https://openalex.org/W2030833593",
+    "https://openalex.org/W2030845029",
+    "https://openalex.org/W2031111272",
+    "https://openalex.org/W2031172417",
+    "https://openalex.org/W2032353647",
+    "https://openalex.org/W2033448006",
+    "https://openalex.org/W2033774982",
+    "https://openalex.org/W2035338763",
+    "https://openalex.org/W2035446976",
+    "https://openalex.org/W2035665637",
+    "https://openalex.org/W2035787181",
+    "https://openalex.org/W2039389245",
+    "https://openalex.org/W2039717666",
+    "https://openalex.org/W2039924630",
+    "https://openalex.org/W2040636296",
+    "https://openalex.org/W2040954238",
+    "https://openalex.org/W2041162400",
+    "https://openalex.org/W2041289197",
+    "https://openalex.org/W2041359223",
+    "https://openalex.org/W2041398967",
+    "https://openalex.org/W2041543082",
+    "https://openalex.org/W2041721263",
+    "https://openalex.org/W2042458891",
+    "https://openalex.org/W2042503285",
+    "https://openalex.org/W2042710774",
+    "https://openalex.org/W2043210560",
+    "https://openalex.org/W2043947564",
+    "https://openalex.org/W2046790183",
+    "https://openalex.org/W2047462745",
+    "https://openalex.org/W2048626265",
+    "https://openalex.org/W2049222512",
+    "https://openalex.org/W2049957197",
+    "https://openalex.org/W2050118590",
+    "https://openalex.org/W2053022803",
+    "https://openalex.org/W2054776071",
+    "https://openalex.org/W2054947871",
+    "https://openalex.org/W2056638567",
+    "https://openalex.org/W2056817949",
+    "https://openalex.org/W2056892555",
+    "https://openalex.org/W2058106189",
+    "https://openalex.org/W2058242871",
+    "https://openalex.org/W2058249580",
+    "https://openalex.org/W2058645571",
+    "https://openalex.org/W2059058092",
+    "https://openalex.org/W2059286593",
+    "https://openalex.org/W2060271974",
+    "https://openalex.org/W2060552645",
+    "https://openalex.org/W2062094321",
+    "https://openalex.org/W2064477236",
+    "https://openalex.org/W2064801398",
+    "https://openalex.org/W2065246627",
+    "https://openalex.org/W2065619661",
+    "https://openalex.org/W2065824975",
+    "https://openalex.org/W2065979657",
+    "https://openalex.org/W2066410470",
+    "https://openalex.org/W2066437277",
+    "https://openalex.org/W2066525117",
+    "https://openalex.org/W2066766482",
+    "https://openalex.org/W2067029634",
+    "https://openalex.org/W2067244501",
+    "https://openalex.org/W2068048197",
+    "https://openalex.org/W2068829186",
+    "https://openalex.org/W2068973847",
+    "https://openalex.org/W2069466069",
+    "https://openalex.org/W2070110482",
+    "https://openalex.org/W2070770446",
+    "https://openalex.org/W2071591651",
+    "https://openalex.org/W2073947021",
+    "https://openalex.org/W2074371416",
+    "https://openalex.org/W2075297638",
+    "https://openalex.org/W2075467373",
+    "https://openalex.org/W2075685752",
+    "https://openalex.org/W2075747312",
+    "https://openalex.org/W2076055995",
+    "https://openalex.org/W2078078706",
+    "https://openalex.org/W2078458869",
+    "https://openalex.org/W2078739917",
+    "https://openalex.org/W2078753143",
+    "https://openalex.org/W2079310705",
+    "https://openalex.org/W2079462709",
+    "https://openalex.org/W2080261054",
+    "https://openalex.org/W2082085465",
+    "https://openalex.org/W2082663361",
+    "https://openalex.org/W2082966118",
+    "https://openalex.org/W2083278580",
+    "https://openalex.org/W2083499801",
+    "https://openalex.org/W2084621494",
+    "https://openalex.org/W2084723599",
+    "https://openalex.org/W2085023145",
+    "https://openalex.org/W2085025210",
+    "https://openalex.org/W2085568061",
+    "https://openalex.org/W2086138058",
+    "https://openalex.org/W2086448760",
+    "https://openalex.org/W2086930187",
+    "https://openalex.org/W2087511178",
+    "https://openalex.org/W2087800507",
+    "https://openalex.org/W2089164902",
+    "https://openalex.org/W2090120422",
+    "https://openalex.org/W2090848174",
+    "https://openalex.org/W2091203739",
+    "https://openalex.org/W2091694632",
+    "https://openalex.org/W2095408997",
+    "https://openalex.org/W2095652212",
+    "https://openalex.org/W2096254067",
+    "https://openalex.org/W2096319389",
+    "https://openalex.org/W2096847996",
+    "https://openalex.org/W2098303916",
+    "https://openalex.org/W2099099776",
+    "https://openalex.org/W2099956256",
+    "https://openalex.org/W2101117598",
+    "https://openalex.org/W2101216385",
+    "https://openalex.org/W2102472842",
+    "https://openalex.org/W2104612340",
+    "https://openalex.org/W2104744456",
+    "https://openalex.org/W2104746448",
+    "https://openalex.org/W2105114633",
+    "https://openalex.org/W2106434524",
+    "https://openalex.org/W2107324877",
+    "https://openalex.org/W2107366065",
+    "https://openalex.org/W2109198983",
+    "https://openalex.org/W2109415448",
+    "https://openalex.org/W2110253595",
+    "https://openalex.org/W2110744971",
+    "https://openalex.org/W2110959289",
+    "https://openalex.org/W2110966376",
+    "https://openalex.org/W2111282994",
+    "https://openalex.org/W2111734173",
+    "https://openalex.org/W2111873608",
+    "https://openalex.org/W2113314239",
+    "https://openalex.org/W2113484361",
+    "https://openalex.org/W2114024001",
+    "https://openalex.org/W2115412478",
+    "https://openalex.org/W2116230576",
+    "https://openalex.org/W2117473844",
+    "https://openalex.org/W2117714847",
+    "https://openalex.org/W2119061746",
+    "https://openalex.org/W2120504470",
+    "https://openalex.org/W2120997014",
+    "https://openalex.org/W2122341467",
+    "https://openalex.org/W2123462780",
+    "https://openalex.org/W2123532637",
+    "https://openalex.org/W2123878025",
+    "https://openalex.org/W2124612466",
+    "https://openalex.org/W2126094269",
+    "https://openalex.org/W2127299207",
+    "https://openalex.org/W2128055033",
+    "https://openalex.org/W2128898891",
+    "https://openalex.org/W2129726886",
+    "https://openalex.org/W2130210612",
+    "https://openalex.org/W2130230447",
+    "https://openalex.org/W2130325124",
+    "https://openalex.org/W2131387907",
+    "https://openalex.org/W2131718574",
+    "https://openalex.org/W2132878122",
+    "https://openalex.org/W2133367167",
+    "https://openalex.org/W2133593669",
+    "https://openalex.org/W2134807790",
+    "https://openalex.org/W2135414511",
+    "https://openalex.org/W2135638621",
+    "https://openalex.org/W2136647140",
+    "https://openalex.org/W2137193590",
+    "https://openalex.org/W2138240713",
+    "https://openalex.org/W2139417020",
+    "https://openalex.org/W2139732486",
+    "https://openalex.org/W2139902189",
+    "https://openalex.org/W2140014506",
+    "https://openalex.org/W2140182647",
+    "https://openalex.org/W2140751228",
+    "https://openalex.org/W2141097619",
+    "https://openalex.org/W2141901922",
+    "https://openalex.org/W2144318600",
+    "https://openalex.org/W2144596746",
+    "https://openalex.org/W2145391370",
+    "https://openalex.org/W2147160088",
+    "https://openalex.org/W2147993424",
+    "https://openalex.org/W2149791944",
+    "https://openalex.org/W2152390180",
+    "https://openalex.org/W2154016458",
+    "https://openalex.org/W2154068452",
+    "https://openalex.org/W2155227094",
+    "https://openalex.org/W2156222563",
+    "https://openalex.org/W2156241187",
+    "https://openalex.org/W2156754173",
+    "https://openalex.org/W2156826654",
+    "https://openalex.org/W2157199218",
+    "https://openalex.org/W2157266730",
+    "https://openalex.org/W2157773842",
+    "https://openalex.org/W2158055037",
+    "https://openalex.org/W2158728023",
+    "https://openalex.org/W2159139985",
+    "https://openalex.org/W2160298454",
+    "https://openalex.org/W2160398772",
+    "https://openalex.org/W2162401872",
+    "https://openalex.org/W2162633290",
+    "https://openalex.org/W2165201727",
+    "https://openalex.org/W2165537841",
+    "https://openalex.org/W2165601218",
+    "https://openalex.org/W2166368789",
+    "https://openalex.org/W2166432730",
+    "https://openalex.org/W2166667211",
+    "https://openalex.org/W2167302006",
+    "https://openalex.org/W2168530872",
+    "https://openalex.org/W2169957088",
+    "https://openalex.org/W2170319041",
+    "https://openalex.org/W2171715833",
+    "https://openalex.org/W2176326379",
+    "https://openalex.org/W2409388827",
+    "https://openalex.org/W2417392243",
+    "https://openalex.org/W2991550440",
+    "https://openalex.org/W300030416",
+    "https://openalex.org/W301113707",
+    "https://openalex.org/W360557513",
+    "https://openalex.org/W4210782235",
+    "https://openalex.org/W4214682093",
+    "https://openalex.org/W45875853"
+  ],
+  "related_works": [
+    "https://openalex.org/W2417392243",
+    "https://openalex.org/W2222326255",
+    "https://openalex.org/W2136838575",
+    "https://openalex.org/W2092143550",
+    "https://openalex.org/W2053347391",
+    "https://openalex.org/W2011309893",
+    "https://openalex.org/W2006520406",
+    "https://openalex.org/W1996595762",
+    "https://openalex.org/W1994734877",
+    "https://openalex.org/W1894069867"
+  ],
+  "abstract_inverted_index": {
+    "Virtually": [
+      0
+    ],
+    "every": [
+      1
+    ],
+    "mammalian": [
+      2
+    ],
+    "cell": [
+      3,
+      437
+    ],
+    "contains": [
+      4
+    ],
+    "mitochondria.": [
+      5
+    ],
+    "These": [
+      6
+    ],
+    "double-membrane": [
+      7
+    ],
+    "organelles": [
+      8
+    ],
+    "continuously": [
+      9
+    ],
+    "change": [
+      10
+    ],
+    "shape": [
+      11
+    ],
+    "and": [
+      12,
+      14,
+      28,
+      40,
+      43,
+      50,
+      79,
+      104,
+      112,
+      125,
+      155,
+      158,
+      177,
+      194,
+      209,
+      219,
+      271,
+      275,
+      284,
+      322,
+      371,
+      379,
+      385,
+      388,
+      401,
+      414,
+      430,
+      433
+    ],
+    "position": [
+      13
+    ],
+    "contain": [
+      15
+    ],
+    "the": [
+      16,
+      21,
+      58,
+      67,
+      77,
+      84,
+      87,
+      92,
+      120,
+      166,
+      174,
+      187,
+      404,
+      409,
+      418,
+      423
+    ],
+    "complete": [
+      17
+    ],
+    "metabolic": [
+      18
+    ],
+    "machinery": [
+      19
+    ],
+    "for": [
+      20
+    ],
+    "oxidative": [
+      22
+    ],
+    "conversion": [
+      23
+    ],
+    "of": [
+      24,
+      47,
+      83,
+      89,
+      94,
+      142,
+      153,
+      168,
+      179,
+      183,
+      189,
+      221,
+      230,
+      235,
+      240,
+      246,
+      258,
+      265,
+      293,
+      297,
+      300,
+      303,
+      344,
+      350,
+      408,
+      422,
+      440
+    ],
+    "pyruvate,": [
+      25
+    ],
+    "fatty": [
+      26
+    ],
+    "acids,": [
+      27
+    ],
+    "amino": [
+      29
+    ],
+    "acids": [
+      30
+    ],
+    "into": [
+      31
+    ],
+    "ATP.": [
+      32
+    ],
+    "Mitochondria": [
+      33,
+      288
+    ],
+    "are": [
+      34,
+      289
+    ],
+    "crucially": [
+      35
+    ],
+    "involved": [
+      36
+    ],
+    "in": [
+      37,
+      170,
+      191,
+      213,
+      268,
+      364,
+      397,
+      426
+    ],
+    "cellular": [
+      38,
+      156,
+      386,
+      419,
+      431
+    ],
+    "Ca2+": [
+      39,
+      387,
+      432
+    ],
+    "redox": [
+      41
+    ],
+    "homeostasis": [
+      42,
+      376
+    ],
+    "apoptosis": [
+      44
+    ],
+    "induction.": [
+      45
+    ],
+    "Maintenance": [
+      46
+    ],
+    "mitochondrial": [
+      48,
+      59,
+      154,
+      171,
+      266,
+      372
+    ],
+    "function": [
+      49,
+      132,
+      157,
+      210,
+      220,
+      274
+    ],
+    "integrity": [
+      51
+    ],
+    "requires": [
+      52
+    ],
+    "an": [
+      53,
+      290
+    ],
+    "inside-negative": [
+      54
+    ],
+    "potential": [
+      55,
+      63,
+      374
+    ],
+    "difference": [
+      56
+    ],
+    "across": [
+      57
+    ],
+    "inner": [
+      60
+    ],
+    "membrane.": [
+      61
+    ],
+    "This": [
+      62
+    ],
+    "is": [
+      64
+    ],
+    "sustained": [
+      65
+    ],
+    "by": [
+      66,
+      127
+    ],
+    "electron-transport": [
+      68,
+      214
+    ],
+    "chain": [
+      69,
+      215
+    ],
+    "(ETC).": [
+      70
+    ],
+    "NADH:ubiquinone": [
+      71
+    ],
+    "oxidoreductase": [
+      72
+    ],
+    "or": [
+      73,
+      136,
+      144,
+      309,
+      313
+    ],
+    "complex": [
+      74,
+      82,
+      222,
+      226,
+      236,
+      242,
+      247,
+      259,
+      272,
+      280,
+      361,
+      394,
+      441
+    ],
+    "I": [
+      75,
+      223,
+      227,
+      232,
+      237,
+      243,
+      248,
+      260,
+      273,
+      281,
+      283,
+      356,
+      362,
+      369,
+      395,
+      442
+    ],
+    "(CI),": [
+      76
+    ],
+    "first": [
+      78
+    ],
+    "largest": [
+      80
+    ],
+    "protein": [
+      81,
+      382
+    ],
+    "ETC,": [
+      85
+    ],
+    "couples": [
+      86
+    ],
+    "oxidation": [
+      88
+    ],
+    "NADH": [
+      90
+    ],
+    "to": [
+      91,
+      109,
+      139,
+      150,
+      198,
+      354,
+      359,
+      392
+    ],
+    "reduction": [
+      93
+    ],
+    "ubiquinone.": [
+      95
+    ],
+    "During": [
+      96
+    ],
+    "this": [
+      97,
+      161
+    ],
+    "process,": [
+      98
+    ],
+    "electrons": [
+      99
+    ],
+    "can": [
+      100
+    ],
+    "escape": [
+      101
+    ],
+    "from": [
+      102
+    ],
+    "CI": [
+      103,
+      169,
+      184,
+      190,
+      199
+    ],
+    "react": [
+      105
+    ],
+    "with": [
+      106,
+      279,
+      403
+    ],
+    "ambient": [
+      107
+    ],
+    "oxygen": [
+      108,
+      115
+    ],
+    "produce": [
+      110
+    ],
+    "superoxide": [
+      111
+    ],
+    "derived": [
+      113
+    ],
+    "reactive": [
+      114
+    ],
+    "species": [
+      116
+    ],
+    "(ROS).": [
+      117
+    ],
+    "Depending": [
+      118
+    ],
+    "on": [
+      119
+    ],
+    "balance": [
+      121
+    ],
+    "between": [
+      122,
+      417
+    ],
+    "their": [
+      123
+    ],
+    "production": [
+      124
+    ],
+    "removal": [
+      126
+    ],
+    "antioxidant": [
+      128,
+      424
+    ],
+    "systems,": [
+      129
+    ],
+    "ROS": [
+      130,
+      192,
+      286,
+      295,
+      306,
+      325,
+      345,
+      351
+    ],
+    "may": [
+      131
+    ],
+    "as": [
+      133,
+      307,
+      326,
+      330,
+      336,
+      341,
+      347
+    ],
+    "signaling": [
+      134,
+      327,
+      332,
+      338,
+      342,
+      348
+    ],
+    "molecules": [
+      135,
+      312,
+      328
+    ],
+    "induce": [
+      137
+    ],
+    "damage": [
+      138
+    ],
+    "a": [
+      140,
+      151,
+      331,
+      337
+    ],
+    "variety": [
+      141
+    ],
+    "biomolecules": [
+      143
+    ],
+    "both.": [
+      145
+    ],
+    "The": [
+      146,
+      436
+    ],
+    "latter": [
+      147
+    ],
+    "ultimately": [
+      148
+    ],
+    "leads": [
+      149
+    ],
+    "loss": [
+      152
+    ],
+    "integrity.": [
+      159
+    ],
+    "In": [
+      160
+    ],
+    "review,": [
+      162
+    ],
+    "we": [
+      163
+    ],
+    "discuss": [
+      164
+    ],
+    "(a)": [
+      165
+    ],
+    "role": [
+      167,
+      188
+    ],
+    "functioning;": [
+      172
+    ],
+    "(b)": [
+      173
+    ],
+    "composition,": [
+      175
+    ],
+    "structure,": [
+      176,
+      218
+    ],
+    "biogenesis": [
+      178
+    ],
+    "CI;": [
+      180
+    ],
+    "(c)": [
+      181
+    ],
+    "regulation": [
+      182,
+      234
+    ],
+    "function;": [
+      185
+    ],
+    "(d)": [
+      186
+    ],
+    "generation;": [
+      193
+    ],
+    "(e)": [
+      195
+    ],
+    "adaptive": [
+      196
+    ],
+    "responses": [
+      197
+    ],
+    "deficiency.": [
+      200
+    ],
+    "Antioxid.": [
+      201
+    ],
+    "Redox": [
+      202,
+      375
+    ],
+    "Signal.": [
+      203
+    ],
+    "12,": [
+      204
+    ],
+    "1431–1470.": [
+      205
+    ],
+    "Introduction": [
+      206
+    ],
+    "Mitochondrial": [
+      207,
+      238,
+      305,
+      324,
+      377,
+      381,
+      384,
+      412,
+      429
+    ],
+    "structure": [
+      208
+    ],
+    "Tissue-dependent": [
+      211
+    ],
+    "differences": [
+      212,
+      402
+    ],
+    "expression": [
+      216,
+      383
+    ],
+    "Composition,": [
+      217
+    ],
+    "Isolated": [
+      224
+    ],
+    "human": [
+      225,
+      365
+    ],
+    "deficiency": [
+      228,
+      363,
+      396,
+      443
+    ],
+    "Biogenesis": [
+      229
+    ],
+    "Complex": [
+      231,
+      282,
+      355,
+      368
+    ],
+    "Expression": [
+      233
+    ],
+    "import": [
+      239
+    ],
+    "nDNA-encoded": [
+      241
+    ],
+    "subunits": [
+      244
+    ],
+    "Assembly": [
+      245
+    ],
+    "NDUFAF1": [
+      249
+    ],
+    "NDUFAF2": [
+      250
+    ],
+    "NDUFAF3": [
+      251
+    ],
+    "NDUFAF4": [
+      252
+    ],
+    "C8orf38": [
+      253
+    ],
+    "C20orf7": [
+      254
+    ],
+    "Ecsit": [
+      255
+    ],
+    "Spatiotemporal": [
+      256
+    ],
+    "dynamics": [
+      257,
+      380,
+      415
+    ],
+    "assembly": [
+      261
+    ],
+    "Supercomplex": [
+      262
+    ],
+    "formation": [
+      263,
+      270,
+      321
+    ],
+    "Role": [
+      264
+    ],
+    "lipids": [
+      267
+    ],
+    "supercomplex": [
+      269
+    ],
+    "stability": [
+      276
+    ],
+    "Proteins": [
+      277,
+      346
+    ],
+    "interacting": [
+      278
+    ],
+    "Cellular": [
+      285
+    ],
+    "Generation": [
+      287,
+      296,
+      299,
+      302
+    ],
+    "important": [
+      291
+    ],
+    "source": [
+      292
+    ],
+    "intracellular": [
+      294
+    ],
+    "O2−": [
+      298
+    ],
+    "H2O2": [
+      301
+    ],
+    "OH": [
+      304
+    ],
+    "damaging": [
+      308
+    ],
+    "direct": [
+      310
+    ],
+    "regulatory": [
+      311
+    ],
+    "both": [
+      314
+    ],
+    "Lipid": [
+      315
+    ],
+    "peroxidation": [
+      316
+    ],
+    "Protein": [
+      317,
+      319
+    ],
+    "carbonylation": [
+      318
+    ],
+    "disulfide": [
+      320
+    ],
+    "glutathionylation": [
+      323
+    ],
+    "Superoxide": [
+      329
+    ],
+    "molecule": [
+      333,
+      339
+    ],
+    "Hydrogen": [
+      334
+    ],
+    "peroxide": [
+      335
+    ],
+    "Lipids": [
+      340
+    ],
+    "targets": [
+      343,
+      349
+    ],
+    "Adaptive": [
+      352
+    ],
+    "Responses": [
+      353
+    ],
+    "Deficiency": [
+      357
+    ],
+    "Adaptation": [
+      358,
+      391
+    ],
+    "rotenone-induced": [
+      360
+    ],
+    "skin": [
+      366
+    ],
+    "fibroblasts": [
+      367,
+      399
+    ],
+    "activity": [
+      370
+    ],
+    "membrane": [
+      373
+    ],
+    "morphology": [
+      378,
+      413
+    ],
+    "ATP": [
+      389,
+      434
+    ],
+    "handling": [
+      390,
+      435
+    ],
+    "mutation-induced": [
+      393
+    ],
+    "patient": [
+      398,
+      427
+    ],
+    "Similarities": [
+      400
+    ],
+    "rotenone": [
+      405,
+      410
+    ],
+    "model": [
+      406,
+      411
+    ],
+    "Validity": [
+      407
+    ],
+    "Interrelationships": [
+      416
+    ],
+    "parameters": [
+      420
+    ],
+    "Effects": [
+      421
+    ],
+    "Trolox": [
+      425
+    ],
+    "cells": [
+      428
+    ],
+    "biologic": [
+      438
+    ],
+    "consequences": [
+      439
+    ],
+    "Conclusions": [
+      444
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2102409753",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 33
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 43
+    }
+  ],
+  "updated_date": "2025-06-16T08:38:05.244692",
+  "created_date": "2016-06-24"
+}

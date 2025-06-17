@@ -1,0 +1,926 @@
+{
+  "id": "https://openalex.org/W2002454094",
+  "doi": "https://doi.org/10.1016/s0923-2508(99)00106-0",
+  "title": "Membrane topology of CadA homologous P-type ATPase of as determined by expression of fusions in and the positive inside rule",
+  "display_name": "Membrane topology of CadA homologous P-type ATPase of as determined by expression of fusions in and the positive inside rule",
+  "publication_year": 1999,
+  "publication_date": "1999-10-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2002454094",
+    "doi": "https://doi.org/10.1016/s0923-2508(99)00106-0",
+    "mag": "2002454094",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/10577484"
+  },
+  "language": "fr",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0923-2508(99)00106-0",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S37853641",
+      "display_name": "Research in Microbiology",
+      "issn_l": "0923-2508",
+      "issn": [
+        "0923-2508",
+        "1769-7123"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.1016/s0923-2508(99)00106-0",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5037503488",
+        "display_name": "Klaus Melchers",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210138844",
+          "display_name": "Klinikum Konstanz",
+          "ror": "https://ror.org/03z5ka349",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210138844"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Klaus Melchers",
+      "raw_affiliation_strings": [
+        "Department of Molecular Biology, Byk Gulden Pharmaceuticals, Konstanz, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular Biology, Byk Gulden Pharmaceuticals, Konstanz, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210138844"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045604774",
+        "display_name": "Alexander Schuhmacher",
+        "orcid": "https://orcid.org/0000-0001-7884-5757"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210138844",
+          "display_name": "Klinikum Konstanz",
+          "ror": "https://ror.org/03z5ka349",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210138844"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alexander Schuhmacher",
+      "raw_affiliation_strings": [
+        "Department of Molecular Biology, Byk Gulden Pharmaceuticals, Konstanz, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular Biology, Byk Gulden Pharmaceuticals, Konstanz, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210138844"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013889338",
+        "display_name": "Anita Buhmann",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210138844",
+          "display_name": "Klinikum Konstanz",
+          "ror": "https://ror.org/03z5ka349",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210138844"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anita Buhmann",
+      "raw_affiliation_strings": [
+        "Department of Molecular Biology, Byk Gulden Pharmaceuticals, Konstanz, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular Biology, Byk Gulden Pharmaceuticals, Konstanz, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210138844"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028898847",
+        "display_name": "Thomas Weitzenegger",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thomas Weitzenegger",
+      "raw_affiliation_strings": [
+        "Gesellschaft für Analyse-Technik und Consulting GmbH (GATC Konstanz), Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gesellschaft für Analyse-Technik und Consulting GmbH (GATC Konstanz), Germany",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083905961",
+        "display_name": "Dominique Belin",
+        "orcid": "https://orcid.org/0000-0003-4686-339X"
+      },
+      "institutions": [],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dominique Belin",
+      "raw_affiliation_strings": [
+        "Département de pathologie, Centre Medical Universitaire, Geneva, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Département de pathologie, Centre Medical Universitaire, Geneva, Switzerland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5020276016",
+        "display_name": "Sandra Grau",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I189712700",
+          "display_name": "University of Konstanz",
+          "ror": "https://ror.org/0546hnb39",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I189712700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sandra Grau",
+      "raw_affiliation_strings": [
+        "Fäkultät für Biologie, Universität Konstanz, Konstanz, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Fäkultät für Biologie, Universität Konstanz, Konstanz, Germany",
+          "institution_ids": [
+            "https://openalex.org/I189712700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5080063285",
+        "display_name": "Michael Ehrmann",
+        "orcid": "https://orcid.org/0000-0002-1927-260X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I189712700",
+          "display_name": "University of Konstanz",
+          "ror": "https://ror.org/0546hnb39",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I189712700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Ehrmann",
+      "raw_affiliation_strings": [
+        "Fäkultät für Biologie, Universität Konstanz, Konstanz, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Fäkultät für Biologie, Universität Konstanz, Konstanz, Germany",
+          "institution_ids": [
+            "https://openalex.org/I189712700"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2240,
+    "currency": "USD",
+    "value_usd": 2240
+  },
+  "apc_paid": null,
+  "fwci": 1.319,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 24,
+  "citation_normalized_percentile": {
+    "value": 0.819468,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 85,
+    "max": 86
+  },
+  "biblio": {
+    "volume": "150",
+    "issue": "8",
+    "first_page": "507",
+    "last_page": "520"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10276",
+    "display_name": "Helicobacter pylori-related gastroenterology studies",
+    "score": 0.9928,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2746",
+      "display_name": "Surgery"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10276",
+      "display_name": "Helicobacter pylori-related gastroenterology studies",
+      "score": 0.9928,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12763",
+      "display_name": "ATP Synthase and ATPases Research",
+      "score": 0.9921,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10521",
+      "display_name": "RNA and protein synthesis mechanisms",
+      "score": 0.9784,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/membrane-topology",
+      "display_name": "Membrane topology",
+      "score": 0.49540746
+    },
+    {
+      "id": "https://openalex.org/keywords/cloning-vector",
+      "display_name": "Cloning vector",
+      "score": 0.4502992
+    },
+    {
+      "id": "https://openalex.org/keywords/heterologous-expression",
+      "display_name": "Heterologous expression",
+      "score": 0.41372257
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.80020237
+    },
+    {
+      "id": "https://openalex.org/C201663137",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198990",
+      "display_name": "Periplasmic space",
+      "level": 4,
+      "score": 0.7166109
+    },
+    {
+      "id": "https://openalex.org/C24530287",
+      "wikidata": "https://www.wikidata.org/wiki/Q424204",
+      "display_name": "Transmembrane protein",
+      "level": 3,
+      "score": 0.6573806
+    },
+    {
+      "id": "https://openalex.org/C10858879",
+      "wikidata": "https://www.wikidata.org/wiki/Q899790",
+      "display_name": "Signal peptide",
+      "level": 4,
+      "score": 0.6278398
+    },
+    {
+      "id": "https://openalex.org/C118892022",
+      "wikidata": "https://www.wikidata.org/wiki/Q7834587",
+      "display_name": "Transmembrane domain",
+      "level": 3,
+      "score": 0.5956639
+    },
+    {
+      "id": "https://openalex.org/C167625842",
+      "wikidata": "https://www.wikidata.org/wiki/Q899763",
+      "display_name": "Peptide sequence",
+      "level": 3,
+      "score": 0.5011773
+    },
+    {
+      "id": "https://openalex.org/C534586",
+      "wikidata": "https://www.wikidata.org/wiki/Q6815143",
+      "display_name": "Membrane topology",
+      "level": 4,
+      "score": 0.49540746
+    },
+    {
+      "id": "https://openalex.org/C23265538",
+      "wikidata": "https://www.wikidata.org/wiki/Q300033",
+      "display_name": "ATPase",
+      "level": 3,
+      "score": 0.48670343
+    },
+    {
+      "id": "https://openalex.org/C153911025",
+      "wikidata": "https://www.wikidata.org/wiki/Q7202",
+      "display_name": "Molecular biology",
+      "level": 1,
+      "score": 0.45958012
+    },
+    {
+      "id": "https://openalex.org/C168374021",
+      "wikidata": "https://www.wikidata.org/wiki/Q1924179",
+      "display_name": "Cloning vector",
+      "level": 5,
+      "score": 0.4502992
+    },
+    {
+      "id": "https://openalex.org/C33161422",
+      "wikidata": "https://www.wikidata.org/wiki/Q5421712",
+      "display_name": "Expression vector",
+      "level": 4,
+      "score": 0.43919224
+    },
+    {
+      "id": "https://openalex.org/C108305142",
+      "wikidata": "https://www.wikidata.org/wiki/Q3062286",
+      "display_name": "Heterologous expression",
+      "level": 4,
+      "score": 0.41372257
+    },
+    {
+      "id": "https://openalex.org/C184720557",
+      "wikidata": "https://www.wikidata.org/wiki/Q7825049",
+      "display_name": "Topology (electrical circuits)",
+      "level": 2,
+      "score": 0.39759436
+    },
+    {
+      "id": "https://openalex.org/C547475151",
+      "wikidata": "https://www.wikidata.org/wiki/Q25419",
+      "display_name": "Escherichia coli",
+      "level": 3,
+      "score": 0.39339346
+    },
+    {
+      "id": "https://openalex.org/C515207424",
+      "wikidata": "https://www.wikidata.org/wiki/Q8066",
+      "display_name": "Amino acid",
+      "level": 2,
+      "score": 0.38154694
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.37062797
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.3450277
+    },
+    {
+      "id": "https://openalex.org/C19924922",
+      "wikidata": "https://www.wikidata.org/wiki/Q408351",
+      "display_name": "Molecular cloning",
+      "level": 4,
+      "score": 0.26299596
+    },
+    {
+      "id": "https://openalex.org/C40767141",
+      "wikidata": "https://www.wikidata.org/wiki/Q285697",
+      "display_name": "Recombinant DNA",
+      "level": 3,
+      "score": 0.25771672
+    },
+    {
+      "id": "https://openalex.org/C181199279",
+      "wikidata": "https://www.wikidata.org/wiki/Q8047",
+      "display_name": "Enzyme",
+      "level": 2,
+      "score": 0.09001267
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C114614502",
+      "wikidata": "https://www.wikidata.org/wiki/Q76592",
+      "display_name": "Combinatorics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000251",
+      "descriptor_name": "Adenosine Triphosphatases",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018844",
+      "descriptor_name": "Cyclin-Dependent Kinases",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016480",
+      "descriptor_name": "Helicobacter pylori",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011993",
+      "descriptor_name": "Recombinant Fusion Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000251",
+      "descriptor_name": "Adenosine Triphosphatases",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000251",
+      "descriptor_name": "Adenosine Triphosphatases",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000251",
+      "descriptor_name": "Adenosine Triphosphatases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000469",
+      "descriptor_name": "Alkaline Phosphatase",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000595",
+      "descriptor_name": "Amino Acid Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001693",
+      "descriptor_name": "Biological Transport, Active",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002462",
+      "descriptor_name": "Cell Membrane",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002462",
+      "descriptor_name": "Cell Membrane",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018844",
+      "descriptor_name": "Cyclin-Dependent Kinases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D029968",
+      "descriptor_name": "Escherichia coli Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016480",
+      "descriptor_name": "Helicobacter pylori",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016480",
+      "descriptor_name": "Helicobacter pylori",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011487",
+      "descriptor_name": "Protein Conformation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017434",
+      "descriptor_name": "Protein Structure, Tertiary",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011993",
+      "descriptor_name": "Recombinant Fusion Proteins",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011993",
+      "descriptor_name": "Recombinant Fusion Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011993",
+      "descriptor_name": "Recombinant Fusion Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016415",
+      "descriptor_name": "Sequence Alignment",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/s0923-2508(99)00106-0",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S37853641",
+        "display_name": "Research in Microbiology",
+        "issn_l": "0923-2508",
+        "issn": [
+          "0923-2508",
+          "1769-7123"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "publisher-specific-oa",
+      "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10577484",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0923-2508(99)00106-0",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S37853641",
+      "display_name": "Research in Microbiology",
+      "issn_l": "0923-2508",
+      "issn": [
+        "0923-2508",
+        "1769-7123"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 45,
+  "referenced_works": [
+    "https://openalex.org/W1480346916",
+    "https://openalex.org/W1485969786",
+    "https://openalex.org/W1546783991",
+    "https://openalex.org/W1554414192",
+    "https://openalex.org/W1555584098",
+    "https://openalex.org/W1646047954",
+    "https://openalex.org/W1680293479",
+    "https://openalex.org/W1865891605",
+    "https://openalex.org/W1927380490",
+    "https://openalex.org/W1948880364",
+    "https://openalex.org/W1962204820",
+    "https://openalex.org/W1975304761",
+    "https://openalex.org/W1979560252",
+    "https://openalex.org/W2009783805",
+    "https://openalex.org/W2020063118",
+    "https://openalex.org/W2026781611",
+    "https://openalex.org/W2043050838",
+    "https://openalex.org/W2055600356",
+    "https://openalex.org/W2060531841",
+    "https://openalex.org/W2060577047",
+    "https://openalex.org/W2061073014",
+    "https://openalex.org/W2066006292",
+    "https://openalex.org/W2075089400",
+    "https://openalex.org/W2075345553",
+    "https://openalex.org/W2076903338",
+    "https://openalex.org/W2079357395",
+    "https://openalex.org/W2080795547",
+    "https://openalex.org/W2081833696",
+    "https://openalex.org/W2083268592",
+    "https://openalex.org/W2095448507",
+    "https://openalex.org/W2100837269",
+    "https://openalex.org/W2102289853",
+    "https://openalex.org/W2110132014",
+    "https://openalex.org/W2114901983",
+    "https://openalex.org/W2116531314",
+    "https://openalex.org/W2143204027",
+    "https://openalex.org/W2144634347",
+    "https://openalex.org/W2146270515",
+    "https://openalex.org/W2146766740",
+    "https://openalex.org/W2151004004",
+    "https://openalex.org/W2160084442",
+    "https://openalex.org/W2163137692",
+    "https://openalex.org/W2314225431",
+    "https://openalex.org/W2428963537",
+    "https://openalex.org/W262216995"
+  ],
+  "related_works": [
+    "https://openalex.org/W4390351112",
+    "https://openalex.org/W3127379611",
+    "https://openalex.org/W3014367342",
+    "https://openalex.org/W2964298233",
+    "https://openalex.org/W2801113769",
+    "https://openalex.org/W2097662509",
+    "https://openalex.org/W2075963591",
+    "https://openalex.org/W2062070603",
+    "https://openalex.org/W2015330756",
+    "https://openalex.org/W2014584269"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2002454094",
+  "counts_by_year": [
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-05-19T06:48:01.037252",
+  "created_date": "2016-06-24"
+}

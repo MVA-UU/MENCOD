@@ -1,0 +1,1318 @@
+{
+  "id": "https://openalex.org/W2097065948",
+  "doi": "https://doi.org/10.1093/bioinformatics/btp120",
+  "title": "TopHat: discovering splice junctions with RNA-Seq",
+  "display_name": "TopHat: discovering splice junctions with RNA-Seq",
+  "publication_year": 2009,
+  "publication_date": "2009-03-16",
+  "ids": {
+    "openalex": "https://openalex.org/W2097065948",
+    "doi": "https://doi.org/10.1093/bioinformatics/btp120",
+    "mag": "2097065948",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19289445",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2672628"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/bioinformatics/btp120",
+    "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/25/9/1105/48984105/bioinformatics_25_9_1105.pdf",
+    "source": {
+      "id": "https://openalex.org/S52395412",
+      "display_name": "Bioinformatics",
+      "issn_l": "1367-4803",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://academic.oup.com/bioinformatics/article-pdf/25/9/1105/48984105/bioinformatics_25_9_1105.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5016854384",
+        "display_name": "Cole Trapnell",
+        "orcid": "https://orcid.org/0000-0002-8105-4347"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I66946132",
+          "display_name": "University of Maryland, College Park",
+          "ror": "https://ror.org/047s2c258",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I66946132"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cole Trapnell",
+      "raw_affiliation_strings": [
+        "1 Center for Bioinformatics and Computational Biology, University of Maryland, College Park, MD 20742 and 2Department of Mathematics, University of California, Berkeley, CA 94720, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Center for Bioinformatics and Computational Biology, University of Maryland, College Park, MD 20742 and 2Department of Mathematics, University of California, Berkeley, CA 94720, USA",
+          "institution_ids": [
+            "https://openalex.org/I95457486",
+            "https://openalex.org/I66946132"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5020008219",
+        "display_name": "Lior Pachter",
+        "orcid": "https://orcid.org/0000-0002-9164-6231"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I66946132",
+          "display_name": "University of Maryland, College Park",
+          "ror": "https://ror.org/047s2c258",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I66946132"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lior Pachter",
+      "raw_affiliation_strings": [
+        "1 Center for Bioinformatics and Computational Biology, University of Maryland, College Park, MD 20742 and 2Department of Mathematics, University of California, Berkeley, CA 94720, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Center for Bioinformatics and Computational Biology, University of Maryland, College Park, MD 20742 and 2Department of Mathematics, University of California, Berkeley, CA 94720, USA",
+          "institution_ids": [
+            "https://openalex.org/I66946132",
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5010384159",
+        "display_name": "Steven L. Salzberg",
+        "orcid": "https://orcid.org/0000-0002-8859-7432"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I66946132",
+          "display_name": "University of Maryland, College Park",
+          "ror": "https://ror.org/047s2c258",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I66946132"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steven L. Salzberg",
+      "raw_affiliation_strings": [
+        "1 Center for Bioinformatics and Computational Biology, University of Maryland, College Park, MD 20742 and 2Department of Mathematics, University of California, Berkeley, CA 94720, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Center for Bioinformatics and Computational Biology, University of Maryland, College Park, MD 20742 and 2Department of Mathematics, University of California, Berkeley, CA 94720, USA",
+          "institution_ids": [
+            "https://openalex.org/I66946132",
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3618,
+    "currency": "USD",
+    "value_usd": 3618
+  },
+  "apc_paid": {
+    "value": 3618,
+    "currency": "USD",
+    "value_usd": 3618
+  },
+  "fwci": 106.333,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 11596,
+  "citation_normalized_percentile": {
+    "value": 0.999984,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "25",
+    "issue": "9",
+    "first_page": "1105",
+    "last_page": "1111"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10604",
+    "display_name": "RNA Research and Splicing",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10604",
+      "display_name": "RNA Research and Splicing",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10521",
+      "display_name": "RNA and protein synthesis mechanisms",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11482",
+      "display_name": "RNA modifications and cancer",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/splice",
+      "display_name": "splice",
+      "score": 0.88992363
+    },
+    {
+      "id": "https://openalex.org/keywords/rna-seq",
+      "display_name": "RNA-Seq",
+      "score": 0.6191976
+    },
+    {
+      "id": "https://openalex.org/keywords/gene-annotation",
+      "display_name": "Gene Annotation",
+      "score": 0.4556085
+    },
+    {
+      "id": "https://openalex.org/keywords/genome-browser",
+      "display_name": "Genome browser",
+      "score": 0.432999
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780989783",
+      "wikidata": "https://www.wikidata.org/wiki/Q7578557",
+      "display_name": "splice",
+      "level": 3,
+      "score": 0.88992363
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.6312134
+    },
+    {
+      "id": "https://openalex.org/C107397762",
+      "wikidata": "https://www.wikidata.org/wiki/Q2542347",
+      "display_name": "RNA-Seq",
+      "level": 5,
+      "score": 0.6191976
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5786189
+    },
+    {
+      "id": "https://openalex.org/C43521106",
+      "wikidata": "https://www.wikidata.org/wiki/Q2165493",
+      "display_name": "Pipeline (software)",
+      "level": 2,
+      "score": 0.5711942
+    },
+    {
+      "id": "https://openalex.org/C54458228",
+      "wikidata": "https://www.wikidata.org/wiki/Q237218",
+      "display_name": "RNA splicing",
+      "level": 4,
+      "score": 0.56658065
+    },
+    {
+      "id": "https://openalex.org/C2776321320",
+      "wikidata": "https://www.wikidata.org/wiki/Q857525",
+      "display_name": "Annotation",
+      "level": 2,
+      "score": 0.5545576
+    },
+    {
+      "id": "https://openalex.org/C67705224",
+      "wikidata": "https://www.wikidata.org/wiki/Q11053",
+      "display_name": "RNA",
+      "level": 3,
+      "score": 0.5337969
+    },
+    {
+      "id": "https://openalex.org/C192953774",
+      "wikidata": "https://www.wikidata.org/wiki/Q7307127",
+      "display_name": "Reference genome",
+      "level": 4,
+      "score": 0.52090424
+    },
+    {
+      "id": "https://openalex.org/C2777904410",
+      "wikidata": "https://www.wikidata.org/wiki/Q7397",
+      "display_name": "Software",
+      "level": 2,
+      "score": 0.48750803
+    },
+    {
+      "id": "https://openalex.org/C2908923196",
+      "wikidata": "https://www.wikidata.org/wiki/Q5205742",
+      "display_name": "Gene Annotation",
+      "level": 4,
+      "score": 0.4556085
+    },
+    {
+      "id": "https://openalex.org/C141231307",
+      "wikidata": "https://www.wikidata.org/wiki/Q7020",
+      "display_name": "Genome",
+      "level": 3,
+      "score": 0.44272473
+    },
+    {
+      "id": "https://openalex.org/C2781148417",
+      "wikidata": "https://www.wikidata.org/wiki/Q5533486",
+      "display_name": "Genome browser",
+      "level": 5,
+      "score": 0.432999
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.40607974
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.3978651
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.36059022
+    },
+    {
+      "id": "https://openalex.org/C189206191",
+      "wikidata": "https://www.wikidata.org/wiki/Q222046",
+      "display_name": "Genomics",
+      "level": 4,
+      "score": 0.26322895
+    },
+    {
+      "id": "https://openalex.org/C162317418",
+      "wikidata": "https://www.wikidata.org/wiki/Q252857",
+      "display_name": "Transcriptome",
+      "level": 4,
+      "score": 0.23930454
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.20663255
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.11595717
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D012326",
+      "descriptor_name": "RNA Splicing",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D017423",
+      "descriptor_name": "Sequence Analysis, RNA",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012984",
+      "descriptor_name": "Software",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000465",
+      "descriptor_name": "Algorithms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020869",
+      "descriptor_name": "Gene Expression Profiling",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020869",
+      "descriptor_name": "Gene Expression Profiling",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008957",
+      "descriptor_name": "Models, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012326",
+      "descriptor_name": "RNA Splicing",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012333",
+      "descriptor_name": "RNA, Messenger",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016415",
+      "descriptor_name": "Sequence Alignment",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/bioinformatics/btp120",
+      "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/25/9/1105/48984105/bioinformatics_25_9_1105.pdf",
+      "source": {
+        "id": "https://openalex.org/S52395412",
+        "display_name": "Bioinformatics",
+        "issn_l": "1367-4803",
+        "issn": [
+          "1367-4803",
+          "1367-4811"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc2672628",
+      "pdf_url": "https://europepmc.org/articles/pmc2672628?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2672628",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://resolver.caltech.edu/CaltechAUTHORS:20170306-141357019",
+      "pdf_url": "https://authors.library.caltech.edu/records/6d8hx-6w537/files/btp120.pdf?download=1",
+      "source": {
+        "id": "https://openalex.org/S4306402161",
+        "display_name": "CaltechAUTHORS (California Institute of Technology)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I122411786",
+        "host_organization_name": "California Institute of Technology",
+        "host_organization_lineage": [
+          "https://openalex.org/I122411786"
+        ],
+        "host_organization_lineage_names": [
+          "California Institute of Technology"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19289445",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/bioinformatics/btp120",
+    "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/25/9/1105/48984105/bioinformatics_25_9_1105.pdf",
+    "source": {
+      "id": "https://openalex.org/S52395412",
+      "display_name": "Bioinformatics",
+      "issn_l": "1367-4803",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 23,
+  "referenced_works": [
+    "https://openalex.org/W1857325778",
+    "https://openalex.org/W2002875415",
+    "https://openalex.org/W2013697960",
+    "https://openalex.org/W2020627027",
+    "https://openalex.org/W2020902625",
+    "https://openalex.org/W2033771289",
+    "https://openalex.org/W2037089206",
+    "https://openalex.org/W2075996757",
+    "https://openalex.org/W2097117811",
+    "https://openalex.org/W2105776281",
+    "https://openalex.org/W2106678197",
+    "https://openalex.org/W2112113834",
+    "https://openalex.org/W2120293208",
+    "https://openalex.org/W2121211805",
+    "https://openalex.org/W2124985265",
+    "https://openalex.org/W2134283755",
+    "https://openalex.org/W2134924833",
+    "https://openalex.org/W2136145671",
+    "https://openalex.org/W2154431984",
+    "https://openalex.org/W2155804510",
+    "https://openalex.org/W2160969485",
+    "https://openalex.org/W2161488606",
+    "https://openalex.org/W4293196852"
+  ],
+  "related_works": [
+    "https://openalex.org/W4383032973",
+    "https://openalex.org/W4212818129",
+    "https://openalex.org/W3164775734",
+    "https://openalex.org/W2972815725",
+    "https://openalex.org/W2906188169",
+    "https://openalex.org/W2884291362",
+    "https://openalex.org/W2564035858",
+    "https://openalex.org/W2343917130",
+    "https://openalex.org/W2235368041",
+    "https://openalex.org/W1976142521"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Motivation:": [
+      1
+    ],
+    "A": [
+      2
+    ],
+    "new": [
+      3
+    ],
+    "protocol": [
+      4
+    ],
+    "for": [
+      5,
+      50
+    ],
+    "sequencing": [
+      6
+    ],
+    "the": [
+      7,
+      94,
+      109,
+      114
+    ],
+    "messenger": [
+      8
+    ],
+    "RNA": [
+      9
+    ],
+    "in": [
+      10,
+      22,
+      154
+    ],
+    "a": [
+      11,
+      23,
+      55,
+      82,
+      98,
+      157,
+      160
+    ],
+    "cell,": [
+      12
+    ],
+    "known": [
+      13,
+      59,
+      88
+    ],
+    "as": [
+      14
+    ],
+    "RNA-Seq,": [
+      15
+    ],
+    "generates": [
+      16
+    ],
+    "millions": [
+      17
+    ],
+    "of": [
+      18,
+      36,
+      45,
+      108
+    ],
+    "short": [
+      19
+    ],
+    "sequence": [
+      20
+    ],
+    "fragments": [
+      21
+    ],
+    "single": [
+      24
+    ],
+    "run.": [
+      25
+    ],
+    "These": [
+      26
+    ],
+    "fragments,": [
+      27
+    ],
+    "or": [
+      28
+    ],
+    "‘reads’,": [
+      29
+    ],
+    "can": [
+      30
+    ],
+    "be": [
+      31
+    ],
+    "used": [
+      32
+    ],
+    "to": [
+      33,
+      40,
+      54,
+      74,
+      81,
+      148,
+      169
+    ],
+    "measure": [
+      34
+    ],
+    "levels": [
+      35
+    ],
+    "gene": [
+      37
+    ],
+    "expression": [
+      38
+    ],
+    "and": [
+      39,
+      62,
+      103
+    ],
+    "identify": [
+      41,
+      64
+    ],
+    "novel": [
+      42,
+      65
+    ],
+    "splice": [
+      43,
+      60,
+      89,
+      110,
+      172
+    ],
+    "variants": [
+      44
+    ],
+    "genes.": [
+      46
+    ],
+    "However,": [
+      47
+    ],
+    "current": [
+      48
+    ],
+    "software": [
+      49,
+      116,
+      189
+    ],
+    "aligning": [
+      51
+    ],
+    "RNA-Seq": [
+      52,
+      79,
+      95,
+      101,
+      152,
+      176
+    ],
+    "data": [
+      53,
+      198
+    ],
+    "genome": [
+      56,
+      84
+    ],
+    "relies": [
+      57
+    ],
+    "on": [
+      58,
+      87,
+      159
+    ],
+    "junctions": [
+      61,
+      111
+    ],
+    "cannot": [
+      63
+    ],
+    "ones.": [
+      66
+    ],
+    "TopHat": [
+      67,
+      129,
+      185
+    ],
+    "is": [
+      68,
+      131,
+      146,
+      186
+    ],
+    "an": [
+      69,
+      78,
+      150
+    ],
+    "efficient": [
+      70
+    ],
+    "read-mapping": [
+      71
+    ],
+    "algorithm": [
+      72,
+      182
+    ],
+    "designed": [
+      73
+    ],
+    "align": [
+      75
+    ],
+    "reads": [
+      76,
+      96,
+      141,
+      177
+    ],
+    "from": [
+      77,
+      97,
+      117,
+      175,
+      191
+    ],
+    "experiment": [
+      80,
+      102,
+      153
+    ],
+    "reference": [
+      83
+    ],
+    "without": [
+      85
+    ],
+    "relying": [
+      86
+    ],
+    "sites.": [
+      90
+    ],
+    "Results:": [
+      91
+    ],
+    "We": [
+      92,
+      164
+    ],
+    "mapped": [
+      93
+    ],
+    "recent": [
+      99
+    ],
+    "mammalian": [
+      100
+    ],
+    "recovered": [
+      104
+    ],
+    "more": [
+      105
+    ],
+    "than": [
+      106,
+      134,
+      156
+    ],
+    "72%": [
+      107
+    ],
+    "reported": [
+      112
+    ],
+    "by": [
+      113
+    ],
+    "annotation-based": [
+      115
+    ],
+    "that": [
+      118,
+      178
+    ],
+    "study,": [
+      119
+    ],
+    "along": [
+      120
+    ],
+    "with": [
+      121
+    ],
+    "nearly": [
+      122,
+      138
+    ],
+    "20": [
+      123
+    ],
+    "000": [
+      124
+    ],
+    "previously": [
+      125
+    ],
+    "unreported": [
+      126
+    ],
+    "junctions.": [
+      127
+    ],
+    "The": [
+      128
+    ],
+    "pipeline": [
+      130
+    ],
+    "much": [
+      132
+    ],
+    "faster": [
+      133
+    ],
+    "previous": [
+      135
+    ],
+    "systems,": [
+      136
+    ],
+    "mapping": [
+      137
+    ],
+    "2.2": [
+      139
+    ],
+    "million": [
+      140
+    ],
+    "per": [
+      142
+    ],
+    "CPU": [
+      143
+    ],
+    "hour,": [
+      144
+    ],
+    "which": [
+      145
+    ],
+    "sufficient": [
+      147
+    ],
+    "process": [
+      149
+    ],
+    "entire": [
+      151
+    ],
+    "less": [
+      155
+    ],
+    "day": [
+      158
+    ],
+    "standard": [
+      161
+    ],
+    "desktop": [
+      162
+    ],
+    "computer.": [
+      163
+    ],
+    "describe": [
+      165
+    ],
+    "several": [
+      166
+    ],
+    "challenges": [
+      167
+    ],
+    "unique": [
+      168
+    ],
+    "ab": [
+      170
+    ],
+    "initio": [
+      171
+    ],
+    "site": [
+      173
+    ],
+    "discovery": [
+      174
+    ],
+    "will": [
+      179
+    ],
+    "require": [
+      180
+    ],
+    "further": [
+      181
+    ],
+    "development.": [
+      183
+    ],
+    "Availability:": [
+      184
+    ],
+    "free,": [
+      187
+    ],
+    "open-source": [
+      188
+    ],
+    "available": [
+      190,
+      200
+    ],
+    "http://tophat.cbcb.umd.edu": [
+      192
+    ],
+    "Contact:": [
+      193
+    ],
+    "cole@cs.umd.edu": [
+      194
+    ],
+    "Supplementary": [
+      195,
+      197
+    ],
+    "information:": [
+      196
+    ],
+    "are": [
+      199
+    ],
+    "at": [
+      201
+    ],
+    "Bioinformatics": [
+      202
+    ],
+    "online.": [
+      203
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2097065948",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 99
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 297
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 436
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 575
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 804
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 999
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1045
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1222
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1262
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1133
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1080
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1021
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 805
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 486
+    }
+  ],
+  "updated_date": "2025-06-05T14:34:52.963082",
+  "created_date": "2016-06-24"
+}

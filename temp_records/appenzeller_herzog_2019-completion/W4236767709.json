@@ -1,0 +1,823 @@
+{
+  "id": "https://openalex.org/W4236767709",
+  "doi": "https://doi.org/10.1056/nejm199611213352107",
+  "title": "Primary Biliary Cirrhosis",
+  "display_name": "Primary Biliary Cirrhosis",
+  "publication_year": 1996,
+  "publication_date": "1996-11-21",
+  "ids": {
+    "openalex": "https://openalex.org/W4236767709",
+    "doi": "https://doi.org/10.1056/nejm199611213352107"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1056/nejm199611213352107",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S62468778",
+      "display_name": "New England Journal of Medicine",
+      "issn_l": "0028-4793",
+      "issn": [
+        "0028-4793",
+        "1533-4406"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320239",
+      "host_organization_name": "Massachusetts Medical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320239"
+      ],
+      "host_organization_lineage_names": [
+        "Massachusetts Medical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5110681780",
+        "display_name": "Marshall M. Kaplan",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1290900354",
+          "display_name": "Tufts Medical Center",
+          "ror": "https://ror.org/002hsbm82",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1290900354"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Marshall M. Kaplan",
+      "raw_affiliation_strings": [
+        "Division of Gastroenterology, New England Medical Center, 750 Washington St., Boston, MA 02111, where reprint requests should be addressed to Dr. Kaplan."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Gastroenterology, New England Medical Center, 750 Washington St., Boston, MA 02111, where reprint requests should be addressed to Dr. Kaplan.",
+          "institution_ids": [
+            "https://openalex.org/I1290900354"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5110681780"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I1290900354"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 11.725,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 443,
+  "citation_normalized_percentile": {
+    "value": 0.985359,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "335",
+    "issue": "21",
+    "first_page": "1570",
+    "last_page": "1580"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11834",
+    "display_name": "Liver Diseases and Immunity",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2721",
+      "display_name": "Hepatology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11834",
+      "display_name": "Liver Diseases and Immunity",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2721",
+        "display_name": "Hepatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10351",
+      "display_name": "Liver Disease Diagnosis and Treatment",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10337",
+      "display_name": "Liver Disease and Transplantation",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2721",
+        "display_name": "Hepatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/primary-biliary-cirrhosis",
+      "display_name": "Primary Biliary Cirrhosis",
+      "score": 0.9223053
+    },
+    {
+      "id": "https://openalex.org/keywords/biliary-cirrhosis",
+      "display_name": "Biliary cirrhosis",
+      "score": 0.5572976
+    },
+    {
+      "id": "https://openalex.org/keywords/chronic-liver-disease",
+      "display_name": "Chronic liver disease",
+      "score": 0.51208496
+    },
+    {
+      "id": "https://openalex.org/keywords/pathogenesis",
+      "display_name": "Pathogenesis",
+      "score": 0.4543315
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.9336767
+    },
+    {
+      "id": "https://openalex.org/C2780366471",
+      "wikidata": "https://www.wikidata.org/wiki/Q1072420",
+      "display_name": "Primary biliary cirrhosis",
+      "level": 2,
+      "score": 0.9223053
+    },
+    {
+      "id": "https://openalex.org/C163276114",
+      "wikidata": "https://www.wikidata.org/wiki/Q484591",
+      "display_name": "Natural history",
+      "level": 2,
+      "score": 0.63981956
+    },
+    {
+      "id": "https://openalex.org/C2779609443",
+      "wikidata": "https://www.wikidata.org/wiki/Q1368191",
+      "display_name": "Liver transplantation",
+      "level": 3,
+      "score": 0.63778305
+    },
+    {
+      "id": "https://openalex.org/C2777214474",
+      "wikidata": "https://www.wikidata.org/wiki/Q147778",
+      "display_name": "Cirrhosis",
+      "level": 2,
+      "score": 0.59709334
+    },
+    {
+      "id": "https://openalex.org/C2994419564",
+      "wikidata": "https://www.wikidata.org/wiki/Q1072420",
+      "display_name": "Biliary cirrhosis",
+      "level": 4,
+      "score": 0.5572976
+    },
+    {
+      "id": "https://openalex.org/C2779102576",
+      "wikidata": "https://www.wikidata.org/wiki/Q5113984",
+      "display_name": "Chronic liver disease",
+      "level": 3,
+      "score": 0.51208496
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.46977252
+    },
+    {
+      "id": "https://openalex.org/C2780942790",
+      "wikidata": "https://www.wikidata.org/wiki/Q372016",
+      "display_name": "Pathogenesis",
+      "level": 2,
+      "score": 0.4543315
+    },
+    {
+      "id": "https://openalex.org/C90924648",
+      "wikidata": "https://www.wikidata.org/wiki/Q120569",
+      "display_name": "Gastroenterology",
+      "level": 1,
+      "score": 0.44899458
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.4239927
+    },
+    {
+      "id": "https://openalex.org/C2911091166",
+      "wikidata": "https://www.wikidata.org/wiki/Q106419912",
+      "display_name": "Transplantation",
+      "level": 2,
+      "score": 0.294234
+    },
+    {
+      "id": "https://openalex.org/C2779075594",
+      "wikidata": "https://www.wikidata.org/wiki/Q8084905",
+      "display_name": "Autoimmune disease",
+      "level": 3,
+      "score": 0.13963681
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1056/nejm199611213352107",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S62468778",
+        "display_name": "New England Journal of Medicine",
+        "issn_l": "0028-4793",
+        "issn": [
+          "0028-4793",
+          "1533-4406"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320239",
+        "host_organization_name": "Massachusetts Medical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320239"
+        ],
+        "host_organization_lineage_names": [
+          "Massachusetts Medical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.84,
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 132,
+  "referenced_works": [
+    "https://openalex.org/W1219313770",
+    "https://openalex.org/W140612521",
+    "https://openalex.org/W1488833756",
+    "https://openalex.org/W1495781935",
+    "https://openalex.org/W1516886058",
+    "https://openalex.org/W1542349269",
+    "https://openalex.org/W1546098317",
+    "https://openalex.org/W1579178688",
+    "https://openalex.org/W1584416327",
+    "https://openalex.org/W1608582492",
+    "https://openalex.org/W1617091465",
+    "https://openalex.org/W1659316944",
+    "https://openalex.org/W1737483688",
+    "https://openalex.org/W1765385031",
+    "https://openalex.org/W1781739352",
+    "https://openalex.org/W1834991792",
+    "https://openalex.org/W1864076788",
+    "https://openalex.org/W1885062896",
+    "https://openalex.org/W1921843724",
+    "https://openalex.org/W1964284255",
+    "https://openalex.org/W1964825359",
+    "https://openalex.org/W1966463283",
+    "https://openalex.org/W1968303555",
+    "https://openalex.org/W1970664739",
+    "https://openalex.org/W1974973760",
+    "https://openalex.org/W1975517603",
+    "https://openalex.org/W1976630370",
+    "https://openalex.org/W1978770977",
+    "https://openalex.org/W1978871304",
+    "https://openalex.org/W1979578866",
+    "https://openalex.org/W1981860002",
+    "https://openalex.org/W1982082262",
+    "https://openalex.org/W1984136449",
+    "https://openalex.org/W1987419992",
+    "https://openalex.org/W1996203016",
+    "https://openalex.org/W1996289311",
+    "https://openalex.org/W1996562778",
+    "https://openalex.org/W2000472698",
+    "https://openalex.org/W2001880993",
+    "https://openalex.org/W2009221394",
+    "https://openalex.org/W2009301763",
+    "https://openalex.org/W2010615538",
+    "https://openalex.org/W2011059903",
+    "https://openalex.org/W2011501645",
+    "https://openalex.org/W2012993246",
+    "https://openalex.org/W2015165250",
+    "https://openalex.org/W2015917986",
+    "https://openalex.org/W2020104402",
+    "https://openalex.org/W2027800291",
+    "https://openalex.org/W2032236789",
+    "https://openalex.org/W2032374289",
+    "https://openalex.org/W2034390439",
+    "https://openalex.org/W2039586762",
+    "https://openalex.org/W2040027819",
+    "https://openalex.org/W2040375465",
+    "https://openalex.org/W2042884981",
+    "https://openalex.org/W2047318335",
+    "https://openalex.org/W2049831185",
+    "https://openalex.org/W2050612184",
+    "https://openalex.org/W2051625114",
+    "https://openalex.org/W2053442368",
+    "https://openalex.org/W2058501212",
+    "https://openalex.org/W2059796695",
+    "https://openalex.org/W2060367351",
+    "https://openalex.org/W2060388420",
+    "https://openalex.org/W2064297845",
+    "https://openalex.org/W2065203592",
+    "https://openalex.org/W2066972122",
+    "https://openalex.org/W2071300057",
+    "https://openalex.org/W2077365305",
+    "https://openalex.org/W2078404599",
+    "https://openalex.org/W2078797149",
+    "https://openalex.org/W2087847220",
+    "https://openalex.org/W2087957038",
+    "https://openalex.org/W2088182443",
+    "https://openalex.org/W2093304786",
+    "https://openalex.org/W2094650210",
+    "https://openalex.org/W2094952606",
+    "https://openalex.org/W2096139310",
+    "https://openalex.org/W2096783853",
+    "https://openalex.org/W2097357533",
+    "https://openalex.org/W2097493752",
+    "https://openalex.org/W2100573444",
+    "https://openalex.org/W2103832813",
+    "https://openalex.org/W2107271601",
+    "https://openalex.org/W2112146874",
+    "https://openalex.org/W2113240337",
+    "https://openalex.org/W2113962724",
+    "https://openalex.org/W2117381890",
+    "https://openalex.org/W2118839487",
+    "https://openalex.org/W2124735940",
+    "https://openalex.org/W2126634169",
+    "https://openalex.org/W2128184425",
+    "https://openalex.org/W2136772624",
+    "https://openalex.org/W2136883845",
+    "https://openalex.org/W2141861294",
+    "https://openalex.org/W2147413263",
+    "https://openalex.org/W2150184909",
+    "https://openalex.org/W2152391376",
+    "https://openalex.org/W2155233367",
+    "https://openalex.org/W2155330189",
+    "https://openalex.org/W2155923923",
+    "https://openalex.org/W2160151825",
+    "https://openalex.org/W2160616147",
+    "https://openalex.org/W2160783920",
+    "https://openalex.org/W2162867332",
+    "https://openalex.org/W2169667366",
+    "https://openalex.org/W2179865148",
+    "https://openalex.org/W2182253964",
+    "https://openalex.org/W2324587274",
+    "https://openalex.org/W2324797293",
+    "https://openalex.org/W2328081594",
+    "https://openalex.org/W2337222055",
+    "https://openalex.org/W2337766363",
+    "https://openalex.org/W2338423082",
+    "https://openalex.org/W2338915176",
+    "https://openalex.org/W2339379332",
+    "https://openalex.org/W2409637451",
+    "https://openalex.org/W2413543740",
+    "https://openalex.org/W2801873603",
+    "https://openalex.org/W2921463623",
+    "https://openalex.org/W346957222",
+    "https://openalex.org/W4231674827",
+    "https://openalex.org/W4235173872",
+    "https://openalex.org/W4235946641",
+    "https://openalex.org/W4239514794",
+    "https://openalex.org/W4251661509",
+    "https://openalex.org/W4300072036",
+    "https://openalex.org/W4301053589",
+    "https://openalex.org/W4301783013",
+    "https://openalex.org/W4322697620",
+    "https://openalex.org/W51141202"
+  ],
+  "related_works": [
+    "https://openalex.org/W2994018447",
+    "https://openalex.org/W2402213623",
+    "https://openalex.org/W2359328839",
+    "https://openalex.org/W2319547717",
+    "https://openalex.org/W2079673629",
+    "https://openalex.org/W2041014123",
+    "https://openalex.org/W2039496213",
+    "https://openalex.org/W1976680779",
+    "https://openalex.org/W1975156820",
+    "https://openalex.org/W1696600639"
+  ],
+  "abstract_inverted_index": {
+    "Primary": [
+      0
+    ],
+    "biliary": [
+      1,
+      85
+    ],
+    "cirrhosis": [
+      2,
+      86
+    ],
+    "is": [
+      3,
+      31,
+      62
+    ],
+    "a": [
+      4,
+      39
+    ],
+    "chronic,": [
+      5
+    ],
+    "progressive": [
+      6
+    ],
+    "cholestatic": [
+      7
+    ],
+    "liver": [
+      8,
+      22,
+      28
+    ],
+    "disease": [
+      9
+    ],
+    "of": [
+      10,
+      43,
+      53,
+      76,
+      83
+    ],
+    "unknown": [
+      11
+    ],
+    "cause": [
+      12
+    ],
+    "that": [
+      13
+    ],
+    "usually": [
+      14
+    ],
+    "affects": [
+      15
+    ],
+    "middle-aged": [
+      16
+    ],
+    "women": [
+      17
+    ],
+    "and": [
+      18,
+      24,
+      49,
+      57,
+      81
+    ],
+    "eventually": [
+      19
+    ],
+    "leads": [
+      20
+    ],
+    "to": [
+      21
+    ],
+    "failure": [
+      23
+    ],
+    "the": [
+      25,
+      50,
+      58,
+      66,
+      77,
+      88,
+      94
+    ],
+    "need": [
+      26
+    ],
+    "for": [
+      27,
+      65
+    ],
+    "transplantation.": [
+      29
+    ],
+    "It": [
+      30
+    ],
+    "diagnosed": [
+      32
+    ],
+    "more": [
+      33
+    ],
+    "frequently": [
+      34
+    ],
+    "now": [
+      35
+    ],
+    "than": [
+      36
+    ],
+    "it": [
+      37
+    ],
+    "was": [
+      38,
+      90
+    ],
+    "decade": [
+      40
+    ],
+    "ago": [
+      41
+    ],
+    "because": [
+      42
+    ],
+    "its": [
+      44
+    ],
+    "greater": [
+      45
+    ],
+    "recognition": [
+      46
+    ],
+    "by": [
+      47
+    ],
+    "physicians": [
+      48
+    ],
+    "widespread": [
+      51
+    ],
+    "use": [
+      52
+    ],
+    "automated": [
+      54
+    ],
+    "blood": [
+      55
+    ],
+    "testing": [
+      56
+    ],
+    "antimitochondrial-antibody": [
+      59
+    ],
+    "test,": [
+      60
+    ],
+    "which": [
+      61
+    ],
+    "relatively": [
+      63
+    ],
+    "specific": [
+      64
+    ],
+    "disease.1": [
+      67
+    ],
+    "Important": [
+      68
+    ],
+    "advances": [
+      69
+    ],
+    "have": [
+      70
+    ],
+    "been": [
+      71
+    ],
+    "made": [
+      72
+    ],
+    "in": [
+      73,
+      93
+    ],
+    "our": [
+      74
+    ],
+    "understanding": [
+      75
+    ],
+    "natural": [
+      78
+    ],
+    "history,": [
+      79
+    ],
+    "pathogenesis,": [
+      80
+    ],
+    "treatment": [
+      82
+    ],
+    "primary": [
+      84
+    ],
+    "since": [
+      87
+    ],
+    "subject": [
+      89
+    ],
+    "last": [
+      91
+    ],
+    "reviewed": [
+      92
+    ],
+    "Journal.2": [
+      95
+    ],
+    "Little": [
+      96
+    ],
+    "has": [
+      97
+    ],
+    "changed": [
+      98
+    ],
+    ".": [
+      99,
+      100,
+      101
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4236767709",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-05-17T00:48:01.124543",
+  "created_date": "2022-05-12"
+}

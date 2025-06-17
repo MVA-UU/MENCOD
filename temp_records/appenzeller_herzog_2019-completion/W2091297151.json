@@ -1,0 +1,1066 @@
+{
+  "id": "https://openalex.org/W2091297151",
+  "doi": "https://doi.org/10.1073/pnas.96.9.5001",
+  "title": "Pathways of As(III) detoxification in <i>Saccharomyces cerevisiae</i>",
+  "display_name": "Pathways of As(III) detoxification in <i>Saccharomyces cerevisiae</i>",
+  "publication_year": 1999,
+  "publication_date": "1999-04-27",
+  "ids": {
+    "openalex": "https://openalex.org/W2091297151",
+    "doi": "https://doi.org/10.1073/pnas.96.9.5001",
+    "mag": "2091297151",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/10220408",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/21806"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.96.9.5001",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.1073/pnas.96.9.5001",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5023334527",
+        "display_name": "Mallika Ghosh",
+        "orcid": "https://orcid.org/0000-0002-5090-1275"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I185443292",
+          "display_name": "Wayne State University",
+          "ror": "https://ror.org/01070mq45",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185443292"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mallika Ghosh",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry and Molecular Biology, Wayne State University, School of Medicine, Detroit, MI 48201 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biochemistry and Molecular Biology, Wayne State University, School of Medicine, Detroit, MI 48201 USA",
+          "institution_ids": [
+            "https://openalex.org/I185443292"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100773348",
+        "display_name": "Jian‐Ren Shen",
+        "orcid": "https://orcid.org/0000-0003-4471-8797"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I185443292",
+          "display_name": "Wayne State University",
+          "ror": "https://ror.org/01070mq45",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185443292"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jian Shen",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry and Molecular Biology, Wayne State University School of Medicine, Detroit, MI 48201",
+        "University of California, Los Angeles, Los Angeles, CA,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biochemistry and Molecular Biology, Wayne State University School of Medicine, Detroit, MI 48201",
+          "institution_ids": [
+            "https://openalex.org/I185443292"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of California, Los Angeles, Los Angeles, CA,",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5058396685",
+        "display_name": "Barry P. Rosen",
+        "orcid": "https://orcid.org/0000-0002-5230-4271"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I185443292",
+          "display_name": "Wayne State University",
+          "ror": "https://ror.org/01070mq45",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185443292"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Barry P. Rosen",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry and Molecular Biology, Wayne State University School of Medicine, Detroit, MI 48201",
+        "University of California, Los Angeles, Los Angeles, CA,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biochemistry and Molecular Biology, Wayne State University School of Medicine, Detroit, MI 48201",
+          "institution_ids": [
+            "https://openalex.org/I185443292"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of California, Los Angeles, Los Angeles, CA,",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 11.991,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 392,
+  "citation_normalized_percentile": {
+    "value": 0.999636,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "96",
+    "issue": "9",
+    "first_page": "5001",
+    "last_page": "5006"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10710",
+    "display_name": "Arsenic contamination and mitigation",
+    "score": 0.9997,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2304",
+      "display_name": "Environmental Chemistry"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10710",
+      "display_name": "Arsenic contamination and mitigation",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11559",
+      "display_name": "Retinoids in leukemia and cellular processes",
+      "score": 0.9958,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10915",
+      "display_name": "Trace Elements in Health",
+      "score": 0.9897,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/detoxification",
+      "display_name": "Detoxification",
+      "score": 0.62125754
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776305511",
+      "wikidata": "https://www.wikidata.org/wiki/Q10859825",
+      "display_name": "Arsenite",
+      "level": 3,
+      "score": 0.9583452
+    },
+    {
+      "id": "https://openalex.org/C2777576037",
+      "wikidata": "https://www.wikidata.org/wiki/Q719725",
+      "display_name": "Saccharomyces cerevisiae",
+      "level": 3,
+      "score": 0.8678469
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.65433884
+    },
+    {
+      "id": "https://openalex.org/C538909803",
+      "wikidata": "https://www.wikidata.org/wiki/Q116907",
+      "display_name": "Glutathione",
+      "level": 3,
+      "score": 0.6486155
+    },
+    {
+      "id": "https://openalex.org/C2780497538",
+      "wikidata": "https://www.wikidata.org/wiki/Q1192006",
+      "display_name": "Detoxification (alternative medicine)",
+      "level": 3,
+      "score": 0.62125754
+    },
+    {
+      "id": "https://openalex.org/C2779222958",
+      "wikidata": "https://www.wikidata.org/wiki/Q45422",
+      "display_name": "Yeast",
+      "level": 2,
+      "score": 0.55095
+    },
+    {
+      "id": "https://openalex.org/C98539663",
+      "wikidata": "https://www.wikidata.org/wiki/Q220599",
+      "display_name": "Cytosol",
+      "level": 3,
+      "score": 0.5448269
+    },
+    {
+      "id": "https://openalex.org/C102568950",
+      "wikidata": "https://www.wikidata.org/wiki/Q127702",
+      "display_name": "Vacuole",
+      "level": 3,
+      "score": 0.5428015
+    },
+    {
+      "id": "https://openalex.org/C149011108",
+      "wikidata": "https://www.wikidata.org/wiki/Q652985",
+      "display_name": "Transporter",
+      "level": 3,
+      "score": 0.48087433
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.47080004
+    },
+    {
+      "id": "https://openalex.org/C44312359",
+      "wikidata": "https://www.wikidata.org/wiki/Q286958",
+      "display_name": "ATP-binding cassette transporter",
+      "level": 4,
+      "score": 0.4229892
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.36817628
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.30603832
+    },
+    {
+      "id": "https://openalex.org/C181199279",
+      "wikidata": "https://www.wikidata.org/wiki/Q8047",
+      "display_name": "Enzyme",
+      "level": 2,
+      "score": 0.27434152
+    },
+    {
+      "id": "https://openalex.org/C502230775",
+      "wikidata": "https://www.wikidata.org/wiki/Q871",
+      "display_name": "Arsenic",
+      "level": 2,
+      "score": 0.1292432
+    },
+    {
+      "id": "https://openalex.org/C190062978",
+      "wikidata": "https://www.wikidata.org/wiki/Q79899",
+      "display_name": "Cytoplasm",
+      "level": 2,
+      "score": 0.09849429
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D018528",
+      "descriptor_name": "ATP-Binding Cassette Transporters",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018053",
+      "descriptor_name": "Arsenites",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005656",
+      "descriptor_name": "Fungal Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008565",
+      "descriptor_name": "Membrane Proteins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012441",
+      "descriptor_name": "Saccharomyces cerevisiae",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001673",
+      "descriptor_name": "Biodegradation, Environmental",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001692",
+      "descriptor_name": "Biological Transport",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D026901",
+      "descriptor_name": "Membrane Transport Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D029701",
+      "descriptor_name": "Saccharomyces cerevisiae Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1073/pnas.96.9.5001",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S125754415",
+        "display_name": "Proceedings of the National Academy of Sciences",
+        "issn_l": "0027-8424",
+        "issn": [
+          "0027-8424",
+          "1091-6490"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320052",
+        "host_organization_name": "National Academy of Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320052"
+        ],
+        "host_organization_lineage_names": [
+          "National Academy of Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc21806",
+      "pdf_url": "https://europepmc.org/articles/pmc21806?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC21806",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10220408",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.96.9.5001",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 45,
+  "referenced_works": [
+    "https://openalex.org/W119202585",
+    "https://openalex.org/W1502426706",
+    "https://openalex.org/W1521778811",
+    "https://openalex.org/W1530873901",
+    "https://openalex.org/W1537782690",
+    "https://openalex.org/W1601258312",
+    "https://openalex.org/W1608218663",
+    "https://openalex.org/W1631725776",
+    "https://openalex.org/W1874661287",
+    "https://openalex.org/W1910188828",
+    "https://openalex.org/W1965900677",
+    "https://openalex.org/W1967245994",
+    "https://openalex.org/W1971206002",
+    "https://openalex.org/W1973782344",
+    "https://openalex.org/W1980206379",
+    "https://openalex.org/W1991112471",
+    "https://openalex.org/W1992342719",
+    "https://openalex.org/W1997480791",
+    "https://openalex.org/W2010242646",
+    "https://openalex.org/W2018289835",
+    "https://openalex.org/W2025398876",
+    "https://openalex.org/W2035172318",
+    "https://openalex.org/W2036336537",
+    "https://openalex.org/W2045785885",
+    "https://openalex.org/W2049354257",
+    "https://openalex.org/W2052492092",
+    "https://openalex.org/W2057865646",
+    "https://openalex.org/W2060200508",
+    "https://openalex.org/W2064173649",
+    "https://openalex.org/W2066321979",
+    "https://openalex.org/W2068526149",
+    "https://openalex.org/W2069608336",
+    "https://openalex.org/W2073240612",
+    "https://openalex.org/W2079639390",
+    "https://openalex.org/W2100837269",
+    "https://openalex.org/W2115073295",
+    "https://openalex.org/W2132093038",
+    "https://openalex.org/W2138792907",
+    "https://openalex.org/W2155025987",
+    "https://openalex.org/W2169357831",
+    "https://openalex.org/W2177086111",
+    "https://openalex.org/W2279417831",
+    "https://openalex.org/W2314037093",
+    "https://openalex.org/W2314225431",
+    "https://openalex.org/W2985092934"
+  ],
+  "related_works": [
+    "https://openalex.org/W972635028",
+    "https://openalex.org/W4298064930",
+    "https://openalex.org/W2587009668",
+    "https://openalex.org/W2185154560",
+    "https://openalex.org/W2135194872",
+    "https://openalex.org/W2109111352",
+    "https://openalex.org/W2079328056",
+    "https://openalex.org/W2036185100",
+    "https://openalex.org/W2023146604",
+    "https://openalex.org/W1604610285"
+  ],
+  "abstract_inverted_index": {
+    "Saccharomyces": [
+      0
+    ],
+    "cerevisiae": [
+      1
+    ],
+    "has": [
+      2
+    ],
+    "two": [
+      3
+    ],
+    "independent": [
+      4
+    ],
+    "transport": [
+      5
+    ],
+    "systems": [
+      6
+    ],
+    "for": [
+      7,
+      100
+    ],
+    "the": [
+      8,
+      13,
+      31,
+      37,
+      42,
+      48,
+      65,
+      68,
+      75,
+      101
+    ],
+    "removal": [
+      9
+    ],
+    "of": [
+      10,
+      36,
+      45,
+      73,
+      87,
+      103
+    ],
+    "arsenite": [
+      11,
+      28,
+      84,
+      104
+    ],
+    "from": [
+      12,
+      30
+    ],
+    "cytosol.": [
+      14
+    ],
+    "Acr3p": [
+      15,
+      94
+    ],
+    "is": [
+      16,
+      67
+    ],
+    "a": [
+      17,
+      34,
+      58
+    ],
+    "plasma": [
+      18
+    ],
+    "membrane": [
+      19
+    ],
+    "transporter": [
+      20,
+      39
+    ],
+    "that": [
+      21,
+      64
+    ],
+    "confers": [
+      22
+    ],
+    "resistance": [
+      23,
+      52
+    ],
+    "to": [
+      24,
+      53,
+      83
+    ],
+    "arsenite,": [
+      25
+    ],
+    "presumably": [
+      26
+    ],
+    "by": [
+      27
+    ],
+    "extrusion": [
+      29
+    ],
+    "cells.": [
+      32
+    ],
+    "Ycf1p,": [
+      33
+    ],
+    "member": [
+      35
+    ],
+    "ABC": [
+      38
+    ],
+    "superfamily,": [
+      40
+    ],
+    "catalyzes": [
+      41
+    ],
+    "ATP-driven": [
+      43
+    ],
+    "uptake": [
+      44
+    ],
+    "As(III)": [
+      46
+    ],
+    "into": [
+      47
+    ],
+    "vacuole,": [
+      49
+    ],
+    "also": [
+      50
+    ],
+    "producing": [
+      51
+    ],
+    "arsenite.": [
+      54
+    ],
+    "Vacuolar": [
+      55
+    ],
+    "accumulation": [
+      56
+    ],
+    "requires": [
+      57
+    ],
+    "reductant": [
+      59
+    ],
+    "such": [
+      60
+    ],
+    "as": [
+      61
+    ],
+    "glutathione,": [
+      62
+    ],
+    "suggesting": [
+      63
+    ],
+    "substrate": [
+      66
+    ],
+    "glutathione": [
+      69
+    ],
+    "conjugate,": [
+      70
+    ],
+    "As(GS)3.": [
+      71
+    ],
+    "Disruption": [
+      72
+    ],
+    "either": [
+      74
+    ],
+    "ACR3": [
+      76
+    ],
+    "or": [
+      77
+    ],
+    "YCF1": [
+      78
+    ],
+    "gene": [
+      79
+    ],
+    "results": [
+      80
+    ],
+    "in": [
+      81,
+      105
+    ],
+    "sensitivity": [
+      82
+    ],
+    "and": [
+      85,
+      95
+    ],
+    "disruption": [
+      86
+    ],
+    "both": [
+      88
+    ],
+    "genes": [
+      89
+    ],
+    "produces": [
+      90
+    ],
+    "additive": [
+      91
+    ],
+    "hypersensitivity.": [
+      92
+    ],
+    "Thus,": [
+      93
+    ],
+    "Ycf1p": [
+      96
+    ],
+    "represent": [
+      97
+    ],
+    "separate": [
+      98
+    ],
+    "pathways": [
+      99
+    ],
+    "detoxification": [
+      102
+    ],
+    "yeast.": [
+      106
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2091297151",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 25
+    }
+  ],
+  "updated_date": "2025-06-02T11:03:51.104510",
+  "created_date": "2016-06-24"
+}

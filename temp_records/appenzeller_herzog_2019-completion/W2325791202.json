@@ -1,0 +1,805 @@
+{
+  "id": "https://openalex.org/W2325791202",
+  "doi": "https://doi.org/10.1056/nejmcp1006613",
+  "title": "Chronic Hepatitis C Infection",
+  "display_name": "Chronic Hepatitis C Infection",
+  "publication_year": 2011,
+  "publication_date": "2011-06-22",
+  "ids": {
+    "openalex": "https://openalex.org/W2325791202",
+    "doi": "https://doi.org/10.1056/nejmcp1006613",
+    "mag": "2325791202",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/21696309"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1056/nejmcp1006613",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S62468778",
+      "display_name": "New England Journal of Medicine",
+      "issn_l": "0028-4793",
+      "issn": [
+        "0028-4793",
+        "1533-4406"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320239",
+      "host_organization_name": "Massachusetts Medical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320239"
+      ],
+      "host_organization_lineage_names": [
+        "Massachusetts Medical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5012197289",
+        "display_name": "Hugo R. Rosen",
+        "orcid": "https://orcid.org/0000-0002-1110-6914"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210148403",
+          "display_name": "VA Eastern Colorado Health Care System",
+          "ror": "https://ror.org/04d7ez939",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210113540",
+            "https://openalex.org/I4210148403"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Hugo R. Rosen",
+      "raw_affiliation_strings": [
+        "Division of Gastroenterology and Hepatology, Department of Medicine, University of Colorado School of Medicine, Aurora, and Eastern Colorado Veterans Affairs Medical Center, Denver."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Gastroenterology and Hepatology, Department of Medicine, University of Colorado School of Medicine, Aurora, and Eastern Colorado Veterans Affairs Medical Center, Denver.",
+          "institution_ids": [
+            "https://openalex.org/I4210148403"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5012197289"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210148403"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 10.277,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 485,
+  "citation_normalized_percentile": {
+    "value": 0.997658,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "364",
+    "issue": "25",
+    "first_page": "2429",
+    "last_page": "2438"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10151",
+    "display_name": "Hepatitis C virus research",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2721",
+      "display_name": "Hepatology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10151",
+      "display_name": "Hepatitis C virus research",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2721",
+        "display_name": "Hepatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10351",
+      "display_name": "Liver Disease Diagnosis and Treatment",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10340",
+      "display_name": "Hepatitis B Virus Studies",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/chronic-infection",
+      "display_name": "Chronic infection",
+      "score": 0.5022149
+    },
+    {
+      "id": "https://openalex.org/keywords/hepatitis-c",
+      "display_name": "Hepatitis C",
+      "score": 0.49251327
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.9350776
+    },
+    {
+      "id": "https://openalex.org/C3020491458",
+      "wikidata": "https://www.wikidata.org/wiki/Q131742",
+      "display_name": "Chronic hepatitis",
+      "level": 3,
+      "score": 0.7296001
+    },
+    {
+      "id": "https://openalex.org/C177713679",
+      "wikidata": "https://www.wikidata.org/wiki/Q679690",
+      "display_name": "Intensive care medicine",
+      "level": 1,
+      "score": 0.5249358
+    },
+    {
+      "id": "https://openalex.org/C3019392825",
+      "wikidata": "https://www.wikidata.org/wiki/Q383126",
+      "display_name": "Chronic infection",
+      "level": 3,
+      "score": 0.5022149
+    },
+    {
+      "id": "https://openalex.org/C2776455275",
+      "wikidata": "https://www.wikidata.org/wiki/Q154869",
+      "display_name": "Hepatitis C",
+      "level": 2,
+      "score": 0.49251327
+    },
+    {
+      "id": "https://openalex.org/C2776029263",
+      "wikidata": "https://www.wikidata.org/wiki/Q131742",
+      "display_name": "Hepatitis",
+      "level": 2,
+      "score": 0.44344202
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.42622715
+    },
+    {
+      "id": "https://openalex.org/C159047783",
+      "wikidata": "https://www.wikidata.org/wiki/Q7215",
+      "display_name": "Virology",
+      "level": 1,
+      "score": 0.41985655
+    },
+    {
+      "id": "https://openalex.org/C2522874641",
+      "wikidata": "https://www.wikidata.org/wiki/Q808",
+      "display_name": "Virus",
+      "level": 2,
+      "score": 0.18914506
+    },
+    {
+      "id": "https://openalex.org/C8891405",
+      "wikidata": "https://www.wikidata.org/wiki/Q1059",
+      "display_name": "Immune system",
+      "level": 2,
+      "score": 0.08685753
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000998",
+      "descriptor_name": "Antiviral Agents",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016174",
+      "descriptor_name": "Hepacivirus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D019698",
+      "descriptor_name": "Hepatitis C, Chronic",
+      "qualifier_ui": "Q000188",
+      "qualifier_name": "drug therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000998",
+      "descriptor_name": "Antiviral Agents",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016174",
+      "descriptor_name": "Hepacivirus",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006510",
+      "descriptor_name": "Hepatitis B Antibodies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006510",
+      "descriptor_name": "Hepatitis B Antibodies",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018937",
+      "descriptor_name": "Hepatitis C Antibodies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018937",
+      "descriptor_name": "Hepatitis C Antibodies",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019698",
+      "descriptor_name": "Hepatitis C, Chronic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019698",
+      "descriptor_name": "Hepatitis C, Chronic",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019698",
+      "descriptor_name": "Hepatitis C, Chronic",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000077190",
+      "descriptor_name": "Interferon alpha-2",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016898",
+      "descriptor_name": "Interferon-alpha",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016898",
+      "descriptor_name": "Interferon-alpha",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008099",
+      "descriptor_name": "Liver",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008099",
+      "descriptor_name": "Liver",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008103",
+      "descriptor_name": "Liver Cirrhosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008103",
+      "descriptor_name": "Liver Cirrhosis",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011092",
+      "descriptor_name": "Polyethylene Glycols",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011092",
+      "descriptor_name": "Polyethylene Glycols",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017410",
+      "descriptor_name": "Practice Guidelines as Topic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011480",
+      "descriptor_name": "Protease Inhibitors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011480",
+      "descriptor_name": "Protease Inhibitors",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011994",
+      "descriptor_name": "Recombinant Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012254",
+      "descriptor_name": "Ribavirin",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012254",
+      "descriptor_name": "Ribavirin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019562",
+      "descriptor_name": "Viral Load",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1056/nejmcp1006613",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S62468778",
+        "display_name": "New England Journal of Medicine",
+        "issn_l": "0028-4793",
+        "issn": [
+          "0028-4793",
+          "1533-4406"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320239",
+        "host_organization_name": "Massachusetts Medical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320239"
+        ],
+        "host_organization_lineage_names": [
+          "Massachusetts Medical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/21696309",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.82,
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 66,
+  "referenced_works": [
+    "https://openalex.org/W109223073",
+    "https://openalex.org/W138424127",
+    "https://openalex.org/W18197631",
+    "https://openalex.org/W1875845937",
+    "https://openalex.org/W1963808113",
+    "https://openalex.org/W1972858529",
+    "https://openalex.org/W1978311205",
+    "https://openalex.org/W1978741605",
+    "https://openalex.org/W1979174109",
+    "https://openalex.org/W1980095859",
+    "https://openalex.org/W1981009477",
+    "https://openalex.org/W1983585538",
+    "https://openalex.org/W1984413237",
+    "https://openalex.org/W1986129132",
+    "https://openalex.org/W1989618496",
+    "https://openalex.org/W1992520593",
+    "https://openalex.org/W2004360699",
+    "https://openalex.org/W2004679437",
+    "https://openalex.org/W2006309458",
+    "https://openalex.org/W2008079733",
+    "https://openalex.org/W2011978083",
+    "https://openalex.org/W2024364517",
+    "https://openalex.org/W2027498662",
+    "https://openalex.org/W2027545702",
+    "https://openalex.org/W2037933015",
+    "https://openalex.org/W2042158802",
+    "https://openalex.org/W2045004718",
+    "https://openalex.org/W2046658390",
+    "https://openalex.org/W2047208492",
+    "https://openalex.org/W2048820054",
+    "https://openalex.org/W2051283871",
+    "https://openalex.org/W2051445430",
+    "https://openalex.org/W2052723208",
+    "https://openalex.org/W2056027954",
+    "https://openalex.org/W2056460716",
+    "https://openalex.org/W2058200448",
+    "https://openalex.org/W2058643788",
+    "https://openalex.org/W2060634146",
+    "https://openalex.org/W2063285149",
+    "https://openalex.org/W2064546869",
+    "https://openalex.org/W2066941942",
+    "https://openalex.org/W2075282196",
+    "https://openalex.org/W2081130749",
+    "https://openalex.org/W2083211870",
+    "https://openalex.org/W2086791086",
+    "https://openalex.org/W2098887521",
+    "https://openalex.org/W2099468505",
+    "https://openalex.org/W2100797437",
+    "https://openalex.org/W2103116252",
+    "https://openalex.org/W2111044696",
+    "https://openalex.org/W2112876622",
+    "https://openalex.org/W2113864802",
+    "https://openalex.org/W2125963799",
+    "https://openalex.org/W2127119185",
+    "https://openalex.org/W2127685726",
+    "https://openalex.org/W2128390124",
+    "https://openalex.org/W2132290252",
+    "https://openalex.org/W2141214317",
+    "https://openalex.org/W2143027385",
+    "https://openalex.org/W2143559032",
+    "https://openalex.org/W2144373841",
+    "https://openalex.org/W2151769300",
+    "https://openalex.org/W2168911689",
+    "https://openalex.org/W2171540341",
+    "https://openalex.org/W2171945301",
+    "https://openalex.org/W2314619766"
+  ],
+  "related_works": [
+    "https://openalex.org/W438509232",
+    "https://openalex.org/W4251314961",
+    "https://openalex.org/W4205149165",
+    "https://openalex.org/W2415819220",
+    "https://openalex.org/W2135838591",
+    "https://openalex.org/W2018512112",
+    "https://openalex.org/W2015220664",
+    "https://openalex.org/W2007075040",
+    "https://openalex.org/W1489156230",
+    "https://openalex.org/W141913022"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "article": [
+      1
+    ],
+    "reviews": [
+      2
+    ],
+    "the": [
+      3,
+      17
+    ],
+    "evaluation": [
+      4
+    ],
+    "and": [
+      5
+    ],
+    "initial": [
+      6
+    ],
+    "management": [
+      7
+    ],
+    "of": [
+      8,
+      19
+    ],
+    "chronic": [
+      9
+    ],
+    "hepatitis": [
+      10
+    ],
+    "C": [
+      11
+    ],
+    "infection,": [
+      12
+    ],
+    "with": [
+      13
+    ],
+    "particular": [
+      14
+    ],
+    "attention": [
+      15
+    ],
+    "to": [
+      16
+    ],
+    "use": [
+      18
+    ],
+    "new": [
+      20
+    ],
+    "directly": [
+      21
+    ],
+    "acting": [
+      22
+    ],
+    "antiviral": [
+      23
+    ],
+    "agents": [
+      24
+    ],
+    "in": [
+      25
+    ],
+    "treatment": [
+      26
+    ],
+    "regimens.": [
+      27
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2325791202",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 59
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 70
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 70
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 59
+    }
+  ],
+  "updated_date": "2025-05-23T04:02:36.080028",
+  "created_date": "2016-06-24"
+}

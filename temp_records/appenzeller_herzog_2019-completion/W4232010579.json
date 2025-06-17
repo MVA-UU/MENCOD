@@ -1,0 +1,846 @@
+{
+  "id": "https://openalex.org/W4232010579",
+  "doi": "https://doi.org/10.1126/science.256.5058.794",
+  "title": "Gaucher Disease: New Molecular Approaches to Diagnosis and Treatment",
+  "display_name": "Gaucher Disease: New Molecular Approaches to Diagnosis and Treatment",
+  "publication_year": 1992,
+  "publication_date": "1992-05-08",
+  "ids": {
+    "openalex": "https://openalex.org/W4232010579",
+    "doi": "https://doi.org/10.1126/science.256.5058.794"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1126/science.256.5058.794",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5066463616",
+        "display_name": "Ernest Beutler",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I123431417",
+          "display_name": "Scripps Research Institute",
+          "ror": "https://ror.org/02dxx6824",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I123431417"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Ernest Beutler",
+      "raw_affiliation_strings": [
+        "Department of Molecular and Experimental Medicine, The Scripps Research Institute, La Jolla, CA 92037."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular and Experimental Medicine, The Scripps Research Institute, La Jolla, CA 92037.",
+          "institution_ids": [
+            "https://openalex.org/I123431417"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5066463616"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I123431417"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 13.606,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 190,
+  "citation_normalized_percentile": {
+    "value": 0.999878,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "256",
+    "issue": "5058",
+    "first_page": "794",
+    "last_page": "799"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10945",
+    "display_name": "Lysosomal Storage Disorders Research",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10945",
+      "display_name": "Lysosomal Storage Disorders Research",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10617",
+      "display_name": "Cellular transport and secretion",
+      "score": 0.9982,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10890",
+      "display_name": "Trypanosoma species research and implications",
+      "score": 0.995,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/glucocerebroside",
+      "display_name": "Glucocerebroside",
+      "score": 0.93520594
+    },
+    {
+      "id": "https://openalex.org/keywords/gauchers-disease",
+      "display_name": "Gaucher's disease",
+      "score": 0.69489926
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779994418",
+      "wikidata": "https://www.wikidata.org/wiki/Q3083126",
+      "display_name": "Glucocerebroside",
+      "level": 4,
+      "score": 0.93520594
+    },
+    {
+      "id": "https://openalex.org/C2780674200",
+      "wikidata": "https://www.wikidata.org/wiki/Q420038",
+      "display_name": "Glucocerebrosidase",
+      "level": 3,
+      "score": 0.919304
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.77235967
+    },
+    {
+      "id": "https://openalex.org/C2779969927",
+      "wikidata": "https://www.wikidata.org/wiki/Q916766",
+      "display_name": "Enzyme replacement therapy",
+      "level": 3,
+      "score": 0.7714498
+    },
+    {
+      "id": "https://openalex.org/C2776723260",
+      "wikidata": "https://www.wikidata.org/wiki/Q861645",
+      "display_name": "Gaucher's disease",
+      "level": 3,
+      "score": 0.69489926
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.59245545
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.47431374
+    },
+    {
+      "id": "https://openalex.org/C135763542",
+      "wikidata": "https://www.wikidata.org/wiki/Q106016",
+      "display_name": "Genotype",
+      "level": 3,
+      "score": 0.4688809
+    },
+    {
+      "id": "https://openalex.org/C80227256",
+      "wikidata": "https://www.wikidata.org/wiki/Q1124169",
+      "display_name": "Genetic counseling",
+      "level": 2,
+      "score": 0.4660422
+    },
+    {
+      "id": "https://openalex.org/C2911091166",
+      "wikidata": "https://www.wikidata.org/wiki/Q106419912",
+      "display_name": "Transplantation",
+      "level": 2,
+      "score": 0.4585812
+    },
+    {
+      "id": "https://openalex.org/C111599444",
+      "wikidata": "https://www.wikidata.org/wiki/Q213901",
+      "display_name": "Genetic enhancement",
+      "level": 3,
+      "score": 0.43584198
+    },
+    {
+      "id": "https://openalex.org/C2994180119",
+      "wikidata": "https://www.wikidata.org/wiki/Q1128050",
+      "display_name": "Bone marrow transplantation",
+      "level": 3,
+      "score": 0.4226159
+    },
+    {
+      "id": "https://openalex.org/C501734568",
+      "wikidata": "https://www.wikidata.org/wiki/Q42918",
+      "display_name": "Mutation",
+      "level": 3,
+      "score": 0.41751337
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.37281778
+    },
+    {
+      "id": "https://openalex.org/C2780007613",
+      "wikidata": "https://www.wikidata.org/wiki/Q546523",
+      "display_name": "Bone marrow",
+      "level": 2,
+      "score": 0.33820373
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.30131868
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.25513935
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.22518009
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.21553048
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1126/science.256.5058.794",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S3880285",
+        "display_name": "Science",
+        "issn_l": "0036-8075",
+        "issn": [
+          "0036-8075",
+          "1095-9203"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315823",
+        "host_organization_name": "American Association for the Advancement of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315823"
+        ],
+        "host_organization_lineage_names": [
+          "American Association for the Advancement of Science"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.42,
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 45,
+  "referenced_works": [
+    "https://openalex.org/W142531604",
+    "https://openalex.org/W1492558559",
+    "https://openalex.org/W1534327410",
+    "https://openalex.org/W1579829228",
+    "https://openalex.org/W1606180605",
+    "https://openalex.org/W1673406890",
+    "https://openalex.org/W1966255769",
+    "https://openalex.org/W1981284599",
+    "https://openalex.org/W1991348330",
+    "https://openalex.org/W1991890638",
+    "https://openalex.org/W2000956084",
+    "https://openalex.org/W2021557871",
+    "https://openalex.org/W2025022757",
+    "https://openalex.org/W2027227896",
+    "https://openalex.org/W2028495266",
+    "https://openalex.org/W2028837633",
+    "https://openalex.org/W2034269929",
+    "https://openalex.org/W2035836211",
+    "https://openalex.org/W2036476890",
+    "https://openalex.org/W2057697789",
+    "https://openalex.org/W2061325032",
+    "https://openalex.org/W2062850188",
+    "https://openalex.org/W2068027543",
+    "https://openalex.org/W2076311962",
+    "https://openalex.org/W2081565855",
+    "https://openalex.org/W2083643265",
+    "https://openalex.org/W2089069954",
+    "https://openalex.org/W2129898926",
+    "https://openalex.org/W2139649971",
+    "https://openalex.org/W2158002943",
+    "https://openalex.org/W2235866438",
+    "https://openalex.org/W2238454575",
+    "https://openalex.org/W2256622923",
+    "https://openalex.org/W2321899343",
+    "https://openalex.org/W2322128806",
+    "https://openalex.org/W2335940962",
+    "https://openalex.org/W2410498544",
+    "https://openalex.org/W2410983124",
+    "https://openalex.org/W2412476834",
+    "https://openalex.org/W2420367574",
+    "https://openalex.org/W2443368364",
+    "https://openalex.org/W2967058714",
+    "https://openalex.org/W4240446209",
+    "https://openalex.org/W4252969769",
+    "https://openalex.org/W4299790506"
+  ],
+  "related_works": [
+    "https://openalex.org/W4239893967",
+    "https://openalex.org/W3196722161",
+    "https://openalex.org/W2496040907",
+    "https://openalex.org/W2444093526",
+    "https://openalex.org/W2419618477",
+    "https://openalex.org/W2398066230",
+    "https://openalex.org/W2137855166",
+    "https://openalex.org/W2114362599",
+    "https://openalex.org/W1982869943",
+    "https://openalex.org/W1982567030"
+  ],
+  "abstract_inverted_index": {
+    "Gaucher": [
+      0,
+      55
+    ],
+    "disease": [
+      1,
+      56,
+      71
+    ],
+    "is": [
+      2,
+      23,
+      57,
+      63,
+      75,
+      86,
+      99,
+      110,
+      118,
+      126
+    ],
+    "characterized": [
+      3
+    ],
+    "by": [
+      4,
+      25,
+      78,
+      112
+    ],
+    "the": [
+      5,
+      13,
+      20,
+      30,
+      45,
+      50,
+      58,
+      68,
+      79,
+      90,
+      93,
+      104,
+      123,
+      131,
+      135,
+      141
+    ],
+    "accumulation": [
+      6
+    ],
+    "of": [
+      7,
+      12,
+      29,
+      38,
+      44,
+      92,
+      97,
+      106,
+      130,
+      143
+    ],
+    "glucocerebroside,": [
+      8
+    ],
+    "leading": [
+      9
+    ],
+    "to": [
+      10
+    ],
+    "enlargement": [
+      11
+    ],
+    "liver": [
+      14
+    ],
+    "and": [
+      15,
+      17,
+      70
+    ],
+    "spleen": [
+      16
+    ],
+    "lesions": [
+      18
+    ],
+    "in": [
+      19,
+      47,
+      53,
+      89,
+      121
+    ],
+    "bones.": [
+      21
+    ],
+    "It": [
+      22
+    ],
+    "caused": [
+      24
+    ],
+    "an": [
+      26,
+      100
+    ],
+    "inherited": [
+      27
+    ],
+    "deficiency": [
+      28
+    ],
+    "enzyme": [
+      31,
+      107
+    ],
+    "glucocerebrosidase.": [
+      32
+    ],
+    "Many": [
+      33
+    ],
+    "mutations": [
+      34,
+      46,
+      69
+    ],
+    "exist,": [
+      35
+    ],
+    "but": [
+      36,
+      103,
+      125
+    ],
+    "four": [
+      37
+    ],
+    "these": [
+      39
+    ],
+    "account": [
+      40
+    ],
+    "for": [
+      41
+    ],
+    "over": [
+      42
+    ],
+    "97%": [
+      43
+    ],
+    "Ashkenazi": [
+      48
+    ],
+    "Jews,": [
+      49
+    ],
+    "population": [
+      51
+    ],
+    "group": [
+      52
+    ],
+    "which": [
+      54
+    ],
+    "most": [
+      59
+    ],
+    "common.": [
+      60
+    ],
+    "Although": [
+      61
+    ],
+    "there": [
+      62,
+      85
+    ],
+    "a": [
+      64
+    ],
+    "strong": [
+      65
+    ],
+    "relation": [
+      66
+    ],
+    "between": [
+      67
+    ],
+    "manifestations,": [
+      72
+    ],
+    "genetic": [
+      73
+    ],
+    "counseling": [
+      74
+    ],
+    "made": [
+      76
+    ],
+    "difficult": [
+      77
+    ],
+    "fact": [
+      80
+    ],
+    "that": [
+      81
+    ],
+    "within": [
+      82
+    ],
+    "each": [
+      83
+    ],
+    "genotype": [
+      84
+    ],
+    "considerable": [
+      87
+    ],
+    "variability": [
+      88
+    ],
+    "severity": [
+      91
+    ],
+    "disease.": [
+      94
+    ],
+    "Intravenous": [
+      95
+    ],
+    "infusion": [
+      96
+    ],
+    "glucocerebrosidase": [
+      98
+    ],
+    "effective": [
+      101,
+      120
+    ],
+    "treatment,": [
+      102
+    ],
+    "availability": [
+      105
+    ],
+    "replacement": [
+      108
+    ],
+    "therapy": [
+      109
+    ],
+    "limited": [
+      111
+    ],
+    "its": [
+      113
+    ],
+    "high": [
+      114
+    ],
+    "cost.": [
+      115
+    ],
+    "Marrow": [
+      116
+    ],
+    "transplantation": [
+      117
+    ],
+    "also": [
+      119
+    ],
+    "treating": [
+      122
+    ],
+    "disease,": [
+      124
+    ],
+    "rarely": [
+      127
+    ],
+    "performed": [
+      128
+    ],
+    "because": [
+      129
+    ],
+    "risks": [
+      132
+    ],
+    "involved.": [
+      133
+    ],
+    "In": [
+      134
+    ],
+    "future": [
+      136
+    ],
+    "gene": [
+      137
+    ],
+    "transfer": [
+      138
+    ],
+    "may": [
+      139
+    ],
+    "become": [
+      140
+    ],
+    "treatment": [
+      142
+    ],
+    "choice.": [
+      144
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4232010579",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-05-03T03:50:17.256691",
+  "created_date": "2022-05-12"
+}

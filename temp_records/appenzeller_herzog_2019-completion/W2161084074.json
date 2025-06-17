@@ -1,0 +1,963 @@
+{
+  "id": "https://openalex.org/W2161084074",
+  "doi": "https://doi.org/10.1016/j.ydbio.2009.10.019",
+  "title": "A systematic approach to identify functional motifs within vertebrate developmental enhancers",
+  "display_name": "A systematic approach to identify functional motifs within vertebrate developmental enhancers",
+  "publication_year": 2009,
+  "publication_date": "2009-10-21",
+  "ids": {
+    "openalex": "https://openalex.org/W2161084074",
+    "doi": "https://doi.org/10.1016/j.ydbio.2009.10.019",
+    "mag": "2161084074",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19850031",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3330829"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.ydbio.2009.10.019",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S136634221",
+      "display_name": "Developmental Biology",
+      "issn_l": "0012-1606",
+      "issn": [
+        "0012-1606",
+        "1095-564X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc3330829?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5100430016",
+        "display_name": "Qiang Li",
+        "orcid": "https://orcid.org/0000-0002-8388-0968"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qiang Li",
+      "raw_affiliation_strings": [
+        "Department of Biopharmaceutical Sciences, Programs in Biological Sciences and Human Genetics, University of California, San Francisco, CA 94143-2811, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biopharmaceutical Sciences, Programs in Biological Sciences and Human Genetics, University of California, San Francisco, CA 94143-2811, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014715060",
+        "display_name": "Deborah Ritter",
+        "orcid": "https://orcid.org/0009-0005-2930-4010"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I103531236",
+          "display_name": "Boston College",
+          "ror": "https://ror.org/02n2fzt79",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I103531236"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Deborah Ritter",
+      "raw_affiliation_strings": [
+        "Department of Biology, Boston College, 140 Commonwealth Avenue, Chestnut Hill, MA 02467, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biology, Boston College, 140 Commonwealth Avenue, Chestnut Hill, MA 02467, USA",
+          "institution_ids": [
+            "https://openalex.org/I103531236"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084846015",
+        "display_name": "Nan Yang",
+        "orcid": "https://orcid.org/0000-0003-3663-1288"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nan Yang",
+      "raw_affiliation_strings": [
+        "Department of Biopharmaceutical Sciences, Programs in Biological Sciences and Human Genetics, University of California, San Francisco, CA 94143-2811, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biopharmaceutical Sciences, Programs in Biological Sciences and Human Genetics, University of California, San Francisco, CA 94143-2811, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059737137",
+        "display_name": "Zhiqiang Dong",
+        "orcid": "https://orcid.org/0000-0001-6259-915X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhiqiang Dong",
+      "raw_affiliation_strings": [
+        "Department of Biopharmaceutical Sciences, Programs in Biological Sciences and Human Genetics, University of California, San Francisco, CA 94143-2811, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biopharmaceutical Sciences, Programs in Biological Sciences and Human Genetics, University of California, San Francisco, CA 94143-2811, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100348712",
+        "display_name": "Hao Li",
+        "orcid": "https://orcid.org/0000-0003-4889-953X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hao Li",
+      "raw_affiliation_strings": [
+        "Department of Biochemistry and Biophysics, Programs in Biological Sciences, University of California, San Francisco, CA 94143-2542, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biochemistry and Biophysics, Programs in Biological Sciences, University of California, San Francisco, CA 94143-2542, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078627287",
+        "display_name": "Jeffrey H. Chuang",
+        "orcid": "https://orcid.org/0000-0002-3298-2358"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I103531236",
+          "display_name": "Boston College",
+          "ror": "https://ror.org/02n2fzt79",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I103531236"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeffrey H. Chuang",
+      "raw_affiliation_strings": [
+        "Department of Biology, Boston College, 140 Commonwealth Avenue, Chestnut Hill, MA 02467, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biology, Boston College, 140 Commonwealth Avenue, Chestnut Hill, MA 02467, USA",
+          "institution_ids": [
+            "https://openalex.org/I103531236"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5085722199",
+        "display_name": "Su Guo",
+        "orcid": "https://orcid.org/0000-0002-7342-0108"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Su Guo",
+      "raw_affiliation_strings": [
+        "Department of Biopharmaceutical Sciences, Programs in Biological Sciences and Human Genetics, University of California, San Francisco, CA 94143-2811, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biopharmaceutical Sciences, Programs in Biological Sciences and Human Genetics, University of California, San Francisco, CA 94143-2811, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5085722199"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I180670191"
+  ],
+  "apc_list": {
+    "value": 3690,
+    "currency": "USD",
+    "value_usd": 3690
+  },
+  "apc_paid": null,
+  "fwci": 1.994,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 69,
+  "citation_normalized_percentile": {
+    "value": 0.832968,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "337",
+    "issue": "2",
+    "first_page": "484",
+    "last_page": "495"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10222",
+    "display_name": "Genomics and Chromatin Dynamics",
+    "score": 0.9993,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10222",
+      "display_name": "Genomics and Chromatin Dynamics",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11677",
+      "display_name": "Congenital heart defects research",
+      "score": 0.9951,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10062",
+      "display_name": "MicroRNA in disease regulation",
+      "score": 0.9943,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/forebrain",
+      "display_name": "Forebrain",
+      "score": 0.6670062
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C111936080",
+      "wikidata": "https://www.wikidata.org/wiki/Q913367",
+      "display_name": "Enhancer",
+      "level": 4,
+      "score": 0.9583672
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.84925765
+    },
+    {
+      "id": "https://openalex.org/C2776878037",
+      "wikidata": "https://www.wikidata.org/wiki/Q169444",
+      "display_name": "Zebrafish",
+      "level": 3,
+      "score": 0.8066294
+    },
+    {
+      "id": "https://openalex.org/C2778961482",
+      "wikidata": "https://www.wikidata.org/wiki/Q25241",
+      "display_name": "Vertebrate",
+      "level": 3,
+      "score": 0.72671866
+    },
+    {
+      "id": "https://openalex.org/C2779715522",
+      "wikidata": "https://www.wikidata.org/wiki/Q507027",
+      "display_name": "Forebrain",
+      "level": 3,
+      "score": 0.6670062
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.6563895
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.4863339
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.40996802
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.292354
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.16239104
+    },
+    {
+      "id": "https://openalex.org/C529278444",
+      "wikidata": "https://www.wikidata.org/wiki/Q47273",
+      "display_name": "Central nervous system",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D019295",
+      "descriptor_name": "Computational Biology",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004742",
+      "descriptor_name": "Enhancer Elements, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015027",
+      "descriptor_name": "Zebrafish",
+      "qualifier_ui": "Q000196",
+      "qualifier_name": "embryology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015027",
+      "descriptor_name": "Zebrafish",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001483",
+      "descriptor_name": "Base Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000196",
+      "qualifier_name": "embryology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019295",
+      "descriptor_name": "Computational Biology",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017124",
+      "descriptor_name": "Conserved Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D021901",
+      "descriptor_name": "DNA, Intergenic",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D021901",
+      "descriptor_name": "DNA, Intergenic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D030541",
+      "descriptor_name": "Databases, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018507",
+      "descriptor_name": "Gene Expression Regulation, Developmental",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009154",
+      "descriptor_name": "Mutation",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009154",
+      "descriptor_name": "Mutation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009928",
+      "descriptor_name": "Organ Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009928",
+      "descriptor_name": "Organ Specificity",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015203",
+      "descriptor_name": "Reproducibility of Results",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015027",
+      "descriptor_name": "Zebrafish",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.ydbio.2009.10.019",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S136634221",
+        "display_name": "Developmental Biology",
+        "issn_l": "0012-1606",
+        "issn": [
+          "0012-1606",
+          "1095-564X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3330829",
+      "pdf_url": "https://europepmc.org/articles/pmc3330829?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3330829",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19850031",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc3330829",
+    "pdf_url": "https://europepmc.org/articles/pmc3330829?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 69,
+  "referenced_works": [
+    "https://openalex.org/W1483073028",
+    "https://openalex.org/W1506197483",
+    "https://openalex.org/W1556198965",
+    "https://openalex.org/W1592870802",
+    "https://openalex.org/W1597226907",
+    "https://openalex.org/W1900903488",
+    "https://openalex.org/W1965804539",
+    "https://openalex.org/W1969770714",
+    "https://openalex.org/W1981101983",
+    "https://openalex.org/W1982649864",
+    "https://openalex.org/W1992383169",
+    "https://openalex.org/W1993142493",
+    "https://openalex.org/W1996760543",
+    "https://openalex.org/W2005244073",
+    "https://openalex.org/W2007990232",
+    "https://openalex.org/W2022756254",
+    "https://openalex.org/W2023096878",
+    "https://openalex.org/W2030217811",
+    "https://openalex.org/W2032659675",
+    "https://openalex.org/W2034291097",
+    "https://openalex.org/W2038893023",
+    "https://openalex.org/W2046304565",
+    "https://openalex.org/W2047493187",
+    "https://openalex.org/W2055679623",
+    "https://openalex.org/W2056457977",
+    "https://openalex.org/W2057587811",
+    "https://openalex.org/W2057829817",
+    "https://openalex.org/W2061191160",
+    "https://openalex.org/W2061405862",
+    "https://openalex.org/W2066832607",
+    "https://openalex.org/W2066867136",
+    "https://openalex.org/W2069009920",
+    "https://openalex.org/W2074182576",
+    "https://openalex.org/W2077423223",
+    "https://openalex.org/W2086031504",
+    "https://openalex.org/W2093211742",
+    "https://openalex.org/W2095358593",
+    "https://openalex.org/W2101005797",
+    "https://openalex.org/W2101791034",
+    "https://openalex.org/W2102304447",
+    "https://openalex.org/W2103523795",
+    "https://openalex.org/W2104073930",
+    "https://openalex.org/W2104407210",
+    "https://openalex.org/W2105480322",
+    "https://openalex.org/W2108464868",
+    "https://openalex.org/W2109412588",
+    "https://openalex.org/W2116251070",
+    "https://openalex.org/W2116476971",
+    "https://openalex.org/W2117432678",
+    "https://openalex.org/W2119804413",
+    "https://openalex.org/W2125349610",
+    "https://openalex.org/W2126085227",
+    "https://openalex.org/W2128016314",
+    "https://openalex.org/W2128749538",
+    "https://openalex.org/W2128937741",
+    "https://openalex.org/W2130514122",
+    "https://openalex.org/W2133045719",
+    "https://openalex.org/W2141408320",
+    "https://openalex.org/W2142890842",
+    "https://openalex.org/W2143228020",
+    "https://openalex.org/W2151464048",
+    "https://openalex.org/W2151754128",
+    "https://openalex.org/W2158144400",
+    "https://openalex.org/W2159738351",
+    "https://openalex.org/W2167300924",
+    "https://openalex.org/W2168367974",
+    "https://openalex.org/W2510854709",
+    "https://openalex.org/W3197051897",
+    "https://openalex.org/W4234408131"
+  ],
+  "related_works": [
+    "https://openalex.org/W4387598842",
+    "https://openalex.org/W2973036402",
+    "https://openalex.org/W2745970610",
+    "https://openalex.org/W2586783543",
+    "https://openalex.org/W2360183393",
+    "https://openalex.org/W2295507487",
+    "https://openalex.org/W2152841149",
+    "https://openalex.org/W2037364812",
+    "https://openalex.org/W16619060",
+    "https://openalex.org/W1535272185"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2161084074",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-05-19T07:16:53.965674",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,1406 @@
+{
+  "id": "https://openalex.org/W2088716662",
+  "doi": "https://doi.org/10.1021/ac8019366",
+  "title": "Development of a Robust and Repeatable UPLC−MS Method for the Long-Term Metabolomic Study of Human Serum",
+  "display_name": "Development of a Robust and Repeatable UPLC−MS Method for the Long-Term Metabolomic Study of Human Serum",
+  "publication_year": 2009,
+  "publication_date": "2009-01-26",
+  "ids": {
+    "openalex": "https://openalex.org/W2088716662",
+    "doi": "https://doi.org/10.1021/ac8019366",
+    "mag": "2088716662",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19170513"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1021/ac8019366",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S191963794",
+      "display_name": "Analytical Chemistry",
+      "issn_l": "0003-2700",
+      "issn": [
+        "0003-2700",
+        "1520-6882"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320006",
+      "host_organization_name": "American Chemical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320006"
+      ],
+      "host_organization_lineage_names": [
+        "American Chemical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5063351309",
+        "display_name": "Eva Zelena",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Eva Zelena",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I28407311",
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091024912",
+        "display_name": "Warwick B. Dunn",
+        "orcid": "https://orcid.org/0000-0001-6924-0027"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Warwick B. Dunn",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I28407311",
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012899764",
+        "display_name": "David Broadhurst",
+        "orcid": "https://orcid.org/0000-0003-0775-9581"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Broadhurst",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I28407311",
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077902641",
+        "display_name": "Sue Francis‐McIntyre",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sue Francis-McIntyre",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I28407311",
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113629965",
+        "display_name": "Kathleen Carroll",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kathleen M. Carroll",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I105036370",
+            "https://openalex.org/I28407311"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5025708477",
+        "display_name": "Paul Begley",
+        "orcid": "https://orcid.org/0000-0001-7001-2486"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paul Begley",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I105036370",
+            "https://openalex.org/I28407311"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040686060",
+        "display_name": "Steve O’Hagan",
+        "orcid": "https://orcid.org/0000-0001-6235-5462"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steve O’Hagan",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I28407311",
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102858903",
+        "display_name": "Joshua Knowles",
+        "orcid": "https://orcid.org/0000-0001-8112-6112"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Joshua D. Knowles",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I28407311",
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111856859",
+        "display_name": "Antony Halsall",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Antony Halsall",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I28407311",
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061761689",
+        "display_name": "Ian D. Wilson",
+        "orcid": "https://orcid.org/0000-0002-8558-7394"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ian D. Wilson",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I28407311",
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5077370611",
+        "display_name": "Douglas B. Kell",
+        "orcid": "https://orcid.org/0000-0001-5838-7963"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28407311",
+          "display_name": "University of Manchester",
+          "ror": "https://ror.org/027m9bs27",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28407311"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I105036370",
+          "display_name": "AstraZeneca (United Kingdom)",
+          "ror": "https://ror.org/04r9x1a08",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Douglas B. Kell",
+      "raw_affiliation_strings": [
+        "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioanalytical Sciences Group and Manchester Centre for Integrative Systems Biology, School of Chemistry, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., School of Computer Science, Manchester Interdisciplinary Biocentre, University of Manchester, M1 7DN, U.K., and Department of Clinical Pharmacology, Drug Metabolism and Pharmacokinetics, AstraZeneca, Mereside, Alderley Park, Macclesfield, Cheshire, SK10 4TG, U.K.",
+          "institution_ids": [
+            "https://openalex.org/I28407311",
+            "https://openalex.org/I105036370"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 13.823,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 622,
+  "citation_normalized_percentile": {
+    "value": 0.999984,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "81",
+    "issue": "4",
+    "first_page": "1357",
+    "last_page": "1364"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10836",
+    "display_name": "Metabolomics and Mass Spectrometry Studies",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10836",
+      "display_name": "Metabolomics and Mass Spectrometry Studies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11667",
+      "display_name": "Advanced Chemical Sensor Technologies",
+      "score": 0.9959,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10908",
+      "display_name": "Analytical Chemistry and Chromatography",
+      "score": 0.9953,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.9568795
+    },
+    {
+      "id": "https://openalex.org/C21565614",
+      "wikidata": "https://www.wikidata.org/wiki/Q12149006",
+      "display_name": "Metabolomics",
+      "level": 2,
+      "score": 0.7489947
+    },
+    {
+      "id": "https://openalex.org/C43617362",
+      "wikidata": "https://www.wikidata.org/wiki/Q170050",
+      "display_name": "Chromatography",
+      "level": 1,
+      "score": 0.69854677
+    },
+    {
+      "id": "https://openalex.org/C61797465",
+      "wikidata": "https://www.wikidata.org/wiki/Q1188986",
+      "display_name": "Term (time)",
+      "level": 2,
+      "score": 0.42488453
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002853",
+      "descriptor_name": "Chromatography, Liquid",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013058",
+      "descriptor_name": "Mass Spectrometry",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055432",
+      "descriptor_name": "Metabolomics",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D044967",
+      "descriptor_name": "Serum",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002853",
+      "descriptor_name": "Chromatography, Liquid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013058",
+      "descriptor_name": "Mass Spectrometry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055432",
+      "descriptor_name": "Metabolomics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015203",
+      "descriptor_name": "Reproducibility of Results",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D044967",
+      "descriptor_name": "Serum",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1021/ac8019366",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S191963794",
+        "display_name": "Analytical Chemistry",
+        "issn_l": "0003-2700",
+        "issn": [
+          "0003-2700",
+          "1520-6882"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320006",
+        "host_organization_name": "American Chemical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320006"
+        ],
+        "host_organization_lineage_names": [
+          "American Chemical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19170513",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 46,
+  "referenced_works": [
+    "https://openalex.org/W1509926796",
+    "https://openalex.org/W1964010911",
+    "https://openalex.org/W1967225297",
+    "https://openalex.org/W1968137491",
+    "https://openalex.org/W1969753425",
+    "https://openalex.org/W1974825668",
+    "https://openalex.org/W1975579196",
+    "https://openalex.org/W1982163654",
+    "https://openalex.org/W1990940012",
+    "https://openalex.org/W1993554093",
+    "https://openalex.org/W1994397833",
+    "https://openalex.org/W2000009197",
+    "https://openalex.org/W2001966671",
+    "https://openalex.org/W2008988943",
+    "https://openalex.org/W2051148933",
+    "https://openalex.org/W2062551369",
+    "https://openalex.org/W2066896487",
+    "https://openalex.org/W2079857213",
+    "https://openalex.org/W2087354802",
+    "https://openalex.org/W2088861003",
+    "https://openalex.org/W2091078375",
+    "https://openalex.org/W2096576371",
+    "https://openalex.org/W2097778810",
+    "https://openalex.org/W2098489069",
+    "https://openalex.org/W2099925531",
+    "https://openalex.org/W2107138848",
+    "https://openalex.org/W2107465057",
+    "https://openalex.org/W2109007223",
+    "https://openalex.org/W2111369365",
+    "https://openalex.org/W2114390083",
+    "https://openalex.org/W2119726180",
+    "https://openalex.org/W2127255034",
+    "https://openalex.org/W2127708170",
+    "https://openalex.org/W2131433860",
+    "https://openalex.org/W2133826923",
+    "https://openalex.org/W2137585293",
+    "https://openalex.org/W2143283561",
+    "https://openalex.org/W2153553763",
+    "https://openalex.org/W2153615428",
+    "https://openalex.org/W2155197675",
+    "https://openalex.org/W2159035756",
+    "https://openalex.org/W2160317546",
+    "https://openalex.org/W2166430819",
+    "https://openalex.org/W2322227164",
+    "https://openalex.org/W4211085285",
+    "https://openalex.org/W4294326454"
+  ],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W4387497383",
+    "https://openalex.org/W2948807893",
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2778153218",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2527526854",
+    "https://openalex.org/W2078814861",
+    "https://openalex.org/W1976181487",
+    "https://openalex.org/W1531601525"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0
+    ],
+    "method": [
+      1,
+      29,
+      149
+    ],
+    "for": [
+      2,
+      53,
+      82,
+      131,
+      133
+    ],
+    "performing": [
+      3
+    ],
+    "untargeted": [
+      4
+    ],
+    "metabolomic": [
+      5,
+      40,
+      137
+    ],
+    "analysis": [
+      6
+    ],
+    "of": [
+      7,
+      37,
+      73,
+      76,
+      91,
+      103,
+      110,
+      153,
+      158
+    ],
+    "human": [
+      8
+    ],
+    "serum": [
+      9,
+      92
+    ],
+    "has": [
+      10
+    ],
+    "been": [
+      11
+    ],
+    "developed": [
+      12
+    ],
+    "based": [
+      13
+    ],
+    "on": [
+      14
+    ],
+    "protein": [
+      15
+    ],
+    "precipitation": [
+      16
+    ],
+    "followed": [
+      17
+    ],
+    "by": [
+      18
+    ],
+    "Ultra": [
+      19
+    ],
+    "Performance": [
+      20
+    ],
+    "Liquid": [
+      21
+    ],
+    "Chromatography": [
+      22
+    ],
+    "and": [
+      23,
+      47,
+      55,
+      68,
+      155
+    ],
+    "Time-of-Flight": [
+      24
+    ],
+    "mass": [
+      25
+    ],
+    "spectrometry": [
+      26
+    ],
+    "(UPLC-TOF-MS).": [
+      27
+    ],
+    "This": [
+      28,
+      148
+    ],
+    "was": [
+      30,
+      49,
+      85
+    ],
+    "specifically": [
+      31
+    ],
+    "designed": [
+      32
+    ],
+    "to": [
+      33,
+      128
+    ],
+    "fulfill": [
+      34
+    ],
+    "the": [
+      35,
+      60,
+      74,
+      101,
+      107,
+      114,
+      126,
+      145,
+      151
+    ],
+    "requirements": [
+      36
+    ],
+    "a": [
+      38,
+      89
+    ],
+    "long-term": [
+      39,
+      135
+    ],
+    "study,": [
+      41
+    ],
+    "spanning": [
+      42
+    ],
+    "more": [
+      43
+    ],
+    "than": [
+      44
+    ],
+    "3": [
+      45
+    ],
+    "years,": [
+      46
+    ],
+    "it": [
+      48
+    ],
+    "subsequently": [
+      50
+    ],
+    "thoroughly": [
+      51
+    ],
+    "evaluated": [
+      52
+    ],
+    "robustness": [
+      54
+    ],
+    "repeatability.": [
+      56
+    ],
+    "We": [
+      57,
+      98
+    ],
+    "describe": [
+      58
+    ],
+    "here": [
+      59
+    ],
+    "observed": [
+      61
+    ],
+    "drift": [
+      62
+    ],
+    "in": [
+      63,
+      144
+    ],
+    "instrumental": [
+      64
+    ],
+    "performance": [
+      65
+    ],
+    "over": [
+      66
+    ],
+    "time": [
+      67
+    ],
+    "its": [
+      69
+    ],
+    "improvement": [
+      70
+    ],
+    "with": [
+      71,
+      106
+    ],
+    "adjustment": [
+      72
+    ],
+    "length": [
+      75
+    ],
+    "analytical": [
+      77
+    ],
+    "block.": [
+      78
+    ],
+    "The": [
+      79,
+      122
+    ],
+    "optimal": [
+      80
+    ],
+    "setup": [
+      81
+    ],
+    "our": [
+      83
+    ],
+    "purpose": [
+      84
+    ],
+    "further": [
+      86
+    ],
+    "validated": [
+      87
+    ],
+    "against": [
+      88
+    ],
+    "set": [
+      90
+    ],
+    "samples": [
+      93
+    ],
+    "from": [
+      94,
+      113,
+      118
+    ],
+    "30": [
+      95
+    ],
+    "healthy": [
+      96
+    ],
+    "individuals.": [
+      97
+    ],
+    "also": [
+      99
+    ],
+    "assessed": [
+      100
+    ],
+    "reproducibility": [
+      102
+    ],
+    "chromatographic": [
+      104
+    ],
+    "columns": [
+      105
+    ],
+    "same": [
+      108,
+      115
+    ],
+    "chemistry": [
+      109
+    ],
+    "stationary": [
+      111
+    ],
+    "phase": [
+      112
+    ],
+    "manufacturer": [
+      116
+    ],
+    "but": [
+      117
+    ],
+    "different": [
+      119
+    ],
+    "production": [
+      120
+    ],
+    "batches.": [
+      121
+    ],
+    "results": [
+      123
+    ],
+    "have": [
+      124
+    ],
+    "allowed": [
+      125
+    ],
+    "authors": [
+      127
+    ],
+    "prepare": [
+      129
+    ],
+    "SOPs": [
+      130
+    ],
+    "\"fit": [
+      132
+    ],
+    "purpose\"": [
+      134
+    ],
+    "UPLC-MS": [
+      136
+    ],
+    "studies,": [
+      138
+    ],
+    "such": [
+      139
+    ],
+    "as": [
+      140
+    ],
+    "are": [
+      141
+    ],
+    "being": [
+      142
+    ],
+    "employed": [
+      143
+    ],
+    "HUSERMET": [
+      146
+    ],
+    "project.": [
+      147
+    ],
+    "allows": [
+      150
+    ],
+    "acquisition": [
+      152
+    ],
+    "data": [
+      154,
+      159
+    ],
+    "subsequent": [
+      156
+    ],
+    "comparison": [
+      157
+    ],
+    "collected": [
+      160
+    ],
+    "across": [
+      161
+    ],
+    "many": [
+      162
+    ],
+    "months": [
+      163
+    ],
+    "or": [
+      164
+    ],
+    "years.": [
+      165
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2088716662",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 58
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 129
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 74
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 43
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 24
+    }
+  ],
+  "updated_date": "2025-06-08T04:42:32.680443",
+  "created_date": "2016-06-24"
+}

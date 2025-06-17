@@ -1,0 +1,1432 @@
+{
+  "id": "https://openalex.org/W2086142786",
+  "doi": "https://doi.org/10.1074/jbc.m804722200",
+  "title": "Sequestration of Copper from β-Amyloid Promotes Selective Lysis by Cyclen-Hybrid Cleavage Agents",
+  "display_name": "Sequestration of Copper from β-Amyloid Promotes Selective Lysis by Cyclen-Hybrid Cleavage Agents",
+  "publication_year": 2008,
+  "publication_date": "2008-08-27",
+  "ids": {
+    "openalex": "https://openalex.org/W2086142786",
+    "doi": "https://doi.org/10.1074/jbc.m804722200",
+    "mag": "2086142786",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/18728006"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1074/jbc.m804722200",
+    "pdf_url": "http://www.jbc.org/article/S0021925820569093/pdf",
+    "source": {
+      "id": "https://openalex.org/S140251998",
+      "display_name": "Journal of Biological Chemistry",
+      "issn_l": "0021-9258",
+      "issn": [
+        "0021-9258",
+        "1067-8816",
+        "1083-351X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "http://www.jbc.org/article/S0021925820569093/pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5027066046",
+        "display_name": "Wei‐Hui Wu",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wei-hui Wu",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, Tsinghua University, Beijing 100084, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037564339",
+        "display_name": "Peng Lei",
+        "orcid": "https://orcid.org/0000-0001-5652-1962"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peng Lei",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, Tsinghua University, Beijing 100084, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100318573",
+        "display_name": "Qian Liu",
+        "orcid": "https://orcid.org/0000-0002-7849-9871"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qian Liu",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, Tsinghua University, Beijing 100084, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059321263",
+        "display_name": "Jia Hu",
+        "orcid": "https://orcid.org/0000-0001-5779-257X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jia Hu",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, Tsinghua University, Beijing 100084, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5070614403",
+        "display_name": "Adam P. Gunn",
+        "orcid": "https://orcid.org/0000-0002-8181-4975"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I139829854",
+          "display_name": "Mental Health Research Institute",
+          "ror": "https://ror.org/041684t28",
+          "country_code": "AU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I139829854"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I165779595",
+          "display_name": "The University of Melbourne",
+          "ror": "https://ror.org/01ej9dk98",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I165779595"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Adam P. Gunn",
+      "raw_affiliation_strings": [
+        "Mental Health Research Institute of Victoria, and Department of Pathology, University of Melbourne, Parkville, Victoria 3052, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Mental Health Research Institute of Victoria, and Department of Pathology, University of Melbourne, Parkville, Victoria 3052, Australia",
+          "institution_ids": [
+            "https://openalex.org/I139829854",
+            "https://openalex.org/I165779595"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033082978",
+        "display_name": "Mei‐Sha Chen",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mei-sha Chen",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, Tsinghua University, Beijing 100084, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004574544",
+        "display_name": "Yanfang Rui",
+        "orcid": "https://orcid.org/0000-0002-8540-3786"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yan-fang Rui",
+      "raw_affiliation_strings": [
+        "Department of Biological Science and Biotechnology, Tsinghua University, Beijing 100084, China",
+        "Department of Chemistry, Tsinghua University, Beijing 100084, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Science and Biotechnology, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Chemistry, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077598643",
+        "display_name": "Xiaoyang Su",
+        "orcid": "https://orcid.org/0000-0001-8081-1396"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xiao-yang Su",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, Tsinghua University, Beijing 100084, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100540371",
+        "display_name": "Zuoping Xie",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zuo-ping Xie",
+      "raw_affiliation_strings": [
+        "Department of Biological Science and Biotechnology, Tsinghua University, Beijing 100084, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Science and Biotechnology, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072862274",
+        "display_name": "Yufen Zhao",
+        "orcid": "https://orcid.org/0000-0002-8513-1354"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yu-Fen Zhao",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, Tsinghua University, Beijing 100084, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5038374630",
+        "display_name": "Ashley I. Bush",
+        "orcid": "https://orcid.org/0000-0001-8259-9069"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I139829854",
+          "display_name": "Mental Health Research Institute",
+          "ror": "https://ror.org/041684t28",
+          "country_code": "AU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I139829854"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I165779595",
+          "display_name": "The University of Melbourne",
+          "ror": "https://ror.org/01ej9dk98",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I165779595"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Ashley I. Bush",
+      "raw_affiliation_strings": [
+        "Mental Health Research Institute of Victoria, and Department of Pathology, University of Melbourne, Parkville, Victoria 3052, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Mental Health Research Institute of Victoria, and Department of Pathology, University of Melbourne, Parkville, Victoria 3052, Australia",
+          "institution_ids": [
+            "https://openalex.org/I139829854",
+            "https://openalex.org/I165779595"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5100642931",
+        "display_name": "Yanmei Li",
+        "orcid": "https://orcid.org/0000-0003-1215-5010"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I99065089",
+          "display_name": "Tsinghua University",
+          "ror": "https://ror.org/03cve4549",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Yan-mei Li",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, Tsinghua University, Beijing 100084, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, Tsinghua University, Beijing 100084, China",
+          "institution_ids": [
+            "https://openalex.org/I99065089"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5038374630",
+    "https://openalex.org/A5100642931"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I139829854",
+    "https://openalex.org/I165779595",
+    "https://openalex.org/I99065089"
+  ],
+  "apc_list": {
+    "value": 2500,
+    "currency": "USD",
+    "value_usd": 2500
+  },
+  "apc_paid": {
+    "value": 2500,
+    "currency": "USD",
+    "value_usd": 2500
+  },
+  "fwci": 5.008,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 117,
+  "citation_normalized_percentile": {
+    "value": 0.951918,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "283",
+    "issue": "46",
+    "first_page": "31657",
+    "last_page": "31664"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10086",
+    "display_name": "Alzheimer's disease research and treatments",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10086",
+      "display_name": "Alzheimer's disease research and treatments",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10211",
+      "display_name": "Computational Drug Discovery Methods",
+      "score": 0.9972,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13991",
+      "display_name": "Nuclear Receptors and Signaling",
+      "score": 0.988,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/cyclen",
+      "display_name": "Cyclen",
+      "score": 0.77400273
+    },
+    {
+      "id": "https://openalex.org/keywords/cleavage",
+      "display_name": "Cleavage (geology)",
+      "score": 0.6027845
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777459166",
+      "wikidata": "https://www.wikidata.org/wiki/Q416407",
+      "display_name": "Cyclen",
+      "level": 2,
+      "score": 0.77400273
+    },
+    {
+      "id": "https://openalex.org/C57409179",
+      "wikidata": "https://www.wikidata.org/wiki/Q1218293",
+      "display_name": "Lysis",
+      "level": 2,
+      "score": 0.681219
+    },
+    {
+      "id": "https://openalex.org/C544778455",
+      "wikidata": "https://www.wikidata.org/wiki/Q753",
+      "display_name": "Copper",
+      "level": 2,
+      "score": 0.65986764
+    },
+    {
+      "id": "https://openalex.org/C175156509",
+      "wikidata": "https://www.wikidata.org/wiki/Q1990218",
+      "display_name": "Cleavage (geology)",
+      "level": 3,
+      "score": 0.6027845
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.5901067
+    },
+    {
+      "id": "https://openalex.org/C21951064",
+      "wikidata": "https://www.wikidata.org/wiki/Q899212",
+      "display_name": "Combinatorial chemistry",
+      "level": 1,
+      "score": 0.33017564
+    },
+    {
+      "id": "https://openalex.org/C12554922",
+      "wikidata": "https://www.wikidata.org/wiki/Q7100",
+      "display_name": "Biophysics",
+      "level": 1,
+      "score": 0.3248967
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.30293697
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.17770436
+    },
+    {
+      "id": "https://openalex.org/C71240020",
+      "wikidata": "https://www.wikidata.org/wiki/Q186011",
+      "display_name": "Stereochemistry",
+      "level": 1,
+      "score": 0.13498923
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.06866965
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C43369102",
+      "wikidata": "https://www.wikidata.org/wiki/Q2307625",
+      "display_name": "Fracture (geology)",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D016229",
+      "descriptor_name": "Amyloid beta-Peptides",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003300",
+      "descriptor_name": "Copper",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006571",
+      "descriptor_name": "Heterocyclic Compounds",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010455",
+      "descriptor_name": "Peptides",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016229",
+      "descriptor_name": "Amyloid beta-Peptides",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016229",
+      "descriptor_name": "Amyloid beta-Peptides",
+      "qualifier_ui": "Q000648",
+      "qualifier_name": "ultrastructure",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016229",
+      "descriptor_name": "Amyloid beta-Peptides",
+      "qualifier_ui": "Q000633",
+      "qualifier_name": "toxicity",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016229",
+      "descriptor_name": "Amyloid beta-Peptides",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002460",
+      "descriptor_name": "Cell Line",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003300",
+      "descriptor_name": "Copper",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006571",
+      "descriptor_name": "Heterocyclic Compounds",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006861",
+      "descriptor_name": "Hydrogen Peroxide",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006861",
+      "descriptor_name": "Hydrogen Peroxide",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009474",
+      "descriptor_name": "Neurons",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009474",
+      "descriptor_name": "Neurons",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009474",
+      "descriptor_name": "Neurons",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009602",
+      "descriptor_name": "Nitrosamines",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010455",
+      "descriptor_name": "Peptides",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010455",
+      "descriptor_name": "Peptides",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011485",
+      "descriptor_name": "Protein Binding",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D046509",
+      "descriptor_name": "Tissue Culture Techniques",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1074/jbc.m804722200",
+      "pdf_url": "http://www.jbc.org/article/S0021925820569093/pdf",
+      "source": {
+        "id": "https://openalex.org/S140251998",
+        "display_name": "Journal of Biological Chemistry",
+        "issn_l": "0021-9258",
+        "issn": [
+          "0021-9258",
+          "1067-8816",
+          "1083-351X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/18728006",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1074/jbc.m804722200",
+    "pdf_url": "http://www.jbc.org/article/S0021925820569093/pdf",
+    "source": {
+      "id": "https://openalex.org/S140251998",
+      "display_name": "Journal of Biological Chemistry",
+      "issn_l": "0021-9258",
+      "issn": [
+        "0021-9258",
+        "1067-8816",
+        "1083-351X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 48,
+  "referenced_works": [
+    "https://openalex.org/W1896970469",
+    "https://openalex.org/W1955491145",
+    "https://openalex.org/W1971855284",
+    "https://openalex.org/W1972456354",
+    "https://openalex.org/W1978314140",
+    "https://openalex.org/W1980825524",
+    "https://openalex.org/W1981471614",
+    "https://openalex.org/W1996579240",
+    "https://openalex.org/W1998750669",
+    "https://openalex.org/W2009833553",
+    "https://openalex.org/W2013118051",
+    "https://openalex.org/W2016698723",
+    "https://openalex.org/W2017550829",
+    "https://openalex.org/W2018333394",
+    "https://openalex.org/W2026536857",
+    "https://openalex.org/W2027123848",
+    "https://openalex.org/W2051516838",
+    "https://openalex.org/W2054648295",
+    "https://openalex.org/W2055659156",
+    "https://openalex.org/W2064962462",
+    "https://openalex.org/W2067820958",
+    "https://openalex.org/W2075481535",
+    "https://openalex.org/W2079323065",
+    "https://openalex.org/W2079663400",
+    "https://openalex.org/W2083500052",
+    "https://openalex.org/W2084174305",
+    "https://openalex.org/W2085630132",
+    "https://openalex.org/W2085754422",
+    "https://openalex.org/W2087292928",
+    "https://openalex.org/W2088264073",
+    "https://openalex.org/W2096410114",
+    "https://openalex.org/W2113472155",
+    "https://openalex.org/W2121963977",
+    "https://openalex.org/W2123321976",
+    "https://openalex.org/W2128124856",
+    "https://openalex.org/W2131502462",
+    "https://openalex.org/W2131633241",
+    "https://openalex.org/W2131819352",
+    "https://openalex.org/W2133324295",
+    "https://openalex.org/W2138417832",
+    "https://openalex.org/W2153026244",
+    "https://openalex.org/W2155133303",
+    "https://openalex.org/W2159879659",
+    "https://openalex.org/W2160063982",
+    "https://openalex.org/W2171092661",
+    "https://openalex.org/W2171999733",
+    "https://openalex.org/W2950650597",
+    "https://openalex.org/W4211156109"
+  ],
+  "related_works": [
+    "https://openalex.org/W4385064049",
+    "https://openalex.org/W4367835732",
+    "https://openalex.org/W4250567724",
+    "https://openalex.org/W2156976630",
+    "https://openalex.org/W2112750511",
+    "https://openalex.org/W2092288836",
+    "https://openalex.org/W2075327279",
+    "https://openalex.org/W2054815863",
+    "https://openalex.org/W1984610641",
+    "https://openalex.org/W1970341253"
+  ],
+  "abstract_inverted_index": {
+    "Decelerated": [
+      0
+    ],
+    "degradation": [
+      1,
+      102
+    ],
+    "of": [
+      2,
+      58,
+      103,
+      110
+    ],
+    "beta-amyloid": [
+      3
+    ],
+    "(Abeta)": [
+      4
+    ],
+    "and": [
+      5,
+      52,
+      78
+    ],
+    "its": [
+      6
+    ],
+    "interaction": [
+      7
+    ],
+    "with": [
+      8,
+      68
+    ],
+    "synaptic": [
+      9
+    ],
+    "copper": [
+      10,
+      48,
+      111,
+      119
+    ],
+    "may": [
+      11,
+      94
+    ],
+    "be": [
+      12,
+      95
+    ],
+    "pathogenic": [
+      13
+    ],
+    "in": [
+      14,
+      30,
+      56,
+      80,
+      88,
+      105
+    ],
+    "Alzheimer": [
+      15,
+      106
+    ],
+    "disease.": [
+      16,
+      107
+    ],
+    "Recently,": [
+      17
+    ],
+    "Co(III)-cyclen": [
+      18
+    ],
+    "tagged": [
+      19
+    ],
+    "to": [
+      20,
+      27,
+      38,
+      50,
+      60,
+      99,
+      115
+    ],
+    "an": [
+      21
+    ],
+    "aromatic": [
+      22
+    ],
+    "recognition": [
+      23,
+      41
+    ],
+    "motif": [
+      24
+    ],
+    "was": [
+      25
+    ],
+    "shown": [
+      26
+    ],
+    "degrade": [
+      28,
+      71
+    ],
+    "Abeta": [
+      29,
+      40,
+      51,
+      69,
+      72,
+      85,
+      104
+    ],
+    "vitro.": [
+      31
+    ],
+    "Here,": [
+      32
+    ],
+    "we": [
+      33
+    ],
+    "report": [
+      34
+    ],
+    "that": [
+      35
+    ],
+    "apocyclen": [
+      36
+    ],
+    "attached": [
+      37
+    ],
+    "selective": [
+      39,
+      101
+    ],
+    "motifs": [
+      42
+    ],
+    "(KLVFF": [
+      43
+    ],
+    "or": [
+      44
+    ],
+    "curcumin)": [
+      45
+    ],
+    "can": [
+      46
+    ],
+    "capture": [
+      47,
+      112
+    ],
+    "bound": [
+      49
+    ],
+    "use": [
+      53
+    ],
+    "the": [
+      54,
+      100
+    ],
+    "Cu(II)": [
+      55
+    ],
+    "place": [
+      57
+    ],
+    "Co(III)": [
+      59
+    ],
+    "become": [
+      61
+    ],
+    "proteolytically": [
+      62
+    ],
+    "active.": [
+      63
+    ],
+    "The": [
+      64,
+      108
+    ],
+    "resultant": [
+      65
+    ],
+    "complexes": [
+      66
+    ],
+    "interfere": [
+      67
+    ],
+    "aggregation,": [
+      70
+    ],
+    "into": [
+      73
+    ],
+    "fragments,": [
+      74
+    ],
+    "preventing": [
+      75
+    ],
+    "H2O2": [
+      76
+    ],
+    "formation": [
+      77
+    ],
+    "toxicity": [
+      79
+    ],
+    "neuronal": [
+      81
+    ],
+    "cell": [
+      82
+    ],
+    "culture.": [
+      83
+    ],
+    "Because": [
+      84
+    ],
+    "binds": [
+      86
+    ],
+    "Cu": [
+      87
+    ],
+    "amyloid": [
+      89
+    ],
+    "plaques,": [
+      90
+    ],
+    "apocyclen-tagged": [
+      91
+    ],
+    "targeting": [
+      92
+    ],
+    "molecules": [
+      93
+    ],
+    "a": [
+      96
+    ],
+    "promising": [
+      97
+    ],
+    "approach": [
+      98
+    ],
+    "principle": [
+      109
+    ],
+    "could": [
+      113
+    ],
+    "generalize": [
+      114
+    ],
+    "other": [
+      116
+    ],
+    "amyloidoses": [
+      117
+    ],
+    "where": [
+      118
+    ],
+    "is": [
+      120
+    ],
+    "implicated.": [
+      121
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2086142786",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 14
+    }
+  ],
+  "updated_date": "2025-05-24T22:49:47.925998",
+  "created_date": "2016-06-24"
+}
