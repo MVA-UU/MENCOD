@@ -173,26 +173,64 @@ def _calculate_features_from_adjacency(doc_id, graph_data, relevant_documents):
         'network_position_score': relevant_ratio
     }
 
-def _prepare_graph_for_multiprocessing(G, relevant_documents):
+def _prepare_graph_for_multiprocessing(G, relevant_documents, target_documents=None):
     """Convert NetworkX graph to multiprocessing-friendly format."""
     print("Preparing graph data for multiprocessing...")
     
-    # Convert to adjacency dictionary (much more efficient to serialize)
-    adjacency = {}
-    node_attributes = {}
-    
-    for node in G.nodes(data=True):
-        node_id, attrs = node
-        node_attributes[node_id] = attrs
-        adjacency[node_id] = {}
+    # If target_documents provided, only extract subgraph for those + relevant docs + their neighbors
+    if target_documents:
+        print(f"Extracting subgraph for {len(target_documents)} target documents...")
         
-        # Store outgoing edges with their attributes
-        for neighbor in G.neighbors(node_id):
-            if G.has_edge(node_id, neighbor):
-                edge_data = G[node_id][neighbor]
-                adjacency[node_id][neighbor] = edge_data
+        # Get all nodes we need: target docs + relevant docs + their immediate neighbors
+        nodes_needed = set(target_documents)
+        nodes_needed.update(relevant_documents)
+        
+        # Add immediate neighbors of target and relevant documents
+        for doc in list(nodes_needed):
+            if doc in G.nodes:
+                nodes_needed.update(G.neighbors(doc))
+        
+        print(f"Subgraph contains {len(nodes_needed)} nodes (reduced from {len(G.nodes)})")
+        
+        # Extract subgraph
+        subgraph = G.subgraph(nodes_needed)
+        
+        # Convert subgraph to adjacency dictionary
+        adjacency = {}
+        node_attributes = {}
+        
+        for node in subgraph.nodes(data=True):
+            node_id, attrs = node
+            node_attributes[node_id] = attrs
+            adjacency[node_id] = {}
+            
+            # Store outgoing edges with their attributes
+            for neighbor in subgraph.neighbors(node_id):
+                if subgraph.has_edge(node_id, neighbor):
+                    edge_data = subgraph[node_id][neighbor]
+                    adjacency[node_id][neighbor] = edge_data
+        
+        print(f"Subgraph converted to adjacency format: {len(adjacency)} nodes, {sum(len(neighbors) for neighbors in adjacency.values())} edges")
+        
+    else:
+        # Fallback: convert entire graph (slow)
+        print("Converting entire graph (this may take a while)...")
+        adjacency = {}
+        node_attributes = {}
+        
+        for node in G.nodes(data=True):
+            node_id, attrs = node
+            node_attributes[node_id] = attrs
+            adjacency[node_id] = {}
+            
+            # Store outgoing edges with their attributes
+            for neighbor in G.neighbors(node_id):
+                if G.has_edge(node_id, neighbor):
+                    edge_data = G[node_id][neighbor]
+                    adjacency[node_id][neighbor] = edge_data
+        
+        print(f"Full graph converted to adjacency format: {len(adjacency)} nodes")
     
-    print(f"Graph converted to adjacency format: {len(adjacency)} nodes")
     return adjacency, node_attributes
 
 def _extract_features_batch(args):
@@ -447,7 +485,7 @@ class CitationNetworkModel:
             print(f"Extracting features for {len(target_documents)} documents using {self.n_cores} cores (optimized)")
             
             # Convert graph to multiprocessing-friendly format
-            adjacency, node_attributes = _prepare_graph_for_multiprocessing(self.G, self.relevant_documents)
+            adjacency, node_attributes = _prepare_graph_for_multiprocessing(self.G, self.relevant_documents, target_documents)
             
             # Split documents into batches
             batch_size = max(50, len(target_documents) // self.n_cores)
@@ -543,7 +581,7 @@ class CitationNetworkModel:
             print(f"Processing {len(batches)} batches with ~{batch_size} documents each")
             
             # Prepare graph data for multiprocessing
-            adjacency, node_attributes = _prepare_graph_for_multiprocessing(self.G, self.relevant_documents)
+            adjacency, node_attributes = _prepare_graph_for_multiprocessing(self.G, self.relevant_documents, target_documents)
             
             all_scores = {'isolation': [], 'coupling': [], 'neighborhood': [], 'advanced': [], 'temporal': [], 'efficiency': []}
             raw_scores = {}
