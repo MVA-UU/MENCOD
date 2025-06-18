@@ -223,14 +223,14 @@ def _calculate_scores_batch(args):
 class CitationNetworkModel:
     """Citation-based feature extractor for outlier detection."""
     
-    def __init__(self, dataset_name: Optional[str] = None, n_cores: Optional[int] = None, use_gpu: bool = True):
+    def __init__(self, dataset_name: Optional[str] = None, n_cores: Optional[int] = None, use_gpu: bool = False):
         """
         Initialize the Citation Network model.
         
         Args:
             dataset_name: Optional name of dataset to use. If None, will prompt user.
             n_cores: Number of CPU cores to use for parallel processing. If None, will use all available cores.
-            use_gpu: Whether to enable GPU acceleration with nx-cugraph backend.
+            use_gpu: Whether to enable GPU acceleration with nx-cugraph backend. Default False due to CUDA issues.
         """
         # If dataset_name is not provided, prompt user to select one
         if dataset_name is None:
@@ -870,12 +870,12 @@ class CitationNetworkModel:
                             # Try efficient path in relevant subgraph first
                             if doc2 in relevant_subgraph.nodes:
                                 try:
-                                    dist = nx.shortest_path_length(relevant_subgraph, doc1, doc2)
+                                    dist = safe_networkx_call(nx.shortest_path_length, relevant_subgraph, doc1, doc2)
                                 except nx.NetworkXNoPath:
                                     # Fallback to full graph (more expensive)
-                                    dist = nx.shortest_path_length(self.G, doc1, doc2)
+                                    dist = safe_networkx_call(nx.shortest_path_length, self.G, doc1, doc2)
                             else:
-                                dist = nx.shortest_path_length(self.G, doc1, doc2)
+                                dist = safe_networkx_call(nx.shortest_path_length, self.G, doc1, doc2)
                             distances.append(dist)
                         except nx.NetworkXNoPath:
                             distances.append(float('inf'))
@@ -968,6 +968,37 @@ def monitor_progress_with_timeout(start_time, max_minutes=10):
         print("   3. Using CPU fallback")
         return True
     return False
+
+def disable_gpu_acceleration():
+    """Disable GPU acceleration and fall back to CPU NetworkX."""
+    global GPU_AVAILABLE
+    GPU_AVAILABLE = False
+    try:
+        # Clear backend priority to use default NetworkX
+        nx.config.backend_priority = []
+        # Remove environment variable
+        import os
+        if "NETWORKX_BACKEND" in os.environ:
+            del os.environ["NETWORKX_BACKEND"]
+        print("🔄 GPU acceleration disabled - using CPU NetworkX")
+    except:
+        pass
+
+def safe_networkx_call(func, *args, **kwargs):
+    """Safely call NetworkX functions with GPU fallback on CUDA errors."""
+    try:
+        return func(*args, **kwargs)
+    except Exception as e:
+        # Check if it's a CUDA compilation error
+        if "CompileException" in str(e) or "vector_types.h" in str(e) or "NVRTC_ERROR" in str(e):
+            print(f"⚠️  CUDA error detected: {str(e)[:100]}...")
+            print("🔄 Falling back to CPU NetworkX for this operation")
+            disable_gpu_acceleration()
+            # Retry with CPU NetworkX
+            return func(*args, **kwargs)
+        else:
+            # Re-raise other exceptions
+            raise e
 
 def main():
     """Test citation network model with a selected dataset and show outlier ranking."""
