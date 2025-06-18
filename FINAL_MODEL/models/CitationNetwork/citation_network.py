@@ -665,20 +665,65 @@ class CitationNetworkModel:
         
         logger.info(f"Computing relevance scores for {len(target_documents)} documents")
         
-        # Extract features
-        features_df = self.extract_features(target_documents)
+        # Use optimized batch scoring for large document lists
+        if len(target_documents) > 500:
+            return self._predict_relevance_scores_batch(target_documents)
+        else:
+            # Use regular method for smaller lists
+            features_df = self.extract_features(target_documents)
+            
+            # Calculate deviation scores
+            scores = {}
+            for _, row in features_df.iterrows():
+                doc_id = row['openalex_id']
+                score = self._calculate_relevance_score(row)
+                scores[doc_id] = score
+            
+            # Normalize scores to 0-1 range
+            if scores:
+                max_score = max(scores.values())
+                min_score = min(scores.values())
+                score_range = max_score - min_score
+                
+                if score_range > 0:
+                    for doc_id in scores:
+                        scores[doc_id] = (scores[doc_id] - min_score) / score_range
+            
+            return scores
+    
+    def _predict_relevance_scores_batch(self, target_documents: List[str]) -> Dict[str, float]:
+        """
+        Optimized batch scoring for large document lists using pre-computed values.
+        """
+        logger.info("Using optimized batch scoring...")
         
-        # Calculate deviation scores
         scores = {}
-        for _, row in features_df.iterrows():
-            doc_id = row['openalex_id']
-            score = self._calculate_relevance_score(row)
-            scores[doc_id] = score
         
-        # Normalize scores to 0-1 range
+        # Pre-compute semantic similarities if available
+        semantic_similarities = {}
+        if self.embeddings is not None and self.embeddings_metadata is not None:
+            semantic_similarities = self._compute_semantic_similarities_batch(target_documents)
+        
+        # Process documents in batches to manage memory
+        batch_size = 1000
+        for i in tqdm(range(0, len(target_documents), batch_size), desc="Batch scoring"):
+            batch_docs = target_documents[i:i+batch_size]
+            
+            for doc_id in batch_docs:
+                if doc_id in self.G.nodes:
+                    # Use pre-computed centrality measures
+                    features = self._get_features_fast(doc_id, semantic_similarities)
+                    score = self._calculate_relevance_score_fast(features)
+                else:
+                    score = 0.0
+                
+                scores[doc_id] = score
+        
+        # Normalize scores
         if scores:
-            max_score = max(scores.values())
-            min_score = min(scores.values())
+            score_values = list(scores.values())
+            max_score = max(score_values)
+            min_score = min(score_values)
             score_range = max_score - min_score
             
             if score_range > 0:
@@ -686,6 +731,94 @@ class CitationNetworkModel:
                     scores[doc_id] = (scores[doc_id] - min_score) / score_range
         
         return scores
+    
+    def _get_features_fast(self, doc_id: str, semantic_similarities: Dict[str, float]) -> Dict[str, float]:
+        """Fast feature extraction using pre-computed values."""
+        if doc_id not in self.G.nodes:
+            return {'degree': 0.0, 'relevant_ratio': 0.0, 'clustering': 0.0, 
+                   'pagerank': 0.0, 'semantic_isolation': 1.0}
+        
+        # Basic connectivity (fast)
+        degree = self.G.degree(doc_id)
+        relevant_neighbors = len([n for n in self.G.neighbors(doc_id) 
+                                 if n in self.relevant_documents])
+        relevant_ratio = relevant_neighbors / max(1, degree)
+        
+        # Pre-computed centrality measures
+        clustering = nx.clustering(self.G, doc_id)  # Fast for single node
+        pagerank = self.pagerank_values.get(doc_id, 0.0)
+        
+        # Pre-computed semantic similarity
+        semantic_isolation = 1.0 - semantic_similarities.get(doc_id, 0.0)
+        
+        return {
+            'degree': float(degree),
+            'relevant_ratio': float(relevant_ratio),
+            'clustering': float(clustering),
+            'pagerank': float(pagerank),
+            'semantic_isolation': float(semantic_isolation)
+        }
+    
+    def _calculate_relevance_score_fast(self, features: Dict[str, float]) -> float:
+        """Fast relevance score calculation with essential features only."""
+        # Connectivity-based scoring
+        degree_score = min(1.0, features['degree'] / 10.0)
+        relevant_ratio_score = features['relevant_ratio']
+        
+        # Advanced network measures
+        clustering_score = features['clustering']
+        pagerank_score = min(1.0, features['pagerank'] * 1000)
+        
+        # Semantic features
+        semantic_score = 1.0 - features['semantic_isolation']
+        
+        # Adaptive weighting
+        if hasattr(self, 'relevant_documents') and self.relevant_documents:
+            relevant_ratio = len(self.relevant_documents) / len(self.G.nodes) if self.G.nodes else 0
+            sparsity_factor = 1 - min(0.9, max(0.1, relevant_ratio * 10))
+            network_weight = 0.4 + sparsity_factor * 0.3
+            semantic_weight = 0.6 - sparsity_factor * 0.3
+        else:
+            network_weight = 0.5
+            semantic_weight = 0.5
+        
+        # Combine scores
+        network_component = (degree_score * 0.3 + relevant_ratio_score * 0.4 + 
+                           clustering_score * 0.2 + pagerank_score * 0.1)
+        
+        score = network_weight * network_component + semantic_weight * semantic_score
+        
+        return float(max(0.0, min(1.0, score)))
+    
+    def _compute_semantic_similarities_batch(self, target_documents: List[str]) -> Dict[str, float]:
+        """Pre-compute semantic similarities for batch of documents."""
+        if not self.embeddings_metadata:
+            return {}
+        
+        similarities = {}
+        id_to_idx = {doc_id: idx for idx, doc_id in enumerate(self.embeddings_metadata['openalex_id'])}
+        
+        # Get relevant document embeddings once
+        relevant_with_embeddings = [doc for doc in self.relevant_documents if doc in id_to_idx]
+        if not relevant_with_embeddings:
+            return {doc_id: 0.0 for doc_id in target_documents}
+        
+        relevant_indices = [id_to_idx[doc] for doc in relevant_with_embeddings]
+        relevant_embeddings = self.embeddings[relevant_indices]
+        
+        # Process target documents in batches
+        for doc_id in target_documents:
+            if doc_id in id_to_idx:
+                doc_idx = id_to_idx[doc_id]
+                doc_embedding = self.embeddings[doc_idx:doc_idx+1]
+                
+                # Compute similarities with relevant documents
+                sims = cosine_similarity(doc_embedding, relevant_embeddings)[0]
+                similarities[doc_id] = float(np.mean(sims))
+            else:
+                similarities[doc_id] = 0.0
+        
+        return similarities
     
     def _calculate_relevance_score(self, features: pd.Series) -> float:
         """Calculate relevance score for a single document based on its features."""
