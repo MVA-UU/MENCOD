@@ -164,8 +164,8 @@ def add_semantic_edges(G: nx.DiGraph, simulation_df: pd.DataFrame) -> None:
     # Get the project root directory (should be ADS Thesis)
     # current_dir is CITATION_EMBEDDINGS, so parent is ADS Thesis
     project_root = os.path.dirname(current_dir)
-    embeddings_path = os.path.join(project_root, 'appenzeller_embeddings', 'specter2_embeddings.npy')
-    metadata_path = os.path.join(project_root, 'appenzeller_embeddings', 'specter2_metadata.json')
+    embeddings_path = os.path.join(project_root, 'data', 'embeddings', 'appenzeller.npy')
+    metadata_path = os.path.join(project_root, 'data', 'embeddings', 'appenzeller_metadata.json')
     
     print(f"Looking for SPECTER2 embeddings at: {embeddings_path}")
     print(f"Looking for metadata at: {metadata_path}")
