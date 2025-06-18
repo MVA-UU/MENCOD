@@ -40,7 +40,10 @@ from models.dataset_utils import (
 )
 
 # Import local modules
-from citation_features import extract_citation_features
+from citation_features import (
+    get_connectivity_features, get_coupling_features, get_neighborhood_features,
+    get_advanced_features, get_temporal_features, get_efficiency_features, get_zero_features
+)
 from citation_scoring import (
     calculate_isolation_deviation, calculate_coupling_deviation,
     calculate_neighborhood_deviation, calculate_advanced_score,
@@ -152,10 +155,14 @@ class FullFeaturedGPUCitationNetwork:
         baseline_features = []
         for doc_id in sample_docs:
             if doc_id in self.G.nodes:
-                features = extract_citation_features(
-                    doc_id, self.G, self.relevant_documents, 
-                    baseline_stats={}, is_baseline=True
-                )
+                # Collect all feature types
+                features = {'openalex_id': doc_id}
+                features.update(get_connectivity_features(self.G, doc_id, self.relevant_documents))
+                features.update(get_coupling_features(self.G, doc_id, self.relevant_documents))
+                features.update(get_neighborhood_features(self.G, doc_id, self.relevant_documents))
+                features.update(get_advanced_features(self.G, doc_id, self.relevant_documents))
+                features.update(get_temporal_features(self.G, doc_id, self.relevant_documents, self.simulation_data))
+                features.update(get_efficiency_features(self.G, doc_id, self.relevant_documents))
                 baseline_features.append(features)
         
         if not baseline_features:
@@ -207,13 +214,22 @@ class FullFeaturedGPUCitationNetwork:
         
         for doc_id in doc_ids:
             try:
-                doc_features = extract_citation_features(
-                    doc_id, self.G, self.relevant_documents, self.baseline_stats
-                )
+                if doc_id not in self.G.nodes:
+                    features.append(get_zero_features(doc_id))
+                    continue
+                
+                # Extract all feature types
+                doc_features = {'openalex_id': doc_id}
+                doc_features.update(get_connectivity_features(self.G, doc_id, self.relevant_documents))
+                doc_features.update(get_coupling_features(self.G, doc_id, self.relevant_documents))
+                doc_features.update(get_neighborhood_features(self.G, doc_id, self.relevant_documents))
+                doc_features.update(get_advanced_features(self.G, doc_id, self.relevant_documents))
+                doc_features.update(get_temporal_features(self.G, doc_id, self.relevant_documents, self.simulation_data))
+                doc_features.update(get_efficiency_features(self.G, doc_id, self.relevant_documents))
                 features.append(doc_features)
             except Exception as e:
                 print(f"Error extracting features for {doc_id}: {e}")
-                features.append({'openalex_id': doc_id})
+                features.append(get_zero_features(doc_id))
         
         return features
     
