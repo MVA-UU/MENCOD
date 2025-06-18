@@ -192,8 +192,8 @@ class FullFeaturedGPUCitationNetwork:
         batch_size = max(1, len(doc_ids) // self.n_cores)
         batches = [doc_ids[i:i + batch_size] for i in range(0, len(doc_ids), batch_size)]
         
-        # Use ProcessPoolExecutor for CPU-intensive feature extraction
-        with ProcessPoolExecutor(max_workers=self.n_cores) as executor:
+        # Use ThreadPoolExecutor to avoid GPU object serialization issues
+        with ThreadPoolExecutor(max_workers=self.n_cores) as executor:
             futures = [
                 executor.submit(self._extract_batch_features_full, batch) 
                 for batch in batches
