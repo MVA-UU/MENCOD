@@ -80,8 +80,8 @@ class FullFeaturedGPUCitationNetwork:
         # Initialize GPU memory if available
         if CUGRAPH_AVAILABLE:
             try:
-                rmm.reinitialize(pool_allocator=True, initial_pool_size=4**30)  # 4GB pool
-                print("GPU memory pool initialized (4GB)")
+                rmm.reinitialize(pool_allocator=True, initial_pool_size=2**29)  # 512MB pool
+                print("GPU memory pool initialized (512MB)")
             except:
                 print("GPU memory pool initialization failed, continuing...")
     

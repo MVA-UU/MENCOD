@@ -97,6 +97,7 @@ class GPUAcceleratedCitationNetwork:
         self.simulation_data = simulation_df.copy()
         
         # Build network using existing optimized function
+        # For supercomputer: build semantic-only network since synergy dataset may not be available
         self.G = build_network_from_simulation(simulation_df, self.dataset_name)
         
         # Convert to GPU graph if cuGraph is available
