@@ -293,11 +293,9 @@ class FullFeaturedGPUCitationNetwork:
                     weights['efficiency'] * efficiency_score
                 )
                 
-                # Apply sparse dataset adjustments
-                final_score = apply_sparse_dataset_ranking_adjustments(
-                    final_score, isolation_score, coupling_score, 
-                    neighborhood_score, advanced_score, relevant_ratio
-                )
+                # Store individual scores for potential later use
+                # Note: apply_sparse_dataset_ranking_adjustments works on full score dictionaries
+                # For now, just use the weighted final score directly
                 
                 scores[doc_id] = max(0.0, min(1.0, final_score))
                 
