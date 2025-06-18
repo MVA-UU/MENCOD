@@ -15,6 +15,9 @@ from typing import Dict, List, Tuple, Optional, Any
 from collections import defaultdict
 import time
 from tqdm import tqdm
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+import multiprocessing as mp
+from functools import partial
 
 # Try to use cuGraph for GPU acceleration
 try:
@@ -37,6 +40,67 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+
+def _process_document_chunk(worker_data: Dict[str, Any], doc_chunk: List[str]) -> Dict[str, float]:
+    """
+    Worker function for parallel processing of document chunks.
+    This function runs in separate processes for multiprocessing.
+    """
+    import networkx as nx
+    
+    # Reconstruct minimal graph data for this worker
+    pagerank_values = worker_data['pagerank_values']
+    relevant_documents = worker_data['relevant_documents']
+    semantic_similarities = worker_data['semantic_similarities']
+    
+    # Create a temporary graph from edges (only for degree/neighbor calculations)
+    temp_graph = nx.Graph()
+    temp_graph.add_edges_from([(u, v) for u, v, data in worker_data['graph_edges']])
+    
+    chunk_scores = {}
+    
+    for doc_id in doc_chunk:
+        if doc_id in temp_graph.nodes:
+            # Fast feature extraction using pre-computed values
+            degree = temp_graph.degree(doc_id)
+            relevant_neighbors = len([n for n in temp_graph.neighbors(doc_id) 
+                                     if n in relevant_documents])
+            relevant_ratio = relevant_neighbors / max(1, degree)
+            
+            # Pre-computed centrality measures
+            clustering = nx.clustering(temp_graph, doc_id)  # Fast for single node
+            pagerank = pagerank_values.get(doc_id, 0.0)
+            
+            # Pre-computed semantic similarity
+            semantic_isolation = 1.0 - semantic_similarities.get(doc_id, 0.0)
+            
+            # Fast relevance score calculation
+            degree_score = min(1.0, degree / 10.0)
+            clustering_score = clustering
+            pagerank_score = min(1.0, pagerank * 1000)
+            semantic_score = 1.0 - semantic_isolation
+            
+            # Adaptive weighting
+            if relevant_documents:
+                relevant_ratio_dataset = len(relevant_documents) / len(temp_graph.nodes) if temp_graph.nodes else 0
+                sparsity_factor = 1 - min(0.9, max(0.1, relevant_ratio_dataset * 10))
+                network_weight = 0.4 + sparsity_factor * 0.3
+                semantic_weight = 0.6 - sparsity_factor * 0.3
+            else:
+                network_weight = 0.5
+                semantic_weight = 0.5
+            
+            # Combine scores
+            network_component = (degree_score * 0.3 + relevant_ratio * 0.4 + 
+                               clustering_score * 0.2 + pagerank_score * 0.1)
+            
+            score = network_weight * network_component + semantic_weight * semantic_score
+            chunk_scores[doc_id] = float(max(0.0, min(1.0, score)))
+        else:
+            chunk_scores[doc_id] = 0.0
+    
+    return chunk_scores
 
 
 class CitationNetworkModel:
@@ -693,44 +757,67 @@ class CitationNetworkModel:
     
     def _predict_relevance_scores_batch(self, target_documents: List[str]) -> Dict[str, float]:
         """
-        Optimized batch scoring for large document lists using pre-computed values.
+        GPU-accelerated and parallelized batch scoring for large document lists.
         """
-        logger.info("Using optimized batch scoring...")
+        logger.info("Using GPU-accelerated parallel batch scoring...")
         
-        scores = {}
-        
-        # Pre-compute semantic similarities if available
+        # Pre-compute semantic similarities with GPU acceleration if available
         semantic_similarities = {}
         if self.embeddings is not None and self.embeddings_metadata is not None:
-            semantic_similarities = self._compute_semantic_similarities_batch(target_documents)
+            logger.info("Pre-computing semantic similarities...")
+            semantic_similarities = self._compute_semantic_similarities_gpu_batch(target_documents)
         
-        # Process documents in batches to manage memory (adaptive batch size)
-        batch_size = max(50, min(500, len(target_documents) // 10))  # 10% of dataset, min 50, max 500
-        logger.info(f"Using batch size: {batch_size} for {len(target_documents)} documents")
+        # Prepare data for parallel processing
+        docs_in_network = [doc_id for doc_id in target_documents if doc_id in self.G.nodes]
+        docs_not_in_network = [doc_id for doc_id in target_documents if doc_id not in self.G.nodes]
         
-        for i in tqdm(range(0, len(target_documents), batch_size), desc="Batch scoring"):
-            batch_docs = target_documents[i:i+batch_size]
+        logger.info(f"Processing {len(docs_in_network)} docs in network, {len(docs_not_in_network)} outside network")
+        
+        # Process documents in parallel using multiprocessing
+        scores = {}
+        
+        # Zero scores for documents not in network
+        for doc_id in docs_not_in_network:
+            scores[doc_id] = 0.0
+        
+        if docs_in_network:
+            # Use multiprocessing for CPU-intensive graph operations
+            num_workers = min(mp.cpu_count(), 15)  # Use up to 15 cores as you mentioned
+            batch_size = max(20, len(docs_in_network) // (num_workers * 4))  # Smaller batches for better parallelization
             
-            for doc_id in batch_docs:
-                if doc_id in self.G.nodes:
-                    # Use pre-computed centrality measures
-                    features = self._get_features_fast(doc_id, semantic_similarities)
-                    score = self._calculate_relevance_score_fast(features)
-                else:
-                    score = 0.0
-                
-                scores[doc_id] = score
+            logger.info(f"Using {num_workers} workers with batch size {batch_size}")
+            
+            # Split documents into chunks for parallel processing
+            doc_chunks = [docs_in_network[i:i+batch_size] for i in range(0, len(docs_in_network), batch_size)]
+            
+            # Prepare shared data for workers
+            worker_data = {
+                'pagerank_values': self.pagerank_values,
+                'relevant_documents': self.relevant_documents,
+                'semantic_similarities': semantic_similarities,
+                'graph_edges': list(self.G.edges(data=True)),  # Serialize graph data
+                'graph_nodes': list(self.G.nodes(data=True))
+            }
+            
+            # Process chunks in parallel
+            with ProcessPoolExecutor(max_workers=num_workers) as executor:
+                worker_func = partial(_process_document_chunk, worker_data)
+                chunk_results = list(tqdm(
+                    executor.map(worker_func, doc_chunks),
+                    total=len(doc_chunks),
+                    desc="Parallel scoring"
+                ))
+            
+            # Combine results
+            for chunk_scores in chunk_results:
+                scores.update(chunk_scores)
         
-        # Normalize scores
+        # Normalize scores using vectorized operations
         if scores:
-            score_values = list(scores.values())
-            max_score = max(score_values)
-            min_score = min(score_values)
-            score_range = max_score - min_score
-            
-            if score_range > 0:
-                for doc_id in scores:
-                    scores[doc_id] = (scores[doc_id] - min_score) / score_range
+            score_values = np.array(list(scores.values()))
+            if score_values.std() > 0:  # Avoid division by zero
+                score_values = (score_values - score_values.min()) / (score_values.max() - score_values.min())
+                scores = dict(zip(scores.keys(), score_values))
         
         return scores
     
@@ -792,11 +879,69 @@ class CitationNetworkModel:
         
         return float(max(0.0, min(1.0, score)))
     
-    def _compute_semantic_similarities_batch(self, target_documents: List[str]) -> Dict[str, float]:
-        """Pre-compute semantic similarities for batch of documents."""
+    def _compute_semantic_similarities_gpu_batch(self, target_documents: List[str]) -> Dict[str, float]:
+        """GPU-accelerated batch computation of semantic similarities."""
         if not self.embeddings_metadata:
             return {}
         
+        try:
+            # Try to use GPU-accelerated similarity computation
+            if CUGRAPH_AVAILABLE:
+                import cupy as cp
+                return self._compute_semantic_similarities_cupy(target_documents)
+        except ImportError:
+            logger.info("CuPy not available, using CPU with vectorized operations")
+        
+        # Fallback to optimized CPU version with vectorized operations
+        return self._compute_semantic_similarities_vectorized(target_documents)
+    
+    def _compute_semantic_similarities_cupy(self, target_documents: List[str]) -> Dict[str, float]:
+        """CuPy/GPU-accelerated semantic similarity computation."""
+        import cupy as cp
+        
+        similarities = {}
+        id_to_idx = {doc_id: idx for idx, doc_id in enumerate(self.embeddings_metadata['openalex_id'])}
+        
+        # Get relevant document embeddings once
+        relevant_with_embeddings = [doc for doc in self.relevant_documents if doc in id_to_idx]
+        if not relevant_with_embeddings:
+            return {doc_id: 0.0 for doc_id in target_documents}
+        
+        # Move to GPU
+        relevant_indices = [id_to_idx[doc] for doc in relevant_with_embeddings]
+        relevant_embeddings_gpu = cp.asarray(self.embeddings[relevant_indices])
+        
+        # Get target document indices
+        target_indices = [id_to_idx[doc] for doc in target_documents if doc in id_to_idx]
+        target_docs_with_embeddings = [doc for doc in target_documents if doc in id_to_idx]
+        
+        if target_indices:
+            # Batch compute similarities on GPU
+            target_embeddings_gpu = cp.asarray(self.embeddings[target_indices])
+            
+            # Compute cosine similarities using GPU matrix multiplication
+            similarities_matrix = cp.dot(target_embeddings_gpu, relevant_embeddings_gpu.T)
+            # Normalize
+            target_norms = cp.linalg.norm(target_embeddings_gpu, axis=1, keepdims=True)
+            relevant_norms = cp.linalg.norm(relevant_embeddings_gpu, axis=1, keepdims=True)
+            similarities_matrix = similarities_matrix / (target_norms * relevant_norms.T)
+            
+            # Compute mean similarities and transfer back to CPU
+            mean_similarities = cp.mean(similarities_matrix, axis=1).get()
+            
+            # Map back to document IDs
+            for i, doc_id in enumerate(target_docs_with_embeddings):
+                similarities[doc_id] = float(mean_similarities[i])
+        
+        # Set zero similarities for documents without embeddings
+        for doc_id in target_documents:
+            if doc_id not in similarities:
+                similarities[doc_id] = 0.0
+        
+        return similarities
+    
+    def _compute_semantic_similarities_vectorized(self, target_documents: List[str]) -> Dict[str, float]:
+        """Vectorized CPU computation of semantic similarities."""
         similarities = {}
         id_to_idx = {doc_id: idx for idx, doc_id in enumerate(self.embeddings_metadata['openalex_id'])}
         
@@ -808,16 +953,25 @@ class CitationNetworkModel:
         relevant_indices = [id_to_idx[doc] for doc in relevant_with_embeddings]
         relevant_embeddings = self.embeddings[relevant_indices]
         
-        # Process target documents in batches
+        # Get target document indices for batch processing
+        target_indices = [id_to_idx[doc] for doc in target_documents if doc in id_to_idx]
+        target_docs_with_embeddings = [doc for doc in target_documents if doc in id_to_idx]
+        
+        if target_indices:
+            # Batch compute similarities using vectorized operations
+            target_embeddings = self.embeddings[target_indices]
+            
+            # Use sklearn's cosine_similarity for efficient batch computation
+            similarities_matrix = cosine_similarity(target_embeddings, relevant_embeddings)
+            mean_similarities = np.mean(similarities_matrix, axis=1)
+            
+            # Map back to document IDs
+            for i, doc_id in enumerate(target_docs_with_embeddings):
+                similarities[doc_id] = float(mean_similarities[i])
+        
+        # Set zero similarities for documents without embeddings
         for doc_id in target_documents:
-            if doc_id in id_to_idx:
-                doc_idx = id_to_idx[doc_id]
-                doc_embedding = self.embeddings[doc_idx:doc_idx+1]
-                
-                # Compute similarities with relevant documents
-                sims = cosine_similarity(doc_embedding, relevant_embeddings)[0]
-                similarities[doc_id] = float(np.mean(sims))
-            else:
+            if doc_id not in similarities:
                 similarities[doc_id] = 0.0
         
         return similarities
