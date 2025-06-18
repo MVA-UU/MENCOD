@@ -5,7 +5,8 @@
         ],
         "simulation_file": "jeyaraman.csv",
         "synergy_dataset_name": "Jeyaraman_2020",
-        "external_data_filename": "jeyaraman.csv"
+        "embeddings_filename": "jeyaraman.csv",
+        "embeddings_metadata_filename": "jeyaraman_metadata.csv"
     },
     "appenzeller": {
         "outlier_ids": [
@@ -13,7 +14,8 @@
         ],
         "simulation_file": "appenzeller.csv",
         "synergy_dataset_name": "Appenzeller-Herzog_2019",
-        "external_data_filename": "appenzeller.csv"
+        "embeddings_filename": "appenzeller.csv",
+        "embeddings_metadata_filename": "appenzeller_metadata.csv"
     },
     "valk": {
         "outlier_ids": [
@@ -21,7 +23,8 @@
         ],
         "simulation_file": "valk.csv",
         "synergy_dataset_name": "van_der_Valk_2021",
-        "external_data_filename": "valk.csv"
+        "embeddings_filename": "valk.csv",
+        "embeddings_metadata_filename": "valk_metadata.csv"
     },
     "hall": {
         "outlier_ids": [
@@ -29,6 +32,7 @@
         ],
         "simulation_file": "hall.csv",
         "synergy_dataset_name": "Hall_2012",
-        "external_data_filename": "hall.csv"
+        "embeddings_filename": "hall.csv",
+        "embeddings_metadata_filename": "hall_metadata.csv"
     }
 }

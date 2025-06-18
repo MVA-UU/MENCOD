@@ -240,25 +240,34 @@ def add_semantic_edges(G: nx.DiGraph, simulation_df: pd.DataFrame) -> None:
     total_count = len(doc_ids)
     sparsity_factor = relevant_count / total_count if total_count > 0 else 0
     
-    # Adjust thresholds for SPECTER2 embeddings (typically higher cosine similarities)
-    # Use much higher thresholds to create a sparse network similar to TF-IDF
-    if sparsity_factor < 0.01:  # Extremely sparse
-        base_threshold = 0.95
-        relevant_threshold = 0.90
-        print("Using very high thresholds for extremely sparse dataset")
-    elif sparsity_factor < 0.05:  # Very sparse
-        base_threshold = 0.92
-        relevant_threshold = 0.88
-        print("Using high thresholds for very sparse dataset")
-    else:  # Dense dataset
-        base_threshold = 0.90
-        relevant_threshold = 0.85
-        print("Using elevated thresholds for dense dataset")
+    # Use very aggressive thresholds for SPECTER2 to prevent network explosion
+    # SPECTER2 embeddings tend to have higher cosine similarities than TF-IDF
+    print(f"Dataset sparsity factor: {sparsity_factor:.4f} ({relevant_count}/{total_count})")
     
-    print(f"Using similarity thresholds: general={base_threshold:.4f}, relevant={relevant_threshold:.4f}")
+    if total_count > 2000:  # Large dataset - use very high thresholds
+        base_threshold = 0.95
+        relevant_threshold = 0.93
+        print("Large dataset: Using very aggressive thresholds to control network size")
+    elif sparsity_factor < 0.01:  # Extremely sparse
+        base_threshold = 0.93
+        relevant_threshold = 0.90
+        print("Extremely sparse dataset: Using very high thresholds")
+    elif sparsity_factor < 0.05:  # Very sparse
+        base_threshold = 0.90
+        relevant_threshold = 0.87
+        print("Very sparse dataset: Using high thresholds")
+    else:  # Dense dataset
+        base_threshold = 0.87
+        relevant_threshold = 0.83
+        print("Dense dataset: Using moderate thresholds")
+    
+    print(f"Final similarity thresholds: general={base_threshold:.4f}, relevant={relevant_threshold:.4f}")
+    
+    # Use smaller batch size for better memory management and progress tracking
+    batch_size = 100
+    print(f"Processing with batch size: {batch_size}")
     
     # Process in batches with enhanced edge weighting using SPECTER2 embeddings
-    batch_size = 200
     _create_enhanced_semantic_edges_from_embeddings(
         G, relevant_embeddings, doc_ids, relevant_indices, 
         base_threshold, relevant_threshold, batch_size
@@ -269,27 +278,50 @@ def _create_enhanced_semantic_edges_from_embeddings(G: nx.DiGraph, embeddings_ma
                                     relevant_indices: List[int], similarity_threshold: float,
                                     relevant_threshold: float, batch_size: int = 200) -> None:
     """Create semantic edges using SPECTER2 embeddings with enhanced weighting for outlier detection."""
+    import time
+    from tqdm import tqdm
+    
     total_docs = len(doc_ids)
     semantic_edges = 0
+    start_time = time.time()
+    
+    print(f"Starting semantic edge creation for {total_docs} documents...")
+    print(f"Estimated total comparisons: ~{total_docs * (total_docs - 1) // 2:,}")
+    print(f"Using similarity thresholds: general={similarity_threshold:.3f}, relevant={relevant_threshold:.3f}")
+    print(f"Processing in batches of {batch_size} documents")
+    
+    # Pre-normalize embeddings for faster cosine similarity computation
+    from sklearn.preprocessing import normalize
+    normalized_embeddings = normalize(embeddings_matrix, norm='l2')
+    print("Embeddings normalized for efficient cosine similarity computation")
+    
+    # Convert relevant indices to set for O(1) lookup
+    relevant_set = set(relevant_indices)
+    
+    # Process documents in batches to manage memory and provide progress updates
+    total_batches = (total_docs + batch_size - 1) // batch_size
+    batch_count = 0
     
     for batch_start in range(0, total_docs, batch_size):
         batch_end = min(batch_start + batch_size, total_docs)
         batch_indices = list(range(batch_start, batch_end))
+        batch_count += 1
         
-        # Calculate similarities for this batch using cosine similarity
-        batch_embeddings = embeddings_matrix[batch_indices]
-        similarities = cosine_similarity(batch_embeddings, embeddings_matrix)
+        # Calculate similarities for this batch against ALL documents
+        batch_embeddings = normalized_embeddings[batch_indices]
+        similarities = np.dot(batch_embeddings, normalized_embeddings.T)
         
+        batch_edges = 0
+        
+        # Process each document in the batch
         for i, global_i in enumerate(batch_indices):
             doc_i = doc_ids[global_i]
-            is_i_relevant = global_i in relevant_indices
+            is_i_relevant = global_i in relevant_set
             
-            for global_j in range(total_docs):
-                if global_i >= global_j:  # Avoid duplicates and self-loops
-                    continue
-                
+            # Only process similarities with documents that come after this one (avoid duplicates)
+            for global_j in range(global_i + 1, total_docs):
                 doc_j = doc_ids[global_j]
-                is_j_relevant = global_j in relevant_indices
+                is_j_relevant = global_j in relevant_set
                 similarity = similarities[i, global_j]
                 
                 # Dynamic threshold based on document relevance
@@ -301,13 +333,15 @@ def _create_enhanced_semantic_edges_from_embeddings(G: nx.DiGraph, embeddings_ma
                     edge_weight = 1.0
                 
                 if similarity >= threshold:
-                    # Enhanced edge weighting based on similarity strength and relevance for SPECTER2
-                    if similarity >= 0.85:
-                        weight_multiplier = 2.0  # Very high similarity
+                    # Enhanced edge weighting based on similarity strength
+                    if similarity >= 0.95:
+                        weight_multiplier = 3.0  # Extremely high similarity
+                    elif similarity >= 0.90:
+                        weight_multiplier = 2.5  # Very high similarity
+                    elif similarity >= 0.85:
+                        weight_multiplier = 2.0  # High similarity
                     elif similarity >= 0.80:
-                        weight_multiplier = 1.8  # High similarity
-                    elif similarity >= 0.75:
-                        weight_multiplier = 1.5  # Good similarity
+                        weight_multiplier = 1.8  # Good similarity
                     else:
                         weight_multiplier = 1.2  # Moderate similarity
                     
@@ -328,12 +362,23 @@ def _create_enhanced_semantic_edges_from_embeddings(G: nx.DiGraph, embeddings_ma
                              relevance_pattern=is_i_relevant or is_j_relevant,
                              embedding_type='specter2')
                     
-                    semantic_edges += 2  # Count both directions
+                    batch_edges += 2  # Count both directions
         
-        if (batch_start // batch_size + 1) % 5 == 0:
-            print(f"Processed batch {batch_start + 1}-{batch_end} of {total_docs}, semantic edges so far: {semantic_edges}")
+        semantic_edges += batch_edges
+        elapsed_time = time.time() - start_time
+        avg_time_per_batch = elapsed_time / batch_count
+        estimated_total_time = avg_time_per_batch * total_batches
+        remaining_time = estimated_total_time - elapsed_time
+        
+        # Progress update every batch
+        print(f"Batch {batch_count}/{total_batches} | Docs {batch_start+1}-{batch_end} | "
+              f"Edges this batch: {batch_edges} | Total edges: {semantic_edges} | "
+              f"Elapsed: {elapsed_time:.1f}s | ETA: {remaining_time:.1f}s")
     
+    total_time = time.time() - start_time
+    print(f"\nCompleted semantic edge creation in {total_time:.2f} seconds")
     print(f"Created {semantic_edges} enhanced semantic similarity edges using SPECTER2 embeddings")
+    print(f"Average processing rate: {total_docs / total_time:.1f} documents/second")
 
 
 def _add_tfidf_semantic_edges(G: nx.DiGraph, simulation_df: pd.DataFrame) -> None:

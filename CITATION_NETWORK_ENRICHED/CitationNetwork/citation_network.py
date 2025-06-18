@@ -64,7 +64,7 @@ from dataset_utils import (
 )
 
 # Import feature extraction modules
-from CitationNetwork.citation_features import (
+from CITATION_EMBEDDINGS.citation_features import (
     get_connectivity_features,
     get_coupling_features, 
     get_neighborhood_features,
@@ -75,7 +75,7 @@ from CitationNetwork.citation_features import (
 )
 
 # Import scoring modules
-from CitationNetwork.citation_scoring import (
+from CITATION_EMBEDDINGS.citation_scoring import (
     calculate_isolation_deviation,
     calculate_coupling_deviation,
     calculate_neighborhood_deviation,
@@ -86,13 +86,13 @@ from CitationNetwork.citation_scoring import (
 )
 
 # Import network utilities
-from CitationNetwork.network_utils import (
+from CITATION_EMBEDDINGS.network_utils import (
     build_network_from_simulation,
     calculate_distance_baselines
 )
 
 # Import ranking module
-from CitationNetwork.citation_ranking import apply_sparse_dataset_ranking_adjustments
+from CITATION_EMBEDDINGS.citation_ranking import apply_sparse_dataset_ranking_adjustments
 
 def verify_gpu_acceleration():
     """Verify that GPU acceleration is working with a simple test."""
