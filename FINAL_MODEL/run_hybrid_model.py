@@ -106,6 +106,72 @@ def create_model_config(args) -> ModelConfiguration:
     )
 
 
+def _get_detailed_score_breakdown(doc_id: str, hybrid_model) -> Dict[str, Dict[str, Any]]:
+    """
+    Get detailed score breakdown from each sub-model for a specific document.
+    
+    Args:
+        doc_id: Document ID to analyze
+        hybrid_model: The fitted hybrid model
+    
+    Returns:
+        Dictionary with detailed breakdown from each model
+    """
+    breakdown = {}
+    
+    # Get individual model scores
+    if hybrid_model.citation_model and hybrid_model.model_config.enable_citation_network:
+        try:
+            citation_scores = hybrid_model.citation_model.predict_relevance_scores([doc_id])
+            citation_score = citation_scores.get(doc_id, 0.0)
+            citation_weight = hybrid_model.model_weights.citation_network
+            
+            # Get additional details from citation model
+            citation_analysis = hybrid_model.citation_model.analyze_document(doc_id)
+            details = f"Degree: {citation_analysis['features'].get('degree', 0)}, PageRank: {citation_analysis['features'].get('pagerank', 0):.6f}"
+            
+            breakdown['Citation Network'] = {
+                'score': citation_score,
+                'weight': citation_weight,
+                'contribution': citation_score * citation_weight,
+                'details': details
+            }
+        except Exception as e:
+            breakdown['Citation Network'] = {'score': 0.0, 'weight': hybrid_model.model_weights.citation_network, 'contribution': 0.0, 'details': f'Error: {e}'}
+    
+    if hybrid_model.confidence_model and hybrid_model.model_config.enable_confidence_calibration:
+        try:
+            confidence_scores = hybrid_model.confidence_model.predict_relevance_scores([doc_id])
+            confidence_score = confidence_scores.get(doc_id, 0.0)
+            confidence_weight = hybrid_model.model_weights.confidence_calibration
+            
+            breakdown['Confidence Calibration'] = {
+                'score': confidence_score,
+                'weight': confidence_weight,
+                'contribution': confidence_score * confidence_weight,
+                'details': 'Overconfidence detection'
+            }
+        except Exception as e:
+            breakdown['Confidence Calibration'] = {'score': 0.0, 'weight': hybrid_model.model_weights.confidence_calibration, 'contribution': 0.0, 'details': f'Error: {e}'}
+    
+    if hybrid_model.content_model and hybrid_model.model_config.enable_content_similarity:
+        try:
+            content_scores = hybrid_model.content_model.predict_relevance_scores([doc_id])
+            content_score = content_scores.get(doc_id, 0.0)
+            content_weight = hybrid_model.model_weights.content_similarity
+            
+            breakdown['Content Similarity'] = {
+                'score': content_score,
+                'weight': content_weight,
+                'contribution': content_score * content_weight,
+                'details': 'Text pattern analysis'
+            }
+        except Exception as e:
+            breakdown['Content Similarity'] = {'score': 0.0, 'weight': hybrid_model.model_weights.content_similarity, 'contribution': 0.0, 'details': f'Error: {e}'}
+    
+    return breakdown
+
+
 def _evaluate_outlier_ranking(scores: Dict[str, float], dataset_name: str, datasets_config: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
     Evaluate how well known outliers are ranked by the model.
@@ -256,12 +322,32 @@ def run_demo_mode(dataset_name: str, args) -> Dict[str, Any]:
         else:
             performance = "Poor"
         print(f"  Performance: {performance}")
+        
+        # Show detailed score breakdown for the known outlier
+        print(f"\n  SCORE BREAKDOWN:")
+        outlier_breakdown = _get_detailed_score_breakdown(result['outlier_id'], hybrid_model)
+        for model_name, model_data in outlier_breakdown.items():
+            print(f"    {model_name}:")
+            print(f"      Score: {model_data['score']:.4f}")
+            print(f"      Weight: {model_data['weight']:.3f}")
+            print(f"      Contribution: {model_data['contribution']:.4f}")
+            if 'details' in model_data:
+                print(f"      Details: {model_data['details']}")
+        print(f"    Final Hybrid Score: {result['score']:.4f}")
     
-    # Show top scoring documents
+    # Show top scoring documents with detailed breakdowns
     top_docs = sorted(all_scores.items(), key=lambda x: x[1], reverse=True)[:5]
     print(f"\nTop 5 documents by hybrid score:")
     for i, (doc_id, score) in enumerate(top_docs, 1):
         print(f"  {i}. {doc_id}: {score:.4f}")
+        
+        # Show score breakdown for top 3 documents
+        if i <= 3:
+            breakdown = _get_detailed_score_breakdown(doc_id, hybrid_model)
+            print(f"     Score breakdown:")
+            for model_name, model_data in breakdown.items():
+                print(f"       {model_name}: {model_data['score']:.4f} (×{model_data['weight']:.3f} = {model_data['contribution']:.4f})")
+            print()
     
     # Show model status
     status = hybrid_model.get_model_status()
