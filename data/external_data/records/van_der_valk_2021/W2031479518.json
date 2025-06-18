@@ -1,0 +1,782 @@
+{
+  "id": "https://openalex.org/W2031479518",
+  "doi": "https://doi.org/10.1016/j.procs.2011.09.024",
+  "title": "BOVINOSE: Pheromone-Based Sensor System for Detecting Estrus in Dairy Cows",
+  "display_name": "BOVINOSE: Pheromone-Based Sensor System for Detecting Estrus in Dairy Cows",
+  "publication_year": 2011,
+  "publication_date": "2011-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2031479518",
+    "doi": "https://doi.org/10.1016/j.procs.2011.09.024",
+    "mag": "2031479518"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.procs.2011.09.024",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S120348307",
+      "display_name": "Procedia Computer Science",
+      "issn_l": "1877-0509",
+      "issn": [
+        "1877-0509"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1016/j.procs.2011.09.024",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5074628150",
+        "display_name": "Wim Wiegerinck",
+        "orcid": "https://orcid.org/0000-0001-7162-5452"
+      },
+      "institutions": [],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "W. Wiegerinck",
+      "raw_affiliation_strings": [
+        "SMART Research BV, Nijmegen, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "SMART Research BV, Nijmegen, The Netherlands",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086361550",
+        "display_name": "Arūnas Šetkus",
+        "orcid": "https://orcid.org/0000-0002-9843-3634"
+      },
+      "institutions": [],
+      "countries": [
+        "LT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. Setkus",
+      "raw_affiliation_strings": [
+        "Applied Research Institute for Prospective Technologies, Vilnius, Lithuania"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Applied Research Institute for Prospective Technologies, Vilnius, Lithuania",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069087798",
+        "display_name": "Vincas Būda",
+        "orcid": "https://orcid.org/0000-0002-4665-1349"
+      },
+      "institutions": [],
+      "countries": [
+        "LT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "V. Buda",
+      "raw_affiliation_strings": [
+        "Applied Research Institute for Prospective Technologies, Vilnius, Lithuania"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Applied Research Institute for Prospective Technologies, Vilnius, Lithuania",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061182770",
+        "display_name": "Anna‐Karin Borg‐Karlson",
+        "orcid": "https://orcid.org/0000-0002-7833-8437"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86987016",
+          "display_name": "KTH Royal Institute of Technology",
+          "ror": "https://ror.org/026vcq606",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I86987016"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A.-K. Borg-Karlson",
+      "raw_affiliation_strings": [
+        "Dept Chemistry, Organic Chemistry, Royal Institute of Technology, Stockholm, Sweden"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dept Chemistry, Organic Chemistry, Royal Institute of Technology, Stockholm, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I86987016"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109404064",
+        "display_name": "Raimondas Mozūraitis",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86987016",
+          "display_name": "KTH Royal Institute of Technology",
+          "ror": "https://ror.org/026vcq606",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I86987016"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. Mozuraitis",
+      "raw_affiliation_strings": [
+        "Dept Chemistry, Organic Chemistry, Royal Institute of Technology, Stockholm, Sweden"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dept Chemistry, Organic Chemistry, Royal Institute of Technology, Stockholm, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I86987016"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5037935388",
+        "display_name": "A. de Gee",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210121374",
+          "display_name": "De Gezondheidsdienst voor Dieren",
+          "ror": "https://ror.org/02hy2mb20",
+          "country_code": "NL",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210121374"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. de Gee",
+      "raw_affiliation_strings": [
+        "GD (Animal Health Service Deventer), Deventer, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GD (Animal Health Service Deventer), Deventer, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I4210121374"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.315,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 18,
+  "citation_normalized_percentile": {
+    "value": 0.820746,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 90
+  },
+  "biblio": {
+    "volume": "7",
+    "issue": null,
+    "first_page": "340",
+    "last_page": "342"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12486",
+    "display_name": "Food Supply Chain Traceability",
+    "score": 0.9639,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12486",
+      "display_name": "Food Supply Chain Traceability",
+      "score": 0.9639,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11667",
+      "display_name": "Advanced Chemical Sensor Technologies",
+      "score": 0.9524,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/electronic-nose",
+      "display_name": "Electronic Nose",
+      "score": 0.4219193
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C64778439",
+      "wikidata": "https://www.wikidata.org/wiki/Q7458527",
+      "display_name": "Sex pheromone",
+      "level": 2,
+      "score": 0.8033834
+    },
+    {
+      "id": "https://openalex.org/C2777328355",
+      "wikidata": "https://www.wikidata.org/wiki/Q167377",
+      "display_name": "Pheromone",
+      "level": 2,
+      "score": 0.7416296
+    },
+    {
+      "id": "https://openalex.org/C2778610407",
+      "wikidata": "https://www.wikidata.org/wiki/Q207122",
+      "display_name": "Artificial insemination",
+      "level": 3,
+      "score": 0.6875468
+    },
+    {
+      "id": "https://openalex.org/C1998276",
+      "wikidata": "https://www.wikidata.org/wiki/Q388121",
+      "display_name": "Estrous cycle",
+      "level": 2,
+      "score": 0.6140512
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.60484326
+    },
+    {
+      "id": "https://openalex.org/C2777005246",
+      "wikidata": "https://www.wikidata.org/wiki/Q1379223",
+      "display_name": "Insemination",
+      "level": 3,
+      "score": 0.47604847
+    },
+    {
+      "id": "https://openalex.org/C23895516",
+      "wikidata": "https://www.wikidata.org/wiki/Q550092",
+      "display_name": "Electronic nose",
+      "level": 2,
+      "score": 0.4219193
+    },
+    {
+      "id": "https://openalex.org/C2910001868",
+      "wikidata": "https://www.wikidata.org/wiki/Q458",
+      "display_name": "European union",
+      "level": 2,
+      "score": 0.41959292
+    },
+    {
+      "id": "https://openalex.org/C37621935",
+      "wikidata": "https://www.wikidata.org/wiki/Q3606845",
+      "display_name": "Agricultural science",
+      "level": 1,
+      "score": 0.3813332
+    },
+    {
+      "id": "https://openalex.org/C140793950",
+      "wikidata": "https://www.wikidata.org/wiki/Q168091",
+      "display_name": "Animal science",
+      "level": 1,
+      "score": 0.29904342
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.21107188
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.20585817
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.19778955
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.101172626
+    },
+    {
+      "id": "https://openalex.org/C2779234561",
+      "wikidata": "https://www.wikidata.org/wiki/Q11995",
+      "display_name": "Pregnancy",
+      "level": 2,
+      "score": 0.09661046
+    },
+    {
+      "id": "https://openalex.org/C59822182",
+      "wikidata": "https://www.wikidata.org/wiki/Q441",
+      "display_name": "Botany",
+      "level": 1,
+      "score": 0.080688804
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C105639569",
+      "wikidata": "https://www.wikidata.org/wiki/Q582577",
+      "display_name": "Economic policy",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.procs.2011.09.024",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S120348307",
+        "display_name": "Procedia Computer Science",
+        "issn_l": "1877-0509",
+        "issn": [
+          "1877-0509"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.procs.2011.09.024",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S120348307",
+      "display_name": "Procedia Computer Science",
+      "issn_l": "1877-0509",
+      "issn": [
+        "1877-0509"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 2,
+  "referenced_works": [
+    "https://openalex.org/W2007783115",
+    "https://openalex.org/W2077443937"
+  ],
+  "related_works": [
+    "https://openalex.org/W2791035658",
+    "https://openalex.org/W2343896720",
+    "https://openalex.org/W2247996047",
+    "https://openalex.org/W2158668969",
+    "https://openalex.org/W2136518900",
+    "https://openalex.org/W2105536802",
+    "https://openalex.org/W2026084771",
+    "https://openalex.org/W1978678680",
+    "https://openalex.org/W1579804808",
+    "https://openalex.org/W1537297526"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      27
+    ],
+    "BOVINOSE": [
+      1
+    ],
+    "project": [
+      2
+    ],
+    "(www.bovinose.eu)": [
+      3
+    ],
+    "aims": [
+      4,
+      64
+    ],
+    "to": [
+      5,
+      10,
+      19,
+      65
+    ],
+    "develop": [
+      6
+    ],
+    "an": [
+      7
+    ],
+    "electronic": [
+      8
+    ],
+    "nose": [
+      9
+    ],
+    "detect": [
+      11
+    ],
+    "estrus": [
+      12
+    ],
+    "in": [
+      13,
+      60,
+      70
+    ],
+    "a": [
+      14
+    ],
+    "dairy": [
+      15,
+      68
+    ],
+    "cow,": [
+      16,
+      42
+    ],
+    "and": [
+      17
+    ],
+    "thus": [
+      18
+    ],
+    "determine": [
+      20
+    ],
+    "the": [
+      21,
+      41,
+      49,
+      54,
+      57,
+      67,
+      71,
+      73
+    ],
+    "optimal": [
+      22
+    ],
+    "timing": [
+      23
+    ],
+    "of": [
+      24,
+      34
+    ],
+    "artificial": [
+      25
+    ],
+    "insemination.": [
+      26
+    ],
+    "physical": [
+      28
+    ],
+    "principle": [
+      29
+    ],
+    "is": [
+      30,
+      59
+    ],
+    "based": [
+      31
+    ],
+    "on": [
+      32
+    ],
+    "detection": [
+      33
+    ],
+    "sex": [
+      35
+    ],
+    "pheromones": [
+      36,
+      47
+    ],
+    "that": [
+      37,
+      56
+    ],
+    "are": [
+      38,
+      48
+    ],
+    "secreted": [
+      39
+    ],
+    "by": [
+      40
+    ],
+    "exclusively": [
+      43
+    ],
+    "during": [
+      44
+    ],
+    "estrus.": [
+      45
+    ],
+    "These": [
+      46
+    ],
+    "natural": [
+      50
+    ],
+    "olfactory": [
+      51
+    ],
+    "signal": [
+      52
+    ],
+    "for": [
+      53
+    ],
+    "bull": [
+      55
+    ],
+    "cow": [
+      58
+    ],
+    "heat.": [
+      61
+    ],
+    "This": [
+      62
+    ],
+    "technology": [
+      63
+    ],
+    "help": [
+      66
+    ],
+    "farmers": [
+      69
+    ],
+    "EU,": [
+      72
+    ],
+    "vast": [
+      74
+    ],
+    "majority": [
+      75
+    ],
+    "being": [
+      76
+    ],
+    "micro-enterprises": [
+      77
+    ],
+    "run": [
+      78
+    ],
+    "as": [
+      79
+    ],
+    "family": [
+      80
+    ],
+    "businesses.": [
+      81
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2031479518",
+  "counts_by_year": [
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-05-24T10:44:43.263705",
+  "created_date": "2016-06-24"
+}

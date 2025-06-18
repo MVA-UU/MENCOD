@@ -1,0 +1,1656 @@
+{
+  "id": "https://openalex.org/W2132123037",
+  "doi": "https://doi.org/10.1093/nar/gkp215",
+  "title": "Human Splicing Finder: an online bioinformatics tool to predict splicing signals",
+  "display_name": "Human Splicing Finder: an online bioinformatics tool to predict splicing signals",
+  "publication_year": 2009,
+  "publication_date": "2009-04-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2132123037",
+    "doi": "https://doi.org/10.1093/nar/gkp215",
+    "mag": "2132123037",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19339519",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2685110"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/nar/gkp215",
+    "pdf_url": "https://academic.oup.com/nar/article-pdf/37/9/e67/16758947/gkp215.pdf",
+    "source": {
+      "id": "https://openalex.org/S134668137",
+      "display_name": "Nucleic Acids Research",
+      "issn_l": "0305-1048",
+      "issn": [
+        "0305-1048",
+        "1362-4954",
+        "1362-4962"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://academic.oup.com/nar/article-pdf/37/9/e67/16758947/gkp215.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5048188201",
+        "display_name": "François-Olivier Desmet",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "François-Olivier Desmet",
+      "raw_affiliation_strings": [
+        "INSERM, U827, Montpellier, France."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "INSERM, U827, Montpellier, France.",
+          "institution_ids": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5025693558",
+        "display_name": "Dalil Hamroun",
+        "orcid": "https://orcid.org/0000-0002-4853-8227"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210147545",
+          "display_name": "Hôpital Arnaud de Villeneuve",
+          "ror": "https://ror.org/04m6sq715",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210093292",
+            "https://openalex.org/I4210147545"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I19894307",
+          "display_name": "Université de Montpellier",
+          "ror": "https://ror.org/051escj72",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I19894307"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dalil Hamroun",
+      "raw_affiliation_strings": [
+        "INSERM, U827, 2CHU Montpellier, Hôpital Arnaud de Villeneuve, Laboratoire de Génétique Moléculaire and 3Université Montpellier1, UFR Médecine, Montpellier, F-34000, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "INSERM, U827, 2CHU Montpellier, Hôpital Arnaud de Villeneuve, Laboratoire de Génétique Moléculaire and 3Université Montpellier1, UFR Médecine, Montpellier, F-34000, France",
+          "institution_ids": [
+            "https://openalex.org/I4210147545",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I19894307"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068716321",
+        "display_name": "Marine Lalande",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210147545",
+          "display_name": "Hôpital Arnaud de Villeneuve",
+          "ror": "https://ror.org/04m6sq715",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210093292",
+            "https://openalex.org/I4210147545"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I19894307",
+          "display_name": "Université de Montpellier",
+          "ror": "https://ror.org/051escj72",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I19894307"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Marine Lalande",
+      "raw_affiliation_strings": [
+        "INSERM, U827, 2CHU Montpellier, Hôpital Arnaud de Villeneuve, Laboratoire de Génétique Moléculaire and 3Université Montpellier1, UFR Médecine, Montpellier, F-34000, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "INSERM, U827, 2CHU Montpellier, Hôpital Arnaud de Villeneuve, Laboratoire de Génétique Moléculaire and 3Université Montpellier1, UFR Médecine, Montpellier, F-34000, France",
+          "institution_ids": [
+            "https://openalex.org/I4210147545",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I19894307"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5105982241",
+        "display_name": "Gwenaëlle Collod‐Béroud",
+        "orcid": "https://orcid.org/0000-0003-4098-6161"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I19894307",
+          "display_name": "Université de Montpellier",
+          "ror": "https://ror.org/051escj72",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I19894307"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210147545",
+          "display_name": "Hôpital Arnaud de Villeneuve",
+          "ror": "https://ror.org/04m6sq715",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210093292",
+            "https://openalex.org/I4210147545"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gwenaëlle Collod-Béroud",
+      "raw_affiliation_strings": [
+        "INSERM, U827, 2CHU Montpellier, Hôpital Arnaud de Villeneuve, Laboratoire de Génétique Moléculaire and 3Université Montpellier1, UFR Médecine, Montpellier, F-34000, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "INSERM, U827, 2CHU Montpellier, Hôpital Arnaud de Villeneuve, Laboratoire de Génétique Moléculaire and 3Université Montpellier1, UFR Médecine, Montpellier, F-34000, France",
+          "institution_ids": [
+            "https://openalex.org/I19894307",
+            "https://openalex.org/I4210147545",
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107173864",
+        "display_name": "Mireille Claustres",
+        "orcid": "https://orcid.org/0000-0002-8659-2646"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210147545",
+          "display_name": "Hôpital Arnaud de Villeneuve",
+          "ror": "https://ror.org/04m6sq715",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210093292",
+            "https://openalex.org/I4210147545"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I19894307",
+          "display_name": "Université de Montpellier",
+          "ror": "https://ror.org/051escj72",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I19894307"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mireille Claustres",
+      "raw_affiliation_strings": [
+        "INSERM, U827, 2CHU Montpellier, Hôpital Arnaud de Villeneuve, Laboratoire de Génétique Moléculaire and 3Université Montpellier1, UFR Médecine, Montpellier, F-34000, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "INSERM, U827, 2CHU Montpellier, Hôpital Arnaud de Villeneuve, Laboratoire de Génétique Moléculaire and 3Université Montpellier1, UFR Médecine, Montpellier, F-34000, France",
+          "institution_ids": [
+            "https://openalex.org/I4210147545",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I19894307"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5085042865",
+        "display_name": "Christophe Béroud",
+        "orcid": "https://orcid.org/0000-0003-2986-8738"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210147545",
+          "display_name": "Hôpital Arnaud de Villeneuve",
+          "ror": "https://ror.org/04m6sq715",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210093292",
+            "https://openalex.org/I4210147545"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I19894307",
+          "display_name": "Université de Montpellier",
+          "ror": "https://ror.org/051escj72",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I19894307"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christophe Béroud",
+      "raw_affiliation_strings": [
+        "INSERM, U827, 2CHU Montpellier, Hôpital Arnaud de Villeneuve, Laboratoire de Génétique Moléculaire and 3Université Montpellier1, UFR Médecine, Montpellier, F-34000, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "INSERM, U827, 2CHU Montpellier, Hôpital Arnaud de Villeneuve, Laboratoire de Génétique Moléculaire and 3Université Montpellier1, UFR Médecine, Montpellier, F-34000, France",
+          "institution_ids": [
+            "https://openalex.org/I4210147545",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I19894307"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3630,
+    "currency": "USD",
+    "value_usd": 3630
+  },
+  "apc_paid": {
+    "value": 3630,
+    "currency": "USD",
+    "value_usd": 3630
+  },
+  "fwci": 33.495,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 2412,
+  "citation_normalized_percentile": {
+    "value": 0.999984,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "37",
+    "issue": "9",
+    "first_page": "e67",
+    "last_page": "e67"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10604",
+    "display_name": "RNA Research and Splicing",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10604",
+      "display_name": "RNA Research and Splicing",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11482",
+      "display_name": "RNA modifications and cancer",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10521",
+      "display_name": "RNA and protein synthesis mechanisms",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/exonic-splicing-enhancer",
+      "display_name": "Exonic splicing enhancer",
+      "score": 0.7039646
+    },
+    {
+      "id": "https://openalex.org/keywords/splice",
+      "display_name": "splice",
+      "score": 0.680463
+    },
+    {
+      "id": "https://openalex.org/keywords/splicing-factor",
+      "display_name": "Splicing factor",
+      "score": 0.573499
+    },
+    {
+      "id": "https://openalex.org/keywords/exon-skipping",
+      "display_name": "Exon skipping",
+      "score": 0.5714766
+    },
+    {
+      "id": "https://openalex.org/keywords/sr-protein",
+      "display_name": "SR protein",
+      "score": 0.5335401
+    },
+    {
+      "id": "https://openalex.org/keywords/splice-site-mutation",
+      "display_name": "Splice site mutation",
+      "score": 0.4869543
+    },
+    {
+      "id": "https://openalex.org/keywords/minigene",
+      "display_name": "Minigene",
+      "score": 0.46697474
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C54458228",
+      "wikidata": "https://www.wikidata.org/wiki/Q237218",
+      "display_name": "RNA splicing",
+      "level": 4,
+      "score": 0.87739205
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.8199018
+    },
+    {
+      "id": "https://openalex.org/C42576000",
+      "wikidata": "https://www.wikidata.org/wiki/Q5420618",
+      "display_name": "Exonic splicing enhancer",
+      "level": 5,
+      "score": 0.7039646
+    },
+    {
+      "id": "https://openalex.org/C2780989783",
+      "wikidata": "https://www.wikidata.org/wiki/Q7578557",
+      "display_name": "splice",
+      "level": 3,
+      "score": 0.680463
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.62419176
+    },
+    {
+      "id": "https://openalex.org/C194583182",
+      "wikidata": "https://www.wikidata.org/wiki/Q21114084",
+      "display_name": "Alternative splicing",
+      "level": 4,
+      "score": 0.61875457
+    },
+    {
+      "id": "https://openalex.org/C36823959",
+      "wikidata": "https://www.wikidata.org/wiki/Q373027",
+      "display_name": "Exon",
+      "level": 3,
+      "score": 0.5983468
+    },
+    {
+      "id": "https://openalex.org/C73758832",
+      "wikidata": "https://www.wikidata.org/wiki/Q7578564",
+      "display_name": "Splicing factor",
+      "level": 5,
+      "score": 0.573499
+    },
+    {
+      "id": "https://openalex.org/C2778776201",
+      "wikidata": "https://www.wikidata.org/wiki/Q3474283",
+      "display_name": "Exon skipping",
+      "level": 5,
+      "score": 0.5714766
+    },
+    {
+      "id": "https://openalex.org/C10447831",
+      "wikidata": "https://www.wikidata.org/wiki/Q7392918",
+      "display_name": "SR protein",
+      "level": 5,
+      "score": 0.5335401
+    },
+    {
+      "id": "https://openalex.org/C94671646",
+      "wikidata": "https://www.wikidata.org/wiki/Q207551",
+      "display_name": "Intron",
+      "level": 3,
+      "score": 0.5224982
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.5158855
+    },
+    {
+      "id": "https://openalex.org/C62257209",
+      "wikidata": "https://www.wikidata.org/wiki/Q5487490",
+      "display_name": "Splice site mutation",
+      "level": 5,
+      "score": 0.4869543
+    },
+    {
+      "id": "https://openalex.org/C166342232",
+      "wikidata": "https://www.wikidata.org/wiki/Q11936831",
+      "display_name": "Minigene",
+      "level": 5,
+      "score": 0.46697474
+    },
+    {
+      "id": "https://openalex.org/C75934600",
+      "wikidata": "https://www.wikidata.org/wiki/Q419245",
+      "display_name": "Ribonucleoprotein",
+      "level": 4,
+      "score": 0.4628723
+    },
+    {
+      "id": "https://openalex.org/C501734568",
+      "wikidata": "https://www.wikidata.org/wiki/Q42918",
+      "display_name": "Mutation",
+      "level": 3,
+      "score": 0.42470416
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.2667787
+    },
+    {
+      "id": "https://openalex.org/C67705224",
+      "wikidata": "https://www.wikidata.org/wiki/Q11053",
+      "display_name": "RNA",
+      "level": 3,
+      "score": 0.1447041
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D009154",
+      "descriptor_name": "Mutation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D022821",
+      "descriptor_name": "RNA Splice Sites",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012984",
+      "descriptor_name": "Software",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D019295",
+      "descriptor_name": "Computational Biology",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D030561",
+      "descriptor_name": "Databases, Nucleic Acid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004742",
+      "descriptor_name": "Enhancer Elements, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020407",
+      "descriptor_name": "Internet",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017423",
+      "descriptor_name": "Sequence Analysis, RNA",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D037941",
+      "descriptor_name": "Silencer Elements, Transcriptional",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014584",
+      "descriptor_name": "User-Computer Interface",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 7,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/nar/gkp215",
+      "pdf_url": "https://academic.oup.com/nar/article-pdf/37/9/e67/16758947/gkp215.pdf",
+      "source": {
+        "id": "https://openalex.org/S134668137",
+        "display_name": "Nucleic Acids Research",
+        "issn_l": "0305-1048",
+        "issn": [
+          "0305-1048",
+          "1362-4954",
+          "1362-4962"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc2685110",
+      "pdf_url": "https://europepmc.org/articles/pmc2685110?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.hal.inserm.fr/inserm-00396239",
+      "pdf_url": "https://inserm.hal.science/inserm-00396239/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.hal.inserm.fr/inserm-00396239/file/2009-NAR%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20HAL%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20HSF.pdf",
+      "pdf_url": "https://www.hal.inserm.fr/inserm-00396239/file/2009-NAR%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20HAL%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20HSF.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.hal.inserm.fr/inserm-00396239/document",
+      "pdf_url": "https://www.hal.inserm.fr/inserm-00396239/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2685110",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19339519",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/nar/gkp215",
+    "pdf_url": "https://academic.oup.com/nar/article-pdf/37/9/e67/16758947/gkp215.pdf",
+    "source": {
+      "id": "https://openalex.org/S134668137",
+      "display_name": "Nucleic Acids Research",
+      "issn_l": "0305-1048",
+      "issn": [
+        "0305-1048",
+        "1362-4954",
+        "1362-4962"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 107,
+  "referenced_works": [
+    "https://openalex.org/W1504845338",
+    "https://openalex.org/W1555580499",
+    "https://openalex.org/W1570825587",
+    "https://openalex.org/W1771001171",
+    "https://openalex.org/W1803171420",
+    "https://openalex.org/W1964668995",
+    "https://openalex.org/W1967180026",
+    "https://openalex.org/W1971017728",
+    "https://openalex.org/W1976491232",
+    "https://openalex.org/W1978317308",
+    "https://openalex.org/W1978719997",
+    "https://openalex.org/W1980717155",
+    "https://openalex.org/W1985094434",
+    "https://openalex.org/W1985387642",
+    "https://openalex.org/W1990084717",
+    "https://openalex.org/W1991432766",
+    "https://openalex.org/W1996369540",
+    "https://openalex.org/W1997530797",
+    "https://openalex.org/W2000308032",
+    "https://openalex.org/W2001340431",
+    "https://openalex.org/W2002969314",
+    "https://openalex.org/W2004470885",
+    "https://openalex.org/W2006664291",
+    "https://openalex.org/W2010650881",
+    "https://openalex.org/W2011960556",
+    "https://openalex.org/W2012651446",
+    "https://openalex.org/W2013100626",
+    "https://openalex.org/W2013235753",
+    "https://openalex.org/W2013912255",
+    "https://openalex.org/W2014982561",
+    "https://openalex.org/W2020200036",
+    "https://openalex.org/W2021525576",
+    "https://openalex.org/W2022320294",
+    "https://openalex.org/W2023648355",
+    "https://openalex.org/W2024362412",
+    "https://openalex.org/W2024504009",
+    "https://openalex.org/W2027724313",
+    "https://openalex.org/W2031567993",
+    "https://openalex.org/W2034464308",
+    "https://openalex.org/W2034691490",
+    "https://openalex.org/W2036691551",
+    "https://openalex.org/W2037458235",
+    "https://openalex.org/W2038701624",
+    "https://openalex.org/W2038921819",
+    "https://openalex.org/W2041156334",
+    "https://openalex.org/W2041380439",
+    "https://openalex.org/W2045300068",
+    "https://openalex.org/W2049485068",
+    "https://openalex.org/W2050297698",
+    "https://openalex.org/W2051597086",
+    "https://openalex.org/W2053974882",
+    "https://openalex.org/W2054351373",
+    "https://openalex.org/W2055544529",
+    "https://openalex.org/W2055887603",
+    "https://openalex.org/W2059858264",
+    "https://openalex.org/W2059999068",
+    "https://openalex.org/W2063318299",
+    "https://openalex.org/W2065262709",
+    "https://openalex.org/W2067043040",
+    "https://openalex.org/W2077656968",
+    "https://openalex.org/W2078227152",
+    "https://openalex.org/W2081737308",
+    "https://openalex.org/W2082872570",
+    "https://openalex.org/W2085913517",
+    "https://openalex.org/W2089661016",
+    "https://openalex.org/W2090335524",
+    "https://openalex.org/W2094038629",
+    "https://openalex.org/W2094717806",
+    "https://openalex.org/W2098093670",
+    "https://openalex.org/W2098245055",
+    "https://openalex.org/W2100682779",
+    "https://openalex.org/W2101284823",
+    "https://openalex.org/W2103147348",
+    "https://openalex.org/W2103638516",
+    "https://openalex.org/W2104434844",
+    "https://openalex.org/W2106882534",
+    "https://openalex.org/W2111277734",
+    "https://openalex.org/W2114232003",
+    "https://openalex.org/W2114858580",
+    "https://openalex.org/W2115108065",
+    "https://openalex.org/W2115149771",
+    "https://openalex.org/W2116838925",
+    "https://openalex.org/W2117784725",
+    "https://openalex.org/W2121841088",
+    "https://openalex.org/W2129682060",
+    "https://openalex.org/W2132978049",
+    "https://openalex.org/W2136696605",
+    "https://openalex.org/W2137027832",
+    "https://openalex.org/W2145091349",
+    "https://openalex.org/W2147781659",
+    "https://openalex.org/W2147928166",
+    "https://openalex.org/W2150329222",
+    "https://openalex.org/W2151396485",
+    "https://openalex.org/W2154973036",
+    "https://openalex.org/W2156999280",
+    "https://openalex.org/W2158739775",
+    "https://openalex.org/W2159868480",
+    "https://openalex.org/W2165954869",
+    "https://openalex.org/W2166863344",
+    "https://openalex.org/W2167764095",
+    "https://openalex.org/W2168783124",
+    "https://openalex.org/W2169475641",
+    "https://openalex.org/W2172166419",
+    "https://openalex.org/W2172188023",
+    "https://openalex.org/W2740984310",
+    "https://openalex.org/W4207034695",
+    "https://openalex.org/W4244174083"
+  ],
+  "related_works": [
+    "https://openalex.org/W4248240042",
+    "https://openalex.org/W2796118888",
+    "https://openalex.org/W2151078655",
+    "https://openalex.org/W2121144555",
+    "https://openalex.org/W2120243182",
+    "https://openalex.org/W2082142998",
+    "https://openalex.org/W2020164044",
+    "https://openalex.org/W1998434274",
+    "https://openalex.org/W1979937961",
+    "https://openalex.org/W124477826"
+  ],
+  "abstract_inverted_index": {
+    "Thousands": [
+      0
+    ],
+    "of": [
+      1,
+      15,
+      51,
+      67,
+      98,
+      121,
+      137
+    ],
+    "mutations": [
+      2,
+      16,
+      35,
+      68,
+      143
+    ],
+    "are": [
+      3
+    ],
+    "identified": [
+      4
+    ],
+    "yearly.": [
+      5
+    ],
+    "Although": [
+      6
+    ],
+    "many": [
+      7
+    ],
+    "directly": [
+      8
+    ],
+    "affect": [
+      9,
+      26
+    ],
+    "protein": [
+      10
+    ],
+    "expression,": [
+      11
+    ],
+    "an": [
+      12
+    ],
+    "increasing": [
+      13
+    ],
+    "proportion": [
+      14
+    ],
+    "is": [
+      17
+    ],
+    "now": [
+      18
+    ],
+    "believed": [
+      19
+    ],
+    "to": [
+      20,
+      63,
+      73,
+      117,
+      145
+    ],
+    "influence": [
+      21
+    ],
+    "mRNA": [
+      22
+    ],
+    "splicing.": [
+      23
+    ],
+    "They": [
+      24
+    ],
+    "mostly": [
+      25
+    ],
+    "existing": [
+      27
+    ],
+    "splice": [
+      28,
+      41,
+      125
+    ],
+    "sites,": [
+      29
+    ],
+    "but": [
+      30
+    ],
+    "synonymous,": [
+      31
+    ],
+    "non-synonymous": [
+      32
+    ],
+    "or": [
+      33,
+      39,
+      43,
+      72,
+      192
+    ],
+    "nonsense": [
+      34
+    ],
+    "can": [
+      36
+    ],
+    "also": [
+      37,
+      111
+    ],
+    "create": [
+      38
+    ],
+    "disrupt": [
+      40
+    ],
+    "sites": [
+      42,
+      97,
+      126
+    ],
+    "auxiliary": [
+      44,
+      87
+    ],
+    "cis-splicing": [
+      45
+    ],
+    "sequences.": [
+      46
+    ],
+    "To": [
+      47
+    ],
+    "facilitate": [
+      48
+    ],
+    "the": [
+      49,
+      52,
+      65,
+      99,
+      106,
+      119,
+      153,
+      188,
+      193
+    ],
+    "analysis": [
+      50
+    ],
+    "different": [
+      53
+    ],
+    "mutations,": [
+      54
+    ],
+    "we": [
+      55
+    ],
+    "designed": [
+      56
+    ],
+    "Human": [
+      57,
+      194
+    ],
+    "Splicing": [
+      58
+    ],
+    "Finder": [
+      59
+    ],
+    "(HSF),": [
+      60
+    ],
+    "a": [
+      61,
+      135,
+      167
+    ],
+    "tool": [
+      62
+    ],
+    "predict": [
+      64
+    ],
+    "effects": [
+      66
+    ],
+    "on": [
+      69
+    ],
+    "splicing": [
+      70,
+      75,
+      148
+    ],
+    "signals": [
+      71
+    ],
+    "identify": [
+      74
+    ],
+    "motifs": [
+      76
+    ],
+    "in": [
+      77,
+      147,
+      159
+    ],
+    "any": [
+      78
+    ],
+    "human": [
+      79
+    ],
+    "sequence.": [
+      80
+    ],
+    "It": [
+      81
+    ],
+    "contains": [
+      82
+    ],
+    "all": [
+      83,
+      161
+    ],
+    "available": [
+      84
+    ],
+    "matrices": [
+      85
+    ],
+    "for": [
+      86,
+      95,
+      170,
+      183
+    ],
+    "sequence": [
+      88
+    ],
+    "prediction": [
+      89
+    ],
+    "as": [
+      90,
+      92,
+      180,
+      182,
+      187
+    ],
+    "well": [
+      91,
+      181
+    ],
+    "new": [
+      93,
+      113
+    ],
+    "ones": [
+      94
+    ],
+    "binding": [
+      96
+    ],
+    "9G8": [
+      100
+    ],
+    "and": [
+      101,
+      105,
+      123,
+      127,
+      140,
+      173
+    ],
+    "Tra2-β": [
+      102
+    ],
+    "Serine-Arginine": [
+      103
+    ],
+    "proteins": [
+      104
+    ],
+    "hnRNP": [
+      107
+    ],
+    "A1": [
+      108
+    ],
+    "ribonucleoprotein.": [
+      109
+    ],
+    "We": [
+      110,
+      130,
+      150
+    ],
+    "developed": [
+      112
+    ],
+    "Position": [
+      114
+    ],
+    "Weight": [
+      115
+    ],
+    "Matrices": [
+      116
+    ],
+    "assess": [
+      118
+    ],
+    "strength": [
+      120
+    ],
+    "5′": [
+      122
+    ],
+    "3′": [
+      124
+    ],
+    "branch": [
+      128
+    ],
+    "points.": [
+      129
+    ],
+    "evaluated": [
+      131
+    ],
+    "HSF": [
+      132,
+      163
+    ],
+    "efficiency": [
+      133
+    ],
+    "using": [
+      134
+    ],
+    "set": [
+      136
+    ],
+    "83": [
+      138
+    ],
+    "intronic": [
+      139
+    ],
+    "35": [
+      141
+    ],
+    "exonic": [
+      142
+    ],
+    "known": [
+      144
+    ],
+    "result": [
+      146
+    ],
+    "defects.": [
+      149
+    ],
+    "showed": [
+      151
+    ],
+    "that": [
+      152
+    ],
+    "mutation": [
+      154
+    ],
+    "effect": [
+      155
+    ],
+    "was": [
+      156
+    ],
+    "correctly": [
+      157
+    ],
+    "predicted": [
+      158
+    ],
+    "almost": [
+      160
+    ],
+    "cases.": [
+      162
+    ],
+    "could": [
+      164
+    ],
+    "thus": [
+      165
+    ],
+    "represent": [
+      166
+    ],
+    "valuable": [
+      168
+    ],
+    "resource": [
+      169
+    ],
+    "research,": [
+      171
+    ],
+    "diagnostic": [
+      172
+    ],
+    "therapeutic": [
+      174,
+      176
+    ],
+    "(e.g.": [
+      175
+    ],
+    "exon": [
+      177
+    ],
+    "skipping)": [
+      178
+    ],
+    "purposes": [
+      179
+    ],
+    "global": [
+      184
+    ],
+    "studies,": [
+      185
+    ],
+    "such": [
+      186
+    ],
+    "GEN2PHEN": [
+      189
+    ],
+    "European": [
+      190
+    ],
+    "Project": [
+      191
+    ],
+    "Variome": [
+      195
+    ],
+    "Project.": [
+      196
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2132123037",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 92
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 116
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 155
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 205
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 296
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 250
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 209
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 206
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 178
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 162
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 152
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 111
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 111
+    }
+  ],
+  "updated_date": "2025-06-04T02:32:58.597247",
+  "created_date": "2016-06-24"
+}

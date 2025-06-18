@@ -1,0 +1,915 @@
+{
+  "id": "https://openalex.org/W2807151477",
+  "doi": "https://doi.org/10.1016/j.psyneuen.2018.05.036",
+  "title": "Acute and past subjective stress influence working memory and related neural substrates",
+  "display_name": "Acute and past subjective stress influence working memory and related neural substrates",
+  "publication_year": 2018,
+  "publication_date": "2018-05-28",
+  "ids": {
+    "openalex": "https://openalex.org/W2807151477",
+    "doi": "https://doi.org/10.1016/j.psyneuen.2018.05.036",
+    "mag": "2807151477",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/29879562"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.psyneuen.2018.05.036",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S81924583",
+      "display_name": "Psychoneuroendocrinology",
+      "issn_l": "0306-4530",
+      "issn": [
+        "0306-4530",
+        "1873-3360"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5006888957",
+        "display_name": "Lennart Luettgau",
+        "orcid": "https://orcid.org/0000-0001-9370-9606"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210126587",
+          "display_name": "Center for Behavioral Brain Sciences",
+          "ror": "https://ror.org/03d1zwe41",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210126587",
+            "https://openalex.org/I95793202"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I95793202",
+          "display_name": "Otto-von-Guericke University Magdeburg",
+          "ror": "https://ror.org/00ggpsq73",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I95793202"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210130445",
+          "display_name": "Max Planck Institute for Human Cognitive and Brain Sciences",
+          "ror": "https://ror.org/0387jng26",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210130445"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Lennart Luettgau",
+      "raw_affiliation_strings": [
+        "Center for Behavioral Brain Sciences, Otto von Guericke University, Magdeburg, Germany",
+        "Department of Neurology, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Behavioral Brain Sciences, Otto von Guericke University, Magdeburg, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210126587",
+            "https://openalex.org/I95793202"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Neurology, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210130445"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5066569532",
+        "display_name": "Florian Schlagenhauf",
+        "orcid": "https://orcid.org/0000-0001-8340-5027"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210130445",
+          "display_name": "Max Planck Institute for Human Cognitive and Brain Sciences",
+          "ror": "https://ror.org/0387jng26",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210130445"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I39343248",
+          "display_name": "Humboldt-Universität zu Berlin",
+          "ror": "https://ror.org/01hcx6992",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39343248"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I7877124",
+          "display_name": "Charité - Universitätsmedizin Berlin",
+          "ror": "https://ror.org/001w7jn25",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I7877124"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I75951250",
+          "display_name": "Freie Universität Berlin",
+          "ror": "https://ror.org/046ak2485",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I75951250"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Florian Schlagenhauf",
+      "raw_affiliation_strings": [
+        "Charité - Universitätsmedizin Berlin, Corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin and Berlin Institute of Health, Department of Psychiatry and Psychotherapy CCM, Berlin, Germany",
+        "Department of Neurology, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210130445"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Charité - Universitätsmedizin Berlin, Corporate member of Freie Universität Berlin, Humboldt-Universität zu Berlin and Berlin Institute of Health, Department of Psychiatry and Psychotherapy CCM, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I39343248",
+            "https://openalex.org/I7877124",
+            "https://openalex.org/I75951250"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5060485857",
+        "display_name": "Zsuzsika Sjoerds",
+        "orcid": "https://orcid.org/0000-0001-9467-3772"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210130445",
+          "display_name": "Max Planck Institute for Human Cognitive and Brain Sciences",
+          "ror": "https://ror.org/0387jng26",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210130445"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I121797337",
+          "display_name": "Leiden University",
+          "ror": "https://ror.org/027bh9e22",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I121797337"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zsuzsika Sjoerds",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany",
+        "Institute of Psychology, Cognitive Psychology Unit, Universiteit Leiden, Leiden, The Netherlands",
+        "Leiden Institute for Brain and Cognition, Leiden University, Leiden, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Max Planck Institute for Human Cognitive and Brain Sciences, Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210130445"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Leiden Institute for Brain and Cognition, Leiden University, Leiden, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I121797337"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Psychology, Cognitive Psychology Unit, Universiteit Leiden, Leiden, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I121797337"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 7,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5006888957"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210126587",
+    "https://openalex.org/I95793202",
+    "https://openalex.org/I4210130445"
+  ],
+  "apc_list": {
+    "value": 3850,
+    "currency": "USD",
+    "value_usd": 3850
+  },
+  "apc_paid": null,
+  "fwci": 2.789,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 39,
+  "citation_normalized_percentile": {
+    "value": 0.769895,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "96",
+    "issue": null,
+    "first_page": "25",
+    "last_page": "34"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 0.9986,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9986,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10042",
+      "display_name": "Neural and Behavioral Psychology Studies",
+      "score": 0.9556,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10853",
+      "display_name": "Anxiety, Depression, Psychometrics, Treatment, Cognitive Processes",
+      "score": 0.9472,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/stressor",
+      "display_name": "Stressor",
+      "score": 0.69426155
+    },
+    {
+      "id": "https://openalex.org/keywords/affect",
+      "display_name": "Affect",
+      "score": 0.4448335
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2778597338",
+      "wikidata": "https://www.wikidata.org/wiki/Q7841444",
+      "display_name": "Trier social stress test",
+      "level": 4,
+      "score": 0.7341731
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.700501
+    },
+    {
+      "id": "https://openalex.org/C125370674",
+      "wikidata": "https://www.wikidata.org/wiki/Q1527480",
+      "display_name": "Stressor",
+      "level": 2,
+      "score": 0.69426155
+    },
+    {
+      "id": "https://openalex.org/C21036866",
+      "wikidata": "https://www.wikidata.org/wiki/Q181767",
+      "display_name": "Stress (linguistics)",
+      "level": 2,
+      "score": 0.6012326
+    },
+    {
+      "id": "https://openalex.org/C21963081",
+      "wikidata": "https://www.wikidata.org/wiki/Q11337567",
+      "display_name": "Working memory",
+      "level": 3,
+      "score": 0.5839714
+    },
+    {
+      "id": "https://openalex.org/C2779226451",
+      "wikidata": "https://www.wikidata.org/wiki/Q903809",
+      "display_name": "Functional magnetic resonance imaging",
+      "level": 2,
+      "score": 0.58029604
+    },
+    {
+      "id": "https://openalex.org/C2776035688",
+      "wikidata": "https://www.wikidata.org/wiki/Q1606558",
+      "display_name": "Affect (linguistics)",
+      "level": 2,
+      "score": 0.4448335
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.44335988
+    },
+    {
+      "id": "https://openalex.org/C548259974",
+      "wikidata": "https://www.wikidata.org/wiki/Q569965",
+      "display_name": "Audiology",
+      "level": 1,
+      "score": 0.43945038
+    },
+    {
+      "id": "https://openalex.org/C138496976",
+      "wikidata": "https://www.wikidata.org/wiki/Q175002",
+      "display_name": "Developmental psychology",
+      "level": 1,
+      "score": 0.37928453
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.32031178
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.23399702
+    },
+    {
+      "id": "https://openalex.org/C78604142",
+      "wikidata": "https://www.wikidata.org/wiki/Q1640582",
+      "display_name": "Fight-or-flight response",
+      "level": 3,
+      "score": 0.14868826
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C46312422",
+      "wikidata": "https://www.wikidata.org/wiki/Q11024",
+      "display_name": "Communication",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D008570",
+      "descriptor_name": "Memory, Short-Term",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001931",
+      "descriptor_name": "Brain Mapping",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001931",
+      "descriptor_name": "Brain Mapping",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003071",
+      "descriptor_name": "Cognition",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003071",
+      "descriptor_name": "Cognition",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D064368",
+      "descriptor_name": "Healthy Volunteers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008570",
+      "descriptor_name": "Memory, Short-Term",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009434",
+      "descriptor_name": "Neural Pathways",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009434",
+      "descriptor_name": "Neural Pathways",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017397",
+      "descriptor_name": "Prefrontal Cortex",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017397",
+      "descriptor_name": "Prefrontal Cortex",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012189",
+      "descriptor_name": "Retrospective Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012463",
+      "descriptor_name": "Saliva",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012463",
+      "descriptor_name": "Saliva",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057566",
+      "descriptor_name": "Self Report",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055815",
+      "descriptor_name": "Young Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.psyneuen.2018.05.036",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S81924583",
+        "display_name": "Psychoneuroendocrinology",
+        "issn_l": "0306-4530",
+        "issn": [
+          "0306-4530",
+          "1873-3360"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29879562",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 64,
+  "referenced_works": [
+    "https://openalex.org/W1530155851",
+    "https://openalex.org/W1596017546",
+    "https://openalex.org/W1969430973",
+    "https://openalex.org/W1987375729",
+    "https://openalex.org/W1989775426",
+    "https://openalex.org/W1990121190",
+    "https://openalex.org/W1991882455",
+    "https://openalex.org/W1996299251",
+    "https://openalex.org/W1997221050",
+    "https://openalex.org/W2000697043",
+    "https://openalex.org/W2005651474",
+    "https://openalex.org/W2008123860",
+    "https://openalex.org/W2020123224",
+    "https://openalex.org/W2023558016",
+    "https://openalex.org/W2031598294",
+    "https://openalex.org/W2043334355",
+    "https://openalex.org/W2048022624",
+    "https://openalex.org/W2052007195",
+    "https://openalex.org/W2059982399",
+    "https://openalex.org/W2063310486",
+    "https://openalex.org/W2066785847",
+    "https://openalex.org/W2070871741",
+    "https://openalex.org/W2071256705",
+    "https://openalex.org/W2071936644",
+    "https://openalex.org/W2078248653",
+    "https://openalex.org/W2081855031",
+    "https://openalex.org/W2084236418",
+    "https://openalex.org/W2091413411",
+    "https://openalex.org/W2092880670",
+    "https://openalex.org/W2106673407",
+    "https://openalex.org/W2111464173",
+    "https://openalex.org/W2115757202",
+    "https://openalex.org/W2119295855",
+    "https://openalex.org/W2120279490",
+    "https://openalex.org/W2120448275",
+    "https://openalex.org/W2121158431",
+    "https://openalex.org/W2129409176",
+    "https://openalex.org/W2131036748",
+    "https://openalex.org/W2132480755",
+    "https://openalex.org/W2139284888",
+    "https://openalex.org/W2139922752",
+    "https://openalex.org/W2142439223",
+    "https://openalex.org/W2143226864",
+    "https://openalex.org/W2144961120",
+    "https://openalex.org/W2146915322",
+    "https://openalex.org/W2155873686",
+    "https://openalex.org/W2156055965",
+    "https://openalex.org/W2156579478",
+    "https://openalex.org/W2157655747",
+    "https://openalex.org/W2158282971",
+    "https://openalex.org/W2162809807",
+    "https://openalex.org/W2169844025",
+    "https://openalex.org/W2170752751",
+    "https://openalex.org/W2212401464",
+    "https://openalex.org/W2254789524",
+    "https://openalex.org/W2270694305",
+    "https://openalex.org/W2462050595",
+    "https://openalex.org/W2496304177",
+    "https://openalex.org/W2500340790",
+    "https://openalex.org/W2512504509",
+    "https://openalex.org/W2512922965",
+    "https://openalex.org/W2560150516",
+    "https://openalex.org/W2761548182",
+    "https://openalex.org/W780980235"
+  ],
+  "related_works": [
+    "https://openalex.org/W4380841659",
+    "https://openalex.org/W4380716189",
+    "https://openalex.org/W3203922361",
+    "https://openalex.org/W3201274492",
+    "https://openalex.org/W3127488068",
+    "https://openalex.org/W2981401158",
+    "https://openalex.org/W2797353419",
+    "https://openalex.org/W2509012104",
+    "https://openalex.org/W2077223757",
+    "https://openalex.org/W2023477927"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2807151477",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-05-16T06:12:26.206458",
+  "created_date": "2018-06-13"
+}

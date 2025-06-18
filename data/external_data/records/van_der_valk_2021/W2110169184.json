@@ -1,0 +1,922 @@
+{
+  "id": "https://openalex.org/W2110169184",
+  "doi": "https://doi.org/10.3998/jar.0521004.0065.403",
+  "title": "Hunting Dogs in the Lowland Neotropics",
+  "display_name": "Hunting Dogs in the Lowland Neotropics",
+  "publication_year": 2009,
+  "publication_date": "2009-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2110169184",
+    "doi": "https://doi.org/10.3998/jar.0521004.0065.403",
+    "mag": "2110169184"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.3998/jar.0521004.0065.403",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S30381306",
+      "display_name": "Journal of Anthropological Research",
+      "issn_l": "0091-7710",
+      "issn": [
+        "0091-7710",
+        "2153-3806"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315672",
+      "host_organization_name": "University of Chicago Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315690",
+        "https://openalex.org/P4310315672"
+      ],
+      "host_organization_lineage_names": [
+        "University of Chicago",
+        "University of Chicago Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5090315460",
+        "display_name": "Jeremy Koster",
+        "orcid": "https://orcid.org/0000-0002-7291-6478"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I63135867",
+          "display_name": "University of Cincinnati",
+          "ror": "https://ror.org/01e3m7079",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I63135867"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Jeremy Koster",
+      "raw_affiliation_strings": [
+        " University of Cincinnati"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": " University of Cincinnati",
+          "institution_ids": [
+            "https://openalex.org/I63135867"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5090315460"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I63135867"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.119,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 63,
+  "citation_normalized_percentile": {
+    "value": 0.88423,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "65",
+    "issue": "4",
+    "first_page": "575",
+    "last_page": "610"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11214",
+    "display_name": "Human-Animal Interaction Studies",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1311",
+      "display_name": "Genetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11214",
+      "display_name": "Human-Animal Interaction Studies",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10199",
+      "display_name": "Wildlife Ecology and Conservation",
+      "score": 0.9958,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11420",
+      "display_name": "Geographies of human-animal interactions",
+      "score": 0.9957,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3305",
+        "display_name": "Geography, Planning and Development"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C535291247",
+      "wikidata": "https://www.wikidata.org/wiki/Q177567",
+      "display_name": "Amazon rainforest",
+      "level": 2,
+      "score": 0.7577518
+    },
+    {
+      "id": "https://openalex.org/C188382862",
+      "wikidata": "https://www.wikidata.org/wiki/Q170430",
+      "display_name": "Predation",
+      "level": 2,
+      "score": 0.6148932
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.49940538
+    },
+    {
+      "id": "https://openalex.org/C185933670",
+      "wikidata": "https://www.wikidata.org/wiki/Q52105",
+      "display_name": "Habitat",
+      "level": 2,
+      "score": 0.48693264
+    },
+    {
+      "id": "https://openalex.org/C204852536",
+      "wikidata": "https://www.wikidata.org/wiki/Q11756",
+      "display_name": "Prehistory",
+      "level": 2,
+      "score": 0.45867118
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.42182067
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.3372417
+    },
+    {
+      "id": "https://openalex.org/C2549261",
+      "wikidata": "https://www.wikidata.org/wiki/Q43455",
+      "display_name": "Ethnology",
+      "level": 1,
+      "score": 0.32264665
+    },
+    {
+      "id": "https://openalex.org/C166957645",
+      "wikidata": "https://www.wikidata.org/wiki/Q23498",
+      "display_name": "Archaeology",
+      "level": 1,
+      "score": 0.2809835
+    },
+    {
+      "id": "https://openalex.org/C95457728",
+      "wikidata": "https://www.wikidata.org/wiki/Q309",
+      "display_name": "History",
+      "level": 0,
+      "score": 0.12786645
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.3998/jar.0521004.0065.403",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S30381306",
+        "display_name": "Journal of Anthropological Research",
+        "issn_l": "0091-7710",
+        "issn": [
+          "0091-7710",
+          "2153-3806"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315672",
+        "host_organization_name": "University of Chicago Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315690",
+          "https://openalex.org/P4310315672"
+        ],
+        "host_organization_lineage_names": [
+          "University of Chicago",
+          "University of Chicago Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Zero hunger",
+      "id": "https://metadata.un.org/sdg/2",
+      "score": 0.81
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 157,
+  "referenced_works": [
+    "https://openalex.org/W1487136111",
+    "https://openalex.org/W1504127138",
+    "https://openalex.org/W1506110578",
+    "https://openalex.org/W1517089229",
+    "https://openalex.org/W1525720050",
+    "https://openalex.org/W1561720360",
+    "https://openalex.org/W1568181509",
+    "https://openalex.org/W1578607907",
+    "https://openalex.org/W1578634516",
+    "https://openalex.org/W1582060607",
+    "https://openalex.org/W1584196901",
+    "https://openalex.org/W1584702520",
+    "https://openalex.org/W1584746744",
+    "https://openalex.org/W1586318552",
+    "https://openalex.org/W1593410247",
+    "https://openalex.org/W1596522477",
+    "https://openalex.org/W1600020487",
+    "https://openalex.org/W1948304193",
+    "https://openalex.org/W1952419389",
+    "https://openalex.org/W1963852260",
+    "https://openalex.org/W1966181764",
+    "https://openalex.org/W1975077148",
+    "https://openalex.org/W1978610762",
+    "https://openalex.org/W1979524015",
+    "https://openalex.org/W1989072608",
+    "https://openalex.org/W1991142826",
+    "https://openalex.org/W1996443709",
+    "https://openalex.org/W1996635790",
+    "https://openalex.org/W1996800056",
+    "https://openalex.org/W1998633480",
+    "https://openalex.org/W2001478272",
+    "https://openalex.org/W2003442782",
+    "https://openalex.org/W2003651306",
+    "https://openalex.org/W2012413990",
+    "https://openalex.org/W2013363714",
+    "https://openalex.org/W2015615307",
+    "https://openalex.org/W2017440537",
+    "https://openalex.org/W2018645859",
+    "https://openalex.org/W2021953259",
+    "https://openalex.org/W2023413677",
+    "https://openalex.org/W2024279973",
+    "https://openalex.org/W2027653736",
+    "https://openalex.org/W2030334547",
+    "https://openalex.org/W2045199076",
+    "https://openalex.org/W2047763474",
+    "https://openalex.org/W2048177574",
+    "https://openalex.org/W2051612279",
+    "https://openalex.org/W2051713977",
+    "https://openalex.org/W2052813974",
+    "https://openalex.org/W2057784877",
+    "https://openalex.org/W2057971777",
+    "https://openalex.org/W2062131663",
+    "https://openalex.org/W2062979289",
+    "https://openalex.org/W2063808493",
+    "https://openalex.org/W2064056069",
+    "https://openalex.org/W2068141339",
+    "https://openalex.org/W2069337067",
+    "https://openalex.org/W2069614258",
+    "https://openalex.org/W2069781877",
+    "https://openalex.org/W2070324778",
+    "https://openalex.org/W2073337356",
+    "https://openalex.org/W2081901919",
+    "https://openalex.org/W2082525623",
+    "https://openalex.org/W2084992298",
+    "https://openalex.org/W2086824472",
+    "https://openalex.org/W2088206556",
+    "https://openalex.org/W2089973447",
+    "https://openalex.org/W2094320003",
+    "https://openalex.org/W2095258357",
+    "https://openalex.org/W2109150687",
+    "https://openalex.org/W2111397840",
+    "https://openalex.org/W2112571902",
+    "https://openalex.org/W2122966359",
+    "https://openalex.org/W2123076164",
+    "https://openalex.org/W2124452479",
+    "https://openalex.org/W2125597865",
+    "https://openalex.org/W2125844852",
+    "https://openalex.org/W2128382052",
+    "https://openalex.org/W2129883612",
+    "https://openalex.org/W2130407168",
+    "https://openalex.org/W2133908560",
+    "https://openalex.org/W2139200200",
+    "https://openalex.org/W2140515818",
+    "https://openalex.org/W2145122485",
+    "https://openalex.org/W2146240555",
+    "https://openalex.org/W2151550426",
+    "https://openalex.org/W2157355984",
+    "https://openalex.org/W2157756181",
+    "https://openalex.org/W2159546373",
+    "https://openalex.org/W2160394440",
+    "https://openalex.org/W2161693202",
+    "https://openalex.org/W2163395852",
+    "https://openalex.org/W2169091648",
+    "https://openalex.org/W2174348705",
+    "https://openalex.org/W2178128917",
+    "https://openalex.org/W2179246666",
+    "https://openalex.org/W2184263538",
+    "https://openalex.org/W2188792397",
+    "https://openalex.org/W2189189097",
+    "https://openalex.org/W2289698596",
+    "https://openalex.org/W2292664300",
+    "https://openalex.org/W2302648217",
+    "https://openalex.org/W2307979890",
+    "https://openalex.org/W2323975686",
+    "https://openalex.org/W2325950758",
+    "https://openalex.org/W2327368961",
+    "https://openalex.org/W2327507049",
+    "https://openalex.org/W2397387354",
+    "https://openalex.org/W2401104838",
+    "https://openalex.org/W2416683712",
+    "https://openalex.org/W2425690923",
+    "https://openalex.org/W2463803366",
+    "https://openalex.org/W2489780726",
+    "https://openalex.org/W2497839129",
+    "https://openalex.org/W2566815187",
+    "https://openalex.org/W2611100763",
+    "https://openalex.org/W2613625994",
+    "https://openalex.org/W271864924",
+    "https://openalex.org/W2795776502",
+    "https://openalex.org/W2796323289",
+    "https://openalex.org/W2796956021",
+    "https://openalex.org/W2797532191",
+    "https://openalex.org/W2797662962",
+    "https://openalex.org/W2797929267",
+    "https://openalex.org/W2891730993",
+    "https://openalex.org/W2913366978",
+    "https://openalex.org/W2944006715",
+    "https://openalex.org/W2978223163",
+    "https://openalex.org/W3009132621",
+    "https://openalex.org/W3112733541",
+    "https://openalex.org/W339295998",
+    "https://openalex.org/W393265398",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W564812730",
+    "https://openalex.org/W566227799",
+    "https://openalex.org/W577657644",
+    "https://openalex.org/W586434292",
+    "https://openalex.org/W592946271",
+    "https://openalex.org/W597662695",
+    "https://openalex.org/W608486149",
+    "https://openalex.org/W608659512",
+    "https://openalex.org/W610342522",
+    "https://openalex.org/W617107407",
+    "https://openalex.org/W620792793",
+    "https://openalex.org/W628923424",
+    "https://openalex.org/W630419712",
+    "https://openalex.org/W642990158",
+    "https://openalex.org/W643841881",
+    "https://openalex.org/W646978146",
+    "https://openalex.org/W650145575",
+    "https://openalex.org/W650480756",
+    "https://openalex.org/W653133010",
+    "https://openalex.org/W657791374",
+    "https://openalex.org/W788162923",
+    "https://openalex.org/W82974865",
+    "https://openalex.org/W95970429",
+    "https://openalex.org/W991218123"
+  ],
+  "related_works": [
+    "https://openalex.org/W59667858",
+    "https://openalex.org/W587719479",
+    "https://openalex.org/W4376636461",
+    "https://openalex.org/W4286662844",
+    "https://openalex.org/W4243960138",
+    "https://openalex.org/W3022229171",
+    "https://openalex.org/W2913190967",
+    "https://openalex.org/W2106063509",
+    "https://openalex.org/W2017129486",
+    "https://openalex.org/W19617164"
+  ],
+  "abstract_inverted_index": {
+    "Once": [
+      0
+    ],
+    "absent": [
+      1
+    ],
+    "in": [
+      2,
+      28,
+      58,
+      66,
+      88,
+      129,
+      139,
+      155
+    ],
+    "much": [
+      3
+    ],
+    "of": [
+      4,
+      30,
+      38,
+      48,
+      71,
+      96,
+      117,
+      127,
+      136,
+      153
+    ],
+    "Amazonia,": [
+      5
+    ],
+    "dogs": [
+      6,
+      24,
+      41,
+      53,
+      75,
+      87,
+      128,
+      154
+    ],
+    "are": [
+      7,
+      25,
+      91
+    ],
+    "now": [
+      8
+    ],
+    "commonly": [
+      9
+    ],
+    "used": [
+      10
+    ],
+    "for": [
+      11,
+      86,
+      124
+    ],
+    "hunting": [
+      12,
+      39,
+      49,
+      74,
+      118
+    ],
+    "throughout": [
+      13
+    ],
+    "the": [
+      14,
+      67,
+      89,
+      94,
+      114,
+      125,
+      133,
+      140,
+      151,
+      156
+    ],
+    "lowland": [
+      15,
+      157
+    ],
+    "Neotropics.": [
+      16,
+      158
+    ],
+    "Although": [
+      17,
+      105
+    ],
+    "some": [
+      18
+    ],
+    "ethnographers": [
+      19
+    ],
+    "have": [
+      20,
+      111
+    ],
+    "questioned": [
+      21
+    ],
+    "their": [
+      22,
+      81
+    ],
+    "usefulness,": [
+      23
+    ],
+    "particularly": [
+      26
+    ],
+    "effective": [
+      27
+    ],
+    "pursuits": [
+      29
+    ],
+    "several": [
+      31
+    ],
+    "mammalian": [
+      32
+    ],
+    "prey": [
+      33
+    ],
+    "species.": [
+      34
+    ],
+    "The": [
+      35
+    ],
+    "return": [
+      36
+    ],
+    "rates": [
+      37,
+      85
+    ],
+    "with": [
+      40,
+      46,
+      50
+    ],
+    "appear": [
+      42
+    ],
+    "to": [
+      43,
+      146
+    ],
+    "compare": [
+      44
+    ],
+    "favorably": [
+      45
+    ],
+    "those": [
+      47
+    ],
+    "firearms,": [
+      51
+    ],
+    "and": [
+      52,
+      69,
+      93,
+      100
+    ],
+    "may": [
+      54,
+      109
+    ],
+    "be": [
+      55
+    ],
+    "especially": [
+      56
+    ],
+    "beneficial": [
+      57
+    ],
+    "anthropogenic": [
+      59
+    ],
+    "habitats.": [
+      60
+    ],
+    "There": [
+      61
+    ],
+    "is": [
+      62,
+      132,
+      144
+    ],
+    "considerable": [
+      63
+    ],
+    "cross-cultural": [
+      64
+    ],
+    "variation": [
+      65
+    ],
+    "training": [
+      68
+    ],
+    "care": [
+      70,
+      79
+    ],
+    "dogs.": [
+      72
+    ],
+    "Good": [
+      73
+    ],
+    "typically": [
+      76
+    ],
+    "receive": [
+      77
+    ],
+    "better": [
+      78
+    ],
+    "than": [
+      80
+    ],
+    "less-talented": [
+      82
+    ],
+    "conspecifics.": [
+      83
+    ],
+    "Mortality": [
+      84
+    ],
+    "Neotropics": [
+      90
+    ],
+    "high,": [
+      92
+    ],
+    "causes": [
+      95
+    ],
+    "death": [
+      97
+    ],
+    "include": [
+      98
+    ],
+    "malnutrition": [
+      99
+    ],
+    "attacks": [
+      101
+    ],
+    "by": [
+      102
+    ],
+    "other": [
+      103
+    ],
+    "animals.": [
+      104
+    ],
+    "isolated": [
+      106
+    ],
+    "Neotropical": [
+      107
+    ],
+    "societies": [
+      108
+    ],
+    "not": [
+      110
+    ],
+    "initially": [
+      112
+    ],
+    "recognized": [
+      113
+    ],
+    "overall": [
+      115
+    ],
+    "value": [
+      116
+    ],
+    "dogs,": [
+      119
+    ],
+    "a": [
+      120
+    ],
+    "more": [
+      121
+    ],
+    "likely": [
+      122
+    ],
+    "explanation": [
+      123
+    ],
+    "absence": [
+      126
+    ],
+    "prehistoric": [
+      130
+    ],
+    "Amazonia": [
+      131
+    ],
+    "high": [
+      134
+    ],
+    "mortality": [
+      135
+    ],
+    "dog": [
+      137
+    ],
+    "populations": [
+      138
+    ],
+    "region.": [
+      141
+    ],
+    "Additional": [
+      142
+    ],
+    "research": [
+      143
+    ],
+    "needed": [
+      145
+    ],
+    "resolve": [
+      147
+    ],
+    "ethnological": [
+      148
+    ],
+    "questions": [
+      149
+    ],
+    "about": [
+      150
+    ],
+    "use": [
+      152
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2110169184",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-06-05T21:33:09.011289",
+  "created_date": "2016-06-24"
+}

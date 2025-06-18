@@ -1,0 +1,1837 @@
+{
+  "id": "https://openalex.org/W2293996233",
+  "doi": "https://doi.org/10.1016/j.bbi.2016.02.002",
+  "title": "Perceived stress and telomere length: A systematic review, meta-analysis, and methodologic considerations for advancing the field",
+  "display_name": "Perceived stress and telomere length: A systematic review, meta-analysis, and methodologic considerations for advancing the field",
+  "publication_year": 2016,
+  "publication_date": "2016-02-04",
+  "ids": {
+    "openalex": "https://openalex.org/W2293996233",
+    "doi": "https://doi.org/10.1016/j.bbi.2016.02.002",
+    "mag": "2293996233",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/26853993",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5590630"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.bbi.2016.02.002",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S102243518",
+      "display_name": "Brain Behavior and Immunity",
+      "issn_l": "0889-1591",
+      "issn": [
+        "0889-1591",
+        "1090-2139"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://doi.org/10.1016/j.bbi.2016.02.002",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5021906307",
+        "display_name": "Maya B Mathur",
+        "orcid": "https://orcid.org/0000-0001-6698-2607"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Maya B. Mathur",
+      "raw_affiliation_strings": [
+        "Quantitative Sciences Unit, Stanford University, Palo Alto, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Quantitative Sciences Unit, Stanford University, Palo Alto, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028088513",
+        "display_name": "Elissa S. Epel",
+        "orcid": "https://orcid.org/0000-0002-9334-4720"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elissa Epel",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, University of California, San Francisco, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, University of California, San Francisco, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024448126",
+        "display_name": "Shelley Kind",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I111088046",
+          "display_name": "Boston University",
+          "ror": "https://ror.org/05qwgg493",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111088046"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shelley Kind",
+      "raw_affiliation_strings": [
+        "Department of Psychological and Brain Sciences, Boston University, Boston, MA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychological and Brain Sciences, Boston University, Boston, MA, USA",
+          "institution_ids": [
+            "https://openalex.org/I111088046"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032969374",
+        "display_name": "Manisha Desai",
+        "orcid": "https://orcid.org/0000-0002-6949-2651"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Manisha Desai",
+      "raw_affiliation_strings": [
+        "Quantitative Sciences Unit, Stanford University, Palo Alto, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Quantitative Sciences Unit, Stanford University, Palo Alto, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017238871",
+        "display_name": "Christine G. Parks",
+        "orcid": "https://orcid.org/0000-0002-5734-3456"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210095140",
+          "display_name": "National Institute of Environmental Health Sciences",
+          "ror": "https://ror.org/00j4k1h63",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210095140"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christine G. Parks",
+      "raw_affiliation_strings": [
+        "Epidemiology Branch, National Institute of Environmental Health Sciences, NIH, Research Triangle Park, NC, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Epidemiology Branch, National Institute of Environmental Health Sciences, NIH, Research Triangle Park, NC, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210095140"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058634982",
+        "display_name": "Dale P. Sandler",
+        "orcid": "https://orcid.org/0000-0002-6776-0018"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210095140",
+          "display_name": "National Institute of Environmental Health Sciences",
+          "ror": "https://ror.org/00j4k1h63",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210095140"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dale P. Sandler",
+      "raw_affiliation_strings": [
+        "Epidemiology Branch, National Institute of Environmental Health Sciences, NIH, Research Triangle Park, NC, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Epidemiology Branch, National Institute of Environmental Health Sciences, NIH, Research Triangle Park, NC, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210095140"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5054914875",
+        "display_name": "Nayer Khazeni",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nayer Khazeni",
+      "raw_affiliation_strings": [
+        "Center for Health Policy and Center for Primary Care and Outcomes Research, Stanford University, Stanford, CA, USA",
+        "Division of Pulmonary and Critical Care Medicine, Stanford University, Stanford, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Health Policy and Center for Primary Care and Outcomes Research, Stanford University, Stanford, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Division of Pulmonary and Critical Care Medicine, Stanford University, Stanford, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5021906307"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I97018004"
+  ],
+  "apc_list": {
+    "value": 4480,
+    "currency": "USD",
+    "value_usd": 4480
+  },
+  "apc_paid": {
+    "value": 4480,
+    "currency": "USD",
+    "value_usd": 4480
+  },
+  "fwci": 4.546,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 238,
+  "citation_normalized_percentile": {
+    "value": 0.98374,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "54",
+    "issue": null,
+    "first_page": "158",
+    "last_page": "169"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10676",
+    "display_name": "Genetics, Aging, and Longevity in Model Organisms",
+    "score": 0.9946,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1302",
+      "display_name": "Aging"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10676",
+      "display_name": "Genetics, Aging, and Longevity in Model Organisms",
+      "score": 0.9946,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1302",
+        "display_name": "Aging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10937",
+      "display_name": "Telomeres, Telomerase, and Senescence",
+      "score": 0.9841,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10342",
+      "display_name": "Circadian rhythm and melatonin",
+      "score": 0.9667,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2807",
+        "display_name": "Endocrine and Autonomic Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/psycinfo",
+      "display_name": "PsycINFO",
+      "score": 0.7198023
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779549880",
+      "wikidata": "https://www.wikidata.org/wiki/Q5542226",
+      "display_name": "PsycINFO",
+      "level": 3,
+      "score": 0.7198023
+    },
+    {
+      "id": "https://openalex.org/C77350462",
+      "wikidata": "https://www.wikidata.org/wiki/Q1125472",
+      "display_name": "Confounding",
+      "level": 2,
+      "score": 0.71385294
+    },
+    {
+      "id": "https://openalex.org/C95190672",
+      "wikidata": "https://www.wikidata.org/wiki/Q815382",
+      "display_name": "Meta-analysis",
+      "level": 2,
+      "score": 0.6877109
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.4722953
+    },
+    {
+      "id": "https://openalex.org/C70410870",
+      "wikidata": "https://www.wikidata.org/wiki/Q199906",
+      "display_name": "Clinical psychology",
+      "level": 1,
+      "score": 0.4357892
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.42446977
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.39756674
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.33637536
+    },
+    {
+      "id": "https://openalex.org/C2779473830",
+      "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+      "display_name": "MEDLINE",
+      "level": 2,
+      "score": 0.3127614
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.16083425
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016615",
+      "descriptor_name": "Telomere",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D059506",
+      "descriptor_name": "Telomere Shortening",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017594",
+      "descriptor_name": "Publication Bias",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013223",
+      "descriptor_name": "Statistics as Topic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016615",
+      "descriptor_name": "Telomere",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016615",
+      "descriptor_name": "Telomere",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016615",
+      "descriptor_name": "Telomere",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059506",
+      "descriptor_name": "Telomere Shortening",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.bbi.2016.02.002",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S102243518",
+        "display_name": "Brain Behavior and Immunity",
+        "issn_l": "0889-1591",
+        "issn": [
+          "0889-1591",
+          "1090-2139"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5590630",
+      "pdf_url": "https://europepmc.org/articles/pmc5590630?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5590630",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://escholarship.org/uc/item/3w97s0gv",
+      "pdf_url": "https://escholarship.org/content/qt3w97s0gv/qt3w97s0gv.pdf?t=ruzdl9",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [
+          "California Digital Library"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/26853993",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.bbi.2016.02.002",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S102243518",
+      "display_name": "Brain Behavior and Immunity",
+      "issn_l": "0889-1591",
+      "issn": [
+        "0889-1591",
+        "1090-2139"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities",
+      "score": 0.45
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 94,
+  "referenced_works": [
+    "https://openalex.org/W1733523167",
+    "https://openalex.org/W1845693344",
+    "https://openalex.org/W1913044097",
+    "https://openalex.org/W1969412681",
+    "https://openalex.org/W1973034871",
+    "https://openalex.org/W1975271432",
+    "https://openalex.org/W1975594217",
+    "https://openalex.org/W1980157348",
+    "https://openalex.org/W1986488389",
+    "https://openalex.org/W1989978497",
+    "https://openalex.org/W1990843337",
+    "https://openalex.org/W1993219114",
+    "https://openalex.org/W1996299251",
+    "https://openalex.org/W1997389210",
+    "https://openalex.org/W2002812045",
+    "https://openalex.org/W2005441291",
+    "https://openalex.org/W2013379214",
+    "https://openalex.org/W2014904735",
+    "https://openalex.org/W2016241886",
+    "https://openalex.org/W2017044005",
+    "https://openalex.org/W2025357040",
+    "https://openalex.org/W2025845020",
+    "https://openalex.org/W2027459901",
+    "https://openalex.org/W2027686080",
+    "https://openalex.org/W2027992900",
+    "https://openalex.org/W2030565642",
+    "https://openalex.org/W2031415599",
+    "https://openalex.org/W2032506622",
+    "https://openalex.org/W2033538734",
+    "https://openalex.org/W2033585778",
+    "https://openalex.org/W2033969676",
+    "https://openalex.org/W2034159142",
+    "https://openalex.org/W2036623477",
+    "https://openalex.org/W2039354765",
+    "https://openalex.org/W2048279184",
+    "https://openalex.org/W2049814665",
+    "https://openalex.org/W2049909326",
+    "https://openalex.org/W2053041384",
+    "https://openalex.org/W2056403132",
+    "https://openalex.org/W2059696574",
+    "https://openalex.org/W2069707194",
+    "https://openalex.org/W2070301203",
+    "https://openalex.org/W2071661381",
+    "https://openalex.org/W2074577151",
+    "https://openalex.org/W2077168223",
+    "https://openalex.org/W2085268284",
+    "https://openalex.org/W2086521405",
+    "https://openalex.org/W2088582964",
+    "https://openalex.org/W2092090797",
+    "https://openalex.org/W2092153909",
+    "https://openalex.org/W2095647587",
+    "https://openalex.org/W2097529540",
+    "https://openalex.org/W2099365033",
+    "https://openalex.org/W2102154112",
+    "https://openalex.org/W2106584221",
+    "https://openalex.org/W2106914912",
+    "https://openalex.org/W2107476202",
+    "https://openalex.org/W2113002312",
+    "https://openalex.org/W2116276369",
+    "https://openalex.org/W2119457036",
+    "https://openalex.org/W2120211425",
+    "https://openalex.org/W2122764341",
+    "https://openalex.org/W2123369667",
+    "https://openalex.org/W2124307450",
+    "https://openalex.org/W2128313432",
+    "https://openalex.org/W2135969704",
+    "https://openalex.org/W2138742393",
+    "https://openalex.org/W2138884119",
+    "https://openalex.org/W2140275529",
+    "https://openalex.org/W2150614340",
+    "https://openalex.org/W2154200356",
+    "https://openalex.org/W2155195145",
+    "https://openalex.org/W2156714633",
+    "https://openalex.org/W2157858034",
+    "https://openalex.org/W2158089221",
+    "https://openalex.org/W2160621707",
+    "https://openalex.org/W2160795861",
+    "https://openalex.org/W2161498332",
+    "https://openalex.org/W2165016477",
+    "https://openalex.org/W2167791445",
+    "https://openalex.org/W2168616040",
+    "https://openalex.org/W2172157844",
+    "https://openalex.org/W2188949284",
+    "https://openalex.org/W2192726480",
+    "https://openalex.org/W2204821006",
+    "https://openalex.org/W2252159880",
+    "https://openalex.org/W2319660919",
+    "https://openalex.org/W2327530675",
+    "https://openalex.org/W2334296473",
+    "https://openalex.org/W2400634908",
+    "https://openalex.org/W3124690569",
+    "https://openalex.org/W4248553345",
+    "https://openalex.org/W560530956",
+    "https://openalex.org/W71228264"
+  ],
+  "related_works": [
+    "https://openalex.org/W4401362453",
+    "https://openalex.org/W4390650821",
+    "https://openalex.org/W4296588458",
+    "https://openalex.org/W3020194755",
+    "https://openalex.org/W2911853378",
+    "https://openalex.org/W2766839180",
+    "https://openalex.org/W2174822325",
+    "https://openalex.org/W2169430069",
+    "https://openalex.org/W2036362844",
+    "https://openalex.org/W1997939885"
+  ],
+  "abstract_inverted_index": {
+    "Psychological": [
+      0
+    ],
+    "stress": [
+      1,
+      39,
+      165,
+      231,
+      340
+    ],
+    "contributes": [
+      2
+    ],
+    "to": [
+      3,
+      14,
+      31,
+      66,
+      319
+    ],
+    "numerous": [
+      4
+    ],
+    "diseases": [
+      5
+    ],
+    "and": [
+      6,
+      29,
+      41,
+      51,
+      58,
+      61,
+      88,
+      161,
+      167,
+      176,
+      215,
+      223,
+      281,
+      314,
+      324,
+      354
+    ],
+    "may": [
+      7,
+      254,
+      285,
+      307,
+      341
+    ],
+    "do": [
+      8
+    ],
+    "so": [
+      9
+    ],
+    "in": [
+      10,
+      90,
+      187,
+      317
+    ],
+    "part": [
+      11
+    ],
+    "through": [
+      12
+    ],
+    "damage": [
+      13
+    ],
+    "telomeres,": [
+      15
+    ],
+    "protective": [
+      16
+    ],
+    "non-coding": [
+      17
+    ],
+    "segments": [
+      18
+    ],
+    "on": [
+      19,
+      149
+    ],
+    "the": [
+      20,
+      33,
+      84,
+      140,
+      153,
+      261,
+      278,
+      292,
+      335
+    ],
+    "ends": [
+      21
+    ],
+    "of": [
+      22,
+      56,
+      221,
+      294,
+      332,
+      359
+    ],
+    "chromosomes.": [
+      23
+    ],
+    "We": [
+      24,
+      45,
+      105,
+      145,
+      157
+    ],
+    "conducted": [
+      25,
+      146
+    ],
+    "a": [
+      26,
+      183,
+      266,
+      343
+    ],
+    "systematic": [
+      27
+    ],
+    "review": [
+      28
+    ],
+    "meta-analysis": [
+      30,
+      148
+    ],
+    "determine": [
+      32
+    ],
+    "association": [
+      34,
+      306
+    ],
+    "between": [
+      35,
+      213,
+      272,
+      322
+    ],
+    "self-reported,": [
+      36
+    ],
+    "perceived": [
+      37
+    ],
+    "psychological": [
+      38
+    ],
+    "(PS)": [
+      40
+    ],
+    "telomere": [
+      42
+    ],
+    "length": [
+      43
+    ],
+    "(TL).": [
+      44
+    ],
+    "searched": [
+      46
+    ],
+    "3": [
+      47
+    ],
+    "databases": [
+      48
+    ],
+    "(PubMed,": [
+      49
+    ],
+    "PsycInfo,": [
+      50
+    ],
+    "Scopus),": [
+      52
+    ],
+    "completed": [
+      53
+    ],
+    "manual": [
+      54
+    ],
+    "searches": [
+      55
+    ],
+    "published": [
+      57,
+      141
+    ],
+    "unpublished": [
+      59
+    ],
+    "studies,": [
+      60
+    ],
+    "contacted": [
+      62
+    ],
+    "all": [
+      63,
+      115
+    ],
+    "study": [
+      64,
+      107
+    ],
+    "authors": [
+      65,
+      134
+    ],
+    "obtain": [
+      67
+    ],
+    "potentially": [
+      68
+    ],
+    "relevant": [
+      69
+    ],
+    "data.": [
+      70
+    ],
+    "Two": [
+      71
+    ],
+    "independent": [
+      72
+    ],
+    "reviewers": [
+      73
+    ],
+    "assessed": [
+      74,
+      106
+    ],
+    "studies": [
+      75,
+      94,
+      117,
+      217,
+      328
+    ],
+    "for": [
+      76,
+      207,
+      230,
+      257,
+      351
+    ],
+    "original": [
+      77
+    ],
+    "research": [
+      78,
+      348
+    ],
+    "measuring": [
+      79
+    ],
+    "(but": [
+      80
+    ],
+    "not": [
+      81,
+      114
+    ],
+    "necessarily": [
+      82
+    ],
+    "reporting": [
+      83
+    ],
+    "correlation": [
+      85
+    ],
+    "between)": [
+      86
+    ],
+    "PS": [
+      87,
+      168,
+      179,
+      274
+    ],
+    "TL": [
+      89,
+      188,
+      283
+    ],
+    "human": [
+      91
+    ],
+    "subjects.": [
+      92
+    ],
+    "23": [
+      93
+    ],
+    "met": [
+      95
+    ],
+    "inclusion": [
+      96
+    ],
+    "criteria;": [
+      97
+    ],
+    "22": [
+      98
+    ],
+    "(totaling": [
+      99
+    ],
+    "8948": [
+      100
+    ],
+    "subjects)": [
+      101
+    ],
+    "could": [
+      102
+    ],
+    "be": [
+      103,
+      308
+    ],
+    "meta-analyzed.": [
+      104
+    ],
+    "quality": [
+      108
+    ],
+    "using": [
+      109,
+      218
+    ],
+    "modified": [
+      110
+    ],
+    "MINORS": [
+      111
+    ],
+    "criteria.": [
+      112
+    ],
+    "Since": [
+      113
+    ],
+    "included": [
+      116,
+      327
+    ],
+    "reported": [
+      118
+    ],
+    "PS–TL": [
+      119,
+      155
+    ],
+    "correlations,": [
+      120
+    ],
+    "we": [
+      121
+    ],
+    "obtained": [
+      122
+    ],
+    "them": [
+      123
+    ],
+    "via": [
+      124,
+      171
+    ],
+    "direct": [
+      125
+    ],
+    "calculation": [
+      126
+    ],
+    "from": [
+      127,
+      139,
+      297
+    ],
+    "author-provided": [
+      128
+    ],
+    "data": [
+      129
+    ],
+    "(7": [
+      130
+    ],
+    "studies),": [
+      131,
+      136
+    ],
+    "contact": [
+      132
+    ],
+    "with": [
+      133,
+      182,
+      310
+    ],
+    "(14": [
+      135
+    ],
+    "or": [
+      137
+    ],
+    "extraction": [
+      138
+    ],
+    "article": [
+      142
+    ],
+    "(1": [
+      143
+    ],
+    "study).": [
+      144
+    ],
+    "random-effects": [
+      147
+    ],
+    "our": [
+      150
+    ],
+    "primary": [
+      151
+    ],
+    "outcome,": [
+      152
+    ],
+    "age-adjusted": [
+      154
+    ],
+    "correlation.": [
+      156
+    ],
+    "investigated": [
+      158
+    ],
+    "potential": [
+      159,
+      352
+    ],
+    "confounders": [
+      160,
+      353
+    ],
+    "moderators": [
+      162
+    ],
+    "(sex,": [
+      163
+    ],
+    "life": [
+      164
+    ],
+    "exposure,": [
+      166
+    ],
+    "measure": [
+      169
+    ],
+    "validation)": [
+      170
+    ],
+    "post": [
+      172
+    ],
+    "hoc": [
+      173
+    ],
+    "subset": [
+      174
+    ],
+    "analyses": [
+      175
+    ],
+    "meta-regression.": [
+      177
+    ],
+    "Increased": [
+      178
+    ],
+    "was": [
+      180,
+      211
+    ],
+    "associated": [
+      181
+    ],
+    "very": [
+      184,
+      267
+    ],
+    "small": [
+      185
+    ],
+    "decrease": [
+      186
+    ],
+    "(n": [
+      189
+    ],
+    "=": [
+      190,
+      194,
+      201,
+      204,
+      234,
+      240,
+      247,
+      250
+    ],
+    "8724": [
+      191
+    ],
+    "total;": [
+      192
+    ],
+    "r": [
+      193
+    ],
+    "−0.06;": [
+      195
+    ],
+    "95%": [
+      196,
+      242
+    ],
+    "CI:": [
+      197,
+      243
+    ],
+    "−0.10,": [
+      198
+    ],
+    "−0.008;": [
+      199
+    ],
+    "p": [
+      200,
+      246
+    ],
+    "0.01;": [
+      202,
+      245
+    ],
+    "α": [
+      203,
+      249
+    ],
+    "0.025),": [
+      205
+    ],
+    "adjusting": [
+      206
+    ],
+    "age.": [
+      208
+    ],
+    "This": [
+      209
+    ],
+    "relationship": [
+      210,
+      271
+    ],
+    "similar": [
+      212,
+      316
+    ],
+    "sexes": [
+      214
+    ],
+    "within": [
+      216
+    ],
+    "validated": [
+      219
+    ],
+    "measures": [
+      220,
+      331
+    ],
+    "PS,": [
+      222
+    ],
+    "marginally": [
+      224
+    ],
+    "(nonsignificantly)": [
+      225
+    ],
+    "stronger": [
+      226,
+      309
+    ],
+    "among": [
+      227
+    ],
+    "samples": [
+      228
+    ],
+    "recruited": [
+      229
+    ],
+    "exposure": [
+      232
+    ],
+    "(r": [
+      233
+    ],
+    "−0.13;": [
+      235
+    ],
+    "vs.": [
+      236
+    ],
+    "general": [
+      237
+    ],
+    "samples:": [
+      238
+    ],
+    "b": [
+      239
+    ],
+    "−0.11;": [
+      241
+    ],
+    "−0.27,": [
+      244
+    ],
+    "0.05;": [
+      248
+    ],
+    "0.013).": [
+      251
+    ],
+    "Publication": [
+      252
+    ],
+    "bias": [
+      253,
+      296
+    ],
+    "exist;": [
+      255
+    ],
+    "correcting": [
+      256
+    ],
+    "its": [
+      258
+    ],
+    "effects": [
+      259,
+      293
+    ],
+    "attenuated": [
+      260
+    ],
+    "relationship.": [
+      262
+    ],
+    "Our": [
+      263
+    ],
+    "analysis": [
+      264
+    ],
+    "finds": [
+      265
+    ],
+    "small,": [
+      268
+    ],
+    "statistically": [
+      269
+    ],
+    "significant": [
+      270
+    ],
+    "increased": [
+      273
+    ],
+    "(as": [
+      275
+    ],
+    "measured": [
+      276
+    ],
+    "over": [
+      277
+    ],
+    "past": [
+      279
+    ],
+    "month)": [
+      280
+    ],
+    "decreased": [
+      282
+    ],
+    "that": [
+      284,
+      320
+    ],
+    "reflect": [
+      286
+    ],
+    "publication": [
+      287,
+      295
+    ],
+    "bias,": [
+      288
+    ],
+    "although": [
+      289
+    ],
+    "fully": [
+      290
+    ],
+    "parsing": [
+      291
+    ],
+    "other": [
+      298
+    ],
+    "sample-size": [
+      299
+    ],
+    "correlates": [
+      300
+    ],
+    "is": [
+      301,
+      315
+    ],
+    "challenging,": [
+      302
+    ],
+    "as": [
+      303
+    ],
+    "discussed.": [
+      304
+    ],
+    "The": [
+      305
+    ],
+    "known": [
+      311
+    ],
+    "major": [
+      312
+    ],
+    "stressors": [
+      313
+    ],
+    "magnitude": [
+      318
+    ],
+    "noted": [
+      321
+    ],
+    "obesity": [
+      323
+    ],
+    "TL.": [
+      325
+    ],
+    "All": [
+      326
+    ],
+    "used": [
+      329
+    ],
+    "single": [
+      330
+    ],
+    "short-term": [
+      333
+    ],
+    "stress;": [
+      334
+    ],
+    "literature": [
+      336
+    ],
+    "suggests": [
+      337
+    ],
+    "long-term": [
+      338
+    ],
+    "chronic": [
+      339
+    ],
+    "have": [
+      342
+    ],
+    "larger": [
+      344
+    ],
+    "cumulative": [
+      345
+    ],
+    "effect.": [
+      346
+    ],
+    "Future": [
+      347
+    ],
+    "should": [
+      349
+    ],
+    "assess": [
+      350
+    ],
+    "use": [
+      355
+    ],
+    "longitudinal,": [
+      356
+    ],
+    "multidimensional": [
+      357
+    ],
+    "models": [
+      358
+    ],
+    "stress.": [
+      360
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2293996233",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 33
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 31
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 38
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-06-11T04:42:00.558770",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,4831 @@
+{
+  "id": "https://openalex.org/W2065692954",
+  "doi": "https://doi.org/10.1038/mp.2012.21",
+  "title": "A mega-analysis of genome-wide association studies for major depressive disorder",
+  "display_name": "A mega-analysis of genome-wide association studies for major depressive disorder",
+  "publication_year": 2012,
+  "publication_date": "2012-04-03",
+  "ids": {
+    "openalex": "https://openalex.org/W2065692954",
+    "doi": "https://doi.org/10.1038/mp.2012.21",
+    "mag": "2065692954",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/22472876",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3837431"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/mp.2012.21",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S71149355",
+      "display_name": "Molecular Psychiatry",
+      "issn_l": "1359-4184",
+      "issn": [
+        "1359-4184",
+        "1476-5578"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.1038/mp.2012.21",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5043145762",
+        "display_name": "Stephan Ripke",
+        "orcid": "https://orcid.org/0000-0003-3622-835X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stephan Ripke",
+      "raw_affiliation_strings": [
+        "Harvard University/Broad Institute, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard University/Broad Institute, USA",
+          "institution_ids": [
+            "https://openalex.org/I107606265",
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064741640",
+        "display_name": "Naomi R. Wray",
+        "orcid": "https://orcid.org/0000-0001-7421-3357"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I217937681",
+          "display_name": "QIMR Berghofer Medical Research Institute",
+          "ror": "https://ror.org/004y8wk30",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I217937681"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I165143802",
+          "display_name": "The University of Queensland",
+          "ror": "https://ror.org/00rqy9422",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I165143802"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Naomi R Wray",
+      "raw_affiliation_strings": [
+        "Queensland Institute of Medical Research/University of Queensland, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Queensland Institute of Medical Research/University of Queensland, Australia",
+          "institution_ids": [
+            "https://openalex.org/I217937681",
+            "https://openalex.org/I165143802"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045289228",
+        "display_name": "Cathryn M. Lewis",
+        "orcid": "https://orcid.org/0000-0002-8249-8476"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cathryn M Lewis",
+      "raw_affiliation_strings": [
+        "Institute of Psychiatry, King's College London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Psychiatry, King's College London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103168629",
+        "display_name": "Steven P. Hamilton",
+        "orcid": "https://orcid.org/0000-0001-8106-6260"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steven P Hamilton",
+      "raw_affiliation_strings": [
+        "University of California, San Francisco, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of California, San Francisco, USA",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008134404",
+        "display_name": "Myrna M. Weissman",
+        "orcid": "https://orcid.org/0000-0003-3490-3075"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Myrna M Weissman",
+      "raw_affiliation_strings": [
+        "Columbia University, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Columbia University, USA",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007752410",
+        "display_name": "Gerome Breen",
+        "orcid": "https://orcid.org/0000-0003-2053-1792"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gerome Breen",
+      "raw_affiliation_strings": [
+        "Institute of Psychiatry, King's College London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Psychiatry, King's College London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052411434",
+        "display_name": "Enda M. Byrne",
+        "orcid": "https://orcid.org/0000-0002-9491-7797"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I217937681",
+          "display_name": "QIMR Berghofer Medical Research Institute",
+          "ror": "https://ror.org/004y8wk30",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Enda M Byrne",
+      "raw_affiliation_strings": [
+        "Queensland Institute of Medical Research, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Queensland Institute of Medical Research, Australia",
+          "institution_ids": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071477979",
+        "display_name": "Douglas Blackwood",
+        "orcid": "https://orcid.org/0000-0002-4076-9346"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Douglas H R Blackwood",
+      "raw_affiliation_strings": [
+        "University of Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5079752137",
+        "display_name": "Dorret I. Boomsma",
+        "orcid": "https://orcid.org/0000-0002-7099-7972"
+      },
+      "institutions": [],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dorret I Boomsma",
+      "raw_affiliation_strings": [
+        "VU University, Amsterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "VU University, Amsterdam, The Netherlands",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107117574",
+        "display_name": "Sven Cichon",
+        "orcid": "https://orcid.org/0000-0002-9475-086X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sven Cichon",
+      "raw_affiliation_strings": [
+        "University of Bonn, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100686019",
+        "display_name": "Andrew C. Heath",
+        "orcid": "https://orcid.org/0000-0002-9414-6857"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew C Heath",
+      "raw_affiliation_strings": [
+        "Washington University, St Louis, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Washington University, St Louis, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044329719",
+        "display_name": "Herta Flor",
+        "orcid": "https://orcid.org/0000-0003-4809-5398"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145969",
+          "display_name": "Max Planck Institute of Psychiatry",
+          "ror": "https://ror.org/04dq56617",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Florian Holsboer",
+      "raw_affiliation_strings": [
+        "Max Planck Institute of Psychiatry, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck Institute of Psychiatry, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088866740",
+        "display_name": "Susanne Lucae",
+        "orcid": "https://orcid.org/0000-0001-6263-3485"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145969",
+          "display_name": "Max Planck Institute of Psychiatry",
+          "ror": "https://ror.org/04dq56617",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Susanne Lucae",
+      "raw_affiliation_strings": [
+        "Max Planck Institute of Psychiatry, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck Institute of Psychiatry, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011336941",
+        "display_name": "Pamela A. F. Madden",
+        "orcid": "https://orcid.org/0000-0001-8987-7439"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Pamela A F Madden",
+      "raw_affiliation_strings": [
+        "Washington University, St Louis, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Washington University, St Louis, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012652688",
+        "display_name": "Nicholas G. Martin",
+        "orcid": "https://orcid.org/0000-0003-4069-8020"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I217937681",
+          "display_name": "QIMR Berghofer Medical Research Institute",
+          "ror": "https://ror.org/004y8wk30",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nicholas G Martin",
+      "raw_affiliation_strings": [
+        "Queensland Institute of Medical Research, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Queensland Institute of Medical Research, Australia",
+          "institution_ids": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045978641",
+        "display_name": "Peter McGuffin",
+        "orcid": "https://orcid.org/0000-0002-9888-2907"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter McGuffin",
+      "raw_affiliation_strings": [
+        "Institute of Psychiatry, King's College London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Psychiatry, King's College London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050995972",
+        "display_name": "Pierandrea Muglia",
+        "orcid": "https://orcid.org/0000-0002-3973-8606"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210128413",
+          "display_name": "GlaxoSmithKline (Italy)",
+          "ror": "https://ror.org/03fe56089",
+          "country_code": "IT",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I188950975",
+            "https://openalex.org/I4210128413"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Pierandrea Muglia",
+      "raw_affiliation_strings": [
+        "GlaxoSmithKline, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GlaxoSmithKline, Italy",
+          "institution_ids": [
+            "https://openalex.org/I4210128413"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107835709",
+        "display_name": "Markus M. Nöethen",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Markus M Noethen",
+      "raw_affiliation_strings": [
+        "University of Bonn, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103498315",
+        "display_name": "Brenda P Penninx",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I911458345",
+          "display_name": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+          "ror": "https://ror.org/00q6h8f30",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210151833",
+            "https://openalex.org/I911458345"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brenda P Penninx",
+      "raw_affiliation_strings": [
+        "VU University Medical Center, Amsterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "VU University Medical Center, Amsterdam, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I911458345"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043978182",
+        "display_name": "Michele L. Pergadia",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michele L Pergadia",
+      "raw_affiliation_strings": [
+        "Washington University, St Louis, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Washington University, St Louis, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068068147",
+        "display_name": "James B. Potash",
+        "orcid": "https://orcid.org/0000-0002-5802-8079"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I126307644",
+          "display_name": "University of Iowa",
+          "ror": "https://ror.org/036jqmy94",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I126307644"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "James B Potash",
+      "raw_affiliation_strings": [
+        "University of Iowa, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Iowa, USA",
+          "institution_ids": [
+            "https://openalex.org/I126307644"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091088506",
+        "display_name": "Marcella Rietschel",
+        "orcid": "https://orcid.org/0000-0002-5236-6149"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210105615",
+          "display_name": "Central Institute of Mental Health",
+          "ror": "https://ror.org/01hynnt93",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210105615"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Marcella Rietschel",
+      "raw_affiliation_strings": [
+        "Central Inst Mental Health, University of Heidelberg, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Central Inst Mental Health, University of Heidelberg, Germany",
+          "institution_ids": [
+            "https://openalex.org/I223822909",
+            "https://openalex.org/I4210105615"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061416108",
+        "display_name": "D. Y. Lin",
+        "orcid": "https://orcid.org/0000-0002-0150-3115"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Danyu Lin",
+      "raw_affiliation_strings": [
+        "University of North Carolina, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of North Carolina, USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044356203",
+        "display_name": "Bertram Müller−Myhsok",
+        "orcid": "https://orcid.org/0000-0002-0719-101X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145969",
+          "display_name": "Max Planck Institute of Psychiatry",
+          "ror": "https://ror.org/04dq56617",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bertram Müller-Myhsok",
+      "raw_affiliation_strings": [
+        "Max Planck Institute of Psychiatry, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck Institute of Psychiatry, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100699396",
+        "display_name": "Jianxin Shi",
+        "orcid": "https://orcid.org/0000-0001-8606-4707"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210140884",
+          "display_name": "National Cancer Institute",
+          "ror": "https://ror.org/040gcmg81",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210140884"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jianxin Shi",
+      "raw_affiliation_strings": [
+        "National Cancer Institute, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Cancer Institute, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210140884"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071485760",
+        "display_name": "Stacy Steinberg",
+        "orcid": "https://orcid.org/0000-0001-7726-5152"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1327191685",
+          "display_name": "deCODE Genetics (Iceland)",
+          "ror": "https://ror.org/04dzdm737",
+          "country_code": "IS",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ],
+      "countries": [
+        "IS"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stacy Steinberg",
+      "raw_affiliation_strings": [
+        "deCODE Genetics, Iceland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "deCODE Genetics, Iceland",
+          "institution_ids": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037469384",
+        "display_name": "Hans J. Grabe",
+        "orcid": "https://orcid.org/0000-0003-3684-4208"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36522303",
+          "display_name": "Universität Greifswald",
+          "ror": "https://ror.org/00r1edq15",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36522303"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hans J Grabe",
+      "raw_affiliation_strings": [
+        "University of Greifswald, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Greifswald, Germany",
+          "institution_ids": [
+            "https://openalex.org/I36522303"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5046450925",
+        "display_name": "Paul Lichtenstein",
+        "orcid": "https://orcid.org/0000-0003-3037-5287"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paul Lichtenstein",
+      "raw_affiliation_strings": [
+        "Karolinska Institutet, Sweden"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Karolinska Institutet, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5022810412",
+        "display_name": "Patrik K. E. Magnusson",
+        "orcid": "https://orcid.org/0000-0002-7315-7899"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Patrik Magnusson",
+      "raw_affiliation_strings": [
+        "Karolinska Institutet, Sweden"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Karolinska Institutet, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064278484",
+        "display_name": "Roy H. Perlis",
+        "orcid": "https://orcid.org/0000-0002-5862-6757"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Roy H Perlis",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037140624",
+        "display_name": "Martin Preisig",
+        "orcid": "https://orcid.org/0000-0001-5689-4259"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97565354",
+          "display_name": "University of Lausanne",
+          "ror": "https://ror.org/019whta54",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Martin Preisig",
+      "raw_affiliation_strings": [
+        "University of Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044998046",
+        "display_name": "Jordan W. Smoller",
+        "orcid": "https://orcid.org/0000-0002-0381-6334"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jordan W Smoller",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5018239255",
+        "display_name": "Kári Stéfansson",
+        "orcid": "https://orcid.org/0000-0003-1676-864X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1327191685",
+          "display_name": "deCODE Genetics (Iceland)",
+          "ror": "https://ror.org/04dzdm737",
+          "country_code": "IS",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ],
+      "countries": [
+        "IS"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kari Stefansson",
+      "raw_affiliation_strings": [
+        "deCODE Genetics, Iceland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "deCODE Genetics, Iceland",
+          "institution_ids": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036308969",
+        "display_name": "Rudolf Uher",
+        "orcid": "https://orcid.org/0000-0002-2998-0546"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rudolf Uher",
+      "raw_affiliation_strings": [
+        "Institute of Psychiatry, King's College London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Psychiatry, King's College London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5075453835",
+        "display_name": "Zoltán Kutalik",
+        "orcid": "https://orcid.org/0000-0001-8285-7523"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97565354",
+          "display_name": "University of Lausanne",
+          "ror": "https://ror.org/019whta54",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zoltan Kutalik",
+      "raw_affiliation_strings": [
+        "University of Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003157292",
+        "display_name": "Katherine E. Tansey",
+        "orcid": "https://orcid.org/0000-0002-9663-3376"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Katherine E Tansey",
+      "raw_affiliation_strings": [
+        "Institute of Psychiatry, King's College London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Psychiatry, King's College London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081670625",
+        "display_name": "Alexander Teumer",
+        "orcid": "https://orcid.org/0000-0002-8309-094X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36522303",
+          "display_name": "Universität Greifswald",
+          "ror": "https://ror.org/00r1edq15",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36522303"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alexander Teumer",
+      "raw_affiliation_strings": [
+        "University of Greifswald, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Greifswald, Germany",
+          "institution_ids": [
+            "https://openalex.org/I36522303"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071507483",
+        "display_name": "Alexander Viktorin",
+        "orcid": "https://orcid.org/0000-0003-2141-2816"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alexander Viktorin",
+      "raw_affiliation_strings": [
+        "Karolinska Institutet, Sweden"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Karolinska Institutet, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5104831267",
+        "display_name": "Michael R. Barnes",
+        "orcid": "https://orcid.org/0000-0001-9097-7381"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I188950975",
+          "display_name": "GlaxoSmithKline (United Kingdom)",
+          "ror": "https://ror.org/01xsqw823",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I188950975"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael R Barnes",
+      "raw_affiliation_strings": [
+        "GlaxoSmithKline, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GlaxoSmithKline, UK",
+          "institution_ids": [
+            "https://openalex.org/I188950975"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050571777",
+        "display_name": "Thomas Bettecken",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145969",
+          "display_name": "Max Planck Institute of Psychiatry",
+          "ror": "https://ror.org/04dq56617",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thomas Bettecken",
+      "raw_affiliation_strings": [
+        "Max Planck Institute of Psychiatry, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck Institute of Psychiatry, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017312170",
+        "display_name": "Elisabeth B. Binder",
+        "orcid": "https://orcid.org/0000-0001-7088-6618"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145969",
+          "display_name": "Max Planck Institute of Psychiatry",
+          "ror": "https://ror.org/04dq56617",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elisabeth B Binder",
+      "raw_affiliation_strings": [
+        "Max Planck Institute of Psychiatry, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck Institute of Psychiatry, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043679009",
+        "display_name": "René Breuer",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210105615",
+          "display_name": "Central Institute of Mental Health",
+          "ror": "https://ror.org/01hynnt93",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210105615"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "René Breuer",
+      "raw_affiliation_strings": [
+        "Central Inst Mental Health, University of Heidelberg, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Central Inst Mental Health, University of Heidelberg, Germany",
+          "institution_ids": [
+            "https://openalex.org/I223822909",
+            "https://openalex.org/I4210105615"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055125808",
+        "display_name": "Víctor M. Castro",
+        "orcid": "https://orcid.org/0000-0001-7390-6354"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I48633490",
+          "display_name": "Mass General Brigham",
+          "ror": "https://ror.org/04py2rh25",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Victor M Castro",
+      "raw_affiliation_strings": [
+        "Partners HealthCare System, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Partners HealthCare System, USA",
+          "institution_ids": [
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047884465",
+        "display_name": "Susanne Churchill",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I48633490",
+          "display_name": "Mass General Brigham",
+          "ror": "https://ror.org/04py2rh25",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Susanne E Churchill",
+      "raw_affiliation_strings": [
+        "Partners HealthCare System, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Partners HealthCare System, USA",
+          "institution_ids": [
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058170568",
+        "display_name": "William Coryell",
+        "orcid": "https://orcid.org/0000-0003-3989-7276"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I126307644",
+          "display_name": "University of Iowa",
+          "ror": "https://ror.org/036jqmy94",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I126307644"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "William H Coryell",
+      "raw_affiliation_strings": [
+        "University of Iowa, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Iowa, USA",
+          "institution_ids": [
+            "https://openalex.org/I126307644"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030438682",
+        "display_name": "Nick Craddock",
+        "orcid": "https://orcid.org/0000-0003-2171-0610"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I79510175",
+          "display_name": "Cardiff University",
+          "ror": "https://ror.org/03kk7td41",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I79510175"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nick Craddock",
+      "raw_affiliation_strings": [
+        "Cardiff University, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cardiff University, UK",
+          "institution_ids": [
+            "https://openalex.org/I79510175"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043641502",
+        "display_name": "Ian Craig",
+        "orcid": "https://orcid.org/0000-0002-4063-1005"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ian W Craig",
+      "raw_affiliation_strings": [
+        "Institute of Psychiatry, King's College London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Psychiatry, King's College London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024004426",
+        "display_name": "Darina Czamara",
+        "orcid": "https://orcid.org/0000-0001-7381-904X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145969",
+          "display_name": "Max Planck Institute of Psychiatry",
+          "ror": "https://ror.org/04dq56617",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Darina Czamara",
+      "raw_affiliation_strings": [
+        "Max Planck Institute of Psychiatry, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck Institute of Psychiatry, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5076062731",
+        "display_name": "Eco J. C. de Geus",
+        "orcid": "https://orcid.org/0000-0001-6022-2666"
+      },
+      "institutions": [],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Eco J De Geus",
+      "raw_affiliation_strings": [
+        "VU University, Amsterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "VU University, Amsterdam, The Netherlands",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078644907",
+        "display_name": "Franziska Degenhardt",
+        "orcid": "https://orcid.org/0000-0002-1685-8904"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Franziska Degenhardt",
+      "raw_affiliation_strings": [
+        "University of Bonn, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111926851",
+        "display_name": "Anne Farmer",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anne E Farmer",
+      "raw_affiliation_strings": [
+        "Institute of Psychiatry, King's College London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Psychiatry, King's College London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084024326",
+        "display_name": "Maurizio Fava",
+        "orcid": "https://orcid.org/0000-0002-4635-0458"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Maurizio Fava",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014086707",
+        "display_name": "Josef Frank",
+        "orcid": "https://orcid.org/0000-0003-4867-9465"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210105615",
+          "display_name": "Central Institute of Mental Health",
+          "ror": "https://ror.org/01hynnt93",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210105615"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Josef Frank",
+      "raw_affiliation_strings": [
+        "Central Inst Mental Health, University of Heidelberg, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Central Inst Mental Health, University of Heidelberg, Germany",
+          "institution_ids": [
+            "https://openalex.org/I223822909",
+            "https://openalex.org/I4210105615"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087506527",
+        "display_name": "Vivian S. Gainer",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I48633490",
+          "display_name": "Mass General Brigham",
+          "ror": "https://ror.org/04py2rh25",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Vivian S Gainer",
+      "raw_affiliation_strings": [
+        "Partners HealthCare System, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Partners HealthCare System, USA",
+          "institution_ids": [
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045915230",
+        "display_name": "Patience Gallagher",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Patience J Gallagher",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068434765",
+        "display_name": "Scott D. Gordon",
+        "orcid": "https://orcid.org/0000-0001-7623-328X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I217937681",
+          "display_name": "QIMR Berghofer Medical Research Institute",
+          "ror": "https://ror.org/004y8wk30",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Scott D Gordon",
+      "raw_affiliation_strings": [
+        "Queensland Institute of Medical Research, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Queensland Institute of Medical Research, Australia",
+          "institution_ids": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078297242",
+        "display_name": "Sergey Goryachev",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I48633490",
+          "display_name": "Mass General Brigham",
+          "ror": "https://ror.org/04py2rh25",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sergey Goryachev",
+      "raw_affiliation_strings": [
+        "Partners HealthCare System, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Partners HealthCare System, USA",
+          "institution_ids": [
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5106183111",
+        "display_name": "Magdalena Groß",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Magdalena Gross",
+      "raw_affiliation_strings": [
+        "University of Bonn, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026161707",
+        "display_name": "Michel Guipponi",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114457229",
+          "display_name": "University of Geneva",
+          "ror": "https://ror.org/01swzsf04",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I114457229"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michel Guipponi",
+      "raw_affiliation_strings": [
+        "University of Geneva, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Geneva, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I114457229"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008849838",
+        "display_name": "Anjali K. Henders",
+        "orcid": "https://orcid.org/0000-0003-3672-1451"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I217937681",
+          "display_name": "QIMR Berghofer Medical Research Institute",
+          "ror": "https://ror.org/004y8wk30",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anjali K Henders",
+      "raw_affiliation_strings": [
+        "Queensland Institute of Medical Research, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Queensland Institute of Medical Research, Australia",
+          "institution_ids": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034534740",
+        "display_name": "Stefan Herms",
+        "orcid": "https://orcid.org/0000-0002-2786-8200"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stefan Herms",
+      "raw_affiliation_strings": [
+        "University of Bonn, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069078473",
+        "display_name": "Ian B. Hickie",
+        "orcid": "https://orcid.org/0000-0001-8832-9895"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I129604602",
+          "display_name": "The University of Sydney",
+          "ror": "https://ror.org/0384j8v12",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I129604602"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ian B Hickie",
+      "raw_affiliation_strings": [
+        "University of Sydney, Sydney, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Sydney, Sydney, Australia",
+          "institution_ids": [
+            "https://openalex.org/I129604602"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047924966",
+        "display_name": "Susanne Hoefels",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Susanne Hoefels",
+      "raw_affiliation_strings": [
+        "University of Bonn, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5018211312",
+        "display_name": "Witte J.G. Hoogendijk",
+        "orcid": "https://orcid.org/0000-0002-0225-4966"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801952686",
+          "display_name": "Erasmus MC",
+          "ror": "https://ror.org/018906e22",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Witte Hoogendijk",
+      "raw_affiliation_strings": [
+        "Erasmus Medical Center, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Erasmus Medical Center, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029024758",
+        "display_name": "Jouke‐Jan Hottenga",
+        "orcid": "https://orcid.org/0000-0002-5668-2368"
+      },
+      "institutions": [],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jouke Jan Hottenga",
+      "raw_affiliation_strings": [
+        "VU University, Amsterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "VU University, Amsterdam, The Netherlands",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048498728",
+        "display_name": "Dan V. Iosifescu",
+        "orcid": "https://orcid.org/0000-0002-2512-2835"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dan V Iosifescu",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108226591",
+        "display_name": "Marcus Ising",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145969",
+          "display_name": "Max Planck Institute of Psychiatry",
+          "ror": "https://ror.org/04dq56617",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Marcus Ising",
+      "raw_affiliation_strings": [
+        "Max Planck Institute of Psychiatry, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck Institute of Psychiatry, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101539598",
+        "display_name": "Ian D. Jones",
+        "orcid": "https://orcid.org/0000-0003-3166-1461"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I79510175",
+          "display_name": "Cardiff University",
+          "ror": "https://ror.org/03kk7td41",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I79510175"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ian Jones",
+      "raw_affiliation_strings": [
+        "Cardiff University, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cardiff University, UK",
+          "institution_ids": [
+            "https://openalex.org/I79510175"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078325033",
+        "display_name": "Lisa Jones",
+        "orcid": "https://orcid.org/0000-0002-5122-8334"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I79619799",
+          "display_name": "University of Birmingham",
+          "ror": "https://ror.org/03angcq70",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I79619799"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lisa Jones",
+      "raw_affiliation_strings": [
+        "University of Birmingham, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Birmingham, UK",
+          "institution_ids": [
+            "https://openalex.org/I79619799"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103498316",
+        "display_name": "Tzeng Jung-Ying",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I137902535",
+          "display_name": "North Carolina State University",
+          "ror": "https://ror.org/04tj63d06",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I137902535"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tzeng Jung-Ying",
+      "raw_affiliation_strings": [
+        "North Carolina State University, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "North Carolina State University, USA",
+          "institution_ids": [
+            "https://openalex.org/I137902535"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101623318",
+        "display_name": "James A. Knowles",
+        "orcid": "https://orcid.org/0000-0002-3307-5741"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1174212",
+          "display_name": "University of Southern California",
+          "ror": "https://ror.org/03taz7m60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1174212"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "James A Knowles",
+      "raw_affiliation_strings": [
+        "University of Southern California, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Southern California, USA",
+          "institution_ids": [
+            "https://openalex.org/I1174212"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088509061",
+        "display_name": "Isaac S. Kohane",
+        "orcid": "https://orcid.org/0000-0003-2192-5160"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1283280774",
+          "display_name": "Brigham and Women's Hospital",
+          "ror": "https://ror.org/04b6nzv94",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1283280774",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Isaac S Kohane",
+      "raw_affiliation_strings": [
+        "Brigham and Women's Hospital, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Brigham and Women's Hospital, USA",
+          "institution_ids": [
+            "https://openalex.org/I1283280774"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109140470",
+        "display_name": "Martin Kohli",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145969",
+          "display_name": "Max Planck Institute of Psychiatry",
+          "ror": "https://ror.org/04dq56617",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Martin A Kohli",
+      "raw_affiliation_strings": [
+        "Max Planck Institute of Psychiatry, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck Institute of Psychiatry, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029723036",
+        "display_name": "Ania Korszun",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I166337079",
+          "display_name": "Queen Mary University of London",
+          "ror": "https://ror.org/026zzn846",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I166337079"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ania Korszun",
+      "raw_affiliation_strings": [
+        "Queen Mary University of London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Queen Mary University of London, UK",
+          "institution_ids": [
+            "https://openalex.org/I166337079"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023024313",
+        "display_name": "Mikael Landén",
+        "orcid": "https://orcid.org/0000-0002-4496-6451"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mikael Landen",
+      "raw_affiliation_strings": [
+        "Karolinska Institutet, Sweden"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Karolinska Institutet, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078133108",
+        "display_name": "William Lawson",
+        "orcid": "https://orcid.org/0000-0002-9324-7090"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I137853757",
+          "display_name": "Howard University",
+          "ror": "https://ror.org/05gt1vc06",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I137853757"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "William B Lawson",
+      "raw_affiliation_strings": [
+        "Howard University, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Howard University, USA",
+          "institution_ids": [
+            "https://openalex.org/I137853757"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055543220",
+        "display_name": "Glyn Lewis",
+        "orcid": "https://orcid.org/0000-0001-5205-8245"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Glyn Lewis",
+      "raw_affiliation_strings": [
+        "University of Bristol, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bristol, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039396499",
+        "display_name": "Donald J. MacIntyre",
+        "orcid": "https://orcid.org/0000-0001-6963-1335"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Donald MacIntyre",
+      "raw_affiliation_strings": [
+        "University of Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112737101",
+        "display_name": "Wolfgang Maier",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wolfgang Maier",
+      "raw_affiliation_strings": [
+        "University of Bonn, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091880715",
+        "display_name": "Manuel Mattheisen",
+        "orcid": "https://orcid.org/0000-0002-8442-493X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Manuel Mattheisen",
+      "raw_affiliation_strings": [
+        "University of Bonn, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088376776",
+        "display_name": "Patrick J. McGrath",
+        "orcid": "https://orcid.org/0000-0001-7217-7321"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Patrick J McGrath",
+      "raw_affiliation_strings": [
+        "Columbia University, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Columbia University, USA",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007623614",
+        "display_name": "Andrew M. McIntosh",
+        "orcid": "https://orcid.org/0000-0002-0198-4588"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew McIntosh",
+      "raw_affiliation_strings": [
+        "University of Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030392409",
+        "display_name": "Alan McLean",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alan McLean",
+      "raw_affiliation_strings": [
+        "University of Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087978527",
+        "display_name": "Christel M. Middeldorp",
+        "orcid": "https://orcid.org/0000-0002-6218-0428"
+      },
+      "institutions": [],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christel M Middeldorp",
+      "raw_affiliation_strings": [
+        "VU University, Amsterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "VU University, Amsterdam, The Netherlands",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033168742",
+        "display_name": "Lefkos Middleton",
+        "orcid": "https://orcid.org/0000-0002-8615-3723"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I47508984",
+          "display_name": "Imperial College London",
+          "ror": "https://ror.org/041kmwe10",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I47508984"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lefkos Middleton",
+      "raw_affiliation_strings": [
+        "Imperial College, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Imperial College, UK",
+          "institution_ids": [
+            "https://openalex.org/I47508984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043163204",
+        "display_name": "Grant W. Montgomery",
+        "orcid": "https://orcid.org/0000-0002-4140-8139"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I217937681",
+          "display_name": "QIMR Berghofer Medical Research Institute",
+          "ror": "https://ror.org/004y8wk30",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Grant M Montgomery",
+      "raw_affiliation_strings": [
+        "Queensland Institute of Medical Research, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Queensland Institute of Medical Research, Australia",
+          "institution_ids": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087242254",
+        "display_name": "Shawn N. Murphy",
+        "orcid": "https://orcid.org/0000-0002-1905-8806"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shawn N Murphy",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039866909",
+        "display_name": "Matthias Nauck",
+        "orcid": "https://orcid.org/0000-0002-6678-7964"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36522303",
+          "display_name": "Universität Greifswald",
+          "ror": "https://ror.org/00r1edq15",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36522303"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Matthias Nauck",
+      "raw_affiliation_strings": [
+        "University of Greifswald, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Greifswald, Germany",
+          "institution_ids": [
+            "https://openalex.org/I36522303"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107868621",
+        "display_name": "Willem A. Nolen",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1334415907",
+          "display_name": "University Medical Center Groningen",
+          "ror": "https://ror.org/03cv38k47",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1334415907"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Willem A Nolen",
+      "raw_affiliation_strings": [
+        "Groningen University Medical Center, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Groningen University Medical Center, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I1334415907"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042709773",
+        "display_name": "Dale R. Nyholt",
+        "orcid": "https://orcid.org/0000-0001-7159-3040"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I217937681",
+          "display_name": "QIMR Berghofer Medical Research Institute",
+          "ror": "https://ror.org/004y8wk30",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dale R Nyholt",
+      "raw_affiliation_strings": [
+        "Queensland Institute of Medical Research, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Queensland Institute of Medical Research, Australia",
+          "institution_ids": [
+            "https://openalex.org/I217937681"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059458620",
+        "display_name": "Michael O’Donovan",
+        "orcid": "https://orcid.org/0000-0001-7073-2379"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I79510175",
+          "display_name": "Cardiff University",
+          "ror": "https://ror.org/03kk7td41",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I79510175"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael O'Donovan",
+      "raw_affiliation_strings": [
+        "Cardiff University, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cardiff University, UK",
+          "institution_ids": [
+            "https://openalex.org/I79510175"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043752881",
+        "display_name": "Högni Óskarsson",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "IS"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Högni Oskarsson",
+      "raw_affiliation_strings": [
+        "Therapeia, University Hospital, Iceland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Therapeia, University Hospital, Iceland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011350655",
+        "display_name": "Nancy L. Pedersen",
+        "orcid": "https://orcid.org/0000-0001-8057-3543"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nancy Pedersen",
+      "raw_affiliation_strings": [
+        "Karolinska Institutet, Sweden"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Karolinska Institutet, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108093408",
+        "display_name": "William A. Scheftner",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1285301757",
+          "display_name": "Rush University Medical Center",
+          "ror": "https://ror.org/01j7c0b24",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1285301757"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "William A Scheftner",
+      "raw_affiliation_strings": [
+        "Rush University Medical Center, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rush University Medical Center, USA",
+          "institution_ids": [
+            "https://openalex.org/I1285301757"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111666382",
+        "display_name": "Andrea Schulz",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36522303",
+          "display_name": "Universität Greifswald",
+          "ror": "https://ror.org/00r1edq15",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36522303"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrea Schulz",
+      "raw_affiliation_strings": [
+        "University of Greifswald, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Greifswald, Germany",
+          "institution_ids": [
+            "https://openalex.org/I36522303"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048877098",
+        "display_name": "Thomas G. Schulze",
+        "orcid": "https://orcid.org/0000-0001-6624-2975"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thomas G Schulze",
+      "raw_affiliation_strings": [
+        "University of Goettingen, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Goettingen, USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021787138",
+        "display_name": "Stanley I. Shyn",
+        "orcid": "https://orcid.org/0000-0002-5962-1237"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I201448701",
+          "display_name": "University of Washington",
+          "ror": "https://ror.org/00cvxb145",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stanley I Shyn",
+      "raw_affiliation_strings": [
+        "University of Washington, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Washington, USA",
+          "institution_ids": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041318314",
+        "display_name": "Engilbert Sigurðsson",
+        "orcid": "https://orcid.org/0000-0001-9404-7982"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210106610",
+          "display_name": "National University Hospital of Iceland",
+          "ror": "https://ror.org/011k7k191",
+          "country_code": "IS",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210106610"
+          ]
+        }
+      ],
+      "countries": [
+        "IS"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Engilbert Sigurdsson",
+      "raw_affiliation_strings": [
+        "Landspitali University Hospital, Iceland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Landspitali University Hospital, Iceland",
+          "institution_ids": [
+            "https://openalex.org/I4210106610"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067100969",
+        "display_name": "Susan L. Slager",
+        "orcid": "https://orcid.org/0000-0002-5173-4712"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802423016",
+          "display_name": "WinnMed",
+          "ror": "https://ror.org/02s47w807",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I2802423016"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210146710",
+          "display_name": "Mayo Clinic in Florida",
+          "ror": "https://ror.org/03zzw1w08",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1330342723",
+            "https://openalex.org/I4210146710"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Susan L Slager",
+      "raw_affiliation_strings": [
+        "Mayo Clinic, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Mayo Clinic, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802423016",
+            "https://openalex.org/I4210146710"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003786607",
+        "display_name": "Johannes H. Smit",
+        "orcid": "https://orcid.org/0000-0002-2062-8378"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I911458345",
+          "display_name": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+          "ror": "https://ror.org/00q6h8f30",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210151833",
+            "https://openalex.org/I911458345"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Johannes H Smit",
+      "raw_affiliation_strings": [
+        "VU University Medical Center, Amsterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "VU University Medical Center, Amsterdam, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I911458345"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009208804",
+        "display_name": "Hreinn Stefánsson",
+        "orcid": "https://orcid.org/0000-0002-9331-6666"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1327191685",
+          "display_name": "deCODE Genetics (Iceland)",
+          "ror": "https://ror.org/04dzdm737",
+          "country_code": "IS",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ],
+      "countries": [
+        "IS"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hreinn Stefansson",
+      "raw_affiliation_strings": [
+        "deCODE Genetics, Iceland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "deCODE Genetics, Iceland",
+          "institution_ids": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013161841",
+        "display_name": "Michael Steffens",
+        "orcid": "https://orcid.org/0000-0002-6445-8593"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135140700",
+          "display_name": "University of Bonn",
+          "ror": "https://ror.org/041nas322",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Steffens",
+      "raw_affiliation_strings": [
+        "University of Bonn, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Bonn, Germany",
+          "institution_ids": [
+            "https://openalex.org/I135140700"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028762883",
+        "display_name": "Thorgeir E. Thorgeirsson",
+        "orcid": "https://orcid.org/0000-0002-5149-7040"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1327191685",
+          "display_name": "deCODE Genetics (Iceland)",
+          "ror": "https://ror.org/04dzdm737",
+          "country_code": "IS",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ],
+      "countries": [
+        "IS"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thorgeir Thorgeirsson",
+      "raw_affiliation_strings": [
+        "deCODE Genetics, Iceland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "deCODE Genetics, Iceland",
+          "institution_ids": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006541865",
+        "display_name": "Federica Tozzi",
+        "orcid": "https://orcid.org/0000-0002-3536-2920"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210128413",
+          "display_name": "GlaxoSmithKline (Italy)",
+          "ror": "https://ror.org/03fe56089",
+          "country_code": "IT",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I188950975",
+            "https://openalex.org/I4210128413"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Federica Tozzi",
+      "raw_affiliation_strings": [
+        "GlaxoSmithKline, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GlaxoSmithKline, Italy",
+          "institution_ids": [
+            "https://openalex.org/I4210128413"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088638402",
+        "display_name": "Jens Treutlein",
+        "orcid": "https://orcid.org/0000-0003-3952-8905"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210105615",
+          "display_name": "Central Institute of Mental Health",
+          "ror": "https://ror.org/01hynnt93",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210105615"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jens Treutlein",
+      "raw_affiliation_strings": [
+        "Central Inst Mental Health, University of Heidelberg, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Central Inst Mental Health, University of Heidelberg, Germany",
+          "institution_ids": [
+            "https://openalex.org/I223822909",
+            "https://openalex.org/I4210105615"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005271615",
+        "display_name": "Manfred Uhr",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145969",
+          "display_name": "Max Planck Institute of Psychiatry",
+          "ror": "https://ror.org/04dq56617",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Manfred Uhr",
+      "raw_affiliation_strings": [
+        "Max Planck Institute of Psychiatry, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck Institute of Psychiatry, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210145969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108138416",
+        "display_name": "Edwin J.C.G. van den Oord",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I184840846",
+          "display_name": "Virginia Commonwealth University",
+          "ror": "https://ror.org/02nkdxk79",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I184840846"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Edwin J C G van den Oord",
+      "raw_affiliation_strings": [
+        "Virginia Commonwealth University, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Virginia Commonwealth University, USA",
+          "institution_ids": [
+            "https://openalex.org/I184840846"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5089275387",
+        "display_name": "Gerard van Grootheest",
+        "orcid": "https://orcid.org/0000-0003-4350-6661"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I911458345",
+          "display_name": "Amsterdam UMC Location Vrije Universiteit Amsterdam",
+          "ror": "https://ror.org/00q6h8f30",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210151833",
+            "https://openalex.org/I911458345"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gerard Van Grootheest",
+      "raw_affiliation_strings": [
+        "VU University Medical Center, Amsterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "VU University Medical Center, Amsterdam, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I911458345"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011709769",
+        "display_name": "Henry Völzke",
+        "orcid": "https://orcid.org/0000-0001-7003-399X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36522303",
+          "display_name": "Universität Greifswald",
+          "ror": "https://ror.org/00r1edq15",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36522303"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Henry Völzke",
+      "raw_affiliation_strings": [
+        "University of Greifswald, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Greifswald, Germany",
+          "institution_ids": [
+            "https://openalex.org/I36522303"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5054626982",
+        "display_name": "Jeffrey B. Weilburg",
+        "orcid": "https://orcid.org/0000-0002-5126-591X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeffrey B Weilburg",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5038334172",
+        "display_name": "Gonneke Willemsen",
+        "orcid": "https://orcid.org/0000-0003-3755-0236"
+      },
+      "institutions": [],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gonneke Willemsen",
+      "raw_affiliation_strings": [
+        "VU University, Amsterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "VU University, Amsterdam, The Netherlands",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032227732",
+        "display_name": "Frans G. Zitman",
+        "orcid": "https://orcid.org/0000-0003-1987-988X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800006345",
+          "display_name": "Leiden University Medical Center",
+          "ror": "https://ror.org/05xvt9f17",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800006345"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Frans G Zitman",
+      "raw_affiliation_strings": [
+        "Leiden University Medical Center, Leiden, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Leiden University Medical Center, Leiden, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I2800006345"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5015235673",
+        "display_name": "Benjamin M. Neale",
+        "orcid": "https://orcid.org/0000-0003-1513-6077"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Benjamin Neale",
+      "raw_affiliation_strings": [
+        "Harvard University/Broad Institute, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard University/Broad Institute, USA",
+          "institution_ids": [
+            "https://openalex.org/I107606265",
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107596541",
+        "display_name": "Mark J. Daly",
+        "orcid": "https://orcid.org/0000-0002-0949-8752"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mark Daly",
+      "raw_affiliation_strings": [
+        "Harvard University/Broad Institute, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard University/Broad Institute, USA",
+          "institution_ids": [
+            "https://openalex.org/I107606265",
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058610449",
+        "display_name": "Douglas F. Levinson",
+        "orcid": "https://orcid.org/0000-0001-8223-1301"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Douglas F Levinson",
+      "raw_affiliation_strings": [
+        "Stanford University, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Stanford University, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5061802355",
+        "display_name": "Patrick F. Sullivan",
+        "orcid": "https://orcid.org/0000-0002-6619-873X"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Patrick F Sullivan",
+      "raw_affiliation_strings": [
+        "University of North Carolina, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of North Carolina, USA",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 9,
+  "institutions_distinct_count": 45,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5061802355"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 14.779,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 1116,
+  "citation_normalized_percentile": {
+    "value": 0.999096,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "18",
+    "issue": "4",
+    "first_page": "497",
+    "last_page": "511"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10261",
+    "display_name": "Genetic Associations and Epidemiology",
+    "score": 0.9989,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1311",
+      "display_name": "Genetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10261",
+      "display_name": "Genetic Associations and Epidemiology",
+      "score": 0.9989,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11772",
+      "display_name": "Genetics and Neurodevelopmental Disorders",
+      "score": 0.9896,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10269",
+      "display_name": "Epigenetics and DNA Methylation",
+      "score": 0.9413,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/genome-wide-association-study",
+      "display_name": "Genome-wide Association Study",
+      "score": 0.80393434
+    },
+    {
+      "id": "https://openalex.org/keywords/genetic-association",
+      "display_name": "Genetic Association",
+      "score": 0.47971362
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780051608",
+      "wikidata": "https://www.wikidata.org/wiki/Q42844",
+      "display_name": "Major depressive disorder",
+      "level": 3,
+      "score": 0.92356396
+    },
+    {
+      "id": "https://openalex.org/C106208931",
+      "wikidata": "https://www.wikidata.org/wiki/Q1098876",
+      "display_name": "Genome-wide association study",
+      "level": 5,
+      "score": 0.80393434
+    },
+    {
+      "id": "https://openalex.org/C153209595",
+      "wikidata": "https://www.wikidata.org/wiki/Q501128",
+      "display_name": "Single-nucleotide polymorphism",
+      "level": 4,
+      "score": 0.7449619
+    },
+    {
+      "id": "https://openalex.org/C186413461",
+      "wikidata": "https://www.wikidata.org/wiki/Q744727",
+      "display_name": "Genetic association",
+      "level": 5,
+      "score": 0.47971362
+    },
+    {
+      "id": "https://openalex.org/C2776174506",
+      "wikidata": "https://www.wikidata.org/wiki/Q131755",
+      "display_name": "Bipolar disorder",
+      "level": 3,
+      "score": 0.46378577
+    },
+    {
+      "id": "https://openalex.org/C143998085",
+      "wikidata": "https://www.wikidata.org/wiki/Q162555",
+      "display_name": "Oncology",
+      "level": 1,
+      "score": 0.42091593
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.4077191
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.35770908
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.31751037
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.29055214
+    },
+    {
+      "id": "https://openalex.org/C135763542",
+      "wikidata": "https://www.wikidata.org/wiki/Q106016",
+      "display_name": "Genotype",
+      "level": 3,
+      "score": 0.18396458
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.15047169
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003865",
+      "descriptor_name": "Depressive Disorder, Major",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020022",
+      "descriptor_name": "Genetic Predisposition to Disease",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055106",
+      "descriptor_name": "Genome-Wide Association Study",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001714",
+      "descriptor_name": "Bipolar Disorder",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016022",
+      "descriptor_name": "Case-Control Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020641",
+      "descriptor_name": "Polymorphism, Single Nucleotide",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D044465",
+      "descriptor_name": "White People",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/mp.2012.21",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S71149355",
+        "display_name": "Molecular Psychiatry",
+        "issn_l": "1359-4184",
+        "issn": [
+          "1359-4184",
+          "1476-5578"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3837431",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/22472876",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/mp.2012.21",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S71149355",
+      "display_name": "Molecular Psychiatry",
+      "issn_l": "1359-4184",
+      "issn": [
+        "1359-4184",
+        "1476-5578"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "score": 0.78,
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 88,
+  "referenced_works": [
+    "https://openalex.org/W1536698053",
+    "https://openalex.org/W1963673462",
+    "https://openalex.org/W1976751364",
+    "https://openalex.org/W1976844911",
+    "https://openalex.org/W1980353834",
+    "https://openalex.org/W1989784453",
+    "https://openalex.org/W1990824174",
+    "https://openalex.org/W1993588417",
+    "https://openalex.org/W1998641738",
+    "https://openalex.org/W2000480527",
+    "https://openalex.org/W2003551015",
+    "https://openalex.org/W2008047653",
+    "https://openalex.org/W2008981696",
+    "https://openalex.org/W2016122322",
+    "https://openalex.org/W2022545037",
+    "https://openalex.org/W2024137479",
+    "https://openalex.org/W2031656986",
+    "https://openalex.org/W2033276865",
+    "https://openalex.org/W2033683752",
+    "https://openalex.org/W2034098487",
+    "https://openalex.org/W2035054885",
+    "https://openalex.org/W2035587618",
+    "https://openalex.org/W2041514837",
+    "https://openalex.org/W2042170262",
+    "https://openalex.org/W2042204010",
+    "https://openalex.org/W2046060566",
+    "https://openalex.org/W2049189688",
+    "https://openalex.org/W2050716480",
+    "https://openalex.org/W2051811808",
+    "https://openalex.org/W2056551165",
+    "https://openalex.org/W2059542829",
+    "https://openalex.org/W2062002901",
+    "https://openalex.org/W2065658468",
+    "https://openalex.org/W2068388603",
+    "https://openalex.org/W2076246669",
+    "https://openalex.org/W2078151387",
+    "https://openalex.org/W2080228983",
+    "https://openalex.org/W2080350725",
+    "https://openalex.org/W2083020792",
+    "https://openalex.org/W2085971795",
+    "https://openalex.org/W2089415609",
+    "https://openalex.org/W2093765498",
+    "https://openalex.org/W2094173563",
+    "https://openalex.org/W2096296474",
+    "https://openalex.org/W2098597355",
+    "https://openalex.org/W2099760358",
+    "https://openalex.org/W2106779017",
+    "https://openalex.org/W2107695086",
+    "https://openalex.org/W2107900025",
+    "https://openalex.org/W2107916366",
+    "https://openalex.org/W2115830594",
+    "https://openalex.org/W2117446594",
+    "https://openalex.org/W2119067354",
+    "https://openalex.org/W2119279196",
+    "https://openalex.org/W2122246853",
+    "https://openalex.org/W2124216937",
+    "https://openalex.org/W2126266321",
+    "https://openalex.org/W2131014997",
+    "https://openalex.org/W2131786905",
+    "https://openalex.org/W2132853862",
+    "https://openalex.org/W2133752646",
+    "https://openalex.org/W2137296158",
+    "https://openalex.org/W2140660757",
+    "https://openalex.org/W2141642891",
+    "https://openalex.org/W2144269887",
+    "https://openalex.org/W2145584780",
+    "https://openalex.org/W2147311167",
+    "https://openalex.org/W2149375666",
+    "https://openalex.org/W2149466768",
+    "https://openalex.org/W2151660707",
+    "https://openalex.org/W2153184892",
+    "https://openalex.org/W2154246724",
+    "https://openalex.org/W2155496693",
+    "https://openalex.org/W2156648025",
+    "https://openalex.org/W2159935432",
+    "https://openalex.org/W2161480846",
+    "https://openalex.org/W2161527093",
+    "https://openalex.org/W2161998322",
+    "https://openalex.org/W2162196924",
+    "https://openalex.org/W2163184920",
+    "https://openalex.org/W2168505085",
+    "https://openalex.org/W2170607802",
+    "https://openalex.org/W2171097731",
+    "https://openalex.org/W2171777347",
+    "https://openalex.org/W2268611469",
+    "https://openalex.org/W2794573350",
+    "https://openalex.org/W2885727518",
+    "https://openalex.org/W4212787352"
+  ],
+  "related_works": [
+    "https://openalex.org/W4283582241",
+    "https://openalex.org/W2765794416",
+    "https://openalex.org/W2594299395",
+    "https://openalex.org/W2170506381",
+    "https://openalex.org/W2111842731",
+    "https://openalex.org/W2066467839",
+    "https://openalex.org/W2039666944",
+    "https://openalex.org/W1992310781",
+    "https://openalex.org/W1531630856",
+    "https://openalex.org/W1486217206"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2065692954",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 49
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 68
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 71
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 104
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 128
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 170
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 138
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 132
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 92
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 60
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 20
+    }
+  ],
+  "updated_date": "2025-06-17T19:10:27.182540",
+  "created_date": "2016-06-24"
+}

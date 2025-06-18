@@ -1,0 +1,2004 @@
+{
+  "id": "https://openalex.org/W2083825647",
+  "doi": "https://doi.org/10.1371/journal.pone.0052708",
+  "title": "Obesity and the Microvasculature: A Systematic Review and Meta-Analysis",
+  "display_name": "Obesity and the Microvasculature: A Systematic Review and Meta-Analysis",
+  "publication_year": 2013,
+  "publication_date": "2013-02-06",
+  "ids": {
+    "openalex": "https://openalex.org/W2083825647",
+    "doi": "https://doi.org/10.1371/journal.pone.0052708",
+    "mag": "2083825647",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/23405065",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3566162"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pone.0052708",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0052708&type=printable",
+    "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+        "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0052708&type=printable",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5078042332",
+        "display_name": "A Boillot",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I169173203",
+          "display_name": "Délégation Paris 7",
+          "ror": "https://ror.org/00bw5n526",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I169173203"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I204730241",
+          "display_name": "Université Paris Cité",
+          "ror": "https://ror.org/05f82e368",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204730241"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I3020261445",
+          "display_name": "CHU Ambroise Paré",
+          "ror": "https://ror.org/02d9v9944",
+          "country_code": "BE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I3020261445"
+          ]
+        }
+      ],
+      "countries": [
+        "BE",
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Adrien Boillot",
+      "raw_affiliation_strings": [
+        "Hôpital Ambroise Paré [AP-HP]",
+        "Université Paris Diderot - Paris 7"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Université Paris Diderot - Paris 7",
+          "institution_ids": [
+            "https://openalex.org/I169173203",
+            "https://openalex.org/I204730241"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Hôpital Ambroise Paré [AP-HP]",
+          "institution_ids": [
+            "https://openalex.org/I3020261445"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033053622",
+        "display_name": "Sophia Zoungas",
+        "orcid": "https://orcid.org/0000-0003-2672-0949"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sophia Zoungas",
+      "raw_affiliation_strings": [
+        "George Institute for Global Health"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "George Institute for Global Health",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113465880",
+        "display_name": "Paul Mitchell",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145422",
+          "display_name": "Westmead Institute for Medical Research",
+          "ror": "https://ror.org/04zj3ra44",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210145422"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paul Mitchell",
+      "raw_affiliation_strings": [
+        "Westmead Institute for Medical Research"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Westmead Institute for Medical Research",
+          "institution_ids": [
+            "https://openalex.org/I4210145422"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061631272",
+        "display_name": "Ronald Klein",
+        "orcid": "https://orcid.org/0000-0002-4428-6237"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ronald Klein",
+      "raw_affiliation_strings": [
+        "University of Wisconsin-Madison"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Wisconsin-Madison",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101580649",
+        "display_name": "Barbara E.K. Klein",
+        "orcid": "https://orcid.org/0000-0003-2379-976X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Barbara Klein",
+      "raw_affiliation_strings": [
+        "University of Wisconsin-Madison"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Wisconsin-Madison",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074876120",
+        "display_name": "M. Kamran Ikram",
+        "orcid": "https://orcid.org/0000-0003-0173-9571"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I913958620",
+          "display_name": "Erasmus University Rotterdam",
+          "ror": "https://ror.org/057w15z03",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I913958620"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210116917",
+          "display_name": "Singapore Eye Research Institute",
+          "ror": "https://ror.org/02crz6e12",
+          "country_code": "SG",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210116917"
+          ]
+        }
+      ],
+      "countries": [
+        "NL",
+        "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mohammad Kamran Ikram",
+      "raw_affiliation_strings": [
+        "Erasmus University Rotterdam",
+        "Saw Swee Hock School of Public Health",
+        "Singapore Eye Research Institute"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Erasmus University Rotterdam",
+          "institution_ids": [
+            "https://openalex.org/I913958620"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Singapore Eye Research Institute",
+          "institution_ids": [
+            "https://openalex.org/I4210116917"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Saw Swee Hock School of Public Health",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029529953",
+        "display_name": "Caroline C. W. Klaver",
+        "orcid": "https://orcid.org/0000-0002-2355-5258"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I913958620",
+          "display_name": "Erasmus University Rotterdam",
+          "ror": "https://ror.org/057w15z03",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I913958620"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Caroline Klaver",
+      "raw_affiliation_strings": [
+        "Erasmus University Rotterdam"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Erasmus University Rotterdam",
+          "institution_ids": [
+            "https://openalex.org/I913958620"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047012718",
+        "display_name": "Jie Jin Wang",
+        "orcid": "https://orcid.org/0000-0001-9491-4898"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210145422",
+          "display_name": "Westmead Institute for Medical Research",
+          "ror": "https://ror.org/04zj3ra44",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210145422"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jie Jin Wang",
+      "raw_affiliation_strings": [
+        "Westmead Institute for Medical Research"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Westmead Institute for Medical Research",
+          "institution_ids": [
+            "https://openalex.org/I4210145422"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073277454",
+        "display_name": "Bamini Gopinath",
+        "orcid": "https://orcid.org/0000-0003-3573-359X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Bamini Gopinath",
+      "raw_affiliation_strings": [
+        "Department of Medicine"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medicine",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049068947",
+        "display_name": "E Shyong Tai",
+        "orcid": "https://orcid.org/0000-0003-2929-8966"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116917",
+          "display_name": "Singapore Eye Research Institute",
+          "ror": "https://ror.org/02crz6e12",
+          "country_code": "SG",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210116917"
+          ]
+        }
+      ],
+      "countries": [
+        "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. Shyong Tai",
+      "raw_affiliation_strings": [
+        "Singapore Eye Research Institute"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Singapore Eye Research Institute",
+          "institution_ids": [
+            "https://openalex.org/I4210116917"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113858677",
+        "display_name": "Aljoscha S. Neubauer",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I8204097",
+          "display_name": "Ludwig-Maximilians-Universität München",
+          "ror": "https://ror.org/05591te55",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Aljoscha Steffen Neubauer",
+      "raw_affiliation_strings": [
+        "Ludwig-Maximilians University [Munich]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Ludwig-Maximilians University [Munich]",
+          "institution_ids": [
+            "https://openalex.org/I8204097"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043541421",
+        "display_name": "Serge Herçberg",
+        "orcid": "https://orcid.org/0000-0002-3168-1350"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210154255",
+          "display_name": "Equipe de Recherche en Epidémiologie Nutritionnelle",
+          "ror": "https://ror.org/04hzkx672",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I124158823",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I169173203",
+            "https://openalex.org/I4210091279",
+            "https://openalex.org/I4210134562",
+            "https://openalex.org/I4210154255"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210129146",
+          "display_name": "Hôpital Avicenne",
+          "ror": "https://ror.org/03n6vs369",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210097159",
+            "https://openalex.org/I4210129146"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210091437",
+          "display_name": "Sorbonne Paris Cité",
+          "ror": "https://ror.org/001z21q04",
+          "country_code": "FR",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210091437"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I204730241",
+          "display_name": "Université Paris Cité",
+          "ror": "https://ror.org/05f82e368",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204730241"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Serge Hercberg",
+      "raw_affiliation_strings": [
+        "Hôpital Avicenne [AP-HP]",
+        "PRES Sorbonne Paris Cité",
+        "Unité de Recherche en Epidémiologie Nutritionnelle"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Unité de Recherche en Epidémiologie Nutritionnelle",
+          "institution_ids": [
+            "https://openalex.org/I4210154255"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Hôpital Avicenne [AP-HP]",
+          "institution_ids": [
+            "https://openalex.org/I4210129146"
+          ]
+        },
+        {
+          "raw_affiliation_string": "PRES Sorbonne Paris Cité",
+          "institution_ids": [
+            "https://openalex.org/I4210091437",
+            "https://openalex.org/I204730241"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074445326",
+        "display_name": "Laima Brazionis",
+        "orcid": "https://orcid.org/0000-0002-5740-9662"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Laima Brazionis",
+      "raw_affiliation_strings": [
+        "George Institute for Global Health"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "George Institute for Global Health",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064124202",
+        "display_name": "Seang‐Mei Saw",
+        "orcid": "https://orcid.org/0000-0001-7166-796X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116917",
+          "display_name": "Singapore Eye Research Institute",
+          "ror": "https://ror.org/02crz6e12",
+          "country_code": "SG",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210116917"
+          ]
+        }
+      ],
+      "countries": [
+        "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Seang-Mei Saw",
+      "raw_affiliation_strings": [
+        "Saw Swee Hock School of Public Health",
+        "Singapore Eye Research Institute"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Singapore Eye Research Institute",
+          "institution_ids": [
+            "https://openalex.org/I4210116917"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Saw Swee Hock School of Public Health",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072258594",
+        "display_name": "Tien Yin Wong",
+        "orcid": "https://orcid.org/0000-0002-8448-1264"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116917",
+          "display_name": "Singapore Eye Research Institute",
+          "ror": "https://ror.org/02crz6e12",
+          "country_code": "SG",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210116917"
+          ]
+        }
+      ],
+      "countries": [
+        "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tien-Yin Wong",
+      "raw_affiliation_strings": [
+        "Singapore Eye Research Institute"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Singapore Eye Research Institute",
+          "institution_ids": [
+            "https://openalex.org/I4210116917"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5012626312",
+        "display_name": "Sébastien Czernichow",
+        "orcid": "https://orcid.org/0000-0001-7353-2532"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3020261445",
+          "display_name": "CHU Ambroise Paré",
+          "ror": "https://ror.org/02d9v9944",
+          "country_code": "BE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I3020261445"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I195731000",
+          "display_name": "Université de Versailles Saint-Quentin-en-Yvelines",
+          "ror": "https://ror.org/03mkjjy25",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I195731000",
+            "https://openalex.org/I277688954"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210103698",
+          "display_name": "Centre de recherche en Epidémiologie et Santé des Populations",
+          "ror": "https://ror.org/01ed4t417",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I195731000",
+            "https://openalex.org/I277688954",
+            "https://openalex.org/I4210097159",
+            "https://openalex.org/I4210103698",
+            "https://openalex.org/I4210164847"
+          ]
+        }
+      ],
+      "countries": [
+        "BE",
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sébastien Czernichow",
+      "raw_affiliation_strings": [
+        "Centre de recherche en épidémiologie et santé des populations",
+        "Hôpital Ambroise Paré [AP-HP]",
+        "Université de Versailles Saint-Quentin-en-Yvelines"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Hôpital Ambroise Paré [AP-HP]",
+          "institution_ids": [
+            "https://openalex.org/I3020261445"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Université de Versailles Saint-Quentin-en-Yvelines",
+          "institution_ids": [
+            "https://openalex.org/I195731000"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Centre de recherche en épidémiologie et santé des populations",
+          "institution_ids": [
+            "https://openalex.org/I4210103698"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 7,
+  "institutions_distinct_count": 13,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 1805,
+    "currency": "USD",
+    "value_usd": 1805
+  },
+  "apc_paid": {
+    "value": 1805,
+    "currency": "USD",
+    "value_usd": 1805
+  },
+  "fwci": 1.33,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 125,
+  "citation_normalized_percentile": {
+    "value": 0.768275,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "8",
+    "issue": "2",
+    "first_page": "e52708",
+    "last_page": "e52708"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11438",
+    "display_name": "Retinal Imaging and Analysis",
+    "score": 0.9996,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2741",
+      "display_name": "Radiology, Nuclear Medicine and Imaging"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11438",
+      "display_name": "Retinal Imaging and Analysis",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10924",
+      "display_name": "Cardiovascular Health and Disease Prevention",
+      "score": 0.9983,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10144",
+      "display_name": "Blood Pressure and Hypertension Studies",
+      "score": 0.997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/caliber",
+      "display_name": "Caliber",
+      "score": 0.6867427
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.7521098
+    },
+    {
+      "id": "https://openalex.org/C95190672",
+      "wikidata": "https://www.wikidata.org/wiki/Q815382",
+      "display_name": "Meta-analysis",
+      "level": 2,
+      "score": 0.70077324
+    },
+    {
+      "id": "https://openalex.org/C2780221984",
+      "wikidata": "https://www.wikidata.org/wiki/Q131191",
+      "display_name": "Body mass index",
+      "level": 2,
+      "score": 0.69573426
+    },
+    {
+      "id": "https://openalex.org/C203539429",
+      "wikidata": "https://www.wikidata.org/wiki/Q170417",
+      "display_name": "Caliber",
+      "level": 2,
+      "score": 0.6867427
+    },
+    {
+      "id": "https://openalex.org/C2780586474",
+      "wikidata": "https://www.wikidata.org/wiki/Q332428",
+      "display_name": "Overweight",
+      "level": 3,
+      "score": 0.6417388
+    },
+    {
+      "id": "https://openalex.org/C2780827179",
+      "wikidata": "https://www.wikidata.org/wiki/Q422001",
+      "display_name": "Retinal",
+      "level": 2,
+      "score": 0.60361814
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.5778015
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.54901165
+    },
+    {
+      "id": "https://openalex.org/C12722491",
+      "wikidata": "https://www.wikidata.org/wiki/Q1632335",
+      "display_name": "Microcirculation",
+      "level": 2,
+      "score": 0.540395
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.43935737
+    },
+    {
+      "id": "https://openalex.org/C164705383",
+      "wikidata": "https://www.wikidata.org/wiki/Q10379",
+      "display_name": "Cardiology",
+      "level": 1,
+      "score": 0.43309265
+    },
+    {
+      "id": "https://openalex.org/C118487528",
+      "wikidata": "https://www.wikidata.org/wiki/Q161437",
+      "display_name": "Ophthalmology",
+      "level": 1,
+      "score": 0.34316567
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C191897082",
+      "wikidata": "https://www.wikidata.org/wiki/Q11467",
+      "display_name": "Metallurgy",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D055806",
+      "descriptor_name": "Microvessels",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012171",
+      "descriptor_name": "Retinal Vessels",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015992",
+      "descriptor_name": "Body Mass Index",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055806",
+      "descriptor_name": "Microvessels",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012171",
+      "descriptor_name": "Retinal Vessels",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012307",
+      "descriptor_name": "Risk Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 13,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0052708",
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0052708&type=printable",
+      "source": {
+        "id": "https://openalex.org/S202381698",
+        "display_name": "PLoS ONE",
+        "issn_l": "1932-6203",
+        "issn": [
+          "1932-6203"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hal.inrae.fr/hal-02649015",
+      "pdf_url": "https://hal.inrae.fr/hal-02649015/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/9447026a74ab4ba5ab5326e80508b87e",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3566162",
+      "pdf_url": "https://europepmc.org/articles/pmc3566162?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://pure.eur.nl/en/publications/59cf553f-b962-4f0b-ad3c-85246dff4fc5",
+      "pdf_url": "https://pure.eur.nl/files/47501204/journal.pone.0052708.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401266",
+        "display_name": "EUR Research Repository (Erasmus University Rotterdam)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I913958620",
+        "host_organization_name": "Erasmus University Rotterdam",
+        "host_organization_lineage": [
+          "https://openalex.org/I913958620"
+        ],
+        "host_organization_lineage_names": [
+          "Erasmus University Rotterdam"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://research.monash.edu/en/publications/c761975a-c041-4e85-82eb-d0b1bf01716c",
+      "pdf_url": "https://research.monash.edu/files/232878800/2443592_oa.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402625",
+        "display_name": "Monash University Research Portal (Monash University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I56590836",
+        "host_organization_name": "Monash University",
+        "host_organization_lineage": [
+          "https://openalex.org/I56590836"
+        ],
+        "host_organization_lineage_names": [
+          "Monash University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0052708&representation=PDF",
+      "pdf_url": "http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0052708&representation=PDF",
+      "source": {
+        "id": "https://openalex.org/S4306402625",
+        "display_name": "Monash University Research Portal (Monash University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I56590836",
+        "host_organization_name": "Monash University",
+        "host_organization_lineage": [
+          "https://openalex.org/I56590836"
+        ],
+        "host_organization_lineage_names": [
+          "Monash University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hal.inrae.fr/hal-02649015/file/journal.pone.0052708_1.pdf",
+      "pdf_url": "https://hal.inrae.fr/hal-02649015/file/journal.pone.0052708_1.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/1765/68589",
+      "pdf_url": "https://repub.eur.nl/pub/68589/journal.pone.0052708.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401843",
+        "display_name": "Data Archiving and Networked Services (DANS)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1322597698",
+        "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/I1322597698"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Netherlands Academy of Arts and Sciences"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/11343/264820",
+      "pdf_url": "http://minerva-access.unimelb.edu.au/bitstreams/d743f72e-3351-5b11-9da0-82591cc378f9/download",
+      "source": {
+        "id": "https://openalex.org/S4377196259",
+        "display_name": "Minerva Access (University of Melbourne)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I165779595",
+        "host_organization_name": "The University of Melbourne",
+        "host_organization_lineage": [
+          "https://openalex.org/I165779595"
+        ],
+        "host_organization_lineage_names": [
+          "The University of Melbourne"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://pure.eur.nl/ws/files/47501204/journal.pone.0052708.pdf",
+      "pdf_url": "https://pure.eur.nl/ws/files/47501204/journal.pone.0052708.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401266",
+        "display_name": "EUR Research Repository (Erasmus University Rotterdam)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I913958620",
+        "host_organization_name": "Erasmus University Rotterdam",
+        "host_organization_lineage": [
+          "https://openalex.org/I913958620"
+        ],
+        "host_organization_lineage_names": [
+          "Erasmus University Rotterdam"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3566162",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/23405065",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pone.0052708",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0052708&type=printable",
+    "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+        "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.84,
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 46,
+  "referenced_works": [
+    "https://openalex.org/W182379854",
+    "https://openalex.org/W1870853477",
+    "https://openalex.org/W1979423827",
+    "https://openalex.org/W1986791043",
+    "https://openalex.org/W1987911023",
+    "https://openalex.org/W1993701077",
+    "https://openalex.org/W1995639937",
+    "https://openalex.org/W2001527395",
+    "https://openalex.org/W2006666326",
+    "https://openalex.org/W2014054735",
+    "https://openalex.org/W2019476457",
+    "https://openalex.org/W2024711476",
+    "https://openalex.org/W2025973019",
+    "https://openalex.org/W2034888646",
+    "https://openalex.org/W2038569017",
+    "https://openalex.org/W2038922047",
+    "https://openalex.org/W2048697771",
+    "https://openalex.org/W2057673193",
+    "https://openalex.org/W2063789965",
+    "https://openalex.org/W2073274771",
+    "https://openalex.org/W2074616979",
+    "https://openalex.org/W2089023787",
+    "https://openalex.org/W2101688816",
+    "https://openalex.org/W2101866468",
+    "https://openalex.org/W2102524227",
+    "https://openalex.org/W2106079471",
+    "https://openalex.org/W2109189843",
+    "https://openalex.org/W2114333917",
+    "https://openalex.org/W2114412338",
+    "https://openalex.org/W2119486327",
+    "https://openalex.org/W2122624008",
+    "https://openalex.org/W2123492011",
+    "https://openalex.org/W2125435699",
+    "https://openalex.org/W2126126493",
+    "https://openalex.org/W2127389619",
+    "https://openalex.org/W2129698390",
+    "https://openalex.org/W2137015106",
+    "https://openalex.org/W2138530279",
+    "https://openalex.org/W2141460031",
+    "https://openalex.org/W2142293049",
+    "https://openalex.org/W2152600270",
+    "https://openalex.org/W2157823046",
+    "https://openalex.org/W2166362110",
+    "https://openalex.org/W2167357401",
+    "https://openalex.org/W2170401329",
+    "https://openalex.org/W2186853760"
+  ],
+  "related_works": [
+    "https://openalex.org/W4283698857",
+    "https://openalex.org/W3216033910",
+    "https://openalex.org/W2799993546",
+    "https://openalex.org/W236355199",
+    "https://openalex.org/W2322051853",
+    "https://openalex.org/W2102483815",
+    "https://openalex.org/W2079312994",
+    "https://openalex.org/W199889678",
+    "https://openalex.org/W173731141",
+    "https://openalex.org/W172299244"
+  ],
+  "abstract_inverted_index": {
+    "Overweight": [
+      0
+    ],
+    "and": [
+      1,
+      31,
+      43,
+      55,
+      67,
+      91,
+      130,
+      153,
+      170
+    ],
+    "obesity": [
+      2
+    ],
+    "are": [
+      3,
+      160
+    ],
+    "thought": [
+      4
+    ],
+    "to": [
+      5,
+      46,
+      72,
+      162
+    ],
+    "significantly": [
+      6
+    ],
+    "influence": [
+      7
+    ],
+    "a": [
+      8,
+      25,
+      32,
+      109,
+      118,
+      165
+    ],
+    "person's": [
+      9
+    ],
+    "risk": [
+      10,
+      105
+    ],
+    "of": [
+      11,
+      28,
+      34,
+      39,
+      64,
+      102,
+      120
+    ],
+    "cardiovascular": [
+      12,
+      35,
+      104
+    ],
+    "disease,": [
+      13
+    ],
+    "possibly": [
+      14
+    ],
+    "via": [
+      15
+    ],
+    "its": [
+      16
+    ],
+    "effect": [
+      17
+    ],
+    "on": [
+      18
+    ],
+    "the": [
+      19,
+      48,
+      65
+    ],
+    "microvasculature.": [
+      20
+    ],
+    "Retinal": [
+      21
+    ],
+    "vascular": [
+      22,
+      57
+    ],
+    "caliber": [
+      23,
+      129
+    ],
+    "is": [
+      24,
+      147
+    ],
+    "surrogate": [
+      26
+    ],
+    "marker": [
+      27
+    ],
+    "microvascular": [
+      29
+    ],
+    "disease": [
+      30
+    ],
+    "predictor": [
+      33
+    ],
+    "events.": [
+      36
+    ],
+    "The": [
+      37
+    ],
+    "aim": [
+      38
+    ],
+    "this": [
+      40
+    ],
+    "systematic": [
+      41
+    ],
+    "review": [
+      42
+    ],
+    "meta-analysis": [
+      44
+    ],
+    "was": [
+      45,
+      115
+    ],
+    "determine": [
+      47
+    ],
+    "association": [
+      49
+    ],
+    "between": [
+      50,
+      168
+    ],
+    "body": [
+      51
+    ],
+    "mass": [
+      52
+    ],
+    "index": [
+      53
+    ],
+    "(BMI)": [
+      54
+    ],
+    "retinal": [
+      56,
+      151,
+      171
+    ],
+    "caliber.Relevant": [
+      58
+    ],
+    "studies": [
+      59,
+      159
+    ],
+    "were": [
+      60,
+      77,
+      142
+    ],
+    "identified": [
+      61
+    ],
+    "by": [
+      62
+    ],
+    "searches": [
+      63
+    ],
+    "MEDLINE": [
+      66
+    ],
+    "EMBASE": [
+      68
+    ],
+    "databases": [
+      69
+    ],
+    "from": [
+      70
+    ],
+    "1966": [
+      71
+    ],
+    "August": [
+      73
+    ],
+    "2011.": [
+      74
+    ],
+    "Standardized": [
+      75
+    ],
+    "forms": [
+      76
+    ],
+    "used": [
+      78
+    ],
+    "for": [
+      79,
+      144
+    ],
+    "data": [
+      80
+    ],
+    "extraction.": [
+      81
+    ],
+    "Among": [
+      82
+    ],
+    "over": [
+      83
+    ],
+    "44,000": [
+      84
+    ],
+    "individuals,": [
+      85
+    ],
+    "obese": [
+      86
+    ],
+    "subjects": [
+      87
+    ],
+    "had": [
+      88
+    ],
+    "narrower": [
+      89,
+      150
+    ],
+    "arteriolar": [
+      90,
+      128,
+      152
+    ],
+    "wider": [
+      92,
+      154
+    ],
+    "venular": [
+      93,
+      138,
+      155
+    ],
+    "calibers": [
+      94
+    ],
+    "when": [
+      95
+    ],
+    "compared": [
+      96
+    ],
+    "with": [
+      97,
+      117,
+      149
+    ],
+    "normal": [
+      98
+    ],
+    "weight": [
+      99
+    ],
+    "subjects,": [
+      100
+    ],
+    "independent": [
+      101
+    ],
+    "conventional": [
+      103
+    ],
+    "factors.": [
+      106
+    ],
+    "In": [
+      107
+    ],
+    "adults,": [
+      108
+    ],
+    "1": [
+      110
+    ],
+    "kg/m(2)": [
+      111
+    ],
+    "increase": [
+      112
+    ],
+    "in": [
+      113,
+      127,
+      137
+    ],
+    "BMI": [
+      114,
+      146,
+      169
+    ],
+    "associated": [
+      116,
+      148
+    ],
+    "difference": [
+      119
+    ],
+    "0.07": [
+      121
+    ],
+    "μm": [
+      122,
+      132
+    ],
+    "[95%": [
+      123,
+      133
+    ],
+    "CI:": [
+      124,
+      134
+    ],
+    "-0.08;": [
+      125
+    ],
+    "-0.06]": [
+      126
+    ],
+    "0.22": [
+      131
+    ],
+    "0.21;": [
+      135
+    ],
+    "0.23]": [
+      136
+    ],
+    "caliber.": [
+      139
+    ],
+    "Similar": [
+      140
+    ],
+    "results": [
+      141
+    ],
+    "found": [
+      143
+    ],
+    "children.Higher": [
+      145
+    ],
+    "calibers.": [
+      156
+    ],
+    "Further": [
+      157
+    ],
+    "prospective": [
+      158
+    ],
+    "needed": [
+      161
+    ],
+    "examine": [
+      163
+    ],
+    "whether": [
+      164
+    ],
+    "causative": [
+      166
+    ],
+    "relationship": [
+      167
+    ],
+    "microcirculation": [
+      172
+    ],
+    "exists.": [
+      173
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2083825647",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-06-01T17:25:56.002356",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,834 @@
+{
+  "id": "https://openalex.org/W2000961788",
+  "doi": "https://doi.org/10.1016/j.ejrad.2013.05.029",
+  "title": "FLAIR lesion segmentation: Application in patients with brain tumors and acute ischemic stroke",
+  "display_name": "FLAIR lesion segmentation: Application in patients with brain tumors and acute ischemic stroke",
+  "publication_year": 2013,
+  "publication_date": "2013-06-22",
+  "ids": {
+    "openalex": "https://openalex.org/W2000961788",
+    "doi": "https://doi.org/10.1016/j.ejrad.2013.05.029",
+    "mag": "2000961788",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/23796882"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.ejrad.2013.05.029",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S22285447",
+      "display_name": "European Journal of Radiology",
+      "issn_l": "0720-048X",
+      "issn": [
+        "0720-048X",
+        "1872-7727"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5073606939",
+        "display_name": "Moran Artzi",
+        "orcid": "https://orcid.org/0000-0003-4214-1875"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I16391192",
+          "display_name": "Tel Aviv University",
+          "ror": "https://ror.org/04mhzgx49",
+          "country_code": "IL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I16391192"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2799807261",
+          "display_name": "Tel Aviv Sourasky Medical Center",
+          "ror": "https://ror.org/04nd58p63",
+          "country_code": "IL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799807261"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Moran Artzi",
+      "raw_affiliation_strings": [
+        "Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel",
+        "The Functional Brain Center, The Wohl Institute for Advanced Imaging, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel",
+          "institution_ids": [
+            "https://openalex.org/I16391192"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The Functional Brain Center, The Wohl Institute for Advanced Imaging, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel",
+          "institution_ids": [
+            "https://openalex.org/I2799807261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043634535",
+        "display_name": "Orna Aizenstein",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799807261",
+          "display_name": "Tel Aviv Sourasky Medical Center",
+          "ror": "https://ror.org/04nd58p63",
+          "country_code": "IL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799807261"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Orna Aizenstein",
+      "raw_affiliation_strings": [
+        "The Functional Brain Center, The Wohl Institute for Advanced Imaging, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Functional Brain Center, The Wohl Institute for Advanced Imaging, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel",
+          "institution_ids": [
+            "https://openalex.org/I2799807261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5025425713",
+        "display_name": "Tali Jonas‐Kimchi",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799807261",
+          "display_name": "Tel Aviv Sourasky Medical Center",
+          "ror": "https://ror.org/04nd58p63",
+          "country_code": "IL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799807261"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tali Jonas-Kimchi",
+      "raw_affiliation_strings": [
+        "Radiology Department; Tel Aviv Sourasky Medical Center; Tel Aviv Israel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Radiology Department; Tel Aviv Sourasky Medical Center; Tel Aviv Israel",
+          "institution_ids": [
+            "https://openalex.org/I2799807261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034477698",
+        "display_name": "Vicki Myers",
+        "orcid": "https://orcid.org/0000-0001-5866-3948"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799807261",
+          "display_name": "Tel Aviv Sourasky Medical Center",
+          "ror": "https://ror.org/04nd58p63",
+          "country_code": "IL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799807261"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Vicki Myers",
+      "raw_affiliation_strings": [
+        "The Functional Brain Center, The Wohl Institute for Advanced Imaging, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Functional Brain Center, The Wohl Institute for Advanced Imaging, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel",
+          "institution_ids": [
+            "https://openalex.org/I2799807261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035197271",
+        "display_name": "Hen Hallevi",
+        "orcid": "https://orcid.org/0000-0001-5699-3089"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799807261",
+          "display_name": "Tel Aviv Sourasky Medical Center",
+          "ror": "https://ror.org/04nd58p63",
+          "country_code": "IL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799807261"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hen Hallevi",
+      "raw_affiliation_strings": [
+        "Neurology Department, Tel‐Aviv Sourasky Medical Center, Tel‐Aviv, Israel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Neurology Department, Tel‐Aviv Sourasky Medical Center, Tel‐Aviv, Israel",
+          "institution_ids": [
+            "https://openalex.org/I2799807261"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5030090317",
+        "display_name": "Dafna Ben Bashat",
+        "orcid": "https://orcid.org/0000-0001-8396-1031"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799807261",
+          "display_name": "Tel Aviv Sourasky Medical Center",
+          "ror": "https://ror.org/04nd58p63",
+          "country_code": "IL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799807261"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I16391192",
+          "display_name": "Tel Aviv University",
+          "ror": "https://ror.org/04mhzgx49",
+          "country_code": "IL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I16391192"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dafna Ben Bashat",
+      "raw_affiliation_strings": [
+        "Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel",
+        "The Functional Brain Center, The Wohl Institute for Advanced Imaging, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Functional Brain Center, The Wohl Institute for Advanced Imaging, Tel Aviv Sourasky Medical Center, Tel Aviv, Israel",
+          "institution_ids": [
+            "https://openalex.org/I2799807261"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Sackler Faculty of Medicine, Tel Aviv University, Tel Aviv, Israel",
+          "institution_ids": [
+            "https://openalex.org/I16391192"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3550,
+    "currency": "USD",
+    "value_usd": 3550
+  },
+  "apc_paid": null,
+  "fwci": 2.437,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 46,
+  "citation_normalized_percentile": {
+    "value": 0.999843,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "82",
+    "issue": "9",
+    "first_page": "1512",
+    "last_page": "1518"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10129",
+    "display_name": "Glioma Diagnosis and Treatment",
+    "score": 0.9993,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2716",
+      "display_name": "Genetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10129",
+      "display_name": "Glioma Diagnosis and Treatment",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2716",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10052",
+      "display_name": "Medical Image Segmentation Techniques",
+      "score": 0.9988,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12702",
+      "display_name": "Brain Tumor Detection and Classification",
+      "score": 0.9987,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2808",
+        "display_name": "Neurology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/fluid-attenuated-inversion-recovery",
+      "display_name": "Fluid-attenuated inversion recovery",
+      "score": 0.97550416
+    },
+    {
+      "id": "https://openalex.org/keywords/stroke",
+      "display_name": "Stroke",
+      "score": 0.5707662
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C101070640",
+      "wikidata": "https://www.wikidata.org/wiki/Q3737215",
+      "display_name": "Fluid-attenuated inversion recovery",
+      "level": 3,
+      "score": 0.97550416
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.92119443
+    },
+    {
+      "id": "https://openalex.org/C2781156865",
+      "wikidata": "https://www.wikidata.org/wiki/Q827023",
+      "display_name": "Lesion",
+      "level": 2,
+      "score": 0.778347
+    },
+    {
+      "id": "https://openalex.org/C143409427",
+      "wikidata": "https://www.wikidata.org/wiki/Q161238",
+      "display_name": "Magnetic resonance imaging",
+      "level": 2,
+      "score": 0.64236456
+    },
+    {
+      "id": "https://openalex.org/C126838900",
+      "wikidata": "https://www.wikidata.org/wiki/Q77604",
+      "display_name": "Radiology",
+      "level": 1,
+      "score": 0.5845656
+    },
+    {
+      "id": "https://openalex.org/C2780645631",
+      "wikidata": "https://www.wikidata.org/wiki/Q671554",
+      "display_name": "Stroke (engine)",
+      "level": 2,
+      "score": 0.5707662
+    },
+    {
+      "id": "https://openalex.org/C2989005",
+      "wikidata": "https://www.wikidata.org/wiki/Q214963",
+      "display_name": "Nuclear medicine",
+      "level": 1,
+      "score": 0.43589425
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.25218922
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002545",
+      "descriptor_name": "Brain Ischemia",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001932",
+      "descriptor_name": "Brain Neoplasms",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005909",
+      "descriptor_name": "Glioblastoma",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007090",
+      "descriptor_name": "Image Interpretation, Computer-Assisted",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010363",
+      "descriptor_name": "Pattern Recognition, Automated",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020521",
+      "descriptor_name": "Stroke",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000208",
+      "descriptor_name": "Acute Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000465",
+      "descriptor_name": "Algorithms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001185",
+      "descriptor_name": "Artificial Intelligence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002545",
+      "descriptor_name": "Brain Ischemia",
+      "qualifier_ui": "Q000150",
+      "qualifier_name": "complications",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002545",
+      "descriptor_name": "Brain Ischemia",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001932",
+      "descriptor_name": "Brain Neoplasms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005909",
+      "descriptor_name": "Glioblastoma",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007089",
+      "descriptor_name": "Image Enhancement",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007089",
+      "descriptor_name": "Image Enhancement",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007090",
+      "descriptor_name": "Image Interpretation, Computer-Assisted",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009364",
+      "descriptor_name": "Neoplasm Recurrence, Local",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010363",
+      "descriptor_name": "Pattern Recognition, Automated",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015203",
+      "descriptor_name": "Reproducibility of Results",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012680",
+      "descriptor_name": "Sensitivity and Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020521",
+      "descriptor_name": "Stroke",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020521",
+      "descriptor_name": "Stroke",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.ejrad.2013.05.029",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S22285447",
+        "display_name": "European Journal of Radiology",
+        "issn_l": "0720-048X",
+        "issn": [
+          "0720-048X",
+          "1872-7727"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/23796882",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.58,
+      "id": "https://metadata.un.org/sdg/16",
+      "display_name": "Peace, justice, and strong institutions"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 18,
+  "referenced_works": [
+    "https://openalex.org/W1483201357",
+    "https://openalex.org/W1959628099",
+    "https://openalex.org/W2004510158",
+    "https://openalex.org/W2010936634",
+    "https://openalex.org/W2018017287",
+    "https://openalex.org/W2036761094",
+    "https://openalex.org/W2058411961",
+    "https://openalex.org/W2069577302",
+    "https://openalex.org/W2077596487",
+    "https://openalex.org/W2098056602",
+    "https://openalex.org/W2101921531",
+    "https://openalex.org/W2104196671",
+    "https://openalex.org/W2106391914",
+    "https://openalex.org/W2133061701",
+    "https://openalex.org/W2136573752",
+    "https://openalex.org/W2138566597",
+    "https://openalex.org/W2157848968",
+    "https://openalex.org/W2162643152"
+  ],
+  "related_works": [
+    "https://openalex.org/W4389341328",
+    "https://openalex.org/W4309923383",
+    "https://openalex.org/W2408873457",
+    "https://openalex.org/W2397888002",
+    "https://openalex.org/W2393352769",
+    "https://openalex.org/W2381429000",
+    "https://openalex.org/W2373716292",
+    "https://openalex.org/W2364564193",
+    "https://openalex.org/W2356247871",
+    "https://openalex.org/W2131742827"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2000961788",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-17T17:54:31.254285",
+  "created_date": "2016-06-24"
+}

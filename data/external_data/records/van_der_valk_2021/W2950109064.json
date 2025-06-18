@@ -1,0 +1,1070 @@
+{
+  "id": "https://openalex.org/W2950109064",
+  "doi": "https://doi.org/10.1016/j.psyneuen.2017.12.019",
+  "title": "How to disentangle psychobiological stress reactivity and recovery: A comparison of model-based and non-compartmental analyses of cortisol concentrations",
+  "display_name": "How to disentangle psychobiological stress reactivity and recovery: A comparison of model-based and non-compartmental analyses of cortisol concentrations",
+  "publication_year": 2017,
+  "publication_date": "2017-12-29",
+  "ids": {
+    "openalex": "https://openalex.org/W2950109064",
+    "doi": "https://doi.org/10.1016/j.psyneuen.2017.12.019",
+    "mag": "2950109064",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/29370954"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.psyneuen.2017.12.019",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S81924583",
+      "display_name": "Psychoneuroendocrinology",
+      "issn_l": "0306-4530",
+      "issn": [
+        "0306-4530",
+        "1873-3360"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "arxiv",
+    "crossref",
+    "datacite",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://arxiv.org/pdf/1708.08504",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5081975383",
+        "display_name": "Robert Miller",
+        "orcid": "https://orcid.org/0000-0002-8665-5248"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I78650965",
+          "display_name": "Technische Universität Dresden",
+          "ror": "https://ror.org/042aqky30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78650965"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "SE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Robert Miller",
+      "raw_affiliation_strings": [
+        "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden",
+        "Institute of General Psychology, Biopsychology and Psychological Methods, TU Dresden, Dresden, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, Stockholm, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I28166907"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of General Psychology, Biopsychology and Psychological Methods, TU Dresden, Dresden, Germany",
+          "institution_ids": [
+            "https://openalex.org/I78650965"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037819335",
+        "display_name": "Jan‐Georg Wojtyniak",
+        "orcid": "https://orcid.org/0000-0003-1304-9033"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I91712215",
+          "display_name": "Saarland University",
+          "ror": "https://ror.org/01jdpyv68",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I91712215"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jan-Georg Wojtyniak",
+      "raw_affiliation_strings": [
+        "Department of Clinical Pharmacology, Saarland University, Saarbrücken, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Pharmacology, Saarland University, Saarbrücken, Germany",
+          "institution_ids": [
+            "https://openalex.org/I91712215"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5079808253",
+        "display_name": "Lisa J. Weckesser",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I78650965",
+          "display_name": "Technische Universität Dresden",
+          "ror": "https://ror.org/042aqky30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78650965"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lisa J. Weckesser",
+      "raw_affiliation_strings": [
+        "Institute of General Psychology, Biopsychology and Psychological Methods, TU Dresden, Dresden, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of General Psychology, Biopsychology and Psychological Methods, TU Dresden, Dresden, Germany",
+          "institution_ids": [
+            "https://openalex.org/I78650965"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050846056",
+        "display_name": "Nina Alexander",
+        "orcid": "https://orcid.org/0009-0002-7412-0163"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210088462",
+          "display_name": "MSH Medical School Hamburg – University of Applied Sciences and Medical University",
+          "ror": "https://ror.org/006thab72",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210088462"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nina C. Alexander",
+      "raw_affiliation_strings": [
+        "Department of Psychology, Faculty of Human Sciences, Medical School Hamburg, Hamburg, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, Faculty of Human Sciences, Medical School Hamburg, Hamburg, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210088462"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086618508",
+        "display_name": "Veronika Engert",
+        "orcid": "https://orcid.org/0000-0001-5317-933X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210130445",
+          "display_name": "Max Planck Institute for Human Cognitive and Brain Sciences",
+          "ror": "https://ror.org/0387jng26",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210130445"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Veronika Engert",
+      "raw_affiliation_strings": [
+        "Department of Social Neuroscience, Max Planck Institute for Human Cognition, Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Social Neuroscience, Max Planck Institute for Human Cognition, Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210130445"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5080845006",
+        "display_name": "Thorsten Lehr",
+        "orcid": "https://orcid.org/0000-0002-8372-1465"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I91712215",
+          "display_name": "Saarland University",
+          "ror": "https://ror.org/01jdpyv68",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I91712215"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thorsten Lehr",
+      "raw_affiliation_strings": [
+        "Department of Clinical Pharmacology, Saarland University, Saarbrücken, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Pharmacology, Saarland University, Saarbrücken, Germany",
+          "institution_ids": [
+            "https://openalex.org/I91712215"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5081975383"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I28166907",
+    "https://openalex.org/I78650965"
+  ],
+  "apc_list": {
+    "value": 3850,
+    "currency": "USD",
+    "value_usd": 3850
+  },
+  "apc_paid": null,
+  "fwci": 2.983,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 57,
+  "citation_normalized_percentile": {
+    "value": 0.808511,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "90",
+    "issue": null,
+    "first_page": "194",
+    "last_page": "210"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13283",
+      "display_name": "Mental Health Research Topics",
+      "score": 0.9847,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11337",
+      "display_name": "Tryptophan and brain disorders",
+      "score": 0.9846,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2803",
+        "display_name": "Biological Psychiatry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/endophenotype",
+      "display_name": "Endophenotype",
+      "score": 0.72051483
+    },
+    {
+      "id": "https://openalex.org/keywords/proxy",
+      "display_name": "Proxy (statistics)",
+      "score": 0.57825935
+    },
+    {
+      "id": "https://openalex.org/keywords/physiological-stress",
+      "display_name": "Physiological stress",
+      "score": 0.45892245
+    },
+    {
+      "id": "https://openalex.org/keywords/reactivity",
+      "display_name": "Reactivity",
+      "score": 0.45793062
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2778597338",
+      "wikidata": "https://www.wikidata.org/wiki/Q7841444",
+      "display_name": "Trier social stress test",
+      "level": 4,
+      "score": 0.87129354
+    },
+    {
+      "id": "https://openalex.org/C187869287",
+      "wikidata": "https://www.wikidata.org/wiki/Q2032061",
+      "display_name": "Endophenotype",
+      "level": 3,
+      "score": 0.72051483
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.5884118
+    },
+    {
+      "id": "https://openalex.org/C2780148112",
+      "wikidata": "https://www.wikidata.org/wiki/Q1432581",
+      "display_name": "Proxy (statistics)",
+      "level": 2,
+      "score": 0.57825935
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.46427128
+    },
+    {
+      "id": "https://openalex.org/C2993577864",
+      "wikidata": "https://www.wikidata.org/wiki/Q123414",
+      "display_name": "Physiological stress",
+      "level": 2,
+      "score": 0.45892245
+    },
+    {
+      "id": "https://openalex.org/C2776910235",
+      "wikidata": "https://www.wikidata.org/wiki/Q18574",
+      "display_name": "Reactivity (psychology)",
+      "level": 3,
+      "score": 0.45793062
+    },
+    {
+      "id": "https://openalex.org/C76318530",
+      "wikidata": "https://www.wikidata.org/wiki/Q16833590",
+      "display_name": "Area under the curve",
+      "level": 2,
+      "score": 0.4342865
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.41955855
+    },
+    {
+      "id": "https://openalex.org/C21036866",
+      "wikidata": "https://www.wikidata.org/wiki/Q181767",
+      "display_name": "Stress (linguistics)",
+      "level": 2,
+      "score": 0.414597
+    },
+    {
+      "id": "https://openalex.org/C78604142",
+      "wikidata": "https://www.wikidata.org/wiki/Q1640582",
+      "display_name": "Fight-or-flight response",
+      "level": 3,
+      "score": 0.40333688
+    },
+    {
+      "id": "https://openalex.org/C70410870",
+      "wikidata": "https://www.wikidata.org/wiki/Q199906",
+      "display_name": "Clinical psychology",
+      "level": 1,
+      "score": 0.3424573
+    },
+    {
+      "id": "https://openalex.org/C42407357",
+      "wikidata": "https://www.wikidata.org/wiki/Q521",
+      "display_name": "Physiology",
+      "level": 1,
+      "score": 0.27318376
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.24703008
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.23527086
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.17227608
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.16946721
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.1636081
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.12724292
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.102594495
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013312",
+      "descriptor_name": "Stress, Physiological",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003198",
+      "descriptor_name": "Computer Simulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000493",
+      "qualifier_name": "pharmacokinetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012463",
+      "descriptor_name": "Saliva",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012463",
+      "descriptor_name": "Saliva",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013312",
+      "descriptor_name": "Stress, Physiological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000523",
+      "qualifier_name": "psychology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.psyneuen.2017.12.019",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S81924583",
+        "display_name": "Psychoneuroendocrinology",
+        "issn_l": "0306-4530",
+        "issn": [
+          "0306-4530",
+          "1873-3360"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1708.08504",
+      "pdf_url": "http://arxiv.org/pdf/1708.08504",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://arxiv.org/abs/1708.08504",
+      "pdf_url": "https://arxiv.org/pdf/1708.08504",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29370954",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://api.datacite.org/dois/10.48550/arxiv.1708.08504",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4393179698",
+        "display_name": "DataCite API",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I4210145204",
+        "host_organization_name": "DataCite",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210145204"
+        ],
+        "host_organization_lineage_names": [
+          "DataCite"
+        ],
+        "type": "metadata"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/1708.08504",
+    "pdf_url": "http://arxiv.org/pdf/1708.08504",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.56
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320320879",
+      "funder_display_name": "Deutsche Forschungsgemeinschaft",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [
+    "https://openalex.org/W2950109064"
+  ],
+  "referenced_works_count": 74,
+  "referenced_works": [
+    "https://openalex.org/W1171566228",
+    "https://openalex.org/W1515666340",
+    "https://openalex.org/W1546727052",
+    "https://openalex.org/W1601594977",
+    "https://openalex.org/W1754058279",
+    "https://openalex.org/W1755247356",
+    "https://openalex.org/W1834879878",
+    "https://openalex.org/W1908148174",
+    "https://openalex.org/W1954326660",
+    "https://openalex.org/W1974068080",
+    "https://openalex.org/W1980903642",
+    "https://openalex.org/W1983635800",
+    "https://openalex.org/W1985234779",
+    "https://openalex.org/W1997807999",
+    "https://openalex.org/W1998539289",
+    "https://openalex.org/W2000150063",
+    "https://openalex.org/W2000301050",
+    "https://openalex.org/W2000741779",
+    "https://openalex.org/W2000836282",
+    "https://openalex.org/W2006583270",
+    "https://openalex.org/W2007073022",
+    "https://openalex.org/W2011498445",
+    "https://openalex.org/W2019367167",
+    "https://openalex.org/W2024665095",
+    "https://openalex.org/W2028759723",
+    "https://openalex.org/W2035387023",
+    "https://openalex.org/W2036643530",
+    "https://openalex.org/W2036817431",
+    "https://openalex.org/W2038133548",
+    "https://openalex.org/W2046192619",
+    "https://openalex.org/W2048578927",
+    "https://openalex.org/W2054147233",
+    "https://openalex.org/W2055973190",
+    "https://openalex.org/W2057119719",
+    "https://openalex.org/W2058403169",
+    "https://openalex.org/W2076507733",
+    "https://openalex.org/W2085406002",
+    "https://openalex.org/W2087403652",
+    "https://openalex.org/W2091413411",
+    "https://openalex.org/W2092880670",
+    "https://openalex.org/W2100165425",
+    "https://openalex.org/W2102054065",
+    "https://openalex.org/W2102360969",
+    "https://openalex.org/W2102977671",
+    "https://openalex.org/W2110243057",
+    "https://openalex.org/W2113830094",
+    "https://openalex.org/W2113947213",
+    "https://openalex.org/W2118936082",
+    "https://openalex.org/W2119666961",
+    "https://openalex.org/W2136829296",
+    "https://openalex.org/W2136962727",
+    "https://openalex.org/W2137675242",
+    "https://openalex.org/W2144961120",
+    "https://openalex.org/W2146907631",
+    "https://openalex.org/W2147172742",
+    "https://openalex.org/W2150478567",
+    "https://openalex.org/W2156579478",
+    "https://openalex.org/W2157025275",
+    "https://openalex.org/W2158378430",
+    "https://openalex.org/W2167617927",
+    "https://openalex.org/W2243879647",
+    "https://openalex.org/W2330014105",
+    "https://openalex.org/W2582743722",
+    "https://openalex.org/W2588745445",
+    "https://openalex.org/W2591583354",
+    "https://openalex.org/W2912171587",
+    "https://openalex.org/W4231000141",
+    "https://openalex.org/W4236724573",
+    "https://openalex.org/W4248586717",
+    "https://openalex.org/W4248681815",
+    "https://openalex.org/W4256394195",
+    "https://openalex.org/W4300127789",
+    "https://openalex.org/W4387723339",
+    "https://openalex.org/W849450059"
+  ],
+  "related_works": [
+    "https://openalex.org/W4301802697",
+    "https://openalex.org/W2990729063",
+    "https://openalex.org/W2981401158",
+    "https://openalex.org/W2534351941",
+    "https://openalex.org/W2530044074",
+    "https://openalex.org/W2509494832",
+    "https://openalex.org/W2189063312",
+    "https://openalex.org/W2027237415",
+    "https://openalex.org/W1998340961",
+    "https://openalex.org/W1751829768"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2950109064",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-06-17T20:29:31.514446",
+  "created_date": "2019-06-27"
+}

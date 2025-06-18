@@ -1,0 +1,1492 @@
+{
+  "id": "https://openalex.org/W2028085666",
+  "doi": "https://doi.org/10.1038/srep08145",
+  "title": "Antihyperglycemic mechanism of metformin occurs via the AMPK/LXRα/POMC pathway",
+  "display_name": "Antihyperglycemic mechanism of metformin occurs via the AMPK/LXRα/POMC pathway",
+  "publication_year": 2015,
+  "publication_date": "2015-01-30",
+  "ids": {
+    "openalex": "https://openalex.org/W2028085666",
+    "doi": "https://doi.org/10.1038/srep08145",
+    "mag": "2028085666",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/25634597",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/4311245"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/srep08145",
+    "pdf_url": "https://www.nature.com/articles/srep08145.pdf",
+    "source": {
+      "id": "https://openalex.org/S196734849",
+      "display_name": "Scientific Reports",
+      "issn_l": "2045-2322",
+      "issn": [
+        "2045-2322"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.nature.com/articles/srep08145.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5023741749",
+        "display_name": "Kumsun Cho",
+        "orcid": "https://orcid.org/0000-0002-0855-170X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802835388",
+          "display_name": "Seoul National University Hospital",
+          "ror": "https://ror.org/01z4nnt86",
+          "country_code": "KR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802835388"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kumsun Cho",
+      "raw_affiliation_strings": [
+        "Department of Clinical Pharmacology and Therapeutics, Seoul National University College of Medicine and Hospital, Seoul, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Pharmacology and Therapeutics, Seoul National University College of Medicine and Hospital, Seoul, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I2802835388"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005301507",
+        "display_name": "Jae‐Yong Chung",
+        "orcid": "https://orcid.org/0000-0003-4188-2786"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2803058125",
+          "display_name": "Seoul National University Bundang Hospital",
+          "ror": "https://ror.org/00cb3km46",
+          "country_code": "KR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802835388",
+            "https://openalex.org/I2803058125"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jae Yong Chung",
+      "raw_affiliation_strings": [
+        "Department of Clinical Pharmacology and Therapeutics, Seoul National University College of Medicine and Bundang Hospital, Seongnam, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Pharmacology and Therapeutics, Seoul National University College of Medicine and Bundang Hospital, Seongnam, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I2803058125"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041728593",
+        "display_name": "Sung Kweon Cho",
+        "orcid": "https://orcid.org/0000-0002-5929-7932"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I193775966",
+          "display_name": "Yonsei University",
+          "ror": "https://ror.org/01wjejq96",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I193775966"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sung Kweon Cho",
+      "raw_affiliation_strings": [
+        "Department of Pharmacology, Yonsei University College of Medicine, Seoul, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pharmacology, Yonsei University College of Medicine, Seoul, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I193775966"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085357988",
+        "display_name": "Hyun–Woo Shin",
+        "orcid": "https://orcid.org/0000-0002-4038-9992"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I139264467",
+          "display_name": "Seoul National University",
+          "ror": "https://ror.org/04h9pn542",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I139264467"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hyun-Woo Shin",
+      "raw_affiliation_strings": [
+        "Department of Pharmacology, Ischemic/Hypoxic Disease Institute, Seoul National University College of Medicine, Seoul, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pharmacology, Ischemic/Hypoxic Disease Institute, Seoul National University College of Medicine, Seoul, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I139264467"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064370332",
+        "display_name": "In‐Jin Jang",
+        "orcid": "https://orcid.org/0000-0002-8384-3139"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802835388",
+          "display_name": "Seoul National University Hospital",
+          "ror": "https://ror.org/01z4nnt86",
+          "country_code": "KR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802835388"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "In-Jin Jang",
+      "raw_affiliation_strings": [
+        "Department of Clinical Pharmacology and Therapeutics, Seoul National University College of Medicine and Hospital, Seoul, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Pharmacology and Therapeutics, Seoul National University College of Medicine and Hospital, Seoul, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I2802835388"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091660120",
+        "display_name": "Jong‐Wan Park",
+        "orcid": "https://orcid.org/0000-0003-4676-5191"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I139264467",
+          "display_name": "Seoul National University",
+          "ror": "https://ror.org/04h9pn542",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I139264467"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jong-Wan Park",
+      "raw_affiliation_strings": [
+        "Department of Biomedical Science, Seoul National University College of Medicine, Seoul, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biomedical Science, Seoul National University College of Medicine, Seoul, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I139264467"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5076937960",
+        "display_name": "Kyung‐Sang Yu",
+        "orcid": "https://orcid.org/0000-0003-0921-7225"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I139264467",
+          "display_name": "Seoul National University",
+          "ror": "https://ror.org/04h9pn542",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I139264467"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kyung-Sang Yu",
+      "raw_affiliation_strings": [
+        "Department of Biomedical Science, Seoul National University College of Medicine, Seoul, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biomedical Science, Seoul National University College of Medicine, Seoul, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I139264467"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5022675590",
+        "display_name": "Joo‐Youn Cho",
+        "orcid": "https://orcid.org/0000-0001-9270-8273"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802835388",
+          "display_name": "Seoul National University Hospital",
+          "ror": "https://ror.org/01z4nnt86",
+          "country_code": "KR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802835388"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Joo-Youn Cho",
+      "raw_affiliation_strings": [
+        "Department of Clinical Pharmacology and Therapeutics, Seoul National University College of Medicine and Hospital, Seoul, Republic of Korea"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Pharmacology and Therapeutics, Seoul National University College of Medicine and Hospital, Seoul, Republic of Korea",
+          "institution_ids": [
+            "https://openalex.org/I2802835388"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 1890,
+    "currency": "EUR",
+    "value_usd": 2190
+  },
+  "apc_paid": {
+    "value": 1890,
+    "currency": "EUR",
+    "value_usd": 2190
+  },
+  "fwci": 4.679,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 91,
+  "citation_normalized_percentile": {
+    "value": 0.999986,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "5",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11339",
+    "display_name": "Metabolism, Diabetes, and Cancer",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11339",
+      "display_name": "Metabolism, Diabetes, and Cancer",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10839",
+      "display_name": "Pancreatic function and diabetes",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10401",
+      "display_name": "Diabetes Treatment and Management",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/amp-activated-protein-kinase",
+      "display_name": "AMP-Activated Protein Kinase",
+      "score": 0.48851883
+    },
+    {
+      "id": "https://openalex.org/keywords/gluconeogenesis",
+      "display_name": "Gluconeogenesis",
+      "score": 0.47361323
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780323712",
+      "wikidata": "https://www.wikidata.org/wiki/Q19484",
+      "display_name": "Metformin",
+      "level": 3,
+      "score": 0.97013795
+    },
+    {
+      "id": "https://openalex.org/C2780124434",
+      "wikidata": "https://www.wikidata.org/wiki/Q12357464",
+      "display_name": "AMPK",
+      "level": 4,
+      "score": 0.9099883
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.74026364
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.7113246
+    },
+    {
+      "id": "https://openalex.org/C2777477808",
+      "wikidata": "https://www.wikidata.org/wiki/Q407595",
+      "display_name": "Metabolite",
+      "level": 2,
+      "score": 0.514805
+    },
+    {
+      "id": "https://openalex.org/C2776780712",
+      "wikidata": "https://www.wikidata.org/wiki/Q295240",
+      "display_name": "AMP-activated protein kinase",
+      "level": 5,
+      "score": 0.48851883
+    },
+    {
+      "id": "https://openalex.org/C20904676",
+      "wikidata": "https://www.wikidata.org/wiki/Q191835",
+      "display_name": "Gluconeogenesis",
+      "level": 3,
+      "score": 0.47361323
+    },
+    {
+      "id": "https://openalex.org/C97029542",
+      "wikidata": "https://www.wikidata.org/wiki/Q281417",
+      "display_name": "Protein kinase A",
+      "level": 3,
+      "score": 0.460201
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.43110698
+    },
+    {
+      "id": "https://openalex.org/C555293320",
+      "wikidata": "https://www.wikidata.org/wiki/Q12206",
+      "display_name": "Diabetes mellitus",
+      "level": 2,
+      "score": 0.426194
+    },
+    {
+      "id": "https://openalex.org/C98274493",
+      "wikidata": "https://www.wikidata.org/wiki/Q128406",
+      "display_name": "Pharmacology",
+      "level": 1,
+      "score": 0.37243947
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.3334918
+    },
+    {
+      "id": "https://openalex.org/C11960822",
+      "wikidata": "https://www.wikidata.org/wiki/Q242736",
+      "display_name": "Phosphorylation",
+      "level": 2,
+      "score": 0.2906748
+    },
+    {
+      "id": "https://openalex.org/C62231903",
+      "wikidata": "https://www.wikidata.org/wiki/Q1057",
+      "display_name": "Metabolism",
+      "level": 2,
+      "score": 0.18253407
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.072877675
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D055372",
+      "descriptor_name": "AMP-Activated Protein Kinases",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007004",
+      "descriptor_name": "Hypoglycemic Agents",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008687",
+      "descriptor_name": "Metformin",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D057093",
+      "descriptor_name": "Orphan Nuclear Receptors",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011333",
+      "descriptor_name": "Pro-Opiomelanocortin",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055372",
+      "descriptor_name": "AMP-Activated Protein Kinases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000324",
+      "descriptor_name": "Adrenocorticotropic Hormone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001786",
+      "descriptor_name": "Blood Glucose",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001786",
+      "descriptor_name": "Blood Glucose",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D045744",
+      "descriptor_name": "Cell Line, Tumor",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002851",
+      "descriptor_name": "Chromatography, High Pressure Liquid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007004",
+      "descriptor_name": "Hypoglycemic Agents",
+      "qualifier_ui": "Q000008",
+      "qualifier_name": "administration & dosage",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007004",
+      "descriptor_name": "Hypoglycemic Agents",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007150",
+      "descriptor_name": "Immunohistochemistry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000071518",
+      "descriptor_name": "Liver X Receptors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013058",
+      "descriptor_name": "Mass Spectrometry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055432",
+      "descriptor_name": "Metabolomics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008687",
+      "descriptor_name": "Metformin",
+      "qualifier_ui": "Q000008",
+      "qualifier_name": "administration & dosage",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008687",
+      "descriptor_name": "Metformin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008954",
+      "descriptor_name": "Models, Biological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057093",
+      "descriptor_name": "Orphan Nuclear Receptors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010766",
+      "descriptor_name": "Phosphorylation",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010766",
+      "descriptor_name": "Phosphorylation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D025341",
+      "descriptor_name": "Principal Component Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011333",
+      "descriptor_name": "Pro-Opiomelanocortin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051381",
+      "descriptor_name": "Rats",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055815",
+      "descriptor_name": "Young Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/srep08145",
+      "pdf_url": "https://www.nature.com/articles/srep08145.pdf",
+      "source": {
+        "id": "https://openalex.org/S196734849",
+        "display_name": "Scientific Reports",
+        "issn_l": "2045-2322",
+        "issn": [
+          "2045-2322"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4311245",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/25634597",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/srep08145",
+    "pdf_url": "https://www.nature.com/articles/srep08145.pdf",
+    "source": {
+      "id": "https://openalex.org/S196734849",
+      "display_name": "Scientific Reports",
+      "issn_l": "2045-2322",
+      "issn": [
+        "2045-2322"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.82
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 32,
+  "referenced_works": [
+    "https://openalex.org/W1772813204",
+    "https://openalex.org/W1919521423",
+    "https://openalex.org/W1962867466",
+    "https://openalex.org/W1970205234",
+    "https://openalex.org/W1972201994",
+    "https://openalex.org/W1973300372",
+    "https://openalex.org/W1979100644",
+    "https://openalex.org/W1990247687",
+    "https://openalex.org/W1994514488",
+    "https://openalex.org/W1998867251",
+    "https://openalex.org/W2001151007",
+    "https://openalex.org/W2024182816",
+    "https://openalex.org/W2049915127",
+    "https://openalex.org/W2058920191",
+    "https://openalex.org/W2081393100",
+    "https://openalex.org/W2096591765",
+    "https://openalex.org/W2098289172",
+    "https://openalex.org/W2105268524",
+    "https://openalex.org/W2123014930",
+    "https://openalex.org/W2124049577",
+    "https://openalex.org/W2125613121",
+    "https://openalex.org/W2133244994",
+    "https://openalex.org/W2137586574",
+    "https://openalex.org/W2138226825",
+    "https://openalex.org/W2147187810",
+    "https://openalex.org/W2147891699",
+    "https://openalex.org/W2152003280",
+    "https://openalex.org/W2162039295",
+    "https://openalex.org/W2168343033",
+    "https://openalex.org/W2188846692",
+    "https://openalex.org/W2271771390",
+    "https://openalex.org/W2992283281"
+  ],
+  "related_works": [
+    "https://openalex.org/W4239102106",
+    "https://openalex.org/W3142564810",
+    "https://openalex.org/W3003370377",
+    "https://openalex.org/W2995968527",
+    "https://openalex.org/W2605441508",
+    "https://openalex.org/W2357139224",
+    "https://openalex.org/W2098038478",
+    "https://openalex.org/W2071975518",
+    "https://openalex.org/W2035980304",
+    "https://openalex.org/W2009707697"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Metformin": [
+      1
+    ],
+    "is": [
+      2,
+      13,
+      22,
+      30,
+      166
+    ],
+    "a": [
+      3
+    ],
+    "first-line": [
+      4
+    ],
+    "drug": [
+      5
+    ],
+    "for": [
+      6
+    ],
+    "treating": [
+      7
+    ],
+    "type": [
+      8
+    ],
+    "2": [
+      9
+    ],
+    "diabetes.": [
+      10
+    ],
+    "Although": [
+      11
+    ],
+    "metformin": [
+      12,
+      29,
+      49,
+      70,
+      96,
+      126,
+      149,
+      165
+    ],
+    "known": [
+      14
+    ],
+    "to": [
+      15,
+      32,
+      41,
+      51,
+      59,
+      84,
+      168
+    ],
+    "phosphorylate": [
+      16
+    ],
+    "AMP-activated": [
+      17
+    ],
+    "protein": [
+      18
+    ],
+    "kinase": [
+      19
+    ],
+    "(AMPK),": [
+      20
+    ],
+    "it": [
+      21
+    ],
+    "unclear": [
+      23
+    ],
+    "how": [
+      24
+    ],
+    "the": [
+      25,
+      43,
+      53,
+      92,
+      106,
+      111,
+      117,
+      161,
+      178
+    ],
+    "glucose-lowering": [
+      26
+    ],
+    "effect": [
+      27,
+      119,
+      163
+    ],
+    "of": [
+      28,
+      37,
+      95,
+      105,
+      120,
+      164
+    ],
+    "related": [
+      31,
+      58
+    ],
+    "AMPK": [
+      33
+    ],
+    "activation.": [
+      34
+    ],
+    "The": [
+      35,
+      103
+    ],
+    "aim": [
+      36
+    ],
+    "this": [
+      38,
+      145
+    ],
+    "study": [
+      39
+    ],
+    "was": [
+      40,
+      114
+    ],
+    "identify": [
+      42,
+      52
+    ],
+    "urinary": [
+      44
+    ],
+    "endogenous": [
+      45
+    ],
+    "metabolites": [
+      46
+    ],
+    "affected": [
+      47
+    ],
+    "by": [
+      48,
+      135,
+      147
+    ],
+    "and": [
+      50,
+      81,
+      99
+    ],
+    "novel": [
+      54
+    ],
+    "underlying": [
+      55
+    ],
+    "molecular": [
+      56
+    ],
+    "mechanisms": [
+      57
+    ],
+    "its": [
+      60
+    ],
+    "anti-diabetic": [
+      61,
+      93,
+      118
+    ],
+    "effect.": [
+      62
+    ],
+    "Fourteen": [
+      63
+    ],
+    "healthy": [
+      64
+    ],
+    "male": [
+      65
+    ],
+    "subjects": [
+      66
+    ],
+    "were": [
+      67,
+      78
+    ],
+    "orally": [
+      68
+    ],
+    "administered": [
+      69
+    ],
+    "(1000": [
+      71
+    ],
+    "mg)": [
+      72
+    ],
+    "once.": [
+      73
+    ],
+    "First": [
+      74
+    ],
+    "morning": [
+      75
+    ],
+    "urine": [
+      76
+    ],
+    "samples": [
+      77
+    ],
+    "taken": [
+      79
+    ],
+    "before": [
+      80
+    ],
+    "after": [
+      82
+    ],
+    "administration": [
+      83
+    ],
+    "obtain": [
+      85
+    ],
+    "metabolomic": [
+      86
+    ],
+    "data.": [
+      87
+    ],
+    "We": [
+      88,
+      143
+    ],
+    "then": [
+      89
+    ],
+    "further": [
+      90
+    ],
+    "investigated": [
+      91
+    ],
+    "mechanism": [
+      94
+    ],
+    "in": [
+      97,
+      100,
+      116,
+      139,
+      150,
+      177
+    ],
+    "vitro": [
+      98
+    ],
+    "vivo": [
+      101
+    ],
+    ".": [
+      102
+    ],
+    "fluctuation": [
+      104
+    ],
+    "metabolite": [
+      107
+    ],
+    "cortisol": [
+      108,
+      156
+    ],
+    "indicated": [
+      109
+    ],
+    "that": [
+      110,
+      125,
+      155
+    ],
+    "neuroendocrine": [
+      112
+    ],
+    "system": [
+      113
+    ],
+    "involved": [
+      115
+    ],
+    "metformin.": [
+      121
+    ],
+    "Actually": [
+      122
+    ],
+    "we": [
+      123,
+      159
+    ],
+    "found": [
+      124
+    ],
+    "induced": [
+      127
+    ],
+    "AMPK/liver": [
+      128
+    ],
+    "X": [
+      129
+    ],
+    "receptor": [
+      130
+    ],
+    "α": [
+      131
+    ],
+    "(LXRα)": [
+      132
+    ],
+    "phosphorylation,": [
+      133
+    ],
+    "followed": [
+      134
+    ],
+    "pro-opiomelanocortin": [
+      136
+    ],
+    "(POMC)": [
+      137
+    ],
+    "suppression": [
+      138
+    ],
+    "rat": [
+      140
+    ],
+    "pituitary": [
+      141
+    ],
+    "cells.": [
+      142
+    ],
+    "confirmed": [
+      144
+    ],
+    "result": [
+      146
+    ],
+    "administering": [
+      148
+    ],
+    "an": [
+      151
+    ],
+    "animal": [
+      152
+    ],
+    "study.": [
+      153
+    ],
+    "Given": [
+      154
+    ],
+    "stimulates": [
+      157
+    ],
+    "gluconeogenesis,": [
+      158
+    ],
+    "propose": [
+      160
+    ],
+    "anti-hyperglycemic": [
+      162
+    ],
+    "attributed": [
+      167
+    ],
+    "reduced": [
+      169
+    ],
+    "POMC/adrenocorticotropic": [
+      170
+    ],
+    "hormone": [
+      171
+    ],
+    "(ACTH)/cortisol": [
+      172
+    ],
+    "levels": [
+      173
+    ],
+    "following": [
+      174
+    ],
+    "AMPK/LXRα": [
+      175
+    ],
+    "phosphorylation": [
+      176
+    ],
+    "pituitaries.": [
+      179
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2028085666",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-04-30T01:58:12.982726",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,1360 @@
+{
+  "id": "https://openalex.org/W2133856765",
+  "doi": "https://doi.org/10.1186/gb-2011-12-6-r60",
+  "title": "Metagenomic biomarker discovery and explanation",
+  "display_name": "Metagenomic biomarker discovery and explanation",
+  "publication_year": 2011,
+  "publication_date": "2011-06-24",
+  "ids": {
+    "openalex": "https://openalex.org/W2133856765",
+    "doi": "https://doi.org/10.1186/gb-2011-12-6-r60",
+    "mag": "2133856765",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/21702898",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3218848"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/gb-2011-12-6-r60",
+    "pdf_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/gb-2011-12-6-r60",
+    "source": {
+      "id": "https://openalex.org/S81160022",
+      "display_name": "Genome biology",
+      "issn_l": "1474-7596",
+      "issn": [
+        "1474-7596",
+        "1474-760X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/gb-2011-12-6-r60",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5068576885",
+        "display_name": "Nicola Segata",
+        "orcid": "https://orcid.org/0000-0002-1583-5794"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nicola Segata",
+      "raw_affiliation_strings": [
+        "Department of Biostatistics, Harvard School of Public Health, 677 Huntington Avenue, Boston, MA, 02115, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biostatistics, Harvard School of Public Health, 677 Huntington Avenue, Boston, MA, 02115, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034600868",
+        "display_name": "Jacques Izard",
+        "orcid": "https://orcid.org/0000-0002-5904-5436"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jacques Izard",
+      "raw_affiliation_strings": [
+        "Department of Molecular Genetics, The Forsyth Institute, 245 First Street, Cambridge, MA, 02142, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular Genetics, The Forsyth Institute, 245 First Street, Cambridge, MA, 02142, USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052283192",
+        "display_name": "Levi Waldron",
+        "orcid": "https://orcid.org/0000-0003-2725-0694"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Levi Waldron",
+      "raw_affiliation_strings": [
+        "Department of Biostatistics, Harvard School of Public Health, 677 Huntington Avenue, Boston, MA, 02115, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biostatistics, Harvard School of Public Health, 677 Huntington Avenue, Boston, MA, 02115, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081647956",
+        "display_name": "Dirk Gevers",
+        "orcid": "https://orcid.org/0000-0003-1998-0363"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dirk Gevers",
+      "raw_affiliation_strings": [
+        "Microbial Sequencing Center, The Broad Institute of MIT and Harvard, 7 Cambridge Center, Cambridge, MA, 02142, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Microbial Sequencing Center, The Broad Institute of MIT and Harvard, 7 Cambridge Center, Cambridge, MA, 02142, USA",
+          "institution_ids": [
+            "https://openalex.org/I107606265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078340083",
+        "display_name": "Larisa Miropolsky",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Larisa Miropolsky",
+      "raw_affiliation_strings": [
+        "Department of Biostatistics, Harvard School of Public Health, 677 Huntington Avenue, Boston, MA, 02115, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biostatistics, Harvard School of Public Health, 677 Huntington Avenue, Boston, MA, 02115, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091604970",
+        "display_name": "Wendy S. Garrett",
+        "orcid": "https://orcid.org/0000-0002-5092-0150"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wendy S Garrett",
+      "raw_affiliation_strings": [
+        "Department of Immunology and Infectious Diseases, Harvard School of Public Health, 665 Huntington Avenue, Boston, MA, 02115, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Immunology and Infectious Diseases, Harvard School of Public Health, 665 Huntington Avenue, Boston, MA, 02115, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5008844345",
+        "display_name": "Curtis Huttenhower",
+        "orcid": "https://orcid.org/0000-0002-1110-0096"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Curtis Huttenhower",
+      "raw_affiliation_strings": [
+        "Department of Biostatistics, Harvard School of Public Health, 677 Huntington Avenue, Boston, MA, 02115, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biostatistics, Harvard School of Public Health, 677 Huntington Avenue, Boston, MA, 02115, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 4090,
+    "currency": "EUR",
+    "value_usd": 5030
+  },
+  "apc_paid": {
+    "value": 4090,
+    "currency": "EUR",
+    "value_usd": 5030
+  },
+  "fwci": 20.368,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 13349,
+  "citation_normalized_percentile": {
+    "value": 0.999985,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "12",
+    "issue": "6",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10066",
+    "display_name": "Gut microbiota and health",
+    "score": 0.999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10066",
+      "display_name": "Gut microbiota and health",
+      "score": 0.999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10836",
+      "display_name": "Metabolomics and Mass Spectrometry Studies",
+      "score": 0.9974,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10885",
+      "display_name": "Gene expression and cancer classification",
+      "score": 0.9894,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/human-genetics",
+      "display_name": "Human genetics",
+      "score": 0.6426741
+    },
+    {
+      "id": "https://openalex.org/keywords/genome-biology",
+      "display_name": "Genome Biology",
+      "score": 0.5932317
+    },
+    {
+      "id": "https://openalex.org/keywords/biomarker-discovery",
+      "display_name": "Biomarker Discovery",
+      "score": 0.55865574
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C15151743",
+      "wikidata": "https://www.wikidata.org/wiki/Q903778",
+      "display_name": "Metagenomics",
+      "level": 3,
+      "score": 0.87091196
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.83563185
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.66185415
+    },
+    {
+      "id": "https://openalex.org/C47042493",
+      "wikidata": "https://www.wikidata.org/wiki/Q265799",
+      "display_name": "Human genetics",
+      "level": 3,
+      "score": 0.6426741
+    },
+    {
+      "id": "https://openalex.org/C64015301",
+      "wikidata": "https://www.wikidata.org/wiki/Q5533480",
+      "display_name": "Genome Biology",
+      "level": 5,
+      "score": 0.5932317
+    },
+    {
+      "id": "https://openalex.org/C124535831",
+      "wikidata": "https://www.wikidata.org/wiki/Q4915074",
+      "display_name": "Biomarker discovery",
+      "level": 4,
+      "score": 0.55865574
+    },
+    {
+      "id": "https://openalex.org/C78458016",
+      "wikidata": "https://www.wikidata.org/wiki/Q840400",
+      "display_name": "Evolutionary biology",
+      "level": 1,
+      "score": 0.46836436
+    },
+    {
+      "id": "https://openalex.org/C2781197716",
+      "wikidata": "https://www.wikidata.org/wiki/Q864574",
+      "display_name": "Biomarker",
+      "level": 2,
+      "score": 0.43893293
+    },
+    {
+      "id": "https://openalex.org/C189206191",
+      "wikidata": "https://www.wikidata.org/wiki/Q222046",
+      "display_name": "Genomics",
+      "level": 4,
+      "score": 0.4267249
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.33812732
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.32056952
+    },
+    {
+      "id": "https://openalex.org/C46111723",
+      "wikidata": "https://www.wikidata.org/wiki/Q471857",
+      "display_name": "Proteomics",
+      "level": 3,
+      "score": 0.31006426
+    },
+    {
+      "id": "https://openalex.org/C141231307",
+      "wikidata": "https://www.wikidata.org/wiki/Q7020",
+      "display_name": "Genome",
+      "level": 3,
+      "score": 0.2687778
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.1570372
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D054892",
+      "descriptor_name": "Metagenome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D056186",
+      "descriptor_name": "Metagenomics",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012984",
+      "descriptor_name": "Software",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001419",
+      "descriptor_name": "Bacteria",
+      "qualifier_ui": "Q000145",
+      "qualifier_name": "classification",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001419",
+      "descriptor_name": "Bacteria",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003093",
+      "descriptor_name": "Colitis, Ulcerative",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003093",
+      "descriptor_name": "Colitis, Ulcerative",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057225",
+      "descriptor_name": "Data Mining",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007223",
+      "descriptor_name": "Infant",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D056186",
+      "descriptor_name": "Metagenomics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008807",
+      "descriptor_name": "Mice, Inbred BALB C",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018345",
+      "descriptor_name": "Mice, Knockout",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009092",
+      "descriptor_name": "Mucous Membrane",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009092",
+      "descriptor_name": "Mucous Membrane",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012680",
+      "descriptor_name": "Sensitivity and Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014780",
+      "descriptor_name": "Viruses",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014780",
+      "descriptor_name": "Viruses",
+      "qualifier_ui": "Q000145",
+      "qualifier_name": "classification",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 8,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1186/gb-2011-12-6-r60",
+      "pdf_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/gb-2011-12-6-r60",
+      "source": {
+        "id": "https://openalex.org/S81160022",
+        "display_name": "Genome biology",
+        "issn_l": "1474-7596",
+        "issn": [
+          "1474-7596",
+          "1474-760X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320256",
+        "host_organization_name": "BioMed Central",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310320256"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "BioMed Central"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3218848",
+      "pdf_url": "https://europepmc.org/articles/pmc3218848?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:26835958",
+      "pdf_url": "https://dash.harvard.edu/bitstream/1/26835958/1/gb-2011-12-6-r60.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401540",
+        "display_name": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I136199984",
+        "host_organization_name": "Harvard University",
+        "host_organization_lineage": [
+          "https://openalex.org/I136199984"
+        ],
+        "host_organization_lineage_names": [
+          "Harvard University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1318&context=foodsciefacpub",
+      "pdf_url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1318&context=foodsciefacpub",
+      "source": {
+        "id": "https://openalex.org/S4377196105",
+        "display_name": "Digital Commons - University of Nebraska Lincoln (University of Nebraska–Lincoln)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I114395901",
+        "host_organization_name": "University of Nebraska–Lincoln",
+        "host_organization_lineage": [
+          "https://openalex.org/I114395901"
+        ],
+        "host_organization_lineage_names": [
+          "University of Nebraska–Lincoln"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/11572/34867",
+      "pdf_url": "https://iris.unitn.it/bitstream/11572/34867/1/LEfSe.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401913",
+        "display_name": "Institutional Research Information System (Università degli Studi di Trento)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I193223587",
+        "host_organization_name": "University of Trento",
+        "host_organization_lineage": [
+          "https://openalex.org/I193223587"
+        ],
+        "host_organization_lineage_names": [
+          "University of Trento"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/1721.1/70123",
+      "pdf_url": "https://dspace.mit.edu/bitstream/1721.1/70123/1/Segata-2011-Metagenomic%20biomarker%20discovery%20and%20explanation.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400425",
+        "display_name": "DSpace@MIT (Massachusetts Institute of Technology)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I63966007",
+        "host_organization_name": "Massachusetts Institute of Technology",
+        "host_organization_lineage": [
+          "https://openalex.org/I63966007"
+        ],
+        "host_organization_lineage_names": [
+          "Massachusetts Institute of Technology"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3218848",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/21702898",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/gb-2011-12-6-r60",
+    "pdf_url": "https://genomebiology.biomedcentral.com/counter/pdf/10.1186/gb-2011-12-6-r60",
+    "source": {
+      "id": "https://openalex.org/S81160022",
+      "display_name": "Genome biology",
+      "issn_l": "1474-7596",
+      "issn": [
+        "1474-7596",
+        "1474-760X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.45,
+      "display_name": "Life on land",
+      "id": "https://metadata.un.org/sdg/15"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 115,
+  "referenced_works": [
+    "https://openalex.org/W1513618424",
+    "https://openalex.org/W1532540194",
+    "https://openalex.org/W1548461904",
+    "https://openalex.org/W1552259368",
+    "https://openalex.org/W1583240815",
+    "https://openalex.org/W1964164064",
+    "https://openalex.org/W1970807807",
+    "https://openalex.org/W1972978214",
+    "https://openalex.org/W1977145914",
+    "https://openalex.org/W1977868384",
+    "https://openalex.org/W1989348205",
+    "https://openalex.org/W1989889539",
+    "https://openalex.org/W1990453950",
+    "https://openalex.org/W1995393174",
+    "https://openalex.org/W1999113425",
+    "https://openalex.org/W1999597013",
+    "https://openalex.org/W2001434458",
+    "https://openalex.org/W2001619934",
+    "https://openalex.org/W2006465310",
+    "https://openalex.org/W2011301426",
+    "https://openalex.org/W2020913417",
+    "https://openalex.org/W2023843733",
+    "https://openalex.org/W2024189494",
+    "https://openalex.org/W2026469821",
+    "https://openalex.org/W2028520715",
+    "https://openalex.org/W2033081843",
+    "https://openalex.org/W2038217946",
+    "https://openalex.org/W2040936681",
+    "https://openalex.org/W2041282815",
+    "https://openalex.org/W2045745337",
+    "https://openalex.org/W2047703946",
+    "https://openalex.org/W2051322058",
+    "https://openalex.org/W2051954859",
+    "https://openalex.org/W2055167840",
+    "https://openalex.org/W2056782822",
+    "https://openalex.org/W2058171715",
+    "https://openalex.org/W2059005097",
+    "https://openalex.org/W2063984303",
+    "https://openalex.org/W2068727897",
+    "https://openalex.org/W2076100505",
+    "https://openalex.org/W2076808345",
+    "https://openalex.org/W2081098333",
+    "https://openalex.org/W2087292184",
+    "https://openalex.org/W2087671769",
+    "https://openalex.org/W2088745130",
+    "https://openalex.org/W2090925778",
+    "https://openalex.org/W2091922579",
+    "https://openalex.org/W2095040140",
+    "https://openalex.org/W2097988818",
+    "https://openalex.org/W2098544815",
+    "https://openalex.org/W2101120467",
+    "https://openalex.org/W2102050921",
+    "https://openalex.org/W2108229642",
+    "https://openalex.org/W2108718991",
+    "https://openalex.org/W2109363337",
+    "https://openalex.org/W2109391327",
+    "https://openalex.org/W2113129488",
+    "https://openalex.org/W2113463947",
+    "https://openalex.org/W2114034054",
+    "https://openalex.org/W2114482012",
+    "https://openalex.org/W2116299630",
+    "https://openalex.org/W2116895571",
+    "https://openalex.org/W2119812663",
+    "https://openalex.org/W2124637227",
+    "https://openalex.org/W2125688669",
+    "https://openalex.org/W2126809954",
+    "https://openalex.org/W2127415562",
+    "https://openalex.org/W2128909276",
+    "https://openalex.org/W2130077037",
+    "https://openalex.org/W2131186249",
+    "https://openalex.org/W2131342905",
+    "https://openalex.org/W2131593373",
+    "https://openalex.org/W2132004093",
+    "https://openalex.org/W2133632576",
+    "https://openalex.org/W2134389439",
+    "https://openalex.org/W2136482257",
+    "https://openalex.org/W2136552678",
+    "https://openalex.org/W2139104449",
+    "https://openalex.org/W2141597037",
+    "https://openalex.org/W2144662851",
+    "https://openalex.org/W2145189896",
+    "https://openalex.org/W2147173818",
+    "https://openalex.org/W2148694408",
+    "https://openalex.org/W2149202898",
+    "https://openalex.org/W2149573313",
+    "https://openalex.org/W2151088711",
+    "https://openalex.org/W2152885278",
+    "https://openalex.org/W2153456263",
+    "https://openalex.org/W2153727850",
+    "https://openalex.org/W2155066423",
+    "https://openalex.org/W2155395286",
+    "https://openalex.org/W2155920093",
+    "https://openalex.org/W2156145269",
+    "https://openalex.org/W2157795344",
+    "https://openalex.org/W2158970927",
+    "https://openalex.org/W2167062509",
+    "https://openalex.org/W2167084464",
+    "https://openalex.org/W2167639526",
+    "https://openalex.org/W2168362155",
+    "https://openalex.org/W2169929748",
+    "https://openalex.org/W2170024099",
+    "https://openalex.org/W2170917168",
+    "https://openalex.org/W2171571559",
+    "https://openalex.org/W2172049158",
+    "https://openalex.org/W2255264928",
+    "https://openalex.org/W2335836975",
+    "https://openalex.org/W2346841190",
+    "https://openalex.org/W2492283384",
+    "https://openalex.org/W2611071497",
+    "https://openalex.org/W3048739835",
+    "https://openalex.org/W3110009179",
+    "https://openalex.org/W4247128285",
+    "https://openalex.org/W4252684946",
+    "https://openalex.org/W4292023222",
+    "https://openalex.org/W4294107304"
+  ],
+  "related_works": [
+    "https://openalex.org/W4301252023",
+    "https://openalex.org/W4233899662",
+    "https://openalex.org/W4233309713",
+    "https://openalex.org/W2942849560",
+    "https://openalex.org/W2276673454",
+    "https://openalex.org/W2151658462",
+    "https://openalex.org/W2059168328",
+    "https://openalex.org/W1938342735",
+    "https://openalex.org/W1568433819",
+    "https://openalex.org/W1499905429"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "This": [
+      1,
+      26
+    ],
+    "study": [
+      2,
+      54
+    ],
+    "describes": [
+      3
+    ],
+    "and": [
+      4,
+      22,
+      65
+    ],
+    "validates": [
+      5
+    ],
+    "a": [
+      6,
+      49,
+      66
+    ],
+    "new": [
+      7
+    ],
+    "method": [
+      8,
+      61,
+      72
+    ],
+    "for": [
+      9,
+      70
+    ],
+    "metagenomic": [
+      10
+    ],
+    "biomarker": [
+      11
+    ],
+    "discovery": [
+      12
+    ],
+    "by": [
+      13
+    ],
+    "way": [
+      14
+    ],
+    "of": [
+      15,
+      19,
+      30,
+      55
+    ],
+    "class": [
+      16
+    ],
+    "comparison,": [
+      17
+    ],
+    "tests": [
+      18
+    ],
+    "biological": [
+      20
+    ],
+    "consistency": [
+      21
+    ],
+    "effect": [
+      23
+    ],
+    "size": [
+      24
+    ],
+    "estimation.": [
+      25
+    ],
+    "addresses": [
+      27
+    ],
+    "the": [
+      28,
+      39,
+      53,
+      71
+    ],
+    "challenge": [
+      29
+    ],
+    "finding": [
+      31
+    ],
+    "organisms,": [
+      32
+    ],
+    "genes,": [
+      33
+    ],
+    "or": [
+      34,
+      43
+    ],
+    "pathways": [
+      35
+    ],
+    "that": [
+      36
+    ],
+    "consistently": [
+      37
+    ],
+    "explain": [
+      38
+    ],
+    "differences": [
+      40
+    ],
+    "between": [
+      41
+    ],
+    "two": [
+      42
+    ],
+    "more": [
+      44
+    ],
+    "microbial": [
+      45
+    ],
+    "communities,": [
+      46
+    ],
+    "which": [
+      47
+    ],
+    "is": [
+      48,
+      73
+    ],
+    "central": [
+      50
+    ],
+    "problem": [
+      51
+    ],
+    "to": [
+      52
+    ],
+    "metagenomics.": [
+      56
+    ],
+    "We": [
+      57
+    ],
+    "extensively": [
+      58
+    ],
+    "validate": [
+      59
+    ],
+    "our": [
+      60
+    ],
+    "on": [
+      62
+    ],
+    "several": [
+      63
+    ],
+    "microbiomes": [
+      64
+    ],
+    "convenient": [
+      67
+    ],
+    "online": [
+      68
+    ],
+    "interface": [
+      69
+    ],
+    "provided": [
+      74
+    ],
+    "at": [
+      75
+    ],
+    "http://huttenhower.sph.harvard.edu/lefse/": [
+      76
+    ],
+    ".": [
+      77
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2133856765",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 637
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1907
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1951
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2084
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1931
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1670
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1076
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 856
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 529
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 335
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 157
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 89
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 48
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 19
+    }
+  ],
+  "updated_date": "2025-06-12T23:13:31.486980",
+  "created_date": "2016-06-24"
+}

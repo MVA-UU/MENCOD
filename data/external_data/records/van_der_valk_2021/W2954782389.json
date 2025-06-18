@@ -1,0 +1,1660 @@
+{
+  "id": "https://openalex.org/W2954782389",
+  "doi": "https://doi.org/10.1186/s12874-019-0779-8",
+  "title": "Evaluating selection bias in a population-based cohort study with low baseline participation: the LIFE-Adult-Study",
+  "display_name": "Evaluating selection bias in a population-based cohort study with low baseline participation: the LIFE-Adult-Study",
+  "publication_year": 2019,
+  "publication_date": "2019-07-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2954782389",
+    "doi": "https://doi.org/10.1186/s12874-019-0779-8",
+    "mag": "2954782389",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/31262266",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/6604357"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s12874-019-0779-8",
+    "pdf_url": "https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-019-0779-8",
+    "source": {
+      "id": "https://openalex.org/S185874209",
+      "display_name": "BMC Medical Research Methodology",
+      "issn_l": "1471-2288",
+      "issn": [
+        "1471-2288"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-019-0779-8",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5081680455",
+        "display_name": "Cornelia Enzenbach",
+        "orcid": "https://orcid.org/0000-0002-4545-3287"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I926574661",
+          "display_name": "Leipzig University",
+          "ror": "https://ror.org/03s7gtk40",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Cornelia Enzenbach",
+      "raw_affiliation_strings": [
+        "Institute for Medical Informatics, Statistics, and Epidemiology, University of Leipzig, Haertelstrasse 16-18, 04107, Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Medical Informatics, Statistics, and Epidemiology, University of Leipzig, Haertelstrasse 16-18, 04107, Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053891938",
+        "display_name": "Barbara Wicklein",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I926574661",
+          "display_name": "Leipzig University",
+          "ror": "https://ror.org/03s7gtk40",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Barbara Wicklein",
+      "raw_affiliation_strings": [
+        "Institute for Medical Informatics, Statistics, and Epidemiology, University of Leipzig, Haertelstrasse 16-18, 04107, Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Medical Informatics, Statistics, and Epidemiology, University of Leipzig, Haertelstrasse 16-18, 04107, Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5027776523",
+        "display_name": "Kerstin Wirkner",
+        "orcid": "https://orcid.org/0009-0000-1301-7125"
+      },
+      "institutions": [],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kerstin Wirkner",
+      "raw_affiliation_strings": [
+        "LIFE - Leipzig Research Centre for Civilization Diseases, University of Leipzig, Philipp-Rosenthal-Strasse 27, 04103, Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "LIFE - Leipzig Research Centre for Civilization Diseases, University of Leipzig, Philipp-Rosenthal-Strasse 27, 04103, Leipzig, Germany",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5025964385",
+        "display_name": "Markus Loeffler",
+        "orcid": "https://orcid.org/0000-0002-0424-9933"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I926574661",
+          "display_name": "Leipzig University",
+          "ror": "https://ror.org/03s7gtk40",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Markus Loeffler",
+      "raw_affiliation_strings": [
+        "Institute for Medical Informatics, Statistics, and Epidemiology, University of Leipzig, Haertelstrasse 16-18, 04107, Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Medical Informatics, Statistics, and Epidemiology, University of Leipzig, Haertelstrasse 16-18, 04107, Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5081680455"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I926574661"
+  ],
+  "apc_list": {
+    "value": 1790,
+    "currency": "GBP",
+    "value_usd": 2195
+  },
+  "apc_paid": {
+    "value": 1661,
+    "currency": "EUR",
+    "value_usd": 1791
+  },
+  "fwci": 9.974,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 132,
+  "citation_normalized_percentile": {
+    "value": 0.999617,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "19",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11542",
+    "display_name": "Behavioral Health and Interventions",
+    "score": 0.9881,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3202",
+      "display_name": "Applied Psychology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/32",
+      "display_name": "Psychology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11542",
+      "display_name": "Behavioral Health and Interventions",
+      "score": 0.9881,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3202",
+        "display_name": "Applied Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14393",
+      "display_name": "Health, Environment, Cognitive Aging",
+      "score": 0.987,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10845",
+      "display_name": "Advanced Causal Inference Techniques",
+      "score": 0.981,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/baseline",
+      "display_name": "Baseline (sea)",
+      "score": 0.423465
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C40423286",
+      "wikidata": "https://www.wikidata.org/wiki/Q284172",
+      "display_name": "Selection bias",
+      "level": 2,
+      "score": 0.67643416
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.63196546
+    },
+    {
+      "id": "https://openalex.org/C72563966",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303415",
+      "display_name": "Cohort",
+      "level": 2,
+      "score": 0.62559915
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.62175196
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.61899656
+    },
+    {
+      "id": "https://openalex.org/C39896193",
+      "wikidata": "https://www.wikidata.org/wiki/Q380344",
+      "display_name": "Descriptive statistics",
+      "level": 2,
+      "score": 0.576062
+    },
+    {
+      "id": "https://openalex.org/C74909509",
+      "wikidata": "https://www.wikidata.org/wiki/Q10387",
+      "display_name": "Gerontology",
+      "level": 1,
+      "score": 0.5483724
+    },
+    {
+      "id": "https://openalex.org/C151956035",
+      "wikidata": "https://www.wikidata.org/wiki/Q1132755",
+      "display_name": "Logistic regression",
+      "level": 2,
+      "score": 0.53406364
+    },
+    {
+      "id": "https://openalex.org/C201903717",
+      "wikidata": "https://www.wikidata.org/wiki/Q1778788",
+      "display_name": "Cohort study",
+      "level": 2,
+      "score": 0.5192802
+    },
+    {
+      "id": "https://openalex.org/C12725497",
+      "wikidata": "https://www.wikidata.org/wiki/Q810247",
+      "display_name": "Baseline (sea)",
+      "level": 2,
+      "score": 0.423465
+    },
+    {
+      "id": "https://openalex.org/C81917197",
+      "wikidata": "https://www.wikidata.org/wiki/Q628760",
+      "display_name": "Selection (genetic algorithm)",
+      "level": 2,
+      "score": 0.41847178
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.15127322
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.13957125
+    },
+    {
+      "id": "https://openalex.org/C111368507",
+      "wikidata": "https://www.wikidata.org/wiki/Q43518",
+      "display_name": "Oceanography",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D010358",
+      "descriptor_name": "Patient Participation",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011159",
+      "descriptor_name": "Population Surveillance",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012107",
+      "descriptor_name": "Research Design",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015331",
+      "descriptor_name": "Cohort Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004522",
+      "descriptor_name": "Educational Status",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004651",
+      "descriptor_name": "Employment",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005858",
+      "descriptor_name": "Germany",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006304",
+      "descriptor_name": "Health Status",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016015",
+      "descriptor_name": "Logistic Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017533",
+      "descriptor_name": "Marital Status",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017533",
+      "descriptor_name": "Marital Status",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010358",
+      "descriptor_name": "Patient Participation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011159",
+      "descriptor_name": "Population Surveillance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015983",
+      "descriptor_name": "Selection Bias",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000074285",
+      "descriptor_name": "Smokers",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000074285",
+      "descriptor_name": "Smokers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 6,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1186/s12874-019-0779-8",
+      "pdf_url": "https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-019-0779-8",
+      "source": {
+        "id": "https://openalex.org/S185874209",
+        "display_name": "BMC Medical Research Methodology",
+        "issn_l": "1471-2288",
+        "issn": [
+          "1471-2288"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320256",
+        "host_organization_name": "BioMed Central",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310320256"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "BioMed Central"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/45adb57569994041be33d8c3146698da",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc6604357",
+      "pdf_url": "https://europepmc.org/articles/pmc6604357?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ssoar.info/ssoar/handle/document/73159",
+      "pdf_url": "https://www.ssoar.info/ssoar/bitstream/document/73159/1/ssoar-bmcmrm-2019-135-enzenbach_et_al-Evaluating_selection_bias_in_a.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401996",
+        "display_name": "Social Science Open Access Repository (GESIS – Leibniz Institute for the Social Sciences)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I4210101898",
+        "host_organization_name": "GESIS - Leibniz-Institute for the Social Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210101898"
+        ],
+        "host_organization_lineage_names": [
+          "GESIS - Leibniz-Institute for the Social Sciences"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6604357",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/31262266",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s12874-019-0779-8",
+    "pdf_url": "https://bmcmedresmethodol.biomedcentral.com/track/pdf/10.1186/s12874-019-0779-8",
+    "source": {
+      "id": "https://openalex.org/S185874209",
+      "display_name": "BMC Medical Research Methodology",
+      "issn_l": "1471-2288",
+      "issn": [
+        "1471-2288"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.43
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 38,
+  "referenced_works": [
+    "https://openalex.org/W1526521610",
+    "https://openalex.org/W1588434295",
+    "https://openalex.org/W1971823413",
+    "https://openalex.org/W1980943896",
+    "https://openalex.org/W2009778803",
+    "https://openalex.org/W2012230496",
+    "https://openalex.org/W2020584195",
+    "https://openalex.org/W2030877914",
+    "https://openalex.org/W2034355930",
+    "https://openalex.org/W2048504084",
+    "https://openalex.org/W2053174991",
+    "https://openalex.org/W2062395311",
+    "https://openalex.org/W2070929842",
+    "https://openalex.org/W2088392383",
+    "https://openalex.org/W2107252782",
+    "https://openalex.org/W2111555624",
+    "https://openalex.org/W2113563807",
+    "https://openalex.org/W2116295522",
+    "https://openalex.org/W2116810060",
+    "https://openalex.org/W2123128973",
+    "https://openalex.org/W2124048591",
+    "https://openalex.org/W2125347000",
+    "https://openalex.org/W2136195197",
+    "https://openalex.org/W2138237098",
+    "https://openalex.org/W2139913304",
+    "https://openalex.org/W2141281705",
+    "https://openalex.org/W2142323439",
+    "https://openalex.org/W2142509258",
+    "https://openalex.org/W2163894459",
+    "https://openalex.org/W2165713489",
+    "https://openalex.org/W2187378872",
+    "https://openalex.org/W2287856147",
+    "https://openalex.org/W2416359980",
+    "https://openalex.org/W2440866888",
+    "https://openalex.org/W2723723801",
+    "https://openalex.org/W2793569843",
+    "https://openalex.org/W2794108091",
+    "https://openalex.org/W2811157820"
+  ],
+  "related_works": [
+    "https://openalex.org/W4296359239",
+    "https://openalex.org/W2913146933",
+    "https://openalex.org/W2383111961",
+    "https://openalex.org/W2380820513",
+    "https://openalex.org/W2372385138",
+    "https://openalex.org/W2365952365",
+    "https://openalex.org/W2352448290",
+    "https://openalex.org/W2101155126",
+    "https://openalex.org/W2043093291",
+    "https://openalex.org/W1557905920"
+  ],
+  "abstract_inverted_index": {
+    "Participation": [
+      0
+    ],
+    "in": [
+      1,
+      10,
+      45,
+      65,
+      99,
+      141,
+      183,
+      192,
+      195,
+      199,
+      253,
+      292,
+      318,
+      329,
+      333,
+      336
+    ],
+    "epidemiologic": [
+      2
+    ],
+    "studies": [
+      3,
+      338
+    ],
+    "is": [
+      4,
+      14,
+      61,
+      255
+    ],
+    "steadily": [
+      5
+    ],
+    "declining,": [
+      6
+    ],
+    "which": [
+      7
+    ],
+    "may": [
+      8
+    ],
+    "result": [
+      9
+    ],
+    "selection": [
+      11,
+      28,
+      43,
+      260,
+      284,
+      302,
+      345
+    ],
+    "bias.": [
+      12,
+      37,
+      346
+    ],
+    "It": [
+      13
+    ],
+    "therefore": [
+      15
+    ],
+    "an": [
+      16
+    ],
+    "ongoing": [
+      17
+    ],
+    "challenge": [
+      18
+    ],
+    "to": [
+      19,
+      25,
+      31,
+      34,
+      76,
+      127,
+      164,
+      281,
+      304,
+      339,
+      343
+    ],
+    "clarify": [
+      20
+    ],
+    "the": [
+      21,
+      40,
+      66,
+      70,
+      80,
+      107,
+      129,
+      137,
+      142,
+      166,
+      205,
+      215,
+      219,
+      240,
+      249,
+      258,
+      293,
+      314,
+      316,
+      319
+    ],
+    "determinants": [
+      22,
+      130
+    ],
+    "of": [
+      23,
+      69,
+      72,
+      84,
+      131,
+      136,
+      207,
+      214,
+      221,
+      227,
+      230,
+      261,
+      288,
+      313,
+      325
+    ],
+    "participation": [
+      24,
+      54,
+      252,
+      341
+    ],
+    "judge": [
+      26
+    ],
+    "possible": [
+      27
+    ],
+    "effects": [
+      29
+    ],
+    "and": [
+      30,
+      55,
+      82,
+      110,
+      115,
+      123,
+      153,
+      160,
+      169,
+      185,
+      218,
+      232,
+      268,
+      271,
+      277,
+      322,
+      335,
+      342
+    ],
+    "derive": [
+      32
+    ],
+    "measures": [
+      33
+    ],
+    "minimise": [
+      35,
+      344
+    ],
+    "that": [
+      36,
+      213,
+      226,
+      248
+    ],
+    "We": [
+      38,
+      101,
+      119
+    ],
+    "evaluated": [
+      39
+    ],
+    "potential": [
+      41,
+      326
+    ],
+    "for": [
+      42,
+      58,
+      243
+    ],
+    "bias": [
+      44
+    ],
+    "a": [
+      46,
+      62
+    ],
+    "recent": [
+      47
+    ],
+    "population-based": [
+      48
+    ],
+    "cohort": [
+      49,
+      63
+    ],
+    "study": [
+      50,
+      64,
+      132,
+      201,
+      262
+    ],
+    "with": [
+      51,
+      105,
+      257,
+      264
+    ],
+    "low": [
+      52,
+      250
+    ],
+    "baseline": [
+      53,
+      144,
+      251
+    ],
+    "investigated": [
+      56
+    ],
+    "reasons": [
+      57,
+      242
+    ],
+    "nonparticipation.": [
+      59,
+      244
+    ],
+    "LIFE-Adult": [
+      60,
+      103,
+      143,
+      254,
+      334
+    ],
+    "general": [
+      67,
+      216,
+      294
+    ],
+    "population": [
+      68,
+      109,
+      168,
+      295
+    ],
+    "city": [
+      71
+    ],
+    "Leipzig": [
+      73,
+      108,
+      167
+    ],
+    "(Germany)": [
+      74
+    ],
+    "designed": [
+      75
+    ],
+    "gain": [
+      77
+    ],
+    "insights": [
+      78
+    ],
+    "into": [
+      79
+    ],
+    "distribution": [
+      81
+    ],
+    "development": [
+      83
+    ],
+    "civilisation": [
+      85
+    ],
+    "diseases.": [
+      86
+    ],
+    "Nine": [
+      87
+    ],
+    "thousand": [
+      88
+    ],
+    "one": [
+      89
+    ],
+    "hundred": [
+      90
+    ],
+    "forty-five": [
+      91
+    ],
+    "participants": [
+      92,
+      104,
+      147,
+      202,
+      263,
+      327
+    ],
+    "aged": [
+      93,
+      203
+    ],
+    "40–79": [
+      94
+    ],
+    "years": [
+      95
+    ],
+    "were": [
+      96,
+      148,
+      181,
+      189,
+      239
+    ],
+    "randomly": [
+      97
+    ],
+    "sampled": [
+      98
+    ],
+    "2011–2014.": [
+      100
+    ],
+    "compared": [
+      102,
+      163
+    ],
+    "both": [
+      106,
+      165
+    ],
+    "nonparticipants": [
+      111
+    ],
+    "using": [
+      112
+    ],
+    "official": [
+      113
+    ],
+    "statistics": [
+      114,
+      122
+    ],
+    "short": [
+      116
+    ],
+    "questionnaire": [
+      117
+    ],
+    "data.": [
+      118
+    ],
+    "applied": [
+      120
+    ],
+    "descriptive": [
+      121
+    ],
+    "logistic": [
+      124
+    ],
+    "regression": [
+      125
+    ],
+    "analysis": [
+      126
+    ],
+    "evaluate": [
+      128
+    ],
+    "participation.": [
+      133
+    ],
+    "Thirty-one": [
+      134
+    ],
+    "percent": [
+      135
+    ],
+    "invited": [
+      138
+    ],
+    "persons": [
+      139
+    ],
+    "participated": [
+      140
+    ],
+    "examination.": [
+      145
+    ],
+    "Study": [
+      146
+    ],
+    "less": [
+      149,
+      273
+    ],
+    "often": [
+      150,
+      155
+    ],
+    "elderly": [
+      151
+    ],
+    "women": [
+      152
+    ],
+    "more": [
+      154
+    ],
+    "married,": [
+      156
+    ],
+    "highly": [
+      157
+    ],
+    "educated,": [
+      158
+    ],
+    "employed,": [
+      159
+    ],
+    "current": [
+      161
+    ],
+    "nonsmokers": [
+      162
+    ],
+    "nonparticipants.": [
+      170,
+      177,
+      228
+    ],
+    "They": [
+      171,
+      188
+    ],
+    "further": [
+      172
+    ],
+    "reported": [
+      173
+    ],
+    "better": [
+      174
+    ],
+    "health": [
+      175,
+      186,
+      237,
+      278,
+      290,
+      323
+    ],
+    "than": [
+      176,
+      194
+    ],
+    "The": [
+      178,
+      311
+    ],
+    "observed": [
+      179
+    ],
+    "differences": [
+      180
+    ],
+    "considerable": [
+      182
+    ],
+    "education": [
+      184,
+      209,
+      276
+    ],
+    "variables.": [
+      187
+    ],
+    "generally": [
+      190
+    ],
+    "stronger": [
+      191
+    ],
+    "men": [
+      193
+    ],
+    "women.": [
+      196
+    ],
+    "For": [
+      197
+    ],
+    "example,": [
+      198
+    ],
+    "male": [
+      200
+    ],
+    "50–69,": [
+      204
+    ],
+    "frequency": [
+      206,
+      220
+    ],
+    "high": [
+      208
+    ],
+    "was": [
+      210,
+      224
+    ],
+    "1.5": [
+      211
+    ],
+    "times": [
+      212
+    ],
+    "population,": [
+      217
+    ],
+    "myocardial": [
+      222
+    ],
+    "infarction": [
+      223
+    ],
+    "half": [
+      225
+    ],
+    "Lack": [
+      229
+    ],
+    "time": [
+      231
+    ],
+    "interest,": [
+      233
+    ],
+    "as": [
+      234,
+      236
+    ],
+    "well": [
+      235
+    ],
+    "problems": [
+      238,
+      324
+    ],
+    "main": [
+      241
+    ],
+    "Our": [
+      245
+    ],
+    "investigation": [
+      246
+    ],
+    "suggests": [
+      247
+    ],
+    "associated": [
+      256
+    ],
+    "typical": [
+      259
+    ],
+    "higher": [
+      265
+    ],
+    "social": [
+      266
+    ],
+    "status": [
+      267,
+      279
+    ],
+    "healthier": [
+      269
+    ],
+    "lifestyle,": [
+      270
+    ],
+    "additionally": [
+      272
+    ],
+    "disease.": [
+      274
+    ],
+    "Notably,": [
+      275
+    ],
+    "seem": [
+      280
+    ],
+    "be": [
+      282,
+      298,
+      331
+    ],
+    "crucial": [
+      283
+    ],
+    "factors.": [
+      285
+    ],
+    "Consequently,": [
+      286
+    ],
+    "frequencies": [
+      287
+    ],
+    "major": [
+      289
+    ],
+    "conditions": [
+      291
+    ],
+    "will": [
+      296
+    ],
+    "likely": [
+      297
+    ],
+    "underestimated.": [
+      299
+    ],
+    "A": [
+      300
+    ],
+    "differential": [
+      301
+    ],
+    "related": [
+      303
+    ],
+    "sex": [
+      305
+    ],
+    "might": [
+      306
+    ],
+    "also": [
+      307
+    ],
+    "distort": [
+      308
+    ],
+    "effect": [
+      309
+    ],
+    "estimates.": [
+      310
+    ],
+    "extent": [
+      312
+    ],
+    "assessment,": [
+      315
+    ],
+    "interest": [
+      317
+    ],
+    "research": [
+      320
+    ],
+    "topic,": [
+      321
+    ],
+    "should": [
+      328
+    ],
+    "future": [
+      330
+    ],
+    "considered": [
+      332
+    ],
+    "similar": [
+      337
+    ],
+    "raise": [
+      340
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2954782389",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-12T05:37:08.608053",
+  "created_date": "2019-07-12"
+}

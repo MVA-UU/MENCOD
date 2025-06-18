@@ -1,0 +1,729 @@
+{
+  "id": "https://openalex.org/W2072500831",
+  "doi": "https://doi.org/10.3758/brm.41.4.1149",
+  "title": "Statistical power analyses using G*Power 3.1: Tests for correlation and regression analyses",
+  "display_name": "Statistical power analyses using G*Power 3.1: Tests for correlation and regression analyses",
+  "publication_year": 2009,
+  "publication_date": "2009-11-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2072500831",
+    "doi": "https://doi.org/10.3758/brm.41.4.1149",
+    "mag": "2072500831",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19897823"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3758/brm.41.4.1149",
+    "pdf_url": "https://link.springer.com/content/pdf/10.3758/BRM.41.4.1149.pdf",
+    "source": {
+      "id": "https://openalex.org/S137478622",
+      "display_name": "Behavior Research Methods",
+      "issn_l": "1554-351X",
+      "issn": [
+        "1554-351X",
+        "1554-3528"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310319900"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "Springer Science+Business Media"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://link.springer.com/content/pdf/10.3758/BRM.41.4.1149.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5035299523",
+        "display_name": "Franz Faul",
+        "orcid": "https://orcid.org/0000-0002-7158-2920"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32021983",
+          "display_name": "Kiel University",
+          "ror": "https://ror.org/04v76ef78",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I32021983"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Franz Faul",
+      "raw_affiliation_strings": [
+        "Institut für Psychologie, Christian-Albrechts-Universität, Kiel, Germany."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut für Psychologie, Christian-Albrechts-Universität, Kiel, Germany.",
+          "institution_ids": [
+            "https://openalex.org/I32021983"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041210487",
+        "display_name": "Edgar Erdfelder",
+        "orcid": "https://orcid.org/0000-0003-1032-3981"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I177802217",
+          "display_name": "University of Mannheim",
+          "ror": "https://ror.org/031bsb921",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I177802217"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Edgar Erdfelder",
+      "raw_affiliation_strings": [
+        "Lehrstuhl für Psychologie III, Universität Mannheim, Mannheim, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lehrstuhl für Psychologie III, Universität Mannheim, Mannheim, Germany",
+          "institution_ids": [
+            "https://openalex.org/I177802217"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000202082",
+        "display_name": "Axel Buchner",
+        "orcid": "https://orcid.org/0000-0003-4529-3444"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Axel Buchner",
+      "raw_affiliation_strings": [
+        "Heinrich-Heine-Universitat, dusseldorf, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Heinrich-Heine-Universitat, dusseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I44260953"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5073193174",
+        "display_name": "Albert-Georg Lang",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Albert-Georg Lang",
+      "raw_affiliation_strings": [
+        "Heinrich-Heine-Universitat, dusseldorf, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Heinrich-Heine-Universitat, dusseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I44260953"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2790,
+    "currency": "EUR",
+    "value_usd": 3590
+  },
+  "apc_paid": null,
+  "fwci": 159.652,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 29142,
+  "citation_normalized_percentile": {
+    "value": 0.999771,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "41",
+    "issue": "4",
+    "first_page": "1149",
+    "last_page": "1160"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10243",
+    "display_name": "Statistical Methods and Bayesian Inference",
+    "score": 0.9838,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.9838,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11871",
+      "display_name": "Advanced Statistical Methods and Models",
+      "score": 0.94,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12114",
+      "display_name": "Sensory Analysis and Statistical Methods",
+      "score": 0.9324,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/regression-diagnostic",
+      "display_name": "Regression diagnostic",
+      "score": 0.5178347
+    },
+    {
+      "id": "https://openalex.org/keywords/statistical-power",
+      "display_name": "Statistical power",
+      "score": 0.43818128
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.6949989
+    },
+    {
+      "id": "https://openalex.org/C64341305",
+      "wikidata": "https://www.wikidata.org/wiki/Q4919225",
+      "display_name": "Bivariate analysis",
+      "level": 2,
+      "score": 0.6088419
+    },
+    {
+      "id": "https://openalex.org/C48921125",
+      "wikidata": "https://www.wikidata.org/wiki/Q10861030",
+      "display_name": "Linear regression",
+      "level": 2,
+      "score": 0.6041873
+    },
+    {
+      "id": "https://openalex.org/C151956035",
+      "wikidata": "https://www.wikidata.org/wiki/Q1132755",
+      "display_name": "Logistic regression",
+      "level": 2,
+      "score": 0.56157833
+    },
+    {
+      "id": "https://openalex.org/C152877465",
+      "wikidata": "https://www.wikidata.org/wiki/Q208042",
+      "display_name": "Regression analysis",
+      "level": 2,
+      "score": 0.5607782
+    },
+    {
+      "id": "https://openalex.org/C57381214",
+      "wikidata": "https://www.wikidata.org/wiki/Q55631393",
+      "display_name": "Regression diagnostic",
+      "level": 4,
+      "score": 0.5178347
+    },
+    {
+      "id": "https://openalex.org/C32224588",
+      "wikidata": "https://www.wikidata.org/wiki/Q7250175",
+      "display_name": "Proper linear model",
+      "level": 4,
+      "score": 0.49775556
+    },
+    {
+      "id": "https://openalex.org/C73269764",
+      "wikidata": "https://www.wikidata.org/wiki/Q954529",
+      "display_name": "Poisson regression",
+      "level": 3,
+      "score": 0.48127168
+    },
+    {
+      "id": "https://openalex.org/C35519122",
+      "wikidata": "https://www.wikidata.org/wiki/Q3775699",
+      "display_name": "Segmented regression",
+      "level": 4,
+      "score": 0.46607423
+    },
+    {
+      "id": "https://openalex.org/C83546350",
+      "wikidata": "https://www.wikidata.org/wiki/Q1139051",
+      "display_name": "Regression",
+      "level": 2,
+      "score": 0.45512316
+    },
+    {
+      "id": "https://openalex.org/C96608239",
+      "wikidata": "https://www.wikidata.org/wiki/Q1199823",
+      "display_name": "Statistical power",
+      "level": 2,
+      "score": 0.43818128
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.40667465
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.3705668
+    },
+    {
+      "id": "https://openalex.org/C120068334",
+      "wikidata": "https://www.wikidata.org/wiki/Q45343",
+      "display_name": "Polynomial regression",
+      "level": 3,
+      "score": 0.30500555
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003627",
+      "descriptor_name": "Data Interpretation, Statistical",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012984",
+      "descriptor_name": "Software",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000465",
+      "descriptor_name": "Algorithms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016014",
+      "descriptor_name": "Linear Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012044",
+      "descriptor_name": "Regression Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3758/brm.41.4.1149",
+      "pdf_url": "https://link.springer.com/content/pdf/10.3758/BRM.41.4.1149.pdf",
+      "source": {
+        "id": "https://openalex.org/S137478622",
+        "display_name": "Behavior Research Methods",
+        "issn_l": "1554-351X",
+        "issn": [
+          "1554-351X",
+          "1554-3528"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310319900"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "Springer Science+Business Media"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/11323/2160",
+      "pdf_url": "https://repositorio.cuc.edu.co/bitstream/11323/2160/1/El%20efecto%20condicional%20indirecto%20de%20la%20expectativa.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402641",
+        "display_name": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I4383465926",
+        "host_organization_name": "LA Referencia",
+        "host_organization_lineage": [
+          "https://openalex.org/I4383465926"
+        ],
+        "host_organization_lineage_names": [
+          "LA Referencia"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19897823",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3758/brm.41.4.1149",
+    "pdf_url": "https://link.springer.com/content/pdf/10.3758/BRM.41.4.1149.pdf",
+    "source": {
+      "id": "https://openalex.org/S137478622",
+      "display_name": "Behavior Research Methods",
+      "issn_l": "1554-351X",
+      "issn": [
+        "1554-351X",
+        "1554-3528"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310319900"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "Springer Science+Business Media"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 39,
+  "referenced_works": [
+    "https://openalex.org/W1536791815",
+    "https://openalex.org/W1819389380",
+    "https://openalex.org/W1968276016",
+    "https://openalex.org/W1976841572",
+    "https://openalex.org/W1978607013",
+    "https://openalex.org/W1984684068",
+    "https://openalex.org/W1988086176",
+    "https://openalex.org/W1991392196",
+    "https://openalex.org/W1993911835",
+    "https://openalex.org/W1996634610",
+    "https://openalex.org/W2010002759",
+    "https://openalex.org/W2012202933",
+    "https://openalex.org/W2014461446",
+    "https://openalex.org/W2024369974",
+    "https://openalex.org/W2037124948",
+    "https://openalex.org/W2062996902",
+    "https://openalex.org/W2068519612",
+    "https://openalex.org/W2068974024",
+    "https://openalex.org/W2075414463",
+    "https://openalex.org/W2087484885",
+    "https://openalex.org/W2097137621",
+    "https://openalex.org/W2106345891",
+    "https://openalex.org/W2107031757",
+    "https://openalex.org/W2116318753",
+    "https://openalex.org/W2122517286",
+    "https://openalex.org/W2141772405",
+    "https://openalex.org/W2149277880",
+    "https://openalex.org/W2155048419",
+    "https://openalex.org/W2159401492",
+    "https://openalex.org/W2162337436",
+    "https://openalex.org/W2163633221",
+    "https://openalex.org/W2329684795",
+    "https://openalex.org/W2560209713",
+    "https://openalex.org/W3022899262",
+    "https://openalex.org/W4242742841",
+    "https://openalex.org/W4254471454",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W4298058714",
+    "https://openalex.org/W4300870773"
+  ],
+  "related_works": [
+    "https://openalex.org/W623416330",
+    "https://openalex.org/W600390644",
+    "https://openalex.org/W4249387689",
+    "https://openalex.org/W4238233914",
+    "https://openalex.org/W4210660526",
+    "https://openalex.org/W2886532972",
+    "https://openalex.org/W267133670",
+    "https://openalex.org/W1685088304",
+    "https://openalex.org/W1572035581",
+    "https://openalex.org/W1523442101"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2072500831",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1778
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4274
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4028
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3908
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3626
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2674
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2003
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1491
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1148
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1044
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 930
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 707
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 594
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 399
+    }
+  ],
+  "updated_date": "2025-06-12T20:58:43.964058",
+  "created_date": "2016-06-24"
+}

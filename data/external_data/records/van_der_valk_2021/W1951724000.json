@@ -1,0 +1,1120 @@
+{
+  "id": "https://openalex.org/W1951724000",
+  "doi": "https://doi.org/10.18637/jss.v067.i01",
+  "title": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+  "display_name": "Fitting Linear Mixed-Effects Models Using<b>lme4</b>",
+  "publication_year": 2015,
+  "publication_date": "2015-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1951724000",
+    "doi": "https://doi.org/10.18637/jss.v067.i01",
+    "mag": "1951724000"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.18637/jss.v067.i01",
+    "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+    "source": {
+      "id": "https://openalex.org/S167961193",
+      "display_name": "Journal of Statistical Software",
+      "issn_l": "1548-7660",
+      "issn": [
+        "1548-7660"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315759",
+      "host_organization_name": "Foundation for Open Access Statistics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315759"
+      ],
+      "host_organization_lineage_names": [
+        "Foundation for Open Access Statistics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5018754372",
+        "display_name": "Douglas M. Bates",
+        "orcid": "https://orcid.org/0000-0001-8316-9503"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Douglas Bates",
+      "raw_affiliation_strings": [
+        "University of Wisconsin-Madison"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Wisconsin-Madison",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041484206",
+        "display_name": "Martin Mächler",
+        "orcid": "https://orcid.org/0000-0002-8685-9910"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35440088",
+          "display_name": "ETH Zurich",
+          "ror": "https://ror.org/05a28rw58",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Martin Mächler",
+      "raw_affiliation_strings": [
+        "ETH Zurich"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "ETH Zurich",
+          "institution_ids": [
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021063042",
+        "display_name": "Benjamin M. Bolker",
+        "orcid": "https://orcid.org/0000-0002-2127-0443"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98251732",
+          "display_name": "McMaster University",
+          "ror": "https://ror.org/02fa3aq29",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ben Bolker",
+      "raw_affiliation_strings": [
+        "McMaster University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McMaster University",
+          "institution_ids": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5043596018",
+        "display_name": "Steve Walker",
+        "orcid": "https://orcid.org/0000-0002-6838-8334"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98251732",
+          "display_name": "McMaster University",
+          "ror": "https://ror.org/02fa3aq29",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steve Walker",
+      "raw_affiliation_strings": [
+        "McMaster University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McMaster University",
+          "institution_ids": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 0,
+    "currency": "USD",
+    "value_usd": 0
+  },
+  "apc_paid": null,
+  "fwci": 3413.23,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 70789,
+  "citation_normalized_percentile": {
+    "value": 0.999968,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "67",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13398",
+    "display_name": "Data Analysis with R",
+    "score": 0.9906,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13398",
+      "display_name": "Data Analysis with R",
+      "score": 0.9906,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.9732,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13283",
+      "display_name": "Mental Health Research Topics",
+      "score": 0.9253,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/restricted-maximum-likelihood",
+      "display_name": "Restricted maximum likelihood",
+      "score": 0.85227036
+    },
+    {
+      "id": "https://openalex.org/keywords/deviance",
+      "display_name": "Deviance",
+      "score": 0.8236296
+    },
+    {
+      "id": "https://openalex.org/keywords/mixed-model",
+      "display_name": "Mixed model",
+      "score": 0.62478036
+    },
+    {
+      "id": "https://openalex.org/keywords/smoothing",
+      "display_name": "Smoothing",
+      "score": 0.5928418
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C61420037",
+      "wikidata": "https://www.wikidata.org/wiki/Q7316301",
+      "display_name": "Restricted maximum likelihood",
+      "level": 3,
+      "score": 0.85227036
+    },
+    {
+      "id": "https://openalex.org/C177599991",
+      "wikidata": "https://www.wikidata.org/wiki/Q3706279",
+      "display_name": "Deviance (statistics)",
+      "level": 2,
+      "score": 0.8236296
+    },
+    {
+      "id": "https://openalex.org/C16012445",
+      "wikidata": "https://www.wikidata.org/wiki/Q1501135",
+      "display_name": "Mixed model",
+      "level": 2,
+      "score": 0.62478036
+    },
+    {
+      "id": "https://openalex.org/C3770464",
+      "wikidata": "https://www.wikidata.org/wiki/Q775963",
+      "display_name": "Smoothing",
+      "level": 2,
+      "score": 0.5928418
+    },
+    {
+      "id": "https://openalex.org/C28826006",
+      "wikidata": "https://www.wikidata.org/wiki/Q33521",
+      "display_name": "Applied mathematics",
+      "level": 1,
+      "score": 0.5896174
+    },
+    {
+      "id": "https://openalex.org/C89106044",
+      "wikidata": "https://www.wikidata.org/wiki/Q45284",
+      "display_name": "Likelihood function",
+      "level": 3,
+      "score": 0.5652657
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5637896
+    },
+    {
+      "id": "https://openalex.org/C41587187",
+      "wikidata": "https://www.wikidata.org/wiki/Q1501882",
+      "display_name": "Generalized linear model",
+      "level": 2,
+      "score": 0.56080073
+    },
+    {
+      "id": "https://openalex.org/C163175372",
+      "wikidata": "https://www.wikidata.org/wiki/Q3339222",
+      "display_name": "Linear model",
+      "level": 2,
+      "score": 0.5183745
+    },
+    {
+      "id": "https://openalex.org/C49781872",
+      "wikidata": "https://www.wikidata.org/wiki/Q1045555",
+      "display_name": "Maximum likelihood",
+      "level": 2,
+      "score": 0.4974828
+    },
+    {
+      "id": "https://openalex.org/C153720581",
+      "wikidata": "https://www.wikidata.org/wiki/Q5532490",
+      "display_name": "Generalized linear mixed model",
+      "level": 2,
+      "score": 0.49665934
+    },
+    {
+      "id": "https://openalex.org/C119043178",
+      "wikidata": "https://www.wikidata.org/wiki/Q320723",
+      "display_name": "Covariate",
+      "level": 2,
+      "score": 0.4778599
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.4247533
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.3727944
+    },
+    {
+      "id": "https://openalex.org/C126255220",
+      "wikidata": "https://www.wikidata.org/wiki/Q141495",
+      "display_name": "Mathematical optimization",
+      "level": 1,
+      "score": 0.36725032
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.3670959
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.18637/jss.v067.i01",
+      "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+      "source": {
+        "id": "https://openalex.org/S167961193",
+        "display_name": "Journal of Statistical Software",
+        "issn_l": "1548-7660",
+        "issn": [
+          "1548-7660"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315759",
+        "host_organization_name": "Foundation for Open Access Statistics",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315759"
+        ],
+        "host_organization_lineage_names": [
+          "Foundation for Open Access Statistics"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/7f279483412348928f01507440b0360d",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/2027.42/146808",
+      "pdf_url": "http://deepblue.lib.umich.edu/bitstream/2027.42/146808/2/desc12702.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400393",
+        "display_name": "Deep Blue (University of Michigan)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I27837315",
+        "host_organization_name": "University of Michigan",
+        "host_organization_lineage": [
+          "https://openalex.org/I27837315"
+        ],
+        "host_organization_lineage_names": [
+          "University of Michigan"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "http://arxiv.org/abs/1406.5823",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.18637/jss.v067.i01",
+    "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v067i01/v67i01.pdf",
+    "source": {
+      "id": "https://openalex.org/S167961193",
+      "display_name": "Journal of Statistical Software",
+      "issn_l": "1548-7660",
+      "issn": [
+        "1548-7660"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315759",
+      "host_organization_name": "Foundation for Open Access Statistics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315759"
+      ],
+      "host_organization_lineage_names": [
+        "Foundation for Open Access Statistics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 46,
+  "referenced_works": [
+    "https://openalex.org/W1231265883",
+    "https://openalex.org/W1520511539",
+    "https://openalex.org/W1549371580",
+    "https://openalex.org/W1587094587",
+    "https://openalex.org/W1756240476",
+    "https://openalex.org/W1770100412",
+    "https://openalex.org/W1864722563",
+    "https://openalex.org/W1967282477",
+    "https://openalex.org/W1972790352",
+    "https://openalex.org/W1981457167",
+    "https://openalex.org/W1981747359",
+    "https://openalex.org/W1983955927",
+    "https://openalex.org/W1991769471",
+    "https://openalex.org/W2018089423",
+    "https://openalex.org/W2033623507",
+    "https://openalex.org/W2045656233",
+    "https://openalex.org/W2068047481",
+    "https://openalex.org/W2070779353",
+    "https://openalex.org/W2082246284",
+    "https://openalex.org/W2089024363",
+    "https://openalex.org/W2094761105",
+    "https://openalex.org/W2097879961",
+    "https://openalex.org/W2100128674",
+    "https://openalex.org/W2105208711",
+    "https://openalex.org/W2129731748",
+    "https://openalex.org/W2145147745",
+    "https://openalex.org/W2149719430",
+    "https://openalex.org/W2149851338",
+    "https://openalex.org/W2155382668",
+    "https://openalex.org/W2165693128",
+    "https://openalex.org/W2172199324",
+    "https://openalex.org/W2413573154",
+    "https://openalex.org/W2500756573",
+    "https://openalex.org/W2582743722",
+    "https://openalex.org/W2798510847",
+    "https://openalex.org/W3031689935",
+    "https://openalex.org/W3086315876",
+    "https://openalex.org/W348255556",
+    "https://openalex.org/W4248681815",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W4302067479",
+    "https://openalex.org/W4323359902",
+    "https://openalex.org/W4399526077",
+    "https://openalex.org/W4399568367",
+    "https://openalex.org/W4399638382",
+    "https://openalex.org/W4399638802"
+  ],
+  "related_works": [
+    "https://openalex.org/W4206244409",
+    "https://openalex.org/W2500362368",
+    "https://openalex.org/W2356286374",
+    "https://openalex.org/W2347384281",
+    "https://openalex.org/W2322067643",
+    "https://openalex.org/W225107685",
+    "https://openalex.org/W2142192359",
+    "https://openalex.org/W2100627777",
+    "https://openalex.org/W2048941127",
+    "https://openalex.org/W1973145724"
+  ],
+  "abstract_inverted_index": {
+    "Maximum": [
+      0
+    ],
+    "likelihood": [
+      1,
+      5
+    ],
+    "or": [
+      2,
+      72,
+      122,
+      130,
+      165
+    ],
+    "restricted": [
+      3
+    ],
+    "maximum": [
+      4
+    ],
+    "(REML)": [
+      6
+    ],
+    "estimates": [
+      7
+    ],
+    "of": [
+      8,
+      64,
+      83,
+      85,
+      96,
+      112,
+      128,
+      144
+    ],
+    "the": [
+      9,
+      19,
+      23,
+      35,
+      65,
+      69,
+      73,
+      86,
+      97,
+      105,
+      110,
+      113,
+      115,
+      119,
+      126,
+      174
+    ],
+    "parameters": [
+      10
+    ],
+    "in": [
+      11,
+      22,
+      33,
+      39,
+      46,
+      101,
+      117,
+      173
+    ],
+    "linear": [
+      12,
+      157
+    ],
+    "mixed-effects": [
+      13
+    ],
+    "models": [
+      14,
+      162
+    ],
+    "can": [
+      15,
+      77
+    ],
+    "be": [
+      16,
+      78
+    ],
+    "determined": [
+      17
+    ],
+    "using": [
+      18,
+      94
+    ],
+    "lmer": [
+      20,
+      41
+    ],
+    "function": [
+      21,
+      82
+    ],
+    "lme4": [
+      24
+    ],
+    "package": [
+      25
+    ],
+    "for": [
+      26,
+      29
+    ],
+    "R.": [
+      27
+    ],
+    "As": [
+      28
+    ],
+    "most": [
+      30
+    ],
+    "model-fitting": [
+      31
+    ],
+    "functions": [
+      32,
+      100,
+      153
+    ],
+    "R,": [
+      34,
+      102
+    ],
+    "model": [
+      36,
+      66,
+      87
+    ],
+    "is": [
+      37,
+      92,
+      139
+    ],
+    "described": [
+      38
+    ],
+    "an": [
+      40
+    ],
+    "call": [
+      42
+    ],
+    "by": [
+      43,
+      147,
+      178
+    ],
+    "a": [
+      44,
+      61,
+      81,
+      135
+    ],
+    "formula,": [
+      45
+    ],
+    "this": [
+      47
+    ],
+    "case": [
+      48
+    ],
+    "including": [
+      49
+    ],
+    "both": [
+      50
+    ],
+    "fixed-": [
+      51
+    ],
+    "and": [
+      52,
+      57,
+      125
+    ],
+    "random-effects": [
+      53
+    ],
+    "terms.": [
+      54
+    ],
+    "The": [
+      55,
+      89
+    ],
+    "formula": [
+      56,
+      175
+    ],
+    "data": [
+      58
+    ],
+    "together": [
+      59
+    ],
+    "determine": [
+      60
+    ],
+    "numerical": [
+      62
+    ],
+    "representation": [
+      63
+    ],
+    "from": [
+      67
+    ],
+    "which": [
+      68
+    ],
+    "profiled": [
+      70,
+      74,
+      120
+    ],
+    "deviance": [
+      71,
+      121
+    ],
+    "REML": [
+      75,
+      123
+    ],
+    "criterion": [
+      76,
+      91
+    ],
+    "evaluated": [
+      79
+    ],
+    "as": [
+      80,
+      161
+    ],
+    "some": [
+      84
+    ],
+    "parameters.": [
+      88
+    ],
+    "appropriate": [
+      90
+    ],
+    "optimized,": [
+      93
+    ],
+    "one": [
+      95
+    ],
+    "constrained": [
+      98
+    ],
+    "optimization": [
+      99
+    ],
+    "to": [
+      103,
+      141,
+      151,
+      154
+    ],
+    "provide": [
+      104
+    ],
+    "parameter": [
+      106
+    ],
+    "estimates.": [
+      107
+    ],
+    "We": [
+      108
+    ],
+    "describe": [
+      109
+    ],
+    "structure": [
+      111,
+      127
+    ],
+    "model,": [
+      114
+    ],
+    "steps": [
+      116
+    ],
+    "evaluating": [
+      118
+    ],
+    "criterion,": [
+      124
+    ],
+    "classes": [
+      129
+    ],
+    "types": [
+      131
+    ],
+    "that": [
+      132,
+      168
+    ],
+    "represents": [
+      133
+    ],
+    "such": [
+      134,
+      160
+    ],
+    "model.": [
+      136
+    ],
+    "Sufficient": [
+      137
+    ],
+    "detail": [
+      138
+    ],
+    "included": [
+      140
+    ],
+    "allow": [
+      142
+    ],
+    "specialization": [
+      143
+    ],
+    "these": [
+      145
+    ],
+    "structures": [
+      146
+    ],
+    "users": [
+      148
+    ],
+    "who": [
+      149
+    ],
+    "wish": [
+      150
+    ],
+    "write": [
+      152
+    ],
+    "fit": [
+      155
+    ],
+    "specialized": [
+      156
+    ],
+    "mixed": [
+      158
+    ],
+    "models,": [
+      159
+    ],
+    "incorporating": [
+      163
+    ],
+    "pedigrees": [
+      164
+    ],
+    "smoothing": [
+      166
+    ],
+    "splines,": [
+      167
+    ],
+    "are": [
+      169
+    ],
+    "not": [
+      170
+    ],
+    "easily": [
+      171
+    ],
+    "expressible": [
+      172
+    ],
+    "language": [
+      176
+    ],
+    "used": [
+      177
+    ],
+    "lmer.": [
+      179
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1951724000",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3819
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 10066
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 9663
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 9276
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 10358
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8594
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 6968
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5470
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3789
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1934
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 410
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 47
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 19
+    }
+  ],
+  "updated_date": "2025-06-13T10:40:48.598561",
+  "created_date": "2016-06-24"
+}

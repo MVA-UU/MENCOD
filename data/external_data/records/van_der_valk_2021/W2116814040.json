@@ -1,0 +1,962 @@
+{
+  "id": "https://openalex.org/W2116814040",
+  "doi": "https://doi.org/10.1146/annurev.psych.58.110405.085530",
+  "title": "Missing Data Analysis: Making It Work in the Real World",
+  "display_name": "Missing Data Analysis: Making It Work in the Real World",
+  "publication_year": 2008,
+  "publication_date": "2008-07-24",
+  "ids": {
+    "openalex": "https://openalex.org/W2116814040",
+    "doi": "https://doi.org/10.1146/annurev.psych.58.110405.085530",
+    "mag": "2116814040",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/18652544"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1146/annurev.psych.58.110405.085530",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S90670110",
+      "display_name": "Annual Review of Psychology",
+      "issn_l": "0066-4308",
+      "issn": [
+        "0066-4308",
+        "1545-2085"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320373",
+      "host_organization_name": "Annual Reviews",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320373"
+      ],
+      "host_organization_lineage_names": [
+        "Annual Reviews"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5103462934",
+        "display_name": "John W. Graham",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "John W. Graham",
+      "raw_affiliation_strings": [
+        "Department of Biobehavioral Health and the Prevention Research Center, The Pennsylvania State University, University Park, Pennsylvania 16802, USA. jgraham@psu.edu"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biobehavioral Health and the Prevention Research Center, The Pennsylvania State University, University Park, Pennsylvania 16802, USA. jgraham@psu.edu",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5103462934"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I130769515"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 16.332,
+  "has_fulltext": false,
+  "cited_by_count": 5581,
+  "citation_normalized_percentile": {
+    "value": 0.982143,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "60",
+    "issue": "1",
+    "first_page": "549",
+    "last_page": "576"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10243",
+    "display_name": "Statistical Methods and Bayesian Inference",
+    "score": 0.9996,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10136",
+      "display_name": "Statistical Methods and Inference",
+      "score": 0.9927,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10845",
+      "display_name": "Advanced Causal Inference Techniques",
+      "score": 0.9804,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/categorical-variable",
+      "display_name": "Categorical variable",
+      "score": 0.84985006
+    },
+    {
+      "id": "https://openalex.org/keywords/attrition",
+      "display_name": "Attrition",
+      "score": 0.8053858
+    },
+    {
+      "id": "https://openalex.org/keywords/imputation",
+      "display_name": "Imputation (statistics)",
+      "score": 0.74333197
+    },
+    {
+      "id": "https://openalex.org/keywords/sketch",
+      "display_name": "Sketch",
+      "score": 0.45430005
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C9357733",
+      "wikidata": "https://www.wikidata.org/wiki/Q6878417",
+      "display_name": "Missing data",
+      "level": 2,
+      "score": 0.9597293
+    },
+    {
+      "id": "https://openalex.org/C5274069",
+      "wikidata": "https://www.wikidata.org/wiki/Q2285707",
+      "display_name": "Categorical variable",
+      "level": 2,
+      "score": 0.84985006
+    },
+    {
+      "id": "https://openalex.org/C2780553607",
+      "wikidata": "https://www.wikidata.org/wiki/Q684868",
+      "display_name": "Attrition",
+      "level": 2,
+      "score": 0.8053858
+    },
+    {
+      "id": "https://openalex.org/C58041806",
+      "wikidata": "https://www.wikidata.org/wiki/Q1660484",
+      "display_name": "Imputation (statistics)",
+      "level": 3,
+      "score": 0.74333197
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.46624058
+    },
+    {
+      "id": "https://openalex.org/C2779231336",
+      "wikidata": "https://www.wikidata.org/wiki/Q7534724",
+      "display_name": "Sketch",
+      "level": 2,
+      "score": 0.45430005
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.45145214
+    },
+    {
+      "id": "https://openalex.org/C124101348",
+      "wikidata": "https://www.wikidata.org/wiki/Q172491",
+      "display_name": "Data mining",
+      "level": 1,
+      "score": 0.43641233
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.36082
+    },
+    {
+      "id": "https://openalex.org/C119857082",
+      "wikidata": "https://www.wikidata.org/wiki/Q2539",
+      "display_name": "Machine learning",
+      "level": 1,
+      "score": 0.20858324
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.17050895
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.08534372
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199343813",
+      "wikidata": "https://www.wikidata.org/wiki/Q12128",
+      "display_name": "Dentistry",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003625",
+      "descriptor_name": "Data Collection",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003627",
+      "descriptor_name": "Data Interpretation, Statistical",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011594",
+      "descriptor_name": "Psychometrics",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016000",
+      "descriptor_name": "Cluster Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003625",
+      "descriptor_name": "Data Collection",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016013",
+      "descriptor_name": "Likelihood Functions",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008137",
+      "descriptor_name": "Longitudinal Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015233",
+      "descriptor_name": "Models, Statistical",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011594",
+      "descriptor_name": "Psychometrics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012107",
+      "descriptor_name": "Research Design",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012107",
+      "descriptor_name": "Research Design",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1146/annurev.psych.58.110405.085530",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S90670110",
+        "display_name": "Annual Review of Psychology",
+        "issn_l": "0066-4308",
+        "issn": [
+          "0066-4308",
+          "1545-2085"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320373",
+        "host_organization_name": "Annual Reviews",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320373"
+        ],
+        "host_organization_lineage_names": [
+          "Annual Reviews"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/18652544",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 82,
+  "referenced_works": [
+    "https://openalex.org/W11423689",
+    "https://openalex.org/W1550443206",
+    "https://openalex.org/W1571998446",
+    "https://openalex.org/W1973907010",
+    "https://openalex.org/W1979370357",
+    "https://openalex.org/W1981131227",
+    "https://openalex.org/W1984945340",
+    "https://openalex.org/W1989062675",
+    "https://openalex.org/W1989356938",
+    "https://openalex.org/W1989972396",
+    "https://openalex.org/W1996464973",
+    "https://openalex.org/W1998331851",
+    "https://openalex.org/W2008958026",
+    "https://openalex.org/W2018365137",
+    "https://openalex.org/W2019391304",
+    "https://openalex.org/W2025159231",
+    "https://openalex.org/W2031668066",
+    "https://openalex.org/W2037608980",
+    "https://openalex.org/W2041197228",
+    "https://openalex.org/W2043340809",
+    "https://openalex.org/W2044089505",
+    "https://openalex.org/W2044758663",
+    "https://openalex.org/W2050762021",
+    "https://openalex.org/W2051811564",
+    "https://openalex.org/W2063946746",
+    "https://openalex.org/W2065262588",
+    "https://openalex.org/W2065641170",
+    "https://openalex.org/W2073000401",
+    "https://openalex.org/W2075231192",
+    "https://openalex.org/W2079031515",
+    "https://openalex.org/W2081883639",
+    "https://openalex.org/W2082675829",
+    "https://openalex.org/W2085652235",
+    "https://openalex.org/W2085816378",
+    "https://openalex.org/W2087640072",
+    "https://openalex.org/W2088671310",
+    "https://openalex.org/W2100358124",
+    "https://openalex.org/W2109049411",
+    "https://openalex.org/W2118502261",
+    "https://openalex.org/W2124181495",
+    "https://openalex.org/W2127841934",
+    "https://openalex.org/W2133494987",
+    "https://openalex.org/W2139122730",
+    "https://openalex.org/W2139972977",
+    "https://openalex.org/W2147234027",
+    "https://openalex.org/W2149608872",
+    "https://openalex.org/W2152977846",
+    "https://openalex.org/W2154637465",
+    "https://openalex.org/W2155971620",
+    "https://openalex.org/W2156267802",
+    "https://openalex.org/W2157808941",
+    "https://openalex.org/W2161414087",
+    "https://openalex.org/W2170674956",
+    "https://openalex.org/W2284358449",
+    "https://openalex.org/W2287211777",
+    "https://openalex.org/W2300881568",
+    "https://openalex.org/W2305916114",
+    "https://openalex.org/W2327327889",
+    "https://openalex.org/W2480221688",
+    "https://openalex.org/W2480680997",
+    "https://openalex.org/W2497171922",
+    "https://openalex.org/W2555765671",
+    "https://openalex.org/W2784954700",
+    "https://openalex.org/W2946594967",
+    "https://openalex.org/W3121539865",
+    "https://openalex.org/W3129711340",
+    "https://openalex.org/W3197494818",
+    "https://openalex.org/W415541256",
+    "https://openalex.org/W4205701142",
+    "https://openalex.org/W4231787122",
+    "https://openalex.org/W4235944319",
+    "https://openalex.org/W4240729109",
+    "https://openalex.org/W4242982642",
+    "https://openalex.org/W4245623214",
+    "https://openalex.org/W4246374159",
+    "https://openalex.org/W4249593981",
+    "https://openalex.org/W4251735453",
+    "https://openalex.org/W4256378689",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W4300187280",
+    "https://openalex.org/W568564792",
+    "https://openalex.org/W630566737"
+  ],
+  "related_works": [
+    "https://openalex.org/W4211215373",
+    "https://openalex.org/W3179858851",
+    "https://openalex.org/W3144172081",
+    "https://openalex.org/W3028371478",
+    "https://openalex.org/W2581984549",
+    "https://openalex.org/W2519761320",
+    "https://openalex.org/W2181530120",
+    "https://openalex.org/W2081476516",
+    "https://openalex.org/W2024529227",
+    "https://openalex.org/W1574575415"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "review": [
+      1
+    ],
+    "presents": [
+      2
+    ],
+    "a": [
+      3,
+      12,
+      119
+    ],
+    "practical": [
+      4
+    ],
+    "summary": [
+      5
+    ],
+    "of": [
+      6,
+      14,
+      20,
+      40,
+      78,
+      82,
+      121
+    ],
+    "the": [
+      7,
+      38,
+      70,
+      88,
+      96,
+      99
+    ],
+    "missing": [
+      8,
+      15,
+      30,
+      53,
+      71,
+      100,
+      142
+    ],
+    "data": [
+      9,
+      16,
+      31,
+      54,
+      63,
+      72,
+      101,
+      117,
+      127,
+      143
+    ],
+    "literature,": [
+      10
+    ],
+    "including": [
+      11,
+      67
+    ],
+    "sketch": [
+      13
+    ],
+    "theory": [
+      17
+    ],
+    "and": [
+      18,
+      25,
+      46,
+      61,
+      74,
+      84,
+      93,
+      125,
+      144
+    ],
+    "descriptions": [
+      19
+    ],
+    "normal-model": [
+      21,
+      65
+    ],
+    "multiple": [
+      22
+    ],
+    "imputation": [
+      23
+    ],
+    "(MI)": [
+      24
+    ],
+    "maximum": [
+      26
+    ],
+    "likelihood": [
+      27
+    ],
+    "methods.": [
+      28
+    ],
+    "Practical": [
+      29
+    ],
+    "analysis": [
+      32
+    ],
+    "issues": [
+      33
+    ],
+    "are": [
+      34,
+      50,
+      134
+    ],
+    "discussed,": [
+      35
+    ],
+    "most": [
+      36
+    ],
+    "notably": [
+      37
+    ],
+    "inclusion": [
+      39
+    ],
+    "auxiliary": [
+      41,
+      113
+    ],
+    "variables": [
+      42
+    ],
+    "for": [
+      43,
+      52,
+      90,
+      94,
+      107,
+      136
+    ],
+    "improving": [
+      44
+    ],
+    "power": [
+      45
+    ],
+    "reducing": [
+      47,
+      95,
+      108
+    ],
+    "bias.": [
+      48
+    ],
+    "Solutions": [
+      49
+    ],
+    "given": [
+      51,
+      135
+    ],
+    "challenges": [
+      55
+    ],
+    "such": [
+      56
+    ],
+    "as": [
+      57
+    ],
+    "handling": [
+      58,
+      75
+    ],
+    "longitudinal,": [
+      59
+    ],
+    "categorical,": [
+      60
+    ],
+    "clustered": [
+      62
+    ],
+    "with": [
+      64,
+      139
+    ],
+    "MI;": [
+      66
+    ],
+    "interactions": [
+      68
+    ],
+    "in": [
+      69
+    ],
+    "model;": [
+      73
+    ],
+    "large": [
+      76
+    ],
+    "numbers": [
+      77
+    ],
+    "variables.": [
+      79
+    ],
+    "The": [
+      80
+    ],
+    "discussion": [
+      81
+    ],
+    "attrition": [
+      83,
+      109
+    ],
+    "nonignorable": [
+      85
+    ],
+    "missingness": [
+      86
+    ],
+    "emphasizes": [
+      87
+    ],
+    "need": [
+      89
+    ],
+    "longitudinal": [
+      91
+    ],
+    "diagnostics": [
+      92
+    ],
+    "uncertainty": [
+      97
+    ],
+    "about": [
+      98
+    ],
+    "mechanism": [
+      102
+    ],
+    "under": [
+      103
+    ],
+    "attrition.": [
+      104,
+      145
+    ],
+    "Strategies": [
+      105
+    ],
+    "suggested": [
+      106
+    ],
+    "bias": [
+      110
+    ],
+    "include": [
+      111
+    ],
+    "using": [
+      112
+    ],
+    "variables,": [
+      114
+    ],
+    "collecting": [
+      115,
+      126
+    ],
+    "follow-up": [
+      116
+    ],
+    "on": [
+      118,
+      128,
+      141
+    ],
+    "sample": [
+      120
+    ],
+    "those": [
+      122
+    ],
+    "initially": [
+      123
+    ],
+    "missing,": [
+      124
+    ],
+    "intent": [
+      129
+    ],
+    "to": [
+      130
+    ],
+    "drop": [
+      131
+    ],
+    "out.": [
+      132
+    ],
+    "Suggestions": [
+      133
+    ],
+    "moving": [
+      137
+    ],
+    "forward": [
+      138
+    ],
+    "research": [
+      140
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2116814040",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 134
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 351
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 375
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 438
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 490
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 452
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 463
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 444
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 389
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 386
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 415
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 366
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 315
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 258
+    }
+  ],
+  "updated_date": "2025-06-13T00:11:50.237549",
+  "created_date": "2016-06-24"
+}

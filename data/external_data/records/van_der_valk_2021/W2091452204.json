@@ -1,0 +1,933 @@
+{
+  "id": "https://openalex.org/W2091452204",
+  "doi": "https://doi.org/10.1002/zoo.20091",
+  "title": "Meta-analytic review of the effects of enrichment on stereotypic behavior in zoo mammals",
+  "display_name": "Meta-analytic review of the effects of enrichment on stereotypic behavior in zoo mammals",
+  "publication_year": 2006,
+  "publication_date": "2006-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2091452204",
+    "doi": "https://doi.org/10.1002/zoo.20091",
+    "mag": "2091452204"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1002/zoo.20091",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S32366842",
+      "display_name": "Zoo Biology",
+      "issn_l": "0733-3188",
+      "issn": [
+        "0733-3188",
+        "1098-2361"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5089734523",
+        "display_name": "Amanda Shyne",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I12912129",
+          "display_name": "Northeastern University",
+          "ror": "https://ror.org/04t5xt781",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I12912129"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Amanda Shyne",
+      "raw_affiliation_strings": [
+        "Northeastern University, Psychology Department, 125 Nightingale Hall, Boston, MA 02115"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Northeastern University, Psychology Department, 125 Nightingale Hall, Boston, MA 02115",
+          "institution_ids": [
+            "https://openalex.org/I12912129"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5089734523"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I12912129"
+  ],
+  "apc_list": {
+    "value": 3550,
+    "currency": "USD",
+    "value_usd": 3550
+  },
+  "apc_paid": null,
+  "fwci": 4.443,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 172,
+  "citation_normalized_percentile": {
+    "value": 0.99957,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "25",
+    "issue": "4",
+    "first_page": "317",
+    "last_page": "337"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10838",
+    "display_name": "Animal Behavior and Welfare Studies",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3404",
+      "display_name": "Small Animals"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/34",
+      "display_name": "Veterinary"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10838",
+      "display_name": "Animal Behavior and Welfare Studies",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3404",
+        "display_name": "Small Animals"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/34",
+        "display_name": "Veterinary"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13435",
+      "display_name": "Animal and Plant Science Education",
+      "score": 0.9945,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10199",
+      "display_name": "Wildlife Ecology and Conservation",
+      "score": 0.9923,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/environmental-enrichment",
+      "display_name": "Environmental Enrichment",
+      "score": 0.6558997
+    },
+    {
+      "id": "https://openalex.org/keywords/value",
+      "display_name": "Value (mathematics)",
+      "score": 0.4682352
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.81862056
+    },
+    {
+      "id": "https://openalex.org/C53927964",
+      "wikidata": "https://www.wikidata.org/wiki/Q3054611",
+      "display_name": "Environmental enrichment",
+      "level": 2,
+      "score": 0.6558997
+    },
+    {
+      "id": "https://openalex.org/C95190672",
+      "wikidata": "https://www.wikidata.org/wiki/Q815382",
+      "display_name": "Meta-analysis",
+      "level": 2,
+      "score": 0.60742986
+    },
+    {
+      "id": "https://openalex.org/C140793950",
+      "wikidata": "https://www.wikidata.org/wiki/Q168091",
+      "display_name": "Animal science",
+      "level": 1,
+      "score": 0.5078383
+    },
+    {
+      "id": "https://openalex.org/C2776291640",
+      "wikidata": "https://www.wikidata.org/wiki/Q2912517",
+      "display_name": "Value (mathematics)",
+      "level": 2,
+      "score": 0.4682352
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.35565013
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.34744436
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.16199642
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.13019657
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.094653636
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1002/zoo.20091",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S32366842",
+        "display_name": "Zoo Biology",
+        "issn_l": "0733-3188",
+        "issn": [
+          "0733-3188",
+          "1098-2361"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life on land",
+      "id": "https://metadata.un.org/sdg/15",
+      "score": 0.65
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 63,
+  "referenced_works": [
+    "https://openalex.org/W103775544",
+    "https://openalex.org/W1505022644",
+    "https://openalex.org/W1562193183",
+    "https://openalex.org/W1589728983",
+    "https://openalex.org/W1601080250",
+    "https://openalex.org/W1627252703",
+    "https://openalex.org/W1810599716",
+    "https://openalex.org/W1964969912",
+    "https://openalex.org/W1972447075",
+    "https://openalex.org/W1978122935",
+    "https://openalex.org/W1979993371",
+    "https://openalex.org/W1986117492",
+    "https://openalex.org/W1999164824",
+    "https://openalex.org/W1999858993",
+    "https://openalex.org/W2002119162",
+    "https://openalex.org/W2005496563",
+    "https://openalex.org/W2007197183",
+    "https://openalex.org/W2016654385",
+    "https://openalex.org/W2021402632",
+    "https://openalex.org/W2022753190",
+    "https://openalex.org/W2024510334",
+    "https://openalex.org/W2025918050",
+    "https://openalex.org/W2026614401",
+    "https://openalex.org/W2044095988",
+    "https://openalex.org/W2046782353",
+    "https://openalex.org/W2049918410",
+    "https://openalex.org/W2053438685",
+    "https://openalex.org/W2053695931",
+    "https://openalex.org/W2056078657",
+    "https://openalex.org/W2057106378",
+    "https://openalex.org/W2061057263",
+    "https://openalex.org/W2061857509",
+    "https://openalex.org/W2064901416",
+    "https://openalex.org/W2074406792",
+    "https://openalex.org/W2075856248",
+    "https://openalex.org/W2081256414",
+    "https://openalex.org/W2084907923",
+    "https://openalex.org/W2087083347",
+    "https://openalex.org/W2088259247",
+    "https://openalex.org/W2089697599",
+    "https://openalex.org/W2092780177",
+    "https://openalex.org/W2099499332",
+    "https://openalex.org/W2102823763",
+    "https://openalex.org/W2109747954",
+    "https://openalex.org/W2115793348",
+    "https://openalex.org/W2121398117",
+    "https://openalex.org/W2123330730",
+    "https://openalex.org/W2131636588",
+    "https://openalex.org/W2135493959",
+    "https://openalex.org/W2136402036",
+    "https://openalex.org/W2146723294",
+    "https://openalex.org/W2149849042",
+    "https://openalex.org/W2335558338",
+    "https://openalex.org/W2490249308",
+    "https://openalex.org/W2505042010",
+    "https://openalex.org/W2732968704",
+    "https://openalex.org/W2734000307",
+    "https://openalex.org/W2797811632",
+    "https://openalex.org/W2953761627",
+    "https://openalex.org/W4301029050",
+    "https://openalex.org/W4315566993",
+    "https://openalex.org/W612372977",
+    "https://openalex.org/W648294619"
+  ],
+  "related_works": [
+    "https://openalex.org/W4386773001",
+    "https://openalex.org/W329903189",
+    "https://openalex.org/W2948472339",
+    "https://openalex.org/W2904674939",
+    "https://openalex.org/W2806634635",
+    "https://openalex.org/W2402716915",
+    "https://openalex.org/W1998738051",
+    "https://openalex.org/W1980602818",
+    "https://openalex.org/W1963570263",
+    "https://openalex.org/W158940743"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "meta-analysis": [
+      1
+    ],
+    "reports": [
+      2
+    ],
+    "the": [
+      3,
+      8,
+      34,
+      65,
+      70,
+      78,
+      83,
+      118,
+      136,
+      154,
+      181
+    ],
+    "effect": [
+      4,
+      55,
+      61,
+      88,
+      126
+    ],
+    "enrichment": [
+      5,
+      25,
+      79,
+      178
+    ],
+    "has": [
+      6
+    ],
+    "on": [
+      7,
+      171
+    ],
+    "occurrence": [
+      9
+    ],
+    "of": [
+      10,
+      24,
+      31,
+      39,
+      59,
+      120,
+      128,
+      138,
+      183
+    ],
+    "stereotypic": [
+      11,
+      75,
+      184
+    ],
+    "behavior": [
+      12,
+      76,
+      185
+    ],
+    "exhibited": [
+      13,
+      186
+    ],
+    "by": [
+      14,
+      44,
+      163,
+      187
+    ],
+    "captive": [
+      15
+    ],
+    "zoo": [
+      16,
+      191
+    ],
+    "mammals.": [
+      17
+    ],
+    "The": [
+      18,
+      47,
+      86,
+      95,
+      141
+    ],
+    "analysis": [
+      19,
+      48,
+      160
+    ],
+    "also": [
+      20
+    ],
+    "identifies": [
+      21
+    ],
+    "which": [
+      22,
+      29,
+      37
+    ],
+    "types": [
+      23,
+      38
+    ],
+    "are": [
+      26,
+      41,
+      161
+    ],
+    "most": [
+      27,
+      42
+    ],
+    "effective,": [
+      28
+    ],
+    "groups": [
+      30
+    ],
+    "animals": [
+      32,
+      71
+    ],
+    "benefit": [
+      33
+    ],
+    "most,": [
+      35
+    ],
+    "and": [
+      36,
+      101
+    ],
+    "stereotypes": [
+      40
+    ],
+    "affected": [
+      43
+    ],
+    "environmental": [
+      45
+    ],
+    "enrichment.": [
+      46
+    ],
+    "included": [
+      49
+    ],
+    "54": [
+      50
+    ],
+    "studies": [
+      51,
+      122,
+      164
+    ],
+    "that": [
+      52,
+      130,
+      148,
+      153,
+      165,
+      177
+    ],
+    "yielded": [
+      53
+    ],
+    "63": [
+      54
+    ],
+    "size": [
+      56,
+      89,
+      127
+    ],
+    "statistics.": [
+      57
+    ],
+    "Fifty-seven": [
+      58
+    ],
+    "sixty-three": [
+      60
+    ],
+    "sizes": [
+      62
+    ],
+    "went": [
+      63
+    ],
+    "in": [
+      64,
+      73,
+      82,
+      158,
+      167,
+      190
+    ],
+    "predicted": [
+      66
+    ],
+    "direction": [
+      67
+    ],
+    "(90%),": [
+      68
+    ],
+    "with": [
+      69
+    ],
+    "participating": [
+      72
+    ],
+    "less": [
+      74
+    ],
+    "during": [
+      77
+    ],
+    "condition": [
+      80
+    ],
+    "than": [
+      81
+    ],
+    "baseline": [
+      84
+    ],
+    "condition.": [
+      85
+    ],
+    "mean": [
+      87
+    ],
+    "(correlation": [
+      90
+    ],
+    "coefficient": [
+      91
+    ],
+    "r)": [
+      92
+    ],
+    "was": [
+      93,
+      105,
+      114,
+      145,
+      175
+    ],
+    "0.46.": [
+      94
+    ],
+    "combined": [
+      96,
+      125
+    ],
+    "P-value": [
+      97
+    ],
+    "using": [
+      98
+    ],
+    "both": [
+      99
+    ],
+    "fixed": [
+      100
+    ],
+    "random": [
+      102
+    ],
+    "effects": [
+      103
+    ],
+    "methods": [
+      104
+    ],
+    "reveled": [
+      106
+    ],
+    "to": [
+      107,
+      116,
+      134
+    ],
+    "be": [
+      108,
+      132
+    ],
+    "<0.0000001.": [
+      109
+    ],
+    "A": [
+      110
+    ],
+    "file": [
+      111,
+      142,
+      168
+    ],
+    "drawer": [
+      112,
+      143
+    ],
+    "N-value": [
+      113,
+      144
+    ],
+    "calculated": [
+      115
+    ],
+    "identify": [
+      117
+    ],
+    "number": [
+      119
+    ],
+    "unretrieved": [
+      121
+    ],
+    "(with": [
+      123
+    ],
+    "a": [
+      124
+    ],
+    "zero)": [
+      129
+    ],
+    "would": [
+      131
+    ],
+    "needed": [
+      133
+    ],
+    "nullify": [
+      135
+    ],
+    "results": [
+      137,
+      156,
+      173
+    ],
+    "this": [
+      139,
+      159
+    ],
+    "analysis.": [
+      140
+    ],
+    "1,726,": [
+      146
+    ],
+    "suggesting": [
+      147
+    ],
+    "it": [
+      149,
+      174
+    ],
+    "is": [
+      150
+    ],
+    "highly": [
+      151
+    ],
+    "unlikely": [
+      152
+    ],
+    "significant": [
+      155
+    ],
+    "reported": [
+      157
+    ],
+    "nullified": [
+      162
+    ],
+    "remain": [
+      166
+    ],
+    "drawers.": [
+      169
+    ],
+    "Based": [
+      170
+    ],
+    "these": [
+      172
+    ],
+    "concluded": [
+      176
+    ],
+    "substantially": [
+      179
+    ],
+    "reduces": [
+      180
+    ],
+    "frequency": [
+      182
+    ],
+    "mammals": [
+      188
+    ],
+    "living": [
+      189
+    ],
+    "environments.": [
+      192
+    ],
+    "Zoo": [
+      193
+    ],
+    "Biol": [
+      194
+    ],
+    "0:1–21,": [
+      195
+    ],
+    "2006.": [
+      196
+    ],
+    "©": [
+      197
+    ],
+    "2006": [
+      198
+    ],
+    "Wiley-Liss,": [
+      199
+    ],
+    "Inc.": [
+      200
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2091452204",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 13
+    }
+  ],
+  "updated_date": "2025-05-20T16:39:16.299083",
+  "created_date": "2016-06-24"
+}

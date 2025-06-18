@@ -1,0 +1,1445 @@
+{
+  "id": "https://openalex.org/W2142836135",
+  "doi": "https://doi.org/10.1038/msb.2010.18",
+  "title": "Metabolomic and transcriptomic stress response of <i>Escherichia coli</i>",
+  "display_name": "Metabolomic and transcriptomic stress response of <i>Escherichia coli</i>",
+  "publication_year": 2010,
+  "publication_date": "2010-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2142836135",
+    "doi": "https://doi.org/10.1038/msb.2010.18",
+    "mag": "2142836135",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/20461071",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2890322"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/msb.2010.18",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1038/msb.2010.18",
+    "source": {
+      "id": "https://openalex.org/S200893805",
+      "display_name": "Molecular Systems Biology",
+      "issn_l": "1744-4292",
+      "issn": [
+        "1744-4292"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-sa",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1038/msb.2010.18",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5048269906",
+        "display_name": "Szymon Jozefczuk",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I149899117",
+          "display_name": "Max Planck Society",
+          "ror": "https://ror.org/01hhn8329",
+          "country_code": "DE",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Szymon Jozefczuk",
+      "raw_affiliation_strings": [
+        "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany",
+          "institution_ids": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011896427",
+        "display_name": "Sebastian Klie",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I149899117",
+          "display_name": "Max Planck Society",
+          "ror": "https://ror.org/01hhn8329",
+          "country_code": "DE",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sebastian Klie",
+      "raw_affiliation_strings": [
+        "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany",
+          "institution_ids": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010318054",
+        "display_name": "Gareth Catchpole",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I149899117",
+          "display_name": "Max Planck Society",
+          "ror": "https://ror.org/01hhn8329",
+          "country_code": "DE",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gareth Catchpole",
+      "raw_affiliation_strings": [
+        "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany",
+          "institution_ids": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037827934",
+        "display_name": "Jędrzej Szymański",
+        "orcid": "https://orcid.org/0000-0003-1086-0920"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I149899117",
+          "display_name": "Max Planck Society",
+          "ror": "https://ror.org/01hhn8329",
+          "country_code": "DE",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jedrzej Szymanski",
+      "raw_affiliation_strings": [
+        "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany",
+          "institution_ids": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082407872",
+        "display_name": "Álvaro Cuadros‐Inostroza",
+        "orcid": "https://orcid.org/0009-0000-5979-2071"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I149899117",
+          "display_name": "Max Planck Society",
+          "ror": "https://ror.org/01hhn8329",
+          "country_code": "DE",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alvaro Cuadros‐Inostroza",
+      "raw_affiliation_strings": [
+        "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany",
+          "institution_ids": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5080471555",
+        "display_name": "Dirk Steinhauser",
+        "orcid": "https://orcid.org/0000-0001-7792-2896"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I149899117",
+          "display_name": "Max Planck Society",
+          "ror": "https://ror.org/01hhn8329",
+          "country_code": "DE",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dirk Steinhauser",
+      "raw_affiliation_strings": [
+        "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany",
+          "institution_ids": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034181383",
+        "display_name": "Joachim Selbig",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210105972",
+          "display_name": "Max Planck Institute of Molecular Plant Physiology",
+          "ror": "https://ror.org/01fbde567",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210105972"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I176453806",
+          "display_name": "University of Potsdam",
+          "ror": "https://ror.org/03bnmw459",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I176453806"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Joachim Selbig",
+      "raw_affiliation_strings": [
+        "Institute of Biochemistry and Biology, University of Potsdam, Potsdam, Germany",
+        "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology Potsdam-Golm Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology Potsdam-Golm Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210105972"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Biochemistry and Biology, University of Potsdam, Potsdam, Germany",
+          "institution_ids": [
+            "https://openalex.org/I176453806"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5077689736",
+        "display_name": "Lothar Willmitzer",
+        "orcid": "https://orcid.org/0000-0003-3297-825X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I149899117",
+          "display_name": "Max Planck Society",
+          "ror": "https://ror.org/01hhn8329",
+          "country_code": "DE",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lothar Willmitzer",
+      "raw_affiliation_strings": [
+        "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Plant Physiology, Max-Planck-Institute for Molecular Plant Physiology, Potsdam-Golm, Germany",
+          "institution_ids": [
+            "https://openalex.org/I149899117"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 5000,
+    "currency": "USD",
+    "value_usd": 5000
+  },
+  "apc_paid": {
+    "value": 5000,
+    "currency": "USD",
+    "value_usd": 5000
+  },
+  "fwci": 10.523,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 461,
+  "citation_normalized_percentile": {
+    "value": 0.999985,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "6",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10932",
+    "display_name": "Microbial Metabolic Engineering and Bioproduction",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10932",
+      "display_name": "Microbial Metabolic Engineering and Bioproduction",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10120",
+      "display_name": "Bacterial Genetics and Biotechnology",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10044",
+      "display_name": "Protein Structure and Dynamics",
+      "score": 0.9985,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/gene-regulatory-network",
+      "display_name": "Gene regulatory network",
+      "score": 0.43229908
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.8101042
+    },
+    {
+      "id": "https://openalex.org/C2777477808",
+      "wikidata": "https://www.wikidata.org/wiki/Q407595",
+      "display_name": "Metabolite",
+      "level": 2,
+      "score": 0.7256194
+    },
+    {
+      "id": "https://openalex.org/C21565614",
+      "wikidata": "https://www.wikidata.org/wiki/Q12149006",
+      "display_name": "Metabolomics",
+      "level": 2,
+      "score": 0.68825746
+    },
+    {
+      "id": "https://openalex.org/C547475151",
+      "wikidata": "https://www.wikidata.org/wiki/Q25419",
+      "display_name": "Escherichia coli",
+      "level": 3,
+      "score": 0.6724382
+    },
+    {
+      "id": "https://openalex.org/C162317418",
+      "wikidata": "https://www.wikidata.org/wiki/Q252857",
+      "display_name": "Transcriptome",
+      "level": 4,
+      "score": 0.581372
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.53922445
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.50912756
+    },
+    {
+      "id": "https://openalex.org/C139807058",
+      "wikidata": "https://www.wikidata.org/wiki/Q352374",
+      "display_name": "Adaptation (eye)",
+      "level": 2,
+      "score": 0.44002885
+    },
+    {
+      "id": "https://openalex.org/C67339327",
+      "wikidata": "https://www.wikidata.org/wiki/Q1502576",
+      "display_name": "Gene regulatory network",
+      "level": 4,
+      "score": 0.43229908
+    },
+    {
+      "id": "https://openalex.org/C165864922",
+      "wikidata": "https://www.wikidata.org/wiki/Q411391",
+      "display_name": "Regulation of gene expression",
+      "level": 3,
+      "score": 0.42598438
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.37627256
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.34410933
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.26632488
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.20439541
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.06304228
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D004926",
+      "descriptor_name": "Escherichia coli",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004926",
+      "descriptor_name": "Escherichia coli",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055432",
+      "descriptor_name": "Metabolomics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008954",
+      "descriptor_name": "Models, Biological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018384",
+      "descriptor_name": "Oxidative Stress",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004926",
+      "descriptor_name": "Escherichia coli",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020869",
+      "descriptor_name": "Gene Expression Profiling",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015964",
+      "descriptor_name": "Gene Expression Regulation, Bacterial",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005947",
+      "descriptor_name": "Glucose",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005947",
+      "descriptor_name": "Glucose",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018869",
+      "descriptor_name": "Heat-Shock Response",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007785",
+      "descriptor_name": "Lactose",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007785",
+      "descriptor_name": "Lactose",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053858",
+      "descriptor_name": "Metabolic Networks and Pathways",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049490",
+      "descriptor_name": "Systems Biology",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/msb.2010.18",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1038/msb.2010.18",
+      "source": {
+        "id": "https://openalex.org/S200893805",
+        "display_name": "Molecular Systems Biology",
+        "issn_l": "1744-4292",
+        "issn": [
+          "1744-4292"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2890322",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/20461071",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/msb.2010.18",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1038/msb.2010.18",
+    "source": {
+      "id": "https://openalex.org/S200893805",
+      "display_name": "Molecular Systems Biology",
+      "issn_l": "1744-4292",
+      "issn": [
+        "1744-4292"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-sa",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 53,
+  "referenced_works": [
+    "https://openalex.org/W1490790924",
+    "https://openalex.org/W1492266534",
+    "https://openalex.org/W1512810258",
+    "https://openalex.org/W1559869813",
+    "https://openalex.org/W1781531090",
+    "https://openalex.org/W1795675295",
+    "https://openalex.org/W1880944740",
+    "https://openalex.org/W1882966757",
+    "https://openalex.org/W1910268468",
+    "https://openalex.org/W1984628925",
+    "https://openalex.org/W1995945562",
+    "https://openalex.org/W2006317824",
+    "https://openalex.org/W2008687368",
+    "https://openalex.org/W2017578869",
+    "https://openalex.org/W2021524400",
+    "https://openalex.org/W2025341678",
+    "https://openalex.org/W2028979517",
+    "https://openalex.org/W2038613897",
+    "https://openalex.org/W2039160511",
+    "https://openalex.org/W2050162176",
+    "https://openalex.org/W2057015838",
+    "https://openalex.org/W2057395203",
+    "https://openalex.org/W2057808931",
+    "https://openalex.org/W2058546187",
+    "https://openalex.org/W2060539823",
+    "https://openalex.org/W2060811342",
+    "https://openalex.org/W2072669678",
+    "https://openalex.org/W2076983043",
+    "https://openalex.org/W2079269074",
+    "https://openalex.org/W2081790881",
+    "https://openalex.org/W2086934275",
+    "https://openalex.org/W2094708507",
+    "https://openalex.org/W2104488216",
+    "https://openalex.org/W2106249184",
+    "https://openalex.org/W2113711341",
+    "https://openalex.org/W2119711811",
+    "https://openalex.org/W2122598723",
+    "https://openalex.org/W2123728214",
+    "https://openalex.org/W2131025983",
+    "https://openalex.org/W2132048031",
+    "https://openalex.org/W2134701031",
+    "https://openalex.org/W2137683543",
+    "https://openalex.org/W2138840910",
+    "https://openalex.org/W2141650231",
+    "https://openalex.org/W2141891741",
+    "https://openalex.org/W2147488815",
+    "https://openalex.org/W2152274187",
+    "https://openalex.org/W2162314707",
+    "https://openalex.org/W2165015714",
+    "https://openalex.org/W2168503607",
+    "https://openalex.org/W2169559175",
+    "https://openalex.org/W2171654757",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W4387092964",
+    "https://openalex.org/W3128451840",
+    "https://openalex.org/W3084209502",
+    "https://openalex.org/W2966064480",
+    "https://openalex.org/W2380236774",
+    "https://openalex.org/W2277277196",
+    "https://openalex.org/W2103471012",
+    "https://openalex.org/W2010571965",
+    "https://openalex.org/W2002709996",
+    "https://openalex.org/W1988419672"
+  ],
+  "abstract_inverted_index": {
+    "Environmental": [
+      0
+    ],
+    "fluctuations": [
+      1
+    ],
+    "lead": [
+      2
+    ],
+    "to": [
+      3,
+      40,
+      57,
+      75,
+      125,
+      163
+    ],
+    "a": [
+      4,
+      59,
+      180
+    ],
+    "rapid": [
+      5,
+      150
+    ],
+    "adjustment": [
+      6
+    ],
+    "of": [
+      7,
+      10,
+      18,
+      29,
+      32,
+      144,
+      152,
+      160,
+      167,
+      182,
+      207
+    ],
+    "the": [
+      8,
+      19,
+      27,
+      49,
+      97,
+      102,
+      113,
+      121,
+      131,
+      138,
+      205
+    ],
+    "physiology": [
+      9
+    ],
+    "Escherichia": [
+      11
+    ],
+    "coli,": [
+      12
+    ],
+    "necessitating": [
+      13
+    ],
+    "changes": [
+      14
+    ],
+    "on": [
+      15,
+      63,
+      101,
+      133,
+      173
+    ],
+    "every": [
+      16
+    ],
+    "level": [
+      17,
+      65,
+      104
+    ],
+    "underlying": [
+      20
+    ],
+    "cellular": [
+      21
+    ],
+    "and": [
+      22,
+      85,
+      105,
+      118,
+      141,
+      169,
+      176,
+      188,
+      193,
+      202
+    ],
+    "molecular": [
+      23
+    ],
+    "network.": [
+      24
+    ],
+    "Thus": [
+      25
+    ],
+    "far,": [
+      26
+    ],
+    "majority": [
+      28
+    ],
+    "global": [
+      30
+    ],
+    "analyses": [
+      31
+    ],
+    "E.": [
+      33,
+      72
+    ],
+    "coli": [
+      34,
+      73
+    ],
+    "stress": [
+      35,
+      66,
+      115
+    ],
+    "responses": [
+      36
+    ],
+    "have": [
+      37
+    ],
+    "been": [
+      38
+    ],
+    "limited": [
+      39
+    ],
+    "just": [
+      41
+    ],
+    "one": [
+      42
+    ],
+    "level,": [
+      43
+    ],
+    "gene": [
+      44,
+      54,
+      200
+    ],
+    "expression.": [
+      45
+    ],
+    "Here,": [
+      46
+    ],
+    "we": [
+      47
+    ],
+    "incorporate": [
+      48
+    ],
+    "metabolite": [
+      50,
+      89,
+      175
+    ],
+    "composition": [
+      51
+    ],
+    "together": [
+      52
+    ],
+    "with": [
+      53,
+      96,
+      158
+    ],
+    "expression": [
+      55,
+      201
+    ],
+    "data": [
+      56,
+      178
+    ],
+    "provide": [
+      58
+    ],
+    "more": [
+      60,
+      92
+    ],
+    "comprehensive": [
+      61
+    ],
+    "insight": [
+      62
+    ],
+    "system": [
+      64
+    ],
+    "adjustments": [
+      67
+    ],
+    "by": [
+      68,
+      108,
+      149
+    ],
+    "describing": [
+      69
+    ],
+    "detailed": [
+      70
+    ],
+    "time-resolved": [
+      71
+    ],
+    "response": [
+      74,
+      90,
+      99,
+      124,
+      132
+    ],
+    "five": [
+      76
+    ],
+    "different": [
+      77
+    ],
+    "perturbations": [
+      78
+    ],
+    "(cold,": [
+      79
+    ],
+    "heat,": [
+      80
+    ],
+    "oxidative": [
+      81
+    ],
+    "stress,": [
+      82
+    ],
+    "lactose": [
+      83
+    ],
+    "diauxie,": [
+      84
+    ],
+    "stationary": [
+      86,
+      122
+    ],
+    "phase).": [
+      87
+    ],
+    "The": [
+      88,
+      190
+    ],
+    "is": [
+      91,
+      106
+    ],
+    "specific": [
+      93
+    ],
+    "as": [
+      94,
+      147
+    ],
+    "compared": [
+      95
+    ],
+    "general": [
+      98,
+      142
+    ],
+    "observed": [
+      100
+    ],
+    "transcript": [
+      103,
+      177
+    ],
+    "reflected": [
+      107,
+      148
+    ],
+    "much": [
+      109
+    ],
+    "higher": [
+      110
+    ],
+    "specificity": [
+      111
+    ],
+    "during": [
+      112
+    ],
+    "early": [
+      114
+    ],
+    "adaptation": [
+      116
+    ],
+    "phase": [
+      117,
+      123
+    ],
+    "when": [
+      119
+    ],
+    "comparing": [
+      120
+    ],
+    "other": [
+      126
+    ],
+    "perturbations.": [
+      127
+    ],
+    "Despite": [
+      128
+    ],
+    "these": [
+      129
+    ],
+    "differences,": [
+      130
+    ],
+    "both": [
+      134
+    ],
+    "levels": [
+      135
+    ],
+    "still": [
+      136
+    ],
+    "follows": [
+      137
+    ],
+    "same": [
+      139
+    ],
+    "dynamics": [
+      140
+    ],
+    "strategy": [
+      143
+    ],
+    "energy": [
+      145
+    ],
+    "conservation": [
+      146
+    ],
+    "decrease": [
+      151
+    ],
+    "central": [
+      153
+    ],
+    "carbon": [
+      154
+    ],
+    "metabolism": [
+      155
+    ],
+    "intermediates": [
+      156
+    ],
+    "coinciding": [
+      157
+    ],
+    "downregulation": [
+      159
+    ],
+    "genes": [
+      161
+    ],
+    "related": [
+      162
+    ],
+    "cell": [
+      164
+    ],
+    "growth.": [
+      165
+    ],
+    "Application": [
+      166
+    ],
+    "co-clustering": [
+      168
+    ],
+    "canonical": [
+      170
+    ],
+    "correlation": [
+      171
+    ],
+    "analysis": [
+      172
+    ],
+    "combined": [
+      174
+    ],
+    "identified": [
+      179
+    ],
+    "number": [
+      181
+    ],
+    "significant": [
+      183
+    ],
+    "condition-dependent": [
+      184
+    ],
+    "associations": [
+      185
+    ],
+    "between": [
+      186,
+      199
+    ],
+    "metabolites": [
+      187,
+      203
+    ],
+    "transcripts.": [
+      189
+    ],
+    "results": [
+      191
+    ],
+    "confirm": [
+      192
+    ],
+    "extend": [
+      194
+    ],
+    "existing": [
+      195
+    ],
+    "models": [
+      196
+    ],
+    "about": [
+      197
+    ],
+    "co-regulation": [
+      198
+    ],
+    "demonstrating": [
+      204
+    ],
+    "power": [
+      206
+    ],
+    "integrated": [
+      208
+    ],
+    "systems": [
+      209
+    ],
+    "oriented": [
+      210
+    ],
+    "analysis.": [
+      211
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2142836135",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 32
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 32
+    }
+  ],
+  "updated_date": "2025-06-11T04:46:49.087530",
+  "created_date": "2016-06-24"
+}

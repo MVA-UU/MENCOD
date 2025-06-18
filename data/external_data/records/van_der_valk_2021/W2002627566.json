@@ -1,0 +1,864 @@
+{
+  "id": "https://openalex.org/W2002627566",
+  "doi": "https://doi.org/10.1016/j.neuron.2014.05.014",
+  "title": "Intrinsic and Task-Evoked Network Architectures of the Human Brain",
+  "display_name": "Intrinsic and Task-Evoked Network Architectures of the Human Brain",
+  "publication_year": 2014,
+  "publication_date": "2014-07-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2002627566",
+    "doi": "https://doi.org/10.1016/j.neuron.2014.05.014",
+    "mag": "2002627566",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/24991964",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/4082806"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.neuron.2014.05.014",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45757444",
+      "display_name": "Neuron",
+      "issn_l": "0896-6273",
+      "issn": [
+        "0896-6273",
+        "1097-4199"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315673",
+      "host_organization_name": "Cell Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990",
+        "https://openalex.org/P4310315673"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV",
+        "Cell Press"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.1016/j.neuron.2014.05.014",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5100678014",
+        "display_name": "Michael W. Cole",
+        "orcid": "https://orcid.org/0000-0003-4329-438X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I102322142",
+          "display_name": "Rutgers, The State University of New Jersey",
+          "ror": "https://ror.org/05vt9qd57",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I102322142"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Michael W. Cole",
+      "raw_affiliation_strings": [
+        "Center for Molecular and Behavioral Neuroscience, Rutgers University, Newark, NJ 07102, USA",
+        "Department of Psychology, Washington University, St. Louis, MO 63130, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, Washington University, St. Louis, MO 63130, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for Molecular and Behavioral Neuroscience, Rutgers University, Newark, NJ 07102, USA",
+          "institution_ids": [
+            "https://openalex.org/I102322142"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009266404",
+        "display_name": "Danielle S. Bassett",
+        "orcid": "https://orcid.org/0000-0002-6183-4493"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I79576946",
+          "display_name": "University of Pennsylvania",
+          "ror": "https://ror.org/00b30xv10",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Danielle S. Bassett",
+      "raw_affiliation_strings": [
+        "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Bioengineering, University of Pennsylvania, Philadelphia, PA 19104, USA",
+          "institution_ids": [
+            "https://openalex.org/I79576946"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068023335",
+        "display_name": "Jonathan D. Power",
+        "orcid": "https://orcid.org/0000-0002-6922-100X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan D. Power",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Washington University, St. Louis, MO 63110, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Washington University, St. Louis, MO 63110, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012830013",
+        "display_name": "Todd S. Braver",
+        "orcid": "https://orcid.org/0000-0002-2631-3393"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Todd S. Braver",
+      "raw_affiliation_strings": [
+        "Department of Psychology, Washington University, St. Louis, MO 63130, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, Washington University, St. Louis, MO 63130, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5035206215",
+        "display_name": "Steven E. Petersen",
+        "orcid": "https://orcid.org/0000-0002-8911-3639"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steven E. Petersen",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Washington University, St. Louis, MO 63110, USA",
+        "Department of Psychology, Washington University, St. Louis, MO 63130, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Washington University, St. Louis, MO 63110, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Psychology, Washington University, St. Louis, MO 63130, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5100678014"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I204465549",
+    "https://openalex.org/I102322142"
+  ],
+  "apc_list": {
+    "value": 9080,
+    "currency": "USD",
+    "value_usd": 9080
+  },
+  "apc_paid": null,
+  "fwci": 48.784,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 1592,
+  "citation_normalized_percentile": {
+    "value": 0.999936,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "83",
+    "issue": "1",
+    "first_page": "238",
+    "last_page": "251"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10581",
+    "display_name": "Neural dynamics and brain function",
+    "score": 0.9996,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10581",
+      "display_name": "Neural dynamics and brain function",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10429",
+      "display_name": "EEG and Brain-Computer Interfaces",
+      "score": 0.9955,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/human-brain",
+      "display_name": "Human brain",
+      "score": 0.5561159
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.7001914
+    },
+    {
+      "id": "https://openalex.org/C2780451532",
+      "wikidata": "https://www.wikidata.org/wiki/Q759676",
+      "display_name": "Task (project management)",
+      "level": 2,
+      "score": 0.592417
+    },
+    {
+      "id": "https://openalex.org/C2777670902",
+      "wikidata": "https://www.wikidata.org/wiki/Q492038",
+      "display_name": "Human brain",
+      "level": 2,
+      "score": 0.5561159
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.4938813
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.32342625
+    },
+    {
+      "id": "https://openalex.org/C46312422",
+      "wikidata": "https://www.wikidata.org/wiki/Q11024",
+      "display_name": "Communication",
+      "level": 1,
+      "score": 0.32227433
+    },
+    {
+      "id": "https://openalex.org/C187736073",
+      "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+      "display_name": "Management",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011597",
+      "descriptor_name": "Psychomotor Performance",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012146",
+      "descriptor_name": "Rest",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001931",
+      "descriptor_name": "Brain Mapping",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001931",
+      "descriptor_name": "Brain Mapping",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011597",
+      "descriptor_name": "Psychomotor Performance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012146",
+      "descriptor_name": "Rest",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055815",
+      "descriptor_name": "Young Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.neuron.2014.05.014",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45757444",
+        "display_name": "Neuron",
+        "issn_l": "0896-6273",
+        "issn": [
+          "0896-6273",
+          "1097-4199"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315673",
+        "host_organization_name": "Cell Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990",
+          "https://openalex.org/P4310315673"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV",
+          "Cell Press"
+        ],
+        "type": "journal"
+      },
+      "license": "publisher-specific-oa",
+      "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc4082806",
+      "pdf_url": "https://europepmc.org/articles/pmc4082806?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4082806",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/24991964",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.neuron.2014.05.014",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45757444",
+      "display_name": "Neuron",
+      "issn_l": "0896-6273",
+      "issn": [
+        "0896-6273",
+        "1097-4199"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315673",
+      "host_organization_name": "Cell Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990",
+        "https://openalex.org/P4310315673"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV",
+        "Cell Press"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 67,
+  "referenced_works": [
+    "https://openalex.org/W1964290461",
+    "https://openalex.org/W1965325756",
+    "https://openalex.org/W1967629764",
+    "https://openalex.org/W1970695058",
+    "https://openalex.org/W1973776237",
+    "https://openalex.org/W1976623182",
+    "https://openalex.org/W1983208069",
+    "https://openalex.org/W1987323424",
+    "https://openalex.org/W1988396475",
+    "https://openalex.org/W1989524890",
+    "https://openalex.org/W1993053013",
+    "https://openalex.org/W2002807356",
+    "https://openalex.org/W2008607322",
+    "https://openalex.org/W2009494091",
+    "https://openalex.org/W2015866962",
+    "https://openalex.org/W2020055733",
+    "https://openalex.org/W2020304716",
+    "https://openalex.org/W2022616811",
+    "https://openalex.org/W2024729467",
+    "https://openalex.org/W2027781650",
+    "https://openalex.org/W2030727443",
+    "https://openalex.org/W2059148040",
+    "https://openalex.org/W2061170062",
+    "https://openalex.org/W2061564920",
+    "https://openalex.org/W2069476848",
+    "https://openalex.org/W2070746915",
+    "https://openalex.org/W2071608556",
+    "https://openalex.org/W2074617510",
+    "https://openalex.org/W2077644748",
+    "https://openalex.org/W2078204079",
+    "https://openalex.org/W2079450984",
+    "https://openalex.org/W2081015195",
+    "https://openalex.org/W2089572795",
+    "https://openalex.org/W2096856689",
+    "https://openalex.org/W2104731571",
+    "https://openalex.org/W2111388536",
+    "https://openalex.org/W2112927743",
+    "https://openalex.org/W2117140276",
+    "https://openalex.org/W2119618432",
+    "https://openalex.org/W2120129619",
+    "https://openalex.org/W2124698428",
+    "https://openalex.org/W2126136676",
+    "https://openalex.org/W2127389037",
+    "https://openalex.org/W2131681506",
+    "https://openalex.org/W2133903921",
+    "https://openalex.org/W2137240152",
+    "https://openalex.org/W2138576397",
+    "https://openalex.org/W2142029338",
+    "https://openalex.org/W2142875089",
+    "https://openalex.org/W2143433106",
+    "https://openalex.org/W2143661428",
+    "https://openalex.org/W2143909130",
+    "https://openalex.org/W2145526417",
+    "https://openalex.org/W2151137320",
+    "https://openalex.org/W2157723507",
+    "https://openalex.org/W2161204110",
+    "https://openalex.org/W2162010696",
+    "https://openalex.org/W2163846136",
+    "https://openalex.org/W2165985389",
+    "https://openalex.org/W2170434170",
+    "https://openalex.org/W2962725064",
+    "https://openalex.org/W2994602346",
+    "https://openalex.org/W3099209941",
+    "https://openalex.org/W3099768174",
+    "https://openalex.org/W3106209931",
+    "https://openalex.org/W3124682511",
+    "https://openalex.org/W4241074797"
+  ],
+  "related_works": [
+    "https://openalex.org/W4401768695",
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W3006817050",
+    "https://openalex.org/W2931662336",
+    "https://openalex.org/W2765597752",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2134894512",
+    "https://openalex.org/W2083375246",
+    "https://openalex.org/W2077865380",
+    "https://openalex.org/W2067108088"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2002627566",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 38
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 128
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 133
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 182
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 201
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 201
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 195
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 166
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 139
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 108
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 78
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-11T05:42:37.947614",
+  "created_date": "2016-06-24"
+}

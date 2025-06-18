@@ -1,0 +1,1819 @@
+{
+  "id": "https://openalex.org/W2747961425",
+  "doi": "https://doi.org/10.1186/s12864-017-3982-1",
+  "title": "The genomic architecture of mastitis resistance in dairy sheep",
+  "display_name": "The genomic architecture of mastitis resistance in dairy sheep",
+  "publication_year": 2017,
+  "publication_date": "2017-08-16",
+  "ids": {
+    "openalex": "https://openalex.org/W2747961425",
+    "doi": "https://doi.org/10.1186/s12864-017-3982-1",
+    "mag": "2747961425",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/28814268",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5559839"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s12864-017-3982-1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S28614077",
+      "display_name": "BMC Genomics",
+      "issn_l": "1471-2164",
+      "issn": [
+        "1471-2164"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1186/s12864-017-3982-1",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5037715520",
+        "display_name": "Georgios Banos",
+        "orcid": "https://orcid.org/0000-0002-7674-858X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. Banos",
+      "raw_affiliation_strings": [
+        "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK",
+          "institution_ids": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017913451",
+        "display_name": "G. Bramis",
+        "orcid": "https://orcid.org/0000-0001-7271-7180"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I21370196",
+          "display_name": "Aristotle University of Thessaloniki",
+          "ror": "https://ror.org/02j61yw88",
+          "country_code": "GR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I21370196"
+          ]
+        }
+      ],
+      "countries": [
+        "GR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. Bramis",
+      "raw_affiliation_strings": [
+        "School of Veterinary Medicine, Aristotle University of Thessaloniki, 54124, Thessaloniki, Greece"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Veterinary Medicine, Aristotle University of Thessaloniki, 54124, Thessaloniki, Greece",
+          "institution_ids": [
+            "https://openalex.org/I21370196"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031551214",
+        "display_name": "Stephen J. Bush",
+        "orcid": "https://orcid.org/0000-0001-9341-2562"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. J. Bush",
+      "raw_affiliation_strings": [
+        "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK",
+          "institution_ids": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021299815",
+        "display_name": "Emily L. Clark",
+        "orcid": "https://orcid.org/0000-0002-9550-7407"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. L. Clark",
+      "raw_affiliation_strings": [
+        "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK",
+          "institution_ids": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113873362",
+        "display_name": "M. McCulloch",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M. E.B. McCulloch",
+      "raw_affiliation_strings": [
+        "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK",
+          "institution_ids": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040440615",
+        "display_name": "Jacqueline Smith",
+        "orcid": "https://orcid.org/0000-0002-2813-7872"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Smith",
+      "raw_affiliation_strings": [
+        "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK",
+          "institution_ids": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049205128",
+        "display_name": "G Schulze",
+        "orcid": "https://orcid.org/0000-0001-6278-147X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4432739",
+          "display_name": "University of Bergen",
+          "ror": "https://ror.org/03zga2b32",
+          "country_code": "NO",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4432739"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. Schulze",
+      "raw_affiliation_strings": [
+        "School of Informatics, University of Bergen, 5008, Bergen, Norway"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Informatics, University of Bergen, 5008, Bergen, Norway",
+          "institution_ids": [
+            "https://openalex.org/I4432739"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030458640",
+        "display_name": "G. Arsenos",
+        "orcid": "https://orcid.org/0000-0003-3224-5128"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I21370196",
+          "display_name": "Aristotle University of Thessaloniki",
+          "ror": "https://ror.org/02j61yw88",
+          "country_code": "GR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I21370196"
+          ]
+        }
+      ],
+      "countries": [
+        "GR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. Arsenos",
+      "raw_affiliation_strings": [
+        "School of Veterinary Medicine, Aristotle University of Thessaloniki, 54124, Thessaloniki, Greece"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Veterinary Medicine, Aristotle University of Thessaloniki, 54124, Thessaloniki, Greece",
+          "institution_ids": [
+            "https://openalex.org/I21370196"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086500057",
+        "display_name": "David Hume",
+        "orcid": "https://orcid.org/0000-0002-2615-1478"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D. A. Hume",
+      "raw_affiliation_strings": [
+        "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK",
+          "institution_ids": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5079832331",
+        "display_name": "Androniki Psifidi",
+        "orcid": "https://orcid.org/0000-0003-4095-1452"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I133836048",
+          "display_name": "Royal Veterinary College",
+          "ror": "https://ror.org/01wka8n18",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I133836048"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I124357947",
+          "display_name": "University of London",
+          "ror": "https://ror.org/04cw6st05",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "A. Psifidi",
+      "raw_affiliation_strings": [
+        "Royal Veterinary College, University of London, AL9 7TA, Hatfield, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Royal Veterinary College, University of London, AL9 7TA, Hatfield, UK",
+          "institution_ids": [
+            "https://openalex.org/I133836048",
+            "https://openalex.org/I124357947"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5079832331"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I133836048",
+    "https://openalex.org/I124357947"
+  ],
+  "apc_list": {
+    "value": 1570,
+    "currency": "GBP",
+    "value_usd": 1925
+  },
+  "apc_paid": {
+    "value": 1879,
+    "currency": "EUR",
+    "value_usd": 2026
+  },
+  "fwci": 4.071,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 63,
+  "citation_normalized_percentile": {
+    "value": 0.999953,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "18",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10594",
+    "display_name": "Genetic and phenotypic traits in livestock",
+    "score": 0.9993,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1311",
+      "display_name": "Genetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10594",
+      "display_name": "Genetic and phenotypic traits in livestock",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11226",
+      "display_name": "Milk Quality and Mastitis in Dairy Cows",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1102",
+        "display_name": "Agronomy and Crop Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10515",
+      "display_name": "Cancer-related molecular mechanisms research",
+      "score": 0.9917,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/somatic-cell-count",
+      "display_name": "Somatic Cell Count",
+      "score": 0.5726082
+    },
+    {
+      "id": "https://openalex.org/keywords/candidate-gene",
+      "display_name": "Candidate gene",
+      "score": 0.5318451
+    },
+    {
+      "id": "https://openalex.org/keywords/snp",
+      "display_name": "SNP",
+      "score": 0.46441668
+    },
+    {
+      "id": "https://openalex.org/keywords/snp-array",
+      "display_name": "SNP array",
+      "score": 0.42952096
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776344049",
+      "wikidata": "https://www.wikidata.org/wiki/Q835061",
+      "display_name": "Mastitis",
+      "level": 2,
+      "score": 0.947314
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.8223289
+    },
+    {
+      "id": "https://openalex.org/C153209595",
+      "wikidata": "https://www.wikidata.org/wiki/Q501128",
+      "display_name": "Single-nucleotide polymorphism",
+      "level": 4,
+      "score": 0.5965536
+    },
+    {
+      "id": "https://openalex.org/C2776792119",
+      "wikidata": "https://www.wikidata.org/wiki/Q2917352",
+      "display_name": "Somatic cell count",
+      "level": 5,
+      "score": 0.5726082
+    },
+    {
+      "id": "https://openalex.org/C69991583",
+      "wikidata": "https://www.wikidata.org/wiki/Q1423575",
+      "display_name": "Candidate gene",
+      "level": 3,
+      "score": 0.5318451
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.5295708
+    },
+    {
+      "id": "https://openalex.org/C81941488",
+      "wikidata": "https://www.wikidata.org/wiki/Q853421",
+      "display_name": "Quantitative trait locus",
+      "level": 3,
+      "score": 0.509634
+    },
+    {
+      "id": "https://openalex.org/C2776482104",
+      "wikidata": "https://www.wikidata.org/wiki/Q38829",
+      "display_name": "Breed",
+      "level": 2,
+      "score": 0.46603578
+    },
+    {
+      "id": "https://openalex.org/C139275648",
+      "wikidata": "https://www.wikidata.org/wiki/Q17134011",
+      "display_name": "SNP",
+      "level": 5,
+      "score": 0.46441668
+    },
+    {
+      "id": "https://openalex.org/C122060243",
+      "wikidata": "https://www.wikidata.org/wiki/Q7391885",
+      "display_name": "SNP array",
+      "level": 5,
+      "score": 0.42952096
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.38897836
+    },
+    {
+      "id": "https://openalex.org/C135763542",
+      "wikidata": "https://www.wikidata.org/wiki/Q106016",
+      "display_name": "Genotype",
+      "level": 3,
+      "score": 0.2813684
+    },
+    {
+      "id": "https://openalex.org/C2776659692",
+      "wikidata": "https://www.wikidata.org/wiki/Q719426",
+      "display_name": "Lactation",
+      "level": 3,
+      "score": 0.24111718
+    },
+    {
+      "id": "https://openalex.org/C89423630",
+      "wikidata": "https://www.wikidata.org/wiki/Q7193",
+      "display_name": "Microbiology",
+      "level": 1,
+      "score": 0.12418592
+    },
+    {
+      "id": "https://openalex.org/C2779234561",
+      "wikidata": "https://www.wikidata.org/wiki/Q11995",
+      "display_name": "Pregnancy",
+      "level": 2,
+      "score": 0.07666436
+    },
+    {
+      "id": "https://openalex.org/C22641795",
+      "wikidata": "https://www.wikidata.org/wiki/Q868757",
+      "display_name": "Ice calving",
+      "level": 4,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D060467",
+      "descriptor_name": "Disease Resistance",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008413",
+      "descriptor_name": "Mastitis",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012756",
+      "descriptor_name": "Sheep",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001665",
+      "descriptor_name": "Binding Sites",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016000",
+      "descriptor_name": "Cluster Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003612",
+      "descriptor_name": "Dairying",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005819",
+      "descriptor_name": "Genetic Markers",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D023281",
+      "descriptor_name": "Genomics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010641",
+      "descriptor_name": "Phenotype",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020641",
+      "descriptor_name": "Polymorphism, Single Nucleotide",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D025341",
+      "descriptor_name": "Principal Component Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014157",
+      "descriptor_name": "Transcription Factors",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1186/s12864-017-3982-1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S28614077",
+        "display_name": "BMC Genomics",
+        "issn_l": "1471-2164",
+        "issn": [
+          "1471-2164"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320256",
+        "host_organization_name": "BioMed Central",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310320256"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "BioMed Central"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/fc30476e896649e7aa86d1a69735ce08",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5559839",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/28814268",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s12864-017-3982-1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S28614077",
+      "display_name": "BMC Genomics",
+      "issn_l": "1471-2164",
+      "issn": [
+        "1471-2164"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320334629",
+      "funder_display_name": "Biotechnology and Biological Sciences Research Council",
+      "award_id": "BB/L001209/1"
+    },
+    {
+      "funder": "https://openalex.org/F4320334629",
+      "funder_display_name": "Biotechnology and Biological Sciences Research Council",
+      "award_id": "BB/J004235/1"
+    }
+  ],
+  "datasets": [
+    "https://openalex.org/W4394422610",
+    "https://openalex.org/W4394206919",
+    "https://openalex.org/W4394413824",
+    "https://openalex.org/W2745816265",
+    "https://openalex.org/W2916370088",
+    "https://openalex.org/W4394543255",
+    "https://openalex.org/W4394546479",
+    "https://openalex.org/W2915142357"
+  ],
+  "versions": [],
+  "referenced_works_count": 75,
+  "referenced_works": [
+    "https://openalex.org/W1420575482",
+    "https://openalex.org/W1661441964",
+    "https://openalex.org/W1952660301",
+    "https://openalex.org/W1968901961",
+    "https://openalex.org/W1976787542",
+    "https://openalex.org/W1979145870",
+    "https://openalex.org/W1982417353",
+    "https://openalex.org/W1982943655",
+    "https://openalex.org/W1986223165",
+    "https://openalex.org/W2003088903",
+    "https://openalex.org/W2003494751",
+    "https://openalex.org/W2006179336",
+    "https://openalex.org/W2012369631",
+    "https://openalex.org/W2012697072",
+    "https://openalex.org/W2020952581",
+    "https://openalex.org/W2022929280",
+    "https://openalex.org/W2023462863",
+    "https://openalex.org/W2032022513",
+    "https://openalex.org/W2037252842",
+    "https://openalex.org/W2043779556",
+    "https://openalex.org/W2048073154",
+    "https://openalex.org/W2056700681",
+    "https://openalex.org/W2061167123",
+    "https://openalex.org/W2062290915",
+    "https://openalex.org/W2069228549",
+    "https://openalex.org/W2070126656",
+    "https://openalex.org/W2071332157",
+    "https://openalex.org/W2075969011",
+    "https://openalex.org/W2078578981",
+    "https://openalex.org/W2079918807",
+    "https://openalex.org/W2084013621",
+    "https://openalex.org/W2086663694",
+    "https://openalex.org/W2088430561",
+    "https://openalex.org/W2091499761",
+    "https://openalex.org/W2101076635",
+    "https://openalex.org/W2102149222",
+    "https://openalex.org/W2102619694",
+    "https://openalex.org/W2108480572",
+    "https://openalex.org/W2116948221",
+    "https://openalex.org/W2117457279",
+    "https://openalex.org/W2117689741",
+    "https://openalex.org/W2119158735",
+    "https://openalex.org/W2120503537",
+    "https://openalex.org/W2120738511",
+    "https://openalex.org/W2122683221",
+    "https://openalex.org/W2127220612",
+    "https://openalex.org/W2130439971",
+    "https://openalex.org/W2133964808",
+    "https://openalex.org/W2134552197",
+    "https://openalex.org/W2140357538",
+    "https://openalex.org/W2146526187",
+    "https://openalex.org/W2151956863",
+    "https://openalex.org/W2152295044",
+    "https://openalex.org/W2154811349",
+    "https://openalex.org/W2158925111",
+    "https://openalex.org/W2161245845",
+    "https://openalex.org/W2161633633",
+    "https://openalex.org/W2162530578",
+    "https://openalex.org/W2197124664",
+    "https://openalex.org/W2293418890",
+    "https://openalex.org/W2303510380",
+    "https://openalex.org/W2323326409",
+    "https://openalex.org/W2335865080",
+    "https://openalex.org/W2339749671",
+    "https://openalex.org/W2345101518",
+    "https://openalex.org/W2414996091",
+    "https://openalex.org/W2415059568",
+    "https://openalex.org/W2419496090",
+    "https://openalex.org/W2468515857",
+    "https://openalex.org/W2481207082",
+    "https://openalex.org/W2951942625",
+    "https://openalex.org/W4230266413",
+    "https://openalex.org/W4232909036",
+    "https://openalex.org/W904632794",
+    "https://openalex.org/W930469786"
+  ],
+  "related_works": [
+    "https://openalex.org/W4301388975",
+    "https://openalex.org/W3213103639",
+    "https://openalex.org/W2621546106",
+    "https://openalex.org/W2495511740",
+    "https://openalex.org/W2367129053",
+    "https://openalex.org/W2242568890",
+    "https://openalex.org/W2062178101",
+    "https://openalex.org/W1990242544",
+    "https://openalex.org/W1968219951",
+    "https://openalex.org/W1428274271"
+  ],
+  "abstract_inverted_index": {
+    "Mastitis": [
+      0
+    ],
+    "is": [
+      1
+    ],
+    "the": [
+      2,
+      26,
+      40,
+      45,
+      48,
+      53,
+      86,
+      99,
+      152,
+      191,
+      238,
+      257
+    ],
+    "most": [
+      3
+    ],
+    "prevalent": [
+      4
+    ],
+    "disease": [
+      5,
+      17
+    ],
+    "in": [
+      6,
+      19,
+      60,
+      83,
+      120,
+      131,
+      216,
+      244,
+      256
+    ],
+    "dairy": [
+      7,
+      21,
+      61,
+      135,
+      269
+    ],
+    "sheep": [
+      8,
+      22,
+      136,
+      270
+    ],
+    "with": [
+      9,
+      107,
+      161,
+      252
+    ],
+    "major": [
+      10
+    ],
+    "economic,": [
+      11
+    ],
+    "hygienic": [
+      12
+    ],
+    "and": [
+      13,
+      70,
+      85,
+      140,
+      151,
+      173,
+      181,
+      204,
+      233,
+      247
+    ],
+    "welfare": [
+      14
+    ],
+    "implications.": [
+      15
+    ],
+    "The": [
+      16,
+      235,
+      260
+    ],
+    "persists": [
+      18
+    ],
+    "all": [
+      20
+    ],
+    "production": [
+      23
+    ],
+    "systems": [
+      24
+    ],
+    "despite": [
+      25
+    ],
+    "implementation": [
+      27
+    ],
+    "of": [
+      28,
+      56,
+      98,
+      199,
+      240,
+      264
+    ],
+    "improved": [
+      29
+    ],
+    "management": [
+      30
+    ],
+    "practises.": [
+      31
+    ],
+    "Selective": [
+      32
+    ],
+    "breeding": [
+      33
+    ],
+    "for": [
+      34,
+      66,
+      95,
+      126,
+      147,
+      185
+    ],
+    "enhanced": [
+      35
+    ],
+    "mastitis": [
+      36,
+      58,
+      68,
+      72,
+      88,
+      127,
+      149,
+      154,
+      163,
+      186,
+      245,
+      254,
+      265
+    ],
+    "resistance": [
+      37,
+      128,
+      246,
+      266
+    ],
+    "may": [
+      38
+    ],
+    "provide": [
+      39
+    ],
+    "means": [
+      41
+    ],
+    "to": [
+      42
+    ],
+    "further": [
+      43
+    ],
+    "control": [
+      44
+    ],
+    "disease.": [
+      46
+    ],
+    "In": [
+      47
+    ],
+    "present": [
+      49
+    ],
+    "study,": [
+      50
+    ],
+    "we": [
+      51
+    ],
+    "investigated": [
+      52
+    ],
+    "genetic": [
+      54,
+      143,
+      242,
+      262
+    ],
+    "architecture": [
+      55,
+      263
+    ],
+    "four": [
+      57
+    ],
+    "traits": [
+      59,
+      74,
+      164,
+      255
+    ],
+    "sheep.": [
+      62,
+      259
+    ],
+    "Individual": [
+      63
+    ],
+    "animal": [
+      64,
+      241
+    ],
+    "records": [
+      65
+    ],
+    "clinical": [
+      67,
+      148
+    ],
+    "occurrence": [
+      69,
+      150
+    ],
+    "three": [
+      71,
+      132,
+      153
+    ],
+    "indicator": [
+      73,
+      155
+    ],
+    "(milk": [
+      75
+    ],
+    "somatic": [
+      76,
+      210
+    ],
+    "cell": [
+      77
+    ],
+    "count,": [
+      78
+    ],
+    "total": [
+      79
+    ],
+    "viable": [
+      80
+    ],
+    "bacterial": [
+      81
+    ],
+    "count": [
+      82
+    ],
+    "milk": [
+      84,
+      209
+    ],
+    "California": [
+      87
+    ],
+    "test)": [
+      89
+    ],
+    "were": [
+      90,
+      105,
+      145,
+      165,
+      194
+    ],
+    "collected": [
+      91
+    ],
+    "monthly": [
+      92
+    ],
+    "throughout": [
+      93
+    ],
+    "lactation": [
+      94
+    ],
+    "609": [
+      96
+    ],
+    "ewes": [
+      97
+    ],
+    "Greek": [
+      100
+    ],
+    "Chios": [
+      101,
+      258
+    ],
+    "breed.": [
+      102
+    ],
+    "All": [
+      103
+    ],
+    "animals": [
+      104
+    ],
+    "genotyped": [
+      106
+    ],
+    "a": [
+      108
+    ],
+    "custom-made": [
+      109
+    ],
+    "960-single": [
+      110
+    ],
+    "nucleotide": [
+      111
+    ],
+    "polymorphism": [
+      112
+    ],
+    "(SNP)": [
+      113
+    ],
+    "DNA": [
+      114
+    ],
+    "array": [
+      115
+    ],
+    "based": [
+      116,
+      196
+    ],
+    "on": [
+      117,
+      167
+    ],
+    "markers": [
+      118,
+      158
+    ],
+    "located": [
+      119
+    ],
+    "quantitative": [
+      121
+    ],
+    "trait": [
+      122
+    ],
+    "loci": [
+      123
+    ],
+    "(QTL)": [
+      124
+    ],
+    "regions": [
+      125,
+      193,
+      250
+    ],
+    "previously": [
+      129
+    ],
+    "detected": [
+      130,
+      192
+    ],
+    "other": [
+      133
+    ],
+    "distinct": [
+      134,
+      268
+    ],
+    "populations.": [
+      137
+    ],
+    "Heritable": [
+      138
+    ],
+    "variation": [
+      139
+    ],
+    "strong": [
+      141
+    ],
+    "positive": [
+      142
+    ],
+    "correlations": [
+      144
+    ],
+    "estimated": [
+      146
+    ],
+    "traits.": [
+      156
+    ],
+    "SNP": [
+      157
+    ],
+    "significantly": [
+      159
+    ],
+    "associated": [
+      160,
+      251
+    ],
+    "these": [
+      162
+    ],
+    "confirmed": [
+      166,
+      237
+    ],
+    "chromosomes": [
+      168
+    ],
+    "2,": [
+      169
+    ],
+    "3,": [
+      170
+    ],
+    "5,": [
+      171
+    ],
+    "16": [
+      172
+    ],
+    "19.": [
+      174
+    ],
+    "We": [
+      175
+    ],
+    "identified": [
+      176,
+      195,
+      248
+    ],
+    "pathways,": [
+      177
+    ],
+    "molecular": [
+      178
+    ],
+    "interaction": [
+      179
+    ],
+    "networks": [
+      180
+    ],
+    "functional": [
+      182
+    ],
+    "gene": [
+      183
+    ],
+    "clusters": [
+      184
+    ],
+    "resistance.": [
+      187
+    ],
+    "Candidate": [
+      188
+    ],
+    "genes": [
+      189,
+      214
+    ],
+    "within": [
+      190
+    ],
+    "upon": [
+      197
+    ],
+    "analysis": [
+      198
+    ],
+    "an": [
+      200
+    ],
+    "ovine": [
+      201
+    ],
+    "transcriptional": [
+      202
+    ],
+    "atlas": [
+      203
+    ],
+    "transcriptome": [
+      205
+    ],
+    "data": [
+      206
+    ],
+    "derived": [
+      207
+    ],
+    "from": [
+      208
+    ],
+    "cells.": [
+      211
+    ],
+    "Relevant": [
+      212
+    ],
+    "candidate": [
+      213
+    ],
+    "implicated": [
+      215
+    ],
+    "innate": [
+      217
+    ],
+    "immunity": [
+      218
+    ],
+    "included": [
+      219
+    ],
+    "SOCS2,": [
+      220
+    ],
+    "CTLA4,": [
+      221
+    ],
+    "C6,": [
+      222
+    ],
+    "C7,": [
+      223
+    ],
+    "C9,": [
+      224
+    ],
+    "PTGER4,": [
+      225
+    ],
+    "DAB2,": [
+      226
+    ],
+    "CARD6,": [
+      227
+    ],
+    "OSMR,": [
+      228
+    ],
+    "PLXNC1,": [
+      229
+    ],
+    "IDH1,": [
+      230
+    ],
+    "ICOS,": [
+      231
+    ],
+    "FYB,": [
+      232
+    ],
+    "LYFR.": [
+      234
+    ],
+    "results": [
+      236
+    ],
+    "presence": [
+      239
+    ],
+    "variability": [
+      243
+    ],
+    "genomic": [
+      249
+    ],
+    "specific": [
+      253
+    ],
+    "conserved": [
+      261
+    ],
+    "between": [
+      267
+    ],
+    "breeds": [
+      271
+    ],
+    "suggests": [
+      272
+    ],
+    "that": [
+      273
+    ],
+    "across-breed": [
+      274
+    ],
+    "selection": [
+      275
+    ],
+    "programmes": [
+      276
+    ],
+    "would": [
+      277
+    ],
+    "be": [
+      278
+    ],
+    "feasible.": [
+      279
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2747961425",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-06-10T09:04:13.237099",
+  "created_date": "2017-08-31"
+}

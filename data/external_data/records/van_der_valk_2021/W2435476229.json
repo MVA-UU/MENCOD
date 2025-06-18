@@ -1,0 +1,984 @@
+{
+  "id": "https://openalex.org/W2435476229",
+  "doi": "https://doi.org/10.1021/acs.jproteome.5b00190",
+  "title": "Defining the Adipose Tissue Proteome of Dairy Cows to Reveal Biomarkers Related to Peripartum Insulin Resistance and Metabolic Status",
+  "display_name": "Defining the Adipose Tissue Proteome of Dairy Cows to Reveal Biomarkers Related to Peripartum Insulin Resistance and Metabolic Status",
+  "publication_year": 2015,
+  "publication_date": "2015-06-10",
+  "ids": {
+    "openalex": "https://openalex.org/W2435476229",
+    "doi": "https://doi.org/10.1021/acs.jproteome.5b00190",
+    "mag": "2435476229",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/26062109"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1021/acs.jproteome.5b00190",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S74367812",
+      "display_name": "Journal of Proteome Research",
+      "issn_l": "1535-3893",
+      "issn": [
+        "1535-3893",
+        "1535-3907"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320006",
+      "host_organization_name": "American Chemical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320006"
+      ],
+      "host_organization_lineage_names": [
+        "American Chemical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5062277900",
+        "display_name": "Maya Zachut",
+        "orcid": "https://orcid.org/0000-0002-9644-6028"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I376102",
+          "display_name": "Agricultural Research Organization",
+          "ror": "https://ror.org/05hbrxp80",
+          "country_code": "IL",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I376102"
+          ]
+        }
+      ],
+      "countries": [
+        "IL"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Maya Zachut",
+      "raw_affiliation_strings": [
+        "Department\rof Ruminant Science, Institute of Animal Sciences, Volcani Center, P.O. Box 6, Bet Dagan 50250, Israel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department\rof Ruminant Science, Institute of Animal Sciences, Volcani Center, P.O. Box 6, Bet Dagan 50250, Israel",
+          "institution_ids": [
+            "https://openalex.org/I376102"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5062277900"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I376102"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.339,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 34,
+  "citation_normalized_percentile": {
+    "value": 0.848366,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 95
+  },
+  "biblio": {
+    "volume": "14",
+    "issue": "7",
+    "first_page": "2863",
+    "last_page": "2871"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11457",
+    "display_name": "Adipose Tissue and Metabolism",
+    "score": 0.9988,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11457",
+      "display_name": "Adipose Tissue and Metabolism",
+      "score": 0.9988,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10584",
+      "display_name": "Reproductive Physiology in Livestock",
+      "score": 0.9984,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1102",
+        "display_name": "Agronomy and Crop Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11844",
+      "display_name": "Lipid metabolism and biosynthesis",
+      "score": 0.9966,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1303",
+        "display_name": "Biochemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hormone-sensitive-lipase",
+      "display_name": "Hormone-sensitive lipase",
+      "score": 0.5087529
+    },
+    {
+      "id": "https://openalex.org/keywords/perilipin",
+      "display_name": "Perilipin",
+      "score": 0.44906396
+    },
+    {
+      "id": "https://openalex.org/keywords/adipose-triglyceride-lipase",
+      "display_name": "Adipose triglyceride lipase",
+      "score": 0.42505932
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C171089720",
+      "wikidata": "https://www.wikidata.org/wiki/Q193583",
+      "display_name": "Adipose tissue",
+      "level": 2,
+      "score": 0.9201888
+    },
+    {
+      "id": "https://openalex.org/C140985366",
+      "wikidata": "https://www.wikidata.org/wiki/Q898489",
+      "display_name": "Lipolysis",
+      "level": 3,
+      "score": 0.8459039
+    },
+    {
+      "id": "https://openalex.org/C2777391703",
+      "wikidata": "https://www.wikidata.org/wiki/Q1053470",
+      "display_name": "Insulin resistance",
+      "level": 3,
+      "score": 0.704026
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.6377218
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.63264394
+    },
+    {
+      "id": "https://openalex.org/C2781227529",
+      "wikidata": "https://www.wikidata.org/wiki/Q408499",
+      "display_name": "Hormone-sensitive lipase",
+      "level": 4,
+      "score": 0.5087529
+    },
+    {
+      "id": "https://openalex.org/C2779306644",
+      "wikidata": "https://www.wikidata.org/wiki/Q2002370",
+      "display_name": "Insulin",
+      "level": 2,
+      "score": 0.4821429
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.4738819
+    },
+    {
+      "id": "https://openalex.org/C151955695",
+      "wikidata": "https://www.wikidata.org/wiki/Q654528",
+      "display_name": "White adipose tissue",
+      "level": 3,
+      "score": 0.45530978
+    },
+    {
+      "id": "https://openalex.org/C39567582",
+      "wikidata": "https://www.wikidata.org/wiki/Q415624",
+      "display_name": "Perilipin",
+      "level": 4,
+      "score": 0.44906396
+    },
+    {
+      "id": "https://openalex.org/C2777062983",
+      "wikidata": "https://www.wikidata.org/wiki/Q21126841",
+      "display_name": "Adipose triglyceride lipase",
+      "level": 4,
+      "score": 0.42505932
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.19466844
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000273",
+      "descriptor_name": "Adipose Tissue",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003612",
+      "descriptor_name": "Dairying",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007333",
+      "descriptor_name": "Insulin Resistance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020543",
+      "descriptor_name": "Proteome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000273",
+      "descriptor_name": "Adipose Tissue",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002417",
+      "descriptor_name": "Cattle",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1021/acs.jproteome.5b00190",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S74367812",
+        "display_name": "Journal of Proteome Research",
+        "issn_l": "1535-3893",
+        "issn": [
+          "1535-3893",
+          "1535-3907"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320006",
+        "host_organization_name": "American Chemical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320006"
+        ],
+        "host_organization_lineage_names": [
+          "American Chemical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/26062109",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 33,
+  "referenced_works": [
+    "https://openalex.org/W1527314283",
+    "https://openalex.org/W1593579216",
+    "https://openalex.org/W1970671077",
+    "https://openalex.org/W1996688677",
+    "https://openalex.org/W2001136215",
+    "https://openalex.org/W2003032553",
+    "https://openalex.org/W2012997452",
+    "https://openalex.org/W2025170810",
+    "https://openalex.org/W2027238352",
+    "https://openalex.org/W2027281436",
+    "https://openalex.org/W2031322449",
+    "https://openalex.org/W2036942782",
+    "https://openalex.org/W2045938248",
+    "https://openalex.org/W2051051060",
+    "https://openalex.org/W2051271590",
+    "https://openalex.org/W2056237923",
+    "https://openalex.org/W2062819794",
+    "https://openalex.org/W2071929677",
+    "https://openalex.org/W2074269621",
+    "https://openalex.org/W2080565381",
+    "https://openalex.org/W2092759625",
+    "https://openalex.org/W2094744133",
+    "https://openalex.org/W2111579582",
+    "https://openalex.org/W2121538973",
+    "https://openalex.org/W2146527816",
+    "https://openalex.org/W2147127785",
+    "https://openalex.org/W2147134904",
+    "https://openalex.org/W2152377123",
+    "https://openalex.org/W2155722642",
+    "https://openalex.org/W2161204617",
+    "https://openalex.org/W2162756124",
+    "https://openalex.org/W2171067240",
+    "https://openalex.org/W2320840592"
+  ],
+  "related_works": [
+    "https://openalex.org/W2215606085",
+    "https://openalex.org/W2144886284",
+    "https://openalex.org/W2131270144",
+    "https://openalex.org/W2122795688",
+    "https://openalex.org/W2114953965",
+    "https://openalex.org/W2110839026",
+    "https://openalex.org/W2096961084",
+    "https://openalex.org/W2000167859",
+    "https://openalex.org/W1964688190",
+    "https://openalex.org/W1957106181"
+  ],
+  "abstract_inverted_index": {
+    "Adipose": [
+      0,
+      64
+    ],
+    "tissue": [
+      1,
+      23,
+      43,
+      65
+    ],
+    "is": [
+      2,
+      13
+    ],
+    "a": [
+      3
+    ],
+    "central": [
+      4
+    ],
+    "regulator": [
+      5
+    ],
+    "of": [
+      6,
+      28,
+      44,
+      127,
+      130,
+      148,
+      150
+    ],
+    "metabolism": [
+      7
+    ],
+    "in": [
+      8,
+      21,
+      41,
+      51,
+      135,
+      164,
+      176
+    ],
+    "dairy": [
+      9,
+      45,
+      189
+    ],
+    "cows;": [
+      10
+    ],
+    "however,": [
+      11
+    ],
+    "little": [
+      12
+    ],
+    "known": [
+      14
+    ],
+    "about": [
+      15
+    ],
+    "the": [
+      16,
+      25,
+      32,
+      151
+    ],
+    "association": [
+      17
+    ],
+    "between": [
+      18
+    ],
+    "various": [
+      19
+    ],
+    "proteins": [
+      20,
+      132
+    ],
+    "adipose": [
+      22,
+      42,
+      52,
+      102,
+      115,
+      144,
+      177
+    ],
+    "and": [
+      24,
+      47,
+      59,
+      75,
+      99,
+      178
+    ],
+    "metabolic": [
+      26,
+      62,
+      180,
+      197
+    ],
+    "status": [
+      27,
+      181
+    ],
+    "peripartum": [
+      29,
+      196
+    ],
+    "cows.": [
+      30,
+      124
+    ],
+    "Therefore,": [
+      31
+    ],
+    "objectives": [
+      33
+    ],
+    "were": [
+      34,
+      67,
+      82,
+      92,
+      162
+    ],
+    "to": [
+      35,
+      56,
+      60,
+      79,
+      104,
+      142,
+      155,
+      174,
+      179,
+      186,
+      195
+    ],
+    "(1)": [
+      36
+    ],
+    "examine": [
+      37
+    ],
+    "total": [
+      38
+    ],
+    "protein": [
+      39,
+      105
+    ],
+    "expression": [
+      40,
+      126,
+      147
+    ],
+    "cows": [
+      46,
+      72,
+      190
+    ],
+    "(2)": [
+      48
+    ],
+    "identify": [
+      49
+    ],
+    "biomarkers": [
+      50,
+      172
+    ],
+    "that": [
+      53,
+      182,
+      191
+    ],
+    "are": [
+      54,
+      192
+    ],
+    "linked": [
+      55
+    ],
+    "insulin": [
+      57,
+      110
+    ],
+    "resistance": [
+      58
+    ],
+    "cows'": [
+      61
+    ],
+    "status.": [
+      63
+    ],
+    "biopsies": [
+      66
+    ],
+    "obtained": [
+      68
+    ],
+    "from": [
+      69
+    ],
+    "eight": [
+      70
+    ],
+    "multiparous": [
+      71
+    ],
+    "at": [
+      73
+    ],
+    "-17": [
+      74
+    ],
+    "+4": [
+      76
+    ],
+    "days": [
+      77
+    ],
+    "relative": [
+      78
+    ],
+    "parturition.": [
+      80
+    ],
+    "Proteins": [
+      81
+    ],
+    "analyzed": [
+      83
+    ],
+    "by": [
+      84
+    ],
+    "intensity-based,": [
+      85
+    ],
+    "label-free,": [
+      86
+    ],
+    "quantitative": [
+      87
+    ],
+    "shotgun": [
+      88
+    ],
+    "proteomics": [
+      89
+    ],
+    "(nanoLC-MS/MS).": [
+      90
+    ],
+    "Cows": [
+      91,
+      112
+    ],
+    "divided": [
+      93
+    ],
+    "into": [
+      94
+    ],
+    "groups": [
+      95
+    ],
+    "with": [
+      96,
+      113,
+      122
+    ],
+    "insulin-resistant": [
+      97
+    ],
+    "(IR)": [
+      98
+    ],
+    "insulin-sensitive": [
+      100
+    ],
+    "(IS)": [
+      101
+    ],
+    "according": [
+      103
+    ],
+    "kinase": [
+      106
+    ],
+    "B": [
+      107
+    ],
+    "phosphorylation": [
+      108
+    ],
+    "following": [
+      109
+    ],
+    "stimulation.": [
+      111
+    ],
+    "IR": [
+      114,
+      141,
+      165,
+      175
+    ],
+    "lost": [
+      116
+    ],
+    "more": [
+      117
+    ],
+    "body": [
+      118
+    ],
+    "weight": [
+      119
+    ],
+    "postpartum": [
+      120,
+      138
+    ],
+    "compared": [
+      121
+    ],
+    "IS": [
+      123,
+      143
+    ],
+    "Differential": [
+      125
+    ],
+    "143": [
+      128
+    ],
+    "out": [
+      129
+    ],
+    "586": [
+      131
+    ],
+    "was": [
+      133
+    ],
+    "detected": [
+      134
+    ],
+    "prepartum": [
+      136
+    ],
+    "versus": [
+      137
+    ],
+    "adipose.": [
+      139,
+      166
+    ],
+    "Comparing": [
+      140
+    ],
+    "revealed": [
+      145
+    ],
+    "differential": [
+      146
+    ],
+    "18.9%": [
+      149
+    ],
+    "proteins;": [
+      152
+    ],
+    "those": [
+      153
+    ],
+    "related": [
+      154,
+      173
+    ],
+    "lipolysis": [
+      156
+    ],
+    "(hormone-sensitive": [
+      157
+    ],
+    "lipase,": [
+      158
+    ],
+    "perilipin,": [
+      159
+    ],
+    "monoglycerol": [
+      160
+    ],
+    "lipase)": [
+      161
+    ],
+    "increased": [
+      163
+    ],
+    "In": [
+      167
+    ],
+    "conclusion,": [
+      168
+    ],
+    "we": [
+      169
+    ],
+    "found": [
+      170
+    ],
+    "novel": [
+      171
+    ],
+    "could": [
+      183
+    ],
+    "be": [
+      184
+    ],
+    "used": [
+      185
+    ],
+    "characterize": [
+      187
+    ],
+    "high-yielding": [
+      188
+    ],
+    "better": [
+      193
+    ],
+    "adapted": [
+      194
+    ],
+    "stress.": [
+      198
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2435476229",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-16T05:48:00.471183",
+  "created_date": "2016-06-24"
+}

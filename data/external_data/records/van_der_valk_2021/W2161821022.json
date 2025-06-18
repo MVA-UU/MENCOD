@@ -1,0 +1,581 @@
+{
+  "id": "https://openalex.org/W2161821022",
+  "doi": "https://doi.org/10.6339/jds.2003.01(3).132",
+  "title": "Comparison of Two Multiple Imputation Procedures in a Cancer Screening Survey",
+  "display_name": "Comparison of Two Multiple Imputation Procedures in a Cancer Screening Survey",
+  "publication_year": 2021,
+  "publication_date": "2021-07-21",
+  "ids": {
+    "openalex": "https://openalex.org/W2161821022",
+    "doi": "https://doi.org/10.6339/jds.2003.01(3).132",
+    "mag": "2161821022"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.6339/jds.2003.01(3).132",
+    "pdf_url": "https://jds-online.org/journal/JDS/article/1154/file/pdf",
+    "source": {
+      "id": "https://openalex.org/S2764553900",
+      "display_name": "Journal of Data Science",
+      "issn_l": "1680-743X",
+      "issn": [
+        "1680-743X",
+        "1683-8602"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4327988825",
+      "host_organization_name": "People's University of China",
+      "host_organization_lineage": [
+        "https://openalex.org/P4327988825"
+      ],
+      "host_organization_lineage_names": [
+        "People's University of China"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://jds-online.org/journal/JDS/article/1154/file/pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5083434070",
+        "display_name": "Coen Bernaards",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Coen A. Bernaards",
+      "raw_affiliation_strings": [
+        "University of California, Los Angeles"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of California, Los Angeles",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5111197445",
+        "display_name": "Melissa M. Farmer",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Melissa M. Farmer",
+      "raw_affiliation_strings": [
+        "University of California, Los Angeles"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of California, Los Angeles",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 0,
+    "currency": "USD",
+    "value_usd": 0
+  },
+  "apc_paid": null,
+  "fwci": 0.322,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 22,
+  "citation_normalized_percentile": {
+    "value": 0.526347,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 94
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": "3",
+    "first_page": "293",
+    "last_page": "312"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10243",
+    "display_name": "Statistical Methods and Bayesian Inference",
+    "score": 0.9978,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.9978,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11235",
+      "display_name": "Statistical Methods in Clinical Trials",
+      "score": 0.9967,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10136",
+      "display_name": "Statistical Methods and Inference",
+      "score": 0.9963,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/imputation",
+      "display_name": "Imputation (statistics)",
+      "score": 0.8126026
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C58041806",
+      "wikidata": "https://www.wikidata.org/wiki/Q1660484",
+      "display_name": "Imputation (statistics)",
+      "level": 3,
+      "score": 0.8126026
+    },
+    {
+      "id": "https://openalex.org/C191935318",
+      "wikidata": "https://www.wikidata.org/wiki/Q148",
+      "display_name": "China",
+      "level": 2,
+      "score": 0.513389
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.46128243
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.37288225
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.37127775
+    },
+    {
+      "id": "https://openalex.org/C161191863",
+      "wikidata": "https://www.wikidata.org/wiki/Q199655",
+      "display_name": "Library science",
+      "level": 1,
+      "score": 0.36178327
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.22549471
+    },
+    {
+      "id": "https://openalex.org/C9357733",
+      "wikidata": "https://www.wikidata.org/wiki/Q6878417",
+      "display_name": "Missing data",
+      "level": 2,
+      "score": 0.16540685
+    },
+    {
+      "id": "https://openalex.org/C95457728",
+      "wikidata": "https://www.wikidata.org/wiki/Q309",
+      "display_name": "History",
+      "level": 0,
+      "score": 0.15629163
+    },
+    {
+      "id": "https://openalex.org/C166957645",
+      "wikidata": "https://www.wikidata.org/wiki/Q23498",
+      "display_name": "Archaeology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.6339/jds.2003.01(3).132",
+      "pdf_url": "https://jds-online.org/journal/JDS/article/1154/file/pdf",
+      "source": {
+        "id": "https://openalex.org/S2764553900",
+        "display_name": "Journal of Data Science",
+        "issn_l": "1680-743X",
+        "issn": [
+          "1680-743X",
+          "1683-8602"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4327988825",
+        "host_organization_name": "People's University of China",
+        "host_organization_lineage": [
+          "https://openalex.org/P4327988825"
+        ],
+        "host_organization_lineage_names": [
+          "People's University of China"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.escholarship.org/uc/item/1fq2c24s",
+      "pdf_url": "https://escholarship.org/content/qt1fq2c24s/qt1fq2c24s.pdf?t=lnqpax",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [
+          "California Digital Library"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.6339/jds.2003.01(3).132",
+    "pdf_url": "https://jds-online.org/journal/JDS/article/1154/file/pdf",
+    "source": {
+      "id": "https://openalex.org/S2764553900",
+      "display_name": "Journal of Data Science",
+      "issn_l": "1680-743X",
+      "issn": [
+        "1680-743X",
+        "1683-8602"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4327988825",
+      "host_organization_name": "People's University of China",
+      "host_organization_lineage": [
+        "https://openalex.org/P4327988825"
+      ],
+      "host_organization_lineage_names": [
+        "People's University of China"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 31,
+  "referenced_works": [
+    "https://openalex.org/W107734494",
+    "https://openalex.org/W1550443206",
+    "https://openalex.org/W1986837204",
+    "https://openalex.org/W2008228753",
+    "https://openalex.org/W2031668066",
+    "https://openalex.org/W2044573147",
+    "https://openalex.org/W2044758663",
+    "https://openalex.org/W2049633694",
+    "https://openalex.org/W2074184525",
+    "https://openalex.org/W2076395872",
+    "https://openalex.org/W2094096650",
+    "https://openalex.org/W2118471187",
+    "https://openalex.org/W2118502261",
+    "https://openalex.org/W2127841934",
+    "https://openalex.org/W2141909166",
+    "https://openalex.org/W2155725368",
+    "https://openalex.org/W2158294624",
+    "https://openalex.org/W2158985195",
+    "https://openalex.org/W2163722616",
+    "https://openalex.org/W2165981275",
+    "https://openalex.org/W2172074277",
+    "https://openalex.org/W2181490562",
+    "https://openalex.org/W2293385408",
+    "https://openalex.org/W2326945647",
+    "https://openalex.org/W2418174806",
+    "https://openalex.org/W4210399977",
+    "https://openalex.org/W4211101039",
+    "https://openalex.org/W4233678953",
+    "https://openalex.org/W4237733156",
+    "https://openalex.org/W4297625496",
+    "https://openalex.org/W4300187280"
+  ],
+  "related_works": [
+    "https://openalex.org/W4389568370",
+    "https://openalex.org/W3108674512",
+    "https://openalex.org/W3032375762",
+    "https://openalex.org/W3031052312",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2586801360",
+    "https://openalex.org/W2080531066",
+    "https://openalex.org/W1995515455",
+    "https://openalex.org/W1506200166",
+    "https://openalex.org/W1489783725"
+  ],
+  "abstract_inverted_index": {
+    "Publisher:": [
+      0
+    ],
+    "School": [
+      1
+    ],
+    "of": [
+      2,
+      6,
+      10,
+      15
+    ],
+    "Statistics,": [
+      3
+    ],
+    "Renmin": [
+      4
+    ],
+    "University": [
+      5
+    ],
+    "China,": [
+      7
+    ],
+    "Journal:": [
+      8
+    ],
+    "Journal": [
+      9
+    ],
+    "Data": [
+      11
+    ],
+    "Science,": [
+      12
+    ],
+    "Title:": [
+      13
+    ],
+    "Comparison": [
+      14
+    ],
+    "Two": [
+      16
+    ],
+    "Multiple": [
+      17
+    ],
+    "Imputation": [
+      18
+    ],
+    "Procedures": [
+      19
+    ],
+    "in": [
+      20
+    ],
+    "a": [
+      21
+    ],
+    "Cancer": [
+      22
+    ],
+    "Screening": [
+      23
+    ],
+    "Survey,": [
+      24
+    ],
+    "Authors:": [
+      25
+    ],
+    "Coen": [
+      26
+    ],
+    "A.": [
+      27
+    ],
+    "Bernaards,": [
+      28
+    ],
+    "Melissa": [
+      29
+    ],
+    "M.": [
+      30
+    ],
+    "Farmer": [
+      31
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2161821022",
+  "counts_by_year": [
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-05-23T13:27:50.189924",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,1390 @@
+{
+  "id": "https://openalex.org/W2037668591",
+  "doi": "https://doi.org/10.1016/s0895-4356(96)00236-3",
+  "title": "A simulation study of the number of events per variable in logistic regression analysis",
+  "display_name": "A simulation study of the number of events per variable in logistic regression analysis",
+  "publication_year": 1996,
+  "publication_date": "1996-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2037668591",
+    "doi": "https://doi.org/10.1016/s0895-4356(96)00236-3",
+    "mag": "2037668591",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/8970487"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0895-4356(96)00236-3",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S64418186",
+      "display_name": "Journal of Clinical Epidemiology",
+      "issn_l": "0895-4356",
+      "issn": [
+        "0895-4356",
+        "1878-5921"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://doi.org/10.1016/s0895-4356(96)00236-3",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5040070071",
+        "display_name": "Peter Peduzzi",
+        "orcid": "https://orcid.org/0000-0002-7634-6804"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32971472",
+          "display_name": "Yale University",
+          "ror": "https://ror.org/03v76x132",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Peter Peduzzi",
+      "raw_affiliation_strings": [
+        "Cooperative Studies Program Coordinating Center and the Veterans Affairs Medical Center, West Haven Connecticut 06516 USA",
+        "The Department of Epidemiology and Public Health, Yale University School of Medicine, New Haven, Connecticut 06510 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Department of Epidemiology and Public Health, Yale University School of Medicine, New Haven, Connecticut 06510 USA",
+          "institution_ids": [
+            "https://openalex.org/I32971472"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Cooperative Studies Program Coordinating Center and the Veterans Affairs Medical Center, West Haven Connecticut 06516 USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5001817812",
+        "display_name": "John Concato",
+        "orcid": "https://orcid.org/0000-0003-2846-0503"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799886695",
+          "display_name": "Veterans Health Administration",
+          "ror": "https://ror.org/05eq41471",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I32971472",
+          "display_name": "Yale University",
+          "ror": "https://ror.org/03v76x132",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John Concato",
+      "raw_affiliation_strings": [
+        "Medical Service, Veterans Affairs Medical Center, West Haven Connecticut 06516 USA",
+        "The Department of Medicine (Clinical Epidemiology Unit) and Yale University School of Medicine, New Haven, Connecticut 06510 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Medical Service, Veterans Affairs Medical Center, West Haven Connecticut 06516 USA",
+          "institution_ids": [
+            "https://openalex.org/I2799886695"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The Department of Medicine (Clinical Epidemiology Unit) and Yale University School of Medicine, New Haven, Connecticut 06510 USA",
+          "institution_ids": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052936019",
+        "display_name": "Elizabeth Kemper",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32971472",
+          "display_name": "Yale University",
+          "ror": "https://ror.org/03v76x132",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elizabeth Kemper",
+      "raw_affiliation_strings": [
+        "Cooperative Studies Program Coordinating Center and the Veterans Affairs Medical Center, West Haven Connecticut 06516 USA",
+        "The Department of Epidemiology and Public Health, Yale University School of Medicine, New Haven, Connecticut 06510 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Department of Epidemiology and Public Health, Yale University School of Medicine, New Haven, Connecticut 06510 USA",
+          "institution_ids": [
+            "https://openalex.org/I32971472"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Cooperative Studies Program Coordinating Center and the Veterans Affairs Medical Center, West Haven Connecticut 06516 USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024393293",
+        "display_name": "Theodore R. Holford",
+        "orcid": "https://orcid.org/0000-0002-1463-9417"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32971472",
+          "display_name": "Yale University",
+          "ror": "https://ror.org/03v76x132",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Theodore R. Holford",
+      "raw_affiliation_strings": [
+        "The Department of Epidemiology and Public Health, Yale University School of Medicine, New Haven, Connecticut 06510 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Department of Epidemiology and Public Health, Yale University School of Medicine, New Haven, Connecticut 06510 USA",
+          "institution_ids": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5023783600",
+        "display_name": "Alvan R. Feinstein",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32971472",
+          "display_name": "Yale University",
+          "ror": "https://ror.org/03v76x132",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I32971472"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2799886695",
+          "display_name": "Veterans Health Administration",
+          "ror": "https://ror.org/05eq41471",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alvan R. Feinstein",
+      "raw_affiliation_strings": [
+        "Medical Service, Veterans Affairs Medical Center, West Haven Connecticut 06516 USA",
+        "The Department of Epidemiology and Public Health, Yale University School of Medicine, New Haven, Connecticut 06510 USA",
+        "The Department of Medicine (Clinical Epidemiology Unit) and Yale University School of Medicine, New Haven, Connecticut 06510 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Department of Epidemiology and Public Health, Yale University School of Medicine, New Haven, Connecticut 06510 USA",
+          "institution_ids": [
+            "https://openalex.org/I32971472"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Medical Service, Veterans Affairs Medical Center, West Haven Connecticut 06516 USA",
+          "institution_ids": [
+            "https://openalex.org/I2799886695"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The Department of Medicine (Clinical Epidemiology Unit) and Yale University School of Medicine, New Haven, Connecticut 06510 USA",
+          "institution_ids": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5040070071"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I32971472"
+  ],
+  "apc_list": {
+    "value": 3870,
+    "currency": "USD",
+    "value_usd": 3870
+  },
+  "apc_paid": {
+    "value": 3870,
+    "currency": "USD",
+    "value_usd": 3870
+  },
+  "fwci": 4.6,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 7632,
+  "citation_normalized_percentile": {
+    "value": 0.977213,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "49",
+    "issue": "12",
+    "first_page": "1373",
+    "last_page": "1379"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10243",
+    "display_name": "Statistical Methods and Bayesian Inference",
+    "score": 0.9934,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.9934,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "score": 0.9791,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11235",
+      "display_name": "Statistical Methods in Clinical Trials",
+      "score": 0.9761,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/statistic",
+      "display_name": "Statistic",
+      "score": 0.5644659
+    },
+    {
+      "id": "https://openalex.org/keywords/variables",
+      "display_name": "Variables",
+      "score": 0.4996698
+    },
+    {
+      "id": "https://openalex.org/keywords/sample",
+      "display_name": "Sample (material)",
+      "score": 0.49288797
+    },
+    {
+      "id": "https://openalex.org/keywords/wald-test",
+      "display_name": "Wald test",
+      "score": 0.4394081
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C151956035",
+      "wikidata": "https://www.wikidata.org/wiki/Q1132755",
+      "display_name": "Logistic regression",
+      "level": 2,
+      "score": 0.84346837
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.84153736
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5804001
+    },
+    {
+      "id": "https://openalex.org/C89128539",
+      "wikidata": "https://www.wikidata.org/wiki/Q1949963",
+      "display_name": "Statistic",
+      "level": 2,
+      "score": 0.5644659
+    },
+    {
+      "id": "https://openalex.org/C152877465",
+      "wikidata": "https://www.wikidata.org/wiki/Q208042",
+      "display_name": "Regression analysis",
+      "level": 2,
+      "score": 0.5321521
+    },
+    {
+      "id": "https://openalex.org/C129848803",
+      "wikidata": "https://www.wikidata.org/wiki/Q2564360",
+      "display_name": "Sample size determination",
+      "level": 2,
+      "score": 0.5112424
+    },
+    {
+      "id": "https://openalex.org/C196083921",
+      "wikidata": "https://www.wikidata.org/wiki/Q7915758",
+      "display_name": "Variance (accounting)",
+      "level": 2,
+      "score": 0.50471556
+    },
+    {
+      "id": "https://openalex.org/C27574286",
+      "wikidata": "https://www.wikidata.org/wiki/Q320723",
+      "display_name": "Variables",
+      "level": 2,
+      "score": 0.4996698
+    },
+    {
+      "id": "https://openalex.org/C198531522",
+      "wikidata": "https://www.wikidata.org/wiki/Q485146",
+      "display_name": "Sample (material)",
+      "level": 2,
+      "score": 0.49288797
+    },
+    {
+      "id": "https://openalex.org/C44249647",
+      "wikidata": "https://www.wikidata.org/wiki/Q208498",
+      "display_name": "Confidence interval",
+      "level": 2,
+      "score": 0.4584877
+    },
+    {
+      "id": "https://openalex.org/C203274628",
+      "wikidata": "https://www.wikidata.org/wiki/Q748664",
+      "display_name": "Wald test",
+      "level": 3,
+      "score": 0.4394081
+    },
+    {
+      "id": "https://openalex.org/C19499675",
+      "wikidata": "https://www.wikidata.org/wiki/Q232207",
+      "display_name": "Monte Carlo method",
+      "level": 2,
+      "score": 0.4288558
+    },
+    {
+      "id": "https://openalex.org/C182365436",
+      "wikidata": "https://www.wikidata.org/wiki/Q50701",
+      "display_name": "Variable (mathematics)",
+      "level": 2,
+      "score": 0.42764553
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.37814283
+    },
+    {
+      "id": "https://openalex.org/C87007009",
+      "wikidata": "https://www.wikidata.org/wiki/Q210832",
+      "display_name": "Statistical hypothesis testing",
+      "level": 2,
+      "score": 0.33287162
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121955636",
+      "wikidata": "https://www.wikidata.org/wiki/Q4116214",
+      "display_name": "Accounting",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C43617362",
+      "wikidata": "https://www.wikidata.org/wiki/Q170050",
+      "display_name": "Chromatography",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003198",
+      "descriptor_name": "Computer Simulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003327",
+      "descriptor_name": "Coronary Disease",
+      "qualifier_ui": "Q000401",
+      "qualifier_name": "mortality",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009010",
+      "descriptor_name": "Monte Carlo Method",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015982",
+      "descriptor_name": "Bias",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001026",
+      "descriptor_name": "Coronary Artery Bypass",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003327",
+      "descriptor_name": "Coronary Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003327",
+      "descriptor_name": "Coronary Disease",
+      "qualifier_ui": "Q000601",
+      "qualifier_name": "surgery",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016015",
+      "descriptor_name": "Logistic Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012044",
+      "descriptor_name": "Regression Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015203",
+      "descriptor_name": "Reproducibility of Results",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/s0895-4356(96)00236-3",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S64418186",
+        "display_name": "Journal of Clinical Epidemiology",
+        "issn_l": "0895-4356",
+        "issn": [
+          "0895-4356",
+          "1878-5921"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/8970487",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0895-4356(96)00236-3",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S64418186",
+      "display_name": "Journal of Clinical Epidemiology",
+      "issn_l": "0895-4356",
+      "issn": [
+        "0895-4356",
+        "1878-5921"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.82,
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 14,
+  "referenced_works": [
+    "https://openalex.org/W1972798934",
+    "https://openalex.org/W1982245010",
+    "https://openalex.org/W1999204449",
+    "https://openalex.org/W2002374079",
+    "https://openalex.org/W2008706768",
+    "https://openalex.org/W2013092089",
+    "https://openalex.org/W2020131910",
+    "https://openalex.org/W2030193738",
+    "https://openalex.org/W2041459146",
+    "https://openalex.org/W2069353545",
+    "https://openalex.org/W2094104004",
+    "https://openalex.org/W2329861935",
+    "https://openalex.org/W4376453096",
+    "https://openalex.org/W96751186"
+  ],
+  "related_works": [
+    "https://openalex.org/W4387454356",
+    "https://openalex.org/W3125224051",
+    "https://openalex.org/W3123237678",
+    "https://openalex.org/W3122180682",
+    "https://openalex.org/W2602192951",
+    "https://openalex.org/W2359776416",
+    "https://openalex.org/W2155860514",
+    "https://openalex.org/W2129622370",
+    "https://openalex.org/W2037183610",
+    "https://openalex.org/W1995640498"
+  ],
+  "abstract_inverted_index": {
+    "We": [
+      0
+    ],
+    "performed": [
+      1
+    ],
+    "a": [
+      2,
+      30,
+      91
+    ],
+    "Monte": [
+      3
+    ],
+    "Carlo": [
+      4
+    ],
+    "study": [
+      5
+    ],
+    "to": [
+      6,
+      90,
+      129,
+      243
+    ],
+    "evaluate": [
+      7
+    ],
+    "the": [
+      8,
+      11,
+      49,
+      59,
+      63,
+      83,
+      96,
+      102,
+      123,
+      126,
+      130,
+      151,
+      162,
+      168,
+      175,
+      179,
+      182,
+      187,
+      195,
+      201,
+      209,
+      219,
+      229,
+      232
+    ],
+    "effect": [
+      9
+    ],
+    "of": [
+      10,
+      13,
+      33,
+      47,
+      51,
+      67,
+      82,
+      111,
+      125,
+      136,
+      178,
+      222,
+      231
+    ],
+    "number": [
+      12,
+      50,
+      221
+    ],
+    "events": [
+      14,
+      52
+    ],
+    "per": [
+      15,
+      53
+    ],
+    "variable": [
+      16,
+      55,
+      107
+    ],
+    "(EPV)": [
+      17
+    ],
+    "analyzed": [
+      18
+    ],
+    "in": [
+      19,
+      36,
+      108,
+      156,
+      208
+    ],
+    "logistic": [
+      20,
+      92,
+      169,
+      233
+    ],
+    "regression": [
+      21,
+      103,
+      152,
+      180
+    ],
+    "analysis.": [
+      22
+    ],
+    "The": [
+      23
+    ],
+    "simulations": [
+      24
+    ],
+    "were": [
+      25,
+      44,
+      114,
+      154,
+      212
+    ],
+    "based": [
+      26
+    ],
+    "on": [
+      27
+    ],
+    "data": [
+      28
+    ],
+    "from": [
+      29,
+      95,
+      167
+    ],
+    "cardiac": [
+      31
+    ],
+    "trial": [
+      32
+    ],
+    "673": [
+      34,
+      84
+    ],
+    "patients": [
+      35
+    ],
+    "which": [
+      37
+    ],
+    "252": [
+      38
+    ],
+    "deaths": [
+      39
+    ],
+    "occurred": [
+      40
+    ],
+    "and": [
+      41,
+      75,
+      119,
+      159,
+      173,
+      204
+    ],
+    "seven": [
+      42
+    ],
+    "variables": [
+      43
+    ],
+    "cogent": [
+      45
+    ],
+    "predictors": [
+      46
+    ],
+    "mortality;": [
+      48
+    ],
+    "predictive": [
+      54
+    ],
+    "was": [
+      56,
+      198
+    ],
+    "()": [
+      57
+    ],
+    "for": [
+      58,
+      101,
+      105,
+      116
+    ],
+    "full": [
+      60,
+      97
+    ],
+    "sample.": [
+      61,
+      98,
+      132
+    ],
+    "For": [
+      62,
+      133,
+      144
+    ],
+    "simulations,": [
+      64
+    ],
+    "at": [
+      65
+    ],
+    "values": [
+      66,
+      135,
+      146,
+      189
+    ],
+    "EPV": [
+      68,
+      134,
+      145,
+      240
+    ],
+    "=": [
+      69
+    ],
+    "2,": [
+      70
+    ],
+    "5,": [
+      71
+    ],
+    "10,": [
+      72,
+      149
+    ],
+    "15,": [
+      73
+    ],
+    "20,": [
+      74
+    ],
+    "25,": [
+      76
+    ],
+    "we": [
+      77
+    ],
+    "randomly": [
+      78
+    ],
+    "generated": [
+      79
+    ],
+    "500": [
+      80,
+      112
+    ],
+    "samples": [
+      81,
+      113
+    ],
+    "patients,": [
+      85
+    ],
+    "chosen": [
+      86
+    ],
+    "with": [
+      87
+    ],
+    "replacement,": [
+      88
+    ],
+    "according": [
+      89
+    ],
+    "model": [
+      93,
+      127,
+      170
+    ],
+    "derived": [
+      94
+    ],
+    "Simulation": [
+      99
+    ],
+    "results": [
+      100,
+      124
+    ],
+    "coefficients": [
+      104,
+      153
+    ],
+    "each": [
+      106,
+      109
+    ],
+    "group": [
+      110
+    ],
+    "compared": [
+      115
+    ],
+    "bias,": [
+      117
+    ],
+    "precision,": [
+      118
+    ],
+    "significance": [
+      120
+    ],
+    "testing": [
+      121
+    ],
+    "against": [
+      122
+    ],
+    "fitted": [
+      128
+    ],
+    "original": [
+      131
+    ],
+    "10": [
+      137
+    ],
+    "or": [
+      138,
+      224
+    ],
+    "greater,": [
+      139
+    ],
+    "no": [
+      140
+    ],
+    "major": [
+      141,
+      244
+    ],
+    "problems": [
+      142
+    ],
+    "occurred.": [
+      143
+    ],
+    "less": [
+      147
+    ],
+    "than": [
+      148
+    ],
+    "however,": [
+      150
+    ],
+    "biased": [
+      155
+    ],
+    "both": [
+      157,
+      171
+    ],
+    "positive": [
+      158
+    ],
+    "negative": [
+      160
+    ],
+    "directions;": [
+      161
+    ],
+    "large": [
+      163
+    ],
+    "sample": [
+      164,
+      176,
+      225
+    ],
+    "variance": [
+      165,
+      177
+    ],
+    "estimates": [
+      166
+    ],
+    "overestimated": [
+      172
+    ],
+    "underestimated": [
+      174
+    ],
+    "coeffi-cients;": [
+      181
+    ],
+    "90%": [
+      183
+    ],
+    "confidence": [
+      184
+    ],
+    "limits": [
+      185
+    ],
+    "about": [
+      186
+    ],
+    "estimated": [
+      188
+    ],
+    "did": [
+      190
+    ],
+    "not": [
+      191
+    ],
+    "have": [
+      192
+    ],
+    "proper": [
+      193
+    ],
+    "coverage;": [
+      194
+    ],
+    "Wald": [
+      196
+    ],
+    "statistic": [
+      197
+    ],
+    "conservative": [
+      199
+    ],
+    "under": [
+      200
+    ],
+    "null": [
+      202
+    ],
+    "hypothesis;": [
+      203
+    ],
+    "paradoxical": [
+      205
+    ],
+    "associations": [
+      206
+    ],
+    "(significance": [
+      207
+    ],
+    "wrong": [
+      210
+    ],
+    "direction)": [
+      211
+    ],
+    "increased.": [
+      213
+    ],
+    "Although": [
+      214
+    ],
+    "other": [
+      215
+    ],
+    "factors": [
+      216
+    ],
+    "(such": [
+      217
+    ],
+    "as": [
+      218
+    ],
+    "total": [
+      220
+    ],
+    "events,": [
+      223
+    ],
+    "size)": [
+      226
+    ],
+    "may": [
+      227
+    ],
+    "influence": [
+      228
+    ],
+    "validity": [
+      230
+    ],
+    "model,": [
+      234
+    ],
+    "our": [
+      235
+    ],
+    "findings": [
+      236
+    ],
+    "indicate": [
+      237
+    ],
+    "that": [
+      238
+    ],
+    "low": [
+      239
+    ],
+    "can": [
+      241
+    ],
+    "lead": [
+      242
+    ],
+    "problems.": [
+      245
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2037668591",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 228
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 605
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 600
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 660
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 687
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 627
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 557
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 525
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 402
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 400
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 326
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 343
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 326
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 271
+    }
+  ],
+  "updated_date": "2025-06-12T18:46:42.584741",
+  "created_date": "2016-06-24"
+}

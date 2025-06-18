@@ -1,0 +1,757 @@
+{
+  "id": "https://openalex.org/W95665433",
+  "doi": "https://doi.org/10.1080/00325481.1992.11701494",
+  "title": "Magnesium deficiency and diabetes mellitus",
+  "display_name": "Magnesium deficiency and diabetes mellitus",
+  "publication_year": 1992,
+  "publication_date": "1992-10-01",
+  "ids": {
+    "openalex": "https://openalex.org/W95665433",
+    "doi": "https://doi.org/10.1080/00325481.1992.11701494",
+    "mag": "95665433",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/1409173"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1080/00325481.1992.11701494",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S11800902",
+      "display_name": "Postgraduate Medicine",
+      "issn_l": "0032-5481",
+      "issn": [
+        "0032-5481",
+        "1941-9260"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5108229377",
+        "display_name": "Robert K. Rude",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1174212",
+          "display_name": "University of Southern California",
+          "ror": "https://ror.org/03taz7m60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1174212"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Robert K. Rude",
+      "raw_affiliation_strings": [
+        "University of Southern California School of Medicine, Los Angeles, 90033."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Southern California School of Medicine, Los Angeles, 90033.",
+          "institution_ids": [
+            "https://openalex.org/I1174212"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5108229377"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I1174212"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.505,
+  "has_fulltext": false,
+  "cited_by_count": 94,
+  "citation_normalized_percentile": {
+    "value": 0.945665,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "92",
+    "issue": "5",
+    "first_page": "217",
+    "last_page": "224"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12280",
+    "display_name": "Magnesium in Health and Disease",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2916",
+      "display_name": "Nutrition and Dietetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/29",
+      "display_name": "Nursing"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12280",
+      "display_name": "Magnesium in Health and Disease",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10516",
+      "display_name": "Parathyroid Disorders and Treatments",
+      "score": 0.9969,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2727",
+        "display_name": "Nephrology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11967",
+      "display_name": "Electrolyte and hormonal disorders",
+      "score": 0.9829,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/magnesium-deficiency",
+      "display_name": "Magnesium deficiency (plants)",
+      "score": 0.8089235
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.98352873
+    },
+    {
+      "id": "https://openalex.org/C555293320",
+      "wikidata": "https://www.wikidata.org/wiki/Q12206",
+      "display_name": "Diabetes mellitus",
+      "level": 2,
+      "score": 0.8105532
+    },
+    {
+      "id": "https://openalex.org/C2780880258",
+      "wikidata": "https://www.wikidata.org/wiki/Q3771629",
+      "display_name": "Magnesium deficiency (plants)",
+      "level": 3,
+      "score": 0.8089235
+    },
+    {
+      "id": "https://openalex.org/C2777014857",
+      "wikidata": "https://www.wikidata.org/wiki/Q1383410",
+      "display_name": "Exacerbation",
+      "level": 2,
+      "score": 0.7908952
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.50171375
+    },
+    {
+      "id": "https://openalex.org/C177713679",
+      "wikidata": "https://www.wikidata.org/wiki/Q679690",
+      "display_name": "Intensive care medicine",
+      "level": 1,
+      "score": 0.48009112
+    },
+    {
+      "id": "https://openalex.org/C197934379",
+      "wikidata": "https://www.wikidata.org/wiki/Q2047938",
+      "display_name": "Adverse effect",
+      "level": 2,
+      "score": 0.46726054
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.38957307
+    },
+    {
+      "id": "https://openalex.org/C543218039",
+      "wikidata": "https://www.wikidata.org/wiki/Q660",
+      "display_name": "Magnesium",
+      "level": 2,
+      "score": 0.33891976
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.22364771
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C191897082",
+      "wikidata": "https://www.wikidata.org/wiki/Q11467",
+      "display_name": "Metallurgy",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D048909",
+      "descriptor_name": "Diabetes Complications",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008275",
+      "descriptor_name": "Magnesium Deficiency",
+      "qualifier_ui": "Q000150",
+      "qualifier_name": "complications",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001145",
+      "descriptor_name": "Arrhythmias, Cardiac",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001145",
+      "descriptor_name": "Arrhythmias, Cardiac",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006973",
+      "descriptor_name": "Hypertension",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006973",
+      "descriptor_name": "Hypertension",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008275",
+      "descriptor_name": "Magnesium Deficiency",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008275",
+      "descriptor_name": "Magnesium Deficiency",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008275",
+      "descriptor_name": "Magnesium Deficiency",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009203",
+      "descriptor_name": "Myocardial Infarction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009203",
+      "descriptor_name": "Myocardial Infarction",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/00325481.1992.11701494",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S11800902",
+        "display_name": "Postgraduate Medicine",
+        "issn_l": "0032-5481",
+        "issn": [
+          "0032-5481",
+          "1941-9260"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/1409173",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.82
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 29,
+  "referenced_works": [
+    "https://openalex.org/W101547108",
+    "https://openalex.org/W116895035",
+    "https://openalex.org/W1973703520",
+    "https://openalex.org/W1979217337",
+    "https://openalex.org/W1983666983",
+    "https://openalex.org/W1996170648",
+    "https://openalex.org/W2003592138",
+    "https://openalex.org/W2007904438",
+    "https://openalex.org/W2013876824",
+    "https://openalex.org/W2024524240",
+    "https://openalex.org/W2024615162",
+    "https://openalex.org/W2030006484",
+    "https://openalex.org/W2030247575",
+    "https://openalex.org/W2036407627",
+    "https://openalex.org/W2043897778",
+    "https://openalex.org/W2061973358",
+    "https://openalex.org/W207114241",
+    "https://openalex.org/W2080881146",
+    "https://openalex.org/W2084748927",
+    "https://openalex.org/W2092485651",
+    "https://openalex.org/W2096237579",
+    "https://openalex.org/W2119417699",
+    "https://openalex.org/W2130688464",
+    "https://openalex.org/W2132968413",
+    "https://openalex.org/W2233764350",
+    "https://openalex.org/W2333258874",
+    "https://openalex.org/W2338413622",
+    "https://openalex.org/W48122357",
+    "https://openalex.org/W59208220"
+  ],
+  "related_works": [
+    "https://openalex.org/W51811346",
+    "https://openalex.org/W4367060267",
+    "https://openalex.org/W4323041474",
+    "https://openalex.org/W4247015231",
+    "https://openalex.org/W2523835305",
+    "https://openalex.org/W2375636586",
+    "https://openalex.org/W2233764350",
+    "https://openalex.org/W2143675016",
+    "https://openalex.org/W2050219230",
+    "https://openalex.org/W2007697223"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0
+    ],
+    "large": [
+      1
+    ],
+    "body": [
+      2
+    ],
+    "of": [
+      3,
+      12,
+      45,
+      50,
+      79
+    ],
+    "evidence": [
+      4
+    ],
+    "demonstrates": [
+      5
+    ],
+    "the": [
+      6,
+      46,
+      51,
+      77,
+      80
+    ],
+    "prevalence": [
+      7
+    ],
+    "and": [
+      8,
+      42,
+      69,
+      73
+    ],
+    "adverse": [
+      9
+    ],
+    "clinical": [
+      10
+    ],
+    "consequences": [
+      11
+    ],
+    "magnesium": [
+      13,
+      32,
+      58
+    ],
+    "deficiency": [
+      14,
+      33,
+      52
+    ],
+    "in": [
+      15,
+      38,
+      43
+    ],
+    "patients": [
+      16,
+      29
+    ],
+    "with": [
+      17,
+      56
+    ],
+    "diabetes": [
+      18
+    ],
+    "mellitus.": [
+      19
+    ],
+    "It": [
+      20
+    ],
+    "would": [
+      21
+    ],
+    "be": [
+      22
+    ],
+    "prudent": [
+      23
+    ],
+    "for": [
+      24
+    ],
+    "physicians": [
+      25
+    ],
+    "who": [
+      26
+    ],
+    "treat": [
+      27
+    ],
+    "these": [
+      28
+    ],
+    "to": [
+      30
+    ],
+    "consider": [
+      31
+    ],
+    "as": [
+      34,
+      66
+    ],
+    "a": [
+      35
+    ],
+    "contributing": [
+      36
+    ],
+    "factor": [
+      37
+    ],
+    "many": [
+      39
+    ],
+    "diabetic": [
+      40,
+      81
+    ],
+    "complications": [
+      41,
+      65
+    ],
+    "exacerbation": [
+      44
+    ],
+    "disease": [
+      47
+    ],
+    "itself.": [
+      48
+    ],
+    "Repletion": [
+      49
+    ],
+    "or": [
+      53,
+      62
+    ],
+    "prophylactic": [
+      54
+    ],
+    "supplementation": [
+      55
+    ],
+    "oral": [
+      57
+    ],
+    "may": [
+      59,
+      74
+    ],
+    "help": [
+      60
+    ],
+    "avoid": [
+      61
+    ],
+    "ameliorate": [
+      63
+    ],
+    "such": [
+      64
+    ],
+    "arrhythmias,": [
+      67
+    ],
+    "hypertension,": [
+      68
+    ],
+    "sudden": [
+      70
+    ],
+    "cardiac": [
+      71
+    ],
+    "death": [
+      72
+    ],
+    "even": [
+      75
+    ],
+    "improve": [
+      76
+    ],
+    "course": [
+      78
+    ],
+    "condition.": [
+      82
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W95665433",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-06-15T22:14:08.443069",
+  "created_date": "2016-06-24"
+}

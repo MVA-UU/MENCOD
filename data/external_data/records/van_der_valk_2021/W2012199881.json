@@ -1,0 +1,1356 @@
+{
+  "id": "https://openalex.org/W2012199881",
+  "doi": "https://doi.org/10.1371/journal.pone.0034777",
+  "title": "Estimating Grizzly and Black Bear Population Abundance and Trend in Banff National Park Using Noninvasive Genetic Sampling",
+  "display_name": "Estimating Grizzly and Black Bear Population Abundance and Trend in Banff National Park Using Noninvasive Genetic Sampling",
+  "publication_year": 2012,
+  "publication_date": "2012-05-02",
+  "ids": {
+    "openalex": "https://openalex.org/W2012199881",
+    "doi": "https://doi.org/10.1371/journal.pone.0034777",
+    "mag": "2012199881",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/22567089",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3368958"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pone.0034777",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0034777&type=printable",
+    "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+        "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0034777&type=printable",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5083150876",
+        "display_name": "Michael A. Sawaya",
+        "orcid": "https://orcid.org/0000-0002-3189-1737"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210099623",
+          "display_name": "Western Transportation Institute",
+          "ror": "https://ror.org/012pd4b91",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210099623"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Michael A. Sawaya",
+      "raw_affiliation_strings": [
+        "Department of Ecology, Montana State University, Bozeman, Montana, United States of America",
+        "Western Transportation Institute, Montana State University, Bozeman, Montana, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Ecology, Montana State University, Bozeman, Montana, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Western Transportation Institute, Montana State University, Bozeman, Montana, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210099623",
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5038811000",
+        "display_name": "Jeffrey B. Stetz",
+        "orcid": "https://orcid.org/0000-0003-2876-6895"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Jeffrey B. Stetz",
+      "raw_affiliation_strings": [
+        "Sinopah Wildlife Research Associates, Missoula, Montana, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Sinopah Wildlife Research Associates, Missoula, Montana, United States of America",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057808526",
+        "display_name": "Anthony P. Clevenger",
+        "orcid": "https://orcid.org/0000-0003-0380-6272"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210099623",
+          "display_name": "Western Transportation Institute",
+          "ror": "https://ror.org/012pd4b91",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210099623"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Anthony P. Clevenger",
+      "raw_affiliation_strings": [
+        "Western Transportation Institute, Montana State University, Bozeman, Montana, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Western Transportation Institute, Montana State University, Bozeman, Montana, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210099623"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081852187",
+        "display_name": "Michael L. Gibeau",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I125932930",
+          "display_name": "Parks Canada",
+          "ror": "https://ror.org/008sy4716",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I125932930"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Michael L. Gibeau",
+      "raw_affiliation_strings": [
+        "Mountain National Parks, Parks Canada, Lake Louise, Alberta, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Mountain National Parks, Parks Canada, Lake Louise, Alberta, Canada",
+          "institution_ids": [
+            "https://openalex.org/I125932930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5023997032",
+        "display_name": "Steven T. Kalinowski",
+        "orcid": "https://orcid.org/0000-0001-8504-4923"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Steven T. Kalinowski",
+      "raw_affiliation_strings": [
+        "Department of Ecology, Montana State University, Bozeman, Montana, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Ecology, Montana State University, Bozeman, Montana, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5083150876",
+    "https://openalex.org/A5038811000",
+    "https://openalex.org/A5057808526",
+    "https://openalex.org/A5081852187",
+    "https://openalex.org/A5023997032"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I23732399",
+    "https://openalex.org/I4210099623",
+    "https://openalex.org/I23732399",
+    "https://openalex.org/I4210099623",
+    "https://openalex.org/I125932930",
+    "https://openalex.org/I23732399"
+  ],
+  "apc_list": {
+    "value": 1805,
+    "currency": "USD",
+    "value_usd": 1805
+  },
+  "apc_paid": {
+    "value": 1805,
+    "currency": "USD",
+    "value_usd": 1805
+  },
+  "fwci": 5.476,
+  "has_fulltext": false,
+  "cited_by_count": 72,
+  "citation_normalized_percentile": {
+    "value": 0.999952,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "7",
+    "issue": "5",
+    "first_page": "e34777",
+    "last_page": "e34777"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10199",
+    "display_name": "Wildlife Ecology and Conservation",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2303",
+      "display_name": "Ecology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10199",
+      "display_name": "Wildlife Ecology and Conservation",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13388",
+      "display_name": "Rangeland and Wildlife Management",
+      "score": 0.9898,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10895",
+      "display_name": "Species Distribution and Climate Change",
+      "score": 0.9845,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2302",
+        "display_name": "Ecological Modeling"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/grizzly-bears",
+      "display_name": "Grizzly Bears",
+      "score": 0.8982259
+    },
+    {
+      "id": "https://openalex.org/keywords/mark-and-recapture",
+      "display_name": "Mark and recapture",
+      "score": 0.5770413
+    },
+    {
+      "id": "https://openalex.org/keywords/distance-sampling",
+      "display_name": "Distance sampling",
+      "score": 0.4612566
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776653109",
+      "wikidata": "https://www.wikidata.org/wiki/Q243359",
+      "display_name": "Ursus",
+      "level": 3,
+      "score": 0.9803449
+    },
+    {
+      "id": "https://openalex.org/C2908882067",
+      "wikidata": "https://www.wikidata.org/wiki/Q171004",
+      "display_name": "Grizzly Bears",
+      "level": 4,
+      "score": 0.8982259
+    },
+    {
+      "id": "https://openalex.org/C2780993040",
+      "wikidata": "https://www.wikidata.org/wiki/Q46169",
+      "display_name": "National park",
+      "level": 2,
+      "score": 0.8423635
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.68946165
+    },
+    {
+      "id": "https://openalex.org/C77077793",
+      "wikidata": "https://www.wikidata.org/wiki/Q336019",
+      "display_name": "Abundance (ecology)",
+      "level": 2,
+      "score": 0.6397202
+    },
+    {
+      "id": "https://openalex.org/C36528806",
+      "wikidata": "https://www.wikidata.org/wiki/Q796147",
+      "display_name": "Mark and recapture",
+      "level": 3,
+      "score": 0.5770413
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.48759216
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.4824472
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.4700823
+    },
+    {
+      "id": "https://openalex.org/C2781050692",
+      "wikidata": "https://www.wikidata.org/wiki/Q5282869",
+      "display_name": "Distance sampling",
+      "level": 3,
+      "score": 0.4612566
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.40102354
+    },
+    {
+      "id": "https://openalex.org/C90856448",
+      "wikidata": "https://www.wikidata.org/wiki/Q431",
+      "display_name": "Zoology",
+      "level": 1,
+      "score": 0.32017
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002170",
+      "descriptor_name": "Canada",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001503",
+      "descriptor_name": "Ursidae",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0034777",
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0034777&type=printable",
+      "source": {
+        "id": "https://openalex.org/S202381698",
+        "display_name": "PLoS ONE",
+        "issn_l": "1932-6203",
+        "issn": [
+          "1932-6203"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/5f10d7c1f4024c8791b1294a76ea771b",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3342321",
+      "pdf_url": "https://europepmc.org/articles/pmc3342321?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3342321",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/22567089",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pone.0034777",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0034777&type=printable",
+    "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+        "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life on land",
+      "score": 0.44,
+      "id": "https://metadata.un.org/sdg/15"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 64,
+  "referenced_works": [
+    "https://openalex.org/W1966291691",
+    "https://openalex.org/W1984543228",
+    "https://openalex.org/W1993205026",
+    "https://openalex.org/W1999823870",
+    "https://openalex.org/W2004444667",
+    "https://openalex.org/W2008592508",
+    "https://openalex.org/W2009435671",
+    "https://openalex.org/W2011936457",
+    "https://openalex.org/W2015732607",
+    "https://openalex.org/W2033587820",
+    "https://openalex.org/W2035856104",
+    "https://openalex.org/W2037728468",
+    "https://openalex.org/W2039192870",
+    "https://openalex.org/W2040618444",
+    "https://openalex.org/W2048051143",
+    "https://openalex.org/W2049392090",
+    "https://openalex.org/W2052530871",
+    "https://openalex.org/W2057593449",
+    "https://openalex.org/W2060128834",
+    "https://openalex.org/W2063425988",
+    "https://openalex.org/W2069869454",
+    "https://openalex.org/W2072076632",
+    "https://openalex.org/W2081980924",
+    "https://openalex.org/W2084734423",
+    "https://openalex.org/W2091920744",
+    "https://openalex.org/W2098310196",
+    "https://openalex.org/W2102906279",
+    "https://openalex.org/W2103525574",
+    "https://openalex.org/W2107928750",
+    "https://openalex.org/W2109129264",
+    "https://openalex.org/W2110616414",
+    "https://openalex.org/W2111710047",
+    "https://openalex.org/W2111871000",
+    "https://openalex.org/W2115014359",
+    "https://openalex.org/W2124801815",
+    "https://openalex.org/W2127396309",
+    "https://openalex.org/W2131596110",
+    "https://openalex.org/W2133371793",
+    "https://openalex.org/W2137195256",
+    "https://openalex.org/W2144956806",
+    "https://openalex.org/W2145887531",
+    "https://openalex.org/W2150742358",
+    "https://openalex.org/W2152378712",
+    "https://openalex.org/W2152660928",
+    "https://openalex.org/W2162373006",
+    "https://openalex.org/W2163744914",
+    "https://openalex.org/W2165522474",
+    "https://openalex.org/W2166911023",
+    "https://openalex.org/W2173102980",
+    "https://openalex.org/W2173621825",
+    "https://openalex.org/W2173802002",
+    "https://openalex.org/W2178173260",
+    "https://openalex.org/W2179999623",
+    "https://openalex.org/W2180539288",
+    "https://openalex.org/W2180801317",
+    "https://openalex.org/W2323515780",
+    "https://openalex.org/W2492147840",
+    "https://openalex.org/W2801448666",
+    "https://openalex.org/W2917399354",
+    "https://openalex.org/W4239999704",
+    "https://openalex.org/W4391501205",
+    "https://openalex.org/W604383919",
+    "https://openalex.org/W650871310",
+    "https://openalex.org/W772000886"
+  ],
+  "related_works": [
+    "https://openalex.org/W4234340285",
+    "https://openalex.org/W3118272468",
+    "https://openalex.org/W2801880861",
+    "https://openalex.org/W2740367498",
+    "https://openalex.org/W2618196277",
+    "https://openalex.org/W2155540261",
+    "https://openalex.org/W2154589453",
+    "https://openalex.org/W2110616414",
+    "https://openalex.org/W1911415378",
+    "https://openalex.org/W1536681555"
+  ],
+  "abstract_inverted_index": {
+    "We": [
+      0,
+      136
+    ],
+    "evaluated": [
+      1
+    ],
+    "the": [
+      2,
+      46,
+      92,
+      228
+    ],
+    "potential": [
+      3
+    ],
+    "of": [
+      4,
+      22,
+      171,
+      203
+    ],
+    "two": [
+      5
+    ],
+    "noninvasive": [
+      6
+    ],
+    "genetic": [
+      7
+    ],
+    "sampling": [
+      8
+    ],
+    "methods,": [
+      9
+    ],
+    "hair": [
+      10,
+      184
+    ],
+    "traps": [
+      11,
+      96
+    ],
+    "and": [
+      12,
+      20,
+      26,
+      71,
+      104,
+      106,
+      127,
+      154,
+      190,
+      217,
+      222
+    ],
+    "bear": [
+      13,
+      28,
+      119,
+      145,
+      172,
+      210,
+      225
+    ],
+    "rub": [
+      14,
+      173,
+      186,
+      211
+    ],
+    "surveys,": [
+      15
+    ],
+    "to": [
+      16,
+      220
+    ],
+    "estimate": [
+      17
+    ],
+    "population": [
+      18,
+      41,
+      139,
+      166,
+      188
+    ],
+    "abundance": [
+      19,
+      49,
+      180
+    ],
+    "trend": [
+      21
+    ],
+    "grizzly": [
+      23,
+      52,
+      144,
+      224
+    ],
+    "(Ursus": [
+      24
+    ],
+    "arctos)": [
+      25
+    ],
+    "black": [
+      27,
+      72,
+      108,
+      134
+    ],
+    "(U.": [
+      29
+    ],
+    "americanus)": [
+      30
+    ],
+    "populations": [
+      31,
+      226
+    ],
+    "in": [
+      32,
+      61,
+      69,
+      81,
+      89,
+      91,
+      227
+    ],
+    "Banff": [
+      33
+    ],
+    "National": [
+      34
+    ],
+    "Park,": [
+      35
+    ],
+    "Alberta,": [
+      36
+    ],
+    "Canada.": [
+      37
+    ],
+    "Using": [
+      38
+    ],
+    "Huggins": [
+      39
+    ],
+    "closed": [
+      40,
+      187
+    ],
+    "mark-recapture": [
+      42
+    ],
+    "models,": [
+      43
+    ],
+    "we": [
+      44
+    ],
+    "obtained": [
+      45
+    ],
+    "first": [
+      47
+    ],
+    "precise": [
+      48
+    ],
+    "estimates": [
+      50,
+      176,
+      181
+    ],
+    "for": [
+      51,
+      101,
+      115,
+      125,
+      133,
+      143
+    ],
+    "bears": [
+      53,
+      73
+    ],
+    "(": [
+      54,
+      74,
+      147,
+      156
+    ],
+    "=": [
+      55,
+      59,
+      63,
+      67,
+      75,
+      79,
+      83,
+      87,
+      148,
+      152,
+      157,
+      161
+    ],
+    "73.5,": [
+      56
+    ],
+    "95%": [
+      57,
+      65,
+      77,
+      85,
+      150,
+      159
+    ],
+    "CI": [
+      58,
+      66,
+      78,
+      86,
+      151,
+      160
+    ],
+    "64–94": [
+      60
+    ],
+    "2006;": [
+      62,
+      82
+    ],
+    "50.4,": [
+      64
+    ],
+    "49–59": [
+      68
+    ],
+    "2008)": [
+      70,
+      90
+    ],
+    "62.6,": [
+      76
+    ],
+    "51–89": [
+      80
+    ],
+    "81.8,": [
+      84
+    ],
+    "72–102": [
+      88
+    ],
+    "Bow": [
+      93
+    ],
+    "Valley.": [
+      94
+    ],
+    "Hair": [
+      95
+    ],
+    "had": [
+      97,
+      121
+    ],
+    "high": [
+      98,
+      122,
+      201
+    ],
+    "detection": [
+      99,
+      113,
+      123
+    ],
+    "rates": [
+      100,
+      114,
+      124,
+      132
+    ],
+    "female": [
+      102,
+      107,
+      128
+    ],
+    "grizzlies,": [
+      103,
+      129
+    ],
+    "male": [
+      105,
+      116,
+      126
+    ],
+    "bears,": [
+      109
+    ],
+    "but": [
+      110,
+      130
+    ],
+    "extremely": [
+      111
+    ],
+    "low": [
+      112,
+      131
+    ],
+    "grizzlies.": [
+      117
+    ],
+    "Conversely,": [
+      118
+    ],
+    "rubs": [
+      120
+    ],
+    "bears.": [
+      135
+    ],
+    "estimated": [
+      137
+    ],
+    "realized": [
+      138
+    ],
+    "growth": [
+      140
+    ],
+    "rates,": [
+      141
+    ],
+    "lambda,": [
+      142
+    ],
+    "males": [
+      146
+    ],
+    "0.93,": [
+      149
+    ],
+    "0.74–1.17)": [
+      153
+    ],
+    "females": [
+      155
+    ],
+    "0.90,": [
+      158
+    ],
+    "0.67–1.20)": [
+      162
+    ],
+    "using": [
+      163
+    ],
+    "Pradel": [
+      164
+    ],
+    "open": [
+      165
+    ],
+    "models": [
+      167,
+      189
+    ],
+    "with": [
+      168,
+      193
+    ],
+    "three": [
+      169
+    ],
+    "years": [
+      170
+    ],
+    "data.": [
+      174
+    ],
+    "Lambda": [
+      175
+    ],
+    "are": [
+      177,
+      191
+    ],
+    "supported": [
+      178
+    ],
+    "by": [
+      179,
+      200
+    ],
+    "from": [
+      182
+    ],
+    "combined": [
+      183
+    ],
+    "trap/bear": [
+      185
+    ],
+    "consistent": [
+      192
+    ],
+    "a": [
+      194
+    ],
+    "system": [
+      195
+    ],
+    "that": [
+      196,
+      209
+    ],
+    "is": [
+      197
+    ],
+    "likely": [
+      198
+    ],
+    "driven": [
+      199
+    ],
+    "levels": [
+      202
+    ],
+    "human-caused": [
+      204
+    ],
+    "mortality.": [
+      205
+    ],
+    "Our": [
+      206
+    ],
+    "results": [
+      207
+    ],
+    "suggest": [
+      208
+    ],
+    "surveys": [
+      212
+    ],
+    "would": [
+      213
+    ],
+    "provide": [
+      214
+    ],
+    "an": [
+      215
+    ],
+    "efficient": [
+      216
+    ],
+    "powerful": [
+      218
+    ],
+    "means": [
+      219
+    ],
+    "inventory": [
+      221
+    ],
+    "monitor": [
+      223
+    ],
+    "Central": [
+      229
+    ],
+    "Canadian": [
+      230
+    ],
+    "Rocky": [
+      231
+    ],
+    "Mountains.": [
+      232
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2012199881",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-05-23T19:04:30.271024",
+  "created_date": "2016-06-24"
+}

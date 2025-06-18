@@ -1,0 +1,944 @@
+{
+  "id": "https://openalex.org/W2788755901",
+  "doi": "https://doi.org/10.1038/nrn.2018.1",
+  "title": "Imaging structural and functional brain development in early childhood",
+  "display_name": "Imaging structural and functional brain development in early childhood",
+  "publication_year": 2018,
+  "publication_date": "2018-02-16",
+  "ids": {
+    "openalex": "https://openalex.org/W2788755901",
+    "doi": "https://doi.org/10.1038/nrn.2018.1",
+    "mag": "2788755901",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/29449712",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5987539"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1038/nrn.2018.1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S26843219",
+      "display_name": "Nature reviews. Neuroscience",
+      "issn_l": "1471-003X",
+      "issn": [
+        "1471-003X",
+        "1471-0048"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987539",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5052698941",
+        "display_name": "John H. Gilmore",
+        "orcid": "https://orcid.org/0000-0002-0939-6764"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114027177",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "ror": "https://ror.org/0130frc33",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John H. Gilmore",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, CB# 7160, University of North Carolina School of Medicine, Chapel Hill, NC, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, CB# 7160, University of North Carolina School of Medicine, Chapel Hill, NC, USA",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051496500",
+        "display_name": "Rebecca Knickmeyer",
+        "orcid": "https://orcid.org/0000-0001-7708-1388"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114027177",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "ror": "https://ror.org/0130frc33",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rebecca C. Knickmeyer",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, CB# 7160, University of North Carolina School of Medicine, Chapel Hill, NC, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, CB# 7160, University of North Carolina School of Medicine, Chapel Hill, NC, USA",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5057001672",
+        "display_name": "Wei Gao",
+        "orcid": "https://orcid.org/0000-0002-9260-2601"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1282927834",
+          "display_name": "Cedars-Sinai Medical Center",
+          "ror": "https://ror.org/02pammg90",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1282927834"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wei Gao",
+      "raw_affiliation_strings": [
+        "Department of Biomedical Sciences and Imaging, Biomedical Imaging Research Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+        "Department of Medicine, University of California, Los Angeles, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medicine, University of California, Los Angeles, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Biomedical Sciences and Imaging, Biomedical Imaging Research Institute, Cedars-Sinai Medical Center, Los Angeles, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I1282927834"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 8.726,
+  "has_fulltext": false,
+  "cited_by_count": 807,
+  "citation_normalized_percentile": {
+    "value": 0.998555,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "19",
+    "issue": "3",
+    "first_page": "123",
+    "last_page": "137"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10241",
+    "display_name": "Functional Brain Connectivity Studies",
+    "score": 0.9997,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11304",
+      "display_name": "Advanced Neuroimaging Techniques and Applications",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11184",
+      "display_name": "Neonatal and fetal brain pathology",
+      "score": 0.999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/brain-development",
+      "display_name": "Brain Development",
+      "score": 0.64826715
+    },
+    {
+      "id": "https://openalex.org/keywords/brain-function",
+      "display_name": "Brain Function",
+      "score": 0.45303097
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779632907",
+      "wikidata": "https://www.wikidata.org/wiki/Q13444883",
+      "display_name": "Brain Structure and Function",
+      "level": 3,
+      "score": 0.78676814
+    },
+    {
+      "id": "https://openalex.org/C58693492",
+      "wikidata": "https://www.wikidata.org/wiki/Q551875",
+      "display_name": "Neuroimaging",
+      "level": 2,
+      "score": 0.78329283
+    },
+    {
+      "id": "https://openalex.org/C2984223407",
+      "wikidata": "https://www.wikidata.org/wiki/Q1345738",
+      "display_name": "Brain development",
+      "level": 2,
+      "score": 0.64826715
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.6345997
+    },
+    {
+      "id": "https://openalex.org/C205778803",
+      "wikidata": "https://www.wikidata.org/wiki/Q38404",
+      "display_name": "Autism",
+      "level": 2,
+      "score": 0.58014417
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.53747576
+    },
+    {
+      "id": "https://openalex.org/C2776412080",
+      "wikidata": "https://www.wikidata.org/wiki/Q7431605",
+      "display_name": "Schizophrenia (object-oriented programming)",
+      "level": 2,
+      "score": 0.5152431
+    },
+    {
+      "id": "https://openalex.org/C2781192897",
+      "wikidata": "https://www.wikidata.org/wiki/Q822050",
+      "display_name": "White matter",
+      "level": 3,
+      "score": 0.505563
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.5027952
+    },
+    {
+      "id": "https://openalex.org/C65835030",
+      "wikidata": "https://www.wikidata.org/wiki/Q1030681",
+      "display_name": "Brain size",
+      "level": 3,
+      "score": 0.4810917
+    },
+    {
+      "id": "https://openalex.org/C3018390542",
+      "wikidata": "https://www.wikidata.org/wiki/Q1073",
+      "display_name": "Brain function",
+      "level": 2,
+      "score": 0.45303097
+    },
+    {
+      "id": "https://openalex.org/C138496976",
+      "wikidata": "https://www.wikidata.org/wiki/Q175002",
+      "display_name": "Developmental psychology",
+      "level": 1,
+      "score": 0.3833545
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.27710778
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.21983531
+    },
+    {
+      "id": "https://openalex.org/C143409427",
+      "wikidata": "https://www.wikidata.org/wiki/Q161238",
+      "display_name": "Magnetic resonance imaging",
+      "level": 2,
+      "score": 0.13599405
+    },
+    {
+      "id": "https://openalex.org/C126838900",
+      "wikidata": "https://www.wikidata.org/wiki/Q77604",
+      "display_name": "Radiology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003071",
+      "descriptor_name": "Cognition",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000033",
+      "qualifier_name": "anatomy & histology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002657",
+      "descriptor_name": "Child Development",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059647",
+      "descriptor_name": "Gene-Environment Interaction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D066128",
+      "descriptor_name": "Gray Matter",
+      "qualifier_ui": "Q000033",
+      "qualifier_name": "anatomy & histology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007223",
+      "descriptor_name": "Infant",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007231",
+      "descriptor_name": "Infant, Newborn",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001523",
+      "descriptor_name": "Mental Disorders",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009434",
+      "descriptor_name": "Neural Pathways",
+      "qualifier_ui": "Q000033",
+      "qualifier_name": "anatomy & histology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059906",
+      "descriptor_name": "Neuroimaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012307",
+      "descriptor_name": "Risk Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D066127",
+      "descriptor_name": "White Matter",
+      "qualifier_ui": "Q000033",
+      "qualifier_name": "anatomy & histology",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1038/nrn.2018.1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S26843219",
+        "display_name": "Nature reviews. Neuroscience",
+        "issn_l": "1471-003X",
+        "issn": [
+          "1471-003X",
+          "1471-0048"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987539",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29449712",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5987539",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 250,
+  "referenced_works": [
+    "https://openalex.org/W1489066826",
+    "https://openalex.org/W1513772712",
+    "https://openalex.org/W1565193243",
+    "https://openalex.org/W1582430325",
+    "https://openalex.org/W1620203002",
+    "https://openalex.org/W1672229930",
+    "https://openalex.org/W1755973449",
+    "https://openalex.org/W1760829075",
+    "https://openalex.org/W1775388063",
+    "https://openalex.org/W1859056354",
+    "https://openalex.org/W1874177033",
+    "https://openalex.org/W189035892",
+    "https://openalex.org/W1896627062",
+    "https://openalex.org/W1910675448",
+    "https://openalex.org/W1928362823",
+    "https://openalex.org/W1939191864",
+    "https://openalex.org/W1965445933",
+    "https://openalex.org/W1966295032",
+    "https://openalex.org/W1967044617",
+    "https://openalex.org/W1967353501",
+    "https://openalex.org/W1969129137",
+    "https://openalex.org/W1969676672",
+    "https://openalex.org/W1970062588",
+    "https://openalex.org/W1971552469",
+    "https://openalex.org/W1974435914",
+    "https://openalex.org/W1974813892",
+    "https://openalex.org/W1974897177",
+    "https://openalex.org/W1975282631",
+    "https://openalex.org/W1977370225",
+    "https://openalex.org/W1978983866",
+    "https://openalex.org/W1979008102",
+    "https://openalex.org/W1979522937",
+    "https://openalex.org/W1979808416",
+    "https://openalex.org/W1983485726",
+    "https://openalex.org/W1984714101",
+    "https://openalex.org/W1985327120",
+    "https://openalex.org/W1985450416",
+    "https://openalex.org/W1985806334",
+    "https://openalex.org/W1986162039",
+    "https://openalex.org/W1986214383",
+    "https://openalex.org/W1986856036",
+    "https://openalex.org/W1988207075",
+    "https://openalex.org/W1989523430",
+    "https://openalex.org/W1991211195",
+    "https://openalex.org/W1994239403",
+    "https://openalex.org/W1995722549",
+    "https://openalex.org/W1996817665",
+    "https://openalex.org/W1998660749",
+    "https://openalex.org/W1999653836",
+    "https://openalex.org/W2000113085",
+    "https://openalex.org/W2002660165",
+    "https://openalex.org/W2003299643",
+    "https://openalex.org/W2003731009",
+    "https://openalex.org/W2004470734",
+    "https://openalex.org/W2005527520",
+    "https://openalex.org/W2005552408",
+    "https://openalex.org/W2007482827",
+    "https://openalex.org/W2007829231",
+    "https://openalex.org/W2009494091",
+    "https://openalex.org/W2012253237",
+    "https://openalex.org/W2014863700",
+    "https://openalex.org/W2015391962",
+    "https://openalex.org/W2016128925",
+    "https://openalex.org/W2016269373",
+    "https://openalex.org/W2016956756",
+    "https://openalex.org/W2017473879",
+    "https://openalex.org/W2017921962",
+    "https://openalex.org/W2018077021",
+    "https://openalex.org/W2018329895",
+    "https://openalex.org/W2018473894",
+    "https://openalex.org/W2018768858",
+    "https://openalex.org/W2019370496",
+    "https://openalex.org/W2023448665",
+    "https://openalex.org/W2025108982",
+    "https://openalex.org/W2025655593",
+    "https://openalex.org/W2026622593",
+    "https://openalex.org/W2028057148",
+    "https://openalex.org/W2028163753",
+    "https://openalex.org/W2030729416",
+    "https://openalex.org/W2031779126",
+    "https://openalex.org/W2032032832",
+    "https://openalex.org/W2032254014",
+    "https://openalex.org/W2033865693",
+    "https://openalex.org/W2036528467",
+    "https://openalex.org/W2037689983",
+    "https://openalex.org/W2040165142",
+    "https://openalex.org/W2041706109",
+    "https://openalex.org/W2044068102",
+    "https://openalex.org/W2044216636",
+    "https://openalex.org/W2046572522",
+    "https://openalex.org/W2049146723",
+    "https://openalex.org/W2050139274",
+    "https://openalex.org/W2050215536",
+    "https://openalex.org/W2050717100",
+    "https://openalex.org/W2051872136",
+    "https://openalex.org/W2052471278",
+    "https://openalex.org/W2053356496",
+    "https://openalex.org/W2053479268",
+    "https://openalex.org/W2053790692",
+    "https://openalex.org/W2054260111",
+    "https://openalex.org/W2055132316",
+    "https://openalex.org/W2055335542",
+    "https://openalex.org/W2056586830",
+    "https://openalex.org/W2056694524",
+    "https://openalex.org/W2058059437",
+    "https://openalex.org/W2062170532",
+    "https://openalex.org/W2065889778",
+    "https://openalex.org/W2066804398",
+    "https://openalex.org/W2067842030",
+    "https://openalex.org/W2068991614",
+    "https://openalex.org/W2069023134",
+    "https://openalex.org/W2069091805",
+    "https://openalex.org/W2069171687",
+    "https://openalex.org/W2069953532",
+    "https://openalex.org/W2070889497",
+    "https://openalex.org/W2071412356",
+    "https://openalex.org/W2074976205",
+    "https://openalex.org/W2077831469",
+    "https://openalex.org/W2079246150",
+    "https://openalex.org/W2079450984",
+    "https://openalex.org/W2081828863",
+    "https://openalex.org/W2083359501",
+    "https://openalex.org/W2086544489",
+    "https://openalex.org/W2086686257",
+    "https://openalex.org/W2088198702",
+    "https://openalex.org/W2089810490",
+    "https://openalex.org/W2089829955",
+    "https://openalex.org/W2090153386",
+    "https://openalex.org/W2090578392",
+    "https://openalex.org/W2095864300",
+    "https://openalex.org/W2096966803",
+    "https://openalex.org/W2098605272",
+    "https://openalex.org/W2100934711",
+    "https://openalex.org/W2101328227",
+    "https://openalex.org/W2101400241",
+    "https://openalex.org/W2103554216",
+    "https://openalex.org/W2105416775",
+    "https://openalex.org/W2105549490",
+    "https://openalex.org/W2105722208",
+    "https://openalex.org/W2107859056",
+    "https://openalex.org/W2108986540",
+    "https://openalex.org/W2109569847",
+    "https://openalex.org/W2111692402",
+    "https://openalex.org/W2111706254",
+    "https://openalex.org/W2111884236",
+    "https://openalex.org/W2112409408",
+    "https://openalex.org/W2113111292",
+    "https://openalex.org/W2113267995",
+    "https://openalex.org/W2113415937",
+    "https://openalex.org/W2114272337",
+    "https://openalex.org/W2114832037",
+    "https://openalex.org/W2115133411",
+    "https://openalex.org/W2116658855",
+    "https://openalex.org/W2116897930",
+    "https://openalex.org/W2117245594",
+    "https://openalex.org/W2117987496",
+    "https://openalex.org/W2118219290",
+    "https://openalex.org/W2119275820",
+    "https://openalex.org/W2119290186",
+    "https://openalex.org/W2120079537",
+    "https://openalex.org/W2129664198",
+    "https://openalex.org/W2129795133",
+    "https://openalex.org/W2130312871",
+    "https://openalex.org/W2131940336",
+    "https://openalex.org/W2133182819",
+    "https://openalex.org/W2134573424",
+    "https://openalex.org/W2134744704",
+    "https://openalex.org/W2136980073",
+    "https://openalex.org/W2137376190",
+    "https://openalex.org/W2137931201",
+    "https://openalex.org/W2138108661",
+    "https://openalex.org/W2140364075",
+    "https://openalex.org/W2140952088",
+    "https://openalex.org/W2140954769",
+    "https://openalex.org/W2143463042",
+    "https://openalex.org/W2144402393",
+    "https://openalex.org/W2145713063",
+    "https://openalex.org/W2147918634",
+    "https://openalex.org/W2148601705",
+    "https://openalex.org/W2152444032",
+    "https://openalex.org/W2153736782",
+    "https://openalex.org/W2154241112",
+    "https://openalex.org/W2155603541",
+    "https://openalex.org/W2156736771",
+    "https://openalex.org/W2158031492",
+    "https://openalex.org/W2158611196",
+    "https://openalex.org/W2158782337",
+    "https://openalex.org/W2159222770",
+    "https://openalex.org/W2160816909",
+    "https://openalex.org/W2162010696",
+    "https://openalex.org/W2162500823",
+    "https://openalex.org/W2163636279",
+    "https://openalex.org/W2167003405",
+    "https://openalex.org/W2167187684",
+    "https://openalex.org/W2167339403",
+    "https://openalex.org/W2167822639",
+    "https://openalex.org/W2168721011",
+    "https://openalex.org/W2171775073",
+    "https://openalex.org/W2172095686",
+    "https://openalex.org/W2172909546",
+    "https://openalex.org/W2177650637",
+    "https://openalex.org/W2200229034",
+    "https://openalex.org/W2227667807",
+    "https://openalex.org/W2265592961",
+    "https://openalex.org/W2266968689",
+    "https://openalex.org/W2272583646",
+    "https://openalex.org/W2307733578",
+    "https://openalex.org/W2310662295",
+    "https://openalex.org/W2314682713",
+    "https://openalex.org/W2318288701",
+    "https://openalex.org/W2320839214",
+    "https://openalex.org/W2324745214",
+    "https://openalex.org/W2327107093",
+    "https://openalex.org/W2328783496",
+    "https://openalex.org/W2363249082",
+    "https://openalex.org/W2405134753",
+    "https://openalex.org/W2407139864",
+    "https://openalex.org/W2407313014",
+    "https://openalex.org/W2481387317",
+    "https://openalex.org/W2500768806",
+    "https://openalex.org/W2514054620",
+    "https://openalex.org/W2518059409",
+    "https://openalex.org/W2529762510",
+    "https://openalex.org/W2533920203",
+    "https://openalex.org/W2540752729",
+    "https://openalex.org/W2541073300",
+    "https://openalex.org/W2555802555",
+    "https://openalex.org/W2557680703",
+    "https://openalex.org/W2565311030",
+    "https://openalex.org/W2567177920",
+    "https://openalex.org/W2578898966",
+    "https://openalex.org/W2588003167",
+    "https://openalex.org/W2589870402",
+    "https://openalex.org/W2590328111",
+    "https://openalex.org/W2593646159",
+    "https://openalex.org/W2596398870",
+    "https://openalex.org/W2597348720",
+    "https://openalex.org/W2604161564",
+    "https://openalex.org/W2620379761",
+    "https://openalex.org/W2623800443",
+    "https://openalex.org/W2685796289",
+    "https://openalex.org/W2726168273",
+    "https://openalex.org/W2740817192",
+    "https://openalex.org/W2745316278",
+    "https://openalex.org/W2751709067",
+    "https://openalex.org/W2754770663",
+    "https://openalex.org/W2759595435",
+    "https://openalex.org/W2766650025",
+    "https://openalex.org/W625038580",
+    "https://openalex.org/W990109608"
+  ],
+  "related_works": [
+    "https://openalex.org/W4385547604",
+    "https://openalex.org/W4254583049",
+    "https://openalex.org/W4253937632",
+    "https://openalex.org/W2843337159",
+    "https://openalex.org/W2595062152",
+    "https://openalex.org/W2481387317",
+    "https://openalex.org/W2164760908",
+    "https://openalex.org/W2114272337",
+    "https://openalex.org/W2077956842",
+    "https://openalex.org/W2017977110"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2788755901",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 57
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 177
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 168
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 147
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 108
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 81
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 47
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 17
+    }
+  ],
+  "updated_date": "2025-06-11T13:48:27.708547",
+  "created_date": "2018-03-06"
+}

@@ -1,0 +1,1332 @@
+{
+  "id": "https://openalex.org/W2752781070",
+  "doi": "https://doi.org/10.1016/j.neubiorev.2017.08.019",
+  "title": "Treatment resistant depression: A multi-scale, systems biology approach",
+  "display_name": "Treatment resistant depression: A multi-scale, systems biology approach",
+  "publication_year": 2017,
+  "publication_date": "2017-08-31",
+  "ids": {
+    "openalex": "https://openalex.org/W2752781070",
+    "doi": "https://doi.org/10.1016/j.neubiorev.2017.08.019",
+    "mag": "2752781070",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/28859997",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5729118"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.neubiorev.2017.08.019",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S170052170",
+      "display_name": "Neuroscience & Biobehavioral Reviews",
+      "issn_l": "0149-7634",
+      "issn": [
+        "0149-7634",
+        "1873-7528"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc5729118?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5007964297",
+        "display_name": "Huda Akil",
+        "orcid": "https://orcid.org/0000-0003-0623-1056"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210111179",
+          "display_name": "Michigan United",
+          "ror": "https://ror.org/0291ys696",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210111179"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210112775",
+          "display_name": "Hope for Depression Research Foundation",
+          "ror": "https://ror.org/01mcwn339",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Huda Akil",
+      "raw_affiliation_strings": [
+        "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+        "University of Michigan, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Michigan, United States",
+          "institution_ids": [
+            "https://openalex.org/I27837315",
+            "https://openalex.org/I4210111179"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+          "institution_ids": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102014711",
+        "display_name": "Joshua A. Gordon",
+        "orcid": "https://orcid.org/0000-0002-5488-8266"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4388891851",
+          "display_name": "New York State Psychiatric Institute",
+          "ror": "https://ror.org/04aqjf708",
+          "country_code": null,
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4388891851"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210112775",
+          "display_name": "Hope for Depression Research Foundation",
+          "ror": "https://ror.org/01mcwn339",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Joshua Gordon",
+      "raw_affiliation_strings": [
+        "Columbia University, United States",
+        "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+        "New York State Psychiatric Institute, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "New York State Psychiatric Institute, United States",
+          "institution_ids": [
+            "https://openalex.org/I4388891851"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Columbia University, United States",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+          "institution_ids": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040427737",
+        "display_name": "René Hen",
+        "orcid": "https://orcid.org/0000-0002-7763-4162"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4388891851",
+          "display_name": "New York State Psychiatric Institute",
+          "ror": "https://ror.org/04aqjf708",
+          "country_code": null,
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4388891851"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210112775",
+          "display_name": "Hope for Depression Research Foundation",
+          "ror": "https://ror.org/01mcwn339",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rene Hen",
+      "raw_affiliation_strings": [
+        "Columbia University, United States",
+        "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+        "New York State Psychiatric Institute, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "New York State Psychiatric Institute, United States",
+          "institution_ids": [
+            "https://openalex.org/I4388891851"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Columbia University, United States",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+          "institution_ids": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5076865147",
+        "display_name": "Jonathan A. Javitch",
+        "orcid": "https://orcid.org/0000-0001-7395-2967"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4388891851",
+          "display_name": "New York State Psychiatric Institute",
+          "ror": "https://ror.org/04aqjf708",
+          "country_code": null,
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4388891851"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210112775",
+          "display_name": "Hope for Depression Research Foundation",
+          "ror": "https://ror.org/01mcwn339",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan Javitch",
+      "raw_affiliation_strings": [
+        "Columbia University, United States",
+        "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+        "New York State Psychiatric Institute, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "New York State Psychiatric Institute, United States",
+          "institution_ids": [
+            "https://openalex.org/I4388891851"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Columbia University, United States",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+          "institution_ids": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026199142",
+        "display_name": "Helen S. Mayberg",
+        "orcid": "https://orcid.org/0000-0002-1672-2716"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210112775",
+          "display_name": "Hope for Depression Research Foundation",
+          "ror": "https://ror.org/01mcwn339",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210112775"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Helen Mayberg",
+      "raw_affiliation_strings": [
+        "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+        "Emory University, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+          "institution_ids": [
+            "https://openalex.org/I4210112775"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Emory University, United States",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035103174",
+        "display_name": "Bruce S. McEwen",
+        "orcid": "https://orcid.org/0000-0002-5288-7892"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I83399316",
+          "display_name": "Rockefeller University",
+          "ror": "https://ror.org/0420db125",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I83399316"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210112775",
+          "display_name": "Hope for Depression Research Foundation",
+          "ror": "https://ror.org/01mcwn339",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bruce McEwen",
+      "raw_affiliation_strings": [
+        "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+        "Rockefeller University, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rockefeller University, United States",
+          "institution_ids": [
+            "https://openalex.org/I83399316"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+          "institution_ids": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034400760",
+        "display_name": "Michael J. Meaney",
+        "orcid": "https://orcid.org/0000-0002-8605-1997"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210101200",
+          "display_name": "Singapore Institute for Clinical Sciences",
+          "ror": "https://ror.org/015p9va32",
+          "country_code": "SG",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I115228651",
+            "https://openalex.org/I4210101200"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210112775",
+          "display_name": "Hope for Depression Research Foundation",
+          "ror": "https://ror.org/01mcwn339",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ],
+      "countries": [
+        "SG",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael J. Meaney",
+      "raw_affiliation_strings": [
+        "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+        "McGill University, United States",
+        "Singapore Institute for Clinical Science, Singapore"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McGill University, United States",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Singapore Institute for Clinical Science, Singapore",
+          "institution_ids": [
+            "https://openalex.org/I4210101200"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+          "institution_ids": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5049993782",
+        "display_name": "Eric J. Nestler",
+        "orcid": "https://orcid.org/0000-0002-7905-2000"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98704320",
+          "display_name": "Icahn School of Medicine at Mount Sinai",
+          "ror": "https://ror.org/04a9tmd77",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1320796813",
+            "https://openalex.org/I98704320"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210112775",
+          "display_name": "Hope for Depression Research Foundation",
+          "ror": "https://ror.org/01mcwn339",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Eric J. Nestler",
+      "raw_affiliation_strings": [
+        "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+        "Icahn School of Medicine at Mount Sinai, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Icahn School of Medicine at Mount Sinai, United States",
+          "institution_ids": [
+            "https://openalex.org/I98704320"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Depression Task Force, Hope for Depression Research Foundation, New York, NY 10019, United States",
+          "institution_ids": [
+            "https://openalex.org/I4210112775"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 9,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5049993782"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I98704320",
+    "https://openalex.org/I4210112775"
+  ],
+  "apc_list": {
+    "value": 4720,
+    "currency": "USD",
+    "value_usd": 4720
+  },
+  "apc_paid": null,
+  "fwci": 4.094,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 387,
+  "citation_normalized_percentile": {
+    "value": 0.986842,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "84",
+    "issue": null,
+    "first_page": "272",
+    "last_page": "288"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11337",
+    "display_name": "Tryptophan and brain disorders",
+    "score": 0.9979,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2803",
+      "display_name": "Biological Psychiatry"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11337",
+      "display_name": "Tryptophan and brain disorders",
+      "score": 0.9979,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2803",
+        "display_name": "Biological Psychiatry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9969,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10077",
+      "display_name": "Neuroscience and Neuropharmacology Research",
+      "score": 0.9904,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/dysfunctional-family",
+      "display_name": "Dysfunctional family",
+      "score": 0.68627334
+    },
+    {
+      "id": "https://openalex.org/keywords/depression",
+      "display_name": "Depression",
+      "score": 0.6629192
+    },
+    {
+      "id": "https://openalex.org/keywords/treatment-resistant-depression",
+      "display_name": "Treatment-Resistant Depression",
+      "score": 0.45953253
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C27502469",
+      "wikidata": "https://www.wikidata.org/wiki/Q906343",
+      "display_name": "Dysfunctional family",
+      "level": 2,
+      "score": 0.68627334
+    },
+    {
+      "id": "https://openalex.org/C2776867660",
+      "wikidata": "https://www.wikidata.org/wiki/Q1814941",
+      "display_name": "Depression (economics)",
+      "level": 2,
+      "score": 0.6629192
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.47688583
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.46895498
+    },
+    {
+      "id": "https://openalex.org/C2777342061",
+      "wikidata": "https://www.wikidata.org/wiki/Q7836891",
+      "display_name": "Treatment-resistant depression",
+      "level": 4,
+      "score": 0.45953253
+    },
+    {
+      "id": "https://openalex.org/C27415008",
+      "wikidata": "https://www.wikidata.org/wiki/Q7256382",
+      "display_name": "Psychological intervention",
+      "level": 2,
+      "score": 0.42394263
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.4167628
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.3833998
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.3616181
+    },
+    {
+      "id": "https://openalex.org/C2780051608",
+      "wikidata": "https://www.wikidata.org/wiki/Q42844",
+      "display_name": "Major depressive disorder",
+      "level": 3,
+      "score": 0.33111805
+    },
+    {
+      "id": "https://openalex.org/C70410870",
+      "wikidata": "https://www.wikidata.org/wiki/Q199906",
+      "display_name": "Clinical psychology",
+      "level": 1,
+      "score": 0.30664587
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.2975387
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.2083936
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.18366152
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.13555714
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C139719470",
+      "wikidata": "https://www.wikidata.org/wiki/Q39680",
+      "display_name": "Macroeconomics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D061218",
+      "descriptor_name": "Depressive Disorder, Treatment-Resistant",
+      "qualifier_ui": "Q000188",
+      "qualifier_name": "drug therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D058990",
+      "descriptor_name": "Molecular Targeted Therapy",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D049490",
+      "descriptor_name": "Systems Biology",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D061218",
+      "descriptor_name": "Depressive Disorder, Treatment-Resistant",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D061218",
+      "descriptor_name": "Depressive Disorder, Treatment-Resistant",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D061218",
+      "descriptor_name": "Depressive Disorder, Treatment-Resistant",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004195",
+      "descriptor_name": "Disease Models, Animal",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D058990",
+      "descriptor_name": "Molecular Targeted Therapy",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.neubiorev.2017.08.019",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S170052170",
+        "display_name": "Neuroscience & Biobehavioral Reviews",
+        "issn_l": "0149-7634",
+        "issn": [
+          "0149-7634",
+          "1873-7528"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5729118",
+      "pdf_url": "https://europepmc.org/articles/pmc5729118?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5729118",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/28859997",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc5729118",
+    "pdf_url": "https://europepmc.org/articles/pmc5729118?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.8,
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320309008",
+      "funder_display_name": "Hope for Depression Research Foundation",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 216,
+  "referenced_works": [
+    "https://openalex.org/W1197974428",
+    "https://openalex.org/W1567486735",
+    "https://openalex.org/W1692522137",
+    "https://openalex.org/W1697553032",
+    "https://openalex.org/W1722355893",
+    "https://openalex.org/W1821567097",
+    "https://openalex.org/W1823837540",
+    "https://openalex.org/W184284683",
+    "https://openalex.org/W1922107730",
+    "https://openalex.org/W1958676502",
+    "https://openalex.org/W1966581051",
+    "https://openalex.org/W1968545758",
+    "https://openalex.org/W1968569062",
+    "https://openalex.org/W1969557387",
+    "https://openalex.org/W1970234726",
+    "https://openalex.org/W1972684935",
+    "https://openalex.org/W1974323299",
+    "https://openalex.org/W1977514547",
+    "https://openalex.org/W1979522937",
+    "https://openalex.org/W1981295473",
+    "https://openalex.org/W1981654563",
+    "https://openalex.org/W1982041899",
+    "https://openalex.org/W1983617759",
+    "https://openalex.org/W1984120803",
+    "https://openalex.org/W1986145335",
+    "https://openalex.org/W1986928551",
+    "https://openalex.org/W1988065397",
+    "https://openalex.org/W1988193688",
+    "https://openalex.org/W1988405549",
+    "https://openalex.org/W1988751658",
+    "https://openalex.org/W1991527095",
+    "https://openalex.org/W1993227273",
+    "https://openalex.org/W1993588417",
+    "https://openalex.org/W1993981485",
+    "https://openalex.org/W1995818832",
+    "https://openalex.org/W1999697076",
+    "https://openalex.org/W2003410380",
+    "https://openalex.org/W2003551015",
+    "https://openalex.org/W2003982930",
+    "https://openalex.org/W2005027616",
+    "https://openalex.org/W2005527520",
+    "https://openalex.org/W2007438283",
+    "https://openalex.org/W2007816528",
+    "https://openalex.org/W2010167850",
+    "https://openalex.org/W2011812102",
+    "https://openalex.org/W2013016035",
+    "https://openalex.org/W2013309206",
+    "https://openalex.org/W2014099101",
+    "https://openalex.org/W2015205503",
+    "https://openalex.org/W2020341494",
+    "https://openalex.org/W2021199403",
+    "https://openalex.org/W2025186945",
+    "https://openalex.org/W2025189890",
+    "https://openalex.org/W2025204726",
+    "https://openalex.org/W2026813655",
+    "https://openalex.org/W2027764072",
+    "https://openalex.org/W2029819292",
+    "https://openalex.org/W2034279055",
+    "https://openalex.org/W2035015498",
+    "https://openalex.org/W2035421865",
+    "https://openalex.org/W2039593919",
+    "https://openalex.org/W2042170262",
+    "https://openalex.org/W2045227722",
+    "https://openalex.org/W2045322458",
+    "https://openalex.org/W2046140176",
+    "https://openalex.org/W2046224942",
+    "https://openalex.org/W2046798829",
+    "https://openalex.org/W2047605192",
+    "https://openalex.org/W2049909326",
+    "https://openalex.org/W2050163185",
+    "https://openalex.org/W2050889951",
+    "https://openalex.org/W2051005796",
+    "https://openalex.org/W2053610456",
+    "https://openalex.org/W2054980594",
+    "https://openalex.org/W2057017838",
+    "https://openalex.org/W2057389564",
+    "https://openalex.org/W2058073897",
+    "https://openalex.org/W2058326591",
+    "https://openalex.org/W2058744155",
+    "https://openalex.org/W2062890833",
+    "https://openalex.org/W2063710526",
+    "https://openalex.org/W2064187296",
+    "https://openalex.org/W2065692954",
+    "https://openalex.org/W2068677212",
+    "https://openalex.org/W2068677608",
+    "https://openalex.org/W2068930481",
+    "https://openalex.org/W2069281265",
+    "https://openalex.org/W2071598557",
+    "https://openalex.org/W2071801806",
+    "https://openalex.org/W2071815275",
+    "https://openalex.org/W2072296702",
+    "https://openalex.org/W2072531628",
+    "https://openalex.org/W2074391473",
+    "https://openalex.org/W2079887099",
+    "https://openalex.org/W2083217982",
+    "https://openalex.org/W2085974955",
+    "https://openalex.org/W2090123666",
+    "https://openalex.org/W2090466216",
+    "https://openalex.org/W2095893084",
+    "https://openalex.org/W2096726540",
+    "https://openalex.org/W2098597355",
+    "https://openalex.org/W2098605272",
+    "https://openalex.org/W2099678317",
+    "https://openalex.org/W2100991928",
+    "https://openalex.org/W2102178526",
+    "https://openalex.org/W2102521965",
+    "https://openalex.org/W2106095564",
+    "https://openalex.org/W2106787748",
+    "https://openalex.org/W2106885532",
+    "https://openalex.org/W2107243686",
+    "https://openalex.org/W2108994842",
+    "https://openalex.org/W2110659025",
+    "https://openalex.org/W2112092504",
+    "https://openalex.org/W2112500063",
+    "https://openalex.org/W2113721692",
+    "https://openalex.org/W2114879270",
+    "https://openalex.org/W2116629441",
+    "https://openalex.org/W2119205557",
+    "https://openalex.org/W2122602360",
+    "https://openalex.org/W2122955643",
+    "https://openalex.org/W2125401121",
+    "https://openalex.org/W2126117350",
+    "https://openalex.org/W2127297211",
+    "https://openalex.org/W2129031013",
+    "https://openalex.org/W2129161558",
+    "https://openalex.org/W2133752646",
+    "https://openalex.org/W2134597112",
+    "https://openalex.org/W2136863044",
+    "https://openalex.org/W2139852368",
+    "https://openalex.org/W2141490190",
+    "https://openalex.org/W2141641792",
+    "https://openalex.org/W2142146658",
+    "https://openalex.org/W2143423818",
+    "https://openalex.org/W2144101679",
+    "https://openalex.org/W2144859742",
+    "https://openalex.org/W2145702255",
+    "https://openalex.org/W2145840919",
+    "https://openalex.org/W2147969224",
+    "https://openalex.org/W2148239264",
+    "https://openalex.org/W2148337554",
+    "https://openalex.org/W2149016179",
+    "https://openalex.org/W2149898156",
+    "https://openalex.org/W2150002111",
+    "https://openalex.org/W2150092716",
+    "https://openalex.org/W2150693380",
+    "https://openalex.org/W2153620456",
+    "https://openalex.org/W2154058918",
+    "https://openalex.org/W2156743186",
+    "https://openalex.org/W2156890246",
+    "https://openalex.org/W2160820499",
+    "https://openalex.org/W2161527093",
+    "https://openalex.org/W2162056840",
+    "https://openalex.org/W2162196924",
+    "https://openalex.org/W2163663276",
+    "https://openalex.org/W2164012002",
+    "https://openalex.org/W2166817991",
+    "https://openalex.org/W2170250876",
+    "https://openalex.org/W2171097731",
+    "https://openalex.org/W2171752682",
+    "https://openalex.org/W2172126177",
+    "https://openalex.org/W2173242349",
+    "https://openalex.org/W2179072385",
+    "https://openalex.org/W2184999462",
+    "https://openalex.org/W2199825548",
+    "https://openalex.org/W2200388872",
+    "https://openalex.org/W2210805002",
+    "https://openalex.org/W2212491096",
+    "https://openalex.org/W2238387778",
+    "https://openalex.org/W2254443919",
+    "https://openalex.org/W2264087504",
+    "https://openalex.org/W2266560836",
+    "https://openalex.org/W2266819934",
+    "https://openalex.org/W2278265690",
+    "https://openalex.org/W2292232356",
+    "https://openalex.org/W2314624240",
+    "https://openalex.org/W2334787351",
+    "https://openalex.org/W2341692630",
+    "https://openalex.org/W2343259514",
+    "https://openalex.org/W2345821480",
+    "https://openalex.org/W2353111961",
+    "https://openalex.org/W2404592340",
+    "https://openalex.org/W2408529313",
+    "https://openalex.org/W2409445903",
+    "https://openalex.org/W2416643466",
+    "https://openalex.org/W2430804118",
+    "https://openalex.org/W2467664453",
+    "https://openalex.org/W2475256373",
+    "https://openalex.org/W2492077070",
+    "https://openalex.org/W2516765934",
+    "https://openalex.org/W2519531315",
+    "https://openalex.org/W2520288138",
+    "https://openalex.org/W2525578234",
+    "https://openalex.org/W2526546796",
+    "https://openalex.org/W2529625357",
+    "https://openalex.org/W2534021820",
+    "https://openalex.org/W2541285986",
+    "https://openalex.org/W2549732759",
+    "https://openalex.org/W2552558587",
+    "https://openalex.org/W2560565629",
+    "https://openalex.org/W2563626268",
+    "https://openalex.org/W2564289450",
+    "https://openalex.org/W2568055316",
+    "https://openalex.org/W2587296514",
+    "https://openalex.org/W2591920123",
+    "https://openalex.org/W2596669968",
+    "https://openalex.org/W2597045775",
+    "https://openalex.org/W2600118519",
+    "https://openalex.org/W2604552291",
+    "https://openalex.org/W2606960287",
+    "https://openalex.org/W2610621727",
+    "https://openalex.org/W2626018769",
+    "https://openalex.org/W2736909474",
+    "https://openalex.org/W2746917316",
+    "https://openalex.org/W2777987555",
+    "https://openalex.org/W2794573350",
+    "https://openalex.org/W42198781"
+  ],
+  "related_works": [
+    "https://openalex.org/W4395105914",
+    "https://openalex.org/W4391029878",
+    "https://openalex.org/W4387127397",
+    "https://openalex.org/W4321367679",
+    "https://openalex.org/W4301179448",
+    "https://openalex.org/W3110985113",
+    "https://openalex.org/W3080758540",
+    "https://openalex.org/W2980245048",
+    "https://openalex.org/W2342584978",
+    "https://openalex.org/W2002580140"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2752781070",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 46
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 52
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 55
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 64
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 61
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 64
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-04T11:06:46.620725",
+  "created_date": "2017-09-15"
+}

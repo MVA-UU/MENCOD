@@ -1,0 +1,982 @@
+{
+  "id": "https://openalex.org/W2526979572",
+  "doi": "https://doi.org/10.1590/1413-82712016210201",
+  "title": "Behavioural Assessment of the Dysexecutive Syndrome (BADS): Adaptação e Evidências de Validade",
+  "display_name": "Behavioural Assessment of the Dysexecutive Syndrome (BADS): Adaptação e Evidências de Validade",
+  "publication_year": 2016,
+  "publication_date": "2016-08-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2526979572",
+    "doi": "https://doi.org/10.1590/1413-82712016210201",
+    "mag": "2526979572"
+  },
+  "language": "pt",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1590/1413-82712016210201",
+    "pdf_url": "https://www.scielo.br/j/pusf/a/sqtNdfKZJzgfxPcWDrs7wBc/?lang=pt&format=pdf",
+    "source": {
+      "id": "https://openalex.org/S4210229469",
+      "display_name": "Psico-USF",
+      "issn_l": "1413-8271",
+      "issn": [
+        "1413-8271",
+        "2175-3563"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310312028",
+      "host_organization_name": "Universidade de São Francisco",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310312028"
+      ],
+      "host_organization_lineage_names": [
+        "Universidade de São Francisco"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://www.scielo.br/j/pusf/a/sqtNdfKZJzgfxPcWDrs7wBc/?lang=pt&format=pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5048258994",
+        "display_name": "Greici Rössler Macuglia",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130442723",
+          "display_name": "Universidade Federal do Rio Grande do Sul",
+          "ror": "https://ror.org/041yk2d64",
+          "country_code": "BR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130442723"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Greici Rössler Macuglia",
+      "raw_affiliation_strings": [
+        "Universidade Federal do Rio Grande do Sul, Brazil"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Universidade Federal do Rio Grande do Sul, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I130442723"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5066885428",
+        "display_name": "Rosa M. M. de Almeida",
+        "orcid": "https://orcid.org/0000-0002-2450-2238"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130442723",
+          "display_name": "Universidade Federal do Rio Grande do Sul",
+          "ror": "https://ror.org/041yk2d64",
+          "country_code": "BR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130442723"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rosa Maria Martins de Almeida",
+      "raw_affiliation_strings": [
+        "Universidade Federal do Rio Grande do Sul, Brazil"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Universidade Federal do Rio Grande do Sul, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I130442723"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021579005",
+        "display_name": "Fabiane Caillava dos Santos",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130442723",
+          "display_name": "Universidade Federal do Rio Grande do Sul",
+          "ror": "https://ror.org/041yk2d64",
+          "country_code": "BR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130442723"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Fabiane Caillava Santos",
+      "raw_affiliation_strings": [
+        "Universidade Federal do Rio Grande do Sul, Brazil"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Universidade Federal do Rio Grande do Sul, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I130442723"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5019904486",
+        "display_name": "Cláudia Hofheinz Giacomoni",
+        "orcid": "https://orcid.org/0000-0002-9183-8591"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130442723",
+          "display_name": "Universidade Federal do Rio Grande do Sul",
+          "ror": "https://ror.org/041yk2d64",
+          "country_code": "BR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130442723"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cláudia Hofheinz Giacomoni",
+      "raw_affiliation_strings": [
+        "Universidade Federal do Rio Grande do Sul, Brazil"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Universidade Federal do Rio Grande do Sul, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I130442723"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 0,
+    "currency": "USD",
+    "value_usd": 0
+  },
+  "apc_paid": null,
+  "fwci": 1.085,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 10,
+  "citation_normalized_percentile": {
+    "value": 0.84132,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 86,
+    "max": 87
+  },
+  "biblio": {
+    "volume": "21",
+    "issue": "2",
+    "first_page": "219",
+    "last_page": "232"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10826",
+    "display_name": "Behavioral and Psychological Studies",
+    "score": 0.9814,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3204",
+      "display_name": "Developmental and Educational Psychology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/32",
+      "display_name": "Psychology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10826",
+      "display_name": "Behavioral and Psychological Studies",
+      "score": 0.9814,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3204",
+        "display_name": "Developmental and Educational Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10537",
+      "display_name": "Attention Deficit Hyperactivity Disorder",
+      "score": 0.9727,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10042",
+      "display_name": "Neural and Behavioral Psychology Studies",
+      "score": 0.9392,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/dysexecutive-syndrome",
+      "display_name": "Dysexecutive syndrome",
+      "score": 0.6694469
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779168175",
+      "wikidata": "https://www.wikidata.org/wiki/Q5319401",
+      "display_name": "Dysexecutive syndrome",
+      "level": 4,
+      "score": 0.6694469
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.6003737
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.2892578
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.23711312
+    },
+    {
+      "id": "https://openalex.org/C2775968953",
+      "wikidata": "https://www.wikidata.org/wiki/Q783092",
+      "display_name": "Executive functions",
+      "level": 3,
+      "score": 0.12442854
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1590/1413-82712016210201",
+      "pdf_url": "https://www.scielo.br/j/pusf/a/sqtNdfKZJzgfxPcWDrs7wBc/?lang=pt&format=pdf",
+      "source": {
+        "id": "https://openalex.org/S4210229469",
+        "display_name": "Psico-USF",
+        "issn_l": "1413-8271",
+        "issn": [
+          "1413-8271",
+          "2175-3563"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310312028",
+        "host_organization_name": "Universidade de São Francisco",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310312028"
+        ],
+        "host_organization_lineage_names": [
+          "Universidade de São Francisco"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/1e970e0bb7214352a6ee6714b41444b8",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/10183/159347",
+      "pdf_url": "https://lume.ufrgs.br/bitstream/10183/159347/1/001016455.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400786",
+        "display_name": "Americanae (AECID Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.redalyc.org/articulo.oa?id=401047459002",
+      "pdf_url": "https://www.redalyc.org/pdf/4010/401047459002.pdf",
+      "source": {
+        "id": "https://openalex.org/S4377196100",
+        "display_name": "Redalyc (Universidad Autónoma del Estado de México)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I179647637",
+        "host_organization_name": "Universidad Autónoma del Estado de México",
+        "host_organization_lineage": [
+          "https://openalex.org/I179647637"
+        ],
+        "host_organization_lineage_names": [
+          "Universidad Autónoma del Estado de México"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1590/1413-82712016210201",
+    "pdf_url": "https://www.scielo.br/j/pusf/a/sqtNdfKZJzgfxPcWDrs7wBc/?lang=pt&format=pdf",
+    "source": {
+      "id": "https://openalex.org/S4210229469",
+      "display_name": "Psico-USF",
+      "issn_l": "1413-8271",
+      "issn": [
+        "1413-8271",
+        "2175-3563"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310312028",
+      "host_organization_name": "Universidade de São Francisco",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310312028"
+      ],
+      "host_organization_lineage_names": [
+        "Universidade de São Francisco"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [
+    "https://openalex.org/W4394200714"
+  ],
+  "versions": [],
+  "referenced_works_count": 31,
+  "referenced_works": [
+    "https://openalex.org/W143651715",
+    "https://openalex.org/W1598821627",
+    "https://openalex.org/W1965386712",
+    "https://openalex.org/W1965633282",
+    "https://openalex.org/W1966652913",
+    "https://openalex.org/W1971466676",
+    "https://openalex.org/W2001045706",
+    "https://openalex.org/W2006134794",
+    "https://openalex.org/W2009215193",
+    "https://openalex.org/W2013683637",
+    "https://openalex.org/W2019763727",
+    "https://openalex.org/W2021061946",
+    "https://openalex.org/W2076864672",
+    "https://openalex.org/W2080470526",
+    "https://openalex.org/W2081492203",
+    "https://openalex.org/W2081678920",
+    "https://openalex.org/W2091996489",
+    "https://openalex.org/W2109697620",
+    "https://openalex.org/W2113822676",
+    "https://openalex.org/W2123346442",
+    "https://openalex.org/W2129685933",
+    "https://openalex.org/W2133265148",
+    "https://openalex.org/W2141832811",
+    "https://openalex.org/W2156702515",
+    "https://openalex.org/W2160347356",
+    "https://openalex.org/W2164777277",
+    "https://openalex.org/W2165731124",
+    "https://openalex.org/W2166077150",
+    "https://openalex.org/W2188430435",
+    "https://openalex.org/W2252383517",
+    "https://openalex.org/W4240553276"
+  ],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2337457090",
+    "https://openalex.org/W221581977",
+    "https://openalex.org/W2133265148",
+    "https://openalex.org/W2038041617",
+    "https://openalex.org/W2036851789",
+    "https://openalex.org/W2000494201",
+    "https://openalex.org/W1999611514",
+    "https://openalex.org/W1982899368"
+  ],
+  "abstract_inverted_index": {
+    "Resumo": [
+      0
+    ],
+    "As": [
+      1
+    ],
+    "funções": [
+      2
+    ],
+    "executivas": [
+      3
+    ],
+    "são": [
+      4
+    ],
+    "habilidades": [
+      5
+    ],
+    "que": [
+      6,
+      138
+    ],
+    "permitem": [
+      7
+    ],
+    "um": [
+      8,
+      81
+    ],
+    "indivíduo": [
+      9
+    ],
+    "direcionar": [
+      10
+    ],
+    "seu": [
+      11
+    ],
+    "funcionamento": [
+      12
+    ],
+    "cognitivo,": [
+      13
+    ],
+    "comportamental": [
+      14
+    ],
+    "e": [
+      15,
+      46,
+      70,
+      87,
+      112,
+      124,
+      132,
+      161
+    ],
+    "emocional": [
+      16
+    ],
+    "a": [
+      17,
+      32,
+      72,
+      76,
+      80,
+      113,
+      139,
+      143,
+      150
+    ],
+    "metas.": [
+      18
+    ],
+    "Para": [
+      19,
+      26
+    ],
+    "avaliá-las": [
+      20
+    ],
+    "existem": [
+      21
+    ],
+    "poucos": [
+      22
+    ],
+    "instrumentos": [
+      23
+    ],
+    "ecologicamente": [
+      24
+    ],
+    "válidos.": [
+      25
+    ],
+    "superar": [
+      27
+    ],
+    "essa": [
+      28
+    ],
+    "limitação,": [
+      29
+    ],
+    "foi": [
+      30,
+      44,
+      78,
+      107,
+      121,
+      128
+    ],
+    "desenvolvida": [
+      31
+    ],
+    "Behavioural": [
+      33
+    ],
+    "Assessment": [
+      34
+    ],
+    "of": [
+      35
+    ],
+    "the": [
+      36
+    ],
+    "Dysexecutive": [
+      37
+    ],
+    "Syndrome": [
+      38
+    ],
+    "(BADS).": [
+      39
+    ],
+    "O": [
+      40,
+      98
+    ],
+    "objetivo": [
+      41
+    ],
+    "deste": [
+      42
+    ],
+    "estudo": [
+      43
+    ],
+    "adaptar": [
+      45
+    ],
+    "investigar": [
+      47
+    ],
+    "evidências": [
+      48
+    ],
+    "de": [
+      49,
+      51,
+      96,
+      102,
+      104,
+      122,
+      129,
+      152,
+      158
+    ],
+    "validade": [
+      50,
+      103,
+      157
+    ],
+    "conteúdo": [
+      52,
+      105
+    ],
+    "da": [
+      53
+    ],
+    "BADS": [
+      54,
+      77,
+      140
+    ],
+    "para": [
+      55,
+      118,
+      125,
+      149
+    ],
+    "o": [
+      56,
+      126
+    ],
+    "contexto": [
+      57
+    ],
+    "brasileiro.": [
+      58
+    ],
+    "Foram": [
+      59
+    ],
+    "realizadas": [
+      60
+    ],
+    "três": [
+      61,
+      73
+    ],
+    "traduções": [
+      62
+    ],
+    "do": [
+      63,
+      100,
+      115
+    ],
+    "instrumento,": [
+      64
+    ],
+    "sintetizadas": [
+      65
+    ],
+    "em": [
+      66,
+      146
+    ],
+    "uma": [
+      67
+    ],
+    "única": [
+      68
+    ],
+    "versão": [
+      69
+    ],
+    "encaminhada": [
+      71
+    ],
+    "juízes.": [
+      74
+    ],
+    "Posteriormente,": [
+      75
+    ],
+    "submetida": [
+      79
+    ],
+    "grupo": [
+      82
+    ],
+    "focal": [
+      83
+    ],
+    "(5": [
+      84
+    ],
+    "adultos": [
+      85
+    ],
+    "saudáveis)": [
+      86
+    ],
+    "estudo-piloto": [
+      88
+    ],
+    "(amostra": [
+      89
+    ],
+    "clínica": [
+      90
+    ],
+    "com": [
+      91
+    ],
+    "40": [
+      92
+    ],
+    "pacientes": [
+      93
+    ],
+    "neurológicos,": [
+      94
+    ],
+    "portadores": [
+      95
+    ],
+    "Parkinson).": [
+      97
+    ],
+    "cálculo": [
+      99
+    ],
+    "coeficiente": [
+      101,
+      116
+    ],
+    "total": [
+      106
+    ],
+    "considerado": [
+      108
+    ],
+    "aceitável": [
+      109
+    ],
+    "(&gt;": [
+      110
+    ],
+    "0,80);": [
+      111
+    ],
+    "média": [
+      114
+    ],
+    "kappa": [
+      117
+    ],
+    "os": [
+      119
+    ],
+    "subtestes": [
+      120
+    ],
+    "0,55,": [
+      123
+    ],
+    "questionário": [
+      127
+    ],
+    "0,75,": [
+      130
+    ],
+    "moderado": [
+      131
+    ],
+    "sólido,": [
+      133
+    ],
+    "respectivamente.": [
+      134
+    ],
+    "Os": [
+      135
+    ],
+    "dados": [
+      136
+    ],
+    "sugerem": [
+      137
+    ],
+    "está": [
+      141
+    ],
+    "apta": [
+      142
+    ],
+    "ser": [
+      144
+    ],
+    "utilizada": [
+      145
+    ],
+    "novos": [
+      147
+    ],
+    "estudos": [
+      148
+    ],
+    "investigação": [
+      151
+    ],
+    "outras": [
+      153
+    ],
+    "propriedades": [
+      154
+    ],
+    "psicométricas,": [
+      155
+    ],
+    "como": [
+      156
+    ],
+    "construto,": [
+      159
+    ],
+    "fidedignidade": [
+      160
+    ],
+    "normatização.": [
+      162
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2526979572",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-17T08:51:04.876369",
+  "created_date": "2016-10-07"
+}

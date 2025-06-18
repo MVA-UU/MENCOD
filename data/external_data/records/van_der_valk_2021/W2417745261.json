@@ -1,0 +1,2689 @@
+{
+  "id": "https://openalex.org/W2417745261",
+  "doi": "https://doi.org/10.1038/mp.2016.84",
+  "title": "Chromosomal contacts connect loci associated with autism, BMI and head circumference phenotypes",
+  "display_name": "Chromosomal contacts connect loci associated with autism, BMI and head circumference phenotypes",
+  "publication_year": 2016,
+  "publication_date": "2016-05-31",
+  "ids": {
+    "openalex": "https://openalex.org/W2417745261",
+    "doi": "https://doi.org/10.1038/mp.2016.84",
+    "mag": "2417745261",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27240531",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5508252"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/mp.2016.84",
+    "pdf_url": "https://www.nature.com/articles/mp201684.pdf",
+    "source": {
+      "id": "https://openalex.org/S71149355",
+      "display_name": "Molecular Psychiatry",
+      "issn_l": "1359-4184",
+      "issn": [
+        "1359-4184",
+        "1476-5578"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-sa",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://www.nature.com/articles/mp201684.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5017568554",
+        "display_name": "Maria Nicla Loviglio",
+        "orcid": "https://orcid.org/0000-0002-8802-9427"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97565354",
+          "display_name": "University of Lausanne",
+          "ror": "https://ror.org/019whta54",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M N Loviglio",
+      "raw_affiliation_strings": [
+        "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007363188",
+        "display_name": "Marion Leleu",
+        "orcid": "https://orcid.org/0000-0002-1800-0821"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I12708293",
+          "display_name": "SIB Swiss Institute of Bioinformatics",
+          "ror": "https://ror.org/002n09z45",
+          "country_code": "CH",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I12708293"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M Leleu",
+      "raw_affiliation_strings": [
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I12708293"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108722280",
+        "display_name": "Katrin Männik",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97565354",
+          "display_name": "University of Lausanne",
+          "ror": "https://ror.org/019whta54",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "K Männik",
+      "raw_affiliation_strings": [
+        "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007404568",
+        "display_name": "Marzia Passeggeri",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M Passeggeri",
+      "raw_affiliation_strings": [
+        "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041527303",
+        "display_name": "Giuliana Giannuzzi",
+        "orcid": "https://orcid.org/0000-0002-4030-0601"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97565354",
+          "display_name": "University of Lausanne",
+          "ror": "https://ror.org/019whta54",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G Giannuzzi",
+      "raw_affiliation_strings": [
+        "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5020269855",
+        "display_name": "Inge van der Werf",
+        "orcid": "https://orcid.org/0000-0002-8159-399X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97565354",
+          "display_name": "University of Lausanne",
+          "ror": "https://ror.org/019whta54",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "I van der Werf",
+      "raw_affiliation_strings": [
+        "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048456384",
+        "display_name": "Sebastian M. Waszak",
+        "orcid": "https://orcid.org/0000-0003-3042-9521"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I12708293",
+          "display_name": "SIB Swiss Institute of Bioinformatics",
+          "ror": "https://ror.org/002n09z45",
+          "country_code": "CH",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I12708293"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S M Waszak",
+      "raw_affiliation_strings": [
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I12708293"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082311613",
+        "display_name": "Marianna Zazhytska",
+        "orcid": "https://orcid.org/0000-0002-6874-8272"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97565354",
+          "display_name": "University of Lausanne",
+          "ror": "https://ror.org/019whta54",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M Zazhytska",
+      "raw_affiliation_strings": [
+        "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069111755",
+        "display_name": "I Roberts-Caldeira",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "I Roberts-Caldeira",
+      "raw_affiliation_strings": [
+        "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078074318",
+        "display_name": "Nele Gheldof",
+        "orcid": "https://orcid.org/0000-0001-8922-7372"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97565354",
+          "display_name": "University of Lausanne",
+          "ror": "https://ror.org/019whta54",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N Gheldof",
+      "raw_affiliation_strings": [
+        "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017809030",
+        "display_name": "Eugenia Migliavacca",
+        "orcid": "https://orcid.org/0000-0003-1883-1972"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I12708293",
+          "display_name": "SIB Swiss Institute of Bioinformatics",
+          "ror": "https://ror.org/002n09z45",
+          "country_code": "CH",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I12708293"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E Migliavacca",
+      "raw_affiliation_strings": [
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I12708293"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006107173",
+        "display_name": "Ali Abdullah Alfaiz",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I12708293",
+          "display_name": "SIB Swiss Institute of Bioinformatics",
+          "ror": "https://ror.org/002n09z45",
+          "country_code": "CH",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I12708293"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A A Alfaiz",
+      "raw_affiliation_strings": [
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I12708293"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028520711",
+        "display_name": "Loyse Hippolyte",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "L Hippolyte",
+      "raw_affiliation_strings": [
+        "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5079315522",
+        "display_name": "Anne Maillard",
+        "orcid": "https://orcid.org/0000-0002-4811-0693"
+      },
+      "institutions": [],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A M Maillard",
+      "raw_affiliation_strings": [
+        "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084808085",
+        "display_name": "Anke Van Dijck",
+        "orcid": "https://orcid.org/0000-0002-6713-2943"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I149213910",
+          "display_name": "University of Antwerp",
+          "ror": "https://ror.org/008x57b05",
+          "country_code": "BE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149213910"
+          ]
+        }
+      ],
+      "countries": [
+        "BE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A Van Dijck",
+      "raw_affiliation_strings": [
+        "Department of Medical Genetics, University of Antwerp, Antwerp, Belgium"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medical Genetics, University of Antwerp, Antwerp, Belgium",
+          "institution_ids": [
+            "https://openalex.org/I149213910"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073485583",
+        "display_name": "R. Frank Kooy",
+        "orcid": "https://orcid.org/0000-0003-2024-0485"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I149213910",
+          "display_name": "University of Antwerp",
+          "ror": "https://ror.org/008x57b05",
+          "country_code": "BE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149213910"
+          ]
+        }
+      ],
+      "countries": [
+        "BE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R F Kooy",
+      "raw_affiliation_strings": [
+        "Department of Medical Genetics, University of Antwerp, Antwerp, Belgium"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medical Genetics, University of Antwerp, Antwerp, Belgium",
+          "institution_ids": [
+            "https://openalex.org/I149213910"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078175894",
+        "display_name": "Damien Sanlaville",
+        "orcid": "https://orcid.org/0000-0001-9939-2849"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210085940",
+          "display_name": "Hôpital Femme Mère Enfant",
+          "ror": "https://ror.org/006yspz11",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210085940",
+            "https://openalex.org/I4210100596"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210100596",
+          "display_name": "Hospices Civils de Lyon",
+          "ror": "https://ror.org/01502ca60",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210100596"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I100532134",
+          "display_name": "Université Claude Bernard Lyon 1",
+          "ror": "https://ror.org/029brtt94",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I203339264"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210095118",
+          "display_name": "Centre de Recherche en Neurosciences de Lyon",
+          "ror": "https://ror.org/00pdd0432",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I4210095118",
+            "https://openalex.org/I4210096427",
+            "https://openalex.org/I86767153"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1294671590",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "ror": "https://ror.org/02feahw73",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D Sanlaville",
+      "raw_affiliation_strings": [
+        "Service de Génétique, Hôpital Femme Mère Enfant, Centre de Biologie et Pathologie Est, Hospices Civils de Lyon, CRNL, CNRS UMR5292, INSERM U1028, Université Claude Bernard Lyon I, Bron, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Service de Génétique, Hôpital Femme Mère Enfant, Centre de Biologie et Pathologie Est, Hospices Civils de Lyon, CRNL, CNRS UMR5292, INSERM U1028, Université Claude Bernard Lyon I, Bron, France",
+          "institution_ids": [
+            "https://openalex.org/I4210085940",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I4210100596",
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I4210095118",
+            "https://openalex.org/I1294671590"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051066678",
+        "display_name": "Jill A. Rosenfeld",
+        "orcid": "https://orcid.org/0000-0001-5664-7987"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I43591049",
+          "display_name": "PerkinElmer (United States)",
+          "ror": "https://ror.org/05s8x7560",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I43591049"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J A Rosenfeld",
+      "raw_affiliation_strings": [
+        "Signature Genomic Laboratories, PerkinElmer, Inc., Spokane, WA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Signature Genomic Laboratories, PerkinElmer, Inc., Spokane, WA, USA",
+          "institution_ids": [
+            "https://openalex.org/I43591049"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5070769975",
+        "display_name": "Lisa G. Shaffer",
+        "orcid": "https://orcid.org/0000-0002-2848-8103"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "L G Shaffer",
+      "raw_affiliation_strings": [
+        "Paw Print Genetics, Genetic Veterinary Sciences, Inc., Spokane, WA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Paw Print Genetics, Genetic Veterinary Sciences, Inc., Spokane, WA, USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111631761",
+        "display_name": "Joris Andrieux",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210104040",
+          "display_name": "Hôpital Jeanne de Flandre",
+          "ror": "https://ror.org/01e8kn913",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I3018718406",
+            "https://openalex.org/I4210104040"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I3018718406",
+          "display_name": "Centre Hospitalier Universitaire de Lille",
+          "ror": "https://ror.org/02ppyfa04",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I3018718406"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J Andrieux",
+      "raw_affiliation_strings": [
+        "Institut de Génétique Médicale, CHRU de Lille - Hôpital Jeanne de Flandre, Lille, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut de Génétique Médicale, CHRU de Lille - Hôpital Jeanne de Flandre, Lille, France",
+          "institution_ids": [
+            "https://openalex.org/I4210104040",
+            "https://openalex.org/I3018718406"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113383308",
+        "display_name": "C. Marshall",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "C Marshall",
+      "raw_affiliation_strings": [
+        "Department of Paediatric Laboratory Medicine, Genome Diagnostics, The Hospital for Sick Children, Toronto, ON, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Paediatric Laboratory Medicine, Genome Diagnostics, The Hospital for Sick Children, Toronto, ON, USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049296994",
+        "display_name": "Stephen W. Scherer",
+        "orcid": "https://orcid.org/0000-0002-8326-1999"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S W Scherer",
+      "raw_affiliation_strings": [
+        "The Centre for Applied Genomics, The Hospital for Sick Children, Toronto, ON, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Centre for Applied Genomics, The Hospital for Sick Children, Toronto, ON, USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053509144",
+        "display_name": "Yiping Shen",
+        "orcid": "https://orcid.org/0000-0001-5820-0839"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Y Shen",
+      "raw_affiliation_strings": [
+        "Department of Pathology, Harvard Medical School, Boston, MA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pathology, Harvard Medical School, Boston, MA, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044329623",
+        "display_name": "James F. Gusella",
+        "orcid": "https://orcid.org/0000-0003-0681-9263"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210105714",
+          "display_name": "Center for Human Genetics",
+          "ror": "https://ror.org/01gcrbc43",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210105714"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J F Gusella",
+      "raw_affiliation_strings": [
+        "Center for Human Genetic Research, Massachusetts General Hospital, Boston, MA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Human Genetic Research, Massachusetts General Hospital, Boston, MA, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210105714"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109807752",
+        "display_name": "U. Thorsteinsdottir",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1327191685",
+          "display_name": "deCODE Genetics (Iceland)",
+          "ror": "https://ror.org/04dzdm737",
+          "country_code": "IS",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ],
+      "countries": [
+        "IS"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "U Thorsteinsdottir",
+      "raw_affiliation_strings": [
+        "deCODE Genetics, Amgen, Reykjavik, Iceland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "deCODE Genetics, Amgen, Reykjavik, Iceland",
+          "institution_ids": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5022986058",
+        "display_name": "Guðmar Þorleifsson",
+        "orcid": "https://orcid.org/0000-0003-4623-9087"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1327191685",
+          "display_name": "deCODE Genetics (Iceland)",
+          "ror": "https://ror.org/04dzdm737",
+          "country_code": "IS",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ],
+      "countries": [
+        "IS"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G Thorleifsson",
+      "raw_affiliation_strings": [
+        "deCODE Genetics, Amgen, Reykjavik, Iceland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "deCODE Genetics, Amgen, Reykjavik, Iceland",
+          "institution_ids": [
+            "https://openalex.org/I1327191685"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084258150",
+        "display_name": "Emmanouil T. Dermitzakis",
+        "orcid": "https://orcid.org/0000-0002-9302-6490"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I12708293",
+          "display_name": "SIB Swiss Institute of Bioinformatics",
+          "ror": "https://ror.org/002n09z45",
+          "country_code": "CH",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I12708293"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E T Dermitzakis",
+      "raw_affiliation_strings": [
+        "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Swiss Institute of Bioinformatics (SIB), Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I12708293"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060679000",
+        "display_name": "Bart Deplancke",
+        "orcid": "https://orcid.org/0000-0001-9935-843X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5124864",
+          "display_name": "École Polytechnique Fédérale de Lausanne",
+          "ror": "https://ror.org/02s376052",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I5124864"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "B Deplancke",
+      "raw_affiliation_strings": [
+        "School of Life Sciences, EPFL (Ecole Polytechnique Fédérale de Lausanne), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Life Sciences, EPFL (Ecole Polytechnique Fédérale de Lausanne), Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I5124864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036868448",
+        "display_name": "J. Beckmann",
+        "orcid": "https://orcid.org/0000-0002-9741-1900"
+      },
+      "institutions": [],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J S Beckmann",
+      "raw_affiliation_strings": [
+        "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008872013",
+        "display_name": "Jacques Rougemont",
+        "orcid": "https://orcid.org/0000-0002-0955-606X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5124864",
+          "display_name": "École Polytechnique Fédérale de Lausanne",
+          "ror": "https://ror.org/02s376052",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I5124864"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J Rougemont",
+      "raw_affiliation_strings": [
+        "School of Life Sciences, EPFL (Ecole Polytechnique Fédérale de Lausanne), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Life Sciences, EPFL (Ecole Polytechnique Fédérale de Lausanne), Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I5124864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5076029433",
+        "display_name": "Sébastien Jacquemont",
+        "orcid": "https://orcid.org/0000-0001-6838-8767"
+      },
+      "institutions": [],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S Jacquemont",
+      "raw_affiliation_strings": [
+        "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Service of Medical Genetics, Lausanne University Hospital (CHUV), Lausanne, Switzerland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5014464174",
+        "display_name": "Alexandre Reymond",
+        "orcid": "https://orcid.org/0000-0003-1030-8327"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97565354",
+          "display_name": "University of Lausanne",
+          "ror": "https://ror.org/019whta54",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A Reymond",
+      "raw_affiliation_strings": [
+        "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Integrative Genomics, University of Lausanne, Lausanne, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I97565354"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [
+    {
+      "id": "https://openalex.org/I177969490",
+      "display_name": "University of Southern Denmark",
+      "ror": "https://ror.org/03yrrjy16",
+      "country_code": "DK",
+      "type": "funder",
+      "lineage": [
+        "https://openalex.org/I177969490"
+      ]
+    }
+  ],
+  "countries_distinct_count": 5,
+  "institutions_distinct_count": 17,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.54,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 83,
+  "citation_normalized_percentile": {
+    "value": 0.999955,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "22",
+    "issue": "6",
+    "first_page": "836",
+    "last_page": "849"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11213",
+    "display_name": "Genomic variations and chromosomal abnormalities",
+    "score": 0.9989,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1311",
+      "display_name": "Genetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11213",
+      "display_name": "Genomic variations and chromosomal abnormalities",
+      "score": 0.9989,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10106",
+      "display_name": "Autism Spectrum Disorder Research",
+      "score": 0.9987,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11772",
+      "display_name": "Genetics and Neurodevelopmental Disorders",
+      "score": 0.9975,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/circumference",
+      "display_name": "Circumference",
+      "score": 0.5056517
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C205778803",
+      "wikidata": "https://www.wikidata.org/wiki/Q38404",
+      "display_name": "Autism",
+      "level": 2,
+      "score": 0.7777473
+    },
+    {
+      "id": "https://openalex.org/C3020057088",
+      "wikidata": "https://www.wikidata.org/wiki/Q3409626",
+      "display_name": "Head circumference",
+      "level": 4,
+      "score": 0.6560977
+    },
+    {
+      "id": "https://openalex.org/C127716648",
+      "wikidata": "https://www.wikidata.org/wiki/Q104053",
+      "display_name": "Phenotype",
+      "level": 3,
+      "score": 0.6419629
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.5533342
+    },
+    {
+      "id": "https://openalex.org/C166504685",
+      "wikidata": "https://www.wikidata.org/wiki/Q843905",
+      "display_name": "Circumference",
+      "level": 2,
+      "score": 0.5056517
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.4551993
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.37188438
+    },
+    {
+      "id": "https://openalex.org/C138496976",
+      "wikidata": "https://www.wikidata.org/wiki/Q175002",
+      "display_name": "Developmental psychology",
+      "level": 1,
+      "score": 0.2833631
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.107019484
+    },
+    {
+      "id": "https://openalex.org/C2779234561",
+      "wikidata": "https://www.wikidata.org/wiki/Q11995",
+      "display_name": "Pregnancy",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C2778376644",
+      "wikidata": "https://www.wikidata.org/wiki/Q2253111",
+      "display_name": "Gestational age",
+      "level": 3,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001321",
+      "descriptor_name": "Autistic Disorder",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002874",
+      "descriptor_name": "Chromosome Mapping",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002885",
+      "descriptor_name": "Chromosomes, Human, Pair 16",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000067877",
+      "descriptor_name": "Autism Spectrum Disorder",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000067877",
+      "descriptor_name": "Autism Spectrum Disorder",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001321",
+      "descriptor_name": "Autistic Disorder",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015992",
+      "descriptor_name": "Body Mass Index",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002675",
+      "descriptor_name": "Child, Preschool",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002843",
+      "descriptor_name": "Chromatin",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002843",
+      "descriptor_name": "Chromatin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002843",
+      "descriptor_name": "Chromatin",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002872",
+      "descriptor_name": "Chromosome Deletion",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D058674",
+      "descriptor_name": "Chromosome Duplication",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002874",
+      "descriptor_name": "Chromosome Mapping",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002885",
+      "descriptor_name": "Chromosomes, Human, Pair 16",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002885",
+      "descriptor_name": "Chromosomes, Human, Pair 16",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D056915",
+      "descriptor_name": "DNA Copy Number Variations",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D056915",
+      "descriptor_name": "DNA Copy Number Variations",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017404",
+      "descriptor_name": "In Situ Hybridization, Fluorescence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007223",
+      "descriptor_name": "Infant",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008607",
+      "descriptor_name": "Intellectual Disability",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008607",
+      "descriptor_name": "Intellectual Disability",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D058627",
+      "descriptor_name": "Megalencephaly",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D058627",
+      "descriptor_name": "Megalencephaly",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008831",
+      "descriptor_name": "Microcephaly",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008831",
+      "descriptor_name": "Microcephaly",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010641",
+      "descriptor_name": "Phenotype",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 13,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/mp.2016.84",
+      "pdf_url": "https://www.nature.com/articles/mp201684.pdf",
+      "source": {
+        "id": "https://openalex.org/S71149355",
+        "display_name": "Molecular Psychiatry",
+        "issn_l": "1359-4184",
+        "issn": [
+          "1359-4184",
+          "1476-5578"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5508252",
+      "pdf_url": "https://europepmc.org/articles/pmc5508252?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/10067/1347830151162165141",
+      "pdf_url": "https://repository.uantwerpen.be/docman/irua/410ce6/134783.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401849",
+        "display_name": "Institutional Repository University of Antwerp (University of Antwerp)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I149213910",
+        "host_organization_name": "University of Antwerp",
+        "host_organization_lineage": [
+          "https://openalex.org/I149213910"
+        ],
+        "host_organization_lineage_names": [
+          "University of Antwerp"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://serval.unil.ch/notice/serval:BIB_8773892CB036",
+      "pdf_url": "https://serval.unil.ch/resource/serval:BIB_8773892CB036.P001/REF.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401797",
+        "display_name": "SERVAL (Université de Lausanne)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I4210093590",
+        "host_organization_name": "Swiss School of Archaeology in Greece",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210093590"
+        ],
+        "host_organization_lineage_names": [
+          "Swiss School of Archaeology in Greece"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5508252",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:34375209",
+      "pdf_url": "https://dash.harvard.edu/bitstream/1/34375209/1/5508252.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401540",
+        "display_name": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I136199984",
+        "host_organization_name": "Harvard University",
+        "host_organization_lineage": [
+          "https://openalex.org/I136199984"
+        ],
+        "host_organization_lineage_names": [
+          "Harvard University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/10807/114664",
+      "pdf_url": "https://publicatt.unicatt.it/bitstream/10807/114664/2/114664oa.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400564",
+        "display_name": "PubliCatt (Università Cattolica del Sacro Cuore)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/174530/174530.pdf",
+      "pdf_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/174530/174530.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401067",
+        "display_name": "Radboud Repository (Radboud University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I145872427",
+        "host_organization_name": "Radboud University Nijmegen",
+        "host_organization_lineage": [
+          "https://openalex.org/I145872427"
+        ],
+        "host_organization_lineage_names": [
+          "Radboud University Nijmegen"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/2434/869415",
+      "pdf_url": "https://air.unimi.it/bitstream/2434/869415/4/mp201684.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400516",
+        "display_name": "Archivio Istituzionale della Ricerca (Universita Degli Studi Di Milano)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I189158943",
+        "host_organization_name": "University of Milan",
+        "host_organization_lineage": [
+          "https://openalex.org/I189158943"
+        ],
+        "host_organization_lineage_names": [
+          "University of Milan"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://infoscience.epfl.ch/record/227170/files/mp201684.pdf",
+      "pdf_url": "https://infoscience.epfl.ch/record/227170/files/mp201684.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400488",
+        "display_name": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/2066/174530",
+      "pdf_url": "https://repository.ubn.ru.nl/bitstream/handle/2066/174530/1/174530.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401843",
+        "display_name": "Data Archiving and Networked Services (DANS)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1322597698",
+        "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/I1322597698"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Netherlands Academy of Arts and Sciences"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/11365/1010224",
+      "pdf_url": "https://usiena-air.unisi.it/bitstream/11365/1010224/2/Chromosomal%20contacts%20connect%20loci-2017.pdf",
+      "source": {
+        "id": "https://openalex.org/S4377196319",
+        "display_name": "Use Siena air (University of Siena)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I102064193",
+        "host_organization_name": "University of Siena",
+        "host_organization_lineage": [
+          "https://openalex.org/I102064193"
+        ],
+        "host_organization_lineage_names": [
+          "University of Siena"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27240531",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/mp.2016.84",
+    "pdf_url": "https://www.nature.com/articles/mp201684.pdf",
+    "source": {
+      "id": "https://openalex.org/S71149355",
+      "display_name": "Molecular Psychiatry",
+      "issn_l": "1359-4184",
+      "issn": [
+        "1359-4184",
+        "1476-5578"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-sa",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.65,
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 132,
+  "referenced_works": [
+    "https://openalex.org/W1523346287",
+    "https://openalex.org/W1660108428",
+    "https://openalex.org/W1796801877",
+    "https://openalex.org/W1859117663",
+    "https://openalex.org/W1907683620",
+    "https://openalex.org/W1965218838",
+    "https://openalex.org/W1968140797",
+    "https://openalex.org/W1968862207",
+    "https://openalex.org/W1972603050",
+    "https://openalex.org/W1973062929",
+    "https://openalex.org/W1973934213",
+    "https://openalex.org/W1975606212",
+    "https://openalex.org/W1976844911",
+    "https://openalex.org/W1979753188",
+    "https://openalex.org/W1979983427",
+    "https://openalex.org/W1981693548",
+    "https://openalex.org/W1985951212",
+    "https://openalex.org/W1986598003",
+    "https://openalex.org/W1987371782",
+    "https://openalex.org/W1988670106",
+    "https://openalex.org/W1990824174",
+    "https://openalex.org/W1991149014",
+    "https://openalex.org/W1994127362",
+    "https://openalex.org/W1996141957",
+    "https://openalex.org/W1996642182",
+    "https://openalex.org/W2000497253",
+    "https://openalex.org/W2001188663",
+    "https://openalex.org/W2005168291",
+    "https://openalex.org/W2005710199",
+    "https://openalex.org/W2006857841",
+    "https://openalex.org/W2008627757",
+    "https://openalex.org/W2018183024",
+    "https://openalex.org/W2018701545",
+    "https://openalex.org/W2020546849",
+    "https://openalex.org/W2020662050",
+    "https://openalex.org/W2021647600",
+    "https://openalex.org/W2021764172",
+    "https://openalex.org/W2023595114",
+    "https://openalex.org/W2025159391",
+    "https://openalex.org/W2025943989",
+    "https://openalex.org/W2028769030",
+    "https://openalex.org/W2031313639",
+    "https://openalex.org/W2032727691",
+    "https://openalex.org/W2034979835",
+    "https://openalex.org/W2035473823",
+    "https://openalex.org/W2036880421",
+    "https://openalex.org/W2041973176",
+    "https://openalex.org/W2043522420",
+    "https://openalex.org/W2043549778",
+    "https://openalex.org/W2045866343",
+    "https://openalex.org/W2052196244",
+    "https://openalex.org/W2056103949",
+    "https://openalex.org/W2056193687",
+    "https://openalex.org/W2057308155",
+    "https://openalex.org/W2059707376",
+    "https://openalex.org/W2060090422",
+    "https://openalex.org/W2061912939",
+    "https://openalex.org/W2063065808",
+    "https://openalex.org/W2063989452",
+    "https://openalex.org/W2065809729",
+    "https://openalex.org/W2068106421",
+    "https://openalex.org/W2070021921",
+    "https://openalex.org/W2070050178",
+    "https://openalex.org/W2070510406",
+    "https://openalex.org/W2071759640",
+    "https://openalex.org/W2073011498",
+    "https://openalex.org/W2073062083",
+    "https://openalex.org/W2075690247",
+    "https://openalex.org/W2077016335",
+    "https://openalex.org/W2087193872",
+    "https://openalex.org/W2088062021",
+    "https://openalex.org/W2088677238",
+    "https://openalex.org/W2089395643",
+    "https://openalex.org/W2090037139",
+    "https://openalex.org/W2090208331",
+    "https://openalex.org/W2091287948",
+    "https://openalex.org/W2091548199",
+    "https://openalex.org/W2093431562",
+    "https://openalex.org/W2095631588",
+    "https://openalex.org/W2096229986",
+    "https://openalex.org/W2098907329",
+    "https://openalex.org/W2099131631",
+    "https://openalex.org/W2102283558",
+    "https://openalex.org/W2102837197",
+    "https://openalex.org/W2104116111",
+    "https://openalex.org/W2104722797",
+    "https://openalex.org/W2105924489",
+    "https://openalex.org/W2106650442",
+    "https://openalex.org/W2107788310",
+    "https://openalex.org/W2107876174",
+    "https://openalex.org/W2108994842",
+    "https://openalex.org/W2109214922",
+    "https://openalex.org/W2109837993",
+    "https://openalex.org/W2110263692",
+    "https://openalex.org/W2112471545",
+    "https://openalex.org/W2114659006",
+    "https://openalex.org/W2116611710",
+    "https://openalex.org/W2116785079",
+    "https://openalex.org/W2117381227",
+    "https://openalex.org/W2117471176",
+    "https://openalex.org/W2119907069",
+    "https://openalex.org/W2120825501",
+    "https://openalex.org/W2129150286",
+    "https://openalex.org/W2130857424",
+    "https://openalex.org/W2132183502",
+    "https://openalex.org/W2132284241",
+    "https://openalex.org/W2137289649",
+    "https://openalex.org/W2137510103",
+    "https://openalex.org/W2138300595",
+    "https://openalex.org/W2139462925",
+    "https://openalex.org/W2141704631",
+    "https://openalex.org/W2147311167",
+    "https://openalex.org/W2148818915",
+    "https://openalex.org/W2150364654",
+    "https://openalex.org/W2151523001",
+    "https://openalex.org/W2158217645",
+    "https://openalex.org/W2159969129",
+    "https://openalex.org/W2160435411",
+    "https://openalex.org/W2163144326",
+    "https://openalex.org/W2166328287",
+    "https://openalex.org/W2168699859",
+    "https://openalex.org/W2169236261",
+    "https://openalex.org/W2171271302",
+    "https://openalex.org/W2171777347",
+    "https://openalex.org/W2171833656",
+    "https://openalex.org/W2188836807",
+    "https://openalex.org/W2267070684",
+    "https://openalex.org/W2268611469",
+    "https://openalex.org/W2614349964",
+    "https://openalex.org/W2885727518",
+    "https://openalex.org/W3026621361",
+    "https://openalex.org/W4298369158"
+  ],
+  "related_works": [
+    "https://openalex.org/W4239491340",
+    "https://openalex.org/W2608376945",
+    "https://openalex.org/W2571954244",
+    "https://openalex.org/W2505424667",
+    "https://openalex.org/W2401965628",
+    "https://openalex.org/W2160717593",
+    "https://openalex.org/W2149148304",
+    "https://openalex.org/W2010900758",
+    "https://openalex.org/W1965740555",
+    "https://openalex.org/W1563225101"
+  ],
+  "abstract_inverted_index": {
+    "Copy": [
+      0
+    ],
+    "number": [
+      1
+    ],
+    "variants": [
+      2
+    ],
+    "(CNVs)": [
+      3
+    ],
+    "are": [
+      4,
+      32,
+      67,
+      106
+    ],
+    "major": [
+      5
+    ],
+    "contributors": [
+      6
+    ],
+    "to": [
+      7,
+      133
+    ],
+    "genomic": [
+      8,
+      135
+    ],
+    "imbalance": [
+      9
+    ],
+    "disorders.": [
+      10
+    ],
+    "Phenotyping": [
+      11
+    ],
+    "of": [
+      12,
+      20,
+      41,
+      52,
+      92,
+      116,
+      151
+    ],
+    "137": [
+      13
+    ],
+    "unrelated": [
+      14
+    ],
+    "deletion": [
+      15
+    ],
+    "and": [
+      16,
+      38,
+      43,
+      83,
+      90,
+      129,
+      163,
+      175
+    ],
+    "reciprocal": [
+      17,
+      149
+    ],
+    "duplication": [
+      18
+    ],
+    "carriers": [
+      19,
+      105
+    ],
+    "the": [
+      21,
+      53,
+      122,
+      152
+    ],
+    "distal": [
+      22
+    ],
+    "16p11.2": [
+      23,
+      56,
+      66,
+      102
+    ],
+    "220": [
+      24
+    ],
+    "kb": [
+      25,
+      58
+    ],
+    "BP2-BP3": [
+      26
+    ],
+    "interval": [
+      27
+    ],
+    "showed": [
+      28
+    ],
+    "that": [
+      29,
+      97,
+      114,
+      146,
+      168
+    ],
+    "these": [
+      30
+    ],
+    "rearrangements": [
+      31,
+      51,
+      150
+    ],
+    "associated": [
+      33,
+      49,
+      138
+    ],
+    "with": [
+      34,
+      50,
+      139,
+      148
+    ],
+    "autism": [
+      35
+    ],
+    "spectrum": [
+      36
+    ],
+    "disorders": [
+      37
+    ],
+    "mirror": [
+      39,
+      158
+    ],
+    "phenotypes": [
+      40,
+      46,
+      159
+    ],
+    "obesity/underweight": [
+      42
+    ],
+    "macrocephaly/microcephaly.": [
+      44
+    ],
+    "Such": [
+      45
+    ],
+    "were": [
+      47
+    ],
+    "previously": [
+      48,
+      137
+    ],
+    "non-overlapping": [
+      54
+    ],
+    "proximal": [
+      55
+    ],
+    "600": [
+      57
+    ],
+    "BP4-BP5": [
+      59,
+      103
+    ],
+    "interval.": [
+      60
+    ],
+    "These": [
+      61
+    ],
+    "two": [
+      62
+    ],
+    "CNV-prone": [
+      63
+    ],
+    "regions": [
+      64,
+      136
+    ],
+    "at": [
+      65
+    ],
+    "reciprocally": [
+      68
+    ],
+    "engaged": [
+      69
+    ],
+    "in": [
+      70,
+      80,
+      101,
+      109,
+      121
+    ],
+    "complex": [
+      71
+    ],
+    "chromatin": [
+      72,
+      111,
+      117,
+      131
+    ],
+    "looping,": [
+      73
+    ],
+    "as": [
+      74,
+      85,
+      87
+    ],
+    "successfully": [
+      75
+    ],
+    "confirmed": [
+      76
+    ],
+    "by": [
+      77
+    ],
+    "4C-seq,": [
+      78
+    ],
+    "fluorescence": [
+      79
+    ],
+    "situ": [
+      81
+    ],
+    "hybridization": [
+      82
+    ],
+    "Hi-C,": [
+      84
+    ],
+    "well": [
+      86
+    ],
+    "coordinated": [
+      88
+    ],
+    "expression": [
+      89
+    ],
+    "regulation": [
+      91
+    ],
+    "encompassed": [
+      93
+    ],
+    "genes.": [
+      94,
+      178
+    ],
+    "We": [
+      95,
+      125
+    ],
+    "observed": [
+      96,
+      123
+    ],
+    "genes": [
+      98
+    ],
+    "differentially": [
+      99
+    ],
+    "expressed": [
+      100
+    ],
+    "CNV": [
+      104
+    ],
+    "concomitantly": [
+      107
+    ],
+    "modified": [
+      108
+    ],
+    "their": [
+      110
+    ],
+    "interactions,": [
+      112
+    ],
+    "suggesting": [
+      113
+    ],
+    "disruption": [
+      115
+    ],
+    "interplays": [
+      118
+    ],
+    "could": [
+      119,
+      172
+    ],
+    "participate": [
+      120
+    ],
+    "phenotypes.": [
+      124,
+      141
+    ],
+    "also": [
+      126
+    ],
+    "identified": [
+      127
+    ],
+    "cis-": [
+      128
+    ],
+    "trans-acting": [
+      130
+    ],
+    "contacts": [
+      132
+    ],
+    "other": [
+      134
+    ],
+    "analogous": [
+      140
+    ],
+    "For": [
+      142
+    ],
+    "example,": [
+      143
+    ],
+    "we": [
+      144
+    ],
+    "uncovered": [
+      145
+    ],
+    "individuals": [
+      147
+    ],
+    "trans-contacted": [
+      153
+    ],
+    "2p15": [
+      154
+    ],
+    "locus": [
+      155
+    ],
+    "similarly": [
+      156
+    ],
+    "display": [
+      157
+    ],
+    "on": [
+      160
+    ],
+    "head": [
+      161
+    ],
+    "circumference": [
+      162
+    ],
+    "weight.": [
+      164
+    ],
+    "Our": [
+      165
+    ],
+    "results": [
+      166
+    ],
+    "indicate": [
+      167
+    ],
+    "chromosomal": [
+      169
+    ],
+    "contacts'": [
+      170
+    ],
+    "maps": [
+      171
+    ],
+    "uncover": [
+      173
+    ],
+    "functionally": [
+      174
+    ],
+    "clinically": [
+      176
+    ],
+    "related": [
+      177
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2417745261",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-05-03T22:20:31.557658",
+  "created_date": "2016-06-24"
+}

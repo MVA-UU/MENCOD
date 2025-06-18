@@ -1,0 +1,831 @@
+{
+  "id": "https://openalex.org/W2741961591",
+  "doi": "https://doi.org/10.1038/nature23292",
+  "title": "The evolution of the host microbiome as an ecosystem on a leash",
+  "display_name": "The evolution of the host microbiome as an ecosystem on a leash",
+  "publication_year": 2017,
+  "publication_date": "2017-08-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2741961591",
+    "doi": "https://doi.org/10.1038/nature23292",
+    "mag": "2741961591",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/28770836",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5749636"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1038/nature23292",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S137773608",
+      "display_name": "Nature",
+      "issn_l": "0028-0836",
+      "issn": [
+        "0028-0836",
+        "1476-4687"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc5749636?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5040902914",
+        "display_name": "Kevin R. Foster",
+        "orcid": "https://orcid.org/0000-0003-4687-6633"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kevin R. Foster",
+      "raw_affiliation_strings": [
+        "Department of Zoology, University of Oxford, Oxford, OX1 3PS, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Zoology, University of Oxford, Oxford, OX1 3PS, UK",
+          "institution_ids": [
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008090105",
+        "display_name": "Jonas Schlüter",
+        "orcid": "https://orcid.org/0000-0002-6214-9367"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1334819555",
+          "display_name": "Memorial Sloan Kettering Cancer Center",
+          "ror": "https://ror.org/02yrq0923",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1334819555"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonas Schluter",
+      "raw_affiliation_strings": [
+        "Computational Biology Program, Memorial Sloan Kettering Cancer Center, New York, 10065, New York, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Computational Biology Program, Memorial Sloan Kettering Cancer Center, New York, 10065, New York, USA",
+          "institution_ids": [
+            "https://openalex.org/I1334819555"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5020503237",
+        "display_name": "Katharine Z. Coyte",
+        "orcid": "https://orcid.org/0000-0002-5231-9350"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1334819555",
+          "display_name": "Memorial Sloan Kettering Cancer Center",
+          "ror": "https://ror.org/02yrq0923",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1334819555"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Katharine Z. Coyte",
+      "raw_affiliation_strings": [
+        "Computational Biology Program, Memorial Sloan Kettering Cancer Center, New York, 10065, New York, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Computational Biology Program, Memorial Sloan Kettering Cancer Center, New York, 10065, New York, USA",
+          "institution_ids": [
+            "https://openalex.org/I1334819555"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5033209040",
+        "display_name": "Seth Rakoff-Nahoum",
+        "orcid": "https://orcid.org/0000-0002-3233-0675"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1288882113",
+          "display_name": "Boston Children's Hospital",
+          "ror": "https://ror.org/00dvg7y05",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1288882113"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Seth Rakoff-Nahoum",
+      "raw_affiliation_strings": [
+        "Division of Infectious Diseases and Division of Gastroenterology, Department of Medicine, Boston Children's Hospital and Harvard Medical School, 300 Longwood Avenue, Boston, 02115, Massachusetts, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Infectious Diseases and Division of Gastroenterology, Department of Medicine, Boston Children's Hospital and Harvard Medical School, 300 Longwood Avenue, Boston, 02115, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I1288882113"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 9750,
+    "currency": "EUR",
+    "value_usd": 11690
+  },
+  "apc_paid": null,
+  "fwci": 32.02,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 828,
+  "citation_normalized_percentile": {
+    "value": 0.999984,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "548",
+    "issue": "7665",
+    "first_page": "43",
+    "last_page": "51"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10066",
+    "display_name": "Gut microbiota and health",
+    "score": 0.9987,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10066",
+      "display_name": "Gut microbiota and health",
+      "score": 0.9987,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11764",
+      "display_name": "Evolution and Genetic Dynamics",
+      "score": 0.9808,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11252",
+      "display_name": "Evolutionary Game Theory and Cooperation",
+      "score": 0.9044,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C143121216",
+      "wikidata": "https://www.wikidata.org/wiki/Q1330402",
+      "display_name": "Microbiome",
+      "level": 2,
+      "score": 0.84700334
+    },
+    {
+      "id": "https://openalex.org/C126831891",
+      "wikidata": "https://www.wikidata.org/wiki/Q221673",
+      "display_name": "Host (biology)",
+      "level": 2,
+      "score": 0.69530654
+    },
+    {
+      "id": "https://openalex.org/C110872660",
+      "wikidata": "https://www.wikidata.org/wiki/Q37813",
+      "display_name": "Ecosystem",
+      "level": 2,
+      "score": 0.65129787
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.63645947
+    },
+    {
+      "id": "https://openalex.org/C91306197",
+      "wikidata": "https://www.wikidata.org/wiki/Q45767",
+      "display_name": "Competition (biology)",
+      "level": 2,
+      "score": 0.5128994
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.48755592
+    },
+    {
+      "id": "https://openalex.org/C141818822",
+      "wikidata": "https://www.wikidata.org/wiki/Q17011699",
+      "display_name": "Ecosystem health",
+      "level": 4,
+      "score": 0.4234501
+    },
+    {
+      "id": "https://openalex.org/C78458016",
+      "wikidata": "https://www.wikidata.org/wiki/Q840400",
+      "display_name": "Evolutionary biology",
+      "level": 1,
+      "score": 0.378425
+    },
+    {
+      "id": "https://openalex.org/C58941895",
+      "wikidata": "https://www.wikidata.org/wiki/Q295865",
+      "display_name": "Ecosystem services",
+      "level": 3,
+      "score": 0.25590116
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.13456798
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D044822",
+      "descriptor_name": "Biodiversity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005075",
+      "descriptor_name": "Biological Evolution",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017753",
+      "descriptor_name": "Ecosystem",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006262",
+      "descriptor_name": "Health",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D056265",
+      "descriptor_name": "Microbial Interactions",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D064307",
+      "descriptor_name": "Microbiota",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008954",
+      "descriptor_name": "Models, Biological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013045",
+      "descriptor_name": "Species Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013559",
+      "descriptor_name": "Symbiosis",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1038/nature23292",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S137773608",
+        "display_name": "Nature",
+        "issn_l": "0028-0836",
+        "issn": [
+          "0028-0836",
+          "1476-4687"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5749636",
+      "pdf_url": "https://europepmc.org/articles/pmc5749636?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5749636",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://ora.ox.ac.uk/objects/uuid:33037829-9488-4894-9257-7c528986e1d8",
+      "pdf_url": "https://ora.ox.ac.uk/objects/uuid:33037829-9488-4894-9257-7c528986e1d8/files/md1b48aa70302ddf8e04694abd2e3b7e6",
+      "source": {
+        "id": "https://openalex.org/S4306400662",
+        "display_name": "Research Explorer (The University of Manchester)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I28407311",
+        "host_organization_name": "University of Manchester",
+        "host_organization_lineage": [
+          "https://openalex.org/I28407311"
+        ],
+        "host_organization_lineage_names": [
+          "University of Manchester"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/28770836",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc5749636",
+    "pdf_url": "https://europepmc.org/articles/pmc5749636?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.52,
+      "display_name": "Zero hunger",
+      "id": "https://metadata.un.org/sdg/2"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 104,
+  "referenced_works": [
+    "https://openalex.org/W1480083809",
+    "https://openalex.org/W1506910355",
+    "https://openalex.org/W1583030352",
+    "https://openalex.org/W1694538241",
+    "https://openalex.org/W1718899207",
+    "https://openalex.org/W1930359736",
+    "https://openalex.org/W1951069276",
+    "https://openalex.org/W1961184135",
+    "https://openalex.org/W1961864475",
+    "https://openalex.org/W1963890672",
+    "https://openalex.org/W1967239919",
+    "https://openalex.org/W1969354039",
+    "https://openalex.org/W1969785428",
+    "https://openalex.org/W1981500982",
+    "https://openalex.org/W1986219050",
+    "https://openalex.org/W1993830991",
+    "https://openalex.org/W1995368855",
+    "https://openalex.org/W2003313678",
+    "https://openalex.org/W2004773897",
+    "https://openalex.org/W2006995996",
+    "https://openalex.org/W2008194879",
+    "https://openalex.org/W2012994611",
+    "https://openalex.org/W2014293700",
+    "https://openalex.org/W2016636298",
+    "https://openalex.org/W2018861313",
+    "https://openalex.org/W2032515852",
+    "https://openalex.org/W2034090239",
+    "https://openalex.org/W2039021127",
+    "https://openalex.org/W2040048905",
+    "https://openalex.org/W2040539560",
+    "https://openalex.org/W2041435070",
+    "https://openalex.org/W2043442946",
+    "https://openalex.org/W2043661964",
+    "https://openalex.org/W2044977356",
+    "https://openalex.org/W2049242968",
+    "https://openalex.org/W2050609241",
+    "https://openalex.org/W2053322374",
+    "https://openalex.org/W2058853111",
+    "https://openalex.org/W2058984894",
+    "https://openalex.org/W2060185417",
+    "https://openalex.org/W2064490992",
+    "https://openalex.org/W2068234766",
+    "https://openalex.org/W2068734008",
+    "https://openalex.org/W2069198266",
+    "https://openalex.org/W2071986366",
+    "https://openalex.org/W2072417345",
+    "https://openalex.org/W2073692430",
+    "https://openalex.org/W2078793434",
+    "https://openalex.org/W2080313046",
+    "https://openalex.org/W2083089709",
+    "https://openalex.org/W2083717261",
+    "https://openalex.org/W2087169316",
+    "https://openalex.org/W2088502944",
+    "https://openalex.org/W2089503694",
+    "https://openalex.org/W2091213797",
+    "https://openalex.org/W2102471114",
+    "https://openalex.org/W2105018820",
+    "https://openalex.org/W2112998801",
+    "https://openalex.org/W2114858858",
+    "https://openalex.org/W2115572903",
+    "https://openalex.org/W2116846792",
+    "https://openalex.org/W2118077298",
+    "https://openalex.org/W2118708873",
+    "https://openalex.org/W2121511337",
+    "https://openalex.org/W2126452774",
+    "https://openalex.org/W2128769815",
+    "https://openalex.org/W2136455985",
+    "https://openalex.org/W2136552678",
+    "https://openalex.org/W2137195441",
+    "https://openalex.org/W2138949966",
+    "https://openalex.org/W2142785933",
+    "https://openalex.org/W2143111495",
+    "https://openalex.org/W2151277589",
+    "https://openalex.org/W2151328247",
+    "https://openalex.org/W2159376422",
+    "https://openalex.org/W2159843682",
+    "https://openalex.org/W2162515800",
+    "https://openalex.org/W2166927678",
+    "https://openalex.org/W2167474377",
+    "https://openalex.org/W2194591433",
+    "https://openalex.org/W2252298505",
+    "https://openalex.org/W2257132124",
+    "https://openalex.org/W2258182415",
+    "https://openalex.org/W2259616512",
+    "https://openalex.org/W2268430539",
+    "https://openalex.org/W2281227836",
+    "https://openalex.org/W2294512339",
+    "https://openalex.org/W2296588405",
+    "https://openalex.org/W2298135825",
+    "https://openalex.org/W2302359467",
+    "https://openalex.org/W2308597139",
+    "https://openalex.org/W2323772253",
+    "https://openalex.org/W2323974245",
+    "https://openalex.org/W2335934832",
+    "https://openalex.org/W2343359885",
+    "https://openalex.org/W2415545512",
+    "https://openalex.org/W2424275162",
+    "https://openalex.org/W2480077488",
+    "https://openalex.org/W2504233374",
+    "https://openalex.org/W2560737530",
+    "https://openalex.org/W2602439962",
+    "https://openalex.org/W2883512297",
+    "https://openalex.org/W2883560622",
+    "https://openalex.org/W4302376619"
+  ],
+  "related_works": [
+    "https://openalex.org/W4381804746",
+    "https://openalex.org/W3095126508",
+    "https://openalex.org/W2392868645",
+    "https://openalex.org/W2388439768",
+    "https://openalex.org/W2383714964",
+    "https://openalex.org/W2138823797",
+    "https://openalex.org/W2046304090",
+    "https://openalex.org/W2030341901",
+    "https://openalex.org/W2011497789",
+    "https://openalex.org/W1975538309"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2741961591",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 101
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 111
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 138
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 129
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 130
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 103
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 74
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-10T06:52:22.163046",
+  "created_date": "2017-08-08"
+}

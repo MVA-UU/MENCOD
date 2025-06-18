@@ -1,0 +1,995 @@
+{
+  "id": "https://openalex.org/W2603248644",
+  "doi": "https://doi.org/10.1038/mp.2017.26",
+  "title": "Early life adversity and telomere length: a meta-analysis",
+  "display_name": "Early life adversity and telomere length: a meta-analysis",
+  "publication_year": 2017,
+  "publication_date": "2017-03-21",
+  "ids": {
+    "openalex": "https://openalex.org/W2603248644",
+    "doi": "https://doi.org/10.1038/mp.2017.26",
+    "mag": "2603248644",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/28322278",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5608639"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1038/mp.2017.26",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S71149355",
+      "display_name": "Molecular Psychiatry",
+      "issn_l": "1359-4184",
+      "issn": [
+        "1359-4184",
+        "1476-5578"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5608639",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5029340403",
+        "display_name": "Kathryn K. Ridout",
+        "orcid": "https://orcid.org/0000-0003-2101-8165"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802060973",
+          "display_name": "Butler Hospital",
+          "ror": "https://ror.org/00z9zsj19",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802060973"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I196272386",
+          "display_name": "Providence College",
+          "ror": "https://ror.org/00rxpqe74",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196272386"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "K K Ridout",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, Mood Disorders Research Program and Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, Mood Disorders Research Program and Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802060973",
+            "https://openalex.org/I196272386"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5070543210",
+        "display_name": "Mateus Luz Levandowski",
+        "orcid": "https://orcid.org/0000-0002-6188-620X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I45643870",
+          "display_name": "Pontifícia Universidade Católica do Rio Grande do Sul",
+          "ror": "https://ror.org/025vmq686",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I45643870"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M Levandowski",
+      "raw_affiliation_strings": [
+        "Developmental Cognitive Neuroscience Lab, Pontifical Catholic University of Rio Grande do Sul (PUCRS), Porto Alegre, Brazil"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Developmental Cognitive Neuroscience Lab, Pontifical Catholic University of Rio Grande do Sul (PUCRS), Porto Alegre, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I45643870"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086629429",
+        "display_name": "Samuel J. Ridout",
+        "orcid": "https://orcid.org/0000-0002-6729-6817"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I196272386",
+          "display_name": "Providence College",
+          "ror": "https://ror.org/00rxpqe74",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196272386"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802060973",
+          "display_name": "Butler Hospital",
+          "ror": "https://ror.org/00z9zsj19",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802060973"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S J Ridout",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, Mood Disorders Research Program and Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, Mood Disorders Research Program and Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA",
+          "institution_ids": [
+            "https://openalex.org/I196272386",
+            "https://openalex.org/I2802060973"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086202739",
+        "display_name": "L Gantz",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802060973",
+          "display_name": "Butler Hospital",
+          "ror": "https://ror.org/00z9zsj19",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802060973"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I196272386",
+          "display_name": "Providence College",
+          "ror": "https://ror.org/00rxpqe74",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196272386"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "L Gantz",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, Mood Disorders Research Program and Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, Mood Disorders Research Program and Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802060973",
+            "https://openalex.org/I196272386"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086652020",
+        "display_name": "Kathleen Jennison Goonan",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802060973",
+          "display_name": "Butler Hospital",
+          "ror": "https://ror.org/00z9zsj19",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802060973"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I196272386",
+          "display_name": "Providence College",
+          "ror": "https://ror.org/00rxpqe74",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196272386"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "K Goonan",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, Mood Disorders Research Program and Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, Mood Disorders Research Program and Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802060973",
+            "https://openalex.org/I196272386"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059446442",
+        "display_name": "David S. Palermo",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27804330",
+          "display_name": "Brown University",
+          "ror": "https://ror.org/05gq02987",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I27804330"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D Palermo",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry and Human Behavior, Alpert Medical School of Brown University, Providence, RI, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry and Human Behavior, Alpert Medical School of Brown University, Providence, RI, USA",
+          "institution_ids": [
+            "https://openalex.org/I27804330"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031601763",
+        "display_name": "Lawrence H. Price",
+        "orcid": "https://orcid.org/0000-0002-2074-4520"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802060973",
+          "display_name": "Butler Hospital",
+          "ror": "https://ror.org/00z9zsj19",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802060973"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I196272386",
+          "display_name": "Providence College",
+          "ror": "https://ror.org/00rxpqe74",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I196272386"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "L H Price",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, Mood Disorders Research Program and Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, Mood Disorders Research Program and Laboratory for Clinical and Translational Neuroscience, Butler Hospital, Providence, RI, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802060973",
+            "https://openalex.org/I196272386"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5014518251",
+        "display_name": "Audrey R. Tyrka",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27804330",
+          "display_name": "Brown University",
+          "ror": "https://ror.org/05gq02987",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I27804330"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A R Tyrka",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry and Human Behavior, Alpert Medical School of Brown University, Providence, RI, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry and Human Behavior, Alpert Medical School of Brown University, Providence, RI, USA",
+          "institution_ids": [
+            "https://openalex.org/I27804330"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5029340403"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I2802060973",
+    "https://openalex.org/I196272386"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.887,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 243,
+  "citation_normalized_percentile": {
+    "value": 0.998697,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "23",
+    "issue": "4",
+    "first_page": "858",
+    "last_page": "871"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11629",
+    "display_name": "Birth, Development, and Health",
+    "score": 0.9988,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2735",
+      "display_name": "Pediatrics, Perinatology and Child Health"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11629",
+      "display_name": "Birth, Development, and Health",
+      "score": 0.9988,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10937",
+      "display_name": "Telomeres, Telomerase, and Senescence",
+      "score": 0.992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12963",
+      "display_name": "Anesthesia and Neurotoxicity Research",
+      "score": 0.9576,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2806",
+        "display_name": "Developmental Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C177336024",
+      "wikidata": "https://www.wikidata.org/wiki/Q14872779",
+      "display_name": "Telomere",
+      "level": 3,
+      "score": 0.7889901
+    },
+    {
+      "id": "https://openalex.org/C95190672",
+      "wikidata": "https://www.wikidata.org/wiki/Q815382",
+      "display_name": "Meta-analysis",
+      "level": 2,
+      "score": 0.60668164
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.5727445
+    },
+    {
+      "id": "https://openalex.org/C74909509",
+      "wikidata": "https://www.wikidata.org/wiki/Q10387",
+      "display_name": "Gerontology",
+      "level": 1,
+      "score": 0.36634022
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.351964
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.25547516
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.20208171
+    },
+    {
+      "id": "https://openalex.org/C552990157",
+      "wikidata": "https://www.wikidata.org/wiki/Q7430",
+      "display_name": "DNA",
+      "level": 2,
+      "score": 0.123802334
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.11332616
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D059506",
+      "descriptor_name": "Telomere Shortening",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000076783",
+      "descriptor_name": "Adverse Childhood Experiences",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000076783",
+      "descriptor_name": "Adverse Childhood Experiences",
+      "qualifier_ui": "Q000145",
+      "qualifier_name": "classification",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000076783",
+      "descriptor_name": "Adverse Childhood Experiences",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016922",
+      "descriptor_name": "Cellular Senescence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016922",
+      "descriptor_name": "Cellular Senescence",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008016",
+      "descriptor_name": "Life Change Events",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012923",
+      "descriptor_name": "Social Class",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000523",
+      "qualifier_name": "psychology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016615",
+      "descriptor_name": "Telomere",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016615",
+      "descriptor_name": "Telomere",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059506",
+      "descriptor_name": "Telomere Shortening",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1038/mp.2017.26",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S71149355",
+        "display_name": "Molecular Psychiatry",
+        "issn_l": "1359-4184",
+        "issn": [
+          "1359-4184",
+          "1476-5578"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5608639",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/28322278",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5608639",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.6,
+      "display_name": "Reduced inequalities",
+      "id": "https://metadata.un.org/sdg/10"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 82,
+  "referenced_works": [
+    "https://openalex.org/W1520249933",
+    "https://openalex.org/W1722045455",
+    "https://openalex.org/W1733523167",
+    "https://openalex.org/W1845693344",
+    "https://openalex.org/W1957468587",
+    "https://openalex.org/W1969425174",
+    "https://openalex.org/W1973683611",
+    "https://openalex.org/W1974250808",
+    "https://openalex.org/W1975594217",
+    "https://openalex.org/W1979423827",
+    "https://openalex.org/W1980334915",
+    "https://openalex.org/W1986488389",
+    "https://openalex.org/W1993219114",
+    "https://openalex.org/W1994067034",
+    "https://openalex.org/W1998150842",
+    "https://openalex.org/W1999214561",
+    "https://openalex.org/W2010669874",
+    "https://openalex.org/W2011617932",
+    "https://openalex.org/W2023377845",
+    "https://openalex.org/W2033114852",
+    "https://openalex.org/W2033585778",
+    "https://openalex.org/W2034159142",
+    "https://openalex.org/W2043634006",
+    "https://openalex.org/W2044247979",
+    "https://openalex.org/W2045286296",
+    "https://openalex.org/W2045571168",
+    "https://openalex.org/W2047233375",
+    "https://openalex.org/W2049814665",
+    "https://openalex.org/W2049909326",
+    "https://openalex.org/W2050016813",
+    "https://openalex.org/W2053401610",
+    "https://openalex.org/W2056403132",
+    "https://openalex.org/W2070179539",
+    "https://openalex.org/W2074577151",
+    "https://openalex.org/W2077097690",
+    "https://openalex.org/W2090839303",
+    "https://openalex.org/W2102960693",
+    "https://openalex.org/W2106914912",
+    "https://openalex.org/W2107031757",
+    "https://openalex.org/W2107328434",
+    "https://openalex.org/W2110065044",
+    "https://openalex.org/W2112970335",
+    "https://openalex.org/W2116475791",
+    "https://openalex.org/W2118160932",
+    "https://openalex.org/W2119605658",
+    "https://openalex.org/W2120746465",
+    "https://openalex.org/W2121845272",
+    "https://openalex.org/W2124179954",
+    "https://openalex.org/W2125089843",
+    "https://openalex.org/W2134833483",
+    "https://openalex.org/W2138411573",
+    "https://openalex.org/W2141379992",
+    "https://openalex.org/W2142775638",
+    "https://openalex.org/W2142847175",
+    "https://openalex.org/W2143367709",
+    "https://openalex.org/W2152541965",
+    "https://openalex.org/W2156413526",
+    "https://openalex.org/W2156697129",
+    "https://openalex.org/W2156714633",
+    "https://openalex.org/W2157823046",
+    "https://openalex.org/W2161948433",
+    "https://openalex.org/W2162346386",
+    "https://openalex.org/W2167115915",
+    "https://openalex.org/W2167783241",
+    "https://openalex.org/W2171758019",
+    "https://openalex.org/W2188949284",
+    "https://openalex.org/W2192280055",
+    "https://openalex.org/W2256141767",
+    "https://openalex.org/W2265820610",
+    "https://openalex.org/W2269315595",
+    "https://openalex.org/W2290642869",
+    "https://openalex.org/W2297913512",
+    "https://openalex.org/W2312260277",
+    "https://openalex.org/W2348785599",
+    "https://openalex.org/W2588681363",
+    "https://openalex.org/W2598936606",
+    "https://openalex.org/W3022903699",
+    "https://openalex.org/W4297918764",
+    "https://openalex.org/W4300870773",
+    "https://openalex.org/W617908443",
+    "https://openalex.org/W71228264",
+    "https://openalex.org/W823074107"
+  ],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W4295073628",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2417511905",
+    "https://openalex.org/W2362612357",
+    "https://openalex.org/W2175325490",
+    "https://openalex.org/W2103156000",
+    "https://openalex.org/W2096760656",
+    "https://openalex.org/W2045637853",
+    "https://openalex.org/W2005903392"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2603248644",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 33
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 12
+    }
+  ],
+  "updated_date": "2025-06-12T14:54:21.829261",
+  "created_date": "2017-04-07"
+}

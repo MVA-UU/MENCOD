@@ -1,0 +1,782 @@
+{
+  "id": "https://openalex.org/W2096759065",
+  "doi": "https://doi.org/10.1161/01.cir.0000041502.43564.79",
+  "title": "Stress and the Metabolic Syndrome",
+  "display_name": "Stress and the Metabolic Syndrome",
+  "publication_year": 2002,
+  "publication_date": "2002-11-18",
+  "ids": {
+    "openalex": "https://openalex.org/W2096759065",
+    "doi": "https://doi.org/10.1161/01.cir.0000041502.43564.79",
+    "mag": "2096759065",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/12438283"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1161/01.cir.0000041502.43564.79",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S116251202",
+      "display_name": "Circulation",
+      "issn_l": "0009-7322",
+      "issn": [
+        "0009-7322",
+        "1524-4539"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315671",
+      "host_organization_name": "Lippincott Williams & Wilkins",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315671",
+        "https://openalex.org/P4310318547"
+      ],
+      "host_organization_lineage_names": [
+        "Lippincott Williams & Wilkins",
+        "Wolters Kluwer"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "letter",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": "https://doi.org/10.1161/01.cir.0000041502.43564.79",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5068373464",
+        "display_name": "Paul Hjemdahl",
+        "orcid": "https://orcid.org/0000-0001-5346-275X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Paul Hjemdahl",
+      "raw_affiliation_strings": [
+        "From the Department of Medicine, Division of Clinical Pharmacology, Karolinska Hospital and Institute, Stockholm, Sweden."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "From the Department of Medicine, Division of Clinical Pharmacology, Karolinska Hospital and Institute, Stockholm, Sweden.",
+          "institution_ids": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5068373464"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I28166907"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 108,
+  "citation_normalized_percentile": {
+    "value": 0.8,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "106",
+    "issue": "21",
+    "first_page": "2634",
+    "last_page": "2636"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 0.9977,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9977,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10745",
+      "display_name": "Heart Rate Variability and Autonomic Control",
+      "score": 0.9885,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11337",
+      "display_name": "Tryptophan and brain disorders",
+      "score": 0.9863,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2803",
+        "display_name": "Biological Psychiatry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/allostasis",
+      "display_name": "Allostasis",
+      "score": 0.86994755
+    },
+    {
+      "id": "https://openalex.org/keywords/allostatic-load",
+      "display_name": "Allostatic load",
+      "score": 0.80045766
+    },
+    {
+      "id": "https://openalex.org/keywords/chronic-stress",
+      "display_name": "Chronic Stress",
+      "score": 0.5678151
+    },
+    {
+      "id": "https://openalex.org/keywords/sympathetic-nervous-system",
+      "display_name": "Sympathetic nervous system",
+      "score": 0.45326728
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C157541749",
+      "wikidata": "https://www.wikidata.org/wiki/Q3612637",
+      "display_name": "Allostasis",
+      "level": 2,
+      "score": 0.86994755
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.8027998
+    },
+    {
+      "id": "https://openalex.org/C187150481",
+      "wikidata": "https://www.wikidata.org/wiki/Q4733156",
+      "display_name": "Allostatic load",
+      "level": 2,
+      "score": 0.80045766
+    },
+    {
+      "id": "https://openalex.org/C2778654844",
+      "wikidata": "https://www.wikidata.org/wiki/Q3305232",
+      "display_name": "Chronic stress",
+      "level": 2,
+      "score": 0.5678151
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.4972947
+    },
+    {
+      "id": "https://openalex.org/C2780578515",
+      "wikidata": "https://www.wikidata.org/wiki/Q657193",
+      "display_name": "Metabolic syndrome",
+      "level": 3,
+      "score": 0.4969788
+    },
+    {
+      "id": "https://openalex.org/C2776533406",
+      "wikidata": "https://www.wikidata.org/wiki/Q187215",
+      "display_name": "Sympathetic nervous system",
+      "level": 3,
+      "score": 0.45326728
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.43781316
+    },
+    {
+      "id": "https://openalex.org/C555293320",
+      "wikidata": "https://www.wikidata.org/wiki/Q12206",
+      "display_name": "Diabetes mellitus",
+      "level": 2,
+      "score": 0.43160313
+    },
+    {
+      "id": "https://openalex.org/C84393581",
+      "wikidata": "https://www.wikidata.org/wiki/Q82642",
+      "display_name": "Blood pressure",
+      "level": 2,
+      "score": 0.41522324
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.3563491
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.33577335
+    },
+    {
+      "id": "https://openalex.org/C74909509",
+      "wikidata": "https://www.wikidata.org/wiki/Q10387",
+      "display_name": "Gerontology",
+      "level": 1,
+      "score": 0.33237305
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.14769295
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D024821",
+      "descriptor_name": "Metabolic Syndrome",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013312",
+      "descriptor_name": "Stress, Physiological",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001161",
+      "descriptor_name": "Arteriosclerosis",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001161",
+      "descriptor_name": "Arteriosclerosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001161",
+      "descriptor_name": "Arteriosclerosis",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001341",
+      "descriptor_name": "Autonomic Nervous System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001341",
+      "descriptor_name": "Autonomic Nervous System",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016022",
+      "descriptor_name": "Case-Control Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002395",
+      "descriptor_name": "Catecholamines",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002395",
+      "descriptor_name": "Catecholamines",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015897",
+      "descriptor_name": "Comorbidity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003920",
+      "descriptor_name": "Diabetes Mellitus",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003920",
+      "descriptor_name": "Diabetes Mellitus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006339",
+      "descriptor_name": "Heart Rate",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006973",
+      "descriptor_name": "Hypertension",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006973",
+      "descriptor_name": "Hypertension",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007333",
+      "descriptor_name": "Insulin Resistance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D024821",
+      "descriptor_name": "Metabolic Syndrome",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D024821",
+      "descriptor_name": "Metabolic Syndrome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009490",
+      "descriptor_name": "Neurosecretory Systems",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009490",
+      "descriptor_name": "Neurosecretory Systems",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012307",
+      "descriptor_name": "Risk Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013312",
+      "descriptor_name": "Stress, Physiological",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013312",
+      "descriptor_name": "Stress, Physiological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1161/01.cir.0000041502.43564.79",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S116251202",
+        "display_name": "Circulation",
+        "issn_l": "0009-7322",
+        "issn": [
+          "0009-7322",
+          "1524-4539"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315671",
+        "host_organization_name": "Lippincott Williams & Wilkins",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315671",
+          "https://openalex.org/P4310318547"
+        ],
+        "host_organization_lineage_names": [
+          "Lippincott Williams & Wilkins",
+          "Wolters Kluwer"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/12438283",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1161/01.cir.0000041502.43564.79",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S116251202",
+      "display_name": "Circulation",
+      "issn_l": "0009-7322",
+      "issn": [
+        "0009-7322",
+        "1524-4539"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315671",
+      "host_organization_name": "Lippincott Williams & Wilkins",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315671",
+        "https://openalex.org/P4310318547"
+      ],
+      "host_organization_lineage_names": [
+        "Lippincott Williams & Wilkins",
+        "Wolters Kluwer"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.85,
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 21,
+  "referenced_works": [
+    "https://openalex.org/W1966752541",
+    "https://openalex.org/W1969150442",
+    "https://openalex.org/W1987379871",
+    "https://openalex.org/W2001412750",
+    "https://openalex.org/W2006273510",
+    "https://openalex.org/W2017130422",
+    "https://openalex.org/W2021041993",
+    "https://openalex.org/W2029897333",
+    "https://openalex.org/W2042280485",
+    "https://openalex.org/W2096326428",
+    "https://openalex.org/W2097972136",
+    "https://openalex.org/W2104706609",
+    "https://openalex.org/W2124200900",
+    "https://openalex.org/W2133082625",
+    "https://openalex.org/W2141335918",
+    "https://openalex.org/W2152598925",
+    "https://openalex.org/W2170465491",
+    "https://openalex.org/W2293946776",
+    "https://openalex.org/W2334787351",
+    "https://openalex.org/W2395960753",
+    "https://openalex.org/W2418617907"
+  ],
+  "related_works": [
+    "https://openalex.org/W4303627976",
+    "https://openalex.org/W4293680818",
+    "https://openalex.org/W4237547583",
+    "https://openalex.org/W4212973328",
+    "https://openalex.org/W3108062031",
+    "https://openalex.org/W2923031808",
+    "https://openalex.org/W2120814765",
+    "https://openalex.org/W2096921833",
+    "https://openalex.org/W2071271451",
+    "https://openalex.org/W112970541"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2096759065",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-01-24T13:54:37.930748",
+  "created_date": "2016-06-24"
+}

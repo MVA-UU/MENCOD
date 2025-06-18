@@ -1,0 +1,1405 @@
+{
+  "id": "https://openalex.org/W2155771353",
+  "doi": "https://doi.org/10.1370/afm.1161",
+  "title": "Participatory Decision Making, Patient Activation, Medication Adherence, and Intermediate Clinical Outcomes in Type 2 Diabetes: A STARNet Study",
+  "display_name": "Participatory Decision Making, Patient Activation, Medication Adherence, and Intermediate Clinical Outcomes in Type 2 Diabetes: A STARNet Study",
+  "publication_year": 2010,
+  "publication_date": "2010-09-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2155771353",
+    "doi": "https://doi.org/10.1370/afm.1161",
+    "mag": "2155771353",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/20843882",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2939416"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1370/afm.1161",
+    "pdf_url": "https://www.annfammed.org/content/annalsfm/8/5/410.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S105068684",
+      "display_name": "The Annals of Family Medicine",
+      "issn_l": "1544-1709",
+      "issn": [
+        "1544-1709",
+        "1544-1717"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316112",
+      "host_organization_name": "American Academy of Family Physicians",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316112"
+      ],
+      "host_organization_lineage_names": [
+        "American Academy of Family Physicians"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.annfammed.org/content/annalsfm/8/5/410.full.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5051689841",
+        "display_name": "Michael L. Parchman",
+        "orcid": "https://orcid.org/0000-0001-7129-2889"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165951966",
+          "display_name": "The University of Texas Health Science Center at San Antonio",
+          "ror": "https://ror.org/02f6dcw23",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I165951966"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210144081",
+          "display_name": "South Texas Veterans Health Care System",
+          "ror": "https://ror.org/03n2ay196",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210144023",
+            "https://openalex.org/I4210144081"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "M. L. Parchman",
+      "raw_affiliation_strings": [
+        "Department of Family & Community Med-icine, University of Texas Health Science Center, San Antonio, Texas",
+        "VERDICT Health Services Research Pro-gram, South Texas Veterans Health Care System, San Antonio, Texas"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Family & Community Med-icine, University of Texas Health Science Center, San Antonio, Texas",
+          "institution_ids": [
+            "https://openalex.org/I165951966"
+          ]
+        },
+        {
+          "raw_affiliation_string": "VERDICT Health Services Research Pro-gram, South Texas Veterans Health Care System, San Antonio, Texas",
+          "institution_ids": [
+            "https://openalex.org/I4210144081"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028964025",
+        "display_name": "John E. Zeber",
+        "orcid": "https://orcid.org/0000-0002-6606-8847"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210144081",
+          "display_name": "South Texas Veterans Health Care System",
+          "ror": "https://ror.org/03n2ay196",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210144023",
+            "https://openalex.org/I4210144081"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210160418",
+          "display_name": "Baylor Scott & White Health",
+          "ror": "https://ror.org/05wevan27",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210160418"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210116927",
+          "display_name": "Central Texas Veterans Health Care System",
+          "ror": "https://ror.org/02dcp1550",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210116927",
+            "https://openalex.org/I4210144023"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. E. Zeber",
+      "raw_affiliation_strings": [
+        "Center for Applied Health Research, Scott & White Healthcare, Temple, Texas",
+        "Central Texan Veterans Health Care Sys-tem, Temple, Texas",
+        "VERDICT Health Services Research Pro-gram, South Texas Veterans Health Care System, San Antonio, Texas"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "VERDICT Health Services Research Pro-gram, South Texas Veterans Health Care System, San Antonio, Texas",
+          "institution_ids": [
+            "https://openalex.org/I4210144081"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for Applied Health Research, Scott & White Healthcare, Temple, Texas",
+          "institution_ids": [
+            "https://openalex.org/I4210160418"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Central Texan Veterans Health Care Sys-tem, Temple, Texas",
+          "institution_ids": [
+            "https://openalex.org/I4210116927"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5111656154",
+        "display_name": "R.F. Palmer",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165951966",
+          "display_name": "The University of Texas Health Science Center at San Antonio",
+          "ror": "https://ror.org/02f6dcw23",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I165951966"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. F. Palmer",
+      "raw_affiliation_strings": [
+        "Department of Family & Community Med-icine, University of Texas Health Science Center, San Antonio, Texas"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Family & Community Med-icine, University of Texas Health Science Center, San Antonio, Texas",
+          "institution_ids": [
+            "https://openalex.org/I165951966"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5051689841"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I165951966",
+    "https://openalex.org/I4210144081"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 11.083,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 252,
+  "citation_normalized_percentile": {
+    "value": 0.997914,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "8",
+    "issue": "5",
+    "first_page": "410",
+    "last_page": "417"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11620",
+    "display_name": "Medication Adherence and Compliance",
+    "score": 0.9996,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2714",
+      "display_name": "Family Practice"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11620",
+      "display_name": "Medication Adherence and Compliance",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2714",
+        "display_name": "Family Practice"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10827",
+      "display_name": "Patient-Provider Communication in Healthcare",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11722",
+      "display_name": "Patient Satisfaction in Healthcare",
+      "score": 0.9979,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/glycated-hemoglobin",
+      "display_name": "Glycated hemoglobin",
+      "score": 0.72670525
+    },
+    {
+      "id": "https://openalex.org/keywords/medical-record",
+      "display_name": "Medical record",
+      "score": 0.45033792
+    },
+    {
+      "id": "https://openalex.org/keywords/patient-participation",
+      "display_name": "Patient Participation",
+      "score": 0.4148845
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.9316586
+    },
+    {
+      "id": "https://openalex.org/C2777538456",
+      "wikidata": "https://www.wikidata.org/wiki/Q311213",
+      "display_name": "Glycated hemoglobin",
+      "level": 4,
+      "score": 0.72670525
+    },
+    {
+      "id": "https://openalex.org/C84393581",
+      "wikidata": "https://www.wikidata.org/wiki/Q82642",
+      "display_name": "Blood pressure",
+      "level": 2,
+      "score": 0.6513542
+    },
+    {
+      "id": "https://openalex.org/C555293320",
+      "wikidata": "https://www.wikidata.org/wiki/Q12206",
+      "display_name": "Diabetes mellitus",
+      "level": 2,
+      "score": 0.54760987
+    },
+    {
+      "id": "https://openalex.org/C2777180221",
+      "wikidata": "https://www.wikidata.org/wiki/Q3025883",
+      "display_name": "Type 2 diabetes",
+      "level": 3,
+      "score": 0.5376405
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.5294238
+    },
+    {
+      "id": "https://openalex.org/C23131810",
+      "wikidata": "https://www.wikidata.org/wiki/Q818574",
+      "display_name": "Observational study",
+      "level": 2,
+      "score": 0.49108052
+    },
+    {
+      "id": "https://openalex.org/C2778917026",
+      "wikidata": "https://www.wikidata.org/wiki/Q43041",
+      "display_name": "Hemoglobin",
+      "level": 2,
+      "score": 0.48118883
+    },
+    {
+      "id": "https://openalex.org/C1862650",
+      "wikidata": "https://www.wikidata.org/wiki/Q186005",
+      "display_name": "Physical therapy",
+      "level": 1,
+      "score": 0.46906778
+    },
+    {
+      "id": "https://openalex.org/C195910791",
+      "wikidata": "https://www.wikidata.org/wiki/Q1324077",
+      "display_name": "Medical record",
+      "level": 2,
+      "score": 0.45033792
+    },
+    {
+      "id": "https://openalex.org/C512399662",
+      "wikidata": "https://www.wikidata.org/wiki/Q3505712",
+      "display_name": "Family medicine",
+      "level": 1,
+      "score": 0.42226732
+    },
+    {
+      "id": "https://openalex.org/C2776511598",
+      "wikidata": "https://www.wikidata.org/wiki/Q7144993",
+      "display_name": "Patient participation",
+      "level": 3,
+      "score": 0.4148845
+    },
+    {
+      "id": "https://openalex.org/C2779473830",
+      "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+      "display_name": "MEDLINE",
+      "level": 2,
+      "score": 0.25452688
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.12036732
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D010349",
+      "descriptor_name": "Patient Compliance",
+      "qualifier_ui": "Q000523",
+      "qualifier_name": "psychology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010358",
+      "descriptor_name": "Patient Participation",
+      "qualifier_ui": "Q000523",
+      "qualifier_name": "psychology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001794",
+      "descriptor_name": "Blood Pressure",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008078",
+      "descriptor_name": "Cholesterol, LDL",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003657",
+      "descriptor_name": "Decision Making",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003924",
+      "descriptor_name": "Diabetes Mellitus, Type 2",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006442",
+      "descriptor_name": "Glycated Hemoglobin",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011320",
+      "descriptor_name": "Primary Health Care",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011446",
+      "descriptor_name": "Prospective Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016896",
+      "descriptor_name": "Treatment Outcome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1370/afm.1161",
+      "pdf_url": "https://www.annfammed.org/content/annalsfm/8/5/410.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S105068684",
+        "display_name": "The Annals of Family Medicine",
+        "issn_l": "1544-1709",
+        "issn": [
+          "1544-1709",
+          "1544-1717"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316112",
+        "host_organization_name": "American Academy of Family Physicians",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316112"
+        ],
+        "host_organization_lineage_names": [
+          "American Academy of Family Physicians"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc2939416",
+      "pdf_url": "https://europepmc.org/articles/pmc2939416?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2939416",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/20843882",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1370/afm.1161",
+    "pdf_url": "https://www.annfammed.org/content/annalsfm/8/5/410.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S105068684",
+      "display_name": "The Annals of Family Medicine",
+      "issn_l": "1544-1709",
+      "issn": [
+        "1544-1709",
+        "1544-1717"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316112",
+      "host_organization_name": "American Academy of Family Physicians",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316112"
+      ],
+      "host_organization_lineage_names": [
+        "American Academy of Family Physicians"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.76,
+      "display_name": "Peace, justice, and strong institutions",
+      "id": "https://metadata.un.org/sdg/16"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 48,
+  "referenced_works": [
+    "https://openalex.org/W1539546175",
+    "https://openalex.org/W1594078756",
+    "https://openalex.org/W1836470756",
+    "https://openalex.org/W1968075762",
+    "https://openalex.org/W1969640133",
+    "https://openalex.org/W1973562947",
+    "https://openalex.org/W1996464973",
+    "https://openalex.org/W2004534024",
+    "https://openalex.org/W2006893169",
+    "https://openalex.org/W2025956312",
+    "https://openalex.org/W2028110552",
+    "https://openalex.org/W2031756259",
+    "https://openalex.org/W2031767251",
+    "https://openalex.org/W2047389081",
+    "https://openalex.org/W2055242746",
+    "https://openalex.org/W2060331946",
+    "https://openalex.org/W2083475779",
+    "https://openalex.org/W2084120617",
+    "https://openalex.org/W2086797813",
+    "https://openalex.org/W2088020509",
+    "https://openalex.org/W2096868672",
+    "https://openalex.org/W2097130565",
+    "https://openalex.org/W2100546529",
+    "https://openalex.org/W2101110764",
+    "https://openalex.org/W2108424996",
+    "https://openalex.org/W2108883347",
+    "https://openalex.org/W2110162631",
+    "https://openalex.org/W2113893668",
+    "https://openalex.org/W2127224771",
+    "https://openalex.org/W2134978986",
+    "https://openalex.org/W2137808916",
+    "https://openalex.org/W2145209275",
+    "https://openalex.org/W2145355470",
+    "https://openalex.org/W2147489153",
+    "https://openalex.org/W2156267802",
+    "https://openalex.org/W2163988453",
+    "https://openalex.org/W2164733897",
+    "https://openalex.org/W2318789796",
+    "https://openalex.org/W2970972681",
+    "https://openalex.org/W2978275183",
+    "https://openalex.org/W3015331147",
+    "https://openalex.org/W4237063048",
+    "https://openalex.org/W4239108857",
+    "https://openalex.org/W4241049161",
+    "https://openalex.org/W4251735453",
+    "https://openalex.org/W4255037836",
+    "https://openalex.org/W4299927410",
+    "https://openalex.org/W576877101"
+  ],
+  "related_works": [
+    "https://openalex.org/W4381328000",
+    "https://openalex.org/W334096847",
+    "https://openalex.org/W3141050733",
+    "https://openalex.org/W2911339178",
+    "https://openalex.org/W2381483137",
+    "https://openalex.org/W2322581019",
+    "https://openalex.org/W2109147503",
+    "https://openalex.org/W2103779230",
+    "https://openalex.org/W2030936866",
+    "https://openalex.org/W1974436261"
+  ],
+  "abstract_inverted_index": {
+    "<b>PURPOSE</b>": [
+      0
+    ],
+    "Participatory": [
+      1,
+      223
+    ],
+    "decision": [
+      2,
+      224
+    ],
+    "making": [
+      3,
+      225
+    ],
+    "(PDM)": [
+      4
+    ],
+    "is": [
+      5
+    ],
+    "associated": [
+      6,
+      182,
+      193,
+      205
+    ],
+    "with": [
+      7,
+      183,
+      194,
+      206,
+      218,
+      232
+    ],
+    "improved": [
+      8,
+      19,
+      254
+    ],
+    "diabetes": [
+      9,
+      235
+    ],
+    "control.": [
+      10
+    ],
+    "We": [
+      11,
+      139
+    ],
+    "examine": [
+      12
+    ],
+    "a": [
+      13,
+      49,
+      129
+    ],
+    "causal": [
+      14
+    ],
+    "model": [
+      15,
+      132
+    ],
+    "linking": [
+      16
+    ],
+    "PDM": [
+      17,
+      73,
+      178
+    ],
+    "to": [
+      18,
+      118,
+      135,
+      142
+    ],
+    "clinical": [
+      20
+    ],
+    "outcomes": [
+      21
+    ],
+    "that": [
+      22
+    ],
+    "included": [
+      23
+    ],
+    "patient": [
+      24,
+      172,
+      184,
+      249
+    ],
+    "activation": [
+      25,
+      81,
+      173,
+      185,
+      189
+    ],
+    "and": [
+      26,
+      46,
+      77,
+      82,
+      88,
+      100,
+      151,
+      164,
+      171,
+      174,
+      199,
+      212,
+      243
+    ],
+    "medication": [
+      27,
+      83,
+      175,
+      195,
+      200,
+      255
+    ],
+    "adherence.": [
+      28,
+      256
+    ],
+    "<b>METHODS</b>": [
+      29
+    ],
+    "This": [
+      30
+    ],
+    "observational": [
+      31
+    ],
+    "study": [
+      32,
+      50
+    ],
+    "was": [
+      33,
+      133,
+      181,
+      192,
+      204
+    ],
+    "conducted": [
+      34
+    ],
+    "in": [
+      35,
+      208,
+      237,
+      239,
+      252
+    ],
+    "5": [
+      36
+    ],
+    "family": [
+      37
+    ],
+    "physician": [
+      38
+    ],
+    "offices.": [
+      39
+    ],
+    "Diabetic": [
+      40
+    ],
+    "patients": [
+      41,
+      231
+    ],
+    "were": [
+      42,
+      105
+    ],
+    "recruited": [
+      43
+    ],
+    "by": [
+      44,
+      47,
+      230,
+      247
+    ],
+    "mail": [
+      45
+    ],
+    "completing": [
+      48
+    ],
+    "interest": [
+      51
+    ],
+    "card": [
+      52
+    ],
+    "at": [
+      53,
+      75,
+      86,
+      89,
+      179,
+      186,
+      190,
+      197,
+      202
+    ],
+    "the": [
+      54,
+      108,
+      115,
+      122,
+      148,
+      155
+    ],
+    "conclusion": [
+      55
+    ],
+    "of": [
+      56,
+      70,
+      80,
+      92
+    ],
+    "their": [
+      57,
+      71,
+      78
+    ],
+    "office": [
+      58
+    ],
+    "visit.": [
+      59
+    ],
+    "Two": [
+      60
+    ],
+    "survey": [
+      61,
+      117
+    ],
+    "questionnaires,": [
+      62
+    ],
+    "administered": [
+      63
+    ],
+    "12": [
+      64,
+      112,
+      119
+    ],
+    "months": [
+      65,
+      113,
+      120
+    ],
+    "apart,": [
+      66
+    ],
+    "elicited": [
+      67
+    ],
+    "patients’": [
+      68
+    ],
+    "ratings": [
+      69
+    ],
+    "physician’s": [
+      72
+    ],
+    "style": [
+      74
+    ],
+    "baseline": [
+      76,
+      87,
+      116,
+      149,
+      180
+    ],
+    "level": [
+      79
+    ],
+    "adherence": [
+      84,
+      176,
+      196,
+      201
+    ],
+    "both": [
+      85
+    ],
+    "follow-up.": [
+      90,
+      187
+    ],
+    "Measures": [
+      91
+    ],
+    "glycated": [
+      93
+    ],
+    "hemoglobin": [
+      94,
+      209,
+      240
+    ],
+    "(hemoglobin": [
+      95
+    ],
+    "A<sub>1c</sub>),": [
+      96
+    ],
+    "systolic": [
+      97,
+      161,
+      219
+    ],
+    "blood": [
+      98,
+      162,
+      220
+    ],
+    "pressure,": [
+      99,
+      163
+    ],
+    "low-density": [
+      101
+    ],
+    "lipoprotein": [
+      102
+    ],
+    "(LDL)": [
+      103
+    ],
+    "cholesterol": [
+      104,
+      166,
+      214,
+      245
+    ],
+    "abstracted": [
+      106
+    ],
+    "from": [
+      107
+    ],
+    "medical": [
+      109
+    ],
+    "record": [
+      110
+    ],
+    "starting": [
+      111
+    ],
+    "before": [
+      114
+    ],
+    "after": [
+      121
+    ],
+    "follow-up": [
+      123,
+      156,
+      191,
+      203
+    ],
+    "survey.": [
+      124
+    ],
+    "A": [
+      125
+    ],
+    "path": [
+      126
+    ],
+    "analysis": [
+      127
+    ],
+    "using": [
+      128
+    ],
+    "structural": [
+      130
+    ],
+    "equation": [
+      131
+    ],
+    "used": [
+      134
+    ],
+    "test": [
+      136
+    ],
+    "hypotheses.": [
+      137
+    ],
+    "<b>RESULTS</b>": [
+      138
+    ],
+    "mailed": [
+      140
+    ],
+    "questionnaires": [
+      141
+    ],
+    "236": [
+      143
+    ],
+    "participants;": [
+      144
+    ],
+    "166": [
+      145
+    ],
+    "(70%)": [
+      146
+    ],
+    "returned": [
+      147,
+      154
+    ],
+    "questionnaire,": [
+      150
+    ],
+    "141": [
+      152
+    ],
+    "(80%)": [
+      153
+    ],
+    "questionnaire.": [
+      157
+    ],
+    "Hemoglobin": [
+      158
+    ],
+    "A<sub>1c</sub>": [
+      159,
+      210,
+      241
+    ],
+    "levels,": [
+      160
+    ],
+    "LDL": [
+      165,
+      213,
+      244
+    ],
+    "values": [
+      167,
+      215,
+      246
+    ],
+    "all": [
+      168
+    ],
+    "declined": [
+      169
+    ],
+    "significantly,": [
+      170
+    ],
+    "improved.": [
+      177
+    ],
+    "Patient": [
+      188
+    ],
+    "follow-up,": [
+      198
+    ],
+    "change": [
+      207
+    ],
+    "levels": [
+      211,
+      242
+    ],
+    "but": [
+      216
+    ],
+    "not": [
+      217
+    ],
+    "pressure.": [
+      221
+    ],
+    "<b>CONCLUSIONS</b>": [
+      222
+    ],
+    "during": [
+      226
+    ],
+    "primary": [
+      227
+    ],
+    "care": [
+      228
+    ],
+    "encounters": [
+      229
+    ],
+    "type": [
+      233
+    ],
+    "2": [
+      234
+    ],
+    "resulted": [
+      236
+    ],
+    "improvements": [
+      238
+    ],
+    "improving": [
+      248
+    ],
+    "activation,": [
+      250
+    ],
+    "which": [
+      251
+    ],
+    "turn": [
+      253
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2155771353",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 19
+    }
+  ],
+  "updated_date": "2025-06-15T22:18:07.318448",
+  "created_date": "2016-06-24"
+}

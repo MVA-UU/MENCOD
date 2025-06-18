@@ -1,0 +1,795 @@
+{
+  "id": "https://openalex.org/W2058147201",
+  "doi": "https://doi.org/10.1159/000087012",
+  "title": "Neuroendocrine System of the Skin",
+  "display_name": "Neuroendocrine System of the Skin",
+  "publication_year": 2005,
+  "publication_date": "2005-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2058147201",
+    "doi": "https://doi.org/10.1159/000087012",
+    "mag": "2058147201",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16205064",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2790059"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1159/000087012",
+    "pdf_url": "https://karger.com/drm/article-pdf/211/3/199/2651871/000087012.pdf",
+    "source": {
+      "id": "https://openalex.org/S135397728",
+      "display_name": "Dermatology",
+      "issn_l": "1018-8665",
+      "issn": [
+        "1018-8665",
+        "1421-9832"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310317820",
+      "host_organization_name": "Karger Publishers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310317820"
+      ],
+      "host_organization_lineage_names": [
+        "Karger Publishers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://karger.com/drm/article-pdf/211/3/199/2651871/000087012.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5050860545",
+        "display_name": "Andrzej Słomiński",
+        "orcid": "https://orcid.org/0000-0001-8963-3995"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I160606119",
+          "display_name": "University of Tennessee Health Science Center",
+          "ror": "https://ror.org/0011qv509",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I160606119"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Andrzej Slominski",
+      "raw_affiliation_strings": [
+        "Department of Pathology and Laboratory Medicine, University of Tennessee Health Science Center, Memphis, 38163, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, University of Tennessee Health Science Center, Memphis, 38163, USA.",
+          "institution_ids": [
+            "https://openalex.org/I160606119"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5050860545"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I160606119"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.059,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 135,
+  "citation_normalized_percentile": {
+    "value": 0.997585,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "211",
+    "issue": "3",
+    "first_page": "199",
+    "last_page": "208"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11144",
+    "display_name": "melanin and skin pigmentation",
+    "score": 0.9972,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1307",
+      "display_name": "Cell Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11144",
+      "display_name": "melanin and skin pigmentation",
+      "score": 0.9972,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10837",
+      "display_name": "Dermatology and Skin Diseases",
+      "score": 0.9944,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11013",
+      "display_name": "Skin Protection and Aging",
+      "score": 0.9921,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/homeostasis",
+      "display_name": "Homeostasis",
+      "score": 0.5671293
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C46699223",
+      "wikidata": "https://www.wikidata.org/wiki/Q11078",
+      "display_name": "Endocrine system",
+      "level": 3,
+      "score": 0.7100667
+    },
+    {
+      "id": "https://openalex.org/C63645605",
+      "wikidata": "https://www.wikidata.org/wiki/Q103191",
+      "display_name": "Homeostasis",
+      "level": 2,
+      "score": 0.5671293
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.5670532
+    },
+    {
+      "id": "https://openalex.org/C49039625",
+      "wikidata": "https://www.wikidata.org/wiki/Q84230",
+      "display_name": "Secretion",
+      "level": 2,
+      "score": 0.5252475
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.44717336
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.37890562
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.37816864
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.3389405
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D009490",
+      "descriptor_name": "Neurosecretory Systems",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012879",
+      "descriptor_name": "Skin Physiological Phenomena",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001363",
+      "descriptor_name": "Awards and Prizes",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009490",
+      "descriptor_name": "Neurosecretory Systems",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1159/000087012",
+      "pdf_url": "https://karger.com/drm/article-pdf/211/3/199/2651871/000087012.pdf",
+      "source": {
+        "id": "https://openalex.org/S135397728",
+        "display_name": "Dermatology",
+        "issn_l": "1018-8665",
+        "issn": [
+          "1018-8665",
+          "1421-9832"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310317820",
+        "host_organization_name": "Karger Publishers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310317820"
+        ],
+        "host_organization_lineage_names": [
+          "Karger Publishers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc2790059",
+      "pdf_url": "https://europepmc.org/articles/pmc2790059?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2790059",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16205064",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1159/000087012",
+    "pdf_url": "https://karger.com/drm/article-pdf/211/3/199/2651871/000087012.pdf",
+    "source": {
+      "id": "https://openalex.org/S135397728",
+      "display_name": "Dermatology",
+      "issn_l": "1018-8665",
+      "issn": [
+        "1018-8665",
+        "1421-9832"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310317820",
+      "host_organization_name": "Karger Publishers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310317820"
+      ],
+      "host_organization_lineage_names": [
+        "Karger Publishers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 73,
+  "referenced_works": [
+    "https://openalex.org/W1970075441",
+    "https://openalex.org/W1970132387",
+    "https://openalex.org/W1971762607",
+    "https://openalex.org/W1973355249",
+    "https://openalex.org/W1976426993",
+    "https://openalex.org/W1979039462",
+    "https://openalex.org/W1982557271",
+    "https://openalex.org/W1982745084",
+    "https://openalex.org/W1985720030",
+    "https://openalex.org/W1986970956",
+    "https://openalex.org/W1987808660",
+    "https://openalex.org/W1989168127",
+    "https://openalex.org/W1990641016",
+    "https://openalex.org/W1992820070",
+    "https://openalex.org/W1994979888",
+    "https://openalex.org/W2001335947",
+    "https://openalex.org/W2005658147",
+    "https://openalex.org/W2008297014",
+    "https://openalex.org/W2009117675",
+    "https://openalex.org/W2011607277",
+    "https://openalex.org/W2014198790",
+    "https://openalex.org/W2014819453",
+    "https://openalex.org/W2016981913",
+    "https://openalex.org/W2018246654",
+    "https://openalex.org/W2018986444",
+    "https://openalex.org/W2023893398",
+    "https://openalex.org/W2026197777",
+    "https://openalex.org/W2029377942",
+    "https://openalex.org/W2042394868",
+    "https://openalex.org/W2043128622",
+    "https://openalex.org/W2043584813",
+    "https://openalex.org/W2043934719",
+    "https://openalex.org/W2046125575",
+    "https://openalex.org/W2048626660",
+    "https://openalex.org/W2052382142",
+    "https://openalex.org/W2053089930",
+    "https://openalex.org/W2055015510",
+    "https://openalex.org/W2058680446",
+    "https://openalex.org/W2061238471",
+    "https://openalex.org/W2065375982",
+    "https://openalex.org/W2072657606",
+    "https://openalex.org/W2073828630",
+    "https://openalex.org/W2078771875",
+    "https://openalex.org/W2080241209",
+    "https://openalex.org/W2082876349",
+    "https://openalex.org/W2087044337",
+    "https://openalex.org/W2089721611",
+    "https://openalex.org/W2092210527",
+    "https://openalex.org/W2094482985",
+    "https://openalex.org/W2097262289",
+    "https://openalex.org/W2106717024",
+    "https://openalex.org/W2112916976",
+    "https://openalex.org/W2114496307",
+    "https://openalex.org/W2119363047",
+    "https://openalex.org/W2121341879",
+    "https://openalex.org/W2121876008",
+    "https://openalex.org/W2122507575",
+    "https://openalex.org/W2122908584",
+    "https://openalex.org/W2128830532",
+    "https://openalex.org/W2130507182",
+    "https://openalex.org/W2136350449",
+    "https://openalex.org/W2140160751",
+    "https://openalex.org/W2141433061",
+    "https://openalex.org/W2149506120",
+    "https://openalex.org/W2155626008",
+    "https://openalex.org/W2162313395",
+    "https://openalex.org/W2171135124",
+    "https://openalex.org/W2209631778",
+    "https://openalex.org/W2320349682",
+    "https://openalex.org/W2384428517",
+    "https://openalex.org/W2415052722",
+    "https://openalex.org/W31179300",
+    "https://openalex.org/W3119812087"
+  ],
+  "related_works": [
+    "https://openalex.org/W4313343846",
+    "https://openalex.org/W3161740897",
+    "https://openalex.org/W3030604028",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2467134743",
+    "https://openalex.org/W2462693509",
+    "https://openalex.org/W2417281989",
+    "https://openalex.org/W2413198172",
+    "https://openalex.org/W2031832332",
+    "https://openalex.org/W1817178456"
+  ],
+  "abstract_inverted_index": {
+    "Evidence": [
+      0
+    ],
+    "is": [
+      1
+    ],
+    "accumulating": [
+      2
+    ],
+    "that": [
+      3
+    ],
+    "the": [
+      4,
+      23,
+      52,
+      58
+    ],
+    "skin": [
+      5,
+      14,
+      59
+    ],
+    "can": [
+      6
+    ],
+    "serve": [
+      7
+    ],
+    "as": [
+      8
+    ],
+    "a": [
+      9
+    ],
+    "peripheral": [
+      10
+    ],
+    "neuroendocrine": [
+      11,
+      15
+    ],
+    "organ.": [
+      12
+    ],
+    "The": [
+      13
+    ],
+    "activities": [
+      16
+    ],
+    "are": [
+      17,
+      32
+    ],
+    "predominantly": [
+      18
+    ],
+    "independent": [
+      19
+    ],
+    "of": [
+      20,
+      54
+    ],
+    "regulation": [
+      21
+    ],
+    "from": [
+      22
+    ],
+    "central": [
+      24
+    ],
+    "level": [
+      25
+    ],
+    "(which": [
+      26
+    ],
+    "controls": [
+      27
+    ],
+    "classical": [
+      28
+    ],
+    "hormone": [
+      29
+    ],
+    "secretion)": [
+      30
+    ],
+    "but": [
+      31
+    ],
+    "rather": [
+      33
+    ],
+    "regulated": [
+      34
+    ],
+    "by": [
+      35
+    ],
+    "local": [
+      36,
+      62
+    ],
+    "cutaneous": [
+      37
+    ],
+    "factors.": [
+      38
+    ],
+    "These": [
+      39
+    ],
+    "endocrine": [
+      40
+    ],
+    "factors": [
+      41
+    ],
+    "would": [
+      42
+    ],
+    "represent": [
+      43
+    ],
+    "an": [
+      44
+    ],
+    "exquisite": [
+      45
+    ],
+    "regulatory": [
+      46
+    ],
+    "layer": [
+      47
+    ],
+    "addressed": [
+      48
+    ],
+    "at": [
+      49
+    ],
+    "restricting": [
+      50
+    ],
+    "maximally": [
+      51
+    ],
+    "effect": [
+      53
+    ],
+    "noxious": [
+      55
+    ],
+    "agents": [
+      56
+    ],
+    "in": [
+      57
+    ],
+    "to": [
+      60
+    ],
+    "preserve": [
+      61
+    ],
+    "and": [
+      63
+    ],
+    "consequently": [
+      64
+    ],
+    "global": [
+      65
+    ],
+    "homeostasis.": [
+      66
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2058147201",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 12
+    }
+  ],
+  "updated_date": "2025-05-16T00:55:48.818215",
+  "created_date": "2016-06-24"
+}

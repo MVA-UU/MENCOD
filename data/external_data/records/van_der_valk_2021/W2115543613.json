@@ -1,0 +1,841 @@
+{
+  "id": "https://openalex.org/W2115543613",
+  "doi": "https://doi.org/10.1210/jcem-35-1-126",
+  "title": "Mathematical Studies of the Human Menstrual Cycle. I. Formulation of a Mathematical Model<sup>1</sup>",
+  "display_name": "Mathematical Studies of the Human Menstrual Cycle. I. Formulation of a Mathematical Model<sup>1</sup>",
+  "publication_year": 1972,
+  "publication_date": "1972-07-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2115543613",
+    "doi": "https://doi.org/10.1210/jcem-35-1-126",
+    "mag": "2115543613",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/5064156"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1210/jcem-35-1-126",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S205775358",
+      "display_name": "The Journal of Clinical Endocrinology & Metabolism",
+      "issn_l": "0021-972X",
+      "issn": [
+        "0021-972X",
+        "1945-7197"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5082803572",
+        "display_name": "R. J. BOGUMIL",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210104618",
+          "display_name": "Institute for Human Reproduction",
+          "ror": "https://ror.org/027jqx654",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210104618"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. J. BOGUMIL",
+      "raw_affiliation_strings": [
+        "Bioengineering Committee, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+        "Department of Obstetrics and Gynecology, College of Physicians and Surgeons, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+        "International Institute for the Study of Human Reproduction, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioengineering Committee, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "International Institute for the Study of Human Reproduction, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I4210104618",
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Obstetrics and Gynecology, College of Physicians and Surgeons, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077860966",
+        "display_name": "Michel Ferin",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210104618",
+          "display_name": "Institute for Human Reproduction",
+          "ror": "https://ror.org/027jqx654",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210104618"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M. FERIN",
+      "raw_affiliation_strings": [
+        "Bioengineering Committee, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+        "Department of Obstetrics and Gynecology, College of Physicians and Surgeons, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+        "International Institute for the Study of Human Reproduction, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioengineering Committee, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "International Institute for the Study of Human Reproduction, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I4210104618",
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Obstetrics and Gynecology, College of Physicians and Surgeons, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026992580",
+        "display_name": "J. ROOTENBERG",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210104618",
+          "display_name": "Institute for Human Reproduction",
+          "ror": "https://ror.org/027jqx654",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210104618"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. ROOTENBERG",
+      "raw_affiliation_strings": [
+        "Bioengineering Committee, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+        "Department of Obstetrics and Gynecology, College of Physicians and Surgeons, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+        "International Institute for the Study of Human Reproduction, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioengineering Committee, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "International Institute for the Study of Human Reproduction, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I4210104618",
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Obstetrics and Gynecology, College of Physicians and Surgeons, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028401969",
+        "display_name": "Leon Speroff",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210104618",
+          "display_name": "Institute for Human Reproduction",
+          "ror": "https://ror.org/027jqx654",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210104618"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "L. SPEROFF",
+      "raw_affiliation_strings": [
+        "Bioengineering Committee, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+        "Department of Obstetrics and Gynecology, College of Physicians and Surgeons, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+        "International Institute for the Study of Human Reproduction, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioengineering Committee, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "International Institute for the Study of Human Reproduction, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I4210104618",
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Obstetrics and Gynecology, College of Physicians and Surgeons, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5017375633",
+        "display_name": "Raymond L. Vande Wiele",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210104618",
+          "display_name": "Institute for Human Reproduction",
+          "ror": "https://ror.org/027jqx654",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210104618"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. L. VANDE WIELE",
+      "raw_affiliation_strings": [
+        "Bioengineering Committee, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+        "Department of Obstetrics and Gynecology, College of Physicians and Surgeons, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+        "International Institute for the Study of Human Reproduction, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bioengineering Committee, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "International Institute for the Study of Human Reproduction, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I4210104618",
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Obstetrics and Gynecology, College of Physicians and Surgeons, School of Engineering and Applied Science, Columbia University New York, N.Y. 10032",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.023,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 63,
+  "citation_normalized_percentile": {
+    "value": 0.969393,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "35",
+    "issue": "1",
+    "first_page": "126",
+    "last_page": "143"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10748",
+    "display_name": "Growth Hormone and Insulin-like Growth Factors",
+    "score": 0.2838,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2712",
+      "display_name": "Endocrinology, Diabetes and Metabolism"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10748",
+      "display_name": "Growth Hormone and Insulin-like Growth Factors",
+      "score": 0.2838,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779058012",
+      "wikidata": "https://www.wikidata.org/wiki/Q83864",
+      "display_name": "Menstrual cycle",
+      "level": 3,
+      "score": 0.7071812
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.59049094
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.54013777
+    },
+    {
+      "id": "https://openalex.org/C76969082",
+      "wikidata": "https://www.wikidata.org/wiki/Q486902",
+      "display_name": "Mathematical model",
+      "level": 2,
+      "score": 0.48599538
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.31979254
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.13897786
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.12358254
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.08074126
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D008433",
+      "descriptor_name": "Mathematics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008598",
+      "descriptor_name": "Menstruation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008954",
+      "descriptor_name": "Models, Biological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000728",
+      "descriptor_name": "Androgens",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000728",
+      "descriptor_name": "Androgens",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003201",
+      "descriptor_name": "Computers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003338",
+      "descriptor_name": "Corpus Luteum",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003338",
+      "descriptor_name": "Corpus Luteum",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005246",
+      "descriptor_name": "Feedback",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005640",
+      "descriptor_name": "Follicle Stimulating Hormone",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005640",
+      "descriptor_name": "Follicle Stimulating Hormone",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005640",
+      "descriptor_name": "Follicle Stimulating Hormone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007986",
+      "descriptor_name": "Luteinizing Hormone",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007986",
+      "descriptor_name": "Luteinizing Hormone",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007986",
+      "descriptor_name": "Luteinizing Hormone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006080",
+      "descriptor_name": "Ovarian Follicle",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006080",
+      "descriptor_name": "Ovarian Follicle",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011374",
+      "descriptor_name": "Progesterone",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011374",
+      "descriptor_name": "Progesterone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1210/jcem-35-1-126",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S205775358",
+        "display_name": "The Journal of Clinical Endocrinology & Metabolism",
+        "issn_l": "0021-972X",
+        "issn": [
+          "0021-972X",
+          "1945-7197"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/5064156",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 1,
+  "referenced_works": [
+    "https://openalex.org/W2318143411"
+  ],
+  "related_works": [
+    "https://openalex.org/W4249176446",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2132898409",
+    "https://openalex.org/W2040058909",
+    "https://openalex.org/W2037631372",
+    "https://openalex.org/W2030889776",
+    "https://openalex.org/W1991560548",
+    "https://openalex.org/W1979139803",
+    "https://openalex.org/W1966775726",
+    "https://openalex.org/W1966504330"
+  ],
+  "abstract_inverted_index": {
+    "Thirty-four": [
+      0
+    ],
+    "equations": [
+      1
+    ],
+    "are": [
+      2
+    ],
+    "presented": [
+      3
+    ],
+    "which": [
+      4
+    ],
+    "describe": [
+      5
+    ],
+    "in": [
+      6
+    ],
+    "a": [
+      7
+    ],
+    "qualitative": [
+      8
+    ],
+    "and": [
+      9,
+      14
+    ],
+    "quantitative": [
+      10
+    ],
+    "fashion": [
+      11
+    ],
+    "the": [
+      12,
+      18
+    ],
+    "hormonal": [
+      13
+    ],
+    "morphological": [
+      15
+    ],
+    "components": [
+      16
+    ],
+    "of": [
+      17
+    ],
+    "human": [
+      19
+    ],
+    "menstrual": [
+      20
+    ],
+    "cycle.": [
+      21
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2115543613",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-04-17T18:39:46.543220",
+  "created_date": "2016-06-24"
+}

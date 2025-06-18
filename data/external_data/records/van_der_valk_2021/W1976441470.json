@@ -1,0 +1,875 @@
+{
+  "id": "https://openalex.org/W1976441470",
+  "doi": "https://doi.org/10.1080/00273171.2014.962683",
+  "title": "An Index and Test of Linear Moderated Mediation",
+  "display_name": "An Index and Test of Linear Moderated Mediation",
+  "publication_year": 2015,
+  "publication_date": "2015-01-02",
+  "ids": {
+    "openalex": "https://openalex.org/W1976441470",
+    "doi": "https://doi.org/10.1080/00273171.2014.962683",
+    "mag": "1976441470",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/26609740"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1080/00273171.2014.962683",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S64250036",
+      "display_name": "Multivariate Behavioral Research",
+      "issn_l": "0027-3171",
+      "issn": [
+        "0027-3171",
+        "1532-7906"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5075890029",
+        "display_name": "Andrew F. Hayes",
+        "orcid": "https://orcid.org/0000-0002-8329-1696"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I52357470",
+          "display_name": "The Ohio State University",
+          "ror": "https://ror.org/00rs6vg23",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I52357470"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Andrew F. Hayes",
+      "raw_affiliation_strings": [
+        "a Department of Psychology , The Ohio State University."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "a Department of Psychology , The Ohio State University.",
+          "institution_ids": [
+            "https://openalex.org/I52357470"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5075890029"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I52357470"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 154.855,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 3218,
+  "citation_normalized_percentile": {
+    "value": 0.999829,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "50",
+    "issue": "1",
+    "first_page": "1",
+    "last_page": "22"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10845",
+    "display_name": "Advanced Causal Inference Techniques",
+    "score": 0.9794,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10845",
+      "display_name": "Advanced Causal Inference Techniques",
+      "score": 0.9794,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.9507,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/moderation",
+      "display_name": "Moderation",
+      "score": 0.83886886
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C93225998",
+      "wikidata": "https://www.wikidata.org/wiki/Q1941972",
+      "display_name": "Moderation",
+      "level": 2,
+      "score": 0.83886886
+    },
+    {
+      "id": "https://openalex.org/C179420905",
+      "wikidata": "https://www.wikidata.org/wiki/Q223871",
+      "display_name": "Mediation",
+      "level": 2,
+      "score": 0.68149227
+    },
+    {
+      "id": "https://openalex.org/C82793941",
+      "wikidata": "https://www.wikidata.org/wiki/Q1046024",
+      "display_name": "Path analysis (statistics)",
+      "level": 2,
+      "score": 0.5240386
+    },
+    {
+      "id": "https://openalex.org/C177148314",
+      "wikidata": "https://www.wikidata.org/wiki/Q170084",
+      "display_name": "Generalization",
+      "level": 2,
+      "score": 0.44965434
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.4492034
+    },
+    {
+      "id": "https://openalex.org/C2777382242",
+      "wikidata": "https://www.wikidata.org/wiki/Q6017816",
+      "display_name": "Index (typography)",
+      "level": 2,
+      "score": 0.4456914
+    },
+    {
+      "id": "https://openalex.org/C71104824",
+      "wikidata": "https://www.wikidata.org/wiki/Q1476639",
+      "display_name": "Structural equation modeling",
+      "level": 2,
+      "score": 0.44079882
+    },
+    {
+      "id": "https://openalex.org/C2777267654",
+      "wikidata": "https://www.wikidata.org/wiki/Q3519023",
+      "display_name": "Test (biology)",
+      "level": 2,
+      "score": 0.4359939
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.42798662
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.38512194
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.37180752
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.32320693
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C136764020",
+      "wikidata": "https://www.wikidata.org/wiki/Q466",
+      "display_name": "World Wide Web",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D015233",
+      "descriptor_name": "Models, Statistical",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015999",
+      "descriptor_name": "Multivariate Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008960",
+      "descriptor_name": "Models, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/00273171.2014.962683",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S64250036",
+        "display_name": "Multivariate Behavioral Research",
+        "issn_l": "0027-3171",
+        "issn": [
+          "0027-3171",
+          "1532-7906"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/26609740",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Peace, justice, and strong institutions",
+      "score": 0.44,
+      "id": "https://metadata.un.org/sdg/16"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 66,
+  "referenced_works": [
+    "https://openalex.org/W1591616917",
+    "https://openalex.org/W1640894779",
+    "https://openalex.org/W1831850008",
+    "https://openalex.org/W1849190772",
+    "https://openalex.org/W1963883722",
+    "https://openalex.org/W1971380510",
+    "https://openalex.org/W1971440513",
+    "https://openalex.org/W1976477616",
+    "https://openalex.org/W1976876708",
+    "https://openalex.org/W1987298771",
+    "https://openalex.org/W1988221738",
+    "https://openalex.org/W1992036396",
+    "https://openalex.org/W2002540448",
+    "https://openalex.org/W2005441291",
+    "https://openalex.org/W2008992734",
+    "https://openalex.org/W2014312666",
+    "https://openalex.org/W2018798419",
+    "https://openalex.org/W2019758655",
+    "https://openalex.org/W2022283554",
+    "https://openalex.org/W2027454190",
+    "https://openalex.org/W2038087178",
+    "https://openalex.org/W2046284411",
+    "https://openalex.org/W2047142410",
+    "https://openalex.org/W2047503249",
+    "https://openalex.org/W2050417399",
+    "https://openalex.org/W2050831936",
+    "https://openalex.org/W2062158071",
+    "https://openalex.org/W2065742782",
+    "https://openalex.org/W2073279551",
+    "https://openalex.org/W2074932610",
+    "https://openalex.org/W2074977348",
+    "https://openalex.org/W2092953046",
+    "https://openalex.org/W2095669001",
+    "https://openalex.org/W2104057213",
+    "https://openalex.org/W2104411852",
+    "https://openalex.org/W2112284812",
+    "https://openalex.org/W2113168655",
+    "https://openalex.org/W2115217290",
+    "https://openalex.org/W2118940666",
+    "https://openalex.org/W2119963803",
+    "https://openalex.org/W2125843590",
+    "https://openalex.org/W2126158646",
+    "https://openalex.org/W2126728600",
+    "https://openalex.org/W2129484434",
+    "https://openalex.org/W2129951714",
+    "https://openalex.org/W2130663341",
+    "https://openalex.org/W2131568786",
+    "https://openalex.org/W2132739460",
+    "https://openalex.org/W2141791757",
+    "https://openalex.org/W2148233813",
+    "https://openalex.org/W2153739619",
+    "https://openalex.org/W2155387661",
+    "https://openalex.org/W2158056247",
+    "https://openalex.org/W2162219509",
+    "https://openalex.org/W2333719312",
+    "https://openalex.org/W2335391067",
+    "https://openalex.org/W2797247465",
+    "https://openalex.org/W2908457798",
+    "https://openalex.org/W2918013678",
+    "https://openalex.org/W4212838134",
+    "https://openalex.org/W4237961478",
+    "https://openalex.org/W4244531155",
+    "https://openalex.org/W4254045072",
+    "https://openalex.org/W4254761125",
+    "https://openalex.org/W4292811746",
+    "https://openalex.org/W4306657257"
+  ],
+  "related_works": [
+    "https://openalex.org/W4390166273",
+    "https://openalex.org/W4353084193",
+    "https://openalex.org/W4243729035",
+    "https://openalex.org/W4205132839",
+    "https://openalex.org/W3200933856",
+    "https://openalex.org/W2904207898",
+    "https://openalex.org/W2344264974",
+    "https://openalex.org/W2146332347",
+    "https://openalex.org/W2073279551",
+    "https://openalex.org/W1976243873"
+  ],
+  "abstract_inverted_index": {
+    "I": [
+      0,
+      33
+    ],
+    "describe": [
+      1,
+      119
+    ],
+    "a": [
+      2,
+      20,
+      29
+    ],
+    "test": [
+      3,
+      41
+    ],
+    "of": [
+      4,
+      16,
+      19,
+      28,
+      37,
+      69,
+      92,
+      107,
+      122
+    ],
+    "linear": [
+      5
+    ],
+    "moderated": [
+      6,
+      38
+    ],
+    "mediation": [
+      7,
+      51
+    ],
+    "in": [
+      8,
+      52,
+      101,
+      104
+    ],
+    "path": [
+      9
+    ],
+    "analysis": [
+      10
+    ],
+    "based": [
+      11
+    ],
+    "on": [
+      12
+    ],
+    "an": [
+      13
+    ],
+    "interval": [
+      14
+    ],
+    "estimate": [
+      15
+    ],
+    "the": [
+      17,
+      23,
+      35,
+      54,
+      57,
+      61,
+      70,
+      108,
+      120,
+      123,
+      126,
+      136
+    ],
+    "parameter": [
+      18,
+      31
+    ],
+    "function": [
+      21
+    ],
+    "linking": [
+      22
+    ],
+    "indirect": [
+      24,
+      58
+    ],
+    "effect": [
+      25,
+      59
+    ],
+    "to": [
+      26,
+      95,
+      110
+    ],
+    "values": [
+      27
+    ],
+    "moderator-a": [
+      30
+    ],
+    "that": [
+      32,
+      47
+    ],
+    "call": [
+      34
+    ],
+    "index": [
+      36,
+      124
+    ],
+    "mediation.": [
+      39
+    ],
+    "This": [
+      40
+    ],
+    "can": [
+      42
+    ],
+    "be": [
+      43
+    ],
+    "used": [
+      44
+    ],
+    "for": [
+      45,
+      139
+    ],
+    "models": [
+      46,
+      71,
+      94,
+      113
+    ],
+    "integrate": [
+      48
+    ],
+    "moderation": [
+      49
+    ],
+    "and": [
+      50,
+      60,
+      75,
+      80,
+      83,
+      125,
+      128,
+      135,
+      141
+    ],
+    "which": [
+      53
+    ],
+    "relationship": [
+      55
+    ],
+    "between": [
+      56
+    ],
+    "moderator": [
+      62
+    ],
+    "is": [
+      63,
+      114,
+      131
+    ],
+    "estimated": [
+      64
+    ],
+    "as": [
+      65,
+      88,
+      90
+    ],
+    "linear,": [
+      66
+    ],
+    "including": [
+      67
+    ],
+    "many": [
+      68
+    ],
+    "described": [
+      72
+    ],
+    "by": [
+      73
+    ],
+    "Edwards": [
+      74
+    ],
+    "Lambert": [
+      76
+    ],
+    "(": [
+      77,
+      85
+    ],
+    "2007": [
+      78,
+      86
+    ],
+    ")": [
+      79,
+      87
+    ],
+    "Preacher,": [
+      81
+    ],
+    "Rucker,": [
+      82
+    ],
+    "Hayes": [
+      84
+    ],
+    "well": [
+      89
+    ],
+    "extensions": [
+      91
+    ],
+    "these": [
+      93
+    ],
+    "processes": [
+      96
+    ],
+    "involving": [
+      97
+    ],
+    "multiple": [
+      98
+    ],
+    "mediators": [
+      99
+    ],
+    "operating": [
+      100
+    ],
+    "parallel": [
+      102
+    ],
+    "or": [
+      103
+    ],
+    "serial.": [
+      105
+    ],
+    "Generalization": [
+      106
+    ],
+    "method": [
+      109
+    ],
+    "latent": [
+      111
+    ],
+    "variable": [
+      112
+    ],
+    "straightforward.": [
+      115
+    ],
+    "Three": [
+      116
+    ],
+    "empirical": [
+      117
+    ],
+    "examples": [
+      118
+    ],
+    "computation": [
+      121
+    ],
+    "test,": [
+      127
+    ],
+    "its": [
+      129
+    ],
+    "implementation": [
+      130
+    ],
+    "illustrated": [
+      132
+    ],
+    "using": [
+      133
+    ],
+    "Mplus": [
+      134
+    ],
+    "PROCESS": [
+      137
+    ],
+    "macro": [
+      138
+    ],
+    "SPSS": [
+      140
+    ],
+    "SAS.": [
+      142
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1976441470",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 163
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 384
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 410
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 461
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 412
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 364
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 319
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 265
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 209
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 162
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 50
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-08T01:32:28.978575",
+  "created_date": "2016-06-24"
+}

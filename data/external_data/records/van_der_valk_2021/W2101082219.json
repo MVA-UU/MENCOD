@@ -1,0 +1,1604 @@
+{
+  "id": "https://openalex.org/W2101082219",
+  "doi": "https://doi.org/10.1083/jcb.131.4.1095",
+  "title": "Glucocorticoid and progesterone inhibit involution and programmed cell death in the mouse mammary gland.",
+  "display_name": "Glucocorticoid and progesterone inhibit involution and programmed cell death in the mouse mammary gland.",
+  "publication_year": 1995,
+  "publication_date": "1995-11-15",
+  "ids": {
+    "openalex": "https://openalex.org/W2101082219",
+    "doi": "https://doi.org/10.1083/jcb.131.4.1095",
+    "mag": "2101082219",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/7490285",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2200011"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1083/jcb.131.4.1095",
+    "pdf_url": "https://rupress.org/jcb/article-pdf/131/4/1095/1265228/1095.pdf",
+    "source": {
+      "id": "https://openalex.org/S96410829",
+      "display_name": "The Journal of Cell Biology",
+      "issn_l": "0021-9525",
+      "issn": [
+        "0021-9525",
+        "1540-8140"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315676",
+      "host_organization_name": "Rockefeller University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315676"
+      ],
+      "host_organization_lineage_names": [
+        "Rockefeller University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://rupress.org/jcb/article-pdf/131/4/1095/1265228/1095.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5076924374",
+        "display_name": "Zhiwei Feng",
+        "orcid": "https://orcid.org/0000-0001-6533-8932"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118564535",
+          "display_name": "University of Bern",
+          "ror": "https://ror.org/02k7v4d05",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Z Feng",
+      "raw_affiliation_strings": [
+        "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland.",
+          "institution_ids": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036217163",
+        "display_name": "Andreas Marti",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118564535",
+          "display_name": "University of Bern",
+          "ror": "https://ror.org/02k7v4d05",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A Marti",
+      "raw_affiliation_strings": [
+        "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland.",
+          "institution_ids": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000879696",
+        "display_name": "Birgit Jehn",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118564535",
+          "display_name": "University of Bern",
+          "ror": "https://ror.org/02k7v4d05",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "B Jehn",
+      "raw_affiliation_strings": [
+        "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland.",
+          "institution_ids": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111614544",
+        "display_name": "H. J. Altermatt",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118564535",
+          "display_name": "University of Bern",
+          "ror": "https://ror.org/02k7v4d05",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "H J Altermatt",
+      "raw_affiliation_strings": [
+        "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland.",
+          "institution_ids": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041851026",
+        "display_name": "G Chicaiza",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118564535",
+          "display_name": "University of Bern",
+          "ror": "https://ror.org/02k7v4d05",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G Chicaiza",
+      "raw_affiliation_strings": [
+        "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland.",
+          "institution_ids": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5041438085",
+        "display_name": "Rolf Jaggi",
+        "orcid": "https://orcid.org/0000-0002-5975-9607"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I118564535",
+          "display_name": "University of Bern",
+          "ror": "https://ror.org/02k7v4d05",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R Jaggi",
+      "raw_affiliation_strings": [
+        "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory for Clinical and Experimental Research, University of Bern, Switzerland.",
+          "institution_ids": [
+            "https://openalex.org/I118564535"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.388,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 239,
+  "citation_normalized_percentile": {
+    "value": 0.955222,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "131",
+    "issue": "4",
+    "first_page": "1095",
+    "last_page": "1103"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13199",
+    "display_name": "Digestive system and related health",
+    "score": 0.9985,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1311",
+      "display_name": "Genetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13199",
+      "display_name": "Digestive system and related health",
+      "score": 0.9985,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10756",
+      "display_name": "Estrogen and related hormone effects",
+      "score": 0.9949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10336",
+      "display_name": "Cancer Cells and Metastasis",
+      "score": 0.9869,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/involution",
+      "display_name": "Involution (esoterism)",
+      "score": 0.86297137
+    },
+    {
+      "id": "https://openalex.org/keywords/antiglucocorticoid",
+      "display_name": "Antiglucocorticoid",
+      "score": 0.5243481
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2781409172",
+      "wikidata": "https://www.wikidata.org/wiki/Q17056802",
+      "display_name": "Involution (esoterism)",
+      "level": 3,
+      "score": 0.86297137
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.8242594
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.79891706
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.76584774
+    },
+    {
+      "id": "https://openalex.org/C2779064019",
+      "wikidata": "https://www.wikidata.org/wiki/Q66590068",
+      "display_name": "Prolactin",
+      "level": 3,
+      "score": 0.70524824
+    },
+    {
+      "id": "https://openalex.org/C2776659692",
+      "wikidata": "https://www.wikidata.org/wiki/Q719426",
+      "display_name": "Lactation",
+      "level": 3,
+      "score": 0.70524466
+    },
+    {
+      "id": "https://openalex.org/C2778001805",
+      "wikidata": "https://www.wikidata.org/wiki/Q189961",
+      "display_name": "Mammary gland",
+      "level": 4,
+      "score": 0.64373076
+    },
+    {
+      "id": "https://openalex.org/C2780841215",
+      "wikidata": "https://www.wikidata.org/wiki/Q422549",
+      "display_name": "Glucocorticoid",
+      "level": 2,
+      "score": 0.61899006
+    },
+    {
+      "id": "https://openalex.org/C31573885",
+      "wikidata": "https://www.wikidata.org/wiki/Q304484",
+      "display_name": "Programmed cell death",
+      "level": 3,
+      "score": 0.5568258
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.54442745
+    },
+    {
+      "id": "https://openalex.org/C2780004078",
+      "wikidata": "https://www.wikidata.org/wiki/Q4774743",
+      "display_name": "Antiglucocorticoid",
+      "level": 4,
+      "score": 0.5243481
+    },
+    {
+      "id": "https://openalex.org/C59493245",
+      "wikidata": "https://www.wikidata.org/wiki/Q14877410",
+      "display_name": "Glucocorticoid receptor",
+      "level": 3,
+      "score": 0.36547947
+    },
+    {
+      "id": "https://openalex.org/C190283241",
+      "wikidata": "https://www.wikidata.org/wiki/Q14599311",
+      "display_name": "Apoptosis",
+      "level": 2,
+      "score": 0.22748578
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.07169044
+    },
+    {
+      "id": "https://openalex.org/C2779234561",
+      "wikidata": "https://www.wikidata.org/wiki/Q11995",
+      "display_name": "Pregnancy",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C186720457",
+      "wikidata": "https://www.wikidata.org/wiki/Q7087",
+      "display_name": "Consciousness",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121608353",
+      "wikidata": "https://www.wikidata.org/wiki/Q12078",
+      "display_name": "Cancer",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C530470458",
+      "wikidata": "https://www.wikidata.org/wiki/Q128581",
+      "display_name": "Breast cancer",
+      "level": 3,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D017209",
+      "descriptor_name": "Apoptosis",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008321",
+      "descriptor_name": "Mammary Glands, Animal",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018832",
+      "descriptor_name": "Molecular Chaperones",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011374",
+      "descriptor_name": "Progesterone",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017209",
+      "descriptor_name": "Apoptosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001483",
+      "descriptor_name": "Base Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051152",
+      "descriptor_name": "Clusterin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003169",
+      "descriptor_name": "Complement Inactivator Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003169",
+      "descriptor_name": "Complement Inactivator Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003907",
+      "descriptor_name": "Dexamethasone",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003907",
+      "descriptor_name": "Dexamethasone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004702",
+      "descriptor_name": "Endocrine Glands",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004702",
+      "descriptor_name": "Endocrine Glands",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004847",
+      "descriptor_name": "Epithelial Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016758",
+      "descriptor_name": "Genes, jun",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016758",
+      "descriptor_name": "Genes, jun",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006023",
+      "descriptor_name": "Glycoproteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006023",
+      "descriptor_name": "Glycoproteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008321",
+      "descriptor_name": "Mammary Glands, Animal",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008321",
+      "descriptor_name": "Mammary Glands, Animal",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019278",
+      "descriptor_name": "Matrix Metalloproteinase 3",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008666",
+      "descriptor_name": "Metalloendopeptidases",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008666",
+      "descriptor_name": "Metalloendopeptidases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008815",
+      "descriptor_name": "Mice, Inbred Strains",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009363",
+      "descriptor_name": "Neoplasm Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009363",
+      "descriptor_name": "Neoplasm Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011374",
+      "descriptor_name": "Progesterone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018808",
+      "descriptor_name": "Transcription Factor AP-1",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018808",
+      "descriptor_name": "Transcription Factor AP-1",
+      "qualifier_ui": "Q000037",
+      "qualifier_name": "antagonists & inhibitors",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1083/jcb.131.4.1095",
+      "pdf_url": "https://rupress.org/jcb/article-pdf/131/4/1095/1265228/1095.pdf",
+      "source": {
+        "id": "https://openalex.org/S96410829",
+        "display_name": "The Journal of Cell Biology",
+        "issn_l": "0021-9525",
+        "issn": [
+          "0021-9525",
+          "1540-8140"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315676",
+        "host_organization_name": "Rockefeller University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315676"
+        ],
+        "host_organization_lineage_names": [
+          "Rockefeller University Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc2200011",
+      "pdf_url": "https://europepmc.org/articles/pmc2200011?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2200011",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/7490285",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1083/jcb.131.4.1095",
+    "pdf_url": "https://rupress.org/jcb/article-pdf/131/4/1095/1265228/1095.pdf",
+    "source": {
+      "id": "https://openalex.org/S96410829",
+      "display_name": "The Journal of Cell Biology",
+      "issn_l": "0021-9525",
+      "issn": [
+        "0021-9525",
+        "1540-8140"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315676",
+      "host_organization_name": "Rockefeller University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315676"
+      ],
+      "host_organization_lineage_names": [
+        "Rockefeller University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.84
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 56,
+  "referenced_works": [
+    "https://openalex.org/W1500101213",
+    "https://openalex.org/W1500909579",
+    "https://openalex.org/W1507316747",
+    "https://openalex.org/W1527082041",
+    "https://openalex.org/W1538902372",
+    "https://openalex.org/W1543126301",
+    "https://openalex.org/W1672583421",
+    "https://openalex.org/W1837711156",
+    "https://openalex.org/W1892136299",
+    "https://openalex.org/W189387644",
+    "https://openalex.org/W191827706",
+    "https://openalex.org/W1968262678",
+    "https://openalex.org/W1968800299",
+    "https://openalex.org/W1971624992",
+    "https://openalex.org/W1976245365",
+    "https://openalex.org/W1980722886",
+    "https://openalex.org/W1987453246",
+    "https://openalex.org/W1987557547",
+    "https://openalex.org/W1989963027",
+    "https://openalex.org/W2002992087",
+    "https://openalex.org/W2005647099",
+    "https://openalex.org/W2014651848",
+    "https://openalex.org/W2019328934",
+    "https://openalex.org/W2021253208",
+    "https://openalex.org/W2023666553",
+    "https://openalex.org/W2035648934",
+    "https://openalex.org/W2057906946",
+    "https://openalex.org/W2059460020",
+    "https://openalex.org/W2065423329",
+    "https://openalex.org/W2070341388",
+    "https://openalex.org/W2073415946",
+    "https://openalex.org/W2084223366",
+    "https://openalex.org/W2094872845",
+    "https://openalex.org/W2096773962",
+    "https://openalex.org/W2097483036",
+    "https://openalex.org/W2103468507",
+    "https://openalex.org/W2122951187",
+    "https://openalex.org/W2134812217",
+    "https://openalex.org/W2138302361",
+    "https://openalex.org/W2138556363",
+    "https://openalex.org/W2153385508",
+    "https://openalex.org/W2159110682",
+    "https://openalex.org/W2197316737",
+    "https://openalex.org/W227580377",
+    "https://openalex.org/W2396727511",
+    "https://openalex.org/W2404530549",
+    "https://openalex.org/W2406649955",
+    "https://openalex.org/W2409486981",
+    "https://openalex.org/W2411428015",
+    "https://openalex.org/W2411459473",
+    "https://openalex.org/W241168973",
+    "https://openalex.org/W2417732733",
+    "https://openalex.org/W2419215310",
+    "https://openalex.org/W2438525510",
+    "https://openalex.org/W244549403",
+    "https://openalex.org/W4251018663"
+  ],
+  "related_works": [
+    "https://openalex.org/W4249418443",
+    "https://openalex.org/W2124988877",
+    "https://openalex.org/W2119824100",
+    "https://openalex.org/W2103452136",
+    "https://openalex.org/W2085694727",
+    "https://openalex.org/W2030194160",
+    "https://openalex.org/W1848358197",
+    "https://openalex.org/W1586414377",
+    "https://openalex.org/W1566049427",
+    "https://openalex.org/W1429880791"
+  ],
+  "abstract_inverted_index": {
+    "Milk": [
+      0
+    ],
+    "production": [
+      1
+    ],
+    "during": [
+      2,
+      189
+    ],
+    "lactation": [
+      3
+    ],
+    "is": [
+      4,
+      38
+    ],
+    "a": [
+      5,
+      41,
+      75,
+      104,
+      123
+    ],
+    "consequence": [
+      6
+    ],
+    "of": [
+      7,
+      14,
+      48,
+      92,
+      95,
+      107,
+      112,
+      147,
+      158,
+      178,
+      220,
+      227
+    ],
+    "the": [
+      8,
+      12,
+      21,
+      36,
+      46,
+      54,
+      82,
+      85,
+      90,
+      93,
+      110,
+      139,
+      150,
+      202,
+      230,
+      239
+    ],
+    "suckling": [
+      9
+    ],
+    "stimulus": [
+      10
+    ],
+    "and": [
+      11,
+      17,
+      35,
+      51,
+      61,
+      89,
+      100,
+      114,
+      126,
+      133,
+      152,
+      166,
+      170,
+      184,
+      208,
+      223
+    ],
+    "presence": [
+      13
+    ],
+    "glucocorticoids,": [
+      15
+    ],
+    "prolactin,": [
+      16
+    ],
+    "insulin.": [
+      18
+    ],
+    "After": [
+      19
+    ],
+    "weaning": [
+      20
+    ],
+    "glucocorticoid": [
+      22,
+      128
+    ],
+    "hormone": [
+      23,
+      129,
+      206
+    ],
+    "level": [
+      24
+    ],
+    "drops,": [
+      25
+    ],
+    "secretory": [
+      26
+    ],
+    "mammary": [
+      27,
+      55,
+      77,
+      140,
+      231,
+      241
+    ],
+    "epithelial": [
+      28
+    ],
+    "cells": [
+      29,
+      213
+    ],
+    "die": [
+      30
+    ],
+    "by": [
+      31,
+      155
+    ],
+    "programmed": [
+      32,
+      63,
+      134,
+      235
+    ],
+    "cell": [
+      33,
+      64,
+      135,
+      236
+    ],
+    "death": [
+      34,
+      136,
+      237
+    ],
+    "gland": [
+      37,
+      56,
+      78,
+      232,
+      242
+    ],
+    "prepared": [
+      39
+    ],
+    "for": [
+      40
+    ],
+    "new": [
+      42
+    ],
+    "pregnancy.": [
+      43
+    ],
+    "We": [
+      44,
+      102
+    ],
+    "studied": [
+      45
+    ],
+    "role": [
+      47
+    ],
+    "steroid": [
+      49,
+      205
+    ],
+    "hormones": [
+      50,
+      71,
+      96
+    ],
+    "prolactin": [
+      52
+    ],
+    "on": [
+      53,
+      62,
+      244
+    ],
+    "structure,": [
+      57
+    ],
+    "milk": [
+      58,
+      148
+    ],
+    "protein": [
+      59,
+      159
+    ],
+    "synthesis,": [
+      60
+    ],
+    "death.": [
+      65
+    ],
+    "Slow-release": [
+      66
+    ],
+    "plastic": [
+      67
+    ],
+    "pellets": [
+      68,
+      116,
+      119
+    ],
+    "containing": [
+      69
+    ],
+    "individual": [
+      70
+    ],
+    "were": [
+      72,
+      87,
+      97,
+      120,
+      192
+    ],
+    "implanted": [
+      73
+    ],
+    "into": [
+      74
+    ],
+    "single": [
+      76
+    ],
+    "at": [
+      79
+    ],
+    "lactation.": [
+      80
+    ],
+    "At": [
+      81
+    ],
+    "same": [
+      83
+    ],
+    "time": [
+      84
+    ],
+    "pups": [
+      86
+    ],
+    "removed": [
+      88
+    ],
+    "consequences": [
+      91
+    ],
+    "release": [
+      94
+    ],
+    "investigated": [
+      98
+    ],
+    "histologically": [
+      99
+    ],
+    "biochemically.": [
+      101
+    ],
+    "found": [
+      103
+    ],
+    "local": [
+      105
+    ],
+    "inhibition": [
+      106,
+      226
+    ],
+    "involution": [
+      108,
+      132,
+      191,
+      228
+    ],
+    "in": [
+      109,
+      137,
+      149,
+      195,
+      212,
+      214,
+      229,
+      238
+    ],
+    "vicinity": [
+      111
+    ],
+    "deoxycorticosterone-": [
+      113
+    ],
+    "progesterone-release": [
+      115
+    ],
+    "while": [
+      117
+    ],
+    "prolactin-release": [
+      118
+    ],
+    "ineffective.": [
+      121
+    ],
+    "Dexamethasone,": [
+      122
+    ],
+    "very": [
+      124
+    ],
+    "stable": [
+      125
+    ],
+    "potent": [
+      127
+    ],
+    "analogue,": [
+      130
+    ],
+    "inhibited": [
+      131,
+      194
+    ],
+    "all": [
+      138
+    ],
+    "glands.": [
+      141
+    ],
+    "It": [
+      142
+    ],
+    "led": [
+      143
+    ],
+    "to": [
+      144,
+      217,
+      224
+    ],
+    "an": [
+      145,
+      156,
+      218,
+      225
+    ],
+    "accumulation": [
+      146
+    ],
+    "glands": [
+      151
+    ],
+    "was": [
+      153
+    ],
+    "accompanied": [
+      154
+    ],
+    "induction": [
+      157
+    ],
+    "kinase": [
+      160
+    ],
+    "A,": [
+      161
+    ],
+    "AP-1": [
+      162,
+      179,
+      209,
+      221
+    ],
+    "DNA": [
+      163
+    ],
+    "binding": [
+      164
+    ],
+    "activity": [
+      165,
+      222
+    ],
+    "elevated": [
+      167
+    ],
+    "c-fos,": [
+      168
+    ],
+    "junB,": [
+      169
+    ],
+    "junD": [
+      171
+    ],
+    "mRNA": [
+      172
+    ],
+    "levels.": [
+      173
+    ],
+    "Several": [
+      174
+    ],
+    "potential": [
+      175
+    ],
+    "target": [
+      176
+    ],
+    "genes": [
+      177
+    ],
+    "such": [
+      180
+    ],
+    "as": [
+      181
+    ],
+    "stromelysin-1,": [
+      182
+    ],
+    "c-jun,": [
+      183
+    ],
+    "SGP-2": [
+      185
+    ],
+    "that": [
+      186,
+      201,
+      234
+    ],
+    "are": [
+      187
+    ],
+    "induced": [
+      188
+    ],
+    "normal": [
+      190
+    ],
+    "strongly": [
+      193
+    ],
+    "dexamethasone-treated": [
+      196
+    ],
+    "animals.": [
+      197
+    ],
+    "Our": [
+      198
+    ],
+    "results": [
+      199
+    ],
+    "suggest": [
+      200
+    ],
+    "cross-talk": [
+      203
+    ],
+    "between": [
+      204
+    ],
+    "receptors": [
+      207
+    ],
+    "previously": [
+      210
+    ],
+    "described": [
+      211
+    ],
+    "culture": [
+      215
+    ],
+    "leads": [
+      216
+    ],
+    "impairment": [
+      219
+    ],
+    "implying": [
+      233
+    ],
+    "postlactational": [
+      240
+    ],
+    "depends": [
+      243
+    ],
+    "functional": [
+      245
+    ],
+    "AP-1.": [
+      246
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2101082219",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-05-20T13:32:25.937325",
+  "created_date": "2016-06-24"
+}

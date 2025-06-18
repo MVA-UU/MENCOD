@@ -1,0 +1,1333 @@
+{
+  "id": "https://openalex.org/W2114871301",
+  "doi": "https://doi.org/10.1136/thx.2004.024604",
+  "title": "Asthma exacerbations in children immediately following stressful life events: a Cox's hierarchical regression",
+  "display_name": "Asthma exacerbations in children immediately following stressful life events: a Cox's hierarchical regression",
+  "publication_year": 2004,
+  "publication_date": "2004-11-24",
+  "ids": {
+    "openalex": "https://openalex.org/W2114871301",
+    "doi": "https://doi.org/10.1136/thx.2004.024604",
+    "mag": "2114871301",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/15563703",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/1746895"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/thx.2004.024604",
+    "pdf_url": "https://thorax.bmj.com/content/thoraxjnl/59/12/1046.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S106546978",
+      "display_name": "Thorax",
+      "issn_l": "0040-6376",
+      "issn": [
+        "0040-6376",
+        "1468-3296"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://thorax.bmj.com/content/thoraxjnl/59/12/1046.full.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5111563630",
+        "display_name": "Seija Sandberg",
+        "orcid": "https://orcid.org/0009-0004-7901-2246"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "S Sandberg",
+      "raw_affiliation_strings": [
+        "University College London, London W1N 8AA, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University College London, London W1N 8AA, UK",
+          "institution_ids": [
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5111563630"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I45129253"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 6.148,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 154,
+  "citation_normalized_percentile": {
+    "value": 0.954966,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "59",
+    "issue": "12",
+    "first_page": "1046",
+    "last_page": "1051"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10051",
+    "display_name": "Asthma and respiratory diseases",
+    "score": 0.9996,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10051",
+      "display_name": "Asthma and respiratory diseases",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10182",
+      "display_name": "Child and Adolescent Psychosocial and Emotional Development",
+      "score": 0.9774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.8999468
+    },
+    {
+      "id": "https://openalex.org/C2776042228",
+      "wikidata": "https://www.wikidata.org/wiki/Q35869",
+      "display_name": "Asthma",
+      "level": 2,
+      "score": 0.8078167
+    },
+    {
+      "id": "https://openalex.org/C2777014857",
+      "wikidata": "https://www.wikidata.org/wiki/Q1383410",
+      "display_name": "Exacerbation",
+      "level": 2,
+      "score": 0.67155594
+    },
+    {
+      "id": "https://openalex.org/C44249647",
+      "wikidata": "https://www.wikidata.org/wiki/Q208498",
+      "display_name": "Confidence interval",
+      "level": 2,
+      "score": 0.6465862
+    },
+    {
+      "id": "https://openalex.org/C50382708",
+      "wikidata": "https://www.wikidata.org/wiki/Q223218",
+      "display_name": "Proportional hazards model",
+      "level": 2,
+      "score": 0.6375105
+    },
+    {
+      "id": "https://openalex.org/C188816634",
+      "wikidata": "https://www.wikidata.org/wiki/Q2113324",
+      "display_name": "Prospective cohort study",
+      "level": 2,
+      "score": 0.5589741
+    },
+    {
+      "id": "https://openalex.org/C150966472",
+      "wikidata": "https://www.wikidata.org/wiki/Q3410145",
+      "display_name": "Psychosocial",
+      "level": 2,
+      "score": 0.5499038
+    },
+    {
+      "id": "https://openalex.org/C151956035",
+      "wikidata": "https://www.wikidata.org/wiki/Q1132755",
+      "display_name": "Logistic regression",
+      "level": 2,
+      "score": 0.53719264
+    },
+    {
+      "id": "https://openalex.org/C50440223",
+      "wikidata": "https://www.wikidata.org/wiki/Q1475848",
+      "display_name": "Risk factor",
+      "level": 2,
+      "score": 0.5036308
+    },
+    {
+      "id": "https://openalex.org/C82789193",
+      "wikidata": "https://www.wikidata.org/wiki/Q2142611",
+      "display_name": "Relative risk",
+      "level": 3,
+      "score": 0.50082755
+    },
+    {
+      "id": "https://openalex.org/C61511704",
+      "wikidata": "https://www.wikidata.org/wiki/Q1671857",
+      "display_name": "Incidence (geometry)",
+      "level": 2,
+      "score": 0.42737198
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.3999753
+    },
+    {
+      "id": "https://openalex.org/C187212893",
+      "wikidata": "https://www.wikidata.org/wiki/Q123028",
+      "display_name": "Pediatrics",
+      "level": 1,
+      "score": 0.3713528
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.10232046
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001249",
+      "descriptor_name": "Asthma",
+      "qualifier_ui": "Q000523",
+      "qualifier_name": "psychology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008016",
+      "descriptor_name": "Life Change Events",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000150",
+      "qualifier_name": "complications",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000208",
+      "descriptor_name": "Acute Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001249",
+      "descriptor_name": "Asthma",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002908",
+      "descriptor_name": "Chronic Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004812",
+      "descriptor_name": "Epidemiologic Methods",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1136/thx.2004.024604",
+      "pdf_url": "https://thorax.bmj.com/content/thoraxjnl/59/12/1046.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S106546978",
+        "display_name": "Thorax",
+        "issn_l": "0040-6376",
+        "issn": [
+          "0040-6376",
+          "1468-3296"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319945",
+        "host_organization_name": "BMJ",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319945"
+        ],
+        "host_organization_lineage_names": [
+          "BMJ"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc1746895",
+      "pdf_url": "https://europepmc.org/articles/pmc1746895?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1746895",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://eprints.soton.ac.uk/146065/1/13.__Asthma_exacerbations_in_children_immediately_following_stressful_life_events.__A_Cox%2527s_hierarchical_regresssion.pdf",
+      "pdf_url": "https://eprints.soton.ac.uk/146065/1/13.__Asthma_exacerbations_in_children_immediately_following_stressful_life_events.__A_Cox%2527s_hierarchical_regresssion.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401020",
+        "display_name": "ePrints Soton (University of Southampton)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I43439940",
+        "host_organization_name": "University of Southampton",
+        "host_organization_lineage": [
+          "https://openalex.org/I43439940"
+        ],
+        "host_organization_lineage_names": [
+          "University of Southampton"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/15563703",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/thx.2004.024604",
+    "pdf_url": "https://thorax.bmj.com/content/thoraxjnl/59/12/1046.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S106546978",
+      "display_name": "Thorax",
+      "issn_l": "0040-6376",
+      "issn": [
+        "0040-6376",
+        "1468-3296"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 65,
+  "referenced_works": [
+    "https://openalex.org/W1807870872",
+    "https://openalex.org/W1847217811",
+    "https://openalex.org/W1965298978",
+    "https://openalex.org/W1976195089",
+    "https://openalex.org/W1983013372",
+    "https://openalex.org/W1985053825",
+    "https://openalex.org/W1985260198",
+    "https://openalex.org/W1985834244",
+    "https://openalex.org/W1987588312",
+    "https://openalex.org/W1989094782",
+    "https://openalex.org/W1990558996",
+    "https://openalex.org/W1991218513",
+    "https://openalex.org/W1991325506",
+    "https://openalex.org/W1994571416",
+    "https://openalex.org/W2003024037",
+    "https://openalex.org/W2006335390",
+    "https://openalex.org/W2017780003",
+    "https://openalex.org/W2018417692",
+    "https://openalex.org/W2024869681",
+    "https://openalex.org/W2030128601",
+    "https://openalex.org/W2034039690",
+    "https://openalex.org/W2035655846",
+    "https://openalex.org/W2043853559",
+    "https://openalex.org/W2045206297",
+    "https://openalex.org/W2047535323",
+    "https://openalex.org/W2048032185",
+    "https://openalex.org/W2051698607",
+    "https://openalex.org/W2057129884",
+    "https://openalex.org/W2059264314",
+    "https://openalex.org/W2064966879",
+    "https://openalex.org/W2080499974",
+    "https://openalex.org/W2094972796",
+    "https://openalex.org/W2099748389",
+    "https://openalex.org/W2101035994",
+    "https://openalex.org/W2101418064",
+    "https://openalex.org/W2102708593",
+    "https://openalex.org/W2106174000",
+    "https://openalex.org/W2108013032",
+    "https://openalex.org/W2108496386",
+    "https://openalex.org/W2109292444",
+    "https://openalex.org/W2109932150",
+    "https://openalex.org/W2114818742",
+    "https://openalex.org/W2119614430",
+    "https://openalex.org/W2120540945",
+    "https://openalex.org/W2121942205",
+    "https://openalex.org/W2131260238",
+    "https://openalex.org/W2140942460",
+    "https://openalex.org/W2142423531",
+    "https://openalex.org/W2142628436",
+    "https://openalex.org/W2152636233",
+    "https://openalex.org/W2158122675",
+    "https://openalex.org/W2159854412",
+    "https://openalex.org/W2162767976",
+    "https://openalex.org/W2171521898",
+    "https://openalex.org/W2185823608",
+    "https://openalex.org/W2274172957",
+    "https://openalex.org/W2303342686",
+    "https://openalex.org/W2317756674",
+    "https://openalex.org/W2319502042",
+    "https://openalex.org/W2333490504",
+    "https://openalex.org/W2410238653",
+    "https://openalex.org/W265921235",
+    "https://openalex.org/W2800070106",
+    "https://openalex.org/W4250592757",
+    "https://openalex.org/W651475472"
+  ],
+  "related_works": [
+    "https://openalex.org/W4309103225",
+    "https://openalex.org/W2952884403",
+    "https://openalex.org/W2773747390",
+    "https://openalex.org/W2600476412",
+    "https://openalex.org/W2511633412",
+    "https://openalex.org/W2306573634",
+    "https://openalex.org/W2130939671",
+    "https://openalex.org/W2087124521",
+    "https://openalex.org/W2068080465",
+    "https://openalex.org/W1992577796"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0,
+      55
+    ],
+    "recent": [
+      1
+    ],
+    "prospective": [
+      2
+    ],
+    "study": [
+      3
+    ],
+    "of": [
+      4,
+      29,
+      41,
+      49,
+      70,
+      79,
+      97,
+      112,
+      144,
+      152,
+      176,
+      192,
+      231,
+      238,
+      242,
+      256
+    ],
+    "children": [
+      5,
+      75,
+      83
+    ],
+    "with": [
+      6,
+      84,
+      94,
+      215
+    ],
+    "asthma": [
+      7,
+      87,
+      98,
+      120,
+      147,
+      178,
+      232,
+      259
+    ],
+    "employing": [
+      8
+    ],
+    "a": [
+      9,
+      77,
+      136,
+      145,
+      150,
+      168,
+      206,
+      220,
+      257,
+      265
+    ],
+    "within": [
+      10,
+      130
+    ],
+    "subject,": [
+      11
+    ],
+    "over": [
+      12
+    ],
+    "time": [
+      13,
+      245
+    ],
+    "analysis": [
+      14,
+      59
+    ],
+    "using": [
+      15
+    ],
+    "dynamic": [
+      16
+    ],
+    "logistic": [
+      17
+    ],
+    "regression": [
+      18,
+      58
+    ],
+    "showed": [
+      19,
+      247
+    ],
+    "that": [
+      20,
+      248
+    ],
+    "severely": [
+      21,
+      123,
+      137
+    ],
+    "negative": [
+      22,
+      71,
+      124,
+      138
+    ],
+    "life": [
+      23,
+      72,
+      113,
+      125,
+      139,
+      250
+    ],
+    "events": [
+      24,
+      73,
+      251
+    ],
+    "significantly": [
+      25,
+      252
+    ],
+    "increased": [
+      26,
+      141,
+      174,
+      190
+    ],
+    "the": [
+      27,
+      34,
+      42,
+      47,
+      131,
+      142,
+      163,
+      186,
+      229,
+      235,
+      254,
+      263
+    ],
+    "risk": [
+      28,
+      44,
+      143,
+      175,
+      191,
+      255,
+      270
+    ],
+    "an": [
+      30,
+      177,
+      189
+    ],
+    "acute": [
+      31
+    ],
+    "exacerbation": [
+      32
+    ],
+    "during": [
+      33
+    ],
+    "subsequent": [
+      35
+    ],
+    "6": [
+      36
+    ],
+    "week": [
+      37
+    ],
+    "period.": [
+      38
+    ],
+    "The": [
+      39,
+      115
+    ],
+    "timing": [
+      40
+    ],
+    "maximum": [
+      43
+    ],
+    "depended": [
+      45
+    ],
+    "on": [
+      46
+    ],
+    "degree": [
+      48
+    ],
+    "chronic": [
+      50,
+      81,
+      86
+    ],
+    "psychosocial": [
+      51
+    ],
+    "stress": [
+      52
+    ],
+    "also": [
+      53,
+      272
+    ],
+    "present.": [
+      54
+    ],
+    "hierarchical": [
+      56
+    ],
+    "Cox": [
+      57
+    ],
+    "was": [
+      60,
+      172,
+      201,
+      219,
+      271
+    ],
+    "undertaken": [
+      61
+    ],
+    "to": [
+      62,
+      158,
+      185,
+      198,
+      225
+    ],
+    "examine": [
+      63
+    ],
+    "whether": [
+      64
+    ],
+    "there": [
+      65,
+      171
+    ],
+    "were": [
+      66,
+      88,
+      119
+    ],
+    "any": [
+      67
+    ],
+    "immediate": [
+      68,
+      127,
+      187
+    ],
+    "effects": [
+      69
+    ],
+    "in": [
+      74,
+      228,
+      269
+    ],
+    "without": [
+      76
+    ],
+    "background": [
+      78
+    ],
+    "high": [
+      80
+    ],
+    "stress.Sixty": [
+      82
+    ],
+    "verified": [
+      85
+    ],
+    "followed": [
+      89
+    ],
+    "prospectively": [
+      90
+    ],
+    "for": [
+      91
+    ],
+    "18": [
+      92
+    ],
+    "months": [
+      93
+    ],
+    "continuous": [
+      95
+    ],
+    "monitoring": [
+      96
+    ],
+    "by": [
+      99,
+      108,
+      149
+    ],
+    "daily": [
+      100
+    ],
+    "symptom": [
+      101
+    ],
+    "diaries": [
+      102
+    ],
+    "and": [
+      103,
+      122
+    ],
+    "peak": [
+      104
+    ],
+    "flow": [
+      105
+    ],
+    "measurements,": [
+      106
+    ],
+    "accompanied": [
+      107
+    ],
+    "repeated": [
+      109
+    ],
+    "interview": [
+      110
+    ],
+    "assessments": [
+      111
+    ],
+    "events.": [
+      114
+    ],
+    "key": [
+      116
+    ],
+    "outcome": [
+      117
+    ],
+    "measures": [
+      118
+    ],
+    "exacerbations": [
+      121
+    ],
+    "events.An": [
+      126
+    ],
+    "effect": [
+      128
+    ],
+    "evident": [
+      129,
+      273
+    ],
+    "first": [
+      132
+    ],
+    "2": [
+      133
+    ],
+    "days": [
+      134,
+      166
+    ],
+    "following": [
+      135
+    ],
+    "event": [
+      140,
+      170,
+      208
+    ],
+    "new": [
+      146,
+      258
+    ],
+    "attack": [
+      148,
+      179,
+      260
+    ],
+    "factor": [
+      151
+    ],
+    "4.69,": [
+      153
+    ],
+    "95%": [
+      154
+    ],
+    "confidence": [
+      155,
+      195
+    ],
+    "interval": [
+      156,
+      196
+    ],
+    "2.33": [
+      157
+    ],
+    "9.44": [
+      159
+    ],
+    "(p<0.001)": [
+      160
+    ],
+    "[corrected]": [
+      161,
+      200
+    ],
+    "In": [
+      162,
+      183
+    ],
+    "period": [
+      164
+    ],
+    "3-10": [
+      165
+    ],
+    "after": [
+      167,
+      205,
+      262
+    ],
+    "severe": [
+      169,
+      207
+    ],
+    "no": [
+      173
+    ],
+    "(p": [
+      180,
+      209
+    ],
+    "=": [
+      181,
+      210
+    ],
+    "0.5).": [
+      182
+    ],
+    "addition": [
+      184
+    ],
+    "effect,": [
+      188
+    ],
+    "1.81": [
+      193
+    ],
+    "(95%": [
+      194
+    ],
+    "1.24": [
+      197
+    ],
+    "2.65)": [
+      199
+    ],
+    "found": [
+      202
+    ],
+    "5-7": [
+      203,
+      274
+    ],
+    "weeks": [
+      204,
+      275
+    ],
+    "0.002).": [
+      211
+    ],
+    "This": [
+      212
+    ],
+    "is": [
+      213
+    ],
+    "consistent": [
+      214
+    ],
+    "earlier": [
+      216
+    ],
+    "findings.": [
+      217
+    ],
+    "There": [
+      218
+    ],
+    "statistically": [
+      221
+    ],
+    "significant": [
+      222
+    ],
+    "variation": [
+      223
+    ],
+    "due": [
+      224
+    ],
+    "unobserved": [
+      226
+    ],
+    "factors": [
+      227
+    ],
+    "incidence": [
+      230
+    ],
+    "attacks": [
+      233
+    ],
+    "between": [
+      234
+    ],
+    "children.The": [
+      236
+    ],
+    "use": [
+      237
+    ],
+    "statistical": [
+      239
+    ],
+    "methods": [
+      240
+    ],
+    "capable": [
+      241
+    ],
+    "investigating": [
+      243
+    ],
+    "short": [
+      244
+    ],
+    "lags": [
+      246
+    ],
+    "stressful": [
+      249
+    ],
+    "increase": [
+      253,
+      268
+    ],
+    "immediately": [
+      261
+    ],
+    "event;": [
+      264
+    ],
+    "more": [
+      266
+    ],
+    "delayed": [
+      267
+    ],
+    "later.": [
+      276
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2114871301",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 11
+    }
+  ],
+  "updated_date": "2025-05-29T11:00:40.772080",
+  "created_date": "2016-06-24"
+}

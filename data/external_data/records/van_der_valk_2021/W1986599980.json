@@ -1,0 +1,948 @@
+{
+  "id": "https://openalex.org/W1986599980",
+  "doi": "https://doi.org/10.1016/s0960-9822(02)00759-5",
+  "title": "Circadian Cycling of the Mouse Liver Transcriptome, as Revealed by cDNA Microarray, Is Driven by the Suprachiasmatic Nucleus",
+  "display_name": "Circadian Cycling of the Mouse Liver Transcriptome, as Revealed by cDNA Microarray, Is Driven by the Suprachiasmatic Nucleus",
+  "publication_year": 2002,
+  "publication_date": "2002-04-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1986599980",
+    "doi": "https://doi.org/10.1016/s0960-9822(02)00759-5",
+    "mag": "1986599980",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/11937022"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0960-9822(02)00759-5",
+    "pdf_url": "https://www.cell.com/article/S0960982202007595/pdf",
+    "source": {
+      "id": "https://openalex.org/S128425624",
+      "display_name": "Current Biology",
+      "issn_l": "0960-9822",
+      "issn": [
+        "0960-9822",
+        "1879-0445"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.cell.com/article/S0960982202007595/pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5089361028",
+        "display_name": "Ruth A. Akhtar",
+        "orcid": "https://orcid.org/0000-0003-2838-1071"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I153648349",
+          "display_name": "University of Leicester",
+          "ror": "https://ror.org/04h699437",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I153648349"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ruth A. Akhtar",
+      "raw_affiliation_strings": [
+        "Department of Genetics, University of Leicester, LE1 7RH, Leicester, United Kingdom;"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Genetics, University of Leicester, LE1 7RH, Leicester, United Kingdom;",
+          "institution_ids": [
+            "https://openalex.org/I153648349"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004448611",
+        "display_name": "Akhilesh B. Reddy",
+        "orcid": "https://orcid.org/0000-0003-3328-1470"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I170203145",
+          "display_name": "MRC Laboratory of Molecular Biology",
+          "ror": "https://ror.org/00tw3jy02",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I170203145",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I90344618"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Akhilesh B. Reddy",
+      "raw_affiliation_strings": [
+        "Neurobiology Division, MRC Laboratory of Molecular Biology, Hills Road, Cambridge, CB2 2QH, United Kingdom"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Neurobiology Division, MRC Laboratory of Molecular Biology, Hills Road, Cambridge, CB2 2QH, United Kingdom",
+          "institution_ids": [
+            "https://openalex.org/I170203145"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014317730",
+        "display_name": "Elizabeth S. Maywood",
+        "orcid": "https://orcid.org/0000-0002-4557-9955"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I170203145",
+          "display_name": "MRC Laboratory of Molecular Biology",
+          "ror": "https://ror.org/00tw3jy02",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I170203145",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I90344618"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elizabeth S. Maywood",
+      "raw_affiliation_strings": [
+        "Neurobiology Division, MRC Laboratory of Molecular Biology, Hills Road, Cambridge, CB2 2QH, United Kingdom"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Neurobiology Division, MRC Laboratory of Molecular Biology, Hills Road, Cambridge, CB2 2QH, United Kingdom",
+          "institution_ids": [
+            "https://openalex.org/I170203145"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109103388",
+        "display_name": "Jonathan D. Clayton",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I153648349",
+          "display_name": "University of Leicester",
+          "ror": "https://ror.org/04h699437",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I153648349"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan D. Clayton",
+      "raw_affiliation_strings": [
+        "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom.",
+          "institution_ids": [
+            "https://openalex.org/I153648349"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108538707",
+        "display_name": "Verdun M. King",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I241749",
+          "display_name": "University of Cambridge",
+          "ror": "https://ror.org/013meh722",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I241749"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Verdun M. King",
+      "raw_affiliation_strings": [
+        "Department of Anatomy, University of Cambridge, Cambridge CB2 3DY United Kingdom"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Anatomy, University of Cambridge, Cambridge CB2 3DY United Kingdom",
+          "institution_ids": [
+            "https://openalex.org/I241749"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004567313",
+        "display_name": "Andrew G. Smith",
+        "orcid": "https://orcid.org/0000-0002-4823-5656"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I153648349",
+          "display_name": "University of Leicester",
+          "ror": "https://ror.org/04h699437",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I153648349"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew G. Smith",
+      "raw_affiliation_strings": [
+        "MRC Toxicology Unit, University of Leicester, Leicester LE1 9HN United Kingdom"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "MRC Toxicology Unit, University of Leicester, Leicester LE1 9HN United Kingdom",
+          "institution_ids": [
+            "https://openalex.org/I153648349"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078090457",
+        "display_name": "Timothy W. Gant",
+        "orcid": "https://orcid.org/0000-0001-9057-4937"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I153648349",
+          "display_name": "University of Leicester",
+          "ror": "https://ror.org/04h699437",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I153648349"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Timothy W. Gant",
+      "raw_affiliation_strings": [
+        "MRC Toxicology Unit, University of Leicester, Leicester LE1 9HN United Kingdom"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "MRC Toxicology Unit, University of Leicester, Leicester LE1 9HN United Kingdom",
+          "institution_ids": [
+            "https://openalex.org/I153648349"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048437113",
+        "display_name": "Michael H. Hastings",
+        "orcid": "https://orcid.org/0000-0001-8576-6651"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I170203145",
+          "display_name": "MRC Laboratory of Molecular Biology",
+          "ror": "https://ror.org/00tw3jy02",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I170203145",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I90344618"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael H. Hastings",
+      "raw_affiliation_strings": [
+        "Neurobiology Division, MRC Laboratory of Molecular Biology, Hills Road, Cambridge, CB2 2QH, United Kingdom"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Neurobiology Division, MRC Laboratory of Molecular Biology, Hills Road, Cambridge, CB2 2QH, United Kingdom",
+          "institution_ids": [
+            "https://openalex.org/I170203145"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5014620806",
+        "display_name": "Charalambos P. Kyriacou",
+        "orcid": "https://orcid.org/0000-0003-4889-7606"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I153648349",
+          "display_name": "University of Leicester",
+          "ror": "https://ror.org/04h699437",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I153648349"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Charalambos P. Kyriacou",
+      "raw_affiliation_strings": [
+        "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Genetics, University of Leicester, Leicester LE1 7RH, United Kingdom.",
+          "institution_ids": [
+            "https://openalex.org/I153648349"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 6830,
+    "currency": "USD",
+    "value_usd": 6830
+  },
+  "apc_paid": null,
+  "fwci": 12.845,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 791,
+  "citation_normalized_percentile": {
+    "value": 0.999395,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "12",
+    "issue": "7",
+    "first_page": "540",
+    "last_page": "550"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10342",
+    "display_name": "Circadian rhythm and melatonin",
+    "score": 0.9983,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2807",
+      "display_name": "Endocrine and Autonomic Systems"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10342",
+      "display_name": "Circadian rhythm and melatonin",
+      "score": 0.9983,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2807",
+        "display_name": "Endocrine and Autonomic Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11457",
+      "display_name": "Adipose Tissue and Metabolism",
+      "score": 0.9891,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10676",
+      "display_name": "Genetics, Aging, and Longevity in Model Organisms",
+      "score": 0.9584,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1302",
+        "display_name": "Aging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.9454853
+    },
+    {
+      "id": "https://openalex.org/C2779317972",
+      "wikidata": "https://www.wikidata.org/wiki/Q1156516",
+      "display_name": "Suprachiasmatic nucleus",
+      "level": 3,
+      "score": 0.8591497
+    },
+    {
+      "id": "https://openalex.org/C162317418",
+      "wikidata": "https://www.wikidata.org/wiki/Q252857",
+      "display_name": "Transcriptome",
+      "level": 4,
+      "score": 0.82893074
+    },
+    {
+      "id": "https://openalex.org/C121446783",
+      "wikidata": "https://www.wikidata.org/wiki/Q208353",
+      "display_name": "Circadian rhythm",
+      "level": 2,
+      "score": 0.7750865
+    },
+    {
+      "id": "https://openalex.org/C186836561",
+      "wikidata": "https://www.wikidata.org/wiki/Q1931516",
+      "display_name": "Microarray",
+      "level": 4,
+      "score": 0.6452594
+    },
+    {
+      "id": "https://openalex.org/C187882448",
+      "wikidata": "https://www.wikidata.org/wiki/Q283478",
+      "display_name": "Complementary DNA",
+      "level": 3,
+      "score": 0.58065885
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.4362418
+    },
+    {
+      "id": "https://openalex.org/C2781291010",
+      "wikidata": "https://www.wikidata.org/wiki/Q178580",
+      "display_name": "Period (music)",
+      "level": 2,
+      "score": 0.41264597
+    },
+    {
+      "id": "https://openalex.org/C2777003273",
+      "wikidata": "https://www.wikidata.org/wiki/Q164386",
+      "display_name": "Hypothalamus",
+      "level": 2,
+      "score": 0.41083825
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.31470835
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.29753292
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.25037864
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.23298436
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001683",
+      "descriptor_name": "Biological Clocks",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002940",
+      "descriptor_name": "Circadian Rhythm",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015870",
+      "descriptor_name": "Gene Expression",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008099",
+      "descriptor_name": "Liver",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013493",
+      "descriptor_name": "Suprachiasmatic Nucleus",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014158",
+      "descriptor_name": "Transcription, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001683",
+      "descriptor_name": "Biological Clocks",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002940",
+      "descriptor_name": "Circadian Rhythm",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017403",
+      "descriptor_name": "In Situ Hybridization",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017403",
+      "descriptor_name": "In Situ Hybridization",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008099",
+      "descriptor_name": "Liver",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020411",
+      "descriptor_name": "Oligonucleotide Array Sequence Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013493",
+      "descriptor_name": "Suprachiasmatic Nucleus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/s0960-9822(02)00759-5",
+      "pdf_url": "https://www.cell.com/article/S0960982202007595/pdf",
+      "source": {
+        "id": "https://openalex.org/S128425624",
+        "display_name": "Current Biology",
+        "issn_l": "0960-9822",
+        "issn": [
+          "0960-9822",
+          "1879-0445"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "publisher-specific-oa",
+      "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/11937022",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0960-9822(02)00759-5",
+    "pdf_url": "https://www.cell.com/article/S0960982202007595/pdf",
+    "source": {
+      "id": "https://openalex.org/S128425624",
+      "display_name": "Current Biology",
+      "issn_l": "0960-9822",
+      "issn": [
+        "0960-9822",
+        "1879-0445"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320307846",
+      "funder_display_name": "Human Frontier Science Program",
+      "award_id": null
+    },
+    {
+      "funder": "https://openalex.org/F4320334629",
+      "funder_display_name": "Biotechnology and Biological Sciences Research Council",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 44,
+  "referenced_works": [
+    "https://openalex.org/W1548450390",
+    "https://openalex.org/W1556193709",
+    "https://openalex.org/W1968866861",
+    "https://openalex.org/W1968957443",
+    "https://openalex.org/W1975666267",
+    "https://openalex.org/W1977447552",
+    "https://openalex.org/W1979385177",
+    "https://openalex.org/W1979606491",
+    "https://openalex.org/W1983546164",
+    "https://openalex.org/W1985432367",
+    "https://openalex.org/W1995815904",
+    "https://openalex.org/W1996679288",
+    "https://openalex.org/W1997140657",
+    "https://openalex.org/W2002970901",
+    "https://openalex.org/W2009135996",
+    "https://openalex.org/W2014440721",
+    "https://openalex.org/W2025690610",
+    "https://openalex.org/W2035809873",
+    "https://openalex.org/W2043032255",
+    "https://openalex.org/W2060925737",
+    "https://openalex.org/W2061206420",
+    "https://openalex.org/W2063417654",
+    "https://openalex.org/W2067955906",
+    "https://openalex.org/W2093335567",
+    "https://openalex.org/W2100416578",
+    "https://openalex.org/W2109178760",
+    "https://openalex.org/W2109257139",
+    "https://openalex.org/W2113297137",
+    "https://openalex.org/W2113671711",
+    "https://openalex.org/W2130515385",
+    "https://openalex.org/W2131803903",
+    "https://openalex.org/W2133530802",
+    "https://openalex.org/W2134377844",
+    "https://openalex.org/W2134975835",
+    "https://openalex.org/W2136130117",
+    "https://openalex.org/W2142622103",
+    "https://openalex.org/W2147570599",
+    "https://openalex.org/W2150926065",
+    "https://openalex.org/W2157137427",
+    "https://openalex.org/W2159112194",
+    "https://openalex.org/W2159360051",
+    "https://openalex.org/W2164628441",
+    "https://openalex.org/W2170612865",
+    "https://openalex.org/W2468405476"
+  ],
+  "related_works": [
+    "https://openalex.org/W4316505657",
+    "https://openalex.org/W2983530065",
+    "https://openalex.org/W2348517559",
+    "https://openalex.org/W2098068276",
+    "https://openalex.org/W2068610532",
+    "https://openalex.org/W2033917491",
+    "https://openalex.org/W2025390318",
+    "https://openalex.org/W2014015174",
+    "https://openalex.org/W1998273093",
+    "https://openalex.org/W1979606491"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1986599980",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 33
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 38
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 54
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 54
+    }
+  ],
+  "updated_date": "2025-06-18T01:24:35.206280",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,2052 @@
+{
+  "id": "https://openalex.org/W2770026599",
+  "doi": "https://doi.org/10.1093/nar/gkx1153",
+  "title": "ClinVar: improving access to variant interpretations and supporting evidence",
+  "display_name": "ClinVar: improving access to variant interpretations and supporting evidence",
+  "publication_year": 2017,
+  "publication_date": "2017-11-17",
+  "ids": {
+    "openalex": "https://openalex.org/W2770026599",
+    "doi": "https://doi.org/10.1093/nar/gkx1153",
+    "mag": "2770026599",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/29165669",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5753237"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/nar/gkx1153",
+    "pdf_url": "https://academic.oup.com/nar/article-pdf/46/D1/D1062/23162472/gkx1153.pdf",
+    "source": {
+      "id": "https://openalex.org/S134668137",
+      "display_name": "Nucleic Acids Research",
+      "issn_l": "0305-1048",
+      "issn": [
+        "0305-1048",
+        "1362-4954",
+        "1362-4962"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://academic.oup.com/nar/article-pdf/46/D1/D1062/23162472/gkx1153.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5054735767",
+        "display_name": "Melissa Landrum",
+        "orcid": "https://orcid.org/0000-0003-1914-2749"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Melissa J Landrum",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5062765884",
+        "display_name": "Jennifer M. Lee",
+        "orcid": "https://orcid.org/0000-0002-9056-9449"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jennifer M Lee",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031610787",
+        "display_name": "Mark J. Benson",
+        "orcid": "https://orcid.org/0000-0002-0903-2354"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mark Benson",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112057091",
+        "display_name": "Garth Brown",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Garth R Brown",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210109390"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100408358",
+        "display_name": "Chao Chen",
+        "orcid": "https://orcid.org/0000-0002-5114-2282"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chen Chao",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210109390"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024010735",
+        "display_name": "Shanmuga Chitipiralla",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shanmuga Chitipiralla",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108252701",
+        "display_name": "Baoshan Gu",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Baoshan Gu",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061415371",
+        "display_name": "Jennifer Hart",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jennifer Hart",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083383030",
+        "display_name": "Douglas Hoffman",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Douglas Hoffman",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016265803",
+        "display_name": "Wonhee Jang",
+        "orcid": "https://orcid.org/0000-0003-2470-8137"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wonhee Jang",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032678781",
+        "display_name": "K. V. Karapetyan",
+        "orcid": "https://orcid.org/0000-0003-2052-5034"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Karen Karapetyan",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082816368",
+        "display_name": "Kenneth Katz",
+        "orcid": "https://orcid.org/0000-0002-9134-4559"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kenneth Katz",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100719415",
+        "display_name": "Chunlei Liu",
+        "orcid": "https://orcid.org/0000-0001-8816-4832"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chunlei Liu",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012476601",
+        "display_name": "Zenith Maddipatla",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zenith Maddipatla",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085880705",
+        "display_name": "Adriana Malheiro",
+        "orcid": "https://orcid.org/0000-0002-1107-8079"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Adriana Malheiro",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210109390"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016737346",
+        "display_name": "Kurt McDaniel",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kurt McDaniel",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007962634",
+        "display_name": "Michael Ovetsky",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Ovetsky",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037145364",
+        "display_name": "George Riley",
+        "orcid": "https://orcid.org/0000-0001-5054-4573"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "George Riley",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086125770",
+        "display_name": "George Zhou",
+        "orcid": "https://orcid.org/0000-0002-1345-2634"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "George Zhou",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103122850",
+        "display_name": "J. Bradley Holmes",
+        "orcid": "https://orcid.org/0000-0001-8354-5062"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J Bradley Holmes",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5089306740",
+        "display_name": "B Kattman",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brandi L Kattman",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210109390"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5018295094",
+        "display_name": "Donna Maglott",
+        "orcid": "https://orcid.org/0000-0001-7451-4467"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109390",
+          "display_name": "National Center for Biotechnology Information",
+          "ror": "https://ror.org/02meqm098",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I2800548410",
+            "https://openalex.org/I4210109390"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Donna R Maglott",
+      "raw_affiliation_strings": [
+        "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Center for Biotechnology Information, National Library of Medicine, National Institutes of Health, Bethesda, MD 20894, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210109390",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5054735767"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210109390",
+    "https://openalex.org/I1299303238"
+  ],
+  "apc_list": {
+    "value": 3630,
+    "currency": "USD",
+    "value_usd": 3630
+  },
+  "apc_paid": {
+    "value": 3630,
+    "currency": "USD",
+    "value_usd": 3630
+  },
+  "fwci": 137.065,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 3616,
+  "citation_normalized_percentile": {
+    "value": 0.999953,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "46",
+    "issue": "D1",
+    "first_page": "D1062",
+    "last_page": "D1067"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11642",
+    "display_name": "Genomics and Rare Diseases",
+    "score": 0.9992,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1311",
+      "display_name": "Genetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11642",
+      "display_name": "Genomics and Rare Diseases",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11710",
+      "display_name": "Biomedical Text Mining and Ontologies",
+      "score": 0.9876,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11287",
+      "display_name": "Cancer Genomics and Diagnostics",
+      "score": 0.9496,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1306",
+        "display_name": "Cancer Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C177264268",
+      "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+      "display_name": "Set (abstract data type)",
+      "level": 2,
+      "score": 0.635016
+    },
+    {
+      "id": "https://openalex.org/C527412718",
+      "wikidata": "https://www.wikidata.org/wiki/Q855395",
+      "display_name": "Interpretation (philosophy)",
+      "level": 2,
+      "score": 0.5436047
+    },
+    {
+      "id": "https://openalex.org/C23123220",
+      "wikidata": "https://www.wikidata.org/wiki/Q816826",
+      "display_name": "Information retrieval",
+      "level": 1,
+      "score": 0.52963614
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.46388823
+    },
+    {
+      "id": "https://openalex.org/C2780673598",
+      "wikidata": "https://www.wikidata.org/wiki/Q285223",
+      "display_name": "Genetic testing",
+      "level": 2,
+      "score": 0.46186927
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.43446904
+    },
+    {
+      "id": "https://openalex.org/C2522767166",
+      "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+      "display_name": "Data science",
+      "level": 1,
+      "score": 0.35556248
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.33306247
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.20664456
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D030561",
+      "descriptor_name": "Databases, Nucleic Acid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004194",
+      "descriptor_name": "Disease",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014644",
+      "descriptor_name": "Genetic Variation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004194",
+      "descriptor_name": "Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010641",
+      "descriptor_name": "Phenotype",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/nar/gkx1153",
+      "pdf_url": "https://academic.oup.com/nar/article-pdf/46/D1/D1062/23162472/gkx1153.pdf",
+      "source": {
+        "id": "https://openalex.org/S134668137",
+        "display_name": "Nucleic Acids Research",
+        "issn_l": "0305-1048",
+        "issn": [
+          "0305-1048",
+          "1362-4954",
+          "1362-4962"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5753237",
+      "pdf_url": "https://europepmc.org/articles/pmc5753237?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753237",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29165669",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/nar/gkx1153",
+    "pdf_url": "https://academic.oup.com/nar/article-pdf/46/D1/D1062/23162472/gkx1153.pdf",
+    "source": {
+      "id": "https://openalex.org/S134668137",
+      "display_name": "Nucleic Acids Research",
+      "issn_l": "0305-1048",
+      "issn": [
+        "0305-1048",
+        "1362-4954",
+        "1362-4962"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 14,
+  "referenced_works": [
+    "https://openalex.org/W2037458235",
+    "https://openalex.org/W2096525273",
+    "https://openalex.org/W2104549677",
+    "https://openalex.org/W2112589398",
+    "https://openalex.org/W2149992227",
+    "https://openalex.org/W2154866190",
+    "https://openalex.org/W2162151166",
+    "https://openalex.org/W2174602966",
+    "https://openalex.org/W2256016639",
+    "https://openalex.org/W2320983896",
+    "https://openalex.org/W2542446037",
+    "https://openalex.org/W2557385283",
+    "https://openalex.org/W4238718120",
+    "https://openalex.org/W4251386234"
+  ],
+  "related_works": [
+    "https://openalex.org/W4388567440",
+    "https://openalex.org/W4386782890",
+    "https://openalex.org/W4327743144",
+    "https://openalex.org/W4313320911",
+    "https://openalex.org/W4245077728",
+    "https://openalex.org/W4206302830",
+    "https://openalex.org/W3210948575",
+    "https://openalex.org/W3183204001",
+    "https://openalex.org/W2607424049",
+    "https://openalex.org/W2185941092"
+  ],
+  "abstract_inverted_index": {
+    "ClinVar": [
+      0,
+      46,
+      84,
+      135
+    ],
+    "(https://www.ncbi.nlm.nih.gov/clinvar/)": [
+      1
+    ],
+    "is": [
+      2
+    ],
+    "a": [
+      3,
+      79,
+      164
+    ],
+    "freely": [
+      4
+    ],
+    "available,": [
+      5
+    ],
+    "public": [
+      6
+    ],
+    "archive": [
+      7
+    ],
+    "of": [
+      8,
+      14,
+      24,
+      27,
+      31,
+      57,
+      72,
+      114,
+      167
+    ],
+    "human": [
+      9
+    ],
+    "genetic": [
+      10,
+      102
+    ],
+    "variants": [
+      11,
+      32
+    ],
+    "and": [
+      12,
+      43,
+      52,
+      77,
+      143,
+      156
+    ],
+    "interpretations": [
+      13
+    ],
+    "their": [
+      15,
+      111
+    ],
+    "significance": [
+      16,
+      30
+    ],
+    "to": [
+      17,
+      137,
+      140,
+      161
+    ],
+    "disease,": [
+      18
+    ],
+    "maintained": [
+      19
+    ],
+    "at": [
+      20
+    ],
+    "the": [
+      21,
+      28,
+      66,
+      115,
+      159
+    ],
+    "National": [
+      22
+    ],
+    "Institutes": [
+      23
+    ],
+    "Health.": [
+      25
+    ],
+    "Interpretations": [
+      26
+    ],
+    "clinical": [
+      29,
+      36,
+      108
+    ],
+    "are": [
+      33,
+      63,
+      90,
+      149
+    ],
+    "submitted": [
+      34
+    ],
+    "by": [
+      35,
+      49,
+      53,
+      61
+    ],
+    "testing": [
+      37
+    ],
+    "laboratories,": [
+      38,
+      40
+    ],
+    "research": [
+      39
+    ],
+    "expert": [
+      41
+    ],
+    "panels": [
+      42
+    ],
+    "other": [
+      44
+    ],
+    "groups.": [
+      45
+    ],
+    "aggregates": [
+      47
+    ],
+    "data": [
+      48
+    ],
+    "variant-disease": [
+      50
+    ],
+    "pairs,": [
+      51
+    ],
+    "variant": [
+      54,
+      62,
+      73,
+      116
+    ],
+    "(or": [
+      55
+    ],
+    "set": [
+      56,
+      71,
+      166
+    ],
+    "variants).": [
+      58
+    ],
+    "Data": [
+      59
+    ],
+    "aggregated": [
+      60
+    ],
+    "accessible": [
+      64
+    ],
+    "on": [
+      65,
+      93
+    ],
+    "website,": [
+      67
+    ],
+    "in": [
+      68
+    ],
+    "an": [
+      69
+    ],
+    "improved": [
+      70
+    ],
+    "call": [
+      74
+    ],
+    "format": [
+      75
+    ],
+    "files": [
+      76
+    ],
+    "as": [
+      78,
+      123
+    ],
+    "new": [
+      80,
+      147
+    ],
+    "comprehensive": [
+      81
+    ],
+    "XML": [
+      82
+    ],
+    "report.": [
+      83
+    ],
+    "recently": [
+      85
+    ],
+    "started": [
+      86
+    ],
+    "accepting": [
+      87
+    ],
+    "submissions": [
+      88
+    ],
+    "that": [
+      89,
+      126
+    ],
+    "focused": [
+      91
+    ],
+    "primarily": [
+      92,
+      127
+    ],
+    "providing": [
+      94,
+      110
+    ],
+    "phenotypic": [
+      95,
+      129
+    ],
+    "information": [
+      96,
+      130
+    ],
+    "for": [
+      97,
+      152
+    ],
+    "individuals": [
+      98
+    ],
+    "who": [
+      99
+    ],
+    "have": [
+      100
+    ],
+    "had": [
+      101
+    ],
+    "testing.": [
+      103
+    ],
+    "Submissions": [
+      104
+    ],
+    "may": [
+      105
+    ],
+    "come": [
+      106
+    ],
+    "from": [
+      107,
+      120,
+      131
+    ],
+    "providers": [
+      109
+    ],
+    "own": [
+      112
+    ],
+    "interpretation": [
+      113
+    ],
+    "('provider": [
+      117
+    ],
+    "interpretation')": [
+      118
+    ],
+    "or": [
+      119
+    ],
+    "groups": [
+      121
+    ],
+    "such": [
+      122
+    ],
+    "patient": [
+      124
+    ],
+    "registries": [
+      125
+    ],
+    "provide": [
+      128
+    ],
+    "patients": [
+      132
+    ],
+    "('phenotyping": [
+      133
+    ],
+    "only').": [
+      134
+    ],
+    "continues": [
+      136
+    ],
+    "make": [
+      138
+    ],
+    "improvements": [
+      139
+    ],
+    "its": [
+      141
+    ],
+    "search": [
+      142,
+      168
+    ],
+    "retrieval": [
+      144
+    ],
+    "functions.": [
+      145
+    ],
+    "Several": [
+      146
+    ],
+    "fields": [
+      148
+    ],
+    "now": [
+      150
+    ],
+    "indexed": [
+      151
+    ],
+    "more": [
+      153
+    ],
+    "precise": [
+      154
+    ],
+    "searching,": [
+      155
+    ],
+    "filters": [
+      157
+    ],
+    "allow": [
+      158
+    ],
+    "user": [
+      160
+    ],
+    "narrow": [
+      162
+    ],
+    "down": [
+      163
+    ],
+    "large": [
+      165
+    ],
+    "results.": [
+      169
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2770026599",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 181
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 661
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 740
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 643
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 572
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 428
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 292
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 86
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-06-13T18:29:18.708512",
+  "created_date": "2017-12-04"
+}

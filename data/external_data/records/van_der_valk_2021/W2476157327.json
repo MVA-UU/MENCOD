@@ -1,0 +1,1364 @@
+{
+  "id": "https://openalex.org/W2476157327",
+  "doi": "https://doi.org/10.1093/icb/icw064",
+  "title": "Host Competence: An Organismal Trait to Integrate Immunology and Epidemiology",
+  "display_name": "Host Competence: An Organismal Trait to Integrate Immunology and Epidemiology",
+  "publication_year": 2016,
+  "publication_date": "2016-07-18",
+  "ids": {
+    "openalex": "https://openalex.org/W2476157327",
+    "doi": "https://doi.org/10.1093/icb/icw064",
+    "mag": "2476157327",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27940614"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/icb/icw064",
+    "pdf_url": "https://academic.oup.com/icb/article-pdf/56/6/1225/11104415/icw064.pdf",
+    "source": {
+      "id": "https://openalex.org/S103356783",
+      "display_name": "Integrative and Comparative Biology",
+      "issn_l": "1540-7063",
+      "issn": [
+        "1540-7063",
+        "1557-7023"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://academic.oup.com/icb/article-pdf/56/6/1225/11104415/icw064.pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5004059838",
+        "display_name": "Lynn B. Martin",
+        "orcid": "https://orcid.org/0000-0002-5887-4937"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2613432",
+          "display_name": "University of South Florida",
+          "ror": "https://ror.org/032db5x82",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2613432"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Lynn B. Martin",
+      "raw_affiliation_strings": [
+        "Department of Integrative Biology, University of South Florida, Tampa, FL 33620, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Integrative Biology, University of South Florida, Tampa, FL 33620, USA",
+          "institution_ids": [
+            "https://openalex.org/I2613432"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5080371765",
+        "display_name": "Sarah C. Burgan",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2613432",
+          "display_name": "University of South Florida",
+          "ror": "https://ror.org/032db5x82",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2613432"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. C. Burgan",
+      "raw_affiliation_strings": [
+        "Department of Integrative Biology, University of South Florida, Tampa, FL 33620, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Integrative Biology, University of South Florida, Tampa, FL 33620, USA",
+          "institution_ids": [
+            "https://openalex.org/I2613432"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039211906",
+        "display_name": "James S. Adelman",
+        "orcid": "https://orcid.org/0000-0002-5577-8798"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2613432",
+          "display_name": "University of South Florida",
+          "ror": "https://ror.org/032db5x82",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2613432"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "James S. Adelman",
+      "raw_affiliation_strings": [
+        "Department of Integrative Biology, University of South Florida, Tampa, FL 33620, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Integrative Biology, University of South Florida, Tampa, FL 33620, USA",
+          "institution_ids": [
+            "https://openalex.org/I2613432"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5049159669",
+        "display_name": "Stephanie S. Gervasi",
+        "orcid": "https://orcid.org/0000-0003-4829-6915"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2613432",
+          "display_name": "University of South Florida",
+          "ror": "https://ror.org/032db5x82",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2613432"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stephanie S. Gervasi",
+      "raw_affiliation_strings": [
+        "Department of Integrative Biology, University of South Florida, Tampa, FL 33620, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Integrative Biology, University of South Florida, Tampa, FL 33620, USA",
+          "institution_ids": [
+            "https://openalex.org/I2613432"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5004059838"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I2613432"
+  ],
+  "apc_list": {
+    "value": 3953,
+    "currency": "USD",
+    "value_usd": 3953
+  },
+  "apc_paid": null,
+  "fwci": 5.731,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 79,
+  "citation_normalized_percentile": {
+    "value": 0.999955,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "56",
+    "issue": "6",
+    "first_page": "1225",
+    "last_page": "1237"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11764",
+    "display_name": "Evolution and Genetic Dynamics",
+    "score": 0.9961,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1311",
+      "display_name": "Genetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11764",
+      "display_name": "Evolution and Genetic Dynamics",
+      "score": 0.9961,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10166",
+      "display_name": "Mosquito-borne diseases and control",
+      "score": 0.9812,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12047",
+      "display_name": "Viral Infections and Vectors",
+      "score": 0.9709,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/coevolution",
+      "display_name": "Coevolution",
+      "score": 0.7203888
+    },
+    {
+      "id": "https://openalex.org/keywords/cornerstone",
+      "display_name": "Cornerstone",
+      "score": 0.49461862
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C33009525",
+      "wikidata": "https://www.wikidata.org/wiki/Q208841",
+      "display_name": "Coevolution",
+      "level": 2,
+      "score": 0.7203888
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.6428558
+    },
+    {
+      "id": "https://openalex.org/C135811302",
+      "wikidata": "https://www.wikidata.org/wiki/Q1382557",
+      "display_name": "Evolutionary ecology",
+      "level": 3,
+      "score": 0.53983927
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.4991529
+    },
+    {
+      "id": "https://openalex.org/C2780616401",
+      "wikidata": "https://www.wikidata.org/wiki/Q1133673",
+      "display_name": "Cornerstone",
+      "level": 2,
+      "score": 0.49461862
+    },
+    {
+      "id": "https://openalex.org/C78458016",
+      "wikidata": "https://www.wikidata.org/wiki/Q840400",
+      "display_name": "Evolutionary biology",
+      "level": 1,
+      "score": 0.43916285
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.42747608
+    },
+    {
+      "id": "https://openalex.org/C137858568",
+      "wikidata": "https://www.wikidata.org/wiki/Q7239",
+      "display_name": "Organism",
+      "level": 2,
+      "score": 0.41286626
+    },
+    {
+      "id": "https://openalex.org/C126831891",
+      "wikidata": "https://www.wikidata.org/wiki/Q221673",
+      "display_name": "Host (biology)",
+      "level": 2,
+      "score": 0.39296773
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.2009497
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.11174056
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.10387212
+    },
+    {
+      "id": "https://openalex.org/C166957645",
+      "wikidata": "https://www.wikidata.org/wiki/Q23498",
+      "display_name": "Archaeology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000486",
+      "descriptor_name": "Allergy and Immunology",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004813",
+      "descriptor_name": "Epidemiology",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006790",
+      "descriptor_name": "Host-Parasite Interactions",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006790",
+      "descriptor_name": "Host-Parasite Interactions",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/icb/icw064",
+      "pdf_url": "https://academic.oup.com/icb/article-pdf/56/6/1225/11104415/icw064.pdf",
+      "source": {
+        "id": "https://openalex.org/S103356783",
+        "display_name": "Integrative and Comparative Biology",
+        "issn_l": "1540-7063",
+        "issn": [
+          "1540-7063",
+          "1557-7023"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27940614",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/icb/icw064",
+    "pdf_url": "https://academic.oup.com/icb/article-pdf/56/6/1225/11104415/icw064.pdf",
+    "source": {
+      "id": "https://openalex.org/S103356783",
+      "display_name": "Integrative and Comparative Biology",
+      "issn_l": "1540-7063",
+      "issn": [
+        "1540-7063",
+        "1557-7023"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.77,
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 158,
+  "referenced_works": [
+    "https://openalex.org/W1192781308",
+    "https://openalex.org/W1492553509",
+    "https://openalex.org/W1503596648",
+    "https://openalex.org/W1510964369",
+    "https://openalex.org/W1515075632",
+    "https://openalex.org/W1547352218",
+    "https://openalex.org/W1550933348",
+    "https://openalex.org/W1563233325",
+    "https://openalex.org/W1586974280",
+    "https://openalex.org/W1948962023",
+    "https://openalex.org/W1966292282",
+    "https://openalex.org/W1967494040",
+    "https://openalex.org/W1967575570",
+    "https://openalex.org/W1967760136",
+    "https://openalex.org/W1970136118",
+    "https://openalex.org/W1973799576",
+    "https://openalex.org/W1973960846",
+    "https://openalex.org/W1974805591",
+    "https://openalex.org/W1976761825",
+    "https://openalex.org/W1980138800",
+    "https://openalex.org/W1981748148",
+    "https://openalex.org/W1982570012",
+    "https://openalex.org/W1990655979",
+    "https://openalex.org/W1993217079",
+    "https://openalex.org/W1993930204",
+    "https://openalex.org/W1994187475",
+    "https://openalex.org/W2004826140",
+    "https://openalex.org/W2005474456",
+    "https://openalex.org/W2009148864",
+    "https://openalex.org/W2009288970",
+    "https://openalex.org/W2009911622",
+    "https://openalex.org/W2012758550",
+    "https://openalex.org/W2012906379",
+    "https://openalex.org/W2012931776",
+    "https://openalex.org/W2015156949",
+    "https://openalex.org/W2018071918",
+    "https://openalex.org/W2021655479",
+    "https://openalex.org/W2024580333",
+    "https://openalex.org/W2027348946",
+    "https://openalex.org/W2031084334",
+    "https://openalex.org/W2031599267",
+    "https://openalex.org/W2032499859",
+    "https://openalex.org/W2036679352",
+    "https://openalex.org/W2037030611",
+    "https://openalex.org/W2038413777",
+    "https://openalex.org/W2041511592",
+    "https://openalex.org/W2043384253",
+    "https://openalex.org/W2043931994",
+    "https://openalex.org/W2048171832",
+    "https://openalex.org/W2051259641",
+    "https://openalex.org/W2051329301",
+    "https://openalex.org/W2051558840",
+    "https://openalex.org/W2055972388",
+    "https://openalex.org/W2057357315",
+    "https://openalex.org/W2057516418",
+    "https://openalex.org/W2058702124",
+    "https://openalex.org/W2058945594",
+    "https://openalex.org/W2062382041",
+    "https://openalex.org/W2062955606",
+    "https://openalex.org/W2063838707",
+    "https://openalex.org/W2067949717",
+    "https://openalex.org/W2068680780",
+    "https://openalex.org/W2068717659",
+    "https://openalex.org/W2069009387",
+    "https://openalex.org/W2069251911",
+    "https://openalex.org/W2073017712",
+    "https://openalex.org/W2073820962",
+    "https://openalex.org/W2074615426",
+    "https://openalex.org/W2083231575",
+    "https://openalex.org/W2083664914",
+    "https://openalex.org/W2093273440",
+    "https://openalex.org/W2095767844",
+    "https://openalex.org/W2096478498",
+    "https://openalex.org/W2096596075",
+    "https://openalex.org/W2096982215",
+    "https://openalex.org/W2097147259",
+    "https://openalex.org/W2098459257",
+    "https://openalex.org/W2099277976",
+    "https://openalex.org/W2099330230",
+    "https://openalex.org/W2101725960",
+    "https://openalex.org/W2101739475",
+    "https://openalex.org/W2101996618",
+    "https://openalex.org/W2105806505",
+    "https://openalex.org/W2106634937",
+    "https://openalex.org/W2108309611",
+    "https://openalex.org/W2108336788",
+    "https://openalex.org/W2108726522",
+    "https://openalex.org/W2110785824",
+    "https://openalex.org/W2112154467",
+    "https://openalex.org/W2112204642",
+    "https://openalex.org/W2114469000",
+    "https://openalex.org/W2115553288",
+    "https://openalex.org/W2116453268",
+    "https://openalex.org/W2117168118",
+    "https://openalex.org/W2117636863",
+    "https://openalex.org/W2118726788",
+    "https://openalex.org/W2121050439",
+    "https://openalex.org/W2121757994",
+    "https://openalex.org/W2125115699",
+    "https://openalex.org/W2125147092",
+    "https://openalex.org/W2125705042",
+    "https://openalex.org/W2125978064",
+    "https://openalex.org/W2130943918",
+    "https://openalex.org/W2132530500",
+    "https://openalex.org/W2132539548",
+    "https://openalex.org/W2134483051",
+    "https://openalex.org/W2135166271",
+    "https://openalex.org/W2135957412",
+    "https://openalex.org/W2136052329",
+    "https://openalex.org/W2136369832",
+    "https://openalex.org/W2138031414",
+    "https://openalex.org/W2138170542",
+    "https://openalex.org/W2139879194",
+    "https://openalex.org/W2145570084",
+    "https://openalex.org/W2146469651",
+    "https://openalex.org/W2148150479",
+    "https://openalex.org/W2148725309",
+    "https://openalex.org/W2149713652",
+    "https://openalex.org/W2150710606",
+    "https://openalex.org/W2151195909",
+    "https://openalex.org/W2151383500",
+    "https://openalex.org/W2151402778",
+    "https://openalex.org/W2153649201",
+    "https://openalex.org/W2155192432",
+    "https://openalex.org/W2160511185",
+    "https://openalex.org/W2161620412",
+    "https://openalex.org/W2163602934",
+    "https://openalex.org/W2163887429",
+    "https://openalex.org/W2166771493",
+    "https://openalex.org/W2167012568",
+    "https://openalex.org/W2167056096",
+    "https://openalex.org/W2167814085",
+    "https://openalex.org/W2170694569",
+    "https://openalex.org/W2170709879",
+    "https://openalex.org/W2171607086",
+    "https://openalex.org/W2179971682",
+    "https://openalex.org/W2183041229",
+    "https://openalex.org/W2187912350",
+    "https://openalex.org/W2221972269",
+    "https://openalex.org/W2262727519",
+    "https://openalex.org/W229723928",
+    "https://openalex.org/W2301532551",
+    "https://openalex.org/W2319370839",
+    "https://openalex.org/W2340014064",
+    "https://openalex.org/W2340137273",
+    "https://openalex.org/W2384612662",
+    "https://openalex.org/W2494644015",
+    "https://openalex.org/W2504015018",
+    "https://openalex.org/W3033422958",
+    "https://openalex.org/W3149326883",
+    "https://openalex.org/W359014227",
+    "https://openalex.org/W4206473729",
+    "https://openalex.org/W4211179948",
+    "https://openalex.org/W4242584517",
+    "https://openalex.org/W4252489958",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W813424256",
+    "https://openalex.org/W9128884"
+  ],
+  "related_works": [
+    "https://openalex.org/W4366496304",
+    "https://openalex.org/W3173815060",
+    "https://openalex.org/W2321083758",
+    "https://openalex.org/W2254473907",
+    "https://openalex.org/W2088111589",
+    "https://openalex.org/W2036403213",
+    "https://openalex.org/W2028542246",
+    "https://openalex.org/W1591806149",
+    "https://openalex.org/W1525722685",
+    "https://openalex.org/W124046120"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0
+    ],
+    "new": [
+      1,
+      54,
+      104
+    ],
+    "fields": [
+      2,
+      16
+    ],
+    "of": [
+      3,
+      17,
+      35,
+      53,
+      65,
+      70,
+      78,
+      88,
+      98,
+      117,
+      138,
+      145,
+      167,
+      179,
+      217
+    ],
+    "ecological": [
+      4,
+      156
+    ],
+    "immunology": [
+      5,
+      18,
+      119,
+      170,
+      237
+    ],
+    "and": [
+      6,
+      13,
+      19,
+      57,
+      80,
+      141,
+      151,
+      157,
+      181,
+      192,
+      209,
+      238,
+      253
+    ],
+    "disease": [
+      7,
+      42,
+      190
+    ],
+    "ecology": [
+      8,
+      240
+    ],
+    "have": [
+      9,
+      48,
+      135,
+      153
+    ],
+    "begun": [
+      10
+    ],
+    "to": [
+      11,
+      23,
+      102,
+      122,
+      185,
+      225
+    ],
+    "merge,": [
+      12
+    ],
+    "the": [
+      14,
+      32,
+      51,
+      63,
+      76,
+      96,
+      111,
+      115,
+      142,
+      165,
+      215,
+      222
+    ],
+    "classic": [
+      15
+    ],
+    "epidemiology": [
+      20
+    ],
+    "are": [
+      21
+    ],
+    "beginning": [
+      22
+    ],
+    "blend": [
+      24
+    ],
+    "with": [
+      25,
+      214
+    ],
+    "them.": [
+      26
+    ],
+    "This": [
+      27
+    ],
+    "merger": [
+      28
+    ],
+    "is": [
+      29,
+      38
+    ],
+    "occurring": [
+      30
+    ],
+    "because": [
+      31
+    ],
+    "integrative": [
+      33
+    ],
+    "study": [
+      34
+    ],
+    "host-parasite": [
+      36,
+      193,
+      255
+    ],
+    "interactions": [
+      37
+    ],
+    "providing": [
+      39
+    ],
+    "insights": [
+      40
+    ],
+    "into": [
+      41,
+      125
+    ],
+    "in": [
+      43,
+      106,
+      249
+    ],
+    "ways": [
+      44
+    ],
+    "that": [
+      45,
+      74,
+      85,
+      148,
+      164,
+      206,
+      244
+    ],
+    "traditional": [
+      46
+    ],
+    "methods": [
+      47
+    ],
+    "not.": [
+      49
+    ],
+    "With": [
+      50
+    ],
+    "advent": [
+      52
+    ],
+    "tools,": [
+      55
+    ],
+    "mathematical": [
+      56
+    ],
+    "technological,": [
+      58
+    ],
+    "we": [
+      59,
+      83,
+      162,
+      220
+    ],
+    "could": [
+      60
+    ],
+    "be": [
+      61,
+      93
+    ],
+    "on": [
+      62,
+      183
+    ],
+    "verge": [
+      64
+    ],
+    "developing": [
+      66
+    ],
+    "a": [
+      67,
+      86,
+      168,
+      227
+    ],
+    "unified": [
+      68
+    ],
+    "theory": [
+      69
+    ],
+    "infectious": [
+      71
+    ],
+    "disease,": [
+      72
+    ],
+    "one": [
+      73
+    ],
+    "supersedes": [
+      75
+    ],
+    "barriers": [
+      77
+    ],
+    "jargon": [
+      79
+    ],
+    "tradition.": [
+      81
+    ],
+    "Here": [
+      82
+    ],
+    "argue": [
+      84,
+      243
+    ],
+    "cornerstone": [
+      87
+    ],
+    "any": [
+      89
+    ],
+    "such": [
+      90,
+      133
+    ],
+    "synthesis": [
+      91
+    ],
+    "will": [
+      92,
+      172
+    ],
+    "host": [
+      94,
+      101,
+      231,
+      251
+    ],
+    "competence,": [
+      95,
+      232
+    ],
+    "propensity": [
+      97
+    ],
+    "an": [
+      99
+    ],
+    "individual": [
+      100,
+      250
+    ],
+    "generate": [
+      103
+    ],
+    "infections": [
+      105
+    ],
+    "other": [
+      107
+    ],
+    "susceptible": [
+      108
+    ],
+    "hosts.": [
+      109
+    ],
+    "In": [
+      110
+    ],
+    "last": [
+      112
+    ],
+    "few": [
+      113,
+      152
+    ],
+    "years,": [
+      114
+    ],
+    "emergence": [
+      116
+    ],
+    "systems": [
+      118,
+      169,
+      205,
+      236
+    ],
+    "has": [
+      120
+    ],
+    "led": [
+      121
+    ],
+    "novel": [
+      123
+    ],
+    "insight": [
+      124
+    ],
+    "how": [
+      126
+    ],
+    "hosts": [
+      127,
+      180
+    ],
+    "control": [
+      128
+    ],
+    "or": [
+      129
+    ],
+    "eliminate": [
+      130
+    ],
+    "pathogens.": [
+      131
+    ],
+    "Most": [
+      132
+    ],
+    "efforts": [
+      134
+    ],
+    "stopped": [
+      136
+    ],
+    "short": [
+      137
+    ],
+    "considering": [
+      139
+    ],
+    "transmission": [
+      140
+    ],
+    "requisite": [
+      143
+    ],
+    "behaviors": [
+      144
+    ],
+    "infected": [
+      146
+    ],
+    "individuals": [
+      147
+    ],
+    "mediate": [
+      149,
+      207
+    ],
+    "it,": [
+      150
+    ],
+    "explicitly": [
+      154
+    ],
+    "incorporated": [
+      155
+    ],
+    "evolutionary": [
+      158,
+      239
+    ],
+    "principles.": [
+      159
+    ],
+    "Ultimately": [
+      160
+    ],
+    "though,": [
+      161
+    ],
+    "expect": [
+      163
+    ],
+    "use": [
+      166,
+      221
+    ],
+    "perspective": [
+      171
+    ],
+    "help": [
+      173
+    ],
+    "link": [
+      174,
+      211
+    ],
+    "suborganismal": [
+      175,
+      212
+    ],
+    "processes": [
+      176,
+      213
+    ],
+    "(i.e.,": [
+      177,
+      188
+    ],
+    "health": [
+      178
+    ],
+    "selection": [
+      182
+    ],
+    "genes)": [
+      184
+    ],
+    "superorganismal": [
+      186
+    ],
+    "outcomes": [
+      187
+    ],
+    "community-level": [
+      189
+    ],
+    "dynamics": [
+      191
+    ],
+    "coevolution).": [
+      194
+    ],
+    "Recently,": [
+      195
+    ],
+    "physiological": [
+      196
+    ],
+    "regulatory": [
+      197,
+      204
+    ],
+    "networks": [
+      198
+    ],
+    "(PRNs)": [
+      199
+    ],
+    "were": [
+      200
+    ],
+    "cast": [
+      201
+    ],
+    "as": [
+      202
+    ],
+    "whole-organism": [
+      203
+    ],
+    "homeostasis": [
+      208
+    ],
+    "hence": [
+      210,
+      254
+    ],
+    "fitness": [
+      216
+    ],
+    "individuals.": [
+      218
+    ],
+    "Here,": [
+      219
+    ],
+    "PRN": [
+      223,
+      245
+    ],
+    "construct": [
+      224
+    ],
+    "develop": [
+      226
+    ],
+    "roadmap": [
+      228
+    ],
+    "for": [
+      229
+    ],
+    "studying": [
+      230
+    ],
+    "taking": [
+      233
+    ],
+    "guidance": [
+      234
+    ],
+    "from": [
+      235
+    ],
+    "research.": [
+      241
+    ],
+    "We": [
+      242
+    ],
+    "variation": [
+      246
+    ],
+    "underlies": [
+      247
+    ],
+    "heterogeneity": [
+      248
+    ],
+    "competence": [
+      252
+    ],
+    "dynamics.": [
+      256
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2476157327",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-04-22T02:36:33.958366",
+  "created_date": "2016-08-23"
+}

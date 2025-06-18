@@ -1,0 +1,906 @@
+{
+  "id": "https://openalex.org/W2320349682",
+  "doi": "https://doi.org/10.1056/nejm199505183322008",
+  "title": "The Hypothalamic–Pituitary–Adrenal Axis and Immune-Mediated Inflammation",
+  "display_name": "The Hypothalamic–Pituitary–Adrenal Axis and Immune-Mediated Inflammation",
+  "publication_year": 1995,
+  "publication_date": "1995-05-18",
+  "ids": {
+    "openalex": "https://openalex.org/W2320349682",
+    "doi": "https://doi.org/10.1056/nejm199505183322008",
+    "mag": "2320349682",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/7715646"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1056/nejm199505183322008",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S62468778",
+      "display_name": "New England Journal of Medicine",
+      "issn_l": "0028-4793",
+      "issn": [
+        "0028-4793",
+        "1533-4406"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320239",
+      "host_organization_name": "Massachusetts Medical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320239"
+      ],
+      "host_organization_lineage_names": [
+        "Massachusetts Medical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5046164327",
+        "display_name": "George P. Chrousos",
+        "orcid": "https://orcid.org/0000-0002-3098-5264"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "George P. Chrousos",
+      "raw_affiliation_strings": [
+        "Developmental Endocrinology Branch, National Institute of Child Health and Human Development, National Institutes of Health, Bldg. 10, Rm. 10N262, Bethesda, MD 20892, where reprint requests should be addressed to Dr. Chrousos."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Developmental Endocrinology Branch, National Institute of Child Health and Human Development, National Institutes of Health, Bldg. 10, Rm. 10N262, Bethesda, MD 20892, where reprint requests should be addressed to Dr. Chrousos.",
+          "institution_ids": [
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5046164327"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I1299303238"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 19.734,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 2548,
+  "citation_normalized_percentile": {
+    "value": 0.99635,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "332",
+    "issue": "20",
+    "first_page": "1351",
+    "last_page": "1363"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12421",
+    "display_name": "Adrenal Hormones and Disorders",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2712",
+      "display_name": "Endocrinology, Diabetes and Metabolism"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12421",
+      "display_name": "Adrenal Hormones and Disorders",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.9989,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hypothalamic–pituitary–adrenal-axis",
+      "display_name": "Hypothalamic–pituitary–adrenal axis",
+      "score": 0.42562342
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780484280",
+      "wikidata": "https://www.wikidata.org/wiki/Q423185",
+      "display_name": "Cortisone",
+      "level": 2,
+      "score": 0.83645636
+    },
+    {
+      "id": "https://openalex.org/C2776914184",
+      "wikidata": "https://www.wikidata.org/wiki/Q101991",
+      "display_name": "Inflammation",
+      "level": 2,
+      "score": 0.65358245
+    },
+    {
+      "id": "https://openalex.org/C8891405",
+      "wikidata": "https://www.wikidata.org/wiki/Q1059",
+      "display_name": "Immune system",
+      "level": 2,
+      "score": 0.6078273
+    },
+    {
+      "id": "https://openalex.org/C2777575956",
+      "wikidata": "https://www.wikidata.org/wiki/Q187255",
+      "display_name": "Rheumatoid arthritis",
+      "level": 2,
+      "score": 0.55741876
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.5348308
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.42731783
+    },
+    {
+      "id": "https://openalex.org/C2779146795",
+      "wikidata": "https://www.wikidata.org/wiki/Q1369123",
+      "display_name": "Hypothalamic–pituitary–adrenal axis",
+      "level": 3,
+      "score": 0.42562342
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.41055435
+    },
+    {
+      "id": "https://openalex.org/C42407357",
+      "wikidata": "https://www.wikidata.org/wiki/Q521",
+      "display_name": "Physiology",
+      "level": 1,
+      "score": 0.39663908
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.34500402
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.319058
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007249",
+      "descriptor_name": "Inflammation",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000305",
+      "descriptor_name": "Adrenal Cortex Hormones",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000305",
+      "descriptor_name": "Adrenal Cortex Hormones",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007249",
+      "descriptor_name": "Inflammation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010907",
+      "descriptor_name": "Pituitary Hormones",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010907",
+      "descriptor_name": "Pituitary Hormones",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1056/nejm199505183322008",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S62468778",
+        "display_name": "New England Journal of Medicine",
+        "issn_l": "0028-4793",
+        "issn": [
+          "0028-4793",
+          "1533-4406"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320239",
+        "host_organization_name": "Massachusetts Medical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320239"
+        ],
+        "host_organization_lineage_names": [
+          "Massachusetts Medical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/7715646",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.66,
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 136,
+  "referenced_works": [
+    "https://openalex.org/W136462",
+    "https://openalex.org/W1485094869",
+    "https://openalex.org/W1508470956",
+    "https://openalex.org/W1544947113",
+    "https://openalex.org/W1553380369",
+    "https://openalex.org/W1567817045",
+    "https://openalex.org/W1568812849",
+    "https://openalex.org/W1586640515",
+    "https://openalex.org/W1603215585",
+    "https://openalex.org/W1718876362",
+    "https://openalex.org/W1917885463",
+    "https://openalex.org/W1965486589",
+    "https://openalex.org/W1966449090",
+    "https://openalex.org/W1969304196",
+    "https://openalex.org/W1970227708",
+    "https://openalex.org/W1970497986",
+    "https://openalex.org/W1970815880",
+    "https://openalex.org/W1974024454",
+    "https://openalex.org/W1974486772",
+    "https://openalex.org/W1975805041",
+    "https://openalex.org/W1977918131",
+    "https://openalex.org/W1979498709",
+    "https://openalex.org/W1980941499",
+    "https://openalex.org/W1982597476",
+    "https://openalex.org/W1982900958",
+    "https://openalex.org/W1984079392",
+    "https://openalex.org/W1988358428",
+    "https://openalex.org/W1989306597",
+    "https://openalex.org/W1991522670",
+    "https://openalex.org/W1998405496",
+    "https://openalex.org/W2000956334",
+    "https://openalex.org/W2001819210",
+    "https://openalex.org/W2003066587",
+    "https://openalex.org/W2003402283",
+    "https://openalex.org/W2003728409",
+    "https://openalex.org/W2007827647",
+    "https://openalex.org/W2008057379",
+    "https://openalex.org/W2008796307",
+    "https://openalex.org/W2009978910",
+    "https://openalex.org/W2010510192",
+    "https://openalex.org/W2010903330",
+    "https://openalex.org/W2013720618",
+    "https://openalex.org/W2013892891",
+    "https://openalex.org/W2014300512",
+    "https://openalex.org/W2015611430",
+    "https://openalex.org/W2019965219",
+    "https://openalex.org/W2021790162",
+    "https://openalex.org/W2024837798",
+    "https://openalex.org/W2029274601",
+    "https://openalex.org/W2029836713",
+    "https://openalex.org/W2029891256",
+    "https://openalex.org/W2031152730",
+    "https://openalex.org/W2031680867",
+    "https://openalex.org/W2032641816",
+    "https://openalex.org/W2034142534",
+    "https://openalex.org/W2035193854",
+    "https://openalex.org/W2036731884",
+    "https://openalex.org/W2042857419",
+    "https://openalex.org/W2046914561",
+    "https://openalex.org/W2047518337",
+    "https://openalex.org/W2048958074",
+    "https://openalex.org/W2050117365",
+    "https://openalex.org/W2050203944",
+    "https://openalex.org/W2050815672",
+    "https://openalex.org/W2053980980",
+    "https://openalex.org/W2054658792",
+    "https://openalex.org/W2054979170",
+    "https://openalex.org/W2062801707",
+    "https://openalex.org/W2064770851",
+    "https://openalex.org/W2065135850",
+    "https://openalex.org/W2065184114",
+    "https://openalex.org/W2067020163",
+    "https://openalex.org/W2067547922",
+    "https://openalex.org/W2068201049",
+    "https://openalex.org/W2068437805",
+    "https://openalex.org/W2072650176",
+    "https://openalex.org/W2073399860",
+    "https://openalex.org/W2074357767",
+    "https://openalex.org/W2075374417",
+    "https://openalex.org/W2076322984",
+    "https://openalex.org/W2079253504",
+    "https://openalex.org/W2080245361",
+    "https://openalex.org/W2083555314",
+    "https://openalex.org/W2083648263",
+    "https://openalex.org/W2085680573",
+    "https://openalex.org/W2087605866",
+    "https://openalex.org/W2089843101",
+    "https://openalex.org/W2089844518",
+    "https://openalex.org/W2090306290",
+    "https://openalex.org/W2090994113",
+    "https://openalex.org/W2091270313",
+    "https://openalex.org/W2091999380",
+    "https://openalex.org/W2092635728",
+    "https://openalex.org/W2093877568",
+    "https://openalex.org/W2094677029",
+    "https://openalex.org/W2100527993",
+    "https://openalex.org/W2101723917",
+    "https://openalex.org/W2108142672",
+    "https://openalex.org/W2113556355",
+    "https://openalex.org/W2118442033",
+    "https://openalex.org/W2124608949",
+    "https://openalex.org/W2128631462",
+    "https://openalex.org/W2132123340",
+    "https://openalex.org/W2133657830",
+    "https://openalex.org/W2145803099",
+    "https://openalex.org/W2149735330",
+    "https://openalex.org/W2167083884",
+    "https://openalex.org/W2173507839",
+    "https://openalex.org/W2183263828",
+    "https://openalex.org/W2223740900",
+    "https://openalex.org/W2248134512",
+    "https://openalex.org/W2267908660",
+    "https://openalex.org/W2288839881",
+    "https://openalex.org/W2313326603",
+    "https://openalex.org/W2325767108",
+    "https://openalex.org/W2396234794",
+    "https://openalex.org/W2406777583",
+    "https://openalex.org/W2415458543",
+    "https://openalex.org/W2416728049",
+    "https://openalex.org/W2419157585",
+    "https://openalex.org/W2425396734",
+    "https://openalex.org/W2469353474",
+    "https://openalex.org/W2471480576",
+    "https://openalex.org/W378857221",
+    "https://openalex.org/W4229511239",
+    "https://openalex.org/W4230071474",
+    "https://openalex.org/W4232735079",
+    "https://openalex.org/W4233328637",
+    "https://openalex.org/W4235577921",
+    "https://openalex.org/W4236131037",
+    "https://openalex.org/W4236785271",
+    "https://openalex.org/W4238929230",
+    "https://openalex.org/W4241186138",
+    "https://openalex.org/W4253084062",
+    "https://openalex.org/W4254365686",
+    "https://openalex.org/W4255304519"
+  ],
+  "related_works": [
+    "https://openalex.org/W45403062",
+    "https://openalex.org/W2793357073",
+    "https://openalex.org/W2349852277",
+    "https://openalex.org/W2312444290",
+    "https://openalex.org/W2072882993",
+    "https://openalex.org/W2071987260",
+    "https://openalex.org/W2039420502",
+    "https://openalex.org/W2035715594",
+    "https://openalex.org/W2005452444",
+    "https://openalex.org/W1967499565"
+  ],
+  "abstract_inverted_index": {
+    "Celsus": [
+      0
+    ],
+    "described": [
+      1
+    ],
+    "four": [
+      2
+    ],
+    "of": [
+      3,
+      8,
+      52
+    ],
+    "the": [
+      4,
+      16,
+      36,
+      42,
+      49,
+      53,
+      63,
+      78
+    ],
+    "five": [
+      5
+    ],
+    "cardinal": [
+      6
+    ],
+    "signs": [
+      7
+    ],
+    "inflammation": [
+      9
+    ],
+    "2000": [
+      10
+    ],
+    "years": [
+      11,
+      21
+    ],
+    "ago,": [
+      12,
+      22
+    ],
+    "and": [
+      13,
+      41,
+      44,
+      60,
+      66,
+      83,
+      87
+    ],
+    "Eustachio": [
+      14
+    ],
+    "discovered": [
+      15
+    ],
+    "adrenal": [
+      17,
+      37,
+      54
+    ],
+    "glands": [
+      18,
+      38
+    ],
+    "almost": [
+      19
+    ],
+    "500": [
+      20
+    ],
+    "but": [
+      23
+    ],
+    "not": [
+      24
+    ],
+    "until": [
+      25
+    ],
+    "1936": [
+      26
+    ],
+    "did": [
+      27
+    ],
+    "Selye": [
+      28
+    ],
+    "note": [
+      29
+    ],
+    "that": [
+      30,
+      90
+    ],
+    "in": [
+      31,
+      62,
+      81
+    ],
+    "rats": [
+      32
+    ],
+    "exposed": [
+      33
+    ],
+    "to": [
+      34,
+      68
+    ],
+    "stressors,": [
+      35
+    ],
+    "were": [
+      39
+    ],
+    "enlarged,": [
+      40
+    ],
+    "thymus": [
+      43
+    ],
+    "lymph": [
+      45
+    ],
+    "nodes": [
+      46
+    ],
+    "shrunken.13": [
+      47
+    ],
+    "Cortisone,": [
+      48
+    ],
+    "active": [
+      50
+    ],
+    "principle": [
+      51
+    ],
+    "glands,": [
+      55
+    ],
+    "was": [
+      56
+    ],
+    "isolated": [
+      57
+    ],
+    "by": [
+      58
+    ],
+    "Kendall": [
+      59
+    ],
+    "Reichstein": [
+      61
+    ],
+    "late": [
+      64
+    ],
+    "1940s": [
+      65
+    ],
+    "shown": [
+      67
+    ],
+    "suppress": [
+      69
+    ],
+    "immune": [
+      70
+    ],
+    "organs.": [
+      71
+    ],
+    "These": [
+      72
+    ],
+    "scientists,": [
+      73
+    ],
+    "along": [
+      74
+    ],
+    "with": [
+      75
+    ],
+    "Hench,": [
+      76
+    ],
+    "received": [
+      77
+    ],
+    "Nobel": [
+      79
+    ],
+    "Prize": [
+      80
+    ],
+    "Physiology": [
+      82
+    ],
+    "Medicine,": [
+      84
+    ],
+    "after": [
+      85
+    ],
+    "Hench": [
+      86
+    ],
+    "colleagues": [
+      88
+    ],
+    "showed": [
+      89
+    ],
+    "cortisone": [
+      91
+    ],
+    "could": [
+      92
+    ],
+    "ameliorate": [
+      93
+    ],
+    "rheumatoid": [
+      94
+    ],
+    "arthritis.4,5": [
+      95
+    ],
+    "In": [
+      96
+    ],
+    "recent": [
+      97
+    ],
+    ".": [
+      98,
+      99,
+      100
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2320349682",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 50
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 60
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 57
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 71
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 77
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 82
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 86
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 78
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 90
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 79
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 99
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 95
+    }
+  ],
+  "updated_date": "2025-06-11T04:23:40.296794",
+  "created_date": "2016-06-24"
+}

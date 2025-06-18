@@ -1,0 +1,960 @@
+{
+  "id": "https://openalex.org/W2064663915",
+  "doi": "https://doi.org/10.1007/s10654-013-9769-z",
+  "title": "Serum 25-hydroxyvitamin D levels and incident diabetes mellitus type 2: a competing risk analysis in a large population-based cohort of older adults",
+  "display_name": "Serum 25-hydroxyvitamin D levels and incident diabetes mellitus type 2: a competing risk analysis in a large population-based cohort of older adults",
+  "publication_year": 2013,
+  "publication_date": "2013-01-25",
+  "ids": {
+    "openalex": "https://openalex.org/W2064663915",
+    "doi": "https://doi.org/10.1007/s10654-013-9769-z",
+    "mag": "2064663915",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/23354985"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/s10654-013-9769-z",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S48690275",
+      "display_name": "European Journal of Epidemiology",
+      "issn_l": "0393-2990",
+      "issn": [
+        "0393-2990",
+        "1573-7284"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310319900"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "Springer Science+Business Media"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5008576347",
+        "display_name": "Ben Schöttker",
+        "orcid": "https://orcid.org/0000-0002-1217-4521"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ben Schöttker",
+      "raw_affiliation_strings": [
+        "GERMAN CANCER RESEARCH CENTER"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GERMAN CANCER RESEARCH CENTER",
+          "institution_ids": [
+            "https://openalex.org/I17937529"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5080149439",
+        "display_name": "Christian Herder",
+        "orcid": "https://orcid.org/0000-0002-2050-093X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210152419",
+          "display_name": "Deutsches Diabetes-Zentrum e.V.",
+          "ror": "https://ror.org/04ews3245",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I315704651",
+            "https://openalex.org/I4210152419",
+            "https://openalex.org/I44260953"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christian Herder",
+      "raw_affiliation_strings": [
+        "Leibniz Center for Diabetes Research at Heinrich Heine University Düsseldorf"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Leibniz Center for Diabetes Research at Heinrich Heine University Düsseldorf",
+          "institution_ids": [
+            "https://openalex.org/I44260953",
+            "https://openalex.org/I4210152419"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085471666",
+        "display_name": "Dietrich Rothenbacher",
+        "orcid": "https://orcid.org/0000-0002-3563-2791"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Dietrich Rothenbacher",
+      "raw_affiliation_strings": [
+        "Ulm University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Ulm University",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031775324",
+        "display_name": "Laura Perna",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Laura Perna",
+      "raw_affiliation_strings": [
+        "GERMAN CANCER RESEARCH CENTER"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GERMAN CANCER RESEARCH CENTER",
+          "institution_ids": [
+            "https://openalex.org/I17937529"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5066665224",
+        "display_name": "Heiko Müller",
+        "orcid": "https://orcid.org/0000-0001-9873-3146"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Heiko Müller",
+      "raw_affiliation_strings": [
+        "GERMAN CANCER RESEARCH CENTER"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GERMAN CANCER RESEARCH CENTER",
+          "institution_ids": [
+            "https://openalex.org/I17937529"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5077206620",
+        "display_name": "Hermann Brenner",
+        "orcid": "https://orcid.org/0000-0002-6129-1572"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hermann Brenner",
+      "raw_affiliation_strings": [
+        "GERMAN CANCER RESEARCH CENTER"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GERMAN CANCER RESEARCH CENTER",
+          "institution_ids": [
+            "https://openalex.org/I17937529"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3890,
+    "currency": "EUR",
+    "value_usd": 4990
+  },
+  "apc_paid": null,
+  "fwci": 5.842,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 79,
+  "citation_normalized_percentile": {
+    "value": 0.999928,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "28",
+    "issue": "3",
+    "first_page": "267",
+    "last_page": "275"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10277",
+    "display_name": "Vitamin D Research Studies",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2734",
+      "display_name": "Pathology and Forensic Medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10277",
+      "display_name": "Vitamin D Research Studies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12267",
+      "display_name": "Diet and metabolism studies",
+      "score": 0.9974,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10866",
+      "display_name": "Nutritional Studies and Diet",
+      "score": 0.9908,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.95096904
+    },
+    {
+      "id": "https://openalex.org/C555293320",
+      "wikidata": "https://www.wikidata.org/wiki/Q12206",
+      "display_name": "Diabetes mellitus",
+      "level": 2,
+      "score": 0.7772846
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.6831491
+    },
+    {
+      "id": "https://openalex.org/C207103383",
+      "wikidata": "https://www.wikidata.org/wiki/Q3930246",
+      "display_name": "Hazard ratio",
+      "level": 3,
+      "score": 0.6306934
+    },
+    {
+      "id": "https://openalex.org/C72563966",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303415",
+      "display_name": "Cohort",
+      "level": 2,
+      "score": 0.58940804
+    },
+    {
+      "id": "https://openalex.org/C124490489",
+      "wikidata": "https://www.wikidata.org/wiki/Q7936963",
+      "display_name": "Vitamin D and neurology",
+      "level": 2,
+      "score": 0.5691056
+    },
+    {
+      "id": "https://openalex.org/C201903717",
+      "wikidata": "https://www.wikidata.org/wiki/Q1778788",
+      "display_name": "Cohort study",
+      "level": 2,
+      "score": 0.5487571
+    },
+    {
+      "id": "https://openalex.org/C50382708",
+      "wikidata": "https://www.wikidata.org/wiki/Q223218",
+      "display_name": "Proportional hazards model",
+      "level": 2,
+      "score": 0.5429951
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.51316744
+    },
+    {
+      "id": "https://openalex.org/C61511704",
+      "wikidata": "https://www.wikidata.org/wiki/Q1671857",
+      "display_name": "Incidence (geometry)",
+      "level": 2,
+      "score": 0.49001065
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.40893865
+    },
+    {
+      "id": "https://openalex.org/C44249647",
+      "wikidata": "https://www.wikidata.org/wiki/Q208498",
+      "display_name": "Confidence interval",
+      "level": 2,
+      "score": 0.40267032
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.05430326
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003924",
+      "descriptor_name": "Diabetes Mellitus, Type 2",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014807",
+      "descriptor_name": "Vitamin D",
+      "qualifier_ui": "Q000031",
+      "qualifier_name": "analogs & derivatives",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014808",
+      "descriptor_name": "Vitamin D Deficiency",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002097",
+      "descriptor_name": "C-Reactive Protein",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002097",
+      "descriptor_name": "C-Reactive Protein",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003924",
+      "descriptor_name": "Diabetes Mellitus, Type 2",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003924",
+      "descriptor_name": "Diabetes Mellitus, Type 2",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003924",
+      "descriptor_name": "Diabetes Mellitus, Type 2",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004305",
+      "descriptor_name": "Dose-Response Relationship, Drug",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005858",
+      "descriptor_name": "Germany",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005858",
+      "descriptor_name": "Germany",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015994",
+      "descriptor_name": "Incidence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007674",
+      "descriptor_name": "Kidney Diseases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007674",
+      "descriptor_name": "Kidney Diseases",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011159",
+      "descriptor_name": "Population Surveillance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016016",
+      "descriptor_name": "Proportional Hazards Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011446",
+      "descriptor_name": "Prospective Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012307",
+      "descriptor_name": "Risk Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017678",
+      "descriptor_name": "Sex Distribution",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012737",
+      "descriptor_name": "Sex Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012959",
+      "descriptor_name": "Socioeconomic Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014807",
+      "descriptor_name": "Vitamin D",
+      "qualifier_ui": "Q000008",
+      "qualifier_name": "administration & dosage",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014807",
+      "descriptor_name": "Vitamin D",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014807",
+      "descriptor_name": "Vitamin D",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014808",
+      "descriptor_name": "Vitamin D Deficiency",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014808",
+      "descriptor_name": "Vitamin D Deficiency",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s10654-013-9769-z",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S48690275",
+        "display_name": "European Journal of Epidemiology",
+        "issn_l": "0393-2990",
+        "issn": [
+          "0393-2990",
+          "1573-7284"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310319900"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "Springer Science+Business Media"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://zenodo.org/record/3412726",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400562",
+        "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [
+          "European Organization for Nuclear Research"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/23354985",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.84
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 49,
+  "referenced_works": [
+    "https://openalex.org/W1504595578",
+    "https://openalex.org/W1567051068",
+    "https://openalex.org/W1583951223",
+    "https://openalex.org/W1588814193",
+    "https://openalex.org/W1605721024",
+    "https://openalex.org/W1849648692",
+    "https://openalex.org/W1918242454",
+    "https://openalex.org/W1966714873",
+    "https://openalex.org/W1966981302",
+    "https://openalex.org/W1975683491",
+    "https://openalex.org/W1976416832",
+    "https://openalex.org/W1987930442",
+    "https://openalex.org/W1995980728",
+    "https://openalex.org/W1999331118",
+    "https://openalex.org/W2018669479",
+    "https://openalex.org/W2019987320",
+    "https://openalex.org/W2027169698",
+    "https://openalex.org/W2029785070",
+    "https://openalex.org/W2032757839",
+    "https://openalex.org/W2036053574",
+    "https://openalex.org/W2037749462",
+    "https://openalex.org/W2045212491",
+    "https://openalex.org/W2062621009",
+    "https://openalex.org/W2070058460",
+    "https://openalex.org/W2074961980",
+    "https://openalex.org/W2088832793",
+    "https://openalex.org/W2095162131",
+    "https://openalex.org/W2099094363",
+    "https://openalex.org/W2103777411",
+    "https://openalex.org/W2108513094",
+    "https://openalex.org/W2126957126",
+    "https://openalex.org/W2127386787",
+    "https://openalex.org/W2129447625",
+    "https://openalex.org/W2131909681",
+    "https://openalex.org/W2131946475",
+    "https://openalex.org/W2132885798",
+    "https://openalex.org/W2140694890",
+    "https://openalex.org/W2149734034",
+    "https://openalex.org/W2149949422",
+    "https://openalex.org/W2150130690",
+    "https://openalex.org/W2150367899",
+    "https://openalex.org/W2156384298",
+    "https://openalex.org/W2158741047",
+    "https://openalex.org/W2159761131",
+    "https://openalex.org/W2167991179",
+    "https://openalex.org/W2181797324",
+    "https://openalex.org/W2185647118",
+    "https://openalex.org/W2520432709",
+    "https://openalex.org/W4232215346"
+  ],
+  "related_works": [
+    "https://openalex.org/W4254083861",
+    "https://openalex.org/W4210646467",
+    "https://openalex.org/W3114266572",
+    "https://openalex.org/W2994686985",
+    "https://openalex.org/W2913113213",
+    "https://openalex.org/W2793335702",
+    "https://openalex.org/W2792916732",
+    "https://openalex.org/W2792027122",
+    "https://openalex.org/W2154948599",
+    "https://openalex.org/W2090763189"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2064663915",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2025-04-23T11:09:43.317209",
+  "created_date": "2016-06-24"
+}

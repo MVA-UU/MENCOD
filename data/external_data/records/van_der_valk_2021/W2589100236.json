@@ -1,0 +1,1511 @@
+{
+  "id": "https://openalex.org/W2589100236",
+  "doi": "https://doi.org/10.3389/fpsyg.2017.00213",
+  "title": "Heart Rate Variability and Cardiac Vagal Tone in Psychophysiological Research – Recommendations for Experiment Planning, Data Analysis, and Data Reporting",
+  "display_name": "Heart Rate Variability and Cardiac Vagal Tone in Psychophysiological Research – Recommendations for Experiment Planning, Data Analysis, and Data Reporting",
+  "publication_year": 2017,
+  "publication_date": "2017-02-19",
+  "ids": {
+    "openalex": "https://openalex.org/W2589100236",
+    "doi": "https://doi.org/10.3389/fpsyg.2017.00213",
+    "mag": "2589100236",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/28265249",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5316555"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3389/fpsyg.2017.00213",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00213/pdf",
+    "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+        "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+        "Frontiers Media"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00213/pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5077975049",
+        "display_name": "Sylvain Laborde",
+        "orcid": "https://orcid.org/0000-0003-4842-6548"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210105918",
+          "display_name": "Normandie Université",
+          "ror": "https://ror.org/01k40cz91",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I137533716",
+          "display_name": "German Sport University Cologne",
+          "ror": "https://ror.org/0189raq88",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I137533716"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "FR"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Sylvain Laborde",
+      "raw_affiliation_strings": [
+        "Institute of Psychology, Department of Performance Psychology, German Sport University Cologne, Cologne, Germany",
+        "Normandie Université Caen, UFR STAPS, EA 4260, Caen, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Normandie Université Caen, UFR STAPS, EA 4260, Caen, France",
+          "institution_ids": [
+            "https://openalex.org/I4210105918"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Psychology, Department of Performance Psychology, German Sport University Cologne, Cologne, Germany",
+          "institution_ids": [
+            "https://openalex.org/I137533716"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5079202062",
+        "display_name": "Emma Mosley",
+        "orcid": "https://orcid.org/0000-0002-3669-0379"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I9300472",
+          "display_name": "Bournemouth University",
+          "ror": "https://ror.org/05wwcw481",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I9300472"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I156118397",
+          "display_name": "Southampton Solent University",
+          "ror": "https://ror.org/05xydav19",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I156118397"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Emma Mosley",
+      "raw_affiliation_strings": [
+        "Bournemouth University, Bournemouth, UK",
+        "Southampton Solent University, Southampton, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bournemouth University, Bournemouth, UK",
+          "institution_ids": [
+            "https://openalex.org/I9300472"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Southampton Solent University, Southampton, UK",
+          "institution_ids": [
+            "https://openalex.org/I156118397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5009459441",
+        "display_name": "Julian F. Thayer",
+        "orcid": "https://orcid.org/0000-0001-9385-3421"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I52357470",
+          "display_name": "The Ohio State University",
+          "ror": "https://ror.org/00rs6vg23",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I52357470"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Julian F. Thayer",
+      "raw_affiliation_strings": [
+        "Ohio State University, Columbus, OH, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Ohio State University, Columbus, OH, USA",
+          "institution_ids": [
+            "https://openalex.org/I52357470"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 4,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5077975049"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210105918",
+    "https://openalex.org/I137533716"
+  ],
+  "apc_list": {
+    "value": 2950,
+    "currency": "USD",
+    "value_usd": 2950
+  },
+  "apc_paid": {
+    "value": 2950,
+    "currency": "USD",
+    "value_usd": 2950
+  },
+  "fwci": 24.188,
+  "has_fulltext": false,
+  "cited_by_count": 1701,
+  "citation_normalized_percentile": {
+    "value": 0.999481,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "08",
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10745",
+    "display_name": "Heart Rate Variability and Autonomic Control",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2705",
+      "display_name": "Cardiology and Cardiovascular Medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10745",
+      "display_name": "Heart Rate Variability and Autonomic Control",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11667",
+      "display_name": "Advanced Chemical Sensor Technologies",
+      "score": 0.9782,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13283",
+      "display_name": "Mental Health Research Topics",
+      "score": 0.9689,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/vagal-tone",
+      "display_name": "Vagal Tone",
+      "score": 0.68091965
+    },
+    {
+      "id": "https://openalex.org/keywords/tone",
+      "display_name": "Tone (literature)",
+      "score": 0.6112553
+    },
+    {
+      "id": "https://openalex.org/keywords/psychophysiology",
+      "display_name": "Psychophysiology",
+      "score": 0.4440171
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71635504",
+      "wikidata": "https://www.wikidata.org/wiki/Q933954",
+      "display_name": "Heart rate variability",
+      "level": 4,
+      "score": 0.8000589
+    },
+    {
+      "id": "https://openalex.org/C10928738",
+      "wikidata": "https://www.wikidata.org/wiki/Q1195426",
+      "display_name": "Vagal tone",
+      "level": 5,
+      "score": 0.68091965
+    },
+    {
+      "id": "https://openalex.org/C2780451532",
+      "wikidata": "https://www.wikidata.org/wiki/Q759676",
+      "display_name": "Task (project management)",
+      "level": 2,
+      "score": 0.6353208
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.6142116
+    },
+    {
+      "id": "https://openalex.org/C2780583480",
+      "wikidata": "https://www.wikidata.org/wiki/Q1366327",
+      "display_name": "Tone (literature)",
+      "level": 2,
+      "score": 0.6112553
+    },
+    {
+      "id": "https://openalex.org/C180747234",
+      "wikidata": "https://www.wikidata.org/wiki/Q23373",
+      "display_name": "Cognitive psychology",
+      "level": 1,
+      "score": 0.48994368
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.47583818
+    },
+    {
+      "id": "https://openalex.org/C23677625",
+      "wikidata": "https://www.wikidata.org/wiki/Q1428943",
+      "display_name": "Psychophysiology",
+      "level": 2,
+      "score": 0.4440171
+    },
+    {
+      "id": "https://openalex.org/C75630572",
+      "wikidata": "https://www.wikidata.org/wiki/Q538904",
+      "display_name": "Applied psychology",
+      "level": 1,
+      "score": 0.3441668
+    },
+    {
+      "id": "https://openalex.org/C2777953023",
+      "wikidata": "https://www.wikidata.org/wiki/Q1073121",
+      "display_name": "Heart rate",
+      "level": 3,
+      "score": 0.26804686
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.20861393
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.16312233
+    },
+    {
+      "id": "https://openalex.org/C84393581",
+      "wikidata": "https://www.wikidata.org/wiki/Q82642",
+      "display_name": "Blood pressure",
+      "level": 2,
+      "score": 0.08383712
+    },
+    {
+      "id": "https://openalex.org/C142362112",
+      "wikidata": "https://www.wikidata.org/wiki/Q735",
+      "display_name": "Art",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C124952713",
+      "wikidata": "https://www.wikidata.org/wiki/Q8242",
+      "display_name": "Literature",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C187736073",
+      "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+      "display_name": "Management",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C126838900",
+      "wikidata": "https://www.wikidata.org/wiki/Q77604",
+      "display_name": "Radiology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 7,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3389/fpsyg.2017.00213",
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00213/pdf",
+      "source": {
+        "id": "https://openalex.org/S9692511",
+        "display_name": "Frontiers in Psychology",
+        "issn_l": "1664-1078",
+        "issn": [
+          "1664-1078"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320527",
+        "host_organization_name": "Frontiers Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320527"
+        ],
+        "host_organization_lineage_names": [
+          "Frontiers Media"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5316555",
+      "pdf_url": "https://europepmc.org/articles/pmc5316555?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://escholarship.org/uc/item/499359v4",
+      "pdf_url": "https://escholarship.org/content/qt499359v4/qt499359v4.pdf?t=s7rcca",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [
+          "California Digital Library"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://pure.solent.ac.uk/ws/files/10717312/fpsyg_08_00213.pdf",
+      "pdf_url": "https://pure.solent.ac.uk/ws/files/10717312/fpsyg_08_00213.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402589",
+        "display_name": "Solent University Research Portal (Solent University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I156118397",
+        "host_organization_name": "Southampton Solent University",
+        "host_organization_lineage": [
+          "https://openalex.org/I156118397"
+        ],
+        "host_organization_lineage_names": [
+          "Southampton Solent University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://pure.solent.ac.uk/en/publications/572212e7-21b3-4606-9942-409b453030b1",
+      "pdf_url": "https://pure.solent.ac.uk/files/10717312/fpsyg_08_00213.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402589",
+        "display_name": "Solent University Research Portal (Solent University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I156118397",
+        "host_organization_name": "Southampton Solent University",
+        "host_organization_lineage": [
+          "https://openalex.org/I156118397"
+        ],
+        "host_organization_lineage_names": [
+          "Southampton Solent University"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5316555",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/28265249",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3389/fpsyg.2017.00213",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2017.00213/pdf",
+    "source": {
+      "id": "https://openalex.org/S9692511",
+      "display_name": "Frontiers in Psychology",
+      "issn_l": "1664-1078",
+      "issn": [
+        "1664-1078"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+        "Frontiers Media"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 149,
+  "referenced_works": [
+    "https://openalex.org/W1484805052",
+    "https://openalex.org/W1514648653",
+    "https://openalex.org/W1518247376",
+    "https://openalex.org/W1539845497",
+    "https://openalex.org/W1564206159",
+    "https://openalex.org/W1569636713",
+    "https://openalex.org/W172191733",
+    "https://openalex.org/W1798206806",
+    "https://openalex.org/W1854129652",
+    "https://openalex.org/W1863864373",
+    "https://openalex.org/W188715143",
+    "https://openalex.org/W1892542784",
+    "https://openalex.org/W1929108078",
+    "https://openalex.org/W1935248124",
+    "https://openalex.org/W1947506345",
+    "https://openalex.org/W1955497802",
+    "https://openalex.org/W1967269625",
+    "https://openalex.org/W1968801061",
+    "https://openalex.org/W1969980989",
+    "https://openalex.org/W1971072238",
+    "https://openalex.org/W1972200139",
+    "https://openalex.org/W1972845148",
+    "https://openalex.org/W1974249492",
+    "https://openalex.org/W1977491630",
+    "https://openalex.org/W1977935700",
+    "https://openalex.org/W1981020864",
+    "https://openalex.org/W1985714831",
+    "https://openalex.org/W1988752724",
+    "https://openalex.org/W1990044317",
+    "https://openalex.org/W1990878541",
+    "https://openalex.org/W1996168968",
+    "https://openalex.org/W1997293964",
+    "https://openalex.org/W1997588201",
+    "https://openalex.org/W1998645279",
+    "https://openalex.org/W2004056298",
+    "https://openalex.org/W2004691622",
+    "https://openalex.org/W2004935231",
+    "https://openalex.org/W2006141308",
+    "https://openalex.org/W2006625513",
+    "https://openalex.org/W2007606901",
+    "https://openalex.org/W2009357877",
+    "https://openalex.org/W2010524207",
+    "https://openalex.org/W2010648530",
+    "https://openalex.org/W2012462205",
+    "https://openalex.org/W2013891149",
+    "https://openalex.org/W2015744107",
+    "https://openalex.org/W2018802643",
+    "https://openalex.org/W2027566116",
+    "https://openalex.org/W2030513211",
+    "https://openalex.org/W203366403",
+    "https://openalex.org/W2033941978",
+    "https://openalex.org/W2034557419",
+    "https://openalex.org/W2038476114",
+    "https://openalex.org/W2039924512",
+    "https://openalex.org/W2040183537",
+    "https://openalex.org/W2041180321",
+    "https://openalex.org/W2041737922",
+    "https://openalex.org/W2043000362",
+    "https://openalex.org/W2046734432",
+    "https://openalex.org/W2048511709",
+    "https://openalex.org/W2048731983",
+    "https://openalex.org/W2051555860",
+    "https://openalex.org/W2051868372",
+    "https://openalex.org/W2052690259",
+    "https://openalex.org/W2053725727",
+    "https://openalex.org/W2054965146",
+    "https://openalex.org/W2057266561",
+    "https://openalex.org/W2068925336",
+    "https://openalex.org/W2070481912",
+    "https://openalex.org/W2072500831",
+    "https://openalex.org/W2073800110",
+    "https://openalex.org/W2075538930",
+    "https://openalex.org/W2079480282",
+    "https://openalex.org/W2081685256",
+    "https://openalex.org/W2082227074",
+    "https://openalex.org/W2087484885",
+    "https://openalex.org/W2088246070",
+    "https://openalex.org/W2088467229",
+    "https://openalex.org/W2091446457",
+    "https://openalex.org/W2095233676",
+    "https://openalex.org/W2095459971",
+    "https://openalex.org/W2097319089",
+    "https://openalex.org/W2097431774",
+    "https://openalex.org/W2099714128",
+    "https://openalex.org/W2099756521",
+    "https://openalex.org/W2099897417",
+    "https://openalex.org/W2103777983",
+    "https://openalex.org/W2107161633",
+    "https://openalex.org/W2109239693",
+    "https://openalex.org/W2110230818",
+    "https://openalex.org/W2113269449",
+    "https://openalex.org/W2118573445",
+    "https://openalex.org/W2118624949",
+    "https://openalex.org/W2118930644",
+    "https://openalex.org/W2121009859",
+    "https://openalex.org/W2121588628",
+    "https://openalex.org/W2122464624",
+    "https://openalex.org/W2124252343",
+    "https://openalex.org/W2124517301",
+    "https://openalex.org/W2125065795",
+    "https://openalex.org/W2125374055",
+    "https://openalex.org/W2126518215",
+    "https://openalex.org/W2128090166",
+    "https://openalex.org/W2128107556",
+    "https://openalex.org/W2128112210",
+    "https://openalex.org/W2130111393",
+    "https://openalex.org/W2130974785",
+    "https://openalex.org/W2133589238",
+    "https://openalex.org/W2135519336",
+    "https://openalex.org/W2137440205",
+    "https://openalex.org/W2138341879",
+    "https://openalex.org/W2139741554",
+    "https://openalex.org/W2146272199",
+    "https://openalex.org/W2149410949",
+    "https://openalex.org/W2149612743",
+    "https://openalex.org/W2150364995",
+    "https://openalex.org/W2152707530",
+    "https://openalex.org/W2154549730",
+    "https://openalex.org/W2155549048",
+    "https://openalex.org/W2157846167",
+    "https://openalex.org/W2162033213",
+    "https://openalex.org/W2163717488",
+    "https://openalex.org/W2163918378",
+    "https://openalex.org/W2166580860",
+    "https://openalex.org/W2167262287",
+    "https://openalex.org/W2167263515",
+    "https://openalex.org/W2167928942",
+    "https://openalex.org/W2169543271",
+    "https://openalex.org/W2171246688",
+    "https://openalex.org/W2171562184",
+    "https://openalex.org/W2202628133",
+    "https://openalex.org/W2258745636",
+    "https://openalex.org/W2277469691",
+    "https://openalex.org/W2298185395",
+    "https://openalex.org/W2340772336",
+    "https://openalex.org/W2345797616",
+    "https://openalex.org/W2347552741",
+    "https://openalex.org/W2419517449",
+    "https://openalex.org/W2419540391",
+    "https://openalex.org/W2441429072",
+    "https://openalex.org/W2469606930",
+    "https://openalex.org/W2560234115",
+    "https://openalex.org/W2911954375",
+    "https://openalex.org/W3110298225",
+    "https://openalex.org/W4206527217",
+    "https://openalex.org/W4240402692",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W4388329445",
+    "https://openalex.org/W50605923"
+  ],
+  "related_works": [
+    "https://openalex.org/W4387078541",
+    "https://openalex.org/W4306670546",
+    "https://openalex.org/W3207325246",
+    "https://openalex.org/W3144186149",
+    "https://openalex.org/W2954543930",
+    "https://openalex.org/W2537191409",
+    "https://openalex.org/W2340642073",
+    "https://openalex.org/W2236535974",
+    "https://openalex.org/W2171569522",
+    "https://openalex.org/W2066066456"
+  ],
+  "abstract_inverted_index": {
+    "Psychophysiological": [
+      0
+    ],
+    "research": [
+      1,
+      156
+    ],
+    "integrating": [
+      2
+    ],
+    "heart": [
+      3
+    ],
+    "rate": [
+      4
+    ],
+    "variability": [
+      5
+    ],
+    "(HRV)": [
+      6
+    ],
+    "has": [
+      7
+    ],
+    "increased": [
+      8
+    ],
+    "during": [
+      9
+    ],
+    "the": [
+      10,
+      16,
+      32,
+      35,
+      57,
+      73,
+      97,
+      143
+    ],
+    "last": [
+      11
+    ],
+    "two": [
+      12,
+      126
+    ],
+    "decades,": [
+      13
+    ],
+    "particularly": [
+      14
+    ],
+    "given": [
+      15
+    ],
+    "fact": [
+      17,
+      74
+    ],
+    "that": [
+      18,
+      104,
+      234
+    ],
+    "HRV": [
+      19,
+      67,
+      102,
+      134,
+      153,
+      240
+    ],
+    "is": [
+      20,
+      42,
+      76
+    ],
+    "able": [
+      21,
+      166
+    ],
+    "to": [
+      22,
+      39,
+      44,
+      87,
+      114,
+      152,
+      158,
+      164,
+      167,
+      175,
+      179,
+      196,
+      207,
+      214,
+      256,
+      258
+    ],
+    "index": [
+      23
+    ],
+    "cardiac": [
+      24,
+      40,
+      242
+    ],
+    "vagal": [
+      25,
+      28,
+      243
+    ],
+    "tone.": [
+      26
+    ],
+    "Cardiac": [
+      27
+    ],
+    "tone,": [
+      29
+    ],
+    "which": [
+      30,
+      171
+    ],
+    "represents": [
+      31
+    ],
+    "contribution": [
+      33
+    ],
+    "of": [
+      34,
+      66,
+      92,
+      99,
+      101,
+      122,
+      142
+    ],
+    "parasympathetic": [
+      36
+    ],
+    "nervous": [
+      37
+    ],
+    "system": [
+      38
+    ],
+    "regulation,": [
+      41
+    ],
+    "acknowledged": [
+      43
+    ],
+    "be": [
+      45,
+      106,
+      112,
+      159,
+      165
+    ],
+    "linked": [
+      46
+    ],
+    "with": [
+      47,
+      72,
+      218,
+      239
+    ],
+    "many": [
+      48,
+      88,
+      148
+    ],
+    "phenomena": [
+      49
+    ],
+    "relevant": [
+      50
+    ],
+    "for": [
+      51,
+      253
+    ],
+    "psychophysiological": [
+      52,
+      155,
+      216
+    ],
+    "research,": [
+      53,
+      135
+    ],
+    "including": [
+      54
+    ],
+    "self-regulation": [
+      55
+    ],
+    "at": [
+      56
+    ],
+    "cognitive,": [
+      58
+    ],
+    "emotional,": [
+      59
+    ],
+    "social,": [
+      60
+    ],
+    "and": [
+      61,
+      69,
+      80,
+      136,
+      178,
+      202,
+      220,
+      228,
+      241
+    ],
+    "health": [
+      62
+    ],
+    "levels.": [
+      63
+    ],
+    "The": [
+      64
+    ],
+    "ease": [
+      65,
+      91
+    ],
+    "collection": [
+      68
+    ],
+    "measurement": [
+      70,
+      123
+    ],
+    "coupled": [
+      71
+    ],
+    "it": [
+      75,
+      84,
+      173
+    ],
+    "relatively": [
+      77
+    ],
+    "affordable,": [
+      78
+    ],
+    "non-invasive": [
+      79
+    ],
+    "pain": [
+      81
+    ],
+    "free": [
+      82
+    ],
+    "makes": [
+      83,
+      172
+    ],
+    "widely": [
+      85
+    ],
+    "accessible": [
+      86
+    ],
+    "researchers.": [
+      89
+    ],
+    "This": [
+      90,
+      231
+    ],
+    "access": [
+      93
+    ],
+    "should": [
+      94
+    ],
+    "not": [
+      95
+    ],
+    "obscure": [
+      96
+    ],
+    "difficulty": [
+      98
+    ],
+    "interpretation": [
+      100
+    ],
+    "findings": [
+      103,
+      177,
+      255
+    ],
+    "can": [
+      105,
+      111
+    ],
+    "easily": [
+      107
+    ],
+    "misconstrued,": [
+      108
+    ],
+    "however,": [
+      109
+    ],
+    "this": [
+      110,
+      204,
+      209
+    ],
+    "controlled": [
+      113
+    ],
+    "some": [
+      115
+    ],
+    "extent": [
+      116
+    ],
+    "through": [
+      117
+    ],
+    "correct": [
+      118
+    ],
+    "methodological": [
+      119,
+      149,
+      185,
+      249
+    ],
+    "processes.": [
+      120
+    ],
+    "Standards": [
+      121
+    ],
+    "were": [
+      124
+    ],
+    "developed": [
+      125
+    ],
+    "decades": [
+      127
+    ],
+    "ago": [
+      128
+    ],
+    "by": [
+      129
+    ],
+    "a": [
+      130,
+      198,
+      237
+    ],
+    "Task": [
+      131,
+      144
+    ],
+    "Force": [
+      132,
+      145
+    ],
+    "within": [
+      133
+    ],
+    "recent": [
+      137
+    ],
+    "reviews": [
+      138
+    ],
+    "updated": [
+      139
+    ],
+    "several": [
+      140
+    ],
+    "aspects": [
+      141,
+      150
+    ],
+    "paper.": [
+      146
+    ],
+    "However,": [
+      147
+    ],
+    "related": [
+      151
+    ],
+    "in": [
+      154,
+      191,
+      251,
+      261
+    ],
+    "have": [
+      157,
+      187
+    ],
+    "considered": [
+      160
+    ],
+    "if": [
+      161
+    ],
+    "one": [
+      162
+    ],
+    "aims": [
+      163,
+      206
+    ],
+    "draw": [
+      168
+    ],
+    "sound": [
+      169
+    ],
+    "conclusions,": [
+      170
+    ],
+    "difficult": [
+      174,
+      195
+    ],
+    "interpret": [
+      176
+    ],
+    "compare": [
+      180
+    ],
+    "results": [
+      181
+    ],
+    "across": [
+      182
+    ],
+    "laboratories.": [
+      183
+    ],
+    "Those": [
+      184
+    ],
+    "issues": [
+      186
+    ],
+    "mainly": [
+      188
+    ],
+    "been": [
+      189
+    ],
+    "discussed": [
+      190
+    ],
+    "separate": [
+      192
+    ],
+    "outlets,": [
+      193
+    ],
+    "making": [
+      194
+    ],
+    "get": [
+      197
+    ],
+    "grasp": [
+      199
+    ],
+    "on": [
+      200
+    ],
+    "them,": [
+      201
+    ],
+    "thus": [
+      203
+    ],
+    "paper": [
+      205
+    ],
+    "address": [
+      208
+    ],
+    "issue.": [
+      210
+    ],
+    "It": [
+      211
+    ],
+    "will": [
+      212,
+      232
+    ],
+    "help": [
+      213
+    ],
+    "provide": [
+      215
+    ],
+    "researchers": [
+      217,
+      235
+    ],
+    "recommendations": [
+      219
+    ],
+    "practical": [
+      221
+    ],
+    "advice": [
+      222
+    ],
+    "concerning": [
+      223
+    ],
+    "experimental": [
+      224
+    ],
+    "designs,": [
+      225
+    ],
+    "data": [
+      226,
+      229
+    ],
+    "analysis,": [
+      227
+    ],
+    "reporting.": [
+      230
+    ],
+    "ensure": [
+      233
+    ],
+    "starting": [
+      236
+    ],
+    "project": [
+      238
+    ],
+    "tone": [
+      244
+    ],
+    "are": [
+      245
+    ],
+    "well": [
+      246
+    ],
+    "informed": [
+      247
+    ],
+    "regarding": [
+      248
+    ],
+    "considerations": [
+      250
+    ],
+    "order": [
+      252
+    ],
+    "their": [
+      254,
+      262
+    ],
+    "contribute": [
+      257
+    ],
+    "knowledge": [
+      259
+    ],
+    "advancement": [
+      260
+    ],
+    "field.": [
+      263
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2589100236",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 121
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 270
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 279
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 260
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 248
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 248
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 154
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 99
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 17
+    }
+  ],
+  "updated_date": "2025-06-09T08:44:37.638893",
+  "created_date": "2017-02-24"
+}

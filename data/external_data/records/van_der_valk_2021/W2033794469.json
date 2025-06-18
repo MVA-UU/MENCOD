@@ -1,0 +1,593 @@
+{
+  "id": "https://openalex.org/W2033794469",
+  "doi": "https://doi.org/10.1016/j.bbr.2014.12.003",
+  "title": "Does reward unpredictability reflect risk?",
+  "display_name": "Does reward unpredictability reflect risk?",
+  "publication_year": 2014,
+  "publication_date": "2014-12-08",
+  "ids": {
+    "openalex": "https://openalex.org/W2033794469",
+    "doi": "https://doi.org/10.1016/j.bbr.2014.12.003",
+    "mag": "2033794469",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/25496783"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.bbr.2014.12.003",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S81474683",
+      "display_name": "Behavioural Brain Research",
+      "issn_l": "0166-4328",
+      "issn": [
+        "0166-4328",
+        "1872-7549"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5072061546",
+        "display_name": "Patrick Anselme",
+        "orcid": "https://orcid.org/0000-0001-6650-0962"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I157674565",
+          "display_name": "University of Liège",
+          "ror": "https://ror.org/00afp2z80",
+          "country_code": "BE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I157674565"
+          ]
+        }
+      ],
+      "countries": [
+        "BE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Patrick Anselme",
+      "raw_affiliation_strings": [
+        "Département de Psychologie, Cognition et Comportement, Université de Liège, 5 Boulevard du Rectorat (B 32), B4000 Liège, Belgium."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Département de Psychologie, Cognition et Comportement, Université de Liège, 5 Boulevard du Rectorat (B 32), B4000 Liège, Belgium.",
+          "institution_ids": [
+            "https://openalex.org/I157674565"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5072061546"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I157674565"
+  ],
+  "apc_list": {
+    "value": 3210,
+    "currency": "USD",
+    "value_usd": 3210
+  },
+  "apc_paid": null,
+  "fwci": 0.229,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 22,
+  "citation_normalized_percentile": {
+    "value": 0.483486,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 91,
+    "max": 92
+  },
+  "biblio": {
+    "volume": "280",
+    "issue": null,
+    "first_page": "119",
+    "last_page": "127"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10042",
+    "display_name": "Neural and Behavioral Psychology Studies",
+    "score": 0.9978,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10042",
+      "display_name": "Neural and Behavioral Psychology Studies",
+      "score": 0.9978,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10315",
+      "display_name": "Decision-Making and Behavioral Economics",
+      "score": 0.9978,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1800",
+        "display_name": "General Decision Sciences"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12520",
+      "display_name": "Psychology of Moral and Emotional Judgment",
+      "score": 0.9938,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/decision-maker",
+      "display_name": "Decision maker",
+      "score": 0.4622834
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.6144376
+    },
+    {
+      "id": "https://openalex.org/C2986080485",
+      "wikidata": "https://www.wikidata.org/wiki/Q1331926",
+      "display_name": "Decision maker",
+      "level": 2,
+      "score": 0.4622834
+    },
+    {
+      "id": "https://openalex.org/C180747234",
+      "wikidata": "https://www.wikidata.org/wiki/Q23373",
+      "display_name": "Cognitive psychology",
+      "level": 1,
+      "score": 0.3797521
+    },
+    {
+      "id": "https://openalex.org/C112930515",
+      "wikidata": "https://www.wikidata.org/wiki/Q4389547",
+      "display_name": "Risk analysis (engineering)",
+      "level": 1,
+      "score": 0.333753
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.21383148
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.10202265
+    },
+    {
+      "id": "https://openalex.org/C539667460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2414942",
+      "display_name": "Management science",
+      "level": 1,
+      "score": 0.07985389
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D012201",
+      "descriptor_name": "Reward",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012306",
+      "descriptor_name": "Risk",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D035501",
+      "descriptor_name": "Uncertainty",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005075",
+      "descriptor_name": "Biological Evolution",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003657",
+      "descriptor_name": "Decision Making",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003657",
+      "descriptor_name": "Decision Making",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004298",
+      "descriptor_name": "Dopamine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004298",
+      "descriptor_name": "Dopamine",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.bbr.2014.12.003",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S81474683",
+        "display_name": "Behavioural Brain Research",
+        "issn_l": "0166-4328",
+        "issn": [
+          "0166-4328",
+          "1872-7549"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/25496783",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Peace, justice, and strong institutions",
+      "score": 0.8,
+      "id": "https://metadata.un.org/sdg/16"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 109,
+  "referenced_works": [
+    "https://openalex.org/W1512312546",
+    "https://openalex.org/W1561765758",
+    "https://openalex.org/W1895366050",
+    "https://openalex.org/W194252565",
+    "https://openalex.org/W1964750332",
+    "https://openalex.org/W1965583018",
+    "https://openalex.org/W1966336405",
+    "https://openalex.org/W1969478399",
+    "https://openalex.org/W1970783844",
+    "https://openalex.org/W1971661870",
+    "https://openalex.org/W1973553204",
+    "https://openalex.org/W1974378661",
+    "https://openalex.org/W1975528635",
+    "https://openalex.org/W1982550953",
+    "https://openalex.org/W1984132513",
+    "https://openalex.org/W1984198260",
+    "https://openalex.org/W1984445918",
+    "https://openalex.org/W1986357940",
+    "https://openalex.org/W1988706006",
+    "https://openalex.org/W1992599482",
+    "https://openalex.org/W1993424091",
+    "https://openalex.org/W2010193639",
+    "https://openalex.org/W2010423218",
+    "https://openalex.org/W2010558460",
+    "https://openalex.org/W2011068737",
+    "https://openalex.org/W2013260694",
+    "https://openalex.org/W2013629263",
+    "https://openalex.org/W2015251391",
+    "https://openalex.org/W2015922110",
+    "https://openalex.org/W2023876982",
+    "https://openalex.org/W2029550820",
+    "https://openalex.org/W2034542881",
+    "https://openalex.org/W2039669429",
+    "https://openalex.org/W2047369493",
+    "https://openalex.org/W2053788077",
+    "https://openalex.org/W2057261438",
+    "https://openalex.org/W2060459223",
+    "https://openalex.org/W2061813552",
+    "https://openalex.org/W2062333952",
+    "https://openalex.org/W2062636034",
+    "https://openalex.org/W2063936465",
+    "https://openalex.org/W2065494210",
+    "https://openalex.org/W2068805523",
+    "https://openalex.org/W2069181947",
+    "https://openalex.org/W2075098891",
+    "https://openalex.org/W2078808776",
+    "https://openalex.org/W2080142950",
+    "https://openalex.org/W2081378522",
+    "https://openalex.org/W2087856744",
+    "https://openalex.org/W2090232805",
+    "https://openalex.org/W2090782551",
+    "https://openalex.org/W2092350133",
+    "https://openalex.org/W2092527694",
+    "https://openalex.org/W2093026395",
+    "https://openalex.org/W2093900211",
+    "https://openalex.org/W2097495332",
+    "https://openalex.org/W2101448098",
+    "https://openalex.org/W2102449439",
+    "https://openalex.org/W2102677370",
+    "https://openalex.org/W2103789151",
+    "https://openalex.org/W2104303748",
+    "https://openalex.org/W2109015699",
+    "https://openalex.org/W2109360709",
+    "https://openalex.org/W2111104955",
+    "https://openalex.org/W2111402269",
+    "https://openalex.org/W2111813559",
+    "https://openalex.org/W2112323466",
+    "https://openalex.org/W2112328115",
+    "https://openalex.org/W2114703840",
+    "https://openalex.org/W2116049552",
+    "https://openalex.org/W2117002154",
+    "https://openalex.org/W2120157426",
+    "https://openalex.org/W2122419439",
+    "https://openalex.org/W2123008707",
+    "https://openalex.org/W2126116397",
+    "https://openalex.org/W2128521145",
+    "https://openalex.org/W2128557955",
+    "https://openalex.org/W2129342308",
+    "https://openalex.org/W2130969546",
+    "https://openalex.org/W2131200952",
+    "https://openalex.org/W2133469585",
+    "https://openalex.org/W2136500228",
+    "https://openalex.org/W2137045321",
+    "https://openalex.org/W2137238320",
+    "https://openalex.org/W2139635035",
+    "https://openalex.org/W2143677714",
+    "https://openalex.org/W2146196757",
+    "https://openalex.org/W2148539500",
+    "https://openalex.org/W2150989899",
+    "https://openalex.org/W2156581621",
+    "https://openalex.org/W2158420012",
+    "https://openalex.org/W2158660576",
+    "https://openalex.org/W2163906559",
+    "https://openalex.org/W2165743581",
+    "https://openalex.org/W2167140134",
+    "https://openalex.org/W2171352770",
+    "https://openalex.org/W2171592792",
+    "https://openalex.org/W2798374369",
+    "https://openalex.org/W2798944292",
+    "https://openalex.org/W3011865677",
+    "https://openalex.org/W3123331292",
+    "https://openalex.org/W4248392906",
+    "https://openalex.org/W4249398858",
+    "https://openalex.org/W4296759584",
+    "https://openalex.org/W4300798368",
+    "https://openalex.org/W4301736761",
+    "https://openalex.org/W4402253576",
+    "https://openalex.org/W573118418",
+    "https://openalex.org/W630010072"
+  ],
+  "related_works": [
+    "https://openalex.org/W2931662336",
+    "https://openalex.org/W2769102919",
+    "https://openalex.org/W2765597752",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2134894512",
+    "https://openalex.org/W2085372204",
+    "https://openalex.org/W2083375246",
+    "https://openalex.org/W2077865380",
+    "https://openalex.org/W2067108088",
+    "https://openalex.org/W2053487507"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2033794469",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-05-15T17:45:44.558757",
+  "created_date": "2016-06-24"
+}

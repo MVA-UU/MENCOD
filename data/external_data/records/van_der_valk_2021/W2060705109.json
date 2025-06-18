@@ -1,0 +1,1233 @@
+{
+  "id": "https://openalex.org/W2060705109",
+  "doi": "https://doi.org/10.2202/1544-6115.1128",
+  "title": "A General Framework for Weighted Gene Co-Expression Network Analysis",
+  "display_name": "A General Framework for Weighted Gene Co-Expression Network Analysis",
+  "publication_year": 2005,
+  "publication_date": "2005-01-12",
+  "ids": {
+    "openalex": "https://openalex.org/W2060705109",
+    "doi": "https://doi.org/10.2202/1544-6115.1128",
+    "mag": "2060705109",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16646834"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.2202/1544-6115.1128",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S77188613",
+      "display_name": "Statistical Applications in Genetics and Molecular Biology",
+      "issn_l": "1544-6115",
+      "issn": [
+        "1544-6115",
+        "2194-6302"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310313990",
+      "host_organization_name": "De Gruyter",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310313990"
+      ],
+      "host_organization_lineage_names": [
+        "De Gruyter"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5115602408",
+        "display_name": "Bin Zhang",
+        "orcid": "https://orcid.org/0000-0002-4579-1075"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bin Zhang",
+      "raw_affiliation_strings": [
+        "Department of Human Genetics, University of California at Los Angeles, USA. binzhang.ucla@gmail.com"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Human Genetics, University of California at Los Angeles, USA. binzhang.ucla@gmail.com",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5000192581",
+        "display_name": "Steve Horvath",
+        "orcid": "https://orcid.org/0000-0002-4110-3589"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steve Horvath",
+      "raw_affiliation_strings": [
+        "University of California–Los Angeles"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of California–Los Angeles",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 10.033,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 5258,
+  "citation_normalized_percentile": {
+    "value": 0.99998,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "4",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10887",
+    "display_name": "Bioinformatics and Genomic Networks",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10887",
+      "display_name": "Bioinformatics and Genomic Networks",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10885",
+      "display_name": "Gene expression and cancer classification",
+      "score": 0.9974,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10621",
+      "display_name": "Gene Regulatory Network Analysis",
+      "score": 0.9963,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/clustering-coefficient",
+      "display_name": "Clustering coefficient",
+      "score": 0.7068952
+    },
+    {
+      "id": "https://openalex.org/keywords/adjacency-matrix",
+      "display_name": "Adjacency matrix",
+      "score": 0.60011005
+    },
+    {
+      "id": "https://openalex.org/keywords/expression",
+      "display_name": "Expression (computer science)",
+      "score": 0.528695
+    },
+    {
+      "id": "https://openalex.org/keywords/adjacency-list",
+      "display_name": "Adjacency list",
+      "score": 0.49835634
+    },
+    {
+      "id": "https://openalex.org/keywords/gene-regulatory-network",
+      "display_name": "Gene regulatory network",
+      "score": 0.4572373
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C22047676",
+      "wikidata": "https://www.wikidata.org/wiki/Q898680",
+      "display_name": "Clustering coefficient",
+      "level": 3,
+      "score": 0.7068952
+    },
+    {
+      "id": "https://openalex.org/C73555534",
+      "wikidata": "https://www.wikidata.org/wiki/Q622825",
+      "display_name": "Cluster analysis",
+      "level": 2,
+      "score": 0.6633072
+    },
+    {
+      "id": "https://openalex.org/C180356752",
+      "wikidata": "https://www.wikidata.org/wiki/Q727035",
+      "display_name": "Adjacency matrix",
+      "level": 3,
+      "score": 0.60011005
+    },
+    {
+      "id": "https://openalex.org/C191178318",
+      "wikidata": "https://www.wikidata.org/wiki/Q2256906",
+      "display_name": "Thresholding",
+      "level": 3,
+      "score": 0.5665556
+    },
+    {
+      "id": "https://openalex.org/C90559484",
+      "wikidata": "https://www.wikidata.org/wiki/Q778379",
+      "display_name": "Expression (computer science)",
+      "level": 2,
+      "score": 0.528695
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.51366085
+    },
+    {
+      "id": "https://openalex.org/C62611344",
+      "wikidata": "https://www.wikidata.org/wiki/Q1062658",
+      "display_name": "Node (physics)",
+      "level": 2,
+      "score": 0.51200515
+    },
+    {
+      "id": "https://openalex.org/C110484373",
+      "wikidata": "https://www.wikidata.org/wiki/Q264398",
+      "display_name": "Adjacency list",
+      "level": 2,
+      "score": 0.49835634
+    },
+    {
+      "id": "https://openalex.org/C2780009758",
+      "wikidata": "https://www.wikidata.org/wiki/Q6804172",
+      "display_name": "Measure (data warehouse)",
+      "level": 2,
+      "score": 0.47868782
+    },
+    {
+      "id": "https://openalex.org/C14036430",
+      "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+      "display_name": "Function (biology)",
+      "level": 2,
+      "score": 0.46783295
+    },
+    {
+      "id": "https://openalex.org/C67339327",
+      "wikidata": "https://www.wikidata.org/wiki/Q1502576",
+      "display_name": "Gene regulatory network",
+      "level": 4,
+      "score": 0.4572373
+    },
+    {
+      "id": "https://openalex.org/C28225019",
+      "wikidata": "https://www.wikidata.org/wiki/Q4915005",
+      "display_name": "Biological network",
+      "level": 2,
+      "score": 0.44698265
+    },
+    {
+      "id": "https://openalex.org/C124101348",
+      "wikidata": "https://www.wikidata.org/wiki/Q172491",
+      "display_name": "Data mining",
+      "level": 1,
+      "score": 0.4252143
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.40593737
+    },
+    {
+      "id": "https://openalex.org/C184720557",
+      "wikidata": "https://www.wikidata.org/wiki/Q7825049",
+      "display_name": "Topology (electrical circuits)",
+      "level": 2,
+      "score": 0.36880657
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.32719052
+    },
+    {
+      "id": "https://openalex.org/C80444323",
+      "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+      "display_name": "Theoretical computer science",
+      "level": 1,
+      "score": 0.29593366
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.2603957
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.21276349
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.18530303
+    },
+    {
+      "id": "https://openalex.org/C114614502",
+      "wikidata": "https://www.wikidata.org/wiki/Q76592",
+      "display_name": "Combinatorics",
+      "level": 1,
+      "score": 0.1763475
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.17158866
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.16338989
+    },
+    {
+      "id": "https://openalex.org/C132525143",
+      "wikidata": "https://www.wikidata.org/wiki/Q141488",
+      "display_name": "Graph",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C66938386",
+      "wikidata": "https://www.wikidata.org/wiki/Q633538",
+      "display_name": "Structural engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.2202/1544-6115.1128",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S77188613",
+        "display_name": "Statistical Applications in Genetics and Molecular Biology",
+        "issn_l": "1544-6115",
+        "issn": [
+          "1544-6115",
+          "2194-6302"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310313990",
+        "host_organization_name": "De Gruyter",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310313990"
+        ],
+        "host_organization_lineage_names": [
+          "De Gruyter"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16646834",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 45,
+  "referenced_works": [
+    "https://openalex.org/W141759635",
+    "https://openalex.org/W1493682653",
+    "https://openalex.org/W1644749979",
+    "https://openalex.org/W1901908853",
+    "https://openalex.org/W1969761972",
+    "https://openalex.org/W2000495354",
+    "https://openalex.org/W2008620264",
+    "https://openalex.org/W2010320710",
+    "https://openalex.org/W2012852001",
+    "https://openalex.org/W2015519162",
+    "https://openalex.org/W2018045523",
+    "https://openalex.org/W2018934112",
+    "https://openalex.org/W2038437697",
+    "https://openalex.org/W2047693963",
+    "https://openalex.org/W2078149659",
+    "https://openalex.org/W2080201763",
+    "https://openalex.org/W2088367672",
+    "https://openalex.org/W2094399313",
+    "https://openalex.org/W2095009063",
+    "https://openalex.org/W2095387858",
+    "https://openalex.org/W2101275184",
+    "https://openalex.org/W2101501829",
+    "https://openalex.org/W2103453943",
+    "https://openalex.org/W2103717646",
+    "https://openalex.org/W2112609377",
+    "https://openalex.org/W2118340207",
+    "https://openalex.org/W2124637492",
+    "https://openalex.org/W2130790725",
+    "https://openalex.org/W2135852310",
+    "https://openalex.org/W2136883754",
+    "https://openalex.org/W2142437744",
+    "https://openalex.org/W2142720308",
+    "https://openalex.org/W2144548083",
+    "https://openalex.org/W2150926065",
+    "https://openalex.org/W2159710443",
+    "https://openalex.org/W2160842550",
+    "https://openalex.org/W2162142896",
+    "https://openalex.org/W2163480486",
+    "https://openalex.org/W2165874246",
+    "https://openalex.org/W222503269",
+    "https://openalex.org/W2921811239",
+    "https://openalex.org/W2957484004",
+    "https://openalex.org/W2999729612",
+    "https://openalex.org/W3103071483",
+    "https://openalex.org/W3103786587"
+  ],
+  "related_works": [
+    "https://openalex.org/W4280593160",
+    "https://openalex.org/W4213150077",
+    "https://openalex.org/W2982430984",
+    "https://openalex.org/W2604585036",
+    "https://openalex.org/W2564285047",
+    "https://openalex.org/W2369410163",
+    "https://openalex.org/W2117632582",
+    "https://openalex.org/W2059018062",
+    "https://openalex.org/W1991172810",
+    "https://openalex.org/W125803343"
+  ],
+  "abstract_inverted_index": {
+    "Gene": [
+      0
+    ],
+    "co-expression": [
+      1,
+      65,
+      99,
+      112
+    ],
+    "networks": [
+      2
+    ],
+    "are": [
+      3,
+      24,
+      30
+    ],
+    "increasingly": [
+      4
+    ],
+    "used": [
+      5
+    ],
+    "to": [
+      6,
+      43,
+      62,
+      84,
+      91,
+      114,
+      133,
+      145,
+      189,
+      194,
+      208,
+      224,
+      249
+    ],
+    "explore": [
+      7
+    ],
+    "the": [
+      8,
+      27,
+      45,
+      48,
+      93,
+      111,
+      120,
+      123,
+      135,
+      140,
+      146,
+      169,
+      183,
+      205,
+      212,
+      216,
+      225
+    ],
+    "system-level": [
+      9
+    ],
+    "functionality": [
+      10
+    ],
+    "of": [
+      11,
+      95,
+      122,
+      148,
+      172
+    ],
+    "genes.": [
+      12
+    ],
+    "The": [
+      13
+    ],
+    "network": [
+      14,
+      143
+    ],
+    "construction": [
+      15
+    ],
+    "is": [
+      16,
+      41,
+      56,
+      59,
+      220
+    ],
+    "conceptually": [
+      17
+    ],
+    "straightforward:": [
+      18
+    ],
+    "nodes": [
+      19,
+      23,
+      49
+    ],
+    "represent": [
+      20
+    ],
+    "genes": [
+      21,
+      29
+    ],
+    "and": [
+      22,
+      158,
+      179,
+      240,
+      257
+    ],
+    "connected": [
+      25
+    ],
+    "if": [
+      26
+    ],
+    "corresponding": [
+      28
+    ],
+    "significantly": [
+      31
+    ],
+    "co-expressed": [
+      32
+    ],
+    "across": [
+      33
+    ],
+    "appropriately": [
+      34
+    ],
+    "chosen": [
+      35
+    ],
+    "tissue": [
+      36
+    ],
+    "samples.": [
+      37
+    ],
+    "In": [
+      38
+    ],
+    "reality,": [
+      39
+    ],
+    "it": [
+      40,
+      58
+    ],
+    "tricky": [
+      42
+    ],
+    "define": [
+      44,
+      92,
+      190
+    ],
+    "connections": [
+      46
+    ],
+    "between": [
+      47,
+      237
+    ],
+    "in": [
+      50
+    ],
+    "such": [
+      51
+    ],
+    "networks.": [
+      52,
+      150,
+      210
+    ],
+    "An": [
+      53
+    ],
+    "important": [
+      54,
+      142,
+      166
+    ],
+    "question": [
+      55
+    ],
+    "whether": [
+      57
+    ],
+    "biologically": [
+      60,
+      129
+    ],
+    "meaningful": [
+      61
+    ],
+    "encode": [
+      63
+    ],
+    "gene": [
+      64,
+      86,
+      98,
+      191
+    ],
+    "using": [
+      66
+    ],
+    "binary": [
+      67
+    ],
+    "information": [
+      68
+    ],
+    "(connected=1,": [
+      69
+    ],
+    "unconnected=0).": [
+      70
+    ],
+    "We": [
+      71,
+      227
+    ],
+    "describe": [
+      72
+    ],
+    "a": [
+      73,
+      81,
+      96,
+      115,
+      128,
+      173,
+      229,
+      252,
+      258
+    ],
+    "general": [
+      74
+    ],
+    "framework": [
+      75
+    ],
+    "for": [
+      76,
+      167
+    ],
+    "`soft'": [
+      77
+    ],
+    "thresholding": [
+      78,
+      103
+    ],
+    "that": [
+      79,
+      109,
+      162,
+      182,
+      231
+    ],
+    "assigns": [
+      80
+    ],
+    "connection": [
+      82,
+      116
+    ],
+    "weight": [
+      83
+    ],
+    "each": [
+      85
+    ],
+    "pair.": [
+      87
+    ],
+    "This": [
+      88
+    ],
+    "leads": [
+      89,
+      193
+    ],
+    "us": [
+      90
+    ],
+    "notion": [
+      94
+    ],
+    "weighted": [
+      97,
+      149,
+      209,
+      217
+    ],
+    "network.": [
+      100
+    ],
+    "For": [
+      101,
+      118
+    ],
+    "soft": [
+      102
+    ],
+    "we": [
+      104,
+      126,
+      152,
+      176,
+      203
+    ],
+    "propose": [
+      105,
+      127
+    ],
+    "several": [
+      106,
+      154
+    ],
+    "adjacency": [
+      107,
+      124
+    ],
+    "functions": [
+      108
+    ],
+    "convert": [
+      110
+    ],
+    "measure": [
+      113,
+      187
+    ],
+    "weight.": [
+      117
+    ],
+    "determining": [
+      119
+    ],
+    "parameters": [
+      121
+    ],
+    "function,": [
+      125
+    ],
+    "motivated": [
+      130
+    ],
+    "criterion": [
+      131
+    ],
+    "(referred": [
+      132
+    ],
+    "as": [
+      134
+    ],
+    "scale-free": [
+      136
+    ],
+    "topology": [
+      137
+    ],
+    "criterion).We": [
+      138
+    ],
+    "generalize": [
+      139,
+      204
+    ],
+    "following": [
+      141
+    ],
+    "concepts": [
+      144
+    ],
+    "case": [
+      147
+    ],
+    "First,": [
+      151
+    ],
+    "introduce": [
+      153
+    ],
+    "node": [
+      155
+    ],
+    "connectivity": [
+      156,
+      241
+    ],
+    "measures": [
+      157
+    ],
+    "provide": [
+      159,
+      177,
+      228
+    ],
+    "empirical": [
+      160,
+      180
+    ],
+    "evidence": [
+      161,
+      181
+    ],
+    "they": [
+      163
+    ],
+    "can": [
+      164
+    ],
+    "be": [
+      165
+    ],
+    "predicting": [
+      168
+    ],
+    "biological": [
+      170
+    ],
+    "significance": [
+      171
+    ],
+    "gene.": [
+      174
+    ],
+    "Second,": [
+      175
+    ],
+    "theoretical": [
+      178
+    ],
+    "`weighted'": [
+      184
+    ],
+    "topological": [
+      185
+    ],
+    "overlap": [
+      186
+    ],
+    "(used": [
+      188
+    ],
+    "modules)": [
+      192
+    ],
+    "more": [
+      195
+    ],
+    "cohesive": [
+      196
+    ],
+    "modules": [
+      197
+    ],
+    "than": [
+      198
+    ],
+    "its": [
+      199
+    ],
+    "`unweighted'": [
+      200
+    ],
+    "counterpart.": [
+      201
+    ],
+    "Third,": [
+      202
+    ],
+    "clustering": [
+      206,
+      214,
+      218,
+      238
+    ],
+    "coefficient": [
+      207,
+      219,
+      239
+    ],
+    "Unlike": [
+      211
+    ],
+    "unweighted": [
+      213
+    ],
+    "coefficient,": [
+      215
+    ],
+    "not": [
+      221
+    ],
+    "inversely": [
+      222
+    ],
+    "related": [
+      223
+    ],
+    "connectivity.": [
+      226
+    ],
+    "model": [
+      230
+    ],
+    "shows": [
+      232
+    ],
+    "how": [
+      233
+    ],
+    "an": [
+      234
+    ],
+    "inverse": [
+      235
+    ],
+    "relationship": [
+      236
+    ],
+    "arises": [
+      242
+    ],
+    "from": [
+      243
+    ],
+    "hard": [
+      244
+    ],
+    "thresholding.We": [
+      245
+    ],
+    "apply": [
+      246
+    ],
+    "our": [
+      247
+    ],
+    "methods": [
+      248
+    ],
+    "simulated": [
+      250
+    ],
+    "data,": [
+      251
+    ],
+    "cancer": [
+      253
+    ],
+    "microarray": [
+      254,
+      260
+    ],
+    "data": [
+      255,
+      261
+    ],
+    "set,": [
+      256
+    ],
+    "yeast": [
+      259
+    ],
+    "set.": [
+      262
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2060705109",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 120
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 429
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 516
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 584
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 614
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 588
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 441
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 326
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 291
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 277
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 227
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 187
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 168
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 130
+    }
+  ],
+  "updated_date": "2025-06-05T20:08:38.675132",
+  "created_date": "2016-06-24"
+}

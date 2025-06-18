@@ -1,0 +1,1409 @@
+{
+  "id": "https://openalex.org/W1936006976",
+  "doi": "https://doi.org/10.1002/dta.1574",
+  "title": "Analytical approaches for the determination of phytocannabinoids and endocannabinoids in human matrices",
+  "display_name": "Analytical approaches for the determination of phytocannabinoids and endocannabinoids in human matrices",
+  "publication_year": 2013,
+  "publication_date": "2013-11-11",
+  "ids": {
+    "openalex": "https://openalex.org/W1936006976",
+    "doi": "https://doi.org/10.1002/dta.1574",
+    "mag": "1936006976",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/24218186"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1002/dta.1574",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S36361591",
+      "display_name": "Drug Testing and Analysis",
+      "issn_l": "1942-7603",
+      "issn": [
+        "1942-7603",
+        "1942-7611"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5021495397",
+        "display_name": "Natalia Battista",
+        "orcid": "https://orcid.org/0000-0002-1936-6710"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124326101",
+          "display_name": "University of Teramo",
+          "ror": "https://ror.org/01yetye73",
+          "country_code": "IT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124326101"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210142264",
+          "display_name": "European Brain Research Institute",
+          "ror": "https://ror.org/03ay27p09",
+          "country_code": "IT",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210142264"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Natalia Battista",
+      "raw_affiliation_strings": [
+        "European Center for Brain Research/Santa Lucia Foundation, Rome, Italy",
+        "Faculty of Bioscience and Technology for Food, Agriculture and Environment, University of Teramo, Teramo, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Bioscience and Technology for Food, Agriculture and Environment, University of Teramo, Teramo, Italy",
+          "institution_ids": [
+            "https://openalex.org/I124326101"
+          ]
+        },
+        {
+          "raw_affiliation_string": "European Center for Brain Research/Santa Lucia Foundation, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I4210142264"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000486824",
+        "display_name": "Manuel Sergi",
+        "orcid": "https://orcid.org/0000-0002-1130-5294"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124326101",
+          "display_name": "University of Teramo",
+          "ror": "https://ror.org/01yetye73",
+          "country_code": "IT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124326101"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Manuel Sergi",
+      "raw_affiliation_strings": [
+        "Faculty of Bioscience and Technology for Food, Agriculture and Environment, University of Teramo, Teramo, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Bioscience and Technology for Food, Agriculture and Environment, University of Teramo, Teramo, Italy",
+          "institution_ids": [
+            "https://openalex.org/I124326101"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5022948682",
+        "display_name": "Camilla Montesano",
+        "orcid": "https://orcid.org/0000-0001-7721-4961"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I861853513",
+          "display_name": "Sapienza University of Rome",
+          "ror": "https://ror.org/02be6w209",
+          "country_code": "IT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I861853513"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Camilla Montesano",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, Sapienza University of Rome, Rome, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, Sapienza University of Rome, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I861853513"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109911344",
+        "display_name": "Sabino Napoletano",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I861853513",
+          "display_name": "Sapienza University of Rome",
+          "ror": "https://ror.org/02be6w209",
+          "country_code": "IT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I861853513"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210124043",
+          "display_name": "Ministry of Interior",
+          "ror": "https://ror.org/02pxbbk34",
+          "country_code": "IT",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210104593",
+            "https://openalex.org/I4210124043"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sabino Napoletano",
+      "raw_affiliation_strings": [
+        "Department of Chemistry, Sapienza University of Rome, Rome, Italy",
+        "Department of Public Safety, Ministry of Interior, Forensic Service/GIPS, Ancona, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry, Sapienza University of Rome, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I861853513"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Public Safety, Ministry of Interior, Forensic Service/GIPS, Ancona, Italy",
+          "institution_ids": [
+            "https://openalex.org/I4210124043"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057456463",
+        "display_name": "Darío Compagnone",
+        "orcid": "https://orcid.org/0000-0001-7849-8943"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124326101",
+          "display_name": "University of Teramo",
+          "ror": "https://ror.org/01yetye73",
+          "country_code": "IT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124326101"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dario Compagnone",
+      "raw_affiliation_strings": [
+        "Faculty of Bioscience and Technology for Food, Agriculture and Environment, University of Teramo, Teramo, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Bioscience and Technology for Food, Agriculture and Environment, University of Teramo, Teramo, Italy",
+          "institution_ids": [
+            "https://openalex.org/I124326101"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5084489352",
+        "display_name": "Mauro Maccarrone",
+        "orcid": "https://orcid.org/0000-0002-3990-2963"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210142264",
+          "display_name": "European Brain Research Institute",
+          "ror": "https://ror.org/03ay27p09",
+          "country_code": "IT",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210142264"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I155125353",
+          "display_name": "Università Campus Bio-Medico",
+          "ror": "https://ror.org/04gqx4x78",
+          "country_code": "IT",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I155125353"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mauro Maccarrone",
+      "raw_affiliation_strings": [
+        "Center of Integrated Research, Campus Bio-Medico University of Rome, Rome, Italy",
+        "European Center for Brain Research/Santa Lucia Foundation, Rome, Italy"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "European Center for Brain Research/Santa Lucia Foundation, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I4210142264"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center of Integrated Research, Campus Bio-Medico University of Rome, Rome, Italy",
+          "institution_ids": [
+            "https://openalex.org/I155125353"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5021495397"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I124326101",
+    "https://openalex.org/I4210142264"
+  ],
+  "apc_list": {
+    "value": 4840,
+    "currency": "USD",
+    "value_usd": 4840
+  },
+  "apc_paid": null,
+  "fwci": 0.389,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 51,
+  "citation_normalized_percentile": {
+    "value": 0.556741,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "6",
+    "issue": "1-2",
+    "first_page": "7",
+    "last_page": "16"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10414",
+    "display_name": "Cannabis and Cannabinoid Research",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2736",
+      "display_name": "Pharmacology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10414",
+      "display_name": "Cannabis and Cannabinoid Research",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2736",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13142",
+      "display_name": "GABA and Rice Research",
+      "score": 0.9957,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10800",
+      "display_name": "Forensic Toxicology and Drug Analysis",
+      "score": 0.9828,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3005",
+        "display_name": "Toxicology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/delta-9-tetrahydrocannabinol",
+      "display_name": "Delta-9-tetrahydrocannabinol",
+      "score": 0.6075815
+    },
+    {
+      "id": "https://openalex.org/keywords/anandamide",
+      "display_name": "Anandamide",
+      "score": 0.6056512
+    },
+    {
+      "id": "https://openalex.org/keywords/identification",
+      "display_name": "Identification",
+      "score": 0.55573756
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C46721173",
+      "wikidata": "https://www.wikidata.org/wiki/Q368952",
+      "display_name": "Endocannabinoid system",
+      "level": 3,
+      "score": 0.7618224
+    },
+    {
+      "id": "https://openalex.org/C2909767651",
+      "wikidata": "https://www.wikidata.org/wiki/Q190067",
+      "display_name": "Delta-9-tetrahydrocannabinol",
+      "level": 4,
+      "score": 0.6075815
+    },
+    {
+      "id": "https://openalex.org/C2779783865",
+      "wikidata": "https://www.wikidata.org/wiki/Q410228",
+      "display_name": "Anandamide",
+      "level": 5,
+      "score": 0.6056512
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.5773597
+    },
+    {
+      "id": "https://openalex.org/C116834253",
+      "wikidata": "https://www.wikidata.org/wiki/Q2039217",
+      "display_name": "Identification (biology)",
+      "level": 2,
+      "score": 0.55573756
+    },
+    {
+      "id": "https://openalex.org/C2777056318",
+      "wikidata": "https://www.wikidata.org/wiki/Q79817",
+      "display_name": "Cannabis",
+      "level": 2,
+      "score": 0.48084912
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.3380829
+    },
+    {
+      "id": "https://openalex.org/C2780871563",
+      "wikidata": "https://www.wikidata.org/wiki/Q422936",
+      "display_name": "Cannabinoid",
+      "level": 3,
+      "score": 0.27879167
+    },
+    {
+      "id": "https://openalex.org/C148001335",
+      "wikidata": "https://www.wikidata.org/wiki/Q421237",
+      "display_name": "Cannabinoid receptor",
+      "level": 4,
+      "score": 0.19687748
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.15182602
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.11365813
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.10272494
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.09488791
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.06375834
+    },
+    {
+      "id": "https://openalex.org/C59822182",
+      "wikidata": "https://www.wikidata.org/wiki/Q441",
+      "display_name": "Botany",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C2778938600",
+      "wikidata": "https://www.wikidata.org/wiki/Q389934",
+      "display_name": "Agonist",
+      "level": 3,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001095",
+      "descriptor_name": "Arachidonic Acids",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D063386",
+      "descriptor_name": "Cannabinoid Receptor Agonists",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013759",
+      "descriptor_name": "Dronabinol",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D063388",
+      "descriptor_name": "Endocannabinoids",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D053284",
+      "descriptor_name": "Polyunsaturated Alkamides",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001095",
+      "descriptor_name": "Arachidonic Acids",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001095",
+      "descriptor_name": "Arachidonic Acids",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001095",
+      "descriptor_name": "Arachidonic Acids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001923",
+      "descriptor_name": "Brain Chemistry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D063386",
+      "descriptor_name": "Cannabinoid Receptor Agonists",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D063386",
+      "descriptor_name": "Cannabinoid Receptor Agonists",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D063386",
+      "descriptor_name": "Cannabinoid Receptor Agonists",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002853",
+      "descriptor_name": "Chromatography, Liquid",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002853",
+      "descriptor_name": "Chromatography, Liquid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013759",
+      "descriptor_name": "Dronabinol",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013759",
+      "descriptor_name": "Dronabinol",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013759",
+      "descriptor_name": "Dronabinol",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D063388",
+      "descriptor_name": "Endocannabinoids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D063388",
+      "descriptor_name": "Endocannabinoids",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D063388",
+      "descriptor_name": "Endocannabinoids",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006197",
+      "descriptor_name": "Hair",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006197",
+      "descriptor_name": "Hair",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013058",
+      "descriptor_name": "Mass Spectrometry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013058",
+      "descriptor_name": "Mass Spectrometry",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008470",
+      "descriptor_name": "Meconium",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008470",
+      "descriptor_name": "Meconium",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008892",
+      "descriptor_name": "Milk",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008892",
+      "descriptor_name": "Milk",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053284",
+      "descriptor_name": "Polyunsaturated Alkamides",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053284",
+      "descriptor_name": "Polyunsaturated Alkamides",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053284",
+      "descriptor_name": "Polyunsaturated Alkamides",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1002/dta.1574",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S36361591",
+        "display_name": "Drug Testing and Analysis",
+        "issn_l": "1942-7603",
+        "issn": [
+          "1942-7603",
+          "1942-7611"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/24218186",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "score": 0.43,
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 168,
+  "referenced_works": [
+    "https://openalex.org/W137813141",
+    "https://openalex.org/W1511484563",
+    "https://openalex.org/W1521958490",
+    "https://openalex.org/W1551225178",
+    "https://openalex.org/W1561429040",
+    "https://openalex.org/W1576936047",
+    "https://openalex.org/W1602099676",
+    "https://openalex.org/W1963892166",
+    "https://openalex.org/W1965008191",
+    "https://openalex.org/W1965110296",
+    "https://openalex.org/W1966676682",
+    "https://openalex.org/W1966912630",
+    "https://openalex.org/W1967009758",
+    "https://openalex.org/W1967213575",
+    "https://openalex.org/W1967467376",
+    "https://openalex.org/W1969953780",
+    "https://openalex.org/W1970772958",
+    "https://openalex.org/W1974094525",
+    "https://openalex.org/W1974852599",
+    "https://openalex.org/W1975099858",
+    "https://openalex.org/W1975994545",
+    "https://openalex.org/W1977774953",
+    "https://openalex.org/W1980978378",
+    "https://openalex.org/W1982544490",
+    "https://openalex.org/W1982864170",
+    "https://openalex.org/W1983417139",
+    "https://openalex.org/W1984035696",
+    "https://openalex.org/W1985214062",
+    "https://openalex.org/W1989073099",
+    "https://openalex.org/W1989271398",
+    "https://openalex.org/W1989283433",
+    "https://openalex.org/W1989656381",
+    "https://openalex.org/W1989670010",
+    "https://openalex.org/W1990463348",
+    "https://openalex.org/W1993708533",
+    "https://openalex.org/W1994112634",
+    "https://openalex.org/W1995824729",
+    "https://openalex.org/W1996157686",
+    "https://openalex.org/W1997771671",
+    "https://openalex.org/W2000239961",
+    "https://openalex.org/W2001537737",
+    "https://openalex.org/W2004420564",
+    "https://openalex.org/W2005081170",
+    "https://openalex.org/W2005694755",
+    "https://openalex.org/W2005858668",
+    "https://openalex.org/W2006384417",
+    "https://openalex.org/W2008908282",
+    "https://openalex.org/W2009441706",
+    "https://openalex.org/W2010509514",
+    "https://openalex.org/W2010535402",
+    "https://openalex.org/W2010955280",
+    "https://openalex.org/W2011071500",
+    "https://openalex.org/W2014786031",
+    "https://openalex.org/W2016185591",
+    "https://openalex.org/W2016672056",
+    "https://openalex.org/W2017525033",
+    "https://openalex.org/W2019283591",
+    "https://openalex.org/W2019373484",
+    "https://openalex.org/W2022147563",
+    "https://openalex.org/W2024170887",
+    "https://openalex.org/W2024975778",
+    "https://openalex.org/W2026382234",
+    "https://openalex.org/W2026536354",
+    "https://openalex.org/W2028096825",
+    "https://openalex.org/W2029540539",
+    "https://openalex.org/W2030817037",
+    "https://openalex.org/W2031150339",
+    "https://openalex.org/W2032032888",
+    "https://openalex.org/W2032256265",
+    "https://openalex.org/W2032616480",
+    "https://openalex.org/W2033198130",
+    "https://openalex.org/W2033928129",
+    "https://openalex.org/W2035522180",
+    "https://openalex.org/W2036970523",
+    "https://openalex.org/W2037224101",
+    "https://openalex.org/W2037246161",
+    "https://openalex.org/W2041077643",
+    "https://openalex.org/W2042272536",
+    "https://openalex.org/W2042377488",
+    "https://openalex.org/W2043069424",
+    "https://openalex.org/W2043783063",
+    "https://openalex.org/W2044272829",
+    "https://openalex.org/W2045054186",
+    "https://openalex.org/W2045096253",
+    "https://openalex.org/W2045189731",
+    "https://openalex.org/W2045208033",
+    "https://openalex.org/W2046472898",
+    "https://openalex.org/W2048084775",
+    "https://openalex.org/W2056188558",
+    "https://openalex.org/W2056971800",
+    "https://openalex.org/W2060599384",
+    "https://openalex.org/W2061352331",
+    "https://openalex.org/W2061507834",
+    "https://openalex.org/W2062866182",
+    "https://openalex.org/W2063723525",
+    "https://openalex.org/W2064764003",
+    "https://openalex.org/W2067592086",
+    "https://openalex.org/W2069862669",
+    "https://openalex.org/W2069867431",
+    "https://openalex.org/W2071789424",
+    "https://openalex.org/W2071796811",
+    "https://openalex.org/W2075282427",
+    "https://openalex.org/W2075894678",
+    "https://openalex.org/W2076077318",
+    "https://openalex.org/W2077394774",
+    "https://openalex.org/W2077919300",
+    "https://openalex.org/W2078517956",
+    "https://openalex.org/W2078613358",
+    "https://openalex.org/W2081593743",
+    "https://openalex.org/W2083940924",
+    "https://openalex.org/W2084213319",
+    "https://openalex.org/W2086013959",
+    "https://openalex.org/W2087534342",
+    "https://openalex.org/W2087791805",
+    "https://openalex.org/W2089308959",
+    "https://openalex.org/W2090822832",
+    "https://openalex.org/W2090843150",
+    "https://openalex.org/W2090846440",
+    "https://openalex.org/W2092286802",
+    "https://openalex.org/W2095836014",
+    "https://openalex.org/W2097063948",
+    "https://openalex.org/W2099571877",
+    "https://openalex.org/W2101061884",
+    "https://openalex.org/W2101233587",
+    "https://openalex.org/W2101384176",
+    "https://openalex.org/W2102892276",
+    "https://openalex.org/W2103834783",
+    "https://openalex.org/W2105749070",
+    "https://openalex.org/W2106799063",
+    "https://openalex.org/W2106805933",
+    "https://openalex.org/W2106954948",
+    "https://openalex.org/W2107521927",
+    "https://openalex.org/W2110941649",
+    "https://openalex.org/W2114062911",
+    "https://openalex.org/W2122152535",
+    "https://openalex.org/W2122655264",
+    "https://openalex.org/W2125036810",
+    "https://openalex.org/W2127219903",
+    "https://openalex.org/W2132394707",
+    "https://openalex.org/W2132436595",
+    "https://openalex.org/W2136242062",
+    "https://openalex.org/W2136635478",
+    "https://openalex.org/W2137446157",
+    "https://openalex.org/W2137731660",
+    "https://openalex.org/W2138435914",
+    "https://openalex.org/W2140009797",
+    "https://openalex.org/W2142798374",
+    "https://openalex.org/W2144646668",
+    "https://openalex.org/W2145369111",
+    "https://openalex.org/W2145731354",
+    "https://openalex.org/W2152336811",
+    "https://openalex.org/W2152851766",
+    "https://openalex.org/W2152923560",
+    "https://openalex.org/W2153052435",
+    "https://openalex.org/W2153836184",
+    "https://openalex.org/W2157581591",
+    "https://openalex.org/W2162897126",
+    "https://openalex.org/W2163283536",
+    "https://openalex.org/W2165928453",
+    "https://openalex.org/W2167315466",
+    "https://openalex.org/W2167734440",
+    "https://openalex.org/W2168963572",
+    "https://openalex.org/W2169616495",
+    "https://openalex.org/W2185221454",
+    "https://openalex.org/W2264270757",
+    "https://openalex.org/W4232585809",
+    "https://openalex.org/W4252015665",
+    "https://openalex.org/W4323253900"
+  ],
+  "related_works": [
+    "https://openalex.org/W4363673759",
+    "https://openalex.org/W4362734038",
+    "https://openalex.org/W4315754522",
+    "https://openalex.org/W4225083961",
+    "https://openalex.org/W2768085742",
+    "https://openalex.org/W2344299676",
+    "https://openalex.org/W2333897836",
+    "https://openalex.org/W2087945006",
+    "https://openalex.org/W2075282427",
+    "https://openalex.org/W2052794650"
+  ],
+  "abstract_inverted_index": {
+    "Over": [
+      0
+    ],
+    "the": [
+      1,
+      5,
+      19,
+      25,
+      34,
+      52,
+      66,
+      74,
+      83,
+      96
+    ],
+    "last": [
+      2
+    ],
+    "two": [
+      3
+    ],
+    "decades,": [
+      4
+    ],
+    "role": [
+      6
+    ],
+    "played": [
+      7
+    ],
+    "by": [
+      8
+    ],
+    "phytocannabinoids": [
+      9,
+      77
+    ],
+    "and": [
+      10,
+      32,
+      42,
+      78,
+      80,
+      85,
+      109
+    ],
+    "endocannabinoids": [
+      11
+    ],
+    "in": [
+      12,
+      18,
+      48,
+      57
+    ],
+    "medicine": [
+      13
+    ],
+    "has": [
+      14
+    ],
+    "gained": [
+      15
+    ],
+    "increasing": [
+      16
+    ],
+    "interest": [
+      17
+    ],
+    "scientific": [
+      20
+    ],
+    "community.": [
+      21
+    ],
+    "Upon": [
+      22
+    ],
+    "identification": [
+      23,
+      75
+    ],
+    "of": [
+      24,
+      33,
+      54,
+      76,
+      87,
+      95,
+      112
+    ],
+    "plant": [
+      26
+    ],
+    "compound": [
+      27
+    ],
+    "Δ": [
+      28
+    ],
+    "9": [
+      29
+    ],
+    "‐tetrahydrocannabinol": [
+      30
+    ],
+    "(THC)": [
+      31
+    ],
+    "endogenous": [
+      35
+    ],
+    "substance": [
+      36
+    ],
+    "anandamide": [
+      37
+    ],
+    "(AEA),": [
+      38
+    ],
+    "different": [
+      39
+    ],
+    "methodological": [
+      40
+    ],
+    "approaches": [
+      41
+    ],
+    "innovative": [
+      43
+    ],
+    "techniques": [
+      44
+    ],
+    "have": [
+      45,
+      101
+    ],
+    "been": [
+      46,
+      102
+    ],
+    "developed,": [
+      47
+    ],
+    "order": [
+      49
+    ],
+    "to": [
+      50,
+      104
+    ],
+    "evaluate": [
+      51
+    ],
+    "content": [
+      53
+    ],
+    "these": [
+      55,
+      88,
+      113
+    ],
+    "molecules": [
+      56
+    ],
+    "various": [
+      58
+    ],
+    "human": [
+      59
+    ],
+    "matrices.": [
+      60
+    ],
+    "In": [
+      61
+    ],
+    "this": [
+      62
+    ],
+    "review,": [
+      63
+    ],
+    "we": [
+      64,
+      81,
+      91
+    ],
+    "discuss": [
+      65
+    ],
+    "analytical": [
+      67
+    ],
+    "methods": [
+      68
+    ],
+    "that": [
+      69,
+      100
+    ],
+    "are": [
+      70
+    ],
+    "currently": [
+      71
+    ],
+    "used": [
+      72
+    ],
+    "for": [
+      73,
+      106
+    ],
+    "endocannabinoids,": [
+      79
+    ],
+    "summarize": [
+      82
+    ],
+    "benefits": [
+      84
+    ],
+    "limitations": [
+      86
+    ],
+    "procedures.": [
+      89
+    ],
+    "Moreover,": [
+      90
+    ],
+    "provide": [
+      92
+    ],
+    "an": [
+      93
+    ],
+    "overview": [
+      94
+    ],
+    "main": [
+      97
+    ],
+    "biological": [
+      98
+    ],
+    "matrices": [
+      99
+    ],
+    "analyzed": [
+      103
+    ],
+    "date": [
+      105
+    ],
+    "qualitative": [
+      107
+    ],
+    "detection": [
+      108
+    ],
+    "quantitative": [
+      110
+    ],
+    "determination": [
+      111
+    ],
+    "compounds.": [
+      114
+    ],
+    "Copyright": [
+      115
+    ],
+    "©": [
+      116
+    ],
+    "2013": [
+      117
+    ],
+    "John": [
+      118
+    ],
+    "Wiley": [
+      119
+    ],
+    "&amp;": [
+      120
+    ],
+    "Sons,": [
+      121
+    ],
+    "Ltd.": [
+      122
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1936006976",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-05-23T18:18:59.188817",
+  "created_date": "2016-06-24"
+}

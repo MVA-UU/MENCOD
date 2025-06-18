@@ -1,0 +1,1001 @@
+{
+  "id": "https://openalex.org/W2104675861",
+  "doi": "https://doi.org/10.1016/j.jclinepi.2010.04.026",
+  "title": "GRADE guidelines: 1. Introduction—GRADE evidence profiles and summary of findings tables",
+  "display_name": "GRADE guidelines: 1. Introduction—GRADE evidence profiles and summary of findings tables",
+  "publication_year": 2011,
+  "publication_date": "2011-01-04",
+  "ids": {
+    "openalex": "https://openalex.org/W2104675861",
+    "doi": "https://doi.org/10.1016/j.jclinepi.2010.04.026",
+    "mag": "2104675861",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/21195583"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.jclinepi.2010.04.026",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S64418186",
+      "display_name": "Journal of Clinical Epidemiology",
+      "issn_l": "0895-4356",
+      "issn": [
+        "0895-4356",
+        "1878-5921"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5031717153",
+        "display_name": "Gordon Guyatt",
+        "orcid": "https://orcid.org/0000-0003-2352-5718"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98251732",
+          "display_name": "McMaster University",
+          "ror": "https://ror.org/02fa3aq29",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gordon Guyatt",
+      "raw_affiliation_strings": [
+        "McMaster university#TAB#"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McMaster university#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082652200",
+        "display_name": "Andrew D Oxman",
+        "orcid": "https://orcid.org/0000-0002-5608-5061"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1333353642",
+          "display_name": "Norwegian Institute of Public Health",
+          "ror": "https://ror.org/046nvst19",
+          "country_code": "NO",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1333353642",
+            "https://openalex.org/I4210149801",
+            "https://openalex.org/I4210163359"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew D Oxman",
+      "raw_affiliation_strings": [
+        " Norwegian Institute of Public Health"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": " Norwegian Institute of Public Health",
+          "institution_ids": [
+            "https://openalex.org/I1333353642"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041615321",
+        "display_name": "Elie A. Akl",
+        "orcid": "https://orcid.org/0000-0002-3444-8618"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I115441956",
+          "display_name": "Buffalo State University",
+          "ror": "https://ror.org/05ms04m92",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I115441956"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I63190737",
+          "display_name": "University at Buffalo, State University of New York",
+          "ror": "https://ror.org/01y64my43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I63190737"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elie A Akl",
+      "raw_affiliation_strings": [
+        "SUNY Buffalo"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "SUNY Buffalo",
+          "institution_ids": [
+            "https://openalex.org/I115441956",
+            "https://openalex.org/I63190737"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058128340",
+        "display_name": "Regina Kunz",
+        "orcid": "https://orcid.org/0000-0003-0931-8990"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1850255",
+          "display_name": "University of Basel",
+          "ror": "https://ror.org/02s6k3f65",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1850255"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Regina Kunz",
+      "raw_affiliation_strings": [
+        "University of Basel"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Basel",
+          "institution_ids": [
+            "https://openalex.org/I1850255"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008584776",
+        "display_name": "Gunn Elisabeth Vist",
+        "orcid": "https://orcid.org/0000-0001-7764-2501"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1333353642",
+          "display_name": "Norwegian Institute of Public Health",
+          "ror": "https://ror.org/046nvst19",
+          "country_code": "NO",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1333353642",
+            "https://openalex.org/I4210149801",
+            "https://openalex.org/I4210163359"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gunn E Vist",
+      "raw_affiliation_strings": [
+        " Norwegian Institute of Public Health"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": " Norwegian Institute of Public Health",
+          "institution_ids": [
+            "https://openalex.org/I1333353642"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009413838",
+        "display_name": "Jan Brożek",
+        "orcid": "https://orcid.org/0000-0002-3122-0773"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98251732",
+          "display_name": "McMaster University",
+          "ror": "https://ror.org/02fa3aq29",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jan Brozek",
+      "raw_affiliation_strings": [
+        "McMaster university#TAB#"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McMaster university#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003894233",
+        "display_name": "Susan L. Norris",
+        "orcid": "https://orcid.org/0000-0002-0042-2452"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165690674",
+          "display_name": "Oregon Health & Science University",
+          "ror": "https://ror.org/009avj582",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I165690674"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Susan Norris",
+      "raw_affiliation_strings": [
+        "Oregon Health and Science University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oregon Health and Science University",
+          "institution_ids": [
+            "https://openalex.org/I165690674"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101485320",
+        "display_name": "Yngve Falck‐Ytter",
+        "orcid": "https://orcid.org/0000-0002-4688-3211"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I58956616",
+          "display_name": "Case Western Reserve University",
+          "ror": "https://ror.org/051fd9666",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I58956616"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yngve Falck-Ytter",
+      "raw_affiliation_strings": [
+        "Case Western Reserve University ,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Case Western Reserve University ,",
+          "institution_ids": [
+            "https://openalex.org/I58956616"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005751643",
+        "display_name": "Paul Glasziou",
+        "orcid": "https://orcid.org/0000-0001-7564-073X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I120125038",
+          "display_name": "Bond University",
+          "ror": "https://ror.org/006jxzx88",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I120125038"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paul Glasziou",
+      "raw_affiliation_strings": [
+        "(Bond University)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "(Bond University)",
+          "institution_ids": [
+            "https://openalex.org/I120125038"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000189153",
+        "display_name": "Hans deBeer",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hans deBeer",
+      "raw_affiliation_strings": [
+        "Dutch Association of Nursing-home Specialists"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dutch Association of Nursing-home Specialists",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107875053",
+        "display_name": "Roman Jaeschke",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98251732",
+          "display_name": "McMaster University",
+          "ror": "https://ror.org/02fa3aq29",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Roman Jaeschke",
+      "raw_affiliation_strings": [
+        "McMaster university#TAB#"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McMaster university#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083493729",
+        "display_name": "David M. Rind",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801851002",
+          "display_name": "Harvard University Press",
+          "ror": "https://ror.org/006v7bf86",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Rind",
+      "raw_affiliation_strings": [
+        "Harvard University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard University",
+          "institution_ids": [
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057755516",
+        "display_name": "Joerg J Meerpohl",
+        "orcid": "https://orcid.org/0000-0002-1333-5403"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161046081",
+          "display_name": "University of Freiburg",
+          "ror": "https://ror.org/0245cg223",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161046081"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Joerg Meerpohl",
+      "raw_affiliation_strings": [
+        "Univ. of Freiburg"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Univ. of Freiburg",
+          "institution_ids": [
+            "https://openalex.org/I161046081"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5001861927",
+        "display_name": "Philipp Dahm",
+        "orcid": "https://orcid.org/0000-0003-2819-2553"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I33213144",
+          "display_name": "University of Florida",
+          "ror": "https://ror.org/02y3ad647",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I33213144"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Philipp Dahm",
+      "raw_affiliation_strings": [
+        "[University of Florida]"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "[University of Florida]",
+          "institution_ids": [
+            "https://openalex.org/I33213144"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5071868716",
+        "display_name": "Holger J. Schünemann",
+        "orcid": "https://orcid.org/0000-0003-3211-8479"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98251732",
+          "display_name": "McMaster University",
+          "ror": "https://ror.org/02fa3aq29",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Holger J Schunemann",
+      "raw_affiliation_strings": [
+        "McMaster university#TAB#"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McMaster university#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 6,
+  "institutions_distinct_count": 11,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3870,
+    "currency": "USD",
+    "value_usd": 3870
+  },
+  "apc_paid": null,
+  "fwci": 153.932,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 8416,
+  "citation_normalized_percentile": {
+    "value": 0.999743,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "64",
+    "issue": "4",
+    "first_page": "383",
+    "last_page": "394"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10206",
+    "display_name": "Meta-analysis and systematic reviews",
+    "score": 0.9992,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1804",
+      "display_name": "Statistics, Probability and Uncertainty"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/18",
+      "display_name": "Decision Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10206",
+      "display_name": "Meta-analysis and systematic reviews",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1804",
+        "display_name": "Statistics, Probability and Uncertainty"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "score": 0.9988,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12664",
+      "display_name": "Clinical practice guidelines implementation",
+      "score": 0.9923,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/grading",
+      "display_name": "Grading (engineering)",
+      "score": 0.83969086
+    },
+    {
+      "id": "https://openalex.org/keywords/quality-of-evidence",
+      "display_name": "Quality of evidence",
+      "score": 0.680159
+    },
+    {
+      "id": "https://openalex.org/keywords/evidence-based-medicine",
+      "display_name": "Evidence-Based Medicine",
+      "score": 0.5528023
+    },
+    {
+      "id": "https://openalex.org/keywords/evidence-based-practice",
+      "display_name": "Evidence-Based Practice",
+      "score": 0.43901747
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777286243",
+      "wikidata": "https://www.wikidata.org/wiki/Q5591926",
+      "display_name": "Grading (engineering)",
+      "level": 2,
+      "score": 0.83969086
+    },
+    {
+      "id": "https://openalex.org/C3018989441",
+      "wikidata": "https://www.wikidata.org/wiki/Q691640",
+      "display_name": "Quality of evidence",
+      "level": 3,
+      "score": 0.680159
+    },
+    {
+      "id": "https://openalex.org/C19648533",
+      "wikidata": "https://www.wikidata.org/wiki/Q691640",
+      "display_name": "Evidence-based medicine",
+      "level": 3,
+      "score": 0.5528023
+    },
+    {
+      "id": "https://openalex.org/C2779530757",
+      "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+      "display_name": "Quality (philosophy)",
+      "level": 2,
+      "score": 0.52444464
+    },
+    {
+      "id": "https://openalex.org/C141330323",
+      "wikidata": "https://www.wikidata.org/wiki/Q2354820",
+      "display_name": "Evidence-based practice",
+      "level": 3,
+      "score": 0.43901747
+    },
+    {
+      "id": "https://openalex.org/C189708586",
+      "wikidata": "https://www.wikidata.org/wiki/Q1504425",
+      "display_name": "Systematic review",
+      "level": 3,
+      "score": 0.41651943
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.39929456
+    },
+    {
+      "id": "https://openalex.org/C2779473830",
+      "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+      "display_name": "MEDLINE",
+      "level": 2,
+      "score": 0.38422263
+    },
+    {
+      "id": "https://openalex.org/C162118730",
+      "wikidata": "https://www.wikidata.org/wiki/Q1128453",
+      "display_name": "Actuarial science",
+      "level": 1,
+      "score": 0.37878174
+    },
+    {
+      "id": "https://openalex.org/C95190672",
+      "wikidata": "https://www.wikidata.org/wiki/Q815382",
+      "display_name": "Meta-analysis",
+      "level": 2,
+      "score": 0.22661796
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.17753553
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.094958276
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.08060554
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C147176958",
+      "wikidata": "https://www.wikidata.org/wiki/Q77590",
+      "display_name": "Civil engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111472728",
+      "wikidata": "https://www.wikidata.org/wiki/Q9471",
+      "display_name": "Epistemology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.jclinepi.2010.04.026",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S64418186",
+        "display_name": "Journal of Clinical Epidemiology",
+        "issn_l": "0895-4356",
+        "issn": [
+          "0895-4356",
+          "1878-5921"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.44,
+      "display_name": "Partnerships for the goals",
+      "id": "https://metadata.un.org/sdg/17"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 16,
+  "referenced_works": [
+    "https://openalex.org/W1504403914",
+    "https://openalex.org/W1994158325",
+    "https://openalex.org/W2010491313",
+    "https://openalex.org/W2013144056",
+    "https://openalex.org/W2033499525",
+    "https://openalex.org/W2079430285",
+    "https://openalex.org/W2093770528",
+    "https://openalex.org/W2096933856",
+    "https://openalex.org/W2134236426",
+    "https://openalex.org/W2142171035",
+    "https://openalex.org/W2142180792",
+    "https://openalex.org/W2148949075",
+    "https://openalex.org/W2152680309",
+    "https://openalex.org/W2163264591",
+    "https://openalex.org/W2165010366",
+    "https://openalex.org/W4235755315"
+  ],
+  "related_works": [
+    "https://openalex.org/W4205862394",
+    "https://openalex.org/W3129682661",
+    "https://openalex.org/W3040827507",
+    "https://openalex.org/W3017077274",
+    "https://openalex.org/W2559798449",
+    "https://openalex.org/W2385417838",
+    "https://openalex.org/W2140437045",
+    "https://openalex.org/W2038359615",
+    "https://openalex.org/W1996514619",
+    "https://openalex.org/W1967910896"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2104675861",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 393
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1084
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1048
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1045
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 976
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 858
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 592
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 500
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 474
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 399
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 387
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 279
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 185
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 124
+    }
+  ],
+  "updated_date": "2025-06-13T17:59:29.037425",
+  "created_date": "2016-06-24"
+}

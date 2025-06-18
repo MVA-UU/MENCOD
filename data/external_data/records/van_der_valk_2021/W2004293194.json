@@ -1,0 +1,1077 @@
+{
+  "id": "https://openalex.org/W2004293194",
+  "doi": "https://doi.org/10.1016/s0896-6273(02)00569-x",
+  "title": "Whole Brain Segmentation",
+  "display_name": "Whole Brain Segmentation",
+  "publication_year": 2002,
+  "publication_date": "2002-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2004293194",
+    "doi": "https://doi.org/10.1016/s0896-6273(02)00569-x",
+    "mag": "2004293194",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/11832223"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0896-6273(02)00569-x",
+    "pdf_url": "https://www.cell.com/article/S089662730200569X/pdf",
+    "source": {
+      "id": "https://openalex.org/S45757444",
+      "display_name": "Neuron",
+      "issn_l": "0896-6273",
+      "issn": [
+        "0896-6273",
+        "1097-4199"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315673",
+      "host_organization_name": "Cell Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990",
+        "https://openalex.org/P4310315673"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV",
+        "Cell Press"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.cell.com/article/S089662730200569X/pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5022799533",
+        "display_name": "Bruce Fischl",
+        "orcid": "https://orcid.org/0000-0002-2413-1115"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bruce Fischl",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074086023",
+        "display_name": "David H. Salat",
+        "orcid": "https://orcid.org/0000-0002-2246-9657"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David H. Salat",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043650349",
+        "display_name": "Evelina Busa",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Evelina Busa",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023514892",
+        "display_name": "Marilyn Albert",
+        "orcid": "https://orcid.org/0000-0002-8167-8985"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Marilyn Albert",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Massachusetts General Hospital, Harvard Medical School, 55 Fruit Street, VBK 901, Boston, MA 02114 USA",
+        "Department of Psychiatry, CNY-9, Massachusetts General Hospital, Boston, MA 02114 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Massachusetts General Hospital, Harvard Medical School, 55 Fruit Street, VBK 901, Boston, MA 02114 USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Psychiatry, CNY-9, Massachusetts General Hospital, Boston, MA 02114 USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068392207",
+        "display_name": "Megan Dieterich",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Megan Dieterich",
+      "raw_affiliation_strings": [
+        "Center for Morphometric Analysis, Neuroscience Center, MGH-East, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Morphometric Analysis, Neuroscience Center, MGH-East, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053141574",
+        "display_name": "Christian Haselgrove",
+        "orcid": "https://orcid.org/0000-0002-4438-0637"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christian Haselgrove",
+      "raw_affiliation_strings": [
+        "Center for Morphometric Analysis, Neuroscience Center, MGH-East, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Morphometric Analysis, Neuroscience Center, MGH-East, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5089547970",
+        "display_name": "André van der Kouwe",
+        "orcid": "https://orcid.org/0000-0002-2754-6594"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andre van der Kouwe",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032770351",
+        "display_name": "Ronald Killiany",
+        "orcid": "https://orcid.org/0000-0003-4740-2181"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I111088046",
+          "display_name": "Boston University",
+          "ror": "https://ror.org/05qwgg493",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111088046"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ron Killiany",
+      "raw_affiliation_strings": [
+        "Department of Anatomy and Neurobiology, Boston University School of Medicine, 715 Albany Street, Boston, MA 02118 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Anatomy and Neurobiology, Boston University School of Medicine, 715 Albany Street, Boston, MA 02118 USA",
+          "institution_ids": [
+            "https://openalex.org/I111088046"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028579062",
+        "display_name": "David N. Kennedy",
+        "orcid": "https://orcid.org/0000-0002-9377-0797"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Kennedy",
+      "raw_affiliation_strings": [
+        "Center for Morphometric Analysis, Neuroscience Center, MGH-East, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Morphometric Analysis, Neuroscience Center, MGH-East, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056067147",
+        "display_name": "Shuna Klaveness",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shuna Klaveness",
+      "raw_affiliation_strings": [
+        "Center for Morphometric Analysis, Neuroscience Center, MGH-East, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Morphometric Analysis, Neuroscience Center, MGH-East, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068432327",
+        "display_name": "Albert Montillo",
+        "orcid": "https://orcid.org/0000-0002-4353-290X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I79576946",
+          "display_name": "University of Pennsylvania",
+          "ror": "https://ror.org/00b30xv10",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I79576946"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Albert Montillo",
+      "raw_affiliation_strings": [
+        "Computer Science Department, University of Pennsylvania, 111 Towne Building, 220 South 33rd Street, Philadelphia, PA 19104 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Computer Science Department, University of Pennsylvania, 111 Towne Building, 220 South 33rd Street, Philadelphia, PA 19104 USA",
+          "institution_ids": [
+            "https://openalex.org/I79576946"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012499268",
+        "display_name": "Nikos Makris",
+        "orcid": "https://orcid.org/0000-0003-0425-3315"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nikos Makris",
+      "raw_affiliation_strings": [
+        "Center for Morphometric Analysis, Neuroscience Center, MGH-East, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Morphometric Analysis, Neuroscience Center, MGH-East, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004268054",
+        "display_name": "Bruce R. Rosen",
+        "orcid": "https://orcid.org/0000-0002-8576-0839"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bruce Rosen",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5087626511",
+        "display_name": "Anders M. Dale",
+        "orcid": "https://orcid.org/0000-0002-6126-2966"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Anders M. Dale",
+      "raw_affiliation_strings": [
+        "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Massachusetts General Hospital, Nuclear Magnetic Resonance Center, Rm. 2328, Building 149, 13th Street, Charlestown, MA 02129 USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5087626511"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210087915"
+  ],
+  "apc_list": {
+    "value": 9080,
+    "currency": "USD",
+    "value_usd": 9080
+  },
+  "apc_paid": null,
+  "fwci": 23.835,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 8363,
+  "citation_normalized_percentile": {
+    "value": 0.999855,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "33",
+    "issue": "3",
+    "first_page": "341",
+    "last_page": "355"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10052",
+    "display_name": "Medical Image Segmentation Techniques",
+    "score": 0.9971,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10052",
+      "display_name": "Medical Image Segmentation Techniques",
+      "score": 0.9971,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 0.9888,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12267",
+      "display_name": "Diet and metabolism studies",
+      "score": 0.9819,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.5957119
+    },
+    {
+      "id": "https://openalex.org/C89600930",
+      "wikidata": "https://www.wikidata.org/wiki/Q1423946",
+      "display_name": "Segmentation",
+      "level": 2,
+      "score": 0.5554602
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.41417465
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.3892935
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.34888256
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.33859187
+    },
+    {
+      "id": "https://openalex.org/C46312422",
+      "wikidata": "https://www.wikidata.org/wiki/Q11024",
+      "display_name": "Communication",
+      "level": 1,
+      "score": 0.32831466
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000033",
+      "qualifier_name": "anatomy & histology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000544",
+      "descriptor_name": "Alzheimer Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000544",
+      "descriptor_name": "Alzheimer Disease",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000544",
+      "descriptor_name": "Alzheimer Disease",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001931",
+      "descriptor_name": "Brain Mapping",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015203",
+      "descriptor_name": "Reproducibility of Results",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/s0896-6273(02)00569-x",
+      "pdf_url": "https://www.cell.com/article/S089662730200569X/pdf",
+      "source": {
+        "id": "https://openalex.org/S45757444",
+        "display_name": "Neuron",
+        "issn_l": "0896-6273",
+        "issn": [
+          "0896-6273",
+          "1097-4199"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315673",
+        "host_organization_name": "Cell Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990",
+          "https://openalex.org/P4310315673"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV",
+          "Cell Press"
+        ],
+        "type": "journal"
+      },
+      "license": "publisher-specific-oa",
+      "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/11832223",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0896-6273(02)00569-x",
+    "pdf_url": "https://www.cell.com/article/S089662730200569X/pdf",
+    "source": {
+      "id": "https://openalex.org/S45757444",
+      "display_name": "Neuron",
+      "issn_l": "0896-6273",
+      "issn": [
+        "0896-6273",
+        "1097-4199"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315673",
+      "host_organization_name": "Cell Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990",
+        "https://openalex.org/P4310315673"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV",
+        "Cell Press"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "score": 0.52,
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 104,
+  "referenced_works": [
+    "https://openalex.org/W1248700030",
+    "https://openalex.org/W1501672475",
+    "https://openalex.org/W1545349697",
+    "https://openalex.org/W1554544485",
+    "https://openalex.org/W19097475",
+    "https://openalex.org/W1957187913",
+    "https://openalex.org/W1964356197",
+    "https://openalex.org/W1964965688",
+    "https://openalex.org/W1965146482",
+    "https://openalex.org/W1965572030",
+    "https://openalex.org/W1969921143",
+    "https://openalex.org/W1970240370",
+    "https://openalex.org/W1970402412",
+    "https://openalex.org/W1973607521",
+    "https://openalex.org/W1973609741",
+    "https://openalex.org/W1979966786",
+    "https://openalex.org/W1987526918",
+    "https://openalex.org/W1989083417",
+    "https://openalex.org/W1990005524",
+    "https://openalex.org/W1991258631",
+    "https://openalex.org/W1991785932",
+    "https://openalex.org/W1992042148",
+    "https://openalex.org/W1993146297",
+    "https://openalex.org/W2003451440",
+    "https://openalex.org/W2007212664",
+    "https://openalex.org/W2013992337",
+    "https://openalex.org/W2017039405",
+    "https://openalex.org/W2020865149",
+    "https://openalex.org/W2020999234",
+    "https://openalex.org/W2025627647",
+    "https://openalex.org/W2027467488",
+    "https://openalex.org/W2030297759",
+    "https://openalex.org/W2031491792",
+    "https://openalex.org/W2035419215",
+    "https://openalex.org/W2036162736",
+    "https://openalex.org/W2041276929",
+    "https://openalex.org/W2041398617",
+    "https://openalex.org/W2043306767",
+    "https://openalex.org/W2044367669",
+    "https://openalex.org/W2049633694",
+    "https://openalex.org/W2051691068",
+    "https://openalex.org/W2052742260",
+    "https://openalex.org/W2053133374",
+    "https://openalex.org/W2055106796",
+    "https://openalex.org/W2058986306",
+    "https://openalex.org/W2061113411",
+    "https://openalex.org/W2063136428",
+    "https://openalex.org/W2063477088",
+    "https://openalex.org/W2071092702",
+    "https://openalex.org/W2071575205",
+    "https://openalex.org/W2071794819",
+    "https://openalex.org/W2074079997",
+    "https://openalex.org/W2075077984",
+    "https://openalex.org/W2077056138",
+    "https://openalex.org/W2077266794",
+    "https://openalex.org/W2078136810",
+    "https://openalex.org/W2080822231",
+    "https://openalex.org/W2083884482",
+    "https://openalex.org/W2086978209",
+    "https://openalex.org/W2091500019",
+    "https://openalex.org/W2097109632",
+    "https://openalex.org/W2098982273",
+    "https://openalex.org/W2102214751",
+    "https://openalex.org/W2102849263",
+    "https://openalex.org/W2103504761",
+    "https://openalex.org/W2104024054",
+    "https://openalex.org/W2107165478",
+    "https://openalex.org/W2108817119",
+    "https://openalex.org/W2110437310",
+    "https://openalex.org/W2114220616",
+    "https://openalex.org/W2119180809",
+    "https://openalex.org/W2123669610",
+    "https://openalex.org/W2123983635",
+    "https://openalex.org/W2124114508",
+    "https://openalex.org/W2127814064",
+    "https://openalex.org/W2128409098",
+    "https://openalex.org/W2133221360",
+    "https://openalex.org/W2136148445",
+    "https://openalex.org/W2136250824",
+    "https://openalex.org/W2136573752",
+    "https://openalex.org/W2138999518",
+    "https://openalex.org/W2139750977",
+    "https://openalex.org/W2141796362",
+    "https://openalex.org/W2147786839",
+    "https://openalex.org/W2151721316",
+    "https://openalex.org/W2153087078",
+    "https://openalex.org/W2154906251",
+    "https://openalex.org/W2160266567",
+    "https://openalex.org/W2162630772",
+    "https://openalex.org/W2165278596",
+    "https://openalex.org/W2166305980",
+    "https://openalex.org/W2167867293",
+    "https://openalex.org/W2168366236",
+    "https://openalex.org/W2169011823",
+    "https://openalex.org/W2170120409",
+    "https://openalex.org/W2319937903",
+    "https://openalex.org/W2399693789",
+    "https://openalex.org/W2475956504",
+    "https://openalex.org/W2769444398",
+    "https://openalex.org/W3102998284",
+    "https://openalex.org/W3127623214",
+    "https://openalex.org/W4206144694",
+    "https://openalex.org/W4235425095",
+    "https://openalex.org/W4255889404"
+  ],
+  "related_works": [
+    "https://openalex.org/W851926024",
+    "https://openalex.org/W4395685956",
+    "https://openalex.org/W4389858081",
+    "https://openalex.org/W4385583601",
+    "https://openalex.org/W4379231730",
+    "https://openalex.org/W4298131179",
+    "https://openalex.org/W2501551404",
+    "https://openalex.org/W2113201962",
+    "https://openalex.org/W2042327336",
+    "https://openalex.org/W2033914206"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2004293194",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 212
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 675
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 643
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 671
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 723
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 700
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 602
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 587
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 505
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 519
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 498
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 424
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 371
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 284
+    }
+  ],
+  "updated_date": "2025-06-09T15:47:06.627851",
+  "created_date": "2016-06-24"
+}

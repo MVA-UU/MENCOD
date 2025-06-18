@@ -1,0 +1,1982 @@
+{
+  "id": "https://openalex.org/W2439262910",
+  "doi": "https://doi.org/10.1186/s12864-016-2643-0",
+  "title": "Genomic analysis of the multi-host pathogen Erysipelothrix rhusiopathiae reveals extensive recombination as well as the existence of three generalist clades with wide geographic distribution",
+  "display_name": "Genomic analysis of the multi-host pathogen Erysipelothrix rhusiopathiae reveals extensive recombination as well as the existence of three generalist clades with wide geographic distribution",
+  "publication_year": 2016,
+  "publication_date": "2016-06-14",
+  "ids": {
+    "openalex": "https://openalex.org/W2439262910",
+    "doi": "https://doi.org/10.1186/s12864-016-2643-0",
+    "mag": "2439262910",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27301771",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/4906694"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s12864-016-2643-0",
+    "pdf_url": "https://bmcgenomics.biomedcentral.com/track/pdf/10.1186/s12864-016-2643-0",
+    "source": {
+      "id": "https://openalex.org/S28614077",
+      "display_name": "BMC Genomics",
+      "issn_l": "1471-2164",
+      "issn": [
+        "1471-2164"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://bmcgenomics.biomedcentral.com/track/pdf/10.1186/s12864-016-2643-0",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5080679640",
+        "display_name": "Taya Forde",
+        "orcid": "https://orcid.org/0000-0001-9058-7826"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I168635309",
+          "display_name": "University of Calgary",
+          "ror": "https://ror.org/03yjb2x39",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Taya Forde",
+      "raw_affiliation_strings": [
+        "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada",
+          "institution_ids": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000560568",
+        "display_name": "Roman Biek",
+        "orcid": "https://orcid.org/0000-0003-3471-5357"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I7882870",
+          "display_name": "University of Glasgow",
+          "ror": "https://ror.org/00vtgdb53",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I7882870"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Roman Biek",
+      "raw_affiliation_strings": [
+        "Current address: Institute of Biodiversity, Animal Health and Comparative Medicine, University of Glasgow, Glasgow, Scotland, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Current address: Institute of Biodiversity, Animal Health and Comparative Medicine, University of Glasgow, Glasgow, Scotland, UK",
+          "institution_ids": [
+            "https://openalex.org/I7882870"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041819836",
+        "display_name": "Ruth N. Zadoks",
+        "orcid": "https://orcid.org/0000-0002-1164-8000"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I7882870",
+          "display_name": "University of Glasgow",
+          "ror": "https://ror.org/00vtgdb53",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I7882870"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ruth Zadoks",
+      "raw_affiliation_strings": [
+        "Current address: Institute of Biodiversity, Animal Health and Comparative Medicine, University of Glasgow, Glasgow, Scotland, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Current address: Institute of Biodiversity, Animal Health and Comparative Medicine, University of Glasgow, Glasgow, Scotland, UK",
+          "institution_ids": [
+            "https://openalex.org/I7882870"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052752248",
+        "display_name": "Matthew L. Workentine",
+        "orcid": "https://orcid.org/0000-0002-6415-2797"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I168635309",
+          "display_name": "University of Calgary",
+          "ror": "https://ror.org/03yjb2x39",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Matthew L. Workentine",
+      "raw_affiliation_strings": [
+        "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada",
+          "institution_ids": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058471690",
+        "display_name": "Jeroen De Buck",
+        "orcid": "https://orcid.org/0000-0002-4824-9580"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I168635309",
+          "display_name": "University of Calgary",
+          "ror": "https://ror.org/03yjb2x39",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeroen De Buck",
+      "raw_affiliation_strings": [
+        "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada",
+          "institution_ids": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000020749",
+        "display_name": "Susan Kutz",
+        "orcid": "https://orcid.org/0000-0003-2352-8687"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I168635309",
+          "display_name": "University of Calgary",
+          "ror": "https://ror.org/03yjb2x39",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Susan Kutz",
+      "raw_affiliation_strings": [
+        "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada",
+          "institution_ids": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5076424727",
+        "display_name": "Tanja Opriessnig",
+        "orcid": "https://orcid.org/0000-0001-9642-0904"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tanja Opriessnig",
+      "raw_affiliation_strings": [
+        "The Roslin Institute, University of Edinburgh, Midlothian, Scotland, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Roslin Institute, University of Edinburgh, Midlothian, Scotland, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209",
+            "https://openalex.org/I133960621"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037418051",
+        "display_name": "Hannah Trewby",
+        "orcid": "https://orcid.org/0000-0001-8109-8107"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I7882870",
+          "display_name": "University of Glasgow",
+          "ror": "https://ror.org/00vtgdb53",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I7882870"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hannah Trewby",
+      "raw_affiliation_strings": [
+        "Current address: Institute of Biodiversity, Animal Health and Comparative Medicine, University of Glasgow, Glasgow, Scotland, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Current address: Institute of Biodiversity, Animal Health and Comparative Medicine, University of Glasgow, Glasgow, Scotland, UK",
+          "institution_ids": [
+            "https://openalex.org/I7882870"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077375646",
+        "display_name": "Frank van der Meer",
+        "orcid": "https://orcid.org/0000-0003-3785-9639"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I168635309",
+          "display_name": "University of Calgary",
+          "ror": "https://ror.org/03yjb2x39",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Frank van der Meer",
+      "raw_affiliation_strings": [
+        "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada",
+          "institution_ids": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5035027217",
+        "display_name": "Karin Orsel",
+        "orcid": "https://orcid.org/0000-0002-6499-5188"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I168635309",
+          "display_name": "University of Calgary",
+          "ror": "https://ror.org/03yjb2x39",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Karin Orsel",
+      "raw_affiliation_strings": [
+        "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Veterinary Medicine, University of Calgary, Calgary, Alberta, Canada",
+          "institution_ids": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5080679640"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I168635309"
+  ],
+  "apc_list": {
+    "value": 1570,
+    "currency": "GBP",
+    "value_usd": 1925
+  },
+  "apc_paid": {
+    "value": 1570,
+    "currency": "GBP",
+    "value_usd": 1925
+  },
+  "fwci": 3.519,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 51,
+  "citation_normalized_percentile": {
+    "value": 0.999664,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "17",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11688",
+    "display_name": "Microbial infections and disease research",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2404",
+      "display_name": "Microbiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/24",
+      "display_name": "Immunology and Microbiology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11688",
+      "display_name": "Microbial infections and disease research",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2404",
+        "display_name": "Microbiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10506",
+      "display_name": "Aquaculture disease management and microbiota",
+      "score": 0.9987,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10015",
+      "display_name": "Genomics and Phylogenetic Studies",
+      "score": 0.9959,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/erysipelothrix-rhusiopathiae",
+      "display_name": "Erysipelothrix rhusiopathiae",
+      "score": 0.7994833
+    },
+    {
+      "id": "https://openalex.org/keywords/multilocus-sequence-typing",
+      "display_name": "Multilocus sequence typing",
+      "score": 0.4296341
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.88827384
+    },
+    {
+      "id": "https://openalex.org/C2778255925",
+      "wikidata": "https://www.wikidata.org/wiki/Q2346390",
+      "display_name": "Erysipelothrix rhusiopathiae",
+      "level": 2,
+      "score": 0.7994833
+    },
+    {
+      "id": "https://openalex.org/C44465124",
+      "wikidata": "https://www.wikidata.org/wiki/Q713623",
+      "display_name": "Clade",
+      "level": 4,
+      "score": 0.66567653
+    },
+    {
+      "id": "https://openalex.org/C193252679",
+      "wikidata": "https://www.wikidata.org/wiki/Q242125",
+      "display_name": "Phylogenetic tree",
+      "level": 3,
+      "score": 0.5616537
+    },
+    {
+      "id": "https://openalex.org/C78458016",
+      "wikidata": "https://www.wikidata.org/wiki/Q840400",
+      "display_name": "Evolutionary biology",
+      "level": 1,
+      "score": 0.5561644
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.5070846
+    },
+    {
+      "id": "https://openalex.org/C141231307",
+      "wikidata": "https://www.wikidata.org/wiki/Q7020",
+      "display_name": "Genome",
+      "level": 3,
+      "score": 0.507005
+    },
+    {
+      "id": "https://openalex.org/C126831891",
+      "wikidata": "https://www.wikidata.org/wiki/Q221673",
+      "display_name": "Host (biology)",
+      "level": 2,
+      "score": 0.50462496
+    },
+    {
+      "id": "https://openalex.org/C47559259",
+      "wikidata": "https://www.wikidata.org/wiki/Q778143",
+      "display_name": "Biological dispersal",
+      "level": 3,
+      "score": 0.47368243
+    },
+    {
+      "id": "https://openalex.org/C81977670",
+      "wikidata": "https://www.wikidata.org/wiki/Q585259",
+      "display_name": "Genetic diversity",
+      "level": 3,
+      "score": 0.47033152
+    },
+    {
+      "id": "https://openalex.org/C90132467",
+      "wikidata": "https://www.wikidata.org/wiki/Q171184",
+      "display_name": "Phylogenetics",
+      "level": 3,
+      "score": 0.43789345
+    },
+    {
+      "id": "https://openalex.org/C77434933",
+      "wikidata": "https://www.wikidata.org/wiki/Q4043440",
+      "display_name": "Multilocus sequence typing",
+      "level": 4,
+      "score": 0.4296341
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.41277286
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.1474911
+    },
+    {
+      "id": "https://openalex.org/C135763542",
+      "wikidata": "https://www.wikidata.org/wiki/Q106016",
+      "display_name": "Genotype",
+      "level": 3,
+      "score": 0.07004309
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D004888",
+      "descriptor_name": "Erysipelothrix",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004888",
+      "descriptor_name": "Erysipelothrix",
+      "qualifier_ui": "Q000145",
+      "qualifier_name": "classification",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016680",
+      "descriptor_name": "Genome, Bacterial",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D023281",
+      "descriptor_name": "Genomics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011995",
+      "descriptor_name": "Recombination, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001435",
+      "descriptor_name": "Bacteriophages",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001435",
+      "descriptor_name": "Bacteriophages",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016000",
+      "descriptor_name": "Cluster Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004888",
+      "descriptor_name": "Erysipelothrix",
+      "qualifier_ui": "Q000821",
+      "qualifier_name": "virology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004888",
+      "descriptor_name": "Erysipelothrix",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005828",
+      "descriptor_name": "Genetics, Population",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D023281",
+      "descriptor_name": "Genomics",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059014",
+      "descriptor_name": "High-Throughput Nucleotide Sequencing",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D054884",
+      "descriptor_name": "Host-Pathogen Interactions",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010802",
+      "descriptor_name": "Phylogeny",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010957",
+      "descriptor_name": "Plasmids",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010957",
+      "descriptor_name": "Plasmids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013552",
+      "descriptor_name": "Swine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 7,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1186/s12864-016-2643-0",
+      "pdf_url": "https://bmcgenomics.biomedcentral.com/track/pdf/10.1186/s12864-016-2643-0",
+      "source": {
+        "id": "https://openalex.org/S28614077",
+        "display_name": "BMC Genomics",
+        "issn_l": "1471-2164",
+        "issn": [
+          "1471-2164"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320256",
+        "host_organization_name": "BioMed Central",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310320256"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "BioMed Central"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc4906694",
+      "pdf_url": "https://europepmc.org/articles/pmc4906694?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4906694",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://eprints.gla.ac.uk/120417/1/120417.pdf",
+      "pdf_url": "https://eprints.gla.ac.uk/120417/1/120417.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400411",
+        "display_name": "Enlighten: Publications (The University of Glasgow)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I7882870",
+        "host_organization_name": "University of Glasgow",
+        "host_organization_lineage": [
+          "https://openalex.org/I7882870"
+        ],
+        "host_organization_lineage_names": [
+          "University of Glasgow"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.research.ed.ac.uk/portal/en/publications/genomic-analysis-of-the-multihost-pathogen-erysipelothrix-rhusiopathiae-reveals-extensive-recombination-as-well-as-the-existence-of-three-generalist-clades-with-wide-geographic-distribution(76fcf1da-c672-4b33-97d7-8e4fe041393d).html",
+      "pdf_url": "https://www.research.ed.ac.uk/files/25073776/Genomic_analysis_of_the_multi_host_pathogen_Erysipelothrix_rhusiopathiae_reveals_extensive_recombination_as_well_as_the_existence_of_three_generalist_clades_with_wide_geographic_distribution.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400321",
+        "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I98677209",
+        "host_organization_name": "University of Edinburgh",
+        "host_organization_lineage": [
+          "https://openalex.org/I98677209"
+        ],
+        "host_organization_lineage_names": [
+          "University of Edinburgh"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.pure.ed.ac.uk/ws/files/25073776/Genomic_analysis_of_the_multi_host_pathogen_Erysipelothrix_rhusiopathiae_reveals_extensive_recombination_as_well_as_the_existence_of_three_generalist_clades_with_wide_geographic_distribution.pdf",
+      "pdf_url": "https://www.pure.ed.ac.uk/ws/files/25073776/Genomic_analysis_of_the_multi_host_pathogen_Erysipelothrix_rhusiopathiae_reveals_extensive_recombination_as_well_as_the_existence_of_three_generalist_clades_with_wide_geographic_distribution.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400321",
+        "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I98677209",
+        "host_organization_name": "University of Edinburgh",
+        "host_organization_lineage": [
+          "https://openalex.org/I98677209"
+        ],
+        "host_organization_lineage_names": [
+          "University of Edinburgh"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27301771",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s12864-016-2643-0",
+    "pdf_url": "https://bmcgenomics.biomedcentral.com/track/pdf/10.1186/s12864-016-2643-0",
+    "source": {
+      "id": "https://openalex.org/S28614077",
+      "display_name": "BMC Genomics",
+      "issn_l": "1471-2164",
+      "issn": [
+        "1471-2164"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.89,
+      "id": "https://metadata.un.org/sdg/14",
+      "display_name": "Life below water"
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320307106",
+      "funder_display_name": "Weyerhaeuser Company",
+      "award_id": null
+    },
+    {
+      "funder": "https://openalex.org/F4320310537",
+      "funder_display_name": "University of Calgary",
+      "award_id": "Eyes High"
+    },
+    {
+      "funder": "https://openalex.org/F4320313742",
+      "funder_display_name": "BC Oil and Gas Research and Innovation Society",
+      "award_id": null
+    },
+    {
+      "funder": "https://openalex.org/F4320322337",
+      "funder_display_name": "Killam Trusts",
+      "award_id": "Izaak Walton Killam Pre-Doctoral Scholarship"
+    },
+    {
+      "funder": "https://openalex.org/F4320334593",
+      "funder_display_name": "Natural Sciences and Engineering Research Council of Canada",
+      "award_id": "Discovery Grant"
+    },
+    {
+      "funder": "https://openalex.org/F4320334593",
+      "funder_display_name": "Natural Sciences and Engineering Research Council of Canada",
+      "award_id": "Northern supplement"
+    },
+    {
+      "funder": "https://openalex.org/F4320334593",
+      "funder_display_name": "Natural Sciences and Engineering Research Council of Canada",
+      "award_id": "Canada Graduate Scholarship"
+    }
+  ],
+  "datasets": [
+    "https://openalex.org/W4394310980",
+    "https://openalex.org/W4394230361",
+    "https://openalex.org/W4394523614"
+  ],
+  "versions": [],
+  "referenced_works_count": 84,
+  "referenced_works": [
+    "https://openalex.org/W1537264140",
+    "https://openalex.org/W1545878310",
+    "https://openalex.org/W1778126445",
+    "https://openalex.org/W1925284075",
+    "https://openalex.org/W1951189467",
+    "https://openalex.org/W1969746001",
+    "https://openalex.org/W1972145956",
+    "https://openalex.org/W1974735876",
+    "https://openalex.org/W1977355990",
+    "https://openalex.org/W1978191903",
+    "https://openalex.org/W1978738118",
+    "https://openalex.org/W1980101822",
+    "https://openalex.org/W2000859682",
+    "https://openalex.org/W2000896529",
+    "https://openalex.org/W2003234506",
+    "https://openalex.org/W2008971253",
+    "https://openalex.org/W2011998023",
+    "https://openalex.org/W2012653521",
+    "https://openalex.org/W2013410550",
+    "https://openalex.org/W2015390080",
+    "https://openalex.org/W2015783955",
+    "https://openalex.org/W2019713522",
+    "https://openalex.org/W2020350008",
+    "https://openalex.org/W2023344037",
+    "https://openalex.org/W2031977348",
+    "https://openalex.org/W2032207987",
+    "https://openalex.org/W2037409969",
+    "https://openalex.org/W2042894911",
+    "https://openalex.org/W2061622017",
+    "https://openalex.org/W2075013491",
+    "https://openalex.org/W2077169432",
+    "https://openalex.org/W2080618984",
+    "https://openalex.org/W2080873675",
+    "https://openalex.org/W2083539954",
+    "https://openalex.org/W2085702138",
+    "https://openalex.org/W2089244498",
+    "https://openalex.org/W2092085514",
+    "https://openalex.org/W2095680943",
+    "https://openalex.org/W2095695728",
+    "https://openalex.org/W2100152398",
+    "https://openalex.org/W2100363512",
+    "https://openalex.org/W2100819180",
+    "https://openalex.org/W2103546861",
+    "https://openalex.org/W2107282968",
+    "https://openalex.org/W2107772251",
+    "https://openalex.org/W2108234281",
+    "https://openalex.org/W2109982529",
+    "https://openalex.org/W2110467356",
+    "https://openalex.org/W2111047995",
+    "https://openalex.org/W2116913446",
+    "https://openalex.org/W2118442768",
+    "https://openalex.org/W2120076861",
+    "https://openalex.org/W2120419610",
+    "https://openalex.org/W2120902911",
+    "https://openalex.org/W2128880918",
+    "https://openalex.org/W2136430672",
+    "https://openalex.org/W2142428670",
+    "https://openalex.org/W2144452533",
+    "https://openalex.org/W2145843770",
+    "https://openalex.org/W2147431410",
+    "https://openalex.org/W2148698435",
+    "https://openalex.org/W2149899599",
+    "https://openalex.org/W2151263186",
+    "https://openalex.org/W2151985322",
+    "https://openalex.org/W2153148746",
+    "https://openalex.org/W2153209003",
+    "https://openalex.org/W2153369847",
+    "https://openalex.org/W2155471120",
+    "https://openalex.org/W2158286469",
+    "https://openalex.org/W2159104819",
+    "https://openalex.org/W2163768412",
+    "https://openalex.org/W2164738117",
+    "https://openalex.org/W2167623775",
+    "https://openalex.org/W2169035256",
+    "https://openalex.org/W2296988221",
+    "https://openalex.org/W2315612029",
+    "https://openalex.org/W2318581175",
+    "https://openalex.org/W2321295876",
+    "https://openalex.org/W2395139349",
+    "https://openalex.org/W2401650980",
+    "https://openalex.org/W2415502402",
+    "https://openalex.org/W4231709892",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W86240633"
+  ],
+  "related_works": [
+    "https://openalex.org/W3205542108",
+    "https://openalex.org/W3134202315",
+    "https://openalex.org/W2855672594",
+    "https://openalex.org/W2769439087",
+    "https://openalex.org/W2729672706",
+    "https://openalex.org/W2313096447",
+    "https://openalex.org/W2069548787",
+    "https://openalex.org/W2064726798",
+    "https://openalex.org/W2045775263",
+    "https://openalex.org/W1978738118"
+  ],
+  "abstract_inverted_index": {
+    "Knowledge": [
+      0
+    ],
+    "about": [
+      1
+    ],
+    "how": [
+      2
+    ],
+    "bacterial": [
+      3
+    ],
+    "populations": [
+      4
+    ],
+    "are": [
+      5
+    ],
+    "structured": [
+      6
+    ],
+    "is": [
+      7,
+      32,
+      37,
+      256
+    ],
+    "an": [
+      8,
+      33,
+      293
+    ],
+    "important": [
+      9
+    ],
+    "prerequisite": [
+      10
+    ],
+    "for": [
+      11,
+      296
+    ],
+    "studying": [
+      12
+    ],
+    "their": [
+      13
+    ],
+    "ecology": [
+      14
+    ],
+    "and": [
+      15,
+      18,
+      27,
+      44,
+      57,
+      71,
+      74,
+      85,
+      130,
+      136,
+      140,
+      146,
+      200,
+      209,
+      229,
+      240,
+      301,
+      307
+    ],
+    "evolutionary": [
+      16,
+      302
+    ],
+    "history": [
+      17
+    ],
+    "facilitates": [
+      19
+    ],
+    "inquiry": [
+      20
+    ],
+    "into": [
+      21
+    ],
+    "host": [
+      22,
+      75,
+      128,
+      228,
+      238,
+      285
+    ],
+    "specificity,": [
+      23
+    ],
+    "pathogenicity,": [
+      24
+    ],
+    "geographic": [
+      25,
+      73,
+      131,
+      288
+    ],
+    "dispersal": [
+      26
+    ],
+    "molecular": [
+      28,
+      298
+    ],
+    "epidemiology.": [
+      29
+    ],
+    "Erysipelothrix": [
+      30
+    ],
+    "rhusiopathiae": [
+      31,
+      105,
+      122,
+      255,
+      306
+    ],
+    "opportunistic": [
+      34
+    ],
+    "pathogen": [
+      35
+    ],
+    "that": [
+      36,
+      152,
+      253,
+      261,
+      279
+    ],
+    "currently": [
+      38
+    ],
+    "reemerging": [
+      39
+    ],
+    "in": [
+      40,
+      53,
+      62,
+      113,
+      196
+    ],
+    "both": [
+      41,
+      143
+    ],
+    "the": [
+      42,
+      80,
+      157,
+      173,
+      179,
+      211,
+      218
+    ],
+    "swine": [
+      43
+    ],
+    "poultry": [
+      45
+    ],
+    "industries": [
+      46
+    ],
+    "globally.": [
+      47
+    ],
+    "This": [
+      48
+    ],
+    "bacterium": [
+      49,
+      90
+    ],
+    "sporadically": [
+      50
+    ],
+    "causes": [
+      51
+    ],
+    "mortalities": [
+      52
+    ],
+    "captive": [
+      54
+    ],
+    "marine": [
+      55
+    ],
+    "mammals,": [
+      56
+    ],
+    "has": [
+      58,
+      262
+    ],
+    "recently": [
+      59
+    ],
+    "been": [
+      60,
+      263
+    ],
+    "implicated": [
+      61
+    ],
+    "large-scale": [
+      63
+    ],
+    "wildlife": [
+      64
+    ],
+    "die-offs.": [
+      65
+    ],
+    "However,": [
+      66
+    ],
+    "despite": [
+      67
+    ],
+    "its": [
+      68
+    ],
+    "economic": [
+      69
+    ],
+    "relevance": [
+      70
+    ],
+    "broad": [
+      72
+    ],
+    "distribution,": [
+      76
+    ],
+    "including": [
+      77
+    ],
+    "zoonotic": [
+      78
+    ],
+    "potential,": [
+      79
+    ],
+    "global": [
+      81
+    ],
+    "diversity,": [
+      82
+    ],
+    "recombination": [
+      83,
+      176
+    ],
+    "rates,": [
+      84
+    ],
+    "population": [
+      86,
+      180
+    ],
+    "structure": [
+      87,
+      181
+    ],
+    "of": [
+      88,
+      103,
+      111,
+      127,
+      156,
+      175,
+      182,
+      192,
+      213,
+      227,
+      304
+    ],
+    "this": [
+      89,
+      95,
+      183
+    ],
+    "remain": [
+      91
+    ],
+    "poorly": [
+      92
+    ],
+    "characterized.": [
+      93
+    ],
+    "In": [
+      94
+    ],
+    "study,": [
+      96
+    ],
+    "we": [
+      97,
+      166,
+      223,
+      249,
+      272
+    ],
+    "conducted": [
+      98
+    ],
+    "a": [
+      99,
+      108,
+      125,
+      153,
+      185,
+      190,
+      257
+    ],
+    "broad-scale": [
+      100
+    ],
+    "genomic": [
+      101
+    ],
+    "comparison": [
+      102
+    ],
+    "E.": [
+      104,
+      121,
+      220,
+      254,
+      305
+    ],
+    "based": [
+      106,
+      188
+    ],
+    "on": [
+      107,
+      189
+    ],
+    "diverse": [
+      109,
+      237
+    ],
+    "collection": [
+      110
+    ],
+    "isolates": [
+      112,
+      123,
+      235
+    ],
+    "order": [
+      114
+    ],
+    "to": [
+      115,
+      172,
+      177,
+      310
+    ],
+    "address": [
+      116
+    ],
+    "these": [
+      117
+    ],
+    "knowledge": [
+      118
+    ],
+    "gaps.": [
+      119
+    ],
+    "Eighty-three": [
+      120
+    ],
+    "from": [
+      124,
+      236,
+      241
+    ],
+    "range": [
+      126
+    ],
+    "species": [
+      129,
+      219,
+      239,
+      260,
+      286
+    ],
+    "origins,": [
+      132
+    ],
+    "isolated": [
+      133
+    ],
+    "between": [
+      134
+    ],
+    "1958": [
+      135
+    ],
+    "2014,": [
+      137
+    ],
+    "were": [
+      138,
+      206
+    ],
+    "sequenced": [
+      139
+    ],
+    "assembled": [
+      141
+    ],
+    "using": [
+      142
+    ],
+    "reference-based": [
+      144
+    ],
+    "mapping": [
+      145
+    ],
+    "de": [
+      147
+    ],
+    "novo": [
+      148
+    ],
+    "assembly.": [
+      149
+    ],
+    "We": [
+      150
+    ],
+    "found": [
+      151,
+      224
+    ],
+    "high": [
+      154
+    ],
+    "proportion": [
+      155
+    ],
+    "core": [
+      158
+    ],
+    "genome": [
+      159,
+      246
+    ],
+    "(58": [
+      160
+    ],
+    "%)": [
+      161
+    ],
+    "had": [
+      162
+    ],
+    "undergone": [
+      163
+    ],
+    "recombination.": [
+      164,
+      268
+    ],
+    "Therefore,": [
+      165
+    ],
+    "used": [
+      167
+    ],
+    "three": [
+      168,
+      204,
+      214,
+      276
+    ],
+    "independent": [
+      169
+    ],
+    "methods": [
+      170,
+      205
+    ],
+    "robust": [
+      171
+    ],
+    "presence": [
+      174
+    ],
+    "define": [
+      178
+    ],
+    "species:": [
+      184
+    ],
+    "phylogenetic": [
+      186
+    ],
+    "tree": [
+      187
+    ],
+    "set": [
+      191
+    ],
+    "conserved": [
+      193
+    ],
+    "protein": [
+      194
+    ],
+    "sequences,": [
+      195
+    ],
+    "silico": [
+      197
+    ],
+    "chromosome": [
+      198
+    ],
+    "painting,": [
+      199
+    ],
+    "network": [
+      201
+    ],
+    "analysis.": [
+      202
+    ],
+    "All": [
+      203
+    ],
+    "broadly": [
+      207
+    ],
+    "concordant": [
+      208
+    ],
+    "supported": [
+      210
+    ],
+    "existence": [
+      212
+    ],
+    "distinct": [
+      215,
+      277
+    ],
+    "clades": [
+      216,
+      278
+    ],
+    "within": [
+      217
+    ],
+    "rhusiopathiae.": [
+      221
+    ],
+    "Although": [
+      222
+    ],
+    "some": [
+      225
+    ],
+    "evidence": [
+      226
+    ],
+    "geographical": [
+      230
+    ],
+    "clustering,": [
+      231
+    ],
+    "each": [
+      232
+    ],
+    "clade": [
+      233
+    ],
+    "included": [
+      234
+    ],
+    "multiple": [
+      242
+    ],
+    "continents.": [
+      243
+    ],
+    "Using": [
+      244
+    ],
+    "whole": [
+      245
+    ],
+    "sequence": [
+      247
+    ],
+    "data,": [
+      248
+    ],
+    "confirm": [
+      250
+    ],
+    "recent": [
+      251
+    ],
+    "suggestions": [
+      252
+    ],
+    "weakly": [
+      258
+    ],
+    "clonal": [
+      259
+    ],
+    "shaped": [
+      264
+    ],
+    "extensively": [
+      265
+    ],
+    "by": [
+      266,
+      284
+    ],
+    "homologous": [
+      267
+    ],
+    "Despite": [
+      269
+    ],
+    "frequent": [
+      270
+    ],
+    "recombination,": [
+      271
+    ],
+    "can": [
+      273
+    ],
+    "reliably": [
+      274
+    ],
+    "identify": [
+      275
+    ],
+    "do": [
+      280
+    ],
+    "not": [
+      281
+    ],
+    "clearly": [
+      282
+    ],
+    "segregate": [
+      283
+    ],
+    "or": [
+      287
+    ],
+    "origin.": [
+      289
+    ],
+    "Our": [
+      290
+    ],
+    "results": [
+      291
+    ],
+    "provide": [
+      292
+    ],
+    "essential": [
+      294
+    ],
+    "baseline": [
+      295
+    ],
+    "future": [
+      297
+    ],
+    "epidemiological,": [
+      299
+    ],
+    "ecological": [
+      300
+    ],
+    "studies": [
+      303
+    ],
+    "facilitate": [
+      308
+    ],
+    "comparisons": [
+      309
+    ],
+    "other": [
+      311
+    ],
+    "recombinogenic,": [
+      312
+    ],
+    "multi-host": [
+      313
+    ],
+    "bacteria.": [
+      314
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2439262910",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-06-16T19:31:28.744710",
+  "created_date": "2016-06-24"
+}

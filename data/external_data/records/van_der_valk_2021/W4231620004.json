@@ -1,0 +1,585 @@
+{
+  "id": "https://openalex.org/W4231620004",
+  "doi": "https://doi.org/10.2307/1266761",
+  "title": "Procedures for Detecting Outlying Observations in Samples",
+  "display_name": "Procedures for Detecting Outlying Observations in Samples",
+  "publication_year": 1969,
+  "publication_date": "1969-02-01",
+  "ids": {
+    "openalex": "https://openalex.org/W4231620004",
+    "doi": "https://doi.org/10.2307/1266761"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.2307/1266761",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S985303",
+      "display_name": "Technometrics",
+      "issn_l": "0040-1706",
+      "issn": [
+        "0040-1706",
+        "1537-2723"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5016810159",
+        "display_name": "Frank E. Grubbs",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Frank E. Grubbs",
+      "raw_affiliation_strings": [
+        "U. S. Army Aberdeen Research and Development Center Aberdeen Proving Ground , Maryland , 21005"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "U. S. Army Aberdeen Research and Development Center Aberdeen Proving Ground , Maryland , 21005",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5016810159"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.229,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 873,
+  "citation_normalized_percentile": {
+    "value": 0.983402,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "11",
+    "issue": "1",
+    "first_page": "1",
+    "last_page": "1"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11871",
+    "display_name": "Advanced Statistical Methods and Models",
+    "score": 0.9287,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11871",
+      "display_name": "Advanced Statistical Methods and Models",
+      "score": 0.9287,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/sample",
+      "display_name": "Sample (material)",
+      "score": 0.49994826
+    },
+    {
+      "id": "https://openalex.org/keywords/statistical-analysis",
+      "display_name": "Statistical Analysis",
+      "score": 0.46573228
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C79337645",
+      "wikidata": "https://www.wikidata.org/wiki/Q779824",
+      "display_name": "Outlier",
+      "level": 2,
+      "score": 0.80167514
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.6561061
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5675703
+    },
+    {
+      "id": "https://openalex.org/C198531522",
+      "wikidata": "https://www.wikidata.org/wiki/Q485146",
+      "display_name": "Sample (material)",
+      "level": 2,
+      "score": 0.49994826
+    },
+    {
+      "id": "https://openalex.org/C87007009",
+      "wikidata": "https://www.wikidata.org/wiki/Q210832",
+      "display_name": "Statistical hypothesis testing",
+      "level": 2,
+      "score": 0.4750281
+    },
+    {
+      "id": "https://openalex.org/C2986587452",
+      "wikidata": "https://www.wikidata.org/wiki/Q938438",
+      "display_name": "Statistical analysis",
+      "level": 2,
+      "score": 0.46573228
+    },
+    {
+      "id": "https://openalex.org/C2780428219",
+      "wikidata": "https://www.wikidata.org/wiki/Q16952335",
+      "display_name": "Cover (algebra)",
+      "level": 2,
+      "score": 0.4376078
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.07161397
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C43617362",
+      "wikidata": "https://www.wikidata.org/wiki/Q170050",
+      "display_name": "Chromatography",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.2307/1266761",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S985303",
+        "display_name": "Technometrics",
+        "issn_l": "0040-1706",
+        "issn": [
+          "0040-1706",
+          "1537-2723"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/4",
+      "display_name": "Quality education",
+      "score": 0.81
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W3106224695",
+    "https://openalex.org/W3045025409",
+    "https://openalex.org/W2955862983",
+    "https://openalex.org/W2326128982",
+    "https://openalex.org/W2230908439",
+    "https://openalex.org/W2100805515",
+    "https://openalex.org/W2085005940",
+    "https://openalex.org/W2083225395",
+    "https://openalex.org/W2042536588",
+    "https://openalex.org/W1570218381"
+  ],
+  "abstract_inverted_index": {
+    "Procedures": [
+      0
+    ],
+    "are": [
+      1,
+      34,
+      49
+    ],
+    "given": [
+      2
+    ],
+    "for": [
+      3,
+      59
+    ],
+    "determining": [
+      4
+    ],
+    "statistically": [
+      5
+    ],
+    "whether": [
+      6
+    ],
+    "the": [
+      7,
+      10,
+      13,
+      18,
+      22,
+      29,
+      32,
+      38,
+      42,
+      45,
+      77
+    ],
+    "highest": [
+      8,
+      14,
+      20
+    ],
+    "observation,": [
+      9,
+      12
+    ],
+    "lowest": [
+      11,
+      16,
+      24
+    ],
+    "and": [
+      15,
+      41,
+      73
+    ],
+    "observations,": [
+      17,
+      21,
+      25
+    ],
+    "two": [
+      19,
+      23
+    ],
+    "or": [
+      26
+    ],
+    "more": [
+      27
+    ],
+    "of": [
+      28,
+      44,
+      57,
+      79,
+      91
+    ],
+    "observations": [
+      30,
+      82
+    ],
+    "in": [
+      31,
+      61,
+      83,
+      93
+    ],
+    "sample": [
+      33
+    ],
+    "statistical": [
+      35,
+      39
+    ],
+    "outliers.": [
+      36
+    ],
+    "Both": [
+      37
+    ],
+    "formulae": [
+      40
+    ],
+    "application": [
+      43
+    ],
+    "procedures": [
+      46
+    ],
+    "to": [
+      47
+    ],
+    "examples": [
+      48
+    ],
+    "given,": [
+      50
+    ],
+    "thus": [
+      51
+    ],
+    "representing": [
+      52
+    ],
+    "a": [
+      53
+    ],
+    "rather": [
+      54
+    ],
+    "complete": [
+      55
+    ],
+    "treatment": [
+      56
+    ],
+    "tests": [
+      58,
+      90
+    ],
+    "outliers": [
+      60
+    ],
+    "single": [
+      62
+    ],
+    "samples.": [
+      63
+    ],
+    "This": [
+      64
+    ],
+    "paper": [
+      65
+    ],
+    "has": [
+      66
+    ],
+    "been": [
+      67
+    ],
+    "prepared": [
+      68
+    ],
+    "primarily": [
+      69
+    ],
+    "as": [
+      70
+    ],
+    "an": [
+      71
+    ],
+    "expository": [
+      72
+    ],
+    "tutorial": [
+      74
+    ],
+    "article": [
+      75
+    ],
+    "on": [
+      76
+    ],
+    "problem": [
+      78
+    ],
+    "detecting": [
+      80
+    ],
+    "outlying": [
+      81
+    ],
+    "much": [
+      84
+    ],
+    "experimental": [
+      85
+    ],
+    "work.": [
+      86
+    ],
+    "We": [
+      87
+    ],
+    "cover": [
+      88
+    ],
+    "only": [
+      89
+    ],
+    "significance": [
+      92
+    ],
+    "thii": [
+      94
+    ],
+    "paper.": [
+      95
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4231620004",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 50
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 59
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 74
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 48
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 41
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 42
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 45
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 33
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 31
+    }
+  ],
+  "updated_date": "2025-06-17T17:17:30.331375",
+  "created_date": "2022-05-12"
+}

@@ -1,0 +1,966 @@
+{
+  "id": "https://openalex.org/W2105723189",
+  "doi": "https://doi.org/10.1136/jech.53.4.235",
+  "title": "Studying seasonality by using sine and cosine functions in regression analysis",
+  "display_name": "Studying seasonality by using sine and cosine functions in regression analysis",
+  "publication_year": 1999,
+  "publication_date": "1999-04-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2105723189",
+    "doi": "https://doi.org/10.1136/jech.53.4.235",
+    "mag": "2105723189",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/10396550",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/1756865"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/jech.53.4.235",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S156988948",
+      "display_name": "Journal of Epidemiology & Community Health",
+      "issn_l": "0143-005X",
+      "issn": [
+        "0143-005X",
+        "1470-2738"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.1136/jech.53.4.235",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5057379682",
+        "display_name": "A.M. Stolwijk",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. M. Stolwijk",
+      "raw_affiliation_strings": [
+        "Department of Epidemiology, University of Nijmegen, The Netherlands."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Epidemiology, University of Nijmegen, The Netherlands.",
+          "institution_ids": [
+            "https://openalex.org/I145872427"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5002490041",
+        "display_name": "Huub Straatman",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "H. Straatman",
+      "raw_affiliation_strings": [
+        "Department of Epidemiology, University of Nijmegen, The Netherlands."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Epidemiology, University of Nijmegen, The Netherlands.",
+          "institution_ids": [
+            "https://openalex.org/I145872427"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5113678363",
+        "display_name": "Gerhard A. Zielhuis",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. A. Zielhuis",
+      "raw_affiliation_strings": [
+        "Department of Epidemiology, University of Nijmegen, The Netherlands."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Epidemiology, University of Nijmegen, The Netherlands.",
+          "institution_ids": [
+            "https://openalex.org/I145872427"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.806,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 407,
+  "citation_normalized_percentile": {
+    "value": 0.924146,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "53",
+    "issue": "4",
+    "first_page": "235",
+    "last_page": "238"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12365",
+    "display_name": "Effects of Environmental Stressors on Livestock",
+    "score": 0.9308,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1103",
+      "display_name": "Animal Science and Zoology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12365",
+      "display_name": "Effects of Environmental Stressors on Livestock",
+      "score": 0.9308,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1103",
+        "display_name": "Animal Science and Zoology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/sine",
+      "display_name": "Sine",
+      "score": 0.78853995
+    },
+    {
+      "id": "https://openalex.org/keywords/seasonality",
+      "display_name": "Seasonality",
+      "score": 0.62250257
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C186661526",
+      "wikidata": "https://www.wikidata.org/wiki/Q13647261",
+      "display_name": "Sine",
+      "level": 2,
+      "score": 0.78853995
+    },
+    {
+      "id": "https://openalex.org/C178009071",
+      "wikidata": "https://www.wikidata.org/wiki/Q93344",
+      "display_name": "Trigonometric functions",
+      "level": 2,
+      "score": 0.64779186
+    },
+    {
+      "id": "https://openalex.org/C125403950",
+      "wikidata": "https://www.wikidata.org/wiki/Q2111082",
+      "display_name": "Seasonality",
+      "level": 2,
+      "score": 0.62250257
+    },
+    {
+      "id": "https://openalex.org/C83546350",
+      "wikidata": "https://www.wikidata.org/wiki/Q1139051",
+      "display_name": "Regression",
+      "level": 2,
+      "score": 0.5518754
+    },
+    {
+      "id": "https://openalex.org/C152877465",
+      "wikidata": "https://www.wikidata.org/wiki/Q208042",
+      "display_name": "Regression analysis",
+      "level": 2,
+      "score": 0.5395064
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.50122285
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.38006192
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.09185037
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D015986",
+      "descriptor_name": "Confounding Factors, Epidemiologic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012044",
+      "descriptor_name": "Regression Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003627",
+      "descriptor_name": "Data Interpretation, Statistical",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016015",
+      "descriptor_name": "Logistic Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015995",
+      "descriptor_name": "Prevalence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011336",
+      "descriptor_name": "Probability",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1136/jech.53.4.235",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S156988948",
+        "display_name": "Journal of Epidemiology & Community Health",
+        "issn_l": "0143-005X",
+        "issn": [
+          "0143-005X",
+          "1470-2738"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319945",
+        "host_organization_name": "BMJ",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319945"
+        ],
+        "host_organization_lineage_names": [
+          "BMJ"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc1756865",
+      "pdf_url": "https://europepmc.org/articles/pmc1756865?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1756865",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10396550",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/jech.53.4.235",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S156988948",
+      "display_name": "Journal of Epidemiology & Community Health",
+      "issn_l": "0143-005X",
+      "issn": [
+        "0143-005X",
+        "1470-2738"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 13,
+  "referenced_works": [
+    "https://openalex.org/W1988252036",
+    "https://openalex.org/W2010295652",
+    "https://openalex.org/W2020335282",
+    "https://openalex.org/W2030596611",
+    "https://openalex.org/W2069379028",
+    "https://openalex.org/W2073638978",
+    "https://openalex.org/W2077215850",
+    "https://openalex.org/W2102421359",
+    "https://openalex.org/W2143291801",
+    "https://openalex.org/W2162595009",
+    "https://openalex.org/W2323690702",
+    "https://openalex.org/W2416273943",
+    "https://openalex.org/W4299369206"
+  ],
+  "related_works": [
+    "https://openalex.org/W4226341002",
+    "https://openalex.org/W3142213391",
+    "https://openalex.org/W2358475213",
+    "https://openalex.org/W2328538906",
+    "https://openalex.org/W2124469656",
+    "https://openalex.org/W2066336292",
+    "https://openalex.org/W2063166054",
+    "https://openalex.org/W2028663913",
+    "https://openalex.org/W1775321609",
+    "https://openalex.org/W1567793764"
+  ],
+  "abstract_inverted_index": {
+    "STUDY": [
+      0
+    ],
+    "OBJECTIVE:": [
+      1
+    ],
+    "A": [
+      2,
+      43
+    ],
+    "statistical": [
+      3,
+      44
+    ],
+    "test": [
+      4,
+      45,
+      98,
+      105
+    ],
+    "that": [
+      5,
+      48
+    ],
+    "allows": [
+      6
+    ],
+    "for": [
+      7,
+      14,
+      106,
+      132,
+      140
+    ],
+    "adjustment": [
+      8
+    ],
+    "of": [
+      9,
+      17,
+      22,
+      31,
+      37,
+      55,
+      82,
+      120
+    ],
+    "confounding": [
+      10,
+      133
+    ],
+    "can": [
+      11,
+      72,
+      123,
+      144,
+      157
+    ],
+    "be": [
+      12,
+      73,
+      102,
+      124,
+      145,
+      158
+    ],
+    "helpful": [
+      13
+    ],
+    "the": [
+      15,
+      50,
+      53,
+      60,
+      83,
+      128
+    ],
+    "study": [
+      16
+    ],
+    "seasonal": [
+      18,
+      61,
+      84,
+      129,
+      142
+    ],
+    "patterns.": [
+      19
+    ],
+    "The": [
+      20,
+      79,
+      97
+    ],
+    "aim": [
+      21
+    ],
+    "this": [
+      23
+    ],
+    "article": [
+      24
+    ],
+    "is": [
+      25,
+      40,
+      46,
+      99,
+      135
+    ],
+    "to": [
+      26,
+      101,
+      104,
+      126
+    ],
+    "supply": [
+      27
+    ],
+    "a": [
+      28,
+      33,
+      76,
+      87,
+      118,
+      149
+    ],
+    "detailed": [
+      29
+    ],
+    "description": [
+      30
+    ],
+    "such": [
+      32
+    ],
+    "method.": [
+      34
+    ],
+    "An": [
+      35
+    ],
+    "example": [
+      36
+    ],
+    "its": [
+      38
+    ],
+    "application": [
+      39
+    ],
+    "given.": [
+      41
+    ],
+    "DESIGN:": [
+      42
+    ],
+    "presented": [
+      47
+    ],
+    "retains": [
+      49
+    ],
+    "information": [
+      51
+    ],
+    "on": [
+      52
+    ],
+    "connection": [
+      54
+    ],
+    "time": [
+      56,
+      114
+    ],
+    "periods": [
+      57
+    ],
+    "by": [
+      58
+    ],
+    "describing": [
+      59
+    ],
+    "pattern": [
+      62,
+      85
+    ],
+    "as": [
+      63
+    ],
+    "one": [
+      64,
+      67,
+      110
+    ],
+    "sine": [
+      65
+    ],
+    "and": [
+      66,
+      93,
+      154
+    ],
+    "cosine": [
+      68,
+      88,
+      111,
+      121
+    ],
+    "function.": [
+      69
+    ],
+    "Such": [
+      70
+    ],
+    "functions": [
+      71,
+      122
+    ],
+    "included": [
+      74
+    ],
+    "into": [
+      75
+    ],
+    "regression": [
+      77,
+      150
+    ],
+    "model.": [
+      78,
+      151
+    ],
+    "resulting": [
+      80
+    ],
+    "form": [
+      81
+    ],
+    "follows": [
+      86
+    ],
+    "function": [
+      89,
+      112
+    ],
+    "with": [
+      90
+    ],
+    "variable": [
+      91
+    ],
+    "amplitude": [
+      92
+    ],
+    "shift.": [
+      94
+    ],
+    "MAIN": [
+      95
+    ],
+    "RESULTS:": [
+      96
+    ],
+    "shown": [
+      100
+    ],
+    "applicable": [
+      103
+    ],
+    "seasonality.": [
+      107
+    ],
+    "Not": [
+      108
+    ],
+    "only": [
+      109
+    ],
+    "per": [
+      113
+    ],
+    "period,": [
+      115
+    ],
+    "but": [
+      116
+    ],
+    "also": [
+      117
+    ],
+    "mixture": [
+      119
+    ],
+    "used": [
+      125
+    ],
+    "describe": [
+      127
+    ],
+    "pattern.": [
+      130
+    ],
+    "Adjustment": [
+      131
+    ],
+    "effects": [
+      134
+    ],
+    "possible.": [
+      136
+    ],
+    "CONCLUSIONS:": [
+      137
+    ],
+    "This": [
+      138
+    ],
+    "method": [
+      139
+    ],
+    "studying": [
+      141
+    ],
+    "patterns": [
+      143
+    ],
+    "applied": [
+      146
+    ],
+    "easily": [
+      147
+    ],
+    "in": [
+      148
+    ],
+    "Adjusted": [
+      152
+    ],
+    "prevalences": [
+      153
+    ],
+    "odds": [
+      155
+    ],
+    "ratios": [
+      156
+    ],
+    "calculated.": [
+      159
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2105723189",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 31
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 31
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 32
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 14
+    }
+  ],
+  "updated_date": "2025-06-12T02:12:36.905588",
+  "created_date": "2016-06-24"
+}

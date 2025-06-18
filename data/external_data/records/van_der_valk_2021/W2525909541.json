@@ -1,0 +1,1525 @@
+{
+  "id": "https://openalex.org/W2525909541",
+  "doi": "https://doi.org/10.1186/s12906-016-1356-x",
+  "title": "Antidepressant-like effects of acupuncture involved the ERK signaling pathway in rats",
+  "display_name": "Antidepressant-like effects of acupuncture involved the ERK signaling pathway in rats",
+  "publication_year": 2016,
+  "publication_date": "2016-09-29",
+  "ids": {
+    "openalex": "https://openalex.org/W2525909541",
+    "doi": "https://doi.org/10.1186/s12906-016-1356-x",
+    "mag": "2525909541",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27680977",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5041500"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s12906-016-1356-x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S163220592",
+      "display_name": "BMC Complementary and Alternative Medicine",
+      "issn_l": "1472-6882",
+      "issn": [
+        "1472-6882"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1186/s12906-016-1356-x",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5015694085",
+        "display_name": "Xuhui Zhang",
+        "orcid": "https://orcid.org/0000-0003-3202-1159"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17747738",
+          "display_name": "Beijing University of Chinese Medicine",
+          "ror": "https://ror.org/05damtm70",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xuhui Zhang",
+      "raw_affiliation_strings": [
+        "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China",
+          "institution_ids": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071068113",
+        "display_name": "Yingzhou Song",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17747738",
+          "display_name": "Beijing University of Chinese Medicine",
+          "ror": "https://ror.org/05damtm70",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yingzhou Song",
+      "raw_affiliation_strings": [
+        "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China",
+          "institution_ids": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101733884",
+        "display_name": "Tuya Bao",
+        "orcid": "https://orcid.org/0000-0001-8576-3311"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17747738",
+          "display_name": "Beijing University of Chinese Medicine",
+          "ror": "https://ror.org/05damtm70",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tuya Bao",
+      "raw_affiliation_strings": [
+        "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China",
+          "institution_ids": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102083033",
+        "display_name": "Miao Yu",
+        "orcid": "https://orcid.org/0000-0003-4733-5409"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17747738",
+          "display_name": "Beijing University of Chinese Medicine",
+          "ror": "https://ror.org/05damtm70",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Miao Yu",
+      "raw_affiliation_strings": [
+        "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China",
+          "institution_ids": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101025834",
+        "display_name": "Mingmin Xu",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17747738",
+          "display_name": "Beijing University of Chinese Medicine",
+          "ror": "https://ror.org/05damtm70",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mingmin Xu",
+      "raw_affiliation_strings": [
+        "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China",
+          "institution_ids": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043382324",
+        "display_name": "Yu Guo",
+        "orcid": "https://orcid.org/0000-0002-1752-1254"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17747738",
+          "display_name": "Beijing University of Chinese Medicine",
+          "ror": "https://ror.org/05damtm70",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yu Guo",
+      "raw_affiliation_strings": [
+        "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China",
+          "institution_ids": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048387368",
+        "display_name": "Yu Wang",
+        "orcid": "https://orcid.org/0000-0001-5070-0038"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17747738",
+          "display_name": "Beijing University of Chinese Medicine",
+          "ror": "https://ror.org/05damtm70",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yu Wang",
+      "raw_affiliation_strings": [
+        "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China",
+          "institution_ids": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101994511",
+        "display_name": "Chuntao Zhang",
+        "orcid": "https://orcid.org/0000-0002-7941-5756"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210142037",
+          "display_name": "Shanxi University of Traditional Chinese Medicine",
+          "ror": "https://ror.org/0522dg826",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210142037"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chuntao Zhang",
+      "raw_affiliation_strings": [
+        "Shanxi University of Chinese Medicine, Xianyang, Shanxi, 712046, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Shanxi University of Chinese Medicine, Xianyang, Shanxi, 712046, China",
+          "institution_ids": [
+            "https://openalex.org/I4210142037"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5072097681",
+        "display_name": "Bingcong Zhao",
+        "orcid": "https://orcid.org/0000-0003-4565-4908"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17747738",
+          "display_name": "Beijing University of Chinese Medicine",
+          "ror": "https://ror.org/05damtm70",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bingcong Zhao",
+      "raw_affiliation_strings": [
+        "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Beijing University of Chinese Medicine, Beijing, Beijing, 100029, China",
+          "institution_ids": [
+            "https://openalex.org/I17747738"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 1790,
+    "currency": "GBP",
+    "value_usd": 2195
+  },
+  "apc_paid": {
+    "value": 1790,
+    "currency": "GBP",
+    "value_usd": 2195
+  },
+  "fwci": 6.16,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 34,
+  "citation_normalized_percentile": {
+    "value": 0.905794,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 95
+  },
+  "biblio": {
+    "volume": "16",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11327",
+    "display_name": "Acupuncture Treatment Research Studies",
+    "score": 0.9991,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2707",
+      "display_name": "Complementary and alternative medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11327",
+      "display_name": "Acupuncture Treatment Research Studies",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2707",
+        "display_name": "Complementary and alternative medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9977,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11337",
+      "display_name": "Tryptophan and brain disorders",
+      "score": 0.9914,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2803",
+        "display_name": "Biological Psychiatry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C1629964",
+      "wikidata": "https://www.wikidata.org/wiki/Q106950729",
+      "display_name": "CREB",
+      "level": 4,
+      "score": 0.81702423
+    },
+    {
+      "id": "https://openalex.org/C57074206",
+      "wikidata": "https://www.wikidata.org/wiki/Q14197552",
+      "display_name": "MAPK/ERK pathway",
+      "level": 3,
+      "score": 0.75611883
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.66907537
+    },
+    {
+      "id": "https://openalex.org/C56837625",
+      "wikidata": "https://www.wikidata.org/wiki/Q121713",
+      "display_name": "Acupuncture",
+      "level": 3,
+      "score": 0.5942188
+    },
+    {
+      "id": "https://openalex.org/C2776134451",
+      "wikidata": "https://www.wikidata.org/wiki/Q422244",
+      "display_name": "Fluoxetine",
+      "level": 4,
+      "score": 0.583259
+    },
+    {
+      "id": "https://openalex.org/C2781161787",
+      "wikidata": "https://www.wikidata.org/wiki/Q48360",
+      "display_name": "Hippocampus",
+      "level": 2,
+      "score": 0.56465954
+    },
+    {
+      "id": "https://openalex.org/C2779177272",
+      "wikidata": "https://www.wikidata.org/wiki/Q76560",
+      "display_name": "Antidepressant",
+      "level": 3,
+      "score": 0.5480405
+    },
+    {
+      "id": "https://openalex.org/C98274493",
+      "wikidata": "https://www.wikidata.org/wiki/Q128406",
+      "display_name": "Pharmacology",
+      "level": 1,
+      "score": 0.51433504
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.5142095
+    },
+    {
+      "id": "https://openalex.org/C62478195",
+      "wikidata": "https://www.wikidata.org/wiki/Q828130",
+      "display_name": "Signal transduction",
+      "level": 2,
+      "score": 0.5004761
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.4576262
+    },
+    {
+      "id": "https://openalex.org/C2778790584",
+      "wikidata": "https://www.wikidata.org/wiki/Q123045",
+      "display_name": "Brain-derived neurotrophic factor",
+      "level": 4,
+      "score": 0.45428017
+    },
+    {
+      "id": "https://openalex.org/C184235292",
+      "wikidata": "https://www.wikidata.org/wiki/Q421851",
+      "display_name": "Kinase",
+      "level": 2,
+      "score": 0.44017783
+    },
+    {
+      "id": "https://openalex.org/C160539049",
+      "wikidata": "https://www.wikidata.org/wiki/Q3064187",
+      "display_name": "Neurotrophic factors",
+      "level": 3,
+      "score": 0.3850842
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.13636774
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.12941226
+    },
+    {
+      "id": "https://openalex.org/C86339819",
+      "wikidata": "https://www.wikidata.org/wiki/Q407384",
+      "display_name": "Transcription factor",
+      "level": 3,
+      "score": 0.11357257
+    },
+    {
+      "id": "https://openalex.org/C2775864247",
+      "wikidata": "https://www.wikidata.org/wiki/Q167934",
+      "display_name": "Serotonin",
+      "level": 3,
+      "score": 0.08967808
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.089155495
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.07695004
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.072019905
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1186/s12906-016-1356-x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S163220592",
+        "display_name": "BMC Complementary and Alternative Medicine",
+        "issn_l": "1472-6882",
+        "issn": [
+          "1472-6882"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320256",
+        "host_organization_name": "BioMed Central",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310320256"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "BioMed Central"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5041500",
+      "pdf_url": "https://europepmc.org/articles/pmc5041500?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5041500",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27680977",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s12906-016-1356-x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S163220592",
+      "display_name": "BMC Complementary and Alternative Medicine",
+      "issn_l": "1472-6882",
+      "issn": [
+        "1472-6882"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.82
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China",
+      "award_id": "81173334"
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 75,
+  "referenced_works": [
+    "https://openalex.org/W126336495",
+    "https://openalex.org/W1533336447",
+    "https://openalex.org/W1562445919",
+    "https://openalex.org/W1574387172",
+    "https://openalex.org/W1720447621",
+    "https://openalex.org/W1965593526",
+    "https://openalex.org/W1966037459",
+    "https://openalex.org/W1966954087",
+    "https://openalex.org/W1975182501",
+    "https://openalex.org/W1976860995",
+    "https://openalex.org/W1977430165",
+    "https://openalex.org/W1979125819",
+    "https://openalex.org/W1980203397",
+    "https://openalex.org/W1980330316",
+    "https://openalex.org/W1981285433",
+    "https://openalex.org/W1982765883",
+    "https://openalex.org/W1984109779",
+    "https://openalex.org/W1987566523",
+    "https://openalex.org/W1992584151",
+    "https://openalex.org/W1995262615",
+    "https://openalex.org/W1997194606",
+    "https://openalex.org/W1998558145",
+    "https://openalex.org/W2002669733",
+    "https://openalex.org/W2003940053",
+    "https://openalex.org/W2008534268",
+    "https://openalex.org/W2008671190",
+    "https://openalex.org/W2009555030",
+    "https://openalex.org/W2015247929",
+    "https://openalex.org/W2017727557",
+    "https://openalex.org/W2023343492",
+    "https://openalex.org/W2025311391",
+    "https://openalex.org/W2033483393",
+    "https://openalex.org/W2045001552",
+    "https://openalex.org/W2045866007",
+    "https://openalex.org/W2050836998",
+    "https://openalex.org/W2051371828",
+    "https://openalex.org/W2052750950",
+    "https://openalex.org/W2054963065",
+    "https://openalex.org/W2055716589",
+    "https://openalex.org/W2059608747",
+    "https://openalex.org/W2060709606",
+    "https://openalex.org/W2060741492",
+    "https://openalex.org/W2066457796",
+    "https://openalex.org/W2076277579",
+    "https://openalex.org/W2078569879",
+    "https://openalex.org/W2078678940",
+    "https://openalex.org/W2078740239",
+    "https://openalex.org/W2095822659",
+    "https://openalex.org/W2110696099",
+    "https://openalex.org/W2111428173",
+    "https://openalex.org/W2111665528",
+    "https://openalex.org/W2118977349",
+    "https://openalex.org/W2121268813",
+    "https://openalex.org/W2121920106",
+    "https://openalex.org/W2140178312",
+    "https://openalex.org/W2146918064",
+    "https://openalex.org/W2151414600",
+    "https://openalex.org/W2167421306",
+    "https://openalex.org/W2169083980",
+    "https://openalex.org/W2169363602",
+    "https://openalex.org/W2169945211",
+    "https://openalex.org/W2171340584",
+    "https://openalex.org/W2177428028",
+    "https://openalex.org/W2211405802",
+    "https://openalex.org/W2221966619",
+    "https://openalex.org/W2252751166",
+    "https://openalex.org/W2276225173",
+    "https://openalex.org/W2364580398",
+    "https://openalex.org/W2399795064",
+    "https://openalex.org/W2410415755",
+    "https://openalex.org/W2470116295",
+    "https://openalex.org/W247880967",
+    "https://openalex.org/W4247904703",
+    "https://openalex.org/W84932982",
+    "https://openalex.org/W996704687"
+  ],
+  "related_works": [
+    "https://openalex.org/W2788661288",
+    "https://openalex.org/W2597451298",
+    "https://openalex.org/W2517934337",
+    "https://openalex.org/W2182712890",
+    "https://openalex.org/W2117939235",
+    "https://openalex.org/W2060693894",
+    "https://openalex.org/W2025682675",
+    "https://openalex.org/W2008064637",
+    "https://openalex.org/W2007209736",
+    "https://openalex.org/W1993213120"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      155,
+      166,
+      178
+    ],
+    "extracellular": [
+      1
+    ],
+    "signal-regulated": [
+      2
+    ],
+    "kinase": [
+      3
+    ],
+    "(ERK)": [
+      4
+    ],
+    "signaling": [
+      5,
+      40,
+      157,
+      214,
+      234,
+      256
+    ],
+    "pathway": [
+      6,
+      41,
+      158,
+      215,
+      257
+    ],
+    "is": [
+      7
+    ],
+    "considered": [
+      8
+    ],
+    "to": [
+      9,
+      23,
+      51,
+      125,
+      131
+    ],
+    "be": [
+      10
+    ],
+    "associated": [
+      11
+    ],
+    "with": [
+      12
+    ],
+    "the": [
+      13,
+      35,
+      38,
+      43,
+      118,
+      152,
+      172,
+      197,
+      206,
+      212,
+      217,
+      225,
+      232,
+      254
+    ],
+    "pathogenesis": [
+      14
+    ],
+    "and": [
+      15,
+      27,
+      105,
+      146,
+      175,
+      191,
+      209,
+      253
+    ],
+    "treatment": [
+      16
+    ],
+    "of": [
+      17,
+      37,
+      46,
+      128,
+      143,
+      181,
+      211,
+      219
+    ],
+    "depression.": [
+      18,
+      133
+    ],
+    "Acupuncture": [
+      19,
+      73,
+      97,
+      134,
+      204
+    ],
+    "has": [
+      20
+    ],
+    "been": [
+      21
+    ],
+    "demonstrated": [
+      22
+    ],
+    "ameliorate": [
+      24
+    ],
+    "depression-related": [
+      25
+    ],
+    "behavior": [
+      26
+    ],
+    "promote": [
+      28
+    ],
+    "neurogenesis.": [
+      29
+    ],
+    "In": [
+      30
+    ],
+    "this": [
+      31,
+      261
+    ],
+    "study,": [
+      32
+    ],
+    "we": [
+      33
+    ],
+    "explored": [
+      34
+    ],
+    "role": [
+      36
+    ],
+    "ERK": [
+      39,
+      156,
+      213,
+      233,
+      255
+    ],
+    "in": [
+      42,
+      48,
+      196,
+      216,
+      260
+    ],
+    "antidepressant-like": [
+      44,
+      246
+    ],
+    "effects": [
+      45
+    ],
+    "acupuncture": [
+      47,
+      230,
+      242
+    ],
+    "rats": [
+      49,
+      60,
+      122
+    ],
+    "exposed": [
+      50
+    ],
+    "chronic": [
+      52
+    ],
+    "unpredictable": [
+      53
+    ],
+    "mild": [
+      54
+    ],
+    "stress": [
+      55
+    ],
+    "(CUMS).": [
+      56
+    ],
+    "Eighty": [
+      57
+    ],
+    "male": [
+      58
+    ],
+    "Sprague–Dawley": [
+      59
+    ],
+    "were": [
+      61,
+      123,
+      169,
+      199
+    ],
+    "randomly": [
+      62
+    ],
+    "divided": [
+      63
+    ],
+    "into": [
+      64
+    ],
+    "eight": [
+      65
+    ],
+    "groups:": [
+      66
+    ],
+    "control": [
+      67,
+      119
+    ],
+    "group,": [
+      68,
+      70,
+      120
+    ],
+    "model": [
+      69,
+      71,
+      77,
+      83,
+      89,
+      95,
+      106,
+      251
+    ],
+    "+": [
+      72,
+      78,
+      84,
+      90,
+      96,
+      98,
+      102,
+      107,
+      109,
+      113
+    ],
+    "group": [
+      74,
+      80,
+      86,
+      92,
+      100,
+      111
+    ],
+    "(Acu": [
+      75,
+      101
+    ],
+    "group),": [
+      76,
+      82,
+      88,
+      94
+    ],
+    "fluoxetine": [
+      79,
+      108
+    ],
+    "(FLX": [
+      81,
+      112
+    ],
+    "DMSO": [
+      85
+    ],
+    "(DMSO": [
+      87
+    ],
+    "PD98059": [
+      91,
+      99,
+      110,
+      162,
+      222
+    ],
+    "(PD": [
+      93
+    ],
+    "PD": [
+      103,
+      114
+    ],
+    "group)": [
+      104
+    ],
+    "group).": [
+      115
+    ],
+    "Except": [
+      116
+    ],
+    "for": [
+      117,
+      138
+    ],
+    "all": [
+      121
+    ],
+    "subjected": [
+      124
+    ],
+    "3": [
+      126
+    ],
+    "weeks": [
+      127
+    ],
+    "CUMS": [
+      129,
+      220
+    ],
+    "protocols": [
+      130
+    ],
+    "induce": [
+      132
+    ],
+    "was": [
+      135,
+      159,
+      258
+    ],
+    "carried": [
+      136
+    ],
+    "out": [
+      137
+    ],
+    "10": [
+      139
+    ],
+    "min": [
+      140
+    ],
+    "at": [
+      141
+    ],
+    "acupoints": [
+      142
+    ],
+    "Baihui": [
+      144
+    ],
+    "(GV-20)": [
+      145
+    ],
+    "Yintang": [
+      147
+    ],
+    "(GV-29)": [
+      148
+    ],
+    "each": [
+      149
+    ],
+    "day": [
+      150
+    ],
+    "during": [
+      151
+    ],
+    "experimental": [
+      153
+    ],
+    "procedure.": [
+      154
+    ],
+    "inhibited": [
+      160,
+      224
+    ],
+    "using": [
+      161,
+      171,
+      201
+    ],
+    "through": [
+      163
+    ],
+    "intracerebroventricular": [
+      164
+    ],
+    "injection.": [
+      165
+    ],
+    "depression-like": [
+      167,
+      207
+    ],
+    "behaviors": [
+      168,
+      208
+    ],
+    "evaluated": [
+      170
+    ],
+    "sucrose": [
+      173
+    ],
+    "intake": [
+      174
+    ],
+    "open-field": [
+      176
+    ],
+    "tests.": [
+      177
+    ],
+    "protein": [
+      179,
+      188
+    ],
+    "levels": [
+      180
+    ],
+    "ERK1/2,": [
+      182
+    ],
+    "phosphor": [
+      183
+    ],
+    "(p)-ERK1/2,": [
+      184
+    ],
+    "cAMP": [
+      185
+    ],
+    "response": [
+      186
+    ],
+    "element-binding": [
+      187
+    ],
+    "(CREB),": [
+      189
+    ],
+    "p-CREB": [
+      190
+    ],
+    "brain-derived": [
+      192
+    ],
+    "neurotrophic": [
+      193
+    ],
+    "factor": [
+      194
+    ],
+    "(BDNF)": [
+      195
+    ],
+    "hippocampus": [
+      198,
+      218
+    ],
+    "examined": [
+      200
+    ],
+    "western": [
+      202
+    ],
+    "blot.": [
+      203
+    ],
+    "ameliorated": [
+      205
+    ],
+    "dysfunction": [
+      210
+    ],
+    "rats.": [
+      221
+    ],
+    "pretreatment": [
+      223
+    ],
+    "improvements": [
+      226
+    ],
+    "brought": [
+      227
+    ],
+    "about": [
+      228
+    ],
+    "by": [
+      229
+    ],
+    "on": [
+      231,
+      248
+    ],
+    "pathway.": [
+      235
+    ],
+    "Taken": [
+      236
+    ],
+    "together,": [
+      237
+    ],
+    "our": [
+      238
+    ],
+    "results": [
+      239
+    ],
+    "indicated": [
+      240
+    ],
+    "that": [
+      241
+    ],
+    "had": [
+      243
+    ],
+    "a": [
+      244
+    ],
+    "significant": [
+      245
+    ],
+    "effect": [
+      247
+    ],
+    "CUMS-induced": [
+      249
+    ],
+    "depression": [
+      250
+    ],
+    "rats,": [
+      252
+    ],
+    "implicated": [
+      259
+    ],
+    "effect.": [
+      262
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2525909541",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-06-16T00:45:16.464022",
+  "created_date": "2016-10-07"
+}

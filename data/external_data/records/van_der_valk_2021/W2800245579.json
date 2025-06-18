@@ -1,0 +1,1340 @@
+{
+  "id": "https://openalex.org/W2800245579",
+  "doi": "https://doi.org/10.1080/19485565.2018.1451300",
+  "title": "HPLC-based Measurement of Glycated Hemoglobin using Dried Blood Spots Collected under Adverse Field Conditions",
+  "display_name": "HPLC-based Measurement of Glycated Hemoglobin using Dried Blood Spots Collected under Adverse Field Conditions",
+  "publication_year": 2018,
+  "publication_date": "2018-01-02",
+  "ids": {
+    "openalex": "https://openalex.org/W2800245579",
+    "doi": "https://doi.org/10.1080/19485565.2018.1451300",
+    "mag": "2800245579",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/29741414",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/6173327"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1080/19485565.2018.1451300",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210206601",
+      "display_name": "Biodemography and Social Biology",
+      "issn_l": "1948-5565",
+      "issn": [
+        "1948-5565",
+        "1948-5573"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc6173327?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5054740887",
+        "display_name": "Duncan Thomas",
+        "orcid": "https://orcid.org/0000-0001-9471-1345"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210124077",
+          "display_name": "Duke Institute for Health Innovation",
+          "ror": "https://ror.org/031n1rn61",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210124077"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I170897317",
+          "display_name": "Duke University",
+          "ror": "https://ror.org/00py81415",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I170897317"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Duncan Thomas",
+      "raw_affiliation_strings": [
+        "Economics Department and Duke Global Health Institute, Duke University, Durham, NC, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Economics Department and Duke Global Health Institute, Duke University, Durham, NC, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210124077",
+            "https://openalex.org/I170897317"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091406579",
+        "display_name": "Teresa E. Seeman",
+        "orcid": "https://orcid.org/0000-0001-8583-4239"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Teresa Seeman",
+      "raw_affiliation_strings": [
+        "David Geffen School of Medicine, University of California, Los Angeles, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "David Geffen School of Medicine, University of California, Los Angeles, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056827105",
+        "display_name": "Alan Potter",
+        "orcid": "https://orcid.org/0009-0000-6339-0745"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I201448701",
+          "display_name": "University of Washington",
+          "ror": "https://ror.org/00cvxb145",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alan Potter",
+      "raw_affiliation_strings": [
+        "Department of Laboratory Medicine, University of Washington, Seattle, WA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Laboratory Medicine, University of Washington, Seattle, WA, USA",
+          "institution_ids": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110028944",
+        "display_name": "Peifeng Hu",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peifeng Hu",
+      "raw_affiliation_strings": [
+        "David Geffen School of Medicine, University of California, Los Angeles, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "David Geffen School of Medicine, University of California, Los Angeles, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014359763",
+        "display_name": "Eileen M. Crimmins",
+        "orcid": "https://orcid.org/0000-0001-5459-5239"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1174212",
+          "display_name": "University of Southern California",
+          "ror": "https://ror.org/03taz7m60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1174212"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Eileen Crimmins",
+      "raw_affiliation_strings": [
+        "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Leonard Davis School of Gerontology, University of Southern California, Los Angeles, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I1174212"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091114322",
+        "display_name": "Elizabeth Henny Herningtyas",
+        "orcid": "https://orcid.org/0000-0001-7229-9628"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165230279",
+          "display_name": "Universitas Gadjah Mada",
+          "ror": "https://ror.org/03ke6d638",
+          "country_code": "ID",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I165230279"
+          ]
+        }
+      ],
+      "countries": [
+        "ID"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elizabeth Henny Herningtyas",
+      "raw_affiliation_strings": [
+        "Department of Clinical Pathology and Laboratory Medicine, Faculty of Medicine, Public Health and Nursing, Universitas Gadjah Mada, Yogyakarta, Indonesia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Pathology and Laboratory Medicine, Faculty of Medicine, Public Health and Nursing, Universitas Gadjah Mada, Yogyakarta, Indonesia",
+          "institution_ids": [
+            "https://openalex.org/I165230279"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052012201",
+        "display_name": "Cecep Sumantri",
+        "orcid": "https://orcid.org/0000-0003-1589-8338"
+      },
+      "institutions": [],
+      "countries": [
+        "ID"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cecep Sumantri",
+      "raw_affiliation_strings": [
+        "SurveyMETER, Yogyakarta, Indonesia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "SurveyMETER, Yogyakarta, Indonesia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5000204159",
+        "display_name": "Elizabeth Frankenberg",
+        "orcid": "https://orcid.org/0000-0003-0671-9684"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114027177",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "ror": "https://ror.org/0130frc33",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elizabeth Frankenberg",
+      "raw_affiliation_strings": [
+        "Sociology Department and Carolina Population Center, University of North Carolina, Chapel Hill, NC, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Sociology Department and Carolina Population Center, University of North Carolina, Chapel Hill, NC, USA",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 7,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5054740887"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210124077",
+    "https://openalex.org/I170897317"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.781,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 17,
+  "citation_normalized_percentile": {
+    "value": 0.908713,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 90
+  },
+  "biblio": {
+    "volume": "64",
+    "issue": "1",
+    "first_page": "43",
+    "last_page": "62"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10560",
+    "display_name": "Diabetes Management and Research",
+    "score": 0.9919,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2712",
+      "display_name": "Endocrinology, Diabetes and Metabolism"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10560",
+      "display_name": "Diabetes Management and Research",
+      "score": 0.9919,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11171",
+      "display_name": "Diabetes and associated disorders",
+      "score": 0.9888,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11534",
+      "display_name": "Erythropoietin and Anemia Treatment",
+      "score": 0.9883,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2720",
+        "display_name": "Hematology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/venous-blood",
+      "display_name": "Venous blood",
+      "score": 0.7296641
+    },
+    {
+      "id": "https://openalex.org/keywords/glycated-hemoglobin",
+      "display_name": "Glycated hemoglobin",
+      "score": 0.6918937
+    },
+    {
+      "id": "https://openalex.org/keywords/dried-blood-spot",
+      "display_name": "Dried blood spot",
+      "score": 0.44658712
+    },
+    {
+      "id": "https://openalex.org/keywords/blood-collection",
+      "display_name": "Blood collection",
+      "score": 0.41344664
+    },
+    {
+      "id": "https://openalex.org/keywords/gold-standard",
+      "display_name": "Gold standard (test)",
+      "score": 0.4106086
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C43044207",
+      "wikidata": "https://www.wikidata.org/wiki/Q618363",
+      "display_name": "Venous blood",
+      "level": 2,
+      "score": 0.7296641
+    },
+    {
+      "id": "https://openalex.org/C2777538456",
+      "wikidata": "https://www.wikidata.org/wiki/Q311213",
+      "display_name": "Glycated hemoglobin",
+      "level": 4,
+      "score": 0.6918937
+    },
+    {
+      "id": "https://openalex.org/C2778917026",
+      "wikidata": "https://www.wikidata.org/wiki/Q43041",
+      "display_name": "Hemoglobin",
+      "level": 2,
+      "score": 0.56712323
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.48766696
+    },
+    {
+      "id": "https://openalex.org/C43617362",
+      "wikidata": "https://www.wikidata.org/wiki/Q170050",
+      "display_name": "Chromatography",
+      "level": 1,
+      "score": 0.46646225
+    },
+    {
+      "id": "https://openalex.org/C158960510",
+      "wikidata": "https://www.wikidata.org/wiki/Q180600",
+      "display_name": "Relative humidity",
+      "level": 2,
+      "score": 0.4514271
+    },
+    {
+      "id": "https://openalex.org/C2776597655",
+      "wikidata": "https://www.wikidata.org/wiki/Q5307389",
+      "display_name": "Dried blood spot",
+      "level": 2,
+      "score": 0.44658712
+    },
+    {
+      "id": "https://openalex.org/C179998833",
+      "wikidata": "https://www.wikidata.org/wiki/Q381233",
+      "display_name": "High-performance liquid chromatography",
+      "level": 2,
+      "score": 0.41345286
+    },
+    {
+      "id": "https://openalex.org/C2994091943",
+      "wikidata": "https://www.wikidata.org/wiki/Q7410159",
+      "display_name": "Blood collection",
+      "level": 2,
+      "score": 0.41344664
+    },
+    {
+      "id": "https://openalex.org/C40993552",
+      "wikidata": "https://www.wikidata.org/wiki/Q514654",
+      "display_name": "Gold standard (test)",
+      "level": 2,
+      "score": 0.4106086
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.4101286
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.3910843
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.25163874
+    },
+    {
+      "id": "https://openalex.org/C555293320",
+      "wikidata": "https://www.wikidata.org/wiki/Q12206",
+      "display_name": "Diabetes mellitus",
+      "level": 2,
+      "score": 0.1284951
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.12819639
+    },
+    {
+      "id": "https://openalex.org/C194828623",
+      "wikidata": "https://www.wikidata.org/wiki/Q2861470",
+      "display_name": "Emergency medicine",
+      "level": 1,
+      "score": 0.08231211
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C2777180221",
+      "wikidata": "https://www.wikidata.org/wiki/Q3025883",
+      "display_name": "Type 2 diabetes",
+      "level": 3,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C97355855",
+      "wikidata": "https://www.wikidata.org/wiki/Q11473",
+      "display_name": "Thermodynamics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D006442",
+      "descriptor_name": "Glycated Hemoglobin",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001800",
+      "descriptor_name": "Blood Specimen Collection",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002851",
+      "descriptor_name": "Chromatography, High Pressure Liquid",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059788",
+      "descriptor_name": "Dried Blood Spot Testing",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007214",
+      "descriptor_name": "Indonesia",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/19485565.2018.1451300",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210206601",
+        "display_name": "Biodemography and Social Biology",
+        "issn_l": "1948-5565",
+        "issn": [
+          "1948-5565",
+          "1948-5573"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc6173327",
+      "pdf_url": "https://europepmc.org/articles/pmc6173327?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6173327",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29741414",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc6173327",
+    "pdf_url": "https://europepmc.org/articles/pmc6173327?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320307874",
+      "funder_display_name": "Wellcome",
+      "award_id": "OPOH 106853/A/15/Z"
+    },
+    {
+      "funder": "https://openalex.org/F4320337337",
+      "funder_display_name": "National Institute on Aging",
+      "award_id": "P30 AG017265"
+    },
+    {
+      "funder": "https://openalex.org/F4320337337",
+      "funder_display_name": "National Institute on Aging",
+      "award_id": "R01 AG031266"
+    },
+    {
+      "funder": "https://openalex.org/F4320337337",
+      "funder_display_name": "National Institute on Aging",
+      "award_id": "R01 AG049020"
+    },
+    {
+      "funder": "https://openalex.org/F4320337611",
+      "funder_display_name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "award_id": "R01 HD052762"
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 17,
+  "referenced_works": [
+    "https://openalex.org/W1599568665",
+    "https://openalex.org/W1909844156",
+    "https://openalex.org/W1928168417",
+    "https://openalex.org/W2013329509",
+    "https://openalex.org/W2015795623",
+    "https://openalex.org/W2038027769",
+    "https://openalex.org/W2042362594",
+    "https://openalex.org/W2067872658",
+    "https://openalex.org/W2124970797",
+    "https://openalex.org/W2128855640",
+    "https://openalex.org/W2132994585",
+    "https://openalex.org/W2141051663",
+    "https://openalex.org/W2145355107",
+    "https://openalex.org/W2148873848",
+    "https://openalex.org/W2223369973",
+    "https://openalex.org/W2338167986",
+    "https://openalex.org/W4256143419"
+  ],
+  "related_works": [
+    "https://openalex.org/W4382631647",
+    "https://openalex.org/W3156879432",
+    "https://openalex.org/W3058393778",
+    "https://openalex.org/W3030138348",
+    "https://openalex.org/W2624202359",
+    "https://openalex.org/W2144081816",
+    "https://openalex.org/W2058804381",
+    "https://openalex.org/W2043996585",
+    "https://openalex.org/W1971437981",
+    "https://openalex.org/W1965085885"
+  ],
+  "abstract_inverted_index": {
+    "Glycated": [
+      0
+    ],
+    "hemoglobin": [
+      1,
+      74,
+      81
+    ],
+    "(HbA1c)": [
+      2
+    ],
+    "measured": [
+      3,
+      140
+    ],
+    "using": [
+      4,
+      92
+    ],
+    "high-performance": [
+      5
+    ],
+    "liquid": [
+      6
+    ],
+    "chromatography": [
+      7
+    ],
+    "(HPLC)": [
+      8
+    ],
+    "assays": [
+      9,
+      61
+    ],
+    "with": [
+      10,
+      170
+    ],
+    "venous": [
+      11,
+      171
+    ],
+    "blood": [
+      12,
+      15
+    ],
+    "and": [
+      13,
+      45
+    ],
+    "dried": [
+      14
+    ],
+    "spots": [
+      16
+    ],
+    "(DBS)": [
+      17
+    ],
+    "are": [
+      18,
+      39,
+      90,
+      101,
+      114,
+      122,
+      130,
+      139
+    ],
+    "compared": [
+      19
+    ],
+    "for": [
+      20,
+      43
+    ],
+    "143": [
+      21
+    ],
+    "paired": [
+      22
+    ],
+    "samples": [
+      23,
+      172
+    ],
+    "collected": [
+      24,
+      102,
+      123,
+      173
+    ],
+    "in": [
+      25,
+      103,
+      184
+    ],
+    "Aceh,": [
+      26
+    ],
+    "Indonesia.": [
+      27
+    ],
+    "Relative": [
+      28
+    ],
+    "to": [
+      29,
+      117
+    ],
+    "gold-standard": [
+      30
+    ],
+    "venous-blood": [
+      31
+    ],
+    "values,": [
+      32
+    ],
+    "DBS-based": [
+      33,
+      88,
+      164,
+      167
+    ],
+    "values": [
+      34,
+      89,
+      113,
+      129,
+      138,
+      169
+    ],
+    "reported": [
+      35
+    ],
+    "by": [
+      36,
+      67
+    ],
+    "the": [
+      37,
+      46,
+      63,
+      68,
+      73,
+      95,
+      99,
+      111,
+      127,
+      136,
+      145,
+      148,
+      160,
+      163,
+      176
+    ],
+    "HPLC": [
+      38,
+      69
+    ],
+    "systematically": [
+      40
+    ],
+    "upward": [
+      41
+    ],
+    "biased": [
+      42
+    ],
+    "HbA1c<8%": [
+      44
+    ],
+    "fraction": [
+      47
+    ],
+    "diabetic": [
+      48
+    ],
+    "(HbA1c": [
+      49
+    ],
+    "≥": [
+      50
+    ],
+    "6.5%)": [
+      51
+    ],
+    "is": [
+      52,
+      77,
+      180
+    ],
+    "overstated": [
+      53
+    ],
+    "almost": [
+      54,
+      115
+    ],
+    "five-fold.": [
+      55
+    ],
+    "Inspection": [
+      56
+    ],
+    "of": [
+      57,
+      72,
+      147,
+      162
+    ],
+    "chromatograms": [
+      58
+    ],
+    "from": [
+      59,
+      94
+    ],
+    "DBS": [
+      60,
+      100,
+      121
+    ],
+    "indicates": [
+      62
+    ],
+    "%": [
+      64
+    ],
+    "glycosylated": [
+      65
+    ],
+    "calculated": [
+      66
+    ],
+    "excludes": [
+      70
+    ],
+    "part": [
+      71
+    ],
+    "A": [
+      75
+    ],
+    "which": [
+      76
+    ],
+    "misidentified": [
+      78
+    ],
+    "as": [
+      79
+    ],
+    "a": [
+      80,
+      104,
+      181
+    ],
+    "variant.": [
+      82
+    ],
+    "Taking": [
+      83
+    ],
+    "this": [
+      84
+    ],
+    "into": [
+      85,
+      143
+    ],
+    "account,": [
+      86
+    ],
+    "unbiased": [
+      87
+    ],
+    "computed": [
+      91
+    ],
+    "data": [
+      93
+    ],
+    "machine-generated": [
+      96
+    ],
+    "chromatograms.": [
+      97
+    ],
+    "When": [
+      98,
+      120
+    ],
+    "clinic-like": [
+      105
+    ],
+    "setting,": [
+      106
+    ],
+    "under": [
+      107,
+      124,
+      174
+    ],
+    "controlled": [
+      108
+    ],
+    "humidity/temperature": [
+      109
+    ],
+    "conditions,": [
+      110,
+      126,
+      156
+    ],
+    "recalculated": [
+      112,
+      128
+    ],
+    "identical": [
+      116
+    ],
+    "venous-based": [
+      118
+    ],
+    "values.": [
+      119
+    ],
+    "field": [
+      125
+    ],
+    "unbiased,": [
+      131
+    ],
+    "but": [
+      132
+    ],
+    "only": [
+      133
+    ],
+    "about": [
+      134
+    ],
+    "half": [
+      135
+    ],
+    "HbA1c": [
+      137,
+      168
+    ],
+    "reliably,": [
+      141
+    ],
+    "calling": [
+      142
+    ],
+    "question": [
+      144
+    ],
+    "validity": [
+      146
+    ],
+    "other": [
+      149
+    ],
+    "half.": [
+      150
+    ],
+    "The": [
+      151
+    ],
+    "results": [
+      152
+    ],
+    "suggest": [
+      153
+    ],
+    "that": [
+      154
+    ],
+    "collection": [
+      155
+    ],
+    "particularly": [
+      157
+    ],
+    "humidity,": [
+      158
+    ],
+    "affect": [
+      159
+    ],
+    "quality": [
+      161
+    ],
+    "measures.": [
+      165
+    ],
+    "Cross-validating": [
+      166
+    ],
+    "exactly": [
+      175
+    ],
+    "same": [
+      177
+    ],
+    "environmental": [
+      178
+    ],
+    "conditions": [
+      179
+    ],
+    "prudent": [
+      182
+    ],
+    "investment": [
+      183
+    ],
+    "population-based": [
+      185
+    ],
+    "studies.": [
+      186
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2800245579",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-15T22:07:28.399768",
+  "created_date": "2018-05-17"
+}

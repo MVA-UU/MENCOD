@@ -1,0 +1,921 @@
+{
+  "id": "https://openalex.org/W2046808241",
+  "doi": "https://doi.org/10.1530/jrf.0.0740205",
+  "title": "Diurnal variations in plasma testosterone concentrations in the male lesser mouse lemur (Microcebus murinus)",
+  "display_name": "Diurnal variations in plasma testosterone concentrations in the male lesser mouse lemur (Microcebus murinus)",
+  "publication_year": 1985,
+  "publication_date": "1985-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2046808241",
+    "doi": "https://doi.org/10.1530/jrf.0.0740205",
+    "mag": "2046808241",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/4040572"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1530/jrf.0.0740205",
+    "pdf_url": "https://rep.bioscientifica.com/downloadpdf/journals/rep/74/1/jrf_74_1_025.pdf",
+    "source": {
+      "id": "https://openalex.org/S28473761",
+      "display_name": "Reproduction",
+      "issn_l": "1470-1626",
+      "issn": [
+        "1470-1626",
+        "1741-7899"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319937",
+      "host_organization_name": "Bioscientifica",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319937"
+      ],
+      "host_organization_lineage_names": [
+        "Bioscientifica"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://rep.bioscientifica.com/downloadpdf/journals/rep/74/1/jrf_74_1_025.pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5106234049",
+        "display_name": "Martine Perret",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "M. Perret",
+      "raw_affiliation_strings": [
+        "Laboratoire d'Ecologie Générale, Museum National d'Histoire Naturelle, 4 avenue du petit château, F-91800 Brunoy, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratoire d'Ecologie Générale, Museum National d'Histoire Naturelle, 4 avenue du petit château, F-91800 Brunoy, France",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5106234049"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.68,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 21,
+  "citation_normalized_percentile": {
+    "value": 0.765574,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 86,
+    "max": 87
+  },
+  "biblio": {
+    "volume": "74",
+    "issue": "1",
+    "first_page": "205",
+    "last_page": "213"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11457",
+    "display_name": "Adipose Tissue and Metabolism",
+    "score": 0.9725,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11457",
+      "display_name": "Adipose Tissue and Metabolism",
+      "score": 0.9725,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10489",
+      "display_name": "Regulation of Appetite and Obesity",
+      "score": 0.9551,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2807",
+        "display_name": "Endocrine and Autonomic Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9354,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/sunrise",
+      "display_name": "Sunrise",
+      "score": 0.54758245
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779279991",
+      "wikidata": "https://www.wikidata.org/wiki/Q6058681",
+      "display_name": "Testosterone (patch)",
+      "level": 2,
+      "score": 0.81247354
+    },
+    {
+      "id": "https://openalex.org/C19720800",
+      "wikidata": "https://www.wikidata.org/wiki/Q7722",
+      "display_name": "Morning",
+      "level": 2,
+      "score": 0.8038043
+    },
+    {
+      "id": "https://openalex.org/C2777334680",
+      "wikidata": "https://www.wikidata.org/wiki/Q1607611",
+      "display_name": "Nocturnal",
+      "level": 2,
+      "score": 0.55785894
+    },
+    {
+      "id": "https://openalex.org/C38262639",
+      "wikidata": "https://www.wikidata.org/wiki/Q193294",
+      "display_name": "Sunrise",
+      "level": 2,
+      "score": 0.54758245
+    },
+    {
+      "id": "https://openalex.org/C102874275",
+      "wikidata": "https://www.wikidata.org/wiki/Q2914623",
+      "display_name": "Seasonal breeder",
+      "level": 2,
+      "score": 0.5430876
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.4964295
+    },
+    {
+      "id": "https://openalex.org/C55969652",
+      "wikidata": "https://www.wikidata.org/wiki/Q259028",
+      "display_name": "photoperiodism",
+      "level": 2,
+      "score": 0.4725946
+    },
+    {
+      "id": "https://openalex.org/C121446783",
+      "wikidata": "https://www.wikidata.org/wiki/Q208353",
+      "display_name": "Circadian rhythm",
+      "level": 2,
+      "score": 0.43530926
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.42238945
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.41580135
+    },
+    {
+      "id": "https://openalex.org/C140793950",
+      "wikidata": "https://www.wikidata.org/wiki/Q168091",
+      "display_name": "Animal science",
+      "level": 1,
+      "score": 0.3582577
+    },
+    {
+      "id": "https://openalex.org/C90856448",
+      "wikidata": "https://www.wikidata.org/wiki/Q431",
+      "display_name": "Zoology",
+      "level": 1,
+      "score": 0.17370915
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.16983086
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.1497657
+    },
+    {
+      "id": "https://openalex.org/C59822182",
+      "wikidata": "https://www.wikidata.org/wiki/Q441",
+      "display_name": "Botany",
+      "level": 1,
+      "score": 0.10005656
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.0567922
+    },
+    {
+      "id": "https://openalex.org/C153294291",
+      "wikidata": "https://www.wikidata.org/wiki/Q25261",
+      "display_name": "Meteorology",
+      "level": 1,
+      "score": 0.053666115
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002940",
+      "descriptor_name": "Circadian Rhythm",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007900",
+      "descriptor_name": "Lemur",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007901",
+      "descriptor_name": "Lemuridae",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013739",
+      "descriptor_name": "Testosterone",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007900",
+      "descriptor_name": "Lemur",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007901",
+      "descriptor_name": "Lemuridae",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011863",
+      "descriptor_name": "Radioimmunoassay",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013739",
+      "descriptor_name": "Testosterone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1530/jrf.0.0740205",
+      "pdf_url": "https://rep.bioscientifica.com/downloadpdf/journals/rep/74/1/jrf_74_1_025.pdf",
+      "source": {
+        "id": "https://openalex.org/S28473761",
+        "display_name": "Reproduction",
+        "issn_l": "1470-1626",
+        "issn": [
+          "1470-1626",
+          "1741-7899"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319937",
+        "host_organization_name": "Bioscientifica",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319937"
+        ],
+        "host_organization_lineage_names": [
+          "Bioscientifica"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/4040572",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1530/jrf.0.0740205",
+    "pdf_url": "https://rep.bioscientifica.com/downloadpdf/journals/rep/74/1/jrf_74_1_025.pdf",
+    "source": {
+      "id": "https://openalex.org/S28473761",
+      "display_name": "Reproduction",
+      "issn_l": "1470-1626",
+      "issn": [
+        "1470-1626",
+        "1741-7899"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319937",
+      "host_organization_name": "Bioscientifica",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319937"
+      ],
+      "host_organization_lineage_names": [
+        "Bioscientifica"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/14",
+      "display_name": "Life below water",
+      "score": 0.62
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 22,
+  "referenced_works": [
+    "https://openalex.org/W1974841815",
+    "https://openalex.org/W1978198597",
+    "https://openalex.org/W1978861880",
+    "https://openalex.org/W1997972089",
+    "https://openalex.org/W2008460248",
+    "https://openalex.org/W2031180923",
+    "https://openalex.org/W2045544044",
+    "https://openalex.org/W2050731825",
+    "https://openalex.org/W2059051221",
+    "https://openalex.org/W2059825088",
+    "https://openalex.org/W2064053891",
+    "https://openalex.org/W2075730408",
+    "https://openalex.org/W2077310568",
+    "https://openalex.org/W2081556718",
+    "https://openalex.org/W2109599754",
+    "https://openalex.org/W2118577422",
+    "https://openalex.org/W2118620163",
+    "https://openalex.org/W2122411104",
+    "https://openalex.org/W2232465143",
+    "https://openalex.org/W2316185817",
+    "https://openalex.org/W2495713159",
+    "https://openalex.org/W2994846477"
+  ],
+  "related_works": [
+    "https://openalex.org/W82257509",
+    "https://openalex.org/W3156424074",
+    "https://openalex.org/W2740231273",
+    "https://openalex.org/W2040381221",
+    "https://openalex.org/W2037299830",
+    "https://openalex.org/W2035961202",
+    "https://openalex.org/W2031182507",
+    "https://openalex.org/W2004146447",
+    "https://openalex.org/W1972093783",
+    "https://openalex.org/W1780663472"
+  ],
+  "abstract_inverted_index": {
+    "In": [
+      0
+    ],
+    "6": [
+      1,
+      127
+    ],
+    "isolated": [
+      2
+    ],
+    "adult": [
+      3
+    ],
+    "male": [
+      4
+    ],
+    "lesser": [
+      5
+    ],
+    "mouse": [
+      6
+    ],
+    "lemurs,": [
+      7
+    ],
+    "concentrations": [
+      8,
+      49,
+      63,
+      134
+    ],
+    "of": [
+      9,
+      32,
+      99,
+      149
+    ],
+    "testosterone": [
+      10,
+      48,
+      62,
+      75,
+      105,
+      113,
+      119,
+      133
+    ],
+    "in": [
+      11,
+      47,
+      61,
+      121,
+      132,
+      145
+    ],
+    "plasma": [
+      12
+    ],
+    "were": [
+      13,
+      23,
+      42,
+      64
+    ],
+    "determinated": [
+      14
+    ],
+    "at": [
+      15,
+      25,
+      90,
+      95
+    ],
+    "6-h": [
+      16
+    ],
+    "intervals": [
+      17,
+      27
+    ],
+    "over": [
+      18
+    ],
+    "a": [
+      19,
+      30,
+      67,
+      143
+    ],
+    "24-h": [
+      20
+    ],
+    "period.Blood": [
+      21
+    ],
+    "samples": [
+      22
+    ],
+    "collected": [
+      24
+    ],
+    "monthly": [
+      26
+    ],
+    "and": [
+      28,
+      123
+    ],
+    "for": [
+      29
+    ],
+    "period": [
+      31
+    ],
+    "12": [
+      33
+    ],
+    "months": [
+      34,
+      128
+    ],
+    "under": [
+      35
+    ],
+    "natural": [
+      36
+    ],
+    "photoperiod.In": [
+      37
+    ],
+    "this": [
+      38
+    ],
+    "nocturnal": [
+      39
+    ],
+    "prosimian,": [
+      40
+    ],
+    "there": [
+      41
+    ],
+    "no": [
+      43
+    ],
+    "apparent": [
+      44
+    ],
+    "diurnal": [
+      45,
+      59
+    ],
+    "changes": [
+      46,
+      60
+    ],
+    "during": [
+      50,
+      70
+    ],
+    "the": [
+      51,
+      71,
+      91,
+      96,
+      100,
+      103,
+      110,
+      117,
+      124,
+      136,
+      146
+    ],
+    "non-breeding": [
+      52
+    ],
+    "season": [
+      53
+    ],
+    "(autumn).During": [
+      54
+    ],
+    "seasonal": [
+      55
+    ],
+    "sexual": [
+      56
+    ],
+    "activity": [
+      57
+    ],
+    "(January\\p=n-\\August),": [
+      58
+    ],
+    "characterized": [
+      65
+    ],
+    "by": [
+      66
+    ],
+    "significant": [
+      68
+    ],
+    "rise": [
+      69
+    ],
+    "light": [
+      72
+    ],
+    "phase.The": [
+      73
+    ],
+    "daily": [
+      74,
+      104
+    ],
+    "peak": [
+      76,
+      106
+    ],
+    "occurred": [
+      77,
+      115
+    ],
+    "about": [
+      78
+    ],
+    "8\\": [
+      79
+    ],
+    "m=.\\": [
+      80
+    ],
+    "5": [
+      81
+    ],
+    "h": [
+      82
+    ],
+    "after": [
+      83,
+      135
+    ],
+    "sunrise": [
+      84
+    ],
+    "from": [
+      85
+    ],
+    "February": [
+      86
+    ],
+    "to": [
+      87,
+      109
+    ],
+    "July,": [
+      88
+    ],
+    "but": [
+      89
+    ],
+    "beginning": [
+      92
+    ],
+    "(January)": [
+      93
+    ],
+    "or": [
+      94
+    ],
+    "end": [
+      97
+    ],
+    "(August)": [
+      98
+    ],
+    "breeding": [
+      101
+    ],
+    "season,": [
+      102
+    ],
+    "was": [
+      107
+    ],
+    "displaced": [
+      108
+    ],
+    "morning.A": [
+      111
+    ],
+    "circannual": [
+      112
+    ],
+    "rhythm": [
+      114
+    ],
+    "with": [
+      116,
+      142
+    ],
+    "highest": [
+      118
+    ],
+    "values": [
+      120,
+      126
+    ],
+    "May/June": [
+      122
+    ],
+    "lowest": [
+      125
+    ],
+    "later.The": [
+      129
+    ],
+    "dramatic": [
+      130
+    ],
+    "fall": [
+      131
+    ],
+    "summer": [
+      137
+    ],
+    "solstice": [
+      138
+    ],
+    "may": [
+      139
+    ],
+    "be": [
+      140
+    ],
+    "associated": [
+      141
+    ],
+    "change": [
+      144
+    ],
+    "peripheral": [
+      147
+    ],
+    "metabolism": [
+      148
+    ],
+    "testosterone.": [
+      150
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2046808241",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-05-23T07:13:25.763660",
+  "created_date": "2016-06-24"
+}

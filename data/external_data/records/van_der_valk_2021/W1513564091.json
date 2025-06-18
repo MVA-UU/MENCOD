@@ -1,0 +1,967 @@
+{
+  "id": "https://openalex.org/W1513564091",
+  "doi": "https://doi.org/10.1016/s0021-9258(18)53918-1",
+  "title": "The prohormone convertases PC1 and PC2 mediate distinct endoproteolytic cleavages in a strict temporal order during proopiomelanocortin biosynthetic processing.",
+  "display_name": "The prohormone convertases PC1 and PC2 mediate distinct endoproteolytic cleavages in a strict temporal order during proopiomelanocortin biosynthetic processing.",
+  "publication_year": 1993,
+  "publication_date": "1993-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1513564091",
+    "doi": "https://doi.org/10.1016/s0021-9258(18)53918-1",
+    "mag": "1513564091",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/8380577"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0021-9258(18)53918-1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S140251998",
+      "display_name": "Journal of Biological Chemistry",
+      "issn_l": "0021-9258",
+      "issn": [
+        "0021-9258",
+        "1067-8816",
+        "1083-351X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://doi.org/10.1016/s0021-9258(18)53918-1",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5090960111",
+        "display_name": "An Zhou",
+        "orcid": "https://orcid.org/0000-0002-9358-8012"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145311948",
+          "display_name": "Johns Hopkins University",
+          "ror": "https://ror.org/00za53h95",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145311948"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2799853436",
+          "display_name": "Johns Hopkins Medicine",
+          "ror": "https://ror.org/037zgn354",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799853436"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. Zhou",
+      "raw_affiliation_strings": [
+        "Department of Neuroscience, Johns Hopkins University School of Medicine Baltimore, Maryland 21205."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neuroscience, Johns Hopkins University School of Medicine Baltimore, Maryland 21205.",
+          "institution_ids": [
+            "https://openalex.org/I145311948",
+            "https://openalex.org/I2799853436"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077194432",
+        "display_name": "Brian T. Bloomquist",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799853436",
+          "display_name": "Johns Hopkins Medicine",
+          "ror": "https://ror.org/037zgn354",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799853436"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I145311948",
+          "display_name": "Johns Hopkins University",
+          "ror": "https://ror.org/00za53h95",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145311948"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "B.T. Bloomquist",
+      "raw_affiliation_strings": [
+        "Department of Neuroscience, Johns Hopkins University School of Medicine Baltimore, Maryland 21205."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neuroscience, Johns Hopkins University School of Medicine Baltimore, Maryland 21205.",
+          "institution_ids": [
+            "https://openalex.org/I2799853436",
+            "https://openalex.org/I145311948"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5011997610",
+        "display_name": "Richard E. Mains",
+        "orcid": "https://orcid.org/0000-0003-1154-1331"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145311948",
+          "display_name": "Johns Hopkins University",
+          "ror": "https://ror.org/00za53h95",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145311948"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2799853436",
+          "display_name": "Johns Hopkins Medicine",
+          "ror": "https://ror.org/037zgn354",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799853436"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R.E. Mains",
+      "raw_affiliation_strings": [
+        "Department of Neuroscience, Johns Hopkins University School of Medicine Baltimore, Maryland 21205."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neuroscience, Johns Hopkins University School of Medicine Baltimore, Maryland 21205.",
+          "institution_ids": [
+            "https://openalex.org/I145311948",
+            "https://openalex.org/I2799853436"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2500,
+    "currency": "USD",
+    "value_usd": 2500
+  },
+  "apc_paid": {
+    "value": 2500,
+    "currency": "USD",
+    "value_usd": 2500
+  },
+  "fwci": 10.221,
+  "has_fulltext": false,
+  "cited_by_count": 260,
+  "citation_normalized_percentile": {
+    "value": 0.967693,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "268",
+    "issue": "3",
+    "first_page": "1763",
+    "last_page": "1769"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10489",
+    "display_name": "Regulation of Appetite and Obesity",
+    "score": 0.9934,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2807",
+      "display_name": "Endocrine and Autonomic Systems"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10489",
+      "display_name": "Regulation of Appetite and Obesity",
+      "score": 0.9934,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2807",
+        "display_name": "Endocrine and Autonomic Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11178",
+      "display_name": "Receptor Mechanisms and Signaling",
+      "score": 0.9917,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10960",
+      "display_name": "Hypothalamic control of reproductive hormones",
+      "score": 0.9901,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2743",
+        "display_name": "Reproductive Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/proopiomelanocortin",
+      "display_name": "Proopiomelanocortin",
+      "score": 0.935827
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2781309135",
+      "wikidata": "https://www.wikidata.org/wiki/Q418896",
+      "display_name": "Proopiomelanocortin",
+      "level": 3,
+      "score": 0.935827
+    },
+    {
+      "id": "https://openalex.org/C2780090379",
+      "wikidata": "https://www.wikidata.org/wiki/Q419119",
+      "display_name": "Prohormone",
+      "level": 3,
+      "score": 0.84716076
+    },
+    {
+      "id": "https://openalex.org/C182306322",
+      "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+      "display_name": "Order (exchange)",
+      "level": 2,
+      "score": 0.4387206
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.42648673
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.4099484
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.39446336
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.32017893
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.20472097
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C10138342",
+      "wikidata": "https://www.wikidata.org/wiki/Q43015",
+      "display_name": "Finance",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/s0021-9258(18)53918-1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S140251998",
+        "display_name": "Journal of Biological Chemistry",
+        "issn_l": "0021-9258",
+        "issn": [
+          "0021-9258",
+          "1067-8816",
+          "1083-351X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0021-9258(18)53918-1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S140251998",
+      "display_name": "Journal of Biological Chemistry",
+      "issn_l": "0021-9258",
+      "issn": [
+        "0021-9258",
+        "1067-8816",
+        "1083-351X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 55,
+  "referenced_works": [
+    "https://openalex.org/W1482242717",
+    "https://openalex.org/W1494178313",
+    "https://openalex.org/W1498572024",
+    "https://openalex.org/W1501424340",
+    "https://openalex.org/W1508932783",
+    "https://openalex.org/W1518294496",
+    "https://openalex.org/W1531520887",
+    "https://openalex.org/W1538634378",
+    "https://openalex.org/W1551834526",
+    "https://openalex.org/W1552013715",
+    "https://openalex.org/W1552666003",
+    "https://openalex.org/W1553448789",
+    "https://openalex.org/W1563019217",
+    "https://openalex.org/W1570766778",
+    "https://openalex.org/W1576063643",
+    "https://openalex.org/W1578843331",
+    "https://openalex.org/W1590965772",
+    "https://openalex.org/W1591608900",
+    "https://openalex.org/W1752839089",
+    "https://openalex.org/W1883375123",
+    "https://openalex.org/W1929236293",
+    "https://openalex.org/W1969365389",
+    "https://openalex.org/W1973041446",
+    "https://openalex.org/W1974650249",
+    "https://openalex.org/W1975096426",
+    "https://openalex.org/W1993196451",
+    "https://openalex.org/W1993811128",
+    "https://openalex.org/W1995262493",
+    "https://openalex.org/W1998215213",
+    "https://openalex.org/W2000372395",
+    "https://openalex.org/W2002901996",
+    "https://openalex.org/W2014140584",
+    "https://openalex.org/W2014338224",
+    "https://openalex.org/W2015136266",
+    "https://openalex.org/W2026274818",
+    "https://openalex.org/W2028688095",
+    "https://openalex.org/W2040656926",
+    "https://openalex.org/W2044132969",
+    "https://openalex.org/W2049023426",
+    "https://openalex.org/W2080054596",
+    "https://openalex.org/W2081648532",
+    "https://openalex.org/W2081804418",
+    "https://openalex.org/W2087328208",
+    "https://openalex.org/W2087544703",
+    "https://openalex.org/W2093537829",
+    "https://openalex.org/W2099336487",
+    "https://openalex.org/W2118953524",
+    "https://openalex.org/W2122850009",
+    "https://openalex.org/W2158044141",
+    "https://openalex.org/W2162190415",
+    "https://openalex.org/W2170449791",
+    "https://openalex.org/W2175390391",
+    "https://openalex.org/W2419836312",
+    "https://openalex.org/W4238423036",
+    "https://openalex.org/W591558929"
+  ],
+  "related_works": [
+    "https://openalex.org/W3191458295",
+    "https://openalex.org/W2120417507",
+    "https://openalex.org/W2061537300",
+    "https://openalex.org/W2052111136",
+    "https://openalex.org/W2034920649",
+    "https://openalex.org/W2007200965",
+    "https://openalex.org/W1993811128",
+    "https://openalex.org/W1812255132",
+    "https://openalex.org/W175701562",
+    "https://openalex.org/W1557883209"
+  ],
+  "abstract_inverted_index": {
+    "Two": [
+      0
+    ],
+    "subtilisin-like": [
+      1
+    ],
+    "endoproteases": [
+      2
+    ],
+    "called": [
+      3
+    ],
+    "PC1": [
+      4,
+      30,
+      52
+    ],
+    "and": [
+      5,
+      16,
+      22,
+      31,
+      53,
+      55,
+      139,
+      152,
+      167
+    ],
+    "PC2": [
+      6,
+      54,
+      74,
+      91,
+      97,
+      144,
+      179
+    ],
+    "are": [
+      7
+    ],
+    "distributed": [
+      8
+    ],
+    "in": [
+      9,
+      13,
+      17,
+      75,
+      108,
+      129,
+      149,
+      155,
+      174
+    ],
+    "a": [
+      10,
+      33,
+      57,
+      88
+    ],
+    "tissue-specific": [
+      11
+    ],
+    "manner": [
+      12
+    ],
+    "the": [
+      14,
+      18,
+      25,
+      39,
+      47,
+      64,
+      71,
+      76,
+      99,
+      104,
+      109,
+      116,
+      120,
+      126,
+      135,
+      140,
+      150,
+      160,
+      163,
+      168,
+      171,
+      175,
+      181,
+      187
+    ],
+    "pituitary": [
+      15,
+      27,
+      49
+    ],
+    "brain.": [
+      19
+    ],
+    "AtT-20": [
+      20,
+      81,
+      94,
+      176
+    ],
+    "cells": [
+      21,
+      95,
+      177
+    ],
+    "corticotropes": [
+      23,
+      83
+    ],
+    "of": [
+      24,
+      36,
+      38,
+      46,
+      61,
+      67,
+      73,
+      79,
+      125,
+      137,
+      162,
+      170,
+      186
+    ],
+    "anterior": [
+      26
+    ],
+    "express": [
+      28,
+      50
+    ],
+    "primarily": [
+      29
+    ],
+    "perform": [
+      32,
+      56,
+      102
+    ],
+    "limited": [
+      34
+    ],
+    "number": [
+      35
+    ],
+    "cleavages": [
+      37,
+      62,
+      106
+    ],
+    "proopiomelanocortin": [
+      40
+    ],
+    "(POMC)": [
+      41
+    ],
+    "precursor": [
+      42
+    ],
+    "during": [
+      43,
+      63
+    ],
+    "biosynthesis.": [
+      44
+    ],
+    "Melanotropes": [
+      45
+    ],
+    "intermediate": [
+      48,
+      110,
+      188
+    ],
+    "both": [
+      51,
+      159
+    ],
+    "more": [
+      58
+    ],
+    "extensive": [
+      59
+    ],
+    "set": [
+      60
+    ],
+    "biosynthetic": [
+      65,
+      77,
+      130,
+      156
+    ],
+    "processing": [
+      66,
+      78,
+      131,
+      172
+    ],
+    "POMC.": [
+      68
+    ],
+    "To": [
+      69
+    ],
+    "investigate": [
+      70
+    ],
+    "role": [
+      72
+    ],
+    "POMC,": [
+      80
+    ],
+    "mouse": [
+      82
+    ],
+    "were": [
+      84,
+      132,
+      146
+    ],
+    "stably": [
+      85
+    ],
+    "transfected": [
+      86
+    ],
+    "with": [
+      87
+    ],
+    "full": [
+      89
+    ],
+    "length": [
+      90
+    ],
+    "cDNA.": [
+      92
+    ],
+    "The": [
+      93,
+      123
+    ],
+    "expressing": [
+      96,
+      178
+    ],
+    "acquired": [
+      98
+    ],
+    "ability": [
+      100,
+      117
+    ],
+    "to": [
+      101,
+      118,
+      143
+    ],
+    "all": [
+      103
+    ],
+    "additional": [
+      105
+    ],
+    "seen": [
+      107,
+      147
+    ],
+    "pituitary,": [
+      111
+    ],
+    "but": [
+      112
+    ],
+    "did": [
+      113
+    ],
+    "not": [
+      114
+    ],
+    "acquire": [
+      115
+    ],
+    "alpha-N-acetylate": [
+      119
+    ],
+    "product": [
+      121,
+      165
+    ],
+    "peptides.": [
+      122
+    ],
+    "kinetics": [
+      124,
+      169
+    ],
+    "earliest": [
+      127
+    ],
+    "steps": [
+      128,
+      154,
+      173
+    ],
+    "unaltered": [
+      133
+    ],
+    "by": [
+      134
+    ],
+    "expression": [
+      136,
+      145
+    ],
+    "PC2,": [
+      138
+    ],
+    "changes": [
+      141
+    ],
+    "due": [
+      142
+    ],
+    "only": [
+      148
+    ],
+    "middle": [
+      151
+    ],
+    "late": [
+      153
+    ],
+    "processing.": [
+      157
+    ],
+    "Thus,": [
+      158
+    ],
+    "identity": [
+      161
+    ],
+    "final": [
+      164
+    ],
+    "peptides": [
+      166
+    ],
+    "fit": [
+      180
+    ],
+    "patterns": [
+      182
+    ],
+    "expected": [
+      183
+    ],
+    "for": [
+      184
+    ],
+    "melanotropes": [
+      185
+    ],
+    "pituitary.": [
+      189
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1513564091",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2025-05-22T09:14:40.144410",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,683 @@
+{
+  "id": "https://openalex.org/W2010928181",
+  "doi": "https://doi.org/10.1016/s1081-1206(10)61398-1",
+  "title": "The Copenhagen Prospective Study on Asthma in Childhood (COPSAC): design, rationale, and baseline data from a longitudinal birth cohort study",
+  "display_name": "The Copenhagen Prospective Study on Asthma in Childhood (COPSAC): design, rationale, and baseline data from a longitudinal birth cohort study",
+  "publication_year": 2004,
+  "publication_date": "2004-10-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2010928181",
+    "doi": "https://doi.org/10.1016/s1081-1206(10)61398-1",
+    "mag": "2010928181",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/15521375"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/s1081-1206(10)61398-1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S153558830",
+      "display_name": "Annals of Allergy Asthma & Immunology",
+      "issn_l": "1081-1206",
+      "issn": [
+        "1081-1206",
+        "1534-4436"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5014990556",
+        "display_name": "Hans Bisgaard",
+        "orcid": "https://orcid.org/0000-0003-4131-7592"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802567020",
+          "display_name": "Copenhagen University Hospital",
+          "ror": "https://ror.org/05bpbnx46",
+          "country_code": "DK",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802567020"
+          ]
+        }
+      ],
+      "countries": [
+        "DK"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Hans Bisgaard",
+      "raw_affiliation_strings": [
+        "Department of Pediatrics, Copenhagen University Hospital, Copenhagen, Denmark"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, Copenhagen University Hospital, Copenhagen, Denmark",
+          "institution_ids": [
+            "https://openalex.org/I2802567020"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5014990556"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I2802567020"
+  ],
+  "apc_list": {
+    "value": 3000,
+    "currency": "USD",
+    "value_usd": 3000
+  },
+  "apc_paid": null,
+  "fwci": 2.81,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 219,
+  "citation_normalized_percentile": {
+    "value": 0.954966,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "93",
+    "issue": "4",
+    "first_page": "381",
+    "last_page": "389"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10051",
+    "display_name": "Asthma and respiratory diseases",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10051",
+      "display_name": "Asthma and respiratory diseases",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10877",
+      "display_name": "Allergic Rhinitis and Sensitization",
+      "score": 0.9899,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2723",
+        "display_name": "Immunology and Allergy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12418",
+      "display_name": "Respiratory and Cough-Related Research",
+      "score": 0.9703,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.90210295
+    },
+    {
+      "id": "https://openalex.org/C2776042228",
+      "wikidata": "https://www.wikidata.org/wiki/Q35869",
+      "display_name": "Asthma",
+      "level": 2,
+      "score": 0.7786764
+    },
+    {
+      "id": "https://openalex.org/C2778329239",
+      "wikidata": "https://www.wikidata.org/wiki/Q268667",
+      "display_name": "Atopic dermatitis",
+      "level": 2,
+      "score": 0.6616283
+    },
+    {
+      "id": "https://openalex.org/C72563966",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303415",
+      "display_name": "Cohort",
+      "level": 2,
+      "score": 0.5928386
+    },
+    {
+      "id": "https://openalex.org/C187212893",
+      "wikidata": "https://www.wikidata.org/wiki/Q123028",
+      "display_name": "Pediatrics",
+      "level": 1,
+      "score": 0.56394064
+    },
+    {
+      "id": "https://openalex.org/C201903717",
+      "wikidata": "https://www.wikidata.org/wiki/Q1778788",
+      "display_name": "Cohort study",
+      "level": 2,
+      "score": 0.5396192
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.5321946
+    },
+    {
+      "id": "https://openalex.org/C188816634",
+      "wikidata": "https://www.wikidata.org/wiki/Q2113324",
+      "display_name": "Prospective cohort study",
+      "level": 2,
+      "score": 0.4833576
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.3849948
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.20923024
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.14365023
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001249",
+      "descriptor_name": "Asthma",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001249",
+      "descriptor_name": "Asthma",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004777",
+      "descriptor_name": "Environment",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012107",
+      "descriptor_name": "Research Design",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001249",
+      "descriptor_name": "Asthma",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001249",
+      "descriptor_name": "Asthma",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002675",
+      "descriptor_name": "Child, Preschool",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015331",
+      "descriptor_name": "Cohort Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003876",
+      "descriptor_name": "Dermatitis, Atopic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003876",
+      "descriptor_name": "Dermatitis, Atopic",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006967",
+      "descriptor_name": "Hypersensitivity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006967",
+      "descriptor_name": "Hypersensitivity",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007223",
+      "descriptor_name": "Infant",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007231",
+      "descriptor_name": "Infant, Newborn",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008019",
+      "descriptor_name": "Life Style",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008137",
+      "descriptor_name": "Longitudinal Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011247",
+      "descriptor_name": "Pregnancy",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011446",
+      "descriptor_name": "Prospective Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012129",
+      "descriptor_name": "Respiratory Function Tests",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012220",
+      "descriptor_name": "Rhinitis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012220",
+      "descriptor_name": "Rhinitis",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013548",
+      "descriptor_name": "Sweden",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/s1081-1206(10)61398-1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S153558830",
+        "display_name": "Annals of Allergy Asthma & Immunology",
+        "issn_l": "1081-1206",
+        "issn": [
+          "1081-1206",
+          "1534-4436"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/15521375",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.59,
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 70,
+  "referenced_works": [
+    "https://openalex.org/W1499191168",
+    "https://openalex.org/W1504063725",
+    "https://openalex.org/W1664820920",
+    "https://openalex.org/W1936311738",
+    "https://openalex.org/W1947556504",
+    "https://openalex.org/W1964779747",
+    "https://openalex.org/W1968940276",
+    "https://openalex.org/W1971985630",
+    "https://openalex.org/W1973720627",
+    "https://openalex.org/W1973736920",
+    "https://openalex.org/W1976296622",
+    "https://openalex.org/W1978489941",
+    "https://openalex.org/W1979295989",
+    "https://openalex.org/W1982906465",
+    "https://openalex.org/W2000416469",
+    "https://openalex.org/W2004620110",
+    "https://openalex.org/W2019215895",
+    "https://openalex.org/W2019286335",
+    "https://openalex.org/W2027470021",
+    "https://openalex.org/W2027678883",
+    "https://openalex.org/W2028865414",
+    "https://openalex.org/W2033779179",
+    "https://openalex.org/W2034498727",
+    "https://openalex.org/W2035831689",
+    "https://openalex.org/W2044932087",
+    "https://openalex.org/W2051812762",
+    "https://openalex.org/W2056885177",
+    "https://openalex.org/W2058114731",
+    "https://openalex.org/W2058946795",
+    "https://openalex.org/W2062944553",
+    "https://openalex.org/W2063317751",
+    "https://openalex.org/W2075186669",
+    "https://openalex.org/W2076979546",
+    "https://openalex.org/W2085428213",
+    "https://openalex.org/W2087822066",
+    "https://openalex.org/W2092409562",
+    "https://openalex.org/W2093574378",
+    "https://openalex.org/W2100259422",
+    "https://openalex.org/W2100267799",
+    "https://openalex.org/W2100598994",
+    "https://openalex.org/W2104537618",
+    "https://openalex.org/W2108110076",
+    "https://openalex.org/W2116103559",
+    "https://openalex.org/W2117786246",
+    "https://openalex.org/W2118202200",
+    "https://openalex.org/W2122711506",
+    "https://openalex.org/W2123636816",
+    "https://openalex.org/W2124848888",
+    "https://openalex.org/W2136668724",
+    "https://openalex.org/W2141104881",
+    "https://openalex.org/W2143138262",
+    "https://openalex.org/W2145605552",
+    "https://openalex.org/W2145783587",
+    "https://openalex.org/W2147280137",
+    "https://openalex.org/W2147900606",
+    "https://openalex.org/W2148397841",
+    "https://openalex.org/W2153006156",
+    "https://openalex.org/W2157043675",
+    "https://openalex.org/W2157110918",
+    "https://openalex.org/W2158130308",
+    "https://openalex.org/W2160703315",
+    "https://openalex.org/W2161193870",
+    "https://openalex.org/W2163972097",
+    "https://openalex.org/W2165672101",
+    "https://openalex.org/W2171814130",
+    "https://openalex.org/W2296937906",
+    "https://openalex.org/W2395224728",
+    "https://openalex.org/W26756264",
+    "https://openalex.org/W268373062",
+    "https://openalex.org/W4231516653"
+  ],
+  "related_works": [
+    "https://openalex.org/W4288072998",
+    "https://openalex.org/W4200189317",
+    "https://openalex.org/W3206034927",
+    "https://openalex.org/W3081332639",
+    "https://openalex.org/W2805271636",
+    "https://openalex.org/W2148718224",
+    "https://openalex.org/W2117125885",
+    "https://openalex.org/W2103425699",
+    "https://openalex.org/W2019060938",
+    "https://openalex.org/W1606496894"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2010928181",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 16
+    }
+  ],
+  "updated_date": "2025-06-05T10:43:08.190993",
+  "created_date": "2016-06-24"
+}

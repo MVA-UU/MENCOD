@@ -1,0 +1,1401 @@
+{
+  "id": "https://openalex.org/W1989364786",
+  "doi": "https://doi.org/10.1002/mrm.23228",
+  "title": "Volumetric navigators for prospective motion correction and selective reacquisition in neuroanatomical MRI",
+  "display_name": "Volumetric navigators for prospective motion correction and selective reacquisition in neuroanatomical MRI",
+  "publication_year": 2011,
+  "publication_date": "2011-12-28",
+  "ids": {
+    "openalex": "https://openalex.org/W1989364786",
+    "doi": "https://doi.org/10.1002/mrm.23228",
+    "mag": "1989364786",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/22213578",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3320676"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1002/mrm.23228",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.23228",
+    "source": {
+      "id": "https://openalex.org/S111160002",
+      "display_name": "Magnetic Resonance in Medicine",
+      "issn_l": "0740-3194",
+      "issn": [
+        "0740-3194",
+        "1522-2594"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.23228",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5089507178",
+        "display_name": "M. Dylan Tisdall",
+        "orcid": "https://orcid.org/0000-0002-0454-3112"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210127055",
+          "display_name": "Athinoula A. Martinos Center for Biomedical Imaging",
+          "ror": "https://ror.org/032q5ym94",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210127055",
+            "https://openalex.org/I48633490",
+            "https://openalex.org/I63966007"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "M. Dylan Tisdall",
+      "raw_affiliation_strings": [
+        "Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Charlestown, Massachusetts, USA",
+        "Department of Radiology, Harvard Medical School, Brookline, Massachusetts, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Charlestown, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210127055"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Radiology, Harvard Medical School, Brookline, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007772046",
+        "display_name": "Aaron T. Hess",
+        "orcid": "https://orcid.org/0000-0002-9289-5619"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I157614274",
+          "display_name": "University of Cape Town",
+          "ror": "https://ror.org/03p74gp79",
+          "country_code": "ZA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I157614274"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Aaron T. Hess",
+      "raw_affiliation_strings": [
+        "Department of Human Biology, MRC/UCT Medical Imaging Research Unit, University of Cape Town, South Africa"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Human Biology, MRC/UCT Medical Imaging Research Unit, University of Cape Town, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I157614274"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045017963",
+        "display_name": "Martin Reuter",
+        "orcid": "https://orcid.org/0000-0002-2665-9693"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I63966007",
+          "display_name": "Massachusetts Institute of Technology",
+          "ror": "https://ror.org/042nb2s44",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I63966007"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Martin Reuter",
+      "raw_affiliation_strings": [
+        "Computer Science and AI Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA",
+        "Department Neurology, Harvard Medical School, Brookline, Massachusetts, USA",
+        "Department Neurology, Massachusetts General Hospital, Charlestown, Massachusetts, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department Neurology, Harvard Medical School, Brookline, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department Neurology, Massachusetts General Hospital, Charlestown, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Computer Science and AI Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I63966007"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021539154",
+        "display_name": "Ernesta M. Meintjes",
+        "orcid": "https://orcid.org/0000-0002-0781-3632"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I157614274",
+          "display_name": "University of Cape Town",
+          "ror": "https://ror.org/03p74gp79",
+          "country_code": "ZA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I157614274"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ernesta M. Meintjes",
+      "raw_affiliation_strings": [
+        "Department of Human Biology, MRC/UCT Medical Imaging Research Unit, University of Cape Town, South Africa"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Human Biology, MRC/UCT Medical Imaging Research Unit, University of Cape Town, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I157614274"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5022799533",
+        "display_name": "Bruce Fischl",
+        "orcid": "https://orcid.org/0000-0002-2413-1115"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210127055",
+          "display_name": "Athinoula A. Martinos Center for Biomedical Imaging",
+          "ror": "https://ror.org/032q5ym94",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210127055",
+            "https://openalex.org/I48633490",
+            "https://openalex.org/I63966007"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I63966007",
+          "display_name": "Massachusetts Institute of Technology",
+          "ror": "https://ror.org/042nb2s44",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I63966007"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bruce Fischl",
+      "raw_affiliation_strings": [
+        "Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Charlestown, Massachusetts, USA",
+        "Computer Science and AI Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA",
+        "Department of Radiology, Harvard Medical School, Brookline, Massachusetts, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Radiology, Harvard Medical School, Brookline, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Charlestown, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210127055",
+            "https://openalex.org/I4210087915"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Computer Science and AI Lab, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I63966007"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5089547970",
+        "display_name": "André van der Kouwe",
+        "orcid": "https://orcid.org/0000-0002-2754-6594"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210127055",
+          "display_name": "Athinoula A. Martinos Center for Biomedical Imaging",
+          "ror": "https://ror.org/032q5ym94",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210127055",
+            "https://openalex.org/I48633490",
+            "https://openalex.org/I63966007"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "André J. W. van der Kouwe",
+      "raw_affiliation_strings": [
+        "Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Charlestown, Massachusetts, USA",
+        "Department of Radiology, Harvard Medical School, Brookline, Massachusetts, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Charlestown, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210127055",
+            "https://openalex.org/I4210087915"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Radiology, Harvard Medical School, Brookline, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5089507178"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210087915",
+    "https://openalex.org/I136199984",
+    "https://openalex.org/I4210127055"
+  ],
+  "apc_list": {
+    "value": 3500,
+    "currency": "USD",
+    "value_usd": 3500
+  },
+  "apc_paid": null,
+  "fwci": 6.741,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 408,
+  "citation_normalized_percentile": {
+    "value": 0.956104,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "68",
+    "issue": "2",
+    "first_page": "389",
+    "last_page": "399"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10378",
+    "display_name": "Advanced MRI Techniques and Applications",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2741",
+      "display_name": "Radiology, Nuclear Medicine and Imaging"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10522",
+      "display_name": "Medical Imaging Techniques and Applications",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10052",
+      "display_name": "Medical Image Segmentation Techniques",
+      "score": 0.9984,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.7451103
+    },
+    {
+      "id": "https://openalex.org/C2779751349",
+      "wikidata": "https://www.wikidata.org/wiki/Q1474480",
+      "display_name": "Scanner",
+      "level": 2,
+      "score": 0.70930886
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.6642375
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.65570164
+    },
+    {
+      "id": "https://openalex.org/C165838908",
+      "wikidata": "https://www.wikidata.org/wiki/Q736777",
+      "display_name": "Calibration",
+      "level": 2,
+      "score": 0.56552935
+    },
+    {
+      "id": "https://openalex.org/C104114177",
+      "wikidata": "https://www.wikidata.org/wiki/Q79782",
+      "display_name": "Motion (physics)",
+      "level": 2,
+      "score": 0.5654283
+    },
+    {
+      "id": "https://openalex.org/C2776502983",
+      "wikidata": "https://www.wikidata.org/wiki/Q690182",
+      "display_name": "Contrast (vision)",
+      "level": 2,
+      "score": 0.4869386
+    },
+    {
+      "id": "https://openalex.org/C58693492",
+      "wikidata": "https://www.wikidata.org/wiki/Q551875",
+      "display_name": "Neuroimaging",
+      "level": 2,
+      "score": 0.464207
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.17401499
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.08487117
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.08057192
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D016477",
+      "descriptor_name": "Artifacts",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000033",
+      "qualifier_name": "anatomy & histology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007089",
+      "descriptor_name": "Image Enhancement",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D021621",
+      "descriptor_name": "Imaging, Three-Dimensional",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009485",
+      "descriptor_name": "Neuroradiography",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010363",
+      "descriptor_name": "Pattern Recognition, Automated",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000465",
+      "descriptor_name": "Algorithms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007089",
+      "descriptor_name": "Image Enhancement",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007090",
+      "descriptor_name": "Image Interpretation, Computer-Assisted",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007090",
+      "descriptor_name": "Image Interpretation, Computer-Assisted",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D021621",
+      "descriptor_name": "Imaging, Three-Dimensional",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009038",
+      "descriptor_name": "Motion",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009485",
+      "descriptor_name": "Neuroradiography",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010363",
+      "descriptor_name": "Pattern Recognition, Automated",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015203",
+      "descriptor_name": "Reproducibility of Results",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012680",
+      "descriptor_name": "Sensitivity and Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1002/mrm.23228",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.23228",
+      "source": {
+        "id": "https://openalex.org/S111160002",
+        "display_name": "Magnetic Resonance in Medicine",
+        "issn_l": "0740-3194",
+        "issn": [
+          "0740-3194",
+          "1522-2594"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3320676",
+      "pdf_url": "https://europepmc.org/articles/pmc3320676?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3320676",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/22213578",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1002/mrm.23228",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mrm.23228",
+    "source": {
+      "id": "https://openalex.org/S111160002",
+      "display_name": "Magnetic Resonance in Medicine",
+      "issn_l": "0740-3194",
+      "issn": [
+        "0740-3194",
+        "1522-2594"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320306135",
+      "funder_display_name": "Ellison Medical Foundation",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 36,
+  "referenced_works": [
+    "https://openalex.org/W1967659711",
+    "https://openalex.org/W1986218154",
+    "https://openalex.org/W1988366576",
+    "https://openalex.org/W2004293194",
+    "https://openalex.org/W2008152557",
+    "https://openalex.org/W2017104850",
+    "https://openalex.org/W2020044743",
+    "https://openalex.org/W2024199909",
+    "https://openalex.org/W2039030708",
+    "https://openalex.org/W2052644075",
+    "https://openalex.org/W2061530969",
+    "https://openalex.org/W2068403333",
+    "https://openalex.org/W2080439432",
+    "https://openalex.org/W2101608218",
+    "https://openalex.org/W2103481737",
+    "https://openalex.org/W2104434712",
+    "https://openalex.org/W2105991991",
+    "https://openalex.org/W2106600765",
+    "https://openalex.org/W2110208125",
+    "https://openalex.org/W2110437310",
+    "https://openalex.org/W2113319997",
+    "https://openalex.org/W2115002646",
+    "https://openalex.org/W2117935525",
+    "https://openalex.org/W2121369614",
+    "https://openalex.org/W2122538793",
+    "https://openalex.org/W2124774611",
+    "https://openalex.org/W2127324977",
+    "https://openalex.org/W2140145493",
+    "https://openalex.org/W2149798761",
+    "https://openalex.org/W2151130155",
+    "https://openalex.org/W2151721316",
+    "https://openalex.org/W2155963684",
+    "https://openalex.org/W2157270343",
+    "https://openalex.org/W2160928837",
+    "https://openalex.org/W2163429850",
+    "https://openalex.org/W4235770099"
+  ],
+  "related_works": [
+    "https://openalex.org/W762151464",
+    "https://openalex.org/W4402492658",
+    "https://openalex.org/W4292199793",
+    "https://openalex.org/W4245233074",
+    "https://openalex.org/W4232857084",
+    "https://openalex.org/W2653993779",
+    "https://openalex.org/W2327340211",
+    "https://openalex.org/W2167384162",
+    "https://openalex.org/W2027542625",
+    "https://openalex.org/W1517555227"
+  ],
+  "abstract_inverted_index": {
+    "We": [
+      0,
+      87,
+      101
+    ],
+    "introduce": [
+      1
+    ],
+    "a": [
+      2,
+      23,
+      46,
+      79
+    ],
+    "novel": [
+      3
+    ],
+    "method": [
+      4
+    ],
+    "of": [
+      5,
+      38,
+      48,
+      93
+    ],
+    "prospectively": [
+      6
+    ],
+    "compensating": [
+      7
+    ],
+    "for": [
+      8,
+      75,
+      98,
+      139
+    ],
+    "subject": [
+      9,
+      99
+    ],
+    "motion": [
+      10
+    ],
+    "in": [
+      11,
+      22,
+      42,
+      56,
+      61,
+      71,
+      117
+    ],
+    "neuroanatomical": [
+      12
+    ],
+    "imaging.": [
+      13
+    ],
+    "Short": [
+      14
+    ],
+    "three-dimensional": [
+      15,
+      25
+    ],
+    "echo-planar": [
+      16
+    ],
+    "imaging": [
+      17
+    ],
+    "volumetric": [
+      18
+    ],
+    "navigators": [
+      19
+    ],
+    "are": [
+      20,
+      32
+    ],
+    "embedded": [
+      21
+    ],
+    "long": [
+      24
+    ],
+    "sequence,": [
+      26
+    ],
+    "and": [
+      27,
+      58,
+      114,
+      131
+    ],
+    "the": [
+      28,
+      39,
+      43,
+      68,
+      115,
+      129
+    ],
+    "resulting": [
+      29
+    ],
+    "image": [
+      30
+    ],
+    "volumes": [
+      31
+    ],
+    "registered": [
+      33
+    ],
+    "to": [
+      34,
+      95,
+      106,
+      128
+    ],
+    "provide": [
+      35
+    ],
+    "an": [
+      36
+    ],
+    "estimate": [
+      37
+    ],
+    "subject's": [
+      40
+    ],
+    "location": [
+      41
+    ],
+    "scanner": [
+      44,
+      130
+    ],
+    "at": [
+      45
+    ],
+    "cost": [
+      47
+    ],
+    "less": [
+      49
+    ],
+    "than": [
+      50
+    ],
+    "500": [
+      51
+    ],
+    "ms,": [
+      52
+    ],
+    "~": [
+      53
+    ],
+    "1%": [
+      54
+    ],
+    "change": [
+      55,
+      60
+    ],
+    "contrast,": [
+      57
+    ],
+    "~3%": [
+      59
+    ],
+    "intensity.": [
+      62
+    ],
+    "This": [
+      63
+    ],
+    "time": [
+      64,
+      85
+    ],
+    "fits": [
+      65
+    ],
+    "well": [
+      66
+    ],
+    "into": [
+      67
+    ],
+    "existing": [
+      69
+    ],
+    "gaps": [
+      70
+    ],
+    "sequences": [
+      72
+    ],
+    "routinely": [
+      73
+    ],
+    "used": [
+      74
+    ],
+    "neuroimaging,": [
+      76
+    ],
+    "thus": [
+      77
+    ],
+    "giving": [
+      78
+    ],
+    "motion-corrected": [
+      80
+    ],
+    "sequence": [
+      81
+    ],
+    "with": [
+      82
+    ],
+    "no": [
+      83,
+      133
+    ],
+    "extra": [
+      84
+    ],
+    "required.": [
+      86
+    ],
+    "also": [
+      88
+    ],
+    "demonstrate": [
+      89
+    ],
+    "motion-driven": [
+      90
+    ],
+    "selective": [
+      91
+    ],
+    "reacquisition": [
+      92
+    ],
+    "k-space": [
+      94
+    ],
+    "further": [
+      96
+    ],
+    "compensate": [
+      97
+    ],
+    "motion.": [
+      100
+    ],
+    "perform": [
+      102
+    ],
+    "multiple": [
+      103
+    ],
+    "validation": [
+      104
+    ],
+    "experiments": [
+      105
+    ],
+    "evaluate": [
+      107
+    ],
+    "accuracy,": [
+      108
+    ],
+    "navigator": [
+      109
+    ],
+    "impact": [
+      110
+    ],
+    "on": [
+      111
+    ],
+    "tissue": [
+      112
+    ],
+    "intensity/contrast,": [
+      113
+    ],
+    "improvement": [
+      116
+    ],
+    "final": [
+      118
+    ],
+    "output.": [
+      119
+    ],
+    "The": [
+      120
+    ],
+    "complete": [
+      121
+    ],
+    "system": [
+      122
+    ],
+    "operates": [
+      123
+    ],
+    "without": [
+      124
+    ],
+    "adding": [
+      125
+    ],
+    "additional": [
+      126
+    ],
+    "hardware": [
+      127
+    ],
+    "requires": [
+      132
+    ],
+    "external": [
+      134
+    ],
+    "calibration,": [
+      135
+    ],
+    "making": [
+      136
+    ],
+    "it": [
+      137
+    ],
+    "suitable": [
+      138
+    ],
+    "high-throughput": [
+      140
+    ],
+    "environments.": [
+      141
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1989364786",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 46
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 50
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 41
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 40
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 31
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 31
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2025-06-17T08:45:19.762633",
+  "created_date": "2016-06-24"
+}

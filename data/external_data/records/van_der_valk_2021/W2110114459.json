@@ -1,0 +1,1902 @@
+{
+  "id": "https://openalex.org/W2110114459",
+  "doi": "https://doi.org/10.1093/aje/152.6.514",
+  "title": "Pooled Analysis of Prospective Cohort Studies on Height, Weight, and Breast Cancer Risk",
+  "display_name": "Pooled Analysis of Prospective Cohort Studies on Height, Weight, and Breast Cancer Risk",
+  "publication_year": 2000,
+  "publication_date": "2000-09-15",
+  "ids": {
+    "openalex": "https://openalex.org/W2110114459",
+    "doi": "https://doi.org/10.1093/aje/152.6.514",
+    "mag": "2110114459",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/10997541"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/aje/152.6.514",
+    "pdf_url": "https://academic.oup.com/aje/article-pdf/152/6/514/9736382/514.pdf",
+    "source": {
+      "id": "https://openalex.org/S170967050",
+      "display_name": "American Journal of Epidemiology",
+      "issn_l": "0002-9262",
+      "issn": [
+        "0002-9262",
+        "1476-6256"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://academic.oup.com/aje/article-pdf/152/6/514/9736382/514.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5001404405",
+        "display_name": "Piet A. van den Brandt",
+        "orcid": "https://orcid.org/0000-0001-8781-8099"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I34352273",
+          "display_name": "Maastricht University",
+          "ror": "https://ror.org/02jz4aj89",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I34352273"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Piet A. Van Den Brandt",
+      "raw_affiliation_strings": [
+        "Maastricht Univ."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Maastricht Univ.",
+          "institution_ids": [
+            "https://openalex.org/I34352273"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067206764",
+        "display_name": "Donna Spiegelman",
+        "orcid": "https://orcid.org/0000-0003-4006-4650"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801851002",
+          "display_name": "Harvard University Press",
+          "ror": "https://ror.org/006v7bf86",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Donna Spiegelman",
+      "raw_affiliation_strings": [
+        "Harvard University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard University",
+          "institution_ids": [
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110205583",
+        "display_name": "Shiaw Shyuan Yaun",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801851002",
+          "display_name": "Harvard University Press",
+          "ror": "https://ror.org/006v7bf86",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shiaw Shyuan Yaun",
+      "raw_affiliation_strings": [
+        "Harvard University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard University",
+          "institution_ids": [
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110096453",
+        "display_name": "Hans Olov Adami",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hans Olov Adami",
+      "raw_affiliation_strings": [
+        "Karolinska Institutet"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Karolinska Institutet",
+          "institution_ids": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051807984",
+        "display_name": "W. Lawrence Beeson",
+        "orcid": "https://orcid.org/0000-0002-7415-6046"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210095401",
+          "display_name": "Loma Linda University Health Care",
+          "ror": "https://ror.org/00saxze38",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210095401"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lawrence Beeson",
+      "raw_affiliation_strings": [
+        "Loma Linda University Health"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Loma Linda University Health",
+          "institution_ids": [
+            "https://openalex.org/I4210095401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111658562",
+        "display_name": "A.R Folsom",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210101327",
+          "display_name": "Twin Cities Orthopedics",
+          "ror": "https://ror.org/01en4s460",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210101327"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Aaron R. Folsom",
+      "raw_affiliation_strings": [
+        "University of Minnesota Twin Cities"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Minnesota Twin Cities",
+          "institution_ids": [
+            "https://openalex.org/I4210101327",
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055884171",
+        "display_name": "Gary E. Fraser",
+        "orcid": "https://orcid.org/0000-0002-5577-3524"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210095401",
+          "display_name": "Loma Linda University Health Care",
+          "ror": "https://ror.org/00saxze38",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210095401"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gary Fraser",
+      "raw_affiliation_strings": [
+        "Loma Linda University Health"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Loma Linda University Health",
+          "institution_ids": [
+            "https://openalex.org/I4210095401"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110101222",
+        "display_name": "R. Alexandra Goldbohm",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148297040",
+          "display_name": "Netherlands Organisation for Applied Scientific Research",
+          "ror": "https://ror.org/01bnjb948",
+          "country_code": "NL",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I148297040"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. Alexandra Goldbohm",
+      "raw_affiliation_strings": [
+        "Netherlands Organisation for Applied Scientific Research"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Netherlands Organisation for Applied Scientific Research",
+          "institution_ids": [
+            "https://openalex.org/I148297040"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108702376",
+        "display_name": "Saxon Graham",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I115441956",
+          "display_name": "Buffalo State University",
+          "ror": "https://ror.org/05ms04m92",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I115441956"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I63190737",
+          "display_name": "University at Buffalo, State University of New York",
+          "ror": "https://ror.org/01y64my43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I63190737"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Saxon Graham",
+      "raw_affiliation_strings": [
+        "SUNY Buffalo"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "SUNY Buffalo",
+          "institution_ids": [
+            "https://openalex.org/I115441956",
+            "https://openalex.org/I63190737"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031698839",
+        "display_name": "Lawrence H. Kushi",
+        "orcid": "https://orcid.org/0000-0001-9136-1175"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210101327",
+          "display_name": "Twin Cities Orthopedics",
+          "ror": "https://ror.org/01en4s460",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210101327"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Larry Kushi",
+      "raw_affiliation_strings": [
+        "University of Minnesota Twin Cities"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Minnesota Twin Cities",
+          "institution_ids": [
+            "https://openalex.org/I4210101327",
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068873690",
+        "display_name": "James R. Marshall",
+        "orcid": "https://orcid.org/0000-0001-8956-5945"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I138006243",
+          "display_name": "University of Arizona",
+          "ror": "https://ror.org/03m2x1q45",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I138006243"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "James R. Marshall",
+      "raw_affiliation_strings": [
+        "University of Arizona"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Arizona",
+          "institution_ids": [
+            "https://openalex.org/I138006243"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061365300",
+        "display_name": "Anthony B. Miller",
+        "orcid": "https://orcid.org/0000-0001-5174-3515"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I185261750",
+          "display_name": "University of Toronto",
+          "ror": "https://ror.org/03dbr7087",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anthony B. Miller",
+      "raw_affiliation_strings": [
+        "University of Toronto"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Toronto",
+          "institution_ids": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108536420",
+        "display_name": "Tom Rohan",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I185261750",
+          "display_name": "University of Toronto",
+          "ror": "https://ror.org/03dbr7087",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tom Rohan",
+      "raw_affiliation_strings": [
+        "University of Toronto"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Toronto",
+          "institution_ids": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000254686",
+        "display_name": "Stephanie A. Smith‐Warner",
+        "orcid": "https://orcid.org/0000-0003-3462-8608"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801851002",
+          "display_name": "Harvard University Press",
+          "ror": "https://ror.org/006v7bf86",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stephanie A. Smith-Warner",
+      "raw_affiliation_strings": [
+        "Harvard University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard University",
+          "institution_ids": [
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108396352",
+        "display_name": "Frank E. Speizer",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801851002",
+          "display_name": "Harvard University Press",
+          "ror": "https://ror.org/006v7bf86",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Frank E. Speizer",
+      "raw_affiliation_strings": [
+        "Harvard University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard University",
+          "institution_ids": [
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111510506",
+        "display_name": "Walter C. Willett",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801851002",
+          "display_name": "Harvard University Press",
+          "ror": "https://ror.org/006v7bf86",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Walter C. Willett",
+      "raw_affiliation_strings": [
+        "Harvard University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard University",
+          "institution_ids": [
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087152170",
+        "display_name": "Alicja Wolk",
+        "orcid": "https://orcid.org/0000-0001-7387-6845"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alicja Wolk",
+      "raw_affiliation_strings": [
+        "Karolinska Institutet"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Karolinska Institutet",
+          "institution_ids": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5081019782",
+        "display_name": "David J. Hunter",
+        "orcid": "https://orcid.org/0000-0003-3355-9399"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801851002",
+          "display_name": "Harvard University Press",
+          "ror": "https://ror.org/006v7bf86",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David J. Hunter",
+      "raw_affiliation_strings": [
+        "Harvard University"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard University",
+          "institution_ids": [
+            "https://openalex.org/I2801851002"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 4,
+  "institutions_distinct_count": 11,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 4450,
+    "currency": "USD",
+    "value_usd": 4450
+  },
+  "apc_paid": null,
+  "fwci": 10.995,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 1006,
+  "citation_normalized_percentile": {
+    "value": 0.999899,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "152",
+    "issue": "6",
+    "first_page": "514",
+    "last_page": "527"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12103",
+    "display_name": "Cancer Risks and Factors",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2730",
+      "display_name": "Oncology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12103",
+      "display_name": "Cancer Risks and Factors",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10866",
+      "display_name": "Nutritional Studies and Diet",
+      "score": 0.9872,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11339",
+      "display_name": "Metabolism, Diabetes, and Cancer",
+      "score": 0.9789,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.8917597
+    },
+    {
+      "id": "https://openalex.org/C530470458",
+      "wikidata": "https://www.wikidata.org/wiki/Q128581",
+      "display_name": "Breast cancer",
+      "level": 3,
+      "score": 0.7853385
+    },
+    {
+      "id": "https://openalex.org/C2780221984",
+      "wikidata": "https://www.wikidata.org/wiki/Q131191",
+      "display_name": "Body mass index",
+      "level": 2,
+      "score": 0.68946266
+    },
+    {
+      "id": "https://openalex.org/C188816634",
+      "wikidata": "https://www.wikidata.org/wiki/Q2113324",
+      "display_name": "Prospective cohort study",
+      "level": 2,
+      "score": 0.61107284
+    },
+    {
+      "id": "https://openalex.org/C82789193",
+      "wikidata": "https://www.wikidata.org/wiki/Q2142611",
+      "display_name": "Relative risk",
+      "level": 3,
+      "score": 0.5948572
+    },
+    {
+      "id": "https://openalex.org/C29456083",
+      "wikidata": "https://www.wikidata.org/wiki/Q1221899",
+      "display_name": "Gynecology",
+      "level": 1,
+      "score": 0.54215956
+    },
+    {
+      "id": "https://openalex.org/C50440223",
+      "wikidata": "https://www.wikidata.org/wiki/Q1475848",
+      "display_name": "Risk factor",
+      "level": 2,
+      "score": 0.51608866
+    },
+    {
+      "id": "https://openalex.org/C131872663",
+      "wikidata": "https://www.wikidata.org/wiki/Q5284418",
+      "display_name": "Obstetrics",
+      "level": 1,
+      "score": 0.5122687
+    },
+    {
+      "id": "https://openalex.org/C201903717",
+      "wikidata": "https://www.wikidata.org/wiki/Q1778788",
+      "display_name": "Cohort study",
+      "level": 2,
+      "score": 0.4961327
+    },
+    {
+      "id": "https://openalex.org/C44249647",
+      "wikidata": "https://www.wikidata.org/wiki/Q208498",
+      "display_name": "Confidence interval",
+      "level": 2,
+      "score": 0.47687536
+    },
+    {
+      "id": "https://openalex.org/C121608353",
+      "wikidata": "https://www.wikidata.org/wiki/Q12078",
+      "display_name": "Cancer",
+      "level": 2,
+      "score": 0.45195642
+    },
+    {
+      "id": "https://openalex.org/C72563966",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303415",
+      "display_name": "Cohort",
+      "level": 2,
+      "score": 0.432509
+    },
+    {
+      "id": "https://openalex.org/C61427482",
+      "wikidata": "https://www.wikidata.org/wiki/Q6656244",
+      "display_name": "Anthropometry",
+      "level": 2,
+      "score": 0.42230546
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.41926897
+    },
+    {
+      "id": "https://openalex.org/C2778562196",
+      "wikidata": "https://www.wikidata.org/wiki/Q177708",
+      "display_name": "Menopause",
+      "level": 2,
+      "score": 0.41627863
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001827",
+      "descriptor_name": "Body Height",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001835",
+      "descriptor_name": "Body Weight",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001943",
+      "descriptor_name": "Breast Neoplasms",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001943",
+      "descriptor_name": "Breast Neoplasms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015331",
+      "descriptor_name": "Cohort Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015999",
+      "descriptor_name": "Multivariate Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017698",
+      "descriptor_name": "Postmenopause",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017697",
+      "descriptor_name": "Premenopause",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011446",
+      "descriptor_name": "Prospective Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012044",
+      "descriptor_name": "Regression Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012307",
+      "descriptor_name": "Risk Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/aje/152.6.514",
+      "pdf_url": "https://academic.oup.com/aje/article-pdf/152/6/514/9736382/514.pdf",
+      "source": {
+        "id": "https://openalex.org/S170967050",
+        "display_name": "American Journal of Epidemiology",
+        "issn_l": "0002-9262",
+        "issn": [
+          "0002-9262",
+          "1476-6256"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://cris.maastrichtuniversity.nl/en/publications/2ca3c9d9-ceaf-4a61-a1db-90dbfa0b56f4",
+      "pdf_url": "https://cris.maastrichtuniversity.nl/files/649255/guid-416679a4-1823-4610-afb7-fd1ac8897611-ASSET1.0.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401843",
+        "display_name": "Data Archiving and Networked Services (DANS)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1322597698",
+        "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/I1322597698"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Netherlands Academy of Arts and Sciences"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://cris.maastrichtuniversity.nl/ws/files/649255/guid-416679a4-1823-4610-afb7-fd1ac8897611-ASSET1.0.pdf",
+      "pdf_url": "https://cris.maastrichtuniversity.nl/ws/files/649255/guid-416679a4-1823-4610-afb7-fd1ac8897611-ASSET1.0.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402616",
+        "display_name": "Research Publications (Maastricht University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I34352273",
+        "host_organization_name": "Maastricht University",
+        "host_organization_lineage": [
+          "https://openalex.org/I34352273"
+        ],
+        "host_organization_lineage_names": [
+          "Maastricht University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10997541",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/aje/152.6.514",
+    "pdf_url": "https://academic.oup.com/aje/article-pdf/152/6/514/9736382/514.pdf",
+    "source": {
+      "id": "https://openalex.org/S170967050",
+      "display_name": "American Journal of Epidemiology",
+      "issn_l": "0002-9262",
+      "issn": [
+        "0002-9262",
+        "1476-6256"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "score": 0.86,
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 92,
+  "referenced_works": [
+    "https://openalex.org/W1586607658",
+    "https://openalex.org/W160409177",
+    "https://openalex.org/W1607380534",
+    "https://openalex.org/W1846302294",
+    "https://openalex.org/W1874317091",
+    "https://openalex.org/W1887776045",
+    "https://openalex.org/W1922007189",
+    "https://openalex.org/W1931649015",
+    "https://openalex.org/W1961748210",
+    "https://openalex.org/W1966243550",
+    "https://openalex.org/W1966674344",
+    "https://openalex.org/W1967486564",
+    "https://openalex.org/W1970717032",
+    "https://openalex.org/W1971548489",
+    "https://openalex.org/W1975432561",
+    "https://openalex.org/W1978247661",
+    "https://openalex.org/W1978588330",
+    "https://openalex.org/W1981085676",
+    "https://openalex.org/W1994525965",
+    "https://openalex.org/W1996739023",
+    "https://openalex.org/W1999278985",
+    "https://openalex.org/W2001649722",
+    "https://openalex.org/W2003877282",
+    "https://openalex.org/W2011739472",
+    "https://openalex.org/W2013004955",
+    "https://openalex.org/W2015357565",
+    "https://openalex.org/W2020405138",
+    "https://openalex.org/W2022773374",
+    "https://openalex.org/W2023012532",
+    "https://openalex.org/W2027852186",
+    "https://openalex.org/W2030286885",
+    "https://openalex.org/W2031782189",
+    "https://openalex.org/W2041467607",
+    "https://openalex.org/W2042889527",
+    "https://openalex.org/W2045335921",
+    "https://openalex.org/W2045625338",
+    "https://openalex.org/W2046791020",
+    "https://openalex.org/W2046795108",
+    "https://openalex.org/W2051817086",
+    "https://openalex.org/W2053301665",
+    "https://openalex.org/W2055196893",
+    "https://openalex.org/W2057497723",
+    "https://openalex.org/W2058975208",
+    "https://openalex.org/W2062046052",
+    "https://openalex.org/W2065807351",
+    "https://openalex.org/W2068023595",
+    "https://openalex.org/W2074573985",
+    "https://openalex.org/W2079033298",
+    "https://openalex.org/W2081231324",
+    "https://openalex.org/W2082845214",
+    "https://openalex.org/W2085003501",
+    "https://openalex.org/W2085499514",
+    "https://openalex.org/W2086281284",
+    "https://openalex.org/W2087327978",
+    "https://openalex.org/W2088606367",
+    "https://openalex.org/W2094605049",
+    "https://openalex.org/W2107328434",
+    "https://openalex.org/W2109121483",
+    "https://openalex.org/W2110463823",
+    "https://openalex.org/W2111215901",
+    "https://openalex.org/W2117350664",
+    "https://openalex.org/W2122100237",
+    "https://openalex.org/W2126757594",
+    "https://openalex.org/W2128472512",
+    "https://openalex.org/W2129586456",
+    "https://openalex.org/W2133680529",
+    "https://openalex.org/W2133986689",
+    "https://openalex.org/W2136272348",
+    "https://openalex.org/W2140672084",
+    "https://openalex.org/W2149481046",
+    "https://openalex.org/W2153216542",
+    "https://openalex.org/W2166381966",
+    "https://openalex.org/W2268174795",
+    "https://openalex.org/W2270355053",
+    "https://openalex.org/W2317753830",
+    "https://openalex.org/W2332845276",
+    "https://openalex.org/W2411866344",
+    "https://openalex.org/W2412635431",
+    "https://openalex.org/W2587056843",
+    "https://openalex.org/W2613056846",
+    "https://openalex.org/W2613323100",
+    "https://openalex.org/W3149676740",
+    "https://openalex.org/W4230247882",
+    "https://openalex.org/W4232963656",
+    "https://openalex.org/W4234291541",
+    "https://openalex.org/W4241395916",
+    "https://openalex.org/W4244115359",
+    "https://openalex.org/W4247628591",
+    "https://openalex.org/W4254380504",
+    "https://openalex.org/W4255114350",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W4301453383"
+  ],
+  "related_works": [
+    "https://openalex.org/W2773747390",
+    "https://openalex.org/W2605271650",
+    "https://openalex.org/W2556457354",
+    "https://openalex.org/W2306573634",
+    "https://openalex.org/W2087124521",
+    "https://openalex.org/W2068080465",
+    "https://openalex.org/W2053969387",
+    "https://openalex.org/W2027748234",
+    "https://openalex.org/W2008123615",
+    "https://openalex.org/W1967326990"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      155,
+      190
+    ],
+    "association": [
+      1,
+      191
+    ],
+    "between": [
+      2,
+      192
+    ],
+    "anthropometric": [
+      3
+    ],
+    "indices": [
+      4
+    ],
+    "and": [
+      5,
+      27,
+      41,
+      70,
+      86,
+      94,
+      194
+    ],
+    "the": [
+      6,
+      45,
+      133,
+      144,
+      205
+    ],
+    "risk": [
+      7,
+      43,
+      48,
+      166,
+      176,
+      206
+    ],
+    "of": [
+      8,
+      50,
+      56,
+      109,
+      124
+    ],
+    "breast": [
+      9,
+      31,
+      51,
+      90,
+      164,
+      180,
+      195
+    ],
+    "cancer": [
+      10,
+      32,
+      52,
+      91,
+      165,
+      196
+    ],
+    "was": [
+      11,
+      59,
+      149
+    ],
+    "analyzed": [
+      12
+    ],
+    "using": [
+      13
+    ],
+    "pooled": [
+      14,
+      46
+    ],
+    "data": [
+      15,
+      169
+    ],
+    "from": [
+      16
+    ],
+    "seven": [
+      17
+    ],
+    "prospective": [
+      18
+    ],
+    "cohort": [
+      19
+    ],
+    "studies.": [
+      20
+    ],
+    "Together,": [
+      21
+    ],
+    "these": [
+      22,
+      98,
+      147
+    ],
+    "cohorts": [
+      23
+    ],
+    "comprise": [
+      24
+    ],
+    "337,819": [
+      25
+    ],
+    "women": [
+      26,
+      69,
+      105,
+      114,
+      148
+    ],
+    "4,385": [
+      28
+    ],
+    "incident": [
+      29
+    ],
+    "invasive": [
+      30
+    ],
+    "cases.": [
+      33
+    ],
+    "In": [
+      34,
+      130
+    ],
+    "multivariate": [
+      35
+    ],
+    "analyses": [
+      36
+    ],
+    "controlling": [
+      37
+    ],
+    "for": [
+      38,
+      146,
+      160,
+      178
+    ],
+    "reproductive,": [
+      39
+    ],
+    "dietary,": [
+      40
+    ],
+    "other": [
+      42,
+      163
+    ],
+    "factors,": [
+      44
+    ],
+    "relative": [
+      47
+    ],
+    "(RR)": [
+      49
+    ],
+    "per": [
+      53
+    ],
+    "height": [
+      54,
+      172
+    ],
+    "increment": [
+      55
+    ],
+    "5": [
+      57
+    ],
+    "cm": [
+      58
+    ],
+    "1.02": [
+      60
+    ],
+    "(95%": [
+      61,
+      72,
+      126,
+      151
+    ],
+    "confidence": [
+      62
+    ],
+    "interval": [
+      63
+    ],
+    "(CI):": [
+      64
+    ],
+    "0.96,": [
+      65
+    ],
+    "1.10)": [
+      66
+    ],
+    "in": [
+      67,
+      76,
+      182
+    ],
+    "premenopausal": [
+      68,
+      104,
+      183
+    ],
+    "1.07": [
+      71
+    ],
+    "CI:": [
+      73,
+      127,
+      152
+    ],
+    "1.03,": [
+      74
+    ],
+    "1.12)": [
+      75
+    ],
+    "postmenopausal": [
+      77,
+      95,
+      131,
+      179,
+      208
+    ],
+    "women.": [
+      78,
+      209
+    ],
+    "Body": [
+      79
+    ],
+    "mass": [
+      80
+    ],
+    "index": [
+      81
+    ],
+    "(BMI)": [
+      82
+    ],
+    "showed": [
+      83
+    ],
+    "significant": [
+      84
+    ],
+    "inverse": [
+      85
+    ],
+    "positive": [
+      87
+    ],
+    "associations": [
+      88,
+      99
+    ],
+    "with": [
+      89,
+      103,
+      106,
+      115,
+      162
+    ],
+    "among": [
+      92,
+      207
+    ],
+    "pre-": [
+      93
+    ],
+    "women,": [
+      96,
+      132,
+      184
+    ],
+    "respectively;": [
+      97
+    ],
+    "were": [
+      100
+    ],
+    "nonlinear.": [
+      101
+    ],
+    "Compared": [
+      102
+    ],
+    "a": [
+      107,
+      116
+    ],
+    "BMI": [
+      108,
+      117,
+      140,
+      193
+    ],
+    "less": [
+      110,
+      188
+    ],
+    "than": [
+      111
+    ],
+    "21": [
+      112
+    ],
+    "kg/m2,": [
+      113
+    ],
+    "exceeding": [
+      118
+    ],
+    "31": [
+      119
+    ],
+    "kg/m2": [
+      120
+    ],
+    "had": [
+      121
+    ],
+    "an": [
+      122,
+      174
+    ],
+    "RR": [
+      123,
+      145
+    ],
+    "0.54": [
+      125
+    ],
+    "0.34,": [
+      128
+    ],
+    "0.85).": [
+      129
+    ],
+    "RRs": [
+      134
+    ],
+    "did": [
+      135
+    ],
+    "not": [
+      136
+    ],
+    "increase": [
+      137
+    ],
+    "further": [
+      138
+    ],
+    "when": [
+      139
+    ],
+    "exceeded": [
+      141
+    ],
+    "28": [
+      142
+    ],
+    "kg/m2;": [
+      143
+    ],
+    "1.26": [
+      150
+    ],
+    "1.09,": [
+      153
+    ],
+    "1.46).": [
+      154
+    ],
+    "authors": [
+      156
+    ],
+    "found": [
+      157
+    ],
+    "little": [
+      158
+    ],
+    "evidence": [
+      159
+    ],
+    "interaction": [
+      161
+    ],
+    "factors.": [
+      167
+    ],
+    "Their": [
+      168
+    ],
+    "indicate": [
+      170
+    ],
+    "that": [
+      171
+    ],
+    "is": [
+      173,
+      187
+    ],
+    "independent": [
+      175
+    ],
+    "factor": [
+      177
+    ],
+    "cancer;": [
+      181
+    ],
+    "this": [
+      185
+    ],
+    "relation": [
+      186
+    ],
+    "clear.": [
+      189
+    ],
+    "varies": [
+      197
+    ],
+    "by": [
+      198
+    ],
+    "menopausal": [
+      199
+    ],
+    "status.": [
+      200
+    ],
+    "Weight": [
+      201
+    ],
+    "control": [
+      202
+    ],
+    "may": [
+      203
+    ],
+    "reduce": [
+      204
+    ],
+    "Am": [
+      210
+    ],
+    "J": [
+      211
+    ],
+    "Epidemiol": [
+      212
+    ],
+    "2000;152:514–27.": [
+      213
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2110114459",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 33
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 45
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 41
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 55
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 66
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 58
+    }
+  ],
+  "updated_date": "2025-06-11T22:57:40.405409",
+  "created_date": "2016-06-24"
+}

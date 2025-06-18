@@ -1,0 +1,873 @@
+{
+  "id": "https://openalex.org/W2067273299",
+  "doi": "https://doi.org/10.1016/j.ymgme.2009.05.004",
+  "title": "Weighted gene co-expression network analysis identifies biomarkers in glycerol kinase deficient mice",
+  "display_name": "Weighted gene co-expression network analysis identifies biomarkers in glycerol kinase deficient mice",
+  "publication_year": 2009,
+  "publication_date": "2009-05-28",
+  "ids": {
+    "openalex": "https://openalex.org/W2067273299",
+    "doi": "https://doi.org/10.1016/j.ymgme.2009.05.004",
+    "mag": "2067273299",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19546021"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.ymgme.2009.05.004",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S42433034",
+      "display_name": "Molecular Genetics and Metabolism",
+      "issn_l": "1096-7192",
+      "issn": [
+        "1096-7192",
+        "1096-7206"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5091909071",
+        "display_name": "Nicole K. MacLennan",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nicole K. MacLennan",
+      "raw_affiliation_strings": [
+        "Department of Pediatrics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA, 90095, USA,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA, 90095, USA,",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084918710",
+        "display_name": "Jun Dong",
+        "orcid": "https://orcid.org/0000-0002-0026-6680"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jun Dong",
+      "raw_affiliation_strings": [
+        "Department of Biostatistics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA 90095, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biostatistics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA 90095, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5080860198",
+        "display_name": "Jason E. Aten",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jason E. Aten",
+      "raw_affiliation_strings": [
+        "Department of Biostatistics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA 90095, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biostatistics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA 90095, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000192581",
+        "display_name": "Steve Horvath",
+        "orcid": "https://orcid.org/0000-0002-4110-3589"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steve Horvath",
+      "raw_affiliation_strings": [
+        "Department of Human Genetics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA 90095, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Human Genetics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA 90095, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055833569",
+        "display_name": "Lola Rahib",
+        "orcid": "https://orcid.org/0000-0003-3928-3880"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210140243",
+          "display_name": "Samueli Institute",
+          "ror": "https://ror.org/03teef091",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210140243"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lola Rahib",
+      "raw_affiliation_strings": [
+        "Biomedical Engineering Interdepartmental Program, Henry Samueli School of Engineering and Applied Science, University of California at Los Angeles, Los Angeles, CA 90095, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Biomedical Engineering Interdepartmental Program, Henry Samueli School of Engineering and Applied Science, University of California at Los Angeles, Los Angeles, CA 90095, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210140243",
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053564990",
+        "display_name": "Loren Ornelas",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Loren Ornelas",
+      "raw_affiliation_strings": [
+        "Department of Pediatrics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA, 90095, USA,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA, 90095, USA,",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110144038",
+        "display_name": "Katrina M. Dipple",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Katrina M. Dipple",
+      "raw_affiliation_strings": [
+        "Department of Pediatrics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA 90095, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA 90095, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5110162053",
+        "display_name": "Edward R.B. McCabe",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Edward R.B. McCabe",
+      "raw_affiliation_strings": [
+        "Department of Pediatrics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA 90095, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, CA 90095, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3570,
+    "currency": "USD",
+    "value_usd": 3570
+  },
+  "apc_paid": null,
+  "fwci": 0.93,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 34,
+  "citation_normalized_percentile": {
+    "value": 0.758914,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 92,
+    "max": 93
+  },
+  "biblio": {
+    "volume": "98",
+    "issue": "1-2",
+    "first_page": "203",
+    "last_page": "214"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10887",
+    "display_name": "Bioinformatics and Genomic Networks",
+    "score": 0.9992,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10887",
+      "display_name": "Bioinformatics and Genomic Networks",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11072",
+      "display_name": "Peroxisome Proliferator-Activated Receptors",
+      "score": 0.9986,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10301",
+      "display_name": "Mitochondrial Function and Pathology",
+      "score": 0.9952,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/glycerol-kinase",
+      "display_name": "Glycerol kinase",
+      "score": 0.6357767
+    },
+    {
+      "id": "https://openalex.org/keywords/gene-knockout",
+      "display_name": "Gene knockout",
+      "score": 0.48163074
+    },
+    {
+      "id": "https://openalex.org/keywords/knockout-mouse",
+      "display_name": "Knockout mouse",
+      "score": 0.46255365
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.6939475
+    },
+    {
+      "id": "https://openalex.org/C2780282346",
+      "wikidata": "https://www.wikidata.org/wiki/Q24774081",
+      "display_name": "Glycerol kinase",
+      "level": 3,
+      "score": 0.6357767
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.617596
+    },
+    {
+      "id": "https://openalex.org/C77957584",
+      "wikidata": "https://www.wikidata.org/wiki/Q1133550",
+      "display_name": "Gene knockout",
+      "level": 3,
+      "score": 0.48163074
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.47388357
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.47097683
+    },
+    {
+      "id": "https://openalex.org/C182704531",
+      "wikidata": "https://www.wikidata.org/wiki/Q1364740",
+      "display_name": "Knockout mouse",
+      "level": 3,
+      "score": 0.46255365
+    },
+    {
+      "id": "https://openalex.org/C184235292",
+      "wikidata": "https://www.wikidata.org/wiki/Q421851",
+      "display_name": "Kinase",
+      "level": 2,
+      "score": 0.46074808
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.43034816
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.32667238
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D053263",
+      "descriptor_name": "Gene Regulatory Networks",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005991",
+      "descriptor_name": "Glycerol Kinase",
+      "qualifier_ui": "Q000172",
+      "qualifier_name": "deficiency",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017209",
+      "descriptor_name": "Apoptosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017209",
+      "descriptor_name": "Apoptosis",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002478",
+      "descriptor_name": "Cells, Cultured",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016000",
+      "descriptor_name": "Cluster Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005991",
+      "descriptor_name": "Glycerol Kinase",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005991",
+      "descriptor_name": "Glycerol Kinase",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008810",
+      "descriptor_name": "Mice, Inbred C57BL",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020411",
+      "descriptor_name": "Oligonucleotide Array Sequence Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012333",
+      "descriptor_name": "RNA, Messenger",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012333",
+      "descriptor_name": "RNA, Messenger",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012333",
+      "descriptor_name": "RNA, Messenger",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015203",
+      "descriptor_name": "Reproducibility of Results",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020133",
+      "descriptor_name": "Reverse Transcriptase Polymerase Chain Reaction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.ymgme.2009.05.004",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S42433034",
+        "display_name": "Molecular Genetics and Metabolism",
+        "issn_l": "1096-7192",
+        "issn": [
+          "1096-7192",
+          "1096-7206"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19546021",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 56,
+  "referenced_works": [
+    "https://openalex.org/W1505309345",
+    "https://openalex.org/W1576120509",
+    "https://openalex.org/W1932560099",
+    "https://openalex.org/W1964305071",
+    "https://openalex.org/W1965691653",
+    "https://openalex.org/W1968880529",
+    "https://openalex.org/W1972421432",
+    "https://openalex.org/W1973051306",
+    "https://openalex.org/W1979500386",
+    "https://openalex.org/W1982964930",
+    "https://openalex.org/W1985773900",
+    "https://openalex.org/W1987092660",
+    "https://openalex.org/W1989119979",
+    "https://openalex.org/W2002730103",
+    "https://openalex.org/W2004139620",
+    "https://openalex.org/W2004464625",
+    "https://openalex.org/W2008374263",
+    "https://openalex.org/W2008867070",
+    "https://openalex.org/W2010579377",
+    "https://openalex.org/W2010650950",
+    "https://openalex.org/W2025940841",
+    "https://openalex.org/W2027399327",
+    "https://openalex.org/W2030141485",
+    "https://openalex.org/W2032575329",
+    "https://openalex.org/W2036800461",
+    "https://openalex.org/W2038970224",
+    "https://openalex.org/W2041619548",
+    "https://openalex.org/W2042187236",
+    "https://openalex.org/W2050979982",
+    "https://openalex.org/W2053655759",
+    "https://openalex.org/W2054060189",
+    "https://openalex.org/W2055674608",
+    "https://openalex.org/W2057257609",
+    "https://openalex.org/W2061357909",
+    "https://openalex.org/W2068079504",
+    "https://openalex.org/W2068229930",
+    "https://openalex.org/W2069645361",
+    "https://openalex.org/W2069733150",
+    "https://openalex.org/W2070255166",
+    "https://openalex.org/W2076306366",
+    "https://openalex.org/W2076375071",
+    "https://openalex.org/W2084314658",
+    "https://openalex.org/W2088016284",
+    "https://openalex.org/W2096300580",
+    "https://openalex.org/W2100526049",
+    "https://openalex.org/W2105282404",
+    "https://openalex.org/W2106036991",
+    "https://openalex.org/W2117007075",
+    "https://openalex.org/W2117994680",
+    "https://openalex.org/W2127938920",
+    "https://openalex.org/W2151820055",
+    "https://openalex.org/W2161605223",
+    "https://openalex.org/W2163047733",
+    "https://openalex.org/W2164795094",
+    "https://openalex.org/W2341758899",
+    "https://openalex.org/W3103786587"
+  ],
+  "related_works": [
+    "https://openalex.org/W4386894844",
+    "https://openalex.org/W3164624346",
+    "https://openalex.org/W3148748955",
+    "https://openalex.org/W2381946842",
+    "https://openalex.org/W2355763666",
+    "https://openalex.org/W2354183031",
+    "https://openalex.org/W2352997151",
+    "https://openalex.org/W2165288548",
+    "https://openalex.org/W2043131582",
+    "https://openalex.org/W1989514551"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2067273299",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-05-21T00:07:29.707688",
+  "created_date": "2016-06-24"
+}

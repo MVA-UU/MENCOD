@@ -1,0 +1,1376 @@
+{
+  "id": "https://openalex.org/W2106901131",
+  "doi": "https://doi.org/10.1136/bmjopen-2013-003464",
+  "title": "Intention-to-treat analyses and missing data approaches in pharmacotherapy trials for alcohol use disorders",
+  "display_name": "Intention-to-treat analyses and missing data approaches in pharmacotherapy trials for alcohol use disorders",
+  "publication_year": 2013,
+  "publication_date": "2013-11-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2106901131",
+    "doi": "https://doi.org/10.1136/bmjopen-2013-003464",
+    "mag": "2106901131",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/24227870",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3831108"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/bmjopen-2013-003464",
+    "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/3/11/e003464.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S79054089",
+      "display_name": "BMJ Open",
+      "issn_l": "2044-6055",
+      "issn": [
+        "2044-6055"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://bmjopen.bmj.com/content/bmjopen/3/11/e003464.full.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5033941755",
+        "display_name": "A. C. Del Re",
+        "orcid": "https://orcid.org/0000-0002-9571-7623"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204866599",
+          "display_name": "VA Palo Alto Health Care System",
+          "ror": "https://ror.org/00nr17z89",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I204866599",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210125474"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210138309",
+          "display_name": "Center for Innovation",
+          "ror": "https://ror.org/04c1v2b17",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210089489",
+            "https://openalex.org/I4210138309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A C Del Re",
+      "raw_affiliation_strings": [
+        "Center for Innovation to Implementation, VA Palo Alto Health Care System (152MPD), Menlo Park, California, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Innovation to Implementation, VA Palo Alto Health Care System (152MPD), Menlo Park, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I204866599",
+            "https://openalex.org/I4210138309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007258104",
+        "display_name": "Natalya C. Maisel",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204866599",
+          "display_name": "VA Palo Alto Health Care System",
+          "ror": "https://ror.org/00nr17z89",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I204866599",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210125474"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210138309",
+          "display_name": "Center for Innovation",
+          "ror": "https://ror.org/04c1v2b17",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210089489",
+            "https://openalex.org/I4210138309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Natalya C Maisel",
+      "raw_affiliation_strings": [
+        "Center for Innovation to Implementation, VA Palo Alto Health Care System (152MPD)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Innovation to Implementation, VA Palo Alto Health Care System (152MPD)",
+          "institution_ids": [
+            "https://openalex.org/I204866599",
+            "https://openalex.org/I4210138309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5079674528",
+        "display_name": "Janet C. Blodgett",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204866599",
+          "display_name": "VA Palo Alto Health Care System",
+          "ror": "https://ror.org/00nr17z89",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I204866599",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210125474"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210138309",
+          "display_name": "Center for Innovation",
+          "ror": "https://ror.org/04c1v2b17",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210089489",
+            "https://openalex.org/I4210138309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Janet C Blodgett",
+      "raw_affiliation_strings": [
+        "Center for Innovation to Implementation, VA Palo Alto Health Care System (152MPD)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Innovation to Implementation, VA Palo Alto Health Care System (152MPD)",
+          "institution_ids": [
+            "https://openalex.org/I204866599",
+            "https://openalex.org/I4210138309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5105717195",
+        "display_name": "John W. Finney",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204866599",
+          "display_name": "VA Palo Alto Health Care System",
+          "ror": "https://ror.org/00nr17z89",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I204866599",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210125474"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210138309",
+          "display_name": "Center for Innovation",
+          "ror": "https://ror.org/04c1v2b17",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210089489",
+            "https://openalex.org/I4210138309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John W Finney",
+      "raw_affiliation_strings": [
+        "Center for Innovation to Implementation, VA Palo Alto Health Care System (152MPD)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Innovation to Implementation, VA Palo Alto Health Care System (152MPD)",
+          "institution_ids": [
+            "https://openalex.org/I204866599",
+            "https://openalex.org/I4210138309"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 1500,
+    "currency": "GBP",
+    "value_usd": 1839
+  },
+  "apc_paid": {
+    "value": 1500,
+    "currency": "GBP",
+    "value_usd": 1839
+  },
+  "fwci": 1.579,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 56,
+  "citation_normalized_percentile": {
+    "value": 0.948147,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "3",
+    "issue": "11",
+    "first_page": "e003464",
+    "last_page": "e003464"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10845",
+    "display_name": "Advanced Causal Inference Techniques",
+    "score": 0.9975,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10845",
+      "display_name": "Advanced Causal Inference Techniques",
+      "score": 0.9975,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "score": 0.9924,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10496",
+      "display_name": "Pharmaceutical Practices and Patient Outcomes",
+      "score": 0.9891,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2717",
+        "display_name": "Geriatrics and Gerontology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/pharmacotherapy",
+      "display_name": "Pharmacotherapy",
+      "score": 0.58194613
+    },
+    {
+      "id": "https://openalex.org/keywords/biostatistics",
+      "display_name": "Biostatistics",
+      "score": 0.48615143
+    },
+    {
+      "id": "https://openalex.org/keywords/drug-trial",
+      "display_name": "Drug trial",
+      "score": 0.43938437
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.9230259
+    },
+    {
+      "id": "https://openalex.org/C500440147",
+      "wikidata": "https://www.wikidata.org/wiki/Q701216",
+      "display_name": "Pharmacotherapy",
+      "level": 2,
+      "score": 0.58194613
+    },
+    {
+      "id": "https://openalex.org/C9357733",
+      "wikidata": "https://www.wikidata.org/wiki/Q6878417",
+      "display_name": "Missing data",
+      "level": 2,
+      "score": 0.50902724
+    },
+    {
+      "id": "https://openalex.org/C140556311",
+      "wikidata": "https://www.wikidata.org/wiki/Q214746",
+      "display_name": "Biostatistics",
+      "level": 3,
+      "score": 0.48615143
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.46090803
+    },
+    {
+      "id": "https://openalex.org/C2992672634",
+      "wikidata": "https://www.wikidata.org/wiki/Q30612",
+      "display_name": "Drug trial",
+      "level": 3,
+      "score": 0.43938437
+    },
+    {
+      "id": "https://openalex.org/C2779473830",
+      "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+      "display_name": "MEDLINE",
+      "level": 2,
+      "score": 0.42605364
+    },
+    {
+      "id": "https://openalex.org/C535046627",
+      "wikidata": "https://www.wikidata.org/wiki/Q30612",
+      "display_name": "Clinical trial",
+      "level": 2,
+      "score": 0.41110718
+    },
+    {
+      "id": "https://openalex.org/C107130276",
+      "wikidata": "https://www.wikidata.org/wiki/Q133805",
+      "display_name": "Epidemiology",
+      "level": 2,
+      "score": 0.37987295
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.37785876
+    },
+    {
+      "id": "https://openalex.org/C512399662",
+      "wikidata": "https://www.wikidata.org/wiki/Q3505712",
+      "display_name": "Family medicine",
+      "level": 1,
+      "score": 0.37541237
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.18190366
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.14837354
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.11055437
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1136/bmjopen-2013-003464",
+      "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/3/11/e003464.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S79054089",
+        "display_name": "BMJ Open",
+        "issn_l": "2044-6055",
+        "issn": [
+          "2044-6055"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319945",
+        "host_organization_name": "BMJ",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319945"
+        ],
+        "host_organization_lineage_names": [
+          "BMJ"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3831108",
+      "pdf_url": "https://europepmc.org/articles/pmc3831108?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3831108",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/24227870",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/bmjopen-2013-003464",
+    "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/3/11/e003464.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S79054089",
+      "display_name": "BMJ Open",
+      "issn_l": "2044-6055",
+      "issn": [
+        "2044-6055"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.75
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 15,
+  "referenced_works": [
+    "https://openalex.org/W1501619595",
+    "https://openalex.org/W1910982087",
+    "https://openalex.org/W1965926642",
+    "https://openalex.org/W1984052453",
+    "https://openalex.org/W1987186637",
+    "https://openalex.org/W2015967910",
+    "https://openalex.org/W2044758663",
+    "https://openalex.org/W2073244283",
+    "https://openalex.org/W2095674834",
+    "https://openalex.org/W2108696783",
+    "https://openalex.org/W2115086661",
+    "https://openalex.org/W2127077956",
+    "https://openalex.org/W2136133622",
+    "https://openalex.org/W2167165853",
+    "https://openalex.org/W2170302543"
+  ],
+  "related_works": [
+    "https://openalex.org/W4385816498",
+    "https://openalex.org/W4380903871",
+    "https://openalex.org/W4366326307",
+    "https://openalex.org/W3097888895",
+    "https://openalex.org/W2969652840",
+    "https://openalex.org/W2120608270",
+    "https://openalex.org/W2078010321",
+    "https://openalex.org/W1977389139",
+    "https://openalex.org/W163469799",
+    "https://openalex.org/W1563497214"
+  ],
+  "abstract_inverted_index": {
+    "Objectives": [
+      0
+    ],
+    "Intention": [
+      1
+    ],
+    "to": [
+      2,
+      38,
+      46,
+      181
+    ],
+    "treat": [
+      3
+    ],
+    "(ITT)": [
+      4
+    ],
+    "is": [
+      5,
+      257
+    ],
+    "an": [
+      6,
+      167,
+      260
+    ],
+    "analytic": [
+      7,
+      85,
+      105,
+      124
+    ],
+    "strategy": [
+      8,
+      45,
+      86,
+      125,
+      247
+    ],
+    "for": [
+      9,
+      119,
+      127,
+      155,
+      217,
+      259,
+      269
+    ],
+    "reducing": [
+      10
+    ],
+    "potential": [
+      11
+    ],
+    "bias": [
+      12
+    ],
+    "in": [
+      13,
+      20,
+      140,
+      189,
+      226,
+      235,
+      277
+    ],
+    "treatment": [
+      14
+    ],
+    "effects": [
+      15
+    ],
+    "arising": [
+      16
+    ],
+    "from": [
+      17
+    ],
+    "missing": [
+      18,
+      48,
+      93,
+      107,
+      128,
+      147,
+      205,
+      245,
+      275
+    ],
+    "data": [
+      19,
+      94,
+      104,
+      108,
+      123,
+      129,
+      148,
+      206,
+      215,
+      246,
+      276
+    ],
+    "randomised": [
+      21
+    ],
+    "controlled": [
+      22
+    ],
+    "trials": [
+      23,
+      279
+    ],
+    "(RCTs).": [
+      24
+    ],
+    "Currently,": [
+      25
+    ],
+    "no": [
+      26,
+      41,
+      187
+    ],
+    "universally": [
+      27
+    ],
+    "accepted": [
+      28
+    ],
+    "definition": [
+      29,
+      184,
+      254
+    ],
+    "of": [
+      30,
+      53,
+      57,
+      65,
+      143,
+      153,
+      174,
+      192,
+      214,
+      238,
+      241,
+      255,
+      263,
+      274
+    ],
+    "ITT": [
+      31,
+      88,
+      144,
+      168,
+      179,
+      193,
+      231,
+      256
+    ],
+    "exists,": [
+      32
+    ],
+    "although": [
+      33
+    ],
+    "many": [
+      34
+    ],
+    "researchers": [
+      35,
+      70
+    ],
+    "consider": [
+      36
+    ],
+    "it": [
+      37
+    ],
+    "require": [
+      39
+    ],
+    "either": [
+      40
+    ],
+    "attrition": [
+      42
+    ],
+    "or": [
+      43,
+      89
+    ],
+    "a": [
+      44,
+      54,
+      253
+    ],
+    "handle": [
+      47
+    ],
+    "data.": [
+      49
+    ],
+    "Using": [
+      50
+    ],
+    "the": [
+      51,
+      63,
+      82,
+      141,
+      161,
+      175,
+      182,
+      190,
+      218,
+      244,
+      272
+    ],
+    "reports": [
+      52
+    ],
+    "large": [
+      55
+    ],
+    "pool": [
+      56
+    ],
+    "RCTs,": [
+      58
+    ],
+    "we": [
+      59
+    ],
+    "examined": [
+      60,
+      81
+    ],
+    "discrepancies": [
+      61
+    ],
+    "between": [
+      62,
+      84
+    ],
+    "types": [
+      64
+    ],
+    "analyses": [
+      66,
+      145,
+      194,
+      213,
+      232,
+      270
+    ],
+    "that": [
+      67
+    ],
+    "alcohol": [
+      68,
+      156
+    ],
+    "pharmacotherapy": [
+      69,
+      154,
+      278
+    ],
+    "stated": [
+      71
+    ],
+    "they": [
+      72,
+      76
+    ],
+    "used": [
+      73,
+      248
+    ],
+    "versus": [
+      74,
+      228
+    ],
+    "those": [
+      75
+    ],
+    "actually": [
+      77,
+      177,
+      220,
+      229
+    ],
+    "used.": [
+      78
+    ],
+    "We": [
+      79
+    ],
+    "also": [
+      80
+    ],
+    "linkage": [
+      83
+    ],
+    "(ie,": [
+      87
+    ],
+    "not)": [
+      90
+    ],
+    "and": [
+      91,
+      102,
+      106,
+      121,
+      126,
+      146,
+      203,
+      271,
+      280
+    ],
+    "how": [
+      92
+    ],
+    "on": [
+      95,
+      252
+    ],
+    "outcomes": [
+      96
+    ],
+    "were": [
+      97,
+      117,
+      233
+    ],
+    "handled": [
+      98
+    ],
+    "(if": [
+      99
+    ],
+    "at": [
+      100
+    ],
+    "all),": [
+      101
+    ],
+    "whether": [
+      103
+    ],
+    "strategies": [
+      109,
+      207
+    ],
+    "have": [
+      110,
+      208,
+      222
+    ],
+    "changed": [
+      111
+    ],
+    "over": [
+      112,
+      138,
+      195,
+      210
+    ],
+    "time.": [
+      113
+    ],
+    "Design": [
+      114
+    ],
+    "Descriptive": [
+      115
+    ],
+    "statistics": [
+      116
+    ],
+    "generated": [
+      118
+    ],
+    "reported": [
+      120,
+      165
+    ],
+    "actual": [
+      122
+    ],
+    "strategy.": [
+      130,
+      169
+    ],
+    "In": [
+      131
+    ],
+    "addition,": [
+      132
+    ],
+    "generalised": [
+      133
+    ],
+    "linear": [
+      134
+    ],
+    "models": [
+      135
+    ],
+    "determined": [
+      136
+    ],
+    "changes": [
+      137
+    ],
+    "time": [
+      139,
+      196
+    ],
+    "use": [
+      142,
+      157,
+      191
+    ],
+    "strategies.": [
+      149
+    ],
+    "Participants": [
+      150
+    ],
+    "165": [
+      151,
+      162
+    ],
+    "RCTs": [
+      152
+    ],
+    "disorders.": [
+      158
+    ],
+    "Results": [
+      159
+    ],
+    "Of": [
+      160
+    ],
+    "studies,": [
+      163
+    ],
+    "74": [
+      164
+    ],
+    "using": [
+      166
+    ],
+    "However,": [
+      170
+    ],
+    "less": [
+      171
+    ],
+    "than": [
+      172
+    ],
+    "40%": [
+      173
+    ],
+    "studies": [
+      176,
+      283
+    ],
+    "conducted": [
+      178
+    ],
+    "according": [
+      180
+    ],
+    "rigorous": [
+      183
+    ],
+    "above.": [
+      185
+    ],
+    "Whereas": [
+      186
+    ],
+    "change": [
+      188
+    ],
+    "was": [
+      197,
+      249
+    ],
+    "found,": [
+      198
+    ],
+    "censored": [
+      199
+    ],
+    "(last": [
+      200
+    ],
+    "follow-up": [
+      201
+    ],
+    "completed)": [
+      202
+    ],
+    "imputed": [
+      204
+    ],
+    "increased": [
+      209
+    ],
+    "time,": [
+      211
+    ],
+    "while": [
+      212
+    ],
+    "only": [
+      216
+    ],
+    "sample": [
+      219
+    ],
+    "followed": [
+      221
+    ],
+    "decreased.": [
+      223
+    ],
+    "Conclusions": [
+      224
+    ],
+    "Discrepancies": [
+      225
+    ],
+    "reporting": [
+      227,
+      267
+    ],
+    "conducting": [
+      230
+    ],
+    "found": [
+      234
+    ],
+    "this": [
+      236
+    ],
+    "body": [
+      237
+    ],
+    "RCTs.": [
+      239
+    ],
+    "Lack": [
+      240
+    ],
+    "clarity": [
+      242
+    ],
+    "regarding": [
+      243
+    ],
+    "common.": [
+      250
+    ],
+    "Consensus": [
+      251
+    ],
+    "important": [
+      258
+    ],
+    "adequate": [
+      261
+    ],
+    "understanding": [
+      262
+    ],
+    "research": [
+      264
+    ],
+    "findings.": [
+      265
+    ],
+    "Clearer": [
+      266
+    ],
+    "standards": [
+      268
+    ],
+    "handling": [
+      273
+    ],
+    "other": [
+      281
+    ],
+    "intervention": [
+      282
+    ],
+    "are": [
+      284
+    ],
+    "needed.": [
+      285
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2106901131",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-06-17T17:50:42.412454",
+  "created_date": "2016-06-24"
+}

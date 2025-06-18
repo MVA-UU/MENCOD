@@ -1,0 +1,531 @@
+{
+  "id": "https://openalex.org/W4236182608",
+  "doi": "https://doi.org/10.1007/s004280050209",
+  "title": "Oncocytic tumours",
+  "display_name": "Oncocytic tumours",
+  "publication_year": 1998,
+  "publication_date": "1998-07-06",
+  "ids": {
+    "openalex": "https://openalex.org/W4236182608",
+    "doi": "https://doi.org/10.1007/s004280050209",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/9692819"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/s004280050209",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S47032817",
+      "display_name": "Virchows Archiv",
+      "issn_l": "0945-6317",
+      "issn": [
+        "0945-6317",
+        "1432-2307"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310319900"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "Springer Science+Business Media"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5085931728",
+        "display_name": "Giovanni Tallini",
+        "orcid": "https://orcid.org/0000-0003-0113-6682"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1323778983",
+          "display_name": "Yale New Haven Hospital",
+          "ror": "https://ror.org/05tszed37",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1323778983",
+            "https://openalex.org/I4210117499"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "G Tallini",
+      "raw_affiliation_strings": [
+        "Department of Pathology, Yale New Haven Hospital, CT 06510, USA. tallini@yale.edu"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pathology, Yale New Haven Hospital, CT 06510, USA. tallini@yale.edu",
+          "institution_ids": [
+            "https://openalex.org/I1323778983"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5085931728"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I1323778983"
+  ],
+  "apc_list": {
+    "value": 3490,
+    "currency": "EUR",
+    "value_usd": 4590
+  },
+  "apc_paid": null,
+  "fwci": 1.198,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 138,
+  "citation_normalized_percentile": {
+    "value": 0.952949,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "433",
+    "issue": "1",
+    "first_page": "5",
+    "last_page": "12"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13759",
+    "display_name": "Medical Imaging and Pathology Studies",
+    "score": 0.9947,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2740",
+      "display_name": "Pulmonary and Respiratory Medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13759",
+      "display_name": "Medical Imaging and Pathology Studies",
+      "score": 0.9947,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10129",
+      "display_name": "Glioma Diagnosis and Treatment",
+      "score": 0.9824,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2716",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13374",
+      "display_name": "Hematological disorders and diagnostics",
+      "score": 0.9627,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2711",
+        "display_name": "Emergency Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/mitochondrial-encephalomyopathies",
+      "display_name": "Mitochondrial Encephalomyopathies",
+      "score": 0.63900864
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C28859421",
+      "wikidata": "https://www.wikidata.org/wiki/Q39572",
+      "display_name": "Mitochondrion",
+      "level": 2,
+      "score": 0.7228403
+    },
+    {
+      "id": "https://openalex.org/C2910199120",
+      "wikidata": "https://www.wikidata.org/wiki/Q935710",
+      "display_name": "Mitochondrial Encephalomyopathies",
+      "level": 5,
+      "score": 0.63900864
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.63613635
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.6117501
+    },
+    {
+      "id": "https://openalex.org/C131934819",
+      "wikidata": "https://www.wikidata.org/wiki/Q135390",
+      "display_name": "Biogenesis",
+      "level": 3,
+      "score": 0.47630298
+    },
+    {
+      "id": "https://openalex.org/C2780674462",
+      "wikidata": "https://www.wikidata.org/wiki/Q1760202",
+      "display_name": "Oncocytoma",
+      "level": 3,
+      "score": 0.46031898
+    },
+    {
+      "id": "https://openalex.org/C190062978",
+      "wikidata": "https://www.wikidata.org/wiki/Q79899",
+      "display_name": "Cytoplasm",
+      "level": 2,
+      "score": 0.44414094
+    },
+    {
+      "id": "https://openalex.org/C204232928",
+      "wikidata": "https://www.wikidata.org/wiki/Q899285",
+      "display_name": "Immunohistochemistry",
+      "level": 2,
+      "score": 0.2132808
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.21141237
+    },
+    {
+      "id": "https://openalex.org/C24586158",
+      "wikidata": "https://www.wikidata.org/wiki/Q27075",
+      "display_name": "Mitochondrial DNA",
+      "level": 3,
+      "score": 0.18298733
+    },
+    {
+      "id": "https://openalex.org/C2775833069",
+      "wikidata": "https://www.wikidata.org/wiki/Q6881881",
+      "display_name": "Mitochondrial myopathy",
+      "level": 4,
+      "score": 0.18133199
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.17490244
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.13868767
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000230",
+      "descriptor_name": "Adenocarcinoma",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018249",
+      "descriptor_name": "Adenoma, Oxyphilic",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000230",
+      "descriptor_name": "Adenocarcinoma",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000230",
+      "descriptor_name": "Adenocarcinoma",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018249",
+      "descriptor_name": "Adenoma, Oxyphilic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018249",
+      "descriptor_name": "Adenoma, Oxyphilic",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004272",
+      "descriptor_name": "DNA, Mitochondrial",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004272",
+      "descriptor_name": "DNA, Mitochondrial",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s004280050209",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S47032817",
+        "display_name": "Virchows Archiv",
+        "issn_l": "0945-6317",
+        "issn": [
+          "0945-6317",
+          "1432-2307"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310319900"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "Springer Science+Business Media"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/9692819",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Affordable and clean energy",
+      "id": "https://metadata.un.org/sdg/7",
+      "score": 0.88
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4299852678",
+    "https://openalex.org/W3128280542",
+    "https://openalex.org/W3043020685",
+    "https://openalex.org/W2417834664",
+    "https://openalex.org/W2400121700",
+    "https://openalex.org/W2167974376",
+    "https://openalex.org/W2059282884",
+    "https://openalex.org/W2058849520",
+    "https://openalex.org/W2012559737",
+    "https://openalex.org/W1985866010"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4236182608",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-06-05T09:11:47.366965",
+  "created_date": "2022-05-12"
+}

@@ -1,0 +1,1367 @@
+{
+  "id": "https://openalex.org/W2069733150",
+  "doi": "https://doi.org/10.1007/s00335-007-9043-3",
+  "title": "Weighted gene coexpression network analysis strategies applied to mouse weight",
+  "display_name": "Weighted gene coexpression network analysis strategies applied to mouse weight",
+  "publication_year": 2007,
+  "publication_date": "2007-07-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2069733150",
+    "doi": "https://doi.org/10.1007/s00335-007-9043-3",
+    "mag": "2069733150",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/17668265",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/1998880"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s00335-007-9043-3",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00335-007-9043-3.pdf",
+    "source": {
+      "id": "https://openalex.org/S197264859",
+      "display_name": "Mammalian Genome",
+      "issn_l": "0938-8990",
+      "issn": [
+        "0938-8990",
+        "1432-1777"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310319900"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "Springer Science+Business Media"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://link.springer.com/content/pdf/10.1007/s00335-007-9043-3.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5001534622",
+        "display_name": "Tova F Fuller",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tova F. Fuller",
+      "raw_affiliation_strings": [
+        "Department of Human Genetics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, California, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Human Genetics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5022366907",
+        "display_name": "Anatole Ghazalpour",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anatole Ghazalpour",
+      "raw_affiliation_strings": [
+        "Department of Microbiology, Immunology, and Molecular Genetics, University of California at Los Angeles, Los Angeles, California, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Microbiology, Immunology, and Molecular Genetics, University of California at Los Angeles, Los Angeles, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5080860198",
+        "display_name": "Jason E. Aten",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jason E. Aten",
+      "raw_affiliation_strings": [
+        "Department of Human Genetics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, California, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Human Genetics, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050123831",
+        "display_name": "Thomas A. Drake",
+        "orcid": "https://orcid.org/0000-0002-3300-2577"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thomas A. Drake",
+      "raw_affiliation_strings": [
+        "Department of Pathology and Laboratory Medicine, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, California, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pathology and Laboratory Medicine, David Geffen School of Medicine, University of California at Los Angeles, Los Angeles, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024741961",
+        "display_name": "Aldons J. Lusis",
+        "orcid": "https://orcid.org/0000-0001-9013-0228"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Aldons J. Lusis",
+      "raw_affiliation_strings": [
+        "Department of Microbiology, Immunology, and Molecular Genetics, University of California at Los Angeles, Los Angeles, California, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Microbiology, Immunology, and Molecular Genetics, University of California at Los Angeles, Los Angeles, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5000192581",
+        "display_name": "Steve Horvath",
+        "orcid": "https://orcid.org/0000-0002-4110-3589"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Steve Horvath",
+      "raw_affiliation_strings": [
+        "Department of Biostatistics, School of Public Health, University of California at Los Angeles, Los Angeles, California, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biostatistics, School of Public Health, University of California at Los Angeles, Los Angeles, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5000192581"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I161318765"
+  ],
+  "apc_list": {
+    "value": 2690,
+    "currency": "EUR",
+    "value_usd": 3390
+  },
+  "apc_paid": {
+    "value": 2690,
+    "currency": "EUR",
+    "value_usd": 3390
+  },
+  "fwci": 4.229,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 373,
+  "citation_normalized_percentile": {
+    "value": 0.999982,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "18",
+    "issue": "6-7",
+    "first_page": "463",
+    "last_page": "472"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10887",
+    "display_name": "Bioinformatics and Genomic Networks",
+    "score": 0.9991,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10887",
+      "display_name": "Bioinformatics and Genomic Networks",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11457",
+      "display_name": "Adipose Tissue and Metabolism",
+      "score": 0.9902,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10621",
+      "display_name": "Gene Regulatory Network Analysis",
+      "score": 0.9887,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/gene-co-expression-network",
+      "display_name": "Gene co-expression network",
+      "score": 0.63003826
+    },
+    {
+      "id": "https://openalex.org/keywords/gene-regulatory-network",
+      "display_name": "Gene regulatory network",
+      "score": 0.6210511
+    },
+    {
+      "id": "https://openalex.org/keywords/trait",
+      "display_name": "Trait",
+      "score": 0.5281363
+    },
+    {
+      "id": "https://openalex.org/keywords/human-genetics",
+      "display_name": "Human genetics",
+      "score": 0.49837708
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.87218684
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.64778906
+    },
+    {
+      "id": "https://openalex.org/C2778022302",
+      "wikidata": "https://www.wikidata.org/wiki/Q18207329",
+      "display_name": "Gene co-expression network",
+      "level": 5,
+      "score": 0.63003826
+    },
+    {
+      "id": "https://openalex.org/C67339327",
+      "wikidata": "https://www.wikidata.org/wiki/Q1502576",
+      "display_name": "Gene regulatory network",
+      "level": 4,
+      "score": 0.6210511
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.61637044
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.556654
+    },
+    {
+      "id": "https://openalex.org/C81941488",
+      "wikidata": "https://www.wikidata.org/wiki/Q853421",
+      "display_name": "Quantitative trait locus",
+      "level": 3,
+      "score": 0.5453647
+    },
+    {
+      "id": "https://openalex.org/C106934330",
+      "wikidata": "https://www.wikidata.org/wiki/Q1971873",
+      "display_name": "Trait",
+      "level": 2,
+      "score": 0.5281363
+    },
+    {
+      "id": "https://openalex.org/C168393362",
+      "wikidata": "https://www.wikidata.org/wiki/Q5421706",
+      "display_name": "Expression quantitative trait loci",
+      "level": 5,
+      "score": 0.5267298
+    },
+    {
+      "id": "https://openalex.org/C47042493",
+      "wikidata": "https://www.wikidata.org/wiki/Q265799",
+      "display_name": "Human genetics",
+      "level": 3,
+      "score": 0.49837708
+    },
+    {
+      "id": "https://openalex.org/C135763542",
+      "wikidata": "https://www.wikidata.org/wiki/Q106016",
+      "display_name": "Genotype",
+      "level": 3,
+      "score": 0.45369178
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.38359848
+    },
+    {
+      "id": "https://openalex.org/C2987395477",
+      "wikidata": "https://www.wikidata.org/wiki/Q135085",
+      "display_name": "Gene ontology",
+      "level": 4,
+      "score": 0.20168453
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.13814864
+    },
+    {
+      "id": "https://openalex.org/C153209595",
+      "wikidata": "https://www.wikidata.org/wiki/Q501128",
+      "display_name": "Single-nucleotide polymorphism",
+      "level": 4,
+      "score": 0.0774197
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001835",
+      "descriptor_name": "Body Weight",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020869",
+      "descriptor_name": "Gene Expression Profiling",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D053263",
+      "descriptor_name": "Gene Regulatory Networks",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000465",
+      "descriptor_name": "Algorithms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001835",
+      "descriptor_name": "Body Weight",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D033481",
+      "descriptor_name": "Chromosomes, Mammalian",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003433",
+      "descriptor_name": "Crosses, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020869",
+      "descriptor_name": "Gene Expression Profiling",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008809",
+      "descriptor_name": "Mice, Inbred C3H",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008810",
+      "descriptor_name": "Mice, Inbred C57BL",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008811",
+      "descriptor_name": "Mice, Inbred DBA",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D040641",
+      "descriptor_name": "Quantitative Trait Loci",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1007/s00335-007-9043-3",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00335-007-9043-3.pdf",
+      "source": {
+        "id": "https://openalex.org/S197264859",
+        "display_name": "Mammalian Genome",
+        "issn_l": "0938-8990",
+        "issn": [
+          "0938-8990",
+          "1432-1777"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310319900"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "Springer Science+Business Media"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1998880",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17668265",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s00335-007-9043-3",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00335-007-9043-3.pdf",
+    "source": {
+      "id": "https://openalex.org/S197264859",
+      "display_name": "Mammalian Genome",
+      "issn_l": "0938-8990",
+      "issn": [
+        "0938-8990",
+        "1432-1777"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310319900"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "Springer Science+Business Media"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 31,
+  "referenced_works": [
+    "https://openalex.org/W1593910077",
+    "https://openalex.org/W1919006336",
+    "https://openalex.org/W1966612449",
+    "https://openalex.org/W1973651601",
+    "https://openalex.org/W1974784186",
+    "https://openalex.org/W2013196115",
+    "https://openalex.org/W2017101151",
+    "https://openalex.org/W2019212364",
+    "https://openalex.org/W2022613207",
+    "https://openalex.org/W2054856852",
+    "https://openalex.org/W2058358739",
+    "https://openalex.org/W2060705109",
+    "https://openalex.org/W2068229930",
+    "https://openalex.org/W2070672503",
+    "https://openalex.org/W2086827623",
+    "https://openalex.org/W2099159895",
+    "https://openalex.org/W2104878392",
+    "https://openalex.org/W2107555330",
+    "https://openalex.org/W2108334325",
+    "https://openalex.org/W2109650038",
+    "https://openalex.org/W2116054884",
+    "https://openalex.org/W2116265489",
+    "https://openalex.org/W2118308505",
+    "https://openalex.org/W2122683221",
+    "https://openalex.org/W2123814156",
+    "https://openalex.org/W2151820055",
+    "https://openalex.org/W2161927231",
+    "https://openalex.org/W2164643560",
+    "https://openalex.org/W2168790777",
+    "https://openalex.org/W2171070506",
+    "https://openalex.org/W2406674752"
+  ],
+  "related_works": [
+    "https://openalex.org/W3012307849",
+    "https://openalex.org/W2995716764",
+    "https://openalex.org/W2340820823",
+    "https://openalex.org/W2210883998",
+    "https://openalex.org/W2164780420",
+    "https://openalex.org/W2142915034",
+    "https://openalex.org/W2098148756",
+    "https://openalex.org/W2090898939",
+    "https://openalex.org/W2020355323",
+    "https://openalex.org/W2012500049"
+  ],
+  "abstract_inverted_index": {
+    "Systems-oriented": [
+      0
+    ],
+    "genetic": [
+      1,
+      16,
+      136,
+      188,
+      193
+    ],
+    "approaches": [
+      2
+    ],
+    "that": [
+      3,
+      47,
+      109,
+      123,
+      203
+    ],
+    "incorporate": [
+      4
+    ],
+    "gene": [
+      5,
+      63,
+      75,
+      81,
+      197
+    ],
+    "expression": [
+      6,
+      64,
+      82,
+      158
+    ],
+    "and": [
+      7,
+      65,
+      95,
+      148,
+      162,
+      190
+    ],
+    "genotype": [
+      8,
+      66
+    ],
+    "data": [
+      9,
+      67,
+      83,
+      159
+    ],
+    "are": [
+      10
+    ],
+    "valuable": [
+      11
+    ],
+    "in": [
+      12,
+      40,
+      52,
+      113,
+      146,
+      186,
+      191
+    ],
+    "the": [
+      13,
+      42,
+      102,
+      156,
+      182,
+      212,
+      215
+    ],
+    "quest": [
+      14
+    ],
+    "for": [
+      15,
+      138
+    ],
+    "regulatory": [
+      17
+    ],
+    "loci": [
+      18,
+      121
+    ],
+    "underlying": [
+      19
+    ],
+    "complex": [
+      20,
+      45
+    ],
+    "traits.": [
+      21
+    ],
+    "Gene": [
+      22
+    ],
+    "coexpression": [
+      23,
+      76
+    ],
+    "network": [
+      24,
+      77,
+      97,
+      142,
+      206
+    ],
+    "analysis": [
+      25,
+      78,
+      94,
+      100,
+      143
+    ],
+    "lends": [
+      26
+    ],
+    "itself": [
+      27
+    ],
+    "to": [
+      28,
+      84
+    ],
+    "identification": [
+      29
+    ],
+    "of": [
+      30,
+      33,
+      44,
+      80,
+      104,
+      135,
+      160,
+      167,
+      184,
+      205
+    ],
+    "entire": [
+      31
+    ],
+    "groups": [
+      32
+    ],
+    "differentially": [
+      34
+    ],
+    "regulated": [
+      35
+    ],
+    "genes—a": [
+      36
+    ],
+    "highly": [
+      37
+    ],
+    "relevant": [
+      38,
+      87
+    ],
+    "endeavor": [
+      39
+    ],
+    "finding": [
+      41,
+      192
+    ],
+    "underpinnings": [
+      43
+    ],
+    "traits": [
+      46
+    ],
+    "are,": [
+      48
+    ],
+    "by": [
+      49,
+      196
+    ],
+    "definition,": [
+      50
+    ],
+    "polygenic": [
+      51
+    ],
+    "nature.": [
+      53
+    ],
+    "Here": [
+      54
+    ],
+    "we": [
+      55,
+      131
+    ],
+    "describe": [
+      56,
+      90
+    ],
+    "one": [
+      57
+    ],
+    "such": [
+      58
+    ],
+    "approach": [
+      59
+    ],
+    "based": [
+      60,
+      154
+    ],
+    "on": [
+      61,
+      155
+    ],
+    "liver": [
+      62,
+      157
+    ],
+    "from": [
+      68
+    ],
+    "an": [
+      69
+    ],
+    "F2": [
+      70
+    ],
+    "mouse": [
+      71,
+      116
+    ],
+    "intercross": [
+      72
+    ],
+    "utilizing": [
+      73
+    ],
+    "weighted": [
+      74
+    ],
+    "(WGCNA)": [
+      79
+    ],
+    "identify": [
+      85
+    ],
+    "physiologically": [
+      86,
+      106
+    ],
+    "modules.": [
+      88,
+      198
+    ],
+    "We": [
+      89
+    ],
+    "two": [
+      91,
+      114,
+      152
+    ],
+    "strategies:": [
+      92
+    ],
+    "single-network": [
+      93
+    ],
+    "differential": [
+      96
+    ],
+    "analysis.": [
+      98
+    ],
+    "Single-network": [
+      99
+    ],
+    "reveals": [
+      101,
+      144
+    ],
+    "presence": [
+      103
+    ],
+    "a": [
+      105,
+      133,
+      171
+    ],
+    "interesting": [
+      107
+    ],
+    "module": [
+      108,
+      126,
+      149
+    ],
+    "can": [
+      110
+    ],
+    "be": [
+      111
+    ],
+    "found": [
+      112
+    ],
+    "distinct": [
+      115
+    ],
+    "crosses.": [
+      117
+    ],
+    "Module": [
+      118
+    ],
+    "quantitative": [
+      119
+    ],
+    "trait": [
+      120
+    ],
+    "(mQTLs)": [
+      122
+    ],
+    "perturb": [
+      124
+    ],
+    "this": [
+      125,
+      139
+    ],
+    "were": [
+      127
+    ],
+    "discovered.": [
+      128
+    ],
+    "In": [
+      129
+    ],
+    "addition,": [
+      130
+    ],
+    "report": [
+      132
+    ],
+    "list": [
+      134
+    ],
+    "drivers": [
+      137,
+      189
+    ],
+    "module.": [
+      140
+    ],
+    "Differential": [
+      141
+    ],
+    "differences": [
+      145
+    ],
+    "connectivity": [
+      147
+    ],
+    "structure": [
+      150
+    ],
+    "between": [
+      151
+    ],
+    "networks": [
+      153
+    ],
+    "lean": [
+      161
+    ],
+    "obese": [
+      163
+    ],
+    "mice.": [
+      164
+    ],
+    "Functional": [
+      165
+    ],
+    "annotation": [
+      166
+    ],
+    "these": [
+      168
+    ],
+    "genes": [
+      169
+    ],
+    "suggests": [
+      170
+    ],
+    "biological": [
+      172
+    ],
+    "pathway": [
+      173
+    ],
+    "involving": [
+      174
+    ],
+    "epidermal": [
+      175
+    ],
+    "growth": [
+      176
+    ],
+    "factor": [
+      177
+    ],
+    "(EGF).": [
+      178
+    ],
+    "Our": [
+      179
+    ],
+    "results": [
+      180
+    ],
+    "demonstrate": [
+      181
+    ],
+    "utility": [
+      183
+    ],
+    "WGCNA": [
+      185
+    ],
+    "identifying": [
+      187
+    ],
+    "pathways": [
+      194
+    ],
+    "represented": [
+      195
+    ],
+    "These": [
+      199
+    ],
+    "examples": [
+      200
+    ],
+    "provide": [
+      201
+    ],
+    "evidence": [
+      202
+    ],
+    "integration": [
+      204
+    ],
+    "properties": [
+      207
+    ],
+    "may": [
+      208
+    ],
+    "well": [
+      209
+    ],
+    "help": [
+      210
+    ],
+    "chart": [
+      211
+    ],
+    "path": [
+      213
+    ],
+    "across": [
+      214
+    ],
+    "gene–trait": [
+      216
+    ],
+    "chasm.": [
+      217
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2069733150",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 32
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 19
+    }
+  ],
+  "updated_date": "2025-06-17T14:33:57.329051",
+  "created_date": "2016-06-24"
+}

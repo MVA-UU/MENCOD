@@ -1,0 +1,761 @@
+{
+  "id": "https://openalex.org/W2071256705",
+  "doi": "https://doi.org/10.1038/nrn2648",
+  "title": "Stress signalling pathways that impair prefrontal cortex structure and function",
+  "display_name": "Stress signalling pathways that impair prefrontal cortex structure and function",
+  "publication_year": 2009,
+  "publication_date": "2009-05-20",
+  "ids": {
+    "openalex": "https://openalex.org/W2071256705",
+    "doi": "https://doi.org/10.1038/nrn2648",
+    "mag": "2071256705",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19455173",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2907136"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1038/nrn2648",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S26843219",
+      "display_name": "Nature reviews. Neuroscience",
+      "issn_l": "1471-003X",
+      "issn": [
+        "1471-003X",
+        "1471-0048"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2907136",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5019453928",
+        "display_name": "Amy F.T. Arnsten",
+        "orcid": "https://orcid.org/0000-0002-3420-1308"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32971472",
+          "display_name": "Yale University",
+          "ror": "https://ror.org/03v76x132",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Amy F. T. Arnsten",
+      "raw_affiliation_strings": [
+        "Department of Neurobiology, Yale University School of Medicine, New Haven, Connecticut, 06510, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurobiology, Yale University School of Medicine, New Haven, Connecticut, 06510, USA.",
+          "institution_ids": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5019453928"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I32971472"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.285,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 2768,
+  "citation_normalized_percentile": {
+    "value": 0.98374,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "10",
+    "issue": "6",
+    "first_page": "410",
+    "last_page": "422"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 0.999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11337",
+      "display_name": "Tryptophan and brain disorders",
+      "score": 0.9978,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2803",
+        "display_name": "Biological Psychiatry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10448",
+      "display_name": "Memory and Neural Mechanisms",
+      "score": 0.9925,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2781195155",
+      "wikidata": "https://www.wikidata.org/wiki/Q18680",
+      "display_name": "Prefrontal cortex",
+      "level": 3,
+      "score": 0.93288195
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.67725664
+    },
+    {
+      "id": "https://openalex.org/C513476851",
+      "wikidata": "https://www.wikidata.org/wiki/Q170304",
+      "display_name": "Dopamine",
+      "level": 2,
+      "score": 0.5769512
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.5620403
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.5261433
+    },
+    {
+      "id": "https://openalex.org/C21963081",
+      "wikidata": "https://www.wikidata.org/wiki/Q11337567",
+      "display_name": "Working memory",
+      "level": 3,
+      "score": 0.44379297
+    },
+    {
+      "id": "https://openalex.org/C79879829",
+      "wikidata": "https://www.wikidata.org/wiki/Q5571762",
+      "display_name": "Intracellular",
+      "level": 2,
+      "score": 0.43071127
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.23916554
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.12579215
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D017397",
+      "descriptor_name": "Prefrontal Cortex",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001923",
+      "descriptor_name": "Brain Chemistry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009434",
+      "descriptor_name": "Neural Pathways",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009434",
+      "descriptor_name": "Neural Pathways",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009434",
+      "descriptor_name": "Neural Pathways",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017397",
+      "descriptor_name": "Prefrontal Cortex",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017397",
+      "descriptor_name": "Prefrontal Cortex",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1038/nrn2648",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S26843219",
+        "display_name": "Nature reviews. Neuroscience",
+        "issn_l": "1471-003X",
+        "issn": [
+          "1471-003X",
+          "1471-0048"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2907136",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19455173",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2907136",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 166,
+  "referenced_works": [
+    "https://openalex.org/W1488942925",
+    "https://openalex.org/W1493374490",
+    "https://openalex.org/W1503601165",
+    "https://openalex.org/W1519202038",
+    "https://openalex.org/W1520488892",
+    "https://openalex.org/W1524346434",
+    "https://openalex.org/W1547358456",
+    "https://openalex.org/W1572413306",
+    "https://openalex.org/W1577271808",
+    "https://openalex.org/W1635746382",
+    "https://openalex.org/W1833404105",
+    "https://openalex.org/W1870077474",
+    "https://openalex.org/W1896344011",
+    "https://openalex.org/W1939596644",
+    "https://openalex.org/W1965392517",
+    "https://openalex.org/W1967552122",
+    "https://openalex.org/W1968439188",
+    "https://openalex.org/W1970116189",
+    "https://openalex.org/W1970452940",
+    "https://openalex.org/W1971459727",
+    "https://openalex.org/W1971536386",
+    "https://openalex.org/W1977573454",
+    "https://openalex.org/W1982142913",
+    "https://openalex.org/W1983202231",
+    "https://openalex.org/W1983398462",
+    "https://openalex.org/W1983916806",
+    "https://openalex.org/W1985431179",
+    "https://openalex.org/W1987375729",
+    "https://openalex.org/W1988174768",
+    "https://openalex.org/W1989629219",
+    "https://openalex.org/W1991503782",
+    "https://openalex.org/W1994181427",
+    "https://openalex.org/W1994357188",
+    "https://openalex.org/W1994593489",
+    "https://openalex.org/W1995248718",
+    "https://openalex.org/W1999417135",
+    "https://openalex.org/W1999567494",
+    "https://openalex.org/W2000219660",
+    "https://openalex.org/W2000247756",
+    "https://openalex.org/W2000732720",
+    "https://openalex.org/W2002132239",
+    "https://openalex.org/W2002220530",
+    "https://openalex.org/W2004850661",
+    "https://openalex.org/W2004899596",
+    "https://openalex.org/W2005084361",
+    "https://openalex.org/W2005264554",
+    "https://openalex.org/W2006767074",
+    "https://openalex.org/W2007311340",
+    "https://openalex.org/W2007497655",
+    "https://openalex.org/W2009268976",
+    "https://openalex.org/W2009876831",
+    "https://openalex.org/W2011950981",
+    "https://openalex.org/W2012804469",
+    "https://openalex.org/W2013650852",
+    "https://openalex.org/W2014519963",
+    "https://openalex.org/W2015497266",
+    "https://openalex.org/W2015509669",
+    "https://openalex.org/W2022694793",
+    "https://openalex.org/W2025591694",
+    "https://openalex.org/W2029410796",
+    "https://openalex.org/W2031534534",
+    "https://openalex.org/W2032476754",
+    "https://openalex.org/W2032866243",
+    "https://openalex.org/W2033146497",
+    "https://openalex.org/W2039069315",
+    "https://openalex.org/W2041329554",
+    "https://openalex.org/W2042393535",
+    "https://openalex.org/W2043803755",
+    "https://openalex.org/W2044191726",
+    "https://openalex.org/W2046835548",
+    "https://openalex.org/W2046975858",
+    "https://openalex.org/W2047663792",
+    "https://openalex.org/W2048022624",
+    "https://openalex.org/W2048148249",
+    "https://openalex.org/W2050787008",
+    "https://openalex.org/W2053217435",
+    "https://openalex.org/W2055161357",
+    "https://openalex.org/W2057194862",
+    "https://openalex.org/W2058396154",
+    "https://openalex.org/W2063229995",
+    "https://openalex.org/W2063535919",
+    "https://openalex.org/W2063572710",
+    "https://openalex.org/W2063709171",
+    "https://openalex.org/W2063716341",
+    "https://openalex.org/W2064550084",
+    "https://openalex.org/W2065893837",
+    "https://openalex.org/W2065945790",
+    "https://openalex.org/W2066186035",
+    "https://openalex.org/W2066715131",
+    "https://openalex.org/W2069247119",
+    "https://openalex.org/W2070093918",
+    "https://openalex.org/W2073082215",
+    "https://openalex.org/W2073452891",
+    "https://openalex.org/W2075473160",
+    "https://openalex.org/W2076484851",
+    "https://openalex.org/W2076507942",
+    "https://openalex.org/W2079209659",
+    "https://openalex.org/W2079373480",
+    "https://openalex.org/W2083700985",
+    "https://openalex.org/W2084207424",
+    "https://openalex.org/W2084304879",
+    "https://openalex.org/W2087920436",
+    "https://openalex.org/W2088510883",
+    "https://openalex.org/W2089030269",
+    "https://openalex.org/W2089232386",
+    "https://openalex.org/W2095787168",
+    "https://openalex.org/W2097689503",
+    "https://openalex.org/W2098772434",
+    "https://openalex.org/W2098925242",
+    "https://openalex.org/W2102170165",
+    "https://openalex.org/W2103791867",
+    "https://openalex.org/W2105051672",
+    "https://openalex.org/W2109687778",
+    "https://openalex.org/W2110654827",
+    "https://openalex.org/W2115678732",
+    "https://openalex.org/W2116414711",
+    "https://openalex.org/W2117027979",
+    "https://openalex.org/W2117644711",
+    "https://openalex.org/W2119305161",
+    "https://openalex.org/W2119410682",
+    "https://openalex.org/W2119515241",
+    "https://openalex.org/W2120279490",
+    "https://openalex.org/W2121245502",
+    "https://openalex.org/W2122718922",
+    "https://openalex.org/W2123636362",
+    "https://openalex.org/W2129785364",
+    "https://openalex.org/W2129843874",
+    "https://openalex.org/W2130958493",
+    "https://openalex.org/W2133957865",
+    "https://openalex.org/W2135772494",
+    "https://openalex.org/W2136403062",
+    "https://openalex.org/W2137553259",
+    "https://openalex.org/W2138680553",
+    "https://openalex.org/W2142041309",
+    "https://openalex.org/W2145152438",
+    "https://openalex.org/W2146915322",
+    "https://openalex.org/W2151488696",
+    "https://openalex.org/W2152614652",
+    "https://openalex.org/W2154395565",
+    "https://openalex.org/W2157228667",
+    "https://openalex.org/W2157484753",
+    "https://openalex.org/W2157655747",
+    "https://openalex.org/W2157656429",
+    "https://openalex.org/W2160383565",
+    "https://openalex.org/W2168676931",
+    "https://openalex.org/W2168826880",
+    "https://openalex.org/W2168924585",
+    "https://openalex.org/W2169728426",
+    "https://openalex.org/W2170933900",
+    "https://openalex.org/W2229742325",
+    "https://openalex.org/W224070021",
+    "https://openalex.org/W2338674207",
+    "https://openalex.org/W2399716284",
+    "https://openalex.org/W2403704540",
+    "https://openalex.org/W2437166876",
+    "https://openalex.org/W2442363320",
+    "https://openalex.org/W2460533029",
+    "https://openalex.org/W3023689670",
+    "https://openalex.org/W38835698",
+    "https://openalex.org/W4231680538",
+    "https://openalex.org/W4243802934",
+    "https://openalex.org/W580056681",
+    "https://openalex.org/W606616650",
+    "https://openalex.org/W631551527",
+    "https://openalex.org/W81520806",
+    "https://openalex.org/W989040792"
+  ],
+  "related_works": [
+    "https://openalex.org/W4392618909",
+    "https://openalex.org/W2762558726",
+    "https://openalex.org/W2514944117",
+    "https://openalex.org/W24098465",
+    "https://openalex.org/W2394514550",
+    "https://openalex.org/W2103599065",
+    "https://openalex.org/W2015179821",
+    "https://openalex.org/W1995248718",
+    "https://openalex.org/W1980342602",
+    "https://openalex.org/W1978245228"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2071256705",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 90
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 217
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 216
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 185
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 214
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 266
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 252
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 206
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 205
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 205
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 172
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 148
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 139
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 93
+    }
+  ],
+  "updated_date": "2025-06-17T19:10:29.764957",
+  "created_date": "2016-06-24"
+}

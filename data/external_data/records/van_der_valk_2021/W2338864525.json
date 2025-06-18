@@ -1,0 +1,1903 @@
+{
+  "id": "https://openalex.org/W2338864525",
+  "doi": "https://doi.org/10.1016/s0140-6736(16)30175-1",
+  "title": "Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents",
+  "display_name": "Body-mass index and all-cause mortality: individual-participant-data meta-analysis of 239 prospective studies in four continents",
+  "publication_year": 2016,
+  "publication_date": "2016-07-15",
+  "ids": {
+    "openalex": "https://openalex.org/W2338864525",
+    "doi": "https://doi.org/10.1016/s0140-6736(16)30175-1",
+    "mag": "2338864525",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27423262",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/4995441"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0140-6736(16)30175-1",
+    "pdf_url": "http://www.thelancet.com/article/S0140673616301751/pdf",
+    "source": {
+      "id": "https://openalex.org/S49861241",
+      "display_name": "The Lancet",
+      "issn_l": "0140-6736",
+      "issn": [
+        "0140-6736",
+        "1474-547X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "http://www.thelancet.com/article/S0140673616301751/pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5012263812",
+        "display_name": "Emanuele Di Angelantonio",
+        "orcid": "https://orcid.org/0000-0001-8776-6719"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Emanuele Di Angelantonio",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103124131",
+        "display_name": "Shilpa N Bhupathiraju",
+        "orcid": "https://orcid.org/0000-0003-0173-9248"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Shilpa N Bhupathiraju",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108131221",
+        "display_name": "David Wormser",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "David Wormser",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5063456686",
+        "display_name": "Pei Gao",
+        "orcid": "https://orcid.org/0000-0001-8649-1290"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Pei Gao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108532310",
+        "display_name": "Stephen Kaptoge",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Stephen Kaptoge",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5054794121",
+        "display_name": "Amy Berrington de González",
+        "orcid": "https://orcid.org/0000-0002-7332-8387"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Amy Berrington de Gonzalez",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086869183",
+        "display_name": "Benjamin J. Cairns",
+        "orcid": "https://orcid.org/0000-0001-7994-8213"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Benjamin J Cairns",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011234287",
+        "display_name": "Rachel Huxley",
+        "orcid": "https://orcid.org/0000-0002-2705-6616"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Rachel Huxley",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064678852",
+        "display_name": "Chandra L. Jackson",
+        "orcid": "https://orcid.org/0000-0002-0915-8272"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Chandra L Jackson",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5038232677",
+        "display_name": "Grace Joshy",
+        "orcid": "https://orcid.org/0000-0002-0718-6368"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Grace Joshy",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084952533",
+        "display_name": "Sarah Lewington",
+        "orcid": "https://orcid.org/0000-0002-4496-4771"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sarah Lewington",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049411008",
+        "display_name": "JoAnn E. Manson",
+        "orcid": "https://orcid.org/0000-0002-9426-7595"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "JoAnn E Manson",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064845357",
+        "display_name": "Neil Murphy",
+        "orcid": "https://orcid.org/0000-0003-3347-8249"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Neil Murphy",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5015244902",
+        "display_name": "Alpa V. Patel",
+        "orcid": "https://orcid.org/0000-0001-9997-1218"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Alpa V Patel",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029251327",
+        "display_name": "Jonathan M. Samet",
+        "orcid": "https://orcid.org/0000-0001-5676-9175"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan M Samet",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037890696",
+        "display_name": "Mark Woodward",
+        "orcid": "https://orcid.org/0000-0001-9800-5296"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mark Woodward",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100401143",
+        "display_name": "Wei Zheng",
+        "orcid": "https://orcid.org/0000-0003-1226-070X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wei Zheng",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5018235825",
+        "display_name": "Maigen Zhou",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Maigen Zhou",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085130753",
+        "display_name": "Narinder Bansal",
+        "orcid": "https://orcid.org/0000-0002-6925-1719"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Narinder Bansal",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5063253944",
+        "display_name": "Aurelio Barricarte",
+        "orcid": "https://orcid.org/0000-0001-6750-1270"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Aurelio Barricarte",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082169609",
+        "display_name": "Brian S. Carter",
+        "orcid": "https://orcid.org/0000-0003-0539-9164"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Brian Carter",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5076621021",
+        "display_name": "James R. Cerhan",
+        "orcid": "https://orcid.org/0000-0002-7482-178X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "James R Cerhan",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5090621185",
+        "display_name": "Rory Collins",
+        "orcid": "https://orcid.org/0000-0001-8288-8602"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Rory Collins",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013184354",
+        "display_name": "George Davey Smith",
+        "orcid": "https://orcid.org/0000-0002-1407-8314"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "George Davey Smith",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037177998",
+        "display_name": "Xianghua Fang",
+        "orcid": "https://orcid.org/0000-0003-3287-969X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Xianghua Fang",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056326170",
+        "display_name": "Oscar H. Franco",
+        "orcid": "https://orcid.org/0000-0002-4606-4929"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Oscar H Franco",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101773952",
+        "display_name": "Jane Green",
+        "orcid": "https://orcid.org/0000-0002-0858-0500"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Jane Green",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110569055",
+        "display_name": "Jim Halsey",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Jim Halsey",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005488353",
+        "display_name": "Janet S. Hildebrand",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Janet S Hildebrand",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057264527",
+        "display_name": "Keum Ji Jung",
+        "orcid": "https://orcid.org/0000-0003-4993-0666"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Keum Ji Jung",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037952988",
+        "display_name": "Rosemary Korda",
+        "orcid": "https://orcid.org/0000-0002-9390-2171"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Rosemary J Korda",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021034627",
+        "display_name": "Dale McLerran",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Dale F McLerran",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091281907",
+        "display_name": "Steven C. Moore",
+        "orcid": "https://orcid.org/0000-0002-8169-1661"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Steven C Moore",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073342314",
+        "display_name": "Linda M. O’Keeffe",
+        "orcid": "https://orcid.org/0000-0002-0003-0774"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Linda M O'Keeffe",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040581013",
+        "display_name": "Ellie Paige",
+        "orcid": "https://orcid.org/0000-0003-0855-9872"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ellie Paige",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056783868",
+        "display_name": "Anna Ramond",
+        "orcid": "https://orcid.org/0000-0002-9958-3693"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Anna Ramond",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055377175",
+        "display_name": "Gillian Reeves",
+        "orcid": "https://orcid.org/0000-0003-3035-4697"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Gillian K Reeves",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047411428",
+        "display_name": "Betsy Rolland",
+        "orcid": "https://orcid.org/0000-0002-4947-988X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Betsy Rolland",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039813631",
+        "display_name": "Carlotta Sacerdote",
+        "orcid": "https://orcid.org/0000-0002-8008-5096"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Carlotta Sacerdote",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078498803",
+        "display_name": "Naveed Sattar",
+        "orcid": "https://orcid.org/0000-0002-1604-2593"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Naveed Sattar",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064562363",
+        "display_name": "Eleni Sofianopoulou",
+        "orcid": "https://orcid.org/0000-0002-6067-5486"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Eleni Sofianopoulou",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113676080",
+        "display_name": "June Stevens",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "June Stevens",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010312123",
+        "display_name": "Michael J. Thun",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Thun",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006558823",
+        "display_name": "Hirotsugu Ueshima",
+        "orcid": "https://orcid.org/0000-0002-7742-4253"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hirotsugu Ueshima",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014530652",
+        "display_name": "Ling Yang",
+        "orcid": "https://orcid.org/0000-0001-5750-6588"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ling Yang",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112332391",
+        "display_name": "Young Duk Yun",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Young Duk Yun",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009628835",
+        "display_name": "Peter Willeit",
+        "orcid": "https://orcid.org/0000-0002-1866-7159"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Peter Willeit",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037560809",
+        "display_name": "Emily Banks",
+        "orcid": "https://orcid.org/0000-0002-4617-1302"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Emily Banks",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053516882",
+        "display_name": "Valerie Beral",
+        "orcid": "https://orcid.org/0000-0002-3581-9361"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Valerie Beral",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100619741",
+        "display_name": "Zhengming Chen",
+        "orcid": "https://orcid.org/0000-0001-6423-105X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Zhengming Chen",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021761022",
+        "display_name": "Susan M. Gapstur",
+        "orcid": "https://orcid.org/0000-0002-1934-2110"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Susan M Gapstur",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074815814",
+        "display_name": "Marc J. Gunter",
+        "orcid": "https://orcid.org/0000-0001-5472-6761"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Marc J Gunter",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113595825",
+        "display_name": "Patricia Hartge",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Patricia Hartge",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044597411",
+        "display_name": "Sun Ha Jee",
+        "orcid": "https://orcid.org/0000-0001-9519-3068"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sun Ha Jee",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060005501",
+        "display_name": "TH Lam",
+        "orcid": "https://orcid.org/0000-0002-2033-9971"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Tai-Hing Lam",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041941850",
+        "display_name": "Richard Peto",
+        "orcid": "https://orcid.org/0000-0001-8219-5339"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Richard Peto",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048819576",
+        "display_name": "John D. Potter",
+        "orcid": "https://orcid.org/0000-0001-5439-1500"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "John D Potter",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083991449",
+        "display_name": "Walter C. Willett",
+        "orcid": "https://orcid.org/0000-0003-1458-7597"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Walter C Willett",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103339217",
+        "display_name": "Simon G. Thompson",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Simon G Thompson",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033502820",
+        "display_name": "John Danesh",
+        "orcid": "https://orcid.org/0000-0003-1158-6791"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "John Danesh",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5056459536",
+        "display_name": "Frank B. Hu",
+        "orcid": "https://orcid.org/0000-0002-8233-6274"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Frank B Hu",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 6830,
+    "currency": "USD",
+    "value_usd": 6830
+  },
+  "apc_paid": {
+    "value": 5307,
+    "currency": "EUR",
+    "value_usd": 5723
+  },
+  "fwci": 41.538,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 2444,
+  "citation_normalized_percentile": {
+    "value": 0.998683,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "388",
+    "issue": "10046",
+    "first_page": "776",
+    "last_page": "786"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11629",
+    "display_name": "Birth, Development, and Health",
+    "score": 0.9976,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2735",
+      "display_name": "Pediatrics, Perinatology and Child Health"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11629",
+      "display_name": "Birth, Development, and Health",
+      "score": 0.9976,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10010",
+      "display_name": "Obesity, Physical Activity, Diet",
+      "score": 0.9957,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10569",
+      "display_name": "Bariatric Surgery and Outcomes",
+      "score": 0.9953,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780586474",
+      "wikidata": "https://www.wikidata.org/wiki/Q332428",
+      "display_name": "Overweight",
+      "level": 3,
+      "score": 0.79020673
+    },
+    {
+      "id": "https://openalex.org/C2780221984",
+      "wikidata": "https://www.wikidata.org/wiki/Q131191",
+      "display_name": "Body mass index",
+      "level": 2,
+      "score": 0.77057993
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.70046496
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.65453744
+    },
+    {
+      "id": "https://openalex.org/C207103383",
+      "wikidata": "https://www.wikidata.org/wiki/Q3930246",
+      "display_name": "Hazard ratio",
+      "level": 3,
+      "score": 0.6520653
+    },
+    {
+      "id": "https://openalex.org/C188816634",
+      "wikidata": "https://www.wikidata.org/wiki/Q2113324",
+      "display_name": "Prospective cohort study",
+      "level": 2,
+      "score": 0.620895
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.5760327
+    },
+    {
+      "id": "https://openalex.org/C77350462",
+      "wikidata": "https://www.wikidata.org/wiki/Q1125472",
+      "display_name": "Confounding",
+      "level": 2,
+      "score": 0.5307923
+    },
+    {
+      "id": "https://openalex.org/C44249647",
+      "wikidata": "https://www.wikidata.org/wiki/Q208498",
+      "display_name": "Confidence interval",
+      "level": 2,
+      "score": 0.46830833
+    },
+    {
+      "id": "https://openalex.org/C95190672",
+      "wikidata": "https://www.wikidata.org/wiki/Q815382",
+      "display_name": "Meta-analysis",
+      "level": 2,
+      "score": 0.4224153
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.40024814
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D009026",
+      "descriptor_name": "Mortality",
+      "qualifier_ui": "Q000639",
+      "qualifier_name": "trends",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001208",
+      "descriptor_name": "Asia",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001315",
+      "descriptor_name": "Australia",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015992",
+      "descriptor_name": "Body Mass Index",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002423",
+      "descriptor_name": "Cause of Death",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005060",
+      "descriptor_name": "Europe",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016014",
+      "descriptor_name": "Linear Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009520",
+      "descriptor_name": "New Zealand",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009656",
+      "descriptor_name": "North America",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D050177",
+      "descriptor_name": "Overweight",
+      "qualifier_ui": "Q000401",
+      "qualifier_name": "mortality",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011446",
+      "descriptor_name": "Prospective Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 13,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/s0140-6736(16)30175-1",
+      "pdf_url": "http://www.thelancet.com/article/S0140673616301751/pdf",
+      "source": {
+        "id": "https://openalex.org/S49861241",
+        "display_name": "The Lancet",
+        "issn_l": "0140-6736",
+        "issn": [
+          "0140-6736",
+          "1474-547X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://ora.ox.ac.uk/objects/uuid:e5e3b775-c5c6-4c14-8b23-0fede9c743b6",
+      "pdf_url": "https://ora.ox.ac.uk/objects/uuid:e5e3b775-c5c6-4c14-8b23-0fede9c743b6/files/me6958beff51a3012bb778463642c5322",
+      "source": {
+        "id": "https://openalex.org/S4306402636",
+        "display_name": "Oxford University Research Archive (ORA) (University of Oxford)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I40120149",
+        "host_organization_name": "University of Oxford",
+        "host_organization_lineage": [
+          "https://openalex.org/I40120149"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/10536/DRO/DU:30131904",
+      "pdf_url": "https://dro.deakin.edu.au/articles/journal_contribution/Body-mass_index_and_all-cause_mortality_individual-participant-data_meta-analysis_of_239_prospective_studies_in_four_continents/20737651/3/files/36969319.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402457",
+        "display_name": "Deakin Research Online (Deakin University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I149704539",
+        "host_organization_name": "Deakin University",
+        "host_organization_lineage": [
+          "https://openalex.org/I149704539"
+        ],
+        "host_organization_lineage_names": [
+          "Deakin University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.repository.cam.ac.uk/handle/1810/254969",
+      "pdf_url": "https://www.repository.cam.ac.uk/bitstreams/58b8dfd0-2f4b-4ed4-8a54-bd4b810b2984/download",
+      "source": {
+        "id": "https://openalex.org/S4306401777",
+        "display_name": "Apollo (University of Cambridge)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I241749",
+        "host_organization_name": "University of Cambridge",
+        "host_organization_lineage": [
+          "https://openalex.org/I241749"
+        ],
+        "host_organization_lineage_names": [
+          "University of Cambridge"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://cdr.lib.unc.edu/downloads/2v23w083n",
+      "pdf_url": "https://cdr.lib.unc.edu/downloads/2v23w083n",
+      "source": {
+        "id": "https://openalex.org/S4306401075",
+        "display_name": "Carolina Digital Repository (University of North Carolina at Chapel Hill)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I114027177",
+        "host_organization_name": "University of North Carolina at Chapel Hill",
+        "host_organization_lineage": [
+          "https://openalex.org/I114027177"
+        ],
+        "host_organization_lineage_names": [
+          "University of North Carolina at Chapel Hill"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://ir.ymlib.yonsei.ac.kr/handle/22282913/165063",
+      "pdf_url": "https://ir.ymlib.yonsei.ac.kr/bitstream/22282913/165063/1/T999900135.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400691",
+        "display_name": "YUHSpace (Yonsei University Medical Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I193775966",
+        "host_organization_name": "Yonsei University",
+        "host_organization_lineage": [
+          "https://openalex.org/I193775966"
+        ],
+        "host_organization_lineage_names": [
+          "Yonsei University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/1983/d39dd270-c9b0-437d-99a9-69e65edd7fc2",
+      "pdf_url": "https://research-information.bris.ac.uk/files/113967059/1_s2.0_S0140673616301751_main.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400895",
+        "display_name": "Bristol Research (University of Bristol)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I36234482",
+        "host_organization_name": "University of Bristol",
+        "host_organization_lineage": [
+          "https://openalex.org/I36234482"
+        ],
+        "host_organization_lineage_names": [
+          "University of Bristol"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://research-information.bris.ac.uk/ws/files/113967059/1_s2.0_S0140673616301751_main.pdf",
+      "pdf_url": "https://research-information.bris.ac.uk/ws/files/113967059/1_s2.0_S0140673616301751_main.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400895",
+        "display_name": "Bristol Research (University of Bristol)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I36234482",
+        "host_organization_name": "University of Bristol",
+        "host_organization_lineage": [
+          "https://openalex.org/I36234482"
+        ],
+        "host_organization_lineage_names": [
+          "University of Bristol"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc4995441",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4995441",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://eprints.gla.ac.uk/118297/7/118297.pdf",
+      "pdf_url": "https://eprints.gla.ac.uk/118297/7/118297.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400411",
+        "display_name": "Enlighten: Publications (The University of Glasgow)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I7882870",
+        "host_organization_name": "University of Glasgow",
+        "host_organization_lineage": [
+          "https://openalex.org/I7882870"
+        ],
+        "host_organization_lineage_names": [
+          "University of Glasgow"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://research-information.bris.ac.uk/ws/files/113967062/mmc1.pdf",
+      "pdf_url": "https://research-information.bris.ac.uk/ws/files/113967062/mmc1.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400895",
+        "display_name": "Bristol Research (University of Bristol)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I36234482",
+        "host_organization_name": "University of Bristol",
+        "host_organization_lineage": [
+          "https://openalex.org/I36234482"
+        ],
+        "host_organization_lineage_names": [
+          "University of Bristol"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27423262",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/s0140-6736(16)30175-1",
+    "pdf_url": "http://www.thelancet.com/article/S0140673616301751/pdf",
+    "source": {
+      "id": "https://openalex.org/S49861241",
+      "display_name": "The Lancet",
+      "issn_l": "0140-6736",
+      "issn": [
+        "0140-6736",
+        "1474-547X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.84
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 50,
+  "referenced_works": [
+    "https://openalex.org/W1513833217",
+    "https://openalex.org/W1542476404",
+    "https://openalex.org/W1591686206",
+    "https://openalex.org/W1938938391",
+    "https://openalex.org/W1964607854",
+    "https://openalex.org/W1974224060",
+    "https://openalex.org/W1978862862",
+    "https://openalex.org/W1981573071",
+    "https://openalex.org/W1984323321",
+    "https://openalex.org/W1998451170",
+    "https://openalex.org/W2003915865",
+    "https://openalex.org/W2005797591",
+    "https://openalex.org/W2015187260",
+    "https://openalex.org/W2033551706",
+    "https://openalex.org/W2046032521",
+    "https://openalex.org/W2050118439",
+    "https://openalex.org/W2056526409",
+    "https://openalex.org/W2061485494",
+    "https://openalex.org/W2068340744",
+    "https://openalex.org/W2069698101",
+    "https://openalex.org/W2074234588",
+    "https://openalex.org/W2079436156",
+    "https://openalex.org/W2086225923",
+    "https://openalex.org/W2093503493",
+    "https://openalex.org/W2104359563",
+    "https://openalex.org/W2106650290",
+    "https://openalex.org/W2114796974",
+    "https://openalex.org/W2120647442",
+    "https://openalex.org/W2123931921",
+    "https://openalex.org/W2125937403",
+    "https://openalex.org/W2126930838",
+    "https://openalex.org/W2142170772",
+    "https://openalex.org/W2144373793",
+    "https://openalex.org/W2147882394",
+    "https://openalex.org/W2147943581",
+    "https://openalex.org/W2150737170",
+    "https://openalex.org/W2155458338",
+    "https://openalex.org/W2158226607",
+    "https://openalex.org/W2158379591",
+    "https://openalex.org/W2163710303",
+    "https://openalex.org/W2341244791",
+    "https://openalex.org/W2345682597",
+    "https://openalex.org/W2346842098",
+    "https://openalex.org/W2620406790",
+    "https://openalex.org/W2746751342",
+    "https://openalex.org/W3172478362",
+    "https://openalex.org/W4210467129",
+    "https://openalex.org/W4233747774",
+    "https://openalex.org/W4254372464",
+    "https://openalex.org/W4376848193"
+  ],
+  "related_works": [
+    "https://openalex.org/W4283698857",
+    "https://openalex.org/W2576345314",
+    "https://openalex.org/W236355199",
+    "https://openalex.org/W2158854695",
+    "https://openalex.org/W2102483815",
+    "https://openalex.org/W2070181048",
+    "https://openalex.org/W2027430045",
+    "https://openalex.org/W2005900879",
+    "https://openalex.org/W186127209",
+    "https://openalex.org/W1842607881"
+  ],
+  "abstract_inverted_index": {
+    "Overweight": [
+      0
+    ],
+    "and": [
+      1,
+      30,
+      38,
+      42
+    ],
+    "obesity": [
+      2
+    ],
+    "are": [
+      3
+    ],
+    "increasing": [
+      4
+    ],
+    "worldwide.": [
+      5
+    ],
+    "To": [
+      6
+    ],
+    "help": [
+      7
+    ],
+    "assess": [
+      8
+    ],
+    "their": [
+      9
+    ],
+    "relevance": [
+      10
+    ],
+    "to": [
+      11,
+      36
+    ],
+    "mortality": [
+      12
+    ],
+    "in": [
+      13
+    ],
+    "different": [
+      14
+    ],
+    "populations": [
+      15
+    ],
+    "we": [
+      16
+    ],
+    "conducted": [
+      17
+    ],
+    "individual-participant": [
+      18
+    ],
+    "data": [
+      19
+    ],
+    "meta-analyses": [
+      20
+    ],
+    "of": [
+      21,
+      24,
+      47
+    ],
+    "prospective": [
+      22
+    ],
+    "studies": [
+      23
+    ],
+    "body-mass": [
+      25
+    ],
+    "index": [
+      26
+    ],
+    "(BMI),": [
+      27
+    ],
+    "limiting": [
+      28
+    ],
+    "confounding": [
+      29
+    ],
+    "reverse": [
+      31
+    ],
+    "causality": [
+      32
+    ],
+    "by": [
+      33
+    ],
+    "restricting": [
+      34
+    ],
+    "analyses": [
+      35
+    ],
+    "never-smokers": [
+      37
+    ],
+    "excluding": [
+      39
+    ],
+    "pre-existing": [
+      40
+    ],
+    "disease": [
+      41
+    ],
+    "the": [
+      43
+    ],
+    "first": [
+      44
+    ],
+    "5": [
+      45
+    ],
+    "years": [
+      46
+    ],
+    "follow-up.": [
+      48
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2338864525",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 114
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 320
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 356
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 365
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 326
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 296
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 219
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 248
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 162
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 28
+    }
+  ],
+  "updated_date": "2025-06-13T10:33:16.256802",
+  "created_date": "2016-06-24"
+}

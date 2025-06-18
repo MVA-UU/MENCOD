@@ -1,0 +1,886 @@
+{
+  "id": "https://openalex.org/W2105824687",
+  "doi": "https://doi.org/10.1038/nrn3475",
+  "title": "Power failure: why small sample size undermines the reliability of neuroscience",
+  "display_name": "Power failure: why small sample size undermines the reliability of neuroscience",
+  "publication_year": 2013,
+  "publication_date": "2013-04-10",
+  "ids": {
+    "openalex": "https://openalex.org/W2105824687",
+    "doi": "https://doi.org/10.1038/nrn3475",
+    "mag": "2105824687",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/23571845"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/nrn3475",
+    "pdf_url": "https://www.nature.com/articles/nrn3475.pdf",
+    "source": {
+      "id": "https://openalex.org/S26843219",
+      "display_name": "Nature reviews. Neuroscience",
+      "issn_l": "1471-003X",
+      "issn": [
+        "1471-003X",
+        "1471-0048"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.nature.com/articles/nrn3475.pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5057405954",
+        "display_name": "Katherine S. Button",
+        "orcid": "https://orcid.org/0000-0003-4332-8789"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Katherine S. Button",
+      "raw_affiliation_strings": [
+        "School of Experimental Psychology, University of Bristol, Bristol, BS8 1TU, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Experimental Psychology, University of Bristol, Bristol, BS8 1TU, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5070446713",
+        "display_name": "John P. A. Ioannidis",
+        "orcid": "https://orcid.org/0000-0003-3118-6859"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John P. A. Ioannidis",
+      "raw_affiliation_strings": [
+        "Stanford University School of Medicine, Stanford, 94305, California, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Stanford University School of Medicine, Stanford, 94305, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5046054678",
+        "display_name": "Claire Mokrysz",
+        "orcid": "https://orcid.org/0000-0002-1970-8530"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Claire Mokrysz",
+      "raw_affiliation_strings": [
+        "School of Experimental Psychology, University of Bristol, Bristol, BS8 1TU, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Experimental Psychology, University of Bristol, Bristol, BS8 1TU, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081641856",
+        "display_name": "Brian A. Nosek",
+        "orcid": "https://orcid.org/0000-0001-6797-5476"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I51556381",
+          "display_name": "University of Virginia",
+          "ror": "https://ror.org/0153tk833",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I51556381"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brian A. Nosek",
+      "raw_affiliation_strings": [
+        "Department of Psychology, University of Virginia, Charlottesville, 22904, Virginia, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, University of Virginia, Charlottesville, 22904, Virginia, USA",
+          "institution_ids": [
+            "https://openalex.org/I51556381"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011108322",
+        "display_name": "Jonathan Flint",
+        "orcid": "https://orcid.org/0000-0002-9427-4429"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1336263701",
+          "display_name": "Centre for Human Genetics",
+          "ror": "https://ror.org/01rjnta51",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1336263701",
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan Flint",
+      "raw_affiliation_strings": [
+        "Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, OX3 7BN, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, OX3 7BN, UK",
+          "institution_ids": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I1336263701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084628160",
+        "display_name": "Emma Robinson",
+        "orcid": "https://orcid.org/0000-0002-1299-6541"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Emma S. J. Robinson",
+      "raw_affiliation_strings": [
+        "School of Physiology and Pharmacology, University of Bristol, Bristol, BS8 1TD, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Physiology and Pharmacology, University of Bristol, Bristol, BS8 1TD, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5006758334",
+        "display_name": "Marcus R. Munafò",
+        "orcid": "https://orcid.org/0000-0002-4049-993X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Marcus R. Munafò",
+      "raw_affiliation_strings": [
+        "School of Experimental Psychology, University of Bristol, Bristol, BS8 1TU, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Experimental Psychology, University of Bristol, Bristol, BS8 1TU, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 60.192,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 7065,
+  "citation_normalized_percentile": {
+    "value": 0.989189,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "14",
+    "issue": "5",
+    "first_page": "365",
+    "last_page": "376"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10206",
+    "display_name": "Meta-analysis and systematic reviews",
+    "score": 0.993,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1804",
+      "display_name": "Statistics, Probability and Uncertainty"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/18",
+      "display_name": "Decision Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10206",
+      "display_name": "Meta-analysis and systematic reviews",
+      "score": 0.993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1804",
+        "display_name": "Statistics, Probability and Uncertainty"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10211",
+      "display_name": "Computational Drug Discovery Methods",
+      "score": 0.9837,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 0.9822,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/statistical-power",
+      "display_name": "Statistical power",
+      "score": 0.7749154
+    },
+    {
+      "id": "https://openalex.org/keywords/sample",
+      "display_name": "Sample (material)",
+      "score": 0.49931717
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C96608239",
+      "wikidata": "https://www.wikidata.org/wiki/Q1199823",
+      "display_name": "Statistical power",
+      "level": 2,
+      "score": 0.7749154
+    },
+    {
+      "id": "https://openalex.org/C129848803",
+      "wikidata": "https://www.wikidata.org/wiki/Q2564360",
+      "display_name": "Sample size determination",
+      "level": 2,
+      "score": 0.7387526
+    },
+    {
+      "id": "https://openalex.org/C9893847",
+      "wikidata": "https://www.wikidata.org/wiki/Q1425625",
+      "display_name": "Reproducibility",
+      "level": 2,
+      "score": 0.7184339
+    },
+    {
+      "id": "https://openalex.org/C43214815",
+      "wikidata": "https://www.wikidata.org/wiki/Q7310987",
+      "display_name": "Reliability (semiconductor)",
+      "level": 3,
+      "score": 0.71162426
+    },
+    {
+      "id": "https://openalex.org/C163258240",
+      "wikidata": "https://www.wikidata.org/wiki/Q25342",
+      "display_name": "Power (physics)",
+      "level": 2,
+      "score": 0.6095648
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.5265106
+    },
+    {
+      "id": "https://openalex.org/C198531522",
+      "wikidata": "https://www.wikidata.org/wiki/Q485146",
+      "display_name": "Sample (material)",
+      "level": 2,
+      "score": 0.49931717
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.40159294
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.38791358
+    },
+    {
+      "id": "https://openalex.org/C180747234",
+      "wikidata": "https://www.wikidata.org/wiki/Q23373",
+      "display_name": "Cognitive psychology",
+      "level": 1,
+      "score": 0.3611755
+    },
+    {
+      "id": "https://openalex.org/C200601418",
+      "wikidata": "https://www.wikidata.org/wiki/Q2193887",
+      "display_name": "Reliability engineering",
+      "level": 1,
+      "score": 0.34576103
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.30492872
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.14532644
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.09294081
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.08375913
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C43617362",
+      "wikidata": "https://www.wikidata.org/wiki/Q170050",
+      "display_name": "Chromatography",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D009488",
+      "descriptor_name": "Neurosciences",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018401",
+      "descriptor_name": "Sample Size",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011336",
+      "descriptor_name": "Probability",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015203",
+      "descriptor_name": "Reproducibility of Results",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/nrn3475",
+      "pdf_url": "https://www.nature.com/articles/nrn3475.pdf",
+      "source": {
+        "id": "https://openalex.org/S26843219",
+        "display_name": "Nature reviews. Neuroscience",
+        "issn_l": "1471-003X",
+        "issn": [
+          "1471-003X",
+          "1471-0048"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/23571845",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/nrn3475",
+    "pdf_url": "https://www.nature.com/articles/nrn3475.pdf",
+    "source": {
+      "id": "https://openalex.org/S26843219",
+      "display_name": "Nature reviews. Neuroscience",
+      "issn_l": "1471-003X",
+      "issn": [
+        "1471-003X",
+        "1471-0048"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 106,
+  "referenced_works": [
+    "https://openalex.org/W1556662167",
+    "https://openalex.org/W1573706348",
+    "https://openalex.org/W1575236038",
+    "https://openalex.org/W1575893985",
+    "https://openalex.org/W1655460658",
+    "https://openalex.org/W1849383792",
+    "https://openalex.org/W1889894657",
+    "https://openalex.org/W1965927651",
+    "https://openalex.org/W1968521495",
+    "https://openalex.org/W1969078199",
+    "https://openalex.org/W1976624377",
+    "https://openalex.org/W1978525999",
+    "https://openalex.org/W1979876709",
+    "https://openalex.org/W1982342644",
+    "https://openalex.org/W1987588729",
+    "https://openalex.org/W1987636676",
+    "https://openalex.org/W1987777080",
+    "https://openalex.org/W1991142512",
+    "https://openalex.org/W1993480036",
+    "https://openalex.org/W1995230642",
+    "https://openalex.org/W1996296330",
+    "https://openalex.org/W1997465920",
+    "https://openalex.org/W2001871336",
+    "https://openalex.org/W2002030061",
+    "https://openalex.org/W2004108172",
+    "https://openalex.org/W2005317772",
+    "https://openalex.org/W2009339691",
+    "https://openalex.org/W2015461493",
+    "https://openalex.org/W2015659069",
+    "https://openalex.org/W2015779008",
+    "https://openalex.org/W2020963113",
+    "https://openalex.org/W2022406334",
+    "https://openalex.org/W2023457323",
+    "https://openalex.org/W2023985409",
+    "https://openalex.org/W2025651303",
+    "https://openalex.org/W2026468311",
+    "https://openalex.org/W2026756548",
+    "https://openalex.org/W2028878143",
+    "https://openalex.org/W2030120215",
+    "https://openalex.org/W2031739072",
+    "https://openalex.org/W2031999325",
+    "https://openalex.org/W2036358842",
+    "https://openalex.org/W2040331591",
+    "https://openalex.org/W2041383977",
+    "https://openalex.org/W2042803707",
+    "https://openalex.org/W2049069390",
+    "https://openalex.org/W2050041460",
+    "https://openalex.org/W2052880407",
+    "https://openalex.org/W2053239079",
+    "https://openalex.org/W2053693938",
+    "https://openalex.org/W2057991433",
+    "https://openalex.org/W2062892512",
+    "https://openalex.org/W2066086758",
+    "https://openalex.org/W2067833766",
+    "https://openalex.org/W2072574874",
+    "https://openalex.org/W2073677120",
+    "https://openalex.org/W2079114300",
+    "https://openalex.org/W2080206297",
+    "https://openalex.org/W2080209500",
+    "https://openalex.org/W2080927087",
+    "https://openalex.org/W2086252264",
+    "https://openalex.org/W2087484885",
+    "https://openalex.org/W2091959199",
+    "https://openalex.org/W2094697878",
+    "https://openalex.org/W2101083347",
+    "https://openalex.org/W2108569388",
+    "https://openalex.org/W2112039868",
+    "https://openalex.org/W2114688149",
+    "https://openalex.org/W2116618538",
+    "https://openalex.org/W2117067677",
+    "https://openalex.org/W2118482224",
+    "https://openalex.org/W2119605658",
+    "https://openalex.org/W2126718333",
+    "https://openalex.org/W2127787997",
+    "https://openalex.org/W2128001078",
+    "https://openalex.org/W2128870189",
+    "https://openalex.org/W2136528623",
+    "https://openalex.org/W2144032281",
+    "https://openalex.org/W2144659346",
+    "https://openalex.org/W2144981148",
+    "https://openalex.org/W2150215887",
+    "https://openalex.org/W2156801000",
+    "https://openalex.org/W2157374482",
+    "https://openalex.org/W2158207503",
+    "https://openalex.org/W2158641962",
+    "https://openalex.org/W2161095279",
+    "https://openalex.org/W2161498332",
+    "https://openalex.org/W2162541816",
+    "https://openalex.org/W2164759539",
+    "https://openalex.org/W2168672683",
+    "https://openalex.org/W2169214811",
+    "https://openalex.org/W2169398435",
+    "https://openalex.org/W2169662981",
+    "https://openalex.org/W2331384579",
+    "https://openalex.org/W257715702",
+    "https://openalex.org/W2982234476",
+    "https://openalex.org/W3124333825",
+    "https://openalex.org/W3147352279",
+    "https://openalex.org/W3168254749",
+    "https://openalex.org/W3195223588",
+    "https://openalex.org/W386831351",
+    "https://openalex.org/W4296816736",
+    "https://openalex.org/W608097283",
+    "https://openalex.org/W79036650",
+    "https://openalex.org/W896325890",
+    "https://openalex.org/W998771739"
+  ],
+  "related_works": [
+    "https://openalex.org/W977438452",
+    "https://openalex.org/W4388813866",
+    "https://openalex.org/W4293088233",
+    "https://openalex.org/W4236933217",
+    "https://openalex.org/W2999104021",
+    "https://openalex.org/W2850804095",
+    "https://openalex.org/W2774950576",
+    "https://openalex.org/W2162280767",
+    "https://openalex.org/W1989415248",
+    "https://openalex.org/W1481656249"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2105824687",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 183
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 607
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 597
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 687
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 761
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 840
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 736
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 733
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 631
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 510
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 362
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 276
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 112
+    }
+  ],
+  "updated_date": "2025-06-16T21:53:00.716743",
+  "created_date": "2016-06-24"
+}

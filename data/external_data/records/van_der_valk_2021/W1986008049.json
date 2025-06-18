@@ -1,0 +1,870 @@
+{
+  "id": "https://openalex.org/W1986008049",
+  "doi": "https://doi.org/10.1198/004017008000000334",
+  "title": "Quality Assessment for Short Oligonucleotide Microarray Data",
+  "display_name": "Quality Assessment for Short Oligonucleotide Microarray Data",
+  "publication_year": 2008,
+  "publication_date": "2008-08-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1986008049",
+    "doi": "https://doi.org/10.1198/004017008000000334",
+    "mag": "1986008049"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1198/004017008000000334",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S985303",
+      "display_name": "Technometrics",
+      "issn_l": "0040-1706",
+      "issn": [
+        "0040-1706",
+        "1537-2723"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://arxiv.org/pdf/0710.0178",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5020720612",
+        "display_name": "Julia Brettschneider",
+        "orcid": "https://orcid.org/0000-0003-1763-466X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I196021976",
+          "display_name": "Walter and Eliza Hall Institute of Medical Research",
+          "ror": "https://ror.org/01b6kha49",
+          "country_code": "AU",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I196021976"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I204722609",
+          "display_name": "Queen's University",
+          "ror": "https://ror.org/02y72wh86",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204722609"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I39555362",
+          "display_name": "University of Warwick",
+          "ror": "https://ror.org/01a77tt86",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39555362"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210156381",
+          "display_name": "Kingston Health Sciences Centre",
+          "ror": "https://ror.org/05bwaty49",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210156381"
+          ]
+        }
+      ],
+      "countries": [
+        "AU",
+        "CA",
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Julia Brettschneider",
+      "raw_affiliation_strings": [
+        " Department of Community Heath & Epidemiology, Kingston, Ontario, Canada;",
+        " Queen's University, Cancer Research Institute Division of Cancer Care & Epidemiology and",
+        " University of Warwick, Department of Statistics, Coventry, UK;",
+        " Walter and Eliza Hall Institute Bioinformatics Division, Melbourne, Australia."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": " Walter and Eliza Hall Institute Bioinformatics Division, Melbourne, Australia.",
+          "institution_ids": [
+            "https://openalex.org/I196021976"
+          ]
+        },
+        {
+          "raw_affiliation_string": " Queen's University, Cancer Research Institute Division of Cancer Care & Epidemiology and",
+          "institution_ids": [
+            "https://openalex.org/I204722609"
+          ]
+        },
+        {
+          "raw_affiliation_string": " University of Warwick, Department of Statistics, Coventry, UK;",
+          "institution_ids": [
+            "https://openalex.org/I39555362"
+          ]
+        },
+        {
+          "raw_affiliation_string": " Department of Community Heath & Epidemiology, Kingston, Ontario, Canada;",
+          "institution_ids": [
+            "https://openalex.org/I4210156381"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083598039",
+        "display_name": "François Collin",
+        "orcid": "https://orcid.org/0000-0003-0524-5755"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "François Collin",
+      "raw_affiliation_strings": [
+        "University of California at Berkeley, Department of Statistics, Berkeley, California, USA;"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of California at Berkeley, Department of Statistics, Berkeley, California, USA;",
+          "institution_ids": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023746190",
+        "display_name": "Benjamin M. Bolstad",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Benjamin M Bolstad",
+      "raw_affiliation_strings": [
+        "University of California at Berkeley, Department of Statistics, Berkeley, California, USA;"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of California at Berkeley, Department of Statistics, Berkeley, California, USA;",
+          "institution_ids": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5001135422",
+        "display_name": "Terence P. Speed",
+        "orcid": "https://orcid.org/0000-0002-5403-7998"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204722609",
+          "display_name": "Queen's University",
+          "ror": "https://ror.org/02y72wh86",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204722609"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I196021976",
+          "display_name": "Walter and Eliza Hall Institute of Medical Research",
+          "ror": "https://ror.org/01b6kha49",
+          "country_code": "AU",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I196021976"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I39555362",
+          "display_name": "University of Warwick",
+          "ror": "https://ror.org/01a77tt86",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39555362"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210156381",
+          "display_name": "Kingston Health Sciences Centre",
+          "ror": "https://ror.org/05bwaty49",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210156381"
+          ]
+        }
+      ],
+      "countries": [
+        "AU",
+        "CA",
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Terence P Speed",
+      "raw_affiliation_strings": [
+        " Department of Community Heath & Epidemiology, Kingston, Ontario, Canada;",
+        " Queen's University, Cancer Research Institute Division of Cancer Care & Epidemiology and",
+        " University of Warwick, Department of Statistics, Coventry, UK;",
+        " Walter and Eliza Hall Institute Bioinformatics Division, Melbourne, Australia."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": " Queen's University, Cancer Research Institute Division of Cancer Care & Epidemiology and",
+          "institution_ids": [
+            "https://openalex.org/I204722609"
+          ]
+        },
+        {
+          "raw_affiliation_string": " Walter and Eliza Hall Institute Bioinformatics Division, Melbourne, Australia.",
+          "institution_ids": [
+            "https://openalex.org/I196021976"
+          ]
+        },
+        {
+          "raw_affiliation_string": " University of Warwick, Department of Statistics, Coventry, UK;",
+          "institution_ids": [
+            "https://openalex.org/I39555362"
+          ]
+        },
+        {
+          "raw_affiliation_string": " Department of Community Heath & Epidemiology, Kingston, Ontario, Canada;",
+          "institution_ids": [
+            "https://openalex.org/I4210156381"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 4,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5020720612"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I196021976",
+    "https://openalex.org/I204722609",
+    "https://openalex.org/I39555362",
+    "https://openalex.org/I4210156381"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.415,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 129,
+  "citation_normalized_percentile": {
+    "value": 0.999983,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "50",
+    "issue": "3",
+    "first_page": "241",
+    "last_page": "264"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10885",
+    "display_name": "Gene expression and cancer classification",
+    "score": 0.9995,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10885",
+      "display_name": "Gene expression and cancer classification",
+      "score": 0.9995,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11468",
+      "display_name": "Genetic Mapping and Diversity in Plants and Animals",
+      "score": 0.982,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11798",
+      "display_name": "Optimal Experimental Design Methods",
+      "score": 0.9795,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/microarray-databases",
+      "display_name": "Microarray databases",
+      "score": 0.46117604
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.49897408
+    },
+    {
+      "id": "https://openalex.org/C129312508",
+      "wikidata": "https://www.wikidata.org/wiki/Q133686",
+      "display_name": "Oligonucleotide",
+      "level": 3,
+      "score": 0.46513954
+    },
+    {
+      "id": "https://openalex.org/C548314002",
+      "wikidata": "https://www.wikidata.org/wiki/Q6839218",
+      "display_name": "Microarray databases",
+      "level": 5,
+      "score": 0.46117604
+    },
+    {
+      "id": "https://openalex.org/C24756922",
+      "wikidata": "https://www.wikidata.org/wiki/Q1757694",
+      "display_name": "Data quality",
+      "level": 3,
+      "score": 0.4516607
+    },
+    {
+      "id": "https://openalex.org/C124101348",
+      "wikidata": "https://www.wikidata.org/wiki/Q172491",
+      "display_name": "Data mining",
+      "level": 1,
+      "score": 0.44969612
+    },
+    {
+      "id": "https://openalex.org/C2779530757",
+      "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+      "display_name": "Quality (philosophy)",
+      "level": 2,
+      "score": 0.44399992
+    },
+    {
+      "id": "https://openalex.org/C186836561",
+      "wikidata": "https://www.wikidata.org/wiki/Q1931516",
+      "display_name": "Microarray",
+      "level": 4,
+      "score": 0.4434027
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.43303412
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.32726106
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.26915598
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.21744785
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.14608929
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.14533648
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.12030238
+    },
+    {
+      "id": "https://openalex.org/C21547014",
+      "wikidata": "https://www.wikidata.org/wiki/Q1423657",
+      "display_name": "Operations management",
+      "level": 1,
+      "score": 0.08068505
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.070956945
+    },
+    {
+      "id": "https://openalex.org/C176217482",
+      "wikidata": "https://www.wikidata.org/wiki/Q860554",
+      "display_name": "Metric (unit)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111472728",
+      "wikidata": "https://www.wikidata.org/wiki/Q9471",
+      "display_name": "Epistemology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1198/004017008000000334",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S985303",
+        "display_name": "Technometrics",
+        "issn_l": "0040-1706",
+        "issn": [
+          "0040-1706",
+          "1537-2723"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/0710.0178",
+      "pdf_url": "http://arxiv.org/pdf/0710.0178",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [
+          "Cornell University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/0710.0178",
+    "pdf_url": "http://arxiv.org/pdf/0710.0178",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [
+        "Cornell University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/1",
+      "score": 0.54,
+      "display_name": "No poverty"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 113,
+  "referenced_works": [
+    "https://openalex.org/W107998980",
+    "https://openalex.org/W142073433",
+    "https://openalex.org/W1484414601",
+    "https://openalex.org/W1484872771",
+    "https://openalex.org/W1495359568",
+    "https://openalex.org/W1499838451",
+    "https://openalex.org/W1506160581",
+    "https://openalex.org/W1528177290",
+    "https://openalex.org/W1533335653",
+    "https://openalex.org/W1545836411",
+    "https://openalex.org/W1551744077",
+    "https://openalex.org/W1557194500",
+    "https://openalex.org/W1607810777",
+    "https://openalex.org/W1615172296",
+    "https://openalex.org/W1779730050",
+    "https://openalex.org/W1847661395",
+    "https://openalex.org/W1898771753",
+    "https://openalex.org/W1937618727",
+    "https://openalex.org/W1964895626",
+    "https://openalex.org/W1965138864",
+    "https://openalex.org/W1971321176",
+    "https://openalex.org/W1973614663",
+    "https://openalex.org/W1987470886",
+    "https://openalex.org/W1992794281",
+    "https://openalex.org/W1998146932",
+    "https://openalex.org/W1998641738",
+    "https://openalex.org/W2005969372",
+    "https://openalex.org/W2010637767",
+    "https://openalex.org/W2010692007",
+    "https://openalex.org/W2021129827",
+    "https://openalex.org/W2029441111",
+    "https://openalex.org/W2030582688",
+    "https://openalex.org/W2038437697",
+    "https://openalex.org/W2041063423",
+    "https://openalex.org/W2042643721",
+    "https://openalex.org/W2043426410",
+    "https://openalex.org/W2044050288",
+    "https://openalex.org/W2054206457",
+    "https://openalex.org/W2058451329",
+    "https://openalex.org/W2063661220",
+    "https://openalex.org/W2066661304",
+    "https://openalex.org/W2074089196",
+    "https://openalex.org/W2092342745",
+    "https://openalex.org/W2097199830",
+    "https://openalex.org/W2097255042",
+    "https://openalex.org/W2098453858",
+    "https://openalex.org/W2100668965",
+    "https://openalex.org/W2101418109",
+    "https://openalex.org/W2101833157",
+    "https://openalex.org/W2101929102",
+    "https://openalex.org/W2104292638",
+    "https://openalex.org/W2105793531",
+    "https://openalex.org/W2106985410",
+    "https://openalex.org/W2107426358",
+    "https://openalex.org/W2109972881",
+    "https://openalex.org/W2110808603",
+    "https://openalex.org/W2110891968",
+    "https://openalex.org/W2111524581",
+    "https://openalex.org/W2113836695",
+    "https://openalex.org/W2116146003",
+    "https://openalex.org/W2116634113",
+    "https://openalex.org/W2117044793",
+    "https://openalex.org/W2117607208",
+    "https://openalex.org/W2117965440",
+    "https://openalex.org/W2119504746",
+    "https://openalex.org/W2120423769",
+    "https://openalex.org/W2120865735",
+    "https://openalex.org/W2123199013",
+    "https://openalex.org/W2125905177",
+    "https://openalex.org/W2126957978",
+    "https://openalex.org/W2129815183",
+    "https://openalex.org/W2130383124",
+    "https://openalex.org/W2130410032",
+    "https://openalex.org/W2130494035",
+    "https://openalex.org/W2130502186",
+    "https://openalex.org/W2131067285",
+    "https://openalex.org/W2133094193",
+    "https://openalex.org/W2133626589",
+    "https://openalex.org/W2133922879",
+    "https://openalex.org/W2134783591",
+    "https://openalex.org/W2135340809",
+    "https://openalex.org/W2136092292",
+    "https://openalex.org/W2137081277",
+    "https://openalex.org/W2138218344",
+    "https://openalex.org/W2138263072",
+    "https://openalex.org/W2141009231",
+    "https://openalex.org/W2141407136",
+    "https://openalex.org/W2142199854",
+    "https://openalex.org/W2142460132",
+    "https://openalex.org/W2143364665",
+    "https://openalex.org/W2144894933",
+    "https://openalex.org/W2147246240",
+    "https://openalex.org/W2148282250",
+    "https://openalex.org/W2148758061",
+    "https://openalex.org/W2149052195",
+    "https://openalex.org/W2151580670",
+    "https://openalex.org/W2151780566",
+    "https://openalex.org/W2156031219",
+    "https://openalex.org/W2158092584",
+    "https://openalex.org/W2159373567",
+    "https://openalex.org/W2161175828",
+    "https://openalex.org/W2165334338",
+    "https://openalex.org/W2167907413",
+    "https://openalex.org/W2169759305",
+    "https://openalex.org/W2170989872",
+    "https://openalex.org/W2338532967",
+    "https://openalex.org/W3104024536",
+    "https://openalex.org/W3125904670",
+    "https://openalex.org/W4205098749",
+    "https://openalex.org/W4247420482",
+    "https://openalex.org/W4249966633",
+    "https://openalex.org/W47768760",
+    "https://openalex.org/W576147189"
+  ],
+  "related_works": [
+    "https://openalex.org/W3152114242",
+    "https://openalex.org/W2796636403",
+    "https://openalex.org/W2151007749",
+    "https://openalex.org/W2135768893",
+    "https://openalex.org/W2097647803",
+    "https://openalex.org/W2074092657",
+    "https://openalex.org/W2065186132",
+    "https://openalex.org/W2028324514",
+    "https://openalex.org/W1889322612",
+    "https://openalex.org/W1581068370"
+  ],
+  "abstract_inverted_index": {
+    "Quality": [
+      0
+    ],
+    "assessment": [
+      1
+    ],
+    "for": [
+      2
+    ],
+    "short": [
+      3
+    ],
+    "oligonucleotide": [
+      4
+    ],
+    "microarray": [
+      5
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1986008049",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 11
+    }
+  ],
+  "updated_date": "2025-06-11T13:43:02.366449",
+  "created_date": "2016-06-24"
+}

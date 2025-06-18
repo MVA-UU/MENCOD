@@ -1,0 +1,1436 @@
+{
+  "id": "https://openalex.org/W1977244019",
+  "doi": "https://doi.org/10.1210/me.2006-0172",
+  "title": "Molecular Model of Human CYP21 Based on Mammalian CYP2C5: Structural Features Correlate with Clinical Severity of Mutations Causing Congenital Adrenal Hyperplasia",
+  "display_name": "Molecular Model of Human CYP21 Based on Mammalian CYP2C5: Structural Features Correlate with Clinical Severity of Mutations Causing Congenital Adrenal Hyperplasia",
+  "publication_year": 2006,
+  "publication_date": "2006-06-21",
+  "ids": {
+    "openalex": "https://openalex.org/W1977244019",
+    "doi": "https://doi.org/10.1210/me.2006-0172",
+    "mag": "1977244019",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16788163"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1210/me.2006-0172",
+    "pdf_url": "https://academic.oup.com/mend/article-pdf/20/11/2946/10720481/mend2946.pdf",
+    "source": {
+      "id": "https://openalex.org/S57449756",
+      "display_name": "Molecular Endocrinology",
+      "issn_l": "0888-8809",
+      "issn": [
+        "0888-8809",
+        "1944-9917"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://academic.oup.com/mend/article-pdf/20/11/2946/10720481/mend2946.pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5110067925",
+        "display_name": "Tiina Robins",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1335113835",
+          "display_name": "Karolinska University Hospital",
+          "ror": "https://ror.org/00m8d6786",
+          "country_code": "SE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1335113835"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tiina Robins",
+      "raw_affiliation_strings": [
+        "Department of Molecular Medicine and Surgery (T.R., A.W.), Center for Molecular Medicine, L8:02, Karolinska Institutet/Karolinska University Hospital, S-171 76 Stockholm, Sweden;"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular Medicine and Surgery (T.R., A.W.), Center for Molecular Medicine, L8:02, Karolinska Institutet/Karolinska University Hospital, S-171 76 Stockholm, Sweden;",
+          "institution_ids": [
+            "https://openalex.org/I28166907",
+            "https://openalex.org/I1335113835"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023601449",
+        "display_name": "Jonas Carlsson",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I102134673",
+          "display_name": "Linköping University",
+          "ror": "https://ror.org/05ynxx418",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I102134673"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonas Carlsson",
+      "raw_affiliation_strings": [
+        "The Department of Physics, Chemistry and Biology (IFM Bioinformatics) (J.C., B.P.), S-581 83 Linköping, Sweden;"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Department of Physics, Chemistry and Biology (IFM Bioinformatics) (J.C., B.P.), S-581 83 Linköping, Sweden;",
+          "institution_ids": [
+            "https://openalex.org/I102134673"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084896156",
+        "display_name": "Maria Sunnerhagen",
+        "orcid": "https://orcid.org/0000-0002-0492-5890"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I102134673",
+          "display_name": "Linköping University",
+          "ror": "https://ror.org/05ynxx418",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I102134673"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Maria Sunnerhagen",
+      "raw_affiliation_strings": [
+        "Molecular Biotechnology (M.S.), Linköping University, S-581 83 Linköping, Sweden;"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Biotechnology (M.S.), Linköping University, S-581 83 Linköping, Sweden;",
+          "institution_ids": [
+            "https://openalex.org/I102134673"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113677954",
+        "display_name": "Anna Wedell",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1335113835",
+          "display_name": "Karolinska University Hospital",
+          "ror": "https://ror.org/00m8d6786",
+          "country_code": "SE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1335113835"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anna Wedell",
+      "raw_affiliation_strings": [
+        "Department of Molecular Medicine and Surgery (T.R., A.W.), Center for Molecular Medicine, L8:02, Karolinska Institutet/Karolinska University Hospital, S-171 76 Stockholm, Sweden;"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Molecular Medicine and Surgery (T.R., A.W.), Center for Molecular Medicine, L8:02, Karolinska Institutet/Karolinska University Hospital, S-171 76 Stockholm, Sweden;",
+          "institution_ids": [
+            "https://openalex.org/I1335113835",
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5052620448",
+        "display_name": "Bengt Persson",
+        "orcid": "https://orcid.org/0000-0003-3165-5344"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bengt Persson",
+      "raw_affiliation_strings": [
+        "Department of Cell and Molecular Biology (B.P.), Programme for Genomics and Bioinformatics, Karolinska Institutet, S-171 77 Stockholm, Sweden"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Cell and Molecular Biology (B.P.), Programme for Genomics and Bioinformatics, Karolinska Institutet, S-171 77 Stockholm, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I28166907",
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 6.987,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 82,
+  "citation_normalized_percentile": {
+    "value": 0.938625,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "20",
+    "issue": "11",
+    "first_page": "2946",
+    "last_page": "2964"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10375",
+    "display_name": "Pharmacogenetics and Drug Metabolism",
+    "score": 0.9994,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3004",
+      "display_name": "Pharmacology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/30",
+      "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10375",
+      "display_name": "Pharmacogenetics and Drug Metabolism",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3004",
+        "display_name": "Pharmacology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/30",
+        "display_name": "Pharmacology, Toxicology and Pharmaceutics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11956",
+      "display_name": "Sexual Differentiation and Disorders",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.9989,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.9239161
+    },
+    {
+      "id": "https://openalex.org/C2777767042",
+      "wikidata": "https://www.wikidata.org/wiki/Q366868",
+      "display_name": "Congenital adrenal hyperplasia",
+      "level": 2,
+      "score": 0.6869503
+    },
+    {
+      "id": "https://openalex.org/C501734568",
+      "wikidata": "https://www.wikidata.org/wiki/Q42918",
+      "display_name": "Mutation",
+      "level": 3,
+      "score": 0.5065757
+    },
+    {
+      "id": "https://openalex.org/C2777562237",
+      "wikidata": "https://www.wikidata.org/wiki/Q835051",
+      "display_name": "Hyperplasia",
+      "level": 2,
+      "score": 0.4352237
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.42050385
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.34535104
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.32363516
+    },
+    {
+      "id": "https://openalex.org/C153911025",
+      "wikidata": "https://www.wikidata.org/wiki/Q7202",
+      "display_name": "Molecular biology",
+      "level": 1,
+      "score": 0.3222337
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.31573844
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000312",
+      "descriptor_name": "Adrenal Hyperplasia, Congenital",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000312",
+      "descriptor_name": "Adrenal Hyperplasia, Congenital",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003577",
+      "descriptor_name": "Cytochrome P-450 Enzyme System",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008958",
+      "descriptor_name": "Models, Molecular",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013255",
+      "descriptor_name": "Steroid 21-Hydroxylase",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013255",
+      "descriptor_name": "Steroid 21-Hydroxylase",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000312",
+      "descriptor_name": "Adrenal Hyperplasia, Congenital",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000595",
+      "descriptor_name": "Amino Acid Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001665",
+      "descriptor_name": "Binding Sites",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003577",
+      "descriptor_name": "Cytochrome P-450 Enzyme System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000072467",
+      "descriptor_name": "Cytochrome P450 Family 2",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004795",
+      "descriptor_name": "Enzyme Stability",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014644",
+      "descriptor_name": "Genetic Variation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006418",
+      "descriptor_name": "Heme",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006418",
+      "descriptor_name": "Heme",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057927",
+      "descriptor_name": "Hydrophobic and Hydrophilic Interactions",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D050505",
+      "descriptor_name": "Mutant Proteins",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D050505",
+      "descriptor_name": "Mutant Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009154",
+      "descriptor_name": "Mutation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010084",
+      "descriptor_name": "Oxidation-Reduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011485",
+      "descriptor_name": "Protein Binding",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D025941",
+      "descriptor_name": "Protein Interaction Mapping",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017433",
+      "descriptor_name": "Protein Structure, Secondary",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011817",
+      "descriptor_name": "Rabbits",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012720",
+      "descriptor_name": "Severity of Illness Index",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013045",
+      "descriptor_name": "Species Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013255",
+      "descriptor_name": "Steroid 21-Hydroxylase",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013256",
+      "descriptor_name": "Steroids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013256",
+      "descriptor_name": "Steroids",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013329",
+      "descriptor_name": "Structure-Activity Relationship",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1210/me.2006-0172",
+      "pdf_url": "https://academic.oup.com/mend/article-pdf/20/11/2946/10720481/mend2946.pdf",
+      "source": {
+        "id": "https://openalex.org/S57449756",
+        "display_name": "Molecular Endocrinology",
+        "issn_l": "0888-8809",
+        "issn": [
+          "0888-8809",
+          "1944-9917"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16788163",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1210/me.2006-0172",
+    "pdf_url": "https://academic.oup.com/mend/article-pdf/20/11/2946/10720481/mend2946.pdf",
+    "source": {
+      "id": "https://openalex.org/S57449756",
+      "display_name": "Molecular Endocrinology",
+      "issn_l": "0888-8809",
+      "issn": [
+        "0888-8809",
+        "1944-9917"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.47,
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 106,
+  "referenced_works": [
+    "https://openalex.org/W1486315165",
+    "https://openalex.org/W1498652161",
+    "https://openalex.org/W1526226205",
+    "https://openalex.org/W1532212858",
+    "https://openalex.org/W1534270226",
+    "https://openalex.org/W1546744738",
+    "https://openalex.org/W1563095952",
+    "https://openalex.org/W1568019658",
+    "https://openalex.org/W1569556448",
+    "https://openalex.org/W1968510808",
+    "https://openalex.org/W1970009415",
+    "https://openalex.org/W1971168917",
+    "https://openalex.org/W1971722050",
+    "https://openalex.org/W1974392518",
+    "https://openalex.org/W1975206909",
+    "https://openalex.org/W1975304761",
+    "https://openalex.org/W1977772896",
+    "https://openalex.org/W1986191025",
+    "https://openalex.org/W1991831733",
+    "https://openalex.org/W1994535120",
+    "https://openalex.org/W1995478133",
+    "https://openalex.org/W1999383531",
+    "https://openalex.org/W1999647347",
+    "https://openalex.org/W2000051743",
+    "https://openalex.org/W2003754342",
+    "https://openalex.org/W2005873167",
+    "https://openalex.org/W2007481779",
+    "https://openalex.org/W2008162227",
+    "https://openalex.org/W2008987333",
+    "https://openalex.org/W2010143253",
+    "https://openalex.org/W2011826075",
+    "https://openalex.org/W2012819681",
+    "https://openalex.org/W2014919794",
+    "https://openalex.org/W2015197852",
+    "https://openalex.org/W2015292449",
+    "https://openalex.org/W2016469762",
+    "https://openalex.org/W2019580986",
+    "https://openalex.org/W2021443530",
+    "https://openalex.org/W2023463682",
+    "https://openalex.org/W2025630748",
+    "https://openalex.org/W2027638447",
+    "https://openalex.org/W2029203009",
+    "https://openalex.org/W2032865420",
+    "https://openalex.org/W2036685668",
+    "https://openalex.org/W2038244727",
+    "https://openalex.org/W2045270018",
+    "https://openalex.org/W2046022378",
+    "https://openalex.org/W2048638248",
+    "https://openalex.org/W2053619539",
+    "https://openalex.org/W2062081085",
+    "https://openalex.org/W2062683863",
+    "https://openalex.org/W2066087726",
+    "https://openalex.org/W2066497061",
+    "https://openalex.org/W2066683571",
+    "https://openalex.org/W2069055157",
+    "https://openalex.org/W2069447114",
+    "https://openalex.org/W2070098436",
+    "https://openalex.org/W2072469614",
+    "https://openalex.org/W2076329732",
+    "https://openalex.org/W2078963813",
+    "https://openalex.org/W2079193288",
+    "https://openalex.org/W2079797905",
+    "https://openalex.org/W2080323158",
+    "https://openalex.org/W2081336712",
+    "https://openalex.org/W2082632137",
+    "https://openalex.org/W2083638631",
+    "https://openalex.org/W2084407372",
+    "https://openalex.org/W2088313895",
+    "https://openalex.org/W2089244364",
+    "https://openalex.org/W2091092714",
+    "https://openalex.org/W2092019850",
+    "https://openalex.org/W2102835260",
+    "https://openalex.org/W2104143494",
+    "https://openalex.org/W2104180764",
+    "https://openalex.org/W2105665746",
+    "https://openalex.org/W2106882534",
+    "https://openalex.org/W2112100343",
+    "https://openalex.org/W2115293892",
+    "https://openalex.org/W2120594372",
+    "https://openalex.org/W2124931556",
+    "https://openalex.org/W2126592776",
+    "https://openalex.org/W2127771741",
+    "https://openalex.org/W2130071672",
+    "https://openalex.org/W2130434638",
+    "https://openalex.org/W2130479394",
+    "https://openalex.org/W2132443012",
+    "https://openalex.org/W2136382449",
+    "https://openalex.org/W2138248780",
+    "https://openalex.org/W2138979064",
+    "https://openalex.org/W2142121938",
+    "https://openalex.org/W2146265252",
+    "https://openalex.org/W2148614804",
+    "https://openalex.org/W2150946709",
+    "https://openalex.org/W2156423252",
+    "https://openalex.org/W2156708997",
+    "https://openalex.org/W2157165549",
+    "https://openalex.org/W2161062388",
+    "https://openalex.org/W2163059891",
+    "https://openalex.org/W2167246617",
+    "https://openalex.org/W2461746038",
+    "https://openalex.org/W4232772006",
+    "https://openalex.org/W4237226358",
+    "https://openalex.org/W4240222313",
+    "https://openalex.org/W4241883955",
+    "https://openalex.org/W4247276840",
+    "https://openalex.org/W4253198722"
+  ],
+  "related_works": [
+    "https://openalex.org/W4390111663",
+    "https://openalex.org/W4364381319",
+    "https://openalex.org/W4250059987",
+    "https://openalex.org/W3174018967",
+    "https://openalex.org/W2780461556",
+    "https://openalex.org/W2419314735",
+    "https://openalex.org/W2386130216",
+    "https://openalex.org/W2328365551",
+    "https://openalex.org/W2050670096",
+    "https://openalex.org/W2050191823"
+  ],
+  "abstract_inverted_index": {
+    "Enhanced": [
+      0
+    ],
+    "understanding": [
+      1
+    ],
+    "of": [
+      2,
+      5,
+      17,
+      27,
+      37,
+      46,
+      51,
+      92,
+      95,
+      133,
+      144,
+      165,
+      186,
+      193,
+      199
+    ],
+    "structure-function": [
+      3
+    ],
+    "relationships": [
+      4
+    ],
+    "human": [
+      6,
+      28
+    ],
+    "21-hydroxylase,": [
+      7
+    ],
+    "CYP21,": [
+      8
+    ],
+    "is": [
+      9
+    ],
+    "required": [
+      10
+    ],
+    "to": [
+      11,
+      100,
+      114
+    ],
+    "better": [
+      12
+    ],
+    "understand": [
+      13
+    ],
+    "the": [
+      14,
+      34,
+      68,
+      104,
+      177,
+      191
+    ],
+    "molecular": [
+      15,
+      171
+    ],
+    "causes": [
+      16
+    ],
+    "congenital": [
+      18,
+      162
+    ],
+    "adrenal": [
+      19,
+      163
+    ],
+    "hyperplasia.": [
+      20
+    ],
+    "To": [
+      21
+    ],
+    "this": [
+      22,
+      62
+    ],
+    "end,": [
+      23
+    ],
+    "a": [
+      24,
+      49,
+      194
+    ],
+    "structural": [
+      25,
+      65,
+      142
+    ],
+    "model": [
+      26
+    ],
+    "CYP21": [
+      29,
+      187,
+      201
+    ],
+    "was": [
+      30,
+      71
+    ],
+    "calculated": [
+      31
+    ],
+    "based": [
+      32
+    ],
+    "on": [
+      33
+    ],
+    "crystal": [
+      35
+    ],
+    "structure": [
+      36
+    ],
+    "rabbit": [
+      38
+    ],
+    "CYP2C5.": [
+      39
+    ],
+    "All": [
+      40
+    ],
+    "but": [
+      41,
+      75
+    ],
+    "two": [
+      42,
+      76
+    ],
+    "known": [
+      43
+    ],
+    "allelic": [
+      44
+    ],
+    "variants": [
+      45
+    ],
+    "missense": [
+      47
+    ],
+    "type,": [
+      48
+    ],
+    "total": [
+      50
+    ],
+    "60": [
+      52
+    ],
+    "disease-causing": [
+      53
+    ],
+    "mutations": [
+      54
+    ],
+    "and": [
+      55,
+      119,
+      125,
+      131,
+      141,
+      154
+    ],
+    "six": [
+      56
+    ],
+    "normal": [
+      57
+    ],
+    "variants,": [
+      58
+    ],
+    "were": [
+      59,
+      98,
+      112,
+      168
+    ],
+    "analyzed": [
+      60
+    ],
+    "using": [
+      61,
+      128,
+      170
+    ],
+    "model.": [
+      63
+    ],
+    "A": [
+      64
+    ],
+    "explanation": [
+      66
+    ],
+    "for": [
+      67,
+      73,
+      78
+    ],
+    "corresponding": [
+      69,
+      105
+    ],
+    "phenotype": [
+      70
+    ],
+    "found": [
+      72,
+      99
+    ],
+    "all": [
+      74
+    ],
+    "mutants": [
+      77,
+      97
+    ],
+    "which": [
+      79,
+      189
+    ],
+    "available": [
+      80
+    ],
+    "clinical": [
+      81,
+      106,
+      184
+    ],
+    "data": [
+      82
+    ],
+    "are": [
+      83,
+      179
+    ],
+    "also": [
+      84
+    ],
+    "discrepant": [
+      85
+    ],
+    "with": [
+      86,
+      103,
+      160,
+      183
+    ],
+    "in": [
+      87,
+      117,
+      157,
+      180,
+      197
+    ],
+    "vitro": [
+      88
+    ],
+    "enzyme": [
+      89,
+      126
+    ],
+    "activity.": [
+      90
+    ],
+    "Calculations": [
+      91
+    ],
+    "protein": [
+      93
+    ],
+    "stability": [
+      94
+    ],
+    "modeled": [
+      96
+    ],
+    "correlate": [
+      101
+    ],
+    "inversely": [
+      102
+    ],
+    "severity.": [
+      107
+    ],
+    "Putative": [
+      108
+    ],
+    "structurally": [
+      109,
+      134
+    ],
+    "important": [
+      110
+    ],
+    "residues": [
+      111
+    ],
+    "identified": [
+      113
+    ],
+    "be": [
+      115
+    ],
+    "involved": [
+      116
+    ],
+    "heme": [
+      118
+    ],
+    "substrate": [
+      120
+    ],
+    "binding,": [
+      121
+    ],
+    "redox": [
+      122
+    ],
+    "partner": [
+      123
+    ],
+    "interaction,": [
+      124
+    ],
+    "catalysis": [
+      127
+    ],
+    "docking": [
+      129
+    ],
+    "calculations": [
+      130
+    ],
+    "analysis": [
+      132
+    ],
+    "determined": [
+      135
+    ],
+    "homologous": [
+      136
+    ],
+    "cytochrome": [
+      137
+    ],
+    "P450s": [
+      138
+    ],
+    "(CYPs).": [
+      139
+    ],
+    "Functional": [
+      140
+    ],
+    "consequences": [
+      143
+    ],
+    "seven": [
+      145
+    ],
+    "novel": [
+      146
+    ],
+    "mutations,": [
+      147
+    ],
+    "V139E,": [
+      148
+    ],
+    "C147R,": [
+      149
+    ],
+    "R233G,": [
+      150
+    ],
+    "T295N,": [
+      151
+    ],
+    "L308F,": [
+      152
+    ],
+    "R366C,": [
+      153
+    ],
+    "M473I,": [
+      155
+    ],
+    "detected": [
+      156
+    ],
+    "Scandinavian": [
+      158
+    ],
+    "patients": [
+      159
+    ],
+    "suspected": [
+      161
+    ],
+    "hyperplasia": [
+      164
+    ],
+    "different": [
+      166
+    ],
+    "severity,": [
+      167
+    ],
+    "predicted": [
+      169
+    ],
+    "modeling.": [
+      172
+    ],
+    "Structural": [
+      173
+    ],
+    "features": [
+      174
+    ],
+    "deduced": [
+      175
+    ],
+    "from": [
+      176
+    ],
+    "models": [
+      178
+    ],
+    "good": [
+      181
+    ],
+    "correlation": [
+      182
+    ],
+    "severity": [
+      185
+    ],
+    "mutants,": [
+      188
+    ],
+    "shows": [
+      190
+    ],
+    "applicability": [
+      192
+    ],
+    "modeling": [
+      195
+    ],
+    "approach": [
+      196
+    ],
+    "assessment": [
+      198
+    ],
+    "new": [
+      200
+    ],
+    "mutations.": [
+      202
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1977244019",
+  "counts_by_year": [
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-05-22T22:23:43.403382",
+  "created_date": "2016-06-24"
+}

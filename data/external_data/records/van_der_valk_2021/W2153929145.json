@@ -1,0 +1,964 @@
+{
+  "id": "https://openalex.org/W2153929145",
+  "doi": "https://doi.org/10.1016/j.psyneuen.2015.08.017",
+  "title": "IL-8 and the innate immunity as biomarkers in acute child and adolescent psychopathology",
+  "display_name": "IL-8 and the innate immunity as biomarkers in acute child and adolescent psychopathology",
+  "publication_year": 2015,
+  "publication_date": "2015-08-21",
+  "ids": {
+    "openalex": "https://openalex.org/W2153929145",
+    "doi": "https://doi.org/10.1016/j.psyneuen.2015.08.017",
+    "mag": "2153929145",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/26325024"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.psyneuen.2015.08.017",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S81924583",
+      "display_name": "Psychoneuroendocrinology",
+      "issn_l": "0306-4530",
+      "issn": [
+        "0306-4530",
+        "1873-3360"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5077192348",
+        "display_name": "Maria Gariup",
+        "orcid": "https://orcid.org/0009-0008-7291-7287"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210124411",
+          "display_name": "Kolding Hospital",
+          "ror": "https://ror.org/037y5zq83",
+          "country_code": "DK",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210124411",
+            "https://openalex.org/I4210142184"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I71999127",
+          "display_name": "Universitat de Barcelona",
+          "ror": "https://ror.org/021018s57",
+          "country_code": "ES",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I71999127"
+          ]
+        }
+      ],
+      "countries": [
+        "DK",
+        "ES"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Maria Gariup",
+      "raw_affiliation_strings": [
+        "Medicine Faculty, Barcelona University, C/ Villarroel 170, Barcelona 08036, Spain",
+        "Psychiatry Department, Kolding Hospital, Skovvejen, Kolding 6000, Denmark"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Psychiatry Department, Kolding Hospital, Skovvejen, Kolding 6000, Denmark",
+          "institution_ids": [
+            "https://openalex.org/I4210124411"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Medicine Faculty, Barcelona University, C/ Villarroel 170, Barcelona 08036, Spain",
+          "institution_ids": [
+            "https://openalex.org/I71999127"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109447684",
+        "display_name": "Azucena González",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210115097",
+          "display_name": "Hospital Clínic de Barcelona",
+          "ror": "https://ror.org/02a2kzf50",
+          "country_code": "ES",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210115097"
+          ]
+        }
+      ],
+      "countries": [
+        "ES"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Azucena Gonzalez",
+      "raw_affiliation_strings": [
+        "Immunonlogy Dept., Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Immunonlogy Dept., Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210115097"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067605571",
+        "display_name": "Luisa Lázaro",
+        "orcid": "https://orcid.org/0000-0002-8425-5750"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I71999127",
+          "display_name": "Universitat de Barcelona",
+          "ror": "https://ror.org/021018s57",
+          "country_code": "ES",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I71999127"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210090703",
+          "display_name": "Centro de Investigación Biomédica en Red de Salud Mental",
+          "ror": "https://ror.org/009byq155",
+          "country_code": "ES",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2801357902",
+            "https://openalex.org/I4210090703",
+            "https://openalex.org/I4387152914"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210115097",
+          "display_name": "Hospital Clínic de Barcelona",
+          "ror": "https://ror.org/02a2kzf50",
+          "country_code": "ES",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210115097"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210160192",
+          "display_name": "Consorci Institut D'Investigacions Biomediques August Pi I Sunyer",
+          "ror": "https://ror.org/054vayn55",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210160192",
+            "https://openalex.org/I4387153040"
+          ]
+        }
+      ],
+      "countries": [
+        "ES"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Luisa Lázaro",
+      "raw_affiliation_strings": [
+        "August Pi i Sunyer Biomedical Research Institute (IDIBAPS), Barcelona, Spain",
+        "CIBERSAM (Centro de Investigación Biomédica en Red de Salud Mental), Group G04, Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain",
+        "Child and Adolescent Psychiatry, Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain",
+        "Medicine Faculty, Barcelona University, C/ Villarroel 170, Barcelona 08036, Spain"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Medicine Faculty, Barcelona University, C/ Villarroel 170, Barcelona 08036, Spain",
+          "institution_ids": [
+            "https://openalex.org/I71999127"
+          ]
+        },
+        {
+          "raw_affiliation_string": "CIBERSAM (Centro de Investigación Biomédica en Red de Salud Mental), Group G04, Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210090703"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Child and Adolescent Psychiatry, Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210115097"
+          ]
+        },
+        {
+          "raw_affiliation_string": "August Pi i Sunyer Biomedical Research Institute (IDIBAPS), Barcelona, Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210160192"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014511134",
+        "display_name": "Ferrán Torres",
+        "orcid": "https://orcid.org/0000-0002-7355-7913"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I123044942",
+          "display_name": "Universitat Autònoma de Barcelona",
+          "ror": "https://ror.org/052g8jq94",
+          "country_code": "ES",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I123044942"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210160192",
+          "display_name": "Consorci Institut D'Investigacions Biomediques August Pi I Sunyer",
+          "ror": "https://ror.org/054vayn55",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210160192",
+            "https://openalex.org/I4387153040"
+          ]
+        }
+      ],
+      "countries": [
+        "ES"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ferran Torres",
+      "raw_affiliation_strings": [
+        "August Pi i Sunyer Biomedical Research Institute (IDIBAPS), Barcelona, Spain",
+        "Biostatistics Unit, School of Medicine, Universitat Autònoma de Barcelona, Barcelona, Spain"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Biostatistics Unit, School of Medicine, Universitat Autònoma de Barcelona, Barcelona, Spain",
+          "institution_ids": [
+            "https://openalex.org/I123044942"
+          ]
+        },
+        {
+          "raw_affiliation_string": "August Pi i Sunyer Biomedical Research Institute (IDIBAPS), Barcelona, Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210160192"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041567201",
+        "display_name": "Carles Serra‐Pages",
+        "orcid": "https://orcid.org/0000-0001-9015-2494"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I71999127",
+          "display_name": "Universitat de Barcelona",
+          "ror": "https://ror.org/021018s57",
+          "country_code": "ES",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I71999127"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210115097",
+          "display_name": "Hospital Clínic de Barcelona",
+          "ror": "https://ror.org/02a2kzf50",
+          "country_code": "ES",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210115097"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210160192",
+          "display_name": "Consorci Institut D'Investigacions Biomediques August Pi I Sunyer",
+          "ror": "https://ror.org/054vayn55",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210160192",
+            "https://openalex.org/I4387153040"
+          ]
+        }
+      ],
+      "countries": [
+        "ES"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Carles Serra-Pagès",
+      "raw_affiliation_strings": [
+        "August Pi i Sunyer Biomedical Research Institute (IDIBAPS), Barcelona, Spain",
+        "Immunonlogy Dept., Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain",
+        "Medicine Faculty, Barcelona University, C/ Villarroel 170, Barcelona 08036, Spain"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Medicine Faculty, Barcelona University, C/ Villarroel 170, Barcelona 08036, Spain",
+          "institution_ids": [
+            "https://openalex.org/I71999127"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Immunonlogy Dept., Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210115097"
+          ]
+        },
+        {
+          "raw_affiliation_string": "August Pi i Sunyer Biomedical Research Institute (IDIBAPS), Barcelona, Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210160192"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5001263015",
+        "display_name": "Àstrid Morer",
+        "orcid": "https://orcid.org/0000-0001-8109-7008"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210115097",
+          "display_name": "Hospital Clínic de Barcelona",
+          "ror": "https://ror.org/02a2kzf50",
+          "country_code": "ES",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210115097"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210090703",
+          "display_name": "Centro de Investigación Biomédica en Red de Salud Mental",
+          "ror": "https://ror.org/009byq155",
+          "country_code": "ES",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I2801357902",
+            "https://openalex.org/I4210090703",
+            "https://openalex.org/I4387152914"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210160192",
+          "display_name": "Consorci Institut D'Investigacions Biomediques August Pi I Sunyer",
+          "ror": "https://ror.org/054vayn55",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210160192",
+            "https://openalex.org/I4387153040"
+          ]
+        }
+      ],
+      "countries": [
+        "ES"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Astrid Morer",
+      "raw_affiliation_strings": [
+        "August Pi i Sunyer Biomedical Research Institute (IDIBAPS), Barcelona, Spain",
+        "CIBERSAM (Centro de Investigación Biomédica en Red de Salud Mental), Group G04, Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain",
+        "Child and Adolescent Psychiatry, Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Child and Adolescent Psychiatry, Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210115097"
+          ]
+        },
+        {
+          "raw_affiliation_string": "CIBERSAM (Centro de Investigación Biomédica en Red de Salud Mental), Group G04, Hospital Clínic, C/ Villarroel 170, Barcelona 08036, Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210090703"
+          ]
+        },
+        {
+          "raw_affiliation_string": "August Pi i Sunyer Biomedical Research Institute (IDIBAPS), Barcelona, Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210160192"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5077192348"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210124411",
+    "https://openalex.org/I71999127"
+  ],
+  "apc_list": {
+    "value": 3850,
+    "currency": "USD",
+    "value_usd": 3850
+  },
+  "apc_paid": null,
+  "fwci": 1.316,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 46,
+  "citation_normalized_percentile": {
+    "value": 0.998361,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "62",
+    "issue": null,
+    "first_page": "233",
+    "last_page": "242"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11337",
+    "display_name": "Tryptophan and brain disorders",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2803",
+      "display_name": "Biological Psychiatry"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11337",
+      "display_name": "Tryptophan and brain disorders",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2803",
+        "display_name": "Biological Psychiatry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13283",
+      "display_name": "Mental Health Research Topics",
+      "score": 0.9889,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/interquartile-range",
+      "display_name": "Interquartile range",
+      "score": 0.52627385
+    },
+    {
+      "id": "https://openalex.org/keywords/stressor",
+      "display_name": "Stressor",
+      "score": 0.45091587
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C123273963",
+      "wikidata": "https://www.wikidata.org/wiki/Q624758",
+      "display_name": "Psychopathology",
+      "level": 2,
+      "score": 0.7671964
+    },
+    {
+      "id": "https://openalex.org/C150966472",
+      "wikidata": "https://www.wikidata.org/wiki/Q3410145",
+      "display_name": "Psychosocial",
+      "level": 2,
+      "score": 0.6281254
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.61090785
+    },
+    {
+      "id": "https://openalex.org/C2778690821",
+      "wikidata": "https://www.wikidata.org/wiki/Q212354",
+      "display_name": "Cytokine",
+      "level": 2,
+      "score": 0.59843045
+    },
+    {
+      "id": "https://openalex.org/C119060515",
+      "wikidata": "https://www.wikidata.org/wiki/Q1916617",
+      "display_name": "Interquartile range",
+      "level": 2,
+      "score": 0.52627385
+    },
+    {
+      "id": "https://openalex.org/C558461103",
+      "wikidata": "https://www.wikidata.org/wiki/Q154430",
+      "display_name": "Anxiety",
+      "level": 2,
+      "score": 0.48491436
+    },
+    {
+      "id": "https://openalex.org/C125370674",
+      "wikidata": "https://www.wikidata.org/wiki/Q1527480",
+      "display_name": "Stressor",
+      "level": 2,
+      "score": 0.45091587
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.4111709
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.40475422
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.34523374
+    },
+    {
+      "id": "https://openalex.org/C70410870",
+      "wikidata": "https://www.wikidata.org/wiki/Q199906",
+      "display_name": "Clinical psychology",
+      "level": 1,
+      "score": 0.32095808
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D007113",
+      "descriptor_name": "Immunity, Innate",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016209",
+      "descriptor_name": "Interleukin-8",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001523",
+      "descriptor_name": "Mental Disorders",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016207",
+      "descriptor_name": "Cytokines",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016207",
+      "descriptor_name": "Cytokines",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007113",
+      "descriptor_name": "Immunity, Innate",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007249",
+      "descriptor_name": "Inflammation",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007249",
+      "descriptor_name": "Inflammation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007249",
+      "descriptor_name": "Inflammation",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016209",
+      "descriptor_name": "Interleukin-8",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001523",
+      "descriptor_name": "Mental Disorders",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001523",
+      "descriptor_name": "Mental Disorders",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.psyneuen.2015.08.017",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S81924583",
+        "display_name": "Psychoneuroendocrinology",
+        "issn_l": "0306-4530",
+        "issn": [
+          "0306-4530",
+          "1873-3360"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/26325024",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.75
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 50,
+  "referenced_works": [
+    "https://openalex.org/W121389000",
+    "https://openalex.org/W1489805892",
+    "https://openalex.org/W1497106682",
+    "https://openalex.org/W1512865237",
+    "https://openalex.org/W1973814799",
+    "https://openalex.org/W1980952315",
+    "https://openalex.org/W1985020551",
+    "https://openalex.org/W1985438873",
+    "https://openalex.org/W1986373853",
+    "https://openalex.org/W1986683334",
+    "https://openalex.org/W1991512733",
+    "https://openalex.org/W1997908175",
+    "https://openalex.org/W2000779607",
+    "https://openalex.org/W2004243143",
+    "https://openalex.org/W2015411783",
+    "https://openalex.org/W2018524106",
+    "https://openalex.org/W2031080682",
+    "https://openalex.org/W2037158815",
+    "https://openalex.org/W2042755650",
+    "https://openalex.org/W2045940397",
+    "https://openalex.org/W2046989317",
+    "https://openalex.org/W2047698397",
+    "https://openalex.org/W2049808835",
+    "https://openalex.org/W2052714177",
+    "https://openalex.org/W2055568104",
+    "https://openalex.org/W2058136479",
+    "https://openalex.org/W2062117677",
+    "https://openalex.org/W2065589358",
+    "https://openalex.org/W2069809946",
+    "https://openalex.org/W2073537354",
+    "https://openalex.org/W2079657721",
+    "https://openalex.org/W2082279387",
+    "https://openalex.org/W2084349484",
+    "https://openalex.org/W2090804892",
+    "https://openalex.org/W2091259554",
+    "https://openalex.org/W2093203548",
+    "https://openalex.org/W2096023481",
+    "https://openalex.org/W2107807525",
+    "https://openalex.org/W2114879270",
+    "https://openalex.org/W2114949397",
+    "https://openalex.org/W2118540296",
+    "https://openalex.org/W2118775806",
+    "https://openalex.org/W2134543031",
+    "https://openalex.org/W2138970660",
+    "https://openalex.org/W2139852368",
+    "https://openalex.org/W2168007306",
+    "https://openalex.org/W2168463527",
+    "https://openalex.org/W2169690159",
+    "https://openalex.org/W2170016495",
+    "https://openalex.org/W2171401470"
+  ],
+  "related_works": [
+    "https://openalex.org/W73192429",
+    "https://openalex.org/W4386009577",
+    "https://openalex.org/W4292573045",
+    "https://openalex.org/W3130621552",
+    "https://openalex.org/W2981615369",
+    "https://openalex.org/W2793077515",
+    "https://openalex.org/W2606644627",
+    "https://openalex.org/W2487490720",
+    "https://openalex.org/W2126365059",
+    "https://openalex.org/W2012574817"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2153929145",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-16T09:52:07.855074",
+  "created_date": "2016-06-24"
+}

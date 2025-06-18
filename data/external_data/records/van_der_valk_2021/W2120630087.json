@@ -1,0 +1,1269 @@
+{
+  "id": "https://openalex.org/W2120630087",
+  "doi": "https://doi.org/10.1093/gerona/61.10.1070",
+  "title": "Predicting Mortality From Clinical and Nonclinical Biomarkers",
+  "display_name": "Predicting Mortality From Clinical and Nonclinical Biomarkers",
+  "publication_year": 2006,
+  "publication_date": "2006-10-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2120630087",
+    "doi": "https://doi.org/10.1093/gerona/61.10.1070",
+    "mag": "2120630087",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/17077201"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/gerona/61.10.1070",
+    "pdf_url": "https://academic.oup.com/biomedgerontology/article-pdf/61/10/1070/1637029/1070.pdf",
+    "source": {
+      "id": "https://openalex.org/S969433497",
+      "display_name": "The Journals of Gerontology Series A",
+      "issn_l": "1079-5006",
+      "issn": [
+        "1079-5006",
+        "1758-535X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://academic.oup.com/biomedgerontology/article-pdf/61/10/1070/1637029/1070.pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5038590662",
+        "display_name": "Noreen Goldman",
+        "orcid": "https://orcid.org/0000-0003-2865-9491"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20089843",
+          "display_name": "Princeton University",
+          "ror": "https://ror.org/00hx57361",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I20089843"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N. Goldman",
+      "raw_affiliation_strings": [
+        "DSc, Office of Population Research, Princeton University, 243 Wallace Hall, Princeton, New Jersey 08544-2091, USA. ngoldman@princeton.edu"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "DSc, Office of Population Research, Princeton University, 243 Wallace Hall, Princeton, New Jersey 08544-2091, USA. ngoldman@princeton.edu",
+          "institution_ids": [
+            "https://openalex.org/I20089843"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010854202",
+        "display_name": "Cássio M. Turra",
+        "orcid": "https://orcid.org/0000-0003-4051-3567"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I110200422",
+          "display_name": "Universidade Federal de Minas Gerais",
+          "ror": "https://ror.org/0176yjw32",
+          "country_code": "BR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I110200422"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "C. M. Turra",
+      "raw_affiliation_strings": [
+        "Cedeplar, Federal University of Minas Gerais, Brazil."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cedeplar, Federal University of Minas Gerais, Brazil.",
+          "institution_ids": [
+            "https://openalex.org/I110200422"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5020667451",
+        "display_name": "Dana A. Glei",
+        "orcid": "https://orcid.org/0000-0002-2865-9355"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I95457486",
+          "display_name": "University of California, Berkeley",
+          "ror": "https://ror.org/01an7q238",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D. A. Glei",
+      "raw_affiliation_strings": [
+        "Department of Demography, University of California, Berkeley."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Demography, University of California, Berkeley.",
+          "institution_ids": [
+            "https://openalex.org/I95457486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014380244",
+        "display_name": "Christopher L. Seplaki",
+        "orcid": "https://orcid.org/0000-0001-8296-7714"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145311948",
+          "display_name": "Johns Hopkins University",
+          "ror": "https://ror.org/00za53h95",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145311948"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "C. L. Seplaki",
+      "raw_affiliation_strings": [
+        "Center on Aging and Health and",
+        "Department of Population, Family, and Reproductive Health, Johns Hopkins University, Baltimore, Maryland."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center on Aging and Health and",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Department of Population, Family, and Reproductive Health, Johns Hopkins University, Baltimore, Maryland.",
+          "institution_ids": [
+            "https://openalex.org/I145311948"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048766373",
+        "display_name": "Yu‐Hsuan Lin",
+        "orcid": "https://orcid.org/0000-0001-5311-0623"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210121532",
+          "display_name": "Ministry of Health and Welfare",
+          "ror": "https://ror.org/024w0ge69",
+          "country_code": "TW",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210121532",
+            "https://openalex.org/I4410514724"
+          ]
+        }
+      ],
+      "countries": [
+        "TW"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Y.-H. Lin",
+      "raw_affiliation_strings": [
+        "Center for Population and Health Survey Research, Bureau of Health Promotion, Department of Health, Taichung, Taiwan."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Population and Health Survey Research, Bureau of Health Promotion, Department of Health, Taichung, Taiwan.",
+          "institution_ids": [
+            "https://openalex.org/I4210121532"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5052313922",
+        "display_name": "Maxine Weinstein",
+        "orcid": "https://orcid.org/0000-0002-4872-2964"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I184565670",
+          "display_name": "Georgetown University",
+          "ror": "https://ror.org/05vzafd60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I184565670"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M. Weinstein",
+      "raw_affiliation_strings": [
+        "Center for Population and Health, Georgetown University, Washington, D.C."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Population and Health, Georgetown University, Washington, D.C.",
+          "institution_ids": [
+            "https://openalex.org/I184565670"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.209,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 62,
+  "citation_normalized_percentile": {
+    "value": 0.868658,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 95
+  },
+  "biblio": {
+    "volume": "61",
+    "issue": "10",
+    "first_page": "1070",
+    "last_page": "1074"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12485",
+    "display_name": "Optimism, Hope, and Well-being",
+    "score": 0.9653,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3202",
+      "display_name": "Applied Psychology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/32",
+      "display_name": "Psychology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12485",
+      "display_name": "Optimism, Hope, and Well-being",
+      "score": 0.9653,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3202",
+        "display_name": "Applied Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10351",
+      "display_name": "Liver Disease Diagnosis and Treatment",
+      "score": 0.913,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.42366806
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D009026",
+      "descriptor_name": "Mortality",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015415",
+      "descriptor_name": "Biomarkers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015992",
+      "descriptor_name": "Body Mass Index",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006442",
+      "descriptor_name": "Glycated Hemoglobin A",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006442",
+      "descriptor_name": "Glycated Hemoglobin A",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007109",
+      "descriptor_name": "Immunity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016015",
+      "descriptor_name": "Logistic Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012372",
+      "descriptor_name": "ROC Curve",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013564",
+      "descriptor_name": "Sympathetic Nervous System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013564",
+      "descriptor_name": "Sympathetic Nervous System",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/gerona/61.10.1070",
+      "pdf_url": "https://academic.oup.com/biomedgerontology/article-pdf/61/10/1070/1637029/1070.pdf",
+      "source": {
+        "id": "https://openalex.org/S969433497",
+        "display_name": "The Journals of Gerontology Series A",
+        "issn_l": "1079-5006",
+        "issn": [
+          "1079-5006",
+          "1758-535X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17077201",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/gerona/61.10.1070",
+    "pdf_url": "https://academic.oup.com/biomedgerontology/article-pdf/61/10/1070/1637029/1070.pdf",
+    "source": {
+      "id": "https://openalex.org/S969433497",
+      "display_name": "The Journals of Gerontology Series A",
+      "issn_l": "1079-5006",
+      "issn": [
+        "1079-5006",
+        "1758-535X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Reduced inequalities",
+      "score": 0.59,
+      "id": "https://metadata.un.org/sdg/10"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 31,
+  "referenced_works": [
+    "https://openalex.org/W1668817969",
+    "https://openalex.org/W1971827490",
+    "https://openalex.org/W1973826125",
+    "https://openalex.org/W1973948212",
+    "https://openalex.org/W1975930395",
+    "https://openalex.org/W1977196617",
+    "https://openalex.org/W1979741390",
+    "https://openalex.org/W1980533762",
+    "https://openalex.org/W1982835526",
+    "https://openalex.org/W1983973676",
+    "https://openalex.org/W1988124167",
+    "https://openalex.org/W1988156403",
+    "https://openalex.org/W1989199511",
+    "https://openalex.org/W2001369881",
+    "https://openalex.org/W2012833408",
+    "https://openalex.org/W2045096386",
+    "https://openalex.org/W2054893928",
+    "https://openalex.org/W2060873087",
+    "https://openalex.org/W2103970084",
+    "https://openalex.org/W2131142573",
+    "https://openalex.org/W2131879161",
+    "https://openalex.org/W2140866955",
+    "https://openalex.org/W2142153815",
+    "https://openalex.org/W2155766766",
+    "https://openalex.org/W2166163560",
+    "https://openalex.org/W2169305195",
+    "https://openalex.org/W2170129531",
+    "https://openalex.org/W2321159297",
+    "https://openalex.org/W2328176404",
+    "https://openalex.org/W2347171837",
+    "https://openalex.org/W2996792868"
+  ],
+  "related_works": [
+    "https://openalex.org/W4389568370",
+    "https://openalex.org/W3108674512",
+    "https://openalex.org/W3032375762",
+    "https://openalex.org/W3031052312",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2148612803",
+    "https://openalex.org/W2080531066",
+    "https://openalex.org/W1995515455",
+    "https://openalex.org/W1506200166",
+    "https://openalex.org/W1489783725"
+  ],
+  "abstract_inverted_index": {
+    "Few": [
+      0
+    ],
+    "studies": [
+      1,
+      208
+    ],
+    "focus": [
+      2
+    ],
+    "on": [
+      3,
+      93
+    ],
+    "\"preclinical\"": [
+      4
+    ],
+    "warning": [
+      5,
+      185
+    ],
+    "signs": [
+      6,
+      186
+    ],
+    "associated": [
+      7,
+      119
+    ],
+    "with": [
+      8,
+      96,
+      120,
+      124,
+      138,
+      204
+    ],
+    "mortality.": [
+      9
+    ],
+    "In": [
+      10
+    ],
+    "this": [
+      11
+    ],
+    "article,": [
+      12
+    ],
+    "we": [
+      13
+    ],
+    "investigate": [
+      14
+    ],
+    "associations": [
+      15
+    ],
+    "between": [
+      16,
+      105,
+      143
+    ],
+    "all-cause": [
+      17
+    ],
+    "mortality": [
+      18,
+      148,
+      233
+    ],
+    "and": [
+      19,
+      34,
+      37,
+      50,
+      59,
+      82,
+      107,
+      126,
+      132,
+      147,
+      174,
+      190,
+      216,
+      222
+    ],
+    "two": [
+      20
+    ],
+    "clusters": [
+      21
+    ],
+    "of": [
+      22,
+      61,
+      67,
+      111,
+      115,
+      162,
+      187,
+      206,
+      214,
+      232
+    ],
+    "biological": [
+      23
+    ],
+    "risk": [
+      24
+    ],
+    "factors:": [
+      25
+    ],
+    "(i)": [
+      26,
+      210
+    ],
+    "standard": [
+      27,
+      226
+    ],
+    "clinical": [
+      28,
+      139,
+      155,
+      227
+    ],
+    "measures": [
+      29,
+      40,
+      146,
+      177
+    ],
+    "related": [
+      30
+    ],
+    "to": [
+      31,
+      42,
+      183
+    ],
+    "cardiovascular": [
+      32,
+      173
+    ],
+    "disease": [
+      33
+    ],
+    "metabolic": [
+      35,
+      175
+    ],
+    "function;": [
+      36
+    ],
+    "(ii)": [
+      38,
+      223
+    ],
+    "nonclinical": [
+      39,
+      145,
+      164
+    ],
+    "pertaining": [
+      41
+    ],
+    "hypothalamic-pituitary-adrenal": [
+      43
+    ],
+    "axis": [
+      44
+    ],
+    "activity,": [
+      45,
+      49
+    ],
+    "sympathetic": [
+      46
+    ],
+    "nervous": [
+      47
+    ],
+    "system": [
+      48,
+      176,
+      218
+    ],
+    "inflammatory": [
+      51
+    ],
+    "response.Data": [
+      52
+    ],
+    "come": [
+      53
+    ],
+    "from": [
+      54,
+      197
+    ],
+    "the": [
+      55,
+      103,
+      108,
+      122,
+      136,
+      154,
+      159,
+      163,
+      172,
+      212
+    ],
+    "2000": [
+      56
+    ],
+    "Social": [
+      57
+    ],
+    "Environment": [
+      58
+    ],
+    "Biomarkers": [
+      60
+    ],
+    "Aging": [
+      62
+    ],
+    "Study,": [
+      63
+    ],
+    "a": [
+      64,
+      86
+    ],
+    "national": [
+      65
+    ],
+    "sample": [
+      66
+    ],
+    "Taiwanese": [
+      68
+    ],
+    "persons": [
+      69,
+      76
+    ],
+    "aged": [
+      70
+    ],
+    "54": [
+      71
+    ],
+    "years": [
+      72
+    ],
+    "or": [
+      73
+    ],
+    "older;": [
+      74
+    ],
+    "1497": [
+      75
+    ],
+    "were": [
+      77
+    ],
+    "interviewed": [
+      78
+    ],
+    "in": [
+      79,
+      85,
+      234,
+      237
+    ],
+    "their": [
+      80
+    ],
+    "homes,": [
+      81
+    ],
+    "1023": [
+      83
+    ],
+    "participated": [
+      84
+    ],
+    "hospital": [
+      87
+    ],
+    "examination.": [
+      88
+    ],
+    "The": [
+      89,
+      141
+    ],
+    "analysis": [
+      90
+    ],
+    "is": [
+      91
+    ],
+    "based": [
+      92
+    ],
+    "927": [
+      94
+    ],
+    "respondents": [
+      95
+    ],
+    "complete": [
+      97
+    ],
+    "information.": [
+      98
+    ],
+    "Logistic": [
+      99
+    ],
+    "regression": [
+      100
+    ],
+    "models": [
+      101
+    ],
+    "describe": [
+      102
+    ],
+    "association": [
+      104,
+      142
+    ],
+    "biomarkers": [
+      106,
+      116,
+      128,
+      165
+    ],
+    "3-year": [
+      109
+    ],
+    "probability": [
+      110
+    ],
+    "dying.Although": [
+      112
+    ],
+    "both": [
+      113
+    ],
+    "groups": [
+      114
+    ],
+    "are": [
+      117,
+      166,
+      181,
+      202,
+      229
+    ],
+    "significantly": [
+      118
+    ],
+    "mortality,": [
+      121
+    ],
+    "model": [
+      123
+    ],
+    "neuroendocrine": [
+      125,
+      215
+    ],
+    "immune": [
+      127,
+      217
+    ],
+    "has": [
+      129
+    ],
+    "better": [
+      130
+    ],
+    "explanatory": [
+      131
+    ],
+    "discriminatory": [
+      133
+    ],
+    "power": [
+      134
+    ],
+    "than": [
+      135,
+      168,
+      236
+    ],
+    "one": [
+      137
+    ],
+    "measures.": [
+      140
+    ],
+    "these": [
+      144
+    ],
+    "remains": [
+      149
+    ],
+    "strong": [
+      150
+    ],
+    "after": [
+      151
+    ],
+    "adjustment": [
+      152
+    ],
+    "for": [
+      153,
+      220
+    ],
+    "markers,": [
+      156
+    ],
+    "suggesting": [
+      157
+    ],
+    "that": [
+      158,
+      209,
+      225
+    ],
+    "physiological": [
+      160
+    ],
+    "effects": [
+      161
+    ],
+    "broader": [
+      167
+    ],
+    "those": [
+      169,
+      205
+    ],
+    "captured": [
+      170
+    ],
+    "by": [
+      171
+    ],
+    "included": [
+      178
+    ],
+    "here.Nonclinical": [
+      179
+    ],
+    "markers": [
+      180,
+      219
+    ],
+    "likely": [
+      182
+    ],
+    "provide": [
+      184
+    ],
+    "deteriorating": [
+      188
+    ],
+    "health": [
+      189
+    ],
+    "function": [
+      191
+    ],
+    "beyond": [
+      192
+    ],
+    "what": [
+      193
+    ],
+    "can": [
+      194
+    ],
+    "be": [
+      195
+    ],
+    "learned": [
+      196
+    ],
+    "conventional": [
+      198
+    ],
+    "markers.": [
+      199
+    ],
+    "Our": [
+      200
+    ],
+    "findings": [
+      201
+    ],
+    "consistent": [
+      203
+    ],
+    "recent": [
+      207
+    ],
+    "demonstrate": [
+      211
+    ],
+    "importance": [
+      213
+    ],
+    "survival,": [
+      221
+    ],
+    "indicate": [
+      224
+    ],
+    "variables": [
+      228
+    ],
+    "less": [
+      230
+    ],
+    "predictive": [
+      231
+    ],
+    "older": [
+      235
+    ],
+    "younger": [
+      238
+    ],
+    "populations.": [
+      239
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2120630087",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-05-22T07:34:52.950578",
+  "created_date": "2016-06-24"
+}

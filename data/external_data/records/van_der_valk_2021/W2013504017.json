@@ -1,0 +1,1721 @@
+{
+  "id": "https://openalex.org/W2013504017",
+  "doi": "https://doi.org/10.1038/ng.2962",
+  "title": "Rare and low-frequency coding variants in CXCR2 and other genes are associated with hematological traits",
+  "display_name": "Rare and low-frequency coding variants in CXCR2 and other genes are associated with hematological traits",
+  "publication_year": 2014,
+  "publication_date": "2014-04-28",
+  "ids": {
+    "openalex": "https://openalex.org/W2013504017",
+    "doi": "https://doi.org/10.1038/ng.2962",
+    "mag": "2013504017",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/24777453",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/4050975"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1038/ng.2962",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S137905309",
+      "display_name": "Nature Genetics",
+      "issn_l": "1061-4036",
+      "issn": [
+        "1061-4036",
+        "1546-1718"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4050975",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5060214482",
+        "display_name": "Paul L. Auer",
+        "orcid": "https://orcid.org/0000-0003-1735-8044"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I43579087",
+          "display_name": "University of Wisconsin–Milwaukee",
+          "ror": "https://ror.org/031q21x57",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I43579087"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210089486",
+          "display_name": "Fred Hutch Cancer Center",
+          "ror": "https://ror.org/007ps6h72",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paul L Auer",
+      "raw_affiliation_strings": [
+        "1] School of Public Health, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin, USA. [2] Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1] School of Public Health, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin, USA. [2] Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA.",
+          "institution_ids": [
+            "https://openalex.org/I43579087",
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081670625",
+        "display_name": "Alexander Teumer",
+        "orcid": "https://orcid.org/0000-0002-8309-094X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799318839",
+          "display_name": "Universitätsmedizin Greifswald",
+          "ror": "https://ror.org/025vngs54",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alexander Teumer",
+      "raw_affiliation_strings": [
+        "Interfaculty Institute for Genetics and Functional Genomics, University Medicine Greifswald, Greifswald, Germany."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Interfaculty Institute for Genetics and Functional Genomics, University Medicine Greifswald, Greifswald, Germany.",
+          "institution_ids": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030199826",
+        "display_name": "Ursula M. Schick",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089486",
+          "display_name": "Fred Hutch Cancer Center",
+          "ror": "https://ror.org/007ps6h72",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ursula Schick",
+      "raw_affiliation_strings": [
+        "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA.",
+          "institution_ids": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110897852",
+        "display_name": "Andrew O’Shaughnessy",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98704320",
+          "display_name": "Icahn School of Medicine at Mount Sinai",
+          "ror": "https://ror.org/04a9tmd77",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1320796813",
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew O'Shaughnessy",
+      "raw_affiliation_strings": [
+        "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, New York, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, New York, USA.",
+          "institution_ids": [
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003737378",
+        "display_name": "Ken Sin Lo",
+        "orcid": "https://orcid.org/0000-0003-1904-2625"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800290161",
+          "display_name": "Montreal Heart Institute",
+          "ror": "https://ror.org/03vs03g62",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800290161"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ken Sin Lo",
+      "raw_affiliation_strings": [
+        "Montreal Heart Institute, Montreal, Quebec, Canada."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Montreal Heart Institute, Montreal, Quebec, Canada.",
+          "institution_ids": [
+            "https://openalex.org/I2800290161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051618551",
+        "display_name": "Nathalie Chami",
+        "orcid": "https://orcid.org/0000-0002-8547-6424"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800290161",
+          "display_name": "Montreal Heart Institute",
+          "ror": "https://ror.org/03vs03g62",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800290161"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nathalie Chami",
+      "raw_affiliation_strings": [
+        "Montreal Heart Institute, Montreal, Quebec, Canada."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Montreal Heart Institute, Montreal, Quebec, Canada.",
+          "institution_ids": [
+            "https://openalex.org/I2800290161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110938087",
+        "display_name": "Chris Carlson",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089486",
+          "display_name": "Fred Hutch Cancer Center",
+          "ror": "https://ror.org/007ps6h72",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chris Carlson",
+      "raw_affiliation_strings": [
+        "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA.",
+          "institution_ids": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051663627",
+        "display_name": "Simon de Denus",
+        "orcid": "https://orcid.org/0000-0001-5404-7929"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800290161",
+          "display_name": "Montreal Heart Institute",
+          "ror": "https://ror.org/03vs03g62",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800290161"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I70931966",
+          "display_name": "Université de Montréal",
+          "ror": "https://ror.org/0161xgx34",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I70931966"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Simon de Denus",
+      "raw_affiliation_strings": [
+        "1] Montreal Heart Institute, Montreal, Quebec, Canada. [2] Faculty of Medicine, Université de Montréal, Montreal, Québec, Canada. [3] Faculty of Pharmacy, Université de Montréal, Montreal, Québec, Canada."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1] Montreal Heart Institute, Montreal, Quebec, Canada. [2] Faculty of Medicine, Université de Montréal, Montreal, Québec, Canada. [3] Faculty of Pharmacy, Université de Montréal, Montreal, Québec, Canada.",
+          "institution_ids": [
+            "https://openalex.org/I2800290161",
+            "https://openalex.org/I70931966"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021987832",
+        "display_name": "Marie‐Pierre Dubé",
+        "orcid": "https://orcid.org/0000-0001-8442-4393"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800290161",
+          "display_name": "Montreal Heart Institute",
+          "ror": "https://ror.org/03vs03g62",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800290161"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I70931966",
+          "display_name": "Université de Montréal",
+          "ror": "https://ror.org/0161xgx34",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I70931966"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Marie-Pierre Dubé",
+      "raw_affiliation_strings": [
+        "1] Montreal Heart Institute, Montreal, Quebec, Canada. [2] Faculty of Medicine, Université de Montréal, Montreal, Québec, Canada. [3] Faculty of Pharmacy, Université de Montréal, Montreal, Québec, Canada."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1] Montreal Heart Institute, Montreal, Quebec, Canada. [2] Faculty of Medicine, Université de Montréal, Montreal, Québec, Canada. [3] Faculty of Pharmacy, Université de Montréal, Montreal, Québec, Canada.",
+          "institution_ids": [
+            "https://openalex.org/I2800290161",
+            "https://openalex.org/I70931966"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111026806",
+        "display_name": "Jeff Haessler",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089486",
+          "display_name": "Fred Hutch Cancer Center",
+          "ror": "https://ror.org/007ps6h72",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeff Haessler",
+      "raw_affiliation_strings": [
+        "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA.",
+          "institution_ids": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108956160",
+        "display_name": "Rebecca D. Jackson",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I52357470",
+          "display_name": "The Ohio State University",
+          "ror": "https://ror.org/00rs6vg23",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I52357470"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rebecca D Jackson",
+      "raw_affiliation_strings": [
+        "Division of Endocrinology, Diabetes and Metabolism, Ohio State University, Columbus, Ohio, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Endocrinology, Diabetes and Metabolism, Ohio State University, Columbus, Ohio, USA.",
+          "institution_ids": [
+            "https://openalex.org/I52357470"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003856334",
+        "display_name": "Charles Kooperberg",
+        "orcid": "https://orcid.org/0000-0002-7986-8560"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089486",
+          "display_name": "Fred Hutch Cancer Center",
+          "ror": "https://ror.org/007ps6h72",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Charles Kooperberg",
+      "raw_affiliation_strings": [
+        "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA.",
+          "institution_ids": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055786151",
+        "display_name": "Louis‐Philippe Lemieux Perreault",
+        "orcid": "https://orcid.org/0000-0001-7423-0958"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800290161",
+          "display_name": "Montreal Heart Institute",
+          "ror": "https://ror.org/03vs03g62",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800290161"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Louis-Philippe Lemieux Perreault",
+      "raw_affiliation_strings": [
+        "Montreal Heart Institute, Montreal, Quebec, Canada."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Montreal Heart Institute, Montreal, Quebec, Canada.",
+          "institution_ids": [
+            "https://openalex.org/I2800290161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107837715",
+        "display_name": "Matthias Nauck",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799318839",
+          "display_name": "Universitätsmedizin Greifswald",
+          "ror": "https://ror.org/025vngs54",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Matthias Nauck",
+      "raw_affiliation_strings": [
+        "Institute of Clinical Chemistry and Laboratory Medicine, University Medicine Greifswald, Greifswald, Germany."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Clinical Chemistry and Laboratory Medicine, University Medicine Greifswald, Greifswald, Germany.",
+          "institution_ids": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053681099",
+        "display_name": "Ulrike Peters",
+        "orcid": "https://orcid.org/0000-0001-5666-9318"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089486",
+          "display_name": "Fred Hutch Cancer Center",
+          "ror": "https://ror.org/007ps6h72",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210089486"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I201448701",
+          "display_name": "University of Washington",
+          "ror": "https://ror.org/00cvxb145",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ulrike Peters",
+      "raw_affiliation_strings": [
+        "1] Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA. [2] Department of Epidemiology, University of Washington School of Public Health, Seattle, Washington, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1] Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA. [2] Department of Epidemiology, University of Washington School of Public Health, Seattle, Washington, USA.",
+          "institution_ids": [
+            "https://openalex.org/I4210089486",
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060728613",
+        "display_name": "John D. Rioux",
+        "orcid": "https://orcid.org/0000-0001-7560-8326"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800290161",
+          "display_name": "Montreal Heart Institute",
+          "ror": "https://ror.org/03vs03g62",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800290161"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I70931966",
+          "display_name": "Université de Montréal",
+          "ror": "https://ror.org/0161xgx34",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I70931966"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John D Rioux",
+      "raw_affiliation_strings": [
+        "1] Montreal Heart Institute, Montreal, Quebec, Canada. [2] Faculty of Medicine, Université de Montréal, Montreal, Québec, Canada. [3] Faculty of Pharmacy, Université de Montréal, Montreal, Québec, Canada."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1] Montreal Heart Institute, Montreal, Quebec, Canada. [2] Faculty of Medicine, Université de Montréal, Montreal, Québec, Canada. [3] Faculty of Pharmacy, Université de Montréal, Montreal, Québec, Canada.",
+          "institution_ids": [
+            "https://openalex.org/I2800290161",
+            "https://openalex.org/I70931966"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045874625",
+        "display_name": "Frank Schmidt",
+        "orcid": "https://orcid.org/0000-0001-5406-3988"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799318839",
+          "display_name": "Universitätsmedizin Greifswald",
+          "ror": "https://ror.org/025vngs54",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Frank Schmidt",
+      "raw_affiliation_strings": [
+        "Interfaculty Institute for Genetics and Functional Genomics, University Medicine Greifswald, Greifswald, Germany."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Interfaculty Institute for Genetics and Functional Genomics, University Medicine Greifswald, Greifswald, Germany.",
+          "institution_ids": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036173809",
+        "display_name": "Valérie Turcot",
+        "orcid": "https://orcid.org/0000-0002-7024-9704"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800290161",
+          "display_name": "Montreal Heart Institute",
+          "ror": "https://ror.org/03vs03g62",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800290161"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Valérie Turcot",
+      "raw_affiliation_strings": [
+        "Montreal Heart Institute, Montreal, Quebec, Canada."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Montreal Heart Institute, Montreal, Quebec, Canada.",
+          "institution_ids": [
+            "https://openalex.org/I2800290161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085667735",
+        "display_name": "Uwe Völker",
+        "orcid": "https://orcid.org/0000-0002-5689-3448"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799318839",
+          "display_name": "Universitätsmedizin Greifswald",
+          "ror": "https://ror.org/025vngs54",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Uwe Völker",
+      "raw_affiliation_strings": [
+        "Interfaculty Institute for Genetics and Functional Genomics, University Medicine Greifswald, Greifswald, Germany."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Interfaculty Institute for Genetics and Functional Genomics, University Medicine Greifswald, Greifswald, Germany.",
+          "institution_ids": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011709769",
+        "display_name": "Henry Völzke",
+        "orcid": "https://orcid.org/0000-0001-7003-399X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799318839",
+          "display_name": "Universitätsmedizin Greifswald",
+          "ror": "https://ror.org/025vngs54",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Henry Völzke",
+      "raw_affiliation_strings": [
+        "Institute for Community Medicine, University Medicine Greifswald, Greifswald, Germany."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Community Medicine, University Medicine Greifswald, Greifswald, Germany.",
+          "institution_ids": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5075868354",
+        "display_name": "Andreas Greinacher",
+        "orcid": "https://orcid.org/0000-0001-8343-7336"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799318839",
+          "display_name": "Universitätsmedizin Greifswald",
+          "ror": "https://ror.org/025vngs54",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andreas Greinacher",
+      "raw_affiliation_strings": [
+        "Institute for Immunology and Transfusion Medicine, University Medicine Greifswald, Greifswald, Germany."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Immunology and Transfusion Medicine, University Medicine Greifswald, Greifswald, Germany.",
+          "institution_ids": [
+            "https://openalex.org/I2799318839"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5025110284",
+        "display_name": "Li Hsu",
+        "orcid": "https://orcid.org/0000-0001-8168-4712"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089486",
+          "display_name": "Fred Hutch Cancer Center",
+          "ror": "https://ror.org/007ps6h72",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Li Hsu",
+      "raw_affiliation_strings": [
+        "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA.",
+          "institution_ids": [
+            "https://openalex.org/I4210089486"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049309607",
+        "display_name": "Jean‐Claude Tardif",
+        "orcid": "https://orcid.org/0000-0002-8200-8983"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I70931966",
+          "display_name": "Université de Montréal",
+          "ror": "https://ror.org/0161xgx34",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I70931966"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800290161",
+          "display_name": "Montreal Heart Institute",
+          "ror": "https://ror.org/03vs03g62",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800290161"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jean-Claude Tardif",
+      "raw_affiliation_strings": [
+        "1] Montreal Heart Institute, Montreal, Quebec, Canada. [2] Faculty of Medicine, Université de Montréal, Montreal, Québec, Canada. [3] Faculty of Pharmacy, Université de Montréal, Montreal, Québec, Canada."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1] Montreal Heart Institute, Montreal, Quebec, Canada. [2] Faculty of Medicine, Université de Montréal, Montreal, Québec, Canada. [3] Faculty of Pharmacy, Université de Montréal, Montreal, Québec, Canada.",
+          "institution_ids": [
+            "https://openalex.org/I70931966",
+            "https://openalex.org/I2800290161"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021956757",
+        "display_name": "George A. Díaz",
+        "orcid": "https://orcid.org/0000-0001-5688-9062"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98704320",
+          "display_name": "Icahn School of Medicine at Mount Sinai",
+          "ror": "https://ror.org/04a9tmd77",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1320796813",
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "George A Diaz",
+      "raw_affiliation_strings": [
+        "1] Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, New York, USA. [2] Department of Pediatrics, Icahn School of Medicine at Mount Sinai, New York, New York, USA. [3]."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1] Department of Genetics and Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, New York, USA. [2] Department of Pediatrics, Icahn School of Medicine at Mount Sinai, New York, New York, USA. [3].",
+          "institution_ids": [
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112837660",
+        "display_name": "Alexander P. Reiner",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089486",
+          "display_name": "Fred Hutch Cancer Center",
+          "ror": "https://ror.org/007ps6h72",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210089486"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I201448701",
+          "display_name": "University of Washington",
+          "ror": "https://ror.org/00cvxb145",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alexander P Reiner",
+      "raw_affiliation_strings": [
+        "1] Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA. [2] Department of Epidemiology, University of Washington School of Public Health, Seattle, Washington, USA. [3]."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1] Public Health Sciences Division, Fred Hutchinson Cancer Research Center, Seattle, Washington, USA. [2] Department of Epidemiology, University of Washington School of Public Health, Seattle, Washington, USA. [3].",
+          "institution_ids": [
+            "https://openalex.org/I4210089486",
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5080225460",
+        "display_name": "Guillaume Lettre",
+        "orcid": "https://orcid.org/0000-0002-7740-3399"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800290161",
+          "display_name": "Montreal Heart Institute",
+          "ror": "https://ror.org/03vs03g62",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800290161"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I70931966",
+          "display_name": "Université de Montréal",
+          "ror": "https://ror.org/0161xgx34",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I70931966"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Guillaume Lettre",
+      "raw_affiliation_strings": [
+        "1] Montreal Heart Institute, Montreal, Quebec, Canada. [2] Faculty of Medicine, Université de Montréal, Montreal, Québec, Canada. [3] Faculty of Pharmacy, Université de Montréal, Montreal, Québec, Canada. [4]."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1] Montreal Heart Institute, Montreal, Quebec, Canada. [2] Faculty of Medicine, Université de Montréal, Montreal, Québec, Canada. [3] Faculty of Pharmacy, Université de Montréal, Montreal, Québec, Canada. [4].",
+          "institution_ids": [
+            "https://openalex.org/I2800290161",
+            "https://openalex.org/I70931966"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 8,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 9750,
+    "currency": "EUR",
+    "value_usd": 11690
+  },
+  "apc_paid": null,
+  "fwci": 2.57,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 132,
+  "citation_normalized_percentile": {
+    "value": 0.999164,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "46",
+    "issue": "6",
+    "first_page": "629",
+    "last_page": "634"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12919",
+    "display_name": "Blood disorders and treatments",
+    "score": 0.9973,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1311",
+      "display_name": "Genetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12919",
+      "display_name": "Blood disorders and treatments",
+      "score": 0.9973,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11628",
+      "display_name": "Myeloproliferative Neoplasms: Diagnosis and Treatment",
+      "score": 0.9962,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2716",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11725",
+      "display_name": "Immunodeficiency and Autoimmune Disorders",
+      "score": 0.9951,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/exome",
+      "display_name": "Exome",
+      "score": 0.5476774
+    },
+    {
+      "id": "https://openalex.org/keywords/genome-wide-association-study",
+      "display_name": "Genome-wide Association Study",
+      "score": 0.50357527
+    },
+    {
+      "id": "https://openalex.org/keywords/white-blood-cell",
+      "display_name": "White blood cell",
+      "score": 0.41524106
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.8282746
+    },
+    {
+      "id": "https://openalex.org/C2780959883",
+      "wikidata": "https://www.wikidata.org/wiki/Q111146",
+      "display_name": "Hematocrit",
+      "level": 2,
+      "score": 0.6196814
+    },
+    {
+      "id": "https://openalex.org/C75563809",
+      "wikidata": "https://www.wikidata.org/wiki/Q2656896",
+      "display_name": "Missense mutation",
+      "level": 4,
+      "score": 0.60053337
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.55889225
+    },
+    {
+      "id": "https://openalex.org/C29906990",
+      "wikidata": "https://www.wikidata.org/wiki/Q1440688",
+      "display_name": "Frameshift mutation",
+      "level": 4,
+      "score": 0.5588598
+    },
+    {
+      "id": "https://openalex.org/C10590036",
+      "wikidata": "https://www.wikidata.org/wiki/Q417664",
+      "display_name": "Exome",
+      "level": 5,
+      "score": 0.5476774
+    },
+    {
+      "id": "https://openalex.org/C106208931",
+      "wikidata": "https://www.wikidata.org/wiki/Q1098876",
+      "display_name": "Genome-wide association study",
+      "level": 5,
+      "score": 0.50357527
+    },
+    {
+      "id": "https://openalex.org/C16671776",
+      "wikidata": "https://www.wikidata.org/wiki/Q5420592",
+      "display_name": "Exome sequencing",
+      "level": 4,
+      "score": 0.4801885
+    },
+    {
+      "id": "https://openalex.org/C2778488018",
+      "wikidata": "https://www.wikidata.org/wiki/Q42395",
+      "display_name": "White blood cell",
+      "level": 2,
+      "score": 0.41524106
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.29785994
+    },
+    {
+      "id": "https://openalex.org/C501734568",
+      "wikidata": "https://www.wikidata.org/wiki/Q42918",
+      "display_name": "Mutation",
+      "level": 3,
+      "score": 0.28834656
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.28818828
+    },
+    {
+      "id": "https://openalex.org/C153209595",
+      "wikidata": "https://www.wikidata.org/wiki/Q501128",
+      "display_name": "Single-nucleotide polymorphism",
+      "level": 4,
+      "score": 0.23582554
+    },
+    {
+      "id": "https://openalex.org/C135763542",
+      "wikidata": "https://www.wikidata.org/wiki/Q106016",
+      "display_name": "Genotype",
+      "level": 3,
+      "score": 0.16414872
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.1396823
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D006454",
+      "descriptor_name": "Hemoglobins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009503",
+      "descriptor_name": "Neutropenia",
+      "qualifier_ui": "Q000151",
+      "qualifier_name": "congenital",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D023063",
+      "descriptor_name": "Receptors, Interleukin-8B",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002633",
+      "descriptor_name": "Chemotaxis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000080984",
+      "descriptor_name": "Congenital Bone Marrow Failure Syndromes",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059472",
+      "descriptor_name": "Exome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016368",
+      "descriptor_name": "Frameshift Mutation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055106",
+      "descriptor_name": "Genome-Wide Association Study",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005838",
+      "descriptor_name": "Genotype",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006400",
+      "descriptor_name": "Hematocrit",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006410",
+      "descriptor_name": "Hematopoiesis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053614",
+      "descriptor_name": "Janus Kinase 2",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007958",
+      "descriptor_name": "Leukocyte Count",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020125",
+      "descriptor_name": "Mutation, Missense",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010375",
+      "descriptor_name": "Pedigree",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010976",
+      "descriptor_name": "Platelet Count",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1038/ng.2962",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S137905309",
+        "display_name": "Nature Genetics",
+        "issn_l": "1061-4036",
+        "issn": [
+          "1061-4036",
+          "1546-1718"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4050975",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/24777453",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4050975",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 51,
+  "referenced_works": [
+    "https://openalex.org/W1499500424",
+    "https://openalex.org/W1524853932",
+    "https://openalex.org/W1550129999",
+    "https://openalex.org/W1980568348",
+    "https://openalex.org/W1984036218",
+    "https://openalex.org/W1984939442",
+    "https://openalex.org/W1990430353",
+    "https://openalex.org/W1990738826",
+    "https://openalex.org/W2001554877",
+    "https://openalex.org/W2023239534",
+    "https://openalex.org/W2023369015",
+    "https://openalex.org/W2024108088",
+    "https://openalex.org/W2033151532",
+    "https://openalex.org/W2040547343",
+    "https://openalex.org/W2049145190",
+    "https://openalex.org/W2049685096",
+    "https://openalex.org/W2054350214",
+    "https://openalex.org/W2056751373",
+    "https://openalex.org/W2057360098",
+    "https://openalex.org/W2060988701",
+    "https://openalex.org/W2071817494",
+    "https://openalex.org/W2079532825",
+    "https://openalex.org/W2079979335",
+    "https://openalex.org/W2084081796",
+    "https://openalex.org/W2094988577",
+    "https://openalex.org/W2096791516",
+    "https://openalex.org/W2097897519",
+    "https://openalex.org/W2098510019",
+    "https://openalex.org/W2102304447",
+    "https://openalex.org/W2109121759",
+    "https://openalex.org/W2112087830",
+    "https://openalex.org/W2118669458",
+    "https://openalex.org/W2127608175",
+    "https://openalex.org/W2128016314",
+    "https://openalex.org/W2129799496",
+    "https://openalex.org/W2131014997",
+    "https://openalex.org/W2133520037",
+    "https://openalex.org/W2143417044",
+    "https://openalex.org/W2143625465",
+    "https://openalex.org/W2144664431",
+    "https://openalex.org/W2146786907",
+    "https://openalex.org/W2149128385",
+    "https://openalex.org/W2151115272",
+    "https://openalex.org/W2155766871",
+    "https://openalex.org/W2156866331",
+    "https://openalex.org/W2157752701",
+    "https://openalex.org/W2161164647",
+    "https://openalex.org/W2161633633",
+    "https://openalex.org/W2167070743",
+    "https://openalex.org/W2169863448",
+    "https://openalex.org/W2290627980"
+  ],
+  "related_works": [
+    "https://openalex.org/W3083501552",
+    "https://openalex.org/W2774931754",
+    "https://openalex.org/W2772505697",
+    "https://openalex.org/W2484239316",
+    "https://openalex.org/W2400191746",
+    "https://openalex.org/W2172231381",
+    "https://openalex.org/W2106924416",
+    "https://openalex.org/W2093932542",
+    "https://openalex.org/W2043256480",
+    "https://openalex.org/W1983406990"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2013504017",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2025-06-16T19:18:06.702387",
+  "created_date": "2016-06-24"
+}

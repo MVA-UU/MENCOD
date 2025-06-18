@@ -1,0 +1,864 @@
+{
+  "id": "https://openalex.org/W2267252557",
+  "doi": "https://doi.org/10.1016/j.psyneuen.2016.01.031",
+  "title": "Exposure to acute stress enhances decision-making competence: Evidence for the role of DHEA",
+  "display_name": "Exposure to acute stress enhances decision-making competence: Evidence for the role of DHEA",
+  "publication_year": 2016,
+  "publication_date": "2016-02-03",
+  "ids": {
+    "openalex": "https://openalex.org/W2267252557",
+    "doi": "https://doi.org/10.1016/j.psyneuen.2016.01.031",
+    "mag": "2267252557",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/26874561",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/4808381"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.psyneuen.2016.01.031",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S81924583",
+      "display_name": "Psychoneuroendocrinology",
+      "issn_l": "0306-4530",
+      "issn": [
+        "0306-4530",
+        "1873-3360"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc4808381?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5046163472",
+        "display_name": "Grant S. Shields",
+        "orcid": "https://orcid.org/0000-0002-0827-4669"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Grant S. Shields",
+      "raw_affiliation_strings": [
+        "Department of Psychology, University of California, Davis, CA 95616, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, University of California, Davis, CA 95616, United States",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017586939",
+        "display_name": "Jovian C. Lam",
+        "orcid": "https://orcid.org/0000-0002-1316-5248"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jovian C.W. Lam",
+      "raw_affiliation_strings": [
+        "Department of Psychology, University of California, Davis, CA 95616, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, University of California, Davis, CA 95616, United States",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061048719",
+        "display_name": "Brian C. Trainor",
+        "orcid": "https://orcid.org/0000-0002-4627-5478"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brian C. Trainor",
+      "raw_affiliation_strings": [
+        "Department of Psychology, University of California, Davis, CA 95616, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, University of California, Davis, CA 95616, United States",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5080012355",
+        "display_name": "Andrew P. Yonelinas",
+        "orcid": "https://orcid.org/0000-0002-9580-4997"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew P. Yonelinas",
+      "raw_affiliation_strings": [
+        "Department of Psychology, University of California, Davis, CA 95616, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, University of California, Davis, CA 95616, United States",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5046163472"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I84218800"
+  ],
+  "apc_list": {
+    "value": 3850,
+    "currency": "USD",
+    "value_usd": 3850
+  },
+  "apc_paid": null,
+  "fwci": 1.734,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 45,
+  "citation_normalized_percentile": {
+    "value": 0.998854,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "67",
+    "issue": null,
+    "first_page": "51",
+    "last_page": "60"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13283",
+      "display_name": "Mental Health Research Topics",
+      "score": 0.96,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12520",
+      "display_name": "Psychology of Moral and Emotional Judgment",
+      "score": 0.9403,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C100521375",
+      "wikidata": "https://www.wikidata.org/wiki/Q2015382",
+      "display_name": "Competence (human resources)",
+      "level": 2,
+      "score": 0.70055664
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.6667895
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.551773
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.5337834
+    },
+    {
+      "id": "https://openalex.org/C504460877",
+      "wikidata": "https://www.wikidata.org/wiki/Q155925",
+      "display_name": "Saliva",
+      "level": 2,
+      "score": 0.5196699
+    },
+    {
+      "id": "https://openalex.org/C2776992908",
+      "wikidata": "https://www.wikidata.org/wiki/Q408376",
+      "display_name": "Dehydroepiandrosterone",
+      "level": 4,
+      "score": 0.49497646
+    },
+    {
+      "id": "https://openalex.org/C138496976",
+      "wikidata": "https://www.wikidata.org/wiki/Q175002",
+      "display_name": "Developmental psychology",
+      "level": 1,
+      "score": 0.44092175
+    },
+    {
+      "id": "https://openalex.org/C70410870",
+      "wikidata": "https://www.wikidata.org/wiki/Q199906",
+      "display_name": "Clinical psychology",
+      "level": 1,
+      "score": 0.3971228
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.27307302
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.2516046
+    },
+    {
+      "id": "https://openalex.org/C77805123",
+      "wikidata": "https://www.wikidata.org/wiki/Q161272",
+      "display_name": "Social psychology",
+      "level": 1,
+      "score": 0.17541653
+    },
+    {
+      "id": "https://openalex.org/C2777911890",
+      "wikidata": "https://www.wikidata.org/wiki/Q62614",
+      "display_name": "Androgen",
+      "level": 3,
+      "score": 0.15865445
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.115347475
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003657",
+      "descriptor_name": "Decision Making",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003687",
+      "descriptor_name": "Dehydroepiandrosterone",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000523",
+      "qualifier_name": "psychology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000339",
+      "descriptor_name": "Affect",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003687",
+      "descriptor_name": "Dehydroepiandrosterone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012463",
+      "descriptor_name": "Saliva",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012463",
+      "descriptor_name": "Saliva",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055815",
+      "descriptor_name": "Young Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 6,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.psyneuen.2016.01.031",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S81924583",
+        "display_name": "Psychoneuroendocrinology",
+        "issn_l": "0306-4530",
+        "issn": [
+          "0306-4530",
+          "1873-3360"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc4808381",
+      "pdf_url": "https://europepmc.org/articles/pmc4808381?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4808381",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://escholarship.org/uc/item/5kn9x1cp",
+      "pdf_url": "https://escholarship.org/content/qt5kn9x1cp/qt5kn9x1cp.pdf?t=ru0qce",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [
+          "California Digital Library"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://escholarship.org/content/qt5kn9x1cp/qt5kn9x1cp.pdf",
+      "pdf_url": "https://escholarship.org/content/qt5kn9x1cp/qt5kn9x1cp.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [
+          "California Digital Library"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/26874561",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc4808381",
+    "pdf_url": "https://europepmc.org/articles/pmc4808381?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/16",
+      "display_name": "Peace, justice, and strong institutions",
+      "score": 0.82
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320308590",
+      "funder_display_name": "University of California",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 50,
+  "referenced_works": [
+    "https://openalex.org/W1621581667",
+    "https://openalex.org/W1732425222",
+    "https://openalex.org/W1977759899",
+    "https://openalex.org/W1984034150",
+    "https://openalex.org/W1985759934",
+    "https://openalex.org/W1987622720",
+    "https://openalex.org/W1989799361",
+    "https://openalex.org/W1997221050",
+    "https://openalex.org/W1999135070",
+    "https://openalex.org/W2001183947",
+    "https://openalex.org/W2001957367",
+    "https://openalex.org/W2004201010",
+    "https://openalex.org/W2007524903",
+    "https://openalex.org/W2012618926",
+    "https://openalex.org/W2019716845",
+    "https://openalex.org/W2025500503",
+    "https://openalex.org/W2025996975",
+    "https://openalex.org/W2031811627",
+    "https://openalex.org/W2032817398",
+    "https://openalex.org/W2039223548",
+    "https://openalex.org/W2042430625",
+    "https://openalex.org/W2044060075",
+    "https://openalex.org/W2048547196",
+    "https://openalex.org/W2050129445",
+    "https://openalex.org/W2052819755",
+    "https://openalex.org/W2057789368",
+    "https://openalex.org/W2065292219",
+    "https://openalex.org/W2065945790",
+    "https://openalex.org/W2071256705",
+    "https://openalex.org/W2076874338",
+    "https://openalex.org/W2081280682",
+    "https://openalex.org/W2084533182",
+    "https://openalex.org/W2091413411",
+    "https://openalex.org/W2092139049",
+    "https://openalex.org/W2107619947",
+    "https://openalex.org/W2125978064",
+    "https://openalex.org/W2129927688",
+    "https://openalex.org/W2138635051",
+    "https://openalex.org/W2138942056",
+    "https://openalex.org/W2139633812",
+    "https://openalex.org/W2144101679",
+    "https://openalex.org/W2144672286",
+    "https://openalex.org/W2148829194",
+    "https://openalex.org/W2148843039",
+    "https://openalex.org/W2156055965",
+    "https://openalex.org/W2156967416",
+    "https://openalex.org/W2157026697",
+    "https://openalex.org/W2158690788",
+    "https://openalex.org/W2169187342",
+    "https://openalex.org/W806146695"
+  ],
+  "related_works": [
+    "https://openalex.org/W4388337094",
+    "https://openalex.org/W3214746088",
+    "https://openalex.org/W3129847635",
+    "https://openalex.org/W3045507769",
+    "https://openalex.org/W2889352003",
+    "https://openalex.org/W2539791946",
+    "https://openalex.org/W218836485",
+    "https://openalex.org/W2128056956",
+    "https://openalex.org/W2103600127",
+    "https://openalex.org/W1984738739"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2267252557",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-05-22T03:02:43.579677",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,842 @@
+{
+  "id": "https://openalex.org/W2086332783",
+  "doi": "https://doi.org/10.1016/j.jaci.2006.01.011",
+  "title": "Asthma Control Test: Reliability, validity, and responsiveness in patients not previously followed by asthma specialists",
+  "display_name": "Asthma Control Test: Reliability, validity, and responsiveness in patients not previously followed by asthma specialists",
+  "publication_year": 2006,
+  "publication_date": "2006-03-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2086332783",
+    "doi": "https://doi.org/10.1016/j.jaci.2006.01.011",
+    "mag": "2086332783",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16522452"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.jaci.2006.01.011",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S108525051",
+      "display_name": "Journal of Allergy and Clinical Immunology",
+      "issn_l": "0091-6749",
+      "issn": [
+        "0091-6749",
+        "1085-8725",
+        "1097-6825"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5110580206",
+        "display_name": "Michael Schatz",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210091210",
+          "display_name": "Kaiser Permanente San Diego Medical Center",
+          "ror": "https://ror.org/00fg98b82",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1343052199",
+            "https://openalex.org/I4210091210"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Schatz",
+      "raw_affiliation_strings": [
+        "From Kaiser-Permanente Medical Center, San Diego"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "From Kaiser-Permanente Medical Center, San Diego",
+          "institution_ids": [
+            "https://openalex.org/I4210091210"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012934813",
+        "display_name": "Christine A. Sorkness",
+        "orcid": "https://orcid.org/0000-0003-2382-569X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I135310074",
+          "display_name": "University of Wisconsin–Madison",
+          "ror": "https://ror.org/01y2jtd41",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christine A. Sorkness",
+      "raw_affiliation_strings": [
+        "University of Wisconsin, School of Pharmacy, Madison"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Wisconsin, School of Pharmacy, Madison",
+          "institution_ids": [
+            "https://openalex.org/I135310074"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074790677",
+        "display_name": "James T. Li",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "James T. Li",
+      "raw_affiliation_strings": [
+        "Mayo Medical Center, Rochester"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Mayo Medical Center, Rochester",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039330260",
+        "display_name": "Philip Marcus",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Philip Marcus",
+      "raw_affiliation_strings": [
+        "Nassau Chest Physicians, PC, Great Neck"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nassau Chest Physicians, PC, Great Neck",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101836412",
+        "display_name": "John Murray",
+        "orcid": "https://orcid.org/0000-0002-0351-1135"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "John J. Murray",
+      "raw_affiliation_strings": [
+        "Vanderbilt Asthma Sinus Allergy Program, Nashville"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Vanderbilt Asthma Sinus Allergy Program, Nashville",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5114013551",
+        "display_name": "Robert A. Nathan",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210148703",
+          "display_name": "Allergy Associates Research Center",
+          "ror": "https://ror.org/04j485w94",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210148703"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Robert A. Nathan",
+      "raw_affiliation_strings": [
+        "Asthma and Allergy Associates and Research Center, Colorado Springs"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Asthma and Allergy Associates and Research Center, Colorado Springs",
+          "institution_ids": [
+            "https://openalex.org/I4210148703"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086907959",
+        "display_name": "Mark Kosinski",
+        "orcid": "https://orcid.org/0000-0003-0563-5542"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mark Kosinski",
+      "raw_affiliation_strings": [
+        "QualityMetric, Incorporated, Lincoln"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "QualityMetric, Incorporated, Lincoln",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023785975",
+        "display_name": "Trudy Pendergraft",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210099842",
+          "display_name": "GlaxoSmithKline (India)",
+          "ror": "https://ror.org/01tvt4d48",
+          "country_code": "IN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I188950975",
+            "https://openalex.org/I4210099842"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Trudy B. Pendergraft",
+      "raw_affiliation_strings": [
+        "GlaxoSmithKline, Research Triangle Park"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GlaxoSmithKline, Research Triangle Park",
+          "institution_ids": [
+            "https://openalex.org/I4210099842"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5108225337",
+        "display_name": "Priti Jhingran",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210099842",
+          "display_name": "GlaxoSmithKline (India)",
+          "ror": "https://ror.org/01tvt4d48",
+          "country_code": "IN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I188950975",
+            "https://openalex.org/I4210099842"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Priti Jhingran",
+      "raw_affiliation_strings": [
+        "GlaxoSmithKline, Research Triangle Park"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GlaxoSmithKline, Research Triangle Park",
+          "institution_ids": [
+            "https://openalex.org/I4210099842"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 4000,
+    "currency": "USD",
+    "value_usd": 4000
+  },
+  "apc_paid": null,
+  "fwci": 17.527,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 1131,
+  "citation_normalized_percentile": {
+    "value": 0.999935,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "117",
+    "issue": "3",
+    "first_page": "549",
+    "last_page": "556"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10051",
+    "display_name": "Asthma and respiratory diseases",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10051",
+      "display_name": "Asthma and respiratory diseases",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12418",
+      "display_name": "Respiratory and Cough-Related Research",
+      "score": 0.9967,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10143",
+      "display_name": "Chronic Obstructive Pulmonary Disease (COPD) Research",
+      "score": 0.971,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/discriminant-validity",
+      "display_name": "Discriminant validity",
+      "score": 0.5191242
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776042228",
+      "wikidata": "https://www.wikidata.org/wiki/Q35869",
+      "display_name": "Asthma",
+      "level": 2,
+      "score": 0.90587795
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.82313013
+    },
+    {
+      "id": "https://openalex.org/C120107772",
+      "wikidata": "https://www.wikidata.org/wiki/Q168554",
+      "display_name": "Discriminant validity",
+      "level": 4,
+      "score": 0.5191242
+    },
+    {
+      "id": "https://openalex.org/C75603125",
+      "wikidata": "https://www.wikidata.org/wiki/Q1877462",
+      "display_name": "Pulmonary function testing",
+      "level": 2,
+      "score": 0.49962926
+    },
+    {
+      "id": "https://openalex.org/C1862650",
+      "wikidata": "https://www.wikidata.org/wiki/Q186005",
+      "display_name": "Physical therapy",
+      "level": 1,
+      "score": 0.48199338
+    },
+    {
+      "id": "https://openalex.org/C43214815",
+      "wikidata": "https://www.wikidata.org/wiki/Q7310987",
+      "display_name": "Reliability (semiconductor)",
+      "level": 3,
+      "score": 0.45036244
+    },
+    {
+      "id": "https://openalex.org/C2777267654",
+      "wikidata": "https://www.wikidata.org/wiki/Q3519023",
+      "display_name": "Test (biology)",
+      "level": 2,
+      "score": 0.41271645
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.3861032
+    },
+    {
+      "id": "https://openalex.org/C3018868096",
+      "wikidata": "https://www.wikidata.org/wiki/Q2693233",
+      "display_name": "Internal consistency",
+      "level": 3,
+      "score": 0.2691012
+    },
+    {
+      "id": "https://openalex.org/C171606756",
+      "wikidata": "https://www.wikidata.org/wiki/Q506132",
+      "display_name": "Psychometrics",
+      "level": 2,
+      "score": 0.22303414
+    },
+    {
+      "id": "https://openalex.org/C70410870",
+      "wikidata": "https://www.wikidata.org/wiki/Q199906",
+      "display_name": "Clinical psychology",
+      "level": 1,
+      "score": 0.13021809
+    },
+    {
+      "id": "https://openalex.org/C163258240",
+      "wikidata": "https://www.wikidata.org/wiki/Q25342",
+      "display_name": "Power (physics)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001249",
+      "descriptor_name": "Asthma",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012720",
+      "descriptor_name": "Severity of Illness Index",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001249",
+      "descriptor_name": "Asthma",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001249",
+      "descriptor_name": "Asthma",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008137",
+      "descriptor_name": "Longitudinal Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008403",
+      "descriptor_name": "Mass Screening",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015203",
+      "descriptor_name": "Reproducibility of Results",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012129",
+      "descriptor_name": "Respiratory Function Tests",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.jaci.2006.01.011",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S108525051",
+        "display_name": "Journal of Allergy and Clinical Immunology",
+        "issn_l": "0091-6749",
+        "issn": [
+          "0091-6749",
+          "1085-8725",
+          "1097-6825"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16522452",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities",
+      "score": 0.56
+    },
+    {
+      "id": "https://metadata.un.org/sdg/16",
+      "display_name": "Peace, justice, and strong institutions",
+      "score": 0.41
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 17,
+  "referenced_works": [
+    "https://openalex.org/W1601572583",
+    "https://openalex.org/W1978876124",
+    "https://openalex.org/W1985453879",
+    "https://openalex.org/W2015565754",
+    "https://openalex.org/W2016056834",
+    "https://openalex.org/W2022235585",
+    "https://openalex.org/W2024813716",
+    "https://openalex.org/W2030999077",
+    "https://openalex.org/W2031747904",
+    "https://openalex.org/W2039439214",
+    "https://openalex.org/W2072238470",
+    "https://openalex.org/W2100356351",
+    "https://openalex.org/W2111609315",
+    "https://openalex.org/W2117061551",
+    "https://openalex.org/W2164230165",
+    "https://openalex.org/W2616424562",
+    "https://openalex.org/W4234557090"
+  ],
+  "related_works": [
+    "https://openalex.org/W4382298417",
+    "https://openalex.org/W2792401660",
+    "https://openalex.org/W2791729113",
+    "https://openalex.org/W2763069634",
+    "https://openalex.org/W2395336337",
+    "https://openalex.org/W2343770041",
+    "https://openalex.org/W2035331892",
+    "https://openalex.org/W1967695580",
+    "https://openalex.org/W1524220139",
+    "https://openalex.org/W1075988649"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2086332783",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 57
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 57
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 83
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 81
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 92
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 93
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 71
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 73
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 54
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 69
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 54
+    }
+  ],
+  "updated_date": "2025-06-14T12:41:43.470068",
+  "created_date": "2016-06-24"
+}

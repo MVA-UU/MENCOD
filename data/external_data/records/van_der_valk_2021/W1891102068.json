@@ -1,0 +1,779 @@
+{
+  "id": "https://openalex.org/W1891102068",
+  "doi": "https://doi.org/10.1016/j.apmr.2015.05.018",
+  "title": "Systematic Review: The Effectiveness of Interventions to Reduce Falls and Improve Balance in Adults With Multiple Sclerosis",
+  "display_name": "Systematic Review: The Effectiveness of Interventions to Reduce Falls and Improve Balance in Adults With Multiple Sclerosis",
+  "publication_year": 2015,
+  "publication_date": "2015-06-13",
+  "ids": {
+    "openalex": "https://openalex.org/W1891102068",
+    "doi": "https://doi.org/10.1016/j.apmr.2015.05.018",
+    "mag": "1891102068",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/26070975"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.apmr.2015.05.018",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S110924429",
+      "display_name": "Archives of Physical Medicine and Rehabilitation",
+      "issn_l": "0003-9993",
+      "issn": [
+        "0003-9993",
+        "1532-821X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://pearl.plymouth.ac.uk/bitstream/handle/10026.1/4175/PEARL%20deposit%20licence.pdf?sequence=1&isAllowed=y",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5070067174",
+        "display_name": "Hilary Gunn",
+        "orcid": "https://orcid.org/0000-0002-0149-5477"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I897542642",
+          "display_name": "University of Plymouth",
+          "ror": "https://ror.org/008n7pv89",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I897542642"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hilary Gunn",
+      "raw_affiliation_strings": [
+        "School of Health Professions, Plymouth University, Devon, United Kingdom. Electronic address: hilary.gunn100@plymouth.ac.uk."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Health Professions, Plymouth University, Devon, United Kingdom. Electronic address: hilary.gunn100@plymouth.ac.uk.",
+          "institution_ids": [
+            "https://openalex.org/I897542642"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5001772993",
+        "display_name": "Sophie Markevics",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210099552",
+          "display_name": "Northern Devon Healthcare NHS Trust",
+          "ror": "https://ror.org/00z9m6b57",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210099552"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sophie Markevics",
+      "raw_affiliation_strings": [
+        "Northern Devon Healthcare Trust, Devon, United Kingdom."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Northern Devon Healthcare Trust, Devon, United Kingdom.",
+          "institution_ids": [
+            "https://openalex.org/I4210099552"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102917228",
+        "display_name": "Bernhard Haas",
+        "orcid": "https://orcid.org/0000-0003-0229-9117"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I897542642",
+          "display_name": "University of Plymouth",
+          "ror": "https://ror.org/008n7pv89",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I897542642"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bernhard Haas",
+      "raw_affiliation_strings": [
+        "School of Health Professions, Plymouth University, Devon, United Kingdom."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Health Professions, Plymouth University, Devon, United Kingdom.",
+          "institution_ids": [
+            "https://openalex.org/I897542642"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037513423",
+        "display_name": "Jonathan Marsden",
+        "orcid": "https://orcid.org/0000-0002-2037-4902"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I897542642",
+          "display_name": "University of Plymouth",
+          "ror": "https://ror.org/008n7pv89",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I897542642"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan Marsden",
+      "raw_affiliation_strings": [
+        "School of Health Professions, Plymouth University, Devon, United Kingdom."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Health Professions, Plymouth University, Devon, United Kingdom.",
+          "institution_ids": [
+            "https://openalex.org/I897542642"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5089373761",
+        "display_name": "Jennifer Freeman",
+        "orcid": "https://orcid.org/0000-0002-4072-9758"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I897542642",
+          "display_name": "University of Plymouth",
+          "ror": "https://ror.org/008n7pv89",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I897542642"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jennifer Freeman",
+      "raw_affiliation_strings": [
+        "School of Health Professions, Plymouth University, Devon, United Kingdom."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Health Professions, Plymouth University, Devon, United Kingdom.",
+          "institution_ids": [
+            "https://openalex.org/I897542642"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 4000,
+    "currency": "USD",
+    "value_usd": 4000
+  },
+  "apc_paid": null,
+  "fwci": 2.061,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 167,
+  "citation_normalized_percentile": {
+    "value": 0.707739,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "96",
+    "issue": "10",
+    "first_page": "1898",
+    "last_page": "1912"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11097",
+    "display_name": "Cerebral Palsy and Movement Disorders",
+    "score": 0.9993,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2738",
+      "display_name": "Psychiatry and Mental health"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11097",
+      "display_name": "Cerebral Palsy and Movement Disorders",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10114",
+      "display_name": "Balance, Gait, and Falls Prevention",
+      "score": 0.9985,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3612",
+        "display_name": "Physical Therapy, Sports Therapy and Rehabilitation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10137",
+      "display_name": "Multiple Sclerosis Research Studies",
+      "score": 0.9976,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2734",
+        "display_name": "Pathology and Forensic Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/fall-prevention",
+      "display_name": "Fall prevention",
+      "score": 0.4394431
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780640218",
+      "wikidata": "https://www.wikidata.org/wiki/Q8277",
+      "display_name": "Multiple sclerosis",
+      "level": 2,
+      "score": 0.70475954
+    },
+    {
+      "id": "https://openalex.org/C27415008",
+      "wikidata": "https://www.wikidata.org/wiki/Q7256382",
+      "display_name": "Psychological intervention",
+      "level": 2,
+      "score": 0.6684896
+    },
+    {
+      "id": "https://openalex.org/C168031717",
+      "wikidata": "https://www.wikidata.org/wiki/Q1530280",
+      "display_name": "Balance (ability)",
+      "level": 2,
+      "score": 0.6422844
+    },
+    {
+      "id": "https://openalex.org/C2777131913",
+      "wikidata": "https://www.wikidata.org/wiki/Q2359404",
+      "display_name": "Falls in older adults",
+      "level": 4,
+      "score": 0.5983285
+    },
+    {
+      "id": "https://openalex.org/C99508421",
+      "wikidata": "https://www.wikidata.org/wiki/Q2678675",
+      "display_name": "Physical medicine and rehabilitation",
+      "level": 1,
+      "score": 0.59576637
+    },
+    {
+      "id": "https://openalex.org/C1862650",
+      "wikidata": "https://www.wikidata.org/wiki/Q186005",
+      "display_name": "Physical therapy",
+      "level": 1,
+      "score": 0.54674476
+    },
+    {
+      "id": "https://openalex.org/C2778818304",
+      "wikidata": "https://www.wikidata.org/wiki/Q1819478",
+      "display_name": "Rehabilitation",
+      "level": 2,
+      "score": 0.5458321
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.5456997
+    },
+    {
+      "id": "https://openalex.org/C2776516907",
+      "wikidata": "https://www.wikidata.org/wiki/Q5432181",
+      "display_name": "Fall prevention",
+      "level": 4,
+      "score": 0.4394431
+    },
+    {
+      "id": "https://openalex.org/C3017944768",
+      "wikidata": "https://www.wikidata.org/wiki/Q1450463",
+      "display_name": "Poison control",
+      "level": 2,
+      "score": 0.25075582
+    },
+    {
+      "id": "https://openalex.org/C190385971",
+      "wikidata": "https://www.wikidata.org/wiki/Q373494",
+      "display_name": "Injury prevention",
+      "level": 3,
+      "score": 0.23837218
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.120456696
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.10449666
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000056",
+      "descriptor_name": "Accident Prevention",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000058",
+      "descriptor_name": "Accidental Falls",
+      "qualifier_ui": "Q000517",
+      "qualifier_name": "prevention & control",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009103",
+      "descriptor_name": "Multiple Sclerosis",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009103",
+      "descriptor_name": "Multiple Sclerosis",
+      "qualifier_ui": "Q000534",
+      "qualifier_name": "rehabilitation",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D026741",
+      "descriptor_name": "Physical Therapy Modalities",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004856",
+      "descriptor_name": "Postural Balance",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000058",
+      "descriptor_name": "Accidental Falls",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009103",
+      "descriptor_name": "Multiple Sclerosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004856",
+      "descriptor_name": "Postural Balance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.apmr.2015.05.018",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S110924429",
+        "display_name": "Archives of Physical Medicine and Rehabilitation",
+        "issn_l": "0003-9993",
+        "issn": [
+          "0003-9993",
+          "1532-821X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/10026.1/4175",
+      "pdf_url": "https://pearl.plymouth.ac.uk/bitstream/handle/10026.1/4175/PEARL%20deposit%20licence.pdf?sequence=1&isAllowed=y",
+      "source": {
+        "id": "https://openalex.org/S4306402507",
+        "display_name": "PEARL (University of Plymouth)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I897542642",
+        "host_organization_name": "University of Plymouth",
+        "host_organization_lineage": [
+          "https://openalex.org/I897542642"
+        ],
+        "host_organization_lineage_names": [
+          "University of Plymouth"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/26070975",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://hdl.handle.net/10026.1/4175",
+    "pdf_url": "https://pearl.plymouth.ac.uk/bitstream/handle/10026.1/4175/PEARL%20deposit%20licence.pdf?sequence=1&isAllowed=y",
+    "source": {
+      "id": "https://openalex.org/S4306402507",
+      "display_name": "PEARL (University of Plymouth)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I897542642",
+      "host_organization_name": "University of Plymouth",
+      "host_organization_lineage": [
+        "https://openalex.org/I897542642"
+      ],
+      "host_organization_lineage_names": [
+        "University of Plymouth"
+      ],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.41
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320320084",
+      "funder_display_name": "Multiple Sclerosis Society",
+      "award_id": "990"
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 57,
+  "referenced_works": [
+    "https://openalex.org/W1487048188",
+    "https://openalex.org/W1565985766",
+    "https://openalex.org/W1598602811",
+    "https://openalex.org/W1763709863",
+    "https://openalex.org/W1964264880",
+    "https://openalex.org/W1971318733",
+    "https://openalex.org/W1976232266",
+    "https://openalex.org/W1977567792",
+    "https://openalex.org/W1981180593",
+    "https://openalex.org/W1982679536",
+    "https://openalex.org/W1984937264",
+    "https://openalex.org/W1984988932",
+    "https://openalex.org/W1985717126",
+    "https://openalex.org/W1987708188",
+    "https://openalex.org/W1997194061",
+    "https://openalex.org/W2004533500",
+    "https://openalex.org/W2010166115",
+    "https://openalex.org/W2013159382",
+    "https://openalex.org/W2018398881",
+    "https://openalex.org/W2027505718",
+    "https://openalex.org/W2031110400",
+    "https://openalex.org/W2041582692",
+    "https://openalex.org/W2049197285",
+    "https://openalex.org/W2053605989",
+    "https://openalex.org/W2057251037",
+    "https://openalex.org/W2059638344",
+    "https://openalex.org/W2070359717",
+    "https://openalex.org/W2070476479",
+    "https://openalex.org/W2079805786",
+    "https://openalex.org/W2083725441",
+    "https://openalex.org/W2096044210",
+    "https://openalex.org/W2098923148",
+    "https://openalex.org/W2101076802",
+    "https://openalex.org/W2101543045",
+    "https://openalex.org/W2106451674",
+    "https://openalex.org/W2107094618",
+    "https://openalex.org/W2107240449",
+    "https://openalex.org/W2109217942",
+    "https://openalex.org/W2114808411",
+    "https://openalex.org/W2116687998",
+    "https://openalex.org/W2118307656",
+    "https://openalex.org/W2119079747",
+    "https://openalex.org/W2127540631",
+    "https://openalex.org/W2128450027",
+    "https://openalex.org/W2130614813",
+    "https://openalex.org/W2130632081",
+    "https://openalex.org/W2132679654",
+    "https://openalex.org/W2141794277",
+    "https://openalex.org/W2145555293",
+    "https://openalex.org/W2146767422",
+    "https://openalex.org/W2161634194",
+    "https://openalex.org/W2162759419",
+    "https://openalex.org/W2169525614",
+    "https://openalex.org/W2171853361",
+    "https://openalex.org/W2301372722",
+    "https://openalex.org/W2319562730",
+    "https://openalex.org/W2324056668"
+  ],
+  "related_works": [
+    "https://openalex.org/W4399113648",
+    "https://openalex.org/W4298086991",
+    "https://openalex.org/W3035667055",
+    "https://openalex.org/W2990796822",
+    "https://openalex.org/W293326153",
+    "https://openalex.org/W2891852114",
+    "https://openalex.org/W2733499556",
+    "https://openalex.org/W2343758424",
+    "https://openalex.org/W2309179188",
+    "https://openalex.org/W1979000817"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1891102068",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 11
+    }
+  ],
+  "updated_date": "2025-06-17T18:01:47.107395",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,823 @@
+{
+  "id": "https://openalex.org/W95970354",
+  "doi": null,
+  "title": "InBody 720 as a new method of evaluating visceral obesity.",
+  "display_name": "InBody 720 as a new method of evaluating visceral obesity.",
+  "publication_year": 2011,
+  "publication_date": "2011-04-23",
+  "ids": {
+    "openalex": "https://openalex.org/W95970354",
+    "mag": "95970354",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/21510284"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/21510284",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5065529459",
+        "display_name": "Hisataka Ogawa",
+        "orcid": "https://orcid.org/0000-0002-9317-5007"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210090372",
+          "display_name": "Osaka National Hospital",
+          "ror": "https://ror.org/00b6s9f18",
+          "country_code": "JP",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210090372",
+            "https://openalex.org/I4210137409"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hisataka Ogawa",
+      "raw_affiliation_strings": [
+        "Department of Surgery, National Osaka Medical Center, Osaka, Japan."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Surgery, National Osaka Medical Center, Osaka, Japan.",
+          "institution_ids": [
+            "https://openalex.org/I4210090372"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060716896",
+        "display_name": "Kazumasa Fujitani",
+        "orcid": "https://orcid.org/0000-0003-4954-5047"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Kazumasa Fujitani",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003882682",
+        "display_name": "Toshimasa Tsujinaka",
+        "orcid": "https://orcid.org/0000-0002-0893-6570"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Toshimasa Tsujinaka",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5080001358",
+        "display_name": "Kenji Imanishi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Kenji Imanishi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012458187",
+        "display_name": "Hatsumi Shirakata",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hatsumi Shirakata",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061381011",
+        "display_name": "Aiko Kantani",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Aiko Kantani",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082376679",
+        "display_name": "Motohiro Hirao",
+        "orcid": "https://orcid.org/0000-0002-6509-6416"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Motohiro Hirao",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043504350",
+        "display_name": "Yukinori Kurokawa",
+        "orcid": "https://orcid.org/0000-0002-2883-0132"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yukinori Kurokawa",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5090484478",
+        "display_name": "Shigetoshi Utsumi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Shigetoshi Utsumi",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.732,
+  "has_fulltext": false,
+  "cited_by_count": 112,
+  "citation_normalized_percentile": {
+    "value": 0.93926,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "58",
+    "issue": "105",
+    "first_page": "42",
+    "last_page": "4"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12279",
+    "display_name": "Body Composition Measurement Techniques",
+    "score": 0.9788,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12279",
+      "display_name": "Body Composition Measurement Techniques",
+      "score": 0.9788,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12994",
+      "display_name": "Infrared Thermography in Medicine",
+      "score": 0.9642,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/bioelectrical-impedance-analysis",
+      "display_name": "Bioelectrical Impedance Analysis",
+      "score": 0.9447068
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C33872192",
+      "wikidata": "https://www.wikidata.org/wiki/Q864287",
+      "display_name": "Bioelectrical impedance analysis",
+      "level": 3,
+      "score": 0.9447068
+    },
+    {
+      "id": "https://openalex.org/C544519230",
+      "wikidata": "https://www.wikidata.org/wiki/Q32566",
+      "display_name": "Computed tomography",
+      "level": 2,
+      "score": 0.54724455
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.47695032
+    },
+    {
+      "id": "https://openalex.org/C3020796190",
+      "wikidata": "https://www.wikidata.org/wiki/Q193583",
+      "display_name": "Visceral fat",
+      "level": 4,
+      "score": 0.4730334
+    },
+    {
+      "id": "https://openalex.org/C126838900",
+      "wikidata": "https://www.wikidata.org/wiki/Q77604",
+      "display_name": "Radiology",
+      "level": 1,
+      "score": 0.3327276
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.29735082
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.19366974
+    },
+    {
+      "id": "https://openalex.org/C2780221984",
+      "wikidata": "https://www.wikidata.org/wiki/Q131191",
+      "display_name": "Body mass index",
+      "level": 2,
+      "score": 0.12899938
+    },
+    {
+      "id": "https://openalex.org/C2777391703",
+      "wikidata": "https://www.wikidata.org/wiki/Q1053470",
+      "display_name": "Insulin resistance",
+      "level": 3,
+      "score": 0.098674744
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D017097",
+      "descriptor_name": "Electric Impedance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D050152",
+      "descriptor_name": "Intra-Abdominal Fat",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011300",
+      "descriptor_name": "Preoperative Care",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013274",
+      "descriptor_name": "Stomach Neoplasms",
+      "qualifier_ui": "Q000601",
+      "qualifier_name": "surgery",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013274",
+      "descriptor_name": "Stomach Neoplasms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014057",
+      "descriptor_name": "Tomography, X-Ray Computed",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/21510284",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.76
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W3030954785",
+    "https://openalex.org/W3009301897",
+    "https://openalex.org/W2923915525",
+    "https://openalex.org/W2886645383",
+    "https://openalex.org/W2790993611",
+    "https://openalex.org/W2747846387",
+    "https://openalex.org/W2587001920",
+    "https://openalex.org/W2577517549",
+    "https://openalex.org/W2337679858",
+    "https://openalex.org/W2290235335",
+    "https://openalex.org/W2235093252",
+    "https://openalex.org/W2173923871",
+    "https://openalex.org/W2164556655",
+    "https://openalex.org/W2160234571",
+    "https://openalex.org/W2121859614",
+    "https://openalex.org/W2062018025",
+    "https://openalex.org/W2036898624",
+    "https://openalex.org/W2020432568",
+    "https://openalex.org/W1989400130",
+    "https://openalex.org/W1989199273"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "study": [
+      1
+    ],
+    "was": [
+      2,
+      82
+    ],
+    "conducted": [
+      3
+    ],
+    "to": [
+      4,
+      30,
+      84
+    ],
+    "assess": [
+      5
+    ],
+    "the": [
+      6,
+      46
+    ],
+    "efficacy": [
+      7
+    ],
+    "of": [
+      8,
+      25,
+      34,
+      41
+    ],
+    "bioelectrical": [
+      9,
+      54
+    ],
+    "impedance": [
+      10,
+      55,
+      77
+    ],
+    "analysis": [
+      11,
+      56,
+      78
+    ],
+    "by": [
+      12,
+      57,
+      64,
+      71,
+      79
+    ],
+    "InBody": [
+      13,
+      58,
+      65,
+      80
+    ],
+    "720": [
+      14,
+      66,
+      81
+    ],
+    "as": [
+      15,
+      87
+    ],
+    "a": [
+      16,
+      88
+    ],
+    "new": [
+      17
+    ],
+    "tool": [
+      18
+    ],
+    "for": [
+      19,
+      92
+    ],
+    "measuring": [
+      20,
+      96
+    ],
+    "visceral": [
+      21,
+      42,
+      97
+    ],
+    "fat": [
+      22,
+      43,
+      60,
+      98
+    ],
+    "area.A": [
+      23
+    ],
+    "total": [
+      24
+    ],
+    "53": [
+      26
+    ],
+    "consecutive": [
+      27
+    ],
+    "patients": [
+      28
+    ],
+    "elected": [
+      29
+    ],
+    "undergo": [
+      31
+    ],
+    "surgical": [
+      32
+    ],
+    "resection": [
+      33
+    ],
+    "primary": [
+      35
+    ],
+    "gastric": [
+      36
+    ],
+    "cancer": [
+      37
+    ],
+    "received": [
+      38
+    ],
+    "preoperative": [
+      39
+    ],
+    "measurement": [
+      40
+    ],
+    "area": [
+      44,
+      61
+    ],
+    "at": [
+      45
+    ],
+    "umbilical": [
+      47
+    ],
+    "level": [
+      48
+    ],
+    "with": [
+      49,
+      69
+    ],
+    "both": [
+      50
+    ],
+    "computed": [
+      51,
+      72,
+      93
+    ],
+    "tomography": [
+      52,
+      73,
+      94
+    ],
+    "and": [
+      53
+    ],
+    "720.Visceral": [
+      59
+    ],
+    "values": [
+      62
+    ],
+    "measured": [
+      63
+    ],
+    "significantly": [
+      67
+    ],
+    "correlated": [
+      68
+    ],
+    "those": [
+      70
+    ],
+    "(R": [
+      74
+    ],
+    "=": [
+      75
+    ],
+    "0.759).Bioelectrical": [
+      76
+    ],
+    "shown": [
+      83
+    ],
+    "be": [
+      85
+    ],
+    "useful": [
+      86
+    ],
+    "more": [
+      89
+    ],
+    "convenient": [
+      90
+    ],
+    "substitute": [
+      91
+    ],
+    "when": [
+      95
+    ],
+    "area.": [
+      99
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W95970354",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-05-24T00:54:50.486913",
+  "created_date": "2016-06-24"
+}

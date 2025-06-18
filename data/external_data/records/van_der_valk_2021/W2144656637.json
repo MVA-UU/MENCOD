@@ -1,0 +1,1198 @@
+{
+  "id": "https://openalex.org/W2144656637",
+  "doi": "https://doi.org/10.1093/bioinformatics/btm554",
+  "title": "Computing topological parameters of biological networks",
+  "display_name": "Computing topological parameters of biological networks",
+  "publication_year": 2007,
+  "publication_date": "2007-11-15",
+  "ids": {
+    "openalex": "https://openalex.org/W2144656637",
+    "doi": "https://doi.org/10.1093/bioinformatics/btm554",
+    "mag": "2144656637",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/18006545"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/bioinformatics/btm554",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S52395412",
+      "display_name": "Bioinformatics",
+      "issn_l": "1367-4803",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://doi.org/10.1093/bioinformatics/btm554",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5072559703",
+        "display_name": "Yassen Assenov",
+        "orcid": "https://orcid.org/0000-0002-6992-2092"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109712",
+          "display_name": "Max Planck Institute for Informatics",
+          "ror": "https://ror.org/01w19ak89",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210109712"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yassen Assenov",
+      "raw_affiliation_strings": [
+        "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Stuhlsatzenhausweg 85, 66123 Saarbrücken, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Stuhlsatzenhausweg 85, 66123 Saarbrücken, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210109712"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072166207",
+        "display_name": "Fidel Ramírez",
+        "orcid": "https://orcid.org/0000-0002-9142-417X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109712",
+          "display_name": "Max Planck Institute for Informatics",
+          "ror": "https://ror.org/01w19ak89",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210109712"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Fidel Ramírez",
+      "raw_affiliation_strings": [
+        "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Stuhlsatzenhausweg 85, 66123 Saarbrücken, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Stuhlsatzenhausweg 85, 66123 Saarbrücken, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210109712"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036661492",
+        "display_name": "Sven-Eric Schelhorn",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109712",
+          "display_name": "Max Planck Institute for Informatics",
+          "ror": "https://ror.org/01w19ak89",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210109712"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sven-Eric Schelhorn",
+      "raw_affiliation_strings": [
+        "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Stuhlsatzenhausweg 85, 66123 Saarbrücken, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Stuhlsatzenhausweg 85, 66123 Saarbrücken, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210109712"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023556977",
+        "display_name": "Thomas Lengauer",
+        "orcid": "https://orcid.org/0000-0003-3801-2640"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109712",
+          "display_name": "Max Planck Institute for Informatics",
+          "ror": "https://ror.org/01w19ak89",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210109712"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thomas Lengauer",
+      "raw_affiliation_strings": [
+        "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Stuhlsatzenhausweg 85, 66123 Saarbrücken, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Stuhlsatzenhausweg 85, 66123 Saarbrücken, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210109712"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5108484144",
+        "display_name": "Mario Albrecht",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210109712",
+          "display_name": "Max Planck Institute for Informatics",
+          "ror": "https://ror.org/01w19ak89",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210109712"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mario Albrecht",
+      "raw_affiliation_strings": [
+        "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Stuhlsatzenhausweg 85, 66123 Saarbrücken, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computational Biology and Applied Algorithmics, Max Planck Institute for Informatics, Stuhlsatzenhausweg 85, 66123 Saarbrücken, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210109712"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3618,
+    "currency": "USD",
+    "value_usd": 3618
+  },
+  "apc_paid": {
+    "value": 3618,
+    "currency": "USD",
+    "value_usd": 3618
+  },
+  "fwci": 9.514,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 1748,
+  "citation_normalized_percentile": {
+    "value": 0.937634,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "24",
+    "issue": "2",
+    "first_page": "282",
+    "last_page": "284"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10887",
+    "display_name": "Bioinformatics and Genomic Networks",
+    "score": 0.9996,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10887",
+      "display_name": "Bioinformatics and Genomic Networks",
+      "score": 0.9996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10211",
+      "display_name": "Computational Drug Discovery Methods",
+      "score": 0.9973,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10621",
+      "display_name": "Gene Regulatory Network Analysis",
+      "score": 0.9943,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/plug-in",
+      "display_name": "Plug-in",
+      "score": 0.65718013
+    },
+    {
+      "id": "https://openalex.org/keywords/clustering-coefficient",
+      "display_name": "Clustering coefficient",
+      "score": 0.5852553
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.7262254
+    },
+    {
+      "id": "https://openalex.org/C4924752",
+      "wikidata": "https://www.wikidata.org/wiki/Q184148",
+      "display_name": "Plug-in",
+      "level": 2,
+      "score": 0.65718013
+    },
+    {
+      "id": "https://openalex.org/C28225019",
+      "wikidata": "https://www.wikidata.org/wiki/Q4915005",
+      "display_name": "Biological network",
+      "level": 2,
+      "score": 0.6518614
+    },
+    {
+      "id": "https://openalex.org/C64543145",
+      "wikidata": "https://www.wikidata.org/wiki/Q162942",
+      "display_name": "Intersection (aeronautics)",
+      "level": 2,
+      "score": 0.62548923
+    },
+    {
+      "id": "https://openalex.org/C73555534",
+      "wikidata": "https://www.wikidata.org/wiki/Q622825",
+      "display_name": "Cluster analysis",
+      "level": 2,
+      "score": 0.62131655
+    },
+    {
+      "id": "https://openalex.org/C22047676",
+      "wikidata": "https://www.wikidata.org/wiki/Q898680",
+      "display_name": "Clustering coefficient",
+      "level": 3,
+      "score": 0.5852553
+    },
+    {
+      "id": "https://openalex.org/C62611344",
+      "wikidata": "https://www.wikidata.org/wiki/Q1062658",
+      "display_name": "Node (physics)",
+      "level": 2,
+      "score": 0.56787926
+    },
+    {
+      "id": "https://openalex.org/C2780801425",
+      "wikidata": "https://www.wikidata.org/wiki/Q5164392",
+      "display_name": "Construct (python library)",
+      "level": 2,
+      "score": 0.5359562
+    },
+    {
+      "id": "https://openalex.org/C80444323",
+      "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+      "display_name": "Theoretical computer science",
+      "level": 1,
+      "score": 0.46765938
+    },
+    {
+      "id": "https://openalex.org/C177264268",
+      "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+      "display_name": "Set (abstract data type)",
+      "level": 2,
+      "score": 0.46008894
+    },
+    {
+      "id": "https://openalex.org/C2777735758",
+      "wikidata": "https://www.wikidata.org/wiki/Q817765",
+      "display_name": "Path (computing)",
+      "level": 2,
+      "score": 0.45173842
+    },
+    {
+      "id": "https://openalex.org/C124101348",
+      "wikidata": "https://www.wikidata.org/wiki/Q172491",
+      "display_name": "Data mining",
+      "level": 1,
+      "score": 0.4472686
+    },
+    {
+      "id": "https://openalex.org/C2777904410",
+      "wikidata": "https://www.wikidata.org/wiki/Q7397",
+      "display_name": "Software",
+      "level": 2,
+      "score": 0.4164156
+    },
+    {
+      "id": "https://openalex.org/C132525143",
+      "wikidata": "https://www.wikidata.org/wiki/Q141488",
+      "display_name": "Graph",
+      "level": 2,
+      "score": 0.41010666
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.22335124
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.18264154
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.09224209
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C146978453",
+      "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+      "display_name": "Aerospace engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C66938386",
+      "wikidata": "https://www.wikidata.org/wiki/Q633538",
+      "display_name": "Structural engineering",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000465",
+      "descriptor_name": "Algorithms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008954",
+      "descriptor_name": "Models, Biological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D025941",
+      "descriptor_name": "Protein Interaction Mapping",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020543",
+      "descriptor_name": "Proteome",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014584",
+      "descriptor_name": "User-Computer Interface",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003198",
+      "descriptor_name": "Computer Simulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D025941",
+      "descriptor_name": "Protein Interaction Mapping",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020543",
+      "descriptor_name": "Proteome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/bioinformatics/btm554",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S52395412",
+        "display_name": "Bioinformatics",
+        "issn_l": "1367-4803",
+        "issn": [
+          "1367-4803",
+          "1367-4811"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/18006545",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/bioinformatics/btm554",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S52395412",
+      "display_name": "Bioinformatics",
+      "issn_l": "1367-4803",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 15,
+  "referenced_works": [
+    "https://openalex.org/W1525985997",
+    "https://openalex.org/W1971425971",
+    "https://openalex.org/W1989684700",
+    "https://openalex.org/W1989921625",
+    "https://openalex.org/W2006944023",
+    "https://openalex.org/W2057498577",
+    "https://openalex.org/W2109278577",
+    "https://openalex.org/W2113353492",
+    "https://openalex.org/W2139939149",
+    "https://openalex.org/W2141297641",
+    "https://openalex.org/W2148753315",
+    "https://openalex.org/W2156737316",
+    "https://openalex.org/W2159675211",
+    "https://openalex.org/W2163480486",
+    "https://openalex.org/W2169803818"
+  ],
+  "related_works": [
+    "https://openalex.org/W3183948672",
+    "https://openalex.org/W3173606202",
+    "https://openalex.org/W3110381201",
+    "https://openalex.org/W3099594505",
+    "https://openalex.org/W2948807893",
+    "https://openalex.org/W2778153218",
+    "https://openalex.org/W2141346699",
+    "https://openalex.org/W2103730437",
+    "https://openalex.org/W2072971818",
+    "https://openalex.org/W1531601525"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Summary:": [
+      1
+    ],
+    "Rapidly": [
+      2
+    ],
+    "increasing": [
+      3
+    ],
+    "amounts": [
+      4
+    ],
+    "of": [
+      5,
+      30,
+      56,
+      63,
+      86,
+      119
+    ],
+    "molecular": [
+      6
+    ],
+    "interaction": [
+      7
+    ],
+    "data": [
+      8,
+      157
+    ],
+    "are": [
+      9,
+      158
+    ],
+    "being": [
+      10
+    ],
+    "produced": [
+      11
+    ],
+    "by": [
+      12,
+      37
+    ],
+    "various": [
+      13
+    ],
+    "experimental": [
+      14
+    ],
+    "techniques": [
+      15
+    ],
+    "and": [
+      16,
+      28,
+      51,
+      66,
+      76,
+      83,
+      94,
+      105,
+      108,
+      126
+    ],
+    "computational": [
+      17
+    ],
+    "prediction": [
+      18
+    ],
+    "methods.": [
+      19
+    ],
+    "In": [
+      20
+    ],
+    "order": [
+      21
+    ],
+    "to": [
+      22,
+      102,
+      113
+    ],
+    "gain": [
+      23
+    ],
+    "insight": [
+      24
+    ],
+    "into": [
+      25
+    ],
+    "the": [
+      26,
+      31,
+      38,
+      44,
+      61,
+      69,
+      79,
+      84,
+      115,
+      139,
+      147
+    ],
+    "organization": [
+      27
+    ],
+    "structure": [
+      29
+    ],
+    "resultant": [
+      32
+    ],
+    "large": [
+      33
+    ],
+    "complex": [
+      34
+    ],
+    "networks": [
+      35,
+      107
+    ],
+    "formed": [
+      36
+    ],
+    "interacting": [
+      39
+    ],
+    "molecules,": [
+      40
+    ],
+    "we": [
+      41
+    ],
+    "have": [
+      42
+    ],
+    "developed": [
+      43
+    ],
+    "versatile": [
+      45
+    ],
+    "Cytoscape": [
+      46,
+      148
+    ],
+    "plugin": [
+      47
+    ],
+    "NetworkAnalyzer.": [
+      48
+    ],
+    "It": [
+      49,
+      122
+    ],
+    "computes": [
+      50
+    ],
+    "displays": [
+      52
+    ],
+    "a": [
+      53
+    ],
+    "comprehensive": [
+      54
+    ],
+    "set": [
+      55
+    ],
+    "topological": [
+      57
+    ],
+    "parameters,": [
+      58
+    ],
+    "which": [
+      59
+    ],
+    "includes": [
+      60
+    ],
+    "number": [
+      62
+    ],
+    "nodes,": [
+      64
+    ],
+    "edges,": [
+      65
+    ],
+    "connected": [
+      67
+    ],
+    "components,": [
+      68
+    ],
+    "network": [
+      70
+    ],
+    "diameter,": [
+      71
+    ],
+    "radius,": [
+      72
+    ],
+    "density,": [
+      73
+    ],
+    "centralization,": [
+      74
+    ],
+    "heterogeneity,": [
+      75
+    ],
+    "clustering": [
+      77,
+      92
+    ],
+    "coefficient,": [
+      78
+    ],
+    "characteristic": [
+      80
+    ],
+    "path": [
+      81,
+      96
+    ],
+    "length,": [
+      82
+    ],
+    "distributions": [
+      85
+    ],
+    "node": [
+      87
+    ],
+    "degrees,": [
+      88
+    ],
+    "neighborhood": [
+      89
+    ],
+    "connectivities,": [
+      90
+    ],
+    "average": [
+      91
+    ],
+    "coefficients,": [
+      93
+    ],
+    "shortest": [
+      95
+    ],
+    "lengths.": [
+      97
+    ],
+    "NetworkAnalyzer": [
+      98,
+      142
+    ],
+    "can": [
+      99,
+      143
+    ],
+    "be": [
+      100,
+      144
+    ],
+    "applied": [
+      101
+    ],
+    "both": [
+      103
+    ],
+    "directed": [
+      104
+    ],
+    "undirected": [
+      106
+    ],
+    "also": [
+      109
+    ],
+    "contains": [
+      110
+    ],
+    "extra": [
+      111
+    ],
+    "functionality": [
+      112
+    ],
+    "construct": [
+      114
+    ],
+    "intersection": [
+      116
+    ],
+    "or": [
+      117
+    ],
+    "union": [
+      118
+    ],
+    "two": [
+      120
+    ],
+    "networks.": [
+      121
+    ],
+    "is": [
+      123
+    ],
+    "an": [
+      124
+    ],
+    "interactive": [
+      125
+    ],
+    "highly": [
+      127
+    ],
+    "customizable": [
+      128
+    ],
+    "application": [
+      129
+    ],
+    "that": [
+      130
+    ],
+    "requires": [
+      131
+    ],
+    "no": [
+      132
+    ],
+    "expert": [
+      133
+    ],
+    "knowledge": [
+      134
+    ],
+    "in": [
+      135
+    ],
+    "graph": [
+      136
+    ],
+    "theory": [
+      137
+    ],
+    "from": [
+      138
+    ],
+    "user.": [
+      140
+    ],
+    "Availability:": [
+      141
+    ],
+    "downloaded": [
+      145
+    ],
+    "via": [
+      146
+    ],
+    "web": [
+      149
+    ],
+    "site:": [
+      150
+    ],
+    "http://www.cytoscape.org": [
+      151
+    ],
+    "Contact:": [
+      152
+    ],
+    "mario.albrecht@mpi-inf.mpg.de": [
+      153
+    ],
+    "Supplementary": [
+      154,
+      156
+    ],
+    "information:": [
+      155
+    ],
+    "available": [
+      159
+    ],
+    "at": [
+      160
+    ],
+    "Bioinformatics": [
+      161
+    ],
+    "online.": [
+      162
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2144656637",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 99
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 166
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 170
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 177
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 177
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 153
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 114
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 112
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 96
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 87
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 90
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 68
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 73
+    }
+  ],
+  "updated_date": "2025-06-10T19:51:07.898853",
+  "created_date": "2016-06-24"
+}

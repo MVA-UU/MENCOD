@@ -1,0 +1,1563 @@
+{
+  "id": "https://openalex.org/W2310662295",
+  "doi": "https://doi.org/10.1002/hbm.23180",
+  "title": "Subtle in-scanner motion biases automated measurement of brain anatomy from in vivo MRI",
+  "display_name": "Subtle in-scanner motion biases automated measurement of brain anatomy from in vivo MRI",
+  "publication_year": 2016,
+  "publication_date": "2016-03-23",
+  "ids": {
+    "openalex": "https://openalex.org/W2310662295",
+    "doi": "https://doi.org/10.1002/hbm.23180",
+    "mag": "2310662295",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27004471",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5110234"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1002/hbm.23180",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S121666818",
+      "display_name": "Human Brain Mapping",
+      "issn_l": "1065-9471",
+      "issn": [
+        "1065-9471",
+        "1097-0193"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5110234",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5021517716",
+        "display_name": "Aaron Alexander‐Bloch",
+        "orcid": "https://orcid.org/0000-0001-6554-1893"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158500",
+          "display_name": "National Institute of Mental Health",
+          "ror": "https://ror.org/04xeg9z08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210158500"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I32971472",
+          "display_name": "Yale University",
+          "ror": "https://ror.org/03v76x132",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Aaron Alexander-Bloch",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry; Yale University School of Medicine; New Haven Connecticut",
+        "Developmental Neurogenomics Unit; Child Psychiatry Branch; National Institute of Mental Health; Bethesda Maryland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Developmental Neurogenomics Unit; Child Psychiatry Branch; National Institute of Mental Health; Bethesda Maryland",
+          "institution_ids": [
+            "https://openalex.org/I4210158500"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Psychiatry; Yale University School of Medicine; New Haven Connecticut",
+          "institution_ids": [
+            "https://openalex.org/I32971472"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111973209",
+        "display_name": "Liv Clasen",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158500",
+          "display_name": "National Institute of Mental Health",
+          "ror": "https://ror.org/04xeg9z08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Liv Clasen",
+      "raw_affiliation_strings": [
+        "Developmental Neurogenomics Unit; Child Psychiatry Branch; National Institute of Mental Health; Bethesda Maryland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Developmental Neurogenomics Unit; Child Psychiatry Branch; National Institute of Mental Health; Bethesda Maryland",
+          "institution_ids": [
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045667410",
+        "display_name": "Michael Stockman",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158500",
+          "display_name": "National Institute of Mental Health",
+          "ror": "https://ror.org/04xeg9z08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Stockman",
+      "raw_affiliation_strings": [
+        "Developmental Neurogenomics Unit; Child Psychiatry Branch; National Institute of Mental Health; Bethesda Maryland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Developmental Neurogenomics Unit; Child Psychiatry Branch; National Institute of Mental Health; Bethesda Maryland",
+          "institution_ids": [
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034603834",
+        "display_name": "Lisa Ronan",
+        "orcid": "https://orcid.org/0000-0001-8580-921X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I241749",
+          "display_name": "University of Cambridge",
+          "ror": "https://ror.org/013meh722",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I241749"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lisa Ronan",
+      "raw_affiliation_strings": [
+        "Brain Mapping Unit; University of Cambridge; Cambridge United Kingdom"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Brain Mapping Unit; University of Cambridge; Cambridge United Kingdom",
+          "institution_ids": [
+            "https://openalex.org/I241749"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072317224",
+        "display_name": "François Lalonde",
+        "orcid": "https://orcid.org/0000-0002-4945-0032"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158500",
+          "display_name": "National Institute of Mental Health",
+          "ror": "https://ror.org/04xeg9z08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Francois Lalonde",
+      "raw_affiliation_strings": [
+        "Developmental Neurogenomics Unit; Child Psychiatry Branch; National Institute of Mental Health; Bethesda Maryland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Developmental Neurogenomics Unit; Child Psychiatry Branch; National Institute of Mental Health; Bethesda Maryland",
+          "institution_ids": [
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082500942",
+        "display_name": "Jay N. Giedd",
+        "orcid": "https://orcid.org/0000-0003-2002-8978"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36258959",
+          "display_name": "University of California, San Diego",
+          "ror": "https://ror.org/0168r3w48",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36258959"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jay Giedd",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry; UCSD; San Diego California"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry; UCSD; San Diego California",
+          "institution_ids": [
+            "https://openalex.org/I36258959"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5059250686",
+        "display_name": "Armin Raznahan",
+        "orcid": "https://orcid.org/0000-0002-5622-1190"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158500",
+          "display_name": "National Institute of Mental Health",
+          "ror": "https://ror.org/04xeg9z08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Armin Raznahan",
+      "raw_affiliation_strings": [
+        "Developmental Neurogenomics Unit; Child Psychiatry Branch; National Institute of Mental Health; Bethesda Maryland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Developmental Neurogenomics Unit; Child Psychiatry Branch; National Institute of Mental Health; Bethesda Maryland",
+          "institution_ids": [
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3200,
+    "currency": "USD",
+    "value_usd": 3200
+  },
+  "apc_paid": null,
+  "fwci": 11.529,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 199,
+  "citation_normalized_percentile": {
+    "value": 0.999935,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "37",
+    "issue": "7",
+    "first_page": "2385",
+    "last_page": "2397"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10378",
+    "display_name": "Advanced MRI Techniques and Applications",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2741",
+      "display_name": "Radiology, Nuclear Medicine and Imaging"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 0.9995,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11304",
+      "display_name": "Advanced Neuroimaging Techniques and Applications",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/brain-anatomy",
+      "display_name": "Brain Anatomy",
+      "score": 0.50328296
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779751349",
+      "wikidata": "https://www.wikidata.org/wiki/Q1474480",
+      "display_name": "Scanner",
+      "level": 2,
+      "score": 0.5631795
+    },
+    {
+      "id": "https://openalex.org/C104114177",
+      "wikidata": "https://www.wikidata.org/wiki/Q79782",
+      "display_name": "Motion (physics)",
+      "level": 2,
+      "score": 0.5151421
+    },
+    {
+      "id": "https://openalex.org/C2988762625",
+      "wikidata": "https://www.wikidata.org/wiki/Q492038",
+      "display_name": "Brain anatomy",
+      "level": 3,
+      "score": 0.50328296
+    },
+    {
+      "id": "https://openalex.org/C143409427",
+      "wikidata": "https://www.wikidata.org/wiki/Q161238",
+      "display_name": "Magnetic resonance imaging",
+      "level": 2,
+      "score": 0.4218316
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.4089898
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.40855995
+    },
+    {
+      "id": "https://openalex.org/C105702510",
+      "wikidata": "https://www.wikidata.org/wiki/Q514",
+      "display_name": "Anatomy",
+      "level": 1,
+      "score": 0.36197793
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.3448861
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.30750158
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.27858692
+    },
+    {
+      "id": "https://openalex.org/C126838900",
+      "wikidata": "https://www.wikidata.org/wiki/Q77604",
+      "display_name": "Radiology",
+      "level": 1,
+      "score": 0.26527297
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.24956617
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000000981",
+      "qualifier_name": "diagnostic imaging",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016477",
+      "descriptor_name": "Artifacts",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002675",
+      "descriptor_name": "Child, Preschool",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D066128",
+      "descriptor_name": "Gray Matter",
+      "qualifier_ui": "Q000000981",
+      "qualifier_name": "diagnostic imaging",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009038",
+      "descriptor_name": "Motion",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009929",
+      "descriptor_name": "Organ Size",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010363",
+      "descriptor_name": "Pattern Recognition, Automated",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055815",
+      "descriptor_name": "Young Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1002/hbm.23180",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S121666818",
+        "display_name": "Human Brain Mapping",
+        "issn_l": "1065-9471",
+        "issn": [
+          "1065-9471",
+          "1097-0193"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5110234",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5110234",
+      "pdf_url": "https://europepmc.org/articles/pmc5110234?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://escholarship.org/uc/item/10h6r4r3",
+      "pdf_url": "https://escholarship.org/content/qt10h6r4r3/qt10h6r4r3.pdf?t=rwm4ob",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [
+          "California Digital Library"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27004471",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5110234",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 63,
+  "referenced_works": [
+    "https://openalex.org/W1755973449",
+    "https://openalex.org/W1756780756",
+    "https://openalex.org/W1975336801",
+    "https://openalex.org/W1977131470",
+    "https://openalex.org/W1980323423",
+    "https://openalex.org/W1980361506",
+    "https://openalex.org/W1984525034",
+    "https://openalex.org/W1986218154",
+    "https://openalex.org/W1987661888",
+    "https://openalex.org/W1990134753",
+    "https://openalex.org/W2001504269",
+    "https://openalex.org/W2002458598",
+    "https://openalex.org/W2004293194",
+    "https://openalex.org/W2005238835",
+    "https://openalex.org/W2008152557",
+    "https://openalex.org/W2021396393",
+    "https://openalex.org/W2022852088",
+    "https://openalex.org/W2024199909",
+    "https://openalex.org/W2026457574",
+    "https://openalex.org/W2030309005",
+    "https://openalex.org/W2040050577",
+    "https://openalex.org/W2041127567",
+    "https://openalex.org/W2042399828",
+    "https://openalex.org/W2044032804",
+    "https://openalex.org/W2048857243",
+    "https://openalex.org/W2050597556",
+    "https://openalex.org/W2052644075",
+    "https://openalex.org/W2055132316",
+    "https://openalex.org/W2063237661",
+    "https://openalex.org/W2074654463",
+    "https://openalex.org/W2086164033",
+    "https://openalex.org/W2088283457",
+    "https://openalex.org/W2101135654",
+    "https://openalex.org/W2103040438",
+    "https://openalex.org/W2104434712",
+    "https://openalex.org/W2105086806",
+    "https://openalex.org/W2108117677",
+    "https://openalex.org/W2113319997",
+    "https://openalex.org/W2115002646",
+    "https://openalex.org/W2117140276",
+    "https://openalex.org/W2121369614",
+    "https://openalex.org/W2122630024",
+    "https://openalex.org/W2124774611",
+    "https://openalex.org/W2131339155",
+    "https://openalex.org/W2132175842",
+    "https://openalex.org/W2136763679",
+    "https://openalex.org/W2140560962",
+    "https://openalex.org/W2141796362",
+    "https://openalex.org/W2143463042",
+    "https://openalex.org/W2148726987",
+    "https://openalex.org/W2151130155",
+    "https://openalex.org/W2151721316",
+    "https://openalex.org/W2151765069",
+    "https://openalex.org/W2153480371",
+    "https://openalex.org/W2155963684",
+    "https://openalex.org/W2157270343",
+    "https://openalex.org/W2157848968",
+    "https://openalex.org/W2160928837",
+    "https://openalex.org/W2164385382",
+    "https://openalex.org/W2170758538",
+    "https://openalex.org/W2170966360",
+    "https://openalex.org/W2582743722",
+    "https://openalex.org/W4235770099"
+  ],
+  "related_works": [
+    "https://openalex.org/W762151464",
+    "https://openalex.org/W4402492658",
+    "https://openalex.org/W4245233074",
+    "https://openalex.org/W4239804034",
+    "https://openalex.org/W4232857084",
+    "https://openalex.org/W2389610024",
+    "https://openalex.org/W2167384162",
+    "https://openalex.org/W2001485867",
+    "https://openalex.org/W1969621326",
+    "https://openalex.org/W1517555227"
+  ],
+  "abstract_inverted_index": {
+    "While": [
+      0
+    ],
+    "the": [
+      1,
+      17,
+      26,
+      59,
+      62,
+      72
+    ],
+    "potential": [
+      2
+    ],
+    "for": [
+      3
+    ],
+    "small": [
+      4
+    ],
+    "amounts": [
+      5
+    ],
+    "of": [
+      6,
+      19,
+      28,
+      34,
+      51,
+      55,
+      85,
+      94,
+      110,
+      141,
+      159,
+      167,
+      190,
+      241
+    ],
+    "motion": [
+      7,
+      30,
+      52,
+      143,
+      161,
+      183,
+      208
+    ],
+    "in": [
+      8,
+      71,
+      163,
+      174,
+      185,
+      206,
+      217,
+      228,
+      248
+    ],
+    "functional": [
+      9,
+      20
+    ],
+    "magnetic": [
+      10
+    ],
+    "resonance": [
+      11
+    ],
+    "imaging": [
+      12,
+      152
+    ],
+    "(fMRI)": [
+      13
+    ],
+    "scans": [
+      14
+    ],
+    "to": [
+      15,
+      65,
+      211,
+      225,
+      237
+    ],
+    "bias": [
+      16
+    ],
+    "results": [
+      18
+    ],
+    "neuroimaging": [
+      21,
+      227
+    ],
+    "studies": [
+      22
+    ],
+    "is": [
+      23,
+      37
+    ],
+    "well": [
+      24,
+      119
+    ],
+    "appreciated,": [
+      25
+    ],
+    "impact": [
+      27
+    ],
+    "in-scanner": [
+      29,
+      86,
+      198
+    ],
+    "on": [
+      31,
+      53
+    ],
+    "morphological": [
+      32
+    ],
+    "analysis": [
+      33,
+      240
+    ],
+    "structural": [
+      35,
+      44,
+      78,
+      191,
+      226,
+      245
+    ],
+    "MRI": [
+      36,
+      192,
+      246
+    ],
+    "relatively": [
+      38
+    ],
+    "under-studied.": [
+      39
+    ],
+    "Even": [
+      40
+    ],
+    "among": [
+      41
+    ],
+    "\"good": [
+      42
+    ],
+    "quality\"": [
+      43
+    ],
+    "scans,": [
+      45,
+      69,
+      79,
+      169,
+      193
+    ],
+    "there": [
+      46
+    ],
+    "may": [
+      47
+    ],
+    "be": [
+      48,
+      172
+    ],
+    "systematic": [
+      49,
+      212
+    ],
+    "effects": [
+      50,
+      140,
+      158
+    ],
+    "measures": [
+      54
+    ],
+    "brain": [
+      56
+    ],
+    "morphometry.": [
+      57
+    ],
+    "In": [
+      58
+    ],
+    "present": [
+      60,
+      148
+    ],
+    "study,": [
+      61
+    ],
+    "subjects'": [
+      63
+    ],
+    "tendency": [
+      64
+    ],
+    "move": [
+      66
+    ],
+    "during": [
+      67
+    ],
+    "fMRI": [
+      68
+    ],
+    "acquired": [
+      70
+    ],
+    "same": [
+      73
+    ],
+    "scanning": [
+      74
+    ],
+    "sessions": [
+      75
+    ],
+    "as": [
+      76,
+      118,
+      120
+    ],
+    "their": [
+      77
+    ],
+    "yielded": [
+      80
+    ],
+    "a": [
+      81,
+      92,
+      164
+    ],
+    "reliable,": [
+      82
+    ],
+    "continuous": [
+      83
+    ],
+    "estimate": [
+      84
+    ],
+    "motion.": [
+      87
+    ],
+    "Using": [
+      88
+    ],
+    "this": [
+      89,
+      106
+    ],
+    "approach": [
+      90
+    ],
+    "within": [
+      91
+    ],
+    "sample": [
+      93,
+      166
+    ],
+    "127": [
+      95
+    ],
+    "children,": [
+      96
+    ],
+    "adolescents,": [
+      97
+    ],
+    "and": [
+      98,
+      108,
+      115,
+      129,
+      135,
+      170,
+      177,
+      213,
+      230,
+      233,
+      243
+    ],
+    "young": [
+      99
+    ],
+    "adults,": [
+      100
+    ],
+    "significant": [
+      101
+    ],
+    "relationships": [
+      102,
+      122
+    ],
+    "were": [
+      103,
+      144,
+      147
+    ],
+    "found": [
+      104
+    ],
+    "between": [
+      105
+    ],
+    "measure": [
+      107
+    ],
+    "estimates": [
+      109
+    ],
+    "cortical": [
+      111,
+      124,
+      127
+    ],
+    "gray": [
+      112
+    ],
+    "matter": [
+      113
+    ],
+    "volume": [
+      114,
+      128
+    ],
+    "mean": [
+      116,
+      136
+    ],
+    "curvature,": [
+      117
+    ],
+    "trend-level": [
+      121
+    ],
+    "with": [
+      123,
+      132,
+      157
+    ],
+    "thickness.": [
+      125
+    ],
+    "Specifically,": [
+      126
+    ],
+    "thickness": [
+      130
+    ],
+    "decreased": [
+      131
+    ],
+    "greater": [
+      133
+    ],
+    "motion,": [
+      134
+    ],
+    "curvature": [
+      137
+    ],
+    "increased.": [
+      138
+    ],
+    "These": [
+      139,
+      220
+    ],
+    "subtle": [
+      142
+    ],
+    "anatomically": [
+      145
+    ],
+    "heterogeneous,": [
+      146
+    ],
+    "across": [
+      149
+    ],
+    "different": [
+      150,
+      182
+    ],
+    "automated": [
+      151
+    ],
+    "pipelines,": [
+      153
+    ],
+    "showed": [
+      154,
+      196
+    ],
+    "convergent": [
+      155,
+      194
+    ],
+    "validity": [
+      156
+    ],
+    "frank": [
+      160
+    ],
+    "assessed": [
+      162
+    ],
+    "separate": [
+      165
+    ],
+    "274": [
+      168
+    ],
+    "could": [
+      171
+    ],
+    "demonstrated": [
+      173
+    ],
+    "both": [
+      175
+    ],
+    "pediatric": [
+      176
+    ],
+    "adult": [
+      178
+    ],
+    "populations.": [
+      179
+    ],
+    "Thus,": [
+      180
+    ],
+    "using": [
+      181
+    ],
+    "assays": [
+      184
+    ],
+    "two": [
+      186
+    ],
+    "large": [
+      187
+    ],
+    "non-overlapping": [
+      188
+    ],
+    "sets": [
+      189
+    ],
+    "evidence": [
+      195
+    ],
+    "that": [
+      197
+    ],
+    "motion-even": [
+      199
+    ],
+    "at": [
+      200
+    ],
+    "levels": [
+      201
+    ],
+    "which": [
+      202
+    ],
+    "do": [
+      203
+    ],
+    "not": [
+      204
+    ],
+    "manifest": [
+      205
+    ],
+    "visible": [
+      207
+    ],
+    "artifact-can": [
+      209
+    ],
+    "lead": [
+      210
+    ],
+    "regionally": [
+      214
+    ],
+    "specific": [
+      215
+    ],
+    "biases": [
+      216
+    ],
+    "anatomical": [
+      218
+    ],
+    "estimation.": [
+      219
+    ],
+    "findings": [
+      221
+    ],
+    "have": [
+      222
+    ],
+    "special": [
+      223
+    ],
+    "relevance": [
+      224
+    ],
+    "developmental": [
+      229
+    ],
+    "clinical": [
+      231
+    ],
+    "datasets,": [
+      232
+    ],
+    "inform": [
+      234
+    ],
+    "ongoing": [
+      235
+    ],
+    "efforts": [
+      236
+    ],
+    "optimize": [
+      238
+    ],
+    "neuroanatomical": [
+      239
+    ],
+    "existing": [
+      242
+    ],
+    "future": [
+      244
+    ],
+    "datasets": [
+      247
+    ],
+    "non-sedated": [
+      249
+    ],
+    "humans.": [
+      250
+    ],
+    "Hum": [
+      251
+    ],
+    "Brain": [
+      252
+    ],
+    "Mapp": [
+      253
+    ],
+    "37:2385-2397,": [
+      254
+    ],
+    "2016.": [
+      255
+    ],
+    "©": [
+      256
+    ],
+    "2016": [
+      257
+    ],
+    "Wiley": [
+      258
+    ],
+    "Periodicals,": [
+      259
+    ],
+    "Inc.": [
+      260
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2310662295",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 9
+    }
+  ],
+  "updated_date": "2025-06-10T08:58:21.616804",
+  "created_date": "2016-06-24"
+}

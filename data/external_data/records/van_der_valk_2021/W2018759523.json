@@ -1,0 +1,1614 @@
+{
+  "id": "https://openalex.org/W2018759523",
+  "doi": "https://doi.org/10.1016/j.neuroimage.2009.11.075",
+  "title": "Adaptive and aberrant reward prediction signals in the human brain",
+  "display_name": "Adaptive and aberrant reward prediction signals in the human brain",
+  "publication_year": 2009,
+  "publication_date": "2009-12-06",
+  "ids": {
+    "openalex": "https://openalex.org/W2018759523",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2009.11.075",
+    "mag": "2018759523",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19969090",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2828543"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2009.11.075",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S103225281",
+      "display_name": "NeuroImage",
+      "issn_l": "1053-8119",
+      "issn": [
+        "1053-8119",
+        "1095-9572"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://doi.org/10.1016/j.neuroimage.2009.11.075",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5036936464",
+        "display_name": "Jonathan P. Roiser",
+        "orcid": "https://orcid.org/0000-0001-8269-1228"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210151618",
+          "display_name": "National Hospital for Neurology and Neurosurgery",
+          "ror": "https://ror.org/048b34d51",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1340918713",
+            "https://openalex.org/I4210151618"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan P. Roiser",
+      "raw_affiliation_strings": [
+        "Institute of Cognitive Neuroscience, University College, London, 17 Queen Square, London WC1N 3AR, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Cognitive Neuroscience, University College, London, 17 Queen Square, London WC1N 3AR, UK",
+          "institution_ids": [
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I4210151618"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016719332",
+        "display_name": "Klaas Ε. Stephan",
+        "orcid": "https://orcid.org/0000-0002-8594-9092"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210115727",
+          "display_name": "Laboratory for Social and Neural Systems Research",
+          "ror": "https://ror.org/021p56f43",
+          "country_code": "CH",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I4210100468",
+            "https://openalex.org/I4210115727"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I165524941",
+          "display_name": "Wellcome Centre for Human Neuroimaging",
+          "ror": "https://ror.org/02704qw51",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I165524941",
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I87048295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210151618",
+          "display_name": "National Hospital for Neurology and Neurosurgery",
+          "ror": "https://ror.org/048b34d51",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1340918713",
+            "https://openalex.org/I4210151618"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Klaas E. Stephan",
+      "raw_affiliation_strings": [
+        "Laboratory for Social and Neural Systems Research, Institute for Empirical Research in Economics, University of Zurich, Switzerland",
+        "Wellcome Trust Centre for Neuroimaging, Institute of Neurology, University College London, 12 Queen Square, London, WC1N 3BG, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory for Social and Neural Systems Research, Institute for Empirical Research in Economics, University of Zurich, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I4210115727",
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Wellcome Trust Centre for Neuroimaging, Institute of Neurology, University College London, 12 Queen Square, London, WC1N 3BG, UK",
+          "institution_ids": [
+            "https://openalex.org/I165524941",
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I4210151618"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091066494",
+        "display_name": "Hanneke E.M. den Ouden",
+        "orcid": "https://orcid.org/0000-0001-7039-5130"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165524941",
+          "display_name": "Wellcome Centre for Human Neuroimaging",
+          "ror": "https://ror.org/02704qw51",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I165524941",
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I87048295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hanneke E.M. den Ouden",
+      "raw_affiliation_strings": [
+        "Wellcome Trust Centre for Neuroimaging, Institute of Neurology, University College London, 12 Queen Square, London, WC1N 3BG UK."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Wellcome Trust Centre for Neuroimaging, Institute of Neurology, University College London, 12 Queen Square, London, WC1N 3BG UK.",
+          "institution_ids": [
+            "https://openalex.org/I165524941",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086852785",
+        "display_name": "Karl Friston",
+        "orcid": "https://orcid.org/0000-0001-7984-8909"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165524941",
+          "display_name": "Wellcome Centre for Human Neuroimaging",
+          "ror": "https://ror.org/02704qw51",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I165524941",
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I87048295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Karl J. Friston",
+      "raw_affiliation_strings": [
+        "Wellcome Trust Centre for Neuroimaging, Institute of Neurology, University College London, 12 Queen Square, London, WC1N 3BG UK."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Wellcome Trust Centre for Neuroimaging, Institute of Neurology, University College London, 12 Queen Square, London, WC1N 3BG UK.",
+          "institution_ids": [
+            "https://openalex.org/I165524941",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5084599446",
+        "display_name": "Eileen M. Joyce",
+        "orcid": "https://orcid.org/0000-0003-0469-2844"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165524941",
+          "display_name": "Wellcome Centre for Human Neuroimaging",
+          "ror": "https://ror.org/02704qw51",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I165524941",
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I87048295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Eileen M. Joyce",
+      "raw_affiliation_strings": [
+        "Wellcome Trust Centre for Neuroimaging, Institute of Neurology, University College London, 12 Queen Square, London, WC1N 3BG UK."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Wellcome Trust Centre for Neuroimaging, Institute of Neurology, University College London, 12 Queen Square, London, WC1N 3BG UK.",
+          "institution_ids": [
+            "https://openalex.org/I165524941",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3450,
+    "currency": "USD",
+    "value_usd": 3450
+  },
+  "apc_paid": {
+    "value": 3450,
+    "currency": "USD",
+    "value_usd": 3450
+  },
+  "fwci": 1.606,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 53,
+  "citation_normalized_percentile": {
+    "value": 0.767513,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 95
+  },
+  "biblio": {
+    "volume": "50",
+    "issue": "2",
+    "first_page": "657",
+    "last_page": "664"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10241",
+    "display_name": "Functional Brain Connectivity Studies",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10042",
+      "display_name": "Neural and Behavioral Psychology Studies",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10056",
+      "display_name": "Neurotransmitter Receptor Influence on Behavior",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/ventral-striatum",
+      "display_name": "Ventral striatum",
+      "score": 0.5732137
+    },
+    {
+      "id": "https://openalex.org/keywords/associative-learning",
+      "display_name": "Associative learning",
+      "score": 0.51835024
+    },
+    {
+      "id": "https://openalex.org/keywords/salience",
+      "display_name": "Salience (neuroscience)",
+      "score": 0.5121872
+    },
+    {
+      "id": "https://openalex.org/keywords/reward-system",
+      "display_name": "Reward system",
+      "score": 0.4904625
+    },
+    {
+      "id": "https://openalex.org/keywords/dorsolateral-prefrontal-cortex",
+      "display_name": "Dorsolateral prefrontal cortex",
+      "score": 0.44335282
+    },
+    {
+      "id": "https://openalex.org/keywords/incentive-salience",
+      "display_name": "Incentive salience",
+      "score": 0.43116337
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.7083227
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.70345235
+    },
+    {
+      "id": "https://openalex.org/C2779226451",
+      "wikidata": "https://www.wikidata.org/wiki/Q903809",
+      "display_name": "Functional magnetic resonance imaging",
+      "level": 2,
+      "score": 0.6578184
+    },
+    {
+      "id": "https://openalex.org/C2776743251",
+      "wikidata": "https://www.wikidata.org/wiki/Q1319792",
+      "display_name": "Ventral striatum",
+      "level": 4,
+      "score": 0.5732137
+    },
+    {
+      "id": "https://openalex.org/C2983526489",
+      "wikidata": "https://www.wikidata.org/wiki/Q133500",
+      "display_name": "Associative learning",
+      "level": 2,
+      "score": 0.51835024
+    },
+    {
+      "id": "https://openalex.org/C108154423",
+      "wikidata": "https://www.wikidata.org/wiki/Q1469792",
+      "display_name": "Salience (neuroscience)",
+      "level": 2,
+      "score": 0.5121872
+    },
+    {
+      "id": "https://openalex.org/C2780948874",
+      "wikidata": "https://www.wikidata.org/wiki/Q640562",
+      "display_name": "Ventral tegmental area",
+      "level": 4,
+      "score": 0.5050941
+    },
+    {
+      "id": "https://openalex.org/C143661069",
+      "wikidata": "https://www.wikidata.org/wiki/Q670713",
+      "display_name": "Reward system",
+      "level": 2,
+      "score": 0.4904625
+    },
+    {
+      "id": "https://openalex.org/C2780508717",
+      "wikidata": "https://www.wikidata.org/wiki/Q72788",
+      "display_name": "Dorsolateral prefrontal cortex",
+      "level": 4,
+      "score": 0.44335282
+    },
+    {
+      "id": "https://openalex.org/C2779246727",
+      "wikidata": "https://www.wikidata.org/wiki/Q184215",
+      "display_name": "Thalamus",
+      "level": 2,
+      "score": 0.43687448
+    },
+    {
+      "id": "https://openalex.org/C2780160660",
+      "wikidata": "https://www.wikidata.org/wiki/Q6014281",
+      "display_name": "Incentive salience",
+      "level": 3,
+      "score": 0.43116337
+    },
+    {
+      "id": "https://openalex.org/C180747234",
+      "wikidata": "https://www.wikidata.org/wiki/Q23373",
+      "display_name": "Cognitive psychology",
+      "level": 1,
+      "score": 0.42354628
+    },
+    {
+      "id": "https://openalex.org/C2780062018",
+      "wikidata": "https://www.wikidata.org/wiki/Q1319792",
+      "display_name": "Striatum",
+      "level": 3,
+      "score": 0.40128335
+    },
+    {
+      "id": "https://openalex.org/C137183658",
+      "wikidata": "https://www.wikidata.org/wiki/Q461076",
+      "display_name": "Dopaminergic",
+      "level": 3,
+      "score": 0.39289835
+    },
+    {
+      "id": "https://openalex.org/C2781195155",
+      "wikidata": "https://www.wikidata.org/wiki/Q18680",
+      "display_name": "Prefrontal cortex",
+      "level": 3,
+      "score": 0.35749
+    },
+    {
+      "id": "https://openalex.org/C513476851",
+      "wikidata": "https://www.wikidata.org/wiki/Q170304",
+      "display_name": "Dopamine",
+      "level": 2,
+      "score": 0.30624396
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.16911247
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007858",
+      "descriptor_name": "Learning",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001931",
+      "descriptor_name": "Brain Mapping",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003463",
+      "descriptor_name": "Cues",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007090",
+      "descriptor_name": "Image Interpretation, Computer-Assisted",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012201",
+      "descriptor_name": "Reward",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 7,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2009.11.075",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S103225281",
+        "display_name": "NeuroImage",
+        "issn_l": "1053-8119",
+        "issn": [
+          "1053-8119",
+          "1095-9572"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/87926/87926.pdf",
+      "pdf_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/87926/87926.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401067",
+        "display_name": "Radboud Repository (Radboud University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I145872427",
+        "host_organization_name": "Radboud University Nijmegen",
+        "host_organization_lineage": [
+          "https://openalex.org/I145872427"
+        ],
+        "host_organization_lineage_names": [
+          "Radboud University Nijmegen"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/2066/87926",
+      "pdf_url": "https://repository.ubn.ru.nl/bitstream/handle/2066/87926/1/87926.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401067",
+        "display_name": "Radboud Repository (Radboud University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I145872427",
+        "host_organization_name": "Radboud University Nijmegen",
+        "host_organization_lineage": [
+          "https://openalex.org/I145872427"
+        ],
+        "host_organization_lineage_names": [
+          "Radboud University Nijmegen"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc2828543",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828543",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.zora.uzh.ch/id/eprint/33056/10/Roiser_Neuroimage_2010v.pdf",
+      "pdf_url": "https://www.zora.uzh.ch/id/eprint/33056/10/Roiser_Neuroimage_2010v.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401281",
+        "display_name": "Zurich Open Repository and Archive (University of Zurich)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I202697423",
+        "host_organization_name": "University of Zurich",
+        "host_organization_lineage": [
+          "https://openalex.org/I202697423"
+        ],
+        "host_organization_lineage_names": [
+          "University of Zurich"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19969090",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2009.11.075",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S103225281",
+      "display_name": "NeuroImage",
+      "issn_l": "1053-8119",
+      "issn": [
+        "1053-8119",
+        "1095-9572"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320320286",
+      "funder_display_name": "University College London",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 53,
+  "referenced_works": [
+    "https://openalex.org/W1964887266",
+    "https://openalex.org/W1977121540",
+    "https://openalex.org/W1978697238",
+    "https://openalex.org/W1980737345",
+    "https://openalex.org/W1986264597",
+    "https://openalex.org/W1989615119",
+    "https://openalex.org/W1990197798",
+    "https://openalex.org/W1991002654",
+    "https://openalex.org/W1995920481",
+    "https://openalex.org/W1997630930",
+    "https://openalex.org/W2001478554",
+    "https://openalex.org/W2004822008",
+    "https://openalex.org/W2010547854",
+    "https://openalex.org/W2014978670",
+    "https://openalex.org/W2015354104",
+    "https://openalex.org/W2020320000",
+    "https://openalex.org/W2032278103",
+    "https://openalex.org/W2039301402",
+    "https://openalex.org/W2039912069",
+    "https://openalex.org/W2044972351",
+    "https://openalex.org/W2046713808",
+    "https://openalex.org/W2052445433",
+    "https://openalex.org/W2058578514",
+    "https://openalex.org/W2065360467",
+    "https://openalex.org/W2068949066",
+    "https://openalex.org/W2077611535",
+    "https://openalex.org/W2082483237",
+    "https://openalex.org/W2090144013",
+    "https://openalex.org/W2095715008",
+    "https://openalex.org/W2099652807",
+    "https://openalex.org/W2100040139",
+    "https://openalex.org/W2102449439",
+    "https://openalex.org/W2114207481",
+    "https://openalex.org/W2117726420",
+    "https://openalex.org/W2119128116",
+    "https://openalex.org/W2124661788",
+    "https://openalex.org/W2129028793",
+    "https://openalex.org/W2137924108",
+    "https://openalex.org/W2139635035",
+    "https://openalex.org/W2142830713",
+    "https://openalex.org/W2150489374",
+    "https://openalex.org/W2155276969",
+    "https://openalex.org/W2158420012",
+    "https://openalex.org/W2160695817",
+    "https://openalex.org/W2165368112",
+    "https://openalex.org/W2168429524",
+    "https://openalex.org/W2169155487",
+    "https://openalex.org/W2170626790",
+    "https://openalex.org/W2245231029",
+    "https://openalex.org/W2419181988",
+    "https://openalex.org/W2965471197",
+    "https://openalex.org/W3171418018",
+    "https://openalex.org/W4231000896"
+  ],
+  "related_works": [
+    "https://openalex.org/W921862464",
+    "https://openalex.org/W4229370002",
+    "https://openalex.org/W4210555808",
+    "https://openalex.org/W3158564214",
+    "https://openalex.org/W2950377945",
+    "https://openalex.org/W2901663423",
+    "https://openalex.org/W2277692006",
+    "https://openalex.org/W2163805252",
+    "https://openalex.org/W2157849519",
+    "https://openalex.org/W1982940237"
+  ],
+  "abstract_inverted_index": {
+    "Theories": [
+      0
+    ],
+    "of": [
+      1,
+      5,
+      23,
+      66,
+      93,
+      123,
+      135,
+      172,
+      204,
+      240,
+      246
+    ],
+    "the": [
+      2,
+      39,
+      90,
+      100,
+      130,
+      133,
+      136,
+      159,
+      170,
+      202
+    ],
+    "positive": [
+      3
+    ],
+    "symptoms": [
+      4
+    ],
+    "schizophrenia": [
+      6
+    ],
+    "hypothesize": [
+      7
+    ],
+    "a": [
+      8,
+      36,
+      47,
+      121
+    ],
+    "role": [
+      9
+    ],
+    "for": [
+      10,
+      243
+    ],
+    "aberrant": [
+      11,
+      24,
+      69,
+      96,
+      205,
+      212
+    ],
+    "reinforcement": [
+      12
+    ],
+    "signaling": [
+      13
+    ],
+    "driven": [
+      14
+    ],
+    "by": [
+      15,
+      143
+    ],
+    "dysregulated": [
+      16
+    ],
+    "dopamine": [
+      17
+    ],
+    "transmission.": [
+      18
+    ],
+    "Recently,": [
+      19
+    ],
+    "we": [
+      20,
+      82
+    ],
+    "provided": [
+      21
+    ],
+    "evidence": [
+      22
+    ],
+    "reward": [
+      25,
+      49,
+      70,
+      97,
+      114,
+      174,
+      195,
+      206
+    ],
+    "learning": [
+      26,
+      50,
+      98,
+      175,
+      213
+    ],
+    "in": [
+      27,
+      102,
+      120,
+      127,
+      132,
+      158,
+      238
+    ],
+    "symptomatic,": [
+      28
+    ],
+    "but": [
+      29
+    ],
+    "not": [
+      30
+    ],
+    "asymptomatic": [
+      31
+    ],
+    "patients": [
+      32
+    ],
+    "with": [
+      33,
+      109,
+      169,
+      193,
+      201,
+      232
+    ],
+    "schizophrenia,": [
+      34
+    ],
+    "using": [
+      35
+    ],
+    "novel": [
+      37
+    ],
+    "paradigm,": [
+      38
+    ],
+    "Salience": [
+      40
+    ],
+    "Attribution": [
+      41
+    ],
+    "Test": [
+      42
+    ],
+    "(SAT).": [
+      43
+    ],
+    "The": [
+      44,
+      234
+    ],
+    "SAT": [
+      45,
+      101
+    ],
+    "is": [
+      46
+    ],
+    "probabilistic": [
+      48
+    ],
+    "game": [
+      51
+    ],
+    "that": [
+      52,
+      55
+    ],
+    "employs": [
+      53
+    ],
+    "cues": [
+      54,
+      107,
+      192,
+      224
+    ],
+    "vary": [
+      56
+    ],
+    "across": [
+      57,
+      176
+    ],
+    "task-relevant": [
+      58
+    ],
+    "and": [
+      59,
+      68,
+      95,
+      140,
+      153,
+      163,
+      179,
+      185,
+      219
+    ],
+    "task-irrelevant": [
+      60
+    ],
+    "dimensions;": [
+      61
+    ],
+    "it": [
+      62
+    ],
+    "provides": [
+      63
+    ],
+    "behavioral": [
+      64
+    ],
+    "indices": [
+      65
+    ],
+    "adaptive": [
+      67,
+      94,
+      173
+    ],
+    "learning.": [
+      71,
+      207,
+      248
+    ],
+    "As": [
+      72,
+      105
+    ],
+    "an": [
+      73
+    ],
+    "initial": [
+      74
+    ],
+    "step": [
+      75
+    ],
+    "prior": [
+      76
+    ],
+    "to": [
+      77,
+      88,
+      112,
+      191,
+      223,
+      227
+    ],
+    "future": [
+      78
+    ],
+    "clinical": [
+      79
+    ],
+    "studies,": [
+      80
+    ],
+    "here": [
+      81
+    ],
+    "used": [
+      83
+    ],
+    "functional": [
+      84
+    ],
+    "magnetic": [
+      85
+    ],
+    "resonance": [
+      86
+    ],
+    "imaging": [
+      87
+    ],
+    "examine": [
+      89
+    ],
+    "neural": [
+      91
+    ],
+    "basis": [
+      92
+    ],
+    "during": [
+      99
+    ],
+    "healthy": [
+      103
+    ],
+    "volunteers.": [
+      104
+    ],
+    "expected,": [
+      106
+    ],
+    "associated": [
+      108,
+      231
+    ],
+    "high": [
+      110
+    ],
+    "relative": [
+      111
+    ],
+    "low": [
+      113
+    ],
+    "probabilities": [
+      115,
+      196
+    ],
+    "elicited": [
+      116
+    ],
+    "robust": [
+      117
+    ],
+    "hemodynamic": [
+      118
+    ],
+    "responses": [
+      119,
+      190
+    ],
+    "network": [
+      122
+    ],
+    "structures": [
+      124
+    ],
+    "previously": [
+      125
+    ],
+    "implicated": [
+      126
+    ],
+    "motivational": [
+      128
+    ],
+    "salience;": [
+      129
+    ],
+    "midbrain,": [
+      131
+    ],
+    "vicinity": [
+      134
+    ],
+    "ventral": [
+      137,
+      151
+    ],
+    "tegmental": [
+      138
+    ],
+    "area,": [
+      139
+    ],
+    "regions": [
+      141
+    ],
+    "targeted": [
+      142
+    ],
+    "its": [
+      144
+    ],
+    "dopaminergic": [
+      145
+    ],
+    "projections,": [
+      146
+    ],
+    "i.e.": [
+      147
+    ],
+    "medial": [
+      148,
+      160
+    ],
+    "dorsal": [
+      149,
+      161
+    ],
+    "thalamus,": [
+      150
+    ],
+    "striatum": [
+      152
+    ],
+    "prefrontal": [
+      154
+    ],
+    "cortex": [
+      155
+    ],
+    "(PFC).": [
+      156
+    ],
+    "Responses": [
+      157
+    ],
+    "thalamus": [
+      162
+    ],
+    "polar": [
+      164
+    ],
+    "PFC": [
+      165,
+      184,
+      217
+    ],
+    "were": [
+      166,
+      197
+    ],
+    "strongly": [
+      167,
+      199,
+      230
+    ],
+    "correlated": [
+      168,
+      200
+    ],
+    "degree": [
+      171,
+      203
+    ],
+    "participants.": [
+      177
+    ],
+    "Finally,": [
+      178
+    ],
+    "most": [
+      180
+    ],
+    "importantly,": [
+      181
+    ],
+    "differential": [
+      182
+    ],
+    "dorsolateral": [
+      183,
+      216
+    ],
+    "middle": [
+      186
+    ],
+    "temporal": [
+      187
+    ],
+    "gyrus": [
+      188
+    ],
+    "(MTG)": [
+      189
+    ],
+    "identical": [
+      194
+    ],
+    "very": [
+      198
+    ],
+    "Participants": [
+      208
+    ],
+    "who": [
+      209
+    ],
+    "showed": [
+      210
+    ],
+    "greater": [
+      211,
+      215
+    ],
+    "exhibited": [
+      214
+    ],
+    "responses,": [
+      218,
+      222
+    ],
+    "reduced": [
+      220
+    ],
+    "MTG": [
+      221
+    ],
+    "erroneously": [
+      225
+    ],
+    "inferred": [
+      226
+    ],
+    "be": [
+      228
+    ],
+    "less": [
+      229
+    ],
+    "reward.": [
+      233
+    ],
+    "results": [
+      235
+    ],
+    "are": [
+      236
+    ],
+    "discussed": [
+      237
+    ],
+    "terms": [
+      239
+    ],
+    "their": [
+      241
+    ],
+    "implications": [
+      242
+    ],
+    "different": [
+      244
+    ],
+    "theories": [
+      245
+    ],
+    "associative": [
+      247
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2018759523",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-05-22T22:03:39.204958",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,1512 @@
+{
+  "id": "https://openalex.org/W2203174515",
+  "doi": "https://doi.org/10.1089/brain.2014.0312",
+  "title": "Impaired Bottom-Up Effective Connectivity Between Amygdala and Subgenual Anterior Cingulate Cortex in Unmedicated Adolescents with Major Depression: Results from a Dynamic Causal Modeling Analysis",
+  "display_name": "Impaired Bottom-Up Effective Connectivity Between Amygdala and Subgenual Anterior Cingulate Cortex in Unmedicated Adolescents with Major Depression: Results from a Dynamic Causal Modeling Analysis",
+  "publication_year": 2015,
+  "publication_date": "2015-06-07",
+  "ids": {
+    "openalex": "https://openalex.org/W2203174515",
+    "doi": "https://doi.org/10.1089/brain.2014.0312",
+    "mag": "2203174515",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/26050933",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/4684661"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1089/brain.2014.0312",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764941518",
+      "display_name": "Brain Connectivity",
+      "issn_l": "2158-0014",
+      "issn": [
+        "2158-0014",
+        "2158-0022"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320443",
+      "host_organization_name": "Mary Ann Liebert, Inc.",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320443"
+      ],
+      "host_organization_lineage_names": [
+        "Mary Ann Liebert, Inc."
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc4684661?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5060134541",
+        "display_name": "Donald Musgrove",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Donald R. Musgrove",
+      "raw_affiliation_strings": [
+        "Division of Biostatistics, School of Public Health, University of Minnesota, Minneapolis, Minnesota."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Biostatistics, School of Public Health, University of Minnesota, Minneapolis, Minnesota.",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069626194",
+        "display_name": "Lynn E. Eberly",
+        "orcid": "https://orcid.org/0000-0003-4763-330X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lynn E. Eberly",
+      "raw_affiliation_strings": [
+        "Division of Biostatistics, School of Public Health, University of Minnesota, Minneapolis, Minnesota."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Biostatistics, School of Public Health, University of Minnesota, Minneapolis, Minnesota.",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081652342",
+        "display_name": "Bonnie Klimes‐Dougan",
+        "orcid": "https://orcid.org/0000-0002-2107-0038"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bonnie Klimes-Dougan",
+      "raw_affiliation_strings": [
+        "Department of Psychology, College of Liberal Arts, University of Minnesota, Minneapolis, Minnesota."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, College of Liberal Arts, University of Minnesota, Minneapolis, Minnesota.",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060573093",
+        "display_name": "Zeynep Başgöze",
+        "orcid": "https://orcid.org/0000-0002-0306-4849"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I201799495",
+          "display_name": "Middle East Technical University",
+          "ror": "https://ror.org/014weej12",
+          "country_code": "TR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201799495"
+          ]
+        }
+      ],
+      "countries": [
+        "TR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zeynep Basgoze",
+      "raw_affiliation_strings": [
+        "Cognitive Science Department, Informatics Institute, Middle East Technical University, Ankara, Turkey."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cognitive Science Department, Informatics Institute, Middle East Technical University, Ankara, Turkey.",
+          "institution_ids": [
+            "https://openalex.org/I201799495"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103407358",
+        "display_name": "Kathleen M. Thomas",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kathleen M. Thomas",
+      "raw_affiliation_strings": [
+        "Institute of Child Development, University of Minnesota, Minneapolis, Minnesota."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Child Development, University of Minnesota, Minneapolis, Minnesota.",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069686854",
+        "display_name": "Bryon A. Mueller",
+        "orcid": "https://orcid.org/0000-0003-2429-0391"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bryon A. Mueller",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, School of Medicine, University of Minnesota, Minneapolis, Minnesota."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, School of Medicine, University of Minnesota, Minneapolis, Minnesota.",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5089064978",
+        "display_name": "Alaa Houri",
+        "orcid": "https://orcid.org/0000-0001-7058-8530"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alaa Houri",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, School of Medicine, University of Minnesota, Minneapolis, Minnesota."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, School of Medicine, University of Minnesota, Minneapolis, Minnesota.",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043671103",
+        "display_name": "Kelvin O. Lim",
+        "orcid": "https://orcid.org/0000-0002-2390-7268"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kelvin O. Lim",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, School of Medicine, University of Minnesota, Minneapolis, Minnesota."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, School of Medicine, University of Minnesota, Minneapolis, Minnesota.",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5003393701",
+        "display_name": "Kathryn R. Cullen",
+        "orcid": "https://orcid.org/0000-0001-9631-3770"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Kathryn R. Cullen",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, School of Medicine, University of Minnesota, Minneapolis, Minnesota."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, School of Medicine, University of Minnesota, Minneapolis, Minnesota.",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5003393701"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I130238516"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.898,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 43,
+  "citation_normalized_percentile": {
+    "value": 0.999937,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "5",
+    "issue": "10",
+    "first_page": "608",
+    "last_page": "619"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10241",
+    "display_name": "Functional Brain Connectivity Studies",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13283",
+      "display_name": "Mental Health Research Topics",
+      "score": 0.9948,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3205",
+        "display_name": "Experimental and Cognitive Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10182",
+      "display_name": "Child and Adolescent Psychosocial and Emotional Development",
+      "score": 0.9896,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.71884
+    },
+    {
+      "id": "https://openalex.org/C2780051608",
+      "wikidata": "https://www.wikidata.org/wiki/Q42844",
+      "display_name": "Major depressive disorder",
+      "level": 3,
+      "score": 0.7023485
+    },
+    {
+      "id": "https://openalex.org/C2778402161",
+      "wikidata": "https://www.wikidata.org/wiki/Q2121931",
+      "display_name": "Anterior cingulate cortex",
+      "level": 3,
+      "score": 0.69317997
+    },
+    {
+      "id": "https://openalex.org/C2779144063",
+      "wikidata": "https://www.wikidata.org/wiki/Q338924",
+      "display_name": "Amygdala",
+      "level": 2,
+      "score": 0.67669
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.56689376
+    },
+    {
+      "id": "https://openalex.org/C2779226451",
+      "wikidata": "https://www.wikidata.org/wiki/Q903809",
+      "display_name": "Functional magnetic resonance imaging",
+      "level": 2,
+      "score": 0.44528526
+    },
+    {
+      "id": "https://openalex.org/C70410870",
+      "wikidata": "https://www.wikidata.org/wiki/Q199906",
+      "display_name": "Clinical psychology",
+      "level": 1,
+      "score": 0.3537264
+    },
+    {
+      "id": "https://openalex.org/C138496976",
+      "wikidata": "https://www.wikidata.org/wiki/Q175002",
+      "display_name": "Developmental psychology",
+      "level": 1,
+      "score": 0.33512622
+    },
+    {
+      "id": "https://openalex.org/C180747234",
+      "wikidata": "https://www.wikidata.org/wiki/Q23373",
+      "display_name": "Cognitive psychology",
+      "level": 1,
+      "score": 0.3229848
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.1744692
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000679",
+      "descriptor_name": "Amygdala",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001931",
+      "descriptor_name": "Brain Mapping",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006179",
+      "descriptor_name": "Gyrus Cinguli",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000293",
+      "descriptor_name": "Adolescent",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001499",
+      "descriptor_name": "Bayes Theorem",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003198",
+      "descriptor_name": "Computer Simulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003865",
+      "descriptor_name": "Depressive Disorder, Major",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004644",
+      "descriptor_name": "Emotions",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005149",
+      "descriptor_name": "Facial Expression",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009434",
+      "descriptor_name": "Neural Pathways",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055815",
+      "descriptor_name": "Young Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1089/brain.2014.0312",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764941518",
+        "display_name": "Brain Connectivity",
+        "issn_l": "2158-0014",
+        "issn": [
+          "2158-0014",
+          "2158-0022"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320443",
+        "host_organization_name": "Mary Ann Liebert, Inc.",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320443"
+        ],
+        "host_organization_lineage_names": [
+          "Mary Ann Liebert, Inc."
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc4684661",
+      "pdf_url": "https://europepmc.org/articles/pmc4684661?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4684661",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/11511/28638",
+      "pdf_url": "https://open.metu.edu.tr/bitstream/handle/11511/28638/brain.2014.0312.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402495",
+        "display_name": "OpenMETU (Middle East Technical University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I201799495",
+        "host_organization_name": "Middle East Technical University",
+        "host_organization_lineage": [
+          "https://openalex.org/I201799495"
+        ],
+        "host_organization_lineage_names": [
+          "Middle East Technical University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/26050933",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc4684661",
+    "pdf_url": "https://europepmc.org/articles/pmc4684661?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 50,
+  "referenced_works": [
+    "https://openalex.org/W123508791",
+    "https://openalex.org/W1665095741",
+    "https://openalex.org/W1911291474",
+    "https://openalex.org/W1963525383",
+    "https://openalex.org/W1964970417",
+    "https://openalex.org/W1970006078",
+    "https://openalex.org/W1976295108",
+    "https://openalex.org/W1983302342",
+    "https://openalex.org/W1997180680",
+    "https://openalex.org/W2001612051",
+    "https://openalex.org/W2009494091",
+    "https://openalex.org/W2013150278",
+    "https://openalex.org/W2013336473",
+    "https://openalex.org/W2013795356",
+    "https://openalex.org/W2015456912",
+    "https://openalex.org/W2017303933",
+    "https://openalex.org/W2018013323",
+    "https://openalex.org/W2021655476",
+    "https://openalex.org/W2035446733",
+    "https://openalex.org/W2035941098",
+    "https://openalex.org/W2041377085",
+    "https://openalex.org/W2047496901",
+    "https://openalex.org/W2061564920",
+    "https://openalex.org/W2087526026",
+    "https://openalex.org/W2093093078",
+    "https://openalex.org/W2097958735",
+    "https://openalex.org/W2099553059",
+    "https://openalex.org/W2101520758",
+    "https://openalex.org/W2109272504",
+    "https://openalex.org/W2110168541",
+    "https://openalex.org/W2113490642",
+    "https://openalex.org/W2117663940",
+    "https://openalex.org/W2118826874",
+    "https://openalex.org/W2135147613",
+    "https://openalex.org/W2140798832",
+    "https://openalex.org/W2143463042",
+    "https://openalex.org/W2144351977",
+    "https://openalex.org/W2144586633",
+    "https://openalex.org/W2145151017",
+    "https://openalex.org/W2146278257",
+    "https://openalex.org/W2152292563",
+    "https://openalex.org/W2164760908",
+    "https://openalex.org/W2165478810",
+    "https://openalex.org/W2166670920",
+    "https://openalex.org/W2178225550",
+    "https://openalex.org/W2332644982",
+    "https://openalex.org/W3046929799",
+    "https://openalex.org/W3217490374",
+    "https://openalex.org/W4237892091",
+    "https://openalex.org/W4242124043"
+  ],
+  "related_works": [
+    "https://openalex.org/W624134615",
+    "https://openalex.org/W48071019",
+    "https://openalex.org/W4295014115",
+    "https://openalex.org/W4293242195",
+    "https://openalex.org/W3028781422",
+    "https://openalex.org/W2945934586",
+    "https://openalex.org/W2413922126",
+    "https://openalex.org/W2274252588",
+    "https://openalex.org/W2035518691",
+    "https://openalex.org/W1985155058"
+  ],
+  "abstract_inverted_index": {
+    "Major": [
+      0
+    ],
+    "depressive": [
+      1
+    ],
+    "disorder": [
+      2
+    ],
+    "(MDD)": [
+      3
+    ],
+    "is": [
+      4,
+      18,
+      33
+    ],
+    "a": [
+      5
+    ],
+    "significant": [
+      6
+    ],
+    "contributor": [
+      7
+    ],
+    "to": [
+      8,
+      50,
+      99,
+      169
+    ],
+    "lifetime": [
+      9
+    ],
+    "disability": [
+      10
+    ],
+    "and": [
+      11,
+      62,
+      104,
+      109,
+      210,
+      231
+    ],
+    "frequently": [
+      12
+    ],
+    "emerges": [
+      13
+    ],
+    "in": [
+      14,
+      26,
+      57,
+      135,
+      164,
+      190,
+      193,
+      200
+    ],
+    "adolescence,": [
+      15
+    ],
+    "yet": [
+      16
+    ],
+    "little": [
+      17
+    ],
+    "known": [
+      19
+    ],
+    "about": [
+      20
+    ],
+    "the": [
+      21,
+      83,
+      113,
+      146,
+      150,
+      178,
+      203,
+      226,
+      229
+    ],
+    "neural": [
+      22,
+      42,
+      68,
+      90,
+      187
+    ],
+    "mechanisms": [
+      23
+    ],
+    "of": [
+      24,
+      107,
+      112,
+      149,
+      181,
+      205,
+      228
+    ],
+    "MDD": [
+      25,
+      61,
+      158,
+      207
+    ],
+    "adolescents.": [
+      27,
+      65
+    ],
+    "Dynamic": [
+      28
+    ],
+    "causal": [
+      29
+    ],
+    "modeling": [
+      30
+    ],
+    "(DCM)": [
+      31
+    ],
+    "analysis": [
+      32,
+      47
+    ],
+    "an": [
+      34
+    ],
+    "innovative": [
+      35
+    ],
+    "tool": [
+      36
+    ],
+    "that": [
+      37,
+      82,
+      155
+    ],
+    "can": [
+      38
+    ],
+    "shed": [
+      39
+    ],
+    "light": [
+      40
+    ],
+    "on": [
+      41,
+      145
+    ],
+    "network": [
+      43,
+      114
+    ],
+    "abnormalities.": [
+      44
+    ],
+    "A": [
+      45
+    ],
+    "DCM": [
+      46,
+      185
+    ],
+    "was": [
+      48,
+      73,
+      96
+    ],
+    "conducted": [
+      49
+    ],
+    "test": [
+      51
+    ],
+    "several": [
+      52
+    ],
+    "frontolimbic": [
+      53
+    ],
+    "effective": [
+      54,
+      182,
+      218
+    ],
+    "connectivity": [
+      55,
+      134,
+      163,
+      183,
+      219
+    ],
+    "models": [
+      56
+    ],
+    "27": [
+      58
+    ],
+    "adolescents": [
+      59,
+      156,
+      194
+    ],
+    "with": [
+      60,
+      157,
+      195,
+      223
+    ],
+    "21": [
+      63
+    ],
+    "healthy": [
+      64,
+      173
+    ],
+    "The": [
+      66,
+      79,
+      92
+    ],
+    "best": [
+      67,
+      93,
+      151
+    ],
+    "model": [
+      69,
+      77,
+      95,
+      118
+    ],
+    "for": [
+      70,
+      117,
+      125,
+      131,
+      141,
+      213
+    ],
+    "each": [
+      71
+    ],
+    "person": [
+      72
+    ],
+    "identified": [
+      74
+    ],
+    "using": [
+      75,
+      184
+    ],
+    "Bayesian": [
+      76
+    ],
+    "selection.": [
+      78
+    ],
+    "findings": [
+      80,
+      198
+    ],
+    "revealed": [
+      81,
+      122,
+      154
+    ],
+    "two": [
+      84
+    ],
+    "adolescent": [
+      85
+    ],
+    "groups": [
+      86,
+      144
+    ],
+    "fit": [
+      87
+    ],
+    "similar": [
+      88
+    ],
+    "optimal": [
+      89
+    ],
+    "models.": [
+      91
+    ],
+    "across-groups": [
+      94
+    ],
+    "then": [
+      97
+    ],
+    "used": [
+      98
+    ],
+    "infer": [
+      100
+    ],
+    "upon": [
+      101
+    ],
+    "both": [
+      102,
+      136
+    ],
+    "within-group": [
+      103,
+      120
+    ],
+    "between-group": [
+      105
+    ],
+    "tests": [
+      106,
+      121
+    ],
+    "intrinsic": [
+      108
+    ],
+    "modulation": [
+      110
+    ],
+    "parameters": [
+      111,
+      148
+    ],
+    "connections.": [
+      115
+    ],
+    "First,": [
+      116
+    ],
+    "validation,": [
+      119
+    ],
+    "robust": [
+      123
+    ],
+    "evidence": [
+      124,
+      130
+    ],
+    "bottom-up": [
+      126,
+      162
+    ],
+    "connectivity,": [
+      127
+    ],
+    "but": [
+      128
+    ],
+    "less": [
+      129
+    ],
+    "strong": [
+      132
+    ],
+    "top-down": [
+      133
+    ],
+    "groups.": [
+      137
+    ],
+    "Second,": [
+      138
+    ],
+    "we": [
+      139
+    ],
+    "tested": [
+      140
+    ],
+    "differences": [
+      142
+    ],
+    "between": [
+      143
+    ],
+    "validated": [
+      147
+    ],
+    "model.": [
+      152
+    ],
+    "This": [
+      153,
+      175
+    ],
+    "had": [
+      159
+    ],
+    "significantly": [
+      160
+    ],
+    "weaker": [
+      161
+    ],
+    "one": [
+      165
+    ],
+    "pathway,": [
+      166
+    ],
+    "from": [
+      167
+    ],
+    "amygdala": [
+      168
+    ],
+    "sgACC": [
+      170
+    ],
+    "(p=0.008),": [
+      171
+    ],
+    "than": [
+      172
+    ],
+    "controls.": [
+      174
+    ],
+    "study": [
+      176
+    ],
+    "provides": [
+      177
+    ],
+    "first": [
+      179
+    ],
+    "examination": [
+      180
+    ],
+    "within": [
+      186
+    ],
+    "circuitry": [
+      188
+    ],
+    "implicated": [
+      189
+    ],
+    "emotion": [
+      191
+    ],
+    "processing": [
+      192
+    ],
+    "MDD.": [
+      196
+    ],
+    "These": [
+      197
+    ],
+    "aid": [
+      199
+    ],
+    "advancing": [
+      201
+    ],
+    "understanding": [
+      202
+    ],
+    "neurobiology": [
+      204
+    ],
+    "early-onset": [
+      206
+    ],
+    "during": [
+      208
+    ],
+    "adolescence": [
+      209
+    ],
+    "have": [
+      211
+    ],
+    "implications": [
+      212
+    ],
+    "future": [
+      214
+    ],
+    "research": [
+      215
+    ],
+    "investigating": [
+      216
+    ],
+    "how": [
+      217
+    ],
+    "changes": [
+      220
+    ],
+    "across": [
+      221
+    ],
+    "contexts,": [
+      222
+    ],
+    "development,": [
+      224
+    ],
+    "over": [
+      225
+    ],
+    "course": [
+      227
+    ],
+    "disease,": [
+      230
+    ],
+    "after": [
+      232
+    ],
+    "intervention.": [
+      233
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2203174515",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-05-23T04:52:40.879044",
+  "created_date": "2016-06-24"
+}

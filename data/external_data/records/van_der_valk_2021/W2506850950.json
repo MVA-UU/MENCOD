@@ -1,0 +1,604 @@
+{
+  "id": "https://openalex.org/W2506850950",
+  "doi": "https://doi.org/10.1016/j.jchromb.2016.07.041",
+  "title": "Development of an LC–MS/MS method for the determination of endogenous cortisol in hair using 13 C 3 -labeled cortisol as surrogate analyte",
+  "display_name": "Development of an LC–MS/MS method for the determination of endogenous cortisol in hair using 13 C 3 -labeled cortisol as surrogate analyte",
+  "publication_year": 2016,
+  "publication_date": "2016-07-24",
+  "ids": {
+    "openalex": "https://openalex.org/W2506850950",
+    "doi": "https://doi.org/10.1016/j.jchromb.2016.07.041",
+    "mag": "2506850950",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27522172"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.jchromb.2016.07.041",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S103248676",
+      "display_name": "Journal of Chromatography B",
+      "issn_l": "1570-0232",
+      "issn": [
+        "1570-0232",
+        "1873-376X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5027356743",
+        "display_name": "Tina M. Binz",
+        "orcid": "https://orcid.org/0000-0001-6783-1202"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Tina M. Binz",
+      "raw_affiliation_strings": [
+        "University of Zurich, Zurich Institute of Forensic Medicine, Center for Forensic Hair Analytics, Zurich, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Zurich, Zurich Institute of Forensic Medicine, Center for Forensic Hair Analytics, Zurich, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042010021",
+        "display_name": "U. Braun",
+        "orcid": "https://orcid.org/0000-0002-2573-687X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ueli Braun",
+      "raw_affiliation_strings": [
+        "University of Zurich, Vetsuisse Faculty, Department of Farm Animals, Clinic of Ruminants, Zurich, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Zurich, Vetsuisse Faculty, Department of Farm Animals, Clinic of Ruminants, Zurich, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035439810",
+        "display_name": "Markus R. Baumgartner",
+        "orcid": "https://orcid.org/0000-0002-0979-931X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Markus R. Baumgartner",
+      "raw_affiliation_strings": [
+        "University of Zurich, Zurich Institute of Forensic Medicine, Center for Forensic Hair Analytics, Zurich, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Zurich, Zurich Institute of Forensic Medicine, Center for Forensic Hair Analytics, Zurich, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5081207461",
+        "display_name": "Thomas Kræmer",
+        "orcid": "https://orcid.org/0000-0002-3283-606X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thomas Kraemer",
+      "raw_affiliation_strings": [
+        "University of Zurich, Zurich Institute of Forensic Medicine, Forensic Pharmacology and Toxicology, Zurich, Switzerland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Zurich, Zurich Institute of Forensic Medicine, Forensic Pharmacology and Toxicology, Zurich, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5027356743"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I202697423"
+  ],
+  "apc_list": {
+    "value": 3400,
+    "currency": "USD",
+    "value_usd": 3400
+  },
+  "apc_paid": null,
+  "fwci": 5.404,
+  "has_fulltext": false,
+  "cited_by_count": 50,
+  "citation_normalized_percentile": {
+    "value": 0.916339,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "1033-1034",
+    "issue": null,
+    "first_page": "65",
+    "last_page": "72"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11585",
+    "display_name": "Exercise and Physiological Responses",
+    "score": 0.9913,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2742",
+      "display_name": "Rehabilitation"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11585",
+      "display_name": "Exercise and Physiological Responses",
+      "score": 0.9913,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2742",
+        "display_name": "Rehabilitation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9908,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11109",
+      "display_name": "Thermoregulation and physiological responses",
+      "score": 0.99,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.87523115
+    },
+    {
+      "id": "https://openalex.org/C10390740",
+      "wikidata": "https://www.wikidata.org/wiki/Q2282401",
+      "display_name": "Analyte",
+      "level": 2,
+      "score": 0.8442032
+    },
+    {
+      "id": "https://openalex.org/C43617362",
+      "wikidata": "https://www.wikidata.org/wiki/Q170050",
+      "display_name": "Chromatography",
+      "level": 1,
+      "score": 0.7457942
+    },
+    {
+      "id": "https://openalex.org/C16613235",
+      "wikidata": "https://www.wikidata.org/wiki/Q285982",
+      "display_name": "Endogeny",
+      "level": 2,
+      "score": 0.66149545
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.13933572
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002247",
+      "descriptor_name": "Carbon Isotopes",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002853",
+      "descriptor_name": "Chromatography, Liquid",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006197",
+      "descriptor_name": "Hair",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D053719",
+      "descriptor_name": "Tandem Mass Spectrometry",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002247",
+      "descriptor_name": "Carbon Isotopes",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002853",
+      "descriptor_name": "Chromatography, Liquid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006197",
+      "descriptor_name": "Hair",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016014",
+      "descriptor_name": "Linear Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015203",
+      "descriptor_name": "Reproducibility of Results",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012680",
+      "descriptor_name": "Sensitivity and Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053719",
+      "descriptor_name": "Tandem Mass Spectrometry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.jchromb.2016.07.041",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S103248676",
+        "display_name": "Journal of Chromatography B",
+        "issn_l": "1570-0232",
+        "issn": [
+          "1570-0232",
+          "1873-376X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27522172",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 29,
+  "referenced_works": [
+    "https://openalex.org/W1938226400",
+    "https://openalex.org/W1959371971",
+    "https://openalex.org/W1963572261",
+    "https://openalex.org/W1971814750",
+    "https://openalex.org/W1974856655",
+    "https://openalex.org/W1977707385",
+    "https://openalex.org/W1996199271",
+    "https://openalex.org/W2002668484",
+    "https://openalex.org/W2008273536",
+    "https://openalex.org/W2026104606",
+    "https://openalex.org/W2026460662",
+    "https://openalex.org/W2026779107",
+    "https://openalex.org/W2035632960",
+    "https://openalex.org/W2041352904",
+    "https://openalex.org/W2053261923",
+    "https://openalex.org/W2064094052",
+    "https://openalex.org/W2084452447",
+    "https://openalex.org/W2085260697",
+    "https://openalex.org/W2106656997",
+    "https://openalex.org/W2108958077",
+    "https://openalex.org/W2128830532",
+    "https://openalex.org/W2155302212",
+    "https://openalex.org/W2209426968",
+    "https://openalex.org/W2334710823",
+    "https://openalex.org/W2345786621",
+    "https://openalex.org/W2357952715",
+    "https://openalex.org/W4211002800",
+    "https://openalex.org/W54175156",
+    "https://openalex.org/W608643496"
+  ],
+  "related_works": [
+    "https://openalex.org/W4387497383",
+    "https://openalex.org/W2948807893",
+    "https://openalex.org/W2778153218",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2527526854",
+    "https://openalex.org/W2320312871",
+    "https://openalex.org/W2078814861",
+    "https://openalex.org/W1986764834",
+    "https://openalex.org/W1976181487",
+    "https://openalex.org/W1531601525"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2506850950",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-06-15T23:26:16.955266",
+  "created_date": "2016-08-23"
+}

@@ -1,0 +1,1130 @@
+{
+  "id": "https://openalex.org/W2605066910",
+  "doi": "https://doi.org/10.18637/jss.v077.i05",
+  "title": "Continuous Time Structural Equation Modeling with <i>R</i> Package <b>ctsem</b>",
+  "display_name": "Continuous Time Structural Equation Modeling with <i>R</i> Package <b>ctsem</b>",
+  "publication_year": 2017,
+  "publication_date": "2017-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2605066910",
+    "doi": "https://doi.org/10.18637/jss.v077.i05",
+    "mag": "2605066910"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.18637/jss.v077.i05",
+    "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v077i05/v77i05.pdf",
+    "source": {
+      "id": "https://openalex.org/S167961193",
+      "display_name": "Journal of Statistical Software",
+      "issn_l": "1548-7660",
+      "issn": [
+        "1548-7660"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315759",
+      "host_organization_name": "Foundation for Open Access Statistics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315759"
+      ],
+      "host_organization_lineage_names": [
+        "Foundation for Open Access Statistics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://www.jstatsoft.org/index.php/jss/article/view/v077i05/v77i05.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5031344082",
+        "display_name": "Charles C. Driver",
+        "orcid": "https://orcid.org/0000-0002-4174-2970"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210120221",
+          "display_name": "Max Planck Institute for Human Development",
+          "ror": "https://ror.org/02pp7px91",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210120221"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Charles C. Driver",
+      "raw_affiliation_strings": [
+        "Max Planck Institute for Human Development"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck Institute for Human Development",
+          "institution_ids": [
+            "https://openalex.org/I4210120221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056997145",
+        "display_name": "Johan H. L. Oud",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145872427",
+          "display_name": "Radboud University Nijmegen",
+          "ror": "https://ror.org/016xsfp80",
+          "country_code": "NL",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145872427"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Johan H. L. Oud",
+      "raw_affiliation_strings": [
+        "Radboud University Nijmegen"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Radboud University Nijmegen",
+          "institution_ids": [
+            "https://openalex.org/I145872427"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5084427838",
+        "display_name": "Manuel C. Voelkle",
+        "orcid": "https://orcid.org/0000-0001-5576-8103"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210120221",
+          "display_name": "Max Planck Institute for Human Development",
+          "ror": "https://ror.org/02pp7px91",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210120221"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Manuel C. Voelkle",
+      "raw_affiliation_strings": [
+        "Humboldt University Berlin Max Planck Institute for Human Development"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Humboldt University Berlin Max Planck Institute for Human Development",
+          "institution_ids": [
+            "https://openalex.org/I4210120221"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 0,
+    "currency": "USD",
+    "value_usd": 0
+  },
+  "apc_paid": null,
+  "fwci": 15.759,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 202,
+  "citation_normalized_percentile": {
+    "value": 0.999953,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "77",
+    "issue": "5",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13748",
+    "display_name": "Advanced Statistical Modeling Techniques",
+    "score": 0.9518,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1705",
+      "display_name": "Computer Networks and Communications"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13748",
+      "display_name": "Advanced Statistical Modeling Techniques",
+      "score": 0.9518,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/interfacing",
+      "display_name": "Interfacing",
+      "score": 0.45002183
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C204323151",
+      "wikidata": "https://www.wikidata.org/wiki/Q905424",
+      "display_name": "Range (aeronautics)",
+      "level": 2,
+      "score": 0.6018648
+    },
+    {
+      "id": "https://openalex.org/C51955184",
+      "wikidata": "https://www.wikidata.org/wiki/Q1545585",
+      "display_name": "Stochastic differential equation",
+      "level": 2,
+      "score": 0.5858055
+    },
+    {
+      "id": "https://openalex.org/C119043178",
+      "wikidata": "https://www.wikidata.org/wiki/Q320723",
+      "display_name": "Covariate",
+      "level": 2,
+      "score": 0.54617655
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.49353373
+    },
+    {
+      "id": "https://openalex.org/C55689738",
+      "wikidata": "https://www.wikidata.org/wiki/Q15963867",
+      "display_name": "Discrete time and continuous time",
+      "level": 2,
+      "score": 0.4907628
+    },
+    {
+      "id": "https://openalex.org/C71104824",
+      "wikidata": "https://www.wikidata.org/wiki/Q1476639",
+      "display_name": "Structural equation modeling",
+      "level": 2,
+      "score": 0.48292252
+    },
+    {
+      "id": "https://openalex.org/C2776303644",
+      "wikidata": "https://www.wikidata.org/wiki/Q1020499",
+      "display_name": "Interfacing",
+      "level": 2,
+      "score": 0.45002183
+    },
+    {
+      "id": "https://openalex.org/C2778067643",
+      "wikidata": "https://www.wikidata.org/wiki/Q166507",
+      "display_name": "Interval (graph theory)",
+      "level": 2,
+      "score": 0.4349422
+    },
+    {
+      "id": "https://openalex.org/C159877910",
+      "wikidata": "https://www.wikidata.org/wiki/Q2202883",
+      "display_name": "Autoregressive model",
+      "level": 2,
+      "score": 0.4292254
+    },
+    {
+      "id": "https://openalex.org/C28826006",
+      "wikidata": "https://www.wikidata.org/wiki/Q33521",
+      "display_name": "Applied mathematics",
+      "level": 1,
+      "score": 0.39009526
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.37157768
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.367144
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.31252778
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C114614502",
+      "wikidata": "https://www.wikidata.org/wiki/Q76592",
+      "display_name": "Combinatorics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C9390403",
+      "wikidata": "https://www.wikidata.org/wiki/Q3966",
+      "display_name": "Computer hardware",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159985019",
+      "wikidata": "https://www.wikidata.org/wiki/Q181790",
+      "display_name": "Composite material",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.18637/jss.v077.i05",
+      "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v077i05/v77i05.pdf",
+      "source": {
+        "id": "https://openalex.org/S167961193",
+        "display_name": "Journal of Statistical Software",
+        "issn_l": "1548-7660",
+        "issn": [
+          "1548-7660"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315759",
+        "host_organization_name": "Foundation for Open Access Statistics",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315759"
+        ],
+        "host_organization_lineage_names": [
+          "Foundation for Open Access Statistics"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/11858/00-001M-0000-002D-199C-2",
+      "pdf_url": "https://pure.mpg.de/pubman/item/item_2424256_8/component/file_2425906/id10000930.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400655",
+        "display_name": "MPG.PuRe (Max Planck Society)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I149899117",
+        "host_organization_name": "Max Planck Society",
+        "host_organization_lineage": [
+          "https://openalex.org/I149899117"
+        ],
+        "host_organization_lineage_names": [
+          "Max Planck Society"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/2066/178773",
+      "pdf_url": "https://repository.ubn.ru.nl/bitstream/handle/2066/178773/1/178773.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401843",
+        "display_name": "Data Archiving and Networked Services (DANS)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1322597698",
+        "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/I1322597698"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Netherlands Academy of Arts and Sciences"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/178773/178773.pdf",
+      "pdf_url": "https://repository.ubn.ru.nl//bitstream/handle/2066/178773/178773.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401067",
+        "display_name": "Radboud Repository (Radboud University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I145872427",
+        "host_organization_name": "Radboud University Nijmegen",
+        "host_organization_lineage": [
+          "https://openalex.org/I145872427"
+        ],
+        "host_organization_lineage_names": [
+          "Radboud University Nijmegen"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.18637/jss.v077.i05",
+    "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v077i05/v77i05.pdf",
+    "source": {
+      "id": "https://openalex.org/S167961193",
+      "display_name": "Journal of Statistical Software",
+      "issn_l": "1548-7660",
+      "issn": [
+        "1548-7660"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315759",
+      "host_organization_name": "Foundation for Open Access Statistics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315759"
+      ],
+      "host_organization_lineage_names": [
+        "Foundation for Open Access Statistics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 34,
+  "referenced_works": [
+    "https://openalex.org/W1495813420",
+    "https://openalex.org/W1824161747",
+    "https://openalex.org/W1884900650",
+    "https://openalex.org/W1911437701",
+    "https://openalex.org/W1978580784",
+    "https://openalex.org/W1981550893",
+    "https://openalex.org/W1983097489",
+    "https://openalex.org/W1985419506",
+    "https://openalex.org/W1988098342",
+    "https://openalex.org/W1998248969",
+    "https://openalex.org/W2006800963",
+    "https://openalex.org/W2042301765",
+    "https://openalex.org/W2064984736",
+    "https://openalex.org/W2098705272",
+    "https://openalex.org/W2102603495",
+    "https://openalex.org/W2109349396",
+    "https://openalex.org/W2112819836",
+    "https://openalex.org/W2114876709",
+    "https://openalex.org/W2115456658",
+    "https://openalex.org/W2117594039",
+    "https://openalex.org/W2125333352",
+    "https://openalex.org/W2125482524",
+    "https://openalex.org/W2133451385",
+    "https://openalex.org/W2138937646",
+    "https://openalex.org/W2142247808",
+    "https://openalex.org/W2147172742",
+    "https://openalex.org/W2154909602",
+    "https://openalex.org/W2277437543",
+    "https://openalex.org/W2323873606",
+    "https://openalex.org/W2582743722",
+    "https://openalex.org/W4231057675",
+    "https://openalex.org/W4399588958",
+    "https://openalex.org/W4399640442",
+    "https://openalex.org/W4399647943"
+  ],
+  "related_works": [
+    "https://openalex.org/W2484987020",
+    "https://openalex.org/W2350029007",
+    "https://openalex.org/W2182594080",
+    "https://openalex.org/W2152662857",
+    "https://openalex.org/W2136647108",
+    "https://openalex.org/W2047994557",
+    "https://openalex.org/W2017757432",
+    "https://openalex.org/W1980060958",
+    "https://openalex.org/W1973428399",
+    "https://openalex.org/W1965180958"
+  ],
+  "abstract_inverted_index": {
+    "We": [
+      0,
+      203
+    ],
+    "introduce": [
+      1,
+      205
+    ],
+    "ctsem,": [
+      2
+    ],
+    "an": [
+      3,
+      108
+    ],
+    "R": [
+      4
+    ],
+    "package": [
+      5
+    ],
+    "for": [
+      6,
+      83,
+      116,
+      154
+    ],
+    "continuous": [
+      7,
+      110,
+      112,
+      145,
+      208,
+      221
+    ],
+    "time": [
+      8,
+      18,
+      44,
+      50,
+      54,
+      85,
+      95,
+      113,
+      146,
+      153,
+      165,
+      209,
+      222
+    ],
+    "structural": [
+      9,
+      132
+    ],
+    "equation": [
+      10,
+      133
+    ],
+    "modeling": [
+      11,
+      177
+    ],
+    "of": [
+      12,
+      48,
+      71,
+      81,
+      97,
+      119,
+      131,
+      144,
+      220
+    ],
+    "panel": [
+      13,
+      34
+    ],
+    "(N": [
+      14,
+      20
+    ],
+    ">": [
+      15
+    ],
+    "1)": [
+      16,
+      22
+    ],
+    "and": [
+      17,
+      39,
+      60,
+      93,
+      141,
+      170,
+      181,
+      195,
+      206,
+      216
+    ],
+    "series": [
+      19
+    ],
+    "=": [
+      21
+    ],
+    "data,": [
+      23
+    ],
+    "using": [
+      24,
+      102,
+      224
+    ],
+    "full": [
+      25
+    ],
+    "information": [
+      26
+    ],
+    "maximum": [
+      27
+    ],
+    "likelihood.": [
+      28
+    ],
+    "Most": [
+      29
+    ],
+    "dynamic": [
+      30
+    ],
+    "models": [
+      31,
+      51,
+      114,
+      134,
+      223
+    ],
+    "(e.g.,": [
+      32
+    ],
+    "cross-lagged": [
+      33
+    ],
+    "models)": [
+      35
+    ],
+    "in": [
+      36
+    ],
+    "the": [
+      37,
+      67,
+      79,
+      94,
+      128,
+      136
+    ],
+    "social": [
+      38
+    ],
+    "behavioural": [
+      40
+    ],
+    "sciences": [
+      41
+    ],
+    "are": [
+      42,
+      58,
+      74,
+      173
+    ],
+    "discrete": [
+      43,
+      49
+    ],
+    "models.": [
+      45,
+      147
+    ],
+    "An": [
+      46
+    ],
+    "assumption": [
+      47,
+      73
+    ],
+    "is": [
+      52
+    ],
+    "that": [
+      53,
+      61
+    ],
+    "intervals": [
+      55,
+      166
+    ],
+    "between": [
+      56,
+      167,
+      171
+    ],
+    "measurements": [
+      57
+    ],
+    "equal,": [
+      59
+    ],
+    "all": [
+      62,
+      199
+    ],
+    "subjects": [
+      63
+    ],
+    "were": [
+      64
+    ],
+    "assessed": [
+      65
+    ],
+    "at": [
+      66
+    ],
+    "same": [
+      68
+    ],
+    "intervals.": [
+      69
+    ],
+    "Violations": [
+      70
+    ],
+    "this": [
+      72
+    ],
+    "often": [
+      75
+    ],
+    "ignored": [
+      76
+    ],
+    "due": [
+      77
+    ],
+    "to": [
+      78,
+      106,
+      124,
+      214
+    ],
+    "difficulty": [
+      80
+    ],
+    "accounting": [
+      82
+    ],
+    "varying": [
+      84,
+      164
+    ],
+    "intervals,": [
+      86
+    ],
+    "therefore": [
+      87
+    ],
+    "parameter": [
+      88
+    ],
+    "estimates": [
+      89
+    ],
+    "can": [
+      90,
+      149,
+      198
+    ],
+    "be": [
+      91,
+      200
+    ],
+    "biased": [
+      92
+    ],
+    "course": [
+      96
+    ],
+    "effects": [
+      98,
+      172,
+      194
+    ],
+    "becomes": [
+      99
+    ],
+    "ambiguous.": [
+      100
+    ],
+    "By": [
+      101,
+      122
+    ],
+    "stochastic": [
+      103
+    ],
+    "differential": [
+      104
+    ],
+    "equations": [
+      105
+    ],
+    "estimate": [
+      107,
+      150,
+      217
+    ],
+    "underlying": [
+      109
+    ],
+    "process,": [
+      111
+    ],
+    "allow": [
+      115
+    ],
+    "any": [
+      117
+    ],
+    "pattern": [
+      118
+    ],
+    "measurement": [
+      120
+    ],
+    "occasions.": [
+      121
+    ],
+    "interfacing": [
+      123
+    ],
+    "OpenMx,": [
+      125
+    ],
+    "ctsem": [
+      126,
+      148
+    ],
+    "combines": [
+      127
+    ],
+    "flexible": [
+      129
+    ],
+    "specification": [
+      130
+    ],
+    "with": [
+      135,
+      163,
+      186
+    ],
+    "enhanced": [
+      137
+    ],
+    "data": [
+      138
+    ],
+    "gathering": [
+      139
+    ],
+    "opportunities": [
+      140
+    ],
+    "improved": [
+      142
+    ],
+    "estimation": [
+      143
+    ],
+    "relationships": [
+      151
+    ],
+    "over": [
+      152
+    ],
+    "multiple": [
+      155,
+      160
+    ],
+    "latent": [
+      156
+    ],
+    "processes,": [
+      157
+    ],
+    "measured": [
+      158
+    ],
+    "by": [
+      159,
+      176
+    ],
+    "noisy": [
+      161
+    ],
+    "indicators": [
+      162
+    ],
+    "observations.": [
+      168
+    ],
+    "Within": [
+      169
+    ],
+    "estimated": [
+      174
+    ],
+    "simultaneously": [
+      175
+    ],
+    "both": [
+      178
+    ],
+    "observed": [
+      179
+    ],
+    "covariates": [
+      180
+    ],
+    "unobserved": [
+      182
+    ],
+    "heterogeneity.": [
+      183
+    ],
+    "Exogenous": [
+      184
+    ],
+    "shocks": [
+      185
+    ],
+    "different": [
+      187
+    ],
+    "shapes,": [
+      188
+    ],
+    "group": [
+      189
+    ],
+    "differences,": [
+      190
+    ],
+    "higher": [
+      191
+    ],
+    "order": [
+      192
+    ],
+    "diffusion": [
+      193
+    ],
+    "oscillating": [
+      196
+    ],
+    "processes": [
+      197
+    ],
+    "simply": [
+      201
+    ],
+    "modeled.": [
+      202
+    ],
+    "first": [
+      204
+    ],
+    "define": [
+      207
+    ],
+    "models,": [
+      210
+    ],
+    "then": [
+      211
+    ],
+    "show": [
+      212
+    ],
+    "how": [
+      213
+    ],
+    "specify": [
+      215
+    ],
+    "a": [
+      218
+    ],
+    "range": [
+      219
+    ],
+    "ctsem.": [
+      225
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2605066910",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 32
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-13T03:47:31.180427",
+  "created_date": "2017-04-14"
+}

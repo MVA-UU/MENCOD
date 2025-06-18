@@ -1,0 +1,1778 @@
+{
+  "id": "https://openalex.org/W1716533099",
+  "doi": "https://doi.org/10.1111/apt.13302",
+  "title": "Chemotherapy‐driven dysbiosis in the intestinal microbiome",
+  "display_name": "Chemotherapy‐driven dysbiosis in the intestinal microbiome",
+  "publication_year": 2015,
+  "publication_date": "2015-07-06",
+  "ids": {
+    "openalex": "https://openalex.org/W1716533099",
+    "doi": "https://doi.org/10.1111/apt.13302",
+    "mag": "1716533099",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/26147207"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1111/apt.13302",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/apt.13302",
+    "source": {
+      "id": "https://openalex.org/S158079644",
+      "display_name": "Alimentary Pharmacology & Therapeutics",
+      "issn_l": "0269-2813",
+      "issn": [
+        "0269-2813",
+        "1365-2036"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/apt.13302",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5073653250",
+        "display_name": "Emmanuel Montassier",
+        "orcid": "https://orcid.org/0000-0002-2313-1172"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97188460",
+          "display_name": "Nantes Université",
+          "ror": "https://ror.org/03gnr7b55",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97188460"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "FR",
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "E. Montassier",
+      "raw_affiliation_strings": [
+        "Department of Computer Science and Engineering, University of Minnesota, Minneapolis, MN, USA",
+        "EA 3826 Thérapeutiques Cliniques et Expérimentales des Infections Faculté de Médecine Université de Nantes Nantes France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "EA 3826 Thérapeutiques Cliniques et Expérimentales des Infections Faculté de Médecine Université de Nantes Nantes France",
+          "institution_ids": [
+            "https://openalex.org/I97188460"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Computer Science and Engineering, University of Minnesota, Minneapolis, MN, USA",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5065205435",
+        "display_name": "Thomas Gastinne",
+        "orcid": "https://orcid.org/0000-0003-4704-1187"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97188460",
+          "display_name": "Nantes Université",
+          "ror": "https://ror.org/03gnr7b55",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97188460"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "T. Gastinne",
+      "raw_affiliation_strings": [
+        "Department of Hematology, Nantes University Hospital, Nantes, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Hematology, Nantes University Hospital, Nantes, France",
+          "institution_ids": [
+            "https://openalex.org/I97188460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045991055",
+        "display_name": "Pajau Vangay",
+        "orcid": "https://orcid.org/0000-0002-9231-0692"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P. Vangay",
+      "raw_affiliation_strings": [
+        "Biomedical Informatics and Computational Biology, University of Minnesota, Minneapolis, MN, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Biomedical Informatics and Computational Biology, University of Minnesota, Minneapolis, MN, USA",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058766687",
+        "display_name": "Gabriel A. Al‐Ghalith",
+        "orcid": "https://orcid.org/0000-0002-6953-6319"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. A. Al‐Ghalith",
+      "raw_affiliation_strings": [
+        "Biomedical Informatics and Computational Biology, University of Minnesota, Minneapolis, MN, USA",
+        "Department of Computer Science and Engineering, University of Minnesota, Minneapolis, MN, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computer Science and Engineering, University of Minnesota, Minneapolis, MN, USA",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Biomedical Informatics and Computational Biology, University of Minnesota, Minneapolis, MN, USA",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009322299",
+        "display_name": "Stanislas Bruley des Varannes",
+        "orcid": "https://orcid.org/0000-0003-0180-3051"
+      },
+      "institutions": [],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Bruley des Varannes",
+      "raw_affiliation_strings": [
+        "Institut des Maladies de l'Appareil Digestif, Nantes University Hospital, Nantes, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut des Maladies de l'Appareil Digestif, Nantes University Hospital, Nantes, France",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078719674",
+        "display_name": "Sébastien Massart",
+        "orcid": "https://orcid.org/0000-0002-7153-737X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27895137",
+          "display_name": "Gembloux Agro-Bio Tech",
+          "ror": "https://ror.org/00bmzhb16",
+          "country_code": "BE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I157674565",
+            "https://openalex.org/I27895137"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I157674565",
+          "display_name": "University of Liège",
+          "ror": "https://ror.org/00afp2z80",
+          "country_code": "BE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I157674565"
+          ]
+        }
+      ],
+      "countries": [
+        "BE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Massart",
+      "raw_affiliation_strings": [
+        "Gembloux Agro‐Bio Tech University of Liège Gembloux Belgium"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gembloux Agro‐Bio Tech University of Liège Gembloux Belgium",
+          "institution_ids": [
+            "https://openalex.org/I27895137",
+            "https://openalex.org/I157674565"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103143602",
+        "display_name": "Philippe Moreau",
+        "orcid": "https://orcid.org/0000-0003-1780-8746"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97188460",
+          "display_name": "Nantes Université",
+          "ror": "https://ror.org/03gnr7b55",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97188460"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P. Moreau",
+      "raw_affiliation_strings": [
+        "Department of Hematology, Nantes University Hospital, Nantes, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Hematology, Nantes University Hospital, Nantes, France",
+          "institution_ids": [
+            "https://openalex.org/I97188460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068642679",
+        "display_name": "G. Potel",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97188460",
+          "display_name": "Nantes Université",
+          "ror": "https://ror.org/03gnr7b55",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97188460"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. Potel",
+      "raw_affiliation_strings": [
+        "EA 3826 Thérapeutiques Cliniques et Expérimentales des Infections Faculté de Médecine Université de Nantes Nantes France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "EA 3826 Thérapeutiques Cliniques et Expérimentales des Infections Faculté de Médecine Université de Nantes Nantes France",
+          "institution_ids": [
+            "https://openalex.org/I97188460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004688519",
+        "display_name": "Marie France De La Cochetiere",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97188460",
+          "display_name": "Nantes Université",
+          "ror": "https://ror.org/03gnr7b55",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97188460"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M. F. de La Cochetière",
+      "raw_affiliation_strings": [
+        "EA 3826 Thérapeutiques Cliniques et Expérimentales des Infections Faculté de Médecine INSERM Université de Nantes Nantes France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "EA 3826 Thérapeutiques Cliniques et Expérimentales des Infections Faculté de Médecine INSERM Université de Nantes Nantes France",
+          "institution_ids": [
+            "https://openalex.org/I97188460",
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047818539",
+        "display_name": "Éric Batard",
+        "orcid": "https://orcid.org/0000-0002-1927-228X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97188460",
+          "display_name": "Nantes Université",
+          "ror": "https://ror.org/03gnr7b55",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97188460"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. Batard",
+      "raw_affiliation_strings": [
+        "EA 3826 Thérapeutiques Cliniques et Expérimentales des Infections Faculté de Médecine Université de Nantes Nantes France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "EA 3826 Thérapeutiques Cliniques et Expérimentales des Infections Faculté de Médecine Université de Nantes Nantes France",
+          "institution_ids": [
+            "https://openalex.org/I97188460"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5082358375",
+        "display_name": "Dan Knights",
+        "orcid": "https://orcid.org/0000-0002-8205-2511"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1312106833",
+          "display_name": "Biotechnology Institute",
+          "ror": "https://ror.org/00s1jty20",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I1312106833"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "D. Knights",
+      "raw_affiliation_strings": [
+        "BioTechnology Institute, University of Minnesota, St. Paul, MN, USA",
+        "Department of Computer Science and Engineering, University of Minnesota, Minneapolis, MN, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "BioTechnology Institute, University of Minnesota, St. Paul, MN, USA",
+          "institution_ids": [
+            "https://openalex.org/I130238516",
+            "https://openalex.org/I1312106833"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Computer Science and Engineering, University of Minnesota, Minneapolis, MN, USA",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5073653250",
+    "https://openalex.org/A5082358375"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I97188460",
+    "https://openalex.org/I130238516",
+    "https://openalex.org/I130238516",
+    "https://openalex.org/I1312106833"
+  ],
+  "apc_list": {
+    "value": 5050,
+    "currency": "USD",
+    "value_usd": 5050
+  },
+  "apc_paid": null,
+  "fwci": 16.215,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 422,
+  "citation_normalized_percentile": {
+    "value": 0.999972,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "42",
+    "issue": "5",
+    "first_page": "515",
+    "last_page": "528"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12198",
+    "display_name": "Oral health in cancer treatment",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2740",
+      "display_name": "Pulmonary and Respiratory Medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12198",
+      "display_name": "Oral health in cancer treatment",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10307",
+      "display_name": "Head and Neck Cancer Studies",
+      "score": 0.9776,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2733",
+        "display_name": "Otorhinolaryngology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12172",
+      "display_name": "Neutropenia and Cancer Infections",
+      "score": 0.9636,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/mucositis",
+      "display_name": "Mucositis",
+      "score": 0.8986908
+    },
+    {
+      "id": "https://openalex.org/keywords/dysbiosis",
+      "display_name": "Dysbiosis",
+      "score": 0.71631646
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2778496288",
+      "wikidata": "https://www.wikidata.org/wiki/Q6931269",
+      "display_name": "Mucositis",
+      "level": 3,
+      "score": 0.8986908
+    },
+    {
+      "id": "https://openalex.org/C143121216",
+      "wikidata": "https://www.wikidata.org/wiki/Q1330402",
+      "display_name": "Microbiome",
+      "level": 2,
+      "score": 0.721558
+    },
+    {
+      "id": "https://openalex.org/C2777165150",
+      "wikidata": "https://www.wikidata.org/wiki/Q269334",
+      "display_name": "Dysbiosis",
+      "level": 3,
+      "score": 0.71631646
+    },
+    {
+      "id": "https://openalex.org/C2776694085",
+      "wikidata": "https://www.wikidata.org/wiki/Q974135",
+      "display_name": "Chemotherapy",
+      "level": 2,
+      "score": 0.61487335
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.53486663
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.43633845
+    },
+    {
+      "id": "https://openalex.org/C90924648",
+      "wikidata": "https://www.wikidata.org/wiki/Q120569",
+      "display_name": "Gastroenterology",
+      "level": 1,
+      "score": 0.41168636
+    },
+    {
+      "id": "https://openalex.org/C2777408962",
+      "wikidata": "https://www.wikidata.org/wiki/Q1128050",
+      "display_name": "Hematopoietic stem cell transplantation",
+      "level": 3,
+      "score": 0.41081583
+    },
+    {
+      "id": "https://openalex.org/C502942594",
+      "wikidata": "https://www.wikidata.org/wiki/Q3421914",
+      "display_name": "Cancer research",
+      "level": 1,
+      "score": 0.3305837
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.32108718
+    },
+    {
+      "id": "https://openalex.org/C2911091166",
+      "wikidata": "https://www.wikidata.org/wiki/Q106419912",
+      "display_name": "Transplantation",
+      "level": 2,
+      "score": 0.2820471
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.20372921
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000970",
+      "descriptor_name": "Antineoplastic Agents",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008228",
+      "descriptor_name": "Lymphoma, Non-Hodgkin",
+      "qualifier_ui": "Q000188",
+      "qualifier_name": "drug therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D052016",
+      "descriptor_name": "Mucositis",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D052016",
+      "descriptor_name": "Mucositis",
+      "qualifier_ui": "Q000139",
+      "qualifier_name": "chemically induced",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012336",
+      "descriptor_name": "RNA, Ribosomal, 16S",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D039903",
+      "descriptor_name": "Actinobacteria",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D039903",
+      "descriptor_name": "Actinobacteria",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000970",
+      "descriptor_name": "Antineoplastic Agents",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000970",
+      "descriptor_name": "Antineoplastic Agents",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D064806",
+      "descriptor_name": "Dysbiosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D064806",
+      "descriptor_name": "Dysbiosis",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D064806",
+      "descriptor_name": "Dysbiosis",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D064806",
+      "descriptor_name": "Dysbiosis",
+      "qualifier_ui": "Q000139",
+      "qualifier_name": "chemically induced",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005243",
+      "descriptor_name": "Feces",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005243",
+      "descriptor_name": "Feces",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000068536",
+      "descriptor_name": "Firmicutes",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000068536",
+      "descriptor_name": "Firmicutes",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000069196",
+      "descriptor_name": "Gastrointestinal Microbiome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000069196",
+      "descriptor_name": "Gastrointestinal Microbiome",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018380",
+      "descriptor_name": "Hematopoietic Stem Cell Transplantation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018380",
+      "descriptor_name": "Hematopoietic Stem Cell Transplantation",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059014",
+      "descriptor_name": "High-Throughput Nucleotide Sequencing",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008228",
+      "descriptor_name": "Lymphoma, Non-Hodgkin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008228",
+      "descriptor_name": "Lymphoma, Non-Hodgkin",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D052016",
+      "descriptor_name": "Mucositis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D052016",
+      "descriptor_name": "Mucositis",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020560",
+      "descriptor_name": "Proteobacteria",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020560",
+      "descriptor_name": "Proteobacteria",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012336",
+      "descriptor_name": "RNA, Ribosomal, 16S",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012336",
+      "descriptor_name": "RNA, Ribosomal, 16S",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/apt.13302",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/apt.13302",
+      "source": {
+        "id": "https://openalex.org/S158079644",
+        "display_name": "Alimentary Pharmacology & Therapeutics",
+        "issn_l": "0269-2813",
+        "issn": [
+          "0269-2813",
+          "1365-2036"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://orbi.uliege.be/bitstream/2268/183752/1/Montassier_et_al-2015-Alimentary_Pharmacology_%26_Therapeutics.pdf",
+      "pdf_url": "https://orbi.uliege.be/bitstream/2268/183752/1/Montassier_et_al-2015-Alimentary_Pharmacology_%26_Therapeutics.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401300",
+        "display_name": "ORBi (University of Liège)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I157674565",
+        "host_organization_name": "University of Liège",
+        "host_organization_lineage": [
+          "https://openalex.org/I157674565"
+        ],
+        "host_organization_lineage_names": [
+          "University of Liège"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/26147207",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1111/apt.13302",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/apt.13302",
+    "source": {
+      "id": "https://openalex.org/S158079644",
+      "display_name": "Alimentary Pharmacology & Therapeutics",
+      "issn_l": "0269-2813",
+      "issn": [
+        "0269-2813",
+        "1365-2036"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.58
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 72,
+  "referenced_works": [
+    "https://openalex.org/W1166213883",
+    "https://openalex.org/W1507392760",
+    "https://openalex.org/W1516048300",
+    "https://openalex.org/W1811186957",
+    "https://openalex.org/W1953702613",
+    "https://openalex.org/W1965658479",
+    "https://openalex.org/W1966452112",
+    "https://openalex.org/W1970680007",
+    "https://openalex.org/W1975245593",
+    "https://openalex.org/W1976971060",
+    "https://openalex.org/W1981077547",
+    "https://openalex.org/W1981579255",
+    "https://openalex.org/W1986930215",
+    "https://openalex.org/W1988579689",
+    "https://openalex.org/W1988925586",
+    "https://openalex.org/W1991957570",
+    "https://openalex.org/W1994243307",
+    "https://openalex.org/W1998034327",
+    "https://openalex.org/W2000054991",
+    "https://openalex.org/W2000860171",
+    "https://openalex.org/W2005879027",
+    "https://openalex.org/W2013755822",
+    "https://openalex.org/W2016947117",
+    "https://openalex.org/W2020913417",
+    "https://openalex.org/W2025695947",
+    "https://openalex.org/W2030364983",
+    "https://openalex.org/W2037505073",
+    "https://openalex.org/W2041753363",
+    "https://openalex.org/W2043442946",
+    "https://openalex.org/W2044235282",
+    "https://openalex.org/W2045397037",
+    "https://openalex.org/W2051645496",
+    "https://openalex.org/W2066208186",
+    "https://openalex.org/W2066452478",
+    "https://openalex.org/W2071748263",
+    "https://openalex.org/W2072840193",
+    "https://openalex.org/W2072915767",
+    "https://openalex.org/W2072970694",
+    "https://openalex.org/W2074693189",
+    "https://openalex.org/W2076048206",
+    "https://openalex.org/W2081536852",
+    "https://openalex.org/W2082471133",
+    "https://openalex.org/W2083849016",
+    "https://openalex.org/W2085284704",
+    "https://openalex.org/W2086216523",
+    "https://openalex.org/W2088170171",
+    "https://openalex.org/W2094055847",
+    "https://openalex.org/W2094288404",
+    "https://openalex.org/W2101154858",
+    "https://openalex.org/W2110300022",
+    "https://openalex.org/W2110330635",
+    "https://openalex.org/W2112583566",
+    "https://openalex.org/W2113429842",
+    "https://openalex.org/W2117088514",
+    "https://openalex.org/W2123119522",
+    "https://openalex.org/W2129170623",
+    "https://openalex.org/W2131936540",
+    "https://openalex.org/W2133547370",
+    "https://openalex.org/W2136759951",
+    "https://openalex.org/W2137003603",
+    "https://openalex.org/W2141878383",
+    "https://openalex.org/W2143777796",
+    "https://openalex.org/W2145845306",
+    "https://openalex.org/W2147825765",
+    "https://openalex.org/W2149573313",
+    "https://openalex.org/W2150081979",
+    "https://openalex.org/W2152101898",
+    "https://openalex.org/W2156145269",
+    "https://openalex.org/W2159992457",
+    "https://openalex.org/W2160325274",
+    "https://openalex.org/W2162088497",
+    "https://openalex.org/W2263814165"
+  ],
+  "related_works": [
+    "https://openalex.org/W4389485761",
+    "https://openalex.org/W4311366456",
+    "https://openalex.org/W4283718758",
+    "https://openalex.org/W3214964065",
+    "https://openalex.org/W3030594888",
+    "https://openalex.org/W3025392928",
+    "https://openalex.org/W3007894746",
+    "https://openalex.org/W2997164716",
+    "https://openalex.org/W2040606303",
+    "https://openalex.org/W139966500"
+  ],
+  "abstract_inverted_index": {
+    "Chemotherapy": [
+      0,
+      17
+    ],
+    "is": [
+      1
+    ],
+    "commonly": [
+      2
+    ],
+    "used": [
+      3
+    ],
+    "as": [
+      4,
+      116
+    ],
+    "myeloablative": [
+      5,
+      107
+    ],
+    "conditioning": [
+      6,
+      108
+    ],
+    "treatment": [
+      7
+    ],
+    "to": [
+      8,
+      19,
+      73,
+      151
+    ],
+    "prepare": [
+      9
+    ],
+    "patients": [
+      10,
+      99,
+      158
+    ],
+    "for": [
+      11,
+      162,
+      184,
+      229
+    ],
+    "haematopoietic": [
+      12
+    ],
+    "stem": [
+      13
+    ],
+    "cell": [
+      14
+    ],
+    "transplantation": [
+      15
+    ],
+    "(HSCT).": [
+      16
+    ],
+    "leads": [
+      18
+    ],
+    "several": [
+      20
+    ],
+    "side": [
+      21
+    ],
+    "effects,": [
+      22
+    ],
+    "with": [
+      23,
+      100,
+      215
+    ],
+    "gastrointestinal": [
+      24
+    ],
+    "(GI)": [
+      25
+    ],
+    "mucositis": [
+      26,
+      37
+    ],
+    "being": [
+      27
+    ],
+    "one": [
+      28
+    ],
+    "of": [
+      29,
+      35,
+      45,
+      65,
+      130,
+      145,
+      174,
+      232
+    ],
+    "the": [
+      30,
+      43,
+      46,
+      54,
+      63,
+      105,
+      210,
+      230
+    ],
+    "most": [
+      31
+    ],
+    "frequent.": [
+      32
+    ],
+    "Current": [
+      33
+    ],
+    "models": [
+      34
+    ],
+    "GI": [
+      36,
+      66,
+      217
+    ],
+    "pathophysiology": [
+      38,
+      64
+    ],
+    "are": [
+      39,
+      80
+    ],
+    "generally": [
+      40
+    ],
+    "silent": [
+      41
+    ],
+    "on": [
+      42
+    ],
+    "role": [
+      44,
+      61
+    ],
+    "intestinal": [
+      47,
+      55,
+      233
+    ],
+    "microbiome.To": [
+      48
+    ],
+    "identify": [
+      49,
+      74
+    ],
+    "functional": [
+      50,
+      207,
+      220
+    ],
+    "mechanisms": [
+      51
+    ],
+    "by": [
+      52
+    ],
+    "which": [
+      53
+    ],
+    "microbiome": [
+      56
+    ],
+    "may": [
+      57
+    ],
+    "play": [
+      58
+    ],
+    "a": [
+      59,
+      203
+    ],
+    "key": [
+      60
+    ],
+    "in": [
+      62,
+      97,
+      128,
+      143,
+      209,
+      223,
+      236
+    ],
+    "mucositis,": [
+      67
+    ],
+    "we": [
+      68
+    ],
+    "applied": [
+      69
+    ],
+    "high-throughput": [
+      70
+    ],
+    "DNA-sequencing": [
+      71
+    ],
+    "analysis": [
+      72,
+      225
+    ],
+    "microbes": [
+      75
+    ],
+    "and": [
+      76,
+      85,
+      94,
+      110,
+      135,
+      140,
+      176,
+      181,
+      195,
+      206
+    ],
+    "microbial": [
+      77,
+      212
+    ],
+    "functions": [
+      78
+    ],
+    "that": [
+      79,
+      119
+    ],
+    "modulated": [
+      81
+    ],
+    "following": [
+      82
+    ],
+    "chemotherapy.We": [
+      83
+    ],
+    "amplified": [
+      84
+    ],
+    "sequenced": [
+      86
+    ],
+    "16S": [
+      87
+    ],
+    "rRNA": [
+      88
+    ],
+    "genes": [
+      89
+    ],
+    "from": [
+      90
+    ],
+    "faecal": [
+      91,
+      120
+    ],
+    "samples": [
+      92,
+      121,
+      152
+    ],
+    "before": [
+      93,
+      154
+    ],
+    "after": [
+      95,
+      123
+    ],
+    "chemotherapy": [
+      96,
+      124
+    ],
+    "28": [
+      98
+    ],
+    "non-Hodgkin's": [
+      101
+    ],
+    "lymphoma": [
+      102
+    ],
+    "who": [
+      103
+    ],
+    "received": [
+      104
+    ],
+    "same": [
+      106
+    ],
+    "regimen": [
+      109
+    ],
+    "no": [
+      111
+    ],
+    "other": [
+      112
+    ],
+    "concomitant": [
+      113
+    ],
+    "therapy": [
+      114
+    ],
+    "such": [
+      115
+    ],
+    "antibiotics.We": [
+      117
+    ],
+    "found": [
+      118
+    ],
+    "collected": [
+      122,
+      153
+    ],
+    "exhibited": [
+      125
+    ],
+    "significant": [
+      126,
+      141
+    ],
+    "decreases": [
+      127
+    ],
+    "abundances": [
+      129,
+      144
+    ],
+    "Firmicutes": [
+      131
+    ],
+    "(P": [
+      132,
+      137,
+      147,
+      165,
+      170,
+      178,
+      187,
+      192,
+      198
+    ],
+    "=": [
+      133,
+      138,
+      148,
+      166,
+      171,
+      179,
+      188,
+      193,
+      199
+    ],
+    "0.0002)": [
+      134,
+      149,
+      194
+    ],
+    "Actinobacteria": [
+      136
+    ],
+    "0.002)": [
+      139
+    ],
+    "increases": [
+      142
+    ],
+    "Proteobacteria": [
+      146
+    ],
+    "compared": [
+      150
+    ],
+    "chemotherapy.": [
+      155
+    ],
+    "Following": [
+      156
+    ],
+    "chemotherapy,": [
+      157
+    ],
+    "had": [
+      159
+    ],
+    "reduced": [
+      160
+    ],
+    "capacity": [
+      161,
+      183
+    ],
+    "nucleotide": [
+      163
+    ],
+    "metabolism": [
+      164,
+      169,
+      173,
+      186
+    ],
+    "0.0001),": [
+      167
+    ],
+    "energy": [
+      168
+    ],
+    "0.001),": [
+      172
+    ],
+    "cofactors": [
+      175
+    ],
+    "vitamins": [
+      177
+    ],
+    "0.006),": [
+      180
+    ],
+    "increased": [
+      182
+    ],
+    "glycan": [
+      185
+    ],
+    "0.0002),": [
+      189
+    ],
+    "signal": [
+      190
+    ],
+    "transduction": [
+      191
+    ],
+    "xenobiotics": [
+      196
+    ],
+    "biodegradation": [
+      197
+    ],
+    "0.002).Our": [
+      200
+    ],
+    "study": [
+      201
+    ],
+    "identifies": [
+      202
+    ],
+    "severe": [
+      204
+    ],
+    "compositional": [
+      205
+    ],
+    "imbalance": [
+      208
+    ],
+    "gut": [
+      211
+    ],
+    "community": [
+      213
+    ],
+    "associated": [
+      214
+    ],
+    "chemotherapy-induced": [
+      216
+    ],
+    "mucositis.": [
+      218
+    ],
+    "The": [
+      219
+    ],
+    "pathways": [
+      221
+    ],
+    "implicated": [
+      222
+    ],
+    "our": [
+      224
+    ],
+    "suggest": [
+      226
+    ],
+    "potential": [
+      227
+    ],
+    "directions": [
+      228
+    ],
+    "development": [
+      231
+    ],
+    "microbiome-targeted": [
+      234
+    ],
+    "interventions": [
+      235
+    ],
+    "cancer": [
+      237
+    ],
+    "patients.": [
+      238
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1716533099",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 55
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 53
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 68
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 46
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 45
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-11T01:46:24.976402",
+  "created_date": "2016-06-24"
+}

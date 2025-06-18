@@ -1,0 +1,797 @@
+{
+  "id": "https://openalex.org/W2269021816",
+  "doi": "https://doi.org/10.1093/ajcn/69.4.719",
+  "title": "Socioeconomic differences in weight gain and determinants and consequences of coronary risk factors",
+  "display_name": "Socioeconomic differences in weight gain and determinants and consequences of coronary risk factors",
+  "publication_year": 1999,
+  "publication_date": "1999-04-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2269021816",
+    "doi": "https://doi.org/10.1093/ajcn/69.4.719",
+    "mag": "2269021816",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/10197574"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/ajcn/69.4.719",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S71285955",
+      "display_name": "American Journal of Clinical Nutrition",
+      "issn_l": "0002-9165",
+      "issn": [
+        "0002-9165",
+        "1938-3207"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.1093/ajcn/69.4.719",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5008485060",
+        "display_name": "Pekka Martikainen",
+        "orcid": "https://orcid.org/0000-0001-9374-1438"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089342",
+          "display_name": "The Centre for Health (New Zealand)",
+          "ror": "https://ror.org/00805ky43",
+          "country_code": "NZ",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210089342"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I133731052",
+          "display_name": "University of Helsinki",
+          "ror": "https://ror.org/040af2s02",
+          "country_code": "FI",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I133731052"
+          ]
+        }
+      ],
+      "countries": [
+        "FI",
+        "GB",
+        "NZ"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Pekka T Martikainen",
+      "raw_affiliation_strings": [
+        "From the International Centre for Health and Society, Department of Epidemiology and Public Health, University College London, and the Population Research Unit, Department of Sociology, University of Helsinki."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "From the International Centre for Health and Society, Department of Epidemiology and Public Health, University College London, and the Population Research Unit, Department of Sociology, University of Helsinki.",
+          "institution_ids": [
+            "https://openalex.org/I4210089342",
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I133731052"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5074409311",
+        "display_name": "Michael Marmot",
+        "orcid": "https://orcid.org/0000-0002-2431-6419"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210089342",
+          "display_name": "The Centre for Health (New Zealand)",
+          "ror": "https://ror.org/00805ky43",
+          "country_code": "NZ",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210089342"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I133731052",
+          "display_name": "University of Helsinki",
+          "ror": "https://ror.org/040af2s02",
+          "country_code": "FI",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I133731052"
+          ]
+        }
+      ],
+      "countries": [
+        "FI",
+        "GB",
+        "NZ"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael G Marmot",
+      "raw_affiliation_strings": [
+        "From the International Centre for Health and Society, Department of Epidemiology and Public Health, University College London, and the Population Research Unit, Department of Sociology, University of Helsinki."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "From the International Centre for Health and Society, Department of Epidemiology and Public Health, University College London, and the Population Research Unit, Department of Sociology, University of Helsinki.",
+          "institution_ids": [
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I4210089342",
+            "https://openalex.org/I133731052"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5008485060"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210089342",
+    "https://openalex.org/I45129253",
+    "https://openalex.org/I133731052"
+  ],
+  "apc_list": {
+    "value": 5000,
+    "currency": "USD",
+    "value_usd": 5000
+  },
+  "apc_paid": null,
+  "fwci": 6.671,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 129,
+  "citation_normalized_percentile": {
+    "value": 0.924548,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "69",
+    "issue": "4",
+    "first_page": "719",
+    "last_page": "726"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10235",
+    "display_name": "Health disparities and outcomes",
+    "score": 0.998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3306",
+      "display_name": "Health"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10235",
+      "display_name": "Health disparities and outcomes",
+      "score": 0.998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10010",
+      "display_name": "Obesity, Physical Activity, Diet",
+      "score": 0.9949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12066",
+      "display_name": "Obesity and Health Practices",
+      "score": 0.9869,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3611",
+        "display_name": "Pharmacy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/weight-change",
+      "display_name": "Weight change",
+      "score": 0.4147162
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780586474",
+      "wikidata": "https://www.wikidata.org/wiki/Q332428",
+      "display_name": "Overweight",
+      "level": 3,
+      "score": 0.8057058
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.7848806
+    },
+    {
+      "id": "https://openalex.org/C2780221984",
+      "wikidata": "https://www.wikidata.org/wiki/Q131191",
+      "display_name": "Body mass index",
+      "level": 2,
+      "score": 0.7784338
+    },
+    {
+      "id": "https://openalex.org/C147077947",
+      "wikidata": "https://www.wikidata.org/wiki/Q1515895",
+      "display_name": "Socioeconomic status",
+      "level": 3,
+      "score": 0.75729513
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.6254528
+    },
+    {
+      "id": "https://openalex.org/C2780320433",
+      "wikidata": "https://www.wikidata.org/wiki/Q3403879",
+      "display_name": "Weight gain",
+      "level": 3,
+      "score": 0.6221
+    },
+    {
+      "id": "https://openalex.org/C72563966",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303415",
+      "display_name": "Cohort",
+      "level": 2,
+      "score": 0.6186569
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.60843027
+    },
+    {
+      "id": "https://openalex.org/C201903717",
+      "wikidata": "https://www.wikidata.org/wiki/Q1778788",
+      "display_name": "Cohort study",
+      "level": 2,
+      "score": 0.5050538
+    },
+    {
+      "id": "https://openalex.org/C74909509",
+      "wikidata": "https://www.wikidata.org/wiki/Q10387",
+      "display_name": "Gerontology",
+      "level": 1,
+      "score": 0.45522085
+    },
+    {
+      "id": "https://openalex.org/C3017894415",
+      "wikidata": "https://www.wikidata.org/wiki/Q7979883",
+      "display_name": "Weight change",
+      "level": 4,
+      "score": 0.4147162
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.24832442
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.22133392
+    },
+    {
+      "id": "https://openalex.org/C544821477",
+      "wikidata": "https://www.wikidata.org/wiki/Q718113",
+      "display_name": "Weight loss",
+      "level": 3,
+      "score": 0.15503111
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.14335254
+    },
+    {
+      "id": "https://openalex.org/C147583825",
+      "wikidata": "https://www.wikidata.org/wiki/Q620876",
+      "display_name": "Body weight",
+      "level": 2,
+      "score": 0.13116759
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D015992",
+      "descriptor_name": "Body Mass Index",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003327",
+      "descriptor_name": "Coronary Disease",
+      "qualifier_ui": "Q000191",
+      "qualifier_name": "economics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000191",
+      "qualifier_name": "economics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015430",
+      "descriptor_name": "Weight Gain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001794",
+      "descriptor_name": "Blood Pressure",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008076",
+      "descriptor_name": "Cholesterol, HDL",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008076",
+      "descriptor_name": "Cholesterol, HDL",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015331",
+      "descriptor_name": "Cohort Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003327",
+      "descriptor_name": "Coronary Disease",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003327",
+      "descriptor_name": "Coronary Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015438",
+      "descriptor_name": "Health Behavior",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006306",
+      "descriptor_name": "Health Surveys",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008131",
+      "descriptor_name": "London",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000150",
+      "qualifier_name": "complications",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012307",
+      "descriptor_name": "Risk Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012959",
+      "descriptor_name": "Socioeconomic Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/ajcn/69.4.719",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S71285955",
+        "display_name": "American Journal of Clinical Nutrition",
+        "issn_l": "0002-9165",
+        "issn": [
+          "0002-9165",
+          "1938-3207"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "publisher-specific-oa",
+      "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/10197574",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/ajcn/69.4.719",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S71285955",
+      "display_name": "American Journal of Clinical Nutrition",
+      "issn_l": "0002-9165",
+      "issn": [
+        "0002-9165",
+        "1938-3207"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 45,
+  "referenced_works": [
+    "https://openalex.org/W113385086",
+    "https://openalex.org/W126987257",
+    "https://openalex.org/W1488078419",
+    "https://openalex.org/W1511883585",
+    "https://openalex.org/W1836444976",
+    "https://openalex.org/W1973475614",
+    "https://openalex.org/W1987239696",
+    "https://openalex.org/W1988514087",
+    "https://openalex.org/W2002210948",
+    "https://openalex.org/W2006272953",
+    "https://openalex.org/W200775934",
+    "https://openalex.org/W2034490040",
+    "https://openalex.org/W2050899593",
+    "https://openalex.org/W2054861576",
+    "https://openalex.org/W2055689111",
+    "https://openalex.org/W2056467836",
+    "https://openalex.org/W2058226581",
+    "https://openalex.org/W2063597813",
+    "https://openalex.org/W2070889093",
+    "https://openalex.org/W2072174740",
+    "https://openalex.org/W2073252089",
+    "https://openalex.org/W2101262804",
+    "https://openalex.org/W2102463240",
+    "https://openalex.org/W2103716039",
+    "https://openalex.org/W2104018747",
+    "https://openalex.org/W2108627354",
+    "https://openalex.org/W2110819564",
+    "https://openalex.org/W2118184582",
+    "https://openalex.org/W2120741267",
+    "https://openalex.org/W2125932725",
+    "https://openalex.org/W2156812276",
+    "https://openalex.org/W2165126211",
+    "https://openalex.org/W2235876034",
+    "https://openalex.org/W2244580354",
+    "https://openalex.org/W2317730087",
+    "https://openalex.org/W2318516020",
+    "https://openalex.org/W2320856221",
+    "https://openalex.org/W2568384322",
+    "https://openalex.org/W2621110426",
+    "https://openalex.org/W26548979",
+    "https://openalex.org/W3134896555",
+    "https://openalex.org/W342074710",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W44588339",
+    "https://openalex.org/W60853130"
+  ],
+  "related_works": [
+    "https://openalex.org/W4318026626",
+    "https://openalex.org/W3162042219",
+    "https://openalex.org/W2767624550",
+    "https://openalex.org/W2763176518",
+    "https://openalex.org/W2089001223",
+    "https://openalex.org/W2086074141",
+    "https://openalex.org/W2080602796",
+    "https://openalex.org/W2071975023",
+    "https://openalex.org/W2050595789",
+    "https://openalex.org/W1999891833"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2269021816",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-06-17T19:53:59.272522",
+  "created_date": "2016-06-24"
+}

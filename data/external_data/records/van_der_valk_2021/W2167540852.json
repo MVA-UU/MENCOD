@@ -1,0 +1,983 @@
+{
+  "id": "https://openalex.org/W2167540852",
+  "doi": "https://doi.org/10.1093/bioinformatics/btq418",
+  "title": "MetPA: a web-based metabolomics tool for pathway analysis and visualization",
+  "display_name": "MetPA: a web-based metabolomics tool for pathway analysis and visualization",
+  "publication_year": 2010,
+  "publication_date": "2010-07-13",
+  "ids": {
+    "openalex": "https://openalex.org/W2167540852",
+    "doi": "https://doi.org/10.1093/bioinformatics/btq418",
+    "mag": "2167540852",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/20628077"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1093/bioinformatics/btq418",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S52395412",
+      "display_name": "Bioinformatics",
+      "issn_l": "1367-4803",
+      "issn": [
+        "1367-4803",
+        "1367-4811"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5073663029",
+        "display_name": "Jianguo Xia",
+        "orcid": "https://orcid.org/0000-0003-2040-2624"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I40752897",
+          "display_name": "National Institute for Nanotechnology",
+          "ror": "https://ror.org/05c0g2426",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40752897",
+            "https://openalex.org/I4210159778"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154425047",
+          "display_name": "University of Alberta",
+          "ror": "https://ror.org/0160cpw27",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I154425047"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jianguo Xia",
+      "raw_affiliation_strings": [
+        "1 Department of Biological Sciences, 2Department of Computing Sciences and 3National Research Council, National Institute for Nanotechnology (NINT), University of Alberta, Edmonton, AB, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Department of Biological Sciences, 2Department of Computing Sciences and 3National Research Council, National Institute for Nanotechnology (NINT), University of Alberta, Edmonton, AB, Canada",
+          "institution_ids": [
+            "https://openalex.org/I40752897",
+            "https://openalex.org/I154425047"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5003573061",
+        "display_name": "David S. Wishart",
+        "orcid": "https://orcid.org/0000-0002-3207-2434"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I40752897",
+          "display_name": "National Institute for Nanotechnology",
+          "ror": "https://ror.org/05c0g2426",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40752897",
+            "https://openalex.org/I4210159778"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154425047",
+          "display_name": "University of Alberta",
+          "ror": "https://ror.org/0160cpw27",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I154425047"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "David S. Wishart",
+      "raw_affiliation_strings": [
+        "1 Department of Biological Sciences, 2Department of Computing Sciences and 3National Research Council, National Institute for Nanotechnology (NINT), University of Alberta, Edmonton, AB, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Department of Biological Sciences, 2Department of Computing Sciences and 3National Research Council, National Institute for Nanotechnology (NINT), University of Alberta, Edmonton, AB, Canada",
+          "institution_ids": [
+            "https://openalex.org/I40752897",
+            "https://openalex.org/I154425047",
+            "https://openalex.org/I154425047",
+            "https://openalex.org/I40752897",
+            "https://openalex.org/I154425047",
+            "https://openalex.org/I40752897"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5003573061"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I40752897",
+    "https://openalex.org/I154425047"
+  ],
+  "apc_list": {
+    "value": 3618,
+    "currency": "USD",
+    "value_usd": 3618
+  },
+  "apc_paid": null,
+  "fwci": 5.328,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 704,
+  "citation_normalized_percentile": {
+    "value": 0.926971,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "26",
+    "issue": "18",
+    "first_page": "2342",
+    "last_page": "2344"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10836",
+    "display_name": "Metabolomics and Mass Spectrometry Studies",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10836",
+      "display_name": "Metabolomics and Mass Spectrometry Studies",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10887",
+      "display_name": "Bioinformatics and Genomic Networks",
+      "score": 0.9985,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10932",
+      "display_name": "Microbial Metabolic Engineering and Bioproduction",
+      "score": 0.99,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/metabolic-network",
+      "display_name": "Metabolic network",
+      "score": 0.4577121
+    },
+    {
+      "id": "https://openalex.org/keywords/metabolic-pathway",
+      "display_name": "Metabolic pathway",
+      "score": 0.4448667
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C36464697",
+      "wikidata": "https://www.wikidata.org/wiki/Q451553",
+      "display_name": "Visualization",
+      "level": 2,
+      "score": 0.7676028
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.7353177
+    },
+    {
+      "id": "https://openalex.org/C21565614",
+      "wikidata": "https://www.wikidata.org/wiki/Q12149006",
+      "display_name": "Metabolomics",
+      "level": 2,
+      "score": 0.6835488
+    },
+    {
+      "id": "https://openalex.org/C2779343474",
+      "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+      "display_name": "Context (archaeology)",
+      "level": 2,
+      "score": 0.58455837
+    },
+    {
+      "id": "https://openalex.org/C172367668",
+      "wikidata": "https://www.wikidata.org/wiki/Q6504956",
+      "display_name": "Data visualization",
+      "level": 3,
+      "score": 0.52809495
+    },
+    {
+      "id": "https://openalex.org/C124913957",
+      "wikidata": "https://www.wikidata.org/wiki/Q1232548",
+      "display_name": "Zoom",
+      "level": 3,
+      "score": 0.4878073
+    },
+    {
+      "id": "https://openalex.org/C101810790",
+      "wikidata": "https://www.wikidata.org/wiki/Q2263094",
+      "display_name": "Metabolic network",
+      "level": 2,
+      "score": 0.4577121
+    },
+    {
+      "id": "https://openalex.org/C192989942",
+      "wikidata": "https://www.wikidata.org/wiki/Q68685",
+      "display_name": "Metabolic pathway",
+      "level": 3,
+      "score": 0.4448667
+    },
+    {
+      "id": "https://openalex.org/C124101348",
+      "wikidata": "https://www.wikidata.org/wiki/Q172491",
+      "display_name": "Data mining",
+      "level": 1,
+      "score": 0.3610866
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.35298288
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.3037917
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.18342087
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62231903",
+      "wikidata": "https://www.wikidata.org/wiki/Q1057",
+      "display_name": "Metabolism",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C15336307",
+      "wikidata": "https://www.wikidata.org/wiki/Q1766051",
+      "display_name": "Lens (geology)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D053858",
+      "descriptor_name": "Metabolic Networks and Pathways",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055432",
+      "descriptor_name": "Metabolomics",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012984",
+      "descriptor_name": "Software",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020407",
+      "descriptor_name": "Internet",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055432",
+      "descriptor_name": "Metabolomics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009369",
+      "descriptor_name": "Neoplasms",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009369",
+      "descriptor_name": "Neoplasms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014584",
+      "descriptor_name": "User-Computer Interface",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/bioinformatics/btq418",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S52395412",
+        "display_name": "Bioinformatics",
+        "issn_l": "1367-4803",
+        "issn": [
+          "1367-4803",
+          "1367-4811"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/20628077",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 14,
+  "referenced_works": [
+    "https://openalex.org/W1535641839",
+    "https://openalex.org/W1982185581",
+    "https://openalex.org/W1998902445",
+    "https://openalex.org/W2053385401",
+    "https://openalex.org/W2100625056",
+    "https://openalex.org/W2109529357",
+    "https://openalex.org/W2110687686",
+    "https://openalex.org/W2111823238",
+    "https://openalex.org/W2118069309",
+    "https://openalex.org/W2123060905",
+    "https://openalex.org/W2125943945",
+    "https://openalex.org/W2130410032",
+    "https://openalex.org/W2154972152",
+    "https://openalex.org/W2161027523"
+  ],
+  "related_works": [
+    "https://openalex.org/W4288069755",
+    "https://openalex.org/W3201283333",
+    "https://openalex.org/W3180007124",
+    "https://openalex.org/W2799517538",
+    "https://openalex.org/W2332273970",
+    "https://openalex.org/W2063475537",
+    "https://openalex.org/W2026428328",
+    "https://openalex.org/W2012938657",
+    "https://openalex.org/W1961707331",
+    "https://openalex.org/W1854805732"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Summary:": [
+      1
+    ],
+    "MetPA": [
+      2,
+      27,
+      122
+    ],
+    "(Metabolomics": [
+      3
+    ],
+    "Pathway": [
+      4
+    ],
+    "Analysis)": [
+      5
+    ],
+    "is": [
+      6
+    ],
+    "a": [
+      7,
+      53,
+      62,
+      84,
+      119
+    ],
+    "user-friendly,": [
+      8
+    ],
+    "web-based": [
+      9
+    ],
+    "tool": [
+      10
+    ],
+    "dedicated": [
+      11
+    ],
+    "to": [
+      12,
+      43
+    ],
+    "the": [
+      13,
+      21,
+      37,
+      46,
+      100
+    ],
+    "analysis": [
+      14,
+      33,
+      38,
+      95,
+      125
+    ],
+    "and": [
+      15,
+      71,
+      78,
+      126
+    ],
+    "visualization": [
+      16,
+      66,
+      127
+    ],
+    "of": [
+      17,
+      24,
+      39,
+      94,
+      102,
+      128
+    ],
+    "metabolomic": [
+      18,
+      55
+    ],
+    "data": [
+      19,
+      73
+    ],
+    "within": [
+      20
+    ],
+    "biological": [
+      22
+    ],
+    "context": [
+      23
+    ],
+    "metabolic": [
+      25,
+      49,
+      130
+    ],
+    "pathways.": [
+      26
+    ],
+    "combines": [
+      28
+    ],
+    "several": [
+      29
+    ],
+    "advanced": [
+      30
+    ],
+    "pathway": [
+      31,
+      40,
+      120
+    ],
+    "enrichment": [
+      32
+    ],
+    "procedures": [
+      34,
+      106
+    ],
+    "along": [
+      35
+    ],
+    "with": [
+      36
+    ],
+    "topological": [
+      41
+    ],
+    "characteristics": [
+      42
+    ],
+    "help": [
+      44
+    ],
+    "identify": [
+      45
+    ],
+    "most": [
+      47
+    ],
+    "relevant": [
+      48
+    ],
+    "pathways": [
+      50
+    ],
+    "involved": [
+      51
+    ],
+    "in": [
+      52,
+      61
+    ],
+    "given": [
+      54
+    ],
+    "study.": [
+      56
+    ],
+    "The": [
+      57
+    ],
+    "results": [
+      58
+    ],
+    "are": [
+      59
+    ],
+    "presented": [
+      60
+    ],
+    "Google-map": [
+      63
+    ],
+    "style": [
+      64
+    ],
+    "network": [
+      65
+    ],
+    "system": [
+      67
+    ],
+    "that": [
+      68,
+      107
+    ],
+    "supports": [
+      69
+    ],
+    "intuitive": [
+      70
+    ],
+    "interactive": [
+      72
+    ],
+    "exploration": [
+      74
+    ],
+    "through": [
+      75
+    ],
+    "point-and-click,": [
+      76
+    ],
+    "dragging": [
+      77
+    ],
+    "lossless": [
+      79
+    ],
+    "zooming.": [
+      80
+    ],
+    "Additional": [
+      81
+    ],
+    "features": [
+      82
+    ],
+    "include": [
+      83
+    ],
+    "comprehensive": [
+      85
+    ],
+    "compound": [
+      86
+    ],
+    "library": [
+      87
+    ],
+    "for": [
+      88
+    ],
+    "metabolite": [
+      89,
+      116
+    ],
+    "name": [
+      90
+    ],
+    "conversion,": [
+      91
+    ],
+    "automatic": [
+      92
+    ],
+    "generation": [
+      93
+    ],
+    "report,": [
+      96
+    ],
+    "as": [
+      97,
+      99
+    ],
+    "well": [
+      98
+    ],
+    "implementation": [
+      101
+    ],
+    "various": [
+      103
+    ],
+    "univariate": [
+      104
+    ],
+    "statistical": [
+      105
+    ],
+    "can": [
+      108
+    ],
+    "be": [
+      109
+    ],
+    "accessed": [
+      110
+    ],
+    "when": [
+      111
+    ],
+    "users": [
+      112
+    ],
+    "click": [
+      113
+    ],
+    "on": [
+      114,
+      118
+    ],
+    "any": [
+      115
+    ],
+    "node": [
+      117
+    ],
+    "map.": [
+      121
+    ],
+    "currently": [
+      123
+    ],
+    "enables": [
+      124
+    ],
+    "874": [
+      129
+    ],
+    "pathways,": [
+      131
+    ],
+    "covering": [
+      132
+    ],
+    "11": [
+      133
+    ],
+    "common": [
+      134
+    ],
+    "model": [
+      135
+    ],
+    "organisms.": [
+      136
+    ],
+    "Availability:": [
+      137
+    ],
+    "Freely": [
+      138
+    ],
+    "available": [
+      139
+    ],
+    "at": [
+      140
+    ],
+    "http://metpa.metabolomics.ca": [
+      141
+    ],
+    "Contact:": [
+      142
+    ],
+    "david.wishart@ualberta.ca": [
+      143
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2167540852",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 52
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 70
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 82
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 87
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 76
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 60
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 61
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 56
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 45
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 12
+    }
+  ],
+  "updated_date": "2025-05-31T03:31:18.661040",
+  "created_date": "2016-06-24"
+}

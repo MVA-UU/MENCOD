@@ -1,0 +1,1361 @@
+{
+  "id": "https://openalex.org/W2152974197",
+  "doi": "https://doi.org/10.1073/pnas.0810916106",
+  "title": "Upstream open reading frames cause widespread reduction of protein expression and are polymorphic among humans",
+  "display_name": "Upstream open reading frames cause widespread reduction of protein expression and are polymorphic among humans",
+  "publication_year": 2009,
+  "publication_date": "2009-04-17",
+  "ids": {
+    "openalex": "https://openalex.org/W2152974197",
+    "doi": "https://doi.org/10.1073/pnas.0810916106",
+    "mag": "2152974197",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19372376",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2669787"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.0810916106",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.1073/pnas.0810916106",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5004208276",
+        "display_name": "Sarah E. Calvo",
+        "orcid": "https://orcid.org/0000-0001-6449-6058"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210105714",
+          "display_name": "Center for Human Genetics",
+          "ror": "https://ror.org/01gcrbc43",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210105714"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210155419",
+          "display_name": "Center for Systems Biology",
+          "ror": "https://ror.org/05r3dyn47",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210155419",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210092658",
+          "display_name": "Harvard–MIT Division of Health Sciences and Technology",
+          "ror": "https://ror.org/00jjeh629",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210092658"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sarah E. Calvo",
+      "raw_affiliation_strings": [
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142;",
+        "Center for Human Genetic Research, Massachusetts General Hospital, Boston, MA 02114;",
+        "Department of Systems Biology, Harvard Medical School, Boston, MA 02115; and",
+        "Division of Health Sciences and Technology, Harvard-MIT, Cambridge, MA 02139"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Broad Institute of MIT and Harvard, Cambridge, MA 02142;",
+          "institution_ids": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for Human Genetic Research, Massachusetts General Hospital, Boston, MA 02114;",
+          "institution_ids": [
+            "https://openalex.org/I4210105714",
+            "https://openalex.org/I4210087915"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Systems Biology, Harvard Medical School, Boston, MA 02115; and",
+          "institution_ids": [
+            "https://openalex.org/I4210155419",
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Division of Health Sciences and Technology, Harvard-MIT, Cambridge, MA 02139",
+          "institution_ids": [
+            "https://openalex.org/I4210092658"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045021307",
+        "display_name": "David J. Pagliarini",
+        "orcid": "https://orcid.org/0000-0002-0001-0087"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210105714",
+          "display_name": "Center for Human Genetics",
+          "ror": "https://ror.org/01gcrbc43",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210105714"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210155419",
+          "display_name": "Center for Systems Biology",
+          "ror": "https://ror.org/05r3dyn47",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210155419",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David J. Pagliarini",
+      "raw_affiliation_strings": [
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142;",
+        "Center for Human Genetic Research, Massachusetts General Hospital, Boston, MA 02114;",
+        "Department of Systems Biology, Harvard Medical School, Boston, MA 02115; and"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Broad Institute of MIT and Harvard, Cambridge, MA 02142;",
+          "institution_ids": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for Human Genetic Research, Massachusetts General Hospital, Boston, MA 02114;",
+          "institution_ids": [
+            "https://openalex.org/I4210105714",
+            "https://openalex.org/I4210087915"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Systems Biology, Harvard Medical School, Boston, MA 02115; and",
+          "institution_ids": [
+            "https://openalex.org/I4210155419",
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5068971521",
+        "display_name": "Vamsi K. Mootha",
+        "orcid": "https://orcid.org/0000-0001-9924-642X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210155419",
+          "display_name": "Center for Systems Biology",
+          "ror": "https://ror.org/05r3dyn47",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210155419",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210105714",
+          "display_name": "Center for Human Genetics",
+          "ror": "https://ror.org/01gcrbc43",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210105714"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Vamsi K. Mootha",
+      "raw_affiliation_strings": [
+        "Broad Institute of MIT and Harvard, Cambridge, MA 02142;",
+        "Center for Human Genetic Research, Massachusetts General Hospital, Boston, MA 02114;",
+        "Department of Systems Biology, Harvard Medical School, Boston, MA 02115; and"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Broad Institute of MIT and Harvard, Cambridge, MA 02142;",
+          "institution_ids": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for Human Genetic Research, Massachusetts General Hospital, Boston, MA 02114;",
+          "institution_ids": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210105714"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Systems Biology, Harvard Medical School, Boston, MA 02115; and",
+          "institution_ids": [
+            "https://openalex.org/I4210155419",
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 14.224,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 872,
+  "citation_normalized_percentile": {
+    "value": 0.999984,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "106",
+    "issue": "18",
+    "first_page": "7507",
+    "last_page": "7512"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10521",
+    "display_name": "RNA and protein synthesis mechanisms",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10521",
+      "display_name": "RNA and protein synthesis mechanisms",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10604",
+      "display_name": "RNA Research and Splicing",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11482",
+      "display_name": "RNA modifications and cancer",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/orfs",
+      "display_name": "ORFS",
+      "score": 0.70805234
+    },
+    {
+      "id": "https://openalex.org/keywords/coding-region",
+      "display_name": "Coding region",
+      "score": 0.5184231
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C166258313",
+      "wikidata": "https://www.wikidata.org/wiki/Q7899328",
+      "display_name": "Upstream open reading frame",
+      "level": 5,
+      "score": 0.81863105
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.8011571
+    },
+    {
+      "id": "https://openalex.org/C47289529",
+      "wikidata": "https://www.wikidata.org/wiki/Q908550",
+      "display_name": "Open reading frame",
+      "level": 4,
+      "score": 0.74372715
+    },
+    {
+      "id": "https://openalex.org/C2780530800",
+      "wikidata": "https://www.wikidata.org/wiki/Q7072921",
+      "display_name": "ORFS",
+      "level": 5,
+      "score": 0.70805234
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.6892333
+    },
+    {
+      "id": "https://openalex.org/C12464233",
+      "wikidata": "https://www.wikidata.org/wiki/Q937624",
+      "display_name": "Five prime untranslated region",
+      "level": 5,
+      "score": 0.6615397
+    },
+    {
+      "id": "https://openalex.org/C89604277",
+      "wikidata": "https://www.wikidata.org/wiki/Q424345",
+      "display_name": "Untranslated region",
+      "level": 4,
+      "score": 0.5960628
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.5794429
+    },
+    {
+      "id": "https://openalex.org/C91779695",
+      "wikidata": "https://www.wikidata.org/wiki/Q3780824",
+      "display_name": "Coding region",
+      "level": 3,
+      "score": 0.5184231
+    },
+    {
+      "id": "https://openalex.org/C105580179",
+      "wikidata": "https://www.wikidata.org/wiki/Q188928",
+      "display_name": "Messenger RNA",
+      "level": 3,
+      "score": 0.47133517
+    },
+    {
+      "id": "https://openalex.org/C127716648",
+      "wikidata": "https://www.wikidata.org/wiki/Q104053",
+      "display_name": "Phenotype",
+      "level": 3,
+      "score": 0.44641316
+    },
+    {
+      "id": "https://openalex.org/C149364088",
+      "wikidata": "https://www.wikidata.org/wiki/Q185917",
+      "display_name": "Translation (biology)",
+      "level": 4,
+      "score": 0.44229442
+    },
+    {
+      "id": "https://openalex.org/C176990463",
+      "wikidata": "https://www.wikidata.org/wiki/Q1854186",
+      "display_name": "Start codon",
+      "level": 4,
+      "score": 0.42020547
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.41444468
+    },
+    {
+      "id": "https://openalex.org/C167625842",
+      "wikidata": "https://www.wikidata.org/wiki/Q899763",
+      "display_name": "Peptide sequence",
+      "level": 3,
+      "score": 0.21723518
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D020121",
+      "descriptor_name": "5' Untranslated Regions",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016366",
+      "descriptor_name": "Open Reading Frames",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011110",
+      "descriptor_name": "Polymorphism, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014176",
+      "descriptor_name": "Protein Biosynthesis",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020121",
+      "descriptor_name": "5' Untranslated Regions",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001483",
+      "descriptor_name": "Base Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004194",
+      "descriptor_name": "Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004194",
+      "descriptor_name": "Disease",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009154",
+      "descriptor_name": "Mutation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014176",
+      "descriptor_name": "Protein Biosynthesis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1073/pnas.0810916106",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S125754415",
+        "display_name": "Proceedings of the National Academy of Sciences",
+        "issn_l": "0027-8424",
+        "issn": [
+          "0027-8424",
+          "1091-6490"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320052",
+        "host_organization_name": "National Academy of Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320052"
+        ],
+        "host_organization_lineage_names": [
+          "National Academy of Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc2669787",
+      "pdf_url": "https://europepmc.org/articles/pmc2669787?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2669787",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/1721.1/50259",
+      "pdf_url": "https://dspace.mit.edu/bitstream/1721.1/50259/1/Calvo-2009-Upstream%20open%20readin.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400425",
+        "display_name": "DSpace@MIT (Massachusetts Institute of Technology)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I63966007",
+        "host_organization_name": "Massachusetts Institute of Technology",
+        "host_organization_lineage": [
+          "https://openalex.org/I63966007"
+        ],
+        "host_organization_lineage_names": [
+          "Massachusetts Institute of Technology"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19372376",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.0810916106",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 48,
+  "referenced_works": [
+    "https://openalex.org/W1498791370",
+    "https://openalex.org/W1546570611",
+    "https://openalex.org/W1563800735",
+    "https://openalex.org/W1608415194",
+    "https://openalex.org/W1974670349",
+    "https://openalex.org/W1987179081",
+    "https://openalex.org/W1990458521",
+    "https://openalex.org/W1999608231",
+    "https://openalex.org/W2008874438",
+    "https://openalex.org/W2010595044",
+    "https://openalex.org/W2013072744",
+    "https://openalex.org/W2020850864",
+    "https://openalex.org/W2027195993",
+    "https://openalex.org/W2027201363",
+    "https://openalex.org/W2039781671",
+    "https://openalex.org/W2045234988",
+    "https://openalex.org/W2049528674",
+    "https://openalex.org/W2049661143",
+    "https://openalex.org/W2056509602",
+    "https://openalex.org/W2057726148",
+    "https://openalex.org/W2067276251",
+    "https://openalex.org/W2070426319",
+    "https://openalex.org/W2072877087",
+    "https://openalex.org/W2078461728",
+    "https://openalex.org/W2079517684",
+    "https://openalex.org/W2086802556",
+    "https://openalex.org/W2099390806",
+    "https://openalex.org/W2101117598",
+    "https://openalex.org/W2112350722",
+    "https://openalex.org/W2116654909",
+    "https://openalex.org/W2116790427",
+    "https://openalex.org/W2118365328",
+    "https://openalex.org/W2120699008",
+    "https://openalex.org/W2122732537",
+    "https://openalex.org/W2131036795",
+    "https://openalex.org/W2133812508",
+    "https://openalex.org/W2148817003",
+    "https://openalex.org/W2149960535",
+    "https://openalex.org/W2154128645",
+    "https://openalex.org/W2155370560",
+    "https://openalex.org/W2155679729",
+    "https://openalex.org/W2157456501",
+    "https://openalex.org/W2164542975",
+    "https://openalex.org/W2164683872",
+    "https://openalex.org/W2168783124",
+    "https://openalex.org/W2397782999",
+    "https://openalex.org/W42189419",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W2993421742",
+    "https://openalex.org/W2389737774",
+    "https://openalex.org/W2389321331",
+    "https://openalex.org/W2360269969",
+    "https://openalex.org/W2146711445",
+    "https://openalex.org/W2112633314",
+    "https://openalex.org/W2102076342",
+    "https://openalex.org/W2081511179",
+    "https://openalex.org/W2036415714",
+    "https://openalex.org/W1997348660"
+  ],
+  "abstract_inverted_index": {
+    "Upstream": [
+      0
+    ],
+    "ORFs": [
+      1
+    ],
+    "(uORFs)": [
+      2
+    ],
+    "are": [
+      3,
+      25
+    ],
+    "mRNA": [
+      4,
+      66,
+      98
+    ],
+    "elements": [
+      5,
+      154
+    ],
+    "defined": [
+      6
+    ],
+    "by": [
+      7,
+      91
+    ],
+    "a": [
+      8,
+      94
+    ],
+    "start": [
+      9
+    ],
+    "codon": [
+      10
+    ],
+    "in": [
+      11,
+      27,
+      108,
+      152
+    ],
+    "the": [
+      12,
+      19,
+      57,
+      131,
+      141
+    ],
+    "5'": [
+      13
+    ],
+    "UTR": [
+      14
+    ],
+    "that": [
+      15,
+      48,
+      85,
+      104,
+      115,
+      138,
+      150
+    ],
+    "is": [
+      16
+    ],
+    "out-of-frame": [
+      17
+    ],
+    "with": [
+      18,
+      51,
+      93
+    ],
+    "main": [
+      20
+    ],
+    "coding": [
+      21
+    ],
+    "sequence.": [
+      22
+    ],
+    "Although": [
+      23
+    ],
+    "uORFs": [
+      24,
+      49,
+      86,
+      139
+    ],
+    "present": [
+      26
+    ],
+    "approximately": [
+      28
+    ],
+    "half": [
+      29
+    ],
+    "of": [
+      30,
+      56,
+      63,
+      130,
+      144,
+      146
+    ],
+    "human": [
+      31,
+      110,
+      125,
+      157
+    ],
+    "and": [
+      32,
+      67,
+      149,
+      159
+    ],
+    "mouse": [
+      33
+    ],
+    "transcripts,": [
+      34
+    ],
+    "no": [
+      35
+    ],
+    "study": [
+      36
+    ],
+    "has": [
+      37
+    ],
+    "investigated": [
+      38
+    ],
+    "their": [
+      39
+    ],
+    "global": [
+      40
+    ],
+    "impact": [
+      41,
+      96
+    ],
+    "on": [
+      42,
+      61,
+      97
+    ],
+    "protein": [
+      43,
+      54,
+      68,
+      89,
+      142
+    ],
+    "expression.": [
+      44
+    ],
+    "Here,": [
+      45
+    ],
+    "we": [
+      46,
+      83,
+      113
+    ],
+    "report": [
+      47,
+      114
+    ],
+    "correlate": [
+      50
+    ],
+    "significantly": [
+      52
+    ],
+    "reduced": [
+      53
+    ],
+    "expression": [
+      55,
+      90,
+      129,
+      143
+    ],
+    "downstream": [
+      58,
+      132
+    ],
+    "ORF,": [
+      59
+    ],
+    "based": [
+      60
+    ],
+    "analysis": [
+      62
+    ],
+    "11,649": [
+      64
+    ],
+    "matched": [
+      65
+    ],
+    "measurements": [
+      69
+    ],
+    "from": [
+      70
+    ],
+    "4": [
+      71
+    ],
+    "published": [
+      72
+    ],
+    "mammalian": [
+      73,
+      147
+    ],
+    "studies.": [
+      74
+    ],
+    "Using": [
+      75
+    ],
+    "reporter": [
+      76
+    ],
+    "constructs": [
+      77
+    ],
+    "to": [
+      78,
+      124
+    ],
+    "test": [
+      79
+    ],
+    "25": [
+      80
+    ],
+    "selected": [
+      81
+    ],
+    "uORFs,": [
+      82
+    ],
+    "estimate": [
+      84
+    ],
+    "typically": [
+      87
+    ],
+    "reduce": [
+      88
+    ],
+    "30-80%,": [
+      92
+    ],
+    "modest": [
+      95
+    ],
+    "levels.": [
+      99
+    ],
+    "We": [
+      100
+    ],
+    "additionally": [
+      101
+    ],
+    "identify": [
+      102
+    ],
+    "polymorphisms": [
+      103
+    ],
+    "alter": [
+      105
+    ],
+    "uORF": [
+      106
+    ],
+    "presence": [
+      107
+    ],
+    "509": [
+      109
+    ],
+    "genes.": [
+      111
+    ],
+    "Finally,": [
+      112
+    ],
+    "5": [
+      116
+    ],
+    "uORF-altering": [
+      117
+    ],
+    "mutations,": [
+      118
+    ],
+    "detected": [
+      119
+    ],
+    "within": [
+      120
+    ],
+    "genes": [
+      121,
+      148
+    ],
+    "previously": [
+      122
+    ],
+    "linked": [
+      123
+    ],
+    "diseases,": [
+      126
+    ],
+    "dramatically": [
+      127
+    ],
+    "silence": [
+      128
+    ],
+    "protein.": [
+      133
+    ],
+    "Together,": [
+      134
+    ],
+    "our": [
+      135
+    ],
+    "results": [
+      136
+    ],
+    "suggest": [
+      137
+    ],
+    "influence": [
+      140,
+      156
+    ],
+    "thousands": [
+      145
+    ],
+    "variation": [
+      151
+    ],
+    "these": [
+      153
+    ],
+    "can": [
+      155
+    ],
+    "phenotype": [
+      158
+    ],
+    "disease.": [
+      160
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2152974197",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 69
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 64
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 83
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 73
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 65
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 52
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 50
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 50
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 64
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 60
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 50
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 40
+    }
+  ],
+  "updated_date": "2025-06-15T15:09:34.457518",
+  "created_date": "2016-06-24"
+}

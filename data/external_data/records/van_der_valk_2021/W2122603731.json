@@ -1,0 +1,2532 @@
+{
+  "id": "https://openalex.org/W2122603731",
+  "doi": "https://doi.org/10.1371/journal.pbio.1000451",
+  "title": "A Simple Genetic Architecture Underlies Morphological Variation in Dogs",
+  "display_name": "A Simple Genetic Architecture Underlies Morphological Variation in Dogs",
+  "publication_year": 2010,
+  "publication_date": "2010-08-10",
+  "ids": {
+    "openalex": "https://openalex.org/W2122603731",
+    "doi": "https://doi.org/10.1371/journal.pbio.1000451",
+    "mag": "2122603731",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/20711490",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2919785"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pbio.1000451",
+    "pdf_url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.1000451&type=printable",
+    "source": {
+      "id": "https://openalex.org/S154343897",
+      "display_name": "PLoS Biology",
+      "issn_l": "1544-9173",
+      "issn": [
+        "1544-9173",
+        "1545-7885"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.1000451&type=printable",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5068023836",
+        "display_name": "Adam R. Boyko",
+        "orcid": "https://orcid.org/0000-0002-9125-6874"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210137306",
+          "display_name": "Stanford Medicine",
+          "ror": "https://ror.org/03mtd9a03",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210137306",
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Adam R. Boyko",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+        "Department of Genetics, Stanford School of Medicine, Stanford, California, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Genetics, Stanford School of Medicine, Stanford, California, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210137306"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040152481",
+        "display_name": "Pascale Quignon",
+        "orcid": "https://orcid.org/0000-0001-7769-8978"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210090236",
+          "display_name": "National Human Genome Research Institute",
+          "ror": "https://ror.org/00baak391",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210090236"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Pascale Quignon",
+      "raw_affiliation_strings": [
+        "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210090236"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100412804",
+        "display_name": "Lin Li",
+        "orcid": "https://orcid.org/0000-0001-6124-5237"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lin Li",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5062319438",
+        "display_name": "Jeffrey J. Schoenebeck",
+        "orcid": "https://orcid.org/0000-0003-4964-2138"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210090236",
+          "display_name": "National Human Genome Research Institute",
+          "ror": "https://ror.org/00baak391",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210090236"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeffrey J. Schoenebeck",
+      "raw_affiliation_strings": [
+        "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210090236",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029519631",
+        "display_name": "Jeremiah D. Degenhardt",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeremiah D. Degenhardt",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5066467126",
+        "display_name": "Kirk E. Lohmueller",
+        "orcid": "https://orcid.org/0000-0002-3874-369X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kirk E. Lohmueller",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5025130026",
+        "display_name": "Keyan Zhao",
+        "orcid": "https://orcid.org/0000-0002-8800-2304"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210137306",
+          "display_name": "Stanford Medicine",
+          "ror": "https://ror.org/03mtd9a03",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210137306",
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Keyan Zhao",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+        "Department of Genetics, Stanford School of Medicine, Stanford, California, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Genetics, Stanford School of Medicine, Stanford, California, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210137306"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056421510",
+        "display_name": "Abra Brisbin",
+        "orcid": "https://orcid.org/0000-0002-3723-6194"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Abra Brisbin",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072743469",
+        "display_name": "Heidi G. Parker",
+        "orcid": "https://orcid.org/0000-0002-9707-6380"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210090236",
+          "display_name": "National Human Genome Research Institute",
+          "ror": "https://ror.org/00baak391",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210090236"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Heidi G. Parker",
+      "raw_affiliation_strings": [
+        "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210090236",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5015824236",
+        "display_name": "Bridgett M. vonHoldt",
+        "orcid": "https://orcid.org/0000-0001-6908-1687"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bridgett M. vonHoldt",
+      "raw_affiliation_strings": [
+        "Department of Ecology and Environmental Biology, University of California, Los Angeles, California, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Ecology and Environmental Biology, University of California, Los Angeles, California, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111885294",
+        "display_name": "Michele Cargill",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michele Cargill",
+      "raw_affiliation_strings": [
+        "Affymetrix Corporation, Santa Clara, California, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Affymetrix Corporation, Santa Clara, California, United States of America",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047245152",
+        "display_name": "Adam Auton",
+        "orcid": "https://orcid.org/0000-0002-1630-1225"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Adam Auton",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072454424",
+        "display_name": "Andy Reynolds",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andy Reynolds",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103040206",
+        "display_name": "Abdel G. Elkahloun",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210090236",
+          "display_name": "National Human Genome Research Institute",
+          "ror": "https://ror.org/00baak391",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210090236"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Abdel G. Elkahloun",
+      "raw_affiliation_strings": [
+        "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210090236"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091806280",
+        "display_name": "Marta G. Castelhano",
+        "orcid": "https://orcid.org/0000-0003-2497-1939"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210151139",
+          "display_name": "New York State College of Veterinary Medicine",
+          "ror": "https://ror.org/04r17kf39",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205783295",
+            "https://openalex.org/I4210151139"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Marta Castelhano",
+      "raw_affiliation_strings": [
+        "Department of Clinical Sciences, College of Veterinary Medicine, Cornell University, Ithaca, New York, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Sciences, College of Veterinary Medicine, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210151139",
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047688440",
+        "display_name": "Dana S. Mosher",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210090236",
+          "display_name": "National Human Genome Research Institute",
+          "ror": "https://ror.org/00baak391",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210090236"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dana S. Mosher",
+      "raw_affiliation_strings": [
+        "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210090236",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087340567",
+        "display_name": "Nathan B. Sutter",
+        "orcid": "https://orcid.org/0000-0003-3541-4986"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210151139",
+          "display_name": "New York State College of Veterinary Medicine",
+          "ror": "https://ror.org/04r17kf39",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205783295",
+            "https://openalex.org/I4210151139"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nathan B. Sutter",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+        "Department of Clinical Sciences, College of Veterinary Medicine, Cornell University, Ithaca, New York, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Clinical Sciences, College of Veterinary Medicine, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210151139",
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082449292",
+        "display_name": "Gary S. Johnson",
+        "orcid": "https://orcid.org/0000-0003-2225-3204"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76835614",
+          "display_name": "University of Missouri",
+          "ror": "https://ror.org/02ymw8z06",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I76835614"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gary S. Johnson",
+      "raw_affiliation_strings": [
+        "Department of Veterinary Pathobiology, University of Missouri, Columbia, Missouri, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Veterinary Pathobiology, University of Missouri, Columbia, Missouri, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I76835614"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073718055",
+        "display_name": "John Novembre",
+        "orcid": "https://orcid.org/0000-0001-5345-0214"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John Novembre",
+      "raw_affiliation_strings": [
+        "Department of Ecology and Environmental Biology, University of California, Los Angeles, California, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Ecology and Environmental Biology, University of California, Los Angeles, California, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5076289653",
+        "display_name": "Melissa J. Hubisz",
+        "orcid": "https://orcid.org/0000-0002-9561-6830"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Melissa J. Hubisz",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061240989",
+        "display_name": "Adam Siepel",
+        "orcid": "https://orcid.org/0000-0002-3557-7219"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Adam Siepel",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086561629",
+        "display_name": "Robert K. Wayne",
+        "orcid": "https://orcid.org/0000-0003-3537-2245"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161318765",
+          "display_name": "University of California, Los Angeles",
+          "ror": "https://ror.org/046rm7j60",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Robert K. Wayne",
+      "raw_affiliation_strings": [
+        "Department of Ecology and Environmental Biology, University of California, Los Angeles, California, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Ecology and Environmental Biology, University of California, Los Angeles, California, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I161318765"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5025246130",
+        "display_name": "Carlos D. Bustamante",
+        "orcid": "https://orcid.org/0000-0002-4187-7920"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210137306",
+          "display_name": "Stanford Medicine",
+          "ror": "https://ror.org/03mtd9a03",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210137306",
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Carlos D. Bustamante",
+      "raw_affiliation_strings": [
+        "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+        "Department of Genetics, Stanford School of Medicine, Stanford, California, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Statistics and Computational Biology, Cornell University, Ithaca, New York, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Genetics, Stanford School of Medicine, Stanford, California, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210137306"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5045178497",
+        "display_name": "Elaine A. Ostrander",
+        "orcid": "https://orcid.org/0000-0001-6075-9738"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210090236",
+          "display_name": "National Human Genome Research Institute",
+          "ror": "https://ror.org/00baak391",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210090236"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Elaine A. Ostrander",
+      "raw_affiliation_strings": [
+        "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cancer Genetic Branch, National Human Genome Research Institute, National Institutes of Health, Bethesda, Maryland, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210090236",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 7,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5025246130",
+    "https://openalex.org/A5045178497"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I205783295",
+    "https://openalex.org/I4210137306",
+    "https://openalex.org/I4210090236",
+    "https://openalex.org/I1299303238"
+  ],
+  "apc_list": {
+    "value": 5300,
+    "currency": "USD",
+    "value_usd": 5300
+  },
+  "apc_paid": {
+    "value": 5300,
+    "currency": "USD",
+    "value_usd": 5300
+  },
+  "fwci": 18.91,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 480,
+  "citation_normalized_percentile": {
+    "value": 0.999952,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "8",
+    "issue": "8",
+    "first_page": "e1000451",
+    "last_page": "e1000451"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11214",
+    "display_name": "Human-Animal Interaction Studies",
+    "score": 0.9994,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1311",
+      "display_name": "Genetics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11214",
+      "display_name": "Human-Animal Interaction Studies",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10594",
+      "display_name": "Genetic and phenotypic traits in livestock",
+      "score": 0.9957,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11468",
+      "display_name": "Genetic Mapping and Diversity in Plants and Animals",
+      "score": 0.9841,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/genetic-architecture",
+      "display_name": "Genetic architecture",
+      "score": 0.77767456
+    },
+    {
+      "id": "https://openalex.org/keywords/phenotypic-trait",
+      "display_name": "Phenotypic trait",
+      "score": 0.60470194
+    },
+    {
+      "id": "https://openalex.org/keywords/coat",
+      "display_name": "Coat",
+      "score": 0.5139665
+    },
+    {
+      "id": "https://openalex.org/keywords/genome-wide-association-study",
+      "display_name": "Genome-wide Association Study",
+      "score": 0.50162196
+    },
+    {
+      "id": "https://openalex.org/keywords/trait",
+      "display_name": "Trait",
+      "score": 0.47563815
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.9163764
+    },
+    {
+      "id": "https://openalex.org/C9287583",
+      "wikidata": "https://www.wikidata.org/wiki/Q5532883",
+      "display_name": "Genetic architecture",
+      "level": 4,
+      "score": 0.77767456
+    },
+    {
+      "id": "https://openalex.org/C81941488",
+      "wikidata": "https://www.wikidata.org/wiki/Q853421",
+      "display_name": "Quantitative trait locus",
+      "level": 3,
+      "score": 0.7045222
+    },
+    {
+      "id": "https://openalex.org/C2776482104",
+      "wikidata": "https://www.wikidata.org/wiki/Q38829",
+      "display_name": "Breed",
+      "level": 2,
+      "score": 0.671594
+    },
+    {
+      "id": "https://openalex.org/C130073038",
+      "wikidata": "https://www.wikidata.org/wiki/Q1211967",
+      "display_name": "Phenotypic trait",
+      "level": 4,
+      "score": 0.60470194
+    },
+    {
+      "id": "https://openalex.org/C134387633",
+      "wikidata": "https://www.wikidata.org/wiki/Q11395",
+      "display_name": "Domestication",
+      "level": 2,
+      "score": 0.59196377
+    },
+    {
+      "id": "https://openalex.org/C153209595",
+      "wikidata": "https://www.wikidata.org/wiki/Q501128",
+      "display_name": "Single-nucleotide polymorphism",
+      "level": 4,
+      "score": 0.55258334
+    },
+    {
+      "id": "https://openalex.org/C68873052",
+      "wikidata": "https://www.wikidata.org/wiki/Q349856",
+      "display_name": "Genetic variation",
+      "level": 3,
+      "score": 0.5464654
+    },
+    {
+      "id": "https://openalex.org/C2777817576",
+      "wikidata": "https://www.wikidata.org/wiki/Q1817674",
+      "display_name": "Coat",
+      "level": 2,
+      "score": 0.5139665
+    },
+    {
+      "id": "https://openalex.org/C106208931",
+      "wikidata": "https://www.wikidata.org/wiki/Q1098876",
+      "display_name": "Genome-wide association study",
+      "level": 5,
+      "score": 0.50162196
+    },
+    {
+      "id": "https://openalex.org/C78458016",
+      "wikidata": "https://www.wikidata.org/wiki/Q840400",
+      "display_name": "Evolutionary biology",
+      "level": 1,
+      "score": 0.5001366
+    },
+    {
+      "id": "https://openalex.org/C106934330",
+      "wikidata": "https://www.wikidata.org/wiki/Q1971873",
+      "display_name": "Trait",
+      "level": 2,
+      "score": 0.47563815
+    },
+    {
+      "id": "https://openalex.org/C31467283",
+      "wikidata": "https://www.wikidata.org/wiki/Q912147",
+      "display_name": "Genotyping",
+      "level": 4,
+      "score": 0.47534654
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.42223406
+    },
+    {
+      "id": "https://openalex.org/C127716648",
+      "wikidata": "https://www.wikidata.org/wiki/Q104053",
+      "display_name": "Phenotype",
+      "level": 3,
+      "score": 0.40230727
+    },
+    {
+      "id": "https://openalex.org/C135763542",
+      "wikidata": "https://www.wikidata.org/wiki/Q106016",
+      "display_name": "Genotype",
+      "level": 3,
+      "score": 0.2919899
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.1559655
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.13429645
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000829",
+      "descriptor_name": "Animals, Domestic",
+      "qualifier_ui": "Q000033",
+      "qualifier_name": "anatomy & histology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000829",
+      "descriptor_name": "Animals, Domestic",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004285",
+      "descriptor_name": "Dogs",
+      "qualifier_ui": "Q000033",
+      "qualifier_name": "anatomy & histology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014644",
+      "descriptor_name": "Genetic Variation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000829",
+      "descriptor_name": "Animals, Domestic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049628",
+      "descriptor_name": "Body Size",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004285",
+      "descriptor_name": "Dogs",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016678",
+      "descriptor_name": "Genome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055106",
+      "descriptor_name": "Genome-Wide Association Study",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010641",
+      "descriptor_name": "Phenotype",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020641",
+      "descriptor_name": "Polymorphism, Single Nucleotide",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D040641",
+      "descriptor_name": "Quantitative Trait Loci",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 15,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pbio.1000451",
+      "pdf_url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.1000451&type=printable",
+      "source": {
+        "id": "https://openalex.org/S154343897",
+        "display_name": "PLoS Biology",
+        "issn_l": "1544-9173",
+        "issn": [
+          "1544-9173",
+          "1545-7885"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/1fa232fafe334e7881e1e97d3f873e57",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc2919785",
+      "pdf_url": "https://europepmc.org/articles/pmc2919785?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2919785",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://repository.cshl.edu/31049/1/Siepel%20PLoS%20Biology%202010.pdf",
+      "pdf_url": "http://repository.cshl.edu/31049/1/Siepel%20PLoS%20Biology%202010.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402288",
+        "display_name": "Cold Spring Harbor Laboratory Institutional Repository (Cold Spring Harbor Laboratory)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2750212522",
+        "host_organization_name": "Cold Spring Harbor Laboratory",
+        "host_organization_lineage": [
+          "https://openalex.org/I2750212522"
+        ],
+        "host_organization_lineage_names": [
+          "Cold Spring Harbor Laboratory"
+        ],
+        "type": "repository"
+      },
+      "license": "public-domain",
+      "license_id": "https://openalex.org/licenses/public-domain",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://figshare.com/articles/dataset/A_Simple_Genetic_Architecture_Underlies_Morphological_Variation_in_Dogs/142251",
+      "pdf_url": "https://figshare.com/ndownloader/files/416683",
+      "source": {
+        "id": "https://openalex.org/S4306402621",
+        "display_name": "INDIGO (University of Illinois at Chicago)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I39422238",
+        "host_organization_name": "University of Illinois Chicago",
+        "host_organization_lineage": [
+          "https://openalex.org/I39422238"
+        ],
+        "host_organization_lineage_names": [
+          "University of Illinois Chicago"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://inserm.hal.science/inserm-00512737/file/pbio.1000451.pdf",
+      "pdf_url": "https://inserm.hal.science/inserm-00512737/file/pbio.1000451.pdf",
+      "source": null,
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.hal.inserm.fr/inserm-00512737/file/pbio.1000451.pdf",
+      "pdf_url": "https://www.hal.inserm.fr/inserm-00512737/file/pbio.1000451.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.hal.inserm.fr/inserm-00512737",
+      "pdf_url": "https://inserm.hal.science/inserm-00512737/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.hal.inserm.fr/inserm-00512737/document",
+      "pdf_url": "https://www.hal.inserm.fr/inserm-00512737/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.pure.ed.ac.uk/ws/files/9919183/A_simple_genetic_architecture_underlies_morphological_variation_in_dogs.pdf",
+      "pdf_url": "https://www.pure.ed.ac.uk/ws/files/9919183/A_simple_genetic_architecture_underlies_morphological_variation_in_dogs.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400321",
+        "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I98677209",
+        "host_organization_name": "University of Edinburgh",
+        "host_organization_lineage": [
+          "https://openalex.org/I98677209"
+        ],
+        "host_organization_lineage_names": [
+          "University of Edinburgh"
+        ],
+        "type": "repository"
+      },
+      "license": "public-domain",
+      "license_id": "https://openalex.org/licenses/public-domain",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/20.500.11820/9b935342-6da0-421b-9d9d-4b2dd056df51",
+      "pdf_url": "https://www.research.ed.ac.uk/files/9919183/A_simple_genetic_architecture_underlies_morphological_variation_in_dogs.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400321",
+        "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I98677209",
+        "host_organization_name": "University of Edinburgh",
+        "host_organization_lineage": [
+          "https://openalex.org/I98677209"
+        ],
+        "host_organization_lineage_names": [
+          "University of Edinburgh"
+        ],
+        "type": "repository"
+      },
+      "license": "public-domain",
+      "license_id": "https://openalex.org/licenses/public-domain",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://www.hal.inserm.fr/inserm-00512737/file/pbio.1000451.pdf",
+      "pdf_url": "http://www.hal.inserm.fr/inserm-00512737/file/pbio.1000451.pdf",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://www.hal.inserm.fr/inserm-00512737/document",
+      "pdf_url": "http://www.hal.inserm.fr/inserm-00512737/document",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/20711490",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pbio.1000451",
+    "pdf_url": "https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.1000451&type=printable",
+    "source": {
+      "id": "https://openalex.org/S154343897",
+      "display_name": "PLoS Biology",
+      "issn_l": "1544-9173",
+      "issn": [
+        "1544-9173",
+        "1545-7885"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life on land",
+      "score": 0.64,
+      "id": "https://metadata.un.org/sdg/15"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 54,
+  "referenced_works": [
+    "https://openalex.org/W1499500424",
+    "https://openalex.org/W1526370677",
+    "https://openalex.org/W1598797451",
+    "https://openalex.org/W1708758724",
+    "https://openalex.org/W1967491345",
+    "https://openalex.org/W1972728671",
+    "https://openalex.org/W1980991473",
+    "https://openalex.org/W1981244256",
+    "https://openalex.org/W1988589573",
+    "https://openalex.org/W1991189546",
+    "https://openalex.org/W1994730862",
+    "https://openalex.org/W1997476591",
+    "https://openalex.org/W2012315992",
+    "https://openalex.org/W2017219759",
+    "https://openalex.org/W2026323344",
+    "https://openalex.org/W2035268284",
+    "https://openalex.org/W2040489540",
+    "https://openalex.org/W2040516688",
+    "https://openalex.org/W2047495447",
+    "https://openalex.org/W2048619570",
+    "https://openalex.org/W2049409070",
+    "https://openalex.org/W2055577456",
+    "https://openalex.org/W2057097356",
+    "https://openalex.org/W2075292410",
+    "https://openalex.org/W2085024301",
+    "https://openalex.org/W2087260514",
+    "https://openalex.org/W2098126593",
+    "https://openalex.org/W2103571477",
+    "https://openalex.org/W2104394203",
+    "https://openalex.org/W2108169091",
+    "https://openalex.org/W2108588602",
+    "https://openalex.org/W2114505783",
+    "https://openalex.org/W2115138587",
+    "https://openalex.org/W2115837368",
+    "https://openalex.org/W2116100197",
+    "https://openalex.org/W2125066647",
+    "https://openalex.org/W2127684760",
+    "https://openalex.org/W2134036574",
+    "https://openalex.org/W2134440374",
+    "https://openalex.org/W2134783591",
+    "https://openalex.org/W2137357450",
+    "https://openalex.org/W2140850653",
+    "https://openalex.org/W2140960450",
+    "https://openalex.org/W2143573152",
+    "https://openalex.org/W2158489424",
+    "https://openalex.org/W2161217181",
+    "https://openalex.org/W2165868509",
+    "https://openalex.org/W2166304546",
+    "https://openalex.org/W2171463101",
+    "https://openalex.org/W2312659670",
+    "https://openalex.org/W2442526765",
+    "https://openalex.org/W2586110222",
+    "https://openalex.org/W4231311503",
+    "https://openalex.org/W4239775040"
+  ],
+  "related_works": [
+    "https://openalex.org/W4363648506",
+    "https://openalex.org/W4210605760",
+    "https://openalex.org/W3195469724",
+    "https://openalex.org/W3098014387",
+    "https://openalex.org/W2982417329",
+    "https://openalex.org/W2923859939",
+    "https://openalex.org/W2754869062",
+    "https://openalex.org/W2148749248",
+    "https://openalex.org/W2142550298",
+    "https://openalex.org/W2016261345"
+  ],
+  "abstract_inverted_index": {
+    "Domestic": [
+      0
+    ],
+    "dogs": [
+      1,
+      32,
+      46
+    ],
+    "exhibit": [
+      2
+    ],
+    "tremendous": [
+      3
+    ],
+    "phenotypic": [
+      4,
+      82,
+      149
+    ],
+    "diversity,": [
+      5
+    ],
+    "including": [
+      6
+    ],
+    "a": [
+      7,
+      21,
+      137,
+      203
+    ],
+    "greater": [
+      8
+    ],
+    "variation": [
+      9,
+      28,
+      83,
+      150
+    ],
+    "in": [
+      10,
+      86,
+      126,
+      198,
+      217,
+      225
+    ],
+    "body": [
+      11,
+      95,
+      99,
+      182
+    ],
+    "size": [
+      12,
+      96,
+      109
+    ],
+    "than": [
+      13
+    ],
+    "any": [
+      14
+    ],
+    "other": [
+      15
+    ],
+    "terrestrial": [
+      16
+    ],
+    "mammal.": [
+      17
+    ],
+    "Here,": [
+      18
+    ],
+    "we": [
+      19,
+      72,
+      131,
+      156
+    ],
+    "generate": [
+      20
+    ],
+    "high": [
+      22
+    ],
+    "density": [
+      23
+    ],
+    "map": [
+      24
+    ],
+    "of": [
+      25,
+      76,
+      123,
+      140,
+      148,
+      153,
+      165,
+      170,
+      194,
+      205,
+      222
+    ],
+    "canine": [
+      26
+    ],
+    "genetic": [
+      27,
+      220
+    ],
+    "by": [
+      29
+    ],
+    "genotyping": [
+      30
+    ],
+    "915": [
+      31
+    ],
+    "from": [
+      33,
+      59,
+      69,
+      120
+    ],
+    "80": [
+      34
+    ],
+    "domestic": [
+      35,
+      200
+    ],
+    "dog": [
+      36,
+      78,
+      135,
+      201
+    ],
+    "breeds,": [
+      37,
+      136
+    ],
+    "83": [
+      38
+    ],
+    "wild": [
+      39
+    ],
+    "canids,": [
+      40
+    ],
+    "and": [
+      41,
+      62,
+      97,
+      101,
+      104,
+      108,
+      111,
+      128,
+      186,
+      208
+    ],
+    "10": [
+      42
+    ],
+    "outbred": [
+      43
+    ],
+    "African": [
+      44
+    ],
+    "shelter": [
+      45
+    ],
+    "across": [
+      47,
+      134
+    ],
+    "60,968": [
+      48
+    ],
+    "single-nucleotide": [
+      49
+    ],
+    "polymorphisms": [
+      50
+    ],
+    "(SNPs).": [
+      51
+    ],
+    "Coupling": [
+      52
+    ],
+    "this": [
+      53,
+      226
+    ],
+    "genomic": [
+      54,
+      161
+    ],
+    "resource": [
+      55
+    ],
+    "with": [
+      56,
+      81,
+      110,
+      168,
+      177
+    ],
+    "external": [
+      57,
+      98
+    ],
+    "measurements": [
+      58,
+      68
+    ],
+    "breed": [
+      60,
+      94
+    ],
+    "standards": [
+      61
+    ],
+    "individuals": [
+      63,
+      207
+    ],
+    "as": [
+      64,
+      66,
+      181
+    ],
+    "well": [
+      65
+    ],
+    "skeletal": [
+      67
+    ],
+    "museum": [
+      70
+    ],
+    "specimens,": [
+      71
+    ],
+    "identify": [
+      73
+    ],
+    "51": [
+      74
+    ],
+    "regions": [
+      75,
+      162,
+      174
+    ],
+    "the": [
+      77,
+      118,
+      146,
+      154,
+      171,
+      192,
+      199,
+      210,
+      219
+    ],
+    "genome": [
+      79
+    ],
+    "associated": [
+      80,
+      176
+    ],
+    "among": [
+      84
+    ],
+    "breeds": [
+      85
+    ],
+    "57": [
+      87
+    ],
+    "traits.": [
+      88
+    ],
+    "The": [
+      89
+    ],
+    "complex": [
+      90
+    ],
+    "traits": [
+      91,
+      125,
+      155,
+      179,
+      197,
+      224
+    ],
+    "include": [
+      92
+    ],
+    "average": [
+      93
+    ],
+    "dimensions": [
+      100
+    ],
+    "cranial,": [
+      102
+    ],
+    "dental,": [
+      103
+    ],
+    "long": [
+      105
+    ],
+    "bone": [
+      106
+    ],
+    "shape": [
+      107
+    ],
+    "without": [
+      112
+    ],
+    "allometric": [
+      113
+    ],
+    "scaling.": [
+      114
+    ],
+    "In": [
+      115,
+      158
+    ],
+    "contrast": [
+      116
+    ],
+    "to": [
+      117
+    ],
+    "results": [
+      119,
+      190
+    ],
+    "association": [
+      121
+    ],
+    "mapping": [
+      122,
+      195
+    ],
+    "quantitative": [
+      124,
+      141
+    ],
+    "humans": [
+      127
+    ],
+    "domesticated": [
+      129
+    ],
+    "plants,": [
+      130
+    ],
+    "find": [
+      132
+    ],
+    "that": [
+      133
+    ],
+    "small": [
+      138
+    ],
+    "number": [
+      139
+    ],
+    "trait": [
+      142
+    ],
+    "loci": [
+      143
+    ],
+    "(≤3)": [
+      144
+    ],
+    "explain": [
+      145
+    ],
+    "majority": [
+      147
+    ],
+    "for": [
+      151
+    ],
+    "most": [
+      152,
+      169
+    ],
+    "studied.": [
+      157
+    ],
+    "addition,": [
+      159
+    ],
+    "many": [
+      160
+    ],
+    "show": [
+      163
+    ],
+    "signatures": [
+      164
+    ],
+    "recent": [
+      166
+    ],
+    "selection,": [
+      167
+    ],
+    "highly": [
+      172
+    ],
+    "differentiated": [
+      173
+    ],
+    "being": [
+      175
+    ],
+    "breed-defining": [
+      178
+    ],
+    "such": [
+      180
+    ],
+    "size,": [
+      183
+    ],
+    "coat": [
+      184
+    ],
+    "characteristics,": [
+      185
+    ],
+    "ear": [
+      187
+    ],
+    "floppiness.": [
+      188
+    ],
+    "Our": [
+      189
+    ],
+    "demonstrate": [
+      191
+    ],
+    "efficacy": [
+      193
+    ],
+    "multiple": [
+      196
+    ],
+    "using": [
+      202
+    ],
+    "database": [
+      204
+    ],
+    "genotyped": [
+      206
+    ],
+    "highlight": [
+      209
+    ],
+    "important": [
+      211,
+      227
+    ],
+    "role": [
+      212
+    ],
+    "human-directed": [
+      213
+    ],
+    "selection": [
+      214
+    ],
+    "has": [
+      215
+    ],
+    "played": [
+      216
+    ],
+    "altering": [
+      218
+    ],
+    "architecture": [
+      221
+    ],
+    "key": [
+      223
+    ],
+    "species.": [
+      228
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2122603731",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 38
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 37
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 38
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 32
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 31
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 36
+    }
+  ],
+  "updated_date": "2025-05-21T03:03:21.588843",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,1005 @@
+{
+  "id": "https://openalex.org/W2033411871",
+  "doi": "https://doi.org/10.1198/0003130031450",
+  "title": "Type I Error Inflation in the Presence of a Ceiling Effect",
+  "display_name": "Type I Error Inflation in the Presence of a Ceiling Effect",
+  "publication_year": 2003,
+  "publication_date": "2003-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2033411871",
+    "doi": "https://doi.org/10.1198/0003130031450",
+    "mag": "2033411871"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1198/0003130031450",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4179095",
+      "display_name": "The American Statistician",
+      "issn_l": "0003-1305",
+      "issn": [
+        "0003-1305",
+        "1537-2731"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5030080832",
+        "display_name": "Peter C. Austin",
+        "orcid": "https://orcid.org/0000-0003-3337-233X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I122879082",
+          "display_name": "Natural Sciences and Engineering Research Council",
+          "ror": "https://ror.org/01h531d29",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I122879082"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210147079",
+          "display_name": "Institute for Clinical Evaluative Sciences",
+          "ror": "https://ror.org/05p6rhy72",
+          "country_code": "CA",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210147079"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I185261750",
+          "display_name": "University of Toronto",
+          "ror": "https://ror.org/03dbr7087",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter C Austin",
+      "raw_affiliation_strings": [
+        "Peter C. Austin is Scientist, Institute for Clinical Evaluative Sciences, G1 06, 2075 Bayview Avenue, Toronto M4N 3M5, Canada . Lawrence J. Brunner is Associate Professor, Department of Statistics, University of Toronto, Toronto M5G 3G3, Canada . Supported in part by Natural Sciences and Engineering Research Council of Canada Grant OGPIN 014."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Peter C. Austin is Scientist, Institute for Clinical Evaluative Sciences, G1 06, 2075 Bayview Avenue, Toronto M4N 3M5, Canada . Lawrence J. Brunner is Associate Professor, Department of Statistics, University of Toronto, Toronto M5G 3G3, Canada . Supported in part by Natural Sciences and Engineering Research Council of Canada Grant OGPIN 014.",
+          "institution_ids": [
+            "https://openalex.org/I122879082",
+            "https://openalex.org/I4210147079",
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5066406767",
+        "display_name": "Lawrence J. Brunner",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I122879082",
+          "display_name": "Natural Sciences and Engineering Research Council",
+          "ror": "https://ror.org/01h531d29",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I122879082"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210147079",
+          "display_name": "Institute for Clinical Evaluative Sciences",
+          "ror": "https://ror.org/05p6rhy72",
+          "country_code": "CA",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210147079"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I185261750",
+          "display_name": "University of Toronto",
+          "ror": "https://ror.org/03dbr7087",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lawrence J Brunner",
+      "raw_affiliation_strings": [
+        "Peter C. Austin is Scientist, Institute for Clinical Evaluative Sciences, G1 06, 2075 Bayview Avenue, Toronto M4N 3M5, Canada . Lawrence J. Brunner is Associate Professor, Department of Statistics, University of Toronto, Toronto M5G 3G3, Canada . Supported in part by Natural Sciences and Engineering Research Council of Canada Grant OGPIN 014."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Peter C. Austin is Scientist, Institute for Clinical Evaluative Sciences, G1 06, 2075 Bayview Avenue, Toronto M4N 3M5, Canada . Lawrence J. Brunner is Associate Professor, Department of Statistics, University of Toronto, Toronto M5G 3G3, Canada . Supported in part by Natural Sciences and Engineering Research Council of Canada Grant OGPIN 014.",
+          "institution_ids": [
+            "https://openalex.org/I122879082",
+            "https://openalex.org/I4210147079",
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.083,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 113,
+  "citation_normalized_percentile": {
+    "value": 0.931381,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "57",
+    "issue": "2",
+    "first_page": "97",
+    "last_page": "104"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10845",
+    "display_name": "Advanced Causal Inference Techniques",
+    "score": 0.9563,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10845",
+      "display_name": "Advanced Causal Inference Techniques",
+      "score": 0.9563,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.952,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10841",
+      "display_name": "Economic and Environmental Valuation",
+      "score": 0.9108,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/ceiling",
+      "display_name": "Ceiling (cloud)",
+      "score": 0.6175424
+    },
+    {
+      "id": "https://openalex.org/keywords/variables",
+      "display_name": "Variables",
+      "score": 0.55329645
+    },
+    {
+      "id": "https://openalex.org/keywords/ceiling-effect",
+      "display_name": "Ceiling effect",
+      "score": 0.54510385
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.66328394
+    },
+    {
+      "id": "https://openalex.org/C2777489069",
+      "wikidata": "https://www.wikidata.org/wiki/Q1589822",
+      "display_name": "Ceiling (cloud)",
+      "level": 2,
+      "score": 0.6175424
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.6133107
+    },
+    {
+      "id": "https://openalex.org/C65409693",
+      "wikidata": "https://www.wikidata.org/wiki/Q425265",
+      "display_name": "Statistical significance",
+      "level": 2,
+      "score": 0.56841
+    },
+    {
+      "id": "https://openalex.org/C27574286",
+      "wikidata": "https://www.wikidata.org/wiki/Q320723",
+      "display_name": "Variables",
+      "level": 2,
+      "score": 0.55329645
+    },
+    {
+      "id": "https://openalex.org/C191290158",
+      "wikidata": "https://www.wikidata.org/wiki/Q14773596",
+      "display_name": "Ceiling effect",
+      "level": 3,
+      "score": 0.54510385
+    },
+    {
+      "id": "https://openalex.org/C40696583",
+      "wikidata": "https://www.wikidata.org/wiki/Q989120",
+      "display_name": "Type I and type II errors",
+      "level": 2,
+      "score": 0.5268059
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.52060056
+    },
+    {
+      "id": "https://openalex.org/C18747219",
+      "wikidata": "https://www.wikidata.org/wiki/Q620994",
+      "display_name": "Standard error",
+      "level": 2,
+      "score": 0.48716614
+    },
+    {
+      "id": "https://openalex.org/C3019635848",
+      "wikidata": "https://www.wikidata.org/wiki/Q154",
+      "display_name": "Alcohol consumption",
+      "level": 3,
+      "score": 0.47530064
+    },
+    {
+      "id": "https://openalex.org/C182365436",
+      "wikidata": "https://www.wikidata.org/wiki/Q50701",
+      "display_name": "Variable (mathematics)",
+      "level": 2,
+      "score": 0.45971182
+    },
+    {
+      "id": "https://openalex.org/C48921125",
+      "wikidata": "https://www.wikidata.org/wiki/Q10861030",
+      "display_name": "Linear regression",
+      "level": 2,
+      "score": 0.44434154
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.32044467
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.19157392
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.09548369
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.09345886
+    },
+    {
+      "id": "https://openalex.org/C2781066024",
+      "wikidata": "https://www.wikidata.org/wiki/Q156",
+      "display_name": "Alcohol",
+      "level": 2,
+      "score": 0.08747545
+    },
+    {
+      "id": "https://openalex.org/C66938386",
+      "wikidata": "https://www.wikidata.org/wiki/Q633538",
+      "display_name": "Structural engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1198/0003130031450",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4179095",
+        "display_name": "The American Statistician",
+        "issn_l": "0003-1305",
+        "issn": [
+          "0003-1305",
+          "1537-2731"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.71,
+      "display_name": "Reduced inequalities",
+      "id": "https://metadata.un.org/sdg/10"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 35,
+  "referenced_works": [
+    "https://openalex.org/W1483593983",
+    "https://openalex.org/W1512123372",
+    "https://openalex.org/W1553864609",
+    "https://openalex.org/W1965497717",
+    "https://openalex.org/W1981951148",
+    "https://openalex.org/W1989931913",
+    "https://openalex.org/W1992910292",
+    "https://openalex.org/W2009565936",
+    "https://openalex.org/W2022261649",
+    "https://openalex.org/W2039221470",
+    "https://openalex.org/W2043956308",
+    "https://openalex.org/W2049633694",
+    "https://openalex.org/W2062033943",
+    "https://openalex.org/W2086073743",
+    "https://openalex.org/W2088554939",
+    "https://openalex.org/W2093852713",
+    "https://openalex.org/W2100668956",
+    "https://openalex.org/W2109533003",
+    "https://openalex.org/W2111537522",
+    "https://openalex.org/W2134083863",
+    "https://openalex.org/W2136825758",
+    "https://openalex.org/W2136883754",
+    "https://openalex.org/W2140816967",
+    "https://openalex.org/W2554799668",
+    "https://openalex.org/W2796537448",
+    "https://openalex.org/W2993173978",
+    "https://openalex.org/W3042168128",
+    "https://openalex.org/W4236501586",
+    "https://openalex.org/W4250439736",
+    "https://openalex.org/W4253763647",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W4293179688",
+    "https://openalex.org/W4318471902",
+    "https://openalex.org/W50151605",
+    "https://openalex.org/W6587125"
+  ],
+  "related_works": [
+    "https://openalex.org/W3172597338",
+    "https://openalex.org/W2897830442",
+    "https://openalex.org/W2897276145",
+    "https://openalex.org/W2611906781",
+    "https://openalex.org/W2594984410",
+    "https://openalex.org/W2329081987",
+    "https://openalex.org/W2269753134",
+    "https://openalex.org/W2183832331",
+    "https://openalex.org/W2116571340",
+    "https://openalex.org/W2021023966"
+  ],
+  "abstract_inverted_index": {
+    "Many": [
+      0
+    ],
+    "variables": [
+      1,
+      45
+    ],
+    "in": [
+      2,
+      15,
+      35,
+      42,
+      113,
+      125
+    ],
+    "biomedical": [
+      3
+    ],
+    "research": [
+      4
+    ],
+    "(e.g.,": [
+      5
+    ],
+    "indices": [
+      6
+    ],
+    "of": [
+      7,
+      20,
+      64,
+      70,
+      116
+    ],
+    "health": [
+      8
+    ],
+    "status)": [
+      9
+    ],
+    "are": [
+      10,
+      149,
+      160
+    ],
+    "measured": [
+      11
+    ],
+    "with": [
+      12
+    ],
+    "ceiling": [
+      13,
+      56,
+      164
+    ],
+    "effects,": [
+      14
+    ],
+    "which": [
+      16,
+      126
+    ],
+    "a": [
+      17,
+      74,
+      88
+    ],
+    "substantial": [
+      18
+    ],
+    "number": [
+      19
+    ],
+    "subjects": [
+      21
+    ],
+    "attain": [
+      22
+    ],
+    "the": [
+      23,
+      29,
+      36,
+      60,
+      67,
+      71,
+      105,
+      107,
+      114,
+      131,
+      137,
+      152
+    ],
+    "highest": [
+      24
+    ],
+    "possible": [
+      25
+    ],
+    "scale": [
+      26,
+      30
+    ],
+    "value": [
+      27
+    ],
+    "because": [
+      28
+    ],
+    "only": [
+      31
+    ],
+    "discriminates": [
+      32
+    ],
+    "among": [
+      33
+    ],
+    "individuals": [
+      34
+    ],
+    "low": [
+      37
+    ],
+    "to": [
+      38,
+      55,
+      58,
+      84,
+      104,
+      156,
+      163
+    ],
+    "moderate": [
+      39
+    ],
+    "range.": [
+      40
+    ],
+    "Furthermore,": [
+      41
+    ],
+    "social": [
+      43
+    ],
+    "surveys,": [
+      44
+    ],
+    "such": [
+      46,
+      87
+    ],
+    "as": [
+      47
+    ],
+    "income": [
+      48
+    ],
+    "and": [
+      49,
+      62,
+      94
+    ],
+    "alcohol": [
+      50
+    ],
+    "consumption": [
+      51
+    ],
+    "may": [
+      52
+    ],
+    "be": [
+      53,
+      110
+    ],
+    "subject": [
+      54,
+      162
+    ],
+    "effects": [
+      57
+    ],
+    "protect": [
+      59
+    ],
+    "privacy": [
+      61
+    ],
+    "identity": [
+      63
+    ],
+    "those": [
+      65
+    ],
+    "at": [
+      66,
+      130
+    ],
+    "upper": [
+      68
+    ],
+    "end": [
+      69
+    ],
+    "distribution": [
+      72
+    ],
+    "for": [
+      73,
+      86,
+      144
+    ],
+    "given": [
+      75
+    ],
+    "variable.": [
+      76
+    ],
+    "This": [
+      77
+    ],
+    "article": [
+      78
+    ],
+    "shows": [
+      79
+    ],
+    "that": [
+      80,
+      100,
+      159
+    ],
+    "if": [
+      81
+    ],
+    "one": [
+      82
+    ],
+    "attempts": [
+      83
+    ],
+    "control": [
+      85
+    ],
+    "variable": [
+      89,
+      99
+    ],
+    "using": [
+      90
+    ],
+    "ordinary": [
+      91
+    ],
+    "linear": [
+      92
+    ],
+    "regression,": [
+      93
+    ],
+    "then": [
+      95
+    ],
+    "test": [
+      96
+    ],
+    "another": [
+      97
+    ],
+    "independent": [
+      98
+    ],
+    "is": [
+      101,
+      155
+    ],
+    "actually": [
+      102,
+      135
+    ],
+    "unrelated": [
+      103
+    ],
+    "outcome,": [
+      106
+    ],
+    "result": [
+      108
+    ],
+    "can": [
+      109
+    ],
+    "an": [
+      111
+    ],
+    "increase": [
+      112
+    ],
+    "rate": [
+      115
+    ],
+    "Type": [
+      117,
+      138
+    ],
+    "I": [
+      118,
+      139
+    ],
+    "Error": [
+      119
+    ],
+    "(false": [
+      120
+    ],
+    "significance).": [
+      121
+    ],
+    "We": [
+      122
+    ],
+    "present": [
+      123
+    ],
+    "simulations": [
+      124
+    ],
+    "standard": [
+      127
+    ],
+    "tests": [
+      128
+    ],
+    "conducted": [
+      129
+    ],
+    "5%%": [
+      132
+    ],
+    "significance": [
+      133
+    ],
+    "level": [
+      134
+    ],
+    "have": [
+      136
+    ],
+    "error": [
+      140
+    ],
+    "rates": [
+      141
+    ],
+    "approaching": [
+      142
+    ],
+    "100%%": [
+      143
+    ],
+    "large": [
+      145
+    ],
+    "samples.": [
+      146
+    ],
+    "Statistical": [
+      147
+    ],
+    "solutions": [
+      148
+    ],
+    "explored,": [
+      150
+    ],
+    "but": [
+      151
+    ],
+    "best": [
+      153
+    ],
+    "recommendation": [
+      154
+    ],
+    "construct": [
+      157
+    ],
+    "scales": [
+      158
+    ],
+    "not": [
+      161
+    ],
+    "effects.": [
+      165
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2033411871",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2025-05-20T08:20:27.746584",
+  "created_date": "2016-06-24"
+}

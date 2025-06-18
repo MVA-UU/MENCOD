@@ -1,0 +1,864 @@
+{
+  "id": "https://openalex.org/W2117012826",
+  "doi": "https://doi.org/10.1037/0021-9010.78.1.98",
+  "title": "What is coefficient alpha? An examination of theory and applications.",
+  "display_name": "What is coefficient alpha? An examination of theory and applications.",
+  "publication_year": 1993,
+  "publication_date": "1993-02-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2117012826",
+    "doi": "https://doi.org/10.1037/0021-9010.78.1.98",
+    "mag": "2117012826"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1037/0021-9010.78.1.98",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S166002381",
+      "display_name": "Journal of Applied Psychology",
+      "issn_l": "0021-9010",
+      "issn": [
+        "0021-9010",
+        "1939-1854"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+        "American Psychological Association"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5050126189",
+        "display_name": "José M. Cortina",
+        "orcid": "https://orcid.org/0000-0003-2336-917X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I87216513",
+          "display_name": "Michigan State University",
+          "ror": "https://ror.org/05hs6h993",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I87216513"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Jose M. Cortina",
+      "raw_affiliation_strings": [
+        "Michigan State U, East Lansing, US"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Michigan State U, East Lansing, US",
+          "institution_ids": [
+            "https://openalex.org/I87216513"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5050126189"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I87216513"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 18.865,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 7323,
+  "citation_normalized_percentile": {
+    "value": 0.984869,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "78",
+    "issue": "1",
+    "first_page": "98",
+    "last_page": "104"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11871",
+    "display_name": "Advanced Statistical Methods and Models",
+    "score": 0.9792,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11871",
+      "display_name": "Advanced Statistical Methods and Models",
+      "score": 0.9792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13748",
+      "display_name": "Advanced Statistical Modeling Techniques",
+      "score": 0.9639,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10467",
+      "display_name": "Psychometric Methodologies and Testing",
+      "score": 0.9628,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/alpha",
+      "display_name": "Alpha (finance)",
+      "score": 0.5241925
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.68904924
+    },
+    {
+      "id": "https://openalex.org/C64943373",
+      "wikidata": "https://www.wikidata.org/wiki/Q2651003",
+      "display_name": "Alpha (finance)",
+      "level": 4,
+      "score": 0.5241925
+    },
+    {
+      "id": "https://openalex.org/C77805123",
+      "wikidata": "https://www.wikidata.org/wiki/Q161272",
+      "display_name": "Social psychology",
+      "level": 1,
+      "score": 0.36086398
+    },
+    {
+      "id": "https://openalex.org/C171606756",
+      "wikidata": "https://www.wikidata.org/wiki/Q506132",
+      "display_name": "Psychometrics",
+      "level": 2,
+      "score": 0.29443133
+    },
+    {
+      "id": "https://openalex.org/C70410870",
+      "wikidata": "https://www.wikidata.org/wiki/Q199906",
+      "display_name": "Clinical psychology",
+      "level": 1,
+      "score": 0.16802755
+    },
+    {
+      "id": "https://openalex.org/C106906290",
+      "wikidata": "https://www.wikidata.org/wiki/Q1140909",
+      "display_name": "Cronbach's alpha",
+      "level": 3,
+      "score": 0.15037808
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1037/0021-9010.78.1.98",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S166002381",
+        "display_name": "Journal of Applied Psychology",
+        "issn_l": "0021-9010",
+        "issn": [
+          "0021-9010",
+          "1939-1854"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320262",
+        "host_organization_name": "American Psychological Association",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320262"
+        ],
+        "host_organization_lineage_names": [
+          "American Psychological Association"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 26,
+  "referenced_works": [
+    "https://openalex.org/W1519056783",
+    "https://openalex.org/W1586414640",
+    "https://openalex.org/W1647993210",
+    "https://openalex.org/W1698621691",
+    "https://openalex.org/W1969567519",
+    "https://openalex.org/W1989528006",
+    "https://openalex.org/W2003367638",
+    "https://openalex.org/W2008350804",
+    "https://openalex.org/W2022062041",
+    "https://openalex.org/W2026052996",
+    "https://openalex.org/W2027602290",
+    "https://openalex.org/W2030402717",
+    "https://openalex.org/W2043092685",
+    "https://openalex.org/W2050460112",
+    "https://openalex.org/W2060251301",
+    "https://openalex.org/W2074351684",
+    "https://openalex.org/W2075391469",
+    "https://openalex.org/W2075949396",
+    "https://openalex.org/W2084398551",
+    "https://openalex.org/W2088078019",
+    "https://openalex.org/W2095516997",
+    "https://openalex.org/W2121724061",
+    "https://openalex.org/W2149023664",
+    "https://openalex.org/W2159306398",
+    "https://openalex.org/W2166466095",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W2931662336",
+    "https://openalex.org/W2765597752",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2134894512",
+    "https://openalex.org/W2083375246",
+    "https://openalex.org/W2077865380",
+    "https://openalex.org/W2067108088",
+    "https://openalex.org/W2053487507",
+    "https://openalex.org/W2010073985",
+    "https://openalex.org/W1981237115"
+  ],
+  "abstract_inverted_index": {
+    "Coefficient": [
+      0
+    ],
+    "alpha": [
+      1,
+      71,
+      144,
+      159,
+      179,
+      187
+    ],
+    "(Cronbach,": [
+      2
+    ],
+    "1951)": [
+      3
+    ],
+    "is": [
+      4,
+      115,
+      145,
+      180
+    ],
+    "certainly": [
+      5
+    ],
+    "one": [
+      6,
+      66
+    ],
+    "of": [
+      7,
+      23,
+      53,
+      62,
+      86,
+      109,
+      126,
+      143,
+      150,
+      178,
+      191
+    ],
+    "the": [
+      8,
+      24,
+      30,
+      60,
+      120,
+      127,
+      151,
+      176,
+      184,
+      189
+    ],
+    "most": [
+      9
+    ],
+    "important": [
+      10
+    ],
+    "and": [
+      11,
+      19,
+      49,
+      81,
+      105,
+      123,
+      160,
+      193
+    ],
+    "pervasive": [
+      12
+    ],
+    "statistics": [
+      13
+    ],
+    "in": [
+      14,
+      50,
+      64,
+      136,
+      174,
+      186
+    ],
+    "research": [
+      15
+    ],
+    "involving": [
+      16
+    ],
+    "test": [
+      17
+    ],
+    "construction": [
+      18
+    ],
+    "use.": [
+      20
+    ],
+    "A": [
+      21
+    ],
+    "review": [
+      22
+    ],
+    "Social": [
+      25
+    ],
+    "Sciences": [
+      26
+    ],
+    "Citations": [
+      27
+    ],
+    "Index": [
+      28
+    ],
+    "for": [
+      29
+    ],
+    "literature": [
+      31
+    ],
+    "from": [
+      32,
+      90
+    ],
+    "1966": [
+      33
+    ],
+    "to": [
+      34,
+      59,
+      69,
+      119,
+      163
+    ],
+    "1990": [
+      35
+    ],
+    "revealed": [
+      36
+    ],
+    "that": [
+      37,
+      154
+    ],
+    "Cronbach's": [
+      38
+    ],
+    "(1951)": [
+      39
+    ],
+    "article": [
+      40,
+      131
+    ],
+    "had": [
+      41
+    ],
+    "been": [
+      42,
+      156
+    ],
+    "cited": [
+      43
+    ],
+    "approximately": [
+      44
+    ],
+    "60": [
+      45
+    ],
+    "times": [
+      46
+    ],
+    "per": [
+      47
+    ],
+    "year": [
+      48
+    ],
+    "a": [
+      51,
+      140,
+      170
+    ],
+    "total": [
+      52
+    ],
+    "278": [
+      54
+    ],
+    "different": [
+      55
+    ],
+    "journals.": [
+      56
+    ],
+    "In": [
+      57,
+      107,
+      129
+    ],
+    "addition": [
+      58
+    ],
+    "areas": [
+      61
+    ],
+    "psychology": [
+      63
+    ],
+    "which": [
+      65,
+      175
+    ],
+    "may": [
+      67
+    ],
+    "expect": [
+      68
+    ],
+    "see": [
+      70
+    ],
+    "used,": [
+      72
+    ],
+    "such": [
+      73
+    ],
+    "as": [
+      74,
+      118,
+      188
+    ],
+    "educational,": [
+      75
+    ],
+    "industrial,": [
+      76
+    ],
+    "social,": [
+      77
+    ],
+    "clinical,": [
+      78
+    ],
+    "child,": [
+      79
+    ],
+    "community,": [
+      80
+    ],
+    "abnormal": [
+      82
+    ],
+    "psychology,": [
+      83,
+      92
+    ],
+    "this": [
+      84,
+      130,
+      134
+    ],
+    "list": [
+      85
+    ],
+    "journals": [
+      87
+    ],
+    "included": [
+      88
+    ],
+    "representatives": [
+      89
+    ],
+    "experimental": [
+      91
+    ],
+    "sociology,": [
+      93
+    ],
+    "statistics,": [
+      94
+    ],
+    "medicine,": [
+      95
+    ],
+    "counseling,": [
+      96
+    ],
+    "nursing,": [
+      97
+    ],
+    "economics,": [
+      98
+    ],
+    "political": [
+      99
+    ],
+    "science,": [
+      100
+    ],
+    "criminology,": [
+      101
+    ],
+    "gerontology,": [
+      102
+    ],
+    "broadcasting,": [
+      103
+    ],
+    "anthropology,": [
+      104
+    ],
+    "accounting.": [
+      106
+    ],
+    "spite": [
+      108
+    ],
+    "its": [
+      110
+    ],
+    "widespread": [
+      111
+    ],
+    "use,": [
+      112
+    ],
+    "however,": [
+      113
+    ],
+    "there": [
+      114
+    ],
+    "some": [
+      116,
+      149
+    ],
+    "confusion": [
+      117,
+      135
+    ],
+    "true": [
+      121
+    ],
+    "meaning": [
+      122
+    ],
+    "proper": [
+      124
+    ],
+    "interpretation": [
+      125,
+      177
+    ],
+    "statistic.": [
+      128
+    ],
+    "I": [
+      132,
+      168
+    ],
+    "address": [
+      133
+    ],
+    "two": [
+      137
+    ],
+    "ways.": [
+      138
+    ],
+    "First,": [
+      139
+    ],
+    "theoretical": [
+      141
+    ],
+    "discussion": [
+      142
+    ],
+    "presented.": [
+      146
+    ],
+    "This": [
+      147
+    ],
+    "includes": [
+      148
+    ],
+    "many": [
+      152
+    ],
+    "statements": [
+      153
+    ],
+    "have": [
+      155
+    ],
+    "made": [
+      157
+    ],
+    "about": [
+      158
+    ],
+    "an": [
+      161
+    ],
+    "attempt": [
+      162
+    ],
+    "integrate": [
+      164
+    ],
+    "these": [
+      165
+    ],
+    "statements.": [
+      166
+    ],
+    "Second,": [
+      167
+    ],
+    "take": [
+      169
+    ],
+    "more": [
+      171
+    ],
+    "practical": [
+      172
+    ],
+    "approach": [
+      173
+    ],
+    "examined": [
+      181
+    ],
+    "by": [
+      182
+    ],
+    "observing": [
+      183
+    ],
+    "changes": [
+      185
+    ],
+    "number": [
+      190
+    ],
+    "items": [
+      192
+    ],
+    "interitem": [
+      194
+    ],
+    "correlations": [
+      195
+    ],
+    "are": [
+      196
+    ],
+    "manipulated.": [
+      197
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2117012826",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 125
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 408
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 529
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 547
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 603
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 507
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 421
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 366
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 367
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 387
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 414
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 434
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 360
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 325
+    }
+  ],
+  "updated_date": "2025-06-10T22:43:25.933081",
+  "created_date": "2016-06-24"
+}

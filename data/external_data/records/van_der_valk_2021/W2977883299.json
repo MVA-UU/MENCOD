@@ -1,0 +1,961 @@
+{
+  "id": "https://openalex.org/W2977883299",
+  "doi": "https://doi.org/10.1016/j.neuroimage.2011.09.015",
+  "title": "FSL",
+  "display_name": "FSL",
+  "publication_year": 2011,
+  "publication_date": "2011-09-16",
+  "ids": {
+    "openalex": "https://openalex.org/W2977883299",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2011.09.015",
+    "mag": "2977883299",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/21979382"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2011.09.015",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S103225281",
+      "display_name": "NeuroImage",
+      "issn_l": "1053-8119",
+      "issn": [
+        "1053-8119",
+        "1095-9572"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://inria.hal.science/hal-02132147/document",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5004220534",
+        "display_name": "Mark Jenkinson",
+        "orcid": "https://orcid.org/0000-0001-6043-0166"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210101881",
+          "display_name": "Wellcome Centre for Integrative Neuroimaging",
+          "ror": "https://ror.org/0172mzb45",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I87048295"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Mark Jenkinson",
+      "raw_affiliation_strings": [
+        "FMRIB Centre, Nuffield Department of Clinical Neurosciences, University of Oxford, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "FMRIB Centre, Nuffield Department of Clinical Neurosciences, University of Oxford, UK",
+          "institution_ids": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057492639",
+        "display_name": "Christian F. Beckmann",
+        "orcid": "https://orcid.org/0000-0002-3373-3193"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210101881",
+          "display_name": "Wellcome Centre for Integrative Neuroimaging",
+          "ror": "https://ror.org/0172mzb45",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I87048295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christian F. Beckmann",
+      "raw_affiliation_strings": [
+        "FMRIB Centre, Nuffield Department of Clinical Neurosciences, University of Oxford, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "FMRIB Centre, Nuffield Department of Clinical Neurosciences, University of Oxford, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032723566",
+        "display_name": "Timothy E.J. Behrens",
+        "orcid": "https://orcid.org/0000-0003-0048-1177"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210101881",
+          "display_name": "Wellcome Centre for Integrative Neuroimaging",
+          "ror": "https://ror.org/0172mzb45",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I87048295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Timothy E.J. Behrens",
+      "raw_affiliation_strings": [
+        "FMRIB Centre, Nuffield Department of Clinical Neurosciences, University of Oxford, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "FMRIB Centre, Nuffield Department of Clinical Neurosciences, University of Oxford, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088377480",
+        "display_name": "Mark W. Woolrich",
+        "orcid": "https://orcid.org/0000-0001-8460-8854"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210101881",
+          "display_name": "Wellcome Centre for Integrative Neuroimaging",
+          "ror": "https://ror.org/0172mzb45",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I87048295"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mark W. Woolrich",
+      "raw_affiliation_strings": [
+        "FMRIB Centre, Nuffield Department of Clinical Neurosciences, University of Oxford, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "FMRIB Centre, Nuffield Department of Clinical Neurosciences, University of Oxford, UK",
+          "institution_ids": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5066553010",
+        "display_name": "Stephen M. Smith",
+        "orcid": "https://orcid.org/0000-0001-8166-069X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210101881",
+          "display_name": "Wellcome Centre for Integrative Neuroimaging",
+          "ror": "https://ror.org/0172mzb45",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I87048295"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stephen M. Smith",
+      "raw_affiliation_strings": [
+        "FMRIB Centre, Nuffield Department of Clinical Neurosciences, University of Oxford, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "FMRIB Centre, Nuffield Department of Clinical Neurosciences, University of Oxford, UK",
+          "institution_ids": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5004220534"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I40120149",
+    "https://openalex.org/I4210101881"
+  ],
+  "apc_list": {
+    "value": 3450,
+    "currency": "USD",
+    "value_usd": 3450
+  },
+  "apc_paid": null,
+  "fwci": 25.304,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 10110,
+  "citation_normalized_percentile": {
+    "value": 0.804858,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "62",
+    "issue": "2",
+    "first_page": "782",
+    "last_page": "790"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11304",
+    "display_name": "Advanced Neuroimaging Techniques and Applications",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2741",
+      "display_name": "Radiology, Nuclear Medicine and Imaging"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11304",
+      "display_name": "Advanced Neuroimaging Techniques and Applications",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "score": 0.9995,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/group-analysis",
+      "display_name": "Group analysis",
+      "score": 0.44340885
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.56454676
+    },
+    {
+      "id": "https://openalex.org/C2777904410",
+      "wikidata": "https://www.wikidata.org/wiki/Q7397",
+      "display_name": "Software",
+      "level": 2,
+      "score": 0.5136213
+    },
+    {
+      "id": "https://openalex.org/C149550507",
+      "wikidata": "https://www.wikidata.org/wiki/Q899360",
+      "display_name": "Diffusion MRI",
+      "level": 3,
+      "score": 0.4596763
+    },
+    {
+      "id": "https://openalex.org/C2778666404",
+      "wikidata": "https://www.wikidata.org/wiki/Q1551008",
+      "display_name": "Group analysis",
+      "level": 2,
+      "score": 0.44340885
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.3845372
+    },
+    {
+      "id": "https://openalex.org/C2522767166",
+      "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+      "display_name": "Data science",
+      "level": 1,
+      "score": 0.3572427
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.13291654
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.06442267
+    },
+    {
+      "id": "https://openalex.org/C143409427",
+      "wikidata": "https://www.wikidata.org/wiki/Q161238",
+      "display_name": "Magnetic resonance imaging",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C126838900",
+      "wikidata": "https://www.wikidata.org/wiki/Q77604",
+      "display_name": "Radiology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77805123",
+      "wikidata": "https://www.wikidata.org/wiki/Q161272",
+      "display_name": "Social psychology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001931",
+      "descriptor_name": "Brain Mapping",
+      "qualifier_ui": "Q000266",
+      "qualifier_name": "history",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D038524",
+      "descriptor_name": "Diffusion Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000266",
+      "qualifier_name": "history",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "Q000266",
+      "qualifier_name": "history",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012984",
+      "descriptor_name": "Software",
+      "qualifier_ui": "Q000266",
+      "qualifier_name": "history",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000033",
+      "qualifier_name": "anatomy & histology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001931",
+      "descriptor_name": "Brain Mapping",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001931",
+      "descriptor_name": "Brain Mapping",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D038524",
+      "descriptor_name": "Diffusion Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D038524",
+      "descriptor_name": "Diffusion Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049673",
+      "descriptor_name": "History, 20th Century",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049674",
+      "descriptor_name": "History, 21st Century",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012984",
+      "descriptor_name": "Software",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 10,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2011.09.015",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S103225281",
+        "display_name": "NeuroImage",
+        "issn_l": "1053-8119",
+        "issn": [
+          "1053-8119",
+          "1095-9572"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://inria.hal.science/hal-02132147",
+      "pdf_url": "https://inria.hal.science/hal-02132147/document",
+      "source": null,
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://hal.inria.fr/hal-02132147",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://ris.utwente.nl/ws/files/6662691/FSL.pdf",
+      "pdf_url": "https://ris.utwente.nl/ws/files/6662691/FSL.pdf",
+      "source": null,
+      "license": "mit",
+      "license_id": "https://openalex.org/licenses/mit",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://inria.hal.science/hal-02132147v2/file/OHBM2019_Abstract_Clinica.pdf",
+      "pdf_url": "https://inria.hal.science/hal-02132147v2/file/OHBM2019_Abstract_Clinica.pdf",
+      "source": null,
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://inria.hal.science/hal-02132147v2/document",
+      "pdf_url": "https://inria.hal.science/hal-02132147v2/document",
+      "source": null,
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hal.inria.fr/hal-02132147/file/OHBM2019_Abstract_Clinica.pdf",
+      "pdf_url": "https://hal.inria.fr/hal-02132147/file/OHBM2019_Abstract_Clinica.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hal.inria.fr/hal-02132147v2/file/OHBM2019_Abstract_Clinica.pdf",
+      "pdf_url": "https://hal.inria.fr/hal-02132147v2/file/OHBM2019_Abstract_Clinica.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hal.inria.fr/hal-02132147v2/document",
+      "pdf_url": "https://hal.inria.fr/hal-02132147v2/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/21979382",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://inria.hal.science/hal-02132147",
+    "pdf_url": "https://inria.hal.science/hal-02132147/document",
+    "source": null,
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.5,
+      "id": "https://metadata.un.org/sdg/4",
+      "display_name": "Quality education"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 18,
+  "referenced_works": [
+    "https://openalex.org/W1985812867",
+    "https://openalex.org/W2006096283",
+    "https://openalex.org/W2008068731",
+    "https://openalex.org/W2046557060",
+    "https://openalex.org/W2051691068",
+    "https://openalex.org/W2052337396",
+    "https://openalex.org/W2070949043",
+    "https://openalex.org/W2071472234",
+    "https://openalex.org/W2078604986",
+    "https://openalex.org/W2099547782",
+    "https://openalex.org/W2110065044",
+    "https://openalex.org/W2113576511",
+    "https://openalex.org/W2117591375",
+    "https://openalex.org/W2118421222",
+    "https://openalex.org/W2119848633",
+    "https://openalex.org/W2125016262",
+    "https://openalex.org/W2138790588",
+    "https://openalex.org/W2169428430"
+  ],
+  "related_works": [
+    "https://openalex.org/W2931662336",
+    "https://openalex.org/W2765597752",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2413360119",
+    "https://openalex.org/W2356293051",
+    "https://openalex.org/W2157123855",
+    "https://openalex.org/W2131307089",
+    "https://openalex.org/W2077865380",
+    "https://openalex.org/W1768769760",
+    "https://openalex.org/W1576270090"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2977883299",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 442
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1221
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1219
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1153
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1197
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1138
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 915
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 767
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 630
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 539
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 457
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 267
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 141
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 9
+    }
+  ],
+  "updated_date": "2025-06-03T17:47:19.279176",
+  "created_date": "2019-10-10"
+}

@@ -1,0 +1,1362 @@
+{
+  "id": "https://openalex.org/W2767721863",
+  "doi": "https://doi.org/10.1093/aje/kwx193",
+  "title": "Bias in Hazard Ratios Arising From Misclassification According to Self-Reported Weight and Height in Observational Studies of Body Mass Index and Mortality",
+  "display_name": "Bias in Hazard Ratios Arising From Misclassification According to Self-Reported Weight and Height in Observational Studies of Body Mass Index and Mortality",
+  "publication_year": 2017,
+  "publication_date": "2017-05-30",
+  "ids": {
+    "openalex": "https://openalex.org/W2767721863",
+    "doi": "https://doi.org/10.1093/aje/kwx193",
+    "mag": "2767721863",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/29309516",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5859975"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/aje/kwx193",
+    "pdf_url": "https://academic.oup.com/aje/article-pdf/187/1/125/25333347/kwx193.pdf",
+    "source": {
+      "id": "https://openalex.org/S170967050",
+      "display_name": "American Journal of Epidemiology",
+      "issn_l": "0002-9262",
+      "issn": [
+        "0002-9262",
+        "1476-6256"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": "public-domain",
+    "license_id": "https://openalex.org/licenses/public-domain",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://academic.oup.com/aje/article-pdf/187/1/125/25333347/kwx193.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5083520677",
+        "display_name": "Katherine M. Flegal",
+        "orcid": "https://orcid.org/0000-0002-0838-469X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1330589705",
+          "display_name": "National Center for Health Statistics",
+          "ror": "https://ror.org/03p15s250",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1289490764",
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1330589705"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1289490764",
+          "display_name": "Centers for Disease Control and Prevention",
+          "ror": "https://ror.org/042twtr12",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1289490764",
+            "https://openalex.org/I1299022934"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Katherine M Flegal",
+      "raw_affiliation_strings": [
+        "Division of Health and Nutrition Examination Statistics, National Center for Health Statistics, Centers for Disease Control and Prevention, Hyattsville, Maryland",
+        "Prevention Research Center, School of Medicine, Stanford University, Palo Alto, California"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Health and Nutrition Examination Statistics, National Center for Health Statistics, Centers for Disease Control and Prevention, Hyattsville, Maryland",
+          "institution_ids": [
+            "https://openalex.org/I1330589705",
+            "https://openalex.org/I1289490764"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Prevention Research Center, School of Medicine, Stanford University, Palo Alto, California",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052081116",
+        "display_name": "Brian K. Kit",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1289490764",
+          "display_name": "Centers for Disease Control and Prevention",
+          "ror": "https://ror.org/042twtr12",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1289490764",
+            "https://openalex.org/I1299022934"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1330589705",
+          "display_name": "National Center for Health Statistics",
+          "ror": "https://ror.org/03p15s250",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1289490764",
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1330589705"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brian K Kit",
+      "raw_affiliation_strings": [
+        "Division of Health and Nutrition Examination Statistics, National Center for Health Statistics, Centers for Disease Control and Prevention, Hyattsville, Maryland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Health and Nutrition Examination Statistics, National Center for Health Statistics, Centers for Disease Control and Prevention, Hyattsville, Maryland",
+          "institution_ids": [
+            "https://openalex.org/I1289490764",
+            "https://openalex.org/I1330589705"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5062588511",
+        "display_name": "Barry I. Graubard",
+        "orcid": "https://orcid.org/0000-0002-6787-1105"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210140884",
+          "display_name": "National Cancer Institute",
+          "ror": "https://ror.org/040gcmg81",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210140884"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391012607",
+          "display_name": "Division of Cancer Epidemiology and Genetics",
+          "ror": "https://ror.org/00vkwep27",
+          "country_code": null,
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210140884",
+            "https://openalex.org/I4391012607"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Barry I Graubard",
+      "raw_affiliation_strings": [
+        "Biostatistics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Bethesda, Maryland"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Biostatistics Branch, Division of Cancer Epidemiology and Genetics, National Cancer Institute, Bethesda, Maryland",
+          "institution_ids": [
+            "https://openalex.org/I4210140884",
+            "https://openalex.org/I4391012607"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5083520677"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I1330589705",
+    "https://openalex.org/I1289490764",
+    "https://openalex.org/I97018004"
+  ],
+  "apc_list": {
+    "value": 4450,
+    "currency": "USD",
+    "value_usd": 4450
+  },
+  "apc_paid": {
+    "value": 4450,
+    "currency": "USD",
+    "value_usd": 4450
+  },
+  "fwci": 12.251,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 52,
+  "citation_normalized_percentile": {
+    "value": 0.999673,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "187",
+    "issue": "1",
+    "first_page": "125",
+    "last_page": "134"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12066",
+    "display_name": "Obesity and Health Practices",
+    "score": 0.9982,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3611",
+      "display_name": "Pharmacy"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/36",
+      "display_name": "Health Professions"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12066",
+      "display_name": "Obesity and Health Practices",
+      "score": 0.9982,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3611",
+        "display_name": "Pharmacy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10010",
+      "display_name": "Obesity, Physical Activity, Diet",
+      "score": 0.9955,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11610",
+      "display_name": "Food Security and Health in Diverse Populations",
+      "score": 0.9939,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C207103383",
+      "wikidata": "https://www.wikidata.org/wiki/Q3930246",
+      "display_name": "Hazard ratio",
+      "level": 3,
+      "score": 0.84551626
+    },
+    {
+      "id": "https://openalex.org/C2780586474",
+      "wikidata": "https://www.wikidata.org/wiki/Q332428",
+      "display_name": "Overweight",
+      "level": 3,
+      "score": 0.8221208
+    },
+    {
+      "id": "https://openalex.org/C2780221984",
+      "wikidata": "https://www.wikidata.org/wiki/Q131191",
+      "display_name": "Body mass index",
+      "level": 2,
+      "score": 0.7876799
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.6380989
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.5853528
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.55280143
+    },
+    {
+      "id": "https://openalex.org/C23131810",
+      "wikidata": "https://www.wikidata.org/wiki/Q818574",
+      "display_name": "Observational study",
+      "level": 2,
+      "score": 0.42228222
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.39924082
+    },
+    {
+      "id": "https://openalex.org/C44249647",
+      "wikidata": "https://www.wikidata.org/wiki/Q208498",
+      "display_name": "Confidence interval",
+      "level": 2,
+      "score": 0.3760309
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.17496449
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.1734834
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D015992",
+      "descriptor_name": "Body Mass Index",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001837",
+      "descriptor_name": "Body Weights and Measures",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000068598",
+      "descriptor_name": "Data Accuracy",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D057566",
+      "descriptor_name": "Self Report",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015982",
+      "descriptor_name": "Bias",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001827",
+      "descriptor_name": "Body Height",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001835",
+      "descriptor_name": "Body Weight",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001837",
+      "descriptor_name": "Body Weights and Measures",
+      "qualifier_ui": "Q000592",
+      "qualifier_name": "standards",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001837",
+      "descriptor_name": "Body Weights and Measures",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009749",
+      "descriptor_name": "Nutrition Surveys",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D064887",
+      "descriptor_name": "Observational Studies as Topic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016016",
+      "descriptor_name": "Proportional Hazards Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012016",
+      "descriptor_name": "Reference Values",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057566",
+      "descriptor_name": "Self Report",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057566",
+      "descriptor_name": "Self Report",
+      "qualifier_ui": "Q000592",
+      "qualifier_name": "standards",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/aje/kwx193",
+      "pdf_url": "https://academic.oup.com/aje/article-pdf/187/1/125/25333347/kwx193.pdf",
+      "source": {
+        "id": "https://openalex.org/S170967050",
+        "display_name": "American Journal of Epidemiology",
+        "issn_l": "0002-9262",
+        "issn": [
+          "0002-9262",
+          "1476-6256"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": "public-domain",
+      "license_id": "https://openalex.org/licenses/public-domain",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5859975",
+      "pdf_url": "https://europepmc.org/articles/pmc5859975?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5859975",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29309516",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/aje/kwx193",
+    "pdf_url": "https://academic.oup.com/aje/article-pdf/187/1/125/25333347/kwx193.pdf",
+    "source": {
+      "id": "https://openalex.org/S170967050",
+      "display_name": "American Journal of Epidemiology",
+      "issn_l": "0002-9262",
+      "issn": [
+        "0002-9262",
+        "1476-6256"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": "public-domain",
+    "license_id": "https://openalex.org/licenses/public-domain",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.87
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320332161",
+      "funder_display_name": "National Institutes of Health",
+      "award_id": null
+    },
+    {
+      "funder": "https://openalex.org/F4320337351",
+      "funder_display_name": "National Cancer Institute",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 67,
+  "referenced_works": [
+    "https://openalex.org/W1134474029",
+    "https://openalex.org/W1551867471",
+    "https://openalex.org/W1582257696",
+    "https://openalex.org/W160211549",
+    "https://openalex.org/W1906583680",
+    "https://openalex.org/W1919232416",
+    "https://openalex.org/W1968335419",
+    "https://openalex.org/W1970227597",
+    "https://openalex.org/W1981459575",
+    "https://openalex.org/W1982786293",
+    "https://openalex.org/W1994485561",
+    "https://openalex.org/W1995234507",
+    "https://openalex.org/W1998451170",
+    "https://openalex.org/W2006533930",
+    "https://openalex.org/W2010117564",
+    "https://openalex.org/W2011137594",
+    "https://openalex.org/W2012491666",
+    "https://openalex.org/W2015795623",
+    "https://openalex.org/W2016673354",
+    "https://openalex.org/W2016681893",
+    "https://openalex.org/W2019787128",
+    "https://openalex.org/W2026608529",
+    "https://openalex.org/W2038623844",
+    "https://openalex.org/W2039063847",
+    "https://openalex.org/W2040064285",
+    "https://openalex.org/W2047446222",
+    "https://openalex.org/W2048653066",
+    "https://openalex.org/W2051227162",
+    "https://openalex.org/W2054957760",
+    "https://openalex.org/W2062197017",
+    "https://openalex.org/W2074068745",
+    "https://openalex.org/W2078511984",
+    "https://openalex.org/W2080768646",
+    "https://openalex.org/W2083507204",
+    "https://openalex.org/W2093237820",
+    "https://openalex.org/W2104003142",
+    "https://openalex.org/W2104033431",
+    "https://openalex.org/W2106660660",
+    "https://openalex.org/W2107019108",
+    "https://openalex.org/W2109078197",
+    "https://openalex.org/W2110310285",
+    "https://openalex.org/W2113319386",
+    "https://openalex.org/W2116516763",
+    "https://openalex.org/W2118008818",
+    "https://openalex.org/W2122624008",
+    "https://openalex.org/W2127147300",
+    "https://openalex.org/W2131272172",
+    "https://openalex.org/W2135611616",
+    "https://openalex.org/W2138885070",
+    "https://openalex.org/W2140510006",
+    "https://openalex.org/W2154747882",
+    "https://openalex.org/W2158226607",
+    "https://openalex.org/W2158569927",
+    "https://openalex.org/W2159724520",
+    "https://openalex.org/W2162861057",
+    "https://openalex.org/W2165881478",
+    "https://openalex.org/W2261082179",
+    "https://openalex.org/W2320856221",
+    "https://openalex.org/W2323202746",
+    "https://openalex.org/W2329487828",
+    "https://openalex.org/W2401756896",
+    "https://openalex.org/W2405923030",
+    "https://openalex.org/W2414110645",
+    "https://openalex.org/W2465692541",
+    "https://openalex.org/W2469110126",
+    "https://openalex.org/W4237186931",
+    "https://openalex.org/W4300486114"
+  ],
+  "related_works": [
+    "https://openalex.org/W2978010786",
+    "https://openalex.org/W2906156617",
+    "https://openalex.org/W2759571287",
+    "https://openalex.org/W2389001773",
+    "https://openalex.org/W2373621818",
+    "https://openalex.org/W2181692955",
+    "https://openalex.org/W2147637429",
+    "https://openalex.org/W2119752015",
+    "https://openalex.org/W2043777045",
+    "https://openalex.org/W1974154791"
+  ],
+  "abstract_inverted_index": {
+    "Misclassification": [
+      0
+    ],
+    "of": [
+      1,
+      19,
+      30,
+      61,
+      156,
+      189
+    ],
+    "body": [
+      2
+    ],
+    "mass": [
+      3
+    ],
+    "index": [
+      4
+    ],
+    "(BMI)": [
+      5
+    ],
+    "categories": [
+      6,
+      88,
+      134
+    ],
+    "arising": [
+      7
+    ],
+    "from": [
+      8,
+      141,
+      173
+    ],
+    "self-reported": [
+      9,
+      47,
+      149,
+      192
+    ],
+    "weight": [
+      10,
+      48,
+      193
+    ],
+    "and": [
+      11,
+      21,
+      46,
+      49,
+      58,
+      79,
+      131,
+      154,
+      194
+    ],
+    "height": [
+      12,
+      50,
+      195
+    ],
+    "can": [
+      13
+    ],
+    "bias": [
+      14,
+      91,
+      157,
+      172
+    ],
+    "hazard": [
+      15,
+      28,
+      92,
+      137,
+      163,
+      186
+    ],
+    "ratios": [
+      16,
+      29,
+      93,
+      164
+    ],
+    "in": [
+      17,
+      109,
+      113,
+      165
+    ],
+    "studies": [
+      18
+    ],
+    "BMI": [
+      20,
+      65,
+      87,
+      111,
+      201
+    ],
+    "mortality.": [
+      22
+    ],
+    "We": [
+      23
+    ],
+    "examined": [
+      24
+    ],
+    "the": [
+      25,
+      118,
+      129,
+      132,
+      136,
+      152,
+      161,
+      199
+    ],
+    "effects": [
+      26
+    ],
+    "on": [
+      27,
+      171
+    ],
+    "such": [
+      31
+    ],
+    "misclassification": [
+      32,
+      190
+    ],
+    "using": [
+      33
+    ],
+    "national": [
+      34
+    ],
+    "US": [
+      35
+    ],
+    "survey": [
+      36
+    ],
+    "data": [
+      37,
+      145
+    ],
+    "for": [
+      38,
+      55,
+      95,
+      139
+    ],
+    "1976": [
+      39
+    ],
+    "through": [
+      40
+    ],
+    "2010": [
+      41
+    ],
+    "that": [
+      42,
+      99,
+      116,
+      169
+    ],
+    "had": [
+      43
+    ],
+    "both": [
+      44
+    ],
+    "measured": [
+      45,
+      144,
+      166
+    ],
+    "along": [
+      51
+    ],
+    "with": [
+      52,
+      143,
+      148,
+      183
+    ],
+    "mortality": [
+      53
+    ],
+    "follow-up": [
+      54
+    ],
+    "48,763": [
+      56
+    ],
+    "adults": [
+      57
+    ],
+    "a": [
+      59,
+      181
+    ],
+    "subset": [
+      60
+    ],
+    "17,405": [
+      62
+    ],
+    "healthy": [
+      63,
+      124
+    ],
+    "never-smokers.": [
+      64
+    ],
+    "was": [
+      66,
+      101
+    ],
+    "categorized": [
+      67
+    ],
+    "as": [
+      68
+    ],
+    "<22.5": [
+      69
+    ],
+    "(low),": [
+      70
+    ],
+    "22.5–24.9": [
+      71
+    ],
+    "(referent),": [
+      72
+    ],
+    "25.0–29.9": [
+      73
+    ],
+    "(overweight),": [
+      74
+    ],
+    "30.0–34.9": [
+      75
+    ],
+    "(class": [
+      76,
+      81
+    ],
+    "I": [
+      77
+    ],
+    "obesity),": [
+      78
+    ],
+    "≥35.0": [
+      80
+    ],
+    "II–III": [
+      82
+    ],
+    "obesity).": [
+      83
+    ],
+    "Misreporting": [
+      84
+    ],
+    "at": [
+      85
+    ],
+    "higher": [
+      86
+    ],
+    "tended": [
+      89
+    ],
+    "to": [
+      90,
+      146,
+      160,
+      180
+    ],
+    "upwards": [
+      94
+    ],
+    "those": [
+      96,
+      115
+    ],
+    "categories,": [
+      97,
+      112
+    ],
+    "but": [
+      98
+    ],
+    "effect": [
+      100
+    ],
+    "augmented,": [
+      102
+    ],
+    "counterbalanced,": [
+      103
+    ],
+    "or": [
+      104
+    ],
+    "even": [
+      105
+    ],
+    "reversed": [
+      106
+    ],
+    "by": [
+      107
+    ],
+    "misreporting": [
+      108
+    ],
+    "other": [
+      110
+    ],
+    "particular": [
+      114
+    ],
+    "affected": [
+      117
+    ],
+    "reference": [
+      119,
+      133
+    ],
+    "category.": [
+      120,
+      202
+    ],
+    "For": [
+      121
+    ],
+    "example,": [
+      122
+    ],
+    "among": [
+      123
+    ],
+    "male": [
+      125
+    ],
+    "never-smokers,": [
+      126
+    ],
+    "misclassifications": [
+      127
+    ],
+    "affecting": [
+      128
+    ],
+    "overweight": [
+      130,
+      140
+    ],
+    "changed": [
+      135
+    ],
+    "ratio": [
+      138
+    ],
+    "0.85": [
+      142
+    ],
+    "1.24": [
+      147
+    ],
+    "data.": [
+      150
+    ],
+    "Both": [
+      151
+    ],
+    "magnitude": [
+      153
+    ],
+    "direction": [
+      155
+    ],
+    "varied": [
+      158
+    ],
+    "according": [
+      159
+    ],
+    "underlying": [
+      162,
+      185
+    ],
+    "data,": [
+      167
+    ],
+    "showing": [
+      168
+    ],
+    "findings": [
+      170
+    ],
+    "one": [
+      174
+    ],
+    "study": [
+      175,
+      182
+    ],
+    "should": [
+      176
+    ],
+    "not": [
+      177
+    ],
+    "be": [
+      178
+    ],
+    "extrapolated": [
+      179
+    ],
+    "different": [
+      184
+    ],
+    "ratios.": [
+      187
+    ],
+    "Because": [
+      188
+    ],
+    "effects,": [
+      191
+    ],
+    "cannot": [
+      196
+    ],
+    "reliably": [
+      197
+    ],
+    "indicate": [
+      198
+    ],
+    "lowest-risk": [
+      200
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2767721863",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-05-24T12:58:59.230367",
+  "created_date": "2017-11-17"
+}

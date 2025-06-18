@@ -1,0 +1,1793 @@
+{
+  "id": "https://openalex.org/W2782760384",
+  "doi": "https://doi.org/10.1111/cen.13548",
+  "title": "Pulsatility of glucocorticoid hormones in pregnancy: Changes with gestation and obesity",
+  "display_name": "Pulsatility of glucocorticoid hormones in pregnancy: Changes with gestation and obesity",
+  "publication_year": 2018,
+  "publication_date": "2018-01-09",
+  "ids": {
+    "openalex": "https://openalex.org/W2782760384",
+    "doi": "https://doi.org/10.1111/cen.13548",
+    "mag": "2782760384",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/29314170",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5887976"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1111/cen.13548",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cen.13548",
+    "source": {
+      "id": "https://openalex.org/S182143151",
+      "display_name": "Clinical Endocrinology",
+      "issn_l": "0300-0664",
+      "issn": [
+        "0300-0664",
+        "1365-2265"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cen.13548",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5053012128",
+        "display_name": "Laura Stirrat",
+        "orcid": "https://orcid.org/0000-0002-2965-8645"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116174",
+          "display_name": "MRC Centre for Reproductive Health",
+          "ror": "https://ror.org/02f4tsf92",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I4210116174",
+            "https://openalex.org/I90344618",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I90344618",
+          "display_name": "Medical Research Council",
+          "ror": "https://ror.org/03x94j517",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I90344618"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Laura I. Stirrat",
+      "raw_affiliation_strings": [
+        "Tommy's Centre for Maternal and Fetal Health, Medical Research Council Centre for Reproductive Health, University of Edinburgh, Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tommy's Centre for Maternal and Fetal Health, Medical Research Council Centre for Reproductive Health, University of Edinburgh, Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210116174",
+            "https://openalex.org/I90344618",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5011791143",
+        "display_name": "Jamie J. Walker",
+        "orcid": "https://orcid.org/0000-0002-1952-8759"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I23923803",
+          "display_name": "University of Exeter",
+          "ror": "https://ror.org/03yghzc09",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23923803"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I87048295",
+          "display_name": "Wellcome Trust",
+          "ror": "https://ror.org/029chgv08",
+          "country_code": "GB",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I87048295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299528221",
+          "display_name": "Engineering and Physical Sciences Research Council",
+          "ror": "https://ror.org/0439y7842",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299528221",
+            "https://openalex.org/I4210087105"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jamie J. Walker",
+      "raw_affiliation_strings": [
+        "College of Engineering, Mathematics and Physical Sciences, University of Exeter, Exeter, UK",
+        "EPSRC Centre for Predictive Modelling in Healthcare, University of Exeter, Exeter, UK",
+        "Henry Wellcome Laboratories for Integrative Neuroscience and Endocrinology, University of Bristol, Bristol, UK",
+        "Wellcome Trust Centre for Biomedical Modelling and Analysis, University of Exeter, Exeter, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Henry Wellcome Laboratories for Integrative Neuroscience and Endocrinology, University of Bristol, Bristol, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Wellcome Trust Centre for Biomedical Modelling and Analysis, University of Exeter, Exeter, UK",
+          "institution_ids": [
+            "https://openalex.org/I23923803",
+            "https://openalex.org/I87048295"
+          ]
+        },
+        {
+          "raw_affiliation_string": "EPSRC Centre for Predictive Modelling in Healthcare, University of Exeter, Exeter, UK",
+          "institution_ids": [
+            "https://openalex.org/I23923803",
+            "https://openalex.org/I1299528221"
+          ]
+        },
+        {
+          "raw_affiliation_string": "College of Engineering, Mathematics and Physical Sciences, University of Exeter, Exeter, UK",
+          "institution_ids": [
+            "https://openalex.org/I23923803"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074520843",
+        "display_name": "Ksenia Stryjakowska",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I90344618",
+          "display_name": "Medical Research Council",
+          "ror": "https://ror.org/03x94j517",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I90344618"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210116174",
+          "display_name": "MRC Centre for Reproductive Health",
+          "ror": "https://ror.org/02f4tsf92",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I4210116174",
+            "https://openalex.org/I90344618",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ksenia Stryjakowska",
+      "raw_affiliation_strings": [
+        "Tommy's Centre for Maternal and Fetal Health, Medical Research Council Centre for Reproductive Health, University of Edinburgh, Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tommy's Centre for Maternal and Fetal Health, Medical Research Council Centre for Reproductive Health, University of Edinburgh, Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I90344618",
+            "https://openalex.org/I98677209",
+            "https://openalex.org/I4210116174"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101071380",
+        "display_name": "Natalie K. Jones",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Natalie Jones",
+      "raw_affiliation_strings": [
+        "University/BHF Centre for Cardiovascular Science, University of Edinburgh, Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University/BHF Centre for Cardiovascular Science, University of Edinburgh, Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061345698",
+        "display_name": "Natalie Homer",
+        "orcid": "https://orcid.org/0000-0002-9262-2098"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Natalie Z. M. Homer",
+      "raw_affiliation_strings": [
+        "Mass Spectrometry Core, Edinburgh Clinical Research Facility, University of Edinburgh, Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Mass Spectrometry Core, Edinburgh Clinical Research Facility, University of Edinburgh, Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5018893535",
+        "display_name": "Ruth Andrew",
+        "orcid": "https://orcid.org/0000-0002-6916-2994"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ruth Andrew",
+      "raw_affiliation_strings": [
+        "University/BHF Centre for Cardiovascular Science, University of Edinburgh, Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University/BHF Centre for Cardiovascular Science, University of Edinburgh, Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021186773",
+        "display_name": "Jane E. Norman",
+        "orcid": "https://orcid.org/0000-0001-6031-6953"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116174",
+          "display_name": "MRC Centre for Reproductive Health",
+          "ror": "https://ror.org/02f4tsf92",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I4210116174",
+            "https://openalex.org/I90344618",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I90344618",
+          "display_name": "Medical Research Council",
+          "ror": "https://ror.org/03x94j517",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I90344618"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jane E. Norman",
+      "raw_affiliation_strings": [
+        "Tommy's Centre for Maternal and Fetal Health, Medical Research Council Centre for Reproductive Health, University of Edinburgh, Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tommy's Centre for Maternal and Fetal Health, Medical Research Council Centre for Reproductive Health, University of Edinburgh, Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210116174",
+            "https://openalex.org/I90344618",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017571758",
+        "display_name": "Stafford L. Lightman",
+        "orcid": "https://orcid.org/0000-0002-8546-9646"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stafford L. Lightman",
+      "raw_affiliation_strings": [
+        "Henry Wellcome Laboratories for Integrative Neuroscience and Endocrinology, University of Bristol, Bristol, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Henry Wellcome Laboratories for Integrative Neuroscience and Endocrinology, University of Bristol, Bristol, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5087928736",
+        "display_name": "Rebecca M. Reynolds",
+        "orcid": "https://orcid.org/0000-0001-6226-8270"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116174",
+          "display_name": "MRC Centre for Reproductive Health",
+          "ror": "https://ror.org/02f4tsf92",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I4210116174",
+            "https://openalex.org/I90344618",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I90344618",
+          "display_name": "Medical Research Council",
+          "ror": "https://ror.org/03x94j517",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I90344618"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Rebecca M. Reynolds",
+      "raw_affiliation_strings": [
+        "Tommy's Centre for Maternal and Fetal Health, Medical Research Council Centre for Reproductive Health, University of Edinburgh, Edinburgh, UK",
+        "University/BHF Centre for Cardiovascular Science, University of Edinburgh, Edinburgh, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tommy's Centre for Maternal and Fetal Health, Medical Research Council Centre for Reproductive Health, University of Edinburgh, Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210116174",
+            "https://openalex.org/I90344618",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University/BHF Centre for Cardiovascular Science, University of Edinburgh, Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 7,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5087928736"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210116174",
+    "https://openalex.org/I90344618",
+    "https://openalex.org/I98677209"
+  ],
+  "apc_list": {
+    "value": 4330,
+    "currency": "USD",
+    "value_usd": 4330
+  },
+  "apc_paid": {
+    "value": 2737,
+    "currency": "EUR",
+    "value_usd": 2951
+  },
+  "fwci": 2.062,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 25,
+  "citation_normalized_percentile": {
+    "value": 0.76827,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 92,
+    "max": 93
+  },
+  "biblio": {
+    "volume": "88",
+    "issue": "4",
+    "first_page": "592",
+    "last_page": "600"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 0.9995,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9995,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11629",
+      "display_name": "Birth, Development, and Health",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.9988,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.80980563
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.8090787
+    },
+    {
+      "id": "https://openalex.org/C2780841215",
+      "wikidata": "https://www.wikidata.org/wiki/Q422549",
+      "display_name": "Glucocorticoid",
+      "level": 2,
+      "score": 0.6831171
+    },
+    {
+      "id": "https://openalex.org/C46973012",
+      "wikidata": "https://www.wikidata.org/wiki/Q28627",
+      "display_name": "Gestation",
+      "level": 3,
+      "score": 0.6488447
+    },
+    {
+      "id": "https://openalex.org/C2779234561",
+      "wikidata": "https://www.wikidata.org/wiki/Q11995",
+      "display_name": "Pregnancy",
+      "level": 2,
+      "score": 0.6035086
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.58989745
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.48609734
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.47544762
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.36451995
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011248",
+      "descriptor_name": "Pregnancy Complications",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003348",
+      "descriptor_name": "Cortisone",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003348",
+      "descriptor_name": "Cortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D045604",
+      "descriptor_name": "Extracellular Fluid",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D045604",
+      "descriptor_name": "Extracellular Fluid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011247",
+      "descriptor_name": "Pregnancy",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011248",
+      "descriptor_name": "Pregnancy Complications",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 8,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/cen.13548",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cen.13548",
+      "source": {
+        "id": "https://openalex.org/S182143151",
+        "display_name": "Clinical Endocrinology",
+        "issn_l": "0300-0664",
+        "issn": [
+          "0300-0664",
+          "1365-2265"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5887976",
+      "pdf_url": "https://europepmc.org/articles/pmc5887976?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://research-information.bris.ac.uk/ws/files/154334418/Stirrat_et_al_2018_Clinical_Endocrinology.pdf",
+      "pdf_url": "https://research-information.bris.ac.uk/ws/files/154334418/Stirrat_et_al_2018_Clinical_Endocrinology.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400895",
+        "display_name": "Bristol Research (University of Bristol)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I36234482",
+        "host_organization_name": "University of Bristol",
+        "host_organization_lineage": [
+          "https://openalex.org/I36234482"
+        ],
+        "host_organization_lineage_names": [
+          "University of Bristol"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.pure.ed.ac.uk/ws/files/52823158/Reynolds_R_Pulsatility_of_glucocorticoid....pdf",
+      "pdf_url": "https://www.pure.ed.ac.uk/ws/files/52823158/Reynolds_R_Pulsatility_of_glucocorticoid....pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400321",
+        "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I98677209",
+        "host_organization_name": "University of Edinburgh",
+        "host_organization_lineage": [
+          "https://openalex.org/I98677209"
+        ],
+        "host_organization_lineage_names": [
+          "University of Edinburgh"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/20.500.11820/94babe68-e1b4-4b0e-8538-089d64e1d973",
+      "pdf_url": "https://www.research.ed.ac.uk/files/52823158/Reynolds_R_Pulsatility_of_glucocorticoid....pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400321",
+        "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I98677209",
+        "host_organization_name": "University of Edinburgh",
+        "host_organization_lineage": [
+          "https://openalex.org/I98677209"
+        ],
+        "host_organization_lineage_names": [
+          "University of Edinburgh"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/1983/7b059fdb-b224-4e21-8772-ede7da18992a",
+      "pdf_url": "https://research-information.bris.ac.uk/files/154334418/Stirrat_et_al_2018_Clinical_Endocrinology.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400895",
+        "display_name": "Bristol Research (University of Bristol)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I36234482",
+        "host_organization_name": "University of Bristol",
+        "host_organization_lineage": [
+          "https://openalex.org/I36234482"
+        ],
+        "host_organization_lineage_names": [
+          "University of Bristol"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5887976",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29314170",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1111/cen.13548",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cen.13548",
+    "source": {
+      "id": "https://openalex.org/S182143151",
+      "display_name": "Clinical Endocrinology",
+      "issn_l": "0300-0664",
+      "issn": [
+        "0300-0664",
+        "1365-2265"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.86,
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320307874",
+      "funder_display_name": "Wellcome",
+      "award_id": "WT105618MA"
+    },
+    {
+      "funder": "https://openalex.org/F4320334626",
+      "funder_display_name": "Medical Research Council",
+      "award_id": "MR/N022556/1"
+    },
+    {
+      "funder": "https://openalex.org/F4320334627",
+      "funder_display_name": "Engineering and Physical Sciences Research Council",
+      "award_id": "EP/N014391/1"
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 40,
+  "referenced_works": [
+    "https://openalex.org/W1805571795",
+    "https://openalex.org/W181028834",
+    "https://openalex.org/W1866641948",
+    "https://openalex.org/W1880023255",
+    "https://openalex.org/W1942198132",
+    "https://openalex.org/W1951323992",
+    "https://openalex.org/W1964249784",
+    "https://openalex.org/W1966401764",
+    "https://openalex.org/W1991000644",
+    "https://openalex.org/W2003275832",
+    "https://openalex.org/W2009788880",
+    "https://openalex.org/W2037938652",
+    "https://openalex.org/W2046678424",
+    "https://openalex.org/W2054009734",
+    "https://openalex.org/W2063975190",
+    "https://openalex.org/W2068534814",
+    "https://openalex.org/W2075627423",
+    "https://openalex.org/W2080621514",
+    "https://openalex.org/W2086526747",
+    "https://openalex.org/W2088475925",
+    "https://openalex.org/W2090315300",
+    "https://openalex.org/W2091009427",
+    "https://openalex.org/W2095865455",
+    "https://openalex.org/W2110243057",
+    "https://openalex.org/W2126602202",
+    "https://openalex.org/W2138296752",
+    "https://openalex.org/W2144911763",
+    "https://openalex.org/W2145882636",
+    "https://openalex.org/W2154189263",
+    "https://openalex.org/W2156297391",
+    "https://openalex.org/W2157312224",
+    "https://openalex.org/W2170371611",
+    "https://openalex.org/W2292463353",
+    "https://openalex.org/W2510336674",
+    "https://openalex.org/W2748502884",
+    "https://openalex.org/W2782760384",
+    "https://openalex.org/W4240122463",
+    "https://openalex.org/W4244338173",
+    "https://openalex.org/W4252635931",
+    "https://openalex.org/W4294938892"
+  ],
+  "related_works": [
+    "https://openalex.org/W70252935",
+    "https://openalex.org/W589342152",
+    "https://openalex.org/W3181114960",
+    "https://openalex.org/W3114540110",
+    "https://openalex.org/W2928033957",
+    "https://openalex.org/W2415610721",
+    "https://openalex.org/W2385667491",
+    "https://openalex.org/W2135415023",
+    "https://openalex.org/W2080786769",
+    "https://openalex.org/W2050349955"
+  ],
+  "abstract_inverted_index": {
+    "Summary": [
+      0
+    ],
+    "Objective": [
+      1
+    ],
+    "Hypothalamic‐pituitary‐adrenal": [
+      2
+    ],
+    "axis": [
+      3
+    ],
+    "(": [
+      4,
+      93,
+      102
+    ],
+    "HPA": [
+      5,
+      241
+    ],
+    ")": [
+      6,
+      98,
+      108
+    ],
+    "activity": [
+      7,
+      242
+    ],
+    "is": [
+      8,
+      39,
+      224
+    ],
+    "decreased": [
+      9,
+      240
+    ],
+    "in": [
+      10,
+      27,
+      44,
+      178,
+      192,
+      208,
+      212,
+      219,
+      243
+    ],
+    "obese": [
+      11,
+      57,
+      101,
+      127,
+      181,
+      244
+    ],
+    "pregnancy": [
+      12,
+      60
+    ],
+    "and": [
+      13,
+      58,
+      61,
+      68,
+      87,
+      99,
+      115,
+      120,
+      154,
+      171,
+      180,
+      229
+    ],
+    "associates": [
+      14
+    ],
+    "with": [
+      15,
+      176,
+      184,
+      205,
+      226
+    ],
+    "increased": [
+      16,
+      174,
+      227
+    ],
+    "foetal": [
+      17,
+      35
+    ],
+    "size.": [
+      18
+    ],
+    "Pulsatile": [
+      19
+    ],
+    "release": [
+      20
+    ],
+    "of": [
+      21,
+      53,
+      135,
+      188
+    ],
+    "glucocorticoid": [
+      22,
+      42,
+      54
+    ],
+    "hormones": [
+      23
+    ],
+    "regulates": [
+      24
+    ],
+    "their": [
+      25,
+      136
+    ],
+    "action": [
+      26
+    ],
+    "target": [
+      28
+    ],
+    "tissues.": [
+      29
+    ],
+    "Glucocorticoids": [
+      30
+    ],
+    "are": [
+      31
+    ],
+    "essential": [
+      32
+    ],
+    "for": [
+      33
+    ],
+    "normal": [
+      34
+    ],
+    "growth,": [
+      36
+    ],
+    "but": [
+      37,
+      210
+    ],
+    "little": [
+      38
+    ],
+    "known": [
+      40
+    ],
+    "about": [
+      41
+    ],
+    "pulsatility": [
+      43,
+      218
+    ],
+    "pregnancy.": [
+      45,
+      245
+    ],
+    "We": [
+      46,
+      215
+    ],
+    "aimed": [
+      47
+    ],
+    "to": [
+      48,
+      238
+    ],
+    "investigate": [
+      49
+    ],
+    "the": [
+      50,
+      132
+    ],
+    "ultradian": [
+      51
+    ],
+    "rhythm": [
+      52
+    ],
+    "secretion": [
+      55
+    ],
+    "during": [
+      56,
+      131
+    ],
+    "lean": [
+      59,
+      92,
+      179
+    ],
+    "nonpregnancy.": [
+      62
+    ],
+    "Design": [
+      63
+    ],
+    "Serum": [
+      64,
+      165
+    ],
+    "cortisol,": [
+      65
+    ],
+    "cortisone,": [
+      66
+    ],
+    "corticosterone": [
+      67
+    ],
+    "11‐dehydrocorticosterone": [
+      69
+    ],
+    "were": [
+      70
+    ],
+    "measured": [
+      71,
+      143
+    ],
+    "by": [
+      72,
+      144
+    ],
+    "LC": [
+      73
+    ],
+    "‐": [
+      74
+    ],
+    "MS": [
+      75,
+      77
+    ],
+    "/": [
+      76
+    ],
+    "from": [
+      78,
+      90,
+      147
+    ],
+    "samples": [
+      79,
+      148
+    ],
+    "obtained": [
+      80,
+      149
+    ],
+    "at": [
+      81,
+      117,
+      158
+    ],
+    "10‐minute": [
+      82
+    ],
+    "intervals": [
+      83,
+      160
+    ],
+    "between": [
+      84,
+      111
+    ],
+    "08.00‐11.00": [
+      85
+    ],
+    "hours": [
+      86
+    ],
+    "16.00‐19.00": [
+      88
+    ],
+    "hours,": [
+      89
+    ],
+    "8": [
+      91
+    ],
+    "BMI": [
+      94,
+      103,
+      230
+    ],
+    "&lt;25": [
+      95
+    ],
+    "kg/m": [
+      96,
+      106
+    ],
+    "2": [
+      97,
+      107
+    ],
+    "7": [
+      100
+    ],
+    "&gt;": [
+      104
+    ],
+    "35": [
+      105
+    ],
+    "pregnant": [
+      109,
+      182,
+      196
+    ],
+    "women": [
+      110
+    ],
+    "16‐24": [
+      112
+    ],
+    "weeks": [
+      113
+    ],
+    "gestation": [
+      114,
+      177,
+      207,
+      228
+    ],
+    "again": [
+      116
+    ],
+    "30‐36": [
+      118
+    ],
+    "weeks),": [
+      119
+    ],
+    "nonpregnant": [
+      121,
+      185
+    ],
+    "controls": [
+      122
+    ],
+    "(lean": [
+      123
+    ],
+    "n": [
+      124,
+      128
+    ],
+    "=": [
+      125,
+      129
+    ],
+    "3,": [
+      126
+    ],
+    "4)": [
+      130
+    ],
+    "luteal": [
+      133
+    ],
+    "phase": [
+      134
+    ],
+    "menstrual": [
+      137
+    ],
+    "cycle.": [
+      138
+    ],
+    "Interstitial": [
+      139
+    ],
+    "fluid": [
+      140,
+      199
+    ],
+    "cortisol": [
+      141,
+      166,
+      189,
+      217
+    ],
+    "was": [
+      142,
+      190,
+      202
+    ],
+    "ELISA": [
+      145
+    ],
+    ",": [
+      146,
+      168
+    ],
+    "using": [
+      150
+    ],
+    "a": [
+      151,
+      235
+    ],
+    "portable": [
+      152
+    ],
+    "microdialysis": [
+      153
+    ],
+    "automated": [
+      155
+    ],
+    "collection": [
+      156
+    ],
+    "device": [
+      157
+    ],
+    "20‐minute": [
+      159
+    ],
+    "over": [
+      161
+    ],
+    "24": [
+      162
+    ],
+    "hours.": [
+      163
+    ],
+    "Results": [
+      164
+    ],
+    "AUC": [
+      167
+    ],
+    "highest": [
+      169
+    ],
+    "peak": [
+      170
+    ],
+    "lowest": [
+      172
+    ],
+    "trough": [
+      173
+    ],
+    "significantly": [
+      175,
+      203
+    ],
+    "compared": [
+      183
+    ],
+    "subjects.": [
+      186
+    ],
+    "Pulsatility": [
+      187
+    ],
+    "detected": [
+      191
+    ],
+    "interstitial": [
+      193,
+      198,
+      220
+    ],
+    "fluid.": [
+      194,
+      221
+    ],
+    "In": [
+      195
+    ],
+    "subjects,": [
+      197
+    ],
+    "pulse": [
+      200
+    ],
+    "frequency": [
+      201,
+      223
+    ],
+    "lower": [
+      204
+    ],
+    "advancing": [
+      206
+    ],
+    "obese,": [
+      209
+    ],
+    "not": [
+      211
+    ],
+    "lean.": [
+      213
+    ],
+    "Conclusions": [
+      214
+    ],
+    "demonstrate": [
+      216
+    ],
+    "Pulse": [
+      222
+    ],
+    "altered": [
+      225
+    ],
+    ".": [
+      231
+    ],
+    "This": [
+      232
+    ],
+    "may": [
+      233
+    ],
+    "be": [
+      234
+    ],
+    "novel": [
+      236
+    ],
+    "mechanism": [
+      237
+    ],
+    "explain": [
+      239
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2782760384",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-16T03:01:17.579018",
+  "created_date": "2018-01-26"
+}

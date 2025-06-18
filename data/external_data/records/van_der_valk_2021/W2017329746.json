@@ -1,0 +1,984 @@
+{
+  "id": "https://openalex.org/W2017329746",
+  "doi": "https://doi.org/10.1126/science.1135918",
+  "title": "Predation Risk Affects Reproductive Physiology and Demography of Elk",
+  "display_name": "Predation Risk Affects Reproductive Physiology and Demography of Elk",
+  "publication_year": 2007,
+  "publication_date": "2007-02-15",
+  "ids": {
+    "openalex": "https://openalex.org/W2017329746",
+    "doi": "https://doi.org/10.1126/science.1135918",
+    "mag": "2017329746",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/17303746"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1126/science.1135918",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5075316265",
+        "display_name": "Scott Creel",
+        "orcid": "https://orcid.org/0000-0003-3170-6113"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Scott Creel",
+      "raw_affiliation_strings": [
+        "Department of Ecology, Montana State University, 310 Lewis Hall, Bozeman, MT 59717, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Ecology, Montana State University, 310 Lewis Hall, Bozeman, MT 59717, USA.",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5063322237",
+        "display_name": "David Christianson",
+        "orcid": "https://orcid.org/0000-0002-9601-9595"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Christianson",
+      "raw_affiliation_strings": [
+        "Department of Ecology, Montana State University, 310 Lewis Hall, Bozeman, MT 59717, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Ecology, Montana State University, 310 Lewis Hall, Bozeman, MT 59717, USA.",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083618320",
+        "display_name": "Stewart G. Liley",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stewart Liley",
+      "raw_affiliation_strings": [
+        "Department of Ecology, Montana State University, 310 Lewis Hall, Bozeman, MT 59717, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Ecology, Montana State University, 310 Lewis Hall, Bozeman, MT 59717, USA.",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5039125614",
+        "display_name": "John A. Winnie",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John A. Winnie",
+      "raw_affiliation_strings": [
+        "Department of Ecology, Montana State University, 310 Lewis Hall, Bozeman, MT 59717, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Ecology, Montana State University, 310 Lewis Hall, Bozeman, MT 59717, USA.",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 20.199,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 592,
+  "citation_normalized_percentile": {
+    "value": 0.999939,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "315",
+    "issue": "5814",
+    "first_page": "960",
+    "last_page": "960"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10199",
+    "display_name": "Wildlife Ecology and Conservation",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2303",
+      "display_name": "Ecology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10199",
+      "display_name": "Wildlife Ecology and Conservation",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13388",
+      "display_name": "Rangeland and Wildlife Management",
+      "score": 0.9963,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14039",
+      "display_name": "Ecology and biodiversity studies",
+      "score": 0.9938,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/cervus-elaphus",
+      "display_name": "Cervus elaphus",
+      "score": 0.615684
+    },
+    {
+      "id": "https://openalex.org/keywords/vigilance",
+      "display_name": "Vigilance (psychology)",
+      "score": 0.60729957
+    },
+    {
+      "id": "https://openalex.org/keywords/reproductive-behavior",
+      "display_name": "Reproductive behavior",
+      "score": 0.54028106
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C188382862",
+      "wikidata": "https://www.wikidata.org/wiki/Q170430",
+      "display_name": "Predation",
+      "level": 2,
+      "score": 0.8032135
+    },
+    {
+      "id": "https://openalex.org/C2779557943",
+      "wikidata": "https://www.wikidata.org/wiki/Q149892",
+      "display_name": "Canis",
+      "level": 2,
+      "score": 0.7458323
+    },
+    {
+      "id": "https://openalex.org/C165287380",
+      "wikidata": "https://www.wikidata.org/wiki/Q2916569",
+      "display_name": "Foraging",
+      "level": 2,
+      "score": 0.7133542
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.6190229
+    },
+    {
+      "id": "https://openalex.org/C2992853004",
+      "wikidata": "https://www.wikidata.org/wiki/Q79794",
+      "display_name": "Cervus elaphus",
+      "level": 2,
+      "score": 0.615684
+    },
+    {
+      "id": "https://openalex.org/C192769605",
+      "wikidata": "https://www.wikidata.org/wiki/Q1418914",
+      "display_name": "Vigilance (psychology)",
+      "level": 2,
+      "score": 0.60729957
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.58862865
+    },
+    {
+      "id": "https://openalex.org/C2993959409",
+      "wikidata": "https://www.wikidata.org/wiki/Q11990",
+      "display_name": "Reproductive behavior",
+      "level": 5,
+      "score": 0.54028106
+    },
+    {
+      "id": "https://openalex.org/C117376503",
+      "wikidata": "https://www.wikidata.org/wiki/Q751093",
+      "display_name": "Reproductive success",
+      "level": 3,
+      "score": 0.50609654
+    },
+    {
+      "id": "https://openalex.org/C185933670",
+      "wikidata": "https://www.wikidata.org/wiki/Q52105",
+      "display_name": "Habitat",
+      "level": 2,
+      "score": 0.43654135
+    },
+    {
+      "id": "https://openalex.org/C59659247",
+      "wikidata": "https://www.wikidata.org/wiki/Q11990",
+      "display_name": "Reproduction",
+      "level": 2,
+      "score": 0.43432024
+    },
+    {
+      "id": "https://openalex.org/C90856448",
+      "wikidata": "https://www.wikidata.org/wiki/Q431",
+      "display_name": "Zoology",
+      "level": 1,
+      "score": 0.39980936
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.3207247
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.16691157
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C2779076696",
+      "wikidata": "https://www.wikidata.org/wiki/Q1280670",
+      "display_name": "Family planning",
+      "level": 4,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C2986817661",
+      "wikidata": "https://www.wikidata.org/wiki/Q185698",
+      "display_name": "Research methodology",
+      "level": 3,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003670",
+      "descriptor_name": "Deer",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011235",
+      "descriptor_name": "Predatory Behavior",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012098",
+      "descriptor_name": "Reproduction",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D019596",
+      "descriptor_name": "Wolves",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003670",
+      "descriptor_name": "Deer",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017753",
+      "descriptor_name": "Ecosystem",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004797",
+      "descriptor_name": "Enzyme-Linked Immunosorbent Assay",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005243",
+      "descriptor_name": "Feces",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011157",
+      "descriptor_name": "Population Dynamics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011374",
+      "descriptor_name": "Progesterone",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011374",
+      "descriptor_name": "Progesterone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012098",
+      "descriptor_name": "Reproduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1126/science.1135918",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S3880285",
+        "display_name": "Science",
+        "issn_l": "0036-8075",
+        "issn": [
+          "0036-8075",
+          "1095-9203"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315823",
+        "host_organization_name": "American Association for the Advancement of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315823"
+        ],
+        "host_organization_lineage_names": [
+          "American Association for the Advancement of Science"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17303746",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life on land",
+      "score": 0.49,
+      "id": "https://metadata.un.org/sdg/15"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 9,
+  "referenced_works": [
+    "https://openalex.org/W1998671593",
+    "https://openalex.org/W2001111909",
+    "https://openalex.org/W2037730049",
+    "https://openalex.org/W2071766388",
+    "https://openalex.org/W2116187739",
+    "https://openalex.org/W2133681478",
+    "https://openalex.org/W2138899304",
+    "https://openalex.org/W2161169328",
+    "https://openalex.org/W2191221691"
+  ],
+  "related_works": [
+    "https://openalex.org/W4226135481",
+    "https://openalex.org/W2911782604",
+    "https://openalex.org/W2522415235",
+    "https://openalex.org/W2141266408",
+    "https://openalex.org/W2136899986",
+    "https://openalex.org/W2109060393",
+    "https://openalex.org/W2066597123",
+    "https://openalex.org/W1989500393",
+    "https://openalex.org/W1943329232",
+    "https://openalex.org/W1903531955"
+  ],
+  "abstract_inverted_index": {
+    "Elk": [
+      0
+    ],
+    "(Cervus": [
+      1
+    ],
+    "elaphus)": [
+      2
+    ],
+    "in": [
+      3,
+      17,
+      76
+    ],
+    "the": [
+      4,
+      18,
+      59,
+      77,
+      88,
+      92,
+      97
+    ],
+    "Greater": [
+      5
+    ],
+    "Yellowstone": [
+      6
+    ],
+    "Ecosystem": [
+      7
+    ],
+    "alter": [
+      8
+    ],
+    "patterns": [
+      9
+    ],
+    "of": [
+      10,
+      20,
+      61,
+      73,
+      94,
+      99
+    ],
+    "aggregation,": [
+      11
+    ],
+    "habitat": [
+      12
+    ],
+    "selection,": [
+      13
+    ],
+    "vigilance,": [
+      14
+    ],
+    "and": [
+      15,
+      91
+    ],
+    "foraging": [
+      16
+    ],
+    "presence": [
+      19
+    ],
+    "wolves": [
+      21,
+      85
+    ],
+    "(Canis": [
+      22
+    ],
+    "lupus).": [
+      23
+    ],
+    "Antipredator": [
+      24
+    ],
+    "behaviors": [
+      25
+    ],
+    "like": [
+      26
+    ],
+    "these": [
+      27,
+      81
+    ],
+    "can": [
+      28
+    ],
+    "reduce": [
+      29
+    ],
+    "predation": [
+      30
+    ],
+    "risk": [
+      31
+    ],
+    "but": [
+      32
+    ],
+    "are": [
+      33
+    ],
+    "also": [
+      34
+    ],
+    "likely": [
+      35
+    ],
+    "to": [
+      36,
+      63
+    ],
+    "carry": [
+      37
+    ],
+    "costs.": [
+      38
+    ],
+    "Data": [
+      39
+    ],
+    "from": [
+      40
+    ],
+    "five": [
+      41
+    ],
+    "elk": [
+      42,
+      62,
+      95
+    ],
+    "populations": [
+      43
+    ],
+    "studied": [
+      44
+    ],
+    "for": [
+      45
+    ],
+    "16": [
+      46
+    ],
+    "site": [
+      47
+    ],
+    "years": [
+      48
+    ],
+    "showed": [
+      49
+    ],
+    "that": [
+      50,
+      84
+    ],
+    "progesterone": [
+      51,
+      67
+    ],
+    "concentrations": [
+      52,
+      68
+    ],
+    "(from": [
+      53
+    ],
+    "1489": [
+      54
+    ],
+    "fecal": [
+      55
+    ],
+    "samples)": [
+      56
+    ],
+    "declined": [
+      57
+    ],
+    "with": [
+      58
+    ],
+    "ratio": [
+      60
+    ],
+    "wolves.": [
+      64
+    ],
+    "In": [
+      65
+    ],
+    "turn,": [
+      66
+    ],
+    "were": [
+      69
+    ],
+    "a": [
+      70
+    ],
+    "good": [
+      71
+    ],
+    "predictor": [
+      72
+    ],
+    "calf": [
+      74
+    ],
+    "recruitment": [
+      75
+    ],
+    "subsequent": [
+      78
+    ],
+    "year.": [
+      79
+    ],
+    "Together,": [
+      80
+    ],
+    "data": [
+      82
+    ],
+    "suggest": [
+      83
+    ],
+    "indirectly": [
+      86
+    ],
+    "affect": [
+      87
+    ],
+    "reproductive": [
+      89
+    ],
+    "physiology": [
+      90
+    ],
+    "demography": [
+      93
+    ],
+    "through": [
+      96
+    ],
+    "costs": [
+      98
+    ],
+    "antipredator": [
+      100
+    ],
+    "behavior.": [
+      101
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2017329746",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 46
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 49
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 51
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 40
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 21
+    }
+  ],
+  "updated_date": "2025-06-11T13:27:52.300261",
+  "created_date": "2016-06-24"
+}

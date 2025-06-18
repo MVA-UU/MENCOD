@@ -1,0 +1,926 @@
+{
+  "id": "https://openalex.org/W2809119452",
+  "doi": "https://doi.org/10.1016/j.tics.2018.05.004",
+  "title": "Hippocampal Maturation Drives Memory from Generalization to Specificity",
+  "display_name": "Hippocampal Maturation Drives Memory from Generalization to Specificity",
+  "publication_year": 2018,
+  "publication_date": "2018-06-19",
+  "ids": {
+    "openalex": "https://openalex.org/W2809119452",
+    "doi": "https://doi.org/10.1016/j.tics.2018.05.004",
+    "mag": "2809119452",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/29934029",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/6086600"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.tics.2018.05.004",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S192051125",
+      "display_name": "Trends in Cognitive Sciences",
+      "issn_l": "1364-6613",
+      "issn": [
+        "1364-6613",
+        "1879-307X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.1016/j.tics.2018.05.004",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5073836639",
+        "display_name": "Attila Keresztes",
+        "orcid": "https://orcid.org/0000-0002-2115-9534"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210120221",
+          "display_name": "Max Planck Institute for Human Development",
+          "ror": "https://ror.org/02pp7px91",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210120221"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Attila Keresztes",
+      "raw_affiliation_strings": [
+        "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210120221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004765549",
+        "display_name": "Chi T. Ngo",
+        "orcid": "https://orcid.org/0000-0001-6962-7168"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84392919",
+          "display_name": "Temple University",
+          "ror": "https://ror.org/00kx1jb78",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84392919"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chi T. Ngo",
+      "raw_affiliation_strings": [
+        "Department of Psychology, Temple University, Philadelphia, PA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, Temple University, Philadelphia, PA, USA",
+          "institution_ids": [
+            "https://openalex.org/I84392919"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084761067",
+        "display_name": "Ulman Lindenberger",
+        "orcid": "https://orcid.org/0000-0001-8428-6453"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210120221",
+          "display_name": "Max Planck Institute for Human Development",
+          "ror": "https://ror.org/02pp7px91",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210120221"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ulman Lindenberger",
+      "raw_affiliation_strings": [
+        "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany",
+        "Max Planck–University College London (UCL) Centre for Computational Psychiatry and Ageing Research, London, England, and Berlin, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Max Planck–University College London (UCL) Centre for Computational Psychiatry and Ageing Research, London, England, and Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210120221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028523550",
+        "display_name": "Markus Werkle‐Bergner",
+        "orcid": "https://orcid.org/0000-0002-6399-9996"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210120221",
+          "display_name": "Max Planck Institute for Human Development",
+          "ror": "https://ror.org/02pp7px91",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210120221"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Markus Werkle-Bergner",
+      "raw_affiliation_strings": [
+        "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210120221"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5062148662",
+        "display_name": "Nora S. Newcombe",
+        "orcid": "https://orcid.org/0000-0002-7044-6046"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84392919",
+          "display_name": "Temple University",
+          "ror": "https://ror.org/00kx1jb78",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84392919"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nora S. Newcombe",
+      "raw_affiliation_strings": [
+        "Department of Psychology, Temple University, Philadelphia, PA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, Temple University, Philadelphia, PA, USA",
+          "institution_ids": [
+            "https://openalex.org/I84392919"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5073836639"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210120221"
+  ],
+  "apc_list": {
+    "value": 6830,
+    "currency": "USD",
+    "value_usd": 6830
+  },
+  "apc_paid": null,
+  "fwci": 2.32,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 151,
+  "citation_normalized_percentile": {
+    "value": 0.998555,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "22",
+    "issue": "8",
+    "first_page": "676",
+    "last_page": "686"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10448",
+    "display_name": "Memory and Neural Mechanisms",
+    "score": 0.9997,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10448",
+      "display_name": "Memory and Neural Mechanisms",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10077",
+      "display_name": "Neuroscience and Neuropharmacology Research",
+      "score": 0.993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2804",
+        "display_name": "Cellular and Molecular Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10918",
+      "display_name": "Memory Processes and Influences",
+      "score": 0.9851,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.83341426
+    },
+    {
+      "id": "https://openalex.org/C177148314",
+      "wikidata": "https://www.wikidata.org/wiki/Q170084",
+      "display_name": "Generalization",
+      "level": 2,
+      "score": 0.7952531
+    },
+    {
+      "id": "https://openalex.org/C88576662",
+      "wikidata": "https://www.wikidata.org/wiki/Q18646",
+      "display_name": "Episodic memory",
+      "level": 3,
+      "score": 0.640849
+    },
+    {
+      "id": "https://openalex.org/C180747234",
+      "wikidata": "https://www.wikidata.org/wiki/Q23373",
+      "display_name": "Cognitive psychology",
+      "level": 1,
+      "score": 0.54510933
+    },
+    {
+      "id": "https://openalex.org/C197914299",
+      "wikidata": "https://www.wikidata.org/wiki/Q18650",
+      "display_name": "Semantic memory",
+      "level": 3,
+      "score": 0.51407444
+    },
+    {
+      "id": "https://openalex.org/C2781161787",
+      "wikidata": "https://www.wikidata.org/wiki/Q48360",
+      "display_name": "Hippocampus",
+      "level": 2,
+      "score": 0.50302094
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.46917373
+    },
+    {
+      "id": "https://openalex.org/C58693492",
+      "wikidata": "https://www.wikidata.org/wiki/Q551875",
+      "display_name": "Neuroimaging",
+      "level": 2,
+      "score": 0.43712813
+    },
+    {
+      "id": "https://openalex.org/C2781291010",
+      "wikidata": "https://www.wikidata.org/wiki/Q178580",
+      "display_name": "Period (music)",
+      "level": 2,
+      "score": 0.42731923
+    },
+    {
+      "id": "https://openalex.org/C148762608",
+      "wikidata": "https://www.wikidata.org/wiki/Q3748185",
+      "display_name": "Hippocampal formation",
+      "level": 2,
+      "score": 0.42262122
+    },
+    {
+      "id": "https://openalex.org/C138496976",
+      "wikidata": "https://www.wikidata.org/wiki/Q175002",
+      "display_name": "Developmental psychology",
+      "level": 1,
+      "score": 0.41121572
+    },
+    {
+      "id": "https://openalex.org/C188147891",
+      "wikidata": "https://www.wikidata.org/wiki/Q147638",
+      "display_name": "Cognitive science",
+      "level": 1,
+      "score": 0.4060926
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.4054929
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D006624",
+      "descriptor_name": "Hippocampus",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006624",
+      "descriptor_name": "Hippocampus",
+      "qualifier_ui": "Q000254",
+      "qualifier_name": "growth & development",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008568",
+      "descriptor_name": "Memory",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006624",
+      "descriptor_name": "Hippocampus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006624",
+      "descriptor_name": "Hippocampus",
+      "qualifier_ui": "Q000000981",
+      "qualifier_name": "diagnostic imaging",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008568",
+      "descriptor_name": "Memory",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.tics.2018.05.004",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S192051125",
+        "display_name": "Trends in Cognitive Sciences",
+        "issn_l": "1364-6613",
+        "issn": [
+          "1364-6613",
+          "1879-307X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "publisher-specific-oa",
+      "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/21.11116/0000-0001-F85D-0",
+      "pdf_url": "https://pure.mpg.de/pubman/item/item_2634213_9/component/file_2636088/id10007795.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400655",
+        "display_name": "MPG.PuRe (Max Planck Society)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I149899117",
+        "host_organization_name": "Max Planck Society",
+        "host_organization_lineage": [
+          "https://openalex.org/I149899117"
+        ],
+        "host_organization_lineage_names": [
+          "Max Planck Society"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc6086600",
+      "pdf_url": "https://europepmc.org/articles/pmc6086600?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6086600",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29934029",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.tics.2018.05.004",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S192051125",
+      "display_name": "Trends in Cognitive Sciences",
+      "issn_l": "1364-6613",
+      "issn": [
+        "1364-6613",
+        "1879-307X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.71,
+      "id": "https://metadata.un.org/sdg/4",
+      "display_name": "Quality education"
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation",
+      "award_id": "SBE-1041707"
+    },
+    {
+      "funder": "https://openalex.org/F4320320879",
+      "funder_display_name": "Deutsche Forschungsgemeinschaft",
+      "award_id": "WE 4269/5-1"
+    },
+    {
+      "funder": "https://openalex.org/F4320322261",
+      "funder_display_name": "Jacobs Foundation",
+      "award_id": null
+    },
+    {
+      "funder": "https://openalex.org/F4320322434",
+      "funder_display_name": "Max-Planck-Gesellschaft",
+      "award_id": null
+    },
+    {
+      "funder": "https://openalex.org/F4320332161",
+      "funder_display_name": "National Institutes of Health",
+      "award_id": "F31HD090872"
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 99,
+  "referenced_works": [
+    "https://openalex.org/W1519522181",
+    "https://openalex.org/W1702555102",
+    "https://openalex.org/W1739514309",
+    "https://openalex.org/W1756907294",
+    "https://openalex.org/W1770921780",
+    "https://openalex.org/W1966903916",
+    "https://openalex.org/W1972569725",
+    "https://openalex.org/W1975078491",
+    "https://openalex.org/W1975326976",
+    "https://openalex.org/W1977694851",
+    "https://openalex.org/W1978985638",
+    "https://openalex.org/W1980576528",
+    "https://openalex.org/W1994184572",
+    "https://openalex.org/W1995233513",
+    "https://openalex.org/W1998281031",
+    "https://openalex.org/W2007316548",
+    "https://openalex.org/W2007823765",
+    "https://openalex.org/W2009995180",
+    "https://openalex.org/W2013859768",
+    "https://openalex.org/W2016454630",
+    "https://openalex.org/W2017773565",
+    "https://openalex.org/W2022686017",
+    "https://openalex.org/W2026040777",
+    "https://openalex.org/W2027289555",
+    "https://openalex.org/W2027864257",
+    "https://openalex.org/W2028655139",
+    "https://openalex.org/W2029616134",
+    "https://openalex.org/W2030028969",
+    "https://openalex.org/W2033200260",
+    "https://openalex.org/W2039840443",
+    "https://openalex.org/W2047057213",
+    "https://openalex.org/W2061426577",
+    "https://openalex.org/W2061956309",
+    "https://openalex.org/W2064864838",
+    "https://openalex.org/W2067065650",
+    "https://openalex.org/W2069329569",
+    "https://openalex.org/W2079185868",
+    "https://openalex.org/W2082807747",
+    "https://openalex.org/W2089127919",
+    "https://openalex.org/W2092284040",
+    "https://openalex.org/W2096523390",
+    "https://openalex.org/W2098531081",
+    "https://openalex.org/W2099751838",
+    "https://openalex.org/W2105089471",
+    "https://openalex.org/W2108500173",
+    "https://openalex.org/W2110468955",
+    "https://openalex.org/W2114437637",
+    "https://openalex.org/W2119051448",
+    "https://openalex.org/W2120249508",
+    "https://openalex.org/W2120434100",
+    "https://openalex.org/W2120485135",
+    "https://openalex.org/W2120731293",
+    "https://openalex.org/W2121077873",
+    "https://openalex.org/W2123765575",
+    "https://openalex.org/W2124190705",
+    "https://openalex.org/W2124995928",
+    "https://openalex.org/W2128162302",
+    "https://openalex.org/W2130156168",
+    "https://openalex.org/W2131414754",
+    "https://openalex.org/W2134946041",
+    "https://openalex.org/W2138796020",
+    "https://openalex.org/W2142931463",
+    "https://openalex.org/W2143437002",
+    "https://openalex.org/W2146008820",
+    "https://openalex.org/W2146473511",
+    "https://openalex.org/W2147988894",
+    "https://openalex.org/W2153776313",
+    "https://openalex.org/W2167438014",
+    "https://openalex.org/W2170321776",
+    "https://openalex.org/W2263005800",
+    "https://openalex.org/W2330839268",
+    "https://openalex.org/W2414430242",
+    "https://openalex.org/W2424347275",
+    "https://openalex.org/W2492533812",
+    "https://openalex.org/W2505524876",
+    "https://openalex.org/W2508031728",
+    "https://openalex.org/W2528419395",
+    "https://openalex.org/W2539685118",
+    "https://openalex.org/W2549355627",
+    "https://openalex.org/W2592124265",
+    "https://openalex.org/W2592502616",
+    "https://openalex.org/W2593071294",
+    "https://openalex.org/W2594230315",
+    "https://openalex.org/W2600856113",
+    "https://openalex.org/W2742369462",
+    "https://openalex.org/W2768692444",
+    "https://openalex.org/W2769564821",
+    "https://openalex.org/W2782702904",
+    "https://openalex.org/W2788096090",
+    "https://openalex.org/W2791814841",
+    "https://openalex.org/W2794123773",
+    "https://openalex.org/W2801815764",
+    "https://openalex.org/W2950982591",
+    "https://openalex.org/W4210852423",
+    "https://openalex.org/W4248797658",
+    "https://openalex.org/W635503170",
+    "https://openalex.org/W656639412",
+    "https://openalex.org/W889908523",
+    "https://openalex.org/W93657091"
+  ],
+  "related_works": [
+    "https://openalex.org/W4385683675",
+    "https://openalex.org/W2981452806",
+    "https://openalex.org/W2767373064",
+    "https://openalex.org/W2391750868",
+    "https://openalex.org/W2090370544",
+    "https://openalex.org/W2079185868",
+    "https://openalex.org/W2077013794",
+    "https://openalex.org/W2010080881",
+    "https://openalex.org/W1997975287",
+    "https://openalex.org/W17166845"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2809119452",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-02T10:11:04.845047",
+  "created_date": "2018-06-29"
+}

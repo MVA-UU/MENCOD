@@ -1,0 +1,977 @@
+{
+  "id": "https://openalex.org/W2559264028",
+  "doi": "https://doi.org/10.1016/j.vas.2016.11.001",
+  "title": "Evaluation of the welfare of cattle housed in outdoor feedlot pens",
+  "display_name": "Evaluation of the welfare of cattle housed in outdoor feedlot pens",
+  "publication_year": 2016,
+  "publication_date": "2016-11-30",
+  "ids": {
+    "openalex": "https://openalex.org/W2559264028",
+    "doi": "https://doi.org/10.1016/j.vas.2016.11.001",
+    "mag": "2559264028",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/32734021",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/7386639"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.vas.2016.11.001",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2898580889",
+      "display_name": "Veterinary and Animal Science",
+      "issn_l": "2451-943X",
+      "issn": [
+        "2451-943X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1016/j.vas.2016.11.001",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5013778650",
+        "display_name": "Temple Grandin",
+        "orcid": "https://orcid.org/0000-0001-7231-7101"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I92446798",
+          "display_name": "Colorado State University",
+          "ror": "https://ror.org/03k1gpj17",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I92446798"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Temple Grandin",
+      "raw_affiliation_strings": [
+        "Department of Animal Science, Colorado State University, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Animal Science, Colorado State University, USA",
+          "institution_ids": [
+            "https://openalex.org/I92446798"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5013778650"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I92446798"
+  ],
+  "apc_list": {
+    "value": 1800,
+    "currency": "USD",
+    "value_usd": 1800
+  },
+  "apc_paid": {
+    "value": 1800,
+    "currency": "USD",
+    "value_usd": 1800
+  },
+  "fwci": 0.747,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 70,
+  "citation_normalized_percentile": {
+    "value": 0.63388,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "1-2",
+    "issue": null,
+    "first_page": "23",
+    "last_page": "28"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12365",
+    "display_name": "Effects of Environmental Stressors on Livestock",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1103",
+      "display_name": "Animal Science and Zoology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12365",
+      "display_name": "Effects of Environmental Stressors on Livestock",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1103",
+        "display_name": "Animal Science and Zoology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10838",
+      "display_name": "Animal Behavior and Welfare Studies",
+      "score": 0.9954,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3404",
+        "display_name": "Small Animals"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/34",
+        "display_name": "Veterinary"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11259",
+      "display_name": "Agriculture Sustainability and Environmental Impact",
+      "score": 0.9438,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2303",
+        "display_name": "Ecology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/feedlot",
+      "display_name": "Feedlot",
+      "score": 0.6242372
+    },
+    {
+      "id": "https://openalex.org/keywords/beef-cattle",
+      "display_name": "Beef Cattle",
+      "score": 0.47357807
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C100243477",
+      "wikidata": "https://www.wikidata.org/wiki/Q12002092",
+      "display_name": "Welfare",
+      "level": 2,
+      "score": 0.664013
+    },
+    {
+      "id": "https://openalex.org/C523966790",
+      "wikidata": "https://www.wikidata.org/wiki/Q459426",
+      "display_name": "Animal welfare",
+      "level": 2,
+      "score": 0.639982
+    },
+    {
+      "id": "https://openalex.org/C2779329348",
+      "wikidata": "https://www.wikidata.org/wiki/Q1400937",
+      "display_name": "Feedlot",
+      "level": 2,
+      "score": 0.6242372
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.5594127
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.48289442
+    },
+    {
+      "id": "https://openalex.org/C2987418964",
+      "wikidata": "https://www.wikidata.org/wiki/Q242165",
+      "display_name": "Heat stress",
+      "level": 2,
+      "score": 0.47958937
+    },
+    {
+      "id": "https://openalex.org/C2780505807",
+      "wikidata": "https://www.wikidata.org/wiki/Q1208989",
+      "display_name": "Beef cattle",
+      "level": 2,
+      "score": 0.47357807
+    },
+    {
+      "id": "https://openalex.org/C37621935",
+      "wikidata": "https://www.wikidata.org/wiki/Q3606845",
+      "display_name": "Agricultural science",
+      "level": 1,
+      "score": 0.44408444
+    },
+    {
+      "id": "https://openalex.org/C140793950",
+      "wikidata": "https://www.wikidata.org/wiki/Q168091",
+      "display_name": "Animal science",
+      "level": 1,
+      "score": 0.37772202
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.3428409
+    },
+    {
+      "id": "https://openalex.org/C48824518",
+      "wikidata": "https://www.wikidata.org/wiki/Q396340",
+      "display_name": "Agricultural economics",
+      "level": 1,
+      "score": 0.33954826
+    },
+    {
+      "id": "https://openalex.org/C54286561",
+      "wikidata": "https://www.wikidata.org/wiki/Q397350",
+      "display_name": "Agroforestry",
+      "level": 1,
+      "score": 0.33652884
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.22501424
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.19741195
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.16798916
+    },
+    {
+      "id": "https://openalex.org/C34447519",
+      "wikidata": "https://www.wikidata.org/wiki/Q179522",
+      "display_name": "Market economy",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.vas.2016.11.001",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2898580889",
+        "display_name": "Veterinary and Animal Science",
+        "issn_l": "2451-943X",
+        "issn": [
+          "2451-943X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/bb720124b96b4ab8ae80ff8ee73a33e7",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7386639",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/32734021",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.vas.2016.11.001",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2898580889",
+      "display_name": "Veterinary and Animal Science",
+      "issn_l": "2451-943X",
+      "issn": [
+        "2451-943X"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 37,
+  "referenced_works": [
+    "https://openalex.org/W1279384",
+    "https://openalex.org/W1485051269",
+    "https://openalex.org/W1582337110",
+    "https://openalex.org/W1823334431",
+    "https://openalex.org/W1861759048",
+    "https://openalex.org/W1968835080",
+    "https://openalex.org/W1969916616",
+    "https://openalex.org/W1989691534",
+    "https://openalex.org/W2002336926",
+    "https://openalex.org/W2003142938",
+    "https://openalex.org/W2013232943",
+    "https://openalex.org/W2018756579",
+    "https://openalex.org/W2029359308",
+    "https://openalex.org/W2054126725",
+    "https://openalex.org/W2073058101",
+    "https://openalex.org/W2094134174",
+    "https://openalex.org/W2094704623",
+    "https://openalex.org/W2096603469",
+    "https://openalex.org/W2098548906",
+    "https://openalex.org/W2099320945",
+    "https://openalex.org/W2106198422",
+    "https://openalex.org/W2127239118",
+    "https://openalex.org/W2158380910",
+    "https://openalex.org/W2165778934",
+    "https://openalex.org/W2182891305",
+    "https://openalex.org/W2280814202",
+    "https://openalex.org/W2335307387",
+    "https://openalex.org/W2343771818",
+    "https://openalex.org/W2410986304",
+    "https://openalex.org/W2415864090",
+    "https://openalex.org/W2419016571",
+    "https://openalex.org/W2491184256",
+    "https://openalex.org/W2505902730",
+    "https://openalex.org/W2557198571",
+    "https://openalex.org/W2558798079",
+    "https://openalex.org/W4291746639",
+    "https://openalex.org/W63679894"
+  ],
+  "related_works": [
+    "https://openalex.org/W4396651552",
+    "https://openalex.org/W4394154925",
+    "https://openalex.org/W4225793583",
+    "https://openalex.org/W3125226394",
+    "https://openalex.org/W3121264922",
+    "https://openalex.org/W304470081",
+    "https://openalex.org/W2955479198",
+    "https://openalex.org/W2073870453",
+    "https://openalex.org/W1492700288",
+    "https://openalex.org/W1483434756"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      107
+    ],
+    "use": [
+      1
+    ],
+    "of": [
+      2,
+      10,
+      17,
+      42,
+      73,
+      99,
+      116,
+      159,
+      170
+    ],
+    "open": [
+      3,
+      154
+    ],
+    "outdoor": [
+      4,
+      28
+    ],
+    "feedlots": [
+      5
+    ],
+    "for": [
+      6,
+      164
+    ],
+    "housing": [
+      7,
+      43
+    ],
+    "large": [
+      8,
+      27,
+      114
+    ],
+    "numbers": [
+      9,
+      115
+    ],
+    "cattle": [
+      11,
+      23,
+      46,
+      85,
+      151,
+      171
+    ],
+    "is": [
+      12,
+      44,
+      62,
+      80,
+      91,
+      110,
+      122,
+      131
+    ],
+    "increasing": [
+      13
+    ],
+    "in": [
+      14,
+      26,
+      58,
+      153
+    ],
+    "many": [
+      15
+    ],
+    "parts": [
+      16,
+      72,
+      98
+    ],
+    "the": [
+      18,
+      53,
+      67,
+      74,
+      100,
+      119
+    ],
+    "world.": [
+      19
+    ],
+    "In": [
+      20,
+      70,
+      118
+    ],
+    "these": [
+      21
+    ],
+    "systems": [
+      22
+    ],
+    "are": [
+      24,
+      96,
+      139
+    ],
+    "kept": [
+      25
+    ],
+    "pens": [
+      29
+    ],
+    "on": [
+      30
+    ],
+    "a": [
+      31
+    ],
+    "soil": [
+      32
+    ],
+    "surface.": [
+      33
+    ],
+    "One": [
+      34
+    ],
+    "major": [
+      35,
+      141
+    ],
+    "welfare": [
+      36,
+      152
+    ],
+    "concern": [
+      37
+    ],
+    "associated": [
+      38
+    ],
+    "with": [
+      39,
+      76
+    ],
+    "this": [
+      40,
+      121
+    ],
+    "type": [
+      41
+    ],
+    "keeping": [
+      45
+    ],
+    "clean": [
+      47,
+      86
+    ],
+    "and": [
+      48,
+      87,
+      94,
+      112,
+      167
+    ],
+    "preventing": [
+      49
+    ],
+    "muddy": [
+      50
+    ],
+    "conditions.": [
+      51
+    ],
+    "If": [
+      52
+    ],
+    "annual": [
+      54
+    ],
+    "rainfall": [
+      55
+    ],
+    "exceeds": [
+      56
+    ],
+    "20": [
+      57
+    ],
+    "(51": [
+      59
+    ],
+    "cm).": [
+      60
+    ],
+    "It": [
+      61
+    ],
+    "more": [
+      63,
+      133
+    ],
+    "difficult": [
+      64
+    ],
+    "to": [
+      65,
+      83,
+      149
+    ],
+    "keep": [
+      66,
+      84
+    ],
+    "surface": [
+      68
+    ],
+    "dry.": [
+      69,
+      88
+    ],
+    "dry": [
+      71
+    ],
+    "world": [
+      75,
+      101
+    ],
+    "low": [
+      77
+    ],
+    "rainfall,": [
+      78
+    ],
+    "it": [
+      79
+    ],
+    "much": [
+      81
+    ],
+    "easier": [
+      82
+    ],
+    "Another": [
+      89
+    ],
+    "issue": [
+      90,
+      109
+    ],
+    "heat": [
+      92,
+      165
+    ],
+    "stress,": [
+      93
+    ],
+    "there": [
+      95
+    ],
+    "warmer": [
+      97
+    ],
+    "where": [
+      102,
+      125
+    ],
+    "shade": [
+      103
+    ],
+    "may": [
+      104
+    ],
+    "be": [
+      105,
+      147
+    ],
+    "required.": [
+      106
+    ],
+    "third": [
+      108
+    ],
+    "handling": [
+      111,
+      172
+    ],
+    "vaccinating": [
+      113
+    ],
+    "cattle.": [
+      117
+    ],
+    "U.S.": [
+      120
+    ],
+    "an": [
+      123
+    ],
+    "area": [
+      124
+    ],
+    "conditions": [
+      126
+    ],
+    "have": [
+      127
+    ],
+    "improved": [
+      128
+    ],
+    "because": [
+      129
+    ],
+    "management": [
+      130
+    ],
+    "now": [
+      132
+    ],
+    "aware": [
+      134
+    ],
+    "about": [
+      135
+    ],
+    "animal": [
+      136
+    ],
+    "welfare.": [
+      137
+    ],
+    "There": [
+      138
+    ],
+    "three": [
+      140
+    ],
+    "outcome": [
+      142
+    ],
+    "based": [
+      143
+    ],
+    "measurements": [
+      144
+    ],
+    "that": [
+      145
+    ],
+    "should": [
+      146
+    ],
+    "used": [
+      148
+    ],
+    "assess": [
+      150
+    ],
+    "feedlots.": [
+      155
+    ],
+    "They": [
+      156
+    ],
+    "are:": [
+      157
+    ],
+    "scoring": [
+      158,
+      163,
+      169
+    ],
+    "hide": [
+      160
+    ],
+    "cleanliness,": [
+      161
+    ],
+    "panting": [
+      162
+    ],
+    "stress": [
+      166
+    ],
+    "numerical": [
+      168
+    ],
+    "practices.": [
+      173
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2559264028",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-18T05:51:52.722313",
+  "created_date": "2016-12-08"
+}

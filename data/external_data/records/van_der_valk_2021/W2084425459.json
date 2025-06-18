@@ -1,0 +1,958 @@
+{
+  "id": "https://openalex.org/W2084425459",
+  "doi": "https://doi.org/10.2174/1381612033455369",
+  "title": "Leptin: From Animals to Humans",
+  "display_name": "Leptin: From Animals to Humans",
+  "publication_year": 2003,
+  "publication_date": "2003-04-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2084425459",
+    "doi": "https://doi.org/10.2174/1381612033455369",
+    "mag": "2084425459",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/12678880"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.2174/1381612033455369",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S55674637",
+      "display_name": "Current Pharmaceutical Design",
+      "issn_l": "1381-6128",
+      "issn": [
+        "1381-6128",
+        "1873-4286"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320079",
+      "host_organization_name": "Bentham Science Publishers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320079"
+      ],
+      "host_organization_lineage_names": [
+        "Bentham Science Publishers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5012830823",
+        "display_name": "Murielle M. Véniant",
+        "orcid": "https://orcid.org/0000-0002-1881-8252"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1320553840",
+          "display_name": "Amgen (United States)",
+          "ror": "https://ror.org/03g03ge92",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1320553840"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Murielle Veniant",
+      "raw_affiliation_strings": [
+        "Amgen Inc., One Amgen Center Drive, Thousand Oaks, CA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Amgen Inc., One Amgen Center Drive, Thousand Oaks, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I1320553840"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5113489125",
+        "display_name": "Carl LeBel",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Carl LeBel",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.961,
+  "has_fulltext": false,
+  "cited_by_count": 43,
+  "citation_normalized_percentile": {
+    "value": 0.318436,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 91,
+    "max": 92
+  },
+  "biblio": {
+    "volume": "9",
+    "issue": "10",
+    "first_page": "811",
+    "last_page": "818"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10489",
+    "display_name": "Regulation of Appetite and Obesity",
+    "score": 0.9946,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2807",
+      "display_name": "Endocrine and Autonomic Systems"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10489",
+      "display_name": "Regulation of Appetite and Obesity",
+      "score": 0.9946,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2807",
+        "display_name": "Endocrine and Autonomic Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10528",
+      "display_name": "Adipokines, Inflammation, and Metabolic Diseases",
+      "score": 0.902,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/leptin-receptor",
+      "display_name": "Leptin receptor",
+      "score": 0.43153155
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780613262",
+      "wikidata": "https://www.wikidata.org/wiki/Q223739",
+      "display_name": "Leptin",
+      "level": 3,
+      "score": 0.9575722
+    },
+    {
+      "id": "https://openalex.org/C75908981",
+      "wikidata": "https://www.wikidata.org/wiki/Q28578",
+      "display_name": "Appetite",
+      "level": 2,
+      "score": 0.70402265
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.693475
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.66679776
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.55231667
+    },
+    {
+      "id": "https://openalex.org/C171089720",
+      "wikidata": "https://www.wikidata.org/wiki/Q193583",
+      "display_name": "Adipose tissue",
+      "level": 2,
+      "score": 0.5419195
+    },
+    {
+      "id": "https://openalex.org/C555293320",
+      "wikidata": "https://www.wikidata.org/wiki/Q12206",
+      "display_name": "Diabetes mellitus",
+      "level": 2,
+      "score": 0.5276488
+    },
+    {
+      "id": "https://openalex.org/C2777391703",
+      "wikidata": "https://www.wikidata.org/wiki/Q1053470",
+      "display_name": "Insulin resistance",
+      "level": 3,
+      "score": 0.52138454
+    },
+    {
+      "id": "https://openalex.org/C151279926",
+      "wikidata": "https://www.wikidata.org/wiki/Q965695",
+      "display_name": "Thermogenesis",
+      "level": 3,
+      "score": 0.5210573
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.48546723
+    },
+    {
+      "id": "https://openalex.org/C8891405",
+      "wikidata": "https://www.wikidata.org/wiki/Q1059",
+      "display_name": "Immune system",
+      "level": 2,
+      "score": 0.46264777
+    },
+    {
+      "id": "https://openalex.org/C194832188",
+      "wikidata": "https://www.wikidata.org/wiki/Q2638593",
+      "display_name": "Adipokine",
+      "level": 4,
+      "score": 0.45873466
+    },
+    {
+      "id": "https://openalex.org/C2779306644",
+      "wikidata": "https://www.wikidata.org/wiki/Q2002370",
+      "display_name": "Insulin",
+      "level": 2,
+      "score": 0.4510722
+    },
+    {
+      "id": "https://openalex.org/C14372207",
+      "wikidata": "https://www.wikidata.org/wiki/Q7072306",
+      "display_name": "Leptin receptor",
+      "level": 4,
+      "score": 0.43153155
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.35656
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.116247356
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D020738",
+      "descriptor_name": "Leptin",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020738",
+      "descriptor_name": "Leptin",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003920",
+      "descriptor_name": "Diabetes Mellitus",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003920",
+      "descriptor_name": "Diabetes Mellitus",
+      "qualifier_ui": "Q000188",
+      "qualifier_name": "drug therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003920",
+      "descriptor_name": "Diabetes Mellitus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020738",
+      "descriptor_name": "Leptin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008099",
+      "descriptor_name": "Liver",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008099",
+      "descriptor_name": "Liver",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009132",
+      "descriptor_name": "Muscles",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009132",
+      "descriptor_name": "Muscles",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009474",
+      "descriptor_name": "Neurons",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009474",
+      "descriptor_name": "Neurons",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000188",
+      "qualifier_name": "drug therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.2174/1381612033455369",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S55674637",
+        "display_name": "Current Pharmaceutical Design",
+        "issn_l": "1381-6128",
+        "issn": [
+          "1381-6128",
+          "1873-4286"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320079",
+        "host_organization_name": "Bentham Science Publishers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320079"
+        ],
+        "host_organization_lineage_names": [
+          "Bentham Science Publishers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/12678880",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "score": 0.81,
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4232619525",
+    "https://openalex.org/W2899163261",
+    "https://openalex.org/W2375432642",
+    "https://openalex.org/W2348811830",
+    "https://openalex.org/W2348553193",
+    "https://openalex.org/W2109898272",
+    "https://openalex.org/W2099469352",
+    "https://openalex.org/W2082724406",
+    "https://openalex.org/W2079596702",
+    "https://openalex.org/W2016675613"
+  ],
+  "abstract_inverted_index": {
+    "Leptin": [
+      0
+    ],
+    "has": [
+      1,
+      56,
+      141,
+      163
+    ],
+    "been": [
+      2,
+      164
+    ],
+    "shown": [
+      3,
+      143,
+      165
+    ],
+    "to": [
+      4,
+      64,
+      166
+    ],
+    "have": [
+      5,
+      167
+    ],
+    "a": [
+      6,
+      28,
+      59,
+      81,
+      102
+    ],
+    "wide": [
+      7
+    ],
+    "repertoire": [
+      8
+    ],
+    "of": [
+      9,
+      13,
+      43,
+      54,
+      118,
+      157
+    ],
+    "peripheral": [
+      10,
+      50
+    ],
+    "effects,": [
+      11
+    ],
+    "some": [
+      12,
+      42
+    ],
+    "which": [
+      14
+    ],
+    "are": [
+      15,
+      25
+    ],
+    "mediated": [
+      16
+    ],
+    "through": [
+      17,
+      27
+    ],
+    "the": [
+      18,
+      74,
+      116
+    ],
+    "central": [
+      19
+    ],
+    "nervous": [
+      20
+    ],
+    "system": [
+      21,
+      76
+    ],
+    "and": [
+      22,
+      77,
+      96,
+      98,
+      127,
+      173,
+      175
+    ],
+    "others": [
+      23
+    ],
+    "that": [
+      24,
+      39
+    ],
+    "induced": [
+      26
+    ],
+    "direct": [
+      29,
+      89
+    ],
+    "action": [
+      30
+    ],
+    "on": [
+      31,
+      49,
+      66,
+      91,
+      170
+    ],
+    "target": [
+      32
+    ],
+    "tissues.": [
+      33,
+      51
+    ],
+    "There": [
+      34
+    ],
+    "is": [
+      35
+    ],
+    "now": [
+      36
+    ],
+    "evidence": [
+      37,
+      87,
+      108
+    ],
+    "showing": [
+      38
+    ],
+    "leptin": [
+      40,
+      55,
+      110,
+      121,
+      132,
+      140,
+      158,
+      162
+    ],
+    "exerts": [
+      41
+    ],
+    "its": [
+      44
+    ],
+    "metabolic": [
+      45,
+      99
+    ],
+    "effects": [
+      46,
+      65,
+      90,
+      117,
+      145,
+      169
+    ],
+    "acting": [
+      47
+    ],
+    "directly": [
+      48
+    ],
+    "The": [
+      52
+    ],
+    "role": [
+      53
+    ],
+    "expanded": [
+      57
+    ],
+    "from": [
+      58
+    ],
+    "narrow": [
+      60
+    ],
+    "position": [
+      61
+    ],
+    "in": [
+      62,
+      80,
+      122,
+      128,
+      146,
+      155
+    ],
+    "obesity": [
+      63
+    ],
+    "biological": [
+      67
+    ],
+    "processes,": [
+      68
+    ],
+    "such": [
+      69
+    ],
+    "as": [
+      70
+    ],
+    "diabetes,": [
+      71
+    ],
+    "appetite,": [
+      72
+    ],
+    "thermogenesis,": [
+      73
+    ],
+    "immune": [
+      75
+    ],
+    "reproduction.": [
+      78
+    ],
+    "Here": [
+      79
+    ],
+    "first": [
+      82
+    ],
+    "part,": [
+      83
+    ],
+    "we": [
+      84,
+      105,
+      114
+    ],
+    "review": [
+      85,
+      106,
+      115
+    ],
+    "preclinical": [
+      86
+    ],
+    "for": [
+      88,
+      109
+    ],
+    "specific": [
+      92
+    ],
+    "tissues": [
+      93
+    ],
+    "(neurons,": [
+      94
+    ],
+    "liver": [
+      95
+    ],
+    "muscle)": [
+      97
+    ],
+    "pathways.": [
+      100
+    ],
+    "In": [
+      101,
+      112
+    ],
+    "second": [
+      103
+    ],
+    "part": [
+      104
+    ],
+    "clinical": [
+      107
+    ],
+    "effects.": [
+      111
+    ],
+    "particular": [
+      113
+    ],
+    "recombinant": [
+      119
+    ],
+    "human": [
+      120
+    ],
+    "lean,": [
+      123
+    ],
+    "obese,": [
+      124
+    ],
+    "diabetic": [
+      125,
+      149
+    ],
+    "subjects": [
+      126,
+      150
+    ],
+    "patients": [
+      129
+    ],
+    "with": [
+      130,
+      151,
+      161
+    ],
+    "congenital": [
+      131
+    ],
+    "deficiency": [
+      133,
+      159
+    ],
+    "or": [
+      134
+    ],
+    "lipoatrophic": [
+      135
+    ],
+    "diabetes.": [
+      136
+    ],
+    "Additionally,": [
+      137
+    ],
+    "while": [
+      138
+    ],
+    "clinic": [
+      139
+    ],
+    "not": [
+      142
+    ],
+    "dramatic": [
+      144
+    ],
+    "obese": [
+      147
+    ],
+    "/": [
+      148
+    ],
+    "measurable": [
+      152
+    ],
+    "serum": [
+      153
+    ],
+    "leptin,": [
+      154
+    ],
+    "states": [
+      156
+    ],
+    "treatment": [
+      160
+    ],
+    "profound": [
+      168
+    ],
+    "body": [
+      171
+    ],
+    "weight": [
+      172
+    ],
+    "appetite": [
+      174
+    ],
+    "insulin": [
+      176
+    ],
+    "resistance.": [
+      177
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2084425459",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-05-18T12:18:37.999475",
+  "created_date": "2016-06-24"
+}

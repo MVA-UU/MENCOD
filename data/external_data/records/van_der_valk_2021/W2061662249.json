@@ -1,0 +1,1363 @@
+{
+  "id": "https://openalex.org/W2061662249",
+  "doi": "https://doi.org/10.1098/rstb.2013.0526",
+  "title": "Reconfigurable task-dependent functional coupling modes cluster around a core functional architecture",
+  "display_name": "Reconfigurable task-dependent functional coupling modes cluster around a core functional architecture",
+  "publication_year": 2014,
+  "publication_date": "2014-09-02",
+  "ids": {
+    "openalex": "https://openalex.org/W2061662249",
+    "doi": "https://doi.org/10.1098/rstb.2013.0526",
+    "mag": "2061662249",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/25180304",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/4150301"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1098/rstb.2013.0526",
+    "pdf_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2013.0526",
+    "source": {
+      "id": "https://openalex.org/S91660768",
+      "display_name": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "issn_l": "0962-8436",
+      "issn": [
+        "0962-8436",
+        "1471-2970"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319787",
+      "host_organization_name": "Royal Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319787"
+      ],
+      "host_organization_lineage_names": [
+        "Royal Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2013.0526",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5021464178",
+        "display_name": "Fenna M. Krienen",
+        "orcid": "https://orcid.org/0000-0002-1400-6820"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210127055",
+          "display_name": "Athinoula A. Martinos Center for Biomedical Imaging",
+          "ror": "https://ror.org/032q5ym94",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210127055",
+            "https://openalex.org/I48633490",
+            "https://openalex.org/I63966007"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Fenna M. Krienen",
+      "raw_affiliation_strings": [
+        "Athinoula A. Martinos Center for Biomedical Imaging, Department of Radiology, Massachusetts General Hospital, Charlestown, MA, USA",
+        "Department of Psychology, Center for Brain Science, Harvard University, Cambridge, MA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, Center for Brain Science, Harvard University, Cambridge, MA, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Athinoula A. Martinos Center for Biomedical Imaging, Department of Radiology, Massachusetts General Hospital, Charlestown, MA, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210127055",
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016198416",
+        "display_name": "B.T. Thomas Yeo",
+        "orcid": "https://orcid.org/0000-0002-0119-3276"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I165932596",
+          "display_name": "National University of Singapore",
+          "ror": "https://ror.org/01tgyzw49",
+          "country_code": "SG",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I165932596"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210127055",
+          "display_name": "Athinoula A. Martinos Center for Biomedical Imaging",
+          "ror": "https://ror.org/032q5ym94",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210127055",
+            "https://openalex.org/I48633490",
+            "https://openalex.org/I63966007"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210126319",
+          "display_name": "Duke-NUS Medical School",
+          "ror": "https://ror.org/02j1m6098",
+          "country_code": "SG",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I165932596",
+            "https://openalex.org/I170897317",
+            "https://openalex.org/I4210126319"
+          ]
+        }
+      ],
+      "countries": [
+        "SG",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "B. T. Thomas Yeo",
+      "raw_affiliation_strings": [
+        "Athinoula A. Martinos Center for Biomedical Imaging, Department of Radiology, Massachusetts General Hospital, Charlestown, MA, USA",
+        "Center for Cognitive Neuroscience, Duke-NUS Graduate Medical School, Singapore",
+        "Department of Electrical and Computer Engineering, Clinical Imaging Research Center &amp; Singapore Institute of Neurotechnology, National University of Singapore, Singapore"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Athinoula A. Martinos Center for Biomedical Imaging, Department of Radiology, Massachusetts General Hospital, Charlestown, MA, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210127055"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Electrical and Computer Engineering, Clinical Imaging Research Center &amp; Singapore Institute of Neurotechnology, National University of Singapore, Singapore",
+          "institution_ids": [
+            "https://openalex.org/I165932596"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for Cognitive Neuroscience, Duke-NUS Graduate Medical School, Singapore",
+          "institution_ids": [
+            "https://openalex.org/I4210126319"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5048946975",
+        "display_name": "Randy L. Buckner",
+        "orcid": "https://orcid.org/0000-0001-6422-8037"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210127055",
+          "display_name": "Athinoula A. Martinos Center for Biomedical Imaging",
+          "ror": "https://ror.org/032q5ym94",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984",
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I4210127055",
+            "https://openalex.org/I48633490",
+            "https://openalex.org/I63966007"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Randy L. Buckner",
+      "raw_affiliation_strings": [
+        "Athinoula A. Martinos Center for Biomedical Imaging, Department of Radiology, Massachusetts General Hospital, Charlestown, MA, USA",
+        "Department of Psychiatry, Massachusetts General Hospital, Boston, MA, USA",
+        "Department of Psychology, Center for Brain Science, Harvard University, Cambridge, MA, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, Center for Brain Science, Harvard University, Cambridge, MA, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Athinoula A. Martinos Center for Biomedical Imaging, Department of Radiology, Massachusetts General Hospital, Charlestown, MA, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210127055",
+            "https://openalex.org/I4210087915"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Psychiatry, Massachusetts General Hospital, Boston, MA, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 12.341,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 404,
+  "citation_normalized_percentile": {
+    "value": 0.999936,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "369",
+    "issue": "1653",
+    "first_page": "20130526",
+    "last_page": "20130526"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10241",
+    "display_name": "Functional Brain Connectivity Studies",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10581",
+      "display_name": "Neural dynamics and brain function",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "score": 0.9986,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/coactivation",
+      "display_name": "Coactivation",
+      "score": 0.6155718
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780060146",
+      "wikidata": "https://www.wikidata.org/wiki/Q637488",
+      "display_name": "Coactivation",
+      "level": 3,
+      "score": 0.6155718
+    },
+    {
+      "id": "https://openalex.org/C146249460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2914991",
+      "display_name": "Fixation (population genetics)",
+      "level": 3,
+      "score": 0.5655237
+    },
+    {
+      "id": "https://openalex.org/C3018011982",
+      "wikidata": "https://www.wikidata.org/wiki/Q7316120",
+      "display_name": "Functional connectivity",
+      "level": 2,
+      "score": 0.5423745
+    },
+    {
+      "id": "https://openalex.org/C2780451532",
+      "wikidata": "https://www.wikidata.org/wiki/Q759676",
+      "display_name": "Task (project management)",
+      "level": 2,
+      "score": 0.5200422
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5118841
+    },
+    {
+      "id": "https://openalex.org/C131584629",
+      "wikidata": "https://www.wikidata.org/wiki/Q4308705",
+      "display_name": "Coupling (piping)",
+      "level": 2,
+      "score": 0.5027795
+    },
+    {
+      "id": "https://openalex.org/C2779226451",
+      "wikidata": "https://www.wikidata.org/wiki/Q903809",
+      "display_name": "Functional magnetic resonance imaging",
+      "level": 2,
+      "score": 0.42728096
+    },
+    {
+      "id": "https://openalex.org/C164380108",
+      "wikidata": "https://www.wikidata.org/wiki/Q507187",
+      "display_name": "Attractor",
+      "level": 2,
+      "score": 0.42382246
+    },
+    {
+      "id": "https://openalex.org/C164866538",
+      "wikidata": "https://www.wikidata.org/wiki/Q367351",
+      "display_name": "Cluster (spacecraft)",
+      "level": 2,
+      "score": 0.4236755
+    },
+    {
+      "id": "https://openalex.org/C141516989",
+      "wikidata": "https://www.wikidata.org/wiki/Q1182555",
+      "display_name": "Default mode network",
+      "level": 3,
+      "score": 0.4215095
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.3991921
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.3205284
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.13837537
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C187736073",
+      "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+      "display_name": "Management",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C2777515770",
+      "wikidata": "https://www.wikidata.org/wiki/Q507369",
+      "display_name": "Electromyography",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000033",
+      "qualifier_name": "anatomy & histology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D063132",
+      "descriptor_name": "Connectome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010465",
+      "descriptor_name": "Perception",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011597",
+      "descriptor_name": "Psychomotor Performance",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016000",
+      "descriptor_name": "Cluster Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016014",
+      "descriptor_name": "Linear Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010465",
+      "descriptor_name": "Perception",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010812",
+      "descriptor_name": "Physical Stimulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011597",
+      "descriptor_name": "Psychomotor Performance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014936",
+      "descriptor_name": "Word Association Tests",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1098/rstb.2013.0526",
+      "pdf_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2013.0526",
+      "source": {
+        "id": "https://openalex.org/S91660768",
+        "display_name": "Philosophical Transactions of the Royal Society B Biological Sciences",
+        "issn_l": "0962-8436",
+        "issn": [
+          "0962-8436",
+          "1471-2970"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319787",
+        "host_organization_name": "Royal Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319787"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc4150301",
+      "pdf_url": "https://europepmc.org/articles/pmc4150301?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4150301",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/25180304",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1098/rstb.2013.0526",
+    "pdf_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2013.0526",
+    "source": {
+      "id": "https://openalex.org/S91660768",
+      "display_name": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "issn_l": "0962-8436",
+      "issn": [
+        "0962-8436",
+        "1471-2970"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319787",
+      "host_organization_name": "Royal Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319787"
+      ],
+      "host_organization_lineage_names": [
+        "Royal Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 82,
+  "referenced_works": [
+    "https://openalex.org/W1523224409",
+    "https://openalex.org/W1964290461",
+    "https://openalex.org/W1967064349",
+    "https://openalex.org/W1968187292",
+    "https://openalex.org/W1978760166",
+    "https://openalex.org/W1983485726",
+    "https://openalex.org/W1983834115",
+    "https://openalex.org/W1985728900",
+    "https://openalex.org/W1987638762",
+    "https://openalex.org/W1988366576",
+    "https://openalex.org/W2000567868",
+    "https://openalex.org/W2002660165",
+    "https://openalex.org/W2002923643",
+    "https://openalex.org/W2006096283",
+    "https://openalex.org/W2011810082",
+    "https://openalex.org/W2020044743",
+    "https://openalex.org/W2021803760",
+    "https://openalex.org/W2025948872",
+    "https://openalex.org/W2027063265",
+    "https://openalex.org/W2028467924",
+    "https://openalex.org/W2028645759",
+    "https://openalex.org/W2028722600",
+    "https://openalex.org/W2032970627",
+    "https://openalex.org/W2045758998",
+    "https://openalex.org/W2050717100",
+    "https://openalex.org/W2051747359",
+    "https://openalex.org/W2052644075",
+    "https://openalex.org/W2056869312",
+    "https://openalex.org/W2058765104",
+    "https://openalex.org/W2058938311",
+    "https://openalex.org/W2061170062",
+    "https://openalex.org/W2061564920",
+    "https://openalex.org/W2063993331",
+    "https://openalex.org/W2067456724",
+    "https://openalex.org/W2069908974",
+    "https://openalex.org/W2077644748",
+    "https://openalex.org/W2079450984",
+    "https://openalex.org/W2085462417",
+    "https://openalex.org/W2089572795",
+    "https://openalex.org/W2094426896",
+    "https://openalex.org/W2094561056",
+    "https://openalex.org/W2100025300",
+    "https://openalex.org/W2101219946",
+    "https://openalex.org/W2101571519",
+    "https://openalex.org/W2104731571",
+    "https://openalex.org/W2107360535",
+    "https://openalex.org/W2107627409",
+    "https://openalex.org/W2112550501",
+    "https://openalex.org/W2116658855",
+    "https://openalex.org/W2117914711",
+    "https://openalex.org/W2118693417",
+    "https://openalex.org/W2119744326",
+    "https://openalex.org/W2120129619",
+    "https://openalex.org/W2124141514",
+    "https://openalex.org/W2124698428",
+    "https://openalex.org/W2124757386",
+    "https://openalex.org/W2125006647",
+    "https://openalex.org/W2126136676",
+    "https://openalex.org/W2126650951",
+    "https://openalex.org/W2126838454",
+    "https://openalex.org/W2127186958",
+    "https://openalex.org/W2132130244",
+    "https://openalex.org/W2132175842",
+    "https://openalex.org/W2133299302",
+    "https://openalex.org/W2137526583",
+    "https://openalex.org/W2138173706",
+    "https://openalex.org/W2140203142",
+    "https://openalex.org/W2142360036",
+    "https://openalex.org/W2143909130",
+    "https://openalex.org/W2147401077",
+    "https://openalex.org/W2148601705",
+    "https://openalex.org/W2150442066",
+    "https://openalex.org/W2156418307",
+    "https://openalex.org/W2160115430",
+    "https://openalex.org/W2161102393",
+    "https://openalex.org/W2163005465",
+    "https://openalex.org/W2164839939",
+    "https://openalex.org/W2170422206",
+    "https://openalex.org/W2170639482",
+    "https://openalex.org/W2335434821",
+    "https://openalex.org/W4235770099",
+    "https://openalex.org/W4295750005"
+  ],
+  "related_works": [
+    "https://openalex.org/W4253292488",
+    "https://openalex.org/W4235156188",
+    "https://openalex.org/W3205149984",
+    "https://openalex.org/W2979593753",
+    "https://openalex.org/W2735521735",
+    "https://openalex.org/W2598004201",
+    "https://openalex.org/W2590240334",
+    "https://openalex.org/W2332917244",
+    "https://openalex.org/W2042557239",
+    "https://openalex.org/W1998445680"
+  ],
+  "abstract_inverted_index": {
+    "Functional": [
+      0
+    ],
+    "coupling": [
+      1,
+      26,
+      96,
+      109,
+      140
+    ],
+    "across": [
+      2,
+      7,
+      34,
+      54,
+      87
+    ],
+    "distributed": [
+      3
+    ],
+    "brain": [
+      4
+    ],
+    "regions": [
+      5
+    ],
+    "varies": [
+      6
+    ],
+    "task": [
+      8,
+      39,
+      63,
+      76,
+      90,
+      103
+    ],
+    "contexts,": [
+      9
+    ],
+    "yet": [
+      10
+    ],
+    "there": [
+      11
+    ],
+    "are": [
+      12
+    ],
+    "stable": [
+      13
+    ],
+    "features.": [
+      14
+    ],
+    "To": [
+      15
+    ],
+    "better": [
+      16
+    ],
+    "understand": [
+      17
+    ],
+    "the": [
+      18,
+      55,
+      83,
+      95
+    ],
+    "range": [
+      19
+    ],
+    "and": [
+      20,
+      71
+    ],
+    "central": [
+      21,
+      92
+    ],
+    "tendencies": [
+      22,
+      93
+    ],
+    "of": [
+      23,
+      82,
+      136
+    ],
+    "network": [
+      24,
+      130
+    ],
+    "configurations,": [
+      25
+    ],
+    "patterns": [
+      27,
+      78,
+      110
+    ],
+    "were": [
+      28
+    ],
+    "explored": [
+      29
+    ],
+    "using": [
+      30
+    ],
+    "functional": [
+      31,
+      149
+    ],
+    "MRI": [
+      32
+    ],
+    "(fMRI)": [
+      33
+    ],
+    "14": [
+      35
+    ],
+    "distinct": [
+      36,
+      102
+    ],
+    "continuously": [
+      37
+    ],
+    "performed": [
+      38
+    ],
+    "states": [
+      40,
+      104
+    ],
+    "ranging": [
+      41
+    ],
+    "from": [
+      42,
+      58,
+      67,
+      80
+    ],
+    "passive": [
+      43,
+      69
+    ],
+    "fixation": [
+      44,
+      70
+    ],
+    "to": [
+      45,
+      60,
+      113,
+      146
+    ],
+    "increasingly": [
+      46
+    ],
+    "demanding": [
+      47
+    ],
+    "classification": [
+      48,
+      72
+    ],
+    "tasks.": [
+      49
+    ],
+    "Mean": [
+      50
+    ],
+    "global": [
+      51
+    ],
+    "correlation": [
+      52
+    ],
+    "profiles": [
+      53
+    ],
+    "cortex": [
+      56
+    ],
+    "ranged": [
+      57
+    ],
+    "0.69": [
+      59
+    ],
+    "0.82": [
+      61
+    ],
+    "between": [
+      62
+    ],
+    "states.": [
+      64,
+      138
+    ],
+    "Network": [
+      65
+    ],
+    "configurations": [
+      66,
+      131
+    ],
+    "both": [
+      68
+    ],
+    "tasks": [
+      73
+    ],
+    "similarly": [
+      74
+    ],
+    "predicted": [
+      75
+    ],
+    "coactivation": [
+      77
+    ],
+    "estimated": [
+      79
+    ],
+    "meta-analysis": [
+      81
+    ],
+    "literature.": [
+      84
+    ],
+    "Thus,": [
+      85
+    ],
+    "even": [
+      86
+    ],
+    "markedly": [
+      88
+    ],
+    "different": [
+      89
+    ],
+    "states,": [
+      91
+    ],
+    "dominate": [
+      94
+    ],
+    "configurations.": [
+      97
+    ],
+    "Beyond": [
+      98
+    ],
+    "these": [
+      99
+    ],
+    "shared": [
+      100
+    ],
+    "components,": [
+      101
+    ],
+    "displayed": [
+      105
+    ],
+    "significant": [
+      106,
+      144
+    ],
+    "differences": [
+      107
+    ],
+    "in": [
+      108,
+      111
+    ],
+    "response": [
+      112
+    ],
+    "their": [
+      114
+    ],
+    "varied": [
+      115
+    ],
+    "demands.": [
+      116
+    ],
+    "One": [
+      117
+    ],
+    "possibility": [
+      118
+    ],
+    "is": [
+      119
+    ],
+    "that": [
+      120,
+      125
+    ],
+    "anatomical": [
+      121
+    ],
+    "connectivity": [
+      122
+    ],
+    "provides": [
+      123
+    ],
+    "constraints": [
+      124
+    ],
+    "act": [
+      126
+    ],
+    "as": [
+      127,
+      143
+    ],
+    "attractors": [
+      128
+    ],
+    "pulling": [
+      129
+    ],
+    "towards": [
+      132
+    ],
+    "a": [
+      133,
+      147
+    ],
+    "limited": [
+      134
+    ],
+    "number": [
+      135
+    ],
+    "robust": [
+      137
+    ],
+    "Reconfigurable": [
+      139
+    ],
+    "modes": [
+      141
+    ],
+    "emerge": [
+      142
+    ],
+    "modifications": [
+      145
+    ],
+    "core": [
+      148
+    ],
+    "architecture.": [
+      150
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2061662249",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 37
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 47
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 51
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 49
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 47
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 45
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 37
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-06-13T01:18:12.059991",
+  "created_date": "2016-06-24"
+}

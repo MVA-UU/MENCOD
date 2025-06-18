@@ -1,0 +1,1577 @@
+{
+  "id": "https://openalex.org/W2058742508",
+  "doi": "https://doi.org/10.1371/journal.pone.0039333",
+  "title": "16S rRNA Gene Pyrosequencing Reveals Bacterial Dysbiosis in the Duodenum of Dogs with Idiopathic Inflammatory Bowel Disease",
+  "display_name": "16S rRNA Gene Pyrosequencing Reveals Bacterial Dysbiosis in the Duodenum of Dogs with Idiopathic Inflammatory Bowel Disease",
+  "publication_year": 2012,
+  "publication_date": "2012-06-15",
+  "ids": {
+    "openalex": "https://openalex.org/W2058742508",
+    "doi": "https://doi.org/10.1371/journal.pone.0039333",
+    "mag": "2058742508",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/22720094",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3376104"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pone.0039333",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0039333&type=printable",
+    "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+        "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0039333&type=printable",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5017199731",
+        "display_name": "Jan S. Suchodolski",
+        "orcid": "https://orcid.org/0000-0002-2176-6932"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I91045830",
+          "display_name": "Texas A&M University",
+          "ror": "https://ror.org/01f5ytq51",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jan S. Suchodolski",
+      "raw_affiliation_strings": [
+        "Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, College of Veterinary Medicine & Biomedical Sciences, Texas A&M University, College Station, Texas, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, College of Veterinary Medicine & Biomedical Sciences, Texas A&M University, College Station, Texas, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069573419",
+        "display_name": "Scot E. Dowd",
+        "orcid": "https://orcid.org/0000-0002-6296-1427"
+      },
+      "institutions": [],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Scot E. Dowd",
+      "raw_affiliation_strings": [
+        "Molecular Research, Shallowater, Texas, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Molecular Research, Shallowater, Texas, United States of America",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007579865",
+        "display_name": "Vicky Wilke",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Vicky Wilke",
+      "raw_affiliation_strings": [
+        "Veterinary Clinical Sciences, College of Veterinary Medicine, University of Minnesota, St. Paul, Minnesota, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Veterinary Clinical Sciences, College of Veterinary Medicine, University of Minnesota, St. Paul, Minnesota, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110074489",
+        "display_name": "Jörg M. Steiner",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I91045830",
+          "display_name": "Texas A&M University",
+          "ror": "https://ror.org/01f5ytq51",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jörg M. Steiner",
+      "raw_affiliation_strings": [
+        "Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, College of Veterinary Medicine & Biomedical Sciences, Texas A&M University, College Station, Texas, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, College of Veterinary Medicine & Biomedical Sciences, Texas A&M University, College Station, Texas, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5036496208",
+        "display_name": "Albert E. Jergens",
+        "orcid": "https://orcid.org/0000-0003-2375-8685"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I173911158",
+          "display_name": "Iowa State University",
+          "ror": "https://ror.org/04rswrd78",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I173911158"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Albert E. Jergens",
+      "raw_affiliation_strings": [
+        "Veterinary Clinical Sciences, College of Veterinary Medicine, Iowa State University, Ames, Iowa, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Veterinary Clinical Sciences, College of Veterinary Medicine, Iowa State University, Ames, Iowa, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I173911158"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 1805,
+    "currency": "USD",
+    "value_usd": 1805
+  },
+  "apc_paid": {
+    "value": 1805,
+    "currency": "USD",
+    "value_usd": 1805
+  },
+  "fwci": 6.638,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 221,
+  "citation_normalized_percentile": {
+    "value": 0.999985,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "7",
+    "issue": "6",
+    "first_page": "e39333",
+    "last_page": "e39333"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10066",
+    "display_name": "Gut microbiota and health",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10066",
+      "display_name": "Gut microbiota and health",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11288",
+      "display_name": "Clostridium difficile and Clostridium perfringens research",
+      "score": 0.9949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10141",
+      "display_name": "Probiotics and Fermented Foods",
+      "score": 0.9944,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/dysbiosis",
+      "display_name": "Dysbiosis",
+      "score": 0.78279996
+    },
+    {
+      "id": "https://openalex.org/keywords/fusobacteria",
+      "display_name": "Fusobacteria",
+      "score": 0.65484405
+    },
+    {
+      "id": "https://openalex.org/keywords/pyrosequencing",
+      "display_name": "Pyrosequencing",
+      "score": 0.58453685
+    },
+    {
+      "id": "https://openalex.org/keywords/intestinal-mucosa",
+      "display_name": "Intestinal mucosa",
+      "score": 0.45244262
+    },
+    {
+      "id": "https://openalex.org/keywords/veillonella",
+      "display_name": "Veillonella",
+      "score": 0.43865603
+    },
+    {
+      "id": "https://openalex.org/keywords/pathogenesis",
+      "display_name": "Pathogenesis",
+      "score": 0.4155081
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777165150",
+      "wikidata": "https://www.wikidata.org/wiki/Q269334",
+      "display_name": "Dysbiosis",
+      "level": 3,
+      "score": 0.78279996
+    },
+    {
+      "id": "https://openalex.org/C2778260677",
+      "wikidata": "https://www.wikidata.org/wiki/Q917447",
+      "display_name": "Inflammatory bowel disease",
+      "level": 3,
+      "score": 0.6826493
+    },
+    {
+      "id": "https://openalex.org/C2776202939",
+      "wikidata": "https://www.wikidata.org/wiki/Q1137677",
+      "display_name": "Fusobacteria",
+      "level": 5,
+      "score": 0.65484405
+    },
+    {
+      "id": "https://openalex.org/C125009961",
+      "wikidata": "https://www.wikidata.org/wiki/Q2342248",
+      "display_name": "Pyrosequencing",
+      "level": 3,
+      "score": 0.58453685
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.5261609
+    },
+    {
+      "id": "https://openalex.org/C143121216",
+      "wikidata": "https://www.wikidata.org/wiki/Q1330402",
+      "display_name": "Microbiome",
+      "level": 2,
+      "score": 0.4753494
+    },
+    {
+      "id": "https://openalex.org/C3019368612",
+      "wikidata": "https://www.wikidata.org/wiki/Q17154506",
+      "display_name": "Intestinal mucosa",
+      "level": 2,
+      "score": 0.45244262
+    },
+    {
+      "id": "https://openalex.org/C2778753313",
+      "wikidata": "https://www.wikidata.org/wiki/Q7918682",
+      "display_name": "Veillonella",
+      "level": 4,
+      "score": 0.43865603
+    },
+    {
+      "id": "https://openalex.org/C2780942790",
+      "wikidata": "https://www.wikidata.org/wiki/Q372016",
+      "display_name": "Pathogenesis",
+      "level": 2,
+      "score": 0.4155081
+    },
+    {
+      "id": "https://openalex.org/C90924648",
+      "wikidata": "https://www.wikidata.org/wiki/Q120569",
+      "display_name": "Gastroenterology",
+      "level": 1,
+      "score": 0.39946616
+    },
+    {
+      "id": "https://openalex.org/C539455810",
+      "wikidata": "https://www.wikidata.org/wiki/Q739734",
+      "display_name": "Gut flora",
+      "level": 2,
+      "score": 0.38720167
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.37456954
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.35463125
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.34759575
+    },
+    {
+      "id": "https://openalex.org/C89423630",
+      "wikidata": "https://www.wikidata.org/wiki/Q7193",
+      "display_name": "Microbiology",
+      "level": 1,
+      "score": 0.33711106
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.30729774
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.26335937
+    },
+    {
+      "id": "https://openalex.org/C2777695942",
+      "wikidata": "https://www.wikidata.org/wiki/Q149075",
+      "display_name": "Firmicutes",
+      "level": 4,
+      "score": 0.2626896
+    },
+    {
+      "id": "https://openalex.org/C42062724",
+      "wikidata": "https://www.wikidata.org/wiki/Q1209205",
+      "display_name": "16S ribosomal RNA",
+      "level": 3,
+      "score": 0.16870642
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.13653234
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.11238107
+    },
+    {
+      "id": "https://openalex.org/C523546767",
+      "wikidata": "https://www.wikidata.org/wiki/Q10876",
+      "display_name": "Bacteria",
+      "level": 2,
+      "score": 0.10162595
+    },
+    {
+      "id": "https://openalex.org/C2778276568",
+      "wikidata": "https://www.wikidata.org/wiki/Q190161",
+      "display_name": "Streptococcus",
+      "level": 3,
+      "score": 0.06959593
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001419",
+      "descriptor_name": "Bacteria",
+      "qualifier_ui": "Q000302",
+      "qualifier_name": "isolation & purification",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004386",
+      "descriptor_name": "Duodenum",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015212",
+      "descriptor_name": "Inflammatory Bowel Diseases",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012336",
+      "descriptor_name": "RNA, Ribosomal, 16S",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001419",
+      "descriptor_name": "Bacteria",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001419",
+      "descriptor_name": "Bacteria",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016022",
+      "descriptor_name": "Case-Control Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004285",
+      "descriptor_name": "Dogs",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004386",
+      "descriptor_name": "Duodenum",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015212",
+      "descriptor_name": "Inflammatory Bowel Diseases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012336",
+      "descriptor_name": "RNA, Ribosomal, 16S",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 7,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0039333",
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0039333&type=printable",
+      "source": {
+        "id": "https://openalex.org/S202381698",
+        "display_name": "PLoS ONE",
+        "issn_l": "1932-6203",
+        "issn": [
+          "1932-6203"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/1c821344b19b4b75a6147e988d72cc7a",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3376104",
+      "pdf_url": "https://europepmc.org/articles/pmc3376104?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/1969.1/183601",
+      "pdf_url": "https://oaktrust.library.tamu.edu/bitstream/1969.1/183601/1/document-1.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401674",
+        "display_name": "OAKTRUST (Texas A&M University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I91045830",
+        "host_organization_name": "Texas A&M University",
+        "host_organization_lineage": [
+          "https://openalex.org/I91045830"
+        ],
+        "host_organization_lineage_names": [
+          "Texas A&M University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3376104",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.686.6478",
+      "pdf_url": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3376104/pdf/pone.0039333.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400349",
+        "display_name": "CiteSeer X (The Pennsylvania State University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I130769515",
+        "host_organization_name": "Pennsylvania State University",
+        "host_organization_lineage": [
+          "https://openalex.org/I130769515"
+        ],
+        "host_organization_lineage_names": [
+          "Pennsylvania State University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/22720094",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pone.0039333",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0039333&type=printable",
+    "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+        "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.7
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 38,
+  "referenced_works": [
+    "https://openalex.org/W1748662539",
+    "https://openalex.org/W1779494490",
+    "https://openalex.org/W1931031802",
+    "https://openalex.org/W1966637230",
+    "https://openalex.org/W1967821667",
+    "https://openalex.org/W1978636470",
+    "https://openalex.org/W1979825808",
+    "https://openalex.org/W1984383915",
+    "https://openalex.org/W1987489268",
+    "https://openalex.org/W1992174684",
+    "https://openalex.org/W2009292320",
+    "https://openalex.org/W2012003494",
+    "https://openalex.org/W2019271374",
+    "https://openalex.org/W2026074634",
+    "https://openalex.org/W2027590052",
+    "https://openalex.org/W2027624597",
+    "https://openalex.org/W2033002674",
+    "https://openalex.org/W2041104984",
+    "https://openalex.org/W2043442946",
+    "https://openalex.org/W2066158909",
+    "https://openalex.org/W2072970694",
+    "https://openalex.org/W2075781087",
+    "https://openalex.org/W2077131078",
+    "https://openalex.org/W2078621117",
+    "https://openalex.org/W2097875133",
+    "https://openalex.org/W2100165802",
+    "https://openalex.org/W2110065044",
+    "https://openalex.org/W2127602818",
+    "https://openalex.org/W2134643141",
+    "https://openalex.org/W2141125135",
+    "https://openalex.org/W2144907598",
+    "https://openalex.org/W2151219999",
+    "https://openalex.org/W2161024432",
+    "https://openalex.org/W2165872127",
+    "https://openalex.org/W2180023734",
+    "https://openalex.org/W2416795756",
+    "https://openalex.org/W4245277907",
+    "https://openalex.org/W4391198807"
+  ],
+  "related_works": [
+    "https://openalex.org/W4380990796",
+    "https://openalex.org/W3171270821",
+    "https://openalex.org/W3139235501",
+    "https://openalex.org/W3118665971",
+    "https://openalex.org/W2969314846",
+    "https://openalex.org/W2757217416",
+    "https://openalex.org/W2427312667",
+    "https://openalex.org/W2413500105",
+    "https://openalex.org/W2238714951",
+    "https://openalex.org/W2008586271"
+  ],
+  "abstract_inverted_index": {
+    "Background": [
+      0
+    ],
+    "Canine": [
+      1
+    ],
+    "idiopathic": [
+      2,
+      63
+    ],
+    "inflammatory": [
+      3
+    ],
+    "bowel": [
+      4
+    ],
+    "disease": [
+      5,
+      107
+    ],
+    "(IBD)": [
+      6
+    ],
+    "is": [
+      7
+    ],
+    "believed": [
+      8
+    ],
+    "to": [
+      9,
+      52,
+      150,
+      244
+    ],
+    "be": [
+      10
+    ],
+    "caused": [
+      11
+    ],
+    "by": [
+      12,
+      104
+    ],
+    "a": [
+      13,
+      105
+    ],
+    "complex": [
+      14
+    ],
+    "interaction": [
+      15
+    ],
+    "of": [
+      16,
+      31,
+      48,
+      59,
+      75,
+      119,
+      129,
+      144,
+      164,
+      176
+    ],
+    "genetic,": [
+      17
+    ],
+    "immunologic,": [
+      18
+    ],
+    "and": [
+      19,
+      88,
+      117,
+      169,
+      189,
+      213
+    ],
+    "microbial": [
+      20,
+      239
+    ],
+    "factors.": [
+      21
+    ],
+    "While": [
+      22
+    ],
+    "mucosa-associated": [
+      23
+    ],
+    "bacteria": [
+      24
+    ],
+    "have": [
+      25
+    ],
+    "been": [
+      26
+    ],
+    "implicated": [
+      27
+    ],
+    "in": [
+      28,
+      56,
+      141,
+      198,
+      226,
+      238,
+      247
+    ],
+    "the": [
+      29,
+      37,
+      57,
+      120,
+      142,
+      145,
+      157
+    ],
+    "pathogenesis": [
+      30
+    ],
+    "canine": [
+      32
+    ],
+    "IBD,": [
+      33
+    ],
+    "detailed": [
+      34
+    ],
+    "studies": [
+      35
+    ],
+    "investigating": [
+      36
+    ],
+    "enteric": [
+      38
+    ],
+    "microbiota": [
+      39,
+      55,
+      147
+    ],
+    "using": [
+      40,
+      65
+    ],
+    "deep": [
+      41
+    ],
+    "sequencing": [
+      42
+    ],
+    "techniques": [
+      43
+    ],
+    "are": [
+      44
+    ],
+    "lacking.": [
+      45
+    ],
+    "The": [
+      46
+    ],
+    "objective": [
+      47
+    ],
+    "this": [
+      49
+    ],
+    "study": [
+      50
+    ],
+    "was": [
+      51,
+      112,
+      125,
+      136
+    ],
+    "evaluate": [
+      53
+    ],
+    "mucosa-adherent": [
+      54
+    ],
+    "duodenum": [
+      58
+    ],
+    "dogs": [
+      60,
+      84,
+      89,
+      168,
+      170,
+      232
+    ],
+    "with": [
+      61,
+      90,
+      138,
+      171,
+      233,
+      249
+    ],
+    "spontaneous": [
+      62,
+      234
+    ],
+    "IBD": [
+      64,
+      92,
+      98,
+      172,
+      227,
+      235
+    ],
+    "16": [
+      66,
+      121
+    ],
+    "S": [
+      67,
+      122
+    ],
+    "rRNA": [
+      68,
+      123
+    ],
+    "gene": [
+      69,
+      124
+    ],
+    "pyrosequencing.": [
+      70
+    ],
+    "Methodology/Principal": [
+      71
+    ],
+    "Findings": [
+      72
+    ],
+    "Biopsy": [
+      73
+    ],
+    "samples": [
+      74,
+      165
+    ],
+    "small": [
+      76
+    ],
+    "intestinal": [
+      77,
+      146,
+      251,
+      263
+    ],
+    "mucosa": [
+      78
+    ],
+    "were": [
+      79,
+      194,
+      218
+    ],
+    "collected": [
+      80
+    ],
+    "endoscopically": [
+      81
+    ],
+    "from": [
+      82,
+      114,
+      131
+    ],
+    "healthy": [
+      83,
+      151,
+      167,
+      199
+    ],
+    "(n": [
+      85,
+      93,
+      99
+    ],
+    "=": [
+      86,
+      94,
+      100,
+      179,
+      183,
+      187,
+      192,
+      211,
+      216
+    ],
+    "6)": [
+      87
+    ],
+    "moderate": [
+      91
+    ],
+    "7)": [
+      95,
+      101
+    ],
+    "or": [
+      96,
+      222
+    ],
+    "severe": [
+      97
+    ],
+    "as": [
+      102,
+      258
+    ],
+    "assessed": [
+      103
+    ],
+    "clinical": [
+      106
+    ],
+    "activity": [
+      108
+    ],
+    "index.": [
+      109
+    ],
+    "Total": [
+      110
+    ],
+    "RNA": [
+      111
+    ],
+    "extracted": [
+      113
+    ],
+    "biopsy": [
+      115
+    ],
+    "specimens": [
+      116
+    ],
+    "454-pyrosequencing": [
+      118
+    ],
+    "performed": [
+      126
+    ],
+    "on": [
+      127,
+      156
+    ],
+    "aliquots": [
+      128
+    ],
+    "cDNA": [
+      130
+    ],
+    "each": [
+      132
+    ],
+    "dog.": [
+      133
+    ],
+    "Intestinal": [
+      134
+    ],
+    "inflammation": [
+      135
+    ],
+    "associated": [
+      137
+    ],
+    "significant": [
+      139
+    ],
+    "differences": [
+      140
+    ],
+    "composition": [
+      143
+    ],
+    "when": [
+      148
+    ],
+    "compared": [
+      149
+    ],
+    "dogs.": [
+      152,
+      200,
+      228
+    ],
+    "PCoA": [
+      153
+    ],
+    "plots": [
+      154
+    ],
+    "based": [
+      155
+    ],
+    "unweighted": [
+      158
+    ],
+    "UniFrac": [
+      159
+    ],
+    "distance": [
+      160
+    ],
+    "metric": [
+      161
+    ],
+    "indicated": [
+      162
+    ],
+    "clustering": [
+      163
+    ],
+    "between": [
+      166
+    ],
+    "(ANOSIM,": [
+      173
+    ],
+    "p<0.001).": [
+      174
+    ],
+    "Proportions": [
+      175
+    ],
+    "Fusobacteria": [
+      177
+    ],
+    "(p": [
+      178,
+      182,
+      186,
+      191,
+      210,
+      215
+    ],
+    "0.010),": [
+      180
+    ],
+    "Bacteroidaceae": [
+      181
+    ],
+    "0.015),": [
+      184
+    ],
+    "Prevotellaceae": [
+      185
+    ],
+    "0.022),": [
+      188
+    ],
+    "Clostridiales": [
+      190
+    ],
+    "0.019)": [
+      193
+    ],
+    "significantly": [
+      195
+    ],
+    "more": [
+      196,
+      220,
+      223
+    ],
+    "abundant": [
+      197,
+      221
+    ],
+    "In": [
+      201,
+      230
+    ],
+    "contrast,": [
+      202
+    ],
+    "specific": [
+      203
+    ],
+    "bacterial": [
+      204,
+      254
+    ],
+    "genera": [
+      205
+    ],
+    "within": [
+      206
+    ],
+    "Proteobacteria,": [
+      207
+    ],
+    "including": [
+      208
+    ],
+    "Diaphorobacter": [
+      209
+    ],
+    "0.044)": [
+      212
+    ],
+    "Acinetobacter": [
+      214
+    ],
+    "0.040),": [
+      217
+    ],
+    "either": [
+      219
+    ],
+    "frequently": [
+      224
+    ],
+    "identified": [
+      225
+    ],
+    "Conclusions/Significance": [
+      229
+    ],
+    "conclusion,": [
+      231
+    ],
+    "exhibit": [
+      236
+    ],
+    "alterations": [
+      237
+    ],
+    "groups,": [
+      240
+    ],
+    "which": [
+      241
+    ],
+    "bear": [
+      242
+    ],
+    "resemblance": [
+      243
+    ],
+    "dysbiosis": [
+      245
+    ],
+    "reported": [
+      246
+    ],
+    "humans": [
+      248
+    ],
+    "chronic": [
+      250
+    ],
+    "inflammation.": [
+      252,
+      264
+    ],
+    "These": [
+      253
+    ],
+    "groups": [
+      255
+    ],
+    "may": [
+      256
+    ],
+    "serve": [
+      257
+    ],
+    "useful": [
+      259
+    ],
+    "targets": [
+      260
+    ],
+    "for": [
+      261
+    ],
+    "monitoring": [
+      262
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2058742508",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-05-29T17:22:49.043515",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,949 @@
+{
+  "id": "https://openalex.org/W60077963",
+  "doi": "https://doi.org/10.1016/j.ecl.2013.10.005",
+  "title": "Mechanisms of Glucocorticoid-Induced Insulin Resistance",
+  "display_name": "Mechanisms of Glucocorticoid-Induced Insulin Resistance",
+  "publication_year": 2014,
+  "publication_date": "2014-02-28",
+  "ids": {
+    "openalex": "https://openalex.org/W60077963",
+    "doi": "https://doi.org/10.1016/j.ecl.2013.10.005",
+    "mag": "60077963",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/24582093",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3942672"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.ecl.2013.10.005",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S151814236",
+      "display_name": "Endocrinology and Metabolism Clinics of North America",
+      "issn_l": "0889-8529",
+      "issn": [
+        "0889-8529",
+        "1558-4410"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc3942672?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5011217365",
+        "display_name": "Eliza B. Geer",
+        "orcid": "https://orcid.org/0000-0003-3722-1889"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1324220072",
+          "display_name": "Mount Sinai Hospital",
+          "ror": "https://ror.org/01zkyz108",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1320796813",
+            "https://openalex.org/I1324220072"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210095266",
+          "display_name": "Mount Sinai Medical Center",
+          "ror": "https://ror.org/00wgjpw02",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210095266"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Eliza B. Geer",
+      "raw_affiliation_strings": [
+        "Division of Endocrinology, Mount Sinai Medical Center, One Gustave Levy Place, Box 1055, New York, NY 10029, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Endocrinology, Mount Sinai Medical Center, One Gustave Levy Place, Box 1055, New York, NY 10029, USA",
+          "institution_ids": [
+            "https://openalex.org/I1324220072",
+            "https://openalex.org/I4210095266"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110494940",
+        "display_name": "Julie Islam",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1316535847",
+          "display_name": "Beth Israel Deaconess Medical Center",
+          "ror": "https://ror.org/04drvxt59",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1316535847"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Julie Islam",
+      "raw_affiliation_strings": [
+        "Division of Endocrinology and Metabolism, Beth Israel Medical Center, 317 East 17th Street, 8th Floor, New York, NY 10003, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Endocrinology and Metabolism, Beth Israel Medical Center, 317 East 17th Street, 8th Floor, New York, NY 10003, USA.",
+          "institution_ids": [
+            "https://openalex.org/I1316535847"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5030303635",
+        "display_name": "Christoph Buettner",
+        "orcid": "https://orcid.org/0000-0003-0412-4062"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1324220072",
+          "display_name": "Mount Sinai Hospital",
+          "ror": "https://ror.org/01zkyz108",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1320796813",
+            "https://openalex.org/I1324220072"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210095266",
+          "display_name": "Mount Sinai Medical Center",
+          "ror": "https://ror.org/00wgjpw02",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210095266"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christoph Buettner",
+      "raw_affiliation_strings": [
+        "Division of Endocrinology, Mount Sinai Medical Center, One Gustave Levy Place, Box 1055, New York, NY 10029, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Endocrinology, Mount Sinai Medical Center, One Gustave Levy Place, Box 1055, New York, NY 10029, USA",
+          "institution_ids": [
+            "https://openalex.org/I1324220072",
+            "https://openalex.org/I4210095266"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.414,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 329,
+  "citation_normalized_percentile": {
+    "value": 0.999247,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "43",
+    "issue": "1",
+    "first_page": "75",
+    "last_page": "102"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11457",
+    "display_name": "Adipose Tissue and Metabolism",
+    "score": 0.9987,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11457",
+      "display_name": "Adipose Tissue and Metabolism",
+      "score": 0.9987,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10528",
+      "display_name": "Adipokines, Inflammation, and Metabolic Diseases",
+      "score": 0.9985,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.9984,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/homeostasis",
+      "display_name": "Homeostasis",
+      "score": 0.5532656
+    },
+    {
+      "id": "https://openalex.org/keywords/energy-homeostasis",
+      "display_name": "Energy homeostasis",
+      "score": 0.438695
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777391703",
+      "wikidata": "https://www.wikidata.org/wiki/Q1053470",
+      "display_name": "Insulin resistance",
+      "level": 3,
+      "score": 0.8962999
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.80287325
+    },
+    {
+      "id": "https://openalex.org/C171089720",
+      "wikidata": "https://www.wikidata.org/wiki/Q193583",
+      "display_name": "Adipose tissue",
+      "level": 2,
+      "score": 0.7594129
+    },
+    {
+      "id": "https://openalex.org/C2780841215",
+      "wikidata": "https://www.wikidata.org/wiki/Q422549",
+      "display_name": "Glucocorticoid",
+      "level": 2,
+      "score": 0.6930077
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.5920676
+    },
+    {
+      "id": "https://openalex.org/C2776914184",
+      "wikidata": "https://www.wikidata.org/wiki/Q101991",
+      "display_name": "Inflammation",
+      "level": 2,
+      "score": 0.58716285
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.57830304
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.57412827
+    },
+    {
+      "id": "https://openalex.org/C63645605",
+      "wikidata": "https://www.wikidata.org/wiki/Q103191",
+      "display_name": "Homeostasis",
+      "level": 2,
+      "score": 0.5532656
+    },
+    {
+      "id": "https://openalex.org/C2779306644",
+      "wikidata": "https://www.wikidata.org/wiki/Q2002370",
+      "display_name": "Insulin",
+      "level": 2,
+      "score": 0.531657
+    },
+    {
+      "id": "https://openalex.org/C197934379",
+      "wikidata": "https://www.wikidata.org/wiki/Q2047938",
+      "display_name": "Adverse effect",
+      "level": 2,
+      "score": 0.4405405
+    },
+    {
+      "id": "https://openalex.org/C2491326",
+      "wikidata": "https://www.wikidata.org/wiki/Q5377024",
+      "display_name": "Energy homeostasis",
+      "level": 3,
+      "score": 0.438695
+    },
+    {
+      "id": "https://openalex.org/C555293320",
+      "wikidata": "https://www.wikidata.org/wiki/Q12206",
+      "display_name": "Diabetes mellitus",
+      "level": 2,
+      "score": 0.4191229
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000273",
+      "descriptor_name": "Adipose Tissue",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007333",
+      "descriptor_name": "Insulin Resistance",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D050356",
+      "descriptor_name": "Lipid Metabolism",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000273",
+      "descriptor_name": "Adipose Tissue",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000273",
+      "descriptor_name": "Adipose Tissue",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000273",
+      "descriptor_name": "Adipose Tissue",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "Q000276",
+      "qualifier_name": "immunology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007333",
+      "descriptor_name": "Insulin Resistance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D050356",
+      "descriptor_name": "Lipid Metabolism",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.ecl.2013.10.005",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S151814236",
+        "display_name": "Endocrinology and Metabolism Clinics of North America",
+        "issn_l": "0889-8529",
+        "issn": [
+          "0889-8529",
+          "1558-4410"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3942672",
+      "pdf_url": "https://europepmc.org/articles/pmc3942672?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3942672",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/24582093",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc3942672",
+    "pdf_url": "https://europepmc.org/articles/pmc3942672?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.65,
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 224,
+  "referenced_works": [
+    "https://openalex.org/W1489635597",
+    "https://openalex.org/W1514001940",
+    "https://openalex.org/W170411931",
+    "https://openalex.org/W1902896767",
+    "https://openalex.org/W1924084714",
+    "https://openalex.org/W1945278090",
+    "https://openalex.org/W1965079305",
+    "https://openalex.org/W1965576057",
+    "https://openalex.org/W1966749022",
+    "https://openalex.org/W1966872601",
+    "https://openalex.org/W1969734540",
+    "https://openalex.org/W1970272670",
+    "https://openalex.org/W1971205185",
+    "https://openalex.org/W1971779847",
+    "https://openalex.org/W1973812648",
+    "https://openalex.org/W1975898092",
+    "https://openalex.org/W1977433648",
+    "https://openalex.org/W1978262109",
+    "https://openalex.org/W1978718098",
+    "https://openalex.org/W1978784950",
+    "https://openalex.org/W1979545505",
+    "https://openalex.org/W1980898941",
+    "https://openalex.org/W1981722144",
+    "https://openalex.org/W1981847955",
+    "https://openalex.org/W1982426772",
+    "https://openalex.org/W1983977961",
+    "https://openalex.org/W1984991252",
+    "https://openalex.org/W1985097119",
+    "https://openalex.org/W1986842715",
+    "https://openalex.org/W1987951226",
+    "https://openalex.org/W1988860179",
+    "https://openalex.org/W1990987798",
+    "https://openalex.org/W1991504003",
+    "https://openalex.org/W1992527366",
+    "https://openalex.org/W1993684142",
+    "https://openalex.org/W1994263406",
+    "https://openalex.org/W1994413782",
+    "https://openalex.org/W1994514157",
+    "https://openalex.org/W1995185931",
+    "https://openalex.org/W1995365748",
+    "https://openalex.org/W1996004606",
+    "https://openalex.org/W1996989437",
+    "https://openalex.org/W1997111134",
+    "https://openalex.org/W1999971397",
+    "https://openalex.org/W2001543312",
+    "https://openalex.org/W2005827500",
+    "https://openalex.org/W2006609756",
+    "https://openalex.org/W2008216390",
+    "https://openalex.org/W2008248334",
+    "https://openalex.org/W2008647639",
+    "https://openalex.org/W2008869160",
+    "https://openalex.org/W2008918482",
+    "https://openalex.org/W2009822274",
+    "https://openalex.org/W2011783734",
+    "https://openalex.org/W2011829024",
+    "https://openalex.org/W2014572827",
+    "https://openalex.org/W2015237552",
+    "https://openalex.org/W2016125985",
+    "https://openalex.org/W2016785428",
+    "https://openalex.org/W2017650269",
+    "https://openalex.org/W2019908906",
+    "https://openalex.org/W2021943148",
+    "https://openalex.org/W2023492582",
+    "https://openalex.org/W2023909887",
+    "https://openalex.org/W2027091725",
+    "https://openalex.org/W2027469618",
+    "https://openalex.org/W2029046331",
+    "https://openalex.org/W2030782263",
+    "https://openalex.org/W2031298570",
+    "https://openalex.org/W2031431332",
+    "https://openalex.org/W2032226026",
+    "https://openalex.org/W2032700558",
+    "https://openalex.org/W2032932933",
+    "https://openalex.org/W2033373261",
+    "https://openalex.org/W2034314772",
+    "https://openalex.org/W2038657829",
+    "https://openalex.org/W2039079864",
+    "https://openalex.org/W2040328785",
+    "https://openalex.org/W2040803687",
+    "https://openalex.org/W2041118414",
+    "https://openalex.org/W2045319501",
+    "https://openalex.org/W2045880109",
+    "https://openalex.org/W2047949732",
+    "https://openalex.org/W2050941335",
+    "https://openalex.org/W2051051060",
+    "https://openalex.org/W2051149710",
+    "https://openalex.org/W2051174463",
+    "https://openalex.org/W2051714598",
+    "https://openalex.org/W2054125205",
+    "https://openalex.org/W2055135832",
+    "https://openalex.org/W2055360894",
+    "https://openalex.org/W2058575047",
+    "https://openalex.org/W2059511498",
+    "https://openalex.org/W2061954662",
+    "https://openalex.org/W2061962280",
+    "https://openalex.org/W2062626144",
+    "https://openalex.org/W2065201220",
+    "https://openalex.org/W2065789746",
+    "https://openalex.org/W2065864773",
+    "https://openalex.org/W2066206276",
+    "https://openalex.org/W2068547017",
+    "https://openalex.org/W2069685389",
+    "https://openalex.org/W2072962624",
+    "https://openalex.org/W2073269669",
+    "https://openalex.org/W2073734463",
+    "https://openalex.org/W2074575589",
+    "https://openalex.org/W2075694455",
+    "https://openalex.org/W2076414052",
+    "https://openalex.org/W2077963393",
+    "https://openalex.org/W2078881833",
+    "https://openalex.org/W2082503906",
+    "https://openalex.org/W2084123965",
+    "https://openalex.org/W2085457020",
+    "https://openalex.org/W2085792819",
+    "https://openalex.org/W2086635975",
+    "https://openalex.org/W2087039977",
+    "https://openalex.org/W2088226545",
+    "https://openalex.org/W2089254465",
+    "https://openalex.org/W2090286224",
+    "https://openalex.org/W2090822920",
+    "https://openalex.org/W2091531430",
+    "https://openalex.org/W2092603991",
+    "https://openalex.org/W2093568838",
+    "https://openalex.org/W2093924402",
+    "https://openalex.org/W2095896053",
+    "https://openalex.org/W2097291981",
+    "https://openalex.org/W2097543219",
+    "https://openalex.org/W2100003759",
+    "https://openalex.org/W2100159933",
+    "https://openalex.org/W2103539163",
+    "https://openalex.org/W2104246562",
+    "https://openalex.org/W2105193171",
+    "https://openalex.org/W2106690226",
+    "https://openalex.org/W2107774273",
+    "https://openalex.org/W2111970527",
+    "https://openalex.org/W2112660312",
+    "https://openalex.org/W2113828398",
+    "https://openalex.org/W2114416343",
+    "https://openalex.org/W2116180626",
+    "https://openalex.org/W2117268230",
+    "https://openalex.org/W2118663874",
+    "https://openalex.org/W2119251936",
+    "https://openalex.org/W2119312280",
+    "https://openalex.org/W2119678624",
+    "https://openalex.org/W2119911216",
+    "https://openalex.org/W2120480222",
+    "https://openalex.org/W2120649785",
+    "https://openalex.org/W2120768282",
+    "https://openalex.org/W2122500976",
+    "https://openalex.org/W2122779261",
+    "https://openalex.org/W2125302795",
+    "https://openalex.org/W2127017620",
+    "https://openalex.org/W2127156523",
+    "https://openalex.org/W2127375867",
+    "https://openalex.org/W2127408398",
+    "https://openalex.org/W2127738100",
+    "https://openalex.org/W2127764698",
+    "https://openalex.org/W2127880913",
+    "https://openalex.org/W2129546749",
+    "https://openalex.org/W2129973062",
+    "https://openalex.org/W2130764919",
+    "https://openalex.org/W2130957039",
+    "https://openalex.org/W2131270144",
+    "https://openalex.org/W2133339671",
+    "https://openalex.org/W2133711136",
+    "https://openalex.org/W2135975169",
+    "https://openalex.org/W2136024338",
+    "https://openalex.org/W2136161060",
+    "https://openalex.org/W2137769079",
+    "https://openalex.org/W2138719845",
+    "https://openalex.org/W2138848668",
+    "https://openalex.org/W2141823673",
+    "https://openalex.org/W2142179136",
+    "https://openalex.org/W2144285392",
+    "https://openalex.org/W2144692487",
+    "https://openalex.org/W2145329718",
+    "https://openalex.org/W2146550902",
+    "https://openalex.org/W2147345837",
+    "https://openalex.org/W2147991645",
+    "https://openalex.org/W2148562280",
+    "https://openalex.org/W2148715572",
+    "https://openalex.org/W2149870165",
+    "https://openalex.org/W2150654293",
+    "https://openalex.org/W2150925908",
+    "https://openalex.org/W2152090079",
+    "https://openalex.org/W2152199891",
+    "https://openalex.org/W2153739182",
+    "https://openalex.org/W2154972651",
+    "https://openalex.org/W2156518031",
+    "https://openalex.org/W2156597872",
+    "https://openalex.org/W2157389645",
+    "https://openalex.org/W2158062274",
+    "https://openalex.org/W2158075769",
+    "https://openalex.org/W2159290773",
+    "https://openalex.org/W2159578036",
+    "https://openalex.org/W2159967827",
+    "https://openalex.org/W2160065587",
+    "https://openalex.org/W2161644487",
+    "https://openalex.org/W2163770481",
+    "https://openalex.org/W2164828732",
+    "https://openalex.org/W2165065214",
+    "https://openalex.org/W2165935278",
+    "https://openalex.org/W2167352445",
+    "https://openalex.org/W2168533394",
+    "https://openalex.org/W2169005027",
+    "https://openalex.org/W2171835251",
+    "https://openalex.org/W2171903390",
+    "https://openalex.org/W2172275880",
+    "https://openalex.org/W2185515430",
+    "https://openalex.org/W2185954894",
+    "https://openalex.org/W2186903115",
+    "https://openalex.org/W2293576268",
+    "https://openalex.org/W249118332",
+    "https://openalex.org/W2511383158",
+    "https://openalex.org/W2602374010",
+    "https://openalex.org/W3151430771",
+    "https://openalex.org/W4234357566",
+    "https://openalex.org/W4236466584",
+    "https://openalex.org/W4238497443",
+    "https://openalex.org/W4243034719",
+    "https://openalex.org/W4249727000",
+    "https://openalex.org/W4250810668",
+    "https://openalex.org/W4256392890",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W4353035472",
+    "https://openalex.org/W2799297529",
+    "https://openalex.org/W2791224496",
+    "https://openalex.org/W2395218817",
+    "https://openalex.org/W2316309101",
+    "https://openalex.org/W2153397672",
+    "https://openalex.org/W2057182111",
+    "https://openalex.org/W2020968269",
+    "https://openalex.org/W2015435039",
+    "https://openalex.org/W2009492665"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W60077963",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 33
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 53
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 41
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 43
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-17T21:20:55.587336",
+  "created_date": "2016-06-24"
+}

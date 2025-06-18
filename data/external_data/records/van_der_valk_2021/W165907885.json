@@ -1,0 +1,952 @@
+{
+  "id": "https://openalex.org/W165907885",
+  "doi": "https://doi.org/10.1007/978-1-62703-845-4_3",
+  "title": "Neutrophil Isolation from Nonhuman Species",
+  "display_name": "Neutrophil Isolation from Nonhuman Species",
+  "publication_year": 2014,
+  "publication_date": "2014-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W165907885",
+    "doi": "https://doi.org/10.1007/978-1-62703-845-4_3",
+    "mag": "165907885",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/24504944",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/6777848"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/978-1-62703-845-4_3",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210172139",
+      "display_name": "Methods in molecular biology",
+      "issn_l": "1064-3745",
+      "issn": [
+        "1064-3745",
+        "1940-6029"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310319900"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "Springer Science+Business Media"
+      ],
+      "type": "book series"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "book-chapter",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc6777848?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5000978361",
+        "display_name": "Daniel W. Siemsen",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Daniel W. Siemsen",
+      "raw_affiliation_strings": [
+        "Department of Immunology and Infectious Diseases, Montana State University, Bozeman, MT, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Immunology and Infectious Diseases, Montana State University, Bozeman, MT, USA",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036157594",
+        "display_name": "Natalia Małachowa",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210134534",
+          "display_name": "National Institute of Allergy and Infectious Diseases",
+          "ror": "https://ror.org/043z4tv69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210134534"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Natalia Malachowa",
+      "raw_affiliation_strings": [
+        "Laboratory of Human Bacterial Pathogenesis, Rocky Mountain Laboratories, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, MT, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory of Human Bacterial Pathogenesis, Rocky Mountain Laboratories, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, MT, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210134534",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013186412",
+        "display_name": "Igor A. Schepetkin",
+        "orcid": "https://orcid.org/0000-0003-2139-8110"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Igor A. Schepetkin",
+      "raw_affiliation_strings": [
+        "Department of Immunology and Infectious Diseases, Montana State University, Bozeman, MT, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Immunology and Infectious Diseases, Montana State University, Bozeman, MT, USA",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058611838",
+        "display_name": "Adeline R. Whitney",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210134534",
+          "display_name": "National Institute of Allergy and Infectious Diseases",
+          "ror": "https://ror.org/043z4tv69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210134534"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Adeline R. Whitney",
+      "raw_affiliation_strings": [
+        "Laboratory of Human Bacterial Pathogenesis, Rocky Mountain Laboratories, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, MT, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory of Human Bacterial Pathogenesis, Rocky Mountain Laboratories, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, MT, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210134534",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112469867",
+        "display_name": "Liliya N. Kirpotina",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Liliya N. Kirpotina",
+      "raw_affiliation_strings": [
+        "Department of Immunology and Infectious Diseases, Montana State University, Bozeman, MT, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Immunology and Infectious Diseases, Montana State University, Bozeman, MT, USA",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003712486",
+        "display_name": "Benfang Lei",
+        "orcid": "https://orcid.org/0000-0001-8133-6021"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Benfang Lei",
+      "raw_affiliation_strings": [
+        "Department of Immunology and Infectious Diseases, Montana State University, Bozeman, MT, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Immunology and Infectious Diseases, Montana State University, Bozeman, MT, USA",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5062303919",
+        "display_name": "Frank R. DeLeo",
+        "orcid": "https://orcid.org/0000-0003-3150-2516"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210134534",
+          "display_name": "National Institute of Allergy and Infectious Diseases",
+          "ror": "https://ror.org/043z4tv69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210134534"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Frank R. DeLeo",
+      "raw_affiliation_strings": [
+        "Laboratory of Human Bacterial Pathogenesis, Rocky Mountain Laboratories, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, MT, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory of Human Bacterial Pathogenesis, Rocky Mountain Laboratories, National Institute of Allergy and Infectious Diseases, National Institutes of Health, Hamilton, MT, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210134534",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5077189123",
+        "display_name": "Mark T. Quinn",
+        "orcid": "https://orcid.org/0000-0001-8114-5073"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I23732399",
+          "display_name": "Montana State University",
+          "ror": "https://ror.org/02w0trx84",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I23732399",
+            "https://openalex.org/I4210126032"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mark T. Quinn",
+      "raw_affiliation_strings": [
+        "Montana State University Dept. Veterinary Molecular Biology, Bozeman, Montana, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Montana State University Dept. Veterinary Molecular Biology, Bozeman, Montana, USA",
+          "institution_ids": [
+            "https://openalex.org/I23732399"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 4.203,
+  "has_fulltext": false,
+  "cited_by_count": 89,
+  "citation_normalized_percentile": {
+    "value": 0.827284,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "19",
+    "last_page": "37"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11597",
+    "display_name": "Neutrophil, Myeloperoxidase and Oxidative Mechanisms",
+    "score": 0.9991,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2403",
+      "display_name": "Immunology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/24",
+      "display_name": "Immunology and Microbiology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11597",
+      "display_name": "Neutrophil, Myeloperoxidase and Oxidative Mechanisms",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10831",
+      "display_name": "Cell Adhesion Molecules Research",
+      "score": 0.9988,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2723",
+        "display_name": "Immunology and Allergy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10371",
+      "display_name": "Immune Response and Inflammation",
+      "score": 0.9987,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/isolation",
+      "display_name": "Isolation",
+      "score": 0.8120612
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2775941552",
+      "wikidata": "https://www.wikidata.org/wiki/Q25212305",
+      "display_name": "Isolation (microbiology)",
+      "level": 2,
+      "score": 0.8120612
+    },
+    {
+      "id": "https://openalex.org/C553184892",
+      "wikidata": "https://www.wikidata.org/wiki/Q1141429",
+      "display_name": "Flow cytometry",
+      "level": 2,
+      "score": 0.7033975
+    },
+    {
+      "id": "https://openalex.org/C160448771",
+      "wikidata": "https://www.wikidata.org/wiki/Q184726",
+      "display_name": "Phagocytosis",
+      "level": 2,
+      "score": 0.6541904
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.5943032
+    },
+    {
+      "id": "https://openalex.org/C2777983669",
+      "wikidata": "https://www.wikidata.org/wiki/Q223143",
+      "display_name": "Granulocyte",
+      "level": 2,
+      "score": 0.5073411
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.3549965
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.34395716
+    },
+    {
+      "id": "https://openalex.org/C89423630",
+      "wikidata": "https://www.wikidata.org/wiki/Q7193",
+      "display_name": "Microbiology",
+      "level": 1,
+      "score": 0.25269297
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001781",
+      "descriptor_name": "Blood Component Removal",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009504",
+      "descriptor_name": "Neutrophils",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001772",
+      "descriptor_name": "Blood Cell Count",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001781",
+      "descriptor_name": "Blood Component Removal",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002021",
+      "descriptor_name": "Buffers",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002417",
+      "descriptor_name": "Cattle",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002469",
+      "descriptor_name": "Cell Separation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002470",
+      "descriptor_name": "Cell Survival",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002499",
+      "descriptor_name": "Centrifugation, Density Gradient",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002499",
+      "descriptor_name": "Centrifugation, Density Gradient",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018397",
+      "descriptor_name": "Equidae",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009504",
+      "descriptor_name": "Neutrophils",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009504",
+      "descriptor_name": "Neutrophils",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010587",
+      "descriptor_name": "Phagocytosis",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010587",
+      "descriptor_name": "Phagocytosis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011817",
+      "descriptor_name": "Rabbits",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012756",
+      "descriptor_name": "Sheep",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013045",
+      "descriptor_name": "Species Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/978-1-62703-845-4_3",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210172139",
+        "display_name": "Methods in molecular biology",
+        "issn_l": "1064-3745",
+        "issn": [
+          "1064-3745",
+          "1940-6029"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310319900"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "Springer Science+Business Media"
+        ],
+        "type": "book series"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc6777848",
+      "pdf_url": "https://europepmc.org/articles/pmc6777848?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6777848",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/18453103",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc6777848",
+    "pdf_url": "https://europepmc.org/articles/pmc6777848?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/15",
+      "display_name": "Life on land",
+      "score": 0.53
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 16,
+  "referenced_works": [
+    "https://openalex.org/W114805199",
+    "https://openalex.org/W172889106",
+    "https://openalex.org/W1925986327",
+    "https://openalex.org/W1981150151",
+    "https://openalex.org/W1986739245",
+    "https://openalex.org/W2027266132",
+    "https://openalex.org/W2037002006",
+    "https://openalex.org/W2065172724",
+    "https://openalex.org/W2069061113",
+    "https://openalex.org/W2084226894",
+    "https://openalex.org/W2088414607",
+    "https://openalex.org/W2103334964",
+    "https://openalex.org/W2181459194",
+    "https://openalex.org/W2411592439",
+    "https://openalex.org/W2973696211",
+    "https://openalex.org/W4233643289"
+  ],
+  "related_works": [
+    "https://openalex.org/W3186145633",
+    "https://openalex.org/W2356531112",
+    "https://openalex.org/W2353722503",
+    "https://openalex.org/W2082305741",
+    "https://openalex.org/W2066547047",
+    "https://openalex.org/W2028516203",
+    "https://openalex.org/W2006966129",
+    "https://openalex.org/W1910993323",
+    "https://openalex.org/W1591008663",
+    "https://openalex.org/W1580038353"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W165907885",
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 7
+    }
+  ],
+  "updated_date": "2025-06-16T19:35:47.701951",
+  "created_date": "2016-06-24"
+}

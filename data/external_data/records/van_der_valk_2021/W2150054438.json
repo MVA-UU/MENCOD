@@ -1,0 +1,791 @@
+{
+  "id": "https://openalex.org/W2150054438",
+  "doi": "https://doi.org/10.1136/jcp.s1-3.1.11",
+  "title": "The effect of oral contraceptives on cortisol metabolism",
+  "display_name": "The effect of oral contraceptives on cortisol metabolism",
+  "publication_year": 1969,
+  "publication_date": "1969-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2150054438",
+    "doi": "https://doi.org/10.1136/jcp.s1-3.1.11",
+    "mag": "2150054438",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/1436049"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/jcp.s1-3.1.11",
+    "pdf_url": "https://jcp.bmj.com/content/jclinpath/s1-3/1/11.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S37362813",
+      "display_name": "Journal of Clinical Pathology",
+      "issn_l": "0021-9746",
+      "issn": [
+        "0021-9746",
+        "1472-4146"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://jcp.bmj.com/content/jclinpath/s1-3/1/11.full.pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5110143293",
+        "display_name": "C. W. BURKE",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "C. W. Burke",
+      "raw_affiliation_strings": [
+        "From the Endocrine Unit, Department of Medicine, Royal Postgraduate Medical School, London"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "From the Endocrine Unit, Department of Medicine, Royal Postgraduate Medical School, London",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5110143293"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.375,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 29,
+  "citation_normalized_percentile": {
+    "value": 0.922157,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 92,
+    "max": 93
+  },
+  "biblio": {
+    "volume": "s1-3",
+    "issue": "1",
+    "first_page": "11",
+    "last_page": "18"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11020",
+    "display_name": "Immune Cell Function and Interaction",
+    "score": 0.9903,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2403",
+      "display_name": "Immunology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/24",
+      "display_name": "Immunology and Microbiology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11020",
+      "display_name": "Immune Cell Function and Interaction",
+      "score": 0.9903,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12528",
+      "display_name": "IL-33, ST2, and ILC Pathways",
+      "score": 0.9876,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11510",
+      "display_name": "Reproductive System and Pregnancy",
+      "score": 0.9609,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2403",
+        "display_name": "Immunology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/heterologous",
+      "display_name": "Heterologous",
+      "score": 0.69891113
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780868878",
+      "wikidata": "https://www.wikidata.org/wiki/Q1660197",
+      "display_name": "Immunogenicity",
+      "level": 3,
+      "score": 0.78506505
+    },
+    {
+      "id": "https://openalex.org/C2777863537",
+      "wikidata": "https://www.wikidata.org/wiki/Q357896",
+      "display_name": "Adjuvant",
+      "level": 2,
+      "score": 0.7417361
+    },
+    {
+      "id": "https://openalex.org/C2780115692",
+      "wikidata": "https://www.wikidata.org/wiki/Q5747302",
+      "display_name": "Heterologous",
+      "level": 3,
+      "score": 0.69891113
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.5715174
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.4919977
+    },
+    {
+      "id": "https://openalex.org/C159047783",
+      "wikidata": "https://www.wikidata.org/wiki/Q7215",
+      "display_name": "Virology",
+      "level": 1,
+      "score": 0.47555014
+    },
+    {
+      "id": "https://openalex.org/C51785407",
+      "wikidata": "https://www.wikidata.org/wiki/Q2627568",
+      "display_name": "Effector",
+      "level": 2,
+      "score": 0.47470418
+    },
+    {
+      "id": "https://openalex.org/C2776090121",
+      "wikidata": "https://www.wikidata.org/wiki/Q193529",
+      "display_name": "T cell",
+      "level": 3,
+      "score": 0.46314475
+    },
+    {
+      "id": "https://openalex.org/C140704245",
+      "wikidata": "https://www.wikidata.org/wiki/Q3933202",
+      "display_name": "Viral replication",
+      "level": 3,
+      "score": 0.4253728
+    },
+    {
+      "id": "https://openalex.org/C2779341262",
+      "wikidata": "https://www.wikidata.org/wiki/Q182581",
+      "display_name": "Immunity",
+      "level": 3,
+      "score": 0.41977176
+    },
+    {
+      "id": "https://openalex.org/C8891405",
+      "wikidata": "https://www.wikidata.org/wiki/Q1059",
+      "display_name": "Immune system",
+      "level": 2,
+      "score": 0.24752301
+    },
+    {
+      "id": "https://openalex.org/C2522874641",
+      "wikidata": "https://www.wikidata.org/wiki/Q808",
+      "display_name": "Virus",
+      "level": 2,
+      "score": 0.21005726
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.13015795
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.07685405
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1136/jcp.s1-3.1.11",
+      "pdf_url": "https://jcp.bmj.com/content/jclinpath/s1-3/1/11.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S37362813",
+        "display_name": "Journal of Clinical Pathology",
+        "issn_l": "0021-9746",
+        "issn": [
+          "0021-9746",
+          "1472-4146"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319945",
+        "host_organization_name": "BMJ",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319945"
+        ],
+        "host_organization_lineage_names": [
+          "BMJ"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/jcp.s1-3.1.11",
+    "pdf_url": "https://jcp.bmj.com/content/jclinpath/s1-3/1/11.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S37362813",
+      "display_name": "Journal of Clinical Pathology",
+      "issn_l": "0021-9746",
+      "issn": [
+        "0021-9746",
+        "1472-4146"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.86,
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 33,
+  "referenced_works": [
+    "https://openalex.org/W1964174722",
+    "https://openalex.org/W1968212942",
+    "https://openalex.org/W1972001922",
+    "https://openalex.org/W1980196666",
+    "https://openalex.org/W1981206669",
+    "https://openalex.org/W1982660038",
+    "https://openalex.org/W1992069293",
+    "https://openalex.org/W1992578667",
+    "https://openalex.org/W2010136284",
+    "https://openalex.org/W2014828064",
+    "https://openalex.org/W2016551035",
+    "https://openalex.org/W2021065129",
+    "https://openalex.org/W2029359961",
+    "https://openalex.org/W2031075741",
+    "https://openalex.org/W2045324189",
+    "https://openalex.org/W2046331932",
+    "https://openalex.org/W2048412455",
+    "https://openalex.org/W2050339694",
+    "https://openalex.org/W2056125391",
+    "https://openalex.org/W2078864708",
+    "https://openalex.org/W2080998020",
+    "https://openalex.org/W2086710277",
+    "https://openalex.org/W2090712994",
+    "https://openalex.org/W2099387041",
+    "https://openalex.org/W2115999333",
+    "https://openalex.org/W2121900547",
+    "https://openalex.org/W2150054438",
+    "https://openalex.org/W2153742227",
+    "https://openalex.org/W2162328901",
+    "https://openalex.org/W2167293558",
+    "https://openalex.org/W2486511241",
+    "https://openalex.org/W2492751847",
+    "https://openalex.org/W4253713600"
+  ],
+  "related_works": [
+    "https://openalex.org/W4250292386",
+    "https://openalex.org/W2978251200",
+    "https://openalex.org/W2883400236",
+    "https://openalex.org/W2464521541",
+    "https://openalex.org/W2393152609",
+    "https://openalex.org/W2119890732",
+    "https://openalex.org/W1999684327",
+    "https://openalex.org/W1750271499",
+    "https://openalex.org/W1581415616",
+    "https://openalex.org/W1552738310"
+  ],
+  "abstract_inverted_index": {
+    "Candidate": [
+      0
+    ],
+    "vaccines": [
+      1,
+      130
+    ],
+    "designed": [
+      2
+    ],
+    "to": [
+      3,
+      17,
+      125
+    ],
+    "generate": [
+      4
+    ],
+    "T": [
+      5,
+      22,
+      81,
+      104
+    ],
+    "cell–based": [
+      6
+    ],
+    "immunity": [
+      7
+    ],
+    "are": [
+      8
+    ],
+    "typically": [
+      9
+    ],
+    "vectored": [
+      10
+    ],
+    "by": [
+      11
+    ],
+    "nonpersistent": [
+      12
+    ],
+    "viruses,": [
+      13
+    ],
+    "which": [
+      14,
+      107
+    ],
+    "largely": [
+      15
+    ],
+    "fail": [
+      16
+    ],
+    "elicit": [
+      18
+    ],
+    "durable": [
+      19
+    ],
+    "effector": [
+      20
+    ],
+    "memory": [
+      21,
+      80,
+      103
+    ],
+    "cell": [
+      23,
+      105
+    ],
+    "responses.": [
+      24
+    ],
+    "This": [
+      25
+    ],
+    "limitation": [
+      26
+    ],
+    "can": [
+      27
+    ],
+    "be": [
+      28
+    ],
+    "overcome": [
+      29
+    ],
+    "using": [
+      30
+    ],
+    "recombinant": [
+      31
+    ],
+    "strains": [
+      32
+    ],
+    "of": [
+      33,
+      42,
+      57,
+      76,
+      129,
+      135
+    ],
+    "CMV.": [
+      34,
+      88,
+      136
+    ],
+    "Proof-of-principle": [
+      35
+    ],
+    "studies": [
+      36
+    ],
+    "have": [
+      37
+    ],
+    "demonstrated": [
+      38
+    ],
+    "the": [
+      39,
+      48,
+      55,
+      71,
+      127
+    ],
+    "potential": [
+      40
+    ],
+    "benefits": [
+      41
+    ],
+    "this": [
+      43,
+      64
+    ],
+    "approach,": [
+      44
+    ],
+    "most": [
+      45
+    ],
+    "notably": [
+      46
+    ],
+    "in": [
+      47,
+      83
+    ],
+    "SIV": [
+      49
+    ],
+    "model,": [
+      50
+    ],
+    "but": [
+      51
+    ],
+    "safety": [
+      52
+    ],
+    "concerns": [
+      53
+    ],
+    "require": [
+      54
+    ],
+    "development": [
+      56
+    ],
+    "nonreplicating": [
+      58
+    ],
+    "alternatives": [
+      59
+    ],
+    "with": [
+      60,
+      86
+    ],
+    "comparable": [
+      61
+    ],
+    "immunogenicity.": [
+      62
+    ],
+    "In": [
+      63
+    ],
+    "study,": [
+      65
+    ],
+    "we": [
+      66,
+      95
+    ],
+    "show": [
+      67,
+      97
+    ],
+    "that": [
+      68,
+      98,
+      117
+    ],
+    "IL-33": [
+      69,
+      100,
+      118
+    ],
+    "promotes": [
+      70
+    ],
+    "accumulation": [
+      72
+    ],
+    "and": [
+      73,
+      78
+    ],
+    "recall": [
+      74
+    ],
+    "kinetics": [
+      75
+    ],
+    "circulating": [
+      77
+    ],
+    "tissue-resident": [
+      79
+    ],
+    "cells": [
+      82
+    ],
+    "mice": [
+      84
+    ],
+    "infected": [
+      85
+    ],
+    "murine": [
+      87,
+      92
+    ],
+    "Using": [
+      89
+    ],
+    "a": [
+      90,
+      122
+    ],
+    "replication-deficient": [
+      91
+    ],
+    "CMV": [
+      93
+    ],
+    "vector,": [
+      94
+    ],
+    "further": [
+      96
+    ],
+    "exogenous": [
+      99
+    ],
+    "boosts": [
+      101
+    ],
+    "vaccine-induced": [
+      102
+    ],
+    "responses,": [
+      106
+    ],
+    "protect": [
+      108
+    ],
+    "against": [
+      109
+    ],
+    "subsequent": [
+      110
+    ],
+    "heterologous": [
+      111
+    ],
+    "viral": [
+      112
+    ],
+    "challenge.": [
+      113
+    ],
+    "These": [
+      114
+    ],
+    "data": [
+      115
+    ],
+    "suggest": [
+      116
+    ],
+    "could": [
+      119
+    ],
+    "serve": [
+      120
+    ],
+    "as": [
+      121
+    ],
+    "useful": [
+      123
+    ],
+    "adjuvant": [
+      124
+    ],
+    "improve": [
+      126
+    ],
+    "efficacy": [
+      128
+    ],
+    "based": [
+      131
+    ],
+    "on": [
+      132
+    ],
+    "attenuated": [
+      133
+    ],
+    "derivatives": [
+      134
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2150054438",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-17T07:17:18.575985",
+  "created_date": "2016-06-24"
+}

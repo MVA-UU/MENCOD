@@ -1,0 +1,696 @@
+{
+  "id": "https://openalex.org/W2799315549",
+  "doi": "https://doi.org/10.1016/j.compag.2018.04.018",
+  "title": "Classification of sheep urination events using accelerometers to aid improved measurements of livestock contributions to nitrous oxide emissions",
+  "display_name": "Classification of sheep urination events using accelerometers to aid improved measurements of livestock contributions to nitrous oxide emissions",
+  "publication_year": 2018,
+  "publication_date": "2018-04-26",
+  "ids": {
+    "openalex": "https://openalex.org/W2799315549",
+    "doi": "https://doi.org/10.1016/j.compag.2018.04.018",
+    "mag": "2799315549"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.compag.2018.04.018",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S116775814",
+      "display_name": "Computers and Electronics in Agriculture",
+      "issn_l": "0168-1699",
+      "issn": [
+        "0168-1699",
+        "1872-7107"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://cronfa.swan.ac.uk/api/Download/8815",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5087473040",
+        "display_name": "Lucy Lush",
+        "orcid": "https://orcid.org/0000-0002-6738-0090"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I39586589",
+          "display_name": "Swansea University",
+          "ror": "https://ror.org/053fq8t95",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39586589"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Lucy Lush",
+      "raw_affiliation_strings": [
+        "Department of Biosciences, College of Science, Swansea University, Singleton Park, Swansea SA2 8PP, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biosciences, College of Science, Swansea University, Singleton Park, Swansea SA2 8PP, UK",
+          "institution_ids": [
+            "https://openalex.org/I39586589"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026797834",
+        "display_name": "Rory P. Wilson",
+        "orcid": "https://orcid.org/0000-0003-3177-0107"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I39586589",
+          "display_name": "Swansea University",
+          "ror": "https://ror.org/053fq8t95",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39586589"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rory P. Wilson",
+      "raw_affiliation_strings": [
+        "Department of Biosciences, College of Science, Swansea University, Singleton Park, Swansea SA2 8PP, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biosciences, College of Science, Swansea University, Singleton Park, Swansea SA2 8PP, UK",
+          "institution_ids": [
+            "https://openalex.org/I39586589"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004277999",
+        "display_name": "Mark D. Holton",
+        "orcid": "https://orcid.org/0000-0001-8834-3283"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I39586589",
+          "display_name": "Swansea University",
+          "ror": "https://ror.org/053fq8t95",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39586589"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mark D. Holton",
+      "raw_affiliation_strings": [
+        "College of Engineering, Swansea University, Bay Campus, Fabian Way, Swansea SA1 8EN, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "College of Engineering, Swansea University, Bay Campus, Fabian Way, Swansea SA1 8EN, UK",
+          "institution_ids": [
+            "https://openalex.org/I39586589"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053742398",
+        "display_name": "Phil Hopkins",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I39586589",
+          "display_name": "Swansea University",
+          "ror": "https://ror.org/053fq8t95",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39586589"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Phil Hopkins",
+      "raw_affiliation_strings": [
+        "College of Science, Swansea University, Singleton Park, Swansea SA2 8PP, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "College of Science, Swansea University, Singleton Park, Swansea SA2 8PP, UK",
+          "institution_ids": [
+            "https://openalex.org/I39586589"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026678183",
+        "display_name": "Karina A. Marsden",
+        "orcid": "https://orcid.org/0000-0002-0605-3918"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161548249",
+          "display_name": "Bangor University",
+          "ror": "https://ror.org/006jb1a24",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161548249"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Karina A. Marsden",
+      "raw_affiliation_strings": [
+        "School of Environment, Natural Resources and Geography, Bangor University, Bangor, Gwynedd LL57 2UW, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Environment, Natural Resources and Geography, Bangor University, Bangor, Gwynedd LL57 2UW, UK",
+          "institution_ids": [
+            "https://openalex.org/I161548249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000532994",
+        "display_name": "David R. Chadwick",
+        "orcid": "https://orcid.org/0000-0002-8479-8157"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161548249",
+          "display_name": "Bangor University",
+          "ror": "https://ror.org/006jb1a24",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161548249"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David R. Chadwick",
+      "raw_affiliation_strings": [
+        "School of Environment, Natural Resources and Geography, Bangor University, Bangor, Gwynedd LL57 2UW, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Environment, Natural Resources and Geography, Bangor University, Bangor, Gwynedd LL57 2UW, UK",
+          "institution_ids": [
+            "https://openalex.org/I161548249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5068922252",
+        "display_name": "Andrew J. King",
+        "orcid": "https://orcid.org/0000-0002-6870-9767"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I39586589",
+          "display_name": "Swansea University",
+          "ror": "https://ror.org/053fq8t95",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39586589"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew J. King",
+      "raw_affiliation_strings": [
+        "Department of Biosciences, College of Science, Swansea University, Singleton Park, Swansea SA2 8PP, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biosciences, College of Science, Swansea University, Singleton Park, Swansea SA2 8PP, UK",
+          "institution_ids": [
+            "https://openalex.org/I39586589"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5087473040"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I39586589"
+  ],
+  "apc_list": {
+    "value": 3680,
+    "currency": "USD",
+    "value_usd": 3680
+  },
+  "apc_paid": null,
+  "fwci": 4.917,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 46,
+  "citation_normalized_percentile": {
+    "value": 0.999843,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "150",
+    "issue": null,
+    "first_page": "170",
+    "last_page": "177"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12365",
+    "display_name": "Effects of Environmental Stressors on Livestock",
+    "score": 0.9968,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1103",
+      "display_name": "Animal Science and Zoology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12365",
+      "display_name": "Effects of Environmental Stressors on Livestock",
+      "score": 0.9968,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1103",
+        "display_name": "Animal Science and Zoology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11821",
+      "display_name": "Odor and Emission Control Technologies",
+      "score": 0.9917,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1508",
+        "display_name": "Process Chemistry and Technology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/15",
+        "display_name": "Chemical Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10838",
+      "display_name": "Animal Behavior and Welfare Studies",
+      "score": 0.9607,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3404",
+        "display_name": "Small Animals"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/34",
+        "display_name": "Veterinary"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/nitrous-oxide",
+      "display_name": "Nitrous oxide",
+      "score": 0.8951416
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777573673",
+      "wikidata": "https://www.wikidata.org/wiki/Q905750",
+      "display_name": "Nitrous oxide",
+      "level": 2,
+      "score": 0.8951416
+    },
+    {
+      "id": "https://openalex.org/C89805583",
+      "wikidata": "https://www.wikidata.org/wiki/Q192940",
+      "display_name": "Accelerometer",
+      "level": 2,
+      "score": 0.75107837
+    },
+    {
+      "id": "https://openalex.org/C112964050",
+      "wikidata": "https://www.wikidata.org/wiki/Q103459",
+      "display_name": "Livestock",
+      "level": 2,
+      "score": 0.72254956
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.5801688
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.34614038
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.28563637
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.20708287
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.20134538
+    },
+    {
+      "id": "https://openalex.org/C97137747",
+      "wikidata": "https://www.wikidata.org/wiki/Q38112",
+      "display_name": "Forestry",
+      "level": 1,
+      "score": 0.15381488
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.1395463
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.compag.2018.04.018",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S116775814",
+        "display_name": "Computers and Electronics in Agriculture",
+        "issn_l": "0168-1699",
+        "issn": [
+          "0168-1699",
+          "1872-7107"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://cronfa.swan.ac.uk/Record/cronfa39589",
+      "pdf_url": "https://cronfa.swan.ac.uk/api/Download/8815",
+      "source": {
+        "id": "https://openalex.org/S4306401613",
+        "display_name": "Cronfa (Swansea University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I39586589",
+        "host_organization_name": "Swansea University",
+        "host_organization_lineage": [
+          "https://openalex.org/I39586589"
+        ],
+        "host_organization_lineage_names": [
+          "Swansea University"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://cronfa.swan.ac.uk/Record/cronfa39589",
+    "pdf_url": "https://cronfa.swan.ac.uk/api/Download/8815",
+    "source": {
+      "id": "https://openalex.org/S4306401613",
+      "display_name": "Cronfa (Swansea University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I39586589",
+      "host_organization_name": "Swansea University",
+      "host_organization_lineage": [
+        "https://openalex.org/I39586589"
+      ],
+      "host_organization_lineage_names": [
+        "Swansea University"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Zero hunger",
+      "score": 0.41,
+      "id": "https://metadata.un.org/sdg/2"
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320334631",
+      "funder_display_name": "Natural Environment Research Council",
+      "award_id": "NE/M015351/1"
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 29,
+  "referenced_works": [
+    "https://openalex.org/W1239247479",
+    "https://openalex.org/W1819901578",
+    "https://openalex.org/W2018002662",
+    "https://openalex.org/W2050365465",
+    "https://openalex.org/W2088152026",
+    "https://openalex.org/W2102346870",
+    "https://openalex.org/W2108916750",
+    "https://openalex.org/W2120332459",
+    "https://openalex.org/W2136375252",
+    "https://openalex.org/W2139086914",
+    "https://openalex.org/W2150794995",
+    "https://openalex.org/W2152779085",
+    "https://openalex.org/W2162989219",
+    "https://openalex.org/W2164777277",
+    "https://openalex.org/W2172136457",
+    "https://openalex.org/W2186436755",
+    "https://openalex.org/W2187387883",
+    "https://openalex.org/W2219049689",
+    "https://openalex.org/W2339725977",
+    "https://openalex.org/W2385878269",
+    "https://openalex.org/W2415987322",
+    "https://openalex.org/W2427134329",
+    "https://openalex.org/W2532445215",
+    "https://openalex.org/W2534107902",
+    "https://openalex.org/W2596055706",
+    "https://openalex.org/W273955616",
+    "https://openalex.org/W3037337472",
+    "https://openalex.org/W310780187",
+    "https://openalex.org/W4240198423"
+  ],
+  "related_works": [
+    "https://openalex.org/W2765080098",
+    "https://openalex.org/W2385749422",
+    "https://openalex.org/W2367831550",
+    "https://openalex.org/W2329412569",
+    "https://openalex.org/W2156612505",
+    "https://openalex.org/W2126631384",
+    "https://openalex.org/W2059516254",
+    "https://openalex.org/W1995538903",
+    "https://openalex.org/W1990839751",
+    "https://openalex.org/W1973633487"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2799315549",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-04-30T05:47:22.600032",
+  "created_date": "2018-05-17"
+}

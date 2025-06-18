@@ -1,0 +1,880 @@
+{
+  "id": "https://openalex.org/W2014882506",
+  "doi": "https://doi.org/10.1038/sj.mp.4001870",
+  "title": "Tryptophan hydroxylase-2 gene polymorphisms in rhesus monkeys: association with hypothalamic–pituitary–adrenal axis function and in vitro gene expression",
+  "display_name": "Tryptophan hydroxylase-2 gene polymorphisms in rhesus monkeys: association with hypothalamic–pituitary–adrenal axis function and in vitro gene expression",
+  "publication_year": 2006,
+  "publication_date": "2006-07-18",
+  "ids": {
+    "openalex": "https://openalex.org/W2014882506",
+    "doi": "https://doi.org/10.1038/sj.mp.4001870",
+    "mag": "2014882506",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16847459"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/sj.mp.4001870",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S71149355",
+      "display_name": "Molecular Psychiatry",
+      "issn_l": "1359-4184",
+      "issn": [
+        "1359-4184",
+        "1476-5578"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": "https://doi.org/10.1038/sj.mp.4001870",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5010106825",
+        "display_name": "Guangliang Chen",
+        "orcid": "https://orcid.org/0000-0002-3231-3576"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G-L Chen",
+      "raw_affiliation_strings": [
+        "Harvard Medical School, New England Primate Research Center, Division of Neurochemistry, Southborough, MA 01772-9102, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard Medical School, New England Primate Research Center, Division of Neurochemistry, Southborough, MA 01772-9102, USA.",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5002816323",
+        "display_name": "Melinda A. Novak",
+        "orcid": "https://orcid.org/0000-0002-4224-2396"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I177605424",
+          "display_name": "Amherst College",
+          "ror": "https://ror.org/028vqfs63",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I177605424"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M A Novak",
+      "raw_affiliation_strings": [
+        "Department of Psychology, University of Massachusetts at Amherst, Amherst, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychology, University of Massachusetts at Amherst, Amherst, USA",
+          "institution_ids": [
+            "https://openalex.org/I177605424"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111186966",
+        "display_name": "S Hakim",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S Hakim",
+      "raw_affiliation_strings": [
+        "Division of Neurochemistry, Harvard Medical School, New England Primate Research Center, Southborough, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Neurochemistry, Harvard Medical School, New England Primate Research Center, Southborough, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049428629",
+        "display_name": "Zhijun Xie",
+        "orcid": "https://orcid.org/0000-0002-9268-4029"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Z Xie",
+      "raw_affiliation_strings": [
+        "Division of Neurochemistry, Harvard Medical School, New England Primate Research Center, Southborough, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Neurochemistry, Harvard Medical School, New England Primate Research Center, Southborough, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5054206531",
+        "display_name": "Gregory M. Miller",
+        "orcid": "https://orcid.org/0000-0002-7595-7996"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G M Miller",
+      "raw_affiliation_strings": [
+        "Division of Neurochemistry, Harvard Medical School, New England Primate Research Center, Southborough, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Neurochemistry, Harvard Medical School, New England Primate Research Center, Southborough, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 6.412,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 42,
+  "citation_normalized_percentile": {
+    "value": 0.88132,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 92,
+    "max": 93
+  },
+  "biblio": {
+    "volume": "11",
+    "issue": "10",
+    "first_page": "914",
+    "last_page": "928"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11541",
+    "display_name": "Neuroendocrine regulation and behavior",
+    "score": 0.9956,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3207",
+      "display_name": "Social Psychology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/32",
+      "display_name": "Psychology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11541",
+      "display_name": "Neuroendocrine regulation and behavior",
+      "score": 0.9956,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9952,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10537",
+      "display_name": "Attention Deficit Hyperactivity Disorder",
+      "score": 0.9832,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/tryptophan-hydroxylase",
+      "display_name": "Tryptophan hydroxylase",
+      "score": 0.88313997
+    },
+    {
+      "id": "https://openalex.org/keywords/hypothalamic–pituitary–adrenal-axis",
+      "display_name": "Hypothalamic–pituitary–adrenal axis",
+      "score": 0.42727092
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2775951788",
+      "wikidata": "https://www.wikidata.org/wiki/Q418293",
+      "display_name": "Tryptophan hydroxylase",
+      "level": 5,
+      "score": 0.88313997
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.6497748
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.6024463
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.49716118
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.45783758
+    },
+    {
+      "id": "https://openalex.org/C202751555",
+      "wikidata": "https://www.wikidata.org/wiki/Q221681",
+      "display_name": "In vitro",
+      "level": 2,
+      "score": 0.43654817
+    },
+    {
+      "id": "https://openalex.org/C2779146795",
+      "wikidata": "https://www.wikidata.org/wiki/Q1369123",
+      "display_name": "Hypothalamic–pituitary–adrenal axis",
+      "level": 3,
+      "score": 0.42727092
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.38184562
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.33005208
+    },
+    {
+      "id": "https://openalex.org/C2775864247",
+      "wikidata": "https://www.wikidata.org/wiki/Q167934",
+      "display_name": "Serotonin",
+      "level": 3,
+      "score": 0.29190212
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.22294769
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.13470432
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.08342999
+    },
+    {
+      "id": "https://openalex.org/C37000724",
+      "wikidata": "https://www.wikidata.org/wiki/Q50430226",
+      "display_name": "Serotonergic",
+      "level": 4,
+      "score": 0.07456532
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "Q000201",
+      "qualifier_name": "enzymology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008253",
+      "descriptor_name": "Macaca mulatta",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "Q000201",
+      "qualifier_name": "enzymology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011110",
+      "descriptor_name": "Polymorphism, Genetic",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014365",
+      "descriptor_name": "Tryptophan Hydroxylase",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020413",
+      "descriptor_name": "3' Untranslated Regions",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020413",
+      "descriptor_name": "3' Untranslated Regions",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000595",
+      "descriptor_name": "Amino Acid Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001483",
+      "descriptor_name": "Base Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002478",
+      "descriptor_name": "Cells, Cultured",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002940",
+      "descriptor_name": "Circadian Rhythm",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002940",
+      "descriptor_name": "Circadian Rhythm",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002940",
+      "descriptor_name": "Circadian Rhythm",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004247",
+      "descriptor_name": "DNA",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004247",
+      "descriptor_name": "DNA",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020869",
+      "descriptor_name": "Gene Expression Profiling",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015810",
+      "descriptor_name": "Linkage Disequilibrium",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008253",
+      "descriptor_name": "Macaca mulatta",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008253",
+      "descriptor_name": "Macaca mulatta",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010641",
+      "descriptor_name": "Phenotype",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011110",
+      "descriptor_name": "Polymorphism, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012689",
+      "descriptor_name": "Sequence Homology, Nucleic Acid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014365",
+      "descriptor_name": "Tryptophan Hydroxylase",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014365",
+      "descriptor_name": "Tryptophan Hydroxylase",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/sj.mp.4001870",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S71149355",
+        "display_name": "Molecular Psychiatry",
+        "issn_l": "1359-4184",
+        "issn": [
+          "1359-4184",
+          "1476-5578"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16847459",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/sj.mp.4001870",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S71149355",
+      "display_name": "Molecular Psychiatry",
+      "issn_l": "1359-4184",
+      "issn": [
+        "1359-4184",
+        "1476-5578"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.44
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 35,
+  "referenced_works": [
+    "https://openalex.org/W1482114328",
+    "https://openalex.org/W1968260526",
+    "https://openalex.org/W1976114760",
+    "https://openalex.org/W1981653214",
+    "https://openalex.org/W2001217292",
+    "https://openalex.org/W2002074089",
+    "https://openalex.org/W2010350027",
+    "https://openalex.org/W2012223420",
+    "https://openalex.org/W2013012788",
+    "https://openalex.org/W2018548355",
+    "https://openalex.org/W2020200956",
+    "https://openalex.org/W2020944445",
+    "https://openalex.org/W2032197162",
+    "https://openalex.org/W2035663126",
+    "https://openalex.org/W2036744872",
+    "https://openalex.org/W2037168455",
+    "https://openalex.org/W2039628081",
+    "https://openalex.org/W2048881476",
+    "https://openalex.org/W2076368041",
+    "https://openalex.org/W2077425100",
+    "https://openalex.org/W2085006035",
+    "https://openalex.org/W2092446347",
+    "https://openalex.org/W2096221719",
+    "https://openalex.org/W2103748523",
+    "https://openalex.org/W2112995156",
+    "https://openalex.org/W2123386072",
+    "https://openalex.org/W2141157874",
+    "https://openalex.org/W2141532605",
+    "https://openalex.org/W2150144729",
+    "https://openalex.org/W2159909358",
+    "https://openalex.org/W2162176738",
+    "https://openalex.org/W2170106585",
+    "https://openalex.org/W2411911773",
+    "https://openalex.org/W2614537758",
+    "https://openalex.org/W2765307203"
+  ],
+  "related_works": [
+    "https://openalex.org/W341367255",
+    "https://openalex.org/W3032874291",
+    "https://openalex.org/W2415025170",
+    "https://openalex.org/W2363156284",
+    "https://openalex.org/W2317454317",
+    "https://openalex.org/W2147191610",
+    "https://openalex.org/W2097078061",
+    "https://openalex.org/W2059742646",
+    "https://openalex.org/W2053143503",
+    "https://openalex.org/W2005057264"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2014882506",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-05-21T13:09:57.273993",
+  "created_date": "2016-06-24"
+}

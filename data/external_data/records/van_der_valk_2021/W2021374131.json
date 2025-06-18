@@ -1,0 +1,770 @@
+{
+  "id": "https://openalex.org/W2021374131",
+  "doi": "https://doi.org/10.1007/s00216-014-8124-x",
+  "title": "Comparative evaluation of extraction methods for simultaneous mass-spectrometric analysis of complex lipids and primary metabolites from human blood plasma",
+  "display_name": "Comparative evaluation of extraction methods for simultaneous mass-spectrometric analysis of complex lipids and primary metabolites from human blood plasma",
+  "publication_year": 2014,
+  "publication_date": "2014-08-29",
+  "ids": {
+    "openalex": "https://openalex.org/W2021374131",
+    "doi": "https://doi.org/10.1007/s00216-014-8124-x",
+    "mag": "2021374131",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/25171832"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/s00216-014-8124-x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S18188872",
+      "display_name": "Analytical and Bioanalytical Chemistry",
+      "issn_l": "1618-2642",
+      "issn": [
+        "1618-2642",
+        "1618-2650"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310319900"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "Springer Science+Business Media"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5100443293",
+        "display_name": "Do Yup Lee",
+        "orcid": "https://orcid.org/0000-0002-3273-1313"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I110273157",
+          "display_name": "Kookmin University",
+          "ror": "https://ror.org/0049erg63",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I110273157"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Do Yup Lee",
+      "raw_affiliation_strings": [
+        "The Department of Bio and Fermentation Convergence Technology, Kookmin University, Seoul, 136-702, South Korea."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Department of Bio and Fermentation Convergence Technology, Kookmin University, Seoul, 136-702, South Korea.",
+          "institution_ids": [
+            "https://openalex.org/I110273157"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030581253",
+        "display_name": "Tobias Kind",
+        "orcid": "https://orcid.org/0000-0002-1908-4916"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tobias Kind",
+      "raw_affiliation_strings": [
+        " UC Davis"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": " UC Davis",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110036993",
+        "display_name": "Young Ran Yoon",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I31419693",
+          "display_name": "Kyungpook National University",
+          "ror": "https://ror.org/040c17130",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I31419693"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Young Ran Yoon",
+      "raw_affiliation_strings": [
+        "Kyungpook National University Graduates School and Hospital"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Kyungpook National University Graduates School and Hospital",
+          "institution_ids": [
+            "https://openalex.org/I31419693"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087349635",
+        "display_name": "Oliver Fiehn",
+        "orcid": "https://orcid.org/0000-0002-6261-8928"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Oliver Fiehn",
+      "raw_affiliation_strings": [
+        " UC Davis"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": " UC Davis",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5065474597",
+        "display_name": "Kwang‐Hyeon Liu",
+        "orcid": "https://orcid.org/0000-0002-3285-5594"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I31419693",
+          "display_name": "Kyungpook National University",
+          "ror": "https://ror.org/040c17130",
+          "country_code": "KR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I31419693"
+          ]
+        }
+      ],
+      "countries": [
+        "KR",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kwang Hyeon Liu",
+      "raw_affiliation_strings": [
+        "Kyungpook National University",
+        "UC Davis"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "UC Davis",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Kyungpook National University",
+          "institution_ids": [
+            "https://openalex.org/I31419693"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2790,
+    "currency": "EUR",
+    "value_usd": 3590
+  },
+  "apc_paid": null,
+  "fwci": 1.438,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 53,
+  "citation_normalized_percentile": {
+    "value": 0.89528,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "406",
+    "issue": "28",
+    "first_page": "7275",
+    "last_page": "7286"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10836",
+    "display_name": "Metabolomics and Mass Spectrometry Studies",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10836",
+      "display_name": "Metabolomics and Mass Spectrometry Studies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10683",
+      "display_name": "Mass Spectrometry Techniques and Applications",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10519",
+      "display_name": "Advanced Proteomics Techniques and Applications",
+      "score": 0.9961,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1607",
+        "display_name": "Spectroscopy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/protein-precipitation",
+      "display_name": "Protein precipitation",
+      "score": 0.6899086
+    },
+    {
+      "id": "https://openalex.org/keywords/sample-preparation",
+      "display_name": "Sample Preparation",
+      "score": 0.62072825
+    },
+    {
+      "id": "https://openalex.org/keywords/accelerated-solvent-extraction",
+      "display_name": "Accelerated solvent extraction",
+      "score": 0.506764
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C43617362",
+      "wikidata": "https://www.wikidata.org/wiki/Q170050",
+      "display_name": "Chromatography",
+      "level": 1,
+      "score": 0.8439412
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.78910124
+    },
+    {
+      "id": "https://openalex.org/C4725764",
+      "wikidata": "https://www.wikidata.org/wiki/Q844704",
+      "display_name": "Extraction (chemistry)",
+      "level": 2,
+      "score": 0.7512666
+    },
+    {
+      "id": "https://openalex.org/C2777477808",
+      "wikidata": "https://www.wikidata.org/wiki/Q407595",
+      "display_name": "Metabolite",
+      "level": 2,
+      "score": 0.6960517
+    },
+    {
+      "id": "https://openalex.org/C74774607",
+      "wikidata": "https://www.wikidata.org/wiki/Q7251495",
+      "display_name": "Protein precipitation",
+      "level": 3,
+      "score": 0.6899086
+    },
+    {
+      "id": "https://openalex.org/C2778576202",
+      "wikidata": "https://www.wikidata.org/wiki/Q2540164",
+      "display_name": "Sample preparation",
+      "level": 2,
+      "score": 0.62072825
+    },
+    {
+      "id": "https://openalex.org/C162356407",
+      "wikidata": "https://www.wikidata.org/wiki/Q180809",
+      "display_name": "Mass spectrometry",
+      "level": 2,
+      "score": 0.6174313
+    },
+    {
+      "id": "https://openalex.org/C21565614",
+      "wikidata": "https://www.wikidata.org/wiki/Q12149006",
+      "display_name": "Metabolomics",
+      "level": 2,
+      "score": 0.5995199
+    },
+    {
+      "id": "https://openalex.org/C31827203",
+      "wikidata": "https://www.wikidata.org/wiki/Q874296",
+      "display_name": "Tandem mass spectrometry",
+      "level": 3,
+      "score": 0.5329232
+    },
+    {
+      "id": "https://openalex.org/C2777725935",
+      "wikidata": "https://www.wikidata.org/wiki/Q3733583",
+      "display_name": "Accelerated solvent extraction",
+      "level": 3,
+      "score": 0.506764
+    },
+    {
+      "id": "https://openalex.org/C205345274",
+      "wikidata": "https://www.wikidata.org/wiki/Q873009",
+      "display_name": "Gas chromatography–mass spectrometry",
+      "level": 3,
+      "score": 0.4563007
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.09942296
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D008401",
+      "descriptor_name": "Gas Chromatography-Mass Spectrometry",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008055",
+      "descriptor_name": "Lipids",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055432",
+      "descriptor_name": "Metabolomics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D021241",
+      "descriptor_name": "Spectrometry, Mass, Electrospray Ionization",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D053719",
+      "descriptor_name": "Tandem Mass Spectrometry",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008401",
+      "descriptor_name": "Gas Chromatography-Mass Spectrometry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008055",
+      "descriptor_name": "Lipids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059625",
+      "descriptor_name": "Liquid-Liquid Extraction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D021241",
+      "descriptor_name": "Spectrometry, Mass, Electrospray Ionization",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053719",
+      "descriptor_name": "Tandem Mass Spectrometry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s00216-014-8124-x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S18188872",
+        "display_name": "Analytical and Bioanalytical Chemistry",
+        "issn_l": "1618-2642",
+        "issn": [
+          "1618-2642",
+          "1618-2650"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310319900"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "Springer Science+Business Media"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/25171832",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 60,
+  "referenced_works": [
+    "https://openalex.org/W1569454591",
+    "https://openalex.org/W1850084715",
+    "https://openalex.org/W1969119657",
+    "https://openalex.org/W1974005322",
+    "https://openalex.org/W1975579196",
+    "https://openalex.org/W1978346875",
+    "https://openalex.org/W1981686145",
+    "https://openalex.org/W1984566266",
+    "https://openalex.org/W1986527452",
+    "https://openalex.org/W1987277104",
+    "https://openalex.org/W1987471753",
+    "https://openalex.org/W1989505831",
+    "https://openalex.org/W1990031596",
+    "https://openalex.org/W1993868771",
+    "https://openalex.org/W1994901323",
+    "https://openalex.org/W1995944518",
+    "https://openalex.org/W2004301401",
+    "https://openalex.org/W2007006568",
+    "https://openalex.org/W2011720547",
+    "https://openalex.org/W2012402155",
+    "https://openalex.org/W2028151674",
+    "https://openalex.org/W2028421938",
+    "https://openalex.org/W2037833102",
+    "https://openalex.org/W2037881903",
+    "https://openalex.org/W2041480771",
+    "https://openalex.org/W2041601209",
+    "https://openalex.org/W2043775257",
+    "https://openalex.org/W2049602289",
+    "https://openalex.org/W2059544508",
+    "https://openalex.org/W2061460715",
+    "https://openalex.org/W2062058561",
+    "https://openalex.org/W2071534982",
+    "https://openalex.org/W2072672665",
+    "https://openalex.org/W2095826175",
+    "https://openalex.org/W2102452049",
+    "https://openalex.org/W2105343474",
+    "https://openalex.org/W2117524242",
+    "https://openalex.org/W2118524679",
+    "https://openalex.org/W2120714068",
+    "https://openalex.org/W2123790683",
+    "https://openalex.org/W2128817061",
+    "https://openalex.org/W2145068664",
+    "https://openalex.org/W2145665725",
+    "https://openalex.org/W2148089123",
+    "https://openalex.org/W2150779565",
+    "https://openalex.org/W2150926065",
+    "https://openalex.org/W2152311269",
+    "https://openalex.org/W2153615428",
+    "https://openalex.org/W2155680682",
+    "https://openalex.org/W2157240187",
+    "https://openalex.org/W2166628970",
+    "https://openalex.org/W2167170111",
+    "https://openalex.org/W2167376541",
+    "https://openalex.org/W2168526937",
+    "https://openalex.org/W2324713186",
+    "https://openalex.org/W2324924100",
+    "https://openalex.org/W2330550104",
+    "https://openalex.org/W4253781297",
+    "https://openalex.org/W45534775",
+    "https://openalex.org/W97648961"
+  ],
+  "related_works": [
+    "https://openalex.org/W4256034308",
+    "https://openalex.org/W4231131363",
+    "https://openalex.org/W2602656997",
+    "https://openalex.org/W2466649435",
+    "https://openalex.org/W2361287453",
+    "https://openalex.org/W2355060133",
+    "https://openalex.org/W2348381427",
+    "https://openalex.org/W2345772266",
+    "https://openalex.org/W2030022611",
+    "https://openalex.org/W2009702162"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2021374131",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-06-01T21:56:59.805104",
+  "created_date": "2016-06-24"
+}

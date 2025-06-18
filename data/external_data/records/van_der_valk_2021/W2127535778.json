@@ -1,0 +1,1599 @@
+{
+  "id": "https://openalex.org/W2127535778",
+  "doi": "https://doi.org/10.1128/mcb.01121-13",
+  "title": "Caveolin-1 Regulates Genomic Action of the Glucocorticoid Receptor in Neural Stem Cells",
+  "display_name": "Caveolin-1 Regulates Genomic Action of the Glucocorticoid Receptor in Neural Stem Cells",
+  "publication_year": 2014,
+  "publication_date": "2014-04-29",
+  "ids": {
+    "openalex": "https://openalex.org/W2127535778",
+    "doi": "https://doi.org/10.1128/mcb.01121-13",
+    "mag": "2127535778",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/24777604",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/4097667"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1128/mcb.01121-13",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S81455967",
+      "display_name": "Molecular and Cellular Biology",
+      "issn_l": "0270-7306",
+      "issn": [
+        "0270-7306",
+        "1067-8824",
+        "1098-5549"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.1128/mcb.01121-13",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5042612249",
+        "display_name": "Melanie Peffer",
+        "orcid": "https://orcid.org/0000-0002-6145-5186"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I170201317",
+          "display_name": "University of Pittsburgh",
+          "ror": "https://ror.org/01an3r305",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Melanie E. Peffer",
+      "raw_affiliation_strings": [
+        "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+        "Program in Integrative Molecular Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Program in Integrative Molecular Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+          "institution_ids": [
+            "https://openalex.org/I170201317"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+          "institution_ids": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004781857",
+        "display_name": "Uma Chandran",
+        "orcid": "https://orcid.org/0000-0002-0817-9880"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I170201317",
+          "display_name": "University of Pittsburgh",
+          "ror": "https://ror.org/01an3r305",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Uma R. Chandran",
+      "raw_affiliation_strings": [
+        "Department of Biomedical Informatics, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biomedical Informatics, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+          "institution_ids": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035665774",
+        "display_name": "Soumya Luthra",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I170201317",
+          "display_name": "University of Pittsburgh",
+          "ror": "https://ror.org/01an3r305",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Soumya Luthra",
+      "raw_affiliation_strings": [
+        "Department of Biomedical Informatics, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biomedical Informatics, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+          "institution_ids": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050392667",
+        "display_name": "Daniela Volonté",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I170201317",
+          "display_name": "University of Pittsburgh",
+          "ror": "https://ror.org/01an3r305",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Daniela Volonte",
+      "raw_affiliation_strings": [
+        "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+          "institution_ids": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059287929",
+        "display_name": "Ferruccio Galbiati",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I170201317",
+          "display_name": "University of Pittsburgh",
+          "ror": "https://ror.org/01an3r305",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ferruccio Galbiati",
+      "raw_affiliation_strings": [
+        "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+          "institution_ids": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060305478",
+        "display_name": "Michael J. Garabedian",
+        "orcid": "https://orcid.org/0000-0001-8915-7378"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael J. Garabedian",
+      "raw_affiliation_strings": [
+        "Department of Microbiology, New York University School of Medicine, New York, New York, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Microbiology, New York University School of Medicine, New York, New York, USA",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5090814497",
+        "display_name": "A. Paula Monaghan",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I170201317",
+          "display_name": "University of Pittsburgh",
+          "ror": "https://ror.org/01an3r305",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. Paula Monaghan",
+      "raw_affiliation_strings": [
+        "Department of Neurobiology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurobiology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+          "institution_ids": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5066345618",
+        "display_name": "Donald Defranco",
+        "orcid": "https://orcid.org/0000-0002-7662-4886"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I170201317",
+          "display_name": "University of Pittsburgh",
+          "ror": "https://ror.org/01an3r305",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Donald B. DeFranco",
+      "raw_affiliation_strings": [
+        "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+        "Program in Integrative Molecular Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Program in Integrative Molecular Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+          "institution_ids": [
+            "https://openalex.org/I170201317"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Pharmacology and Chemical Biology, University of Pittsburgh School of Medicine, Pittsburgh, Pennsylvania, USA",
+          "institution_ids": [
+            "https://openalex.org/I170201317"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.282,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 35,
+  "citation_normalized_percentile": {
+    "value": 0.999884,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 95
+  },
+  "biblio": {
+    "volume": "34",
+    "issue": "14",
+    "first_page": "2611",
+    "last_page": "2623"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12793",
+    "display_name": "Caveolin-1 and cellular processes",
+    "score": 0.9972,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1307",
+      "display_name": "Cell Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12793",
+      "display_name": "Caveolin-1 and cellular processes",
+      "score": 0.9972,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.9882,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10756",
+      "display_name": "Estrogen and related hormone effects",
+      "score": 0.9812,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/erbb",
+      "display_name": "ErbB",
+      "score": 0.5206853
+    },
+    {
+      "id": "https://openalex.org/keywords/caveolin-1",
+      "display_name": "Caveolin 1",
+      "score": 0.49353063
+    },
+    {
+      "id": "https://openalex.org/keywords/knockout-mouse",
+      "display_name": "Knockout mouse",
+      "score": 0.4334198
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.86517805
+    },
+    {
+      "id": "https://openalex.org/C59493245",
+      "wikidata": "https://www.wikidata.org/wiki/Q14877410",
+      "display_name": "Glucocorticoid receptor",
+      "level": 3,
+      "score": 0.64006567
+    },
+    {
+      "id": "https://openalex.org/C136834591",
+      "wikidata": "https://www.wikidata.org/wiki/Q2944097",
+      "display_name": "Neural stem cell",
+      "level": 3,
+      "score": 0.63298076
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.5809068
+    },
+    {
+      "id": "https://openalex.org/C2779251935",
+      "wikidata": "https://www.wikidata.org/wiki/Q5385089",
+      "display_name": "ErbB",
+      "level": 3,
+      "score": 0.5206853
+    },
+    {
+      "id": "https://openalex.org/C2780870201",
+      "wikidata": "https://www.wikidata.org/wiki/Q17855958",
+      "display_name": "Caveolin 1",
+      "level": 2,
+      "score": 0.49353063
+    },
+    {
+      "id": "https://openalex.org/C2780841215",
+      "wikidata": "https://www.wikidata.org/wiki/Q422549",
+      "display_name": "Glucocorticoid",
+      "level": 2,
+      "score": 0.4684394
+    },
+    {
+      "id": "https://openalex.org/C63932345",
+      "wikidata": "https://www.wikidata.org/wiki/Q422500",
+      "display_name": "Nuclear receptor",
+      "level": 4,
+      "score": 0.45118624
+    },
+    {
+      "id": "https://openalex.org/C62478195",
+      "wikidata": "https://www.wikidata.org/wiki/Q828130",
+      "display_name": "Signal transduction",
+      "level": 2,
+      "score": 0.437509
+    },
+    {
+      "id": "https://openalex.org/C182704531",
+      "wikidata": "https://www.wikidata.org/wiki/Q1364740",
+      "display_name": "Knockout mouse",
+      "level": 3,
+      "score": 0.4334198
+    },
+    {
+      "id": "https://openalex.org/C162317418",
+      "wikidata": "https://www.wikidata.org/wiki/Q252857",
+      "display_name": "Transcriptome",
+      "level": 4,
+      "score": 0.42553973
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.35942784
+    },
+    {
+      "id": "https://openalex.org/C28328180",
+      "wikidata": "https://www.wikidata.org/wiki/Q48196",
+      "display_name": "Stem cell",
+      "level": 2,
+      "score": 0.3275305
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.29228845
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.24645773
+    },
+    {
+      "id": "https://openalex.org/C86339819",
+      "wikidata": "https://www.wikidata.org/wiki/Q407384",
+      "display_name": "Transcription factor",
+      "level": 3,
+      "score": 0.21860439
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.19301009
+    },
+    {
+      "id": "https://openalex.org/C150194340",
+      "wikidata": "https://www.wikidata.org/wiki/Q26972",
+      "display_name": "Gene expression",
+      "level": 3,
+      "score": 0.1801193
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D051242",
+      "descriptor_name": "Caveolin 1",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003907",
+      "descriptor_name": "Dexamethasone",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D058953",
+      "descriptor_name": "Neural Stem Cells",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011965",
+      "descriptor_name": "Receptors, Glucocorticoid",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D050436",
+      "descriptor_name": "Regulatory Elements, Transcriptional",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001483",
+      "descriptor_name": "Base Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051242",
+      "descriptor_name": "Caveolin 1",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049109",
+      "descriptor_name": "Cell Proliferation",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D049109",
+      "descriptor_name": "Cell Proliferation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002843",
+      "descriptor_name": "Chromatin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002843",
+      "descriptor_name": "Chromatin",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003907",
+      "descriptor_name": "Dexamethasone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004622",
+      "descriptor_name": "Embryo, Mammalian",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055786",
+      "descriptor_name": "Gene Knockout Techniques",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008810",
+      "descriptor_name": "Mice, Inbred C57BL",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D058953",
+      "descriptor_name": "Neural Stem Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020411",
+      "descriptor_name": "Oligonucleotide Array Sequence Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010766",
+      "descriptor_name": "Phosphorylation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011965",
+      "descriptor_name": "Receptors, Glucocorticoid",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011965",
+      "descriptor_name": "Receptors, Glucocorticoid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012694",
+      "descriptor_name": "Serine",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012694",
+      "descriptor_name": "Serine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1128/mcb.01121-13",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S81455967",
+        "display_name": "Molecular and Cellular Biology",
+        "issn_l": "0270-7306",
+        "issn": [
+          "0270-7306",
+          "1067-8824",
+          "1098-5549"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc4097667",
+      "pdf_url": "https://europepmc.org/articles/pmc4097667?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4097667",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/24777604",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1128/mcb.01121-13",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S81455967",
+      "display_name": "Molecular and Cellular Biology",
+      "issn_l": "0270-7306",
+      "issn": [
+        "0270-7306",
+        "1067-8824",
+        "1098-5549"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.61
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 53,
+  "referenced_works": [
+    "https://openalex.org/W1874408158",
+    "https://openalex.org/W1966338898",
+    "https://openalex.org/W1971841422",
+    "https://openalex.org/W1982091883",
+    "https://openalex.org/W1985336161",
+    "https://openalex.org/W1985511908",
+    "https://openalex.org/W1985562808",
+    "https://openalex.org/W1990118125",
+    "https://openalex.org/W1990157223",
+    "https://openalex.org/W1993745387",
+    "https://openalex.org/W1994791010",
+    "https://openalex.org/W1998000745",
+    "https://openalex.org/W2008925541",
+    "https://openalex.org/W2011941829",
+    "https://openalex.org/W2022918061",
+    "https://openalex.org/W2025905907",
+    "https://openalex.org/W2027461143",
+    "https://openalex.org/W2030540042",
+    "https://openalex.org/W2038487059",
+    "https://openalex.org/W2041469335",
+    "https://openalex.org/W2055193361",
+    "https://openalex.org/W2055723020",
+    "https://openalex.org/W2056613530",
+    "https://openalex.org/W2068810652",
+    "https://openalex.org/W2068889776",
+    "https://openalex.org/W2070510406",
+    "https://openalex.org/W2071153571",
+    "https://openalex.org/W2071532085",
+    "https://openalex.org/W2083135044",
+    "https://openalex.org/W2089399201",
+    "https://openalex.org/W2093010641",
+    "https://openalex.org/W2095853712",
+    "https://openalex.org/W2096160341",
+    "https://openalex.org/W2103828505",
+    "https://openalex.org/W2114853205",
+    "https://openalex.org/W2120865735",
+    "https://openalex.org/W2127960611",
+    "https://openalex.org/W2132261361",
+    "https://openalex.org/W2133699607",
+    "https://openalex.org/W2134337471",
+    "https://openalex.org/W2136263374",
+    "https://openalex.org/W2138376605",
+    "https://openalex.org/W2139512539",
+    "https://openalex.org/W2140660208",
+    "https://openalex.org/W2141472493",
+    "https://openalex.org/W2147525819",
+    "https://openalex.org/W2147789261",
+    "https://openalex.org/W2150691073",
+    "https://openalex.org/W2152599381",
+    "https://openalex.org/W2154097321",
+    "https://openalex.org/W2170106900",
+    "https://openalex.org/W4242743062",
+    "https://openalex.org/W4245485299"
+  ],
+  "related_works": [
+    "https://openalex.org/W4318460051",
+    "https://openalex.org/W4240366123",
+    "https://openalex.org/W2178771849",
+    "https://openalex.org/W2165467938",
+    "https://openalex.org/W2055781207",
+    "https://openalex.org/W2052870974",
+    "https://openalex.org/W2026100135",
+    "https://openalex.org/W1990118125",
+    "https://openalex.org/W1976350738",
+    "https://openalex.org/W1976350481"
+  ],
+  "abstract_inverted_index": {
+    "While": [
+      0
+    ],
+    "glucocorticoids": [
+      1
+    ],
+    "(GCs)": [
+      2
+    ],
+    "are": [
+      3,
+      104,
+      126,
+      141,
+      183
+    ],
+    "used": [
+      4
+    ],
+    "clinically": [
+      5
+    ],
+    "to": [
+      6,
+      19,
+      106,
+      164,
+      181,
+      208
+    ],
+    "treat": [
+      7
+    ],
+    "many": [
+      8,
+      91
+    ],
+    "conditions,": [
+      9
+    ],
+    "their": [
+      10,
+      26
+    ],
+    "neonatal": [
+      11
+    ],
+    "and": [
+      12,
+      98,
+      174,
+      202
+    ],
+    "prenatal": [
+      13
+    ],
+    "usage": [
+      14
+    ],
+    "is": [
+      15,
+      190
+    ],
+    "increasingly": [
+      16
+    ],
+    "controversial": [
+      17
+    ],
+    "due": [
+      18
+    ],
+    "reports": [
+      20
+    ],
+    "of": [
+      21,
+      37,
+      84,
+      90,
+      111,
+      115,
+      146,
+      149,
+      161,
+      167,
+      195,
+      205
+    ],
+    "delayed": [
+      22
+    ],
+    "adverse": [
+      23
+    ],
+    "outcomes,": [
+      24
+    ],
+    "especially": [
+      25
+    ],
+    "effects": [
+      27,
+      110
+    ],
+    "on": [
+      28,
+      39
+    ],
+    "brain": [
+      29
+    ],
+    "development.": [
+      30
+    ],
+    "Such": [
+      31
+    ],
+    "alterations": [
+      32
+    ],
+    "may": [
+      33
+    ],
+    "reflect": [
+      34
+    ],
+    "the": [
+      35,
+      49,
+      87,
+      96,
+      108,
+      144,
+      206
+    ],
+    "impact": [
+      36,
+      209
+    ],
+    "GCs": [
+      38
+    ],
+    "neural": [
+      40
+    ],
+    "progenitor/stem": [
+      41
+    ],
+    "cell": [
+      42,
+      210
+    ],
+    "(NPSC)": [
+      43
+    ],
+    "function.": [
+      44
+    ],
+    "We": [
+      45,
+      72
+    ],
+    "previously": [
+      46
+    ],
+    "demonstrated": [
+      47
+    ],
+    "that": [
+      48,
+      75,
+      103,
+      125
+    ],
+    "lipid": [
+      50
+    ],
+    "raft": [
+      51
+    ],
+    "protein": [
+      52
+    ],
+    "caveolin-1": [
+      53
+    ],
+    "(Cav-1)": [
+      54
+    ],
+    "was": [
+      55
+    ],
+    "required": [
+      56
+    ],
+    "for": [
+      57
+    ],
+    "rapid": [
+      58,
+      201
+    ],
+    "GC": [
+      59,
+      130
+    ],
+    "signaling": [
+      60,
+      78
+    ],
+    "in": [
+      61,
+      79,
+      134,
+      137,
+      185,
+      197
+    ],
+    "embryonic": [
+      62
+    ],
+    "mouse": [
+      63
+    ],
+    "NPSCs": [
+      64,
+      80,
+      120,
+      140,
+      198
+    ],
+    "operating": [
+      65
+    ],
+    "through": [
+      66
+    ],
+    "plasma": [
+      67
+    ],
+    "membrane-bound": [
+      68
+    ],
+    "glucocorticoid": [
+      69
+    ],
+    "receptors": [
+      70
+    ],
+    "(GRs).": [
+      71
+    ],
+    "show": [
+      73
+    ],
+    "here": [
+      74
+    ],
+    "genomic": [
+      76,
+      203
+    ],
+    "GR": [
+      77,
+      92,
+      150,
+      163,
+      196
+    ],
+    "requires": [
+      81
+    ],
+    "Cav-1.": [
+      82
+    ],
+    "Loss": [
+      83
+    ],
+    "Cav-1": [
+      85,
+      138,
+      186,
+      189
+    ],
+    "impacts": [
+      86
+    ],
+    "transcriptional": [
+      88
+    ],
+    "response": [
+      89
+    ],
+    "target": [
+      93,
+      168
+    ],
+    "genes": [
+      94,
+      124,
+      169
+    ],
+    "(e.g.,": [
+      95
+    ],
+    "serum-": [
+      97
+    ],
+    "glucocorticoid-regulated": [
+      99
+    ],
+    "kinase": [
+      100
+    ],
+    "1": [
+      101
+    ],
+    "gene)": [
+      102
+    ],
+    "likely": [
+      105
+    ],
+    "mediate": [
+      107
+    ],
+    "antiproliferative": [
+      109
+    ],
+    "GCs.": [
+      112
+    ],
+    "Microarray": [
+      113
+    ],
+    "analysis": [
+      114
+    ],
+    "wild-type": [
+      116
+    ],
+    "C57": [
+      117
+    ],
+    "or": [
+      118
+    ],
+    "Cav-1-deficient": [
+      119
+    ],
+    "identified": [
+      121
+    ],
+    "approximately": [
+      122
+    ],
+    "100": [
+      123
+    ],
+    "differentially": [
+      127
+    ],
+    "regulated": [
+      128
+    ],
+    "by": [
+      129
+    ],
+    "treatment.": [
+      131
+    ],
+    "These": [
+      132
+    ],
+    "changes": [
+      133
+    ],
+    "hormone": [
+      135
+    ],
+    "responsiveness": [
+      136
+    ],
+    "knockout": [
+      139,
+      187
+    ],
+    "associated": [
+      142
+    ],
+    "with": [
+      143
+    ],
+    "loss": [
+      145
+    ],
+    "GC-regulated": [
+      147
+    ],
+    "phosphorylation": [
+      148
+    ],
+    "at": [
+      151,
+      156
+    ],
+    "serine": [
+      152,
+      157
+    ],
+    "211": [
+      153
+    ],
+    "but": [
+      154
+    ],
+    "not": [
+      155
+    ],
+    "226.": [
+      158
+    ],
+    "Chromatin": [
+      159
+    ],
+    "recruitment": [
+      160,
+      180
+    ],
+    "total": [
+      162
+    ],
+    "regulatory": [
+      165
+    ],
+    "regions": [
+      166
+    ],
+    "such": [
+      170
+    ],
+    "as": [
+      171,
+      176,
+      178
+    ],
+    "Fkbp-5,": [
+      172
+    ],
+    "RhoJ,": [
+      173
+    ],
+    "Sgk-1,": [
+      175,
+      182
+    ],
+    "well": [
+      177
+    ],
+    "p211-GR": [
+      179
+    ],
+    "compromised": [
+      184
+    ],
+    "NPSCs.": [
+      188
+    ],
+    "therefore": [
+      191
+    ],
+    "a": [
+      192
+    ],
+    "multifunctional": [
+      193
+    ],
+    "regulator": [
+      194
+    ],
+    "influencing": [
+      199
+    ],
+    "both": [
+      200
+    ],
+    "action": [
+      204
+    ],
+    "receptor": [
+      207
+    ],
+    "proliferation.": [
+      211
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2127535778",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-17T02:00:02.791593",
+  "created_date": "2016-06-24"
+}

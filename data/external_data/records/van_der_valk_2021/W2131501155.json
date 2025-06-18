@@ -1,0 +1,919 @@
+{
+  "id": "https://openalex.org/W2131501155",
+  "doi": "https://doi.org/10.1152/jappl.1983.55.2.628",
+  "title": "Calculation of substrate oxidation rates in vivo from gaseous exchange",
+  "display_name": "Calculation of substrate oxidation rates in vivo from gaseous exchange",
+  "publication_year": 1983,
+  "publication_date": "1983-08-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2131501155",
+    "doi": "https://doi.org/10.1152/jappl.1983.55.2.628",
+    "mag": "2131501155",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/6618956"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1152/jappl.1983.55.2.628",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S140889577",
+      "display_name": "Journal of Applied Physiology",
+      "issn_l": "1522-1601",
+      "issn": [
+        "1522-1601",
+        "8750-7587"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320155",
+      "host_organization_name": "American Physiological Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320155"
+      ],
+      "host_organization_lineage_names": [
+        "American Physiological Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5054559312",
+        "display_name": "Keith N. Frayn",
+        "orcid": "https://orcid.org/0000-0001-7281-1863"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "K. N. Frayn",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5054559312"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.546,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 2293,
+  "citation_normalized_percentile": {
+    "value": 0.995267,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "55",
+    "issue": "2",
+    "first_page": "628",
+    "last_page": "634"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12267",
+    "display_name": "Diet and metabolism studies",
+    "score": 0.9994,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12267",
+      "display_name": "Diet and metabolism studies",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11399",
+      "display_name": "Muscle metabolism and nutrition",
+      "score": 0.9962,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10858",
+      "display_name": "Clinical Nutrition and Gastroenterology",
+      "score": 0.9951,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2916",
+        "display_name": "Nutrition and Dietetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/29",
+        "display_name": "Nursing"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/lipogenesis",
+      "display_name": "Lipogenesis",
+      "score": 0.77881706
+    },
+    {
+      "id": "https://openalex.org/keywords/gluconeogenesis",
+      "display_name": "Gluconeogenesis",
+      "score": 0.7225798
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C141359234",
+      "wikidata": "https://www.wikidata.org/wiki/Q2734301",
+      "display_name": "Lipogenesis",
+      "level": 3,
+      "score": 0.77881706
+    },
+    {
+      "id": "https://openalex.org/C20904676",
+      "wikidata": "https://www.wikidata.org/wiki/Q191835",
+      "display_name": "Gluconeogenesis",
+      "level": 3,
+      "score": 0.7225798
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.70847636
+    },
+    {
+      "id": "https://openalex.org/C2778977261",
+      "wikidata": "https://www.wikidata.org/wiki/Q11358",
+      "display_name": "Carbohydrate",
+      "level": 2,
+      "score": 0.700734
+    },
+    {
+      "id": "https://openalex.org/C31532488",
+      "wikidata": "https://www.wikidata.org/wiki/Q746183",
+      "display_name": "Ketone bodies",
+      "level": 3,
+      "score": 0.5552845
+    },
+    {
+      "id": "https://openalex.org/C10146269",
+      "wikidata": "https://www.wikidata.org/wiki/Q185557",
+      "display_name": "Excretion",
+      "level": 2,
+      "score": 0.48232055
+    },
+    {
+      "id": "https://openalex.org/C2777289219",
+      "wikidata": "https://www.wikidata.org/wiki/Q7632154",
+      "display_name": "Substrate (aquarium)",
+      "level": 2,
+      "score": 0.46201932
+    },
+    {
+      "id": "https://openalex.org/C537208039",
+      "wikidata": "https://www.wikidata.org/wiki/Q627",
+      "display_name": "Nitrogen",
+      "level": 2,
+      "score": 0.44905993
+    },
+    {
+      "id": "https://openalex.org/C207001950",
+      "wikidata": "https://www.wikidata.org/wiki/Q141124",
+      "display_name": "In vivo",
+      "level": 2,
+      "score": 0.44824064
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.43933222
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.3324554
+    },
+    {
+      "id": "https://openalex.org/C62231903",
+      "wikidata": "https://www.wikidata.org/wiki/Q1057",
+      "display_name": "Metabolism",
+      "level": 2,
+      "score": 0.3172292
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.18473935
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.17741165
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.1243929
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C150903083",
+      "wikidata": "https://www.wikidata.org/wiki/Q7108",
+      "display_name": "Biotechnology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D010084",
+      "descriptor_name": "Oxidation-Reduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011659",
+      "descriptor_name": "Pulmonary Gas Exchange",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005943",
+      "descriptor_name": "Gluconeogenesis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005947",
+      "descriptor_name": "Glucose",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005947",
+      "descriptor_name": "Glucose",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008055",
+      "descriptor_name": "Lipids",
+      "qualifier_ui": "Q000096",
+      "qualifier_name": "biosynthesis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008055",
+      "descriptor_name": "Lipids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008433",
+      "descriptor_name": "Mathematics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1152/jappl.1983.55.2.628",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S140889577",
+        "display_name": "Journal of Applied Physiology",
+        "issn_l": "1522-1601",
+        "issn": [
+          "1522-1601",
+          "8750-7587"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320155",
+        "host_organization_name": "American Physiological Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320155"
+        ],
+        "host_organization_lineage_names": [
+          "American Physiological Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/6618956",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Clean water and sanitation",
+      "id": "https://metadata.un.org/sdg/6",
+      "score": 0.67
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 15,
+  "referenced_works": [
+    "https://openalex.org/W1177541621",
+    "https://openalex.org/W133844710",
+    "https://openalex.org/W1486490528",
+    "https://openalex.org/W152771191",
+    "https://openalex.org/W1562852527",
+    "https://openalex.org/W1931900695",
+    "https://openalex.org/W2063292670",
+    "https://openalex.org/W2071367634",
+    "https://openalex.org/W2077921482",
+    "https://openalex.org/W2149767956",
+    "https://openalex.org/W2173122722",
+    "https://openalex.org/W2330050482",
+    "https://openalex.org/W2407874083",
+    "https://openalex.org/W595911792",
+    "https://openalex.org/W602499145"
+  ],
+  "related_works": [
+    "https://openalex.org/W4321352340",
+    "https://openalex.org/W42335466",
+    "https://openalex.org/W2395679517",
+    "https://openalex.org/W2395658479",
+    "https://openalex.org/W2337606840",
+    "https://openalex.org/W2318412166",
+    "https://openalex.org/W2169607998",
+    "https://openalex.org/W2167309544",
+    "https://openalex.org/W2057254412",
+    "https://openalex.org/W1969973330"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "paper": [
+      1
+    ],
+    "reviews": [
+      2
+    ],
+    "the": [
+      3,
+      34,
+      61,
+      68,
+      71,
+      81,
+      98,
+      101,
+      111,
+      147,
+      150,
+      153,
+      164
+    ],
+    "assumptions": [
+      4
+    ],
+    "involved": [
+      5
+    ],
+    "in": [
+      6,
+      33,
+      116,
+      168
+    ],
+    "calculating": [
+      7
+    ],
+    "rates": [
+      8,
+      46,
+      57,
+      72,
+      102,
+      114,
+      125,
+      139
+    ],
+    "of": [
+      9,
+      16,
+      36,
+      58,
+      64,
+      70,
+      73,
+      94,
+      103,
+      126,
+      133,
+      152,
+      162
+    ],
+    "carbohydrate": [
+      10,
+      65,
+      85
+    ],
+    "and": [
+      11,
+      21,
+      42,
+      77,
+      105
+    ],
+    "fat": [
+      12,
+      95
+    ],
+    "oxidation": [
+      13,
+      66,
+      76,
+      96,
+      104
+    ],
+    "from": [
+      14,
+      88,
+      107,
+      158
+    ],
+    "measurements": [
+      15
+    ],
+    "O2": [
+      17
+    ],
+    "consumption,": [
+      18
+    ],
+    "CO2": [
+      19
+    ],
+    "production,": [
+      20
+    ],
+    "urinary": [
+      22
+    ],
+    "nitrogen": [
+      23
+    ],
+    "excretion.": [
+      24
+    ],
+    "It": [
+      25
+    ],
+    "is": [
+      26,
+      67,
+      86,
+      97
+    ],
+    "shown": [
+      27
+    ],
+    "that": [
+      28,
+      110
+    ],
+    "erroneous": [
+      29
+    ],
+    "results": [
+      30
+    ],
+    "are": [
+      31,
+      171
+    ],
+    "obtained": [
+      32
+    ],
+    "presence": [
+      35
+    ],
+    "metabolic": [
+      37
+    ],
+    "processes": [
+      38,
+      129
+    ],
+    "such": [
+      39,
+      130
+    ],
+    "as": [
+      40,
+      55,
+      131
+    ],
+    "lipogenesis": [
+      41,
+      79
+    ],
+    "gluconeogenesis.": [
+      43
+    ],
+    "The": [
+      44,
+      91
+    ],
+    "apparent": [
+      45,
+      62,
+      92
+    ],
+    "calculated": [
+      47
+    ],
+    "under": [
+      48
+    ],
+    "these": [
+      49,
+      169
+    ],
+    "conditions": [
+      50
+    ],
+    "can,": [
+      51
+    ],
+    "however,": [
+      52
+    ],
+    "be": [
+      53,
+      156
+    ],
+    "interpreted": [
+      54
+    ],
+    "net": [
+      56,
+      124
+    ],
+    "“utilization.”": [
+      59
+    ],
+    "Thus": [
+      60
+    ],
+    "rate": [
+      63,
+      82,
+      93
+    ],
+    "sum": [
+      69
+    ],
+    "utilization": [
+      74,
+      143
+    ],
+    "for": [
+      75,
+      78
+    ],
+    "minus": [
+      80
+    ],
+    "at": [
+      83,
+      138
+    ],
+    "which": [
+      84
+    ],
+    "formed": [
+      87
+    ],
+    "amino": [
+      89
+    ],
+    "acids.": [
+      90
+    ],
+    "difference": [
+      99
+    ],
+    "between": [
+      100
+    ],
+    "synthesis": [
+      106,
+      132
+    ],
+    "carbohydrate,": [
+      108
+    ],
+    "so": [
+      109
+    ],
+    "apparently": [
+      112
+    ],
+    "negative": [
+      113
+    ],
+    "encountered": [
+      115
+    ],
+    "patients": [
+      117
+    ],
+    "infused": [
+      118
+    ],
+    "with": [
+      119
+    ],
+    "glucose": [
+      120
+    ],
+    "do": [
+      121
+    ],
+    "quantitatively": [
+      122
+    ],
+    "represent": [
+      123
+    ],
+    "synthesis.": [
+      127
+    ],
+    "Other": [
+      128
+    ],
+    "ketone": [
+      134
+    ],
+    "bodies": [
+      135
+    ],
+    "or": [
+      136
+    ],
+    "lactate": [
+      137
+    ],
+    "greater": [
+      140
+    ],
+    "than": [
+      141
+    ],
+    "their": [
+      142
+    ],
+    "can": [
+      144,
+      155
+    ],
+    "also": [
+      145
+    ],
+    "disturb": [
+      146
+    ],
+    "calculations,": [
+      148
+    ],
+    "but": [
+      149
+    ],
+    "magnitude": [
+      151
+    ],
+    "effect": [
+      154
+    ],
+    "estimated": [
+      157
+    ],
+    "appropriate": [
+      159
+    ],
+    "measurements.": [
+      160
+    ],
+    "Methods": [
+      161
+    ],
+    "correcting": [
+      163
+    ],
+    "observed": [
+      165
+    ],
+    "gaseous": [
+      166
+    ],
+    "exchange": [
+      167
+    ],
+    "circumstances": [
+      170
+    ],
+    "given.": [
+      172
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2131501155",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 82
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 91
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 102
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 92
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 136
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 99
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 95
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 96
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 91
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 97
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 76
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 74
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 77
+    }
+  ],
+  "updated_date": "2025-06-13T17:00:56.319985",
+  "created_date": "2016-06-24"
+}

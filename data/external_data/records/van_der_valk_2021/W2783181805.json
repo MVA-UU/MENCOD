@@ -1,0 +1,1528 @@
+{
+  "id": "https://openalex.org/W2783181805",
+  "doi": "https://doi.org/10.1371/journal.pone.0191215",
+  "title": "Cognitive control moderates parenting stress effects on children's diurnal cortisol",
+  "display_name": "Cognitive control moderates parenting stress effects on children's diurnal cortisol",
+  "publication_year": 2018,
+  "publication_date": "2018-01-12",
+  "ids": {
+    "openalex": "https://openalex.org/W2783181805",
+    "doi": "https://doi.org/10.1371/journal.pone.0191215",
+    "mag": "2783181805",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/29329340",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5766146"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pone.0191215",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0191215&type=printable",
+    "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+        "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0191215&type=printable",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5023712106",
+        "display_name": "Laurel Raffington",
+        "orcid": "https://orcid.org/0000-0002-0144-5605"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210120221",
+          "display_name": "Max Planck Institute for Human Development",
+          "ror": "https://ror.org/02pp7px91",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210120221"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I7877124",
+          "display_name": "Charité - Universitätsmedizin Berlin",
+          "ror": "https://ror.org/001w7jn25",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I7877124"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I39343248",
+          "display_name": "Humboldt-Universität zu Berlin",
+          "ror": "https://ror.org/01hcx6992",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39343248"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Laurel Raffington",
+      "raw_affiliation_strings": [
+        "Berlin School of Mind and Brain, Humboldt-Universität zu Berlin, Berlin, Germany",
+        "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany",
+        "Institute of Medical Psychology, Charité—Universitätsmedizin Berlin, Berlin, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210120221"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Medical Psychology, Charité—Universitätsmedizin Berlin, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I7877124"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Berlin School of Mind and Brain, Humboldt-Universität zu Berlin, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I39343248"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5076608195",
+        "display_name": "Florian Schmiedek",
+        "orcid": "https://orcid.org/0000-0001-7298-5468"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210120221",
+          "display_name": "Max Planck Institute for Human Development",
+          "ror": "https://ror.org/02pp7px91",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210120221"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210138519",
+          "display_name": "DIPF | Leibniz Institute for Research and Information in Education",
+          "ror": "https://ror.org/0327sr118",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I315704651",
+            "https://openalex.org/I4210138519"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Florian Schmiedek",
+      "raw_affiliation_strings": [
+        "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany",
+        "German Institute for International Educational Research (DIPF), Frankfurt am Main, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210120221"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Institute for International Educational Research (DIPF), Frankfurt am Main, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210138519"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040396885",
+        "display_name": "Christine Heim",
+        "orcid": "https://orcid.org/0000-0002-6580-6326"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I39343248",
+          "display_name": "Humboldt-Universität zu Berlin",
+          "ror": "https://ror.org/01hcx6992",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39343248"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I7877124",
+          "display_name": "Charité - Universitätsmedizin Berlin",
+          "ror": "https://ror.org/001w7jn25",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I7877124"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Christine Heim",
+      "raw_affiliation_strings": [
+        "Berlin School of Mind and Brain, Humboldt-Universität zu Berlin, Berlin, Germany",
+        "Department of Biobehavioral Health, Pennsylvania State University, University Park, United States of America",
+        "Institute of Medical Psychology, Charité—Universitätsmedizin Berlin, Berlin, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biobehavioral Health, Pennsylvania State University, University Park, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Berlin School of Mind and Brain, Humboldt-Universität zu Berlin, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I39343248"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Medical Psychology, Charité—Universitätsmedizin Berlin, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I7877124"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5043354351",
+        "display_name": "Yee Lee Shing",
+        "orcid": "https://orcid.org/0000-0001-8922-7292"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210120221",
+          "display_name": "Max Planck Institute for Human Development",
+          "ror": "https://ror.org/02pp7px91",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149899117",
+            "https://openalex.org/I4210120221"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I12093191",
+          "display_name": "University of Stirling",
+          "ror": "https://ror.org/045wgfr59",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I12093191"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I114090438",
+          "display_name": "Goethe University Frankfurt",
+          "ror": "https://ror.org/04cvxnb49",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I114090438"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Yee Lee Shing",
+      "raw_affiliation_strings": [
+        "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany",
+        "Department of Psychology, Goethe University Frankfurt, Frankfurt am Main, Germany",
+        "Division of Psychology, University of Stirling, Stirling, United Kingdom"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Lifespan Psychology, Max Planck Institute for Human Development, Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210120221"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Division of Psychology, University of Stirling, Stirling, United Kingdom",
+          "institution_ids": [
+            "https://openalex.org/I12093191"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Psychology, Goethe University Frankfurt, Frankfurt am Main, Germany",
+          "institution_ids": [
+            "https://openalex.org/I114090438"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 7,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5023712106",
+    "https://openalex.org/A5076608195",
+    "https://openalex.org/A5040396885",
+    "https://openalex.org/A5043354351"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210120221",
+    "https://openalex.org/I7877124",
+    "https://openalex.org/I39343248",
+    "https://openalex.org/I4210120221",
+    "https://openalex.org/I4210138519",
+    "https://openalex.org/I130769515",
+    "https://openalex.org/I39343248",
+    "https://openalex.org/I7877124",
+    "https://openalex.org/I4210120221",
+    "https://openalex.org/I12093191",
+    "https://openalex.org/I114090438"
+  ],
+  "apc_list": {
+    "value": 1805,
+    "currency": "USD",
+    "value_usd": 1805
+  },
+  "apc_paid": {
+    "value": 1805,
+    "currency": "USD",
+    "value_usd": 1805
+  },
+  "fwci": 1.092,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 15,
+  "citation_normalized_percentile": {
+    "value": 0.76827,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 89
+  },
+  "biblio": {
+    "volume": "13",
+    "issue": "1",
+    "first_page": "e0191215",
+    "last_page": "e0191215"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11541",
+      "display_name": "Neuroendocrine regulation and behavior",
+      "score": 0.9976,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10182",
+      "display_name": "Child and Adolescent Psychosocial and Emotional Development",
+      "score": 0.9975,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/cortisol-awakening-response",
+      "display_name": "Cortisol awakening response",
+      "score": 0.6151158
+    },
+    {
+      "id": "https://openalex.org/keywords/allostatic-load",
+      "display_name": "Allostatic load",
+      "score": 0.47584343
+    },
+    {
+      "id": "https://openalex.org/keywords/allostasis",
+      "display_name": "Allostasis",
+      "score": 0.45820948
+    },
+    {
+      "id": "https://openalex.org/keywords/cognitive-skill",
+      "display_name": "Cognitive skill",
+      "score": 0.43568254
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.71335596
+    },
+    {
+      "id": "https://openalex.org/C2776476923",
+      "wikidata": "https://www.wikidata.org/wiki/Q7725",
+      "display_name": "Evening",
+      "level": 2,
+      "score": 0.6880733
+    },
+    {
+      "id": "https://openalex.org/C62913699",
+      "wikidata": "https://www.wikidata.org/wiki/Q5173333",
+      "display_name": "Cortisol awakening response",
+      "level": 3,
+      "score": 0.6151158
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.5886589
+    },
+    {
+      "id": "https://openalex.org/C53059260",
+      "wikidata": "https://www.wikidata.org/wiki/Q374758",
+      "display_name": "Multilevel model",
+      "level": 2,
+      "score": 0.53888273
+    },
+    {
+      "id": "https://openalex.org/C185711340",
+      "wikidata": "https://www.wikidata.org/wiki/Q5347381",
+      "display_name": "Effects of sleep deprivation on cognitive performance",
+      "level": 3,
+      "score": 0.5341792
+    },
+    {
+      "id": "https://openalex.org/C187150481",
+      "wikidata": "https://www.wikidata.org/wiki/Q4733156",
+      "display_name": "Allostatic load",
+      "level": 2,
+      "score": 0.47584343
+    },
+    {
+      "id": "https://openalex.org/C21036866",
+      "wikidata": "https://www.wikidata.org/wiki/Q181767",
+      "display_name": "Stress (linguistics)",
+      "level": 2,
+      "score": 0.46585566
+    },
+    {
+      "id": "https://openalex.org/C138496976",
+      "wikidata": "https://www.wikidata.org/wiki/Q175002",
+      "display_name": "Developmental psychology",
+      "level": 1,
+      "score": 0.4608495
+    },
+    {
+      "id": "https://openalex.org/C157541749",
+      "wikidata": "https://www.wikidata.org/wiki/Q3612637",
+      "display_name": "Allostasis",
+      "level": 2,
+      "score": 0.45820948
+    },
+    {
+      "id": "https://openalex.org/C2778709874",
+      "wikidata": "https://www.wikidata.org/wiki/Q190875",
+      "display_name": "Hydrocortisone",
+      "level": 2,
+      "score": 0.44850436
+    },
+    {
+      "id": "https://openalex.org/C134290984",
+      "wikidata": "https://www.wikidata.org/wiki/Q5141241",
+      "display_name": "Cognitive skill",
+      "level": 3,
+      "score": 0.43568254
+    },
+    {
+      "id": "https://openalex.org/C70410870",
+      "wikidata": "https://www.wikidata.org/wiki/Q199906",
+      "display_name": "Clinical psychology",
+      "level": 1,
+      "score": 0.4106725
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.29548022
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.17943689
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.17779273
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C1276947",
+      "wikidata": "https://www.wikidata.org/wiki/Q333",
+      "display_name": "Astronomy",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C119857082",
+      "wikidata": "https://www.wikidata.org/wiki/Q2539",
+      "display_name": "Machine learning",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016487",
+      "descriptor_name": "Parenting",
+      "qualifier_ui": "Q000523",
+      "qualifier_name": "psychology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002940",
+      "descriptor_name": "Circadian Rhythm",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003071",
+      "descriptor_name": "Cognition",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016014",
+      "descriptor_name": "Linear Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008960",
+      "descriptor_name": "Models, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010287",
+      "descriptor_name": "Parent-Child Relations",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057566",
+      "descriptor_name": "Self Report",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013312",
+      "descriptor_name": "Stress, Physiological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 6,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0191215",
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0191215&type=printable",
+      "source": {
+        "id": "https://openalex.org/S202381698",
+        "display_name": "PLoS ONE",
+        "issn_l": "1932-6203",
+        "issn": [
+          "1932-6203"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/5d4d95a7b3ce4a6d95acb20259b9e44c",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5766146",
+      "pdf_url": "https://europepmc.org/articles/pmc5766146?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://dspace.stir.ac.uk/bitstream/1893/26570/1/journal.pone.0191215.pdf",
+      "pdf_url": "http://dspace.stir.ac.uk/bitstream/1893/26570/1/journal.pone.0191215.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400268",
+        "display_name": "Stirling Online Research Repository (University of Stirling)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I12093191",
+        "host_organization_name": "University of Stirling",
+        "host_organization_lineage": [
+          "https://openalex.org/I12093191"
+        ],
+        "host_organization_lineage_names": [
+          "University of Stirling"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5766146",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/29329340",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pone.0191215",
+    "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0191215&type=printable",
+    "source": {
+      "id": "https://openalex.org/S202381698",
+      "display_name": "PLoS ONE",
+      "issn_l": "1932-6203",
+      "issn": [
+        "1932-6203"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Quality education",
+      "id": "https://metadata.un.org/sdg/4",
+      "score": 0.66
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320322434",
+      "funder_display_name": "Max-Planck-Gesellschaft",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 102,
+  "referenced_works": [
+    "https://openalex.org/W1524792373",
+    "https://openalex.org/W1575104402",
+    "https://openalex.org/W1638637894",
+    "https://openalex.org/W1754058279",
+    "https://openalex.org/W1767701238",
+    "https://openalex.org/W177049143",
+    "https://openalex.org/W1777878807",
+    "https://openalex.org/W1843663491",
+    "https://openalex.org/W1956708064",
+    "https://openalex.org/W1964079808",
+    "https://openalex.org/W1967172103",
+    "https://openalex.org/W1972800093",
+    "https://openalex.org/W1981697052",
+    "https://openalex.org/W1982595763",
+    "https://openalex.org/W1983337067",
+    "https://openalex.org/W1984112630",
+    "https://openalex.org/W1986075934",
+    "https://openalex.org/W1986223798",
+    "https://openalex.org/W1987375729",
+    "https://openalex.org/W1989512105",
+    "https://openalex.org/W1990013897",
+    "https://openalex.org/W1991161864",
+    "https://openalex.org/W1994706471",
+    "https://openalex.org/W1994878987",
+    "https://openalex.org/W1995581723",
+    "https://openalex.org/W1996656518",
+    "https://openalex.org/W2000799395",
+    "https://openalex.org/W2002695153",
+    "https://openalex.org/W2003931224",
+    "https://openalex.org/W2004129343",
+    "https://openalex.org/W2004539531",
+    "https://openalex.org/W2006828308",
+    "https://openalex.org/W2015593783",
+    "https://openalex.org/W2016032024",
+    "https://openalex.org/W2017380003",
+    "https://openalex.org/W2022029540",
+    "https://openalex.org/W2025864668",
+    "https://openalex.org/W2030666483",
+    "https://openalex.org/W2031503474",
+    "https://openalex.org/W2038352072",
+    "https://openalex.org/W2046350184",
+    "https://openalex.org/W2047909845",
+    "https://openalex.org/W2053041505",
+    "https://openalex.org/W2056075139",
+    "https://openalex.org/W2061141487",
+    "https://openalex.org/W2062266463",
+    "https://openalex.org/W2062989629",
+    "https://openalex.org/W2067664488",
+    "https://openalex.org/W2070684401",
+    "https://openalex.org/W2072546823",
+    "https://openalex.org/W2076805241",
+    "https://openalex.org/W2077878361",
+    "https://openalex.org/W2087079485",
+    "https://openalex.org/W2099555914",
+    "https://openalex.org/W2099834738",
+    "https://openalex.org/W2102748276",
+    "https://openalex.org/W2103355275",
+    "https://openalex.org/W2103644541",
+    "https://openalex.org/W2105733141",
+    "https://openalex.org/W2110928922",
+    "https://openalex.org/W2111183751",
+    "https://openalex.org/W2114594413",
+    "https://openalex.org/W2115871268",
+    "https://openalex.org/W2121601441",
+    "https://openalex.org/W2123851565",
+    "https://openalex.org/W2133803866",
+    "https://openalex.org/W2134946305",
+    "https://openalex.org/W2138516825",
+    "https://openalex.org/W2141124547",
+    "https://openalex.org/W2141709307",
+    "https://openalex.org/W2142979432",
+    "https://openalex.org/W2144160555",
+    "https://openalex.org/W2144703470",
+    "https://openalex.org/W2144712589",
+    "https://openalex.org/W2149621251",
+    "https://openalex.org/W2152995144",
+    "https://openalex.org/W2155218627",
+    "https://openalex.org/W2155988782",
+    "https://openalex.org/W2162205647",
+    "https://openalex.org/W2166596324",
+    "https://openalex.org/W2167823111",
+    "https://openalex.org/W2169443829",
+    "https://openalex.org/W2170638882",
+    "https://openalex.org/W2207499764",
+    "https://openalex.org/W2219363476",
+    "https://openalex.org/W2259634615",
+    "https://openalex.org/W2261260426",
+    "https://openalex.org/W2273024857",
+    "https://openalex.org/W2347055675",
+    "https://openalex.org/W2407034818",
+    "https://openalex.org/W2411963529",
+    "https://openalex.org/W2511528359",
+    "https://openalex.org/W2572508731",
+    "https://openalex.org/W2613145876",
+    "https://openalex.org/W2613371379",
+    "https://openalex.org/W2618888428",
+    "https://openalex.org/W2792973160",
+    "https://openalex.org/W2797247465",
+    "https://openalex.org/W3122700310",
+    "https://openalex.org/W4233911990",
+    "https://openalex.org/W4251802213",
+    "https://openalex.org/W4252136409"
+  ],
+  "related_works": [
+    "https://openalex.org/W4303627976",
+    "https://openalex.org/W4237547583",
+    "https://openalex.org/W4212973328",
+    "https://openalex.org/W3189001734",
+    "https://openalex.org/W3108062031",
+    "https://openalex.org/W2988191223",
+    "https://openalex.org/W2481275823",
+    "https://openalex.org/W2120814765",
+    "https://openalex.org/W2071271451",
+    "https://openalex.org/W112970541"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0,
+      172
+    ],
+    "study": [
+      1
+    ],
+    "investigated": [
+      2
+    ],
+    "associations": [
+      3,
+      22
+    ],
+    "between": [
+      4
+    ],
+    "parenting": [
+      5,
+      68,
+      79,
+      99,
+      160
+    ],
+    "stress": [
+      6,
+      11,
+      59,
+      69,
+      80,
+      100,
+      130,
+      145,
+      161,
+      167
+    ],
+    "in": [
+      7,
+      12,
+      88,
+      108,
+      117,
+      131,
+      162,
+      169,
+      180
+    ],
+    "parents": [
+      8,
+      65,
+      163
+    ],
+    "and": [
+      9,
+      19,
+      56,
+      90,
+      115
+    ],
+    "self-reported": [
+      10,
+      129
+    ],
+    "children": [
+      13,
+      109,
+      118,
+      132,
+      140
+    ],
+    "with": [
+      14,
+      61,
+      83,
+      103,
+      110,
+      119
+    ],
+    "children's": [
+      15,
+      166
+    ],
+    "diurnal": [
+      16,
+      105
+    ],
+    "cortisol": [
+      17,
+      34,
+      86,
+      106,
+      135
+    ],
+    "secretion": [
+      18,
+      87
+    ],
+    "whether": [
+      20
+    ],
+    "these": [
+      21
+    ],
+    "are": [
+      23
+    ],
+    "moderated": [
+      24,
+      94
+    ],
+    "by": [
+      25,
+      95
+    ],
+    "known": [
+      26
+    ],
+    "stress-regulating": [
+      27
+    ],
+    "capacities,": [
+      28
+    ],
+    "namely": [
+      29
+    ],
+    "child": [
+      30
+    ],
+    "cognitive": [
+      31,
+      53,
+      96,
+      112,
+      121,
+      152,
+      177
+    ],
+    "control.": [
+      32,
+      97
+    ],
+    "Salivary": [
+      33
+    ],
+    "concentrations": [
+      35
+    ],
+    "were": [
+      36,
+      125
+    ],
+    "assessed": [
+      37
+    ],
+    "from": [
+      38,
+      46
+    ],
+    "awakening": [
+      39
+    ],
+    "to": [
+      40,
+      187
+    ],
+    "evening": [
+      41
+    ],
+    "on": [
+      42,
+      133,
+      144,
+      164
+    ],
+    "two": [
+      43
+    ],
+    "weekend": [
+      44
+    ],
+    "days": [
+      45
+    ],
+    "53": [
+      47
+    ],
+    "6-to-7-year-old": [
+      48,
+      139
+    ],
+    "children.": [
+      49
+    ],
+    "Children": [
+      50
+    ],
+    "completed": [
+      51,
+      66
+    ],
+    "a": [
+      52,
+      57,
+      67,
+      185
+    ],
+    "control": [
+      54,
+      113,
+      122,
+      153,
+      178
+    ],
+    "task": [
+      55
+    ],
+    "self-report": [
+      58,
+      143
+    ],
+    "questionnaire": [
+      60
+    ],
+    "an": [
+      62
+    ],
+    "experimenter,": [
+      63
+    ],
+    "while": [
+      64
+    ],
+    "inventory.": [
+      70
+    ],
+    "Hierarchical,": [
+      71
+    ],
+    "linear": [
+      72
+    ],
+    "mixed": [
+      73
+    ],
+    "effects": [
+      74,
+      127,
+      158
+    ],
+    "models": [
+      75
+    ],
+    "revealed": [
+      76
+    ],
+    "that": [
+      77,
+      150,
+      175
+    ],
+    "higher": [
+      78,
+      120,
+      151
+    ],
+    "was": [
+      81,
+      93,
+      101
+    ],
+    "associated": [
+      82,
+      102
+    ],
+    "overall": [
+      84
+    ],
+    "reduced": [
+      85,
+      104
+    ],
+    "children,": [
+      89
+    ],
+    "this": [
+      91
+    ],
+    "effect": [
+      92
+    ],
+    "Specifically,": [
+      98
+    ],
+    "levels": [
+      107
+    ],
+    "lower": [
+      111
+    ],
+    "ability": [
+      114
+    ],
+    "not": [
+      116
+    ],
+    "ability.": [
+      123
+    ],
+    "There": [
+      124
+    ],
+    "no": [
+      126
+    ],
+    "of": [
+      128,
+      159
+    ],
+    "their": [
+      134,
+      165
+    ],
+    "secretion,": [
+      136
+    ],
+    "presumably": [
+      137
+    ],
+    "because": [
+      138
+    ],
+    "cannot": [
+      141
+    ],
+    "yet": [
+      142
+    ],
+    "experiences.": [
+      146
+    ],
+    "Our": [
+      147
+    ],
+    "results": [
+      148
+    ],
+    "suggest": [
+      149
+    ],
+    "skills": [
+      154,
+      179
+    ],
+    "may": [
+      155
+    ],
+    "buffer": [
+      156
+    ],
+    "the": [
+      157
+    ],
+    "regulation": [
+      168
+    ],
+    "middle": [
+      170
+    ],
+    "childhood.": [
+      171
+    ],
+    "could": [
+      173,
+      183
+    ],
+    "indicate": [
+      174
+    ],
+    "training": [
+      176
+    ],
+    "early": [
+      181
+    ],
+    "life": [
+      182
+    ],
+    "be": [
+      184
+    ],
+    "target": [
+      186
+    ],
+    "prevent": [
+      188
+    ],
+    "stress-related": [
+      189
+    ],
+    "disorders.": [
+      190
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2783181805",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-16T11:24:51.797822",
+  "created_date": "2018-01-26"
+}

@@ -1,0 +1,813 @@
+{
+  "id": "https://openalex.org/W1986387796",
+  "doi": "https://doi.org/10.1016/j.neuroimage.2006.02.048",
+  "title": "Separating respiratory-variation-related fluctuations from neuronal-activity-related fluctuations in fMRI",
+  "display_name": "Separating respiratory-variation-related fluctuations from neuronal-activity-related fluctuations in fMRI",
+  "publication_year": 2006,
+  "publication_date": "2006-04-27",
+  "ids": {
+    "openalex": "https://openalex.org/W1986387796",
+    "doi": "https://doi.org/10.1016/j.neuroimage.2006.02.048",
+    "mag": "1986387796",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16632379"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2006.02.048",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S103225281",
+      "display_name": "NeuroImage",
+      "issn_l": "1053-8119",
+      "issn": [
+        "1053-8119",
+        "1095-9572"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5021076382",
+        "display_name": "Rasmus M. Birn",
+        "orcid": "https://orcid.org/0000-0003-3938-1077"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158500",
+          "display_name": "National Institute of Mental Health",
+          "ror": "https://ror.org/04xeg9z08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rasmus M. Birn",
+      "raw_affiliation_strings": [
+        "Laboratory of Brain and Cognition, National Institute of Mental Health, NIH, 10 Center Dr., Bldg. 10, Rm. 1D80 Bethesda, MD 20892-1148, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory of Brain and Cognition, National Institute of Mental Health, NIH, 10 Center Dr., Bldg. 10, Rm. 1D80 Bethesda, MD 20892-1148, USA.",
+          "institution_ids": [
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056117169",
+        "display_name": "Jason B. Diamond",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158500",
+          "display_name": "National Institute of Mental Health",
+          "ror": "https://ror.org/04xeg9z08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jason B. Diamond",
+      "raw_affiliation_strings": [
+        "Laboratory of Brain and Cognition, National Institute of Mental Health, NIH, 10 Center Dr., Bldg. 10, Rm. 1D80 Bethesda, MD 20892-1148, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory of Brain and Cognition, National Institute of Mental Health, NIH, 10 Center Dr., Bldg. 10, Rm. 1D80 Bethesda, MD 20892-1148, USA.",
+          "institution_ids": [
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048100582",
+        "display_name": "Monica Smith",
+        "orcid": "https://orcid.org/0000-0002-0325-575X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158500",
+          "display_name": "National Institute of Mental Health",
+          "ror": "https://ror.org/04xeg9z08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Monica A. Smith",
+      "raw_affiliation_strings": [
+        "Laboratory of Brain and Cognition, National Institute of Mental Health, NIH, 10 Center Dr., Bldg. 10, Rm. 1D80 Bethesda, MD 20892-1148, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory of Brain and Cognition, National Institute of Mental Health, NIH, 10 Center Dr., Bldg. 10, Rm. 1D80 Bethesda, MD 20892-1148, USA.",
+          "institution_ids": [
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5036171512",
+        "display_name": "Peter A. Bandettini",
+        "orcid": "https://orcid.org/0000-0001-9038-4746"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158500",
+          "display_name": "National Institute of Mental Health",
+          "ror": "https://ror.org/04xeg9z08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter A. Bandettini",
+      "raw_affiliation_strings": [
+        "Laboratory of Brain and Cognition, National Institute of Mental Health, NIH, 10 Center Dr., Bldg. 10, Rm. 1D80 Bethesda, MD 20892-1148, USA."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory of Brain and Cognition, National Institute of Mental Health, NIH, 10 Center Dr., Bldg. 10, Rm. 1D80 Bethesda, MD 20892-1148, USA.",
+          "institution_ids": [
+            "https://openalex.org/I4210158500"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3450,
+    "currency": "USD",
+    "value_usd": 3450
+  },
+  "apc_paid": null,
+  "fwci": 20.4,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 1370,
+  "citation_normalized_percentile": {
+    "value": 0.99989,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "31",
+    "issue": "4",
+    "first_page": "1536",
+    "last_page": "1548"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10241",
+    "display_name": "Functional Brain Connectivity Studies",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11993",
+      "display_name": "Atomic and Subatomic Physics Research",
+      "score": 0.998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/premovement-neuronal-activity",
+      "display_name": "Premovement neuronal activity",
+      "score": 0.4606881
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.45952636
+    },
+    {
+      "id": "https://openalex.org/keywords/brain-mapping",
+      "display_name": "Brain mapping",
+      "score": 0.4105241
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C66324658",
+      "wikidata": "https://www.wikidata.org/wiki/Q7316120",
+      "display_name": "Resting state fMRI",
+      "level": 2,
+      "score": 0.8375932
+    },
+    {
+      "id": "https://openalex.org/C182215343",
+      "wikidata": "https://www.wikidata.org/wiki/Q472287",
+      "display_name": "Respiration",
+      "level": 2,
+      "score": 0.64858675
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.5797446
+    },
+    {
+      "id": "https://openalex.org/C141516989",
+      "wikidata": "https://www.wikidata.org/wiki/Q1182555",
+      "display_name": "Default mode network",
+      "level": 3,
+      "score": 0.5652127
+    },
+    {
+      "id": "https://openalex.org/C39300077",
+      "wikidata": "https://www.wikidata.org/wiki/Q9530",
+      "display_name": "Breathing",
+      "level": 2,
+      "score": 0.52116203
+    },
+    {
+      "id": "https://openalex.org/C3018011982",
+      "wikidata": "https://www.wikidata.org/wiki/Q7316120",
+      "display_name": "Functional connectivity",
+      "level": 2,
+      "score": 0.49830365
+    },
+    {
+      "id": "https://openalex.org/C74254510",
+      "wikidata": "https://www.wikidata.org/wiki/Q7240508",
+      "display_name": "Premovement neuronal activity",
+      "level": 2,
+      "score": 0.4606881
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.45952636
+    },
+    {
+      "id": "https://openalex.org/C123792249",
+      "wikidata": "https://www.wikidata.org/wiki/Q5165875",
+      "display_name": "Control of respiration",
+      "level": 3,
+      "score": 0.41142654
+    },
+    {
+      "id": "https://openalex.org/C50231774",
+      "wikidata": "https://www.wikidata.org/wiki/Q639842",
+      "display_name": "Brain mapping",
+      "level": 2,
+      "score": 0.4105241
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.3951351
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.36051238
+    },
+    {
+      "id": "https://openalex.org/C105702510",
+      "wikidata": "https://www.wikidata.org/wiki/Q514",
+      "display_name": "Anatomy",
+      "level": 1,
+      "score": 0.20805418
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.20557469
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.18803248
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009474",
+      "descriptor_name": "Neurons",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015656",
+      "descriptor_name": "Respiratory Mechanics",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016477",
+      "descriptor_name": "Artifacts",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002245",
+      "descriptor_name": "Carbon Dioxide",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002245",
+      "descriptor_name": "Carbon Dioxide",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003657",
+      "descriptor_name": "Decision Making",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003657",
+      "descriptor_name": "Decision Making",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006339",
+      "descriptor_name": "Heart Rate",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006339",
+      "descriptor_name": "Heart Rate",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009415",
+      "descriptor_name": "Nerve Net",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009474",
+      "descriptor_name": "Neurons",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011578",
+      "descriptor_name": "Psycholinguistics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011597",
+      "descriptor_name": "Psychomotor Performance",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011597",
+      "descriptor_name": "Psychomotor Performance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015656",
+      "descriptor_name": "Respiratory Mechanics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.neuroimage.2006.02.048",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S103225281",
+        "display_name": "NeuroImage",
+        "issn_l": "1053-8119",
+        "issn": [
+          "1053-8119",
+          "1095-9572"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16632379",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320337346",
+      "funder_display_name": "National Institute of Mental Health",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 37,
+  "referenced_works": [
+    "https://openalex.org/W1760829075",
+    "https://openalex.org/W1964391143",
+    "https://openalex.org/W1989850665",
+    "https://openalex.org/W2009494091",
+    "https://openalex.org/W2014400070",
+    "https://openalex.org/W2020982601",
+    "https://openalex.org/W2033465540",
+    "https://openalex.org/W2045082990",
+    "https://openalex.org/W2047922146",
+    "https://openalex.org/W2048411715",
+    "https://openalex.org/W2052524465",
+    "https://openalex.org/W2056465968",
+    "https://openalex.org/W2059564226",
+    "https://openalex.org/W2063659622",
+    "https://openalex.org/W2066313169",
+    "https://openalex.org/W2066494844",
+    "https://openalex.org/W2075514568",
+    "https://openalex.org/W2080847728",
+    "https://openalex.org/W2091557076",
+    "https://openalex.org/W2111709777",
+    "https://openalex.org/W2112638240",
+    "https://openalex.org/W2117140276",
+    "https://openalex.org/W2129291315",
+    "https://openalex.org/W2133903921",
+    "https://openalex.org/W2134608917",
+    "https://openalex.org/W2138092999",
+    "https://openalex.org/W2143285014",
+    "https://openalex.org/W2145403933",
+    "https://openalex.org/W2152346792",
+    "https://openalex.org/W2158477074",
+    "https://openalex.org/W2159028173",
+    "https://openalex.org/W2162010696",
+    "https://openalex.org/W2185832297",
+    "https://openalex.org/W2278250118",
+    "https://openalex.org/W2345842757",
+    "https://openalex.org/W3128722454",
+    "https://openalex.org/W4231963173"
+  ],
+  "related_works": [
+    "https://openalex.org/W4389437801",
+    "https://openalex.org/W4311145604",
+    "https://openalex.org/W4253292488",
+    "https://openalex.org/W3205149984",
+    "https://openalex.org/W3165201259",
+    "https://openalex.org/W2735521735",
+    "https://openalex.org/W2154471387",
+    "https://openalex.org/W2118864139",
+    "https://openalex.org/W2086686577",
+    "https://openalex.org/W2042557239"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1986387796",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 45
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 81
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 74
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 96
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 91
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 91
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 68
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 77
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 92
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 85
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 78
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 88
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 86
+    }
+  ],
+  "updated_date": "2025-06-11T05:39:22.590063",
+  "created_date": "2016-06-24"
+}

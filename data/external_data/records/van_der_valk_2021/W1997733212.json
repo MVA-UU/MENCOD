@@ -1,0 +1,1097 @@
+{
+  "id": "https://openalex.org/W1997733212",
+  "doi": "https://doi.org/10.1055/s-0033-1333763",
+  "title": "A Minimal Physiologically Based Model of the HPA Axis under Influence of the Sleep-Wake Cycles",
+  "display_name": "A Minimal Physiologically Based Model of the HPA Axis under Influence of the Sleep-Wake Cycles",
+  "publication_year": 2013,
+  "publication_date": "2013-04-18",
+  "ids": {
+    "openalex": "https://openalex.org/W1997733212",
+    "doi": "https://doi.org/10.1055/s-0033-1333763",
+    "mag": "1997733212",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/23599244"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1055/s-0033-1333763",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4122505",
+      "display_name": "Pharmacopsychiatry",
+      "issn_l": "0176-3679",
+      "issn": [
+        "0176-3679",
+        "1439-0795"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320000",
+      "host_organization_name": "Thieme Medical Publishers (Germany)",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320000"
+      ],
+      "host_organization_lineage_names": [
+        "Thieme Medical Publishers (Germany)"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5071415705",
+        "display_name": "Svetlana Postnova",
+        "orcid": "https://orcid.org/0000-0002-1224-0779"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I129604602",
+          "display_name": "The University of Sydney",
+          "ror": "https://ror.org/0384j8v12",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I129604602"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Postnova",
+      "raw_affiliation_strings": [
+        "Center for Integrated Research and Understanding of Sleep, University of Sydney, NSW, Australia",
+        "School of Physics, University of Sydney, NSW, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Integrated Research and Understanding of Sleep, University of Sydney, NSW, Australia",
+          "institution_ids": [
+            "https://openalex.org/I129604602"
+          ]
+        },
+        {
+          "raw_affiliation_string": "School of Physics, University of Sydney, NSW, Australia",
+          "institution_ids": [
+            "https://openalex.org/I129604602"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110447465",
+        "display_name": "Robert Fulcher",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I129604602",
+          "display_name": "The University of Sydney",
+          "ror": "https://ror.org/0384j8v12",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I129604602"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. Fulcher",
+      "raw_affiliation_strings": [
+        "School of Physics, University of Sydney, NSW, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Physics, University of Sydney, NSW, Australia",
+          "institution_ids": [
+            "https://openalex.org/I129604602"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5038550237",
+        "display_name": "Hans Braun",
+        "orcid": "https://orcid.org/0000-0002-9643-3518"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I161103922",
+          "display_name": "Philipps University of Marburg",
+          "ror": "https://ror.org/01rdrb571",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I161103922"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "H. Braun",
+      "raw_affiliation_strings": [
+        "Institute of Physiology, Philipps university of Marburg, Marburg, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Physiology, Philipps university of Marburg, Marburg, Germany",
+          "institution_ids": [
+            "https://openalex.org/I161103922"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5091022473",
+        "display_name": "P. A. Robinson",
+        "orcid": "https://orcid.org/0000-0002-5050-9804"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I129604602",
+          "display_name": "The University of Sydney",
+          "ror": "https://ror.org/0384j8v12",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I129604602"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P. Robinson",
+      "raw_affiliation_strings": [
+        "Center for Integrated Research and Understanding of Sleep, University of Sydney, NSW, Australia",
+        "School of Physics, University of Sydney, NSW, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Integrated Research and Understanding of Sleep, University of Sydney, NSW, Australia",
+          "institution_ids": [
+            "https://openalex.org/I129604602"
+          ]
+        },
+        {
+          "raw_affiliation_string": "School of Physics, University of Sydney, NSW, Australia",
+          "institution_ids": [
+            "https://openalex.org/I129604602"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.102,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 24,
+  "citation_normalized_percentile": {
+    "value": 0.841885,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 91,
+    "max": 92
+  },
+  "biblio": {
+    "volume": "46",
+    "issue": "S 01",
+    "first_page": "S36",
+    "last_page": "S43"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 0.9935,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9935,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10342",
+      "display_name": "Circadian rhythm and melatonin",
+      "score": 0.9879,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2807",
+        "display_name": "Endocrine and Autonomic Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.95,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hypothalamic–pituitary–adrenal-axis",
+      "display_name": "Hypothalamic–pituitary–adrenal axis",
+      "score": 0.54758453
+    },
+    {
+      "id": "https://openalex.org/keywords/sleep",
+      "display_name": "Sleep",
+      "score": 0.47500503
+    },
+    {
+      "id": "https://openalex.org/keywords/cortisol-awakening-response",
+      "display_name": "Cortisol awakening response",
+      "score": 0.41995877
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C136792703",
+      "wikidata": "https://www.wikidata.org/wiki/Q377893",
+      "display_name": "Ultradian rhythm",
+      "level": 3,
+      "score": 0.9278824
+    },
+    {
+      "id": "https://openalex.org/C121446783",
+      "wikidata": "https://www.wikidata.org/wiki/Q208353",
+      "display_name": "Circadian rhythm",
+      "level": 2,
+      "score": 0.89022034
+    },
+    {
+      "id": "https://openalex.org/C2779317972",
+      "wikidata": "https://www.wikidata.org/wiki/Q1156516",
+      "display_name": "Suprachiasmatic nucleus",
+      "level": 3,
+      "score": 0.7036097
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.630834
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.56817156
+    },
+    {
+      "id": "https://openalex.org/C2777003273",
+      "wikidata": "https://www.wikidata.org/wiki/Q164386",
+      "display_name": "Hypothalamus",
+      "level": 2,
+      "score": 0.5610438
+    },
+    {
+      "id": "https://openalex.org/C2779146795",
+      "wikidata": "https://www.wikidata.org/wiki/Q1369123",
+      "display_name": "Hypothalamic–pituitary–adrenal axis",
+      "level": 3,
+      "score": 0.54758453
+    },
+    {
+      "id": "https://openalex.org/C2775841894",
+      "wikidata": "https://www.wikidata.org/wiki/Q4683692",
+      "display_name": "Sleep (system call)",
+      "level": 2,
+      "score": 0.47500503
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.4478449
+    },
+    {
+      "id": "https://openalex.org/C62913699",
+      "wikidata": "https://www.wikidata.org/wiki/Q5173333",
+      "display_name": "Cortisol awakening response",
+      "level": 3,
+      "score": 0.41995877
+    },
+    {
+      "id": "https://openalex.org/C201176492",
+      "wikidata": "https://www.wikidata.org/wiki/Q6546168",
+      "display_name": "Light effects on circadian rhythm",
+      "level": 4,
+      "score": 0.4132073
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.38381565
+    },
+    {
+      "id": "https://openalex.org/C2778709874",
+      "wikidata": "https://www.wikidata.org/wiki/Q190875",
+      "display_name": "Hydrocortisone",
+      "level": 2,
+      "score": 0.28021264
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.25974315
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.22692716
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.14682001
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012890",
+      "descriptor_name": "Sleep",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014851",
+      "descriptor_name": "Wakefulness",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002940",
+      "descriptor_name": "Circadian Rhythm",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002940",
+      "descriptor_name": "Circadian Rhythm",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012890",
+      "descriptor_name": "Sleep",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014851",
+      "descriptor_name": "Wakefulness",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1055/s-0033-1333763",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4122505",
+        "display_name": "Pharmacopsychiatry",
+        "issn_l": "0176-3679",
+        "issn": [
+          "0176-3679",
+          "1439-0795"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320000",
+        "host_organization_name": "Thieme Medical Publishers (Germany)",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320000"
+        ],
+        "host_organization_lineage_names": [
+          "Thieme Medical Publishers (Germany)"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/23599244",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.62
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4382362998",
+    "https://openalex.org/W4312553542",
+    "https://openalex.org/W4250702702",
+    "https://openalex.org/W4233925068",
+    "https://openalex.org/W2395159351",
+    "https://openalex.org/W2074556988",
+    "https://openalex.org/W204252471",
+    "https://openalex.org/W1998273093",
+    "https://openalex.org/W1988640296",
+    "https://openalex.org/W1974854913"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      42
+    ],
+    "hypothalamic-pituitary-adrenal": [
+      1
+    ],
+    "axis": [
+      2,
+      44,
+      77
+    ],
+    "(also": [
+      3
+    ],
+    "called": [
+      4
+    ],
+    "the": [
+      5,
+      25,
+      31,
+      35,
+      59,
+      68,
+      75,
+      82,
+      87,
+      93,
+      103,
+      106,
+      124,
+      129,
+      146,
+      158
+    ],
+    "HPA": [
+      6,
+      43,
+      76
+    ],
+    "or": [
+      7
+    ],
+    "stress": [
+      8
+    ],
+    "axis)": [
+      9
+    ],
+    "exhibits": [
+      10
+    ],
+    "distinct": [
+      11
+    ],
+    "circadian": [
+      12,
+      69,
+      84,
+      107
+    ],
+    "and": [
+      13,
+      39,
+      64,
+      70,
+      91,
+      108,
+      173
+    ],
+    "ultradian": [
+      14,
+      171
+    ],
+    "rhythms": [
+      15
+    ],
+    "in": [
+      16,
+      34,
+      86,
+      145,
+      154
+    ],
+    "cortisol": [
+      17,
+      29,
+      143,
+      152,
+      165,
+      177
+    ],
+    "release": [
+      18,
+      178
+    ],
+    "that": [
+      19
+    ],
+    "cannot": [
+      20
+    ],
+    "be": [
+      21
+    ],
+    "explained": [
+      22
+    ],
+    "solely": [
+      23
+    ],
+    "by": [
+      24,
+      58
+    ],
+    "feedback": [
+      26
+    ],
+    "loops": [
+      27
+    ],
+    "from": [
+      28,
+      81,
+      92
+    ],
+    "to": [
+      30,
+      156
+    ],
+    "control": [
+      32
+    ],
+    "systems": [
+      33
+    ],
+    "paraventricular": [
+      36
+    ],
+    "nucleus": [
+      37
+    ],
+    "(PVN)": [
+      38
+    ],
+    "pituitary": [
+      40
+    ],
+    "gland.": [
+      41
+    ],
+    "is": [
+      45,
+      55,
+      132
+    ],
+    "intimately": [
+      46
+    ],
+    "connected": [
+      47
+    ],
+    "with": [
+      48,
+      169
+    ],
+    "other": [
+      49
+    ],
+    "brain": [
+      50
+    ],
+    "functions.": [
+      51
+    ],
+    "In": [
+      52,
+      111
+    ],
+    "particular,": [
+      53
+    ],
+    "it": [
+      54
+    ],
+    "strongly": [
+      56
+    ],
+    "affected": [
+      57
+    ],
+    "sleep-wake": [
+      60,
+      95,
+      130
+    ],
+    "cycles": [
+      61,
+      131
+    ],
+    "via": [
+      62
+    ],
+    "direct": [
+      63,
+      79
+    ],
+    "indirect": [
+      65
+    ],
+    "effects": [
+      66,
+      104,
+      127
+    ],
+    "of": [
+      67,
+      105,
+      123,
+      128,
+      141,
+      151,
+      176
+    ],
+    "homeostatic": [
+      71,
+      109
+    ],
+    "mechanisms.": [
+      72
+    ],
+    "For": [
+      73
+    ],
+    "example,": [
+      74
+    ],
+    "has": [
+      78
+    ],
+    "inputs": [
+      80
+    ],
+    "master": [
+      83
+    ],
+    "clock": [
+      85
+    ],
+    "suprachiasmatic": [
+      88
+    ],
+    "nuclei": [
+      89
+    ],
+    "(SCN),": [
+      90
+    ],
+    "various": [
+      94
+    ],
+    "related": [
+      96
+    ],
+    "neuronal": [
+      97
+    ],
+    "populations,": [
+      98
+    ],
+    "which": [
+      99
+    ],
+    "themselves": [
+      100
+    ],
+    "are": [
+      101
+    ],
+    "under": [
+      102,
+      126
+    ],
+    "processes.": [
+      110
+    ],
+    "this": [
+      112
+    ],
+    "paper": [
+      113
+    ],
+    "a": [
+      114,
+      118
+    ],
+    "first": [
+      115
+    ],
+    "step": [
+      116
+    ],
+    "towards": [
+      117
+    ],
+    "physiologically": [
+      119
+    ],
+    "based": [
+      120
+    ],
+    "mathematical": [
+      121
+    ],
+    "model": [
+      122,
+      135
+    ],
+    "HPA-axis": [
+      125
+    ],
+    "presented.": [
+      133
+    ],
+    "This": [
+      134
+    ],
+    "accounts": [
+      136
+    ],
+    "for": [
+      137
+    ],
+    "3": [
+      138
+    ],
+    "major": [
+      139
+    ],
+    "characteristics": [
+      140
+    ],
+    "daily": [
+      142
+    ],
+    "profile": [
+      144
+    ],
+    "blood:": [
+      147
+    ],
+    "i)": [
+      148
+    ],
+    "abrupt": [
+      149
+    ],
+    "increase": [
+      150
+    ],
+    "concentration": [
+      153
+    ],
+    "response": [
+      155,
+      161
+    ],
+    "awakening,": [
+      157
+    ],
+    "so-called": [
+      159
+    ],
+    "cortisol-awakening": [
+      160
+    ],
+    "(CAR);": [
+      162
+    ],
+    "ii)": [
+      163
+    ],
+    "reduced": [
+      164
+    ],
+    "levels": [
+      166
+    ],
+    "during": [
+      167,
+      179
+    ],
+    "daytime": [
+      168
+    ],
+    "underlying": [
+      170
+    ],
+    "oscillations;": [
+      172
+    ],
+    "iii)": [
+      174
+    ],
+    "suppression": [
+      175
+    ],
+    "sleep.": [
+      180
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1997733212",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-05-20T22:40:42.272271",
+  "created_date": "2016-06-24"
+}

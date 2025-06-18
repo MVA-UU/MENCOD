@@ -1,0 +1,2735 @@
+{
+  "id": "https://openalex.org/W2515205469",
+  "doi": "https://doi.org/10.1371/journal.pgen.1006284",
+  "title": "Whole Exome Sequencing in Atrial Fibrillation",
+  "display_name": "Whole Exome Sequencing in Atrial Fibrillation",
+  "publication_year": 2016,
+  "publication_date": "2016-09-02",
+  "ids": {
+    "openalex": "https://openalex.org/W2515205469",
+    "doi": "https://doi.org/10.1371/journal.pgen.1006284",
+    "mag": "2515205469",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27589061",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5010214"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pgen.1006284",
+    "pdf_url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1006284&type=printable",
+    "source": {
+      "id": "https://openalex.org/S103870658",
+      "display_name": "PLoS Genetics",
+      "issn_l": "1553-7390",
+      "issn": [
+        "1553-7390",
+        "1553-7404"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1006284&type=printable",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5042984133",
+        "display_name": "Steven A. Lubitz",
+        "orcid": "https://orcid.org/0000-0002-9599-4866"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Steven A. Lubitz",
+      "raw_affiliation_strings": [
+        "Cardiac Arrhythmia Service, Massachusetts General Hospital, Boston, Massachusetts, United States of America",
+        "Program in Medical and Population Genetics, The Broad Insitute of Harvard and MIT, Cambridge, Massachusetts, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Program in Medical and Population Genetics, The Broad Insitute of Harvard and MIT, Cambridge, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Cardiac Arrhythmia Service, Massachusetts General Hospital, Boston, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068097338",
+        "display_name": "Jennifer A. Brody",
+        "orcid": "https://orcid.org/0000-0001-8509-148X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I201448701",
+          "display_name": "University of Washington",
+          "ror": "https://ror.org/00cvxb145",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Jennifer A. Brody",
+      "raw_affiliation_strings": [
+        "Cardiovascular Health Research Unit, Department of Medicine, University of Washington, Seattle, Washington, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cardiovascular Health Research Unit, Department of Medicine, University of Washington, Seattle, Washington, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5001695933",
+        "display_name": "Nathan A. Bihlmeyer",
+        "orcid": "https://orcid.org/0000-0002-4415-7419"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799853436",
+          "display_name": "Johns Hopkins Medicine",
+          "ror": "https://ror.org/037zgn354",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799853436"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I145311948",
+          "display_name": "Johns Hopkins University",
+          "ror": "https://ror.org/00za53h95",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145311948"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Nathan A. Bihlmeyer",
+      "raw_affiliation_strings": [
+        "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I2799853436",
+            "https://openalex.org/I145311948"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091367654",
+        "display_name": "Carolina Roselli",
+        "orcid": "https://orcid.org/0000-0001-5267-6756"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Carolina Roselli",
+      "raw_affiliation_strings": [
+        "Program in Medical and Population Genetics, The Broad Insitute of Harvard and MIT, Cambridge, Massachusetts, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Program in Medical and Population Genetics, The Broad Insitute of Harvard and MIT, Cambridge, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I107606265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005968538",
+        "display_name": "Lu‐Chen Weng",
+        "orcid": "https://orcid.org/0000-0003-1475-4930"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Lu-Chen Weng",
+      "raw_affiliation_strings": [
+        "Cardiovascular Research Center, Massachusetts General Hospital, Boston, Massachusetts, United States of America",
+        "Program in Medical and Population Genetics, The Broad Insitute of Harvard and MIT, Cambridge, Massachusetts, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cardiovascular Research Center, Massachusetts General Hospital, Boston, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Program in Medical and Population Genetics, The Broad Insitute of Harvard and MIT, Cambridge, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I107606265"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014747011",
+        "display_name": "Ingrid E. Christophersen",
+        "orcid": "https://orcid.org/0000-0002-6141-4712"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800481633",
+          "display_name": "Vestre Viken Hospital Trust",
+          "ror": "https://ror.org/03wgsrq67",
+          "country_code": "NO",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800481633"
+          ]
+        }
+      ],
+      "countries": [
+        "NO",
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Ingrid E. Christophersen",
+      "raw_affiliation_strings": [
+        "Cardiovascular Research Center, Massachusetts General Hospital, Boston, Massachusetts, United States of America",
+        "Department of Medical Research, Bærum Hospital, Vestre Viken Hospital Trust, Bærum, Norway",
+        "Program in Medical and Population Genetics, The Broad Insitute of Harvard and MIT, Cambridge, Massachusetts, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cardiovascular Research Center, Massachusetts General Hospital, Boston, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Program in Medical and Population Genetics, The Broad Insitute of Harvard and MIT, Cambridge, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Medical Research, Bærum Hospital, Vestre Viken Hospital Trust, Bærum, Norway",
+          "institution_ids": [
+            "https://openalex.org/I2800481633"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004776448",
+        "display_name": "Álvaro Alonso",
+        "orcid": "https://orcid.org/0000-0002-2225-8323"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Alvaro Alonso",
+      "raw_affiliation_strings": [
+        "Department of Epidemiology, Rollins School of Public Health, Emory University, Atlanta, Georgia, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Epidemiology, Rollins School of Public Health, Emory University, Atlanta, Georgia, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044048476",
+        "display_name": "Eric Boerwinkle",
+        "orcid": "https://orcid.org/0000-0001-8813-0544"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I181547552",
+          "display_name": "Baylor College of Medicine",
+          "ror": "https://ror.org/02pttbw34",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I181547552",
+            "https://openalex.org/I2801539370"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210162370",
+          "display_name": "Baylor Genetics",
+          "ror": "https://ror.org/05bxjx840",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210162370"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I919571938",
+          "display_name": "The University of Texas Health Science Center at Houston",
+          "ror": "https://ror.org/03gds6c39",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I919571938"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Eric Boerwinkle",
+      "raw_affiliation_strings": [
+        "Human Genetics Center, UTHealth, Houston, Texas, United States of America",
+        "Human Genome Sequencing Center, Baylor College of Medicine, Houston, Texas, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Human Genome Sequencing Center, Baylor College of Medicine, Houston, Texas, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I181547552",
+            "https://openalex.org/I4210162370"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Human Genetics Center, UTHealth, Houston, Texas, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I919571938"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059626751",
+        "display_name": "Richard A. Gibbs",
+        "orcid": "https://orcid.org/0000-0002-1356-5698"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210162370",
+          "display_name": "Baylor Genetics",
+          "ror": "https://ror.org/05bxjx840",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210162370"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I181547552",
+          "display_name": "Baylor College of Medicine",
+          "ror": "https://ror.org/02pttbw34",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I181547552",
+            "https://openalex.org/I2801539370"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Richard A. Gibbs",
+      "raw_affiliation_strings": [
+        "Human Genome Sequencing Center, Baylor College of Medicine, Houston, Texas, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Human Genome Sequencing Center, Baylor College of Medicine, Houston, Texas, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210162370",
+            "https://openalex.org/I181547552"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5062883630",
+        "display_name": "Joshua C. Bis",
+        "orcid": "https://orcid.org/0000-0002-3409-1110"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I201448701",
+          "display_name": "University of Washington",
+          "ror": "https://ror.org/00cvxb145",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Joshua C. Bis",
+      "raw_affiliation_strings": [
+        "Cardiovascular Health Research Unit, Department of Medicine, University of Washington, Seattle, Washington, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cardiovascular Health Research Unit, Department of Medicine, University of Washington, Seattle, Washington, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5059560495",
+        "display_name": "L. Adrienne Cupples",
+        "orcid": "https://orcid.org/0000-0003-0273-7965"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210106489",
+          "display_name": "National Heart Lung and Blood Institute",
+          "ror": "https://ror.org/012pb6c26",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210106489"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I111088046",
+          "display_name": "Boston University",
+          "ror": "https://ror.org/05qwgg493",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111088046"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210123017",
+          "display_name": "Framingham Heart Study",
+          "ror": "https://ror.org/031grv205",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111088046",
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210106489",
+            "https://openalex.org/I4210123017"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "L. Adrienne Cupples",
+      "raw_affiliation_strings": [
+        "Boston University and National Heart, Lung and Blood Institute's Framingham Heart Study, Framingham, Massachusetts, United States of America",
+        "Department of Biostatistics, Boston University School of Public Health, Boston, Massachusetts, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Boston University and National Heart, Lung and Blood Institute's Framingham Heart Study, Framingham, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210106489",
+            "https://openalex.org/I4210123017"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Biostatistics, Boston University School of Public Health, Boston, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I111088046"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048118890",
+        "display_name": "Peter J. Mohler",
+        "orcid": "https://orcid.org/0000-0002-7977-8717"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802841970",
+          "display_name": "The Ohio State University Wexner Medical Center",
+          "ror": "https://ror.org/00c01js51",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802841970"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Peter J. Mohler",
+      "raw_affiliation_strings": [
+        "Dorothy M. Davis Heart & Lung Research Institute, The Ohio State University Wexner Medical Center, Columbus, Ohio, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dorothy M. Davis Heart & Lung Research Institute, The Ohio State University Wexner Medical Center, Columbus, Ohio, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I2802841970"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107596584",
+        "display_name": "Deborah A. Nickerson",
+        "orcid": "https://orcid.org/0000-0002-9954-4897"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I201448701",
+          "display_name": "University of Washington",
+          "ror": "https://ror.org/00cvxb145",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Deborah A. Nickerson",
+      "raw_affiliation_strings": [
+        "Department of Genome Sciences, University of Washington, Seattle, Washington, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Genome Sciences, University of Washington, Seattle, Washington, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037749785",
+        "display_name": "Donna M. Muzny",
+        "orcid": "https://orcid.org/0000-0002-3055-0359"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210162370",
+          "display_name": "Baylor Genetics",
+          "ror": "https://ror.org/05bxjx840",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210162370"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I181547552",
+          "display_name": "Baylor College of Medicine",
+          "ror": "https://ror.org/02pttbw34",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I181547552",
+            "https://openalex.org/I2801539370"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Donna Muzny",
+      "raw_affiliation_strings": [
+        "Human Genome Sequencing Center, Baylor College of Medicine, Houston, Texas, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Human Genome Sequencing Center, Baylor College of Medicine, Houston, Texas, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210162370",
+            "https://openalex.org/I181547552"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064567795",
+        "display_name": "Marco Pérez",
+        "orcid": "https://orcid.org/0000-0003-2746-0202"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Marco V. Perez",
+      "raw_affiliation_strings": [
+        "Division of Cardiovascular Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, California, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Cardiovascular Medicine, Department of Medicine, Stanford University School of Medicine, Stanford, California, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5002821639",
+        "display_name": "Bruce M. Psaty",
+        "orcid": "https://orcid.org/0000-0002-7278-2190"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150117356",
+          "display_name": "Kaiser Permanente Washington Health Research Institute",
+          "ror": "https://ror.org/0027frf26",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I150117356"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1304127598",
+          "display_name": "Group Health Cooperative",
+          "ror": "https://ror.org/05kx3hd68",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I1304127598"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I201448701",
+          "display_name": "University of Washington",
+          "ror": "https://ror.org/00cvxb145",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Bruce M. Psaty",
+      "raw_affiliation_strings": [
+        "Cardiovascular Health Research Unit, Departments of Medicine, Epidemiology, and Health Services, University of Washington, Seattle, Washington, United States of America",
+        "Group Health Research Institute, Group Health Cooperative, Seattle, Washington, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Group Health Research Institute, Group Health Cooperative, Seattle, Washington, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I150117356",
+            "https://openalex.org/I1304127598"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Cardiovascular Health Research Unit, Departments of Medicine, Epidemiology, and Health Services, University of Washington, Seattle, Washington, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5046831441",
+        "display_name": "Elsayed Z. Soliman",
+        "orcid": "https://orcid.org/0000-0001-5632-8150"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I47251452",
+          "display_name": "Wake Forest University",
+          "ror": "https://ror.org/0207ad724",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I47251452"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Elsayed Z. Soliman",
+      "raw_affiliation_strings": [
+        "Epidemiological Cardiology Research Center (EPICARE), Wake Forest School of Medicine, Winston-Salem, North Carolina, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Epidemiological Cardiology Research Center (EPICARE), Wake Forest School of Medicine, Winston-Salem, North Carolina, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I47251452"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004395330",
+        "display_name": "Nona Sotoodehnia",
+        "orcid": "https://orcid.org/0000-0002-2705-6237"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I201448701",
+          "display_name": "University of Washington",
+          "ror": "https://ror.org/00cvxb145",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Nona Sotoodehnia",
+      "raw_affiliation_strings": [
+        "Cardiovascular Health Research Unit, Department of Medicine, University of Washington, Seattle, Washington, United States of America",
+        "Division of Cardiology, University of Washington, Seattle, Washington, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cardiovascular Health Research Unit, Department of Medicine, University of Washington, Seattle, Washington, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I201448701"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Division of Cardiology, University of Washington, Seattle, Washington, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086558373",
+        "display_name": "Kathryn L. Lunetta",
+        "orcid": "https://orcid.org/0000-0002-9268-810X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210123017",
+          "display_name": "Framingham Heart Study",
+          "ror": "https://ror.org/031grv205",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111088046",
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210106489",
+            "https://openalex.org/I4210123017"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210106489",
+          "display_name": "National Heart Lung and Blood Institute",
+          "ror": "https://ror.org/012pb6c26",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210106489"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Kathryn L. Lunetta",
+      "raw_affiliation_strings": [
+        "Boston University and National Heart, Lung and Blood Institute's Framingham Heart Study, Framingham, Massachusetts, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Boston University and National Heart, Lung and Blood Institute's Framingham Heart Study, Framingham, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210123017",
+            "https://openalex.org/I4210106489"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064309113",
+        "display_name": "Emelia J. Benjamin",
+        "orcid": "https://orcid.org/0000-0003-4076-2336"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210106489",
+          "display_name": "National Heart Lung and Blood Institute",
+          "ror": "https://ror.org/012pb6c26",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210106489"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I111088046",
+          "display_name": "Boston University",
+          "ror": "https://ror.org/05qwgg493",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111088046"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210123017",
+          "display_name": "Framingham Heart Study",
+          "ror": "https://ror.org/031grv205",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111088046",
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210106489",
+            "https://openalex.org/I4210123017"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Emelia J. Benjamin",
+      "raw_affiliation_strings": [
+        "Boston University and National Heart, Lung and Blood Institute's Framingham Heart Study, Framingham, Massachusetts, United States of America",
+        "Department of Epidemiology, School of Public Health, Boston University, Boston, Massachusetts, United States of America",
+        "Preventive Medicine Section, Department of Medicine, Boston University School of Medicine, Boston, Massachusetts, United States of America",
+        "Section of Cardiovascular Medicine, Department of Medicine, Boston University School of Medicine, Boston, Massachusetts, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Boston University and National Heart, Lung and Blood Institute's Framingham Heart Study, Framingham, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210106489",
+            "https://openalex.org/I4210123017"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Section of Cardiovascular Medicine, Department of Medicine, Boston University School of Medicine, Boston, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I111088046"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Epidemiology, School of Public Health, Boston University, Boston, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I111088046"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Preventive Medicine Section, Department of Medicine, Boston University School of Medicine, Boston, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I111088046"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006663312",
+        "display_name": "Susan R. Heckbert",
+        "orcid": "https://orcid.org/0000-0002-7100-512X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I201448701",
+          "display_name": "University of Washington",
+          "ror": "https://ror.org/00cvxb145",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Susan R. Heckbert",
+      "raw_affiliation_strings": [
+        "Cardiovascular Health Research Unit, Department of Medicine, University of Washington, Seattle, Washington, United States of America",
+        "Department of Epidemiology, University of Washington, Seattle, Washington, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Epidemiology, University of Washington, Seattle, Washington, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I201448701"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Cardiovascular Health Research Unit, Department of Medicine, University of Washington, Seattle, Washington, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I201448701"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051837355",
+        "display_name": "Dan E. Arking",
+        "orcid": "https://orcid.org/0000-0001-8980-8695"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145311948",
+          "display_name": "Johns Hopkins University",
+          "ror": "https://ror.org/00za53h95",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I145311948"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2799853436",
+          "display_name": "Johns Hopkins Medicine",
+          "ror": "https://ror.org/037zgn354",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2799853436"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Dan E. Arking",
+      "raw_affiliation_strings": [
+        "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I145311948",
+            "https://openalex.org/I2799853436"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069822855",
+        "display_name": "Patrick T. Ellinor",
+        "orcid": "https://orcid.org/0000-0002-2067-0533"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I107606265",
+          "display_name": "Broad Institute",
+          "ror": "https://ror.org/05a0ya142",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210087915",
+          "display_name": "Massachusetts General Hospital",
+          "ror": "https://ror.org/002pd6e78",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087915",
+            "https://openalex.org/I48633490"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Patrick T. Ellinor",
+      "raw_affiliation_strings": [
+        "Cardiac Arrhythmia Service, Massachusetts General Hospital, Boston, Massachusetts, United States of America",
+        "Program in Medical and Population Genetics, The Broad Insitute of Harvard and MIT, Cambridge, Massachusetts, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Program in Medical and Population Genetics, The Broad Insitute of Harvard and MIT, Cambridge, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I107606265"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Cardiac Arrhythmia Service, Massachusetts General Hospital, Boston, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210087915"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5017261731",
+        "display_name": "Honghuang Lin",
+        "orcid": "https://orcid.org/0000-0003-3043-3942"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210123017",
+          "display_name": "Framingham Heart Study",
+          "ror": "https://ror.org/031grv205",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111088046",
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210106489",
+            "https://openalex.org/I4210123017"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210106489",
+          "display_name": "National Heart Lung and Blood Institute",
+          "ror": "https://ror.org/012pb6c26",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210106489"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I111088046",
+          "display_name": "Boston University",
+          "ror": "https://ror.org/05qwgg493",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I111088046"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Honghuang Lin",
+      "raw_affiliation_strings": [
+        "Boston University and National Heart, Lung and Blood Institute's Framingham Heart Study, Framingham, Massachusetts, United States of America",
+        "Section of Computational Biomedicine, Department of Medicine, Boston University School of Medicine, Boston, Massachusetts, United States of America"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Boston University and National Heart, Lung and Blood Institute's Framingham Heart Study, Framingham, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I4210123017",
+            "https://openalex.org/I4210106489"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Section of Computational Biomedicine, Department of Medicine, Boston University School of Medicine, Boston, Massachusetts, United States of America",
+          "institution_ids": [
+            "https://openalex.org/I111088046"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 18,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5042984133",
+    "https://openalex.org/A5068097338",
+    "https://openalex.org/A5001695933",
+    "https://openalex.org/A5091367654",
+    "https://openalex.org/A5005968538",
+    "https://openalex.org/A5014747011",
+    "https://openalex.org/A5004776448",
+    "https://openalex.org/A5044048476",
+    "https://openalex.org/A5059626751",
+    "https://openalex.org/A5062883630",
+    "https://openalex.org/A5059560495",
+    "https://openalex.org/A5048118890",
+    "https://openalex.org/A5107596584",
+    "https://openalex.org/A5037749785",
+    "https://openalex.org/A5064567795",
+    "https://openalex.org/A5002821639",
+    "https://openalex.org/A5046831441",
+    "https://openalex.org/A5004395330",
+    "https://openalex.org/A5086558373",
+    "https://openalex.org/A5064309113",
+    "https://openalex.org/A5006663312",
+    "https://openalex.org/A5051837355",
+    "https://openalex.org/A5069822855",
+    "https://openalex.org/A5017261731"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I107606265",
+    "https://openalex.org/I4210087915",
+    "https://openalex.org/I201448701",
+    "https://openalex.org/I2799853436",
+    "https://openalex.org/I145311948",
+    "https://openalex.org/I107606265",
+    "https://openalex.org/I4210087915",
+    "https://openalex.org/I107606265",
+    "https://openalex.org/I4210087915",
+    "https://openalex.org/I107606265",
+    "https://openalex.org/I2800481633",
+    "https://openalex.org/I150468666",
+    "https://openalex.org/I181547552",
+    "https://openalex.org/I4210162370",
+    "https://openalex.org/I919571938",
+    "https://openalex.org/I4210162370",
+    "https://openalex.org/I181547552",
+    "https://openalex.org/I201448701",
+    "https://openalex.org/I4210106489",
+    "https://openalex.org/I111088046",
+    "https://openalex.org/I4210123017",
+    "https://openalex.org/I2802841970",
+    "https://openalex.org/I201448701",
+    "https://openalex.org/I4210162370",
+    "https://openalex.org/I181547552",
+    "https://openalex.org/I97018004",
+    "https://openalex.org/I150117356",
+    "https://openalex.org/I1304127598",
+    "https://openalex.org/I201448701",
+    "https://openalex.org/I47251452",
+    "https://openalex.org/I201448701",
+    "https://openalex.org/I4210123017",
+    "https://openalex.org/I4210106489",
+    "https://openalex.org/I4210106489",
+    "https://openalex.org/I111088046",
+    "https://openalex.org/I4210123017",
+    "https://openalex.org/I201448701",
+    "https://openalex.org/I145311948",
+    "https://openalex.org/I2799853436",
+    "https://openalex.org/I107606265",
+    "https://openalex.org/I4210087915",
+    "https://openalex.org/I4210123017",
+    "https://openalex.org/I4210106489",
+    "https://openalex.org/I111088046"
+  ],
+  "apc_list": {
+    "value": 2655,
+    "currency": "USD",
+    "value_usd": 2655
+  },
+  "apc_paid": {
+    "value": 2655,
+    "currency": "USD",
+    "value_usd": 2655
+  },
+  "fwci": 3.275,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 38,
+  "citation_normalized_percentile": {
+    "value": 0.933015,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 95
+  },
+  "biblio": {
+    "volume": "12",
+    "issue": "9",
+    "first_page": "e1006284",
+    "last_page": "e1006284"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10065",
+    "display_name": "Atrial Fibrillation Management and Outcomes",
+    "score": 0.9964,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2705",
+      "display_name": "Cardiology and Cardiovascular Medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10065",
+      "display_name": "Atrial Fibrillation Management and Outcomes",
+      "score": 0.9964,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10217",
+      "display_name": "Cardiac electrophysiology and arrhythmias",
+      "score": 0.9715,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11217",
+      "display_name": "Cardiac Arrhythmias and Treatments",
+      "score": 0.9466,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/exome",
+      "display_name": "Exome",
+      "score": 0.6444954
+    },
+    {
+      "id": "https://openalex.org/keywords/framingham-heart-study",
+      "display_name": "Framingham Heart Study",
+      "score": 0.5944586
+    },
+    {
+      "id": "https://openalex.org/keywords/linkage-disequilibrium",
+      "display_name": "Linkage Disequilibrium",
+      "score": 0.5390403
+    },
+    {
+      "id": "https://openalex.org/keywords/genetic-association",
+      "display_name": "Genetic Association",
+      "score": 0.4699115
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C16671776",
+      "wikidata": "https://www.wikidata.org/wiki/Q5420592",
+      "display_name": "Exome sequencing",
+      "level": 4,
+      "score": 0.73763406
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.7331765
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.65662557
+    },
+    {
+      "id": "https://openalex.org/C10590036",
+      "wikidata": "https://www.wikidata.org/wiki/Q417664",
+      "display_name": "Exome",
+      "level": 5,
+      "score": 0.6444954
+    },
+    {
+      "id": "https://openalex.org/C84597430",
+      "wikidata": "https://www.wikidata.org/wiki/Q106227",
+      "display_name": "Locus (genetics)",
+      "level": 3,
+      "score": 0.6398046
+    },
+    {
+      "id": "https://openalex.org/C111815664",
+      "wikidata": "https://www.wikidata.org/wiki/Q1440693",
+      "display_name": "Framingham Heart Study",
+      "level": 4,
+      "score": 0.5944586
+    },
+    {
+      "id": "https://openalex.org/C156957248",
+      "wikidata": "https://www.wikidata.org/wiki/Q1862216",
+      "display_name": "Odds ratio",
+      "level": 2,
+      "score": 0.557814
+    },
+    {
+      "id": "https://openalex.org/C75563809",
+      "wikidata": "https://www.wikidata.org/wiki/Q2656896",
+      "display_name": "Missense mutation",
+      "level": 4,
+      "score": 0.552024
+    },
+    {
+      "id": "https://openalex.org/C35605836",
+      "wikidata": "https://www.wikidata.org/wiki/Q2064311",
+      "display_name": "Linkage disequilibrium",
+      "level": 5,
+      "score": 0.5390403
+    },
+    {
+      "id": "https://openalex.org/C180754005",
+      "wikidata": "https://www.wikidata.org/wiki/Q80726",
+      "display_name": "Allele",
+      "level": 3,
+      "score": 0.5003052
+    },
+    {
+      "id": "https://openalex.org/C186413461",
+      "wikidata": "https://www.wikidata.org/wiki/Q744727",
+      "display_name": "Genetic association",
+      "level": 5,
+      "score": 0.4699115
+    },
+    {
+      "id": "https://openalex.org/C37463918",
+      "wikidata": "https://www.wikidata.org/wiki/Q387981",
+      "display_name": "Allele frequency",
+      "level": 4,
+      "score": 0.46466148
+    },
+    {
+      "id": "https://openalex.org/C68873052",
+      "wikidata": "https://www.wikidata.org/wiki/Q349856",
+      "display_name": "Genetic variation",
+      "level": 3,
+      "score": 0.45783994
+    },
+    {
+      "id": "https://openalex.org/C153209595",
+      "wikidata": "https://www.wikidata.org/wiki/Q501128",
+      "display_name": "Single-nucleotide polymorphism",
+      "level": 4,
+      "score": 0.40047413
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.3887105
+    },
+    {
+      "id": "https://openalex.org/C60644358",
+      "wikidata": "https://www.wikidata.org/wiki/Q128570",
+      "display_name": "Bioinformatics",
+      "level": 1,
+      "score": 0.32684106
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.29829693
+    },
+    {
+      "id": "https://openalex.org/C135763542",
+      "wikidata": "https://www.wikidata.org/wiki/Q106016",
+      "display_name": "Genotype",
+      "level": 3,
+      "score": 0.2690652
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.20261106
+    },
+    {
+      "id": "https://openalex.org/C501734568",
+      "wikidata": "https://www.wikidata.org/wiki/Q42918",
+      "display_name": "Mutation",
+      "level": 3,
+      "score": 0.19588521
+    },
+    {
+      "id": "https://openalex.org/C197754878",
+      "wikidata": "https://www.wikidata.org/wiki/Q80711",
+      "display_name": "Haplotype",
+      "level": 4,
+      "score": 0.17807159
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.16527748
+    },
+    {
+      "id": "https://openalex.org/C11783203",
+      "wikidata": "https://www.wikidata.org/wiki/Q5478027",
+      "display_name": "Framingham Risk Score",
+      "level": 3,
+      "score": 0.11814487
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001281",
+      "descriptor_name": "Atrial Fibrillation",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D059472",
+      "descriptor_name": "Exome",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020022",
+      "descriptor_name": "Genetic Predisposition to Disease",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008840",
+      "descriptor_name": "Microfilament Proteins",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001281",
+      "descriptor_name": "Atrial Fibrillation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001281",
+      "descriptor_name": "Atrial Fibrillation",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059472",
+      "descriptor_name": "Exome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005787",
+      "descriptor_name": "Gene Frequency",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D056726",
+      "descriptor_name": "Genetic Association Studies",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059014",
+      "descriptor_name": "High-Throughput Nucleotide Sequencing",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059014",
+      "descriptor_name": "High-Throughput Nucleotide Sequencing",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008840",
+      "descriptor_name": "Microfilament Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020641",
+      "descriptor_name": "Polymorphism, Single Nucleotide",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020641",
+      "descriptor_name": "Polymorphism, Single Nucleotide",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 6,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pgen.1006284",
+      "pdf_url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1006284&type=printable",
+      "source": {
+        "id": "https://openalex.org/S103870658",
+        "display_name": "PLoS Genetics",
+        "issn_l": "1553-7390",
+        "issn": [
+          "1553-7390",
+          "1553-7404"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/3d79ce45b97047b7a46d869eae4ff497",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5010214",
+      "pdf_url": "https://europepmc.org/articles/pmc5010214?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:29407690",
+      "pdf_url": "https://dash.harvard.edu/bitstream/1/29407690/1/5010214.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401540",
+        "display_name": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I136199984",
+        "host_organization_name": "Harvard University",
+        "host_organization_lineage": [
+          "https://openalex.org/I136199984"
+        ],
+        "host_organization_lineage_names": [
+          "Harvard University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5010214",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27589061",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1371/journal.pgen.1006284",
+    "pdf_url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1006284&type=printable",
+    "source": {
+      "id": "https://openalex.org/S103870658",
+      "display_name": "PLoS Genetics",
+      "issn_l": "1553-7390",
+      "issn": [
+        "1553-7390",
+        "1553-7404"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315706",
+      "host_organization_name": "Public Library of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315706"
+      ],
+      "host_organization_lineage_names": [
+        "Public Library of Science"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.63
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320332161",
+      "funder_display_name": "National Institutes of Health",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 41,
+  "referenced_works": [
+    "https://openalex.org/W1563940013",
+    "https://openalex.org/W1970927316",
+    "https://openalex.org/W1971505725",
+    "https://openalex.org/W1980740976",
+    "https://openalex.org/W1987754412",
+    "https://openalex.org/W1998083759",
+    "https://openalex.org/W2000081470",
+    "https://openalex.org/W2001473080",
+    "https://openalex.org/W2031633562",
+    "https://openalex.org/W2036605610",
+    "https://openalex.org/W2037988353",
+    "https://openalex.org/W2038531896",
+    "https://openalex.org/W2061043894",
+    "https://openalex.org/W2063172243",
+    "https://openalex.org/W2064050001",
+    "https://openalex.org/W2090443364",
+    "https://openalex.org/W2100414478",
+    "https://openalex.org/W2103441770",
+    "https://openalex.org/W2113547573",
+    "https://openalex.org/W2116831158",
+    "https://openalex.org/W2121394112",
+    "https://openalex.org/W2130410032",
+    "https://openalex.org/W2132505348",
+    "https://openalex.org/W2133128268",
+    "https://openalex.org/W2133435868",
+    "https://openalex.org/W2138482871",
+    "https://openalex.org/W2141889414",
+    "https://openalex.org/W2146673314",
+    "https://openalex.org/W2146973661",
+    "https://openalex.org/W2148564836",
+    "https://openalex.org/W2149166027",
+    "https://openalex.org/W2149665587",
+    "https://openalex.org/W2150375784",
+    "https://openalex.org/W2152230398",
+    "https://openalex.org/W2154877797",
+    "https://openalex.org/W2161197885",
+    "https://openalex.org/W2163953557",
+    "https://openalex.org/W2167806431",
+    "https://openalex.org/W2177573173",
+    "https://openalex.org/W2731507867",
+    "https://openalex.org/W4242416368"
+  ],
+  "related_works": [
+    "https://openalex.org/W4402567428",
+    "https://openalex.org/W3083501552",
+    "https://openalex.org/W2772505697",
+    "https://openalex.org/W2484239316",
+    "https://openalex.org/W2400191746",
+    "https://openalex.org/W2172231381",
+    "https://openalex.org/W2106924416",
+    "https://openalex.org/W2093932542",
+    "https://openalex.org/W2043256480",
+    "https://openalex.org/W1983406990"
+  ],
+  "abstract_inverted_index": {
+    "Atrial": [
+      0
+    ],
+    "fibrillation": [
+      1
+    ],
+    "(AF)": [
+      2
+    ],
+    "is": [
+      3,
+      176,
+      243,
+      262
+    ],
+    "a": [
+      4,
+      54,
+      145,
+      170,
+      181
+    ],
+    "morbid": [
+      5
+    ],
+    "and": [
+      6,
+      34,
+      62,
+      79,
+      84,
+      175,
+      199,
+      236
+    ],
+    "heritable": [
+      7
+    ],
+    "arrhythmia.": [
+      8
+    ],
+    "Over": [
+      9
+    ],
+    "35": [
+      10
+    ],
+    "genes": [
+      11,
+      99
+    ],
+    "have": [
+      12
+    ],
+    "been": [
+      13
+    ],
+    "reported": [
+      14
+    ],
+    "to": [
+      15,
+      41,
+      114,
+      258,
+      265,
+      268
+    ],
+    "underlie": [
+      16
+    ],
+    "AF,": [
+      17,
+      237
+    ],
+    "most": [
+      18,
+      140
+    ],
+    "of": [
+      19,
+      38,
+      58,
+      120,
+      124
+    ],
+    "which": [
+      20,
+      167
+    ],
+    "were": [
+      21,
+      119
+    ],
+    "described": [
+      22
+    ],
+    "in": [
+      23,
+      53,
+      76,
+      96,
+      103,
+      153,
+      177,
+      201,
+      220,
+      253
+    ],
+    "small": [
+      24
+    ],
+    "candidate": [
+      25
+    ],
+    "gene": [
+      26
+    ],
+    "association": [
+      27
+    ],
+    "studies.": [
+      28
+    ],
+    "Replication": [
+      29
+    ],
+    "remains": [
+      30,
+      44
+    ],
+    "lacking": [
+      31
+    ],
+    "for": [
+      32,
+      135,
+      214,
+      284
+    ],
+    "most,": [
+      33
+    ],
+    "therefore": [
+      35
+    ],
+    "the": [
+      36,
+      67,
+      86,
+      125,
+      139,
+      188,
+      245
+    ],
+    "contribution": [
+      37
+    ],
+    "coding": [
+      39,
+      218,
+      233,
+      241,
+      251,
+      272
+    ],
+    "variation": [
+      40,
+      93,
+      219,
+      242,
+      273
+    ],
+    "AF": [
+      42,
+      65,
+      98,
+      104,
+      172,
+      200,
+      206,
+      223,
+      275
+    ],
+    "susceptibility": [
+      43,
+      173
+    ],
+    "poorly": [
+      45
+    ],
+    "understood.": [
+      46
+    ],
+    "We": [
+      47,
+      88,
+      190
+    ],
+    "examined": [
+      48,
+      90
+    ],
+    "whole": [
+      49
+    ],
+    "exome": [
+      50
+    ],
+    "sequencing": [
+      51
+    ],
+    "data": [
+      52
+    ],
+    "large": [
+      55,
+      278,
+      285
+    ],
+    "community-based": [
+      56
+    ],
+    "sample": [
+      57,
+      279
+    ],
+    "1,734": [
+      59
+    ],
+    "individuals": [
+      60
+    ],
+    "with": [
+      61,
+      180,
+      205
+    ],
+    "9,423": [
+      63
+    ],
+    "without": [
+      64
+    ],
+    "from": [
+      66,
+      112,
+      184
+    ],
+    "Framingham": [
+      68
+    ],
+    "Heart": [
+      69
+    ],
+    "Study,": [
+      70,
+      73,
+      78
+    ],
+    "Cardiovascular": [
+      71
+    ],
+    "Health": [
+      72
+    ],
+    "Atherosclerosis": [
+      74
+    ],
+    "Risk": [
+      75
+    ],
+    "Communities": [
+      77
+    ],
+    "NHLBI-GO": [
+      80
+    ],
+    "Exome": [
+      81
+    ],
+    "Sequencing": [
+      82
+    ],
+    "Project": [
+      83
+    ],
+    "meta-analyzed": [
+      85
+    ],
+    "results.": [
+      87
+    ],
+    "also": [
+      89
+    ],
+    "whether": [
+      91,
+      260
+    ],
+    "genetic": [
+      92,
+      234,
+      286
+    ],
+    "was": [
+      94,
+      130,
+      144
+    ],
+    "enriched": [
+      95,
+      283
+    ],
+    "suspected": [
+      97
+    ],
+    "(N": [
+      100
+    ],
+    "=": [
+      101,
+      149,
+      165
+    ],
+    "37)": [
+      102
+    ],
+    "cases": [
+      105
+    ],
+    "versus": [
+      106
+    ],
+    "controls.": [
+      107
+    ],
+    "The": [
+      108
+    ],
+    "mean": [
+      109
+    ],
+    "age": [
+      110
+    ],
+    "ranged": [
+      111
+    ],
+    "59": [
+      113
+    ],
+    "73": [
+      115
+    ],
+    "years;": [
+      116
+    ],
+    "8,656": [
+      117
+    ],
+    "(78%)": [
+      118
+    ],
+    "European": [
+      121
+    ],
+    "ancestry.": [
+      122
+    ],
+    "None": [
+      123
+    ],
+    "99,404": [
+      126
+    ],
+    "common": [
+      127,
+      146,
+      215
+    ],
+    "variants": [
+      128,
+      143,
+      198,
+      235
+    ],
+    "evaluated": [
+      129
+    ],
+    "significantly": [
+      131,
+      141
+    ],
+    "associated": [
+      132,
+      142
+    ],
+    "after": [
+      133
+    ],
+    "adjusting": [
+      134
+    ],
+    "multiple": [
+      136
+    ],
+    "testing.": [
+      137
+    ],
+    "Among": [
+      138
+    ],
+    "(allele": [
+      147
+    ],
+    "frequency": [
+      148
+    ],
+    "86%)": [
+      150
+    ],
+    "missense": [
+      151
+    ],
+    "variant": [
+      152,
+      252
+    ],
+    "SYNPO2L": [
+      154,
+      254
+    ],
+    "(rs3812629,": [
+      155
+    ],
+    "p.Pro707Leu,": [
+      156
+    ],
+    "[odds": [
+      157
+    ],
+    "ratio": [
+      158
+    ],
+    "1.27,": [
+      159
+    ],
+    "95%": [
+      160
+    ],
+    "confidence": [
+      161
+    ],
+    "interval": [
+      162
+    ],
+    "1.13–1.43,": [
+      163
+    ],
+    "P": [
+      164
+    ],
+    "6.6x10-5])": [
+      166
+    ],
+    "lies": [
+      168
+    ],
+    "at": [
+      169,
+      187
+    ],
+    "known": [
+      171
+    ],
+    "locus": [
+      174
+    ],
+    "linkage": [
+      178
+    ],
+    "disequilibrium": [
+      179
+    ],
+    "top": [
+      182
+    ],
+    "marker": [
+      183
+    ],
+    "prior": [
+      185
+    ],
+    "analyses": [
+      186
+    ],
+    "locus.": [
+      189
+    ],
+    "did": [
+      191,
+      207,
+      228
+    ],
+    "not": [
+      192,
+      208,
+      229,
+      244
+    ],
+    "observe": [
+      193,
+      230
+    ],
+    "significant": [
+      194,
+      212
+    ],
+    "associations": [
+      195,
+      231
+    ],
+    "between": [
+      196,
+      232
+    ],
+    "rare": [
+      197,
+      217
+    ],
+    "gene-based": [
+      202
+    ],
+    "tests.": [
+      203
+    ],
+    "Individuals": [
+      204
+    ],
+    "display": [
+      209
+    ],
+    "any": [
+      210
+    ],
+    "statistically": [
+      211
+    ],
+    "enrichment": [
+      213
+    ],
+    "or": [
+      216,
+      281
+    ],
+    "previously": [
+      221
+    ],
+    "implicated": [
+      222
+    ],
+    "genes.": [
+      224
+    ],
+    "In": [
+      225
+    ],
+    "conclusion,": [
+      226
+    ],
+    "we": [
+      227
+    ],
+    "suggesting": [
+      238
+    ],
+    "that": [
+      239
+    ],
+    "large-effect": [
+      240
+    ],
+    "predominant": [
+      246
+    ],
+    "mechanism": [
+      247
+    ],
+    "underlying": [
+      248,
+      274
+    ],
+    "AF.": [
+      249,
+      266
+    ],
+    "A": [
+      250
+    ],
+    "requires": [
+      255
+    ],
+    "further": [
+      256
+    ],
+    "evaluation": [
+      257
+    ],
+    "determine": [
+      259
+    ],
+    "it": [
+      261
+    ],
+    "causally": [
+      263
+    ],
+    "related": [
+      264
+    ],
+    "Efforts": [
+      267
+    ],
+    "identify": [
+      269
+    ],
+    "biologically": [
+      270
+    ],
+    "meaningful": [
+      271
+    ],
+    "may": [
+      276
+    ],
+    "require": [
+      277
+    ],
+    "sizes": [
+      280
+    ],
+    "populations": [
+      282
+    ],
+    "effects.": [
+      287
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2515205469",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-05-24T20:58:48.905052",
+  "created_date": "2016-09-16"
+}

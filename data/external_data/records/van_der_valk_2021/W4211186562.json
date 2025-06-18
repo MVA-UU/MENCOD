@@ -1,0 +1,897 @@
+{
+  "id": "https://openalex.org/W4211186562",
+  "doi": "https://doi.org/10.1016/s0140-6736(06)68699-6",
+  "title": "Cushing's syndrome",
+  "display_name": "Cushing's syndrome",
+  "publication_year": 2006,
+  "publication_date": "2006-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W4211186562",
+    "doi": "https://doi.org/10.1016/s0140-6736(06)68699-6",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16698415"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/s0140-6736(06)68699-6",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S49861241",
+      "display_name": "The Lancet",
+      "issn_l": "0140-6736",
+      "issn": [
+        "0140-6736",
+        "1474-547X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5001744820",
+        "display_name": "John Newell‐Price",
+        "orcid": "https://orcid.org/0000-0002-0835-5493"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801732343",
+          "display_name": "Royal Hallamshire Hospital",
+          "ror": "https://ror.org/00514rc81",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801732343",
+            "https://openalex.org/I4210102902"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2801759359",
+          "display_name": "Northern General Hospital",
+          "ror": "https://ror.org/05r409z22",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801759359",
+            "https://openalex.org/I4210102902"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I91136226",
+          "display_name": "University of Sheffield",
+          "ror": "https://ror.org/05krs5044",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I91136226"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "John Newell-Price",
+      "raw_affiliation_strings": [
+        "Department of Endocrinology, Royal Hallamshire Hospital, Sheffield, UK",
+        "Division of Clinical Sciences, University of Sheffield, Northern General Hospital, Sheffield, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Endocrinology, Royal Hallamshire Hospital, Sheffield, UK",
+          "institution_ids": [
+            "https://openalex.org/I2801732343"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Division of Clinical Sciences, University of Sheffield, Northern General Hospital, Sheffield, UK",
+          "institution_ids": [
+            "https://openalex.org/I2801759359",
+            "https://openalex.org/I91136226"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016397577",
+        "display_name": "Xavier Bertagna",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204730241",
+          "display_name": "Université Paris Cité",
+          "ror": "https://ror.org/05f82e368",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204730241"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210141964",
+          "display_name": "Institut Cochin",
+          "ror": "https://ror.org/051sk4035",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I4210096427",
+            "https://openalex.org/I4210141964"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xavier Bertagna",
+      "raw_affiliation_strings": [
+        "Département d'Endocrinologie de l'Institut Cochin-INSERM U-567, Faculté de Médecine René Descartes, Université Paris 5, Paris, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Département d'Endocrinologie de l'Institut Cochin-INSERM U-567, Faculté de Médecine René Descartes, Université Paris 5, Paris, France",
+          "institution_ids": [
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I4210141964",
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5046852415",
+        "display_name": "Ashley Grossman",
+        "orcid": "https://orcid.org/0000-0003-1176-6186"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210149920",
+          "display_name": "William Harvey Research Institute",
+          "ror": "https://ror.org/0574dzy90",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I166337079",
+            "https://openalex.org/I4210149920"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ashley B Grossman",
+      "raw_affiliation_strings": [
+        "Department of Endocrinology, William Harvey Research Institute, Queen Mary School of Medicine and Dentistry, London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Endocrinology, William Harvey Research Institute, Queen Mary School of Medicine and Dentistry, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210149920"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5043403667",
+        "display_name": "Lynnette K. Nieman",
+        "orcid": "https://orcid.org/0000-0003-0534-8025"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210144228",
+          "display_name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+          "ror": "https://ror.org/04byxyr05",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238",
+            "https://openalex.org/I4210144228"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1299303238",
+          "display_name": "National Institutes of Health",
+          "ror": "https://ror.org/01cwqze88",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1299022934",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lynnette K Nieman",
+      "raw_affiliation_strings": [
+        "Reproductive Endocrinology and Medicine Branch, National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD 20891-1109, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Reproductive Endocrinology and Medicine Branch, National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, MD 20891-1109, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210144228",
+            "https://openalex.org/I1299303238"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 9,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5001744820"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I2801732343",
+    "https://openalex.org/I2801759359",
+    "https://openalex.org/I91136226"
+  ],
+  "apc_list": {
+    "value": 6830,
+    "currency": "USD",
+    "value_usd": 6830
+  },
+  "apc_paid": null,
+  "fwci": 8.805,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 1097,
+  "citation_normalized_percentile": {
+    "value": 0.99854,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "367",
+    "issue": "9522",
+    "first_page": "1605",
+    "last_page": "1617"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10832",
+    "display_name": "Pituitary Gland Disorders and Treatments",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2712",
+      "display_name": "Endocrinology, Diabetes and Metabolism"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10832",
+      "display_name": "Pituitary Gland Disorders and Treatments",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12421",
+      "display_name": "Adrenal Hormones and Disorders",
+      "score": 0.9984,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11054",
+      "display_name": "Adrenal and Paraganglionic Tumors",
+      "score": 0.9948,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2746",
+        "display_name": "Surgery"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/pathogenesis",
+      "display_name": "Pathogenesis",
+      "score": 0.44344932
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.70248103
+    },
+    {
+      "id": "https://openalex.org/C2780801072",
+      "wikidata": "https://www.wikidata.org/wiki/Q837512",
+      "display_name": "Differential diagnosis",
+      "level": 2,
+      "score": 0.60474294
+    },
+    {
+      "id": "https://openalex.org/C177713679",
+      "wikidata": "https://www.wikidata.org/wiki/Q679690",
+      "display_name": "Intensive care medicine",
+      "level": 1,
+      "score": 0.5655996
+    },
+    {
+      "id": "https://openalex.org/C2779435821",
+      "wikidata": "https://www.wikidata.org/wiki/Q219102",
+      "display_name": "Cushing syndrome",
+      "level": 2,
+      "score": 0.51669264
+    },
+    {
+      "id": "https://openalex.org/C82157600",
+      "wikidata": "https://www.wikidata.org/wiki/Q2671652",
+      "display_name": "Diagnostic test",
+      "level": 2,
+      "score": 0.48229292
+    },
+    {
+      "id": "https://openalex.org/C2780942790",
+      "wikidata": "https://www.wikidata.org/wiki/Q372016",
+      "display_name": "Pathogenesis",
+      "level": 2,
+      "score": 0.44344932
+    },
+    {
+      "id": "https://openalex.org/C187212893",
+      "wikidata": "https://www.wikidata.org/wiki/Q123028",
+      "display_name": "Pediatrics",
+      "level": 1,
+      "score": 0.38141173
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.26875305
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.19048822
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D003480",
+      "descriptor_name": "Cushing Syndrome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000324",
+      "descriptor_name": "Adrenocorticotropic Hormone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000324",
+      "descriptor_name": "Adrenocorticotropic Hormone",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000324",
+      "descriptor_name": "Adrenocorticotropic Hormone",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003480",
+      "descriptor_name": "Cushing Syndrome",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003480",
+      "descriptor_name": "Cushing Syndrome",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003480",
+      "descriptor_name": "Cushing Syndrome",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003937",
+      "descriptor_name": "Diagnosis, Differential",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/s0140-6736(06)68699-6",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S49861241",
+        "display_name": "The Lancet",
+        "issn_l": "0140-6736",
+        "issn": [
+          "0140-6736",
+          "1474-547X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16698415",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.84
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 188,
+  "referenced_works": [
+    "https://openalex.org/W118579299",
+    "https://openalex.org/W1536517901",
+    "https://openalex.org/W1965644553",
+    "https://openalex.org/W1966665789",
+    "https://openalex.org/W1967485779",
+    "https://openalex.org/W1969677811",
+    "https://openalex.org/W1970454167",
+    "https://openalex.org/W1974374747",
+    "https://openalex.org/W1975223029",
+    "https://openalex.org/W1975769329",
+    "https://openalex.org/W1975993451",
+    "https://openalex.org/W1976461290",
+    "https://openalex.org/W1979064131",
+    "https://openalex.org/W1981205460",
+    "https://openalex.org/W1983878028",
+    "https://openalex.org/W1984782865",
+    "https://openalex.org/W1987904636",
+    "https://openalex.org/W1988623266",
+    "https://openalex.org/W1990871909",
+    "https://openalex.org/W1991549825",
+    "https://openalex.org/W1992446781",
+    "https://openalex.org/W1992534456",
+    "https://openalex.org/W1992954253",
+    "https://openalex.org/W1994844195",
+    "https://openalex.org/W1995316958",
+    "https://openalex.org/W1995979624",
+    "https://openalex.org/W1997742570",
+    "https://openalex.org/W1998949578",
+    "https://openalex.org/W1998981829",
+    "https://openalex.org/W1999873982",
+    "https://openalex.org/W2000741337",
+    "https://openalex.org/W2002101193",
+    "https://openalex.org/W2002112853",
+    "https://openalex.org/W2002337307",
+    "https://openalex.org/W2002707917",
+    "https://openalex.org/W2003910044",
+    "https://openalex.org/W2010007827",
+    "https://openalex.org/W2010440256",
+    "https://openalex.org/W2011381127",
+    "https://openalex.org/W2017928688",
+    "https://openalex.org/W2019770879",
+    "https://openalex.org/W2020218232",
+    "https://openalex.org/W2021930695",
+    "https://openalex.org/W2023934963",
+    "https://openalex.org/W2026722575",
+    "https://openalex.org/W2026778059",
+    "https://openalex.org/W2027091725",
+    "https://openalex.org/W2028290571",
+    "https://openalex.org/W2028830809",
+    "https://openalex.org/W2029420739",
+    "https://openalex.org/W2029519456",
+    "https://openalex.org/W2032023160",
+    "https://openalex.org/W2032243333",
+    "https://openalex.org/W2032317802",
+    "https://openalex.org/W2032565269",
+    "https://openalex.org/W2033370408",
+    "https://openalex.org/W2033505874",
+    "https://openalex.org/W2033750059",
+    "https://openalex.org/W2035403262",
+    "https://openalex.org/W2036763370",
+    "https://openalex.org/W2041833548",
+    "https://openalex.org/W2043539107",
+    "https://openalex.org/W2045990603",
+    "https://openalex.org/W2046106422",
+    "https://openalex.org/W2046794386",
+    "https://openalex.org/W2047597784",
+    "https://openalex.org/W2051040265",
+    "https://openalex.org/W2054473324",
+    "https://openalex.org/W2058123393",
+    "https://openalex.org/W2058956599",
+    "https://openalex.org/W2059880490",
+    "https://openalex.org/W2061134758",
+    "https://openalex.org/W2061962280",
+    "https://openalex.org/W2062988719",
+    "https://openalex.org/W2063081075",
+    "https://openalex.org/W2065532093",
+    "https://openalex.org/W2065652955",
+    "https://openalex.org/W2066063796",
+    "https://openalex.org/W2067857314",
+    "https://openalex.org/W2070167678",
+    "https://openalex.org/W2072190191",
+    "https://openalex.org/W2072368530",
+    "https://openalex.org/W2075733472",
+    "https://openalex.org/W2078206479",
+    "https://openalex.org/W2081558152",
+    "https://openalex.org/W2082282626",
+    "https://openalex.org/W2086620581",
+    "https://openalex.org/W2087354477",
+    "https://openalex.org/W2087678619",
+    "https://openalex.org/W2089490142",
+    "https://openalex.org/W2090912797",
+    "https://openalex.org/W2090988201",
+    "https://openalex.org/W2097725132",
+    "https://openalex.org/W2098165008",
+    "https://openalex.org/W2100003759",
+    "https://openalex.org/W2100857157",
+    "https://openalex.org/W2101443162",
+    "https://openalex.org/W2102280970",
+    "https://openalex.org/W2103539163",
+    "https://openalex.org/W2104112570",
+    "https://openalex.org/W2104855184",
+    "https://openalex.org/W2105516473",
+    "https://openalex.org/W2107774273",
+    "https://openalex.org/W2109134289",
+    "https://openalex.org/W2109316297",
+    "https://openalex.org/W2110260815",
+    "https://openalex.org/W2111664153",
+    "https://openalex.org/W2112225287",
+    "https://openalex.org/W2112365202",
+    "https://openalex.org/W2116180626",
+    "https://openalex.org/W2116182759",
+    "https://openalex.org/W2116323016",
+    "https://openalex.org/W2116553454",
+    "https://openalex.org/W2120961400",
+    "https://openalex.org/W2121626409",
+    "https://openalex.org/W2123601063",
+    "https://openalex.org/W2124127909",
+    "https://openalex.org/W2125163586",
+    "https://openalex.org/W2126920499",
+    "https://openalex.org/W2128822914",
+    "https://openalex.org/W2132647852",
+    "https://openalex.org/W2132746565",
+    "https://openalex.org/W2133569968",
+    "https://openalex.org/W2133677263",
+    "https://openalex.org/W2134029765",
+    "https://openalex.org/W2138798159",
+    "https://openalex.org/W2138863418",
+    "https://openalex.org/W2142121727",
+    "https://openalex.org/W2142292817",
+    "https://openalex.org/W2142340968",
+    "https://openalex.org/W2142857715",
+    "https://openalex.org/W2146029276",
+    "https://openalex.org/W2149619533",
+    "https://openalex.org/W2150056856",
+    "https://openalex.org/W2151215779",
+    "https://openalex.org/W2154357554",
+    "https://openalex.org/W2157312224",
+    "https://openalex.org/W2157490051",
+    "https://openalex.org/W2157610967",
+    "https://openalex.org/W2159203633",
+    "https://openalex.org/W2159632410",
+    "https://openalex.org/W2159712672",
+    "https://openalex.org/W2160362883",
+    "https://openalex.org/W2162702275",
+    "https://openalex.org/W2162854479",
+    "https://openalex.org/W2165331817",
+    "https://openalex.org/W2168404575",
+    "https://openalex.org/W2169941721",
+    "https://openalex.org/W2170825600",
+    "https://openalex.org/W2170983800",
+    "https://openalex.org/W2313787478",
+    "https://openalex.org/W2317769924",
+    "https://openalex.org/W2320000533",
+    "https://openalex.org/W2320050200",
+    "https://openalex.org/W2332386539",
+    "https://openalex.org/W2334224196",
+    "https://openalex.org/W2336931002",
+    "https://openalex.org/W2337777109",
+    "https://openalex.org/W2337904583",
+    "https://openalex.org/W2341664520",
+    "https://openalex.org/W2343551884",
+    "https://openalex.org/W2460240363",
+    "https://openalex.org/W299775290",
+    "https://openalex.org/W4230774358",
+    "https://openalex.org/W4231513285",
+    "https://openalex.org/W4233425618",
+    "https://openalex.org/W4233737323",
+    "https://openalex.org/W4234549493",
+    "https://openalex.org/W4235003008",
+    "https://openalex.org/W4236504035",
+    "https://openalex.org/W4236869732",
+    "https://openalex.org/W4239461855",
+    "https://openalex.org/W4239481266",
+    "https://openalex.org/W4240853618",
+    "https://openalex.org/W4242524256",
+    "https://openalex.org/W4244309935",
+    "https://openalex.org/W4245736815",
+    "https://openalex.org/W4248166725",
+    "https://openalex.org/W4248629395",
+    "https://openalex.org/W4250903368",
+    "https://openalex.org/W4251109705",
+    "https://openalex.org/W4251580245",
+    "https://openalex.org/W4252581223",
+    "https://openalex.org/W4252919405",
+    "https://openalex.org/W4254889413",
+    "https://openalex.org/W4254938918",
+    "https://openalex.org/W4255880009",
+    "https://openalex.org/W4296465350"
+  ],
+  "related_works": [
+    "https://openalex.org/W605998243",
+    "https://openalex.org/W2417892315",
+    "https://openalex.org/W2390136389",
+    "https://openalex.org/W2388744202",
+    "https://openalex.org/W2384962392",
+    "https://openalex.org/W2370452961",
+    "https://openalex.org/W2365906682",
+    "https://openalex.org/W2361179295",
+    "https://openalex.org/W2356836538",
+    "https://openalex.org/W2349363628"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W4211186562",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 48
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 55
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 66
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 69
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 71
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 66
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 52
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 65
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 72
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 86
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 70
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 70
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 53
+    }
+  ],
+  "updated_date": "2025-06-10T21:04:29.514475",
+  "created_date": "2022-02-13"
+}

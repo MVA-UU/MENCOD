@@ -1,0 +1,853 @@
+{
+  "id": "https://openalex.org/W2155048419",
+  "doi": "https://doi.org/10.1002/(sici)1097-0258(19980730)17:14<1623::aid-sim871>3.0.co;2-s",
+  "title": "A simple method of sample size calculation for linear and logistic regression",
+  "display_name": "A simple method of sample size calculation for linear and logistic regression",
+  "publication_year": 1998,
+  "publication_date": "1998-07-30",
+  "ids": {
+    "openalex": "https://openalex.org/W2155048419",
+    "doi": "https://doi.org/10.1002/(sici)1097-0258(19980730)17:14<1623::aid-sim871>3.0.co;2-s",
+    "mag": "2155048419",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/9699234"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1002/(sici)1097-0258(19980730)17:14<1623::aid-sim871>3.0.co;2-s",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S55189604",
+      "display_name": "Statistics in Medicine",
+      "issn_l": "0277-6715",
+      "issn": [
+        "0277-6715",
+        "1097-0258"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5046229459",
+        "display_name": "F. Hsieh",
+        "orcid": "https://orcid.org/0000-0001-5203-8922"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204866599",
+          "display_name": "VA Palo Alto Health Care System",
+          "ror": "https://ror.org/00nr17z89",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1322918889",
+            "https://openalex.org/I204866599",
+            "https://openalex.org/I2799886695",
+            "https://openalex.org/I4210125474"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "F. Y. Hsieh",
+      "raw_affiliation_strings": [
+        "CSPCC, Department of Veterans Affairs, Palo Alto Health Care System (151-K), Palo Alto, California 94304, U.S.A."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "CSPCC, Department of Veterans Affairs, Palo Alto Health Care System (151-K), Palo Alto, California 94304, U.S.A.",
+          "institution_ids": [
+            "https://openalex.org/I204866599"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056109933",
+        "display_name": "D. Blöch",
+        "orcid": "https://orcid.org/0000-0002-4535-5273"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Daniel A. Bloch",
+      "raw_affiliation_strings": [
+        "Division of Biostatistics, Department of Health Research and Policy, Stanford University, Stanford, California 94305, U.S.A."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Biostatistics, Department of Health Research and Policy, Stanford University, Stanford, California 94305, U.S.A.",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5035231652",
+        "display_name": "Michael Larsen",
+        "orcid": "https://orcid.org/0000-0002-6680-2730"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael D. Larsen",
+      "raw_affiliation_strings": [
+        "Department of Statistics, Stanford University, Stanford, California 94305, U.S.A."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Statistics, Stanford University, Stanford, California 94305, U.S.A.",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5046229459"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I204866599"
+  ],
+  "apc_list": {
+    "value": 4940,
+    "currency": "USD",
+    "value_usd": 4940
+  },
+  "apc_paid": null,
+  "fwci": 3.989,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 1052,
+  "citation_normalized_percentile": {
+    "value": 0.974038,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "17",
+    "issue": "14",
+    "first_page": "1623",
+    "last_page": "1634"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11871",
+    "display_name": "Advanced Statistical Methods and Models",
+    "score": 0.9902,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11871",
+      "display_name": "Advanced Statistical Methods and Models",
+      "score": 0.9902,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.9898,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11235",
+      "display_name": "Statistical Methods in Clinical Trials",
+      "score": 0.9735,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/sample",
+      "display_name": "Sample (material)",
+      "score": 0.47003573
+    },
+    {
+      "id": "https://openalex.org/keywords/logistic-model-tree",
+      "display_name": "Logistic model tree",
+      "score": 0.46604028
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C151956035",
+      "wikidata": "https://www.wikidata.org/wiki/Q1132755",
+      "display_name": "Logistic regression",
+      "level": 2,
+      "score": 0.81256133
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.75780314
+    },
+    {
+      "id": "https://openalex.org/C129848803",
+      "wikidata": "https://www.wikidata.org/wiki/Q2564360",
+      "display_name": "Sample size determination",
+      "level": 2,
+      "score": 0.71912265
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5446898
+    },
+    {
+      "id": "https://openalex.org/C48921125",
+      "wikidata": "https://www.wikidata.org/wiki/Q10861030",
+      "display_name": "Linear regression",
+      "level": 2,
+      "score": 0.49086934
+    },
+    {
+      "id": "https://openalex.org/C198531522",
+      "wikidata": "https://www.wikidata.org/wiki/Q485146",
+      "display_name": "Sample (material)",
+      "level": 2,
+      "score": 0.47003573
+    },
+    {
+      "id": "https://openalex.org/C61722155",
+      "wikidata": "https://www.wikidata.org/wiki/Q6667643",
+      "display_name": "Logistic model tree",
+      "level": 3,
+      "score": 0.46604028
+    },
+    {
+      "id": "https://openalex.org/C196083921",
+      "wikidata": "https://www.wikidata.org/wiki/Q7915758",
+      "display_name": "Variance (accounting)",
+      "level": 2,
+      "score": 0.44081175
+    },
+    {
+      "id": "https://openalex.org/C152877465",
+      "wikidata": "https://www.wikidata.org/wiki/Q208042",
+      "display_name": "Regression analysis",
+      "level": 2,
+      "score": 0.42349482
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.3707937
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121955636",
+      "wikidata": "https://www.wikidata.org/wiki/Q4116214",
+      "display_name": "Accounting",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C43617362",
+      "wikidata": "https://www.wikidata.org/wiki/Q170050",
+      "display_name": "Chromatography",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D016015",
+      "descriptor_name": "Logistic Models",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018401",
+      "descriptor_name": "Sample Size",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008432",
+      "descriptor_name": "Mathematical Computing",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012984",
+      "descriptor_name": "Software",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1002/(sici)1097-0258(19980730)17:14<1623::aid-sim871>3.0.co;2-s",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S55189604",
+        "display_name": "Statistics in Medicine",
+        "issn_l": "0277-6715",
+        "issn": [
+          "0277-6715",
+          "1097-0258"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/9699234",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.41,
+      "id": "https://metadata.un.org/sdg/8",
+      "display_name": "Decent work and economic growth"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 7,
+  "referenced_works": [
+    "https://openalex.org/W1970913176",
+    "https://openalex.org/W2010760898",
+    "https://openalex.org/W2063698478",
+    "https://openalex.org/W2068974024",
+    "https://openalex.org/W2318082603",
+    "https://openalex.org/W2319824385",
+    "https://openalex.org/W2324309783"
+  ],
+  "related_works": [
+    "https://openalex.org/W4363647291",
+    "https://openalex.org/W3216594821",
+    "https://openalex.org/W3215700490",
+    "https://openalex.org/W2610868774",
+    "https://openalex.org/W2393341384",
+    "https://openalex.org/W2390006526",
+    "https://openalex.org/W2221502901",
+    "https://openalex.org/W2092994918",
+    "https://openalex.org/W1976866108",
+    "https://openalex.org/W1915333409"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0
+    ],
+    "sample": [
+      1,
+      15,
+      31,
+      45,
+      81
+    ],
+    "size": [
+      2,
+      16,
+      32,
+      46,
+      82
+    ],
+    "calculation": [
+      3
+    ],
+    "for": [
+      4,
+      18,
+      22,
+      33,
+      47,
+      83,
+      98
+    ],
+    "logistic": [
+      5,
+      36,
+      50,
+      69,
+      99
+    ],
+    "regression": [
+      6,
+      37,
+      51,
+      85,
+      100
+    ],
+    "involves": [
+      7
+    ],
+    "complicated": [
+      8
+    ],
+    "formulae.": [
+      9
+    ],
+    "This": [
+      10,
+      58,
+      87
+    ],
+    "paper": [
+      11,
+      88
+    ],
+    "suggests": [
+      12
+    ],
+    "use": [
+      13
+    ],
+    "of": [
+      14,
+      63,
+      93
+    ],
+    "formulae": [
+      17
+    ],
+    "comparing": [
+      19,
+      23
+    ],
+    "means": [
+      20
+    ],
+    "or": [
+      21
+    ],
+    "proportions": [
+      24
+    ],
+    "in": [
+      25,
+      67,
+      72
+    ],
+    "order": [
+      26
+    ],
+    "to": [
+      27
+    ],
+    "calculate": [
+      28,
+      79
+    ],
+    "the": [
+      29,
+      43,
+      68,
+      80,
+      91,
+      108
+    ],
+    "required": [
+      30,
+      44
+    ],
+    "a": [
+      34,
+      48,
+      54,
+      73
+    ],
+    "simple": [
+      35
+    ],
+    "model.": [
+      38
+    ],
+    "One": [
+      39,
+      76
+    ],
+    "can": [
+      40,
+      77
+    ],
+    "then": [
+      41
+    ],
+    "adjust": [
+      42
+    ],
+    "multiple": [
+      49
+    ],
+    "model": [
+      52,
+      70
+    ],
+    "by": [
+      53
+    ],
+    "variance": [
+      55
+    ],
+    "inflation": [
+      56
+    ],
+    "factor.": [
+      57
+    ],
+    "method": [
+      59
+    ],
+    "requires": [
+      60
+    ],
+    "no": [
+      61
+    ],
+    "assumption": [
+      62
+    ],
+    "low": [
+      64
+    ],
+    "response": [
+      65
+    ],
+    "probability": [
+      66
+    ],
+    "as": [
+      71
+    ],
+    "previous": [
+      74
+    ],
+    "publication.": [
+      75
+    ],
+    "similarly": [
+      78
+    ],
+    "linear": [
+      84
+    ],
+    "models.": [
+      86
+    ],
+    "also": [
+      89
+    ],
+    "compares": [
+      90
+    ],
+    "accuracy": [
+      92
+    ],
+    "some": [
+      94
+    ],
+    "existing": [
+      95
+    ],
+    "sample-size": [
+      96
+    ],
+    "software": [
+      97
+    ],
+    "with": [
+      101
+    ],
+    "computer": [
+      102
+    ],
+    "power": [
+      103
+    ],
+    "simulations.": [
+      104
+    ],
+    "An": [
+      105
+    ],
+    "example": [
+      106
+    ],
+    "illustrates": [
+      107
+    ],
+    "methods.": [
+      109
+    ],
+    "©": [
+      110
+    ],
+    "1998": [
+      111
+    ],
+    "John": [
+      112
+    ],
+    "Wiley": [
+      113
+    ],
+    "&": [
+      114
+    ],
+    "Sons,": [
+      115
+    ],
+    "Ltd.": [
+      116
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2155048419",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 71
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 70
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 60
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 84
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 66
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 55
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 49
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 46
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 61
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 65
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 71
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 43
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 59
+    }
+  ],
+  "updated_date": "2025-06-17T16:42:17.976200",
+  "created_date": "2016-06-24"
+}

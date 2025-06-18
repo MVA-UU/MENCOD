@@ -1,0 +1,1744 @@
+{
+  "id": "https://openalex.org/W2991933061",
+  "doi": "https://doi.org/10.1242/jeb.209346",
+  "title": "Tissue specific expression of 11BHSD and its effects on plasma corticosterone during the stress response",
+  "display_name": "Tissue specific expression of 11BHSD and its effects on plasma corticosterone during the stress response",
+  "publication_year": 2019,
+  "publication_date": "2019-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2991933061",
+    "doi": "https://doi.org/10.1242/jeb.209346",
+    "mag": "2991933061",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/31796607"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1242/jeb.209346",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S20257348",
+      "display_name": "Journal of Experimental Biology",
+      "issn_l": "0022-0949",
+      "issn": [
+        "0022-0949",
+        "1477-9145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311847",
+      "host_organization_name": "The Company of Biologists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311847"
+      ],
+      "host_organization_lineage_names": [
+        "The Company of Biologists"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://doi.org/10.1242/jeb.209346",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5010730357",
+        "display_name": "Jonathan H. Pérez",
+        "orcid": "https://orcid.org/0000-0003-0449-7782"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I7882870",
+          "display_name": "University of Glasgow",
+          "ror": "https://ror.org/00vtgdb53",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I7882870"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan H. Pérez",
+      "raw_affiliation_strings": [
+        "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA",
+        "The Institute of Biodiversity, Animal Health & Comparative Medicine, University of Glasgow, Glasgow, G12 8QQ, Scotland, UK",
+        "The Roslin Institute, The Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, Scotland, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The Institute of Biodiversity, Animal Health & Comparative Medicine, University of Glasgow, Glasgow, G12 8QQ, Scotland, UK",
+          "institution_ids": [
+            "https://openalex.org/I7882870"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The Roslin Institute, The Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, Scotland, UK",
+          "institution_ids": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069011462",
+        "display_name": "Ryan E. Swanson",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ryan E. Swanson",
+      "raw_affiliation_strings": [
+        "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004772293",
+        "display_name": "Hannah J. Lau",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hannah J. Lau",
+      "raw_affiliation_strings": [
+        "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109235995",
+        "display_name": "Jeffrey Cheah",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeffrey Cheah",
+      "raw_affiliation_strings": [
+        "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016182749",
+        "display_name": "Valerie Bishop",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Valerie R. Bishop",
+      "raw_affiliation_strings": [
+        "The Roslin Institute, The Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, Scotland, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Roslin Institute, The Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, Scotland, UK",
+          "institution_ids": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087076964",
+        "display_name": "Katherine R. S. Snell",
+        "orcid": "https://orcid.org/0000-0003-3720-4579"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210110903",
+          "display_name": "Natural History Museum Aarhus",
+          "ror": "https://ror.org/0166x0j30",
+          "country_code": "DK",
+          "type": "archive",
+          "lineage": [
+            "https://openalex.org/I4210110903"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I124055696",
+          "display_name": "University of Copenhagen",
+          "ror": "https://ror.org/035b05819",
+          "country_code": "DK",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124055696"
+          ]
+        }
+      ],
+      "countries": [
+        "DK"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Katherine R. S. Snell",
+      "raw_affiliation_strings": [
+        "Center for Macroecology, Evolution and Climate, Natural History Museum of Denmark, University of Copenhagen, Universitetsparken 15, DK-2100 Copenhagen, Denmark"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Macroecology, Evolution and Climate, Natural History Museum of Denmark, University of Copenhagen, Universitetsparken 15, DK-2100 Copenhagen, Denmark",
+          "institution_ids": [
+            "https://openalex.org/I4210110903",
+            "https://openalex.org/I124055696"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048519867",
+        "display_name": "Angus Reid",
+        "orcid": "https://orcid.org/0000-0002-5016-9045"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800150677",
+          "display_name": "Western General Hospital",
+          "ror": "https://ror.org/009kr6r15",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1324252669",
+            "https://openalex.org/I2800150677"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Angus M. A. Reid",
+      "raw_affiliation_strings": [
+        "MRC HGU, Institute of Genetics and Molecular Medicine, University of Edinburgh, Western General Hospital, Edinburgh, EH4 2XU, UK",
+        "The Roslin Institute, The Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, Scotland, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Roslin Institute, The Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, Scotland, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209",
+            "https://openalex.org/I133960621"
+          ]
+        },
+        {
+          "raw_affiliation_string": "MRC HGU, Institute of Genetics and Molecular Medicine, University of Edinburgh, Western General Hospital, Edinburgh, EH4 2XU, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209",
+            "https://openalex.org/I2800150677"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043275663",
+        "display_name": "Simone Meddle",
+        "orcid": "https://orcid.org/0000-0002-5629-1332"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I133960621",
+          "display_name": "Roslin Institute",
+          "ror": "https://ror.org/01920rj20",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I2799693246",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Simone L. Meddle",
+      "raw_affiliation_strings": [
+        "The Roslin Institute, The Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, Scotland, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Roslin Institute, The Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, Scotland, UK",
+          "institution_ids": [
+            "https://openalex.org/I133960621",
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5089768478",
+        "display_name": "John C. Wingfield",
+        "orcid": "https://orcid.org/0000-0001-9063-7985"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John C. Wingfield",
+      "raw_affiliation_strings": [
+        "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5075364408",
+        "display_name": "Jesse S. Krause",
+        "orcid": "https://orcid.org/0000-0001-8678-4309"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I84218800",
+          "display_name": "University of California, Davis",
+          "ror": "https://ror.org/05rrcem69",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jesse S. Krause",
+      "raw_affiliation_strings": [
+        "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurobiology, Physiology and Behavior, University of California Davis, One Shields Avenue, Davis, CA 95616, USA",
+          "institution_ids": [
+            "https://openalex.org/I84218800"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 7,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.739,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 14,
+  "citation_normalized_percentile": {
+    "value": 0.893801,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 89
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11839",
+    "display_name": "Hormonal Regulation and Hypertension",
+    "score": 0.9997,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2712",
+      "display_name": "Endocrinology, Diabetes and Metabolism"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11077",
+      "display_name": "Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities",
+      "score": 0.9947,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10756",
+      "display_name": "Estrogen and related hormone effects",
+      "score": 0.9926,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/corticosterone",
+      "display_name": "Corticosterone",
+      "score": 0.82105184
+    },
+    {
+      "id": "https://openalex.org/keywords/metyrapone",
+      "display_name": "Metyrapone",
+      "score": 0.45376623
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.84484184
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.83381426
+    },
+    {
+      "id": "https://openalex.org/C2780352252",
+      "wikidata": "https://www.wikidata.org/wiki/Q422543",
+      "display_name": "Corticosterone",
+      "level": 3,
+      "score": 0.82105184
+    },
+    {
+      "id": "https://openalex.org/C2780841215",
+      "wikidata": "https://www.wikidata.org/wiki/Q422549",
+      "display_name": "Glucocorticoid",
+      "level": 2,
+      "score": 0.8177507
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.5863966
+    },
+    {
+      "id": "https://openalex.org/C2780694816",
+      "wikidata": "https://www.wikidata.org/wiki/Q712294",
+      "display_name": "Adrenal gland",
+      "level": 2,
+      "score": 0.545158
+    },
+    {
+      "id": "https://openalex.org/C166075782",
+      "wikidata": "https://www.wikidata.org/wiki/Q171604",
+      "display_name": "11β-hydroxysteroid dehydrogenase type 1",
+      "level": 4,
+      "score": 0.4799388
+    },
+    {
+      "id": "https://openalex.org/C181199279",
+      "wikidata": "https://www.wikidata.org/wiki/Q8047",
+      "display_name": "Enzyme",
+      "level": 2,
+      "score": 0.46227652
+    },
+    {
+      "id": "https://openalex.org/C2780091579",
+      "wikidata": "https://www.wikidata.org/wiki/Q9377",
+      "display_name": "Kidney",
+      "level": 2,
+      "score": 0.45835415
+    },
+    {
+      "id": "https://openalex.org/C2776719974",
+      "wikidata": "https://www.wikidata.org/wiki/Q821641",
+      "display_name": "Metyrapone",
+      "level": 2,
+      "score": 0.45376623
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.4358089
+    },
+    {
+      "id": "https://openalex.org/C2776317432",
+      "wikidata": "https://www.wikidata.org/wiki/Q412547",
+      "display_name": "Dehydrogenase",
+      "level": 3,
+      "score": 0.22417122
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.11021614
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.07090011
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D043205",
+      "descriptor_name": "11-beta-Hydroxysteroid Dehydrogenase Type 1",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D043209",
+      "descriptor_name": "11-beta-Hydroxysteroid Dehydrogenase Type 2",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003345",
+      "descriptor_name": "Corticosterone",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020308",
+      "descriptor_name": "Songbirds",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013312",
+      "descriptor_name": "Stress, Physiological",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D043205",
+      "descriptor_name": "11-beta-Hydroxysteroid Dehydrogenase Type 1",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D043205",
+      "descriptor_name": "11-beta-Hydroxysteroid Dehydrogenase Type 1",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D043209",
+      "descriptor_name": "11-beta-Hydroxysteroid Dehydrogenase Type 2",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D043209",
+      "descriptor_name": "11-beta-Hydroxysteroid Dehydrogenase Type 2",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003345",
+      "descriptor_name": "Corticosterone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020869",
+      "descriptor_name": "Gene Expression Profiling",
+      "qualifier_ui": "Q000662",
+      "qualifier_name": "veterinary",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020869",
+      "descriptor_name": "Gene Expression Profiling",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020308",
+      "descriptor_name": "Songbirds",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013312",
+      "descriptor_name": "Stress, Physiological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1242/jeb.209346",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S20257348",
+        "display_name": "Journal of Experimental Biology",
+        "issn_l": "0022-0949",
+        "issn": [
+          "0022-0949",
+          "1477-9145"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311847",
+        "host_organization_name": "The Company of Biologists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311847"
+        ],
+        "host_organization_lineage_names": [
+          "The Company of Biologists"
+        ],
+        "type": "journal"
+      },
+      "license": "publisher-specific-oa",
+      "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/20.500.11820/fd9c856b-ea94-45f7-93e1-ec325d6a4ed4",
+      "pdf_url": "https://www.research.ed.ac.uk/files/124471515/Tissue_specific_expression_of_11BHSD_and_its_effects_....pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400320",
+        "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I98677209",
+        "host_organization_name": "University of Edinburgh",
+        "host_organization_lineage": [
+          "https://openalex.org/I98677209"
+        ],
+        "host_organization_lineage_names": [
+          "University of Edinburgh"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.pure.ed.ac.uk/ws/files/124471515/Tissue_specific_expression_of_11BHSD_and_its_effects_....pdf",
+      "pdf_url": "https://www.pure.ed.ac.uk/ws/files/124471515/Tissue_specific_expression_of_11BHSD_and_its_effects_....pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400320",
+        "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I98677209",
+        "host_organization_name": "University of Edinburgh",
+        "host_organization_lineage": [
+          "https://openalex.org/I98677209"
+        ],
+        "host_organization_lineage_names": [
+          "University of Edinburgh"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://eprints.gla.ac.uk/204312/7/204312.pdf",
+      "pdf_url": "https://eprints.gla.ac.uk/204312/7/204312.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400411",
+        "display_name": "Enlighten: Publications (The University of Glasgow)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I7882870",
+        "host_organization_name": "University of Glasgow",
+        "host_organization_lineage": [
+          "https://openalex.org/I7882870"
+        ],
+        "host_organization_lineage_names": [
+          "University of Glasgow"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/31796607",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1242/jeb.209346",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S20257348",
+      "display_name": "Journal of Experimental Biology",
+      "issn_l": "0022-0949",
+      "issn": [
+        "0022-0949",
+        "1477-9145"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311847",
+      "host_organization_name": "The Company of Biologists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311847"
+      ],
+      "host_organization_lineage_names": [
+        "The Company of Biologists"
+      ],
+      "type": "journal"
+    },
+    "license": "publisher-specific-oa",
+    "license_id": "https://openalex.org/licenses/publisher-specific-oa",
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation",
+      "award_id": "IOS 1558049"
+    },
+    {
+      "funder": "https://openalex.org/F4320310485",
+      "funder_display_name": "Natur og Univers, Det Frie Forskningsråd",
+      "award_id": "1323-00048B"
+    },
+    {
+      "funder": "https://openalex.org/F4320320943",
+      "funder_display_name": "Danmarks Grundforskningsfond",
+      "award_id": "DNRF96"
+    },
+    {
+      "funder": "https://openalex.org/F4320334629",
+      "funder_display_name": "Biotechnology and Biological Sciences Research Council",
+      "award_id": "BB/P013759/1"
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 42,
+  "referenced_works": [
+    "https://openalex.org/W1543083586",
+    "https://openalex.org/W1969928880",
+    "https://openalex.org/W1978386621",
+    "https://openalex.org/W1986381796",
+    "https://openalex.org/W1992402057",
+    "https://openalex.org/W1992690084",
+    "https://openalex.org/W2006160052",
+    "https://openalex.org/W2009613516",
+    "https://openalex.org/W2009703358",
+    "https://openalex.org/W2012887800",
+    "https://openalex.org/W2014964611",
+    "https://openalex.org/W2029713789",
+    "https://openalex.org/W2030869721",
+    "https://openalex.org/W2037426009",
+    "https://openalex.org/W2043669664",
+    "https://openalex.org/W2046405586",
+    "https://openalex.org/W2062859153",
+    "https://openalex.org/W2063231989",
+    "https://openalex.org/W2079329450",
+    "https://openalex.org/W2089051987",
+    "https://openalex.org/W2098061972",
+    "https://openalex.org/W2121942814",
+    "https://openalex.org/W2132539548",
+    "https://openalex.org/W2133069858",
+    "https://openalex.org/W2138115695",
+    "https://openalex.org/W2138485680",
+    "https://openalex.org/W2148731425",
+    "https://openalex.org/W2150925908",
+    "https://openalex.org/W2151105455",
+    "https://openalex.org/W2152760742",
+    "https://openalex.org/W2164058090",
+    "https://openalex.org/W2169601302",
+    "https://openalex.org/W2207014783",
+    "https://openalex.org/W2253653597",
+    "https://openalex.org/W2444531930",
+    "https://openalex.org/W2611456283",
+    "https://openalex.org/W2766923413",
+    "https://openalex.org/W2767974751",
+    "https://openalex.org/W2793700983",
+    "https://openalex.org/W4230096730",
+    "https://openalex.org/W4242584517",
+    "https://openalex.org/W4319292986"
+  ],
+  "related_works": [
+    "https://openalex.org/W4238085129",
+    "https://openalex.org/W2094758338",
+    "https://openalex.org/W2075855360",
+    "https://openalex.org/W2072520323",
+    "https://openalex.org/W2069404853",
+    "https://openalex.org/W2027759366",
+    "https://openalex.org/W2027061752",
+    "https://openalex.org/W2019701893",
+    "https://openalex.org/W2015965656",
+    "https://openalex.org/W2005372674"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      100
+    ],
+    "hypothalamic-pituitary-adrenal": [
+      1
+    ],
+    "(HPA)": [
+      2
+    ],
+    "axis": [
+      3
+    ],
+    "is": [
+      4,
+      91,
+      105
+    ],
+    "under": [
+      5,
+      92
+    ],
+    "complex": [
+      6
+    ],
+    "regulatory": [
+      7
+    ],
+    "control": [
+      8,
+      35,
+      94
+    ],
+    "at": [
+      9
+    ],
+    "multiple": [
+      10
+    ],
+    "levels.": [
+      11
+    ],
+    "Enzymatic": [
+      12
+    ],
+    "regulation": [
+      13,
+      128
+    ],
+    "plays": [
+      14
+    ],
+    "an": [
+      15
+    ],
+    "important": [
+      16
+    ],
+    "role": [
+      17
+    ],
+    "in": [
+      18,
+      108,
+      149,
+      167,
+      199
+    ],
+    "both": [
+      19,
+      121,
+      192
+    ],
+    "circulating": [
+      20,
+      223
+    ],
+    "levels": [
+      21,
+      189,
+      225
+    ],
+    "and": [
+      22,
+      123,
+      152,
+      171,
+      176,
+      194,
+      241
+    ],
+    "target": [
+      23
+    ],
+    "tissue": [
+      24,
+      161
+    ],
+    "exposure.": [
+      25
+    ],
+    "Three": [
+      26
+    ],
+    "key": [
+      27
+    ],
+    "enzyme": [
+      28
+    ],
+    "pathways": [
+      29
+    ],
+    "are": [
+      30
+    ],
+    "responsible": [
+      31,
+      55
+    ],
+    "for": [
+      32,
+      56
+    ],
+    "the": [
+      33,
+      57,
+      93,
+      118,
+      130,
+      168,
+      209,
+      215,
+      235,
+      239
+    ],
+    "immediate": [
+      34
+    ],
+    "of": [
+      36,
+      41,
+      60,
+      75,
+      84,
+      89,
+      95,
+      102,
+      120,
+      125,
+      129,
+      136,
+      180,
+      202,
+      214,
+      238
+    ],
+    "glucocorticoids.": [
+      37,
+      66,
+      86
+    ],
+    "De": [
+      38
+    ],
+    "novo": [
+      39
+    ],
+    "synthesis": [
+      40
+    ],
+    "glucocorticoid": [
+      42,
+      181,
+      224
+    ],
+    "from": [
+      43,
+      77
+    ],
+    "cholesterol": [
+      44
+    ],
+    "involves": [
+      45
+    ],
+    "a": [
+      46,
+      81,
+      219
+    ],
+    "multistep": [
+      47
+    ],
+    "enzymatic": [
+      48
+    ],
+    "cascade.": [
+      49
+    ],
+    "This": [
+      50
+    ],
+    "cascade": [
+      51
+    ],
+    "terminates": [
+      52
+    ],
+    "with": [
+      53,
+      173
+    ],
+    "11β-hydroxylase,": [
+      54
+    ],
+    "final": [
+      58
+    ],
+    "conversion": [
+      59
+    ],
+    "11": [
+      61
+    ],
+    "deoxy-": [
+      62
+    ],
+    "precursors": [
+      63
+    ],
+    "into": [
+      64
+    ],
+    "active": [
+      65,
+      85
+    ],
+    "Additionally,": [
+      67,
+      139
+    ],
+    "11β-hydroxysteroid": [
+      68
+    ],
+    "dehydrogenase": [
+      69
+    ],
+    "type": [
+      70
+    ],
+    "1": [
+      71
+    ],
+    "(11β-HSD1)": [
+      72
+    ],
+    "controls": [
+      73
+    ],
+    "regeneration": [
+      74
+    ],
+    "glucocorticoids": [
+      76,
+      90,
+      126
+    ],
+    "inactive": [
+      78
+    ],
+    "metabolites,": [
+      79
+    ],
+    "providing": [
+      80
+    ],
+    "secondary": [
+      82
+    ],
+    "source": [
+      83
+    ],
+    "Localized": [
+      87
+    ],
+    "inactivation": [
+      88
+    ],
+    "Type": [
+      96
+    ],
+    "2": [
+      97
+    ],
+    "11β-HSD": [
+      98,
+      142,
+      216,
+      240
+    ],
+    "(11β-HSD2).": [
+      99
+    ],
+    "function": [
+      101
+    ],
+    "these": [
+      103
+    ],
+    "enzymes": [
+      104
+    ],
+    "largely": [
+      106
+    ],
+    "unexplored": [
+      107
+    ],
+    "wild": [
+      109
+    ],
+    "species,": [
+      110
+    ],
+    "particularly": [
+      111
+    ],
+    "songbirds.": [
+      112
+    ],
+    "Here": [
+      113
+    ],
+    "we": [
+      114,
+      140
+    ],
+    "aim": [
+      115,
+      232
+    ],
+    "to": [
+      116,
+      127,
+      187,
+      233
+    ],
+    "explore": [
+      117
+    ],
+    "contribution": [
+      119
+    ],
+    "clearance": [
+      122
+    ],
+    "generation": [
+      124,
+      182
+    ],
+    "hormonal": [
+      131
+    ],
+    "stress": [
+      132,
+      210
+    ],
+    "response": [
+      133
+    ],
+    "via": [
+      134
+    ],
+    "use": [
+      135
+    ],
+    "pharmacological": [
+      137
+    ],
+    "antagonists.": [
+      138
+    ],
+    "mapped": [
+      141
+    ],
+    "gene": [
+      143
+    ],
+    "expression.": [
+      144,
+      178
+    ],
+    "We": [
+      145
+    ],
+    "found": [
+      146,
+      186
+    ],
+    "11β-HSD1": [
+      147
+    ],
+    "primarily": [
+      148
+    ],
+    "liver,": [
+      150
+    ],
+    "kidney,": [
+      151
+    ],
+    "adrenal": [
+      153,
+      169
+    ],
+    "glands": [
+      154,
+      170
+    ],
+    "though": [
+      155
+    ],
+    "it": [
+      156
+    ],
+    "was": [
+      157,
+      164,
+      185
+    ],
+    "detectable": [
+      158
+    ],
+    "across": [
+      159
+    ],
+    "all": [
+      160
+    ],
+    "types.": [
+      162
+    ],
+    "11β-HSD2": [
+      163
+    ],
+    "predominately": [
+      165
+    ],
+    "expressed": [
+      166
+    ],
+    "kidney": [
+      172
+    ],
+    "moderate": [
+      174
+    ],
+    "gonadal": [
+      175
+    ],
+    "liver": [
+      177
+    ],
+    "Inhibition": [
+      179
+    ],
+    "by": [
+      183
+    ],
+    "metyrapone": [
+      184
+    ],
+    "decrease": [
+      188
+    ],
+    "peripherally,": [
+      190
+    ],
+    "while": [
+      191
+    ],
+    "peripheral": [
+      193,
+      212
+    ],
+    "central": [
+      195,
+      227
+    ],
+    "DETC": [
+      196
+    ],
+    "administration": [
+      197
+    ],
+    "resulted": [
+      198
+    ],
+    "elevated": [
+      200
+    ],
+    "concentrations": [
+      201
+    ],
+    "corticosterone.": [
+      203
+    ],
+    "These": [
+      204
+    ],
+    "data": [
+      205
+    ],
+    "suggest": [
+      206
+    ],
+    "that": [
+      207
+    ],
+    "during": [
+      208
+    ],
+    "response,": [
+      211
+    ],
+    "antagonism": [
+      213
+    ],
+    "system": [
+      217
+    ],
+    "has": [
+      218
+    ],
+    "greater": [
+      220
+    ],
+    "impact": [
+      221
+    ],
+    "on": [
+      222
+    ],
+    "than": [
+      226
+    ],
+    "control.": [
+      228
+    ],
+    "Further": [
+      229
+    ],
+    "studies": [
+      230
+    ],
+    "show": [
+      231
+    ],
+    "elucidate": [
+      234
+    ],
+    "respective": [
+      236
+    ],
+    "roles": [
+      237
+    ],
+    "11β-hydroxylase": [
+      242
+    ],
+    "enzymes.": [
+      243
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2991933061",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-06-17T03:20:31.039148",
+  "created_date": "2019-12-13"
+}

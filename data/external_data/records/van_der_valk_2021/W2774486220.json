@@ -1,0 +1,1045 @@
+{
+  "id": "https://openalex.org/W2774486220",
+  "doi": "https://doi.org/10.18637/jss.v082.i13",
+  "title": "<b>lmerTest</b> Package: Tests in Linear Mixed Effects Models",
+  "display_name": "<b>lmerTest</b> Package: Tests in Linear Mixed Effects Models",
+  "publication_year": 2017,
+  "publication_date": "2017-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2774486220",
+    "doi": "https://doi.org/10.18637/jss.v082.i13",
+    "mag": "2774486220"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.18637/jss.v082.i13",
+    "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v082i13/v82i13.pdf",
+    "source": {
+      "id": "https://openalex.org/S167961193",
+      "display_name": "Journal of Statistical Software",
+      "issn_l": "1548-7660",
+      "issn": [
+        "1548-7660"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315759",
+      "host_organization_name": "Foundation for Open Access Statistics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315759"
+      ],
+      "host_organization_lineage_names": [
+        "Foundation for Open Access Statistics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://www.jstatsoft.org/index.php/jss/article/view/v082i13/v82i13.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5070348662",
+        "display_name": "Alexandra Kuznetsova",
+        "orcid": "https://orcid.org/0000-0001-6458-2597"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I96673099",
+          "display_name": "Technical University of Denmark",
+          "ror": "https://ror.org/04qtj9h94",
+          "country_code": "DK",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I96673099"
+          ]
+        }
+      ],
+      "countries": [
+        "DK"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alexandra Kuznetsova",
+      "raw_affiliation_strings": [
+        "Technical University of Denmark"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Technical University of Denmark",
+          "institution_ids": [
+            "https://openalex.org/I96673099"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069382830",
+        "display_name": "Per B. Brockhoff",
+        "orcid": "https://orcid.org/0000-0002-1432-7229"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I96673099",
+          "display_name": "Technical University of Denmark",
+          "ror": "https://ror.org/04qtj9h94",
+          "country_code": "DK",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I96673099"
+          ]
+        }
+      ],
+      "countries": [
+        "DK"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Per B. Brockhoff",
+      "raw_affiliation_strings": [
+        "Technical University of Denmark"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Technical University of Denmark",
+          "institution_ids": [
+            "https://openalex.org/I96673099"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5086458689",
+        "display_name": "Rune Haubo Bojesen Christensen",
+        "orcid": "https://orcid.org/0000-0002-4494-3399"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I96673099",
+          "display_name": "Technical University of Denmark",
+          "ror": "https://ror.org/04qtj9h94",
+          "country_code": "DK",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I96673099"
+          ]
+        }
+      ],
+      "countries": [
+        "DK"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rune H. B. Christensen",
+      "raw_affiliation_strings": [
+        "Technical University of Denmark Christensen"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Technical University of Denmark Christensen",
+          "institution_ids": [
+            "https://openalex.org/I96673099"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 0,
+    "currency": "USD",
+    "value_usd": 0
+  },
+  "apc_paid": null,
+  "fwci": 863.718,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 18463,
+  "citation_normalized_percentile": {
+    "value": 0.99982,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "82",
+    "issue": "13",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10243",
+    "display_name": "Statistical Methods and Bayesian Inference",
+    "score": 0.7583,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.7583,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11871",
+      "display_name": "Advanced Statistical Methods and Models",
+      "score": 0.6996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13141",
+      "display_name": "Statistical Methods and Applications",
+      "score": 0.6622,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/r-package",
+      "display_name": "R package",
+      "score": 0.80088794
+    },
+    {
+      "id": "https://openalex.org/keywords/mixed-model",
+      "display_name": "Mixed model",
+      "score": 0.6903858
+    },
+    {
+      "id": "https://openalex.org/keywords/score",
+      "display_name": "Score",
+      "score": 0.41177207
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2984074130",
+      "wikidata": "https://www.wikidata.org/wiki/Q73539779",
+      "display_name": "R package",
+      "level": 2,
+      "score": 0.80088794
+    },
+    {
+      "id": "https://openalex.org/C16012445",
+      "wikidata": "https://www.wikidata.org/wiki/Q1501135",
+      "display_name": "Mixed model",
+      "level": 2,
+      "score": 0.6903858
+    },
+    {
+      "id": "https://openalex.org/C208081375",
+      "wikidata": "https://www.wikidata.org/wiki/Q274502",
+      "display_name": "Degrees of freedom (physics and chemistry)",
+      "level": 2,
+      "score": 0.6016418
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.49627
+    },
+    {
+      "id": "https://openalex.org/C99476002",
+      "wikidata": "https://www.wikidata.org/wiki/Q42297",
+      "display_name": "Analysis of variance",
+      "level": 2,
+      "score": 0.4945452
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.48840827
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.46509588
+    },
+    {
+      "id": "https://openalex.org/C168743327",
+      "wikidata": "https://www.wikidata.org/wiki/Q1826427",
+      "display_name": "Random effects model",
+      "level": 3,
+      "score": 0.44235373
+    },
+    {
+      "id": "https://openalex.org/C153720581",
+      "wikidata": "https://www.wikidata.org/wiki/Q5532490",
+      "display_name": "Generalized linear mixed model",
+      "level": 2,
+      "score": 0.42633164
+    },
+    {
+      "id": "https://openalex.org/C14036430",
+      "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+      "display_name": "Function (biology)",
+      "level": 2,
+      "score": 0.42408168
+    },
+    {
+      "id": "https://openalex.org/C65660741",
+      "wikidata": "https://www.wikidata.org/wiki/Q3952743",
+      "display_name": "Score",
+      "level": 2,
+      "score": 0.41177207
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.1045005
+    },
+    {
+      "id": "https://openalex.org/C95190672",
+      "wikidata": "https://www.wikidata.org/wiki/Q815382",
+      "display_name": "Meta-analysis",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C78458016",
+      "wikidata": "https://www.wikidata.org/wiki/Q840400",
+      "display_name": "Evolutionary biology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.18637/jss.v082.i13",
+      "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v082i13/v82i13.pdf",
+      "source": {
+        "id": "https://openalex.org/S167961193",
+        "display_name": "Journal of Statistical Software",
+        "issn_l": "1548-7660",
+        "issn": [
+          "1548-7660"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315759",
+        "host_organization_name": "Foundation for Open Access Statistics",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315759"
+        ],
+        "host_organization_lineage_names": [
+          "Foundation for Open Access Statistics"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/35faf65b90e548d0b3659692905cd861",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://orbit.dtu.dk/en/publications/2e6e11c6-6a44-43df-b809-d96b897d9bf2",
+      "pdf_url": "https://orbit.dtu.dk/files/140635100/lmerTestJStatSoft2017.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400705",
+        "display_name": "Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I96673099",
+        "host_organization_name": "Technical University of Denmark",
+        "host_organization_lineage": [
+          "https://openalex.org/I96673099"
+        ],
+        "host_organization_lineage_names": [
+          "Technical University of Denmark"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://backend.orbit.dtu.dk/ws/files/140635100/lmerTestJStatSoft2017.pdf",
+      "pdf_url": "https://backend.orbit.dtu.dk/ws/files/140635100/lmerTestJStatSoft2017.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400705",
+        "display_name": "Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I96673099",
+        "host_organization_name": "Technical University of Denmark",
+        "host_organization_lineage": [
+          "https://openalex.org/I96673099"
+        ],
+        "host_organization_lineage_names": [
+          "Technical University of Denmark"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.18637/jss.v082.i13",
+    "pdf_url": "https://www.jstatsoft.org/index.php/jss/article/view/v082i13/v82i13.pdf",
+    "source": {
+      "id": "https://openalex.org/S167961193",
+      "display_name": "Journal of Statistical Software",
+      "issn_l": "1548-7660",
+      "issn": [
+        "1548-7660"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315759",
+      "host_organization_name": "Foundation for Open Access Statistics",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315759"
+      ],
+      "host_organization_lineage_names": [
+        "Foundation for Open Access Statistics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.81,
+      "id": "https://metadata.un.org/sdg/16",
+      "display_name": "Peace, justice, and strong institutions"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 24,
+  "referenced_works": [
+    "https://openalex.org/W1587026990",
+    "https://openalex.org/W1592039881",
+    "https://openalex.org/W1671063336",
+    "https://openalex.org/W16776048",
+    "https://openalex.org/W1887050506",
+    "https://openalex.org/W1951724000",
+    "https://openalex.org/W1985697998",
+    "https://openalex.org/W2037860373",
+    "https://openalex.org/W2071527134",
+    "https://openalex.org/W2084449649",
+    "https://openalex.org/W2103965589",
+    "https://openalex.org/W2140628770",
+    "https://openalex.org/W2254509181",
+    "https://openalex.org/W2324191961",
+    "https://openalex.org/W2413573154",
+    "https://openalex.org/W2500171033",
+    "https://openalex.org/W2582743722",
+    "https://openalex.org/W260994251",
+    "https://openalex.org/W4238629164",
+    "https://openalex.org/W4299578628",
+    "https://openalex.org/W4299625508",
+    "https://openalex.org/W4388319941",
+    "https://openalex.org/W4399505140",
+    "https://openalex.org/W4399640269"
+  ],
+  "related_works": [
+    "https://openalex.org/W4289422681",
+    "https://openalex.org/W4239710992",
+    "https://openalex.org/W2953058310",
+    "https://openalex.org/W2895736713",
+    "https://openalex.org/W225107685",
+    "https://openalex.org/W2082190293",
+    "https://openalex.org/W2021312236",
+    "https://openalex.org/W1988055263",
+    "https://openalex.org/W1551599973",
+    "https://openalex.org/W1516288603"
+  ],
+  "abstract_inverted_index": {
+    "One": [
+      0
+    ],
+    "of": [
+      1,
+      7,
+      13,
+      43,
+      72,
+      86,
+      113,
+      140,
+      149
+    ],
+    "the": [
+      2,
+      8,
+      14,
+      26,
+      40,
+      44,
+      49,
+      66,
+      75,
+      84,
+      98,
+      103,
+      107,
+      117,
+      121,
+      163
+    ],
+    "frequent": [
+      3
+    ],
+    "questions": [
+      4
+    ],
+    "by": [
+      5,
+      34,
+      47,
+      54,
+      162
+    ],
+    "users": [
+      6
+    ],
+    "mixed": [
+      9,
+      127
+    ],
+    "model": [
+      10,
+      128
+    ],
+    "function": [
+      11,
+      119
+    ],
+    "lmer": [
+      12
+    ],
+    "lme4": [
+      15,
+      45
+    ],
+    "package": [
+      16,
+      38,
+      164
+    ],
+    "has": [
+      17
+    ],
+    "been:": [
+      18
+    ],
+    "How": [
+      19
+    ],
+    "can": [
+      20
+    ],
+    "I": [
+      21,
+      88
+    ],
+    "get": [
+      22
+    ],
+    "p": [
+      23,
+      56
+    ],
+    "values": [
+      24,
+      57
+    ],
+    "for": [
+      25,
+      31,
+      58,
+      60,
+      69,
+      74,
+      110
+    ],
+    "F": [
+      27,
+      78
+    ],
+    "and": [
+      28,
+      51,
+      77,
+      146,
+      152
+    ],
+    "t": [
+      29,
+      76
+    ],
+    "tests": [
+      30,
+      59,
+      155
+    ],
+    "objects": [
+      32
+    ],
+    "returned": [
+      33
+    ],
+    "lmer?": [
+      35
+    ],
+    "The": [
+      36
+    ],
+    "lmerTest": [
+      37
+    ],
+    "extends": [
+      39
+    ],
+    "'lmerMod'": [
+      41
+    ],
+    "class": [
+      42
+    ],
+    "package,": [
+      46
+    ],
+    "overloading": [
+      48
+    ],
+    "anova": [
+      50,
+      104
+    ],
+    "summary": [
+      52,
+      99
+    ],
+    "functions": [
+      53
+    ],
+    "providing": [
+      55
+    ],
+    "fixed": [
+      61
+    ],
+    "effects.": [
+      62
+    ],
+    "We": [
+      63,
+      80
+    ],
+    "have": [
+      64,
+      81
+    ],
+    "implemented": [
+      65,
+      83
+    ],
+    "Satterthwaite's": [
+      67
+    ],
+    "method": [
+      68
+    ],
+    "approximating": [
+      70
+    ],
+    "degrees": [
+      71,
+      112
+    ],
+    "freedom": [
+      73,
+      114
+    ],
+    "tests.": [
+      79
+    ],
+    "also": [
+      82,
+      96
+    ],
+    "construction": [
+      85
+    ],
+    "Type": [
+      87
+    ],
+    "-": [
+      89,
+      143
+    ],
+    "III": [
+      90
+    ],
+    "ANOVA": [
+      91
+    ],
+    "tables.": [
+      92
+    ],
+    "Furthermore,": [
+      93
+    ],
+    "one": [
+      94
+    ],
+    "may": [
+      95
+    ],
+    "obtain": [
+      97
+    ],
+    "as": [
+      100,
+      102,
+      132,
+      165
+    ],
+    "well": [
+      101
+    ],
+    "table": [
+      105
+    ],
+    "using": [
+      106
+    ],
+    "Kenward-Roger": [
+      108
+    ],
+    "approximation": [
+      109
+    ],
+    "denominator": [
+      111
+    ],
+    "(based": [
+      115
+    ],
+    "on": [
+      116
+    ],
+    "KRmodcomp": [
+      118
+    ],
+    "from": [
+      120
+    ],
+    "pbkrtest": [
+      122
+    ],
+    "package).": [
+      123
+    ],
+    "Some": [
+      124
+    ],
+    "other": [
+      125
+    ],
+    "convenient": [
+      126
+    ],
+    "analysis": [
+      129
+    ],
+    "tools": [
+      130
+    ],
+    "such": [
+      131
+    ],
+    "a": [
+      133
+    ],
+    "step": [
+      134
+    ],
+    "method,": [
+      135
+    ],
+    "that": [
+      136
+    ],
+    "performs": [
+      137
+    ],
+    "backward": [
+      138
+    ],
+    "elimination": [
+      139
+    ],
+    "nonsignificant": [
+      141
+    ],
+    "effects": [
+      142
+    ],
+    "both": [
+      144
+    ],
+    "random": [
+      145
+    ],
+    "fixed,": [
+      147
+    ],
+    "calculation": [
+      148
+    ],
+    "population": [
+      150
+    ],
+    "means": [
+      151
+    ],
+    "multiple": [
+      153
+    ],
+    "comparison": [
+      154
+    ],
+    "together": [
+      156
+    ],
+    "with": [
+      157
+    ],
+    "plot": [
+      158
+    ],
+    "facilities": [
+      159
+    ],
+    "are": [
+      160
+    ],
+    "provided": [
+      161
+    ],
+    "well.": [
+      166
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2774486220",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1149
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3125
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3085
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2809
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2854
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2250
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1576
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 830
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 413
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 242
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 37
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-12T21:52:28.126883",
+  "created_date": "2017-12-22"
+}

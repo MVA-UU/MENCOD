@@ -1,0 +1,1472 @@
+{
+  "id": "https://openalex.org/W2507387536",
+  "doi": "https://doi.org/10.1038/nn.4361",
+  "title": "The Human Connectome Project's neuroimaging approach",
+  "display_name": "The Human Connectome Project's neuroimaging approach",
+  "publication_year": 2016,
+  "publication_date": "2016-08-26",
+  "ids": {
+    "openalex": "https://openalex.org/W2507387536",
+    "doi": "https://doi.org/10.1038/nn.4361",
+    "mag": "2507387536",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27571196",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/6172654"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1038/nn.4361",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2298632",
+      "display_name": "Nature Neuroscience",
+      "issn_l": "1097-6256",
+      "issn": [
+        "1097-6256",
+        "1546-1726"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://nottingham-repository.worktribe.com/file/804345/1/GlasserNN.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5002626271",
+        "display_name": "Matthew F. Glasser",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Matthew F Glasser",
+      "raw_affiliation_strings": [
+        "Department of Neuroscience, Washington University Medical School, St. Louis, Missouri, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neuroscience, Washington University Medical School, St. Louis, Missouri, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5066553010",
+        "display_name": "Stephen M. Smith",
+        "orcid": "https://orcid.org/0000-0001-8166-069X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210101881",
+          "display_name": "Wellcome Centre for Integrative Neuroimaging",
+          "ror": "https://ror.org/0172mzb45",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I87048295"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802742124",
+          "display_name": "John Radcliffe Hospital",
+          "ror": "https://ror.org/0080acb59",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802742124",
+            "https://openalex.org/I4210127145",
+            "https://openalex.org/I4210147381"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stephen M Smith",
+      "raw_affiliation_strings": [
+        "Nuffield Department of Clinical Neurosciences, FMRIB Centre, John Radcliffe Hospital, University of Oxford, Oxford, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuffield Department of Clinical Neurosciences, FMRIB Centre, John Radcliffe Hospital, University of Oxford, Oxford, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I2802742124",
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103566849",
+        "display_name": "Daniel S. Marcus",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Daniel S Marcus",
+      "raw_affiliation_strings": [
+        "Department of Radiology, Washington University Medical School, St. Louis, Missouri, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Radiology, Washington University Medical School, St. Louis, Missouri, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067061176",
+        "display_name": "Jesper Andersson",
+        "orcid": "https://orcid.org/0000-0003-0290-839X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802742124",
+          "display_name": "John Radcliffe Hospital",
+          "ror": "https://ror.org/0080acb59",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802742124",
+            "https://openalex.org/I4210127145",
+            "https://openalex.org/I4210147381"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210101881",
+          "display_name": "Wellcome Centre for Integrative Neuroimaging",
+          "ror": "https://ror.org/0172mzb45",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I87048295"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jesper L R Andersson",
+      "raw_affiliation_strings": [
+        "Nuffield Department of Clinical Neurosciences, FMRIB Centre, John Radcliffe Hospital, University of Oxford, Oxford, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuffield Department of Clinical Neurosciences, FMRIB Centre, John Radcliffe Hospital, University of Oxford, Oxford, UK",
+          "institution_ids": [
+            "https://openalex.org/I2802742124",
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5054752703",
+        "display_name": "Edward J. Auerbach",
+        "orcid": "https://orcid.org/0000-0003-4553-1545"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158702",
+          "display_name": "Resonance Research (United States)",
+          "ror": "https://ror.org/05t871q54",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210158702"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Edward J Auerbach",
+      "raw_affiliation_strings": [
+        "Center for Magnetic Resonance Research (CMRR), University of Minnesota, Minneapolis, Minnesota, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Magnetic Resonance Research (CMRR), University of Minnesota, Minneapolis, Minnesota, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210158702",
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032723566",
+        "display_name": "Timothy E.J. Behrens",
+        "orcid": "https://orcid.org/0000-0003-0048-1177"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802742124",
+          "display_name": "John Radcliffe Hospital",
+          "ror": "https://ror.org/0080acb59",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802742124",
+            "https://openalex.org/I4210127145",
+            "https://openalex.org/I4210147381"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210101881",
+          "display_name": "Wellcome Centre for Integrative Neuroimaging",
+          "ror": "https://ror.org/0172mzb45",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I87048295"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Timothy E J Behrens",
+      "raw_affiliation_strings": [
+        "Nuffield Department of Clinical Neurosciences, FMRIB Centre, John Radcliffe Hospital, University of Oxford, Oxford, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuffield Department of Clinical Neurosciences, FMRIB Centre, John Radcliffe Hospital, University of Oxford, Oxford, UK",
+          "institution_ids": [
+            "https://openalex.org/I2802742124",
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067550480",
+        "display_name": "Timothy S. Coalson",
+        "orcid": "https://orcid.org/0000-0002-2105-7896"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Timothy S Coalson",
+      "raw_affiliation_strings": [
+        "Department of Neuroscience, Washington University Medical School, St. Louis, Missouri, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neuroscience, Washington University Medical School, St. Louis, Missouri, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034737251",
+        "display_name": "Michael P. Harms",
+        "orcid": "https://orcid.org/0000-0001-7945-036X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael P Harms",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, Washington University Medical School, St. Louis, Missouri, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, Washington University Medical School, St. Louis, Missouri, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004220534",
+        "display_name": "Mark Jenkinson",
+        "orcid": "https://orcid.org/0000-0001-6043-0166"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802742124",
+          "display_name": "John Radcliffe Hospital",
+          "ror": "https://ror.org/0080acb59",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802742124",
+            "https://openalex.org/I4210127145",
+            "https://openalex.org/I4210147381"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210101881",
+          "display_name": "Wellcome Centre for Integrative Neuroimaging",
+          "ror": "https://ror.org/0172mzb45",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I87048295"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mark Jenkinson",
+      "raw_affiliation_strings": [
+        "Nuffield Department of Clinical Neurosciences, FMRIB Centre, John Radcliffe Hospital, University of Oxford, Oxford, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuffield Department of Clinical Neurosciences, FMRIB Centre, John Radcliffe Hospital, University of Oxford, Oxford, UK",
+          "institution_ids": [
+            "https://openalex.org/I2802742124",
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5070460781",
+        "display_name": "Steen Moeller",
+        "orcid": "https://orcid.org/0000-0003-1698-7260"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158702",
+          "display_name": "Resonance Research (United States)",
+          "ror": "https://ror.org/05t871q54",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210158702"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steen Moeller",
+      "raw_affiliation_strings": [
+        "Center for Magnetic Resonance Research (CMRR), University of Minnesota, Minneapolis, Minnesota, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Magnetic Resonance Research (CMRR), University of Minnesota, Minneapolis, Minnesota, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210158702",
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068281609",
+        "display_name": "Emma C. Robinson",
+        "orcid": "https://orcid.org/0000-0002-7886-3426"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I47508984",
+          "display_name": "Imperial College London",
+          "ror": "https://ror.org/041kmwe10",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I47508984"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Emma C Robinson",
+      "raw_affiliation_strings": [
+        "Department of Computing, Imperial College London, London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computing, Imperial College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I47508984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052140351",
+        "display_name": "Stamatios N. Sotiropoulos",
+        "orcid": "https://orcid.org/0000-0003-4735-5776"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802742124",
+          "display_name": "John Radcliffe Hospital",
+          "ror": "https://ror.org/0080acb59",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2802742124",
+            "https://openalex.org/I4210127145",
+            "https://openalex.org/I4210147381"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210101881",
+          "display_name": "Wellcome Centre for Integrative Neuroimaging",
+          "ror": "https://ror.org/0172mzb45",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881",
+            "https://openalex.org/I87048295"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stamatios N Sotiropoulos",
+      "raw_affiliation_strings": [
+        "Nuffield Department of Clinical Neurosciences, FMRIB Centre, John Radcliffe Hospital, University of Oxford, Oxford, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nuffield Department of Clinical Neurosciences, FMRIB Centre, John Radcliffe Hospital, University of Oxford, Oxford, UK",
+          "institution_ids": [
+            "https://openalex.org/I2802742124",
+            "https://openalex.org/I40120149",
+            "https://openalex.org/I4210101881"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036859960",
+        "display_name": "Junqian Xu",
+        "orcid": "https://orcid.org/0000-0001-8438-2066"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98704320",
+          "display_name": "Icahn School of Medicine at Mount Sinai",
+          "ror": "https://ror.org/04a9tmd77",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1320796813",
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Junqian Xu",
+      "raw_affiliation_strings": [
+        "7Translational and Molecular Imaging Institute, Icahn School of Medicine at Mount Sinai, New York, New York, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "7Translational and Molecular Imaging Institute, Icahn School of Medicine at Mount Sinai, New York, New York, USA",
+          "institution_ids": [
+            "https://openalex.org/I98704320"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034283066",
+        "display_name": "Essa Yacoub",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158702",
+          "display_name": "Resonance Research (United States)",
+          "ror": "https://ror.org/05t871q54",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210158702"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Essa Yacoub",
+      "raw_affiliation_strings": [
+        "Center for Magnetic Resonance Research (CMRR), University of Minnesota, Minneapolis, Minnesota, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Magnetic Resonance Research (CMRR), University of Minnesota, Minneapolis, Minnesota, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210158702",
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5054800712",
+        "display_name": "Kâmil Uğurbil",
+        "orcid": "https://orcid.org/0000-0002-8475-9334"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210158702",
+          "display_name": "Resonance Research (United States)",
+          "ror": "https://ror.org/05t871q54",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210158702"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kamil Ugurbil",
+      "raw_affiliation_strings": [
+        "Center for Magnetic Resonance Research (CMRR), University of Minnesota, Minneapolis, Minnesota, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Magnetic Resonance Research (CMRR), University of Minnesota, Minneapolis, Minnesota, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210158702",
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5048953880",
+        "display_name": "David C. Van Essen",
+        "orcid": "https://orcid.org/0000-0001-7044-4721"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David C Van Essen",
+      "raw_affiliation_strings": [
+        "Department of Neuroscience, Washington University Medical School, St. Louis, Missouri, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neuroscience, Washington University Medical School, St. Louis, Missouri, USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 8,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5002626271"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I204465549"
+  ],
+  "apc_list": {
+    "value": 9750,
+    "currency": "EUR",
+    "value_usd": 11690
+  },
+  "apc_paid": null,
+  "fwci": 10.5,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 1034,
+  "citation_normalized_percentile": {
+    "value": 0.998488,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "19",
+    "issue": "9",
+    "first_page": "1175",
+    "last_page": "1187"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10241",
+    "display_name": "Functional Brain Connectivity Studies",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2805",
+      "display_name": "Cognitive Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10241",
+      "display_name": "Functional Brain Connectivity Studies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11304",
+      "display_name": "Advanced Neuroimaging Techniques and Applications",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10378",
+      "display_name": "Advanced MRI Techniques and Applications",
+      "score": 0.999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/human-connectome-project",
+      "display_name": "Human Connectome Project",
+      "score": 0.9083487
+    },
+    {
+      "id": "https://openalex.org/keywords/data-sharing",
+      "display_name": "Data Sharing",
+      "score": 0.55113447
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C97820695",
+      "wikidata": "https://www.wikidata.org/wiki/Q387749",
+      "display_name": "Human Connectome Project",
+      "level": 3,
+      "score": 0.9083487
+    },
+    {
+      "id": "https://openalex.org/C58693492",
+      "wikidata": "https://www.wikidata.org/wiki/Q551875",
+      "display_name": "Neuroimaging",
+      "level": 2,
+      "score": 0.7983041
+    },
+    {
+      "id": "https://openalex.org/C45715564",
+      "wikidata": "https://www.wikidata.org/wiki/Q1292103",
+      "display_name": "Connectome",
+      "level": 3,
+      "score": 0.69171643
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6185901
+    },
+    {
+      "id": "https://openalex.org/C2779965156",
+      "wikidata": "https://www.wikidata.org/wiki/Q5227350",
+      "display_name": "Data sharing",
+      "level": 3,
+      "score": 0.55113447
+    },
+    {
+      "id": "https://openalex.org/C2522767166",
+      "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+      "display_name": "Data science",
+      "level": 1,
+      "score": 0.51945084
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.44413176
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.36202264
+    },
+    {
+      "id": "https://openalex.org/C188147891",
+      "wikidata": "https://www.wikidata.org/wiki/Q147638",
+      "display_name": "Cognitive science",
+      "level": 1,
+      "score": 0.3323487
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.25310722
+    },
+    {
+      "id": "https://openalex.org/C3018011982",
+      "wikidata": "https://www.wikidata.org/wiki/Q7316120",
+      "display_name": "Functional connectivity",
+      "level": 2,
+      "score": 0.17369968
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.10843891
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000000981",
+      "qualifier_name": "diagnostic imaging",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D063132",
+      "descriptor_name": "Connectome",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D059906",
+      "descriptor_name": "Neuroimaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 6,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1038/nn.4361",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2298632",
+        "display_name": "Nature Neuroscience",
+        "issn_l": "1097-6256",
+        "issn": [
+          "1097-6256",
+          "1546-1726"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://nottingham-repository.worktribe.com/file/804345/1/GlasserNN.pdf",
+      "pdf_url": "https://nottingham-repository.worktribe.com/file/804345/1/GlasserNN.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402482",
+        "display_name": "Repository@Nottingham (University of Nottingham)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I142263535",
+        "host_organization_name": "University of Nottingham",
+        "host_organization_lineage": [
+          "https://openalex.org/I142263535"
+        ],
+        "host_organization_lineage_names": [
+          "University of Nottingham"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc6172654",
+      "pdf_url": "https://europepmc.org/articles/pmc6172654?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6172654",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://ora.ox.ac.uk/objects/uuid:27dfce3b-18c9-4095-aecc-2338216cdb83",
+      "pdf_url": "https://ora.ox.ac.uk/objects/uuid:27dfce3b-18c9-4095-aecc-2338216cdb83/files/m32c5e1c242d90b30ec103de8b988b3eb",
+      "source": {
+        "id": "https://openalex.org/S4306402636",
+        "display_name": "Oxford University Research Archive (ORA) (University of Oxford)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I40120149",
+        "host_organization_name": "University of Oxford",
+        "host_organization_lineage": [
+          "https://openalex.org/I40120149"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27571196",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://nottingham-repository.worktribe.com/file/804345/1/GlasserNN.pdf",
+    "pdf_url": "https://nottingham-repository.worktribe.com/file/804345/1/GlasserNN.pdf",
+    "source": {
+      "id": "https://openalex.org/S4306402482",
+      "display_name": "Repository@Nottingham (University of Nottingham)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I142263535",
+      "host_organization_name": "University of Nottingham",
+      "host_organization_lineage": [
+        "https://openalex.org/I142263535"
+      ],
+      "host_organization_lineage_names": [
+        "University of Nottingham"
+      ],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.48,
+      "display_name": "Partnerships for the goals",
+      "id": "https://metadata.un.org/sdg/17"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 119,
+  "referenced_works": [
+    "https://openalex.org/W1024451551",
+    "https://openalex.org/W104594904",
+    "https://openalex.org/W1526085390",
+    "https://openalex.org/W152769478",
+    "https://openalex.org/W1562548864",
+    "https://openalex.org/W1586648108",
+    "https://openalex.org/W1606491053",
+    "https://openalex.org/W1687468892",
+    "https://openalex.org/W1828334443",
+    "https://openalex.org/W1890720342",
+    "https://openalex.org/W1964802316",
+    "https://openalex.org/W1965894642",
+    "https://openalex.org/W1968663451",
+    "https://openalex.org/W1973776237",
+    "https://openalex.org/W1974508089",
+    "https://openalex.org/W1975821649",
+    "https://openalex.org/W1976193721",
+    "https://openalex.org/W1980037751",
+    "https://openalex.org/W1981804517",
+    "https://openalex.org/W1983208069",
+    "https://openalex.org/W1983306600",
+    "https://openalex.org/W1987263024",
+    "https://openalex.org/W1990134753",
+    "https://openalex.org/W1993053013",
+    "https://openalex.org/W1995301781",
+    "https://openalex.org/W1997882637",
+    "https://openalex.org/W1999135091",
+    "https://openalex.org/W2002627566",
+    "https://openalex.org/W2003400098",
+    "https://openalex.org/W2004293194",
+    "https://openalex.org/W2007294293",
+    "https://openalex.org/W2011131455",
+    "https://openalex.org/W2012766927",
+    "https://openalex.org/W2020044743",
+    "https://openalex.org/W2021173709",
+    "https://openalex.org/W2024729467",
+    "https://openalex.org/W2031425398",
+    "https://openalex.org/W2031828887",
+    "https://openalex.org/W2032254014",
+    "https://openalex.org/W2033865693",
+    "https://openalex.org/W2044820817",
+    "https://openalex.org/W2045791628",
+    "https://openalex.org/W2046529900",
+    "https://openalex.org/W2048034803",
+    "https://openalex.org/W2048857243",
+    "https://openalex.org/W2049987801",
+    "https://openalex.org/W2053759320",
+    "https://openalex.org/W2053838094",
+    "https://openalex.org/W2055797729",
+    "https://openalex.org/W2066722744",
+    "https://openalex.org/W2067214598",
+    "https://openalex.org/W2067456724",
+    "https://openalex.org/W2071300176",
+    "https://openalex.org/W2071608556",
+    "https://openalex.org/W2073588997",
+    "https://openalex.org/W2078524519",
+    "https://openalex.org/W2079247946",
+    "https://openalex.org/W2079635207",
+    "https://openalex.org/W2085989895",
+    "https://openalex.org/W2089572795",
+    "https://openalex.org/W2093793583",
+    "https://openalex.org/W2093845300",
+    "https://openalex.org/W2094891452",
+    "https://openalex.org/W2096672020",
+    "https://openalex.org/W2098580305",
+    "https://openalex.org/W2100675752",
+    "https://openalex.org/W2105086806",
+    "https://openalex.org/W2107499714",
+    "https://openalex.org/W2109864754",
+    "https://openalex.org/W2110000143",
+    "https://openalex.org/W2110208125",
+    "https://openalex.org/W2110437310",
+    "https://openalex.org/W2112185786",
+    "https://openalex.org/W2113319997",
+    "https://openalex.org/W2114809469",
+    "https://openalex.org/W2116506376",
+    "https://openalex.org/W2117621792",
+    "https://openalex.org/W2118366819",
+    "https://openalex.org/W2121369614",
+    "https://openalex.org/W2127309075",
+    "https://openalex.org/W2130068631",
+    "https://openalex.org/W2130801245",
+    "https://openalex.org/W2131543796",
+    "https://openalex.org/W2133712892",
+    "https://openalex.org/W2134305330",
+    "https://openalex.org/W2135671625",
+    "https://openalex.org/W2135780113",
+    "https://openalex.org/W2138058768",
+    "https://openalex.org/W2138173706",
+    "https://openalex.org/W2138905229",
+    "https://openalex.org/W2139875622",
+    "https://openalex.org/W2142018683",
+    "https://openalex.org/W2148519294",
+    "https://openalex.org/W2151130155",
+    "https://openalex.org/W2151721316",
+    "https://openalex.org/W2154148300",
+    "https://openalex.org/W2154281919",
+    "https://openalex.org/W2155963684",
+    "https://openalex.org/W2157446241",
+    "https://openalex.org/W2162261751",
+    "https://openalex.org/W2164801701",
+    "https://openalex.org/W2169239134",
+    "https://openalex.org/W2169787465",
+    "https://openalex.org/W2170460437",
+    "https://openalex.org/W2170639482",
+    "https://openalex.org/W2196267284",
+    "https://openalex.org/W2200797417",
+    "https://openalex.org/W2212967118",
+    "https://openalex.org/W2260830658",
+    "https://openalex.org/W2314423215",
+    "https://openalex.org/W2319534434",
+    "https://openalex.org/W2328941635",
+    "https://openalex.org/W2463784123",
+    "https://openalex.org/W2470259419",
+    "https://openalex.org/W2499800833",
+    "https://openalex.org/W2753533763",
+    "https://openalex.org/W4210345830",
+    "https://openalex.org/W4237760707",
+    "https://openalex.org/W4295750005"
+  ],
+  "related_works": [
+    "https://openalex.org/W4306360841",
+    "https://openalex.org/W4298370694",
+    "https://openalex.org/W4280586040",
+    "https://openalex.org/W3136590534",
+    "https://openalex.org/W3126842272",
+    "https://openalex.org/W3117051909",
+    "https://openalex.org/W2963045269",
+    "https://openalex.org/W2953385226",
+    "https://openalex.org/W2775079844",
+    "https://openalex.org/W2523870064"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2507387536",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 135
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 129
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 155
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 166
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 133
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 123
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 78
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 12
+    }
+  ],
+  "updated_date": "2025-06-09T02:16:40.835017",
+  "created_date": "2016-09-16"
+}

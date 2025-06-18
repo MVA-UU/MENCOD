@@ -1,0 +1,1491 @@
+{
+  "id": "https://openalex.org/W2551208740",
+  "doi": "https://doi.org/10.1186/s12866-016-0862-9",
+  "title": "Lactobacillus acidophilus alleviates the inflammatory response to enterotoxigenic Escherichia coli K88 via inhibition of the NF-κB and p38 mitogen-activated protein kinase signaling pathways in piglets",
+  "display_name": "Lactobacillus acidophilus alleviates the inflammatory response to enterotoxigenic Escherichia coli K88 via inhibition of the NF-κB and p38 mitogen-activated protein kinase signaling pathways in piglets",
+  "publication_year": 2016,
+  "publication_date": "2016-11-10",
+  "ids": {
+    "openalex": "https://openalex.org/W2551208740",
+    "doi": "https://doi.org/10.1186/s12866-016-0862-9",
+    "mag": "2551208740",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27832756",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5105324"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s12866-016-0862-9",
+    "pdf_url": "https://bmcmicrobiol.biomedcentral.com/track/pdf/10.1186/s12866-016-0862-9",
+    "source": {
+      "id": "https://openalex.org/S128543880",
+      "display_name": "BMC Microbiology",
+      "issn_l": "1471-2180",
+      "issn": [
+        "1471-2180"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://bmcmicrobiol.biomedcentral.com/track/pdf/10.1186/s12866-016-0862-9",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5021819512",
+        "display_name": "Haihua Li",
+        "orcid": "https://orcid.org/0000-0001-9335-7700"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210098061",
+          "display_name": "Animal Science Research Institute",
+          "ror": "https://ror.org/00yt18j75",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210098061",
+            "https://openalex.org/I4210099004"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Haihua Li",
+      "raw_affiliation_strings": [
+        "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China",
+          "institution_ids": [
+            "https://openalex.org/I4210098061"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100433954",
+        "display_name": "Lei Zhang",
+        "orcid": "https://orcid.org/0000-0002-7481-4221"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210098061",
+          "display_name": "Animal Science Research Institute",
+          "ror": "https://ror.org/00yt18j75",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210098061",
+            "https://openalex.org/I4210099004"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lei Zhang",
+      "raw_affiliation_strings": [
+        "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China",
+          "institution_ids": [
+            "https://openalex.org/I4210098061"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102907843",
+        "display_name": "Longbin Chen",
+        "orcid": "https://orcid.org/0000-0002-8174-5017"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210098061",
+          "display_name": "Animal Science Research Institute",
+          "ror": "https://ror.org/00yt18j75",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210098061",
+            "https://openalex.org/I4210099004"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Longbin Chen",
+      "raw_affiliation_strings": [
+        "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China",
+          "institution_ids": [
+            "https://openalex.org/I4210098061"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091830914",
+        "display_name": "Qi Zhu",
+        "orcid": "https://orcid.org/0000-0001-8019-3946"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210098061",
+          "display_name": "Animal Science Research Institute",
+          "ror": "https://ror.org/00yt18j75",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210098061",
+            "https://openalex.org/I4210099004"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Qi Zhu",
+      "raw_affiliation_strings": [
+        "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China",
+          "institution_ids": [
+            "https://openalex.org/I4210098061"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100368518",
+        "display_name": "Wenjie Wang",
+        "orcid": "https://orcid.org/0000-0002-1807-795X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210098061",
+          "display_name": "Animal Science Research Institute",
+          "ror": "https://ror.org/00yt18j75",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210098061",
+            "https://openalex.org/I4210099004"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wenjie Wang",
+      "raw_affiliation_strings": [
+        "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China",
+          "institution_ids": [
+            "https://openalex.org/I4210098061"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5003517853",
+        "display_name": "Jie Qiao",
+        "orcid": "https://orcid.org/0000-0003-2126-1376"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210098061",
+          "display_name": "Animal Science Research Institute",
+          "ror": "https://ror.org/00yt18j75",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210098061",
+            "https://openalex.org/I4210099004"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jiayun Qiao",
+      "raw_affiliation_strings": [
+        "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tianjin Institute of Animal Husbandry and Veterinary Medicine, Tianjin, China",
+          "institution_ids": [
+            "https://openalex.org/I4210098061"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 1570,
+    "currency": "GBP",
+    "value_usd": 1925
+  },
+  "apc_paid": {
+    "value": 1570,
+    "currency": "GBP",
+    "value_usd": 1925
+  },
+  "fwci": 6.478,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 71,
+  "citation_normalized_percentile": {
+    "value": 0.93624,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "16",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10141",
+    "display_name": "Probiotics and Fermented Foods",
+    "score": 0.9987,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1106",
+      "display_name": "Food Science"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10141",
+      "display_name": "Probiotics and Fermented Foods",
+      "score": 0.9987,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10066",
+      "display_name": "Gut microbiota and health",
+      "score": 0.9964,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10152",
+      "display_name": "Animal Nutrition and Physiology",
+      "score": 0.9953,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1103",
+        "display_name": "Animal Science and Zoology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/enterotoxigenic-escherichia-coli",
+      "display_name": "Enterotoxigenic Escherichia coli",
+      "score": 0.72345257
+    },
+    {
+      "id": "https://openalex.org/keywords/parasitology",
+      "display_name": "Parasitology",
+      "score": 0.41095597
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.77946186
+    },
+    {
+      "id": "https://openalex.org/C2777221637",
+      "wikidata": "https://www.wikidata.org/wiki/Q132644",
+      "display_name": "Lactobacillus acidophilus",
+      "level": 4,
+      "score": 0.7267323
+    },
+    {
+      "id": "https://openalex.org/C2777871010",
+      "wikidata": "https://www.wikidata.org/wiki/Q265214",
+      "display_name": "Enterotoxigenic Escherichia coli",
+      "level": 5,
+      "score": 0.72345257
+    },
+    {
+      "id": "https://openalex.org/C89423630",
+      "wikidata": "https://www.wikidata.org/wiki/Q7193",
+      "display_name": "Microbiology",
+      "level": 1,
+      "score": 0.5989629
+    },
+    {
+      "id": "https://openalex.org/C51551487",
+      "wikidata": "https://www.wikidata.org/wiki/Q2043632",
+      "display_name": "p38 mitogen-activated protein kinases",
+      "level": 4,
+      "score": 0.5751185
+    },
+    {
+      "id": "https://openalex.org/C97029542",
+      "wikidata": "https://www.wikidata.org/wiki/Q281417",
+      "display_name": "Protein kinase A",
+      "level": 3,
+      "score": 0.51858354
+    },
+    {
+      "id": "https://openalex.org/C132149769",
+      "wikidata": "https://www.wikidata.org/wiki/Q899651",
+      "display_name": "Mitogen-activated protein kinase",
+      "level": 3,
+      "score": 0.50851715
+    },
+    {
+      "id": "https://openalex.org/C2777730290",
+      "wikidata": "https://www.wikidata.org/wiki/Q411114",
+      "display_name": "NF-κB",
+      "level": 3,
+      "score": 0.49982882
+    },
+    {
+      "id": "https://openalex.org/C62478195",
+      "wikidata": "https://www.wikidata.org/wiki/Q828130",
+      "display_name": "Signal transduction",
+      "level": 2,
+      "score": 0.4603564
+    },
+    {
+      "id": "https://openalex.org/C547475151",
+      "wikidata": "https://www.wikidata.org/wiki/Q25419",
+      "display_name": "Escherichia coli",
+      "level": 3,
+      "score": 0.4200489
+    },
+    {
+      "id": "https://openalex.org/C190612196",
+      "wikidata": "https://www.wikidata.org/wiki/Q180502",
+      "display_name": "Parasitology",
+      "level": 2,
+      "score": 0.41095597
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.3766397
+    },
+    {
+      "id": "https://openalex.org/C184235292",
+      "wikidata": "https://www.wikidata.org/wiki/Q421851",
+      "display_name": "Kinase",
+      "level": 2,
+      "score": 0.35891923
+    },
+    {
+      "id": "https://openalex.org/C2776914184",
+      "wikidata": "https://www.wikidata.org/wiki/Q101991",
+      "display_name": "Inflammation",
+      "level": 2,
+      "score": 0.34259087
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.2549578
+    },
+    {
+      "id": "https://openalex.org/C523546767",
+      "wikidata": "https://www.wikidata.org/wiki/Q10876",
+      "display_name": "Bacteria",
+      "level": 2,
+      "score": 0.22326872
+    },
+    {
+      "id": "https://openalex.org/C2780255968",
+      "wikidata": "https://www.wikidata.org/wiki/Q1816730",
+      "display_name": "Probiotic",
+      "level": 3,
+      "score": 0.20587376
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.16188282
+    },
+    {
+      "id": "https://openalex.org/C66999527",
+      "wikidata": "https://www.wikidata.org/wiki/Q421978",
+      "display_name": "Enterotoxin",
+      "level": 4,
+      "score": 0.08552456
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C90856448",
+      "wikidata": "https://www.wikidata.org/wiki/Q431",
+      "display_name": "Zoology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D054307",
+      "descriptor_name": "Enterotoxigenic Escherichia coli",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007249",
+      "descriptor_name": "Inflammation",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007779",
+      "descriptor_name": "Lactobacillus acidophilus",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016328",
+      "descriptor_name": "NF-kappa B",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D051996",
+      "descriptor_name": "Transcription Factor RelA",
+      "qualifier_ui": "Q000037",
+      "qualifier_name": "antagonists & inhibitors",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D048051",
+      "descriptor_name": "p38 Mitogen-Activated Protein Kinases",
+      "qualifier_ui": "Q000037",
+      "qualifier_name": "antagonists & inhibitors",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016207",
+      "descriptor_name": "Cytokines",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016207",
+      "descriptor_name": "Cytokines",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016207",
+      "descriptor_name": "Cytokines",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004195",
+      "descriptor_name": "Disease Models, Animal",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D054307",
+      "descriptor_name": "Enterotoxigenic Escherichia coli",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004927",
+      "descriptor_name": "Escherichia coli Infections",
+      "qualifier_ui": "Q000517",
+      "qualifier_name": "prevention & control",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004927",
+      "descriptor_name": "Escherichia coli Infections",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007249",
+      "descriptor_name": "Inflammation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018836",
+      "descriptor_name": "Inflammation Mediators",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018836",
+      "descriptor_name": "Inflammation Mediators",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007413",
+      "descriptor_name": "Intestinal Mucosa",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007413",
+      "descriptor_name": "Intestinal Mucosa",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007413",
+      "descriptor_name": "Intestinal Mucosa",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007779",
+      "descriptor_name": "Lactobacillus acidophilus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008070",
+      "descriptor_name": "Lipopolysaccharides",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008070",
+      "descriptor_name": "Lipopolysaccharides",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020928",
+      "descriptor_name": "Mitogen-Activated Protein Kinases",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020928",
+      "descriptor_name": "Mitogen-Activated Protein Kinases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016328",
+      "descriptor_name": "NF-kappa B",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019936",
+      "descriptor_name": "Probiotics",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015398",
+      "descriptor_name": "Signal Transduction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013552",
+      "descriptor_name": "Swine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051195",
+      "descriptor_name": "Toll-Like Receptor 2",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051195",
+      "descriptor_name": "Toll-Like Receptor 2",
+      "qualifier_ui": "Q000096",
+      "qualifier_name": "biosynthesis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051195",
+      "descriptor_name": "Toll-Like Receptor 2",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051996",
+      "descriptor_name": "Transcription Factor RelA",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051996",
+      "descriptor_name": "Transcription Factor RelA",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D048051",
+      "descriptor_name": "p38 Mitogen-Activated Protein Kinases",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D048051",
+      "descriptor_name": "p38 Mitogen-Activated Protein Kinases",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1186/s12866-016-0862-9",
+      "pdf_url": "https://bmcmicrobiol.biomedcentral.com/track/pdf/10.1186/s12866-016-0862-9",
+      "source": {
+        "id": "https://openalex.org/S128543880",
+        "display_name": "BMC Microbiology",
+        "issn_l": "1471-2180",
+        "issn": [
+          "1471-2180"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320256",
+        "host_organization_name": "BioMed Central",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965",
+          "https://openalex.org/P4310320256"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature",
+          "BioMed Central"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5105324",
+      "pdf_url": "https://europepmc.org/articles/pmc5105324?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5105324",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27832756",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1186/s12866-016-0862-9",
+    "pdf_url": "https://bmcmicrobiol.biomedcentral.com/track/pdf/10.1186/s12866-016-0862-9",
+    "source": {
+      "id": "https://openalex.org/S128543880",
+      "display_name": "BMC Microbiology",
+      "issn_l": "1471-2180",
+      "issn": [
+        "1471-2180"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320256",
+      "host_organization_name": "BioMed Central",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965",
+        "https://openalex.org/P4310320256"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature",
+        "BioMed Central"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China",
+      "award_id": "31402087"
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 35,
+  "referenced_works": [
+    "https://openalex.org/W1499745553",
+    "https://openalex.org/W1512595753",
+    "https://openalex.org/W1840513678",
+    "https://openalex.org/W1937264215",
+    "https://openalex.org/W1945863284",
+    "https://openalex.org/W1967851015",
+    "https://openalex.org/W1970358553",
+    "https://openalex.org/W1985735420",
+    "https://openalex.org/W1991212439",
+    "https://openalex.org/W1991916395",
+    "https://openalex.org/W1995493011",
+    "https://openalex.org/W2009938323",
+    "https://openalex.org/W2015137310",
+    "https://openalex.org/W2031003734",
+    "https://openalex.org/W2037338346",
+    "https://openalex.org/W2063053656",
+    "https://openalex.org/W2066914296",
+    "https://openalex.org/W2071193380",
+    "https://openalex.org/W2097747132",
+    "https://openalex.org/W2115090185",
+    "https://openalex.org/W2116242309",
+    "https://openalex.org/W2117507430",
+    "https://openalex.org/W2121222441",
+    "https://openalex.org/W2131312461",
+    "https://openalex.org/W2145365066",
+    "https://openalex.org/W2153029740",
+    "https://openalex.org/W2160903934",
+    "https://openalex.org/W2166252717",
+    "https://openalex.org/W2169982514",
+    "https://openalex.org/W2172961964",
+    "https://openalex.org/W2173892503",
+    "https://openalex.org/W2175353645",
+    "https://openalex.org/W2187899050",
+    "https://openalex.org/W2270255698",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W4249308496",
+    "https://openalex.org/W4239892895",
+    "https://openalex.org/W4213227043",
+    "https://openalex.org/W2605035892",
+    "https://openalex.org/W2521594110",
+    "https://openalex.org/W2243167688",
+    "https://openalex.org/W21307474",
+    "https://openalex.org/W2092574818",
+    "https://openalex.org/W2053622195",
+    "https://openalex.org/W2019128313"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0
+    ],
+    "newly": [
+      1
+    ],
+    "isolated": [
+      2
+    ],
+    "L.": [
+      3,
+      38,
+      69,
+      77,
+      154
+    ],
+    "acidophilus": [
+      4,
+      39,
+      70,
+      78,
+      155
+    ],
+    "strain": [
+      5
+    ],
+    "has": [
+      6
+    ],
+    "been": [
+      7
+    ],
+    "reported": [
+      8
+    ],
+    "to": [
+      9,
+      33,
+      40,
+      45,
+      159
+    ],
+    "have": [
+      10
+    ],
+    "potential": [
+      11
+    ],
+    "anti-inflammatory": [
+      12,
+      52
+    ],
+    "activities": [
+      13
+    ],
+    "against": [
+      14
+    ],
+    "lipopolysaccharide": [
+      15
+    ],
+    "(LPS)": [
+      16
+    ],
+    "challenge": [
+      17
+    ],
+    "in": [
+      18,
+      50,
+      90,
+      100,
+      122,
+      146,
+      169
+    ],
+    "piglet,": [
+      19
+    ],
+    "while": [
+      20,
+      71
+    ],
+    "the": [
+      21,
+      24,
+      35,
+      47,
+      103,
+      131,
+      134
+    ],
+    "details": [
+      22
+    ],
+    "of": [
+      23,
+      37,
+      60,
+      97,
+      107,
+      124,
+      133,
+      137,
+      148
+    ],
+    "related": [
+      25
+    ],
+    "inflammatory": [
+      26,
+      42,
+      157
+    ],
+    "responses": [
+      27,
+      43
+    ],
+    "are": [
+      28
+    ],
+    "limited.": [
+      29
+    ],
+    "Here": [
+      30
+    ],
+    "we": [
+      31
+    ],
+    "aimed": [
+      32
+    ],
+    "analysis": [
+      34
+    ],
+    "ability": [
+      36
+    ],
+    "regulate": [
+      41
+    ],
+    "and": [
+      44,
+      63,
+      87,
+      93,
+      114,
+      144,
+      165
+    ],
+    "elucidate": [
+      46
+    ],
+    "mechanisms": [
+      48
+    ],
+    "involved": [
+      49
+    ],
+    "its": [
+      51
+    ],
+    "activity.The": [
+      53
+    ],
+    "ETEC": [
+      54,
+      160
+    ],
+    "(enterotoxigenic": [
+      55
+    ],
+    "Escherichia": [
+      56
+    ],
+    "coli)": [
+      57
+    ],
+    "K88-induced": [
+      58
+    ],
+    "up-regulations": [
+      59
+    ],
+    "IL-1β,": [
+      61
+    ],
+    "IL-8": [
+      62
+    ],
+    "TNF-α": [
+      64
+    ],
+    "were": [
+      65
+    ],
+    "obviously": [
+      66
+    ],
+    "inhibited": [
+      67
+    ],
+    "by": [
+      68
+    ],
+    "IL-10": [
+      72
+    ],
+    "was": [
+      73
+    ],
+    "significantly": [
+      74,
+      129
+    ],
+    "increased.": [
+      75
+    ],
+    "Moreover,": [
+      76
+    ],
+    "down-regulated": [
+      79
+    ],
+    "pattern": [
+      80
+    ],
+    "recognition": [
+      81
+    ],
+    "receptors": [
+      82
+    ],
+    "TLR": [
+      83
+    ],
+    "(Toll-like": [
+      84
+    ],
+    "receptor)": [
+      85
+    ],
+    "2": [
+      86
+    ],
+    "TLR4": [
+      88
+    ],
+    "expression": [
+      89,
+      132
+    ],
+    "both": [
+      91,
+      163
+    ],
+    "spleen": [
+      92,
+      123,
+      147
+    ],
+    "mesenteric": [
+      94
+    ],
+    "lymph": [
+      95
+    ],
+    "nodes": [
+      96
+    ],
+    "ETEC-challenged": [
+      98,
+      149
+    ],
+    "piglets,": [
+      99
+    ],
+    "accompanied": [
+      101
+    ],
+    "with": [
+      102
+    ],
+    "reduced": [
+      104
+    ],
+    "phosphorylation": [
+      105
+    ],
+    "levels": [
+      106
+    ],
+    "nuclear": [
+      108
+    ],
+    "factor": [
+      109
+    ],
+    "kappa": [
+      110
+    ],
+    "B": [
+      111
+    ],
+    "(NF-κB)": [
+      112
+    ],
+    "p65": [
+      113
+    ],
+    "mitogen-activated": [
+      115
+    ],
+    "protein": [
+      116
+    ],
+    "kinase": [
+      117
+    ],
+    "(MAPK)": [
+      118
+    ],
+    "p38": [
+      119
+    ],
+    "as": [
+      120
+    ],
+    "well": [
+      121
+    ],
+    "ETEC-infected": [
+      125
+    ],
+    "piglets.": [
+      126,
+      170
+    ],
+    "Furthermore,": [
+      127
+    ],
+    "L.acidophilus": [
+      128
+    ],
+    "increased": [
+      130
+    ],
+    "negative": [
+      135
+    ],
+    "regulators": [
+      136
+    ],
+    "TLRs": [
+      138
+    ],
+    "signaling,": [
+      139
+    ],
+    "including": [
+      140
+    ],
+    "Tollip,": [
+      141
+    ],
+    "IRAK-M,": [
+      142
+    ],
+    "A20": [
+      143
+    ],
+    "Bcl-3": [
+      145
+    ],
+    "piglets.Our": [
+      150
+    ],
+    "findings": [
+      151
+    ],
+    "suggested": [
+      152
+    ],
+    "that": [
+      153
+    ],
+    "regulated": [
+      156
+    ],
+    "response": [
+      158
+    ],
+    "via": [
+      161
+    ],
+    "impairing": [
+      162
+    ],
+    "NF-κB": [
+      164
+    ],
+    "MAPK": [
+      166
+    ],
+    "signaling": [
+      167
+    ],
+    "pathways": [
+      168
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2551208740",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-06-02T21:01:59.898985",
+  "created_date": "2016-11-30"
+}

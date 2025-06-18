@@ -1,0 +1,1516 @@
+{
+  "id": "https://openalex.org/W2744491386",
+  "doi": "https://doi.org/10.1038/s41598-017-07034-w",
+  "title": "Predicting hair cortisol levels with hair pigmentation genes: a possible hair pigmentation bias",
+  "display_name": "Predicting hair cortisol levels with hair pigmentation genes: a possible hair pigmentation bias",
+  "publication_year": 2017,
+  "publication_date": "2017-08-11",
+  "ids": {
+    "openalex": "https://openalex.org/W2744491386",
+    "doi": "https://doi.org/10.1038/s41598-017-07034-w",
+    "mag": "2744491386",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/28819144",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5561185"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/s41598-017-07034-w",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S196734849",
+      "display_name": "Scientific Reports",
+      "issn_l": "2045-2322",
+      "issn": [
+        "2045-2322"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1038/s41598-017-07034-w",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5050080111",
+        "display_name": "Alexander Neumann",
+        "orcid": "https://orcid.org/0000-0001-6653-3203"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801952686",
+          "display_name": "Erasmus MC",
+          "ror": "https://ror.org/018906e22",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alexander Neumann",
+      "raw_affiliation_strings": [
+        "Department of Child and Adolescent Psychiatry/Psychology, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Child and Adolescent Psychiatry/Psychology, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5019999453",
+        "display_name": "Gerard Noppe",
+        "orcid": "https://orcid.org/0000-0003-3050-9513"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801952686",
+          "display_name": "Erasmus MC",
+          "ror": "https://ror.org/018906e22",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gerard Noppe",
+      "raw_affiliation_strings": [
+        "Department of Pediatrics, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091832997",
+        "display_name": "Fan Liu",
+        "orcid": "https://orcid.org/0000-0001-9241-8161"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801577699",
+          "display_name": "Beijing Institute of Genomics",
+          "ror": "https://ror.org/049gn7z52",
+          "country_code": "CN",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I19820366",
+            "https://openalex.org/I2801577699"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I19820366",
+          "display_name": "Chinese Academy of Sciences",
+          "ror": "https://ror.org/034t30j35",
+          "country_code": "CN",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I19820366"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Fan Liu",
+      "raw_affiliation_strings": [
+        "Key Laboratory of Genomic and Precision Medicine, Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing, China"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Key Laboratory of Genomic and Precision Medicine, Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing, China",
+          "institution_ids": [
+            "https://openalex.org/I2801577699",
+            "https://openalex.org/I19820366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5054937522",
+        "display_name": "Manfred Kayser",
+        "orcid": "https://orcid.org/0000-0002-4958-847X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801952686",
+          "display_name": "Erasmus MC",
+          "ror": "https://ror.org/018906e22",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Manfred Kayser",
+      "raw_affiliation_strings": [
+        "Department of Genetic Identification, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Genetic Identification, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077970525",
+        "display_name": "Frank C. Verhulst",
+        "orcid": "https://orcid.org/0000-0003-4871-2210"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801952686",
+          "display_name": "Erasmus MC",
+          "ror": "https://ror.org/018906e22",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Frank C. Verhulst",
+      "raw_affiliation_strings": [
+        "Department of Child and Adolescent Psychiatry/Psychology, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Child and Adolescent Psychiatry/Psychology, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012921360",
+        "display_name": "Vincent W. V. Jaddoe",
+        "orcid": "https://orcid.org/0000-0003-2939-0041"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801952686",
+          "display_name": "Erasmus MC",
+          "ror": "https://ror.org/018906e22",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Vincent W. V. Jaddoe",
+      "raw_affiliation_strings": [
+        "The Generation R Study Group, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The Generation R Study Group, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004361068",
+        "display_name": "Elisabeth F. C. van Rossum",
+        "orcid": "https://orcid.org/0000-0003-0120-4913"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801952686",
+          "display_name": "Erasmus MC",
+          "ror": "https://ror.org/018906e22",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elisabeth F. C. van Rossum",
+      "raw_affiliation_strings": [
+        "Department of Internal Medicine, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Internal Medicine, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5076290987",
+        "display_name": "Henning Tiemeier",
+        "orcid": "https://orcid.org/0000-0002-4395-1397"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801952686",
+          "display_name": "Erasmus MC",
+          "ror": "https://ror.org/018906e22",
+          "country_code": "NL",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Henning Tiemeier",
+      "raw_affiliation_strings": [
+        "Department of Child and Adolescent Psychiatry/Psychology, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Child and Adolescent Psychiatry/Psychology, Erasmus MC University Medical Center Rotterdam, Rotterdam, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I2801952686"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 1890,
+    "currency": "EUR",
+    "value_usd": 2190
+  },
+  "apc_paid": {
+    "value": 1890,
+    "currency": "EUR",
+    "value_usd": 2190
+  },
+  "fwci": 1.119,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 22,
+  "citation_normalized_percentile": {
+    "value": 0.810637,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 91,
+    "max": 92
+  },
+  "biblio": {
+    "volume": "7",
+    "issue": "1",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 0.9965,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9965,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11013",
+      "display_name": "Skin Protection and Aging",
+      "score": 0.9824,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2708",
+        "display_name": "Dermatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12421",
+      "display_name": "Adrenal Hormones and Disorders",
+      "score": 0.9625,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/population-stratification",
+      "display_name": "Population stratification",
+      "score": 0.5609766
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C166976648",
+      "wikidata": "https://www.wikidata.org/wiki/Q7229824",
+      "display_name": "Population stratification",
+      "level": 5,
+      "score": 0.5609766
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.5194011
+    },
+    {
+      "id": "https://openalex.org/C153209595",
+      "wikidata": "https://www.wikidata.org/wiki/Q501128",
+      "display_name": "Single-nucleotide polymorphism",
+      "level": 4,
+      "score": 0.4796396
+    },
+    {
+      "id": "https://openalex.org/C135763542",
+      "wikidata": "https://www.wikidata.org/wiki/Q106016",
+      "display_name": "Genotype",
+      "level": 3,
+      "score": 0.4750538
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.4659793
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.4612976
+    },
+    {
+      "id": "https://openalex.org/C72563966",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303415",
+      "display_name": "Cohort",
+      "level": 2,
+      "score": 0.42228407
+    },
+    {
+      "id": "https://openalex.org/C2777216303",
+      "wikidata": "https://www.wikidata.org/wiki/Q866324",
+      "display_name": "Hair follicle",
+      "level": 2,
+      "score": 0.41634908
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.37278524
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.35723484
+    },
+    {
+      "id": "https://openalex.org/C42407357",
+      "wikidata": "https://www.wikidata.org/wiki/Q521",
+      "display_name": "Physiology",
+      "level": 1,
+      "score": 0.3315125
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.27815473
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D006197",
+      "descriptor_name": "Hair",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006200",
+      "descriptor_name": "Hair Color",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000032",
+      "qualifier_name": "analysis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010858",
+      "descriptor_name": "Pigmentation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010860",
+      "descriptor_name": "Pigments, Biological",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D010860",
+      "descriptor_name": "Pigments, Biological",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000893",
+      "descriptor_name": "Anti-Inflammatory Agents",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005796",
+      "descriptor_name": "Genes",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005838",
+      "descriptor_name": "Genotype",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006197",
+      "descriptor_name": "Hair",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010860",
+      "descriptor_name": "Pigments, Biological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D044469",
+      "descriptor_name": "Racial Groups",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 8,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41598-017-07034-w",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S196734849",
+        "display_name": "Scientific Reports",
+        "issn_l": "2045-2322",
+        "issn": [
+          "2045-2322"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/ec8037b18b92474cb34047d0e27d0ea2",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5561185",
+      "pdf_url": "https://europepmc.org/articles/pmc5561185?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://pure.eur.nl/en/publications/51f5be08-f796-4d8a-9e6e-468ab6725dae",
+      "pdf_url": "https://pure.eur.nl/files/47827152/REPUB_101547-OA.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401843",
+        "display_name": "Data Archiving and Networked Services (DANS)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1322597698",
+        "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/I1322597698"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Netherlands Academy of Arts and Sciences"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://pure.eur.nl/ws/files/47827152/REPUB_101547-OA.pdf",
+      "pdf_url": "https://pure.eur.nl/ws/files/47827152/REPUB_101547-OA.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401266",
+        "display_name": "EUR Research Repository (Erasmus University Rotterdam)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I913958620",
+        "host_organization_name": "Erasmus University Rotterdam",
+        "host_organization_lineage": [
+          "https://openalex.org/I913958620"
+        ],
+        "host_organization_lineage_names": [
+          "Erasmus University Rotterdam"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/1765/101547",
+      "pdf_url": "https://repub.eur.nl/pub/101547/REPUB_101547-OA.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401266",
+        "display_name": "EUR Research Repository (Erasmus University Rotterdam)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I913958620",
+        "host_organization_name": "Erasmus University Rotterdam",
+        "host_organization_lineage": [
+          "https://openalex.org/I913958620"
+        ],
+        "host_organization_lineage_names": [
+          "Erasmus University Rotterdam"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5561185",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/28819144",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/s41598-017-07034-w",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S196734849",
+      "display_name": "Scientific Reports",
+      "issn_l": "2045-2322",
+      "issn": [
+        "2045-2322"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.41
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 26,
+  "referenced_works": [
+    "https://openalex.org/W1513618424",
+    "https://openalex.org/W1581410893",
+    "https://openalex.org/W1829844494",
+    "https://openalex.org/W1935057222",
+    "https://openalex.org/W1965107443",
+    "https://openalex.org/W1976844911",
+    "https://openalex.org/W1999324137",
+    "https://openalex.org/W1999743362",
+    "https://openalex.org/W2014796310",
+    "https://openalex.org/W2016771211",
+    "https://openalex.org/W2041805469",
+    "https://openalex.org/W2070303561",
+    "https://openalex.org/W2104549677",
+    "https://openalex.org/W2118366616",
+    "https://openalex.org/W2124651034",
+    "https://openalex.org/W2139168999",
+    "https://openalex.org/W2157465110",
+    "https://openalex.org/W2157752701",
+    "https://openalex.org/W2166501262",
+    "https://openalex.org/W2259634615",
+    "https://openalex.org/W2512922965",
+    "https://openalex.org/W2528302205",
+    "https://openalex.org/W2572508731",
+    "https://openalex.org/W2580888271",
+    "https://openalex.org/W4210761116",
+    "https://openalex.org/W4211197706"
+  ],
+  "related_works": [
+    "https://openalex.org/W2979451389",
+    "https://openalex.org/W2555602226",
+    "https://openalex.org/W2153805141",
+    "https://openalex.org/W2120483845",
+    "https://openalex.org/W2118961453",
+    "https://openalex.org/W2095015308",
+    "https://openalex.org/W2081553457",
+    "https://openalex.org/W2063368802",
+    "https://openalex.org/W2041269594",
+    "https://openalex.org/W2008324969"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Cortisol": [
+      1
+    ],
+    "concentrations": [
+      2,
+      82,
+      160
+    ],
+    "in": [
+      3,
+      87,
+      157
+    ],
+    "hair": [
+      4,
+      26,
+      29,
+      67,
+      104,
+      118,
+      158,
+      166,
+      172,
+      189
+    ],
+    "are": [
+      5,
+      71
+    ],
+    "used": [
+      6,
+      115
+    ],
+    "to": [
+      7,
+      33,
+      116
+    ],
+    "create": [
+      8
+    ],
+    "hormone": [
+      9,
+      49
+    ],
+    "profiles": [
+      10
+    ],
+    "spanning": [
+      11
+    ],
+    "months.": [
+      12
+    ],
+    "This": [
+      13,
+      112,
+      153
+    ],
+    "method": [
+      14
+    ],
+    "allows": [
+      15
+    ],
+    "assessment": [
+      16
+    ],
+    "of": [
+      17,
+      78,
+      103
+    ],
+    "chronic": [
+      18
+    ],
+    "cortisol": [
+      19,
+      75,
+      119,
+      145,
+      159
+    ],
+    "exposure,": [
+      20
+    ],
+    "but": [
+      21
+    ],
+    "might": [
+      22
+    ],
+    "be": [
+      23
+    ],
+    "biased": [
+      24
+    ],
+    "by": [
+      25,
+      164,
+      187,
+      191,
+      195
+    ],
+    "pigmentation:": [
+      27
+    ],
+    "dark": [
+      28
+    ],
+    "was": [
+      30,
+      114,
+      139
+    ],
+    "previously": [
+      31
+    ],
+    "related": [
+      32
+    ],
+    "higher": [
+      34,
+      134,
+      144
+    ],
+    "concentrations.": [
+      35
+    ],
+    "It": [
+      36
+    ],
+    "is": [
+      37,
+      161
+    ],
+    "unclear": [
+      38
+    ],
+    "whether": [
+      39,
+      52
+    ],
+    "this": [
+      40,
+      171
+    ],
+    "association": [
+      41,
+      54
+    ],
+    "arises": [
+      42
+    ],
+    "from": [
+      43,
+      59,
+      90
+    ],
+    "local": [
+      44,
+      165
+    ],
+    "effects,": [
+      45
+    ],
+    "such": [
+      46
+    ],
+    "as": [
+      47
+    ],
+    "increased": [
+      48
+    ],
+    "extractability,": [
+      50
+    ],
+    "or": [
+      51,
+      194
+    ],
+    "the": [
+      53,
+      64,
+      91
+    ],
+    "represents": [
+      55
+    ],
+    "systemic": [
+      56
+    ],
+    "differences": [
+      57
+    ],
+    "arising": [
+      58
+    ],
+    "population": [
+      60
+    ],
+    "stratification.": [
+      61
+    ],
+    "We": [
+      62,
+      98
+    ],
+    "tested": [
+      63
+    ],
+    "hypothesis": [
+      65
+    ],
+    "that": [
+      66,
+      155
+    ],
+    "pigmentation": [
+      68,
+      173
+    ],
+    "gene": [
+      69
+    ],
+    "variants": [
+      70
+    ],
+    "associated": [
+      72,
+      140
+    ],
+    "with": [
+      73,
+      141
+    ],
+    "varying": [
+      74
+    ],
+    "levels": [
+      76,
+      146
+    ],
+    "independent": [
+      77
+    ],
+    "genetic": [
+      79,
+      123
+    ],
+    "ancestry.": [
+      80
+    ],
+    "Hormone": [
+      81
+    ],
+    "and": [
+      83,
+      127,
+      178
+    ],
+    "genotype": [
+      84
+    ],
+    "were": [
+      85
+    ],
+    "measured": [
+      86
+    ],
+    "1674": [
+      88
+    ],
+    "children": [
+      89
+    ],
+    "Generation": [
+      92
+    ],
+    "R": [
+      93
+    ],
+    "cohort": [
+      94
+    ],
+    "at": [
+      95
+    ],
+    "age": [
+      96,
+      126
+    ],
+    "6.": [
+      97
+    ],
+    "computed": [
+      99
+    ],
+    "a": [
+      100
+    ],
+    "polygenic": [
+      101,
+      135,
+      192
+    ],
+    "score": [
+      102,
+      113,
+      136
+    ],
+    "color": [
+      105
+    ],
+    "based": [
+      106
+    ],
+    "on": [
+      107
+    ],
+    "9": [
+      108
+    ],
+    "single": [
+      109
+    ],
+    "nucleotide": [
+      110
+    ],
+    "polymorphisms.": [
+      111
+    ],
+    "predict": [
+      117
+    ],
+    "concentrations,": [
+      120
+    ],
+    "adjusted": [
+      121
+    ],
+    "for": [
+      122
+    ],
+    "ancestry,": [
+      124
+    ],
+    "sex,": [
+      125
+    ],
+    "corticosteroid": [
+      128
+    ],
+    "use.": [
+      129
+    ],
+    "A": [
+      130
+    ],
+    "1-standard": [
+      131
+    ],
+    "deviation": [
+      132
+    ],
+    "(SD)": [
+      133
+    ],
+    "(darker": [
+      137
+    ],
+    "hair)": [
+      138
+    ],
+    "0.08": [
+      142
+    ],
+    "SD": [
+      143
+    ],
+    "(SE": [
+      147
+    ],
+    "=": [
+      148,
+      151
+    ],
+    "0.03,": [
+      149
+    ],
+    "p": [
+      150
+    ],
+    "0.002).": [
+      152
+    ],
+    "suggests": [
+      154
+    ],
+    "variation": [
+      156
+    ],
+    "partly": [
+      162
+    ],
+    "explained": [
+      163
+    ],
+    "effects.": [
+      167
+    ],
+    "In": [
+      168
+    ],
+    "multi-ancestry": [
+      169
+    ],
+    "studies": [
+      170
+    ],
+    "bias": [
+      174
+    ],
+    "can": [
+      175
+    ],
+    "reduce": [
+      176
+    ],
+    "power": [
+      177
+    ],
+    "confound": [
+      179
+    ],
+    "results.": [
+      180
+    ],
+    "Researchers": [
+      181
+    ],
+    "should": [
+      182
+    ],
+    "therefore": [
+      183
+    ],
+    "consider": [
+      184
+    ],
+    "adjusting": [
+      185
+    ],
+    "analyses": [
+      186
+    ],
+    "reported": [
+      188
+    ],
+    "color,": [
+      190
+    ],
+    "scores,": [
+      193
+    ],
+    "both.": [
+      196
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2744491386",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-05-21T18:03:52.401001",
+  "created_date": "2017-08-17"
+}

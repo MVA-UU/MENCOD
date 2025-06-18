@@ -1,0 +1,1659 @@
+{
+  "id": "https://openalex.org/W2739200365",
+  "doi": "https://doi.org/10.1111/1365-2435.12942",
+  "title": "Interpreting <scp>ELISA</scp> analyses from wild animal samples: Some recurrent issues and solutions",
+  "display_name": "Interpreting <scp>ELISA</scp> analyses from wild animal samples: Some recurrent issues and solutions",
+  "publication_year": 2017,
+  "publication_date": "2017-07-20",
+  "ids": {
+    "openalex": "https://openalex.org/W2739200365",
+    "doi": "https://doi.org/10.1111/1365-2435.12942",
+    "mag": "2739200365"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1111/1365-2435.12942",
+    "pdf_url": "https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2435.12942",
+    "source": {
+      "id": "https://openalex.org/S174303711",
+      "display_name": "Functional Ecology",
+      "issn_l": "0269-8463",
+      "issn": [
+        "0269-8463",
+        "1365-2435"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2435.12942",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5007711512",
+        "display_name": "Romain Garnier",
+        "orcid": "https://orcid.org/0000-0002-6583-3527"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I241749",
+          "display_name": "University of Cambridge",
+          "ror": "https://ror.org/013meh722",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I241749"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Romain Garnier",
+      "raw_affiliation_strings": [
+        "Department of Veterinary Medicine Disease Dynamics Unit University of Cambridge Cambridge UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Veterinary Medicine Disease Dynamics Unit University of Cambridge Cambridge UK",
+          "institution_ids": [
+            "https://openalex.org/I241749"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5002085718",
+        "display_name": "Raül Ramos",
+        "orcid": "https://orcid.org/0000-0002-0551-8605"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I71999127",
+          "display_name": "Universitat de Barcelona",
+          "ror": "https://ror.org/021018s57",
+          "country_code": "ES",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I71999127"
+          ]
+        }
+      ],
+      "countries": [
+        "ES"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Raül Ramos",
+      "raw_affiliation_strings": [
+        "Departament de Biologia Evolutiva Ecologia i Ciències Ambientals Universitat de Barcelona Barcelona Spain"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departament de Biologia Evolutiva Ecologia i Ciències Ambientals Universitat de Barcelona Barcelona Spain",
+          "institution_ids": [
+            "https://openalex.org/I71999127"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055700908",
+        "display_name": "Ana Sanz‐Aguilar",
+        "orcid": "https://orcid.org/0000-0002-4177-9749"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116941",
+          "display_name": "Mediterranean Institute for Advanced Studies",
+          "ror": "https://ror.org/02e9dby02",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I134820265",
+            "https://openalex.org/I4210116941",
+            "https://openalex.org/I50441567"
+          ]
+        }
+      ],
+      "countries": [
+        "ES"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ana Sanz‐Aguilar",
+      "raw_affiliation_strings": [
+        "Population Ecology Group Instituto Mediterráneo de Estudios Avanzados IMEDEA (CSIC‐UIB) Esporles Islas Baleares Spain"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Population Ecology Group Instituto Mediterráneo de Estudios Avanzados IMEDEA (CSIC‐UIB) Esporles Islas Baleares Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210116941"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006454093",
+        "display_name": "Maud Poisbleau",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I149213910",
+          "display_name": "University of Antwerp",
+          "ror": "https://ror.org/008x57b05",
+          "country_code": "BE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I149213910"
+          ]
+        }
+      ],
+      "countries": [
+        "BE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Maud Poisbleau",
+      "raw_affiliation_strings": [
+        "Department of Biology – Behavioural Ecology &amp; Ecophysiology Group University of Antwerp Wilrijk Belgium"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biology – Behavioural Ecology &amp; Ecophysiology Group University of Antwerp Wilrijk Belgium",
+          "institution_ids": [
+            "https://openalex.org/I149213910"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5002019741",
+        "display_name": "Henri Weimerskirch",
+        "orcid": "https://orcid.org/0000-0002-0457-586X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1294671590",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "ror": "https://ror.org/02feahw73",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210095510",
+          "display_name": "Centre d'Etudes Biologiques de Chizé",
+          "ror": "https://ror.org/00s8hq550",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210095510",
+            "https://openalex.org/I4210107625",
+            "https://openalex.org/I78744979"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Henri Weimerskirch",
+      "raw_affiliation_strings": [
+        "Centre d'Etudes Biologiques de Chizé CNRS – Université de la Rochelle  Villiers en Bois France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre d'Etudes Biologiques de Chizé CNRS – Université de la Rochelle  Villiers en Bois France",
+          "institution_ids": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210095510"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051647857",
+        "display_name": "Sarah J. Burthe",
+        "orcid": "https://orcid.org/0000-0001-8871-3432"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210092773",
+          "display_name": "UK Centre for Ecology & Hydrology",
+          "ror": "https://ror.org/00pggkr55",
+          "country_code": "GB",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210092773"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sarah Burthe",
+      "raw_affiliation_strings": [
+        "Centre for Ecology &amp; Hydrology Penicuik Midlothian UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre for Ecology &amp; Hydrology Penicuik Midlothian UK",
+          "institution_ids": [
+            "https://openalex.org/I4210092773"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013637741",
+        "display_name": "J Tornos",
+        "orcid": "https://orcid.org/0000-0002-8793-2518"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1294671590",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "ror": "https://ror.org/02feahw73",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210089824",
+          "display_name": "Centre d'Écologie Fonctionnelle et Évolutive",
+          "ror": "https://ror.org/008rywf59",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I159885104",
+            "https://openalex.org/I19894307",
+            "https://openalex.org/I208215962",
+            "https://openalex.org/I24906876",
+            "https://openalex.org/I2746051580",
+            "https://openalex.org/I2802818602",
+            "https://openalex.org/I4210088668",
+            "https://openalex.org/I4210089824",
+            "https://openalex.org/I4210090127",
+            "https://openalex.org/I4210107625",
+            "https://openalex.org/I4210117091",
+            "https://openalex.org/I4210131494",
+            "https://openalex.org/I4210166444",
+            "https://openalex.org/I4399657933"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I19894307",
+          "display_name": "Université de Montpellier",
+          "ror": "https://ror.org/051escj72",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I19894307"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeremy Tornos",
+      "raw_affiliation_strings": [
+        "CEFE CNRS Université de Montpellier  Montpellier France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "CEFE CNRS Université de Montpellier  Montpellier France",
+          "institution_ids": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210089824",
+            "https://openalex.org/I19894307"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5042116850",
+        "display_name": "Thierry Boulinier",
+        "orcid": "https://orcid.org/0000-0002-5898-7667"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I19894307",
+          "display_name": "Université de Montpellier",
+          "ror": "https://ror.org/051escj72",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I19894307"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210089824",
+          "display_name": "Centre d'Écologie Fonctionnelle et Évolutive",
+          "ror": "https://ror.org/008rywf59",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I159885104",
+            "https://openalex.org/I19894307",
+            "https://openalex.org/I208215962",
+            "https://openalex.org/I24906876",
+            "https://openalex.org/I2746051580",
+            "https://openalex.org/I2802818602",
+            "https://openalex.org/I4210088668",
+            "https://openalex.org/I4210089824",
+            "https://openalex.org/I4210090127",
+            "https://openalex.org/I4210107625",
+            "https://openalex.org/I4210117091",
+            "https://openalex.org/I4210131494",
+            "https://openalex.org/I4210166444",
+            "https://openalex.org/I4399657933"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1294671590",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "ror": "https://ror.org/02feahw73",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thierry Boulinier",
+      "raw_affiliation_strings": [
+        "CEFE CNRS Université de Montpellier  Montpellier France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "CEFE CNRS Université de Montpellier  Montpellier France",
+          "institution_ids": [
+            "https://openalex.org/I19894307",
+            "https://openalex.org/I4210089824",
+            "https://openalex.org/I1294671590"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 4,
+  "institutions_distinct_count": 9,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3400,
+    "currency": "USD",
+    "value_usd": 3400
+  },
+  "apc_paid": null,
+  "fwci": 1.467,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 27,
+  "citation_normalized_percentile": {
+    "value": 0.887498,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 92,
+    "max": 93
+  },
+  "biblio": {
+    "volume": "31",
+    "issue": "12",
+    "first_page": "2255",
+    "last_page": "2262"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12047",
+    "display_name": "Viral Infections and Vectors",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2725",
+      "display_name": "Infectious Diseases"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12047",
+      "display_name": "Viral Infections and Vectors",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11135",
+      "display_name": "Virology and Viral Diseases",
+      "score": 0.9992,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11560",
+      "display_name": "Animal Disease Management and Epidemiology",
+      "score": 0.9987,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1102",
+        "display_name": "Agronomy and Crop Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/shearwater",
+      "display_name": "Shearwater",
+      "score": 0.5479035
+    },
+    {
+      "id": "https://openalex.org/keywords/antibody-response",
+      "display_name": "Antibody response",
+      "score": 0.4626843
+    },
+    {
+      "id": "https://openalex.org/keywords/newcastle-disease",
+      "display_name": "Newcastle Disease",
+      "score": 0.41012836
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.84670925
+    },
+    {
+      "id": "https://openalex.org/C2777981335",
+      "wikidata": "https://www.wikidata.org/wiki/Q55808",
+      "display_name": "Seabird",
+      "level": 3,
+      "score": 0.8451376
+    },
+    {
+      "id": "https://openalex.org/C159654299",
+      "wikidata": "https://www.wikidata.org/wiki/Q79460",
+      "display_name": "Antibody",
+      "level": 2,
+      "score": 0.62354565
+    },
+    {
+      "id": "https://openalex.org/C2777004236",
+      "wikidata": "https://www.wikidata.org/wiki/Q2729486",
+      "display_name": "Shearwater",
+      "level": 4,
+      "score": 0.5479035
+    },
+    {
+      "id": "https://openalex.org/C147483822",
+      "wikidata": "https://www.wikidata.org/wiki/Q103537",
+      "display_name": "Antigen",
+      "level": 2,
+      "score": 0.50222707
+    },
+    {
+      "id": "https://openalex.org/C3018913218",
+      "wikidata": "https://www.wikidata.org/wiki/Q79460",
+      "display_name": "Antibody response",
+      "level": 3,
+      "score": 0.4626843
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.44705573
+    },
+    {
+      "id": "https://openalex.org/C22070199",
+      "wikidata": "https://www.wikidata.org/wiki/Q192995",
+      "display_name": "Vaccination",
+      "level": 2,
+      "score": 0.4111224
+    },
+    {
+      "id": "https://openalex.org/C2778116459",
+      "wikidata": "https://www.wikidata.org/wiki/Q327082",
+      "display_name": "Newcastle disease",
+      "level": 3,
+      "score": 0.41012836
+    },
+    {
+      "id": "https://openalex.org/C159047783",
+      "wikidata": "https://www.wikidata.org/wiki/Q7215",
+      "display_name": "Virology",
+      "level": 1,
+      "score": 0.40568393
+    },
+    {
+      "id": "https://openalex.org/C90856448",
+      "wikidata": "https://www.wikidata.org/wiki/Q431",
+      "display_name": "Zoology",
+      "level": 1,
+      "score": 0.38988677
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.36668652
+    },
+    {
+      "id": "https://openalex.org/C2522874641",
+      "wikidata": "https://www.wikidata.org/wiki/Q808",
+      "display_name": "Virus",
+      "level": 2,
+      "score": 0.31285837
+    },
+    {
+      "id": "https://openalex.org/C188382862",
+      "wikidata": "https://www.wikidata.org/wiki/Q170430",
+      "display_name": "Predation",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 7,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/1365-2435.12942",
+      "pdf_url": "https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2435.12942",
+      "source": {
+        "id": "https://openalex.org/S174303711",
+        "display_name": "Functional Ecology",
+        "issn_l": "0269-8463",
+        "issn": [
+          "0269-8463",
+          "1365-2435"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://hal.archives-ouvertes.fr/hal-01882627",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hal.science/hal-01882627",
+      "pdf_url": "https://hal.science/hal-01882627/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://hal.archives-ouvertes.fr/hal-02265946",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [
+          "Centre National de la Recherche Scientifique"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/2445/129165",
+      "pdf_url": "https://diposit.ub.edu/dspace/bitstream/2445/129165/1/672476.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401653",
+        "display_name": "Dipòsit Digital de la Universitat de Barcelona (Universitat de Barcelona)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I71999127",
+        "host_organization_name": "Universitat de Barcelona",
+        "host_organization_lineage": [
+          "https://openalex.org/I71999127"
+        ],
+        "host_organization_lineage_names": [
+          "Universitat de Barcelona"
+        ],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://nora.nerc.ac.uk/id/eprint/518799/1/N518799PP.pdf",
+      "pdf_url": "http://nora.nerc.ac.uk/id/eprint/518799/1/N518799PP.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400758",
+        "display_name": "NERC Open Research Archive (Natural Environment Research Council)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I141816643",
+        "host_organization_name": "Natural Environment Research Council",
+        "host_organization_lineage": [
+          "https://openalex.org/I141816643"
+        ],
+        "host_organization_lineage_names": [
+          "Natural Environment Research Council"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/10067/1476720151162165141",
+      "pdf_url": "https://repository.uantwerpen.be/docman/irua/ad69f8/147672_2018_12_01.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401849",
+        "display_name": "Institutional Repository University of Antwerp (University of Antwerp)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I149213910",
+        "host_organization_name": "University of Antwerp",
+        "host_organization_lineage": [
+          "https://openalex.org/I149213910"
+        ],
+        "host_organization_lineage_names": [
+          "University of Antwerp"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1111/1365-2435.12942",
+    "pdf_url": "https://besjournals.onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1365-2435.12942",
+    "source": {
+      "id": "https://openalex.org/S174303711",
+      "display_name": "Functional Ecology",
+      "issn_l": "0269-8463",
+      "issn": [
+        "0269-8463",
+        "1365-2435"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life below water",
+      "id": "https://metadata.un.org/sdg/14",
+      "score": 0.86
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320321730",
+      "funder_display_name": "Fonds Wetenschappelijk Onderzoek",
+      "award_id": null
+    },
+    {
+      "funder": "https://openalex.org/F4320322894",
+      "funder_display_name": "Institut Polaire Français Paul Emile Victor",
+      "award_id": null
+    },
+    {
+      "funder": "https://openalex.org/F4320324595",
+      "funder_display_name": "Universiteit Antwerpen",
+      "award_id": null
+    },
+    {
+      "funder": "https://openalex.org/F4320334830",
+      "funder_display_name": "Agència de Gestió d'Ajuts Universitaris i de Recerca",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 46,
+  "referenced_works": [
+    "https://openalex.org/W1513618424",
+    "https://openalex.org/W1593317159",
+    "https://openalex.org/W1735309556",
+    "https://openalex.org/W1950324986",
+    "https://openalex.org/W1965908730",
+    "https://openalex.org/W1973324921",
+    "https://openalex.org/W1976749229",
+    "https://openalex.org/W1980440482",
+    "https://openalex.org/W1984458662",
+    "https://openalex.org/W2005651505",
+    "https://openalex.org/W2006484318",
+    "https://openalex.org/W2009435671",
+    "https://openalex.org/W2021527271",
+    "https://openalex.org/W2022690702",
+    "https://openalex.org/W2031303540",
+    "https://openalex.org/W2036464060",
+    "https://openalex.org/W2036903670",
+    "https://openalex.org/W2043793067",
+    "https://openalex.org/W2054475511",
+    "https://openalex.org/W2066328831",
+    "https://openalex.org/W2068275533",
+    "https://openalex.org/W2073795274",
+    "https://openalex.org/W2078489309",
+    "https://openalex.org/W2087685360",
+    "https://openalex.org/W2101862939",
+    "https://openalex.org/W2110015038",
+    "https://openalex.org/W2111349951",
+    "https://openalex.org/W2111853899",
+    "https://openalex.org/W2117647297",
+    "https://openalex.org/W2127738311",
+    "https://openalex.org/W2142072736",
+    "https://openalex.org/W2142513195",
+    "https://openalex.org/W2149027501",
+    "https://openalex.org/W2149341732",
+    "https://openalex.org/W2154541543",
+    "https://openalex.org/W2154575823",
+    "https://openalex.org/W2166395615",
+    "https://openalex.org/W2171388695",
+    "https://openalex.org/W2187168815",
+    "https://openalex.org/W2276525458",
+    "https://openalex.org/W2322045384",
+    "https://openalex.org/W2323579874",
+    "https://openalex.org/W2361381800",
+    "https://openalex.org/W2436365621",
+    "https://openalex.org/W2478539902",
+    "https://openalex.org/W4302331569"
+  ],
+  "related_works": [
+    "https://openalex.org/W4200283823",
+    "https://openalex.org/W2908499608",
+    "https://openalex.org/W2891310394",
+    "https://openalex.org/W2549201559",
+    "https://openalex.org/W2183573427",
+    "https://openalex.org/W2183220999",
+    "https://openalex.org/W2084523308",
+    "https://openalex.org/W2071729615",
+    "https://openalex.org/W1992039707",
+    "https://openalex.org/W1550546481"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Many": [
+      1
+    ],
+    "studies": [
+      2
+    ],
+    "in": [
+      3,
+      22,
+      33,
+      135,
+      164,
+      266
+    ],
+    "disease": [
+      4,
+      155,
+      274
+    ],
+    "and": [
+      5,
+      45,
+      70,
+      76,
+      175,
+      217,
+      235,
+      259,
+      273
+    ],
+    "ecological": [
+      6,
+      271
+    ],
+    "immunology": [
+      7,
+      272
+    ],
+    "rely": [
+      8
+    ],
+    "on": [
+      9
+    ],
+    "the": [
+      10,
+      16,
+      46,
+      64,
+      78,
+      82,
+      128,
+      147,
+      188,
+      194,
+      221,
+      267
+    ],
+    "use": [
+      11,
+      129,
+      222
+    ],
+    "of": [
+      12,
+      18,
+      43,
+      49,
+      67,
+      81,
+      130,
+      149,
+      190,
+      202,
+      206,
+      211,
+      214,
+      223,
+      246,
+      270
+    ],
+    "assays": [
+      13,
+      26,
+      69,
+      120,
+      262
+    ],
+    "that": [
+      14,
+      90,
+      117
+    ],
+    "quantify": [
+      15
+    ],
+    "amount": [
+      17,
+      48
+    ],
+    "specific": [
+      19,
+      102,
+      150
+    ],
+    "antibodies": [
+      20,
+      99,
+      152
+    ],
+    "(immunoglobulin)": [
+      21
+    ],
+    "samples.": [
+      23
+    ],
+    "Enzyme‐linked": [
+      24
+    ],
+    "immunosorbent": [
+      25
+    ],
+    "(": [
+      27,
+      157
+    ],
+    "ELISA": [
+      28,
+      162,
+      191,
+      257
+    ],
+    "s)": [
+      29
+    ],
+    "are": [
+      30,
+      58,
+      91,
+      197
+    ],
+    "increasingly": [
+      31
+    ],
+    "used": [
+      32,
+      85
+    ],
+    "ecology": [
+      34
+    ],
+    "due": [
+      35
+    ],
+    "to": [
+      36,
+      86,
+      93,
+      97,
+      109,
+      185,
+      199,
+      254,
+      263
+    ],
+    "their": [
+      37,
+      139
+    ],
+    "availability": [
+      38,
+      66
+    ],
+    "for": [
+      39,
+      73,
+      282
+    ],
+    "a": [
+      40,
+      101,
+      182,
+      203,
+      252
+    ],
+    "broad": [
+      41
+    ],
+    "array": [
+      42
+    ],
+    "antigens": [
+      44
+    ],
+    "limited": [
+      47,
+      65
+    ],
+    "sampling": [
+      50
+    ],
+    "material": [
+      51
+    ],
+    "they": [
+      52
+    ],
+    "require.": [
+      53
+    ],
+    "Two": [
+      54
+    ],
+    "recurrent": [
+      55
+    ],
+    "methodological": [
+      56,
+      248
+    ],
+    "issues": [
+      57
+    ],
+    "nevertheless": [
+      59
+    ],
+    "faced": [
+      60
+    ],
+    "by": [
+      61,
+      145
+    ],
+    "researchers:": [
+      62
+    ],
+    "(1)": [
+      63
+    ],
+    "immunological": [
+      68
+    ],
+    "reagents": [
+      71
+    ],
+    "developed": [
+      72
+    ],
+    "non‐model": [
+      74
+    ],
+    "species,": [
+      75
+    ],
+    "(2)": [
+      77
+    ],
+    "statistical": [
+      79
+    ],
+    "determination": [
+      80
+    ],
+    "cut‐off": [
+      83
+    ],
+    "threshold": [
+      84
+    ],
+    "distinguish": [
+      87
+    ],
+    "individual": [
+      88
+    ],
+    "samples": [
+      89,
+      196
+    ],
+    "likely": [
+      92,
+      198
+    ],
+    "have": [
+      94,
+      98
+    ],
+    "or": [
+      95,
+      210
+    ],
+    "not": [
+      96
+    ],
+    "against": [
+      100,
+      153
+    ],
+    "antigen.": [
+      103
+    ],
+    "Here,": [
+      104
+    ],
+    "we": [
+      105,
+      115,
+      180
+    ],
+    "outline": [
+      106
+    ],
+    "two": [
+      107,
+      119,
+      161,
+      212,
+      227
+    ],
+    "solutions": [
+      108
+    ],
+    "deal": [
+      110
+    ],
+    "with": [
+      111,
+      121,
+      226
+    ],
+    "these": [
+      112,
+      247
+    ],
+    "issues.": [
+      113
+    ],
+    "First,": [
+      114
+    ],
+    "show": [
+      116
+    ],
+    "implementing": [
+      118
+    ],
+    "differing": [
+      122
+    ],
+    "detection": [
+      123
+    ],
+    "methods": [
+      124
+    ],
+    "can": [
+      125
+    ],
+    "help": [
+      126
+    ],
+    "validate": [
+      127
+    ],
+    "reagents,": [
+      131
+    ],
+    "such": [
+      132
+    ],
+    "as": [
+      133
+    ],
+    "antibodies,": [
+      134
+    ],
+    "species": [
+      136,
+      167
+    ],
+    "different": [
+      137
+    ],
+    "from": [
+      138,
+      187
+    ],
+    "intended": [
+      140
+    ],
+    "target.": [
+      141
+    ],
+    "We": [
+      142,
+      219
+    ],
+    "illustrate": [
+      143,
+      220
+    ],
+    "this": [
+      144,
+      224,
+      283
+    ],
+    "comparing": [
+      146
+    ],
+    "quantification": [
+      148
+    ],
+    "vaccinal": [
+      151
+    ],
+    "Newcastle": [
+      154
+    ],
+    "virus": [
+      156
+    ],
+    "NDV": [
+      158,
+      230
+    ],
+    ")": [
+      159
+    ],
+    "using": [
+      160
+    ],
+    "approaches": [
+      163,
+      249
+    ],
+    "four": [
+      165
+    ],
+    "seabird": [
+      166
+    ],
+    "(Cory's": [
+      168
+    ],
+    "shearwater,": [
+      169
+    ],
+    "European": [
+      170,
+      172
+    ],
+    "shag,": [
+      171
+    ],
+    "storm": [
+      173
+    ],
+    "petrel": [
+      174
+    ],
+    "Southern": [
+      176
+    ],
+    "rockhopper": [
+      177
+    ],
+    "penguin).": [
+      178
+    ],
+    "Second,": [
+      179
+    ],
+    "provide": [
+      181,
+      251
+    ],
+    "simple": [
+      183
+    ],
+    "way": [
+      184,
+      253
+    ],
+    "determine": [
+      186
+    ],
+    "distribution": [
+      189
+    ],
+    "values": [
+      192
+    ],
+    "whether": [
+      193
+    ],
+    "assayed": [
+      195
+    ],
+    "be": [
+      200
+    ],
+    "made": [
+      201
+    ],
+    "single": [
+      204
+    ],
+    "group": [
+      205
+    ],
+    "individuals": [
+      207,
+      215
+    ],
+    "(likely": [
+      208
+    ],
+    "negative)": [
+      209
+    ],
+    "groups": [
+      213
+    ],
+    "(negative": [
+      216
+    ],
+    "positive).": [
+      218
+    ],
+    "approach": [
+      225
+    ],
+    "independent": [
+      228
+    ],
+    "datasets:": [
+      229
+    ],
+    "antibody": [
+      231,
+      238
+    ],
+    "levels": [
+      232,
+      239
+    ],
+    "following": [
+      233,
+      240
+    ],
+    "vaccination": [
+      234
+    ],
+    "anti‐": [
+      236
+    ],
+    "Borrelia": [
+      237
+    ],
+    "natural": [
+      241
+    ],
+    "exposure.": [
+      242
+    ],
+    "The": [
+      243
+    ],
+    "practical": [
+      244
+    ],
+    "implementation": [
+      245
+    ],
+    "could": [
+      250
+    ],
+    "efficiently": [
+      255
+    ],
+    "apply": [
+      256
+    ],
+    "s": [
+      258
+    ],
+    "other": [
+      260
+    ],
+    "immune‐based": [
+      261
+    ],
+    "address": [
+      264
+    ],
+    "questions": [
+      265
+    ],
+    "growing": [
+      268
+    ],
+    "fields": [
+      269
+    ],
+    "ecology.": [
+      275
+    ],
+    "A": [
+      276
+    ],
+    "plain": [
+      277
+    ],
+    "language": [
+      278
+    ],
+    "summary": [
+      279
+    ],
+    "is": [
+      280
+    ],
+    "available": [
+      281
+    ],
+    "article.": [
+      284
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2739200365",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-06-17T02:52:48.438437",
+  "created_date": "2017-07-31"
+}

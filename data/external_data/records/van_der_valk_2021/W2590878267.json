@@ -1,0 +1,1730 @@
+{
+  "id": "https://openalex.org/W2590878267",
+  "doi": "https://doi.org/10.7717/peerj.3184",
+  "title": "Molecular assessment of the fecal microbiota in healthy cats and dogs before and during supplementation with fructo-oligosaccharides (FOS) and inulin using high-throughput 454-pyrosequencing",
+  "display_name": "Molecular assessment of the fecal microbiota in healthy cats and dogs before and during supplementation with fructo-oligosaccharides (FOS) and inulin using high-throughput 454-pyrosequencing",
+  "publication_year": 2017,
+  "publication_date": "2017-04-18",
+  "ids": {
+    "openalex": "https://openalex.org/W2590878267",
+    "doi": "https://doi.org/10.7717/peerj.3184",
+    "mag": "2590878267",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/28439463",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5398277"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.7717/peerj.3184",
+    "pdf_url": "https://peerj.com/articles/3184.pdf",
+    "source": {
+      "id": "https://openalex.org/S1983995261",
+      "display_name": "PeerJ",
+      "issn_l": "2167-8359",
+      "issn": [
+        "2167-8359"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320104",
+      "host_organization_name": "PeerJ, Inc.",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320104"
+      ],
+      "host_organization_lineage_names": [
+        "PeerJ, Inc."
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://peerj.com/articles/3184.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5052429799",
+        "display_name": "José F. García-Mazcorro",
+        "orcid": "https://orcid.org/0000-0001-6047-4361"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I91045830",
+          "display_name": "Texas A&M University",
+          "ror": "https://ror.org/01f5ytq51",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I169046204",
+          "display_name": "Universidad Autónoma de Nuevo León",
+          "ror": "https://ror.org/01fh86n78",
+          "country_code": "MX",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I169046204"
+          ]
+        }
+      ],
+      "countries": [
+        "MX",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jose F. Garcia-Mazcorro",
+      "raw_affiliation_strings": [
+        "Faculty of Veterinary Medicine, Universidad Autónoma de Nuevo León, General Escobedo, Nuevo Leon, Mexico",
+        "Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, College of Veterinary Medicine & Biomedical Sciences, Texas A&M University, College Station, TX, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, College of Veterinary Medicine & Biomedical Sciences, Texas A&M University, College Station, TX, United States",
+          "institution_ids": [
+            "https://openalex.org/I91045830"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Faculty of Veterinary Medicine, Universidad Autónoma de Nuevo León, General Escobedo, Nuevo Leon, Mexico",
+          "institution_ids": [
+            "https://openalex.org/I169046204"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033768584",
+        "display_name": "José Bárcenas-Walls",
+        "orcid": "https://orcid.org/0000-0003-3033-0185"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I169046204",
+          "display_name": "Universidad Autónoma de Nuevo León",
+          "ror": "https://ror.org/01fh86n78",
+          "country_code": "MX",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I169046204"
+          ]
+        }
+      ],
+      "countries": [
+        "MX"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jose R. Barcenas-Walls",
+      "raw_affiliation_strings": [
+        "Center for Research and Development in Health Sciences (CIDICS), Genomics Unit, Universidad Autónoma de Nuevo León, Monterrey, Nuevo Leon, Mexico"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Research and Development in Health Sciences (CIDICS), Genomics Unit, Universidad Autónoma de Nuevo León, Monterrey, Nuevo Leon, Mexico",
+          "institution_ids": [
+            "https://openalex.org/I169046204"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017199731",
+        "display_name": "Jan S. Suchodolski",
+        "orcid": "https://orcid.org/0000-0002-2176-6932"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I91045830",
+          "display_name": "Texas A&M University",
+          "ror": "https://ror.org/01f5ytq51",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jan S. Suchodolski",
+      "raw_affiliation_strings": [
+        "Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, College of Veterinary Medicine & Biomedical Sciences, Texas A&M University, College Station, TX, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, College of Veterinary Medicine & Biomedical Sciences, Texas A&M University, College Station, TX, United States",
+          "institution_ids": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5110074489",
+        "display_name": "Jörg M. Steiner",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I91045830",
+          "display_name": "Texas A&M University",
+          "ror": "https://ror.org/01f5ytq51",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jörg M. Steiner",
+      "raw_affiliation_strings": [
+        "Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, College of Veterinary Medicine & Biomedical Sciences, Texas A&M University, College Station, TX, United States"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gastrointestinal Laboratory, Department of Small Animal Clinical Sciences, College of Veterinary Medicine & Biomedical Sciences, Texas A&M University, College Station, TX, United States",
+          "institution_ids": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 1395,
+    "currency": "USD",
+    "value_usd": 1395
+  },
+  "apc_paid": {
+    "value": 1395,
+    "currency": "USD",
+    "value_usd": 1395
+  },
+  "fwci": 2.236,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 59,
+  "citation_normalized_percentile": {
+    "value": 0.999984,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "5",
+    "issue": null,
+    "first_page": "e3184",
+    "last_page": "e3184"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10066",
+    "display_name": "Gut microbiota and health",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10066",
+      "display_name": "Gut microbiota and health",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10141",
+      "display_name": "Probiotics and Fermented Foods",
+      "score": 0.9974,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1106",
+        "display_name": "Food Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11288",
+      "display_name": "Clostridium difficile and Clostridium perfringens research",
+      "score": 0.9904,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2725",
+        "display_name": "Infectious Diseases"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/prebiotic",
+      "display_name": "Prebiotic",
+      "score": 0.97164464
+    },
+    {
+      "id": "https://openalex.org/keywords/pyrosequencing",
+      "display_name": "Pyrosequencing",
+      "score": 0.70095795
+    },
+    {
+      "id": "https://openalex.org/keywords/phascolarctos-cinereus",
+      "display_name": "Phascolarctos cinereus",
+      "score": 0.4107346
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2775980262",
+      "wikidata": "https://www.wikidata.org/wiki/Q218870",
+      "display_name": "Prebiotic",
+      "level": 2,
+      "score": 0.97164464
+    },
+    {
+      "id": "https://openalex.org/C2779742124",
+      "wikidata": "https://www.wikidata.org/wiki/Q201552",
+      "display_name": "Inulin",
+      "level": 2,
+      "score": 0.7749927
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.71992445
+    },
+    {
+      "id": "https://openalex.org/C61716771",
+      "wikidata": "https://www.wikidata.org/wiki/Q496",
+      "display_name": "Feces",
+      "level": 2,
+      "score": 0.71531504
+    },
+    {
+      "id": "https://openalex.org/C125009961",
+      "wikidata": "https://www.wikidata.org/wiki/Q2342248",
+      "display_name": "Pyrosequencing",
+      "level": 3,
+      "score": 0.70095795
+    },
+    {
+      "id": "https://openalex.org/C539455810",
+      "wikidata": "https://www.wikidata.org/wiki/Q739734",
+      "display_name": "Gut flora",
+      "level": 2,
+      "score": 0.65722156
+    },
+    {
+      "id": "https://openalex.org/C15151743",
+      "wikidata": "https://www.wikidata.org/wiki/Q903778",
+      "display_name": "Metagenomics",
+      "level": 3,
+      "score": 0.49376163
+    },
+    {
+      "id": "https://openalex.org/C89423630",
+      "wikidata": "https://www.wikidata.org/wiki/Q7193",
+      "display_name": "Microbiology",
+      "level": 1,
+      "score": 0.425986
+    },
+    {
+      "id": "https://openalex.org/C31903555",
+      "wikidata": "https://www.wikidata.org/wiki/Q1637030",
+      "display_name": "Food science",
+      "level": 1,
+      "score": 0.42421305
+    },
+    {
+      "id": "https://openalex.org/C2909354612",
+      "wikidata": "https://www.wikidata.org/wiki/Q36101",
+      "display_name": "Phascolarctos cinereus",
+      "level": 3,
+      "score": 0.4107346
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.15649977
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.14012915
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.13172993
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.06780806
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 7,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.7717/peerj.3184",
+      "pdf_url": "https://peerj.com/articles/3184.pdf",
+      "source": {
+        "id": "https://openalex.org/S1983995261",
+        "display_name": "PeerJ",
+        "issn_l": "2167-8359",
+        "issn": [
+          "2167-8359"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320104",
+        "host_organization_name": "PeerJ, Inc.",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320104"
+        ],
+        "host_organization_lineage_names": [
+          "PeerJ, Inc."
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doaj.org/article/d0b74090207549eaa0c7b2501e92fe15",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5398277",
+      "pdf_url": "https://europepmc.org/articles/pmc5398277?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5398277",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://eprints.uanl.mx/14614/1/119.pdf",
+      "pdf_url": "http://eprints.uanl.mx/14614/1/119.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400994",
+        "display_name": "El Repositorio Academico Digital de la UANL (Universidad Autónoma de Nuevo León)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I169046204",
+        "host_organization_name": "Universidad Autónoma de Nuevo León",
+        "host_organization_lineage": [
+          "https://openalex.org/I169046204"
+        ],
+        "host_organization_lineage_names": [
+          "Universidad Autónoma de Nuevo León"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://eprints.uanl.mx/18262/1/551.pdf",
+      "pdf_url": "http://eprints.uanl.mx/18262/1/551.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400994",
+        "display_name": "El Repositorio Academico Digital de la UANL (Universidad Autónoma de Nuevo León)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I169046204",
+        "host_organization_name": "Universidad Autónoma de Nuevo León",
+        "host_organization_lineage": [
+          "https://openalex.org/I169046204"
+        ],
+        "host_organization_lineage_names": [
+          "Universidad Autónoma de Nuevo León"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/28439463",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.7717/peerj.3184",
+    "pdf_url": "https://peerj.com/articles/3184.pdf",
+    "source": {
+      "id": "https://openalex.org/S1983995261",
+      "display_name": "PeerJ",
+      "issn_l": "2167-8359",
+      "issn": [
+        "2167-8359"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320104",
+      "host_organization_name": "PeerJ, Inc.",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320104"
+      ],
+      "host_organization_lineage_names": [
+        "PeerJ, Inc."
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Peace, justice, and strong institutions",
+      "id": "https://metadata.un.org/sdg/16",
+      "score": 0.61
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 68,
+  "referenced_works": [
+    "https://openalex.org/W1482087757",
+    "https://openalex.org/W1496276475",
+    "https://openalex.org/W1600342531",
+    "https://openalex.org/W1748662539",
+    "https://openalex.org/W1775288579",
+    "https://openalex.org/W1823535928",
+    "https://openalex.org/W1871057772",
+    "https://openalex.org/W1898551459",
+    "https://openalex.org/W1948774627",
+    "https://openalex.org/W1964189150",
+    "https://openalex.org/W1968105193",
+    "https://openalex.org/W1975954511",
+    "https://openalex.org/W1983320630",
+    "https://openalex.org/W1988925586",
+    "https://openalex.org/W2006036718",
+    "https://openalex.org/W2008586271",
+    "https://openalex.org/W2012003494",
+    "https://openalex.org/W2017349897",
+    "https://openalex.org/W2017434308",
+    "https://openalex.org/W2018845103",
+    "https://openalex.org/W2020111163",
+    "https://openalex.org/W2025306961",
+    "https://openalex.org/W2027013026",
+    "https://openalex.org/W2029862378",
+    "https://openalex.org/W2038810609",
+    "https://openalex.org/W2039011877",
+    "https://openalex.org/W2043442946",
+    "https://openalex.org/W2043458293",
+    "https://openalex.org/W2045062448",
+    "https://openalex.org/W2050376374",
+    "https://openalex.org/W2053976509",
+    "https://openalex.org/W2058742508",
+    "https://openalex.org/W2058817369",
+    "https://openalex.org/W2072970694",
+    "https://openalex.org/W2076437954",
+    "https://openalex.org/W2080759184",
+    "https://openalex.org/W2087223690",
+    "https://openalex.org/W2088678466",
+    "https://openalex.org/W2090097906",
+    "https://openalex.org/W2090657329",
+    "https://openalex.org/W2092696502",
+    "https://openalex.org/W2101649102",
+    "https://openalex.org/W2109852537",
+    "https://openalex.org/W2110300022",
+    "https://openalex.org/W2111902044",
+    "https://openalex.org/W2114089110",
+    "https://openalex.org/W2119160761",
+    "https://openalex.org/W2122007620",
+    "https://openalex.org/W2124351063",
+    "https://openalex.org/W2133856765",
+    "https://openalex.org/W2136993578",
+    "https://openalex.org/W2137583743",
+    "https://openalex.org/W2145664556",
+    "https://openalex.org/W2157692150",
+    "https://openalex.org/W2164984702",
+    "https://openalex.org/W2166924822",
+    "https://openalex.org/W2169945698",
+    "https://openalex.org/W2170024099",
+    "https://openalex.org/W2171421450",
+    "https://openalex.org/W2207806370",
+    "https://openalex.org/W2233727708",
+    "https://openalex.org/W2274499695",
+    "https://openalex.org/W2341437691",
+    "https://openalex.org/W2414842262",
+    "https://openalex.org/W2512102532",
+    "https://openalex.org/W2514744092",
+    "https://openalex.org/W30236741",
+    "https://openalex.org/W4205366374"
+  ],
+  "related_works": [
+    "https://openalex.org/W4400902384",
+    "https://openalex.org/W4399492343",
+    "https://openalex.org/W4321121379",
+    "https://openalex.org/W3168475167",
+    "https://openalex.org/W3015385187",
+    "https://openalex.org/W2986031300",
+    "https://openalex.org/W2528157221",
+    "https://openalex.org/W2171933430",
+    "https://openalex.org/W2033057608",
+    "https://openalex.org/W1983103741"
+  ],
+  "abstract_inverted_index": {
+    "Prebiotics": [
+      0
+    ],
+    "are": [
+      1,
+      362,
+      422
+    ],
+    "selectively": [
+      2
+    ],
+    "fermentable": [
+      3
+    ],
+    "dietary": [
+      4
+    ],
+    "compounds": [
+      5
+    ],
+    "that": [
+      6,
+      131,
+      359,
+      368,
+      381
+    ],
+    "result": [
+      7
+    ],
+    "in": [
+      8,
+      10,
+      138,
+      199,
+      210,
+      285,
+      392,
+      407,
+      434
+    ],
+    "changes": [
+      9,
+      42,
+      313,
+      433
+    ],
+    "the": [
+      11,
+      16,
+      41,
+      46,
+      49,
+      55,
+      68,
+      162,
+      177,
+      234,
+      255,
+      276,
+      386,
+      389,
+      393,
+      401
+    ],
+    "composition": [
+      12,
+      47
+    ],
+    "and/or": [
+      13
+    ],
+    "activity": [
+      14
+    ],
+    "of": [
+      15,
+      48,
+      57,
+      71,
+      167,
+      173,
+      182,
+      188,
+      194,
+      225,
+      233,
+      241,
+      245,
+      269,
+      281,
+      292,
+      300,
+      306,
+      331,
+      341,
+      350,
+      370,
+      388,
+      403,
+      414
+    ],
+    "intestinal": [
+      17
+    ],
+    "microbiota,": [
+      18
+    ],
+    "thus": [
+      19
+    ],
+    "conferring": [
+      20
+    ],
+    "benefits": [
+      21
+    ],
+    "upon": [
+      22
+    ],
+    "host": [
+      23,
+      430
+    ],
+    "health.": [
+      24
+    ],
+    "In": [
+      25
+    ],
+    "veterinary": [
+      26
+    ],
+    "medicine,": [
+      27
+    ],
+    "commercially": [
+      28,
+      59,
+      415
+    ],
+    "available": [
+      29,
+      60,
+      416
+    ],
+    "products": [
+      30,
+      417
+    ],
+    "containing": [
+      31,
+      62,
+      180,
+      279,
+      418
+    ],
+    "prebiotics": [
+      32,
+      168,
+      270
+    ],
+    "have": [
+      33
+    ],
+    "not": [
+      34,
+      215,
+      251,
+      315
+    ],
+    "been": [
+      35
+    ],
+    "well": [
+      36
+    ],
+    "studied": [
+      37
+    ],
+    "with": [
+      38,
+      149,
+      176,
+      275
+    ],
+    "regard": [
+      39
+    ],
+    "to": [
+      40,
+      142,
+      217,
+      317,
+      326,
+      376,
+      424
+    ],
+    "they": [
+      43
+    ],
+    "trigger": [
+      44
+    ],
+    "on": [
+      45,
+      67,
+      429
+    ],
+    "gut": [
+      50,
+      404
+    ],
+    "microbiota.": [
+      51
+    ],
+    "This": [
+      52,
+      343,
+      395
+    ],
+    "study": [
+      53,
+      344,
+      396
+    ],
+    "evaluated": [
+      54
+    ],
+    "effect": [
+      56,
+      121
+    ],
+    "a": [
+      58,
+      150,
+      185,
+      191,
+      204,
+      266,
+      289,
+      297,
+      346,
+      379
+    ],
+    "nutraceutical": [
+      61
+    ],
+    "fructo-oligosaccharides": [
+      63
+    ],
+    "(FOS)": [
+      64
+    ],
+    "and": [
+      65,
+      74,
+      90,
+      106,
+      153,
+      190,
+      258,
+      287,
+      296,
+      302,
+      357,
+      367,
+      410
+    ],
+    "inulin": [
+      66
+    ],
+    "fecal": [
+      69,
+      104,
+      235,
+      351
+    ],
+    "microbiota": [
+      70
+    ],
+    "healthy": [
+      72
+    ],
+    "cats": [
+      73,
+      356,
+      409
+    ],
+    "dogs": [
+      75,
+      286,
+      411
+    ],
+    "when": [
+      76
+    ],
+    "administered": [
+      77,
+      391
+    ],
+    "for": [
+      78,
+      110,
+      127
+    ],
+    "16": [
+      79
+    ],
+    "days.": [
+      80
+    ],
+    "Fecal": [
+      81
+    ],
+    "samples": [
+      82,
+      105
+    ],
+    "were": [
+      83,
+      159,
+      214,
+      314
+    ],
+    "collected": [
+      84
+    ],
+    "at": [
+      85,
+      91,
+      334
+    ],
+    "two": [
+      86,
+      92
+    ],
+    "time": [
+      87,
+      93
+    ],
+    "points": [
+      88,
+      94
+    ],
+    "before": [
+      89,
+      257
+    ],
+    "during": [
+      95,
+      196,
+      207,
+      259,
+      308,
+      412
+    ],
+    "prebiotic": [
+      96,
+      143,
+      197,
+      208,
+      260,
+      309,
+      377,
+      390
+    ],
+    "administration.": [
+      97,
+      144,
+      261,
+      310
+    ],
+    "Total": [
+      98
+    ],
+    "genomic": [
+      99
+    ],
+    "DNA": [
+      100
+    ],
+    "was": [
+      101,
+      108,
+      125,
+      147,
+      283
+    ],
+    "obtained": [
+      102
+    ],
+    "from": [
+      103,
+      354
+    ],
+    "454-pyrosequencing": [
+      107
+    ],
+    "used": [
+      109,
+      126
+    ],
+    "16S": [
+      111
+    ],
+    "rRNA": [
+      112
+    ],
+    "gene": [
+      113
+    ],
+    "bacterial": [
+      114,
+      129,
+      219,
+      236,
+      319,
+      332,
+      352,
+      405,
+      435
+    ],
+    "profiling.": [
+      115
+    ],
+    "The": [
+      116
+    ],
+    "linear": [
+      117
+    ],
+    "discriminant": [
+      118
+    ],
+    "analysis": [
+      119,
+      224,
+      330
+    ],
+    "(LDA)": [
+      120
+    ],
+    "size": [
+      122
+    ],
+    "(LEfSe)": [
+      123
+    ],
+    "method": [
+      124
+    ],
+    "detecting": [
+      128
+    ],
+    "taxa": [
+      130
+    ],
+    "may": [
+      132,
+      382
+    ],
+    "respond": [
+      133
+    ],
+    "(i.e.,": [
+      134
+    ],
+    "increase": [
+      135
+    ],
+    "or": [
+      136,
+      321
+    ],
+    "decrease": [
+      137
+    ],
+    "its": [
+      139
+    ],
+    "relative": [
+      140
+    ],
+    "abundance)": [
+      141
+    ],
+    "Prebiotic": [
+      145
+    ],
+    "administration": [
+      146,
+      198,
+      209,
+      413
+    ],
+    "associated": [
+      148
+    ],
+    "good": [
+      151
+    ],
+    "acceptance": [
+      152
+    ],
+    "no": [
+      154
+    ],
+    "side": [
+      155
+    ],
+    "effects": [
+      156,
+      428
+    ],
+    "(e.g.,": [
+      157
+    ],
+    "diarrhea)": [
+      158
+    ],
+    "reported": [
+      160
+    ],
+    "by": [
+      161,
+      223,
+      243,
+      385
+    ],
+    "owners.": [
+      163
+    ],
+    "A": [
+      164,
+      230,
+      262,
+      328
+    ],
+    "low": [
+      165
+    ],
+    "dose": [
+      166,
+      268
+    ],
+    "(50": [
+      169
+    ],
+    "mL": [
+      170
+    ],
+    "total": [
+      171
+    ],
+    "regardless": [
+      172
+    ],
+    "body": [
+      174,
+      273
+    ],
+    "weight": [
+      175,
+      274
+    ],
+    "end": [
+      178,
+      277
+    ],
+    "product": [
+      179,
+      278
+    ],
+    "0.45%": [
+      181
+    ],
+    "prebiotics)": [
+      183,
+      282
+    ],
+    "revealed": [
+      184,
+      288,
+      337
+    ],
+    "lower": [
+      186,
+      290
+    ],
+    "abundance": [
+      187,
+      193,
+      206,
+      291,
+      299
+    ],
+    "Gammaproteobacteria": [
+      189
+    ],
+    "higher": [
+      192,
+      205,
+      267,
+      298
+    ],
+    "Veillonellaceae": [
+      195,
+      307
+    ],
+    "cats,": [
+      200
+    ],
+    "while": [
+      201
+    ],
+    "Staphylococcaceae": [
+      202
+    ],
+    "showed": [
+      203
+    ],
+    "dogs.": [
+      211
+    ],
+    "These": [
+      212
+    ],
+    "differences": [
+      213,
+      253
+    ],
+    "sufficient": [
+      216,
+      316
+    ],
+    "separate": [
+      218,
+      318
+    ],
+    "communities": [
+      220,
+      320,
+      333,
+      353,
+      361,
+      406
+    ],
+    "as": [
+      221
+    ],
+    "shown": [
+      222
+    ],
+    "weighted": [
+      226
+    ],
+    "UniFrac": [
+      227
+    ],
+    "distance": [
+      228
+    ],
+    "metrics.": [
+      229
+    ],
+    "predictive": [
+      231
+    ],
+    "approach": [
+      232
+    ],
+    "metagenome": [
+      237
+    ],
+    "using": [
+      238,
+      265
+    ],
+    "Phylogenetic": [
+      239
+    ],
+    "Investigation": [
+      240
+    ],
+    "Communities": [
+      242
+    ],
+    "Reconstruction": [
+      244
+    ],
+    "Unobserved": [
+      246
+    ],
+    "States": [
+      247
+    ],
+    "(PICRUSt)": [
+      248
+    ],
+    "also": [
+      249,
+      397
+    ],
+    "did": [
+      250
+    ],
+    "reveal": [
+      252
+    ],
+    "between": [
+      254
+    ],
+    "period": [
+      256
+    ],
+    "second": [
+      263
+    ],
+    "trial": [
+      264
+    ],
+    "(3.2": [
+      271
+    ],
+    "mL/kg": [
+      272
+    ],
+    "3.1%": [
+      280
+    ],
+    "tested": [
+      284
+    ],
+    "Dorea": [
+      293
+    ],
+    "(family": [
+      294
+    ],
+    "Clostridiaceae)": [
+      295
+    ],
+    "Megamonas": [
+      301
+    ],
+    "other": [
+      303
+    ],
+    "(unknown)": [
+      304
+    ],
+    "members": [
+      305
+    ],
+    "Again,": [
+      311
+    ],
+    "these": [
+      312,
+      360
+    ],
+    "predicted": [
+      322
+    ],
+    "metabolic": [
+      323
+    ],
+    "profiles": [
+      324
+    ],
+    "according": [
+      325
+    ],
+    "treatment.": [
+      327
+    ],
+    "closer": [
+      329
+    ],
+    "all": [
+      335
+    ],
+    "time-points": [
+      336
+    ],
+    "highly": [
+      338
+    ],
+    "individualized": [
+      339
+    ],
+    "patterns": [
+      340
+    ],
+    "variation.": [
+      342
+    ],
+    "shows": [
+      345
+    ],
+    "high": [
+      347
+    ],
+    "interindividual": [
+      348
+    ],
+    "variation": [
+      349,
+      372
+    ],
+    "pet": [
+      355,
+      408
+    ],
+    "dogs,": [
+      358
+    ],
+    "relatively": [
+      363
+    ],
+    "stable": [
+      364
+    ],
+    "over": [
+      365
+    ],
+    "time,": [
+      366
+    ],
+    "some": [
+      369
+    ],
+    "this": [
+      371
+    ],
+    "can": [
+      373
+    ],
+    "be": [
+      374,
+      383
+    ],
+    "attributable": [
+      375
+    ],
+    "administration,": [
+      378
+    ],
+    "phenomenon": [
+      380
+    ],
+    "affected": [
+      384
+    ],
+    "amount": [
+      387
+    ],
+    "formulation.": [
+      394
+    ],
+    "provides": [
+      398
+    ],
+    "insights": [
+      399
+    ],
+    "into": [
+      400
+    ],
+    "response": [
+      402
+    ],
+    "prebiotics.": [
+      419
+    ],
+    "More": [
+      420
+    ],
+    "studies": [
+      421
+    ],
+    "needed": [
+      423
+    ],
+    "explore": [
+      425
+    ],
+    "potentially": [
+      426
+    ],
+    "beneficial": [
+      427
+    ],
+    "health": [
+      431
+    ],
+    "beyond": [
+      432
+    ],
+    "communities.": [
+      436
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2590878267",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-04-30T13:08:39.026139",
+  "created_date": "2017-03-03"
+}

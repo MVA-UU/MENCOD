@@ -1,0 +1,837 @@
+{
+  "id": "https://openalex.org/W2002519246",
+  "doi": "https://doi.org/10.1016/0092-8674(94)90006-x",
+  "title": "Stimulation of adipogenesis in fibroblasts by PPARγ2, a lipid-activated transcription factor",
+  "display_name": "Stimulation of adipogenesis in fibroblasts by PPARγ2, a lipid-activated transcription factor",
+  "publication_year": 1994,
+  "publication_date": "1994-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2002519246",
+    "doi": "https://doi.org/10.1016/0092-8674(94)90006-x",
+    "mag": "2002519246",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/8001151"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/0092-8674(94)90006-x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S110447773",
+      "display_name": "Cell",
+      "issn_l": "0092-8674",
+      "issn": [
+        "0092-8674",
+        "1097-4172"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315673",
+      "host_organization_name": "Cell Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990",
+        "https://openalex.org/P4310315673"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV",
+        "Cell Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5029940065",
+        "display_name": "Peter Tontonoz",
+        "orcid": "https://orcid.org/0000-0003-1259-0477"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210117453",
+          "display_name": "Dana-Farber Cancer Institute",
+          "ror": "https://ror.org/02jzgtq86",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210117453"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter Tontonoz",
+      "raw_affiliation_strings": [
+        "Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts 02115."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dana-Farber Cancer Institute, Harvard Medical School, Boston, Massachusetts 02115.",
+          "institution_ids": [
+            "https://openalex.org/I4210117453",
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085167417",
+        "display_name": "Erding Hu",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210117453",
+          "display_name": "Dana-Farber Cancer Institute",
+          "ror": "https://ror.org/02jzgtq86",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210117453"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Erding Hu",
+      "raw_affiliation_strings": [
+        "Dana-Farber Cancer Institute and the Department of Cell Biology, Harvard Medical School, Boston, Massachusetts 02115, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dana-Farber Cancer Institute and the Department of Cell Biology, Harvard Medical School, Boston, Massachusetts 02115, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210117453",
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5022918796",
+        "display_name": "Bruce M. Spiegelman",
+        "orcid": "https://orcid.org/0000-0002-7658-4802"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210117453",
+          "display_name": "Dana-Farber Cancer Institute",
+          "ror": "https://ror.org/02jzgtq86",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I4210117453"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bruce M. Spiegelman",
+      "raw_affiliation_strings": [
+        "Dana-Farber Cancer Institute and the Department of Cell Biology, Harvard Medical School, Boston, Massachusetts 02115, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dana-Farber Cancer Institute and the Department of Cell Biology, Harvard Medical School, Boston, Massachusetts 02115, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210117453",
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 10100,
+    "currency": "USD",
+    "value_usd": 10100
+  },
+  "apc_paid": null,
+  "fwci": 24.211,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 3510,
+  "citation_normalized_percentile": {
+    "value": 0.999966,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "79",
+    "issue": "7",
+    "first_page": "1147",
+    "last_page": "1156"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11072",
+    "display_name": "Peroxisome Proliferator-Activated Receptors",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11072",
+      "display_name": "Peroxisome Proliferator-Activated Receptors",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11457",
+      "display_name": "Adipose Tissue and Metabolism",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11844",
+      "display_name": "Lipid metabolism and biosynthesis",
+      "score": 0.9969,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1303",
+        "display_name": "Biochemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776175234",
+      "wikidata": "https://www.wikidata.org/wiki/Q357519",
+      "display_name": "Adipocyte",
+      "level": 3,
+      "score": 0.8761483
+    },
+    {
+      "id": "https://openalex.org/C122927707",
+      "wikidata": "https://www.wikidata.org/wiki/Q2824461",
+      "display_name": "Adipogenesis",
+      "level": 3,
+      "score": 0.83943737
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.79982984
+    },
+    {
+      "id": "https://openalex.org/C187345961",
+      "wikidata": "https://www.wikidata.org/wiki/Q419629",
+      "display_name": "Peroxisome proliferator-activated receptor",
+      "level": 3,
+      "score": 0.7087328
+    },
+    {
+      "id": "https://openalex.org/C86339819",
+      "wikidata": "https://www.wikidata.org/wiki/Q407384",
+      "display_name": "Transcription factor",
+      "level": 3,
+      "score": 0.7078717
+    },
+    {
+      "id": "https://openalex.org/C171089720",
+      "wikidata": "https://www.wikidata.org/wiki/Q193583",
+      "display_name": "Adipose tissue",
+      "level": 2,
+      "score": 0.5834259
+    },
+    {
+      "id": "https://openalex.org/C4733338",
+      "wikidata": "https://www.wikidata.org/wiki/Q2792936",
+      "display_name": "Lipid metabolism",
+      "level": 2,
+      "score": 0.5740091
+    },
+    {
+      "id": "https://openalex.org/C95444343",
+      "wikidata": "https://www.wikidata.org/wiki/Q7141",
+      "display_name": "Cell biology",
+      "level": 1,
+      "score": 0.5594313
+    },
+    {
+      "id": "https://openalex.org/C130241916",
+      "wikidata": "https://www.wikidata.org/wiki/Q20970208",
+      "display_name": "Peroxisome proliferator-activated receptor gamma",
+      "level": 4,
+      "score": 0.5312096
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.49106574
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.4871773
+    },
+    {
+      "id": "https://openalex.org/C148738053",
+      "wikidata": "https://www.wikidata.org/wiki/Q210861",
+      "display_name": "Cellular differentiation",
+      "level": 3,
+      "score": 0.4632607
+    },
+    {
+      "id": "https://openalex.org/C63932345",
+      "wikidata": "https://www.wikidata.org/wiki/Q422500",
+      "display_name": "Nuclear receptor",
+      "level": 4,
+      "score": 0.45968056
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.4374414
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.20358384
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.051712126
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D017667",
+      "descriptor_name": "Adipocytes",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005347",
+      "descriptor_name": "Fibroblasts",
+      "qualifier_ui": "Q000166",
+      "qualifier_name": "cytology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018160",
+      "descriptor_name": "Receptors, Cytoplasmic and Nuclear",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014157",
+      "descriptor_name": "Transcription Factors",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016475",
+      "descriptor_name": "3T3 Cells",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017667",
+      "descriptor_name": "Adipocytes",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001483",
+      "descriptor_name": "Base Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D022762",
+      "descriptor_name": "CCAAT-Enhancer-Binding Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002454",
+      "descriptor_name": "Cell Differentiation",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002454",
+      "descriptor_name": "Cell Differentiation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002460",
+      "descriptor_name": "Cell Line",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004268",
+      "descriptor_name": "DNA-Binding Proteins",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004268",
+      "descriptor_name": "DNA-Binding Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005227",
+      "descriptor_name": "Fatty Acids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005227",
+      "descriptor_name": "Fatty Acids",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005347",
+      "descriptor_name": "Fibroblasts",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005786",
+      "descriptor_name": "Gene Expression Regulation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008807",
+      "descriptor_name": "Mice, Inbred BALB C",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009154",
+      "descriptor_name": "Mutation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009687",
+      "descriptor_name": "Nuclear Proteins",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009687",
+      "descriptor_name": "Nuclear Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018160",
+      "descriptor_name": "Receptors, Cytoplasmic and Nuclear",
+      "qualifier_ui": "Q000096",
+      "qualifier_name": "biosynthesis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018160",
+      "descriptor_name": "Receptors, Cytoplasmic and Nuclear",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011994",
+      "descriptor_name": "Recombinant Proteins",
+      "qualifier_ui": "Q000096",
+      "qualifier_name": "biosynthesis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011994",
+      "descriptor_name": "Recombinant Proteins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014157",
+      "descriptor_name": "Transcription Factors",
+      "qualifier_ui": "Q000096",
+      "qualifier_name": "biosynthesis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014157",
+      "descriptor_name": "Transcription Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/0092-8674(94)90006-x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S110447773",
+        "display_name": "Cell",
+        "issn_l": "0092-8674",
+        "issn": [
+          "0092-8674",
+          "1097-4172"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315673",
+        "host_organization_name": "Cell Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990",
+          "https://openalex.org/P4310315673"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV",
+          "Cell Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/8001151",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 48,
+  "referenced_works": [
+    "https://openalex.org/W1559792721",
+    "https://openalex.org/W1569704074",
+    "https://openalex.org/W1588631487",
+    "https://openalex.org/W1595544422",
+    "https://openalex.org/W1934109449",
+    "https://openalex.org/W1951350042",
+    "https://openalex.org/W1954063909",
+    "https://openalex.org/W1968013290",
+    "https://openalex.org/W1970473343",
+    "https://openalex.org/W1978125779",
+    "https://openalex.org/W1979761686",
+    "https://openalex.org/W1980129974",
+    "https://openalex.org/W1987040411",
+    "https://openalex.org/W1988059168",
+    "https://openalex.org/W1990120674",
+    "https://openalex.org/W2006659499",
+    "https://openalex.org/W2009046213",
+    "https://openalex.org/W2016298359",
+    "https://openalex.org/W2019899393",
+    "https://openalex.org/W2025247232",
+    "https://openalex.org/W2025505666",
+    "https://openalex.org/W2029931635",
+    "https://openalex.org/W2052738177",
+    "https://openalex.org/W2060333964",
+    "https://openalex.org/W2061144747",
+    "https://openalex.org/W2065163855",
+    "https://openalex.org/W2066092624",
+    "https://openalex.org/W2070538981",
+    "https://openalex.org/W2079071895",
+    "https://openalex.org/W2083436346",
+    "https://openalex.org/W2084344722",
+    "https://openalex.org/W2084665581",
+    "https://openalex.org/W2086730539",
+    "https://openalex.org/W2094115400",
+    "https://openalex.org/W2107752044",
+    "https://openalex.org/W2112832648",
+    "https://openalex.org/W2116470680",
+    "https://openalex.org/W2120432009",
+    "https://openalex.org/W2129138669",
+    "https://openalex.org/W2134243830",
+    "https://openalex.org/W2135374851",
+    "https://openalex.org/W2164015929",
+    "https://openalex.org/W2196535922",
+    "https://openalex.org/W2224929038",
+    "https://openalex.org/W348514910",
+    "https://openalex.org/W4238191426",
+    "https://openalex.org/W4251751030",
+    "https://openalex.org/W4252957405"
+  ],
+  "related_works": [
+    "https://openalex.org/W4249780136",
+    "https://openalex.org/W3145437501",
+    "https://openalex.org/W2975136909",
+    "https://openalex.org/W2921972886",
+    "https://openalex.org/W2626142573",
+    "https://openalex.org/W2316296538",
+    "https://openalex.org/W2185288834",
+    "https://openalex.org/W2118126928",
+    "https://openalex.org/W2116726599",
+    "https://openalex.org/W2073807083"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2002519246",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 69
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 64
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 73
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 88
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 92
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 85
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 109
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 109
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 110
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 126
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 133
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 149
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 145
+    }
+  ],
+  "updated_date": "2025-06-10T22:09:06.106465",
+  "created_date": "2016-06-24"
+}

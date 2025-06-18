@@ -1,0 +1,958 @@
+{
+  "id": "https://openalex.org/W2003580540",
+  "doi": "https://doi.org/10.1111/j.1541-0420.2008.00993.x",
+  "title": "Statistical Power and Sample Size Requirements for Three Level Hierarchical Cluster Randomized Trials",
+  "display_name": "Statistical Power and Sample Size Requirements for Three Level Hierarchical Cluster Randomized Trials",
+  "publication_year": 2008,
+  "publication_date": "2008-02-11",
+  "ids": {
+    "openalex": "https://openalex.org/W2003580540",
+    "doi": "https://doi.org/10.1111/j.1541-0420.2008.00993.x",
+    "mag": "2003580540",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/18266889"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1541-0420.2008.00993.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S8265502",
+      "display_name": "Biometrics",
+      "issn_l": "0006-341X",
+      "issn": [
+        "0006-341X",
+        "1541-0420"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5022129366",
+        "display_name": "Moonseong Heo",
+        "orcid": "https://orcid.org/0000-0001-7711-1209"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Moonseong Heo",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, Weill Medical College of Cornell University, 21 Bloomingdale Road, White Plains, New York 10605, U.S.A."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry, Weill Medical College of Cornell University, 21 Bloomingdale Road, White Plains, New York 10605, U.S.A.",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5111561486",
+        "display_name": "Andrew C. Leon",
+        "orcid": "https://orcid.org/0009-0007-2503-5671"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Andrew C. Leon",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry, Weill Medical College of Cornell University, 21 Bloomingdale Road, White Plains, New York 10605, U.S.A.",
+        "Department of Public Health, Weill Medical College of Cornell University, New York, New York 10065, U.S.A."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Public Health, Weill Medical College of Cornell University, New York, New York 10065, U.S.A.",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Psychiatry, Weill Medical College of Cornell University, 21 Bloomingdale Road, White Plains, New York 10605, U.S.A.",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5022129366",
+    "https://openalex.org/A5111561486"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I205783295",
+    "https://openalex.org/I205783295"
+  ],
+  "apc_list": {
+    "value": 3710,
+    "currency": "USD",
+    "value_usd": 3710
+  },
+  "apc_paid": null,
+  "fwci": 2.21,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 68,
+  "citation_normalized_percentile": {
+    "value": 0.954329,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "64",
+    "issue": "4",
+    "first_page": "1256",
+    "last_page": "1262"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11235",
+    "display_name": "Statistical Methods in Clinical Trials",
+    "score": 0.9997,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11235",
+      "display_name": "Statistical Methods in Clinical Trials",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.9995,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10136",
+      "display_name": "Statistical Methods and Inference",
+      "score": 0.9991,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/statistical-power",
+      "display_name": "Statistical power",
+      "score": 0.6016308
+    },
+    {
+      "id": "https://openalex.org/keywords/statistic",
+      "display_name": "Statistic",
+      "score": 0.50352377
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C129848803",
+      "wikidata": "https://www.wikidata.org/wiki/Q2564360",
+      "display_name": "Sample size determination",
+      "level": 2,
+      "score": 0.7069649
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.6714518
+    },
+    {
+      "id": "https://openalex.org/C168563851",
+      "wikidata": "https://www.wikidata.org/wiki/Q1436668",
+      "display_name": "Randomized controlled trial",
+      "level": 2,
+      "score": 0.6021484
+    },
+    {
+      "id": "https://openalex.org/C96608239",
+      "wikidata": "https://www.wikidata.org/wiki/Q1199823",
+      "display_name": "Statistical power",
+      "level": 2,
+      "score": 0.6016308
+    },
+    {
+      "id": "https://openalex.org/C164866538",
+      "wikidata": "https://www.wikidata.org/wiki/Q367351",
+      "display_name": "Cluster (spacecraft)",
+      "level": 2,
+      "score": 0.5132303
+    },
+    {
+      "id": "https://openalex.org/C176400912",
+      "wikidata": "https://www.wikidata.org/wiki/Q3058662",
+      "display_name": "Cluster randomised controlled trial",
+      "level": 3,
+      "score": 0.512318
+    },
+    {
+      "id": "https://openalex.org/C89128539",
+      "wikidata": "https://www.wikidata.org/wiki/Q1949963",
+      "display_name": "Statistic",
+      "level": 2,
+      "score": 0.50352377
+    },
+    {
+      "id": "https://openalex.org/C53059260",
+      "wikidata": "https://www.wikidata.org/wiki/Q374758",
+      "display_name": "Multilevel model",
+      "level": 2,
+      "score": 0.50210357
+    },
+    {
+      "id": "https://openalex.org/C169857963",
+      "wikidata": "https://www.wikidata.org/wiki/Q1461038",
+      "display_name": "Test statistic",
+      "level": 3,
+      "score": 0.47665292
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.4680229
+    },
+    {
+      "id": "https://openalex.org/C87007009",
+      "wikidata": "https://www.wikidata.org/wiki/Q210832",
+      "display_name": "Statistical hypothesis testing",
+      "level": 2,
+      "score": 0.43343574
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.37987095
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.32516262
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.30520064
+    },
+    {
+      "id": "https://openalex.org/C141071460",
+      "wikidata": "https://www.wikidata.org/wiki/Q40821",
+      "display_name": "Surgery",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D016032",
+      "descriptor_name": "Randomized Controlled Trials as Topic",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013223",
+      "descriptor_name": "Statistics as Topic",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016896",
+      "descriptor_name": "Treatment Outcome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016000",
+      "descriptor_name": "Cluster Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016013",
+      "descriptor_name": "Likelihood Functions",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016032",
+      "descriptor_name": "Randomized Controlled Trials as Topic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012044",
+      "descriptor_name": "Regression Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018401",
+      "descriptor_name": "Sample Size",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013223",
+      "descriptor_name": "Statistics as Topic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/j.1541-0420.2008.00993.x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S8265502",
+        "display_name": "Biometrics",
+        "issn_l": "0006-341X",
+        "issn": [
+          "0006-341X",
+          "1541-0420"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/18266889",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 18,
+  "referenced_works": [
+    "https://openalex.org/W1729124500",
+    "https://openalex.org/W1895131631",
+    "https://openalex.org/W1975916217",
+    "https://openalex.org/W2034816881",
+    "https://openalex.org/W2044758663",
+    "https://openalex.org/W2050387573",
+    "https://openalex.org/W2073727115",
+    "https://openalex.org/W2097334037",
+    "https://openalex.org/W2118533989",
+    "https://openalex.org/W2158160895",
+    "https://openalex.org/W2158672897",
+    "https://openalex.org/W2324392187",
+    "https://openalex.org/W2480680997",
+    "https://openalex.org/W2500897968",
+    "https://openalex.org/W2797333853",
+    "https://openalex.org/W4250896335",
+    "https://openalex.org/W4300157606",
+    "https://openalex.org/W4388319941"
+  ],
+  "related_works": [
+    "https://openalex.org/W4386776152",
+    "https://openalex.org/W3015822731",
+    "https://openalex.org/W3003558595",
+    "https://openalex.org/W2947062107",
+    "https://openalex.org/W2585981346",
+    "https://openalex.org/W2316908264",
+    "https://openalex.org/W2115979595",
+    "https://openalex.org/W2099665323",
+    "https://openalex.org/W2075332338",
+    "https://openalex.org/W2035798565"
+  ],
+  "abstract_inverted_index": {
+    "Cluster": [
+      0
+    ],
+    "randomized": [
+      1
+    ],
+    "clinical": [
+      2
+    ],
+    "trials": [
+      3
+    ],
+    "(cluster-RCT),": [
+      4
+    ],
+    "where": [
+      5
+    ],
+    "the": [
+      6,
+      26,
+      38,
+      44,
+      81,
+      119,
+      134
+    ],
+    "community": [
+      7
+    ],
+    "entities": [
+      8
+    ],
+    "serve": [
+      9
+    ],
+    "as": [
+      10
+    ],
+    "clusters,": [
+      11
+    ],
+    "often": [
+      12
+    ],
+    "yield": [
+      13
+    ],
+    "data": [
+      14
+    ],
+    "with": [
+      15,
+      43
+    ],
+    "three": [
+      16,
+      29,
+      104
+    ],
+    "hierarchy": [
+      17
+    ],
+    "levels.": [
+      18
+    ],
+    "For": [
+      19
+    ],
+    "example,": [
+      20
+    ],
+    "interventions": [
+      21
+    ],
+    "are": [
+      22,
+      41,
+      122,
+      140
+    ],
+    "randomly": [
+      23,
+      45
+    ],
+    "assigned": [
+      24,
+      46
+    ],
+    "to": [
+      25,
+      48,
+      51,
+      73,
+      125
+    ],
+    "clusters": [
+      27
+    ],
+    "(level": [
+      28,
+      34,
+      53
+    ],
+    "unit).": [
+      30,
+      55
+    ],
+    "Health": [
+      31
+    ],
+    "care": [
+      32,
+      50
+    ],
+    "professionals": [
+      33
+    ],
+    "two": [
+      35
+    ],
+    "unit)": [
+      36
+    ],
+    "within": [
+      37
+    ],
+    "same": [
+      39
+    ],
+    "cluster": [
+      40
+    ],
+    "trained": [
+      42
+    ],
+    "intervention": [
+      47,
+      76
+    ],
+    "provide": [
+      49
+    ],
+    "subjects": [
+      52
+    ],
+    "one": [
+      54
+    ],
+    "In": [
+      56,
+      84
+    ],
+    "this": [
+      57
+    ],
+    "study,": [
+      58
+    ],
+    "we": [
+      59,
+      87
+    ],
+    "derived": [
+      60,
+      120
+    ],
+    "a": [
+      61,
+      89,
+      98,
+      138
+    ],
+    "closed": [
+      62
+    ],
+    "form": [
+      63
+    ],
+    "power": [
+      64,
+      115
+    ],
+    "function": [
+      65
+    ],
+    "and": [
+      66,
+      111
+    ],
+    "formulae": [
+      67,
+      121
+    ],
+    "for": [
+      68,
+      103
+    ],
+    "sample": [
+      69
+    ],
+    "size": [
+      70
+    ],
+    "determination": [
+      71
+    ],
+    "required": [
+      72
+    ],
+    "detect": [
+      74
+    ],
+    "an": [
+      75
+    ],
+    "effect": [
+      77
+    ],
+    "on": [
+      78,
+      93,
+      118,
+      129
+    ],
+    "outcomes": [
+      79
+    ],
+    "at": [
+      80,
+      133
+    ],
+    "subject's": [
+      82
+    ],
+    "level.": [
+      83
+    ],
+    "doing": [
+      85
+    ],
+    "so,": [
+      86
+    ],
+    "used": [
+      88
+    ],
+    "test": [
+      90
+    ],
+    "statistic": [
+      91
+    ],
+    "based": [
+      92,
+      117,
+      128
+    ],
+    "maximum": [
+      94
+    ],
+    "likelihood": [
+      95
+    ],
+    "estimates": [
+      96,
+      116,
+      127
+    ],
+    "from": [
+      97
+    ],
+    "mixed-effects": [
+      99
+    ],
+    "linear": [
+      100
+    ],
+    "regression": [
+      101
+    ],
+    "model": [
+      102
+    ],
+    "level": [
+      105
+    ],
+    "data.": [
+      106,
+      131
+    ],
+    "A": [
+      107
+    ],
+    "simulation": [
+      108
+    ],
+    "study": [
+      109
+    ],
+    "follows": [
+      110
+    ],
+    "verifies": [
+      112
+    ],
+    "that": [
+      113
+    ],
+    "theoretical": [
+      114
+    ],
+    "nearly": [
+      123
+    ],
+    "identical": [
+      124
+    ],
+    "empirical": [
+      126
+    ],
+    "simulated": [
+      130
+    ],
+    "Recommendations": [
+      132
+    ],
+    "design": [
+      135
+    ],
+    "stage": [
+      136
+    ],
+    "of": [
+      137
+    ],
+    "cluster-RCT": [
+      139
+    ],
+    "discussed.": [
+      141
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2003580540",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-06-14T11:37:46.225385",
+  "created_date": "2016-06-24"
+}

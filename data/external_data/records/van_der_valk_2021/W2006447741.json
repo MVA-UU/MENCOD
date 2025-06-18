@@ -1,0 +1,1575 @@
+{
+  "id": "https://openalex.org/W2006447741",
+  "doi": "https://doi.org/10.1073/pnas.84.20.7261",
+  "title": "Characterization of proopiomelanocortin transcripts in human nonpituitary tissues.",
+  "display_name": "Characterization of proopiomelanocortin transcripts in human nonpituitary tissues.",
+  "publication_year": 1987,
+  "publication_date": "1987-10-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2006447741",
+    "doi": "https://doi.org/10.1073/pnas.84.20.7261",
+    "mag": "2006447741",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/3478693",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/299272"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.84.20.7261",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://doi.org/10.1073/pnas.84.20.7261",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5039487146",
+        "display_name": "Thierry Lacaze‐Masmonteil",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210141964",
+          "display_name": "Institut Cochin",
+          "ror": "https://ror.org/051sk4035",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I4210096427",
+            "https://openalex.org/I4210141964"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210092774",
+          "display_name": "Hôpital Cochin",
+          "ror": "https://ror.org/00ph8tk69",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210092774",
+            "https://openalex.org/I4210097159",
+            "https://openalex.org/I4210124464"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "T Lacaze-Masmonteil",
+      "raw_affiliation_strings": [
+        "Institut National de la Santé et de la Recherche Medicale Unité U-129, Hôpital Cochin, Paris, France."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut National de la Santé et de la Recherche Medicale Unité U-129, Hôpital Cochin, Paris, France.",
+          "institution_ids": [
+            "https://openalex.org/I4210141964",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I4210092774"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051616161",
+        "display_name": "Yves de Keyzer",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210141964",
+          "display_name": "Institut Cochin",
+          "ror": "https://ror.org/051sk4035",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I4210096427",
+            "https://openalex.org/I4210141964"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210092774",
+          "display_name": "Hôpital Cochin",
+          "ror": "https://ror.org/00ph8tk69",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210092774",
+            "https://openalex.org/I4210097159",
+            "https://openalex.org/I4210124464"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Y de Keyzer",
+      "raw_affiliation_strings": [
+        "Institut National de la Santé et de la Recherche Medicale Unité U-129, Hôpital Cochin, Paris, France."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut National de la Santé et de la Recherche Medicale Unité U-129, Hôpital Cochin, Paris, France.",
+          "institution_ids": [
+            "https://openalex.org/I4210141964",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I4210092774"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111542469",
+        "display_name": "J P Luton",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210141964",
+          "display_name": "Institut Cochin",
+          "ror": "https://ror.org/051sk4035",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I4210096427",
+            "https://openalex.org/I4210141964"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210092774",
+          "display_name": "Hôpital Cochin",
+          "ror": "https://ror.org/00ph8tk69",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210092774",
+            "https://openalex.org/I4210097159",
+            "https://openalex.org/I4210124464"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J P Luton",
+      "raw_affiliation_strings": [
+        "Institut National de la Santé et de la Recherche Medicale Unité U-129, Hôpital Cochin, Paris, France."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut National de la Santé et de la Recherche Medicale Unité U-129, Hôpital Cochin, Paris, France.",
+          "institution_ids": [
+            "https://openalex.org/I4210141964",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I4210092774"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112957741",
+        "display_name": "A Kahn",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210141964",
+          "display_name": "Institut Cochin",
+          "ror": "https://ror.org/051sk4035",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I4210096427",
+            "https://openalex.org/I4210141964"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210092774",
+          "display_name": "Hôpital Cochin",
+          "ror": "https://ror.org/00ph8tk69",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210092774",
+            "https://openalex.org/I4210097159",
+            "https://openalex.org/I4210124464"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A Kahn",
+      "raw_affiliation_strings": [
+        "Institut National de la Santé et de la Recherche Medicale Unité U-129, Hôpital Cochin, Paris, France."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut National de la Santé et de la Recherche Medicale Unité U-129, Hôpital Cochin, Paris, France.",
+          "institution_ids": [
+            "https://openalex.org/I4210141964",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I4210092774"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5016397577",
+        "display_name": "Xavier Bertagna",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210141964",
+          "display_name": "Institut Cochin",
+          "ror": "https://ror.org/051sk4035",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I4210096427",
+            "https://openalex.org/I4210141964"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210092774",
+          "display_name": "Hôpital Cochin",
+          "ror": "https://ror.org/00ph8tk69",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210092774",
+            "https://openalex.org/I4210097159",
+            "https://openalex.org/I4210124464"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "X Bertagna",
+      "raw_affiliation_strings": [
+        "Institut National de la Santé et de la Recherche Medicale Unité U-129, Hôpital Cochin, Paris, France."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut National de la Santé et de la Recherche Medicale Unité U-129, Hôpital Cochin, Paris, France.",
+          "institution_ids": [
+            "https://openalex.org/I4210141964",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I4210092774"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 6.258,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 148,
+  "citation_normalized_percentile": {
+    "value": 0.980848,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "84",
+    "issue": "20",
+    "first_page": "7261",
+    "last_page": "7265"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11457",
+    "display_name": "Adipose Tissue and Metabolism",
+    "score": 0.9896,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11457",
+      "display_name": "Adipose Tissue and Metabolism",
+      "score": 0.9896,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.9857,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11150",
+      "display_name": "Endoplasmic Reticulum Stress and Disease",
+      "score": 0.9853,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1307",
+        "display_name": "Cell Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/proopiomelanocortin",
+      "display_name": "Proopiomelanocortin",
+      "score": 0.8429575
+    },
+    {
+      "id": "https://openalex.org/keywords/mature-messenger-rna",
+      "display_name": "Mature messenger RNA",
+      "score": 0.53055954
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclease-protection-assay",
+      "display_name": "Nuclease protection assay",
+      "score": 0.5086842
+    },
+    {
+      "id": "https://openalex.org/keywords/primer-extension",
+      "display_name": "Primer extension",
+      "score": 0.49959803
+    },
+    {
+      "id": "https://openalex.org/keywords/primer",
+      "display_name": "Primer (cosmetics)",
+      "score": 0.47673452
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2781309135",
+      "wikidata": "https://www.wikidata.org/wiki/Q418896",
+      "display_name": "Proopiomelanocortin",
+      "level": 3,
+      "score": 0.8429575
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.7493988
+    },
+    {
+      "id": "https://openalex.org/C36823959",
+      "wikidata": "https://www.wikidata.org/wiki/Q373027",
+      "display_name": "Exon",
+      "level": 3,
+      "score": 0.67136216
+    },
+    {
+      "id": "https://openalex.org/C94671646",
+      "wikidata": "https://www.wikidata.org/wiki/Q207551",
+      "display_name": "Intron",
+      "level": 3,
+      "score": 0.5629162
+    },
+    {
+      "id": "https://openalex.org/C105580179",
+      "wikidata": "https://www.wikidata.org/wiki/Q188928",
+      "display_name": "Messenger RNA",
+      "level": 3,
+      "score": 0.561598
+    },
+    {
+      "id": "https://openalex.org/C153911025",
+      "wikidata": "https://www.wikidata.org/wiki/Q7202",
+      "display_name": "Molecular biology",
+      "level": 1,
+      "score": 0.55400676
+    },
+    {
+      "id": "https://openalex.org/C67705224",
+      "wikidata": "https://www.wikidata.org/wiki/Q11053",
+      "display_name": "RNA",
+      "level": 3,
+      "score": 0.542108
+    },
+    {
+      "id": "https://openalex.org/C137404119",
+      "wikidata": "https://www.wikidata.org/wiki/Q6792003",
+      "display_name": "Mature messenger RNA",
+      "level": 5,
+      "score": 0.53055954
+    },
+    {
+      "id": "https://openalex.org/C108190873",
+      "wikidata": "https://www.wikidata.org/wiki/Q6395811",
+      "display_name": "Nuclease protection assay",
+      "level": 5,
+      "score": 0.5086842
+    },
+    {
+      "id": "https://openalex.org/C194857396",
+      "wikidata": "https://www.wikidata.org/wiki/Q382878",
+      "display_name": "Primer extension",
+      "level": 4,
+      "score": 0.49959803
+    },
+    {
+      "id": "https://openalex.org/C2777563447",
+      "wikidata": "https://www.wikidata.org/wiki/Q7243397",
+      "display_name": "Primer (cosmetics)",
+      "level": 2,
+      "score": 0.47673452
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.44949198
+    },
+    {
+      "id": "https://openalex.org/C512185932",
+      "wikidata": "https://www.wikidata.org/wiki/Q28745",
+      "display_name": "Nucleotide",
+      "level": 3,
+      "score": 0.42589527
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.29147676
+    },
+    {
+      "id": "https://openalex.org/C54458228",
+      "wikidata": "https://www.wikidata.org/wiki/Q237218",
+      "display_name": "RNA splicing",
+      "level": 4,
+      "score": 0.19052684
+    },
+    {
+      "id": "https://openalex.org/C194993378",
+      "wikidata": "https://www.wikidata.org/wiki/Q427087",
+      "display_name": "Non-coding RNA",
+      "level": 4,
+      "score": 0.11981186
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.114819825
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000311",
+      "descriptor_name": "Adrenal Glands",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011333",
+      "descriptor_name": "Pro-Opiomelanocortin",
+      "qualifier_ui": "Q000096",
+      "qualifier_name": "biosynthesis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012333",
+      "descriptor_name": "RNA, Messenger",
+      "qualifier_ui": "Q000096",
+      "qualifier_name": "biosynthesis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013737",
+      "descriptor_name": "Testis",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013950",
+      "descriptor_name": "Thymus Gland",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000311",
+      "descriptor_name": "Adrenal Glands",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001483",
+      "descriptor_name": "Base Sequence",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005091",
+      "descriptor_name": "Exons",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005796",
+      "descriptor_name": "Genes",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009928",
+      "descriptor_name": "Organ Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011333",
+      "descriptor_name": "Pro-Opiomelanocortin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011333",
+      "descriptor_name": "Pro-Opiomelanocortin",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011401",
+      "descriptor_name": "Promoter Regions, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012333",
+      "descriptor_name": "RNA, Messenger",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013737",
+      "descriptor_name": "Testis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013950",
+      "descriptor_name": "Thymus Gland",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014158",
+      "descriptor_name": "Transcription, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1073/pnas.84.20.7261",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S125754415",
+        "display_name": "Proceedings of the National Academy of Sciences",
+        "issn_l": "0027-8424",
+        "issn": [
+          "0027-8424",
+          "1091-6490"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320052",
+        "host_organization_name": "National Academy of Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320052"
+        ],
+        "host_organization_lineage_names": [
+          "National Academy of Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc299272",
+      "pdf_url": "https://europepmc.org/articles/pmc299272?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC299272",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/3478693",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.84.20.7261",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life on land",
+      "score": 0.61,
+      "id": "https://metadata.un.org/sdg/15"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 27,
+  "referenced_works": [
+    "https://openalex.org/W1498572024",
+    "https://openalex.org/W1503386326",
+    "https://openalex.org/W1537029594",
+    "https://openalex.org/W1608277376",
+    "https://openalex.org/W1631661863",
+    "https://openalex.org/W1742358547",
+    "https://openalex.org/W1965051773",
+    "https://openalex.org/W1966169901",
+    "https://openalex.org/W1997877609",
+    "https://openalex.org/W2009105413",
+    "https://openalex.org/W2025675183",
+    "https://openalex.org/W2027818182",
+    "https://openalex.org/W2036455062",
+    "https://openalex.org/W2038240702",
+    "https://openalex.org/W2044052944",
+    "https://openalex.org/W2046399641",
+    "https://openalex.org/W2063909592",
+    "https://openalex.org/W2066160869",
+    "https://openalex.org/W2079020355",
+    "https://openalex.org/W2082826626",
+    "https://openalex.org/W2083263961",
+    "https://openalex.org/W2083924957",
+    "https://openalex.org/W2089018293",
+    "https://openalex.org/W2092225663",
+    "https://openalex.org/W2095393453",
+    "https://openalex.org/W2097012651",
+    "https://openalex.org/W2159947557"
+  ],
+  "related_works": [
+    "https://openalex.org/W3210604849",
+    "https://openalex.org/W3165135330",
+    "https://openalex.org/W2370286598",
+    "https://openalex.org/W2163285239",
+    "https://openalex.org/W2098389955",
+    "https://openalex.org/W2056617805",
+    "https://openalex.org/W2013014592",
+    "https://openalex.org/W1998016881",
+    "https://openalex.org/W1974296243",
+    "https://openalex.org/W1971972873"
+  ],
+  "abstract_inverted_index": {
+    "Proopiomelanocortin": [
+      0
+    ],
+    "(POMC),": [
+      1
+    ],
+    "the": [
+      2,
+      15,
+      43,
+      74,
+      97,
+      117,
+      135,
+      144,
+      158,
+      195,
+      204,
+      222,
+      227
+    ],
+    "precursor": [
+      3,
+      177
+    ],
+    "to": [
+      4,
+      102,
+      112,
+      126
+    ],
+    "adrenocorticotropic": [
+      5
+    ],
+    "hormone": [
+      6
+    ],
+    "and": [
+      7,
+      45,
+      61,
+      80,
+      93,
+      99,
+      157,
+      176
+    ],
+    "other": [
+      8
+    ],
+    "related": [
+      9
+    ],
+    "peptides,": [
+      10
+    ],
+    "was": [
+      11
+    ],
+    "originally": [
+      12
+    ],
+    "identified": [
+      13
+    ],
+    "in": [
+      14,
+      28,
+      38,
+      50,
+      143
+    ],
+    "corticotropic": [
+      16
+    ],
+    "cell.": [
+      17
+    ],
+    "Recent": [
+      18
+    ],
+    "evidence": [
+      19
+    ],
+    "shows": [
+      20
+    ],
+    "that": [
+      21,
+      86,
+      163,
+      212,
+      218
+    ],
+    "POMC": [
+      22,
+      48,
+      155,
+      161,
+      216,
+      228
+    ],
+    "products": [
+      23
+    ],
+    "are": [
+      24
+    ],
+    "also": [
+      25
+    ],
+    "normally": [
+      26
+    ],
+    "present": [
+      27
+    ],
+    "a": [
+      29,
+      65,
+      103,
+      153,
+      169,
+      198
+    ],
+    "variety": [
+      30
+    ],
+    "of": [
+      31,
+      47,
+      57,
+      96,
+      105,
+      120,
+      137,
+      147,
+      181,
+      197,
+      203,
+      225
+    ],
+    "nonpituitary": [
+      32
+    ],
+    "tissues.": [
+      33,
+      53
+    ],
+    "To": [
+      34
+    ],
+    "investigate": [
+      35
+    ],
+    "this": [
+      36,
+      87,
+      215
+    ],
+    "phenomenon": [
+      37
+    ],
+    "humans": [
+      39
+    ],
+    "we": [
+      40
+    ],
+    "looked": [
+      41
+    ],
+    "for": [
+      42,
+      173,
+      221
+    ],
+    "presence": [
+      44
+    ],
+    "characteristics": [
+      46
+    ],
+    "transcripts": [
+      49
+    ],
+    "various": [
+      51
+    ],
+    "adult": [
+      52
+    ],
+    "Blot": [
+      54
+    ],
+    "hybridization": [
+      55
+    ],
+    "analysis": [
+      56
+    ],
+    "normal": [
+      58
+    ],
+    "adrenal,": [
+      59
+    ],
+    "thymus,": [
+      60
+    ],
+    "testis": [
+      62
+    ],
+    "RNAs": [
+      63,
+      124
+    ],
+    "revealed": [
+      64
+    ],
+    "small": [
+      66,
+      88,
+      199
+    ],
+    "RNA": [
+      67,
+      89
+    ],
+    "species": [
+      68
+    ],
+    "approximately": [
+      69
+    ],
+    "400": [
+      70
+    ],
+    "nucleotides": [
+      71,
+      114
+    ],
+    "shorter": [
+      72
+    ],
+    "than": [
+      73
+    ],
+    "1200-nucleotide": [
+      75
+    ],
+    "pituitary": [
+      76
+    ],
+    "species.": [
+      77,
+      208
+    ],
+    "Primer": [
+      78
+    ],
+    "extension": [
+      79
+    ],
+    "S1": [
+      81,
+      184
+    ],
+    "nuclease": [
+      82,
+      185
+    ],
+    "mapping": [
+      83,
+      186
+    ],
+    "studies": [
+      84
+    ],
+    "showed": [
+      85
+    ],
+    "lacked": [
+      90
+    ],
+    "exon": [
+      91,
+      94,
+      121
+    ],
+    "1": [
+      92
+    ],
+    "2": [
+      95
+    ],
+    "gene,": [
+      98
+    ],
+    "it": [
+      100,
+      213
+    ],
+    "corresponded": [
+      101
+    ],
+    "set": [
+      104
+    ],
+    "at": [
+      106
+    ],
+    "least": [
+      107
+    ],
+    "six": [
+      108
+    ],
+    "molecules": [
+      109,
+      162
+    ],
+    "starting": [
+      110
+    ],
+    "41": [
+      111
+    ],
+    "162": [
+      113
+    ],
+    "downstream": [
+      115
+    ],
+    "from": [
+      116,
+      128
+    ],
+    "5'": [
+      118
+    ],
+    "end": [
+      119,
+      146
+    ],
+    "3.": [
+      122
+    ],
+    "These": [
+      123
+    ],
+    "appear": [
+      125
+    ],
+    "result": [
+      127
+    ],
+    "heterogeneous": [
+      129
+    ],
+    "transcription": [
+      130
+    ],
+    "initiation": [
+      131
+    ],
+    "sites": [
+      132
+    ],
+    "presumably": [
+      133
+    ],
+    "under": [
+      134
+    ],
+    "control": [
+      136
+    ],
+    "\"GC": [
+      138
+    ],
+    "box\"": [
+      139
+    ],
+    "promoter": [
+      140
+    ],
+    "sequences": [
+      141
+    ],
+    "located": [
+      142
+    ],
+    "3'": [
+      145
+    ],
+    "intron": [
+      148
+    ],
+    "2.": [
+      149
+    ],
+    "They": [
+      150
+    ],
+    "cannot": [
+      151
+    ],
+    "encode": [
+      152
+    ],
+    "complete": [
+      154
+    ],
+    "molecule,": [
+      156
+    ],
+    "only": [
+      159
+    ],
+    "truncated": [
+      160
+    ],
+    "could": [
+      164
+    ],
+    "be": [
+      165
+    ],
+    "translated": [
+      166
+    ],
+    "would": [
+      167
+    ],
+    "lack": [
+      168
+    ],
+    "signal": [
+      170
+    ],
+    "peptide": [
+      171
+    ],
+    "necessary": [
+      172
+    ],
+    "membrane": [
+      174
+    ],
+    "translocation": [
+      175
+    ],
+    "processing.": [
+      178
+    ],
+    "The": [
+      179
+    ],
+    "use": [
+      180
+    ],
+    "highly": [
+      182
+    ],
+    "sensitive": [
+      183
+    ],
+    "techniques": [
+      187
+    ],
+    "with": [
+      188
+    ],
+    "uniformly": [
+      189
+    ],
+    "labeled": [
+      190
+    ],
+    "single-stranded": [
+      191
+    ],
+    "DNA": [
+      192
+    ],
+    "probes": [
+      193
+    ],
+    "allowed": [
+      194
+    ],
+    "detection": [
+      196
+    ],
+    "but": [
+      200
+    ],
+    "definite": [
+      201
+    ],
+    "amount": [
+      202
+    ],
+    "\"normal,\"": [
+      205
+    ],
+    "1200-nucleotide,": [
+      206
+    ],
+    "mRNA": [
+      207,
+      217
+    ],
+    "It": [
+      209
+    ],
+    "is": [
+      210,
+      214,
+      219
+    ],
+    "suggested": [
+      211
+    ],
+    "responsible": [
+      220
+    ],
+    "local": [
+      223
+    ],
+    "production": [
+      224
+    ],
+    "all": [
+      226
+    ],
+    "peptides.": [
+      229
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2006447741",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2025-05-23T04:42:41.203792",
+  "created_date": "2016-06-24"
+}

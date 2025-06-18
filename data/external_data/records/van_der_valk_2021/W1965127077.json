@@ -1,0 +1,1916 @@
+{
+  "id": "https://openalex.org/W1965127077",
+  "doi": "https://doi.org/10.1111/j.0887-378x.2004.00302.x",
+  "title": "Is Income Inequality a Determinant of Population Health? Part 1. A Systematic Review",
+  "display_name": "Is Income Inequality a Determinant of Population Health? Part 1. A Systematic Review",
+  "publication_year": 2004,
+  "publication_date": "2004-03-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1965127077",
+    "doi": "https://doi.org/10.1111/j.0887-378x.2004.00302.x",
+    "mag": "1965127077",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/15016244",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/2690209"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.0887-378x.2004.00302.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S1650206",
+      "display_name": "Milbank Quarterly",
+      "issn_l": "0887-378X",
+      "issn": [
+        "0887-378X",
+        "1468-0009"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc2690209?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5021078537",
+        "display_name": "John Lynch",
+        "orcid": "https://orcid.org/0000-0003-2781-7902"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1319815248",
+          "display_name": "Statistics Canada",
+          "ror": "https://ror.org/05k71ja87",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1319815248"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "GB",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "JOHN LYNCH",
+      "raw_affiliation_strings": [
+        "McGill University",
+        "Pennsylvania State University",
+        "Statistics Canada",
+        "University of Bristol",
+        "University of Michigan"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McGill University",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Bristol",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pennsylvania State University",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Michigan",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Statistics Canada",
+          "institution_ids": [
+            "https://openalex.org/I1319815248"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013184354",
+        "display_name": "George Davey Smith",
+        "orcid": "https://orcid.org/0000-0002-1407-8314"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1319815248",
+          "display_name": "Statistics Canada",
+          "ror": "https://ror.org/05k71ja87",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1319815248"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "GB",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "GEORGE DAVEY SMITH",
+      "raw_affiliation_strings": [
+        "McGill University",
+        "Pennsylvania State University",
+        "Statistics Canada",
+        "University of Bristol",
+        "University of Michigan"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Statistics Canada",
+          "institution_ids": [
+            "https://openalex.org/I1319815248"
+          ]
+        },
+        {
+          "raw_affiliation_string": "McGill University",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Bristol",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pennsylvania State University",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Michigan",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049252472",
+        "display_name": "Sam Harper",
+        "orcid": "https://orcid.org/0000-0002-2767-1053"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1319815248",
+          "display_name": "Statistics Canada",
+          "ror": "https://ror.org/05k71ja87",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1319815248"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "GB",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "SAM HARPER",
+      "raw_affiliation_strings": [
+        "McGill University",
+        "Pennsylvania State University",
+        "Statistics Canada",
+        "University of Bristol",
+        "University of Michigan"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Statistics Canada",
+          "institution_ids": [
+            "https://openalex.org/I1319815248"
+          ]
+        },
+        {
+          "raw_affiliation_string": "McGill University",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Bristol",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pennsylvania State University",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Michigan",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000314347",
+        "display_name": "Marianne M. Hillemeier",
+        "orcid": "https://orcid.org/0000-0002-7726-0754"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1319815248",
+          "display_name": "Statistics Canada",
+          "ror": "https://ror.org/05k71ja87",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1319815248"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "GB",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "MARIANNE HILLEMEIER",
+      "raw_affiliation_strings": [
+        "McGill University",
+        "Pennsylvania State University",
+        "Statistics Canada",
+        "University of Bristol",
+        "University of Michigan"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Statistics Canada",
+          "institution_ids": [
+            "https://openalex.org/I1319815248"
+          ]
+        },
+        {
+          "raw_affiliation_string": "McGill University",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Bristol",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pennsylvania State University",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Michigan",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102985706",
+        "display_name": "Nancy A. Ross",
+        "orcid": "https://orcid.org/0000-0001-7147-1000"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1319815248",
+          "display_name": "Statistics Canada",
+          "ror": "https://ror.org/05k71ja87",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1319815248"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "GB",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "NANCY ROSS",
+      "raw_affiliation_strings": [
+        "McGill University",
+        "Pennsylvania State University",
+        "Statistics Canada",
+        "University of Bristol",
+        "University of Michigan"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Statistics Canada",
+          "institution_ids": [
+            "https://openalex.org/I1319815248"
+          ]
+        },
+        {
+          "raw_affiliation_string": "McGill University",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Bristol",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pennsylvania State University",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Michigan",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5104091882",
+        "display_name": "George A. Kaplan",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1319815248",
+          "display_name": "Statistics Canada",
+          "ror": "https://ror.org/05k71ja87",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1319815248"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "GB",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "GEORGE A. KAPLAN",
+      "raw_affiliation_strings": [
+        "McGill University",
+        "Pennsylvania State University",
+        "Statistics Canada",
+        "University of Bristol",
+        "University of Michigan"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "McGill University",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Bristol",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pennsylvania State University",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Michigan",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Statistics Canada",
+          "institution_ids": [
+            "https://openalex.org/I1319815248"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5076177297",
+        "display_name": "Michael Wolfson",
+        "orcid": "https://orcid.org/0000-0003-1941-955X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1319815248",
+          "display_name": "Statistics Canada",
+          "ror": "https://ror.org/05k71ja87",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1319815248"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "GB",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "MICHAEL WOLFSON",
+      "raw_affiliation_strings": [
+        "McGill University",
+        "Pennsylvania State University",
+        "Statistics Canada",
+        "University of Bristol",
+        "University of Michigan"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Statistics Canada",
+          "institution_ids": [
+            "https://openalex.org/I1319815248"
+          ]
+        },
+        {
+          "raw_affiliation_string": "McGill University",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Bristol",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pennsylvania State University",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Michigan",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 4020,
+    "currency": "USD",
+    "value_usd": 4020
+  },
+  "apc_paid": null,
+  "fwci": 12.229,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 924,
+  "citation_normalized_percentile": {
+    "value": 0.99005,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "82",
+    "issue": "1",
+    "first_page": "5",
+    "last_page": "99"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10235",
+    "display_name": "Health disparities and outcomes",
+    "score": 0.9993,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3306",
+      "display_name": "Health"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10235",
+      "display_name": "Health disparities and outcomes",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12781",
+      "display_name": "Global Health Care Issues",
+      "score": 0.997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11959",
+      "display_name": "Employment and Welfare Studies",
+      "score": 0.9957,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/population-health",
+      "display_name": "Population Health",
+      "score": 0.5726462
+    },
+    {
+      "id": "https://openalex.org/keywords/disadvantaged",
+      "display_name": "Disadvantaged",
+      "score": 0.44571024
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C513380476",
+      "wikidata": "https://www.wikidata.org/wiki/Q5055020",
+      "display_name": "Economic inequality",
+      "level": 3,
+      "score": 0.7076711
+    },
+    {
+      "id": "https://openalex.org/C45555294",
+      "wikidata": "https://www.wikidata.org/wiki/Q28113351",
+      "display_name": "Inequality",
+      "level": 2,
+      "score": 0.70027643
+    },
+    {
+      "id": "https://openalex.org/C2250968",
+      "wikidata": "https://www.wikidata.org/wiki/Q1512929",
+      "display_name": "Health equity",
+      "level": 3,
+      "score": 0.6253134
+    },
+    {
+      "id": "https://openalex.org/C2778149918",
+      "wikidata": "https://www.wikidata.org/wiki/Q3291156",
+      "display_name": "Population health",
+      "level": 3,
+      "score": 0.5726462
+    },
+    {
+      "id": "https://openalex.org/C4249254",
+      "wikidata": "https://www.wikidata.org/wiki/Q3044431",
+      "display_name": "Demographic economics",
+      "level": 1,
+      "score": 0.48572594
+    },
+    {
+      "id": "https://openalex.org/C519300510",
+      "wikidata": "https://www.wikidata.org/wiki/Q3915542",
+      "display_name": "Income distribution",
+      "level": 3,
+      "score": 0.4785429
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.47649592
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.47161108
+    },
+    {
+      "id": "https://openalex.org/C2780623907",
+      "wikidata": "https://www.wikidata.org/wiki/Q106394435",
+      "display_name": "Disadvantaged",
+      "level": 2,
+      "score": 0.44571024
+    },
+    {
+      "id": "https://openalex.org/C132000672",
+      "wikidata": "https://www.wikidata.org/wiki/Q6158427",
+      "display_name": "Income inequality metrics",
+      "level": 4,
+      "score": 0.41943663
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.19010317
+    },
+    {
+      "id": "https://openalex.org/C160735492",
+      "wikidata": "https://www.wikidata.org/wiki/Q31207",
+      "display_name": "Health care",
+      "level": 2,
+      "score": 0.18948564
+    },
+    {
+      "id": "https://openalex.org/C50522688",
+      "wikidata": "https://www.wikidata.org/wiki/Q189833",
+      "display_name": "Economic growth",
+      "level": 1,
+      "score": 0.1736466
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.15332904
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.06976843
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019049",
+      "descriptor_name": "Developed Countries",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014943",
+      "descriptor_name": "Global Health",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006304",
+      "descriptor_name": "Health Status",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007182",
+      "descriptor_name": "Income",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008017",
+      "descriptor_name": "Life Expectancy",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009026",
+      "descriptor_name": "Mortality",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011159",
+      "descriptor_name": "Population Surveillance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011203",
+      "descriptor_name": "Poverty",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012959",
+      "descriptor_name": "Socioeconomic Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/j.0887-378x.2004.00302.x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S1650206",
+        "display_name": "Milbank Quarterly",
+        "issn_l": "0887-378X",
+        "issn": [
+          "0887-378X",
+          "1468-0009"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc2690209",
+      "pdf_url": "https://europepmc.org/articles/pmc2690209?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2690209",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/2027.42/55304",
+      "pdf_url": "http://deepblue.lib.umich.edu/bitstream/2027.42/55304/1/Lynch%20JW%2c%20Is%20Income%20Inequality%20a%20Determinant%20of%20Population%20Health%2c%202004.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400393",
+        "display_name": "Deep Blue (University of Michigan)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I27837315",
+        "host_organization_name": "University of Michigan",
+        "host_organization_lineage": [
+          "https://openalex.org/I27837315"
+        ],
+        "host_organization_lineage_names": [
+          "University of Michigan"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/15016244",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc2690209",
+    "pdf_url": "https://europepmc.org/articles/pmc2690209?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.76,
+      "display_name": "No poverty",
+      "id": "https://metadata.un.org/sdg/1"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 242,
+  "referenced_works": [
+    "https://openalex.org/W1449314578",
+    "https://openalex.org/W1492111854",
+    "https://openalex.org/W1493733763",
+    "https://openalex.org/W1497750582",
+    "https://openalex.org/W1503489588",
+    "https://openalex.org/W1507928494",
+    "https://openalex.org/W1510134659",
+    "https://openalex.org/W1513210308",
+    "https://openalex.org/W1519580080",
+    "https://openalex.org/W1527520262",
+    "https://openalex.org/W1537571990",
+    "https://openalex.org/W1554414217",
+    "https://openalex.org/W1581431636",
+    "https://openalex.org/W1585813784",
+    "https://openalex.org/W1588673540",
+    "https://openalex.org/W1594544166",
+    "https://openalex.org/W1600832421",
+    "https://openalex.org/W1658147238",
+    "https://openalex.org/W1681932403",
+    "https://openalex.org/W1875653642",
+    "https://openalex.org/W1883239598",
+    "https://openalex.org/W1907953089",
+    "https://openalex.org/W1964315293",
+    "https://openalex.org/W1966240090",
+    "https://openalex.org/W1967039410",
+    "https://openalex.org/W1967273957",
+    "https://openalex.org/W1967479699",
+    "https://openalex.org/W1967764027",
+    "https://openalex.org/W1967817453",
+    "https://openalex.org/W1968054561",
+    "https://openalex.org/W1971204122",
+    "https://openalex.org/W1971481005",
+    "https://openalex.org/W1971508786",
+    "https://openalex.org/W1973353949",
+    "https://openalex.org/W1976093967",
+    "https://openalex.org/W1976400581",
+    "https://openalex.org/W1979121018",
+    "https://openalex.org/W1980336765",
+    "https://openalex.org/W1982588240",
+    "https://openalex.org/W1982734715",
+    "https://openalex.org/W1985703342",
+    "https://openalex.org/W1985808146",
+    "https://openalex.org/W1986316027",
+    "https://openalex.org/W1987239696",
+    "https://openalex.org/W1988427925",
+    "https://openalex.org/W1990569857",
+    "https://openalex.org/W1991303743",
+    "https://openalex.org/W1996823741",
+    "https://openalex.org/W1998306489",
+    "https://openalex.org/W1999505698",
+    "https://openalex.org/W1999640832",
+    "https://openalex.org/W1999757454",
+    "https://openalex.org/W2001939523",
+    "https://openalex.org/W2004161609",
+    "https://openalex.org/W2004876644",
+    "https://openalex.org/W2008317537",
+    "https://openalex.org/W2009325862",
+    "https://openalex.org/W2009403649",
+    "https://openalex.org/W2010939747",
+    "https://openalex.org/W2012616829",
+    "https://openalex.org/W2017215236",
+    "https://openalex.org/W2017257645",
+    "https://openalex.org/W2017288246",
+    "https://openalex.org/W2018751384",
+    "https://openalex.org/W2019174633",
+    "https://openalex.org/W2021119794",
+    "https://openalex.org/W2021253194",
+    "https://openalex.org/W2023024594",
+    "https://openalex.org/W2024195793",
+    "https://openalex.org/W2026182357",
+    "https://openalex.org/W2028058559",
+    "https://openalex.org/W2028536680",
+    "https://openalex.org/W2031569733",
+    "https://openalex.org/W2033138347",
+    "https://openalex.org/W2037635404",
+    "https://openalex.org/W2038445299",
+    "https://openalex.org/W2040798112",
+    "https://openalex.org/W2041780370",
+    "https://openalex.org/W2045668377",
+    "https://openalex.org/W2045764274",
+    "https://openalex.org/W2046747048",
+    "https://openalex.org/W2048215540",
+    "https://openalex.org/W2049564388",
+    "https://openalex.org/W2050093698",
+    "https://openalex.org/W2050866396",
+    "https://openalex.org/W2051236829",
+    "https://openalex.org/W2052323081",
+    "https://openalex.org/W2052991674",
+    "https://openalex.org/W2054360475",
+    "https://openalex.org/W2056359093",
+    "https://openalex.org/W2057465112",
+    "https://openalex.org/W2058463674",
+    "https://openalex.org/W2059187523",
+    "https://openalex.org/W2061141487",
+    "https://openalex.org/W2062742936",
+    "https://openalex.org/W2063410283",
+    "https://openalex.org/W2064122588",
+    "https://openalex.org/W2064253087",
+    "https://openalex.org/W2064580124",
+    "https://openalex.org/W2066924533",
+    "https://openalex.org/W2069093914",
+    "https://openalex.org/W2071630905",
+    "https://openalex.org/W2071758474",
+    "https://openalex.org/W2073443227",
+    "https://openalex.org/W2073956826",
+    "https://openalex.org/W2074331925",
+    "https://openalex.org/W2076926161",
+    "https://openalex.org/W2078018131",
+    "https://openalex.org/W2081102456",
+    "https://openalex.org/W2081423049",
+    "https://openalex.org/W2083738057",
+    "https://openalex.org/W2085640555",
+    "https://openalex.org/W2086508210",
+    "https://openalex.org/W2087167513",
+    "https://openalex.org/W2087356076",
+    "https://openalex.org/W2089188529",
+    "https://openalex.org/W2090241969",
+    "https://openalex.org/W2093634727",
+    "https://openalex.org/W2094322783",
+    "https://openalex.org/W2095243958",
+    "https://openalex.org/W2095310139",
+    "https://openalex.org/W2095615036",
+    "https://openalex.org/W2095631580",
+    "https://openalex.org/W2096844988",
+    "https://openalex.org/W2097121664",
+    "https://openalex.org/W2097676681",
+    "https://openalex.org/W2097800881",
+    "https://openalex.org/W2098667370",
+    "https://openalex.org/W2099045343",
+    "https://openalex.org/W2100263254",
+    "https://openalex.org/W2101702061",
+    "https://openalex.org/W2104609794",
+    "https://openalex.org/W2105509134",
+    "https://openalex.org/W2111628008",
+    "https://openalex.org/W2111906695",
+    "https://openalex.org/W2113952314",
+    "https://openalex.org/W2114814483",
+    "https://openalex.org/W2115531315",
+    "https://openalex.org/W2115736864",
+    "https://openalex.org/W2115791158",
+    "https://openalex.org/W2116061642",
+    "https://openalex.org/W2116539842",
+    "https://openalex.org/W2117289558",
+    "https://openalex.org/W2117972016",
+    "https://openalex.org/W2117990074",
+    "https://openalex.org/W2121794590",
+    "https://openalex.org/W2122169807",
+    "https://openalex.org/W2122769292",
+    "https://openalex.org/W2123155098",
+    "https://openalex.org/W2124138908",
+    "https://openalex.org/W2127230663",
+    "https://openalex.org/W2128298450",
+    "https://openalex.org/W2130481484",
+    "https://openalex.org/W2130773414",
+    "https://openalex.org/W2132436955",
+    "https://openalex.org/W2135883933",
+    "https://openalex.org/W2136283090",
+    "https://openalex.org/W2137364529",
+    "https://openalex.org/W2137695232",
+    "https://openalex.org/W2137806511",
+    "https://openalex.org/W2138567867",
+    "https://openalex.org/W2138940954",
+    "https://openalex.org/W2138960315",
+    "https://openalex.org/W2140800396",
+    "https://openalex.org/W2141215533",
+    "https://openalex.org/W2141932146",
+    "https://openalex.org/W2142418899",
+    "https://openalex.org/W2143286541",
+    "https://openalex.org/W2143803495",
+    "https://openalex.org/W2144029311",
+    "https://openalex.org/W2146664085",
+    "https://openalex.org/W2149003818",
+    "https://openalex.org/W2149742572",
+    "https://openalex.org/W2150476512",
+    "https://openalex.org/W2152871132",
+    "https://openalex.org/W2154790038",
+    "https://openalex.org/W2154827268",
+    "https://openalex.org/W2155547677",
+    "https://openalex.org/W2157073699",
+    "https://openalex.org/W2158589535",
+    "https://openalex.org/W2159130879",
+    "https://openalex.org/W2159777892",
+    "https://openalex.org/W2159871526",
+    "https://openalex.org/W2160246577",
+    "https://openalex.org/W2162223149",
+    "https://openalex.org/W2165336285",
+    "https://openalex.org/W2165448571",
+    "https://openalex.org/W2165460636",
+    "https://openalex.org/W2165769876",
+    "https://openalex.org/W2166368450",
+    "https://openalex.org/W2167619661",
+    "https://openalex.org/W2168535487",
+    "https://openalex.org/W2170944253",
+    "https://openalex.org/W2188628393",
+    "https://openalex.org/W2194641457",
+    "https://openalex.org/W2229218891",
+    "https://openalex.org/W2301011520",
+    "https://openalex.org/W2315684569",
+    "https://openalex.org/W2325631568",
+    "https://openalex.org/W2329992632",
+    "https://openalex.org/W2396829092",
+    "https://openalex.org/W2418858555",
+    "https://openalex.org/W2466607819",
+    "https://openalex.org/W2476069850",
+    "https://openalex.org/W247848872",
+    "https://openalex.org/W2481917066",
+    "https://openalex.org/W2490720137",
+    "https://openalex.org/W2492481930",
+    "https://openalex.org/W2502871394",
+    "https://openalex.org/W2562588313",
+    "https://openalex.org/W2621110426",
+    "https://openalex.org/W2798999082",
+    "https://openalex.org/W2888190061",
+    "https://openalex.org/W3006500249",
+    "https://openalex.org/W3022105794",
+    "https://openalex.org/W3024594196",
+    "https://openalex.org/W3122296760",
+    "https://openalex.org/W3122492999",
+    "https://openalex.org/W3122922095",
+    "https://openalex.org/W3125340299",
+    "https://openalex.org/W3138402761",
+    "https://openalex.org/W3214923421",
+    "https://openalex.org/W4205661704",
+    "https://openalex.org/W4214928188",
+    "https://openalex.org/W4231236720",
+    "https://openalex.org/W4233812117",
+    "https://openalex.org/W4245198606",
+    "https://openalex.org/W4246542321",
+    "https://openalex.org/W4252136409",
+    "https://openalex.org/W4252853485",
+    "https://openalex.org/W4253426613",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W4312861570",
+    "https://openalex.org/W4383807254",
+    "https://openalex.org/W4388367074",
+    "https://openalex.org/W50634008",
+    "https://openalex.org/W51313103",
+    "https://openalex.org/W54666213",
+    "https://openalex.org/W57515738",
+    "https://openalex.org/W593818153",
+    "https://openalex.org/W6275081",
+    "https://openalex.org/W99295644"
+  ],
+  "related_works": [
+    "https://openalex.org/W646050805",
+    "https://openalex.org/W4285543339",
+    "https://openalex.org/W3121879630",
+    "https://openalex.org/W3037838657",
+    "https://openalex.org/W2562904767",
+    "https://openalex.org/W2276434208",
+    "https://openalex.org/W2064083586",
+    "https://openalex.org/W1550364616",
+    "https://openalex.org/W1535095215",
+    "https://openalex.org/W1179424598"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "article": [
+      1
+    ],
+    "reviews": [
+      2
+    ],
+    "98": [
+      3
+    ],
+    "aggregate": [
+      4
+    ],
+    "and": [
+      5,
+      14,
+      111
+    ],
+    "multilevel": [
+      6
+    ],
+    "studies": [
+      7
+    ],
+    "examining": [
+      8
+    ],
+    "the": [
+      9,
+      24,
+      69,
+      97,
+      100
+    ],
+    "associations": [
+      10
+    ],
+    "between": [
+      11,
+      40
+    ],
+    "income": [
+      12,
+      27,
+      86,
+      93
+    ],
+    "inequality": [
+      13,
+      28,
+      44,
+      87,
+      94
+    ],
+    "health.": [
+      15,
+      115
+    ],
+    "Overall,": [
+      16
+    ],
+    "there": [
+      17
+    ],
+    "seems": [
+      18
+    ],
+    "to": [
+      19
+    ],
+    "be": [
+      20
+    ],
+    "little": [
+      21,
+      79
+    ],
+    "support": [
+      22,
+      80
+    ],
+    "for": [
+      23,
+      61,
+      81
+    ],
+    "idea": [
+      25
+    ],
+    "that": [
+      26,
+      74
+    ],
+    "is": [
+      29,
+      65,
+      75
+    ],
+    "a": [
+      30,
+      82
+    ],
+    "major,": [
+      31
+    ],
+    "generalizable": [
+      32
+    ],
+    "determinant": [
+      33
+    ],
+    "of": [
+      34,
+      85,
+      99
+    ],
+    "population": [
+      35,
+      114
+    ],
+    "health": [
+      36,
+      50,
+      63,
+      89,
+      109
+    ],
+    "differences": [
+      37
+    ],
+    "within": [
+      38
+    ],
+    "or": [
+      39
+    ],
+    "rich": [
+      41
+    ],
+    "countries.": [
+      42
+    ],
+    "Income": [
+      43
+    ],
+    "may,": [
+      45
+    ],
+    "however,": [
+      46
+    ],
+    "directly": [
+      47
+    ],
+    "influence": [
+      48
+    ],
+    "some": [
+      49,
+      56
+    ],
+    "outcomes,": [
+      51
+    ],
+    "such": [
+      52
+    ],
+    "as": [
+      53
+    ],
+    "homicide": [
+      54
+    ],
+    "in": [
+      55,
+      68
+    ],
+    "contexts.": [
+      57
+    ],
+    "The": [
+      58
+    ],
+    "strongest": [
+      59
+    ],
+    "evidence": [
+      60
+    ],
+    "direct": [
+      62,
+      83
+    ],
+    "effects": [
+      64
+    ],
+    "among": [
+      66
+    ],
+    "states": [
+      67
+    ],
+    "United": [
+      70
+    ],
+    "States,": [
+      71
+    ],
+    "but": [
+      72
+    ],
+    "even": [
+      73
+    ],
+    "somewhat": [
+      76
+    ],
+    "mixed.": [
+      77
+    ],
+    "Despite": [
+      78
+    ],
+    "effect": [
+      84
+    ],
+    "on": [
+      88
+    ],
+    "per": [
+      90
+    ],
+    "se,": [
+      91
+    ],
+    "reducing": [
+      92
+    ],
+    "by": [
+      95
+    ],
+    "raising": [
+      96
+    ],
+    "incomes": [
+      98
+    ],
+    "most": [
+      101
+    ],
+    "disadvantaged": [
+      102
+    ],
+    "will": [
+      103
+    ],
+    "improve": [
+      104,
+      113
+    ],
+    "their": [
+      105
+    ],
+    "health,": [
+      106
+    ],
+    "help": [
+      107
+    ],
+    "reduce": [
+      108
+    ],
+    "inequalities,": [
+      110
+    ],
+    "generally": [
+      112
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1965127077",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 31
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 37
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 42
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 45
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 38
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 41
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 55
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 48
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 46
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 51
+    }
+  ],
+  "updated_date": "2025-06-06T01:29:32.231419",
+  "created_date": "2016-06-24"
+}

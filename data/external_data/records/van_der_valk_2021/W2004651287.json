@@ -1,0 +1,737 @@
+{
+  "id": "https://openalex.org/W2004651287",
+  "doi": "https://doi.org/10.1016/s0889-8529(05)70045-1",
+  "title": "POLYCYSTIC OVARY SYNDROME",
+  "display_name": "POLYCYSTIC OVARY SYNDROME",
+  "publication_year": 1998,
+  "publication_date": "1998-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2004651287",
+    "doi": "https://doi.org/10.1016/s0889-8529(05)70045-1",
+    "mag": "2004651287",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/9922912"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/s0889-8529(05)70045-1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S151814236",
+      "display_name": "Endocrinology and Metabolism Clinics of North America",
+      "issn_l": "0889-8529",
+      "issn": [
+        "0889-8529",
+        "1558-4410"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5086968407",
+        "display_name": "Ann E. Taylor",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Ann E. Taylor",
+      "raw_affiliation_strings": [
+        "Harvard Medical School, Boston, Massachusetts, USA.,"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harvard Medical School, Boston, Massachusetts, USA.,",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5086968407"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I136199984"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.314,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 86,
+  "citation_normalized_percentile": {
+    "value": 0.731092,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "27",
+    "issue": "4",
+    "first_page": "877",
+    "last_page": "902"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10390",
+    "display_name": "Ovarian function and disorders",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2743",
+      "display_name": "Reproductive Medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10390",
+      "display_name": "Ovarian function and disorders",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2743",
+        "display_name": "Reproductive Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10364",
+      "display_name": "Reproductive Biology and Fertility",
+      "score": 0.9974,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10550",
+      "display_name": "Ovarian cancer diagnosis and treatment",
+      "score": 0.984,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2743",
+        "display_name": "Reproductive Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hyperandrogenism",
+      "display_name": "Hyperandrogenism",
+      "score": 0.84923786
+    },
+    {
+      "id": "https://openalex.org/keywords/etiology",
+      "display_name": "Etiology",
+      "score": 0.5667516
+    },
+    {
+      "id": "https://openalex.org/keywords/anovulation",
+      "display_name": "Anovulation",
+      "score": 0.4612618
+    },
+    {
+      "id": "https://openalex.org/keywords/hirsutism",
+      "display_name": "hirsutism",
+      "score": 0.45684752
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C3018442814",
+      "wikidata": "https://www.wikidata.org/wiki/Q500816",
+      "display_name": "Polycystic ovary",
+      "level": 4,
+      "score": 0.9423953
+    },
+    {
+      "id": "https://openalex.org/C2780186808",
+      "wikidata": "https://www.wikidata.org/wiki/Q10529545",
+      "display_name": "Hyperandrogenism",
+      "level": 5,
+      "score": 0.84923786
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.82336223
+    },
+    {
+      "id": "https://openalex.org/C2777688143",
+      "wikidata": "https://www.wikidata.org/wiki/Q179399",
+      "display_name": "Infertility",
+      "level": 3,
+      "score": 0.60481155
+    },
+    {
+      "id": "https://openalex.org/C2777391703",
+      "wikidata": "https://www.wikidata.org/wiki/Q1053470",
+      "display_name": "Insulin resistance",
+      "level": 3,
+      "score": 0.5697257
+    },
+    {
+      "id": "https://openalex.org/C137627325",
+      "wikidata": "https://www.wikidata.org/wiki/Q156318",
+      "display_name": "Etiology",
+      "level": 2,
+      "score": 0.5667516
+    },
+    {
+      "id": "https://openalex.org/C2780853582",
+      "wikidata": "https://www.wikidata.org/wiki/Q25556",
+      "display_name": "Anovulation",
+      "level": 5,
+      "score": 0.4612618
+    },
+    {
+      "id": "https://openalex.org/C2776371013",
+      "wikidata": "https://www.wikidata.org/wiki/Q1620594",
+      "display_name": "hirsutism",
+      "level": 5,
+      "score": 0.45684752
+    },
+    {
+      "id": "https://openalex.org/C29456083",
+      "wikidata": "https://www.wikidata.org/wiki/Q1221899",
+      "display_name": "Gynecology",
+      "level": 1,
+      "score": 0.45537174
+    },
+    {
+      "id": "https://openalex.org/C2778324911",
+      "wikidata": "https://www.wikidata.org/wiki/Q9631",
+      "display_name": "Ovary",
+      "level": 2,
+      "score": 0.4229396
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.36667502
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.29201117
+    },
+    {
+      "id": "https://openalex.org/C2779234561",
+      "wikidata": "https://www.wikidata.org/wiki/Q11995",
+      "display_name": "Pregnancy",
+      "level": 2,
+      "score": 0.14268917
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.09057543
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.065532
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D011085",
+      "descriptor_name": "Polycystic Ovary Syndrome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017588",
+      "descriptor_name": "Hyperandrogenism",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017588",
+      "descriptor_name": "Hyperandrogenism",
+      "qualifier_ui": "Q000150",
+      "qualifier_name": "complications",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006946",
+      "descriptor_name": "Hyperinsulinism",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006946",
+      "descriptor_name": "Hyperinsulinism",
+      "qualifier_ui": "Q000150",
+      "qualifier_name": "complications",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007247",
+      "descriptor_name": "Infertility, Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007247",
+      "descriptor_name": "Infertility, Female",
+      "qualifier_ui": "Q000209",
+      "qualifier_name": "etiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007986",
+      "descriptor_name": "Luteinizing Hormone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007986",
+      "descriptor_name": "Luteinizing Hormone",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011085",
+      "descriptor_name": "Polycystic Ovary Syndrome",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011085",
+      "descriptor_name": "Polycystic Ovary Syndrome",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011085",
+      "descriptor_name": "Polycystic Ovary Syndrome",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011085",
+      "descriptor_name": "Polycystic Ovary Syndrome",
+      "qualifier_ui": "Q000150",
+      "qualifier_name": "complications",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/s0889-8529(05)70045-1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S151814236",
+        "display_name": "Endocrinology and Metabolism Clinics of North America",
+        "issn_l": "0889-8529",
+        "issn": [
+          "0889-8529",
+          "1558-4410"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/9922912",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.84,
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320332161",
+      "funder_display_name": "National Institutes of Health",
+      "award_id": "R29HD33509"
+    },
+    {
+      "funder": "https://openalex.org/F4320332161",
+      "funder_display_name": "National Institutes of Health",
+      "award_id": "M01-RR-01066"
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 150,
+  "referenced_works": [
+    "https://openalex.org/W116138425",
+    "https://openalex.org/W137875090",
+    "https://openalex.org/W1483604492",
+    "https://openalex.org/W1501405633",
+    "https://openalex.org/W1503163311",
+    "https://openalex.org/W1526065805",
+    "https://openalex.org/W1552337395",
+    "https://openalex.org/W1554998192",
+    "https://openalex.org/W1585635925",
+    "https://openalex.org/W1608508968",
+    "https://openalex.org/W1897171873",
+    "https://openalex.org/W1962519237",
+    "https://openalex.org/W1964741472",
+    "https://openalex.org/W1968901760",
+    "https://openalex.org/W1969062482",
+    "https://openalex.org/W1970941152",
+    "https://openalex.org/W1973015402",
+    "https://openalex.org/W1975716597",
+    "https://openalex.org/W1976258169",
+    "https://openalex.org/W1976662653",
+    "https://openalex.org/W1985157643",
+    "https://openalex.org/W1987250903",
+    "https://openalex.org/W1987257219",
+    "https://openalex.org/W1987369742",
+    "https://openalex.org/W1989057149",
+    "https://openalex.org/W1989700537",
+    "https://openalex.org/W1999061392",
+    "https://openalex.org/W2000499406",
+    "https://openalex.org/W2001301186",
+    "https://openalex.org/W2002175422",
+    "https://openalex.org/W2003517642",
+    "https://openalex.org/W2006825174",
+    "https://openalex.org/W2008509267",
+    "https://openalex.org/W2010208043",
+    "https://openalex.org/W2013145479",
+    "https://openalex.org/W2013193315",
+    "https://openalex.org/W2013731159",
+    "https://openalex.org/W2014698814",
+    "https://openalex.org/W2016610386",
+    "https://openalex.org/W2018160024",
+    "https://openalex.org/W2019498433",
+    "https://openalex.org/W2020998291",
+    "https://openalex.org/W2022675793",
+    "https://openalex.org/W2023712457",
+    "https://openalex.org/W2023844033",
+    "https://openalex.org/W2027587212",
+    "https://openalex.org/W2028242557",
+    "https://openalex.org/W2028914063",
+    "https://openalex.org/W2030462220",
+    "https://openalex.org/W2030618927",
+    "https://openalex.org/W2034946970",
+    "https://openalex.org/W2035004241",
+    "https://openalex.org/W2037405534",
+    "https://openalex.org/W2038479139",
+    "https://openalex.org/W2040235690",
+    "https://openalex.org/W2040287345",
+    "https://openalex.org/W2043939998",
+    "https://openalex.org/W2044426380",
+    "https://openalex.org/W2044970382",
+    "https://openalex.org/W2047896601",
+    "https://openalex.org/W2050183502",
+    "https://openalex.org/W2051278310",
+    "https://openalex.org/W2052376949",
+    "https://openalex.org/W2053732112",
+    "https://openalex.org/W2055653443",
+    "https://openalex.org/W2056362329",
+    "https://openalex.org/W2057103614",
+    "https://openalex.org/W2057880686",
+    "https://openalex.org/W2058366027",
+    "https://openalex.org/W2060249166",
+    "https://openalex.org/W2060513616",
+    "https://openalex.org/W2063022750",
+    "https://openalex.org/W2064522098",
+    "https://openalex.org/W2064611867",
+    "https://openalex.org/W2065092427",
+    "https://openalex.org/W2065671703",
+    "https://openalex.org/W2067109939",
+    "https://openalex.org/W2067319743",
+    "https://openalex.org/W2070014901",
+    "https://openalex.org/W2070535031",
+    "https://openalex.org/W2070732543",
+    "https://openalex.org/W2071693134",
+    "https://openalex.org/W2073637312",
+    "https://openalex.org/W2074901965",
+    "https://openalex.org/W2078009607",
+    "https://openalex.org/W2085223433",
+    "https://openalex.org/W2086933960",
+    "https://openalex.org/W2088027582",
+    "https://openalex.org/W2091336289",
+    "https://openalex.org/W2095040842",
+    "https://openalex.org/W2097344003",
+    "https://openalex.org/W2100224373",
+    "https://openalex.org/W2105624384",
+    "https://openalex.org/W2106378688",
+    "https://openalex.org/W2112764507",
+    "https://openalex.org/W2122612739",
+    "https://openalex.org/W2124838987",
+    "https://openalex.org/W2128224630",
+    "https://openalex.org/W2132835398",
+    "https://openalex.org/W2137934764",
+    "https://openalex.org/W2138910558",
+    "https://openalex.org/W2141227160",
+    "https://openalex.org/W2142850318",
+    "https://openalex.org/W2144202993",
+    "https://openalex.org/W2148272405",
+    "https://openalex.org/W2149183746",
+    "https://openalex.org/W2150911264",
+    "https://openalex.org/W2155995048",
+    "https://openalex.org/W2159152234",
+    "https://openalex.org/W2159434327",
+    "https://openalex.org/W2160972227",
+    "https://openalex.org/W2162049018",
+    "https://openalex.org/W2166561608",
+    "https://openalex.org/W2198261718",
+    "https://openalex.org/W227078082",
+    "https://openalex.org/W2316958484",
+    "https://openalex.org/W2322408059",
+    "https://openalex.org/W2324254048",
+    "https://openalex.org/W2337425975",
+    "https://openalex.org/W2340100375",
+    "https://openalex.org/W2345268293",
+    "https://openalex.org/W2396602206",
+    "https://openalex.org/W2397723679",
+    "https://openalex.org/W2397883288",
+    "https://openalex.org/W2400946135",
+    "https://openalex.org/W2401091480",
+    "https://openalex.org/W2402495580",
+    "https://openalex.org/W2404409701",
+    "https://openalex.org/W2404825362",
+    "https://openalex.org/W2408208451",
+    "https://openalex.org/W2409204617",
+    "https://openalex.org/W2411512745",
+    "https://openalex.org/W2411729516",
+    "https://openalex.org/W2412273249",
+    "https://openalex.org/W2415521637",
+    "https://openalex.org/W2416940695",
+    "https://openalex.org/W2418028571",
+    "https://openalex.org/W2432906619",
+    "https://openalex.org/W2442706598",
+    "https://openalex.org/W2461221358",
+    "https://openalex.org/W3020920603",
+    "https://openalex.org/W3125170327",
+    "https://openalex.org/W4235668101",
+    "https://openalex.org/W4240024222",
+    "https://openalex.org/W4241117789",
+    "https://openalex.org/W4244166047",
+    "https://openalex.org/W4251751244",
+    "https://openalex.org/W4252430351",
+    "https://openalex.org/W4253220051",
+    "https://openalex.org/W4302417975"
+  ],
+  "related_works": [
+    "https://openalex.org/W96634583",
+    "https://openalex.org/W4389464116",
+    "https://openalex.org/W4282546241",
+    "https://openalex.org/W2794213197",
+    "https://openalex.org/W2564128998",
+    "https://openalex.org/W2434689181",
+    "https://openalex.org/W2381509674",
+    "https://openalex.org/W2154565137",
+    "https://openalex.org/W2081010307",
+    "https://openalex.org/W1875572423"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2004651287",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2025-05-23T14:20:45.082398",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,1482 @@
+{
+  "id": "https://openalex.org/W2138297714",
+  "doi": "https://doi.org/10.1056/nejmoa050753",
+  "title": "Erlotinib in Previously Treated Non–Small-Cell Lung Cancer",
+  "display_name": "Erlotinib in Previously Treated Non–Small-Cell Lung Cancer",
+  "publication_year": 2005,
+  "publication_date": "2005-07-13",
+  "ids": {
+    "openalex": "https://openalex.org/W2138297714",
+    "doi": "https://doi.org/10.1056/nejmoa050753",
+    "mag": "2138297714",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16014882"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1056/nejmoa050753",
+    "pdf_url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa050753?articleTools=true",
+    "source": {
+      "id": "https://openalex.org/S62468778",
+      "display_name": "New England Journal of Medicine",
+      "issn_l": "0028-4793",
+      "issn": [
+        "0028-4793",
+        "1533-4406"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320239",
+      "host_organization_name": "Massachusetts Medical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320239"
+      ],
+      "host_organization_lineage_names": [
+        "Massachusetts Medical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa050753?articleTools=true",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5075347427",
+        "display_name": "Frances A. Shepherd",
+        "orcid": "https://orcid.org/0000-0002-3610-3533"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I185261750",
+          "display_name": "University of Toronto",
+          "ror": "https://ror.org/03dbr7087",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1325899441",
+          "display_name": "University Health Network",
+          "ror": "https://ror.org/042xt5161",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1325899441"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Frances A. Shepherd",
+      "raw_affiliation_strings": [
+        "Departments of Medical Oncology and Hematology, the University Health Network, Princess Margaret Hospital Site",
+        "University of Toronto"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Toronto",
+          "institution_ids": [
+            "https://openalex.org/I185261750"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Departments of Medical Oncology and Hematology, the University Health Network, Princess Margaret Hospital Site",
+          "institution_ids": [
+            "https://openalex.org/I1325899441"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103372742",
+        "display_name": "José Rodrigues Pereira",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "José Rodrigues Pereira",
+      "raw_affiliation_strings": [
+        "Instituto de Cancer Arnaldo Vieira de Carvalho, São Paulo"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Instituto de Cancer Arnaldo Vieira de Carvalho, São Paulo",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5001591653",
+        "display_name": "Tudor‐Eliade Ciuleanu",
+        "orcid": "https://orcid.org/0000-0003-0958-5597"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210100616",
+          "display_name": "Institute of Oncology Prof. Dr. Ion Chiricuta",
+          "ror": "https://ror.org/00nrbsf87",
+          "country_code": "RO",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210100616"
+          ]
+        }
+      ],
+      "countries": [
+        "RO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tudor Ciuleanu",
+      "raw_affiliation_strings": [
+        "Oncological Institute Ion Chiricuta, Cluj-Napoca, Romania"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oncological Institute Ion Chiricuta, Cluj-Napoca, Romania",
+          "institution_ids": [
+            "https://openalex.org/I4210100616"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102131269",
+        "display_name": "Eng Huat Tan",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210137145",
+          "display_name": "National Cancer Centre Singapore",
+          "ror": "https://ror.org/03bqk3e80",
+          "country_code": "SG",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210137145"
+          ]
+        }
+      ],
+      "countries": [
+        "SG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Eng Huat Tan",
+      "raw_affiliation_strings": [
+        "Department of Medical Oncology, National Cancer Centre, Singapore"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medical Oncology, National Cancer Centre, Singapore",
+          "institution_ids": [
+            "https://openalex.org/I4210137145"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043397424",
+        "display_name": "Vera Hirsh",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Vera Hirsh",
+      "raw_affiliation_strings": [
+        "Department of Oncology, McGill University, Montreal"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Oncology, McGill University, Montreal",
+          "institution_ids": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008578055",
+        "display_name": "Sumitra Thongprasert",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I48076826",
+          "display_name": "Chiang Mai University",
+          "ror": "https://ror.org/05m2fqn25",
+          "country_code": "TH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I48076826"
+          ]
+        }
+      ],
+      "countries": [
+        "TH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sumitra Thongprasert",
+      "raw_affiliation_strings": [
+        "Faculty of Medicine, Chiangmai University, Chiangmai, Thailand"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Faculty of Medicine, Chiangmai University, Chiangmai, Thailand",
+          "institution_ids": [
+            "https://openalex.org/I48076826"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071505719",
+        "display_name": "Daniel de Castro",
+        "orcid": "https://orcid.org/0000-0003-1975-9132"
+      },
+      "institutions": [],
+      "countries": [
+        "AR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Daniel Campos",
+      "raw_affiliation_strings": [
+        "Confidence Medical Center, San Isidro, Argentina"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Confidence Medical Center, San Isidro, Argentina",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5043168065",
+        "display_name": "Savitree Maoleekoonpiroj",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210087968",
+          "display_name": "Phramongkutklao Hospital",
+          "ror": "https://ror.org/007h1qz76",
+          "country_code": "TH",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210087968"
+          ]
+        }
+      ],
+      "countries": [
+        "TH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Savitree Maoleekoonpiroj",
+      "raw_affiliation_strings": [
+        "Pramongkutklao Hospital, Bangkok, Thailand"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Pramongkutklao Hospital, Bangkok, Thailand",
+          "institution_ids": [
+            "https://openalex.org/I4210087968"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5015975033",
+        "display_name": "Michael Smylie",
+        "orcid": "https://orcid.org/0000-0001-5945-0397"
+      },
+      "institutions": [],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Smylie",
+      "raw_affiliation_strings": [
+        "Cross Cancer Institute, Edmonton, Alta., Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cross Cancer Institute, Edmonton, Alta., Canada",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5070493081",
+        "display_name": "Renato Martins",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210142683",
+          "display_name": "Instituto Nacional do Câncer",
+          "ror": "https://ror.org/055n68305",
+          "country_code": "BR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210142683"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Renato Martins",
+      "raw_affiliation_strings": [
+        "Instituto Nacional de Cancer, Praça da Cruz Vermelha, Rio de Janeiro, Brazil"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Instituto Nacional de Cancer, Praça da Cruz Vermelha, Rio de Janeiro, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I4210142683"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073105004",
+        "display_name": "Maximiliano Van Kooten",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210125926",
+          "display_name": "Instituto Alexander Fleming",
+          "ror": "https://ror.org/02b0zvv74",
+          "country_code": "AR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210125926"
+          ]
+        }
+      ],
+      "countries": [
+        "AR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Maximiliano van Kooten",
+      "raw_affiliation_strings": [
+        "Instituto Medico Alexander Fleming, Buenos Aires"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Instituto Medico Alexander Fleming, Buenos Aires",
+          "institution_ids": [
+            "https://openalex.org/I4210125926"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077459059",
+        "display_name": "Mircea Dediu",
+        "orcid": "https://orcid.org/0000-0001-9151-6026"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210123292",
+          "display_name": "Institutul Oncologic Bucuresti",
+          "ror": "https://ror.org/021zg3m87",
+          "country_code": "RO",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210123292"
+          ]
+        }
+      ],
+      "countries": [
+        "RO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mircea Dediu",
+      "raw_affiliation_strings": [
+        "Oncology Institute, Bucharest, Romania"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oncology Institute, Bucharest, Romania",
+          "institution_ids": [
+            "https://openalex.org/I4210123292"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111719397",
+        "display_name": "B. Findlay",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210106813",
+          "display_name": "Hotel Dieu Shaver Health and Rehabilitation Centre",
+          "ror": "https://ror.org/01vrded44",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210106813"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brian Findlay",
+      "raw_affiliation_strings": [
+        "Hôtel Dieu Health Sciences Hospital, St. Catharines, Ont., Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Hôtel Dieu Health Sciences Hospital, St. Catharines, Ont., Canada",
+          "institution_ids": [
+            "https://openalex.org/I4210106813"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5063121757",
+        "display_name": "Dongsheng Tu",
+        "orcid": "https://orcid.org/0000-0003-4842-2184"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I112260969",
+          "display_name": "Ontario Institute for Cancer Research",
+          "ror": "https://ror.org/043q8yx54",
+          "country_code": "CA",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I112260969"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dongsheng Tu",
+      "raw_affiliation_strings": [
+        "National Cancer Institute of Canada Clinical Trials Group, Kingston, Ont., Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Cancer Institute of Canada Clinical Trials Group, Kingston, Ont., Canada",
+          "institution_ids": [
+            "https://openalex.org/I112260969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5063322027",
+        "display_name": "D. Johnston",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I112260969",
+          "display_name": "Ontario Institute for Cancer Research",
+          "ror": "https://ror.org/043q8yx54",
+          "country_code": "CA",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I112260969"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dianne Johnston",
+      "raw_affiliation_strings": [
+        "National Cancer Institute of Canada Clinical Trials Group, Kingston, Ont., Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Cancer Institute of Canada Clinical Trials Group, Kingston, Ont., Canada",
+          "institution_ids": [
+            "https://openalex.org/I112260969"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040285878",
+        "display_name": "Andrea Bezjak",
+        "orcid": "https://orcid.org/0000-0002-3447-199X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802654988",
+          "display_name": "Princess Margaret Cancer Centre",
+          "ror": "https://ror.org/03zayce58",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1325899441",
+            "https://openalex.org/I2802654988"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1325899441",
+          "display_name": "University Health Network",
+          "ror": "https://ror.org/042xt5161",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1325899441"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I185261750",
+          "display_name": "University of Toronto",
+          "ror": "https://ror.org/03dbr7087",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrea Bezjak",
+      "raw_affiliation_strings": [
+        "Radiation Oncology, the University Health Network, Princess Margaret Hospital Site",
+        "University of Toronto"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Radiation Oncology, the University Health Network, Princess Margaret Hospital Site",
+          "institution_ids": [
+            "https://openalex.org/I2802654988",
+            "https://openalex.org/I1325899441"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Toronto",
+          "institution_ids": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102732578",
+        "display_name": "Gary M. Clark",
+        "orcid": "https://orcid.org/0000-0002-2265-6743"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Gary Clark",
+      "raw_affiliation_strings": [
+        "OSI Pharmaceuticals, Boulder, Colo."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "OSI Pharmaceuticals, Boulder, Colo.",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5022551884",
+        "display_name": "P. Santabárbara",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Pedro Santabárbara",
+      "raw_affiliation_strings": [
+        "OSI Pharmaceuticals, Boulder, Colo."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "OSI Pharmaceuticals, Boulder, Colo.",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5044291041",
+        "display_name": "Lesley Seymour",
+        "orcid": "https://orcid.org/0000-0001-8081-0799"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I112260969",
+          "display_name": "Ontario Institute for Cancer Research",
+          "ror": "https://ror.org/043q8yx54",
+          "country_code": "CA",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I112260969"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lesley Seymour",
+      "raw_affiliation_strings": [
+        "National Cancer Institute of Canada Clinical Trials Group, Kingston, Ont., Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Cancer Institute of Canada Clinical Trials Group, Kingston, Ont., Canada",
+          "institution_ids": [
+            "https://openalex.org/I112260969"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 6,
+  "institutions_distinct_count": 13,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 290.772,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 5408,
+  "citation_normalized_percentile": {
+    "value": 0.999954,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "353",
+    "issue": "2",
+    "first_page": "123",
+    "last_page": "132"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10417",
+    "display_name": "Lung Cancer Treatments and Mutations",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2740",
+      "display_name": "Pulmonary and Respiratory Medicine"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10417",
+      "display_name": "Lung Cancer Treatments and Mutations",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12334",
+      "display_name": "Lung Cancer Research Studies",
+      "score": 0.9995,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12505",
+      "display_name": "Peptidase Inhibition and Analysis",
+      "score": 0.999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2730",
+        "display_name": "Oncology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/erlotinib-hydrochloride",
+      "display_name": "Erlotinib Hydrochloride",
+      "score": 0.6335958
+    },
+    {
+      "id": "https://openalex.org/keywords/performance-status",
+      "display_name": "Performance status",
+      "score": 0.4123418
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2778087573",
+      "wikidata": "https://www.wikidata.org/wiki/Q418369",
+      "display_name": "Erlotinib",
+      "level": 4,
+      "score": 0.94612384
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.90447634
+    },
+    {
+      "id": "https://openalex.org/C2776256026",
+      "wikidata": "https://www.wikidata.org/wiki/Q47912",
+      "display_name": "Lung cancer",
+      "level": 2,
+      "score": 0.707368
+    },
+    {
+      "id": "https://openalex.org/C207103383",
+      "wikidata": "https://www.wikidata.org/wiki/Q3930246",
+      "display_name": "Hazard ratio",
+      "level": 3,
+      "score": 0.6738801
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.66201144
+    },
+    {
+      "id": "https://openalex.org/C2909325608",
+      "wikidata": "https://www.wikidata.org/wiki/Q418369",
+      "display_name": "Erlotinib Hydrochloride",
+      "level": 5,
+      "score": 0.6335958
+    },
+    {
+      "id": "https://openalex.org/C2776694085",
+      "wikidata": "https://www.wikidata.org/wiki/Q974135",
+      "display_name": "Chemotherapy",
+      "level": 2,
+      "score": 0.612316
+    },
+    {
+      "id": "https://openalex.org/C204243189",
+      "wikidata": "https://www.wikidata.org/wiki/Q1363085",
+      "display_name": "Randomization",
+      "level": 3,
+      "score": 0.45335096
+    },
+    {
+      "id": "https://openalex.org/C27081682",
+      "wikidata": "https://www.wikidata.org/wiki/Q269829",
+      "display_name": "Placebo",
+      "level": 3,
+      "score": 0.44398507
+    },
+    {
+      "id": "https://openalex.org/C2776907518",
+      "wikidata": "https://www.wikidata.org/wiki/Q1734165",
+      "display_name": "Performance status",
+      "level": 3,
+      "score": 0.4123418
+    },
+    {
+      "id": "https://openalex.org/C143998085",
+      "wikidata": "https://www.wikidata.org/wiki/Q162555",
+      "display_name": "Oncology",
+      "level": 1,
+      "score": 0.40094107
+    },
+    {
+      "id": "https://openalex.org/C141071460",
+      "wikidata": "https://www.wikidata.org/wiki/Q40821",
+      "display_name": "Surgery",
+      "level": 1,
+      "score": 0.38363275
+    },
+    {
+      "id": "https://openalex.org/C2779438470",
+      "wikidata": "https://www.wikidata.org/wiki/Q424401",
+      "display_name": "Epidermal growth factor receptor",
+      "level": 3,
+      "score": 0.36688566
+    },
+    {
+      "id": "https://openalex.org/C90924648",
+      "wikidata": "https://www.wikidata.org/wiki/Q120569",
+      "display_name": "Gastroenterology",
+      "level": 1,
+      "score": 0.3514039
+    },
+    {
+      "id": "https://openalex.org/C121608353",
+      "wikidata": "https://www.wikidata.org/wiki/Q12078",
+      "display_name": "Cancer",
+      "level": 2,
+      "score": 0.3454017
+    },
+    {
+      "id": "https://openalex.org/C168563851",
+      "wikidata": "https://www.wikidata.org/wiki/Q1436668",
+      "display_name": "Randomized controlled trial",
+      "level": 2,
+      "score": 0.34109432
+    },
+    {
+      "id": "https://openalex.org/C44249647",
+      "wikidata": "https://www.wikidata.org/wiki/Q208498",
+      "display_name": "Confidence interval",
+      "level": 2,
+      "score": 0.13062558
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.08018693
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002289",
+      "descriptor_name": "Carcinoma, Non-Small-Cell Lung",
+      "qualifier_ui": "Q000188",
+      "qualifier_name": "drug therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D066246",
+      "descriptor_name": "ErbB Receptors",
+      "qualifier_ui": "Q000037",
+      "qualifier_name": "antagonists & inhibitors",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008175",
+      "descriptor_name": "Lung Neoplasms",
+      "qualifier_ui": "Q000188",
+      "qualifier_name": "drug therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D047428",
+      "descriptor_name": "Protein Kinase Inhibitors",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011799",
+      "descriptor_name": "Quinazolines",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000971",
+      "descriptor_name": "Antineoplastic Combined Chemotherapy Protocols",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000971",
+      "descriptor_name": "Antineoplastic Combined Chemotherapy Protocols",
+      "qualifier_ui": "Q000627",
+      "qualifier_name": "therapeutic use",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002289",
+      "descriptor_name": "Carcinoma, Non-Small-Cell Lung",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002289",
+      "descriptor_name": "Carcinoma, Non-Small-Cell Lung",
+      "qualifier_ui": "Q000401",
+      "qualifier_name": "mortality",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002945",
+      "descriptor_name": "Cisplatin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002945",
+      "descriptor_name": "Cisplatin",
+      "qualifier_ui": "Q000008",
+      "qualifier_name": "administration & dosage",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004311",
+      "descriptor_name": "Double-Blind Method",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D066246",
+      "descriptor_name": "ErbB Receptors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000069347",
+      "descriptor_name": "Erlotinib Hydrochloride",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008175",
+      "descriptor_name": "Lung Neoplasms",
+      "qualifier_ui": "Q000401",
+      "qualifier_name": "mortality",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008175",
+      "descriptor_name": "Lung Neoplasms",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008875",
+      "descriptor_name": "Middle Aged",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D047428",
+      "descriptor_name": "Protein Kinase Inhibitors",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D047428",
+      "descriptor_name": "Protein Kinase Inhibitors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011788",
+      "descriptor_name": "Quality of Life",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011799",
+      "descriptor_name": "Quinazolines",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011799",
+      "descriptor_name": "Quinazolines",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016019",
+      "descriptor_name": "Survival Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1056/nejmoa050753",
+      "pdf_url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa050753?articleTools=true",
+      "source": {
+        "id": "https://openalex.org/S62468778",
+        "display_name": "New England Journal of Medicine",
+        "issn_l": "0028-4793",
+        "issn": [
+          "0028-4793",
+          "1533-4406"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320239",
+        "host_organization_name": "Massachusetts Medical Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320239"
+        ],
+        "host_organization_lineage_names": [
+          "Massachusetts Medical Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16014882",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1056/nejmoa050753",
+    "pdf_url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa050753?articleTools=true",
+    "source": {
+      "id": "https://openalex.org/S62468778",
+      "display_name": "New England Journal of Medicine",
+      "issn_l": "0028-4793",
+      "issn": [
+        "0028-4793",
+        "1533-4406"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320239",
+      "host_organization_name": "Massachusetts Medical Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320239"
+      ],
+      "host_organization_lineage_names": [
+        "Massachusetts Medical Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.85
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 36,
+  "referenced_works": [
+    "https://openalex.org/W1490397821",
+    "https://openalex.org/W1653571790",
+    "https://openalex.org/W1839238860",
+    "https://openalex.org/W1947168884",
+    "https://openalex.org/W1967798749",
+    "https://openalex.org/W1970476748",
+    "https://openalex.org/W2043696829",
+    "https://openalex.org/W2049484790",
+    "https://openalex.org/W2058680827",
+    "https://openalex.org/W2064047613",
+    "https://openalex.org/W2108523633",
+    "https://openalex.org/W2110835998",
+    "https://openalex.org/W2111710483",
+    "https://openalex.org/W2115012618",
+    "https://openalex.org/W2120718661",
+    "https://openalex.org/W2121831273",
+    "https://openalex.org/W2122712858",
+    "https://openalex.org/W2127101185",
+    "https://openalex.org/W2130652363",
+    "https://openalex.org/W2135422811",
+    "https://openalex.org/W2139236349",
+    "https://openalex.org/W2139248078",
+    "https://openalex.org/W2139377071",
+    "https://openalex.org/W2140775102",
+    "https://openalex.org/W2145653040",
+    "https://openalex.org/W2146404049",
+    "https://openalex.org/W2147703884",
+    "https://openalex.org/W2151220251",
+    "https://openalex.org/W2158179945",
+    "https://openalex.org/W2161821474",
+    "https://openalex.org/W2242848604",
+    "https://openalex.org/W2297901492",
+    "https://openalex.org/W2405151655",
+    "https://openalex.org/W2504684570",
+    "https://openalex.org/W4239714259",
+    "https://openalex.org/W4247103121"
+  ],
+  "related_works": [
+    "https://openalex.org/W4251414058",
+    "https://openalex.org/W3003805320",
+    "https://openalex.org/W2541392164",
+    "https://openalex.org/W2360123363",
+    "https://openalex.org/W2168841302",
+    "https://openalex.org/W2120992361",
+    "https://openalex.org/W2035762060",
+    "https://openalex.org/W2023597833",
+    "https://openalex.org/W1994763147",
+    "https://openalex.org/W1799778430"
+  ],
+  "abstract_inverted_index": {
+    "We": [
+      0
+    ],
+    "conducted": [
+      1
+    ],
+    "a": [
+      2
+    ],
+    "randomized,": [
+      3
+    ],
+    "placebo-controlled,": [
+      4
+    ],
+    "double-blind": [
+      5
+    ],
+    "trial": [
+      6
+    ],
+    "to": [
+      7
+    ],
+    "determine": [
+      8
+    ],
+    "whether": [
+      9
+    ],
+    "the": [
+      10,
+      24
+    ],
+    "epidermal": [
+      11
+    ],
+    "growth": [
+      12
+    ],
+    "factor": [
+      13
+    ],
+    "receptor": [
+      14
+    ],
+    "inhibitor": [
+      15
+    ],
+    "erlotinib": [
+      16
+    ],
+    "prolongs": [
+      17
+    ],
+    "survival": [
+      18
+    ],
+    "in": [
+      19
+    ],
+    "non–small-cell": [
+      20
+    ],
+    "lung": [
+      21
+    ],
+    "cancer": [
+      22
+    ],
+    "after": [
+      23
+    ],
+    "failure": [
+      25
+    ],
+    "of": [
+      26
+    ],
+    "first-line": [
+      27
+    ],
+    "or": [
+      28
+    ],
+    "second-line": [
+      29
+    ],
+    "chemotherapy.": [
+      30
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2138297714",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 59
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 74
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 125
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 104
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 124
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 140
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 184
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 229
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 243
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 349
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 346
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 459
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 422
+    }
+  ],
+  "updated_date": "2025-06-13T08:58:59.414441",
+  "created_date": "2016-06-24"
+}

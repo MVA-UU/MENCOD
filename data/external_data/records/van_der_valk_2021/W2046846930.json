@@ -1,0 +1,973 @@
+{
+  "id": "https://openalex.org/W2046846930",
+  "doi": "https://doi.org/10.1038/ismej.2010.71",
+  "title": "Postprandial remodeling of the gut microbiota in Burmese pythons",
+  "display_name": "Postprandial remodeling of the gut microbiota in Burmese pythons",
+  "publication_year": 2010,
+  "publication_date": "2010-06-03",
+  "ids": {
+    "openalex": "https://openalex.org/W2046846930",
+    "doi": "https://doi.org/10.1038/ismej.2010.71",
+    "mag": "2046846930",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/20520652",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3923499"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/ismej.2010.71",
+    "pdf_url": "https://www.nature.com/articles/ismej201071.pdf",
+    "source": {
+      "id": "https://openalex.org/S149218730",
+      "display_name": "The ISME Journal",
+      "issn_l": "1751-7362",
+      "issn": [
+        "1751-7362",
+        "1751-7370"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.nature.com/articles/ismej201071.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5068609634",
+        "display_name": "Elizabeth K. Costello",
+        "orcid": "https://orcid.org/0000-0002-6441-2931"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I188538660",
+          "display_name": "University of Colorado Boulder",
+          "ror": "https://ror.org/02ttsq026",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I188538660"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elizabeth K Costello",
+      "raw_affiliation_strings": [
+        "Department of Chemistry and Biochemistry University of Colorado Boulder CO 80309-0215 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry and Biochemistry University of Colorado Boulder CO 80309-0215 USA",
+          "institution_ids": [
+            "https://openalex.org/I188538660"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5063884903",
+        "display_name": "Jeffrey I. Gordon",
+        "orcid": "https://orcid.org/0000-0001-8304-3548"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204465549",
+          "display_name": "Washington University in St. Louis",
+          "ror": "https://ror.org/01yc7t268",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeffrey I Gordon",
+      "raw_affiliation_strings": [
+        "Center for Genome Sciences, Washington University School of Medicine , St Louis, MO , USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Genome Sciences, Washington University School of Medicine , St Louis, MO , USA",
+          "institution_ids": [
+            "https://openalex.org/I204465549"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008250495",
+        "display_name": "Stephen M. Secor",
+        "orcid": "https://orcid.org/0000-0002-4795-3509"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17301866",
+          "display_name": "University of Alabama",
+          "ror": "https://ror.org/03xrrjk67",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I17301866"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stephen M Secor",
+      "raw_affiliation_strings": [
+        "Department of Biological Sciences, The University of Alabama , Tuscaloosa, AL , USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biological Sciences, The University of Alabama , Tuscaloosa, AL , USA",
+          "institution_ids": [
+            "https://openalex.org/I17301866"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5033881627",
+        "display_name": "Rob Knight",
+        "orcid": "https://orcid.org/0000-0002-0975-9019"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I188538660",
+          "display_name": "University of Colorado Boulder",
+          "ror": "https://ror.org/02ttsq026",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I188538660"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1344073410",
+          "display_name": "Howard Hughes Medical Institute",
+          "ror": "https://ror.org/006w34k90",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1344073410"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rob Knight",
+      "raw_affiliation_strings": [
+        "Department of Chemistry and Biochemistry, University of Colorado , Boulder, CO , USA",
+        "Howard Hughes Medical Institute, University of Colorado , Boulder, CO , USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Chemistry and Biochemistry, University of Colorado , Boulder, CO , USA",
+          "institution_ids": [
+            "https://openalex.org/I188538660"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Howard Hughes Medical Institute, University of Colorado , Boulder, CO , USA",
+          "institution_ids": [
+            "https://openalex.org/I1344073410",
+            "https://openalex.org/I188538660"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3290,
+    "currency": "EUR",
+    "value_usd": 3750
+  },
+  "apc_paid": null,
+  "fwci": 5.461,
+  "has_fulltext": false,
+  "cited_by_count": 254,
+  "citation_normalized_percentile": {
+    "value": 0.926971,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "4",
+    "issue": "11",
+    "first_page": "1375",
+    "last_page": "1385"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10066",
+    "display_name": "Gut microbiota and health",
+    "score": 0.9994,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1312",
+      "display_name": "Molecular Biology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/13",
+      "display_name": "Biochemistry, Genetics and Molecular Biology"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10066",
+      "display_name": "Gut microbiota and health",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1312",
+        "display_name": "Molecular Biology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10332",
+      "display_name": "Amphibian and Reptile Biology",
+      "score": 0.97,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10428",
+      "display_name": "Reproductive tract infections research",
+      "score": 0.9579,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2404",
+        "display_name": "Microbiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/24",
+        "display_name": "Immunology and Microbiology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/akkermansia",
+      "display_name": "Akkermansia",
+      "score": 0.796219
+    },
+    {
+      "id": "https://openalex.org/keywords/fusobacteria",
+      "display_name": "Fusobacteria",
+      "score": 0.5353589
+    },
+    {
+      "id": "https://openalex.org/keywords/ruminococcus",
+      "display_name": "Ruminococcus",
+      "score": 0.5010171
+    },
+    {
+      "id": "https://openalex.org/keywords/charadriiformes",
+      "display_name": "Charadriiformes",
+      "score": 0.47869566
+    },
+    {
+      "id": "https://openalex.org/keywords/python",
+      "display_name": "Python",
+      "score": 0.4617446
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.9285538
+    },
+    {
+      "id": "https://openalex.org/C2777695942",
+      "wikidata": "https://www.wikidata.org/wiki/Q149075",
+      "display_name": "Firmicutes",
+      "level": 4,
+      "score": 0.8939606
+    },
+    {
+      "id": "https://openalex.org/C2777385719",
+      "wikidata": "https://www.wikidata.org/wiki/Q1061265",
+      "display_name": "Bacteroidetes",
+      "level": 4,
+      "score": 0.80306804
+    },
+    {
+      "id": "https://openalex.org/C2776109033",
+      "wikidata": "https://www.wikidata.org/wiki/Q3884023",
+      "display_name": "Akkermansia",
+      "level": 4,
+      "score": 0.796219
+    },
+    {
+      "id": "https://openalex.org/C539455810",
+      "wikidata": "https://www.wikidata.org/wiki/Q739734",
+      "display_name": "Gut flora",
+      "level": 2,
+      "score": 0.73275864
+    },
+    {
+      "id": "https://openalex.org/C90856448",
+      "wikidata": "https://www.wikidata.org/wiki/Q431",
+      "display_name": "Zoology",
+      "level": 1,
+      "score": 0.6174752
+    },
+    {
+      "id": "https://openalex.org/C2776202939",
+      "wikidata": "https://www.wikidata.org/wiki/Q1137677",
+      "display_name": "Fusobacteria",
+      "level": 5,
+      "score": 0.5353589
+    },
+    {
+      "id": "https://openalex.org/C2780027724",
+      "wikidata": "https://www.wikidata.org/wiki/Q288892",
+      "display_name": "Ruminococcus",
+      "level": 3,
+      "score": 0.5010171
+    },
+    {
+      "id": "https://openalex.org/C15151743",
+      "wikidata": "https://www.wikidata.org/wiki/Q903778",
+      "display_name": "Metagenomics",
+      "level": 3,
+      "score": 0.49469706
+    },
+    {
+      "id": "https://openalex.org/C2777714001",
+      "wikidata": "https://www.wikidata.org/wiki/Q25978",
+      "display_name": "Charadriiformes",
+      "level": 2,
+      "score": 0.47869566
+    },
+    {
+      "id": "https://openalex.org/C519991488",
+      "wikidata": "https://www.wikidata.org/wiki/Q28865",
+      "display_name": "Python (programming language)",
+      "level": 2,
+      "score": 0.4617446
+    },
+    {
+      "id": "https://openalex.org/C2779676784",
+      "wikidata": "https://www.wikidata.org/wiki/Q130999",
+      "display_name": "Proteobacteria",
+      "level": 4,
+      "score": 0.45945814
+    },
+    {
+      "id": "https://openalex.org/C2780206646",
+      "wikidata": "https://www.wikidata.org/wiki/Q1061596",
+      "display_name": "Lactobacillus",
+      "level": 3,
+      "score": 0.3809672
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.351094
+    },
+    {
+      "id": "https://openalex.org/C89423630",
+      "wikidata": "https://www.wikidata.org/wiki/Q7193",
+      "display_name": "Microbiology",
+      "level": 1,
+      "score": 0.3308408
+    },
+    {
+      "id": "https://openalex.org/C42062724",
+      "wikidata": "https://www.wikidata.org/wiki/Q1209205",
+      "display_name": "16S ribosomal RNA",
+      "level": 3,
+      "score": 0.18869862
+    },
+    {
+      "id": "https://openalex.org/C523546767",
+      "wikidata": "https://www.wikidata.org/wiki/Q10876",
+      "display_name": "Bacteria",
+      "level": 2,
+      "score": 0.14106053
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.10708827
+    },
+    {
+      "id": "https://openalex.org/C203014093",
+      "wikidata": "https://www.wikidata.org/wiki/Q101929",
+      "display_name": "Immunology",
+      "level": 1,
+      "score": 0.08846846
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001419",
+      "descriptor_name": "Bacteria",
+      "qualifier_ui": "Q000145",
+      "qualifier_name": "classification",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D044822",
+      "descriptor_name": "Biodiversity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D017821",
+      "descriptor_name": "Boidae",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D041981",
+      "descriptor_name": "Gastrointestinal Tract",
+      "qualifier_ui": "Q000382",
+      "qualifier_name": "microbiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D054892",
+      "descriptor_name": "Metagenome",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001419",
+      "descriptor_name": "Bacteria",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001419",
+      "descriptor_name": "Bacteria",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017821",
+      "descriptor_name": "Boidae",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016000",
+      "descriptor_name": "Cluster Analysis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004269",
+      "descriptor_name": "DNA, Bacterial",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004269",
+      "descriptor_name": "DNA, Bacterial",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004269",
+      "descriptor_name": "DNA, Bacterial",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004275",
+      "descriptor_name": "DNA, Ribosomal",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004275",
+      "descriptor_name": "DNA, Ribosomal",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004275",
+      "descriptor_name": "DNA, Ribosomal",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D041981",
+      "descriptor_name": "Gastrointestinal Tract",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D041981",
+      "descriptor_name": "Gastrointestinal Tract",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008969",
+      "descriptor_name": "Molecular Sequence Data",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010802",
+      "descriptor_name": "Phylogeny",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019518",
+      "descriptor_name": "Postprandial Period",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012336",
+      "descriptor_name": "RNA, Ribosomal, 16S",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012336",
+      "descriptor_name": "RNA, Ribosomal, 16S",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017422",
+      "descriptor_name": "Sequence Analysis, DNA",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/ismej.2010.71",
+      "pdf_url": "https://www.nature.com/articles/ismej201071.pdf",
+      "source": {
+        "id": "https://openalex.org/S149218730",
+        "display_name": "The ISME Journal",
+        "issn_l": "1751-7362",
+        "issn": [
+          "1751-7362",
+          "1751-7370"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3923499",
+      "pdf_url": "https://europepmc.org/articles/pmc3923499?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3923499",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/20520652",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/ismej.2010.71",
+    "pdf_url": "https://www.nature.com/articles/ismej201071.pdf",
+    "source": {
+      "id": "https://openalex.org/S149218730",
+      "display_name": "The ISME Journal",
+      "issn_l": "1751-7362",
+      "issn": [
+        "1751-7362",
+        "1751-7370"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/15",
+      "display_name": "Life on land",
+      "score": 0.6
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 53,
+  "referenced_works": [
+    "https://openalex.org/W1552250114",
+    "https://openalex.org/W1641900861",
+    "https://openalex.org/W1963723331",
+    "https://openalex.org/W1969435169",
+    "https://openalex.org/W1971415551",
+    "https://openalex.org/W1974251318",
+    "https://openalex.org/W1986706966",
+    "https://openalex.org/W1988925586",
+    "https://openalex.org/W2008194879",
+    "https://openalex.org/W2024649395",
+    "https://openalex.org/W2028935316",
+    "https://openalex.org/W2038838030",
+    "https://openalex.org/W2044977356",
+    "https://openalex.org/W2059905539",
+    "https://openalex.org/W2069098110",
+    "https://openalex.org/W2072174450",
+    "https://openalex.org/W2072970694",
+    "https://openalex.org/W2073332363",
+    "https://openalex.org/W2084512022",
+    "https://openalex.org/W2085684208",
+    "https://openalex.org/W2093891969",
+    "https://openalex.org/W2104318549",
+    "https://openalex.org/W2104890139",
+    "https://openalex.org/W2105329815",
+    "https://openalex.org/W2105977974",
+    "https://openalex.org/W2113802339",
+    "https://openalex.org/W2127898622",
+    "https://openalex.org/W2130877396",
+    "https://openalex.org/W2134241692",
+    "https://openalex.org/W2136409488",
+    "https://openalex.org/W2136552678",
+    "https://openalex.org/W2142336938",
+    "https://openalex.org/W2142995785",
+    "https://openalex.org/W2144568881",
+    "https://openalex.org/W2145664556",
+    "https://openalex.org/W2149573313",
+    "https://openalex.org/W2152885278",
+    "https://openalex.org/W2156125289",
+    "https://openalex.org/W2158517513",
+    "https://openalex.org/W2166655850",
+    "https://openalex.org/W2167023561",
+    "https://openalex.org/W2167062509",
+    "https://openalex.org/W2167084464",
+    "https://openalex.org/W2169330513",
+    "https://openalex.org/W2169619812",
+    "https://openalex.org/W2170024099",
+    "https://openalex.org/W2171806677",
+    "https://openalex.org/W2314128314",
+    "https://openalex.org/W2328977190",
+    "https://openalex.org/W2347094397",
+    "https://openalex.org/W3104832518",
+    "https://openalex.org/W4205366374",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W4324374123",
+    "https://openalex.org/W3215395598",
+    "https://openalex.org/W2974224234",
+    "https://openalex.org/W2970696926",
+    "https://openalex.org/W2618938286",
+    "https://openalex.org/W2607959578",
+    "https://openalex.org/W2409681357",
+    "https://openalex.org/W2144133378",
+    "https://openalex.org/W2095304086",
+    "https://openalex.org/W2026458018"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2046846930",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 17
+    }
+  ],
+  "updated_date": "2025-05-31T17:28:01.233769",
+  "created_date": "2016-06-24"
+}

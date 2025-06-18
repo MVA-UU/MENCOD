@@ -1,0 +1,1956 @@
+{
+  "id": "https://openalex.org/W2093400617",
+  "doi": "https://doi.org/10.1073/pnas.0503878102",
+  "title": "Loss of the limbic mineralocorticoid receptor impairs behavioral plasticity",
+  "display_name": "Loss of the limbic mineralocorticoid receptor impairs behavioral plasticity",
+  "publication_year": 2005,
+  "publication_date": "2005-12-20",
+  "ids": {
+    "openalex": "https://openalex.org/W2093400617",
+    "doi": "https://doi.org/10.1073/pnas.0503878102",
+    "mag": "2093400617",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/16368758",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/1324975"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1073/pnas.0503878102",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc1324975?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5106183595",
+        "display_name": "Stefan Berger",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stefan Berger",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I17937529",
+            "https://openalex.org/I223822909",
+            "https://openalex.org/I44260953"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009427739",
+        "display_name": "David P Wolfer",
+        "orcid": "https://orcid.org/0000-0002-5957-1401"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David P. Wolfer",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+        "Univ. of Zurich"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I44260953",
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I17937529",
+            "https://openalex.org/I223822909"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Univ. of Zurich",
+          "institution_ids": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031369820",
+        "display_name": "Oliver Selbach",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Oliver Selbach",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I44260953",
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I17937529",
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112458420",
+        "display_name": "Heike Alter",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Heike Alter",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I17937529",
+            "https://openalex.org/I223822909",
+            "https://openalex.org/I44260953"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055959691",
+        "display_name": "Gitta Erdmann",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gitta Erdmann",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I44260953",
+            "https://openalex.org/I223822909",
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I17937529"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003072830",
+        "display_name": "Holger M. Reichardt",
+        "orcid": "https://orcid.org/0000-0003-4647-057X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Holger M. Reichardt",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I44260953",
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I17937529",
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5000223579",
+        "display_name": "A. N. Chepkova",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Aisa N. Chepkova",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I44260953",
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I17937529",
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026047312",
+        "display_name": "Hans Welzl",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hans Welzl",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+        "Univ. of Zurich"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I44260953",
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I17937529",
+            "https://openalex.org/I223822909"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Univ. of Zurich",
+          "institution_ids": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110429983",
+        "display_name": "Helmut L. Haas",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Helmut L. Haas",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I44260953",
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I17937529",
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111674674",
+        "display_name": "Hans-Peter Lipp",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hans-Peter Lipp",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+        "Univ. of Zurich"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I17937529",
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I223822909",
+            "https://openalex.org/I44260953"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Univ. of Zurich",
+          "institution_ids": [
+            "https://openalex.org/I202697423"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5111644727",
+        "display_name": "Günther Schütz",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44260953",
+          "display_name": "Heinrich Heine University Düsseldorf",
+          "ror": "https://ror.org/024z2rq82",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I44260953"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I202697423",
+          "display_name": "University of Zurich",
+          "ror": "https://ror.org/02crff812",
+          "country_code": "CH",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I202697423"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I17937529",
+          "display_name": "German Cancer Research Center",
+          "ror": "https://ror.org/04cdgtt98",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I17937529"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I223822909",
+          "display_name": "Heidelberg University",
+          "ror": "https://ror.org/038t36y30",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ],
+      "countries": [
+        "CH",
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Günther Schütz",
+      "raw_affiliation_strings": [
+        "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "German Cancer Research Center, Division Molecular Biology of the Cell I, Im Neuenheimer Feld 280, 69120 Heidelberg, Germany; Institute of Anatomy, University of Zürich, Winterthurerstrasse 190, 8057 Zürich, Switzerland; and Department of Neurophysiology, Heinrich-Heine-University, 40001 Düsseldorf, Germany",
+          "institution_ids": [
+            "https://openalex.org/I44260953",
+            "https://openalex.org/I202697423",
+            "https://openalex.org/I17937529",
+            "https://openalex.org/I223822909"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.021,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 263,
+  "citation_normalized_percentile": {
+    "value": 0.819484,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "103",
+    "issue": "1",
+    "first_page": "195",
+    "last_page": "200"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11541",
+      "display_name": "Neuroendocrine regulation and behavior",
+      "score": 0.998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.9968,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/limbic-system",
+      "display_name": "Limbic system",
+      "score": 0.6786929
+    },
+    {
+      "id": "https://openalex.org/keywords/hypoactivity",
+      "display_name": "Hypoactivity",
+      "score": 0.5246727
+    },
+    {
+      "id": "https://openalex.org/keywords/corticosterone",
+      "display_name": "Corticosterone",
+      "score": 0.5192504
+    },
+    {
+      "id": "https://openalex.org/keywords/elevated-plus-maze",
+      "display_name": "Elevated plus maze",
+      "score": 0.49682763
+    },
+    {
+      "id": "https://openalex.org/keywords/forebrain",
+      "display_name": "Forebrain",
+      "score": 0.42311463
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C541082541",
+      "wikidata": "https://www.wikidata.org/wiki/Q192560",
+      "display_name": "Limbic system",
+      "level": 3,
+      "score": 0.6786929
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.65980685
+    },
+    {
+      "id": "https://openalex.org/C2779424989",
+      "wikidata": "https://www.wikidata.org/wiki/Q5959131",
+      "display_name": "Hypoactivity",
+      "level": 2,
+      "score": 0.5246727
+    },
+    {
+      "id": "https://openalex.org/C2781161787",
+      "wikidata": "https://www.wikidata.org/wiki/Q48360",
+      "display_name": "Hippocampus",
+      "level": 2,
+      "score": 0.5221881
+    },
+    {
+      "id": "https://openalex.org/C2780352252",
+      "wikidata": "https://www.wikidata.org/wiki/Q422543",
+      "display_name": "Corticosterone",
+      "level": 3,
+      "score": 0.5192504
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.5157819
+    },
+    {
+      "id": "https://openalex.org/C173586616",
+      "wikidata": "https://www.wikidata.org/wiki/Q5359685",
+      "display_name": "Elevated plus maze",
+      "level": 3,
+      "score": 0.49682763
+    },
+    {
+      "id": "https://openalex.org/C59493245",
+      "wikidata": "https://www.wikidata.org/wiki/Q14877410",
+      "display_name": "Glucocorticoid receptor",
+      "level": 3,
+      "score": 0.48501655
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.46243227
+    },
+    {
+      "id": "https://openalex.org/C148762608",
+      "wikidata": "https://www.wikidata.org/wiki/Q3748185",
+      "display_name": "Hippocampal formation",
+      "level": 2,
+      "score": 0.4254938
+    },
+    {
+      "id": "https://openalex.org/C2779715522",
+      "wikidata": "https://www.wikidata.org/wiki/Q507027",
+      "display_name": "Forebrain",
+      "level": 3,
+      "score": 0.42311463
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.42280182
+    },
+    {
+      "id": "https://openalex.org/C2780841215",
+      "wikidata": "https://www.wikidata.org/wiki/Q422549",
+      "display_name": "Glucocorticoid",
+      "level": 2,
+      "score": 0.3853252
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.2910846
+    },
+    {
+      "id": "https://openalex.org/C558461103",
+      "wikidata": "https://www.wikidata.org/wiki/Q154430",
+      "display_name": "Anxiety",
+      "level": 2,
+      "score": 0.2905262
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.25732434
+    },
+    {
+      "id": "https://openalex.org/C529278444",
+      "wikidata": "https://www.wikidata.org/wiki/Q47273",
+      "display_name": "Central nervous system",
+      "level": 2,
+      "score": 0.24147087
+    },
+    {
+      "id": "https://openalex.org/C71315377",
+      "wikidata": "https://www.wikidata.org/wiki/Q11364",
+      "display_name": "Hormone",
+      "level": 2,
+      "score": 0.097839326
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D006624",
+      "descriptor_name": "Hippocampus",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018782",
+      "descriptor_name": "Maze Learning",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008568",
+      "descriptor_name": "Memory",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018161",
+      "descriptor_name": "Receptors, Mineralocorticoid",
+      "qualifier_ui": "Q000172",
+      "qualifier_name": "deficiency",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003345",
+      "descriptor_name": "Corticosterone",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003345",
+      "descriptor_name": "Corticosterone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006624",
+      "descriptor_name": "Hippocampus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007150",
+      "descriptor_name": "Immunohistochemistry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018782",
+      "descriptor_name": "Maze Learning",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008568",
+      "descriptor_name": "Memory",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008822",
+      "descriptor_name": "Mice, Transgenic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008957",
+      "descriptor_name": "Models, Genetic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011965",
+      "descriptor_name": "Receptors, Glucocorticoid",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011965",
+      "descriptor_name": "Receptors, Glucocorticoid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018161",
+      "descriptor_name": "Receptors, Mineralocorticoid",
+      "qualifier_ui": "Q000235",
+      "qualifier_name": "genetics",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018161",
+      "descriptor_name": "Receptors, Mineralocorticoid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013239",
+      "descriptor_name": "Stereotyped Behavior",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013239",
+      "descriptor_name": "Stereotyped Behavior",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1073/pnas.0503878102",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S125754415",
+        "display_name": "Proceedings of the National Academy of Sciences",
+        "issn_l": "0027-8424",
+        "issn": [
+          "0027-8424",
+          "1091-6490"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320052",
+        "host_organization_name": "National Academy of Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320052"
+        ],
+        "host_organization_lineage_names": [
+          "National Academy of Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc1324975",
+      "pdf_url": "https://europepmc.org/articles/pmc1324975?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1324975",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/16368758",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc1324975",
+    "pdf_url": "https://europepmc.org/articles/pmc1324975?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 43,
+  "referenced_works": [
+    "https://openalex.org/W122792336",
+    "https://openalex.org/W1515307249",
+    "https://openalex.org/W1538641465",
+    "https://openalex.org/W1599181452",
+    "https://openalex.org/W1625103160",
+    "https://openalex.org/W1964189385",
+    "https://openalex.org/W1965992252",
+    "https://openalex.org/W1968963646",
+    "https://openalex.org/W1984894097",
+    "https://openalex.org/W1985142604",
+    "https://openalex.org/W1988729957",
+    "https://openalex.org/W1988909210",
+    "https://openalex.org/W1990906839",
+    "https://openalex.org/W2003050811",
+    "https://openalex.org/W2011896070",
+    "https://openalex.org/W2017832956",
+    "https://openalex.org/W2019089897",
+    "https://openalex.org/W2019186551",
+    "https://openalex.org/W2029404396",
+    "https://openalex.org/W2031667205",
+    "https://openalex.org/W2034664221",
+    "https://openalex.org/W2040465695",
+    "https://openalex.org/W2041046304",
+    "https://openalex.org/W2044806898",
+    "https://openalex.org/W2060644077",
+    "https://openalex.org/W2069312841",
+    "https://openalex.org/W2078090509",
+    "https://openalex.org/W2080118525",
+    "https://openalex.org/W2080257557",
+    "https://openalex.org/W2088939071",
+    "https://openalex.org/W2089750906",
+    "https://openalex.org/W2091419854",
+    "https://openalex.org/W2092741090",
+    "https://openalex.org/W2094506715",
+    "https://openalex.org/W2095395905",
+    "https://openalex.org/W2121511337",
+    "https://openalex.org/W2135681160",
+    "https://openalex.org/W2136470350",
+    "https://openalex.org/W2168558569",
+    "https://openalex.org/W2171238991",
+    "https://openalex.org/W2409380465",
+    "https://openalex.org/W4237012674",
+    "https://openalex.org/W4242624669"
+  ],
+  "related_works": [
+    "https://openalex.org/W830859176",
+    "https://openalex.org/W3145602372",
+    "https://openalex.org/W2481048858",
+    "https://openalex.org/W2412781918",
+    "https://openalex.org/W2298615789",
+    "https://openalex.org/W2161847321",
+    "https://openalex.org/W2070204091",
+    "https://openalex.org/W2046739556",
+    "https://openalex.org/W2038856313",
+    "https://openalex.org/W2030735456"
+  ],
+  "abstract_inverted_index": {
+    "Corticosteroid": [
+      0
+    ],
+    "action": [
+      1
+    ],
+    "in": [
+      2,
+      17,
+      39,
+      47,
+      66,
+      84,
+      129
+    ],
+    "the": [
+      3,
+      8,
+      12,
+      33,
+      36,
+      44,
+      48,
+      51,
+      54,
+      59,
+      79,
+      90,
+      119,
+      130,
+      151
+    ],
+    "brain": [
+      4
+    ],
+    "is": [
+      5
+    ],
+    "mediated": [
+      6
+    ],
+    "by": [
+      7
+    ],
+    "mineralocorticoid": [
+      9
+    ],
+    "(MR)": [
+      10
+    ],
+    "and": [
+      11,
+      19,
+      28,
+      69,
+      82,
+      97,
+      123,
+      142,
+      161,
+      168
+    ],
+    "glucocorticoid": [
+      13
+    ],
+    "(GR)": [
+      14
+    ],
+    "receptor.": [
+      15
+    ],
+    "Disturbances": [
+      16
+    ],
+    "MR-": [
+      18
+    ],
+    "GR-mediated": [
+      20
+    ],
+    "effects": [
+      21
+    ],
+    "are": [
+      22,
+      114
+    ],
+    "thought": [
+      23
+    ],
+    "to": [
+      24,
+      94
+    ],
+    "impair": [
+      25
+    ],
+    "cognition,": [
+      26
+    ],
+    "behavior,": [
+      27
+    ],
+    "endocrine": [
+      29
+    ],
+    "control.": [
+      30
+    ],
+    "To": [
+      31
+    ],
+    "assess": [
+      32
+    ],
+    "function": [
+      34
+    ],
+    "of": [
+      35,
+      50,
+      78,
+      86,
+      118,
+      126,
+      153
+    ],
+    "limbic": [
+      37,
+      63,
+      159
+    ],
+    "MR": [
+      38,
+      45,
+      64,
+      160
+    ],
+    "these": [
+      40
+    ],
+    "processes,": [
+      41
+    ],
+    "we": [
+      42
+    ],
+    "inactivated": [
+      43
+    ],
+    "gene": [
+      46
+    ],
+    "forebrain": [
+      49
+    ],
+    "mouse": [
+      52
+    ],
+    "using": [
+      53
+    ],
+    "Cre/loxP-recombination": [
+      55
+    ],
+    "system.": [
+      56
+    ],
+    "We": [
+      57
+    ],
+    "screened": [
+      58
+    ],
+    "mice": [
+      60,
+      74,
+      134
+    ],
+    "with": [
+      61,
+      116,
+      163
+    ],
+    "a": [
+      62,
+      101,
+      104,
+      154
+    ],
+    "deficiency": [
+      65
+    ],
+    "various": [
+      67
+    ],
+    "learning": [
+      68,
+      77
+    ],
+    "exploration": [
+      70
+    ],
+    "tests.": [
+      71
+    ],
+    "The": [
+      72,
+      111
+    ],
+    "mutant": [
+      73,
+      133
+    ],
+    "show": [
+      75,
+      135
+    ],
+    "impaired": [
+      76
+    ],
+    "water-maze": [
+      80
+    ],
+    "task": [
+      81
+    ],
+    "deficits": [
+      83
+    ],
+    "measures": [
+      85
+    ],
+    "working": [
+      87
+    ],
+    "memory": [
+      88
+    ],
+    "on": [
+      89
+    ],
+    "radial": [
+      91
+    ],
+    "maze": [
+      92
+    ],
+    "due": [
+      93
+    ],
+    "behavioral": [
+      95,
+      112
+    ],
+    "perseverance": [
+      96
+    ],
+    "stereotypy.": [
+      98
+    ],
+    "They": [
+      99
+    ],
+    "exhibit": [
+      100
+    ],
+    "hyperreactivity": [
+      102
+    ],
+    "toward": [
+      103
+    ],
+    "novel": [
+      105
+    ],
+    "object": [
+      106
+    ],
+    "but": [
+      107
+    ],
+    "normal": [
+      108,
+      136
+    ],
+    "anxiety-like": [
+      109
+    ],
+    "behavior.": [
+      110
+    ],
+    "changes": [
+      113
+    ],
+    "associated": [
+      115
+    ],
+    "abnormalities": [
+      117
+    ],
+    "mossy": [
+      120
+    ],
+    "fiber": [
+      121
+    ],
+    "projection": [
+      122
+    ],
+    "an": [
+      124
+    ],
+    "up-regulation": [
+      125
+    ],
+    "GR": [
+      127
+    ],
+    "expression": [
+      128
+    ],
+    "hippocampus.": [
+      131
+    ],
+    "Adult": [
+      132
+    ],
+    "corticosterone": [
+      137
+    ],
+    "levels": [
+      138
+    ],
+    "at": [
+      139
+    ],
+    "circadian": [
+      140
+    ],
+    "trough": [
+      141
+    ],
+    "peak.": [
+      143
+    ],
+    "This": [
+      144
+    ],
+    "genetic": [
+      145
+    ],
+    "model": [
+      146
+    ],
+    "provides": [
+      147
+    ],
+    "important": [
+      148
+    ],
+    "information": [
+      149
+    ],
+    "about": [
+      150
+    ],
+    "consequences": [
+      152
+    ],
+    "permanently": [
+      155
+    ],
+    "altered": [
+      156
+    ],
+    "balance": [
+      157
+    ],
+    "between": [
+      158
+    ],
+    "GR,": [
+      162
+    ],
+    "implications": [
+      164
+    ],
+    "for": [
+      165
+    ],
+    "stress-related": [
+      166
+    ],
+    "neuroendocrine": [
+      167
+    ],
+    "neuropsychiatric": [
+      169
+    ],
+    "diseases.": [
+      170
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2093400617",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 10
+    }
+  ],
+  "updated_date": "2025-05-16T16:06:51.332302",
+  "created_date": "2016-06-24"
+}

@@ -1,0 +1,895 @@
+{
+  "id": "https://openalex.org/W2027911783",
+  "doi": "https://doi.org/10.1076/jcen.24.3.335.987",
+  "title": "Neurophysiological and Clinical Aspects of Glucocorticoids and Memory: A Review",
+  "display_name": "Neurophysiological and Clinical Aspects of Glucocorticoids and Memory: A Review",
+  "publication_year": 2002,
+  "publication_date": "2002-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2027911783",
+    "doi": "https://doi.org/10.1076/jcen.24.3.335.987",
+    "mag": "2027911783",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/11992216"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1076/jcen.24.3.335.987",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S35508115",
+      "display_name": "Journal of Clinical and Experimental Neuropsychology",
+      "issn_l": "1380-3395",
+      "issn": [
+        "1380-3395",
+        "1744-411X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5082573728",
+        "display_name": "Amy L. Alderson",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32389192",
+          "display_name": "University of Alabama at Birmingham",
+          "ror": "https://ror.org/008s83205",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I32389192"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Amy L. Alderson",
+      "raw_affiliation_strings": [
+        "Department of Physical Medicine & Rehabilitation, University of Alabama at Birmingham, USA. amy_alderson@shepherd.org"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physical Medicine & Rehabilitation, University of Alabama at Birmingham, USA. amy_alderson@shepherd.org",
+          "institution_ids": [
+            "https://openalex.org/I32389192"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5038244749",
+        "display_name": "Thomas A. Novack",
+        "orcid": "https://orcid.org/0000-0003-3043-7900"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Thomas A. Novack",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.573,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 56,
+  "citation_normalized_percentile": {
+    "value": 0.803462,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 94
+  },
+  "biblio": {
+    "volume": "24",
+    "issue": "3",
+    "first_page": "335",
+    "last_page": "355"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11839",
+    "display_name": "Hormonal Regulation and Hypertension",
+    "score": 0.9971,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2712",
+      "display_name": "Endocrinology, Diabetes and Metabolism"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.9971,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9955,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11629",
+      "display_name": "Birth, Development, and Health",
+      "score": 0.977,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2735",
+        "display_name": "Pediatrics, Perinatology and Child Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/neurotoxicity",
+      "display_name": "Neurotoxicity",
+      "score": 0.4534696
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C148762608",
+      "wikidata": "https://www.wikidata.org/wiki/Q3748185",
+      "display_name": "Hippocampal formation",
+      "level": 2,
+      "score": 0.82339334
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.7126684
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.6917644
+    },
+    {
+      "id": "https://openalex.org/C14216870",
+      "wikidata": "https://www.wikidata.org/wiki/Q3872",
+      "display_name": "Neuropsychology",
+      "level": 3,
+      "score": 0.5867576
+    },
+    {
+      "id": "https://openalex.org/C2780841215",
+      "wikidata": "https://www.wikidata.org/wiki/Q422549",
+      "display_name": "Glucocorticoid",
+      "level": 2,
+      "score": 0.5182076
+    },
+    {
+      "id": "https://openalex.org/C47611674",
+      "wikidata": "https://www.wikidata.org/wiki/Q849491",
+      "display_name": "Neuroplasticity",
+      "level": 2,
+      "score": 0.48383632
+    },
+    {
+      "id": "https://openalex.org/C2779491297",
+      "wikidata": "https://www.wikidata.org/wiki/Q3338704",
+      "display_name": "Neurotoxicity",
+      "level": 3,
+      "score": 0.4534696
+    },
+    {
+      "id": "https://openalex.org/C160539049",
+      "wikidata": "https://www.wikidata.org/wiki/Q3064187",
+      "display_name": "Neurotrophic factors",
+      "level": 3,
+      "score": 0.41905838
+    },
+    {
+      "id": "https://openalex.org/C59493245",
+      "wikidata": "https://www.wikidata.org/wiki/Q14877410",
+      "display_name": "Glucocorticoid receptor",
+      "level": 3,
+      "score": 0.41885385
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.24446392
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.22847995
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.18803146
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.18606806
+    },
+    {
+      "id": "https://openalex.org/C29730261",
+      "wikidata": "https://www.wikidata.org/wiki/Q274160",
+      "display_name": "Toxicity",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D011939",
+      "descriptor_name": "Mental Recall",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006624",
+      "descriptor_name": "Hippocampus",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006624",
+      "descriptor_name": "Hippocampus",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007030",
+      "descriptor_name": "Hypothalamo-Hypophyseal System",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011939",
+      "descriptor_name": "Mental Recall",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009473",
+      "descriptor_name": "Neuronal Plasticity",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009473",
+      "descriptor_name": "Neuronal Plasticity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009483",
+      "descriptor_name": "Neuropsychological Tests",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010913",
+      "descriptor_name": "Pituitary-Adrenal System",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1076/jcen.24.3.335.987",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S35508115",
+        "display_name": "Journal of Clinical and Experimental Neuropsychology",
+        "issn_l": "1380-3395",
+        "issn": [
+          "1380-3395",
+          "1744-411X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/11992216",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "score": 0.77,
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4318460051",
+    "https://openalex.org/W269771094",
+    "https://openalex.org/W2436275868",
+    "https://openalex.org/W2359066614",
+    "https://openalex.org/W2338237228",
+    "https://openalex.org/W2119824100",
+    "https://openalex.org/W2070579680",
+    "https://openalex.org/W2027214458",
+    "https://openalex.org/W1981540681",
+    "https://openalex.org/W1578882671"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Neuropsychologists": [
+      1
+    ],
+    "are": [
+      2,
+      54,
+      63,
+      94,
+      114,
+      137
+    ],
+    "increasingly": [
+      3
+    ],
+    "involved": [
+      4
+    ],
+    "in": [
+      5,
+      27,
+      35,
+      58,
+      65,
+      86,
+      103
+    ],
+    "the": [
+      6,
+      19
+    ],
+    "assessment": [
+      7
+    ],
+    "and": [
+      8,
+      21,
+      38,
+      48,
+      60,
+      80,
+      101,
+      109,
+      122,
+      134
+    ],
+    "treatment": [
+      9
+    ],
+    "of": [
+      10,
+      45,
+      69,
+      127
+    ],
+    "individuals": [
+      11
+    ],
+    "with": [
+      12,
+      25,
+      30,
+      82,
+      96,
+      116
+    ],
+    "glucocorticoid": [
+      13
+    ],
+    "(GC)": [
+      14
+    ],
+    "dysfunction.": [
+      15
+    ],
+    "This": [
+      16
+    ],
+    "review": [
+      17
+    ],
+    "examines": [
+      18
+    ],
+    "clinical": [
+      20
+    ],
+    "neurophysiological": [
+      22
+    ],
+    "changes": [
+      23,
+      34,
+      57,
+      93,
+      102
+    ],
+    "associated": [
+      24
+    ],
+    "alterations": [
+      26
+    ],
+    "GC": [
+      28,
+      46,
+      49,
+      78,
+      87
+    ],
+    "levels,": [
+      29
+    ],
+    "specific": [
+      31
+    ],
+    "emphasis": [
+      32,
+      97
+    ],
+    "on": [
+      33,
+      98
+    ],
+    "hippocampal": [
+      36,
+      52,
+      61,
+      99
+    ],
+    "plasticity": [
+      37,
+      62
+    ],
+    "memory": [
+      39,
+      59,
+      92
+    ],
+    "impairments.": [
+      40
+    ],
+    "Hypothalamic-pituitary-adrenal": [
+      41
+    ],
+    "(HPA)": [
+      42
+    ],
+    "axis": [
+      43
+    ],
+    "regulation": [
+      44
+    ],
+    "production": [
+      47
+    ],
+    "effects": [
+      50
+    ],
+    "at": [
+      51
+    ],
+    "receptors": [
+      53
+    ],
+    "examined.": [
+      55
+    ],
+    "GC-related": [
+      56,
+      91
+    ],
+    "considered": [
+      64
+    ],
+    "a": [
+      66
+    ],
+    "wide": [
+      67
+    ],
+    "array": [
+      68
+    ],
+    "populations,": [
+      70
+    ],
+    "including": [
+      71
+    ],
+    "animals,": [
+      72
+    ],
+    "healthy": [
+      73
+    ],
+    "adults,": [
+      74
+    ],
+    "patients": [
+      75,
+      81
+    ],
+    "receiving": [
+      76
+    ],
+    "exogenous": [
+      77
+    ],
+    "treatments,": [
+      79
+    ],
+    "neuropsychiatric": [
+      83
+    ],
+    "disorders": [
+      84
+    ],
+    "resulting": [
+      85
+    ],
+    "dysregulation.": [
+      88
+    ],
+    "Hypotheses": [
+      89
+    ],
+    "regarding": [
+      90
+    ],
+    "considered,": [
+      95
+    ],
+    "neurotoxicity": [
+      100
+    ],
+    "excitatory": [
+      104
+    ],
+    "amino": [
+      105
+    ],
+    "acids,": [
+      106
+    ],
+    "glucose": [
+      107
+    ],
+    "metabolism": [
+      108
+    ],
+    "neurotrophic": [
+      110
+    ],
+    "factors.": [
+      111
+    ],
+    "These": [
+      112
+    ],
+    "hypotheses": [
+      113
+    ],
+    "examined,": [
+      115
+    ],
+    "special": [
+      117
+    ],
+    "attention": [
+      118
+    ],
+    "given": [
+      119
+    ],
+    "to": [
+      120
+    ],
+    "inconsistencies": [
+      121
+    ],
+    "contradictions": [
+      123
+    ],
+    "within": [
+      124
+    ],
+    "this": [
+      125
+    ],
+    "body": [
+      126
+    ],
+    "research.": [
+      128
+    ],
+    "Finally,": [
+      129
+    ],
+    "implications": [
+      130
+    ],
+    "for": [
+      131
+    ],
+    "neuropsychological": [
+      132
+    ],
+    "evaluation": [
+      133
+    ],
+    "future": [
+      135
+    ],
+    "research": [
+      136
+    ],
+    "presented.": [
+      138
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2027911783",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2025-05-22T21:06:04.944894",
+  "created_date": "2016-06-24"
+}

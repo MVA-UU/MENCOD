@@ -1,0 +1,859 @@
+{
+  "id": "https://openalex.org/W2021142652",
+  "doi": "https://doi.org/10.1016/s0006-3223(00)00977-x",
+  "title": "Neural correlates of maternal separation in rhesus monkeys",
+  "display_name": "Neural correlates of maternal separation in rhesus monkeys",
+  "publication_year": 2001,
+  "publication_date": "2001-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2021142652",
+    "doi": "https://doi.org/10.1016/s0006-3223(00)00977-x",
+    "mag": "2021142652",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/11164761"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/s0006-3223(00)00977-x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S205482884",
+      "display_name": "Biological Psychiatry",
+      "issn_l": "0006-3223",
+      "issn": [
+        "0006-3223",
+        "1873-2402"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5058586273",
+        "display_name": "James K. Rilling",
+        "orcid": "https://orcid.org/0000-0003-4430-1377"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "James K Rilling",
+      "raw_affiliation_strings": [
+        "Yerkes Regional Primate Research Center, Emory University, Atlanta, Georgia, USA (JKR, JTW)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Yerkes Regional Primate Research Center, Emory University, Atlanta, Georgia, USA (JKR, JTW)",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112191645",
+        "display_name": "James Winslow",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "James T Winslow",
+      "raw_affiliation_strings": [
+        "Yerkes Regional Primate Research Center, Emory University, Atlanta, Georgia, USA (JKR, JTW)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Yerkes Regional Primate Research Center, Emory University, Atlanta, Georgia, USA (JKR, JTW)",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073195556",
+        "display_name": "Derek O’Brien",
+        "orcid": "https://orcid.org/0000-0002-7812-2564"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Derek O’Brien",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry and Behavioral Sciences, Emory University, Atlanta, Georgia, USA (JKR, JTW, DO, DAG, CDK)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry and Behavioral Sciences, Emory University, Atlanta, Georgia, USA (JKR, JTW, DO, DAG, CDK)",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073937900",
+        "display_name": "David A. Gutman",
+        "orcid": "https://orcid.org/0000-0002-1386-8701"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David A Gutman",
+      "raw_affiliation_strings": [
+        "Department of Psychiatry and Behavioral Sciences, Emory University, Atlanta, Georgia, USA (JKR, JTW, DO, DAG, CDK)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychiatry and Behavioral Sciences, Emory University, Atlanta, Georgia, USA (JKR, JTW, DO, DAG, CDK)",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031187490",
+        "display_name": "John M. Hoffman",
+        "orcid": "https://orcid.org/0000-0001-9492-2206"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John M Hoffman",
+      "raw_affiliation_strings": [
+        "Emory Center for PET, Emory University, Atlanta, Georgia, USA (JMH, CDK)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Emory Center for PET, Emory University, Atlanta, Georgia, USA (JMH, CDK)",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5067317275",
+        "display_name": "Clinton D. Kilts",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Clinton D Kilts",
+      "raw_affiliation_strings": [
+        "Emory Center for PET, Emory University, Atlanta, Georgia, USA (JMH, CDK)"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Emory Center for PET, Emory University, Atlanta, Georgia, USA (JMH, CDK)",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 4990,
+    "currency": "USD",
+    "value_usd": 4990
+  },
+  "apc_paid": null,
+  "fwci": 1.42,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 109,
+  "citation_normalized_percentile": {
+    "value": 0.871296,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "49",
+    "issue": "2",
+    "first_page": "146",
+    "last_page": "157"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10529",
+    "display_name": "Stress Responses and Cortisol",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2802",
+      "display_name": "Behavioral Neuroscience"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11541",
+      "display_name": "Neuroendocrine regulation and behavior",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10786",
+      "display_name": "Maternal Mental Health During Pregnancy and Postpartum",
+      "score": 0.9961,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/dorsolateral-prefrontal-cortex",
+      "display_name": "Dorsolateral prefrontal cortex",
+      "score": 0.6901295
+    },
+    {
+      "id": "https://openalex.org/keywords/dorsolateral",
+      "display_name": "Dorsolateral",
+      "score": 0.5480143
+    },
+    {
+      "id": "https://openalex.org/keywords/maternal-deprivation",
+      "display_name": "Maternal deprivation",
+      "score": 0.48843876
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2781195155",
+      "wikidata": "https://www.wikidata.org/wiki/Q18680",
+      "display_name": "Prefrontal cortex",
+      "level": 3,
+      "score": 0.7273154
+    },
+    {
+      "id": "https://openalex.org/C2780508717",
+      "wikidata": "https://www.wikidata.org/wiki/Q72788",
+      "display_name": "Dorsolateral prefrontal cortex",
+      "level": 4,
+      "score": 0.6901295
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.59296334
+    },
+    {
+      "id": "https://openalex.org/C2909342898",
+      "wikidata": "https://www.wikidata.org/wiki/Q488415",
+      "display_name": "Dorsolateral",
+      "level": 4,
+      "score": 0.5480143
+    },
+    {
+      "id": "https://openalex.org/C169760540",
+      "wikidata": "https://www.wikidata.org/wiki/Q207011",
+      "display_name": "Neuroscience",
+      "level": 1,
+      "score": 0.5168922
+    },
+    {
+      "id": "https://openalex.org/C123202247",
+      "wikidata": "https://www.wikidata.org/wiki/Q2322778",
+      "display_name": "Maternal deprivation",
+      "level": 2,
+      "score": 0.48843876
+    },
+    {
+      "id": "https://openalex.org/C2781099131",
+      "wikidata": "https://www.wikidata.org/wiki/Q744385",
+      "display_name": "Temporal lobe",
+      "level": 3,
+      "score": 0.45320678
+    },
+    {
+      "id": "https://openalex.org/C558461103",
+      "wikidata": "https://www.wikidata.org/wiki/Q154430",
+      "display_name": "Anxiety",
+      "level": 2,
+      "score": 0.4478409
+    },
+    {
+      "id": "https://openalex.org/C2781161787",
+      "wikidata": "https://www.wikidata.org/wiki/Q48360",
+      "display_name": "Hippocampus",
+      "level": 2,
+      "score": 0.4295726
+    },
+    {
+      "id": "https://openalex.org/C138496976",
+      "wikidata": "https://www.wikidata.org/wiki/Q175002",
+      "display_name": "Developmental psychology",
+      "level": 1,
+      "score": 0.29308033
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.084947705
+    },
+    {
+      "id": "https://openalex.org/C169900460",
+      "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+      "display_name": "Cognition",
+      "level": 2,
+      "score": 0.07134664
+    },
+    {
+      "id": "https://openalex.org/C2778186239",
+      "wikidata": "https://www.wikidata.org/wiki/Q41571",
+      "display_name": "Epilepsy",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001010",
+      "descriptor_name": "Anxiety, Separation",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000374",
+      "descriptor_name": "Aggression",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001010",
+      "descriptor_name": "Anxiety, Separation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001010",
+      "descriptor_name": "Anxiety, Separation",
+      "qualifier_ui": "Q000000981",
+      "qualifier_name": "diagnostic imaging",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001921",
+      "descriptor_name": "Brain",
+      "qualifier_ui": "Q000000981",
+      "qualifier_name": "diagnostic imaging",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019788",
+      "descriptor_name": "Fluorodeoxyglucose F18",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005625",
+      "descriptor_name": "Frontal Lobe",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005625",
+      "descriptor_name": "Frontal Lobe",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008253",
+      "descriptor_name": "Macaca mulatta",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008425",
+      "descriptor_name": "Maternal Behavior",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008425",
+      "descriptor_name": "Maternal Behavior",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D019275",
+      "descriptor_name": "Radiopharmaceuticals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012931",
+      "descriptor_name": "Social Environment",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000000981",
+      "qualifier_name": "diagnostic imaging",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013315",
+      "descriptor_name": "Stress, Psychological",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014055",
+      "descriptor_name": "Tomography, Emission-Computed",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/s0006-3223(00)00977-x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S205482884",
+        "display_name": "Biological Psychiatry",
+        "issn_l": "0006-3223",
+        "issn": [
+          "0006-3223",
+          "1873-2402"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/11164761",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.77,
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 48,
+  "referenced_works": [
+    "https://openalex.org/W141581154",
+    "https://openalex.org/W1486379889",
+    "https://openalex.org/W1501762129",
+    "https://openalex.org/W1532763403",
+    "https://openalex.org/W1720881856",
+    "https://openalex.org/W1745413444",
+    "https://openalex.org/W1885512122",
+    "https://openalex.org/W19097475",
+    "https://openalex.org/W1961916079",
+    "https://openalex.org/W1965668510",
+    "https://openalex.org/W1969047053",
+    "https://openalex.org/W1972334436",
+    "https://openalex.org/W1976658908",
+    "https://openalex.org/W1981166601",
+    "https://openalex.org/W1990415472",
+    "https://openalex.org/W1996614642",
+    "https://openalex.org/W2008399348",
+    "https://openalex.org/W2020522336",
+    "https://openalex.org/W2024380338",
+    "https://openalex.org/W2024528493",
+    "https://openalex.org/W2028852025",
+    "https://openalex.org/W2031636627",
+    "https://openalex.org/W2031821150",
+    "https://openalex.org/W2036872212",
+    "https://openalex.org/W2041736210",
+    "https://openalex.org/W2044071327",
+    "https://openalex.org/W2050506045",
+    "https://openalex.org/W2051809205",
+    "https://openalex.org/W2053133374",
+    "https://openalex.org/W2064674087",
+    "https://openalex.org/W2074462792",
+    "https://openalex.org/W2076892502",
+    "https://openalex.org/W2077443116",
+    "https://openalex.org/W2090306035",
+    "https://openalex.org/W2094891452",
+    "https://openalex.org/W2102316107",
+    "https://openalex.org/W2107852322",
+    "https://openalex.org/W2112875298",
+    "https://openalex.org/W2118212816",
+    "https://openalex.org/W2127600656",
+    "https://openalex.org/W2139368987",
+    "https://openalex.org/W2146307133",
+    "https://openalex.org/W2169230464",
+    "https://openalex.org/W2262234447",
+    "https://openalex.org/W2418705881",
+    "https://openalex.org/W4234359464",
+    "https://openalex.org/W4237929657",
+    "https://openalex.org/W4248865827"
+  ],
+  "related_works": [
+    "https://openalex.org/W4293065644",
+    "https://openalex.org/W4245143372",
+    "https://openalex.org/W2338184966",
+    "https://openalex.org/W2329820015",
+    "https://openalex.org/W2066355298",
+    "https://openalex.org/W2064853601",
+    "https://openalex.org/W2046878707",
+    "https://openalex.org/W2020174088",
+    "https://openalex.org/W1997580773",
+    "https://openalex.org/W1490019283"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2021142652",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 8
+    }
+  ],
+  "updated_date": "2025-06-02T21:03:35.013601",
+  "created_date": "2016-06-24"
+}

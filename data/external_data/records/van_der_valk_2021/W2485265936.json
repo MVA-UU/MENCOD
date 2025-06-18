@@ -1,0 +1,819 @@
+{
+  "id": "https://openalex.org/W2485265936",
+  "doi": "https://doi.org/10.1016/j.chroma.2016.07.087",
+  "title": "Liquid chromatography quadrupole linear ion trap mass spectrometry for quantitative steroid hormone analysis in plasma, urine, saliva and hair",
+  "display_name": "Liquid chromatography quadrupole linear ion trap mass spectrometry for quantitative steroid hormone analysis in plasma, urine, saliva and hair",
+  "publication_year": 2016,
+  "publication_date": "2016-07-31",
+  "ids": {
+    "openalex": "https://openalex.org/W2485265936",
+    "doi": "https://doi.org/10.1016/j.chroma.2016.07.087",
+    "mag": "2485265936",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27554022"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.chroma.2016.07.087",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S176136234",
+      "display_name": "Journal of Chromatography A",
+      "issn_l": "0021-9673",
+      "issn": [
+        "0021-9673",
+        "1873-3778"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5026366171",
+        "display_name": "Alexander Gaudl",
+        "orcid": "https://orcid.org/0000-0002-7197-3868"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I926574661",
+          "display_name": "Leipzig University",
+          "ror": "https://ror.org/03s7gtk40",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Alexander Gaudl",
+      "raw_affiliation_strings": [
+        "Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics, Leipzig University, Liebigstraße 27, 04103 Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics, Leipzig University, Liebigstraße 27, 04103 Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113819769",
+        "display_name": "Jüergen Kratzsch",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I926574661",
+          "display_name": "Leipzig University",
+          "ror": "https://ror.org/03s7gtk40",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Juergen Kratzsch",
+      "raw_affiliation_strings": [
+        "Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics, Leipzig University, Liebigstraße 27, 04103 Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics, Leipzig University, Liebigstraße 27, 04103 Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067773498",
+        "display_name": "Yoon Ju Bae",
+        "orcid": "https://orcid.org/0000-0003-3438-173X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I926574661",
+          "display_name": "Leipzig University",
+          "ror": "https://ror.org/03s7gtk40",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yoon Ju Bae",
+      "raw_affiliation_strings": [
+        "Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics, Leipzig University, Liebigstraße 27, 04103 Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics, Leipzig University, Liebigstraße 27, 04103 Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044869014",
+        "display_name": "Wieland Kieß",
+        "orcid": "https://orcid.org/0000-0003-4118-9455"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I926574661",
+          "display_name": "Leipzig University",
+          "ror": "https://ror.org/03s7gtk40",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I926574661"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210125843",
+          "display_name": "University Hospital Leipzig",
+          "ror": "https://ror.org/028hv5492",
+          "country_code": "DE",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210125843"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wieland Kiess",
+      "raw_affiliation_strings": [
+        "Hospital for Children and Adolescents, University Hospital, Leipzig University, Liebigstraße 20a, 04103 Leipzig, Germany",
+        "LIFE – Leipzig Research Center for Civilization Diseases, Leipzig University, Philipp-Rosenthal-Straße 27, 04103 Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "LIFE – Leipzig Research Center for Civilization Diseases, Leipzig University, Philipp-Rosenthal-Straße 27, 04103 Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Hospital for Children and Adolescents, University Hospital, Leipzig University, Liebigstraße 20a, 04103 Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I4210125843",
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5070233343",
+        "display_name": "Joachim Thiery",
+        "orcid": "https://orcid.org/0000-0001-7606-1852"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I926574661",
+          "display_name": "Leipzig University",
+          "ror": "https://ror.org/03s7gtk40",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Joachim Thiery",
+      "raw_affiliation_strings": [
+        "Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics, Leipzig University, Liebigstraße 27, 04103 Leipzig, Germany",
+        "LIFE – Leipzig Research Center for Civilization Diseases, Leipzig University, Philipp-Rosenthal-Straße 27, 04103 Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics, Leipzig University, Liebigstraße 27, 04103 Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        },
+        {
+          "raw_affiliation_string": "LIFE – Leipzig Research Center for Civilization Diseases, Leipzig University, Philipp-Rosenthal-Straße 27, 04103 Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5034461951",
+        "display_name": "Uta Ceglarek",
+        "orcid": "https://orcid.org/0000-0002-4034-5535"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I926574661",
+          "display_name": "Leipzig University",
+          "ror": "https://ror.org/03s7gtk40",
+          "country_code": "DE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Uta Ceglarek",
+      "raw_affiliation_strings": [
+        "Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics, Leipzig University, Liebigstraße 27, 04103 Leipzig, Germany",
+        "LIFE – Leipzig Research Center for Civilization Diseases, Leipzig University, Philipp-Rosenthal-Straße 27, 04103 Leipzig, Germany"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Laboratory Medicine, Clinical Chemistry and Molecular Diagnostics, Leipzig University, Liebigstraße 27, 04103 Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        },
+        {
+          "raw_affiliation_string": "LIFE – Leipzig Research Center for Civilization Diseases, Leipzig University, Philipp-Rosenthal-Straße 27, 04103 Leipzig, Germany",
+          "institution_ids": [
+            "https://openalex.org/I926574661"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5026366171"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I926574661"
+  ],
+  "apc_list": {
+    "value": 3490,
+    "currency": "USD",
+    "value_usd": 3490
+  },
+  "apc_paid": null,
+  "fwci": 10.24,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 135,
+  "citation_normalized_percentile": {
+    "value": 0.999927,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "1464",
+    "issue": null,
+    "first_page": "64",
+    "last_page": "71"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11146",
+    "display_name": "Hormonal and reproductive studies",
+    "score": 0.9998,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2712",
+      "display_name": "Endocrinology, Diabetes and Metabolism"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11146",
+      "display_name": "Hormonal and reproductive studies",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9978,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10756",
+      "display_name": "Estrogen and related hormone effects",
+      "score": 0.9876,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/protein-precipitation",
+      "display_name": "Protein precipitation",
+      "score": 0.4967945
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.933672
+    },
+    {
+      "id": "https://openalex.org/C43617362",
+      "wikidata": "https://www.wikidata.org/wiki/Q170050",
+      "display_name": "Chromatography",
+      "level": 1,
+      "score": 0.88013124
+    },
+    {
+      "id": "https://openalex.org/C162356407",
+      "wikidata": "https://www.wikidata.org/wiki/Q180809",
+      "display_name": "Mass spectrometry",
+      "level": 2,
+      "score": 0.52736384
+    },
+    {
+      "id": "https://openalex.org/C31827203",
+      "wikidata": "https://www.wikidata.org/wiki/Q874296",
+      "display_name": "Tandem mass spectrometry",
+      "level": 3,
+      "score": 0.5076412
+    },
+    {
+      "id": "https://openalex.org/C74774607",
+      "wikidata": "https://www.wikidata.org/wiki/Q7251495",
+      "display_name": "Protein precipitation",
+      "level": 3,
+      "score": 0.4967945
+    },
+    {
+      "id": "https://openalex.org/C2780026642",
+      "wikidata": "https://www.wikidata.org/wiki/Q40924",
+      "display_name": "Urine",
+      "level": 2,
+      "score": 0.48792526
+    },
+    {
+      "id": "https://openalex.org/C71043704",
+      "wikidata": "https://www.wikidata.org/wiki/Q17144692",
+      "display_name": "Selected reaction monitoring",
+      "level": 4,
+      "score": 0.47291598
+    },
+    {
+      "id": "https://openalex.org/C2778525890",
+      "wikidata": "https://www.wikidata.org/wiki/Q184564",
+      "display_name": "Aldosterone",
+      "level": 2,
+      "score": 0.46889916
+    },
+    {
+      "id": "https://openalex.org/C504460877",
+      "wikidata": "https://www.wikidata.org/wiki/Q155925",
+      "display_name": "Saliva",
+      "level": 2,
+      "score": 0.4265938
+    },
+    {
+      "id": "https://openalex.org/C64489805",
+      "wikidata": "https://www.wikidata.org/wiki/Q873864",
+      "display_name": "Liquid chromatography–mass spectrometry",
+      "level": 3,
+      "score": 0.4254269
+    },
+    {
+      "id": "https://openalex.org/C172493649",
+      "wikidata": "https://www.wikidata.org/wiki/Q7843529",
+      "display_name": "Triple quadrupole mass spectrometer",
+      "level": 5,
+      "score": 0.41220894
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.13256064
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.06167519
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002853",
+      "descriptor_name": "Chromatography, Liquid",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012463",
+      "descriptor_name": "Saliva",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013256",
+      "descriptor_name": "Steroids",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D013256",
+      "descriptor_name": "Steroids",
+      "qualifier_ui": "Q000652",
+      "qualifier_name": "urine",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D053719",
+      "descriptor_name": "Tandem Mass Spectrometry",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002853",
+      "descriptor_name": "Chromatography, Liquid",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010949",
+      "descriptor_name": "Plasma",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010949",
+      "descriptor_name": "Plasma",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012463",
+      "descriptor_name": "Saliva",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012680",
+      "descriptor_name": "Sensitivity and Specificity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D052616",
+      "descriptor_name": "Solid Phase Extraction",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D052616",
+      "descriptor_name": "Solid Phase Extraction",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013256",
+      "descriptor_name": "Steroids",
+      "qualifier_ui": "Q000302",
+      "qualifier_name": "isolation & purification",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013256",
+      "descriptor_name": "Steroids",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053719",
+      "descriptor_name": "Tandem Mass Spectrometry",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014556",
+      "descriptor_name": "Urine",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014556",
+      "descriptor_name": "Urine",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.chroma.2016.07.087",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S176136234",
+        "display_name": "Journal of Chromatography A",
+        "issn_l": "0021-9673",
+        "issn": [
+          "0021-9673",
+          "1873-3778"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27554022",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "grants": [
+    {
+      "funder": "https://openalex.org/F4320328735",
+      "funder_display_name": "Freistaat Sachsen",
+      "award_id": null
+    }
+  ],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 32,
+  "referenced_works": [
+    "https://openalex.org/W1553424863",
+    "https://openalex.org/W1824867022",
+    "https://openalex.org/W1893720044",
+    "https://openalex.org/W1932709974",
+    "https://openalex.org/W1945922838",
+    "https://openalex.org/W1968140058",
+    "https://openalex.org/W1986917868",
+    "https://openalex.org/W1987985529",
+    "https://openalex.org/W1993429674",
+    "https://openalex.org/W1994367965",
+    "https://openalex.org/W1996337237",
+    "https://openalex.org/W2011485900",
+    "https://openalex.org/W2030821434",
+    "https://openalex.org/W2041352904",
+    "https://openalex.org/W2042951438",
+    "https://openalex.org/W2046192619",
+    "https://openalex.org/W2062736734",
+    "https://openalex.org/W2090379707",
+    "https://openalex.org/W2091283750",
+    "https://openalex.org/W2093386301",
+    "https://openalex.org/W2104596388",
+    "https://openalex.org/W2106440618",
+    "https://openalex.org/W2112523586",
+    "https://openalex.org/W2156362633",
+    "https://openalex.org/W2159215923",
+    "https://openalex.org/W2167139910",
+    "https://openalex.org/W2168051702",
+    "https://openalex.org/W2208691230",
+    "https://openalex.org/W2337121016",
+    "https://openalex.org/W2463027915",
+    "https://openalex.org/W2575496067",
+    "https://openalex.org/W38328509"
+  ],
+  "related_works": [
+    "https://openalex.org/W4283319477",
+    "https://openalex.org/W3087792627",
+    "https://openalex.org/W3046410380",
+    "https://openalex.org/W2973860202",
+    "https://openalex.org/W2970391062",
+    "https://openalex.org/W2800973557",
+    "https://openalex.org/W2484326582",
+    "https://openalex.org/W2375352280",
+    "https://openalex.org/W2332951358",
+    "https://openalex.org/W1971105748"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2485265936",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-06-04T20:51:00.721995",
+  "created_date": "2016-08-23"
+}

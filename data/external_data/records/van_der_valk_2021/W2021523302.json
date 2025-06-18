@@ -1,0 +1,959 @@
+{
+  "id": "https://openalex.org/W2021523302",
+  "doi": "https://doi.org/10.1016/j.diabet.2007.09.004",
+  "title": "Adipokines: The missing link between insulin resistance and obesity",
+  "display_name": "Adipokines: The missing link between insulin resistance and obesity",
+  "publication_year": 2008,
+  "publication_date": "2008-02-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2021523302",
+    "doi": "https://doi.org/10.1016/j.diabet.2007.09.004",
+    "mag": "2021523302",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/18093861"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.diabet.2007.09.004",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S49871393",
+      "display_name": "Diabetes & Metabolism",
+      "issn_l": "1262-3636",
+      "issn": [
+        "1262-3636",
+        "1878-1780"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "review",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5050407140",
+        "display_name": "Bárbara Antuna-Puente",
+        "orcid": "https://orcid.org/0000-0002-3118-5699"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I39804081",
+          "display_name": "Sorbonne Université",
+          "ror": "https://ror.org/02en5vm52",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39804081"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "B. Antuna-Puente",
+      "raw_affiliation_strings": [
+        "Inserm U680, faculté de médecine Saint-Antoine, université Pierre-et-Marie-Curie–Paris-6, 75012 Paris, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Inserm U680, faculté de médecine Saint-Antoine, université Pierre-et-Marie-Curie–Paris-6, 75012 Paris, France",
+          "institution_ids": [
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I39804081"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5018886514",
+        "display_name": "Bruno Fève",
+        "orcid": "https://orcid.org/0000-0001-6577-9009"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204730241",
+          "display_name": "Université Paris Cité",
+          "ror": "https://ror.org/05f82e368",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204730241"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "B. Feve",
+      "raw_affiliation_strings": [
+        "Inserm U693, faculté de médecine de Bicêtre, université Paris-11, 94270 Le Kremlin-Bicêtre, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Inserm U693, faculté de médecine de Bicêtre, université Paris-11, 94270 Le Kremlin-Bicêtre, France",
+          "institution_ids": [
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I154526488"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003678988",
+        "display_name": "Soraya Fellahi",
+        "orcid": "https://orcid.org/0000-0003-0086-4821"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210166768",
+          "display_name": "Hôpital Tenon",
+          "ror": "https://ror.org/05h5v3c50",
+          "country_code": "FR",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210166768"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I39804081",
+          "display_name": "Sorbonne Université",
+          "ror": "https://ror.org/02en5vm52",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39804081"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Fellahi",
+      "raw_affiliation_strings": [
+        "Service de biochimie et hormonologie, hôpital Tenon, AP–HP, 4, rue de la Chine, 75970 Paris cedex 20, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Service de biochimie et hormonologie, hôpital Tenon, AP–HP, 4, rue de la Chine, 75970 Paris cedex 20, France",
+          "institution_ids": [
+            "https://openalex.org/I4210166768",
+            "https://openalex.org/I39804081"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5112185912",
+        "display_name": "Bastard Jp",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I39804081",
+          "display_name": "Sorbonne Université",
+          "ror": "https://ror.org/02en5vm52",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I39804081"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J.-P. Bastard",
+      "raw_affiliation_strings": [
+        "Inserm U680, faculté de médecine Saint-Antoine, université Pierre-et-Marie-Curie–Paris-6, 75012 Paris, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Inserm U680, faculté de médecine Saint-Antoine, université Pierre-et-Marie-Curie–Paris-6, 75012 Paris, France",
+          "institution_ids": [
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I39804081"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3860,
+    "currency": "USD",
+    "value_usd": 3860
+  },
+  "apc_paid": null,
+  "fwci": 8.526,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 739,
+  "citation_normalized_percentile": {
+    "value": 0.999288,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "34",
+    "issue": "1",
+    "first_page": "2",
+    "last_page": "11"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10528",
+    "display_name": "Adipokines, Inflammation, and Metabolic Diseases",
+    "score": 0.9999,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2713",
+      "display_name": "Epidemiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10528",
+      "display_name": "Adipokines, Inflammation, and Metabolic Diseases",
+      "score": 0.9999,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11457",
+      "display_name": "Adipose Tissue and Metabolism",
+      "score": 0.9998,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12979",
+      "display_name": "Cardiovascular Disease and Adiposity",
+      "score": 0.994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2705",
+        "display_name": "Cardiology and Cardiovascular Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/resistin",
+      "display_name": "Resistin",
+      "score": 0.871173
+    },
+    {
+      "id": "https://openalex.org/keywords/adipose-tissue-macrophages",
+      "display_name": "Adipose tissue macrophages",
+      "score": 0.4690951
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C194832188",
+      "wikidata": "https://www.wikidata.org/wiki/Q2638593",
+      "display_name": "Adipokine",
+      "level": 4,
+      "score": 0.93203735
+    },
+    {
+      "id": "https://openalex.org/C2779760629",
+      "wikidata": "https://www.wikidata.org/wiki/Q419499",
+      "display_name": "Resistin",
+      "level": 5,
+      "score": 0.871173
+    },
+    {
+      "id": "https://openalex.org/C171089720",
+      "wikidata": "https://www.wikidata.org/wiki/Q193583",
+      "display_name": "Adipose tissue",
+      "level": 2,
+      "score": 0.80346465
+    },
+    {
+      "id": "https://openalex.org/C2776782570",
+      "wikidata": "https://www.wikidata.org/wiki/Q357439",
+      "display_name": "Adiponectin",
+      "level": 4,
+      "score": 0.78574497
+    },
+    {
+      "id": "https://openalex.org/C2777391703",
+      "wikidata": "https://www.wikidata.org/wiki/Q1053470",
+      "display_name": "Insulin resistance",
+      "level": 3,
+      "score": 0.76729774
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.6275253
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.6147211
+    },
+    {
+      "id": "https://openalex.org/C2780613262",
+      "wikidata": "https://www.wikidata.org/wiki/Q223739",
+      "display_name": "Leptin",
+      "level": 3,
+      "score": 0.60224843
+    },
+    {
+      "id": "https://openalex.org/C151955695",
+      "wikidata": "https://www.wikidata.org/wiki/Q654528",
+      "display_name": "White adipose tissue",
+      "level": 3,
+      "score": 0.5885818
+    },
+    {
+      "id": "https://openalex.org/C2776914184",
+      "wikidata": "https://www.wikidata.org/wiki/Q101991",
+      "display_name": "Inflammation",
+      "level": 2,
+      "score": 0.5137042
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.496075
+    },
+    {
+      "id": "https://openalex.org/C2777180221",
+      "wikidata": "https://www.wikidata.org/wiki/Q3025883",
+      "display_name": "Type 2 diabetes",
+      "level": 3,
+      "score": 0.47450563
+    },
+    {
+      "id": "https://openalex.org/C17675752",
+      "wikidata": "https://www.wikidata.org/wiki/Q12898553",
+      "display_name": "Adipose tissue macrophages",
+      "level": 4,
+      "score": 0.4690951
+    },
+    {
+      "id": "https://openalex.org/C17991360",
+      "wikidata": "https://www.wikidata.org/wiki/Q21173843",
+      "display_name": "Tumor necrosis factor alpha",
+      "level": 2,
+      "score": 0.46786192
+    },
+    {
+      "id": "https://openalex.org/C13373296",
+      "wikidata": "https://www.wikidata.org/wiki/Q421866",
+      "display_name": "Chemokine",
+      "level": 3,
+      "score": 0.44052473
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.34734857
+    },
+    {
+      "id": "https://openalex.org/C555293320",
+      "wikidata": "https://www.wikidata.org/wiki/Q12206",
+      "display_name": "Diabetes mellitus",
+      "level": 2,
+      "score": 0.34526455
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.23349822
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D054392",
+      "descriptor_name": "Adipokines",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D007333",
+      "descriptor_name": "Insulin Resistance",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D054392",
+      "descriptor_name": "Adipokines",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D052242",
+      "descriptor_name": "Adiponectin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D052242",
+      "descriptor_name": "Adiponectin",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004721",
+      "descriptor_name": "Endoplasmic Reticulum",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004721",
+      "descriptor_name": "Endoplasmic Reticulum",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007249",
+      "descriptor_name": "Inflammation",
+      "qualifier_ui": "Q000503",
+      "qualifier_name": "physiopathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007249",
+      "descriptor_name": "Inflammation",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007333",
+      "descriptor_name": "Insulin Resistance",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015850",
+      "descriptor_name": "Interleukin-6",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015850",
+      "descriptor_name": "Interleukin-6",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020738",
+      "descriptor_name": "Leptin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020738",
+      "descriptor_name": "Leptin",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D054409",
+      "descriptor_name": "Nicotinamide Phosphoribosyltransferase",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D054409",
+      "descriptor_name": "Nicotinamide Phosphoribosyltransferase",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017395",
+      "descriptor_name": "Plasminogen Activator Inhibitor 1",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017395",
+      "descriptor_name": "Plasminogen Activator Inhibitor 1",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D052243",
+      "descriptor_name": "Resistin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D052243",
+      "descriptor_name": "Resistin",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000685",
+      "descriptor_name": "Serum Amyloid A Protein",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000685",
+      "descriptor_name": "Serum Amyloid A Protein",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014409",
+      "descriptor_name": "Tumor Necrosis Factor-alpha",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014409",
+      "descriptor_name": "Tumor Necrosis Factor-alpha",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.diabet.2007.09.004",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S49871393",
+        "display_name": "Diabetes & Metabolism",
+        "issn_l": "1262-3636",
+        "issn": [
+          "1262-3636",
+          "1878-1780"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/18093861",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/7",
+      "display_name": "Affordable and clean energy",
+      "score": 0.6
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 124,
+  "referenced_works": [
+    "https://openalex.org/W1534360145",
+    "https://openalex.org/W1537715658",
+    "https://openalex.org/W1558367558",
+    "https://openalex.org/W1675830194",
+    "https://openalex.org/W1932093217",
+    "https://openalex.org/W1964832108",
+    "https://openalex.org/W1967351112",
+    "https://openalex.org/W1968994034",
+    "https://openalex.org/W1971452427",
+    "https://openalex.org/W1975298882",
+    "https://openalex.org/W1979030077",
+    "https://openalex.org/W1979286266",
+    "https://openalex.org/W1980733995",
+    "https://openalex.org/W1989200821",
+    "https://openalex.org/W1990588947",
+    "https://openalex.org/W1991079474",
+    "https://openalex.org/W1996713062",
+    "https://openalex.org/W1997664301",
+    "https://openalex.org/W1997978122",
+    "https://openalex.org/W2001953371",
+    "https://openalex.org/W2007078899",
+    "https://openalex.org/W2008869160",
+    "https://openalex.org/W2009354994",
+    "https://openalex.org/W2022464927",
+    "https://openalex.org/W2022531055",
+    "https://openalex.org/W2025062210",
+    "https://openalex.org/W2029135683",
+    "https://openalex.org/W2031637294",
+    "https://openalex.org/W2033538734",
+    "https://openalex.org/W2033740553",
+    "https://openalex.org/W2038018821",
+    "https://openalex.org/W2042444876",
+    "https://openalex.org/W2042706232",
+    "https://openalex.org/W2048456744",
+    "https://openalex.org/W2048467423",
+    "https://openalex.org/W2050330440",
+    "https://openalex.org/W2052620623",
+    "https://openalex.org/W2054027245",
+    "https://openalex.org/W2059652342",
+    "https://openalex.org/W2060267166",
+    "https://openalex.org/W2060492271",
+    "https://openalex.org/W2061613314",
+    "https://openalex.org/W2061858646",
+    "https://openalex.org/W2063112536",
+    "https://openalex.org/W2065201220",
+    "https://openalex.org/W2065897618",
+    "https://openalex.org/W2069492997",
+    "https://openalex.org/W2077745556",
+    "https://openalex.org/W2079643102",
+    "https://openalex.org/W2079793296",
+    "https://openalex.org/W2080094558",
+    "https://openalex.org/W2084310603",
+    "https://openalex.org/W2090289803",
+    "https://openalex.org/W2091066652",
+    "https://openalex.org/W2092136583",
+    "https://openalex.org/W2095123982",
+    "https://openalex.org/W2096876054",
+    "https://openalex.org/W2098419930",
+    "https://openalex.org/W2105506930",
+    "https://openalex.org/W2106919150",
+    "https://openalex.org/W2107550410",
+    "https://openalex.org/W2113184924",
+    "https://openalex.org/W2116662308",
+    "https://openalex.org/W2117903988",
+    "https://openalex.org/W2118285681",
+    "https://openalex.org/W2120353130",
+    "https://openalex.org/W2120559894",
+    "https://openalex.org/W2121492052",
+    "https://openalex.org/W2123706364",
+    "https://openalex.org/W2124147826",
+    "https://openalex.org/W2124544973",
+    "https://openalex.org/W2124589753",
+    "https://openalex.org/W2126426760",
+    "https://openalex.org/W2127488841",
+    "https://openalex.org/W2127921048",
+    "https://openalex.org/W2128722360",
+    "https://openalex.org/W2129316761",
+    "https://openalex.org/W2129785124",
+    "https://openalex.org/W2130764919",
+    "https://openalex.org/W2132197535",
+    "https://openalex.org/W2134100055",
+    "https://openalex.org/W2135110328",
+    "https://openalex.org/W2135642402",
+    "https://openalex.org/W2136024338",
+    "https://openalex.org/W2137976281",
+    "https://openalex.org/W2138750223",
+    "https://openalex.org/W2139801418",
+    "https://openalex.org/W2140967957",
+    "https://openalex.org/W2141189887",
+    "https://openalex.org/W2142431039",
+    "https://openalex.org/W2142710423",
+    "https://openalex.org/W2145697808",
+    "https://openalex.org/W2146321139",
+    "https://openalex.org/W2146913744",
+    "https://openalex.org/W2152211462",
+    "https://openalex.org/W2152425714",
+    "https://openalex.org/W2153366902",
+    "https://openalex.org/W2155867477",
+    "https://openalex.org/W2156471241",
+    "https://openalex.org/W2156783437",
+    "https://openalex.org/W2157060294",
+    "https://openalex.org/W2160412430",
+    "https://openalex.org/W2165202791",
+    "https://openalex.org/W2165708021",
+    "https://openalex.org/W2166370133",
+    "https://openalex.org/W2166742784",
+    "https://openalex.org/W2169246660",
+    "https://openalex.org/W2175994433",
+    "https://openalex.org/W2285613511",
+    "https://openalex.org/W2329406962",
+    "https://openalex.org/W2334337188",
+    "https://openalex.org/W2335973780",
+    "https://openalex.org/W2416232791",
+    "https://openalex.org/W4212849655",
+    "https://openalex.org/W4231265096",
+    "https://openalex.org/W4234357566",
+    "https://openalex.org/W4234984997",
+    "https://openalex.org/W4235838570",
+    "https://openalex.org/W4238497443",
+    "https://openalex.org/W4241510428",
+    "https://openalex.org/W4243810418",
+    "https://openalex.org/W4246592598",
+    "https://openalex.org/W4249727000",
+    "https://openalex.org/W4256364347"
+  ],
+  "related_works": [
+    "https://openalex.org/W2375944679",
+    "https://openalex.org/W2348811830",
+    "https://openalex.org/W2140989717",
+    "https://openalex.org/W2136767406",
+    "https://openalex.org/W2086591008",
+    "https://openalex.org/W2061358377",
+    "https://openalex.org/W2048572539",
+    "https://openalex.org/W2027098794",
+    "https://openalex.org/W1996271362",
+    "https://openalex.org/W1964378492"
+  ],
+  "abstract_inverted_index": null,
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2021523302",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 37
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 53
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 49
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 47
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 66
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 60
+    }
+  ],
+  "updated_date": "2025-06-05T01:09:29.170687",
+  "created_date": "2016-06-24"
+}

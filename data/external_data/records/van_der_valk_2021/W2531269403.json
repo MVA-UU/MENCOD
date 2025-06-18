@@ -1,0 +1,2733 @@
+{
+  "id": "https://openalex.org/W2531269403",
+  "doi": "https://doi.org/10.1136/bmj.i4919",
+  "title": "ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions",
+  "display_name": "ROBINS-I: a tool for assessing risk of bias in non-randomised studies of interventions",
+  "publication_year": 2016,
+  "publication_date": "2016-10-12",
+  "ids": {
+    "openalex": "https://openalex.org/W2531269403",
+    "doi": "https://doi.org/10.1136/bmj.i4919",
+    "mag": "2531269403",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/27733354",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/5062054"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/bmj.i4919",
+    "pdf_url": "https://www.bmj.com/content/bmj/355/bmj.i4919.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S4393917726",
+      "display_name": "BMJ",
+      "issn_l": "1756-1833",
+      "issn": [
+        "1756-1833"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://www.bmj.com/content/bmj/355/bmj.i4919.full.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5015955757",
+        "display_name": "Jonathan A C Sterne",
+        "orcid": "https://orcid.org/0000-0001-8496-6053"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan AC Sterne",
+      "raw_affiliation_strings": [
+        "School of Social and Community Medicine, University of Bristol, Bristol BS8 2PS, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Social and Community Medicine, University of Bristol, Bristol BS8 2PS, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084268825",
+        "display_name": "Miguel A. Hernán",
+        "orcid": "https://orcid.org/0000-0003-1619-8456"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210092658",
+          "display_name": "Harvard–MIT Division of Health Sciences and Technology",
+          "ror": "https://ror.org/00jjeh629",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210092658"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I63966007",
+          "display_name": "Massachusetts Institute of Technology",
+          "ror": "https://ror.org/042nb2s44",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I63966007"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Miguel A Hernán",
+      "raw_affiliation_strings": [
+        "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, Massachusetts, USA",
+        "Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, Massachusetts, USA",
+        "Harvard-Massachusetts Institute of Technology Division of Health Sciences and Technology, Boston, Massachusetts, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biostatistics, Harvard T.H. Chan School of Public Health, Boston, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Harvard-Massachusetts Institute of Technology Division of Health Sciences and Technology, Boston, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210092658",
+            "https://openalex.org/I63966007"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Epidemiology, Harvard T.H. Chan School of Public Health, Boston, Massachusetts, USA",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049611346",
+        "display_name": "Barnaby C Reeves",
+        "orcid": "https://orcid.org/0000-0002-5101-9487"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Barnaby C Reeves",
+      "raw_affiliation_strings": [
+        "School of Clinical Sciences, University of Bristol, Bristol, BS2 8HW, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Clinical Sciences, University of Bristol, Bristol, BS2 8HW, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5016408852",
+        "display_name": "Jelena Savović",
+        "orcid": "https://orcid.org/0000-0002-2861-0578"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I34931013",
+          "display_name": "National Institute for Health Research",
+          "ror": "https://ror.org/0187kwz08",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I34931013"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800789647",
+          "display_name": "University Hospitals Bristol NHS Foundation Trust",
+          "ror": "https://ror.org/04nm1cv11",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800789647"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jelena Savović",
+      "raw_affiliation_strings": [
+        "National Institute for Health Research Collaboration for Leadership in Applied Health Research and Care West (NIHR CLAHRC West) at University Hospitals Bristol NHS Foundation Trust, Bristol BS1 2NT, UK",
+        "School of Social and Community Medicine, University of Bristol, Bristol BS8 2PS, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Social and Community Medicine, University of Bristol, Bristol BS8 2PS, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Institute for Health Research Collaboration for Leadership in Applied Health Research and Care West (NIHR CLAHRC West) at University Hospitals Bristol NHS Foundation Trust, Bristol BS1 2NT, UK",
+          "institution_ids": [
+            "https://openalex.org/I34931013",
+            "https://openalex.org/I2800789647"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023729007",
+        "display_name": "Nancy D Berkman",
+        "orcid": "https://orcid.org/0000-0003-3617-1082"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180297670",
+          "display_name": "RTI International",
+          "ror": "https://ror.org/052tfza37",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I180297670"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nancy D Berkman",
+      "raw_affiliation_strings": [
+        "Program on Health Care Quality and Outcomes, Division of Health Services and Social Policy Research, RTI International, Research Triangle Park, NC 27709, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Program on Health Care Quality and Outcomes, Division of Health Services and Social Policy Research, RTI International, Research Triangle Park, NC 27709, USA",
+          "institution_ids": [
+            "https://openalex.org/I180297670"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035597551",
+        "display_name": "Meera Viswanathan",
+        "orcid": "https://orcid.org/0000-0003-3486-8126"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180297670",
+          "display_name": "RTI International",
+          "ror": "https://ror.org/052tfza37",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I180297670"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Meera Viswanathan",
+      "raw_affiliation_strings": [
+        "RTI-UNC Evidence-based Practice Center, RTI International, Research Triangle Park, NC 27709, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "RTI-UNC Evidence-based Practice Center, RTI International, Research Triangle Park, NC 27709, USA",
+          "institution_ids": [
+            "https://openalex.org/I180297670"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029738421",
+        "display_name": "David Henry",
+        "orcid": "https://orcid.org/0000-0003-2934-2242"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210125326",
+          "display_name": "Public Health Ontario",
+          "ror": "https://ror.org/025z8ah66",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210125326"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I185261750",
+          "display_name": "University of Toronto",
+          "ror": "https://ror.org/03dbr7087",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Henry",
+      "raw_affiliation_strings": [
+        "Dalla Lana School of Public Health, University of Toronto, Toronto, Ontario, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dalla Lana School of Public Health, University of Toronto, Toronto, Ontario, Canada",
+          "institution_ids": [
+            "https://openalex.org/I4210125326",
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042962646",
+        "display_name": "Douglas G. Altman",
+        "orcid": "https://orcid.org/0000-0002-7183-4083"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801809904",
+          "display_name": "Nuffield Orthopaedic Centre",
+          "ror": "https://ror.org/0036ate90",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801809904",
+            "https://openalex.org/I4210147381"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I40120149",
+          "display_name": "University of Oxford",
+          "ror": "https://ror.org/052gg0110",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Douglas G Altman",
+      "raw_affiliation_strings": [
+        "Centre for Statistics in Medicine, Nuffield Department of Orthopaedics, Rheumatology & Musculoskeletal Sciences, University of Oxford, Oxford OX3 7LD, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre for Statistics in Medicine, Nuffield Department of Orthopaedics, Rheumatology & Musculoskeletal Sciences, University of Oxford, Oxford OX3 7LD, UK",
+          "institution_ids": [
+            "https://openalex.org/I2801809904",
+            "https://openalex.org/I40120149"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109313491",
+        "display_name": "Mohammed Ansari",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I153718931",
+          "display_name": "University of Ottawa",
+          "ror": "https://ror.org/03c4mmv16",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I153718931"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mohammed T Ansari",
+      "raw_affiliation_strings": [
+        "School of Epidemiology, Public Health and Preventive Medicine, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, K1H 8M5, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Epidemiology, Public Health and Preventive Medicine, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, K1H 8M5, Canada",
+          "institution_ids": [
+            "https://openalex.org/I153718931"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5065028933",
+        "display_name": "Isabelle Boutron",
+        "orcid": "https://orcid.org/0000-0002-5263-6241"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210091437",
+          "display_name": "Sorbonne Paris Cité",
+          "ror": "https://ror.org/001z21q04",
+          "country_code": "FR",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210091437"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154526488",
+          "display_name": "Inserm",
+          "ror": "https://ror.org/02vjkv261",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I154526488"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I204730241",
+          "display_name": "Université Paris Cité",
+          "ror": "https://ror.org/05f82e368",
+          "country_code": "FR",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I204730241"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Isabelle Boutron",
+      "raw_affiliation_strings": [
+        "METHODS Team, Centre of Epidemiology and Statistics Sorbonne Paris Cité Research, INSERM UMR 1153, University Paris Descartes, Paris, France"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "METHODS Team, Centre of Epidemiology and Statistics Sorbonne Paris Cité Research, INSERM UMR 1153, University Paris Descartes, Paris, France",
+          "institution_ids": [
+            "https://openalex.org/I4210091437",
+            "https://openalex.org/I154526488",
+            "https://openalex.org/I204730241"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072810129",
+        "display_name": "James R. Carpenter",
+        "orcid": "https://orcid.org/0000-0003-3890-6206"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210091428",
+          "display_name": "MRC Clinical Trials Unit at UCL",
+          "ror": "https://ror.org/001mm6w73",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I4210087105",
+            "https://openalex.org/I4210091428",
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I90344618"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210089966",
+          "display_name": "London School of Hygiene & Tropical Medicine",
+          "ror": "https://ror.org/00a0jsq62",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "James R Carpenter",
+      "raw_affiliation_strings": [
+        "Department of Medical Statistics, London School of Hygiene and Tropical Medicine and MRC Clinical Trials Unit at UCL, London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medical Statistics, London School of Hygiene and Tropical Medicine and MRC Clinical Trials Unit at UCL, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210091428",
+            "https://openalex.org/I45129253",
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053750539",
+        "display_name": "An‐Wen Chan",
+        "orcid": "https://orcid.org/0000-0002-4498-3382"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801816099",
+          "display_name": "Women's College Hospital",
+          "ror": "https://ror.org/03cw63y62",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801816099"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I185261750",
+          "display_name": "University of Toronto",
+          "ror": "https://ror.org/03dbr7087",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "An-Wen Chan",
+      "raw_affiliation_strings": [
+        "Women's College Research Institute, Department of Medicine, University of Toronto, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Women's College Research Institute, Department of Medicine, University of Toronto, Canada",
+          "institution_ids": [
+            "https://openalex.org/I2801816099",
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049972945",
+        "display_name": "Rachel Churchill",
+        "orcid": "https://orcid.org/0000-0002-1751-0512"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I52099693",
+          "display_name": "University of York",
+          "ror": "https://ror.org/04m01e293",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I52099693"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rachel Churchill",
+      "raw_affiliation_strings": [
+        "Centre for Reviews and Dissemination, University of York, York, YO10 5DD, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre for Reviews and Dissemination, University of York, York, YO10 5DD, UK",
+          "institution_ids": [
+            "https://openalex.org/I52099693"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009420648",
+        "display_name": "Jonathan J Deeks",
+        "orcid": "https://orcid.org/0000-0002-8850-1971"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I79619799",
+          "display_name": "University of Birmingham",
+          "ror": "https://ror.org/03angcq70",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I79619799"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan J Deeks",
+      "raw_affiliation_strings": [
+        "Institute of Applied Health Research, University of Birmingham, Birmingham B15 2TT, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Applied Health Research, University of Birmingham, Birmingham B15 2TT, UK",
+          "institution_ids": [
+            "https://openalex.org/I79619799"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110728949",
+        "display_name": "Asbjørn Hróbjartsson",
+        "orcid": "https://orcid.org/0000-0002-2451-5012"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I177969490",
+          "display_name": "University of Southern Denmark",
+          "ror": "https://ror.org/03yrrjy16",
+          "country_code": "DK",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I177969490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2801498763",
+          "display_name": "Odense University Hospital",
+          "ror": "https://ror.org/00ey0ed83",
+          "country_code": "DK",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801498763"
+          ]
+        }
+      ],
+      "countries": [
+        "DK"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Asbjørn Hróbjartsson",
+      "raw_affiliation_strings": [
+        "Center for Evidence-Based Medicine, University of Southern Denmark & Odense University Hospital, 5000 Odense C, Denmark"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Evidence-Based Medicine, University of Southern Denmark & Odense University Hospital, 5000 Odense C, Denmark",
+          "institution_ids": [
+            "https://openalex.org/I177969490",
+            "https://openalex.org/I2801498763"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5066377848",
+        "display_name": "Jamie J Kirkham",
+        "orcid": "https://orcid.org/0000-0003-2579-9325"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I146655781",
+          "display_name": "University of Liverpool",
+          "ror": "https://ror.org/04xs57h96",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jamie Kirkham",
+      "raw_affiliation_strings": [
+        "Department of Biostatistics, University of Liverpool, Liverpool, L69 3GL, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biostatistics, University of Liverpool, Liverpool, L69 3GL, UK",
+          "institution_ids": [
+            "https://openalex.org/I146655781"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5038409870",
+        "display_name": "Peter Jüni",
+        "orcid": "https://orcid.org/0000-0002-5985-0670"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1297363086",
+          "display_name": "St. Michael's Hospital",
+          "ror": "https://ror.org/04skqfp25",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I1297363086",
+            "https://openalex.org/I4399598460"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I185261750",
+          "display_name": "University of Toronto",
+          "ror": "https://ror.org/03dbr7087",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter Jüni",
+      "raw_affiliation_strings": [
+        "Applied Health Research Centre (AHRC), Li Ka Shing Knowledge Institute of St Michael's Hospital, and Department of Medicine, University of Toronto, Toronto, Ontario, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Applied Health Research Centre (AHRC), Li Ka Shing Knowledge Institute of St Michael's Hospital, and Department of Medicine, University of Toronto, Toronto, Ontario, Canada",
+          "institution_ids": [
+            "https://openalex.org/I1297363086",
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072911500",
+        "display_name": "Yoon K. Loke",
+        "orcid": "https://orcid.org/0000-0001-9109-2307"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1118541",
+          "display_name": "University of East Anglia",
+          "ror": "https://ror.org/026k5mg93",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1118541"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yoon K Loke",
+      "raw_affiliation_strings": [
+        "Norwich Medical School, University of East Anglia, Norwich NR4 7TJ, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Norwich Medical School, University of East Anglia, Norwich NR4 7TJ, UK",
+          "institution_ids": [
+            "https://openalex.org/I1118541"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064604634",
+        "display_name": "Theresa D Pigott",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1925986",
+          "display_name": "Loyola University Chicago",
+          "ror": "https://ror.org/04b6x2g63",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1925986"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Theresa D Pigott",
+      "raw_affiliation_strings": [
+        "School of Education, Loyola University Chicago, Chicago, IL 60611, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Education, Loyola University Chicago, Chicago, IL 60611, USA",
+          "institution_ids": [
+            "https://openalex.org/I1925986"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060375617",
+        "display_name": "Craig Ramsay",
+        "orcid": "https://orcid.org/0000-0003-4043-7349"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I195460627",
+          "display_name": "University of Aberdeen",
+          "ror": "https://ror.org/016476m91",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I195460627"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Craig R Ramsay",
+      "raw_affiliation_strings": [
+        "Health Services Research Unit, University of Aberdeen, Aberdeen, AB25 2ZD, UK."
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Health Services Research Unit, University of Aberdeen, Aberdeen, AB25 2ZD, UK.",
+          "institution_ids": [
+            "https://openalex.org/I195460627"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084456614",
+        "display_name": "Deborah L. Regidor",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1343052199",
+          "display_name": "Kaiser Permanente",
+          "ror": "https://ror.org/00t60zh31",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I1343052199"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Deborah Regidor",
+      "raw_affiliation_strings": [
+        "Evidence Services, Kaiser Permanente, Care Management Institute, Oakland, CA 94612, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Evidence Services, Kaiser Permanente, Care Management Institute, Oakland, CA 94612, USA",
+          "institution_ids": [
+            "https://openalex.org/I1343052199"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068121257",
+        "display_name": "Hannah R. Rothstein",
+        "orcid": "https://orcid.org/0000-0002-2808-4790"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141810926",
+          "display_name": "Baruch College",
+          "ror": "https://ror.org/023qavy03",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141810926"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hannah R Rothstein",
+      "raw_affiliation_strings": [
+        "Department of Management, Zicklin School of Business, Baruch College—CUNY, New York, NY 10010, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Management, Zicklin School of Business, Baruch College—CUNY, New York, NY 10010, USA",
+          "institution_ids": [
+            "https://openalex.org/I141810926"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108622069",
+        "display_name": "Lakhbir Sandhu",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I185261750",
+          "display_name": "University of Toronto",
+          "ror": "https://ror.org/03dbr7087",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lakhbir Sandhu",
+      "raw_affiliation_strings": [
+        "Division of General Surgery, University of Toronto, Toronto, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of General Surgery, University of Toronto, Toronto, Canada",
+          "institution_ids": [
+            "https://openalex.org/I185261750"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5070111795",
+        "display_name": "Pasqualina Santaguida",
+        "orcid": "https://orcid.org/0000-0001-7360-7362"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98251732",
+          "display_name": "McMaster University",
+          "ror": "https://ror.org/02fa3aq29",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Pasqualina L Santaguida",
+      "raw_affiliation_strings": [
+        "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, L8S 4K1, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Epidemiology and Biostatistics, McMaster University, Hamilton, Ontario, L8S 4K1, Canada",
+          "institution_ids": [
+            "https://openalex.org/I98251732"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071868716",
+        "display_name": "Holger J. Schünemann",
+        "orcid": "https://orcid.org/0000-0003-3211-8479"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210161245",
+          "display_name": "Cochrane",
+          "ror": "https://ror.org/05cf80b72",
+          "country_code": "CA",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210161245",
+            "https://openalex.org/I72054575"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Holger J Schünemann",
+      "raw_affiliation_strings": [
+        "Departments of Clinical Epidemiology and Biostatistics and of Medicine, Cochrane Applicability and Recommendations Methods (GRADEing) Group, MacGRADE center, Ontario, L8N 4K1, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departments of Clinical Epidemiology and Biostatistics and of Medicine, Cochrane Applicability and Recommendations Methods (GRADEing) Group, MacGRADE center, Ontario, L8N 4K1, Canada",
+          "institution_ids": [
+            "https://openalex.org/I4210161245"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110728734",
+        "display_name": "Beverly Shea",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I153718931",
+          "display_name": "University of Ottawa",
+          "ror": "https://ror.org/03c4mmv16",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I153718931"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800722420",
+          "display_name": "Ottawa Hospital",
+          "ror": "https://ror.org/03c62dg59",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800722420"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Beverly Shea",
+      "raw_affiliation_strings": [
+        "Ottawa Hospital Research Institute, Center for Practice Changing Research and School of Epidemiology, Public Health and Preventive Medicine, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, K1H 8M5, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Ottawa Hospital Research Institute, Center for Practice Changing Research and School of Epidemiology, Public Health and Preventive Medicine, Faculty of Medicine, University of Ottawa, Ottawa, Ontario, K1H 8M5, Canada",
+          "institution_ids": [
+            "https://openalex.org/I153718931",
+            "https://openalex.org/I2800722420"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5034465718",
+        "display_name": "Ian Shrier",
+        "orcid": "https://orcid.org/0000-0001-9914-3498"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2801824472",
+          "display_name": "Jewish General Hospital",
+          "ror": "https://ror.org/056jjra10",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2801824472"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I5023651",
+          "display_name": "McGill University",
+          "ror": "https://ror.org/01pxwe438",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ian Shrier",
+      "raw_affiliation_strings": [
+        "Centre for Clinical Epidemiology, Lady Davis Institute, Jewish General Hospital, McGill University, Montreal, Quebec, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre for Clinical Epidemiology, Lady Davis Institute, Jewish General Hospital, McGill University, Montreal, Quebec, Canada",
+          "institution_ids": [
+            "https://openalex.org/I2801824472",
+            "https://openalex.org/I5023651"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5022067453",
+        "display_name": "Peter Tugwell",
+        "orcid": "https://orcid.org/0000-0001-5062-0556"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I153718931",
+          "display_name": "University of Ottawa",
+          "ror": "https://ror.org/03c4mmv16",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I153718931"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter Tugwell",
+      "raw_affiliation_strings": [
+        "Department of Medicine and School of Epidemiology, Public Health and Preventive Medicine, University of Ottawa, Ottawa, Ontario, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medicine and School of Epidemiology, Public Health and Preventive Medicine, University of Ottawa, Ottawa, Ontario, Canada",
+          "institution_ids": [
+            "https://openalex.org/I153718931"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103755094",
+        "display_name": "Lucy Turner",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2800722420",
+          "display_name": "Ottawa Hospital",
+          "ror": "https://ror.org/03c62dg59",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800722420"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4388482656",
+          "display_name": "Ottawa Hospital Research Institute",
+          "ror": "https://ror.org/05jtef216",
+          "country_code": null,
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I153718931",
+            "https://openalex.org/I2800722420",
+            "https://openalex.org/I4388482656"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lucy Turner",
+      "raw_affiliation_strings": [
+        "Ottawa Hospital Research Institute, Ottawa, ON, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Ottawa Hospital Research Institute, Ottawa, ON, Canada",
+          "institution_ids": [
+            "https://openalex.org/I2800722420",
+            "https://openalex.org/I4388482656"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081918217",
+        "display_name": "Jeffrey C. Valentine",
+        "orcid": "https://orcid.org/0000-0002-2673-1915"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I142740786",
+          "display_name": "University of Louisville",
+          "ror": "https://ror.org/01ckdn478",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I142740786"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeffrey C Valentine",
+      "raw_affiliation_strings": [
+        "University of Louisville, Louisville, KY 40292, USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Louisville, Louisville, KY 40292, USA",
+          "institution_ids": [
+            "https://openalex.org/I142740786"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074189299",
+        "display_name": "Hugh Waddington",
+        "orcid": "https://orcid.org/0000-0003-3859-3342"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2799584991",
+          "display_name": "London International Development Centre",
+          "ror": "https://ror.org/053xt2a19",
+          "country_code": "GB",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I2799584991"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210089966",
+          "display_name": "London School of Hygiene & Tropical Medicine",
+          "ror": "https://ror.org/00a0jsq62",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hugh Waddington",
+      "raw_affiliation_strings": [
+        "International Initiative for Impact Evaluation, London School of Hygiene and Tropical Medicine, and London International Development Centre, London, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "International Initiative for Impact Evaluation, London School of Hygiene and Tropical Medicine, and London International Development Centre, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I2799584991",
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109226276",
+        "display_name": "Elizabeth Waters",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165779595",
+          "display_name": "The University of Melbourne",
+          "ror": "https://ror.org/01ej9dk98",
+          "country_code": "AU",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I165779595"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elizabeth Waters",
+      "raw_affiliation_strings": [
+        "Jack Brockhoff Child Health & Wellbeing Program, Melbourne School of Population and Global Health, University of Melbourne, Melbourne, VIC 3010, Australia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Jack Brockhoff Child Health & Wellbeing Program, Melbourne School of Population and Global Health, University of Melbourne, Melbourne, VIC 3010, Australia",
+          "institution_ids": [
+            "https://openalex.org/I165779595"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035644440",
+        "display_name": "George A. Wells",
+        "orcid": "https://orcid.org/0000-0002-2289-9139"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I153718931",
+          "display_name": "University of Ottawa",
+          "ror": "https://ror.org/03c4mmv16",
+          "country_code": "CA",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I153718931"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "George A Wells",
+      "raw_affiliation_strings": [
+        "School of Epidemiology, Public Health and Preventive Medicine and Director, Cardiovascular Research Methods Centre, University of Ottawa Heart Institute, Ottawa, Ontario, K1Y 4W7, Canada"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Epidemiology, Public Health and Preventive Medicine and Director, Cardiovascular Research Methods Centre, University of Ottawa Heart Institute, Ottawa, Ontario, K1Y 4W7, Canada",
+          "institution_ids": [
+            "https://openalex.org/I153718931"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5077388783",
+        "display_name": "Penny Whiting",
+        "orcid": "https://orcid.org/0000-0003-1138-5682"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800789647",
+          "display_name": "University Hospitals Bristol NHS Foundation Trust",
+          "ror": "https://ror.org/04nm1cv11",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I2800789647"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I34931013",
+          "display_name": "National Institute for Health Research",
+          "ror": "https://ror.org/0187kwz08",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I34931013"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Penny F Whiting",
+      "raw_affiliation_strings": [
+        "National Institute for Health Research Collaboration for Leadership in Applied Health Research and Care West (NIHR CLAHRC West) at University Hospitals Bristol NHS Foundation Trust, Bristol BS1 2NT, UK",
+        "School of Social and Community Medicine, University of Bristol, Bristol BS8 2PS, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Social and Community Medicine, University of Bristol, Bristol BS8 2PS, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Institute for Health Research Collaboration for Leadership in Applied Health Research and Care West (NIHR CLAHRC West) at University Hospitals Bristol NHS Foundation Trust, Bristol BS1 2NT, UK",
+          "institution_ids": [
+            "https://openalex.org/I2800789647",
+            "https://openalex.org/I34931013"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5031195893",
+        "display_name": "Julian P. T. Higgins",
+        "orcid": "https://orcid.org/0000-0002-8323-2514"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Julian PT Higgins",
+      "raw_affiliation_strings": [
+        "School of Social and Community Medicine, University of Bristol, Bristol BS8 2PS, UK"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Social and Community Medicine, University of Bristol, Bristol BS8 2PS, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 6,
+  "institutions_distinct_count": 39,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 750.867,
+  "has_fulltext": true,
+  "fulltext_origin": "pdf",
+  "cited_by_count": 13666,
+  "citation_normalized_percentile": {
+    "value": 0.999982,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "i4919",
+    "last_page": "i4919"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10804",
+    "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+    "score": 0.9986,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2002",
+      "display_name": "Economics and Econometrics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/20",
+      "display_name": "Economics, Econometrics and Finance"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10804",
+      "display_name": "Health Systems, Economic Evaluations, Quality of Life",
+      "score": 0.9986,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10206",
+      "display_name": "Meta-analysis and systematic reviews",
+      "score": 0.9949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1804",
+        "display_name": "Statistics, Probability and Uncertainty"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11590",
+      "display_name": "Primary Care and Health Outcomes",
+      "score": 0.9888,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3600",
+        "display_name": "General Health Professions"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/36",
+        "display_name": "Health Professions"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/strengths-and-weaknesses",
+      "display_name": "Strengths and weaknesses",
+      "score": 0.5477899
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C27415008",
+      "wikidata": "https://www.wikidata.org/wiki/Q7256382",
+      "display_name": "Psychological intervention",
+      "level": 2,
+      "score": 0.8292812
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.61081195
+    },
+    {
+      "id": "https://openalex.org/C189708586",
+      "wikidata": "https://www.wikidata.org/wiki/Q1504425",
+      "display_name": "Systematic review",
+      "level": 3,
+      "score": 0.55978125
+    },
+    {
+      "id": "https://openalex.org/C63882131",
+      "wikidata": "https://www.wikidata.org/wiki/Q17122954",
+      "display_name": "Strengths and weaknesses",
+      "level": 2,
+      "score": 0.5477899
+    },
+    {
+      "id": "https://openalex.org/C2777363581",
+      "wikidata": "https://www.wikidata.org/wiki/Q15098235",
+      "display_name": "Harm",
+      "level": 2,
+      "score": 0.5253817
+    },
+    {
+      "id": "https://openalex.org/C95190672",
+      "wikidata": "https://www.wikidata.org/wiki/Q815382",
+      "display_name": "Meta-analysis",
+      "level": 2,
+      "score": 0.5003402
+    },
+    {
+      "id": "https://openalex.org/C2779473830",
+      "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+      "display_name": "MEDLINE",
+      "level": 2,
+      "score": 0.4638754
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.42585263
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.2508999
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.12783816
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.08386737
+    },
+    {
+      "id": "https://openalex.org/C77805123",
+      "wikidata": "https://www.wikidata.org/wiki/Q161272",
+      "display_name": "Social psychology",
+      "level": 1,
+      "score": 0.07126707
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D013223",
+      "descriptor_name": "Statistics as Topic",
+      "qualifier_ui": "Q000295",
+      "qualifier_name": "instrumentation",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D015982",
+      "descriptor_name": "Bias",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002986",
+      "descriptor_name": "Clinical Trials as Topic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D015986",
+      "descriptor_name": "Confounding Factors, Epidemiologic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D064887",
+      "descriptor_name": "Observational Studies as Topic",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010865",
+      "descriptor_name": "Pilot Projects",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012306",
+      "descriptor_name": "Risk",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 18,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1136/bmj.i4919",
+      "pdf_url": "https://www.bmj.com/content/bmj/355/bmj.i4919.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4393917726",
+        "display_name": "BMJ",
+        "issn_l": "1756-1833",
+        "issn": [
+          "1756-1833"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://escholarship.mcgill.ca/concern/articles/df65vc961",
+      "pdf_url": "http://escholarship.mcgill.ca/downloads/6108vg81s",
+      "source": {
+        "id": "https://openalex.org/S4306401568",
+        "display_name": "eScholarship@McGill (McGill)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I5023651",
+        "host_organization_name": "McGill University",
+        "host_organization_lineage": [
+          "https://openalex.org/I5023651"
+        ],
+        "host_organization_lineage_names": [
+          "McGill University"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://portal.findresearcher.sdu.dk/da/publications/fa27a1f8-65e9-447c-bc91-d784e28128f1",
+      "pdf_url": "https://portal.findresearcher.sdu.dk/files/124265446/ROBINS_I.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400423",
+        "display_name": "University of Southern Denmark Research Portal (University of Southern Denmark)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I177969490",
+        "host_organization_name": "University of Southern Denmark",
+        "host_organization_lineage": [
+          "https://openalex.org/I177969490"
+        ],
+        "host_organization_lineage_names": [
+          "University of Southern Denmark"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://research-information.bris.ac.uk/en/publications/04942354-8805-45b0-aeea-cbd1550438b9",
+      "pdf_url": "https://research-information.bris.ac.uk/files/88891643/bmj.i4919.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400895",
+        "display_name": "Bristol Research (University of Bristol)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I36234482",
+        "host_organization_name": "University of Bristol",
+        "host_organization_lineage": [
+          "https://openalex.org/I36234482"
+        ],
+        "host_organization_lineage_names": [
+          "University of Bristol"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://research-information.bris.ac.uk/ws/files/88891643/bmj.i4919.full.pdf",
+      "pdf_url": "https://research-information.bris.ac.uk/ws/files/88891643/bmj.i4919.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400895",
+        "display_name": "Bristol Research (University of Bristol)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I36234482",
+        "host_organization_name": "University of Bristol",
+        "host_organization_lineage": [
+          "https://openalex.org/I36234482"
+        ],
+        "host_organization_lineage_names": [
+          "University of Bristol"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://academicworks.cuny.edu/bb_pubs/274",
+      "pdf_url": "https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=1261&context=bb_pubs",
+      "source": {
+        "id": "https://openalex.org/S4377196304",
+        "display_name": "CUNY Academic Works (City University of New York)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I174216632",
+        "host_organization_name": "City University of New York",
+        "host_organization_lineage": [
+          "https://openalex.org/I174216632"
+        ],
+        "host_organization_lineage_names": [
+          "City University of New York"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://researchonline.lshtm.ac.uk/id/eprint/2997157/1/ROBINS-I%20a%20tool%20for%20assessing%20risk_GOLD%20VoR.pdf",
+      "pdf_url": "https://researchonline.lshtm.ac.uk/id/eprint/2997157/1/ROBINS-I%20a%20tool%20for%20assessing%20risk_GOLD%20VoR.pdf",
+      "source": {
+        "id": "https://openalex.org/S4377196261",
+        "display_name": "LSHTM Research Online\n (London School of Hygiene & Tropical Medicine)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I4210089966",
+        "host_organization_name": "London School of Hygiene & Tropical Medicine",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210089966"
+        ],
+        "host_organization_lineage_names": [
+          "London School of Hygiene & Tropical Medicine"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://www.bmj.com/cgi/content/short/355/oct12_11/i4919",
+      "pdf_url": "http://www.bmj.com/content/bmj/355/bmj.i4919.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S128516502",
+        "display_name": "Notes and Queries",
+        "issn_l": "0029-3970",
+        "issn": [
+          "0029-3970",
+          "1471-6941"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/2164/8085",
+      "pdf_url": "https://aura.abdn.ac.uk/bitstream/2164/8085/1/bmj.i4919.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400966",
+        "display_name": "Aberdeen University Research Archive (Aberdeen University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I195460627",
+        "host_organization_name": "University of Aberdeen",
+        "host_organization_lineage": [
+          "https://openalex.org/I195460627"
+        ],
+        "host_organization_lineage_names": [
+          "University of Aberdeen"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://findresearcher.sdu.dk/ws/files/124265446/ROBINS_I.pdf",
+      "pdf_url": "https://findresearcher.sdu.dk/ws/files/124265446/ROBINS_I.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400423",
+        "display_name": "University of Southern Denmark Research Portal (University of Southern Denmark)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I177969490",
+        "host_organization_name": "University of Southern Denmark",
+        "host_organization_lineage": [
+          "https://openalex.org/I177969490"
+        ],
+        "host_organization_lineage_names": [
+          "University of Southern Denmark"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/1721.1/109604",
+      "pdf_url": "https://dspace.mit.edu/bitstream/1721.1/109604/1/Sterne-2016-ROBINS-I_%20a%20tool%20for%20assessing%20ris.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400425",
+        "display_name": "DSpace@MIT (Massachusetts Institute of Technology)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I63966007",
+        "host_organization_name": "Massachusetts Institute of Technology",
+        "host_organization_lineage": [
+          "https://openalex.org/I63966007"
+        ],
+        "host_organization_lineage_names": [
+          "Massachusetts Institute of Technology"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc5062054",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5062054",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://eprints.whiterose.ac.uk/132719/1/bmj.i4919.full.pdf",
+      "pdf_url": "https://eprints.whiterose.ac.uk/132719/1/bmj.i4919.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400854",
+        "display_name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2800616092",
+        "host_organization_name": "White Rose University Consortium",
+        "host_organization_lineage": [
+          "https://openalex.org/I2800616092"
+        ],
+        "host_organization_lineage_names": [
+          "White Rose University Consortium"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://ueaeprints.uea.ac.uk/id/eprint/60947/1/ROBINS_I_full.pdf",
+      "pdf_url": "https://ueaeprints.uea.ac.uk/id/eprint/60947/1/ROBINS_I_full.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400384",
+        "display_name": "UEA Digital Repository (University of East Anglia)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1118541",
+        "host_organization_name": "University of East Anglia",
+        "host_organization_lineage": [
+          "https://openalex.org/I1118541"
+        ],
+        "host_organization_lineage_names": [
+          "University of East Anglia"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://escholarship.org/uc/item/0z35c2x0",
+      "pdf_url": "https://escholarship.org/content/qt0z35c2x0/qt0z35c2x0.pdf?t=rh0jxw",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [
+          "California Digital Library"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://research-information.bris.ac.uk/ws/files/88891645/stej032658.w1_default.pdf",
+      "pdf_url": "https://research-information.bris.ac.uk/ws/files/88891645/stej032658.w1_default.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400895",
+        "display_name": "Bristol Research (University of Bristol)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I36234482",
+        "host_organization_name": "University of Bristol",
+        "host_organization_lineage": [
+          "https://openalex.org/I36234482"
+        ],
+        "host_organization_lineage_names": [
+          "University of Bristol"
+        ],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/27733354",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/bmj.i4919",
+    "pdf_url": "https://www.bmj.com/content/bmj/355/bmj.i4919.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S4393917726",
+      "display_name": "BMJ",
+      "issn_l": "1756-1833",
+      "issn": [
+        "1756-1833"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 24,
+  "referenced_works": [
+    "https://openalex.org/W1981501248",
+    "https://openalex.org/W1989467621",
+    "https://openalex.org/W1994466426",
+    "https://openalex.org/W1995214174",
+    "https://openalex.org/W2014712738",
+    "https://openalex.org/W2027666532",
+    "https://openalex.org/W2054224089",
+    "https://openalex.org/W2062359643",
+    "https://openalex.org/W2071806619",
+    "https://openalex.org/W2088438184",
+    "https://openalex.org/W2098689751",
+    "https://openalex.org/W2098923148",
+    "https://openalex.org/W2107638293",
+    "https://openalex.org/W2114488753",
+    "https://openalex.org/W2126629865",
+    "https://openalex.org/W2136403658",
+    "https://openalex.org/W2171251365",
+    "https://openalex.org/W2298338128",
+    "https://openalex.org/W2336975416",
+    "https://openalex.org/W2588681363",
+    "https://openalex.org/W2612891587",
+    "https://openalex.org/W2641083157",
+    "https://openalex.org/W4240946946",
+    "https://openalex.org/W600840809"
+  ],
+  "related_works": [
+    "https://openalex.org/W93605524",
+    "https://openalex.org/W821271700",
+    "https://openalex.org/W4295769391",
+    "https://openalex.org/W4294636802",
+    "https://openalex.org/W3112960490",
+    "https://openalex.org/W2972220648",
+    "https://openalex.org/W2332667808",
+    "https://openalex.org/W2183009720",
+    "https://openalex.org/W2021145421",
+    "https://openalex.org/W1997921863"
+  ],
+  "abstract_inverted_index": {
+    "Non-randomised": [
+      0,
+      40
+    ],
+    "studies": [
+      1,
+      65
+    ],
+    "of": [
+      2,
+      5,
+      12,
+      43,
+      51,
+      55,
+      62,
+      77
+    ],
+    "the": [
+      3,
+      56
+    ],
+    "effects": [
+      4
+    ],
+    "interventions": [
+      6,
+      63
+    ],
+    "are": [
+      7
+    ],
+    "critical": [
+      8
+    ],
+    "to": [
+      9,
+      25,
+      71,
+      79,
+      88
+    ],
+    "many": [
+      10
+    ],
+    "areas": [
+      11
+    ],
+    "healthcare": [
+      13
+    ],
+    "evaluation,": [
+      14
+    ],
+    "but": [
+      15
+    ],
+    "their": [
+      16,
+      29
+    ],
+    "results": [
+      17
+    ],
+    "may": [
+      18
+    ],
+    "be": [
+      19,
+      85
+    ],
+    "biased.": [
+      20
+    ],
+    "It": [
+      21
+    ],
+    "is": [
+      22
+    ],
+    "therefore": [
+      23
+    ],
+    "important": [
+      24
+    ],
+    "understand": [
+      26
+    ],
+    "and": [
+      27,
+      31
+    ],
+    "appraise": [
+      28
+    ],
+    "strengths": [
+      30
+    ],
+    "weaknesses.": [
+      32
+    ],
+    "We": [
+      33
+    ],
+    "developed": [
+      34
+    ],
+    "ROBINS-I": [
+      35
+    ],
+    "(\"Risk": [
+      36
+    ],
+    "Of": [
+      37
+    ],
+    "Bias": [
+      38
+    ],
+    "In": [
+      39
+    ],
+    "Studies": [
+      41
+    ],
+    "-": [
+      42
+    ],
+    "Interventions\"),": [
+      44
+    ],
+    "a": [
+      45
+    ],
+    "new": [
+      46
+    ],
+    "tool": [
+      47,
+      83
+    ],
+    "for": [
+      48
+    ],
+    "evaluating": [
+      49
+    ],
+    "risk": [
+      50
+    ],
+    "bias": [
+      52
+    ],
+    "in": [
+      53
+    ],
+    "estimates": [
+      54
+    ],
+    "comparative": [
+      57
+    ],
+    "effectiveness": [
+      58
+    ],
+    "(harm": [
+      59
+    ],
+    "or": [
+      60,
+      75
+    ],
+    "benefit)": [
+      61
+    ],
+    "from": [
+      64
+    ],
+    "that": [
+      66,
+      93
+    ],
+    "did": [
+      67
+    ],
+    "not": [
+      68
+    ],
+    "use": [
+      69
+    ],
+    "randomisation": [
+      70
+    ],
+    "allocate": [
+      72
+    ],
+    "units": [
+      73
+    ],
+    "(individuals": [
+      74
+    ],
+    "clusters": [
+      76
+    ],
+    "individuals)": [
+      78
+    ],
+    "comparison": [
+      80
+    ],
+    "groups.": [
+      81
+    ],
+    "The": [
+      82
+    ],
+    "will": [
+      84
+    ],
+    "particularly": [
+      86
+    ],
+    "useful": [
+      87
+    ],
+    "those": [
+      89
+    ],
+    "undertaking": [
+      90
+    ],
+    "systematic": [
+      91
+    ],
+    "reviews": [
+      92
+    ],
+    "include": [
+      94
+    ],
+    "non-randomised": [
+      95
+    ],
+    "studies.": [
+      96
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2531269403",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1284
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2844
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2399
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2295
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1922
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1353
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 779
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 460
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 195
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2025-06-15T14:42:19.599184",
+  "created_date": "2016-10-21"
+}

@@ -1,0 +1,1531 @@
+{
+  "id": "https://openalex.org/W2146226800",
+  "doi": "https://doi.org/10.1210/en.2007-1166",
+  "title": "TrkB Agonists Ameliorate Obesity and Associated Metabolic Conditions in Mice",
+  "display_name": "TrkB Agonists Ameliorate Obesity and Associated Metabolic Conditions in Mice",
+  "publication_year": 2007,
+  "publication_date": "2007-12-06",
+  "ids": {
+    "openalex": "https://openalex.org/W2146226800",
+    "doi": "https://doi.org/10.1210/en.2007-1166",
+    "mag": "2146226800",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/18063676"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1210/en.2007-1166",
+    "pdf_url": "https://academic.oup.com/endo/article-pdf/149/3/1038/8998064/endo1038.pdf",
+    "source": {
+      "id": "https://openalex.org/S157527038",
+      "display_name": "Endocrinology",
+      "issn_l": "0013-7227",
+      "issn": [
+        "0013-7227",
+        "1945-7170"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://academic.oup.com/endo/article-pdf/149/3/1038/8998064/endo1038.pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5089956303",
+        "display_name": "David Tsao",
+        "orcid": "https://orcid.org/0000-0002-0977-7444"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180857899",
+          "display_name": "Pfizer (United States)",
+          "ror": "https://ror.org/01xdqrp08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Tsao",
+      "raw_affiliation_strings": [
+        "Rinat Laboratories, Pfizer, Inc; 230 East Grand Avenue South San Francisco California 94080 USA"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rinat Laboratories, Pfizer, Inc; 230 East Grand Avenue South San Francisco California 94080 USA",
+          "institution_ids": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023648360",
+        "display_name": "Heather Koenig Thomsen",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180857899",
+          "display_name": "Pfizer (United States)",
+          "ror": "https://ror.org/01xdqrp08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Heather Koenig Thomsen",
+      "raw_affiliation_strings": [
+        "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080",
+          "institution_ids": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110967594",
+        "display_name": "Joyce Chou",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180857899",
+          "display_name": "Pfizer (United States)",
+          "ror": "https://ror.org/01xdqrp08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Joyce Chou",
+      "raw_affiliation_strings": [
+        "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080",
+          "institution_ids": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5084533885",
+        "display_name": "Jennifer Stratton",
+        "orcid": "https://orcid.org/0000-0001-7310-7069"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180857899",
+          "display_name": "Pfizer (United States)",
+          "ror": "https://ror.org/01xdqrp08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jennifer Stratton",
+      "raw_affiliation_strings": [
+        "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080",
+          "institution_ids": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047571769",
+        "display_name": "Michael Hagen",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180857899",
+          "display_name": "Pfizer (United States)",
+          "ror": "https://ror.org/01xdqrp08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Hagen",
+      "raw_affiliation_strings": [
+        "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080",
+          "institution_ids": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049571779",
+        "display_name": "Carole Loo",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180857899",
+          "display_name": "Pfizer (United States)",
+          "ror": "https://ror.org/01xdqrp08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Carole Loo",
+      "raw_affiliation_strings": [
+        "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080",
+          "institution_ids": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101426600",
+        "display_name": "Carlos García",
+        "orcid": "https://orcid.org/0000-0003-3367-4151"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180857899",
+          "display_name": "Pfizer (United States)",
+          "ror": "https://ror.org/01xdqrp08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Carlos Garcia",
+      "raw_affiliation_strings": [
+        "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080",
+          "institution_ids": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013968656",
+        "display_name": "David L. Sloane",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180857899",
+          "display_name": "Pfizer (United States)",
+          "ror": "https://ror.org/01xdqrp08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David L. Sloane",
+      "raw_affiliation_strings": [
+        "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080",
+          "institution_ids": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102909555",
+        "display_name": "Arnon Rosenthal",
+        "orcid": "https://orcid.org/0000-0003-1885-3880"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180857899",
+          "display_name": "Pfizer (United States)",
+          "ror": "https://ror.org/01xdqrp08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Arnon Rosenthal",
+      "raw_affiliation_strings": [
+        "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080",
+          "institution_ids": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5068034539",
+        "display_name": "John Lin",
+        "orcid": "https://orcid.org/0000-0002-2596-969X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180857899",
+          "display_name": "Pfizer (United States)",
+          "ror": "https://ror.org/01xdqrp08",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John C. Lin",
+      "raw_affiliation_strings": [
+        "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rinat Laboratories, Pfizer Inc., South San Francisco, California 94080",
+          "institution_ids": [
+            "https://openalex.org/I180857899"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3400,
+    "currency": "USD",
+    "value_usd": 3400
+  },
+  "apc_paid": null,
+  "fwci": 2.441,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 81,
+  "citation_normalized_percentile": {
+    "value": 0.816647,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "149",
+    "issue": "3",
+    "first_page": "1038",
+    "last_page": "1048"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10489",
+    "display_name": "Regulation of Appetite and Obesity",
+    "score": 0.9997,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2807",
+      "display_name": "Endocrine and Autonomic Systems"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/28",
+      "display_name": "Neuroscience"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10489",
+      "display_name": "Regulation of Appetite and Obesity",
+      "score": 0.9997,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2807",
+        "display_name": "Endocrine and Autonomic Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10528",
+      "display_name": "Adipokines, Inflammation, and Metabolic Diseases",
+      "score": 0.9934,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2713",
+        "display_name": "Epidemiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11457",
+      "display_name": "Adipose Tissue and Metabolism",
+      "score": 0.9905,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/leptin-receptor",
+      "display_name": "Leptin receptor",
+      "score": 0.5183607
+    },
+    {
+      "id": "https://openalex.org/keywords/melanocortin-4-receptor",
+      "display_name": "Melanocortin 4 receptor",
+      "score": 0.43880728
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C97124661",
+      "wikidata": "https://www.wikidata.org/wiki/Q14897782",
+      "display_name": "Tropomyosin receptor kinase B",
+      "level": 4,
+      "score": 0.90855336
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.8573371
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.8370569
+    },
+    {
+      "id": "https://openalex.org/C2780613262",
+      "wikidata": "https://www.wikidata.org/wiki/Q223739",
+      "display_name": "Leptin",
+      "level": 3,
+      "score": 0.74523926
+    },
+    {
+      "id": "https://openalex.org/C75908981",
+      "wikidata": "https://www.wikidata.org/wiki/Q28578",
+      "display_name": "Appetite",
+      "level": 2,
+      "score": 0.6077259
+    },
+    {
+      "id": "https://openalex.org/C14372207",
+      "wikidata": "https://www.wikidata.org/wiki/Q7072306",
+      "display_name": "Leptin receptor",
+      "level": 4,
+      "score": 0.5183607
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.49091107
+    },
+    {
+      "id": "https://openalex.org/C2777241137",
+      "wikidata": "https://www.wikidata.org/wiki/Q24784850",
+      "display_name": "Melanocortin receptor",
+      "level": 4,
+      "score": 0.468807
+    },
+    {
+      "id": "https://openalex.org/C43295716",
+      "wikidata": "https://www.wikidata.org/wiki/Q21118676",
+      "display_name": "Melanocortin 4 receptor",
+      "level": 4,
+      "score": 0.43880728
+    },
+    {
+      "id": "https://openalex.org/C92020748",
+      "wikidata": "https://www.wikidata.org/wiki/Q420457",
+      "display_name": "Neurotrophin",
+      "level": 3,
+      "score": 0.42418045
+    },
+    {
+      "id": "https://openalex.org/C2779993316",
+      "wikidata": "https://www.wikidata.org/wiki/Q6591465",
+      "display_name": "Melanocortin",
+      "level": 3,
+      "score": 0.40498167
+    },
+    {
+      "id": "https://openalex.org/C170493617",
+      "wikidata": "https://www.wikidata.org/wiki/Q208467",
+      "display_name": "Receptor",
+      "level": 2,
+      "score": 0.40082678
+    },
+    {
+      "id": "https://openalex.org/C511355011",
+      "wikidata": "https://www.wikidata.org/wiki/Q12174",
+      "display_name": "Obesity",
+      "level": 2,
+      "score": 0.29457375
+    },
+    {
+      "id": "https://openalex.org/C160539049",
+      "wikidata": "https://www.wikidata.org/wiki/Q3064187",
+      "display_name": "Neurotrophic factors",
+      "level": 3,
+      "score": 0.29200664
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D009414",
+      "descriptor_name": "Nerve Growth Factors",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D020813",
+      "descriptor_name": "Receptor, trkB",
+      "qualifier_ui": "Q000819",
+      "qualifier_name": "agonists",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001835",
+      "descriptor_name": "Body Weight",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D001835",
+      "descriptor_name": "Body Weight",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004195",
+      "descriptor_name": "Disease Models, Animal",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004435",
+      "descriptor_name": "Eating",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004435",
+      "descriptor_name": "Eating",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004734",
+      "descriptor_name": "Energy Metabolism",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004734",
+      "descriptor_name": "Energy Metabolism",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005947",
+      "descriptor_name": "Glucose",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005947",
+      "descriptor_name": "Glucose",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006706",
+      "descriptor_name": "Homeostasis",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006706",
+      "descriptor_name": "Homeostasis",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020738",
+      "descriptor_name": "Leptin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020738",
+      "descriptor_name": "Leptin",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018021",
+      "descriptor_name": "Lithium Chloride",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018021",
+      "descriptor_name": "Lithium Chloride",
+      "qualifier_ui": "Q000494",
+      "qualifier_name": "pharmacology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053486",
+      "descriptor_name": "Melanocortins",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D053486",
+      "descriptor_name": "Melanocortins",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051379",
+      "descriptor_name": "Mice",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008810",
+      "descriptor_name": "Mice, Inbred C57BL",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008820",
+      "descriptor_name": "Mice, Obese",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009414",
+      "descriptor_name": "Nerve Growth Factors",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009765",
+      "descriptor_name": "Obesity",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D051381",
+      "descriptor_name": "Rats",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017207",
+      "descriptor_name": "Rats, Sprague-Dawley",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020813",
+      "descriptor_name": "Receptor, trkB",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D020813",
+      "descriptor_name": "Receptor, trkB",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D054411",
+      "descriptor_name": "Receptors, Leptin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D054411",
+      "descriptor_name": "Receptors, Leptin",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013649",
+      "descriptor_name": "Taste",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013649",
+      "descriptor_name": "Taste",
+      "qualifier_ui": "Q000187",
+      "qualifier_name": "drug effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014280",
+      "descriptor_name": "Triglycerides",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014280",
+      "descriptor_name": "Triglycerides",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1210/en.2007-1166",
+      "pdf_url": "https://academic.oup.com/endo/article-pdf/149/3/1038/8998064/endo1038.pdf",
+      "source": {
+        "id": "https://openalex.org/S157527038",
+        "display_name": "Endocrinology",
+        "issn_l": "0013-7227",
+        "issn": [
+          "0013-7227",
+          "1945-7170"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311647",
+          "https://openalex.org/P4310311648"
+        ],
+        "host_organization_lineage_names": [
+          "University of Oxford",
+          "Oxford University Press"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/18063676",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1210/en.2007-1166",
+    "pdf_url": "https://academic.oup.com/endo/article-pdf/149/3/1038/8998064/endo1038.pdf",
+    "source": {
+      "id": "https://openalex.org/S157527038",
+      "display_name": "Endocrinology",
+      "issn_l": "0013-7227",
+      "issn": [
+        "0013-7227",
+        "1945-7170"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311647",
+        "https://openalex.org/P4310311648"
+      ],
+      "host_organization_lineage_names": [
+        "University of Oxford",
+        "Oxford University Press"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true
+  },
+  "sustainable_development_goals": [],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 29,
+  "referenced_works": [
+    "https://openalex.org/W1531398243",
+    "https://openalex.org/W1568010017",
+    "https://openalex.org/W1591302719",
+    "https://openalex.org/W1636089071",
+    "https://openalex.org/W1979722180",
+    "https://openalex.org/W1990191421",
+    "https://openalex.org/W1994212260",
+    "https://openalex.org/W1996777308",
+    "https://openalex.org/W2004670058",
+    "https://openalex.org/W2012423618",
+    "https://openalex.org/W2016392763",
+    "https://openalex.org/W2019110947",
+    "https://openalex.org/W2032042625",
+    "https://openalex.org/W2038122755",
+    "https://openalex.org/W2048604172",
+    "https://openalex.org/W2055541457",
+    "https://openalex.org/W2064079447",
+    "https://openalex.org/W2069458734",
+    "https://openalex.org/W2075864584",
+    "https://openalex.org/W2084434253",
+    "https://openalex.org/W2104295145",
+    "https://openalex.org/W2107940713",
+    "https://openalex.org/W2110795584",
+    "https://openalex.org/W2141280497",
+    "https://openalex.org/W2157226283",
+    "https://openalex.org/W2159692236",
+    "https://openalex.org/W2160961970",
+    "https://openalex.org/W2170576851",
+    "https://openalex.org/W2777548161"
+  ],
+  "related_works": [
+    "https://openalex.org/W3182819380",
+    "https://openalex.org/W3004121165",
+    "https://openalex.org/W2908712355",
+    "https://openalex.org/W2089323208",
+    "https://openalex.org/W2040364475",
+    "https://openalex.org/W2039790315",
+    "https://openalex.org/W2036250760",
+    "https://openalex.org/W2028646384",
+    "https://openalex.org/W1973541680",
+    "https://openalex.org/W193634416"
+  ],
+  "abstract_inverted_index": {
+    "Mutations": [
+      0
+    ],
+    "in": [
+      1,
+      8,
+      24,
+      48,
+      52,
+      86,
+      114,
+      132
+    ],
+    "the": [
+      2,
+      37,
+      119,
+      125,
+      133,
+      144
+    ],
+    "tyrosine": [
+      3
+    ],
+    "kinase": [
+      4
+    ],
+    "receptor": [
+      5
+    ],
+    "trkB": [
+      6,
+      105,
+      128,
+      151
+    ],
+    "or": [
+      7,
+      102,
+      164
+    ],
+    "one": [
+      9
+    ],
+    "of": [
+      10,
+      34,
+      56,
+      72,
+      97,
+      100,
+      143,
+      159
+    ],
+    "its": [
+      11
+    ],
+    "natural": [
+      12,
+      39
+    ],
+    "ligands,": [
+      13
+    ],
+    "brain-derived": [
+      14
+    ],
+    "neurotrophic": [
+      15
+    ],
+    "factor": [
+      16
+    ],
+    "(BDNF),": [
+      17
+    ],
+    "lead": [
+      18
+    ],
+    "to": [
+      19,
+      83
+    ],
+    "severe": [
+      20
+    ],
+    "hyperphagia": [
+      21
+    ],
+    "and": [
+      22,
+      45,
+      66,
+      68,
+      74,
+      111,
+      139,
+      146,
+      155,
+      167
+    ],
+    "obesity": [
+      23
+    ],
+    "rodents": [
+      25
+    ],
+    "and/or": [
+      26
+    ],
+    "humans.": [
+      27
+    ],
+    "Here,": [
+      28
+    ],
+    "we": [
+      29
+    ],
+    "show": [
+      30
+    ],
+    "that": [
+      31,
+      127
+    ],
+    "peripheral": [
+      32
+    ],
+    "administration": [
+      33
+    ],
+    "neurotrophin-4": [
+      35
+    ],
+    "(NT4),": [
+      36
+    ],
+    "second": [
+      38
+    ],
+    "ligand": [
+      40
+    ],
+    "for": [
+      41,
+      174
+    ],
+    "trkB,": [
+      42
+    ],
+    "suppresses": [
+      43
+    ],
+    "appetite": [
+      44
+    ],
+    "body": [
+      46,
+      63,
+      79,
+      112
+    ],
+    "weight": [
+      47,
+      80,
+      113
+    ],
+    "a": [
+      49,
+      171
+    ],
+    "dose-dependent": [
+      50
+    ],
+    "manner": [
+      51
+    ],
+    "several": [
+      53
+    ],
+    "murine": [
+      54
+    ],
+    "models": [
+      55
+    ],
+    "obesity.": [
+      57
+    ],
+    "NT4": [
+      58,
+      101
+    ],
+    "treatment": [
+      59,
+      77
+    ],
+    "increased": [
+      60
+    ],
+    "lipolysis,": [
+      61
+    ],
+    "reduced": [
+      62,
+      108
+    ],
+    "fat": [
+      64
+    ],
+    "content": [
+      65
+    ],
+    "leptin,": [
+      67
+    ],
+    "elicited": [
+      69
+    ],
+    "long-lasting": [
+      70
+    ],
+    "amelioration": [
+      71
+    ],
+    "hypertriglyceridemia": [
+      73
+    ],
+    "hyperglycemia.": [
+      75
+    ],
+    "After": [
+      76
+    ],
+    "termination,": [
+      78
+    ],
+    "gradually": [
+      81
+    ],
+    "recovered": [
+      82
+    ],
+    "control": [
+      84
+    ],
+    "levels": [
+      85
+    ],
+    "obese": [
+      87
+    ],
+    "mice": [
+      88
+    ],
+    "with": [
+      89,
+      118
+    ],
+    "functional": [
+      90
+    ],
+    "leptin": [
+      91,
+      145
+    ],
+    "receptor.": [
+      92,
+      149
+    ],
+    "A": [
+      93
+    ],
+    "single": [
+      94
+    ],
+    "intrahypothalamic": [
+      95
+    ],
+    "application": [
+      96
+    ],
+    "minute": [
+      98
+    ],
+    "amounts": [
+      99
+    ],
+    "an": [
+      103
+    ],
+    "agonist": [
+      104
+    ],
+    "antibody": [
+      106
+    ],
+    "also": [
+      107
+    ],
+    "food": [
+      109
+    ],
+    "intake": [
+      110
+    ],
+    "mice.": [
+      115
+    ],
+    "Taken": [
+      116
+    ],
+    "together": [
+      117
+    ],
+    "genetic": [
+      120
+    ],
+    "evidence,": [
+      121
+    ],
+    "our": [
+      122
+    ],
+    "findings": [
+      123
+    ],
+    "support": [
+      124
+    ],
+    "concept": [
+      126
+    ],
+    "signaling,": [
+      129
+    ],
+    "which": [
+      130
+    ],
+    "originates": [
+      131
+    ],
+    "hypothalamus,": [
+      134
+    ],
+    "directly": [
+      135
+    ],
+    "modulates": [
+      136
+    ],
+    "appetite,": [
+      137
+    ],
+    "metabolism,": [
+      138
+    ],
+    "taste": [
+      140
+    ],
+    "preference": [
+      141
+    ],
+    "downstream": [
+      142
+    ],
+    "melanocortin": [
+      147
+    ],
+    "4": [
+      148
+    ],
+    "The": [
+      150
+    ],
+    "agonists": [
+      152
+    ],
+    "mediate": [
+      153
+    ],
+    "anorexic": [
+      154
+    ],
+    "weight-reducing": [
+      156
+    ],
+    "effects": [
+      157
+    ],
+    "independent": [
+      158
+    ],
+    "stress": [
+      160
+    ],
+    "induction,": [
+      161
+    ],
+    "visceral": [
+      162
+    ],
+    "discomfort,": [
+      163
+    ],
+    "pain": [
+      165
+    ],
+    "sensitization": [
+      166
+    ],
+    "thus": [
+      168
+    ],
+    "emerge": [
+      169
+    ],
+    "as": [
+      170
+    ],
+    "potential": [
+      172
+    ],
+    "therapeutic": [
+      173
+    ],
+    "metabolic": [
+      175
+    ],
+    "disorders.": [
+      176
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W2146226800",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2025-05-23T00:44:04.797210",
+  "created_date": "2016-06-24"
+}

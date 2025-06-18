@@ -1,0 +1,845 @@
+{
+  "id": "https://openalex.org/W1500950005",
+  "doi": null,
+  "title": "Autoimmune polyglandular syndrome, type II.",
+  "display_name": "Autoimmune polyglandular syndrome, type II.",
+  "publication_year": 2007,
+  "publication_date": "2007-03-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1500950005",
+    "mag": "1500950005",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/17375512"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17375512",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306525036",
+      "display_name": "PubMed",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [
+        "National Institutes of Health"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5070260873",
+        "display_name": "Barbara A. Majeroni",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I63190737",
+          "display_name": "University at Buffalo, State University of New York",
+          "ror": "https://ror.org/01y64my43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I63190737"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Barbara A Majeroni",
+      "raw_affiliation_strings": [
+        "Dept. of Family Medicine, State University of New York at Buffalo, Buffalo, New York 14215, USA. BAMajeroni@aol.com"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dept. of Family Medicine, State University of New York at Buffalo, Buffalo, New York 14215, USA. BAMajeroni@aol.com",
+          "institution_ids": [
+            "https://openalex.org/I63190737"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5057858724",
+        "display_name": "Parag Patel",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Parag Patel",
+      "raw_affiliation_strings": [],
+      "affiliations": []
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.628,
+  "has_fulltext": false,
+  "cited_by_count": 66,
+  "citation_normalized_percentile": {
+    "value": 0.923918,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "75",
+    "issue": "5",
+    "first_page": "667",
+    "last_page": "70"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12421",
+    "display_name": "Adrenal Hormones and Disorders",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2712",
+      "display_name": "Endocrinology, Diabetes and Metabolism"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12421",
+      "display_name": "Adrenal Hormones and Disorders",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11171",
+      "display_name": "Diabetes and associated disorders",
+      "score": 0.9918,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1311",
+        "display_name": "Genetics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/13",
+        "display_name": "Biochemistry, Genetics and Molecular Biology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11839",
+      "display_name": "Hormonal Regulation and Hypertension",
+      "score": 0.9908,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2712",
+        "display_name": "Endocrinology, Diabetes and Metabolism"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/addison-disease",
+      "display_name": "Addison Disease",
+      "score": 0.5274342
+    },
+    {
+      "id": "https://openalex.org/keywords/primary-adrenal-insufficiency",
+      "display_name": "Primary Adrenal Insufficiency",
+      "score": 0.4228798
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.9629842
+    },
+    {
+      "id": "https://openalex.org/C2778129406",
+      "wikidata": "https://www.wikidata.org/wiki/Q2507454",
+      "display_name": "Adrenal insufficiency",
+      "level": 2,
+      "score": 0.8683876
+    },
+    {
+      "id": "https://openalex.org/C2781232474",
+      "wikidata": "https://www.wikidata.org/wiki/Q124407",
+      "display_name": "Type 1 diabetes",
+      "level": 3,
+      "score": 0.63468266
+    },
+    {
+      "id": "https://openalex.org/C2909459036",
+      "wikidata": "https://www.wikidata.org/wiki/Q8282",
+      "display_name": "Addison Disease",
+      "level": 4,
+      "score": 0.5274342
+    },
+    {
+      "id": "https://openalex.org/C2779075594",
+      "wikidata": "https://www.wikidata.org/wiki/Q8084905",
+      "display_name": "Autoimmune disease",
+      "level": 3,
+      "score": 0.51609844
+    },
+    {
+      "id": "https://openalex.org/C2779134260",
+      "wikidata": "https://www.wikidata.org/wiki/Q12136",
+      "display_name": "Disease",
+      "level": 2,
+      "score": 0.47064632
+    },
+    {
+      "id": "https://openalex.org/C2911038130",
+      "wikidata": "https://www.wikidata.org/wiki/Q8282",
+      "display_name": "Primary Adrenal Insufficiency",
+      "level": 3,
+      "score": 0.4228798
+    },
+    {
+      "id": "https://openalex.org/C187212893",
+      "wikidata": "https://www.wikidata.org/wiki/Q123028",
+      "display_name": "Pediatrics",
+      "level": 1,
+      "score": 0.41350955
+    },
+    {
+      "id": "https://openalex.org/C526584372",
+      "wikidata": "https://www.wikidata.org/wiki/Q16399",
+      "display_name": "Thyroid",
+      "level": 2,
+      "score": 0.41118822
+    },
+    {
+      "id": "https://openalex.org/C555293320",
+      "wikidata": "https://www.wikidata.org/wiki/Q12206",
+      "display_name": "Diabetes mellitus",
+      "level": 2,
+      "score": 0.3930428
+    },
+    {
+      "id": "https://openalex.org/C16005928",
+      "wikidata": "https://www.wikidata.org/wiki/Q171171",
+      "display_name": "Dermatology",
+      "level": 1,
+      "score": 0.34029034
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.3076312
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.2690819
+    },
+    {
+      "id": "https://openalex.org/C2777817097",
+      "wikidata": "https://www.wikidata.org/wiki/Q8282",
+      "display_name": "Addison's disease",
+      "level": 3,
+      "score": 0.24828172
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000309",
+      "descriptor_name": "Adrenal Insufficiency",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016884",
+      "descriptor_name": "Polyendocrinopathies, Autoimmune",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016884",
+      "descriptor_name": "Polyendocrinopathies, Autoimmune",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000309",
+      "descriptor_name": "Adrenal Insufficiency",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000309",
+      "descriptor_name": "Adrenal Insufficiency",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003366",
+      "descriptor_name": "Cosyntropin",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003366",
+      "descriptor_name": "Cosyntropin",
+      "qualifier_ui": "Q000008",
+      "qualifier_name": "administration & dosage",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006728",
+      "descriptor_name": "Hormones",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006728",
+      "descriptor_name": "Hormones",
+      "qualifier_ui": "Q000008",
+      "qualifier_name": "administration & dosage",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006854",
+      "descriptor_name": "Hydrocortisone",
+      "qualifier_ui": "Q000097",
+      "qualifier_name": "blood",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016884",
+      "descriptor_name": "Polyendocrinopathies, Autoimmune",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016884",
+      "descriptor_name": "Polyendocrinopathies, Autoimmune",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 1,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/17375512",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.89
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 15,
+  "referenced_works": [
+    "https://openalex.org/W124356982",
+    "https://openalex.org/W1979075129",
+    "https://openalex.org/W1996805667",
+    "https://openalex.org/W2033811540",
+    "https://openalex.org/W2035623886",
+    "https://openalex.org/W2049542695",
+    "https://openalex.org/W2058368144",
+    "https://openalex.org/W2078574865",
+    "https://openalex.org/W2084821474",
+    "https://openalex.org/W2093069204",
+    "https://openalex.org/W2125286421",
+    "https://openalex.org/W2131327164",
+    "https://openalex.org/W2152049289",
+    "https://openalex.org/W2165780196",
+    "https://openalex.org/W97849161"
+  ],
+  "related_works": [
+    "https://openalex.org/W97849161",
+    "https://openalex.org/W3193420991",
+    "https://openalex.org/W3043332343",
+    "https://openalex.org/W2995446155",
+    "https://openalex.org/W2948148162",
+    "https://openalex.org/W2789545538",
+    "https://openalex.org/W2410126871",
+    "https://openalex.org/W2135257181",
+    "https://openalex.org/W2003148536",
+    "https://openalex.org/W1500950005"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      22,
+      45,
+      61,
+      75
+    ],
+    "combination": [
+      1
+    ],
+    "of": [
+      2,
+      37,
+      40
+    ],
+    "autoimmune": [
+      3,
+      7,
+      13,
+      17
+    ],
+    "adrenal": [
+      4,
+      41,
+      82,
+      114
+    ],
+    "insufficiency": [
+      5,
+      42,
+      115
+    ],
+    "with": [
+      6
+    ],
+    "thyroid": [
+      8,
+      120
+    ],
+    "disease": [
+      9
+    ],
+    "and/or": [
+      10
+    ],
+    "type": [
+      11,
+      20
+    ],
+    "1": [
+      12
+    ],
+    "diabetes": [
+      14
+    ],
+    "mellitus": [
+      15
+    ],
+    "defines": [
+      16
+    ],
+    "polyglandular": [
+      18
+    ],
+    "syndrome,": [
+      19
+    ],
+    "II.": [
+      21
+    ],
+    "conditions": [
+      23,
+      62,
+      107,
+      126
+    ],
+    "may": [
+      24
+    ],
+    "occur": [
+      25,
+      127
+    ],
+    "in": [
+      26,
+      65
+    ],
+    "any": [
+      27
+    ],
+    "order,": [
+      28
+    ],
+    "and": [
+      29,
+      43,
+      67
+    ],
+    "diagnosis": [
+      30,
+      58
+    ],
+    "is": [
+      31,
+      47,
+      59,
+      78,
+      97,
+      122
+    ],
+    "confounded": [
+      32
+    ],
+    "by": [
+      33
+    ],
+    "the": [
+      34,
+      38,
+      57,
+      106,
+      125
+    ],
+    "nonspecific": [
+      35
+    ],
+    "nature": [
+      36
+    ],
+    "symptoms": [
+      39
+    ],
+    "hypothyroidism.": [
+      44
+    ],
+    "disorder": [
+      46
+    ],
+    "not": [
+      48
+    ],
+    "common,": [
+      49
+    ],
+    "but": [
+      50
+    ],
+    "consequences": [
+      51
+    ],
+    "can": [
+      52
+    ],
+    "be": [
+      53,
+      86,
+      103,
+      117
+    ],
+    "life": [
+      54
+    ],
+    "threatening": [
+      55
+    ],
+    "when": [
+      56,
+      124
+    ],
+    "overlooked.": [
+      60
+    ],
+    "usually": [
+      63
+    ],
+    "present": [
+      64,
+      87
+    ],
+    "midlife,": [
+      66
+    ],
+    "women": [
+      68
+    ],
+    "are": [
+      69
+    ],
+    "affected": [
+      70
+    ],
+    "more": [
+      71
+    ],
+    "often": [
+      72
+    ],
+    "than": [
+      73
+    ],
+    "men.": [
+      74
+    ],
+    "cosyntropin": [
+      76
+    ],
+    "test": [
+      77
+    ],
+    "recommended": [
+      79
+    ],
+    "for": [
+      80,
+      94,
+      113
+    ],
+    "diagnosing": [
+      81
+    ],
+    "insufficiency,": [
+      83
+    ],
+    "which": [
+      84
+    ],
+    "must": [
+      85,
+      116
+    ],
+    "to": [
+      88,
+      99
+    ],
+    "diagnose": [
+      89
+    ],
+    "this": [
+      90
+    ],
+    "syndrome.": [
+      91
+    ],
+    "Hormone": [
+      92
+    ],
+    "therapy": [
+      93,
+      121
+    ],
+    "each": [
+      95
+    ],
+    "condition": [
+      96
+    ],
+    "similar": [
+      98
+    ],
+    "treatment": [
+      100,
+      112
+    ],
+    "that": [
+      101,
+      111
+    ],
+    "would": [
+      102
+    ],
+    "provided": [
+      104
+    ],
+    "if": [
+      105
+    ],
+    "occurred": [
+      108
+    ],
+    "separately,": [
+      109
+    ],
+    "except": [
+      110
+    ],
+    "given": [
+      118
+    ],
+    "before": [
+      119
+    ],
+    "started": [
+      123
+    ],
+    "together.": [
+      128
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1500950005",
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2025-06-18T05:34:08.856541",
+  "created_date": "2016-06-24"
+}

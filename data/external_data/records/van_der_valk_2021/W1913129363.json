@@ -1,0 +1,1252 @@
+{
+  "id": "https://openalex.org/W1913129363",
+  "doi": "https://doi.org/10.1002/ajp.22078",
+  "title": "Validation of a Field Technique and Characterization of Fecal Glucocorticoid Metabolite Analysis in Wild Chimpanzees (<scp>P</scp>an troglodytes)",
+  "display_name": "Validation of a Field Technique and Characterization of Fecal Glucocorticoid Metabolite Analysis in Wild Chimpanzees (<scp>P</scp>an troglodytes)",
+  "publication_year": 2012,
+  "publication_date": "2012-09-11",
+  "ids": {
+    "openalex": "https://openalex.org/W1913129363",
+    "doi": "https://doi.org/10.1002/ajp.22078",
+    "mag": "1913129363",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/22968979",
+    "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/3619224"
+  },
+  "language": "en",
+  "primary_location": {
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1002/ajp.22078",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S194752149",
+      "display_name": "American Journal of Primatology",
+      "issn_l": "0275-2565",
+      "issn": [
+        "0275-2565",
+        "1098-2345"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false
+  },
+  "type": "article",
+  "type_crossref": "journal-article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://europepmc.org/articles/pmc3619224?pdf=render",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5008994277",
+        "display_name": "Carson M. Murray",
+        "orcid": "https://orcid.org/0000-0003-2055-0061"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802180725",
+          "display_name": "Lincoln Park Zoo",
+          "ror": "https://ror.org/00mzrph17",
+          "country_code": "US",
+          "type": "archive",
+          "lineage": [
+            "https://openalex.org/I2802180725"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I193531525",
+          "display_name": "George Washington University",
+          "ror": "https://ror.org/00y4zzh67",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I193531525"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "CARSON M. MURRAY",
+      "raw_affiliation_strings": [
+        "Center for the Advanced Study of Hominid Paleobiology, The George Washington University, Washington, District of Columbia",
+        "Department of Conservation and Science, Lincoln Park Zoo, Chicago, Illinois"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Conservation and Science, Lincoln Park Zoo, Chicago, Illinois",
+          "institution_ids": [
+            "https://openalex.org/I2802180725"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for the Advanced Study of Hominid Paleobiology, The George Washington University, Washington, District of Columbia",
+          "institution_ids": [
+            "https://openalex.org/I193531525"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071142343",
+        "display_name": "Matthew R. Heintz",
+        "orcid": "https://orcid.org/0000-0001-7286-4594"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I40347166",
+          "display_name": "University of Chicago",
+          "ror": "https://ror.org/024mw5h28",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40347166"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "MATTHEW R. HEINTZ",
+      "raw_affiliation_strings": [
+        "Committee on Evolutionary Biology, University of Chicago, Chicago, Illinois"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Committee on Evolutionary Biology, University of Chicago, Chicago, Illinois",
+          "institution_ids": [
+            "https://openalex.org/I40347166"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5020429686",
+        "display_name": "Elizabeth V. Lonsdorf",
+        "orcid": "https://orcid.org/0000-0001-8057-401X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802180725",
+          "display_name": "Lincoln Park Zoo",
+          "ror": "https://ror.org/00mzrph17",
+          "country_code": "US",
+          "type": "archive",
+          "lineage": [
+            "https://openalex.org/I2802180725"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I40347166",
+          "display_name": "University of Chicago",
+          "ror": "https://ror.org/024mw5h28",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40347166"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "ELIZABETH V. LONSDORF",
+      "raw_affiliation_strings": [
+        "Committee on Evolutionary Biology, University of Chicago, Chicago, Illinois",
+        "Department of Conservation and Science, Lincoln Park Zoo, Chicago, Illinois"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Conservation and Science, Lincoln Park Zoo, Chicago, Illinois",
+          "institution_ids": [
+            "https://openalex.org/I2802180725"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Committee on Evolutionary Biology, University of Chicago, Chicago, Illinois",
+          "institution_ids": [
+            "https://openalex.org/I40347166"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5032038953",
+        "display_name": "Lisa A. Parr",
+        "orcid": "https://orcid.org/0000-0003-2797-8837"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "LISA A. PARR",
+      "raw_affiliation_strings": [
+        "Division of Psychiatry and Behavioral Sciences, Yerkes National Primate Research Center, Emory University, Atlanta, Georgia"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Division of Psychiatry and Behavioral Sciences, Yerkes National Primate Research Center, Emory University, Atlanta, Georgia",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5047013418",
+        "display_name": "Rachel M. Santymire",
+        "orcid": "https://orcid.org/0000-0003-4102-9144"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I40347166",
+          "display_name": "University of Chicago",
+          "ror": "https://ror.org/024mw5h28",
+          "country_code": "US",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I40347166"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802180725",
+          "display_name": "Lincoln Park Zoo",
+          "ror": "https://ror.org/00mzrph17",
+          "country_code": "US",
+          "type": "archive",
+          "lineage": [
+            "https://openalex.org/I2802180725"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "RACHEL M. SANTYMIRE",
+      "raw_affiliation_strings": [
+        "Committee on Evolutionary Biology, University of Chicago, Chicago, Illinois",
+        "Department of Conservation and Science, Lincoln Park Zoo, Chicago, Illinois"
+      ],
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Committee on Evolutionary Biology, University of Chicago, Chicago, Illinois",
+          "institution_ids": [
+            "https://openalex.org/I40347166"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Conservation and Science, Lincoln Park Zoo, Chicago, Illinois",
+          "institution_ids": [
+            "https://openalex.org/I2802180725"
+          ]
+        }
+      ]
+    }
+  ],
+  "institution_assertions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5008994277"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I2802180725",
+    "https://openalex.org/I193531525"
+  ],
+  "apc_list": {
+    "value": 4330,
+    "currency": "USD",
+    "value_usd": 4330
+  },
+  "apc_paid": null,
+  "fwci": 3.753,
+  "has_fulltext": true,
+  "fulltext_origin": "ngrams",
+  "cited_by_count": 44,
+  "citation_normalized_percentile": {
+    "value": 0.905635,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 95
+  },
+  "biblio": {
+    "volume": "75",
+    "issue": "1",
+    "first_page": "57",
+    "last_page": "64"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10838",
+    "display_name": "Animal Behavior and Welfare Studies",
+    "score": 0.9994,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3404",
+      "display_name": "Small Animals"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/34",
+      "display_name": "Veterinary"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10838",
+      "display_name": "Animal Behavior and Welfare Studies",
+      "score": 0.9994,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3404",
+        "display_name": "Small Animals"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/34",
+        "display_name": "Veterinary"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10699",
+      "display_name": "Primate Behavior and Ecology",
+      "score": 0.9993,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10529",
+      "display_name": "Stress Responses and Cortisol",
+      "score": 0.9925,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2802",
+        "display_name": "Behavioral Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/troglodytes",
+      "display_name": "Troglodytes",
+      "score": 0.8787604
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777895762",
+      "wikidata": "https://www.wikidata.org/wiki/Q3888717",
+      "display_name": "Troglodytes",
+      "level": 2,
+      "score": 0.8787604
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.6991431
+    },
+    {
+      "id": "https://openalex.org/C2780841215",
+      "wikidata": "https://www.wikidata.org/wiki/Q422549",
+      "display_name": "Glucocorticoid",
+      "level": 2,
+      "score": 0.64856523
+    },
+    {
+      "id": "https://openalex.org/C61716771",
+      "wikidata": "https://www.wikidata.org/wiki/Q496",
+      "display_name": "Feces",
+      "level": 2,
+      "score": 0.62779725
+    },
+    {
+      "id": "https://openalex.org/C2780509455",
+      "wikidata": "https://www.wikidata.org/wiki/Q7380",
+      "display_name": "Primate",
+      "level": 2,
+      "score": 0.5535074
+    },
+    {
+      "id": "https://openalex.org/C90856448",
+      "wikidata": "https://www.wikidata.org/wiki/Q431",
+      "display_name": "Zoology",
+      "level": 1,
+      "score": 0.4702479
+    },
+    {
+      "id": "https://openalex.org/C2777477808",
+      "wikidata": "https://www.wikidata.org/wiki/Q407595",
+      "display_name": "Metabolite",
+      "level": 2,
+      "score": 0.4469586
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.34821385
+    },
+    {
+      "id": "https://openalex.org/C134018914",
+      "wikidata": "https://www.wikidata.org/wiki/Q162606",
+      "display_name": "Endocrinology",
+      "level": 1,
+      "score": 0.15075675
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D005243",
+      "descriptor_name": "Feces",
+      "qualifier_ui": "Q000737",
+      "qualifier_name": "chemistry",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005938",
+      "descriptor_name": "Glucocorticoids",
+      "qualifier_ui": "Q000378",
+      "qualifier_name": "metabolism",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002679",
+      "descriptor_name": "Pan troglodytes",
+      "qualifier_ui": "Q000502",
+      "qualifier_name": "physiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000324",
+      "descriptor_name": "Adrenocorticotropic Hormone",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002940",
+      "descriptor_name": "Circadian Rhythm",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007124",
+      "descriptor_name": "Immunoenzyme Techniques",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007273",
+      "descriptor_name": "Injections, Intramuscular",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D036801",
+      "descriptor_name": "Parturition",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013312",
+      "descriptor_name": "Stress, Physiological",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013636",
+      "descriptor_name": "Tanzania",
+      "qualifier_ui": "",
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1002/ajp.22078",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S194752149",
+        "display_name": "American Journal of Primatology",
+        "issn_l": "0275-2565",
+        "issn": [
+          "0275-2565",
+          "1098-2345"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://europepmc.org/articles/pmc3619224",
+      "pdf_url": "https://europepmc.org/articles/pmc3619224?pdf=render",
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [
+          "European Bioinformatics Institute"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3619224",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false
+    },
+    {
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/22968979",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_indexed_in_scopus": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [
+          "National Institutes of Health"
+        ],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false
+    }
+  ],
+  "best_oa_location": {
+    "is_oa": true,
+    "landing_page_url": "https://europepmc.org/articles/pmc3619224",
+    "pdf_url": "https://europepmc.org/articles/pmc3619224?pdf=render",
+    "source": {
+      "id": "https://openalex.org/S4306400806",
+      "display_name": "Europe PMC (PubMed Central)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_indexed_in_scopus": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I1303153112",
+      "host_organization_name": "European Bioinformatics Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/I1303153112"
+      ],
+      "host_organization_lineage_names": [
+        "European Bioinformatics Institute"
+      ],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life on land",
+      "id": "https://metadata.un.org/sdg/15",
+      "score": 0.56
+    }
+  ],
+  "grants": [],
+  "datasets": [],
+  "versions": [],
+  "referenced_works_count": 66,
+  "referenced_works": [
+    "https://openalex.org/W1966385493",
+    "https://openalex.org/W1969850398",
+    "https://openalex.org/W1979134302",
+    "https://openalex.org/W1984523811",
+    "https://openalex.org/W1985656520",
+    "https://openalex.org/W1992127518",
+    "https://openalex.org/W1994166672",
+    "https://openalex.org/W1996719054",
+    "https://openalex.org/W1997289239",
+    "https://openalex.org/W2002030257",
+    "https://openalex.org/W2003691772",
+    "https://openalex.org/W2003837973",
+    "https://openalex.org/W2004770570",
+    "https://openalex.org/W2005837445",
+    "https://openalex.org/W2007981701",
+    "https://openalex.org/W2009403649",
+    "https://openalex.org/W2011568253",
+    "https://openalex.org/W2022909316",
+    "https://openalex.org/W2023038173",
+    "https://openalex.org/W2041825544",
+    "https://openalex.org/W2044846976",
+    "https://openalex.org/W2046011522",
+    "https://openalex.org/W2050320337",
+    "https://openalex.org/W2051245331",
+    "https://openalex.org/W2052949642",
+    "https://openalex.org/W2060981000",
+    "https://openalex.org/W2061878840",
+    "https://openalex.org/W2062842082",
+    "https://openalex.org/W2064372150",
+    "https://openalex.org/W2066698714",
+    "https://openalex.org/W2072631898",
+    "https://openalex.org/W2073524447",
+    "https://openalex.org/W2074306234",
+    "https://openalex.org/W2077529396",
+    "https://openalex.org/W2084218815",
+    "https://openalex.org/W2089128640",
+    "https://openalex.org/W2091335120",
+    "https://openalex.org/W2091531784",
+    "https://openalex.org/W2095440451",
+    "https://openalex.org/W2095706232",
+    "https://openalex.org/W2096789505",
+    "https://openalex.org/W2101853782",
+    "https://openalex.org/W2106293647",
+    "https://openalex.org/W2107152976",
+    "https://openalex.org/W2107228136",
+    "https://openalex.org/W2108542703",
+    "https://openalex.org/W2109759307",
+    "https://openalex.org/W2117837755",
+    "https://openalex.org/W2124507072",
+    "https://openalex.org/W2126614166",
+    "https://openalex.org/W2134154727",
+    "https://openalex.org/W2137315516",
+    "https://openalex.org/W2141153786",
+    "https://openalex.org/W2142560611",
+    "https://openalex.org/W2149907694",
+    "https://openalex.org/W2153083965",
+    "https://openalex.org/W2155022127",
+    "https://openalex.org/W2158620158",
+    "https://openalex.org/W2159353710",
+    "https://openalex.org/W2165622502",
+    "https://openalex.org/W2505319938",
+    "https://openalex.org/W3036791163",
+    "https://openalex.org/W4232380145",
+    "https://openalex.org/W4238589818",
+    "https://openalex.org/W4249582601",
+    "https://openalex.org/W607106478"
+  ],
+  "related_works": [
+    "https://openalex.org/W4285140885",
+    "https://openalex.org/W416564965",
+    "https://openalex.org/W4061167",
+    "https://openalex.org/W3131673656",
+    "https://openalex.org/W3045325638",
+    "https://openalex.org/W2323412774",
+    "https://openalex.org/W2179858124",
+    "https://openalex.org/W2053719483",
+    "https://openalex.org/W2043918685",
+    "https://openalex.org/W1594244258"
+  ],
+  "abstract_inverted_index": {
+    "Monitoring": [
+      0
+    ],
+    "adrenocortical": [
+      1
+    ],
+    "activity": [
+      2
+    ],
+    "in": [
+      3,
+      57,
+      102,
+      112,
+      128
+    ],
+    "wild": [
+      4,
+      58,
+      114
+    ],
+    "primate": [
+      5,
+      20
+    ],
+    "populations": [
+      6
+    ],
+    "is": [
+      7,
+      32
+    ],
+    "critical,": [
+      8
+    ],
+    "given": [
+      9
+    ],
+    "the": [
+      10,
+      70,
+      125,
+      143
+    ],
+    "well‐documented": [
+      11
+    ],
+    "relationship": [
+      12
+    ],
+    "between": [
+      13
+    ],
+    "stress,": [
+      14
+    ],
+    "health,": [
+      15
+    ],
+    "and": [
+      16,
+      45,
+      52,
+      106
+    ],
+    "reproduction.": [
+      17
+    ],
+    "Although": [
+      18
+    ],
+    "many": [
+      19,
+      68
+    ],
+    "studies": [
+      21,
+      76
+    ],
+    "have": [
+      22
+    ],
+    "quantified": [
+      23
+    ],
+    "fecal": [
+      24
+    ],
+    "glucocorticoid": [
+      25
+    ],
+    "metabolite": [
+      26
+    ],
+    "(": [
+      27,
+      60
+    ],
+    "FGM": [
+      28,
+      55,
+      108,
+      122
+    ],
+    ")": [
+      29
+    ],
+    "concentrations,": [
+      30
+    ],
+    "it": [
+      31
+    ],
+    "imperative": [
+      33
+    ],
+    "that": [
+      34,
+      90
+    ],
+    "researchers": [
+      35,
+      136
+    ],
+    "validate": [
+      36,
+      46,
+      89
+    ],
+    "their": [
+      37
+    ],
+    "method": [
+      38,
+      66,
+      92
+    ],
+    "for": [
+      39,
+      49,
+      121,
+      124
+    ],
+    "each": [
+      40
+    ],
+    "species.": [
+      41,
+      130
+    ],
+    "Here,": [
+      42
+    ],
+    "we": [
+      43,
+      117
+    ],
+    "describe": [
+      44
+    ],
+    "a": [
+      47,
+      82,
+      103,
+      113
+    ],
+    "technique": [
+      48
+    ],
+    "field": [
+      50,
+      75
+    ],
+    "extraction": [
+      51
+    ],
+    "storage": [
+      53
+    ],
+    "of": [
+      54,
+      69
+    ],
+    "s": [
+      56,
+      123
+    ],
+    "chimpanzees": [
+      59
+    ],
+    "P": [
+      61
+    ],
+    "an": [
+      62,
+      98,
+      107
+    ],
+    "troglodytes": [
+      63
+    ],
+    ").": [
+      64
+    ],
+    "Our": [
+      65
+    ],
+    "circumvents": [
+      67
+    ],
+    "logistical": [
+      71
+    ],
+    "challenges": [
+      72
+    ],
+    "associated": [
+      73
+    ],
+    "with": [
+      74,
+      142
+    ],
+    "while": [
+      77
+    ],
+    "yielding": [
+      78
+    ],
+    "similar": [
+      79
+    ],
+    "results": [
+      80
+    ],
+    "to": [
+      81,
+      137
+    ],
+    "commonly": [
+      83
+    ],
+    "used": [
+      84
+    ],
+    "laboratory": [
+      85
+    ],
+    "method.": [
+      86
+    ],
+    "We": [
+      87
+    ],
+    "further": [
+      88
+    ],
+    "our": [
+      91
+    ],
+    "accurately": [
+      93
+    ],
+    "reflects": [
+      94
+    ],
+    "stress": [
+      95,
+      144
+    ],
+    "physiology": [
+      96
+    ],
+    "using": [
+      97
+    ],
+    "adrenocorticotropic": [
+      99
+    ],
+    "hormone": [
+      100
+    ],
+    "challenge": [
+      101
+    ],
+    "captive": [
+      104
+    ],
+    "chimpanzee": [
+      105
+    ],
+    "peak": [
+      109
+    ],
+    "at": [
+      110
+    ],
+    "parturition": [
+      111
+    ],
+    "subject.": [
+      115
+    ],
+    "Finally,": [
+      116
+    ],
+    "quantify": [
+      118
+    ],
+    "circadian": [
+      119
+    ],
+    "patterns": [
+      120,
+      133
+    ],
+    "first": [
+      126
+    ],
+    "time": [
+      127
+    ],
+    "this": [
+      129
+    ],
+    "Understanding": [
+      131
+    ],
+    "these": [
+      132
+    ],
+    "may": [
+      134
+    ],
+    "allow": [
+      135
+    ],
+    "directly": [
+      138
+    ],
+    "link": [
+      139
+    ],
+    "specific": [
+      140
+    ],
+    "events": [
+      141
+    ],
+    "response.": [
+      145
+    ],
+    "Am.": [
+      146
+    ],
+    "J.": [
+      147
+    ],
+    "Primatol.": [
+      148
+    ],
+    "75:57‐64,": [
+      149
+    ],
+    "2013.": [
+      150
+    ],
+    "©": [
+      151
+    ],
+    "2012": [
+      152
+    ],
+    "Wiley": [
+      153
+    ],
+    "Periodicals,": [
+      154
+    ],
+    "Inc.": [
+      155
+    ]
+  },
+  "abstract_inverted_index_v3": null,
+  "cited_by_api_url": "https://api.openalex.org/works?filter=cites:W1913129363",
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2025-05-20T22:53:13.281530",
+  "created_date": "2016-06-24"
+}
