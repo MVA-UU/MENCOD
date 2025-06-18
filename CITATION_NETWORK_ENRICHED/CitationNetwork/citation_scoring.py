@@ -15,101 +15,73 @@ def calculate_isolation_deviation(features: pd.Series, baseline: Dict[str, float
                                  G: nx.Graph, relevant_documents: Set[str]) -> float:
     """Calculate relevance score based on connection strength to relevant documents.
     
-    For academic outlier detection, we want to REWARD documents that are:
-    - Close to relevant documents (especially via semantic similarity)
-    - Have strong network centrality within relevant communities
-    - Show unusual citation patterns (even if sparse)
-    
-    This approach handles incomplete citation networks by emphasizing relative patterns.
+    OPTIMIZED VERSION: Uses cached operations and approximations to avoid expensive graph computations.
     """
     doc_id = features['openalex_id']
     
-    # 1. Multi-path distance analysis (considers all edge types)
-    dist_scores = []
-    semantic_paths = 0
-    citation_paths = 0
+    # ⚡ OPTIMIZATION: Use pre-computed neighborhood instead of expensive shortest paths
+    if doc_id not in G.nodes:
+        return 0.0
     
-    for rel_doc in relevant_documents:
-        if rel_doc in G.nodes:
-            try:
-                # Find shortest path and analyze edge types
-                path = nx.shortest_path(G, doc_id, rel_doc)
-                path_length = len(path) - 1
-                
-                # Analyze path composition
-                for i in range(len(path) - 1):
-                    edge_data = G.get_edge_data(path[i], path[i+1])
-                    if edge_data:
-                        edge_type = edge_data.get('edge_type', 'unknown')
-                        if edge_type == 'semantic':
-                            semantic_paths += 1
-                        elif edge_type == 'citation':
-                            citation_paths += 1
-                
-                # Score based on path length and type
-                if path_length == 0:
-                    dist_scores.append(1.0)  # Same document
-                elif path_length == 1:
-                    dist_scores.append(1.0)
-                elif path_length == 2:
-                    dist_scores.append(0.85)
-                elif path_length == 3:
-                    dist_scores.append(0.65)
-                else:
-                    dist_scores.append(max(0.2, 1.0 / path_length))
-                    
-            except nx.NetworkXNoPath:
-                continue
+    doc_neighbors = set(G.neighbors(doc_id))
     
-    # Best distance score (closest relevant document)
-    dist_score = max(dist_scores) if dist_scores else 0.0
+    # 1. Fast distance analysis using neighborhood intersection
+    direct_relevant = doc_neighbors.intersection(relevant_documents)
+    two_hop_relevant = set()
     
-    # 2. Enhanced citation analysis with relative metrics
+    # ⚡ OPTIMIZATION: Limit 2-hop search to avoid expensive operations
+    if not direct_relevant and len(doc_neighbors) < 500:  # Only if manageable neighborhood
+        for neighbor in list(doc_neighbors)[:100]:  # Limit to first 100 neighbors
+            if neighbor in G.nodes:
+                neighbor_neighbors = set(G.neighbors(neighbor))
+                two_hop_relevant.update(neighbor_neighbors.intersection(relevant_documents))
+    
+    # Score based on distance (much faster than shortest_path)
+    if direct_relevant:
+        dist_score = 1.0  # Direct connection to relevant docs
+    elif two_hop_relevant:
+        dist_score = 0.7  # 2-hop connection
+    else:
+        dist_score = 0.2  # No close connections
+    
+    # 2. Enhanced citation analysis (unchanged - already fast)
     cit_count = features.get('citation_in_degree', 0)
-    total_citations = features.get('total_citations', 0)
-    
-    # Calculate citation percentile within dataset (more robust than absolute counts)
     baseline_cit_std = baseline.get('std_citation_in_degree', 1.0)
     baseline_cit_mean = baseline.get('mean_citation_in_degree', 1.0)
     
-    # Z-score based citation assessment (handles sparse data better)
     if baseline_cit_std > 0:
         cit_zscore = (cit_count - baseline_cit_mean) / baseline_cit_std
-        # Convert z-score to probability-like score
         cit_score = max(0.1, min(1.0, 0.5 + cit_zscore * 0.15))
     else:
         cit_score = 0.5 if cit_count > 0 else 0.1
     
-    # 3. Network centrality within relevant community
-    try:
-        # Create subgraph of document + relevant documents + 1-hop neighbors
-        subgraph_nodes = {doc_id} | relevant_documents
-        for node in list(subgraph_nodes):
-            if node in G.nodes:
-                subgraph_nodes.update(G.neighbors(node))
+    # 3. ⚡ SIMPLIFIED centrality: Use degree as proxy to avoid expensive subgraph operations
+    doc_degree = len(doc_neighbors)
+    
+    # Calculate centrality relative to relevant document degrees
+    relevant_degrees = []
+    for rel_doc in relevant_documents:
+        if rel_doc in G.nodes:
+            relevant_degrees.append(G.degree(rel_doc))
+    
+    if relevant_degrees:
+        max_relevant_degree = max(relevant_degrees)
+        avg_relevant_degree = np.mean(relevant_degrees)
         
-        subgraph = G.subgraph(subgraph_nodes)
-        
-        if len(subgraph.nodes) > 3:  # Need minimum nodes for centrality
-            # Weighted degree centrality (considers edge weights)
-            centrality = sum(data.get('weight', 1.0) for _, _, data in subgraph.edges(doc_id, data=True))
-            max_centrality = max([
-                sum(data.get('weight', 1.0) for _, _, data in subgraph.edges(node, data=True))
-                for node in subgraph.nodes
-            ]) if subgraph.edges else 1.0
-            
-            centrality_score = centrality / max_centrality if max_centrality > 0 else 0.0
+        if max_relevant_degree > 0:
+            centrality_score = min(1.0, doc_degree / max_relevant_degree)
         else:
             centrality_score = 0.3
-    except:
+    else:
         centrality_score = 0.3
     
-    # 4. Semantic connectivity to relevant documents (exploit your 122k semantic edges)
+    # 4. ⚡ OPTIMIZED semantic connectivity using direct edge checks
     semantic_connections = 0
     semantic_weights = []
     
-    for rel_doc in relevant_documents:
-        if rel_doc in G.nodes and G.has_edge(doc_id, rel_doc):
+    # Only check direct neighbors that are relevant (much faster)
+    for rel_doc in direct_relevant:
+        if G.has_edge(doc_id, rel_doc):
             edge_data = G.get_edge_data(doc_id, rel_doc)
             if edge_data and edge_data.get('edge_type') == 'semantic':
                 semantic_connections += 1
@@ -124,11 +96,10 @@ def calculate_isolation_deviation(features: pd.Series, baseline: Dict[str, float
     else:
         semantic_score = 0.2
     
-    # 5. Coupling-based community detection
-    coupling_strength = features.get('max_coupling_strength', 0)
+    # 5. ⚡ FAST coupling using pre-computed features
+    coupling_strength = features.get('coupling_score', 0)
     rel_coupling = features.get('relevant_connections', 0)
     
-    # Enhanced coupling score that considers bibliographic overlap patterns
     if coupling_strength >= 0.15:
         coupling_score = 1.0
     elif coupling_strength >= 0.08:
@@ -140,17 +111,14 @@ def calculate_isolation_deviation(features: pd.Series, baseline: Dict[str, float
     else:
         coupling_score = 0.1
     
-    # 6. Adaptive weighting based on network characteristics
-    total_edges = G.number_of_edges()
-    semantic_edge_ratio = semantic_paths / max(1, semantic_paths + citation_paths)
-    
-    # For datasets with high semantic connectivity, emphasize semantic features
-    if semantic_edge_ratio > 0.8:  # Semantic-dominant network
-        weights = [0.2, 0.15, 0.25, 0.35, 0.05]  # Emphasize semantic and centrality
-    elif citation_paths > 10:  # Citation-rich network
-        weights = [0.3, 0.25, 0.2, 0.15, 0.1]   # More traditional citation emphasis
-    else:  # Sparse citation network (your case)
-        weights = [0.25, 0.2, 0.2, 0.25, 0.1]   # Balanced approach
+    # 6. ⚡ SIMPLIFIED adaptive weighting (avoid expensive edge counting)
+    # Use degree-based heuristics instead of expensive edge type analysis
+    if semantic_connections > 0:  # Has semantic connections
+        weights = [0.2, 0.15, 0.25, 0.35, 0.05]  # Emphasize semantic
+    elif rel_coupling > 2:  # Has multiple relevant connections
+        weights = [0.3, 0.25, 0.2, 0.15, 0.1]   # Citation emphasis
+    else:  # Sparse network
+        weights = [0.25, 0.2, 0.2, 0.25, 0.1]   # Balanced
     
     # [distance, citation, centrality, semantic, coupling]
     relevance_score = (

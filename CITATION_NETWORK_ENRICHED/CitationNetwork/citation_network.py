@@ -223,14 +223,14 @@ def _calculate_scores_batch(args):
 class CitationNetworkModel:
     """Citation-based feature extractor for outlier detection."""
     
-    def __init__(self, dataset_name: Optional[str] = None, n_cores: Optional[int] = None, use_gpu: bool = False):
+    def __init__(self, dataset_name: Optional[str] = None, n_cores: Optional[int] = None, use_gpu: bool = True):
         """
         Initialize the Citation Network model.
         
         Args:
             dataset_name: Optional name of dataset to use. If None, will prompt user.
             n_cores: Number of CPU cores to use for parallel processing. If None, will use all available cores.
-            use_gpu: Whether to enable GPU acceleration with nx-cugraph backend. Default False due to CUDA issues.
+            use_gpu: Whether to enable GPU acceleration with nx-cugraph backend. Default True.
         """
         # If dataset_name is not provided, prompt user to select one
         if dataset_name is None:
@@ -576,17 +576,42 @@ class CitationNetworkModel:
             end_idx = min(start_idx + batch_size, len(features_df))
             batch_features = features_df.iloc[start_idx:end_idx]
             
+            batch_start_time = time.time()
+            batch_processed = 0
+            
             for _, row in batch_features.iterrows():
                 doc_id = row['openalex_id']
                 feature_cache[doc_id] = row.to_dict()
                 
+                # ⚡ Time individual scoring components to identify bottlenecks
+                scoring_start = time.time()
+                
                 # Calculate component scores (these may use GPU-accelerated graph algorithms)
+                t1 = time.time()
                 iso_score = calculate_isolation_deviation(row, self.baseline_stats, self.G, self.relevant_documents)
+                iso_time = time.time() - t1
+                
+                t2 = time.time()
                 coup_score = calculate_coupling_deviation(row, self.baseline_stats)
+                coup_time = time.time() - t2
+                
+                t3 = time.time()
                 neigh_score = calculate_neighborhood_deviation(row, self.baseline_stats)
+                neigh_time = time.time() - t3
+                
+                t4 = time.time()
                 adv_score = calculate_advanced_score(row, relevant_ratio)
+                adv_time = time.time() - t4
+                
+                t5 = time.time()
                 temp_score = calculate_temporal_score(row, self.baseline_stats)
+                temp_time = time.time() - t5
+                
+                t6 = time.time()
                 eff_score = calculate_efficiency_score(row, self.baseline_stats)
+                eff_time = time.time() - t6
+                
+                total_scoring_time = time.time() - scoring_start
                 
                 # Apply scaling factors
                 coup_score = min(1.0, coup_score * coupling_scaling)
@@ -616,11 +641,27 @@ class CitationNetworkModel:
                     weights['temporal'] * temp_score +
                     weights['efficiency'] * eff_score
                 )
+                
+                batch_processed += 1
+                
+                # Report slow scoring operations
+                if total_scoring_time > 1.0:  # More than 1 second per document
+                    print(f"         ⚠️  Slow scoring for doc {batch_processed}: {total_scoring_time:.2f}s total")
+                    print(f"             Component times: iso={iso_time:.2f}s, coup={coup_time:.2f}s, neigh={neigh_time:.2f}s")
+                    print(f"                             adv={adv_time:.2f}s, temp={temp_time:.2f}s, eff={eff_time:.2f}s")
+                
+                # Progress within batch for large batches
+                if len(batch_features) > 50 and batch_processed % 25 == 0:
+                    elapsed = time.time() - batch_start_time
+                    docs_per_sec = batch_processed / max(elapsed, 0.1)
+                    print(f"         📊 Batch {batch_idx+1}: {batch_processed}/{len(batch_features)} docs scored ({docs_per_sec:.1f} docs/sec)")
             
             # Progress reporting
             if num_batches > 1:
+                batch_time = time.time() - batch_start_time
+                docs_per_sec = len(batch_features) / max(batch_time, 0.1)
                 progress = ((batch_idx + 1) / num_batches) * 100
-                print(f"      ✅ Scoring batch {batch_idx + 1}/{num_batches} completed ({progress:.1f}%)")
+                print(f"      ✅ Scoring batch {batch_idx + 1}/{num_batches} completed ({progress:.1f}%) - {docs_per_sec:.1f} docs/sec")
         
         # Normalize and post-process scores
         scores = self._normalize_scores(raw_scores, all_scores, feature_cache, sparsity_factor)
