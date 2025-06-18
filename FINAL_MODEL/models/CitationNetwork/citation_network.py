@@ -122,8 +122,17 @@ class CitationNetworkModel:
             return None, None
         
         project_root = self._get_project_root()
-        embeddings_path = os.path.join(project_root, 'data', 'embeddings', f'{dataset_name}.npy')
-        metadata_path = os.path.join(project_root, 'data', 'embeddings', f'{dataset_name}_metadata.json')
+        
+        # Get embeddings filename from dataset config
+        if hasattr(self, 'dataset_config'):
+            embeddings_filename = self.dataset_config.get('embeddings_filename', f'{dataset_name}.npy')
+            metadata_filename = self.dataset_config.get('embeddings_metadata_filename', f'{dataset_name}_metadata.json')
+        else:
+            embeddings_filename = f'{dataset_name}.npy'
+            metadata_filename = f'{dataset_name}_metadata.json'
+        
+        embeddings_path = os.path.join(project_root, 'data', 'embeddings', embeddings_filename)
+        metadata_path = os.path.join(project_root, 'data', 'embeddings', metadata_filename)
         
         if not os.path.exists(embeddings_path) or not os.path.exists(metadata_path):
             logger.warning(f"Embeddings not found for {dataset_name}, semantic features disabled")
@@ -132,7 +141,26 @@ class CitationNetworkModel:
         try:
             embeddings = np.load(embeddings_path)
             with open(metadata_path, 'r') as f:
-                metadata = json.load(f)
+                metadata_raw = json.load(f)
+            
+            # Transform metadata to have the expected structure
+            if 'documents' in metadata_raw:
+                # Extract openalex_ids from documents array
+                openalex_ids = []
+                for doc in metadata_raw['documents']:
+                    openalex_id = doc.get('openalex_id', '')
+                    # Remove the OpenAlex URL prefix if present
+                    if openalex_id.startswith('https://openalex.org/'):
+                        openalex_id = openalex_id.replace('https://openalex.org/', '')
+                    openalex_ids.append(openalex_id)
+                
+                metadata = {
+                    'openalex_id': openalex_ids,
+                    'num_documents': metadata_raw.get('num_documents', len(openalex_ids)),
+                    'embedding_dim': metadata_raw.get('embedding_dim', embeddings.shape[1] if embeddings.ndim > 1 else 0)
+                }
+            else:
+                metadata = metadata_raw
             
             logger.info(f"Loaded embeddings: {embeddings.shape}")
             return embeddings, metadata
