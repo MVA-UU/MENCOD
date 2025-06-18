@@ -68,7 +68,8 @@ class HybridOutlierDetector:
                  dataset_name: Optional[str] = None,
                  model_config: Optional[ModelConfiguration] = None,
                  model_weights: Optional[ModelWeights] = None,
-                 use_adaptive_weights: bool = True):
+                 use_adaptive_weights: bool = True,
+                 baseline_sample_size: Optional[int] = None):
         """
         Initialize the hybrid outlier detection system.
         
@@ -77,6 +78,7 @@ class HybridOutlierDetector:
             model_config: Configuration for individual models
             model_weights: Weights for combining models
             use_adaptive_weights: Whether to use adaptive weighting
+            baseline_sample_size: Optional sample size for citation network baseline (None = use all)
         """
         self.dataset_name = dataset_name
         self.model_config = model_config or ModelConfiguration()
@@ -92,7 +94,8 @@ class HybridOutlierDetector:
             self.citation_model = CitationNetworkModel(
                 dataset_name=dataset_name,
                 enable_gpu=self.model_config.enable_gpu_acceleration,
-                enable_semantic=self.model_config.enable_semantic_embeddings
+                enable_semantic=self.model_config.enable_semantic_embeddings,
+                baseline_sample_size=baseline_sample_size
             )
         
         if self.model_config.enable_confidence_calibration:

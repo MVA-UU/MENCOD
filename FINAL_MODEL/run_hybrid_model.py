@@ -72,6 +72,7 @@ Examples:
     
     # Sample size for demo/analysis
     parser.add_argument('--sample-size', type=int, default=50, help='Sample size for demo/analysis (default: 50)')
+    parser.add_argument('--baseline-sample-size', type=int, help='Sample size for citation network baseline calculation (default: use all)')
     
     return parser
 
@@ -103,6 +104,59 @@ def create_model_config(args) -> ModelConfiguration:
         enable_gpu_acceleration=not args.disable_gpu,
         enable_semantic_embeddings=not args.disable_semantic
     )
+
+
+def _evaluate_outlier_ranking(scores: Dict[str, float], dataset_name: str, datasets_config: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """
+    Evaluate how well known outliers are ranked by the model.
+    
+    Args:
+        scores: Dictionary of document_id -> relevance_score
+        dataset_name: Name of the dataset
+        datasets_config: Dataset configuration containing outlier information
+    
+    Returns:
+        List of ranking results for each known outlier
+    """
+    if dataset_name not in datasets_config:
+        return []
+    
+    # Get known outlier record IDs
+    outlier_record_ids = datasets_config[dataset_name].get('outlier_ids', [])
+    
+    # Load simulation data to map record_id to openalex_id
+    simulation_df = load_simulation_data(dataset_name)
+    record_to_openalex = dict(zip(simulation_df['record_id'], simulation_df['openalex_id']))
+    
+    # Convert record IDs to OpenAlex IDs
+    outlier_openalex_ids = []
+    for record_id in outlier_record_ids:
+        if record_id in record_to_openalex:
+            outlier_openalex_ids.append(record_to_openalex[record_id])
+    
+    # Sort all documents by score (highest first)
+    sorted_docs = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+    
+    # Create ranking lookup
+    doc_to_rank = {doc_id: rank + 1 for rank, (doc_id, _) in enumerate(sorted_docs)}
+    
+    results = []
+    for outlier_id in outlier_openalex_ids:
+        if outlier_id in scores:
+            rank = doc_to_rank[outlier_id]
+            score = scores[outlier_id]
+            total_docs = len(scores)
+            percentile = ((total_docs - rank + 1) / total_docs) * 100
+            
+            results.append({
+                'outlier_id': outlier_id,
+                'rank': rank,
+                'score': score,
+                'total_documents': total_docs,
+                'percentile': percentile
+            })
+    
+    return results
 
 
 def create_model_weights(args) -> Optional[ModelWeights]:
@@ -139,7 +193,8 @@ def run_demo_mode(dataset_name: str, args) -> Dict[str, Any]:
         dataset_name=dataset_name,
         model_config=model_config,
         model_weights=model_weights,
-        use_adaptive_weights=not args.disable_adaptive
+        use_adaptive_weights=not args.disable_adaptive,
+        baseline_sample_size=args.baseline_sample_size
     )
     
     # Load data
@@ -151,21 +206,27 @@ def run_demo_mode(dataset_name: str, args) -> Dict[str, Any]:
     hybrid_model.fit(simulation_df)
     fit_time = time.time() - start_time
     
-    # Create sample documents
+    # Get all documents for ranking evaluation
+    all_docs = simulation_df['openalex_id'].tolist()
+    
+    # Create sample documents for feature extraction demonstration
     sample_docs = create_sample_documents(simulation_df, n_relevant=5, n_irrelevant=args.sample_size-5)
     
-    # Extract features
+    # Extract features for sample
     print(f"\nExtracting features for {len(sample_docs)} sample documents...")
     features_df = hybrid_model.extract_features(sample_docs)
     
-    # Compute scores
-    print("\nComputing hybrid relevance scores...")
-    scores = hybrid_model.predict_relevance_scores(sample_docs)
+    # Compute scores for ALL documents to evaluate ranking performance
+    print(f"\nComputing hybrid relevance scores for all {len(all_docs)} documents...")
+    all_scores = hybrid_model.predict_relevance_scores(all_docs)
     
-    # Predict outliers
+    # Predict outliers on sample
     threshold = args.threshold
-    print(f"\nPredicting outliers (threshold: {'dynamic' if threshold is None else threshold})...")
+    print(f"\nPredicting outliers on sample (threshold: {'dynamic' if threshold is None else threshold})...")
     outliers = hybrid_model.predict_outliers(sample_docs, threshold)
+    
+    # Evaluate ranking performance on known outliers
+    outlier_ranking_results = _evaluate_outlier_ranking(all_scores, dataset_name, hybrid_model.datasets_config)
     
     # Show results
     print(f"\nResults Summary:")
@@ -173,8 +234,31 @@ def run_demo_mode(dataset_name: str, args) -> Dict[str, Any]:
     print(f"  Features extracted: {features_df.shape}")
     print(f"  Potential outliers found: {len(outliers)}")
     
+    # Show ranking performance for known outliers
+    print(f"\n" + "="*50)
+    print("OUTLIER RANKING PERFORMANCE")
+    print("="*50)
+    for result in outlier_ranking_results:
+        print(f"Known Outlier: {result['outlier_id']}")
+        print(f"  Rank: {result['rank']} out of {result['total_documents']}")
+        print(f"  Score: {result['score']:.4f}")
+        print(f"  Percentile: {result['percentile']:.1f}% (higher is better)")
+        
+        # Performance assessment
+        if result['percentile'] >= 95:
+            performance = "Excellent ✓"
+        elif result['percentile'] >= 90:
+            performance = "Very Good ✓"
+        elif result['percentile'] >= 80:
+            performance = "Good"
+        elif result['percentile'] >= 70:
+            performance = "Fair"
+        else:
+            performance = "Poor"
+        print(f"  Performance: {performance}")
+    
     # Show top scoring documents
-    top_docs = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:5]
+    top_docs = sorted(all_scores.items(), key=lambda x: x[1], reverse=True)[:5]
     print(f"\nTop 5 documents by hybrid score:")
     for i, (doc_id, score) in enumerate(top_docs, 1):
         print(f"  {i}. {doc_id}: {score:.4f}")
@@ -194,8 +278,10 @@ def run_demo_mode(dataset_name: str, args) -> Dict[str, Any]:
         'dataset': dataset_name,
         'fit_time': fit_time,
         'sample_size': len(sample_docs),
+        'total_documents': len(all_docs),
         'features_shape': features_df.shape,
         'num_outliers': len(outliers),
+        'outlier_ranking_results': outlier_ranking_results,
         'top_scores': dict(top_docs),
         'model_status': status
     }
@@ -220,7 +306,8 @@ def run_evaluation_mode(dataset_name: str, args) -> Dict[str, Any]:
         dataset_name=dataset_name,
         model_config=model_config,
         model_weights=model_weights,
-        use_adaptive_weights=not args.disable_adaptive
+        use_adaptive_weights=not args.disable_adaptive,
+        baseline_sample_size=args.baseline_sample_size
     )
     
     # Fit model on training data
@@ -337,23 +424,26 @@ def run_interactive_mode():
             'test_size': test_size,
             'random_seed': 42,
             'threshold': None,
-            'sample_size': 50
+            'sample_size': 50,
+            'baseline_sample_size': None,
+            'disable_adaptive': not use_adaptive
         })()
         return run_evaluation_mode(dataset_name, args_obj)
     
     elif mode_choice == '3':
-        return run_analysis_mode(dataset_name, model_config, use_adaptive)
+        return run_analysis_mode(dataset_name, model_config, use_adaptive, baseline_sample_size=None)
     
     else:  # Default to demo
         args_obj = type('Args', (), {
             'threshold': None,
             'sample_size': 50,
+            'baseline_sample_size': None,
             'disable_adaptive': not use_adaptive
         })()
         return run_demo_mode(dataset_name, args_obj)
 
 
-def run_analysis_mode(dataset_name: str, model_config: ModelConfiguration, use_adaptive: bool) -> Dict[str, Any]:
+def run_analysis_mode(dataset_name: str, model_config: ModelConfiguration, use_adaptive: bool, baseline_sample_size: Optional[int] = None) -> Dict[str, Any]:
     """Run analysis mode - detailed document analysis."""
     print("="*60)
     print("HYBRID OUTLIER DETECTION - ANALYSIS MODE")
@@ -363,7 +453,8 @@ def run_analysis_mode(dataset_name: str, model_config: ModelConfiguration, use_a
     hybrid_model = HybridOutlierDetector(
         dataset_name=dataset_name,
         model_config=model_config,
-        use_adaptive_weights=use_adaptive
+        use_adaptive_weights=use_adaptive,
+        baseline_sample_size=baseline_sample_size
     )
     
     simulation_df = load_simulation_data(dataset_name)

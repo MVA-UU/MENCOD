@@ -49,7 +49,8 @@ class CitationNetworkModel:
     
     def __init__(self, dataset_name: Optional[str] = None, 
                  enable_gpu: bool = True,
-                 enable_semantic: bool = True):
+                 enable_semantic: bool = True,
+                 baseline_sample_size: Optional[int] = None):
         """
         Initialize the citation network model.
         
@@ -57,10 +58,12 @@ class CitationNetworkModel:
             dataset_name: Name of dataset to use
             enable_gpu: Whether to use GPU acceleration if available
             enable_semantic: Whether to include semantic similarity features
+            baseline_sample_size: Optional sample size for baseline calculation (None = use all)
         """
         self.dataset_name = dataset_name
         self.enable_gpu = enable_gpu and CUGRAPH_AVAILABLE
         self.enable_semantic = enable_semantic
+        self.baseline_sample_size = baseline_sample_size
         
         # Initialize state
         self.G = None
@@ -456,9 +459,16 @@ class CitationNetworkModel:
         # Pre-compute centrality measures once
         self._precompute_centrality_measures()
         
-        # Sample for efficiency
-        sample_size = min(50, len(self.relevant_documents))
-        sample_docs = list(self.relevant_documents)[:sample_size]
+        # Determine which documents to use for baseline calculation
+        if self.baseline_sample_size is not None:
+            # Use specified sample size
+            sample_size = min(self.baseline_sample_size, len(self.relevant_documents))
+            sample_docs = list(self.relevant_documents)[:sample_size]
+            logger.info(f"Using sample of {sample_size} documents for baseline (requested: {self.baseline_sample_size})")
+        else:
+            # Use all relevant documents by default
+            sample_docs = list(self.relevant_documents)
+            logger.info(f"Using all {len(sample_docs)} relevant documents for baseline")
         
         baseline_features = []
         for doc_id in tqdm(sample_docs, desc="Computing baseline features"):
