@@ -250,7 +250,7 @@ class GPUAcceleratedCitationNetwork:
         return features
     
     def predict_relevance_scores_fast(self, target_documents: List[str]) -> Dict[str, float]:
-        """Fast relevance scoring using simplified calculations."""
+        """Fast relevance scoring using sophisticated but efficient calculations."""
         if not self.is_fitted:
             return {doc_id: 0.0 for doc_id in target_documents}
         
@@ -260,23 +260,45 @@ class GPUAcceleratedCitationNetwork:
         # Extract features in parallel
         features_df = self.extract_features_parallel(target_documents)
         
-        # Simple scoring based on key features
+        # Calculate statistics for normalization
+        relevant_ratios = features_df['relevant_ratio'].values
+        total_degrees = features_df['total_degree'].values
+        relevant_connections = features_df['relevant_connections'].values
+        
+        # Calculate percentiles for ranking
+        ratio_95th = np.percentile(relevant_ratios, 95) if len(relevant_ratios) > 0 else 1.0
+        degree_95th = np.percentile(total_degrees, 95) if len(total_degrees) > 0 else 100.0
+        conn_95th = np.percentile(relevant_connections, 95) if len(relevant_connections) > 0 else 10.0
+        
         scores = {}
         for _, row in features_df.iterrows():
             doc_id = row['openalex_id']
             
-            # Simplified scoring focusing on most important factors
+            # Normalized features (0-1 scale)
             relevant_ratio = row['relevant_ratio']
             total_degree = row['total_degree']
-            relevant_connections = row['relevant_connections']
+            relevant_conns = row['relevant_connections']
             
-            # Simple score based on connection to relevant documents
-            base_score = min(1.0, relevant_ratio * 2.0)  # Boost documents connected to relevant ones
-            degree_bonus = min(0.3, total_degree / 100.0)  # Small bonus for high degree
-            connection_bonus = min(0.4, relevant_connections / 10.0)  # Bonus for multiple relevant connections
+            # Primary score: connection to relevant documents (most important)
+            ratio_score = min(1.0, relevant_ratio / max(0.01, ratio_95th)) if ratio_95th > 0 else 0.0
             
-            final_score = base_score + degree_bonus + connection_bonus
-            scores[doc_id] = min(1.0, final_score)
+            # Secondary score: network centrality (normalized)
+            degree_score = min(1.0, total_degree / max(1.0, degree_95th)) if degree_95th > 0 else 0.0
+            
+            # Tertiary score: number of relevant connections
+            conn_score = min(1.0, relevant_conns / max(1.0, conn_95th)) if conn_95th > 0 else 0.0
+            
+            # Weighted combination with emphasis on relevant connections
+            final_score = (
+                0.6 * ratio_score +      # 60% weight on relevant ratio
+                0.2 * degree_score +     # 20% weight on total degree  
+                0.2 * conn_score         # 20% weight on relevant connections
+            )
+            
+            # Apply sigmoid-like transformation for better distribution
+            final_score = final_score / (1.0 + final_score)
+            
+            scores[doc_id] = final_score
         
         score_time = time.time() - start_time
         print(f"Scoring completed in {score_time:.2f}s")
