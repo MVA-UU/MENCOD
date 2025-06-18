@@ -6,7 +6,7 @@
         "simulation_file": "jeyaraman.csv",
         "synergy_dataset_name": "Jeyaraman_2020",
         "embeddings_filename": "jeyaraman.npy",
-        "embeddings_metadata_filename": "jeyaraman_metadata.csv"
+        "embeddings_metadata_filename": "jeyaraman_metadata.json"
     },
     "appenzeller": {
         "outlier_ids": [
@@ -24,7 +24,7 @@
         "simulation_file": "valk.csv",
         "synergy_dataset_name": "van_der_Valk_2021",
         "embeddings_filename": "valk.npy",
-        "embeddings_metadata_filename": "valk_metadata.csv"
+        "embeddings_metadata_filename": "valk_metadata.json"
     },
     "hall": {
         "outlier_ids": [
@@ -33,7 +33,7 @@
         "simulation_file": "hall.csv",
         "synergy_dataset_name": "Hall_2012",
         "embeddings_filename": "hall.npy",
-        "embeddings_metadata_filename": "hall_metadata.csv"
+        "embeddings_metadata_filename": "hall_metadata.json"
     },
     "sep": {
         "outlier_ids": [
@@ -42,6 +42,6 @@
         "simulation_file": "sep.csv",
         "synergy_dataset_name": "Sep_2021",
         "embeddings_filename": "sep.npy",
-        "embeddings_metadata_filename": "sep_metadata.csv"
+        "embeddings_metadata_filename": "sep_metadata.json"
     }
 }
