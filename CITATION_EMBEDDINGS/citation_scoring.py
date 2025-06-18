@@ -15,120 +15,104 @@ def calculate_isolation_deviation(features: pd.Series, baseline: Dict[str, float
                                  G: nx.Graph, relevant_documents: Set[str]) -> float:
     """Calculate relevance score based on connection strength to relevant documents.
     
-    For academic outlier detection, we want to REWARD documents that are:
-    - Close to relevant documents (especially via semantic similarity)
-    - Have strong network centrality within relevant communities
-    - Show unusual citation patterns (even if sparse)
-    
-    This approach handles incomplete citation networks by emphasizing relative patterns.
+    Optimized version that avoids expensive shortest path computations.
     """
     doc_id = features['openalex_id']
     
-    # 1. Multi-path distance analysis (considers all edge types)
-    dist_scores = []
-    semantic_paths = 0
-    citation_paths = 0
+    # 1. Direct connectivity analysis (much faster than shortest paths)
+    direct_connections = 0
+    semantic_connections = 0
+    citation_connections = 0
+    connection_weights = []
     
-    for rel_doc in relevant_documents:
-        if rel_doc in G.nodes:
-            try:
-                # Find shortest path and analyze edge types
-                path = nx.shortest_path(G, doc_id, rel_doc)
-                path_length = len(path) - 1
-                
-                # Analyze path composition
-                for i in range(len(path) - 1):
-                    edge_data = G.get_edge_data(path[i], path[i+1])
-                    if edge_data:
-                        edge_type = edge_data.get('edge_type', 'unknown')
-                        if edge_type == 'semantic':
-                            semantic_paths += 1
-                        elif edge_type == 'citation':
-                            citation_paths += 1
-                
-                # Score based on path length and type
-                if path_length == 0:
-                    dist_scores.append(1.0)  # Same node (highest similarity)
-                elif path_length == 1:
-                    dist_scores.append(1.0)
-                elif path_length == 2:
-                    dist_scores.append(0.85)
-                elif path_length == 3:
-                    dist_scores.append(0.65)
-                else:
-                    dist_scores.append(max(0.2, 1.0 / max(1, path_length)))
+    if doc_id in G.nodes:
+        # Check direct connections to relevant documents
+        neighbors = set(G.neighbors(doc_id))
+        relevant_neighbors = neighbors.intersection(relevant_documents)
+        
+        for rel_doc in relevant_neighbors:
+            if G.has_edge(doc_id, rel_doc):
+                edge_data = G.get_edge_data(doc_id, rel_doc)
+                if edge_data:
+                    edge_type = edge_data.get('edge_type', 'unknown')
+                    weight = edge_data.get('weight', 1.0)
+                    connection_weights.append(weight)
                     
-            except nx.NetworkXNoPath:
-                continue
+                    if edge_type == 'semantic':
+                        semantic_connections += 1
+                    elif edge_type == 'citation':
+                        citation_connections += 1
+                    
+                    direct_connections += 1
+        
+        # 2-hop connectivity (more efficient than general shortest path)
+        twohop_connections = 0
+        if direct_connections == 0:  # Only check if no direct connections
+            for neighbor in neighbors:
+                if neighbor in G.nodes:
+                    neighbor_neighbors = set(G.neighbors(neighbor))
+                    twohop_relevant = neighbor_neighbors.intersection(relevant_documents)
+                    twohop_connections += len(twohop_relevant)
     
-    # Best distance score (closest relevant document)
-    dist_score = max(dist_scores) if dist_scores else 0.0
+    # Score based on connectivity patterns
+    if direct_connections >= 3:
+        connectivity_score = 1.0
+    elif direct_connections >= 1:
+        avg_weight = np.mean(connection_weights) if connection_weights else 1.0
+        connectivity_score = 0.7 + 0.2 * min(1.0, avg_weight / 2.0)
+    elif twohop_connections >= 2:
+        connectivity_score = 0.5
+    elif twohop_connections >= 1:
+        connectivity_score = 0.3
+    else:
+        connectivity_score = 0.1
     
     # 2. Enhanced citation analysis with relative metrics
     cit_count = features.get('citation_in_degree', 0)
-    total_citations = features.get('total_citations', 0)
     
-    # Calculate citation percentile within dataset (more robust than absolute counts)
+    # Calculate citation percentile within dataset
     baseline_cit_std = baseline.get('std_citation_in_degree', 1.0)
     baseline_cit_mean = baseline.get('mean_citation_in_degree', 1.0)
     
-    # Z-score based citation assessment (handles sparse data better)
+    # Z-score based citation assessment
     if baseline_cit_std > 0:
         cit_zscore = (cit_count - baseline_cit_mean) / baseline_cit_std
-        # Convert z-score to probability-like score
         cit_score = max(0.1, min(1.0, 0.5 + cit_zscore * 0.15))
     else:
         cit_score = 0.5 if cit_count > 0 else 0.1
     
-    # 3. Network centrality within relevant community
-    try:
-        # Create subgraph of document + relevant documents + 1-hop neighbors
-        subgraph_nodes = {doc_id} | relevant_documents
-        for node in list(subgraph_nodes):
-            if node in G.nodes:
-                subgraph_nodes.update(G.neighbors(node))
+    # 3. Local network centrality (efficient degree-based measure)
+    if doc_id in G.nodes:
+        degree = G.degree(doc_id)
+        weighted_degree = G.degree(doc_id, weight='weight') if G.is_multigraph() else degree
         
-        subgraph = G.subgraph(subgraph_nodes)
+        # Normalize by baseline
+        baseline_degree_mean = baseline.get('mean_total_degree', 1.0)
+        baseline_degree_std = baseline.get('std_total_degree', 1.0)
         
-        if len(subgraph.nodes) > 3:  # Need minimum nodes for centrality
-            # Weighted degree centrality (considers edge weights)
-            centrality = sum(data.get('weight', 1.0) for _, _, data in subgraph.edges(doc_id, data=True))
-            max_centrality = max([
-                sum(data.get('weight', 1.0) for _, _, data in subgraph.edges(node, data=True))
-                for node in subgraph.nodes
-            ]) if subgraph.edges else 1.0
-            
-            centrality_score = centrality / max_centrality if max_centrality > 0 else 0.0
+        if baseline_degree_std > 0:
+            degree_zscore = (degree - baseline_degree_mean) / baseline_degree_std
+            centrality_score = max(0.1, min(1.0, 0.5 + degree_zscore * 0.1))
         else:
-            centrality_score = 0.3
-    except:
-        centrality_score = 0.3
+            centrality_score = 0.5 if degree > 0 else 0.1
+    else:
+        centrality_score = 0.0
     
-    # 4. Semantic connectivity to relevant documents (exploit your 122k semantic edges)
-    semantic_connections = 0
-    semantic_weights = []
-    
-    for rel_doc in relevant_documents:
-        if rel_doc in G.nodes and G.has_edge(doc_id, rel_doc):
-            edge_data = G.get_edge_data(doc_id, rel_doc)
-            if edge_data and edge_data.get('edge_type') == 'semantic':
-                semantic_connections += 1
-                semantic_weights.append(edge_data.get('weight', 1.0))
-    
-    # Score semantic connectivity
+    # 4. Semantic connectivity score (use precomputed features)
+    semantic_score = 0.2  # Default
     if semantic_connections >= 3:
         semantic_score = 1.0
     elif semantic_connections >= 1:
-        avg_weight = np.mean(semantic_weights) if semantic_weights else 0.5
-        semantic_score = 0.6 + 0.3 * min(1.0, avg_weight)
-    else:
-        semantic_score = 0.2
+        avg_weight = np.mean([w for w, t in zip(connection_weights, 
+                            [G.get_edge_data(doc_id, rel_doc, {}).get('edge_type', '') 
+                             for rel_doc in relevant_documents if G.has_edge(doc_id, rel_doc)])
+                            if t == 'semantic']) if connection_weights else 1.0
+        semantic_score = 0.6 + 0.3 * min(1.0, avg_weight / 2.0)
     
-    # 5. Coupling-based community detection
+    # 5. Coupling-based relevance (use precomputed features)
     coupling_strength = features.get('max_coupling_strength', 0)
     rel_coupling = features.get('relevant_connections', 0)
     
-    # Enhanced coupling score that considers bibliographic overlap patterns
     if coupling_strength >= 0.15:
         coupling_score = 1.0
     elif coupling_strength >= 0.08:
@@ -140,21 +124,20 @@ def calculate_isolation_deviation(features: pd.Series, baseline: Dict[str, float
     else:
         coupling_score = 0.1
     
-    # 6. Adaptive weighting based on network characteristics
-    total_edges = G.number_of_edges()
-    semantic_edge_ratio = semantic_paths / max(1, semantic_paths + citation_paths)
+    # 6. Adaptive weighting based on connection patterns
+    if semantic_connections > citation_connections:
+        # Semantic-dominant connections
+        weights = [0.35, 0.15, 0.20, 0.25, 0.05]
+    elif citation_connections > 0:
+        # Citation-based connections
+        weights = [0.30, 0.25, 0.20, 0.15, 0.10]
+    else:
+        # Sparse connections - rely more on coupling and centrality
+        weights = [0.25, 0.20, 0.25, 0.20, 0.10]
     
-    # For datasets with high semantic connectivity, emphasize semantic features
-    if semantic_edge_ratio > 0.8:  # Semantic-dominant network
-        weights = [0.2, 0.15, 0.25, 0.35, 0.05]  # Emphasize semantic and centrality
-    elif citation_paths > 10:  # Citation-rich network
-        weights = [0.3, 0.25, 0.2, 0.15, 0.1]   # More traditional citation emphasis
-    else:  # Sparse citation network (your case)
-        weights = [0.25, 0.2, 0.2, 0.25, 0.1]   # Balanced approach
-    
-    # [distance, citation, centrality, semantic, coupling]
+    # [connectivity, citation, centrality, semantic, coupling]
     relevance_score = (
-        weights[0] * dist_score + 
+        weights[0] * connectivity_score + 
         weights[1] * cit_score + 
         weights[2] * centrality_score +
         weights[3] * semantic_score +

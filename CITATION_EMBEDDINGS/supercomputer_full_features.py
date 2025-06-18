@@ -257,14 +257,19 @@ class FullFeaturedGPUCitationNetwork:
         
         # Extract comprehensive features
         features_df = self.extract_features_parallel_full(target_documents)
+        feature_time = time.time() - start_time
+        print(f"Feature extraction completed in {feature_time:.2f}s, starting scoring...")
         
-        # Calculate comprehensive scores
+        # Calculate comprehensive scores with progress tracking
         scores = {}
-        for _, row in features_df.iterrows():
+        total_docs = len(features_df)
+        scoring_start = time.time()
+        
+        for idx, (_, row) in enumerate(features_df.iterrows()):
             doc_id = row['openalex_id']
             
             try:
-                # Use full scoring pipeline with correct parameters
+                # Use optimized scoring pipeline
                 isolation_score = calculate_isolation_deviation(row, self.baseline_stats, self.G, self.relevant_documents)
                 coupling_score = calculate_coupling_deviation(row, self.baseline_stats)
                 neighborhood_score = calculate_neighborhood_deviation(row, self.baseline_stats)
@@ -277,9 +282,7 @@ class FullFeaturedGPUCitationNetwork:
                 temporal_score = calculate_temporal_score(row, self.baseline_stats)
                 efficiency_score = calculate_efficiency_score(row, self.baseline_stats)
                 
-                # Get adaptive weights (uses sparsity factor)
-                dataset_size = len(self.simulation_data)
-                relevant_ratio = len(self.relevant_documents) / dataset_size
+                # Get adaptive weights
                 sparsity_factor = 1 - min(0.9, max(0.1, relevant_ratio * 10))
                 weights = get_adaptive_weights(sparsity_factor)
                 
@@ -293,18 +296,24 @@ class FullFeaturedGPUCitationNetwork:
                     weights['efficiency'] * efficiency_score
                 )
                 
-                # Store individual scores for potential later use
-                # Note: apply_sparse_dataset_ranking_adjustments works on full score dictionaries
-                # For now, just use the weighted final score directly
-                
                 scores[doc_id] = max(0.0, min(1.0, final_score))
                 
             except Exception as e:
                 print(f"Error scoring {doc_id}: {e}")
                 scores[doc_id] = 0.0
+            
+            # Progress logging every 500 documents
+            if (idx + 1) % 500 == 0 or (idx + 1) == total_docs:
+                elapsed = time.time() - scoring_start
+                rate = (idx + 1) / elapsed if elapsed > 0 else 0
+                remaining = (total_docs - idx - 1) / rate if rate > 0 else 0
+                print(f"Scored {idx + 1}/{total_docs} documents ({(idx + 1)/total_docs*100:.1f}%) | "
+                      f"Rate: {rate:.1f} docs/sec | ETA: {remaining:.1f}s")
         
-        score_time = time.time() - start_time
-        print(f"Full scoring completed in {score_time:.2f}s")
+        total_score_time = time.time() - start_time
+        print(f"Full scoring completed in {total_score_time:.2f}s")
+        print(f"  Feature extraction: {feature_time:.2f}s")
+        print(f"  Scoring computation: {total_score_time - feature_time:.2f}s")
         
         return scores
 
