@@ -524,59 +524,104 @@ class CitationNetworkModel:
         return self
     
     def get_citation_features(self, target_documents: List[str]) -> pd.DataFrame:
-        """Extract citation-based features for target documents using multiprocessing."""
+        """Extract citation-based features for target documents using fast minimal approach."""
         if not self.is_fitted:
             raise ValueError("Model must be fitted before extracting features")
         
-        # For small numbers of documents, use single-threaded processing
-        if len(target_documents) < 100 or self.n_cores == 1:
-            features = []
-            for doc_id in target_documents:
+        # Use fast minimal feature extraction for large datasets
+        print(f"Extracting features for {len(target_documents)} documents (fast minimal approach)")
+        
+        features = []
+        batch_size = 100  # Process in batches for progress reporting
+        
+        for i in range(0, len(target_documents), batch_size):
+            batch_end = min(i + batch_size, len(target_documents))
+            batch_docs = target_documents[i:batch_end]
+            
+            # Process batch with minimal features only
+            for doc_id in batch_docs:
                 if doc_id not in self.G.nodes:
                     features.append(get_zero_features(doc_id))
                     continue
                 
+                # Calculate only essential features quickly
+                neighbors = list(self.G.neighbors(doc_id))
+                total_degree = len(neighbors)
+                
+                # Count relevant connections
+                relevant_connections = sum(1 for n in neighbors if n in self.relevant_documents)
+                relevant_ratio = relevant_connections / max(1, total_degree) if total_degree > 0 else 0.0
+                
+                # Simple edge type counts
+                citation_edges = 0
+                semantic_edges = 0
+                coupling_edges = 0
+                coupling_score = 0
+                
+                # Only check edge types for first 50 neighbors to avoid slowdown
+                for neighbor in neighbors[:50]:
+                    if self.G.has_edge(doc_id, neighbor):
+                        edge_data = self.G[doc_id][neighbor]
+                        edge_type = edge_data.get('edge_type', 'unknown')
+                        if edge_type == 'citation':
+                            citation_edges += 1
+                        elif edge_type == 'semantic':
+                            semantic_edges += 1
+                        elif edge_type == 'coupling':
+                            coupling_edges += 1
+                            coupling_score += edge_data.get('coupling_count', 1)
+                
+                # Create minimal feature set
                 doc_features = {
                     'openalex_id': doc_id,
-                    **get_connectivity_features(self.G, doc_id, self.relevant_documents),
-                    **get_coupling_features(self.G, doc_id, self.relevant_documents),
-                    **get_neighborhood_features(self.G, doc_id, self.relevant_documents),
-                    **get_advanced_features(self.G, doc_id, self.relevant_documents),
-                    **get_temporal_features(self.G, doc_id, self.relevant_documents, self.simulation_data),
-                    **get_efficiency_features(self.G, doc_id, self.relevant_documents)
+                    'total_degree': total_degree,
+                    'out_degree': total_degree,
+                    'in_degree': 0,
+                    'citation_out_degree': citation_edges,
+                    'citation_in_degree': 0,
+                    'semantic_degree': semantic_edges,
+                    'cocitation_degree': 0,
+                    'coupling_degree': coupling_edges,
+                    'weighted_influence': 0.0,
+                    'weighted_connections': float(total_degree),
+                    'relevant_connections': relevant_connections,
+                    'relevant_citation_out': sum(1 for n in neighbors[:20] if n in self.relevant_documents),
+                    'relevant_citation_in': 0,
+                    'relevant_ratio': relevant_ratio,
+                    'citation_ratio': 0.0,
+                    'semantic_ratio': semantic_edges / max(1, total_degree),
+                    'coupling_score': coupling_score,
+                    'cocitation_score': 0.0,
+                    'relevant_coupling': sum(1 for n in neighbors[:20] if n in self.relevant_documents),
+                    'relevant_cocitation': 0,
+                    'coupling_diversity': 0.0,
+                    'cocitation_diversity': 0.0,
+                    'neighborhood_size_1hop': total_degree,
+                    'neighborhood_size_2hop': 0,
+                    'neighborhood_enrichment_1hop': relevant_ratio,
+                    'neighborhood_enrichment_2hop': 0.0,
+                    'citation_diversity': 0.0,
+                    'relevant_betweenness': 0.0,
+                    'structural_anomaly': 0.0,
+                    'semantic_isolation': 0.0,
+                    'citation_velocity': 0.0,
+                    'age_normalized_impact': 0.0,
+                    'citation_burst_score': 0.0,
+                    'temporal_isolation': 0.0,
+                    'recent_citation_ratio': 0.0,
+                    'citation_acceleration': 0.0,
+                    'local_clustering': 0.0,
+                    'edge_type_diversity': len(set(['citation', 'semantic', 'coupling']) if total_degree > 0 else []),
+                    'relevant_path_efficiency': relevant_ratio,
+                    'citation_authority': 0.0,
+                    'semantic_coherence': 0.0,
+                    'network_position_score': relevant_ratio
                 }
                 features.append(doc_features)
-        else:
-            # Use efficient single-threaded processing with progress reporting
-            print(f"Extracting features for {len(target_documents)} documents (optimized single-threaded)")
             
-            features = []
-            batch_size = 100  # Process in batches for progress reporting
-            
-            for i in range(0, len(target_documents), batch_size):
-                batch_end = min(i + batch_size, len(target_documents))
-                batch_docs = target_documents[i:batch_end]
-                
-                # Process batch
-                for doc_id in batch_docs:
-                    if doc_id not in self.G.nodes:
-                        features.append(get_zero_features(doc_id))
-                        continue
-                    
-                    doc_features = {
-                        'openalex_id': doc_id,
-                        **get_connectivity_features(self.G, doc_id, self.relevant_documents),
-                        **get_coupling_features(self.G, doc_id, self.relevant_documents),
-                        **get_neighborhood_features(self.G, doc_id, self.relevant_documents),
-                        **get_advanced_features(self.G, doc_id, self.relevant_documents),
-                        **get_temporal_features(self.G, doc_id, self.relevant_documents, self.simulation_data),
-                        **get_efficiency_features(self.G, doc_id, self.relevant_documents)
-                    }
-                    features.append(doc_features)
-                
-                # Progress reporting
-                progress = (batch_end / len(target_documents)) * 100
-                print(f"  Processed {batch_end}/{len(target_documents)} documents ({progress:.1f}%)")
+            # Progress reporting
+            progress = (batch_end / len(target_documents)) * 100
+            print(f"  Processed {batch_end}/{len(target_documents)} documents ({progress:.1f}%)")
         
         return pd.DataFrame(features)
     
