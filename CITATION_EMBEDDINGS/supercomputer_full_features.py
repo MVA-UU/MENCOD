@@ -195,24 +195,38 @@ class FullFeaturedGPUCitationNetwork:
         # Use ThreadPoolExecutor to avoid GPU object serialization issues
         with ThreadPoolExecutor(max_workers=self.n_cores) as executor:
             futures = [
-                executor.submit(self._extract_batch_features_full, batch) 
-                for batch in batches
+                executor.submit(self._extract_batch_features_full, batch, i) 
+                for i, batch in enumerate(batches)
             ]
             
             all_features = []
+            completed = 0
+            total_batches = len(futures)
+            
             for future in futures:
                 all_features.extend(future.result())
+                completed += 1
+                print(f"Completed batch {completed}/{total_batches} ({completed/total_batches*100:.1f}%)")
+                
+                # Estimate remaining time
+                elapsed = time.time() - start_time
+                if completed > 0:
+                    avg_time_per_batch = elapsed / completed
+                    remaining_batches = total_batches - completed
+                    estimated_remaining = avg_time_per_batch * remaining_batches
+                    print(f"  Elapsed: {elapsed:.1f}s, Estimated remaining: {estimated_remaining:.1f}s")
         
         extract_time = time.time() - start_time
         print(f"Full feature extraction completed in {extract_time:.2f}s")
         
         return pd.DataFrame(all_features)
     
-    def _extract_batch_features_full(self, doc_ids: List[str]) -> List[Dict]:
+    def _extract_batch_features_full(self, doc_ids: List[str], batch_idx: int = 0) -> List[Dict]:
         """Extract full features for a batch of documents."""
         features = []
+        batch_size = len(doc_ids)
         
-        for doc_id in doc_ids:
+        for i, doc_id in enumerate(doc_ids):
             try:
                 if doc_id not in self.G.nodes:
                     features.append(get_zero_features(doc_id))
@@ -250,18 +264,24 @@ class FullFeaturedGPUCitationNetwork:
             doc_id = row['openalex_id']
             
             try:
-                # Use full scoring pipeline
-                isolation_score = calculate_isolation_deviation(row, self.baseline_stats)
+                # Use full scoring pipeline with correct parameters
+                isolation_score = calculate_isolation_deviation(row, self.baseline_stats, self.G, self.relevant_documents)
                 coupling_score = calculate_coupling_deviation(row, self.baseline_stats)
                 neighborhood_score = calculate_neighborhood_deviation(row, self.baseline_stats)
-                advanced_score = calculate_advanced_score(row, self.baseline_stats)
+                
+                # Calculate dataset relevant ratio for advanced score
+                dataset_size = len(self.simulation_data)
+                relevant_ratio = len(self.relevant_documents) / dataset_size
+                advanced_score = calculate_advanced_score(row, relevant_ratio)
+                
                 temporal_score = calculate_temporal_score(row, self.baseline_stats)
                 efficiency_score = calculate_efficiency_score(row, self.baseline_stats)
                 
-                # Get adaptive weights
+                # Get adaptive weights (uses sparsity factor)
                 dataset_size = len(self.simulation_data)
                 relevant_ratio = len(self.relevant_documents) / dataset_size
-                weights = get_adaptive_weights(dataset_size, relevant_ratio)
+                sparsity_factor = 1 - min(0.9, max(0.1, relevant_ratio * 10))
+                weights = get_adaptive_weights(sparsity_factor)
                 
                 # Calculate weighted final score
                 final_score = (
