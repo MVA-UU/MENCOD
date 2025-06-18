@@ -13,10 +13,13 @@ from datetime import datetime
 from collections import defaultdict
 
 
-def get_connectivity_features(G: nx.Graph, doc_id: str, relevant_documents: Set[str]) -> Dict[str, float]:
+def get_connectivity_features(G: nx.Graph, doc_id: str, relevant_documents: Set[str], progress_callback=None) -> Dict[str, float]:
     """Calculate connectivity-based features considering different edge types."""
     if doc_id not in G.nodes:
         return get_zero_connectivity_features(doc_id)
+    
+    if progress_callback:
+        progress_callback(f"Computing connectivity for {doc_id[:12]}...")
     
     # Basic connectivity measures
     out_degree = G.out_degree(doc_id) if hasattr(G, 'out_degree') else G.degree(doc_id)
@@ -228,11 +231,27 @@ def get_advanced_features(G: nx.Graph, doc_id: str, relevant_documents: Set[str]
     
     # 1. Citation diversity - how diverse are the document's connections
     neighbors = set(G.neighbors(doc_id))
+    
+    # ⚡ OPTIMIZATION: Limit expensive calculations for very large neighborhoods
+    if len(neighbors) > 1000:
+        print(f"         ⚠️  Large neighborhood ({len(neighbors)} neighbors) - using approximation")
+        # For very large neighborhoods, use approximation
+        sample_size = min(100, len(neighbors))
+        import random
+        sampled_neighbors = random.sample(list(neighbors), sample_size)
+        neighbors = set(sampled_neighbors)
+    
     neighbor_connections = []
+    
+    # ⚡ OPTIMIZATION: Cache neighbor lookups to avoid repeated expensive calls
+    neighbor_cache = {}
+    for n1 in neighbors:
+        if n1 not in neighbor_cache:
+            neighbor_cache[n1] = set(G.neighbors(n1))
     
     # Calculate how connected the neighbors are to each other
     for n1 in neighbors:
-        n1_neighbors = set(G.neighbors(n1))
+        n1_neighbors = neighbor_cache[n1]
         connections = sum(1 for n2 in neighbors if n2 in n1_neighbors)
         neighbor_connections.append(connections)
     
@@ -251,18 +270,29 @@ def get_advanced_features(G: nx.Graph, doc_id: str, relevant_documents: Set[str]
     # Only consider relevant documents that are 1 or 2 hops away
     relevant_neighbors = neighbors.intersection(relevant_documents)
     
-    # If this document directly connects to multiple relevant docs,
-    # check if it serves as a bridge between them
+    # ⚡ OPTIMIZATION: Limit betweenness calculation for large numbers of relevant neighbors
     if len(relevant_neighbors) >= 2:
+        if len(relevant_neighbors) > 20:
+            # For very large numbers of relevant neighbors, use sampling
+            import random
+            sampled_relevant = random.sample(list(relevant_neighbors), 20)
+            relevant_neighbors = set(sampled_relevant)
+        
         # Check if this document bridges relevant neighbors that aren't directly connected
         bridged_pairs = 0
         rel_list = list(relevant_neighbors)
         
+        # ⚡ OPTIMIZATION: Pre-cache relevant neighbor lookups
+        relevant_neighbor_cache = {}
+        for rel_doc in rel_list:
+            if rel_doc not in relevant_neighbor_cache:
+                relevant_neighbor_cache[rel_doc] = set(G.neighbors(rel_doc))
+        
         for i in range(len(rel_list)):
             for j in range(i+1, len(rel_list)):
                 rel1, rel2 = rel_list[i], rel_list[j]
-                # Check if rel1 and rel2 are directly connected
-                if rel2 not in set(G.neighbors(rel1)):
+                # ⚡ FIXED: Use cached neighbors instead of repeated expensive calls
+                if rel2 not in relevant_neighbor_cache[rel1]:
                     bridged_pairs += 1
         
         # Normalize by number of potential pairs
@@ -272,7 +302,11 @@ def get_advanced_features(G: nx.Graph, doc_id: str, relevant_documents: Set[str]
     elif len(relevant_neighbors) == 1:
         # If connected to exactly one relevant doc, check 2-hop connections
         rel_doc = next(iter(relevant_neighbors))
-        rel_neighbors = set(G.neighbors(rel_doc)).intersection(relevant_documents)
+        # ⚡ OPTIMIZATION: Use cached neighbors if available
+        if rel_doc in neighbor_cache:
+            rel_neighbors = neighbor_cache[rel_doc].intersection(relevant_documents)
+        else:
+            rel_neighbors = set(G.neighbors(rel_doc)).intersection(relevant_documents)
         
         # If the relevant neighbor connects to other relevant docs,
         # this document might be an outlier bridge
@@ -295,28 +329,44 @@ def get_advanced_features(G: nx.Graph, doc_id: str, relevant_documents: Set[str]
     # 4. Semantic isolation - for extremely sparse datasets, detect semantic outliers
     relevant_ratio = len(relevant_documents) / len(G.nodes) if G.nodes else 0
     if relevant_ratio < 0.02:  # Only calculate for very sparse datasets
+        # ⚡ OPTIMIZATION: Skip expensive semantic isolation for very large neighborhoods
+        if len(neighbors) > 500:
+            results['semantic_isolation'] = 0.0  # Skip for performance
+            return results
+            
         # Check if this document has any semantic connections to relevant documents
-        has_connections = any(rel_doc in G.neighbors(doc_id) for rel_doc in relevant_documents 
+        has_connections = any(rel_doc in neighbors for rel_doc in relevant_documents 
                             if rel_doc in G.nodes and doc_id != rel_doc)
         
         # Calculate semantic isolation by looking at second-order connections
         if not has_connections and neighbors:
-            # How many of this document's neighbors are connected to relevant documents?
+            # ⚡ OPTIMIZATION: Use cached neighbors and limit checks
             neighbors_with_relevant_conn = 0
+            checked_neighbors = 0
             for neighbor in neighbors:
-                if any(rel_doc in G.neighbors(neighbor) for rel_doc in relevant_documents 
+                if checked_neighbors >= 100:  # Limit expensive checks
+                    break
+                if neighbor in neighbor_cache:
+                    neighbor_neighbors = neighbor_cache[neighbor]
+                else:
+                    neighbor_neighbors = set(G.neighbors(neighbor))
+                    neighbor_cache[neighbor] = neighbor_neighbors
+                
+                if any(rel_doc in neighbor_neighbors for rel_doc in relevant_documents 
                        if rel_doc in G.nodes and neighbor != rel_doc):
                     neighbors_with_relevant_conn += 1
+                checked_neighbors += 1
             
-            semantic_isolation = 1.0 - (neighbors_with_relevant_conn / len(neighbors))
-            
-            # If this document has low semantic similarity to relevant docs
-            # it's more likely to be an outlier
-            results['semantic_isolation'] = semantic_isolation
-            
-            # Boost structural anomaly for semantically isolated documents
-            if semantic_isolation > 0.7:
-                results['structural_anomaly'] = max(results['structural_anomaly'], 0.5)
+            if checked_neighbors > 0:
+                semantic_isolation = 1.0 - (neighbors_with_relevant_conn / checked_neighbors)
+                
+                # If this document has low semantic similarity to relevant docs
+                # it's more likely to be an outlier
+                results['semantic_isolation'] = semantic_isolation
+                
+                # Boost structural anomaly for semantically isolated documents
+                if semantic_isolation > 0.7:
+                    results['structural_anomaly'] = max(results['structural_anomaly'], 0.5)
     
     return results
 
@@ -347,12 +397,26 @@ def get_efficiency_features(G: nx.Graph, doc_id: str, relevant_documents: Set[st
     # 1. Local clustering coefficient (O(k^2) where k is degree)
     local_clustering = 0.0
     if len(neighbors) > 1:
-        possible_edges = len(neighbors) * (len(neighbors) - 1) / 2
+        # ⚡ OPTIMIZATION: Limit expensive clustering calculation for very large neighborhoods
+        if len(neighbors) > 500:
+            print(f"         ⚠️  Large neighborhood ({len(neighbors)} neighbors) - approximating clustering")
+            # For very large neighborhoods, sample to avoid O(k²) explosion
+            import random
+            sampled_neighbors = random.sample(neighbors, min(100, len(neighbors)))
+            neighbors_for_clustering = sampled_neighbors
+        else:
+            neighbors_for_clustering = neighbors
+            
+        possible_edges = len(neighbors_for_clustering) * (len(neighbors_for_clustering) - 1) / 2
         actual_edges = 0
-        for i, n1 in enumerate(neighbors):
-            for n2 in neighbors[i+1:]:
+        
+        # ⚡ OPTIMIZATION: Use more efficient edge checking
+        neighbors_set = set(neighbors_for_clustering)
+        for i, n1 in enumerate(neighbors_for_clustering):
+            for n2 in neighbors_for_clustering[i+1:]:
                 if G.has_edge(n1, n2):
                     actual_edges += 1
+                    
         local_clustering = actual_edges / possible_edges if possible_edges > 0 else 0.0
     
     # 2. Edge type diversity (Shannon entropy of edge types)

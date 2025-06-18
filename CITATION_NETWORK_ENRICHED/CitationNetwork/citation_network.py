@@ -426,6 +426,10 @@ class CitationNetworkModel:
         else:
             print("   💻 Using CPU NetworkX algorithms")
         
+        # Provide time estimate
+        estimated_time = estimate_completion_time(len(target_documents), self.use_gpu)
+        print(f"   ⏰ Estimated completion time: {estimated_time}")
+        
         feature_start_time = time.time()
         
         # For large datasets, process in batches to manage memory
@@ -440,29 +444,86 @@ class CitationNetworkModel:
             end_idx = min(start_idx + batch_size, len(target_documents))
             batch_docs = target_documents[start_idx:end_idx]
             
+            batch_start_time = time.time()
+            
             batch_features = []
-            for doc_id in batch_docs:
+            for i, doc_id in enumerate(batch_docs):
                 if doc_id not in self.G.nodes:
                     batch_features.append(get_zero_features(doc_id))
                     continue
                 
+                # Progress callback for individual documents
+                if len(batch_docs) > 10:  # Only show detailed progress for larger batches
+                    print(f"         📄 Processing document {i+1}/{len(batch_docs)}: {doc_id[:12]}...")
+                
+                # Monitor for potential hangs every 10 documents
+                if i > 0 and i % 10 == 0:
+                    if monitor_progress_with_timeout(batch_start_time, max_minutes=5):
+                        print(f"         ⚠️  Batch {batch_idx+1} is taking longer than expected")
+                
                 # Extract features using NetworkX (GPU-accelerated when available)
-                doc_features = {
-                    'openalex_id': doc_id,
-                    **get_connectivity_features(self.G, doc_id, self.relevant_documents),
-                    **get_coupling_features(self.G, doc_id, self.relevant_documents),
-                    **get_neighborhood_features(self.G, doc_id, self.relevant_documents),
-                    **get_advanced_features(self.G, doc_id, self.relevant_documents),
-                    **get_temporal_features(self.G, doc_id, self.relevant_documents, self.simulation_data),
-                    **get_efficiency_features(self.G, doc_id, self.relevant_documents)
-                }
+                # Add individual feature timing for debugging
+                feature_start = time.time()
+                try:
+                    doc_features = {
+                        'openalex_id': doc_id,
+                    }
+                    
+                    # Time each feature extraction to identify bottlenecks
+                    t1 = time.time()
+                    doc_features.update(get_connectivity_features(self.G, doc_id, self.relevant_documents))
+                    connectivity_time = time.time() - t1
+                    
+                    t2 = time.time()
+                    doc_features.update(get_coupling_features(self.G, doc_id, self.relevant_documents))
+                    coupling_time = time.time() - t2
+                    
+                    t3 = time.time()
+                    doc_features.update(get_neighborhood_features(self.G, doc_id, self.relevant_documents))
+                    neighborhood_time = time.time() - t3
+                    
+                    t4 = time.time()
+                    doc_features.update(get_advanced_features(self.G, doc_id, self.relevant_documents))
+                    advanced_time = time.time() - t4
+                    
+                    t5 = time.time()
+                    doc_features.update(get_temporal_features(self.G, doc_id, self.relevant_documents, self.simulation_data))
+                    temporal_time = time.time() - t5
+                    
+                    t6 = time.time()
+                    doc_features.update(get_efficiency_features(self.G, doc_id, self.relevant_documents))
+                    efficiency_time = time.time() - t6
+                    
+                    total_doc_time = time.time() - feature_start
+                    
+                    # Report slow documents
+                    if total_doc_time > 10 or i % 50 == 0:
+                        print(f"         ⏱️  Doc {i+1}: {total_doc_time:.2f}s total "
+                              f"(conn:{connectivity_time:.2f}s, coup:{coupling_time:.2f}s, "
+                              f"neigh:{neighborhood_time:.2f}s, adv:{advanced_time:.2f}s, "
+                              f"temp:{temporal_time:.2f}s, eff:{efficiency_time:.2f}s)")
+                    
+                    # Emergency timeout per document
+                    if total_doc_time > 60:  # 1 minute per document is too long
+                        print(f"         🚨 Document {doc_id[:12]} took {total_doc_time:.2f}s - likely hanging!")
+                        print(f"            Feature times: conn={connectivity_time:.2f}, coup={coupling_time:.2f}, neigh={neighborhood_time:.2f}")
+                        print(f"                          adv={advanced_time:.2f}, temp={temporal_time:.2f}, eff={efficiency_time:.2f}")
+                        # Continue with next document instead of hanging forever
+                        doc_features = get_zero_features(doc_id)
+                        
+                except Exception as e:
+                    print(f"         ❌ Error processing {doc_id[:12]}: {e}")
+                    doc_features = get_zero_features(doc_id)
+                
                 batch_features.append(doc_features)
             
             features.extend(batch_features)
             
-            # Progress reporting
+            # Progress reporting with timing
+            batch_time = time.time() - batch_start_time
             progress = ((batch_idx + 1) / num_batches) * 100
-            print(f"      ✅ Batch {batch_idx + 1}/{num_batches} completed ({progress:.1f}%)")
+            docs_per_second = len(batch_docs) / max(batch_time, 0.1)
+            print(f"      ✅ Batch {batch_idx + 1}/{num_batches} completed ({progress:.1f}%) - {docs_per_second:.1f} docs/sec")
         
         feature_time = time.time() - feature_start_time
         print(f"   ⏱️  Feature extraction completed in {feature_time:.2f} seconds")
@@ -873,6 +934,40 @@ class CitationNetworkModel:
         
         return baseline
 
+def estimate_completion_time(num_documents, use_gpu=False):
+    """Estimate completion time for feature extraction."""
+    if use_gpu:
+        # GPU acceleration estimates (much faster)
+        if num_documents <= 25:
+            return "10-30 seconds"
+        elif num_documents <= 100:
+            return "30-90 seconds"
+        elif num_documents <= 1000:
+            return "2-5 minutes"
+        else:
+            return f"{num_documents//200}-{num_documents//100} minutes"
+    else:
+        # CPU estimates
+        if num_documents <= 25:
+            return "30-60 seconds"
+        elif num_documents <= 100:
+            return "2-4 minutes"
+        elif num_documents <= 1000:
+            return "10-20 minutes"
+        else:
+            return f"{num_documents//50}-{num_documents//25} minutes"
+
+def monitor_progress_with_timeout(start_time, max_minutes=10):
+    """Monitor if operation is taking too long and provide guidance."""
+    elapsed = time.time() - start_time
+    if elapsed > max_minutes * 60:
+        print(f"⚠️  Operation has been running for {elapsed/60:.1f} minutes")
+        print("   This may indicate a hang. Consider:")
+        print("   1. Checking GPU memory usage")
+        print("   2. Reducing batch size")
+        print("   3. Using CPU fallback")
+        return True
+    return False
 
 def main():
     """Test citation network model with a selected dataset and show outlier ranking."""
