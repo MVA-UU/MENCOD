@@ -25,14 +25,20 @@ import time
 # Enable GPU acceleration with nx-cugraph backend (zero code change acceleration)
 try:
     import nx_cugraph
-    # Set nx-cugraph as the default backend for NetworkX
-    nx.config.backends.cugraph.priority = 1
-    nx.config.backend_priority = ["cugraph"]  # Prioritize cugraph backend
+    # Set cugraph as the default backend for NetworkX operations
+    nx.config.backend_priority = ["cugraph"]
+    # Alternative method: set environment variable or use decorator
+    import os
+    os.environ["NETWORKX_BACKEND"] = "cugraph"
     print("🚀 GPU acceleration enabled with nx-cugraph backend!")
-    print(f"Available backends: {nx.config.backends}")
+    print(f"Backend priority: {getattr(nx.config, 'backend_priority', 'Not available')}")
     GPU_AVAILABLE = True
 except ImportError:
     print("⚠️  nx-cugraph not available, falling back to CPU NetworkX")
+    GPU_AVAILABLE = False
+except Exception as e:
+    print(f"⚠️  Error setting up nx-cugraph: {e}")
+    print("Falling back to CPU NetworkX")
     GPU_AVAILABLE = False
 
 # Fix import for direct script execution
