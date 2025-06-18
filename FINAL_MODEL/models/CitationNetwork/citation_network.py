@@ -287,7 +287,7 @@ class CitationNetworkModel:
     def _add_semantic_edges(self, G: nx.Graph, edge_counts: defaultdict):
         """Add semantic similarity edges based on SPECTER2 embeddings."""
         # Create mapping from openalex_id to embedding index
-        id_to_idx = {doc_id: idx for idx, doc_id in enumerate(self.embeddings_metadata['openalex_ids'])}
+        id_to_idx = {doc_id: idx for idx, doc_id in enumerate(self.embeddings_metadata['openalex_id'])}
         
         # Get nodes that have embeddings
         nodes_with_embeddings = [node for node in G.nodes if node in id_to_idx]
@@ -477,7 +477,7 @@ class CitationNetworkModel:
     
     def _get_semantic_features(self, doc_id: str) -> Dict[str, float]:
         """Get semantic similarity features for a document."""
-        if not self.embeddings_metadata or doc_id not in self.embeddings_metadata.get('openalex_ids', []):
+        if not self.embeddings_metadata or doc_id not in self.embeddings_metadata.get('openalex_id', []):
             return {
                 'avg_semantic_similarity': 0.0,
                 'max_semantic_similarity': 0.0,
@@ -486,7 +486,7 @@ class CitationNetworkModel:
         
         try:
             # Get document embedding
-            id_to_idx = {doc_id: idx for idx, doc_id in enumerate(self.embeddings_metadata['openalex_ids'])}
+            id_to_idx = {doc_id: idx for idx, doc_id in enumerate(self.embeddings_metadata['openalex_id'])}
             doc_idx = id_to_idx[doc_id]
             doc_embedding = self.embeddings[doc_idx:doc_idx+1]
             

@@ -518,7 +518,7 @@ class ContentSimilarityModel:
     
     def _extract_semantic_features(self, doc_id: str) -> Dict[str, float]:
         """Extract semantic similarity features using embeddings."""
-        if not self.embeddings_metadata or doc_id not in self.embeddings_metadata.get('openalex_ids', []):
+        if not self.embeddings_metadata or doc_id not in self.embeddings_metadata.get('openalex_id', []):
             return {
                 'semantic_similarity_mean': 0.0,
                 'semantic_similarity_max': 0.0,
@@ -527,7 +527,7 @@ class ContentSimilarityModel:
         
         try:
             # Get document embedding
-            id_to_idx = {doc_id: idx for idx, doc_id in enumerate(self.embeddings_metadata['openalex_ids'])}
+            id_to_idx = {doc_id: idx for idx, doc_id in enumerate(self.embeddings_metadata['openalex_id'])}
             doc_idx = id_to_idx[doc_id]
             doc_embedding = self.embeddings[doc_idx:doc_idx+1]
             
