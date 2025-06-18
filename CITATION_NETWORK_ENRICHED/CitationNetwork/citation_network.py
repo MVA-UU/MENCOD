@@ -18,6 +18,8 @@ from functools import partial
 import pickle
 from multiprocessing import shared_memory
 from concurrent.futures import ProcessPoolExecutor, as_completed
+import json
+import gc
 
 # Fix import for direct script execution
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -72,78 +74,86 @@ from CitationNetwork.network_utils import (
 # Import ranking module
 from CitationNetwork.citation_ranking import apply_sparse_dataset_ranking_adjustments
 
-# Global variables for worker processes
-_graph_data = None
-_relevant_docs = None
+# Global shared memory references for worker processes
+_shared_adjacency = None
+_shared_adjacency_shape = None
+_shared_node_data = None
+_shared_relevant_docs = None
 
-def _init_worker(graph_adjacency, node_attributes, relevant_documents):
-    """Initialize worker process with graph data."""
-    global _graph_data, _relevant_docs
-    _graph_data = {
-        'adjacency': graph_adjacency,
-        'nodes': node_attributes
-    }
-    _relevant_docs = relevant_documents
-
-def _extract_features_worker(doc_ids):
-    """Worker function that uses pre-loaded graph data."""
-    global _graph_data, _relevant_docs
+def _init_worker_shared_memory(adjacency_name, adjacency_shape, node_data_name, relevant_docs_name):
+    """Initialize worker process with shared memory references."""
+    global _shared_adjacency, _shared_adjacency_shape, _shared_node_data, _shared_relevant_docs
     
-    # Reconstruct minimal graph operations from adjacency data
+    # Attach to existing shared memory
+    _shared_adjacency = shared_memory.SharedMemory(name=adjacency_name)
+    _shared_adjacency_shape = adjacency_shape
+    _shared_node_data = shared_memory.SharedMemory(name=node_data_name)
+    _shared_relevant_docs = shared_memory.SharedMemory(name=relevant_docs_name)
+
+def _extract_features_worker_shared(doc_batch):
+    """Worker function using shared memory."""
+    global _shared_adjacency, _shared_adjacency_shape, _shared_node_data, _shared_relevant_docs
+    
+    # Reconstruct data from shared memory
+    adjacency_bytes = bytes(_shared_adjacency.buf)
+    adjacency_data = json.loads(adjacency_bytes.decode('utf-8'))
+    
+    node_data_bytes = bytes(_shared_node_data.buf)
+    node_data = json.loads(node_data_bytes.decode('utf-8'))
+    
+    relevant_docs_bytes = bytes(_shared_relevant_docs.buf)
+    relevant_docs = set(json.loads(relevant_docs_bytes.decode('utf-8')))
+    
+    # Process documents in this batch
     features = []
-    
-    for doc_id in doc_ids:
-        if doc_id not in _graph_data['nodes']:
+    for doc_id in doc_batch:
+        if doc_id not in node_data:
             features.append(get_zero_features(doc_id))
             continue
         
-        # Calculate features using adjacency data instead of full NetworkX graph
+        # Calculate features using the shared data
         doc_features = {
             'openalex_id': doc_id,
-            **_calculate_features_from_adjacency(doc_id, _graph_data, _relevant_docs)
+            **_calculate_features_from_shared_data(doc_id, adjacency_data, relevant_docs)
         }
         features.append(doc_features)
     
     return features
 
-def _calculate_features_from_adjacency(doc_id, graph_data, relevant_documents):
-    """Calculate features using adjacency representation instead of NetworkX graph."""
-    adjacency = graph_data['adjacency']
-    nodes = graph_data['nodes']
-    
-    if doc_id not in adjacency:
+def _calculate_features_from_shared_data(doc_id, adjacency_data, relevant_documents):
+    """Calculate features using shared memory data."""
+    if doc_id not in adjacency_data:
         return get_zero_features(doc_id)
     
-    # Get neighbors and edge data
-    neighbors = adjacency[doc_id]
-    
-    # Basic connectivity
+    neighbors = adjacency_data[doc_id]
     total_degree = len(neighbors)
     
+    if total_degree == 0:
+        return get_zero_features(doc_id)
+    
     # Edge type analysis
-    citation_out = sum(1 for _, edge_data in neighbors.items() if edge_data.get('edge_type') == 'citation')
-    semantic_edges = sum(1 for _, edge_data in neighbors.items() if edge_data.get('edge_type') == 'semantic')
-    coupling_edges = sum(1 for _, edge_data in neighbors.items() if edge_data.get('edge_type') == 'coupling')
-    cocitation_edges = sum(1 for _, edge_data in neighbors.items() if edge_data.get('edge_type') == 'cocitation')
+    citation_out = sum(1 for edge_data in neighbors.values() if edge_data.get('edge_type') == 'citation')
+    semantic_edges = sum(1 for edge_data in neighbors.values() if edge_data.get('edge_type') == 'semantic')
+    coupling_edges = sum(1 for edge_data in neighbors.values() if edge_data.get('edge_type') == 'coupling')
+    cocitation_edges = sum(1 for edge_data in neighbors.values() if edge_data.get('edge_type') == 'cocitation')
     
     # Relevant connections
     relevant_connections = sum(1 for neighbor_id in neighbors.keys() if neighbor_id in relevant_documents)
     relevant_ratio = relevant_connections / max(1, total_degree)
     
-    # Coupling scores
+    # Coupling and co-citation scores
     coupling_scores = [edge_data.get('coupling_count', 0) for edge_data in neighbors.values() 
                       if edge_data.get('edge_type') == 'coupling']
     coupling_score = sum(coupling_scores)
     
-    # Co-citation scores  
     cocitation_scores = [edge_data.get('cocitation_count', 0) for edge_data in neighbors.values()
                         if edge_data.get('edge_type') == 'cocitation']
     cocitation_score = sum(cocitation_scores)
     
     return {
         'total_degree': total_degree,
-        'out_degree': total_degree,  # Simplified for adjacency
-        'in_degree': 0,  # Would need reverse adjacency
+        'out_degree': total_degree,
+        'in_degree': 0,
         'citation_out_degree': citation_out,
         'citation_in_degree': 0,
         'semantic_degree': semantic_edges,
@@ -153,9 +163,9 @@ def _calculate_features_from_adjacency(doc_id, graph_data, relevant_documents):
         'relevant_ratio': relevant_ratio,
         'coupling_score': coupling_score,
         'cocitation_score': cocitation_score,
-        'neighborhood_enrichment_1hop': relevant_ratio,  # Simplified
-        'neighborhood_enrichment_2hop': 0.0,  # Would need 2-hop calculation
-        'citation_diversity': 0.0,  # Simplified
+        'neighborhood_enrichment_1hop': relevant_ratio,
+        'neighborhood_enrichment_2hop': 0.0,
+        'citation_diversity': 0.0,
         'relevant_betweenness': 0.0,
         'structural_anomaly': 0.0,
         'semantic_isolation': 0.0,
@@ -173,30 +183,66 @@ def _calculate_features_from_adjacency(doc_id, graph_data, relevant_documents):
         'network_position_score': relevant_ratio
     }
 
-def _extract_direct_adjacency(G, target_documents, relevant_documents):
-    """Extract adjacency data directly for target and relevant documents only."""
-    print("Extracting direct adjacency data for essential documents only...")
+def _create_shared_memory_data(G, relevant_documents, target_documents):
+    """Create shared memory objects for multiprocessing."""
+    print("Creating shared memory for multiprocessing...")
     
-    # Only process target documents + relevant documents
-    essential_docs = set(target_documents).union(set(relevant_documents))
+    # Create minimal subgraph
+    nodes_needed = set(target_documents)
+    nodes_needed.update(relevant_documents)
     
-    adjacency = {}
-    node_attributes = {}
+    # Add immediate neighbors of target documents only (not full 2-hop)
+    print(f"Adding neighbors for {len(target_documents)} target documents...")
+    for doc in target_documents:
+        if doc in G.nodes:
+            neighbors = list(G.neighbors(doc))[:50]  # Limit to 50 neighbors per doc
+            nodes_needed.update(neighbors)
     
-    for doc_id in essential_docs:
-        if doc_id in G.nodes:
-            # Store node attributes
-            node_attributes[doc_id] = G.nodes[doc_id]
-            adjacency[doc_id] = {}
-            
-            # Store edges to other essential documents only
-            for neighbor in G.neighbors(doc_id):
-                if neighbor in essential_docs and G.has_edge(doc_id, neighbor):
-                    edge_data = G[doc_id][neighbor]
-                    adjacency[doc_id][neighbor] = edge_data
+    print(f"Subgraph contains {len(nodes_needed)} nodes (reduced from {len(G.nodes)})")
     
-    print(f"Direct adjacency extracted: {len(adjacency)} nodes, {sum(len(neighbors) for neighbors in adjacency.values())} edges")
-    return adjacency, node_attributes
+    # Extract subgraph
+    subgraph = G.subgraph(nodes_needed)
+    
+    # Create adjacency data (only essential information)
+    adjacency_data = {}
+    node_data = {}
+    
+    for node in subgraph.nodes(data=True):
+        node_id, attrs = node
+        node_data[node_id] = attrs
+        adjacency_data[node_id] = {}
+        
+        # Store only essential edge data to minimize memory
+        for neighbor in subgraph.neighbors(node_id):
+            if subgraph.has_edge(node_id, neighbor):
+                edge_data = subgraph[node_id][neighbor]
+                # Store only essential fields
+                essential_edge_data = {
+                    'edge_type': edge_data.get('edge_type', 'unknown'),
+                    'weight': edge_data.get('weight', 1.0),
+                    'coupling_count': edge_data.get('coupling_count', 0),
+                    'cocitation_count': edge_data.get('cocitation_count', 0)
+                }
+                adjacency_data[node_id][neighbor] = essential_edge_data
+    
+    # Convert to JSON for shared memory
+    adjacency_json = json.dumps(adjacency_data).encode('utf-8')
+    node_data_json = json.dumps(node_data).encode('utf-8')
+    relevant_docs_json = json.dumps(list(relevant_documents)).encode('utf-8')
+    
+    # Create shared memory objects
+    print(f"Creating shared memory: adjacency={len(adjacency_json)} bytes, nodes={len(node_data_json)} bytes")
+    
+    shm_adjacency = shared_memory.SharedMemory(create=True, size=len(adjacency_json))
+    shm_adjacency.buf[:len(adjacency_json)] = adjacency_json
+    
+    shm_node_data = shared_memory.SharedMemory(create=True, size=len(node_data_json))
+    shm_node_data.buf[:len(node_data_json)] = node_data_json
+    
+    shm_relevant_docs = shared_memory.SharedMemory(create=True, size=len(relevant_docs_json))
+    shm_relevant_docs.buf[:len(relevant_docs_json)] = relevant_docs_json
+    
+    return shm_adjacency, shm_node_data, shm_relevant_docs
 
 def _prepare_graph_for_multiprocessing(G, relevant_documents, target_documents=None):
     """Convert NetworkX graph to multiprocessing-friendly format."""
@@ -206,47 +252,16 @@ def _prepare_graph_for_multiprocessing(G, relevant_documents, target_documents=N
     if target_documents:
         print(f"Extracting subgraph for {len(target_documents)} target documents...")
         
-        # Get all nodes we need: target docs + relevant docs
+        # Get all nodes we need: target docs + relevant docs + their immediate neighbors
         nodes_needed = set(target_documents)
         nodes_needed.update(relevant_documents)
         
-        # For very large graphs, be more selective about neighbors
-        if len(G.nodes) > 20000:  # Large graph - be selective
-            print("Large graph detected - using selective neighbor sampling...")
-            
-            # Only add neighbors of relevant documents (most important for features)
-            for doc in relevant_documents:
-                if doc in G.nodes:
-                    neighbors = list(G.neighbors(doc))
-                    # Limit neighbors per document to avoid explosion
-                    if len(neighbors) > 100:  # If highly connected, sample
-                        import random
-                        neighbors = random.sample(neighbors, 100)
-                    nodes_needed.update(neighbors)
-            
-            # For target documents, only add a sample of neighbors
-            for doc in list(target_documents):
-                if doc in G.nodes:
-                    neighbors = list(G.neighbors(doc))
-                    # Much more limited for target docs
-                    if len(neighbors) > 50:
-                        import random
-                        neighbors = random.sample(neighbors, 50)
-                    elif len(neighbors) > 20:
-                        neighbors = neighbors[:20]  # Take first 20
-                    nodes_needed.update(neighbors)
-        else:
-            # For smaller graphs, add all immediate neighbors
-            for doc in list(nodes_needed):
-                if doc in G.nodes:
-                    nodes_needed.update(G.neighbors(doc))
+        # Add immediate neighbors of target and relevant documents
+        for doc in list(nodes_needed):
+            if doc in G.nodes:
+                nodes_needed.update(G.neighbors(doc))
         
         print(f"Subgraph contains {len(nodes_needed)} nodes (reduced from {len(G.nodes)})")
-        
-        # If subgraph is still too large (>80% of original), fall back to direct processing
-        if len(nodes_needed) > 0.8 * len(G.nodes):
-            print(f"Subgraph still too large ({len(nodes_needed)} nodes), using direct adjacency extraction...")
-            return _extract_direct_adjacency(G, target_documents, relevant_documents)
         
         # Extract subgraph
         subgraph = G.subgraph(nodes_needed)
@@ -537,11 +552,11 @@ class CitationNetworkModel:
                 }
                 features.append(doc_features)
         else:
-            # Use optimized multiprocessing with adjacency representation
-            print(f"Extracting features for {len(target_documents)} documents using {self.n_cores} cores (optimized)")
+            # Use optimized shared memory multiprocessing
+            print(f"Extracting features for {len(target_documents)} documents using {self.n_cores} cores (shared memory)")
             
-            # Convert graph to multiprocessing-friendly format
-            adjacency, node_attributes = _prepare_graph_for_multiprocessing(self.G, self.relevant_documents, target_documents)
+            # Create shared memory objects
+            shm_adjacency, shm_node_data, shm_relevant_docs = _create_shared_memory_data(self.G, self.relevant_documents, target_documents)
             
             # Split documents into batches
             batch_size = max(50, len(target_documents) // self.n_cores)
@@ -551,14 +566,14 @@ class CitationNetworkModel:
             
             features = []
             try:
-                # Use ProcessPoolExecutor with initializer
+                # Use ProcessPoolExecutor with shared memory initializer
                 with ProcessPoolExecutor(
                     max_workers=self.n_cores,
-                    initializer=_init_worker,
-                    initargs=(adjacency, node_attributes, self.relevant_documents)
+                    initializer=_init_worker_shared_memory,
+                    initargs=(shm_adjacency.name, None, shm_node_data.name, shm_relevant_docs.name)
                 ) as executor:
                     # Submit all batches
-                    future_to_batch = {executor.submit(_extract_features_worker, batch): i for i, batch in enumerate(batches)}
+                    future_to_batch = {executor.submit(_extract_features_worker_shared, batch): i for i, batch in enumerate(batches)}
                     
                     # Collect results as they complete
                     completed = 0
@@ -577,7 +592,7 @@ class CitationNetworkModel:
                             for doc_id in failed_batch:
                                 features.append(get_zero_features(doc_id))
                 
-                print(f"Multiprocessing feature extraction completed: {len(features)} documents processed")
+                print(f"Shared memory multiprocessing completed: {len(features)} documents processed")
                 
             except Exception as e:
                 print(f"Multiprocessing failed: {e}, falling back to single-threaded processing")
@@ -602,6 +617,19 @@ class CitationNetworkModel:
                     if (i + 1) % 100 == 0:
                         progress = ((i + 1) / len(target_documents)) * 100
                         print(f"  Fallback progress: {i + 1}/{len(target_documents)} ({progress:.1f}%)")
+            
+            finally:
+                # Clean up shared memory
+                try:
+                    shm_adjacency.close()
+                    shm_adjacency.unlink()
+                    shm_node_data.close()
+                    shm_node_data.unlink()
+                    shm_relevant_docs.close()
+                    shm_relevant_docs.unlink()
+                    print("Shared memory cleaned up")
+                except:
+                    pass
         
         return pd.DataFrame(features)
     
@@ -636,8 +664,8 @@ class CitationNetworkModel:
             
             print(f"Processing {len(batches)} batches with ~{batch_size} documents each")
             
-            # Prepare graph data for multiprocessing
-            adjacency, node_attributes = _prepare_graph_for_multiprocessing(self.G, self.relevant_documents, target_documents)
+            # Create shared memory objects for scoring
+            shm_adjacency, shm_node_data, shm_relevant_docs = _create_shared_memory_data(self.G, self.relevant_documents, target_documents)
             
             all_scores = {'isolation': [], 'coupling': [], 'neighborhood': [], 'advanced': [], 'temporal': [], 'efficiency': []}
             raw_scores = {}
@@ -646,11 +674,11 @@ class CitationNetworkModel:
             try:
                 with ProcessPoolExecutor(
                     max_workers=self.n_cores,
-                    initializer=_init_worker,
-                    initargs=(adjacency, node_attributes, self.relevant_documents)
+                    initializer=_init_worker_shared_memory,
+                    initargs=(shm_adjacency.name, None, shm_node_data.name, shm_relevant_docs.name)
                 ) as executor:
                     # Submit all batches for feature extraction
-                    future_to_batch = {executor.submit(_extract_features_worker, batch): i for i, batch in enumerate(batches)}
+                    future_to_batch = {executor.submit(_extract_features_worker_shared, batch): i for i, batch in enumerate(batches)}
                     
                     # Process results as they complete
                     completed = 0
@@ -713,12 +741,25 @@ class CitationNetworkModel:
                                 raw_scores[doc_id] = 0.0
                                 feature_cache[doc_id] = get_zero_features(doc_id)
                 
-                print(f"Multiprocessing scoring completed: {len(raw_scores)} documents processed")
+                print(f"Shared memory scoring completed: {len(raw_scores)} documents processed")
                 
             except Exception as e:
                 print(f"Multiprocessing scoring failed: {e}, falling back to single-threaded")
                 # Fallback to single-threaded processing
                 return self._process_single_threaded(target_documents, weights, coupling_scaling, isolation_scaling, sparsity_factor, relevant_ratio)
+            
+            finally:
+                # Clean up shared memory
+                try:
+                    shm_adjacency.close()
+                    shm_adjacency.unlink()
+                    shm_node_data.close()
+                    shm_node_data.unlink()
+                    shm_relevant_docs.close()
+                    shm_relevant_docs.unlink()
+                    print("Shared memory cleaned up")
+                except:
+                    pass
         
         else:
             # Single-threaded processing for smaller datasets
