@@ -547,53 +547,18 @@ class CitationNetworkModel:
                 }
                 features.append(doc_features)
         else:
-            # Use optimized shared memory multiprocessing
-            print(f"Extracting features for {len(target_documents)} documents using {self.n_cores} cores (shared memory)")
-            
-            # Create shared memory objects
-            shm_adjacency, shm_node_mapping, shm_relevant_docs = _create_shared_memory_data(self.G, self.relevant_documents, target_documents)
-            
-            # Split documents into batches
-            batch_size = max(50, len(target_documents) // self.n_cores)
-            batches = [target_documents[i:i + batch_size] for i in range(0, len(target_documents), batch_size)]
-            
-            print(f"Processing {len(batches)} batches with {batch_size} documents each")
+            # Use efficient single-threaded processing with progress reporting
+            print(f"Extracting features for {len(target_documents)} documents (optimized single-threaded)")
             
             features = []
-            try:
-                # Use ProcessPoolExecutor with shared memory initializer
-                with ProcessPoolExecutor(
-                    max_workers=self.n_cores,
-                    initializer=_init_worker_shared_memory,
-                    initargs=(shm_adjacency.name, shm_node_mapping.name, shm_relevant_docs.name)
-                ) as executor:
-                    # Submit all batches
-                    future_to_batch = {executor.submit(_extract_features_worker_shared, batch): i for i, batch in enumerate(batches)}
-                    
-                    # Collect results as they complete
-                    completed = 0
-                    for future in as_completed(future_to_batch):
-                        batch_idx = future_to_batch[future]
-                        try:
-                            batch_features = future.result()
-                            features.extend(batch_features)
-                            completed += 1
-                            progress = (completed / len(batches)) * 100
-                            print(f"  Completed batch {completed}/{len(batches)} ({progress:.1f}%)")
-                        except Exception as exc:
-                            print(f"Batch {batch_idx} generated an exception: {exc}")
-                            # Fallback for failed batch
-                            failed_batch = batches[batch_idx]
-                            for doc_id in failed_batch:
-                                features.append(get_zero_features(doc_id))
+            batch_size = 100  # Process in batches for progress reporting
+            
+            for i in range(0, len(target_documents), batch_size):
+                batch_end = min(i + batch_size, len(target_documents))
+                batch_docs = target_documents[i:batch_end]
                 
-                print(f"Shared memory multiprocessing completed: {len(features)} documents processed")
-                
-            except Exception as e:
-                print(f"Multiprocessing failed: {e}, falling back to single-threaded processing")
-                # Fallback to single-threaded
-                features = []
-                for i, doc_id in enumerate(target_documents):
+                # Process batch
+                for doc_id in batch_docs:
                     if doc_id not in self.G.nodes:
                         features.append(get_zero_features(doc_id))
                         continue
@@ -608,23 +573,10 @@ class CitationNetworkModel:
                         **get_efficiency_features(self.G, doc_id, self.relevant_documents)
                     }
                     features.append(doc_features)
-                    
-                    if (i + 1) % 100 == 0:
-                        progress = ((i + 1) / len(target_documents)) * 100
-                        print(f"  Fallback progress: {i + 1}/{len(target_documents)} ({progress:.1f}%)")
-            
-            finally:
-                # Clean up shared memory
-                try:
-                    shm_adjacency.close()
-                    shm_adjacency.unlink()
-                    shm_node_mapping.close()
-                    shm_node_mapping.unlink()
-                    shm_relevant_docs.close()
-                    shm_relevant_docs.unlink()
-                    print("Shared memory cleaned up")
-                except:
-                    pass
+                
+                # Progress reporting
+                progress = (batch_end / len(target_documents)) * 100
+                print(f"  Processed {batch_end}/{len(target_documents)} documents ({progress:.1f}%)")
         
         return pd.DataFrame(features)
     
@@ -649,135 +601,27 @@ class CitationNetworkModel:
         coupling_scaling = 1.0 + sparsity_factor * 0.5  # More scaling for sparser datasets
         isolation_scaling = 1.0 - sparsity_factor * 0.2
         
-        # Use optimized multiprocessing for all large datasets
-        if search_pool_size > 500 and self.n_cores > 1:
-            print(f"Processing {search_pool_size} documents using {self.n_cores} cores (optimized scoring)...")
-            
-            # Process in larger batches for scoring (less overhead than feature extraction)
-            batch_size = max(200, search_pool_size // self.n_cores)
-            batches = [target_documents[i:i + batch_size] for i in range(0, len(target_documents), batch_size)]
-            
-            print(f"Processing {len(batches)} batches with ~{batch_size} documents each")
-            
-            # Create shared memory objects for scoring
-            shm_adjacency, shm_node_mapping, shm_relevant_docs = _create_shared_memory_data(self.G, self.relevant_documents, target_documents)
-            
-            all_scores = {'isolation': [], 'coupling': [], 'neighborhood': [], 'advanced': [], 'temporal': [], 'efficiency': []}
-            raw_scores = {}
-            feature_cache = {}
-            
-            try:
-                with ProcessPoolExecutor(
-                    max_workers=self.n_cores,
-                    initializer=_init_worker_shared_memory,
-                    initargs=(shm_adjacency.name, shm_node_mapping.name, shm_relevant_docs.name)
-                ) as executor:
-                    # Submit all batches for feature extraction
-                    future_to_batch = {executor.submit(_extract_features_worker_shared, batch): i for i, batch in enumerate(batches)}
-                    
-                    # Process results as they complete
-                    completed = 0
-                    for future in as_completed(future_to_batch):
-                        batch_idx = future_to_batch[future]
-                        try:
-                            batch_features = future.result()
-                            
-                            # Calculate scores for this batch
-                            for doc_features in batch_features:
-                                doc_id = doc_features['openalex_id']
-                                feature_cache[doc_id] = doc_features
-                                
-                                # Calculate component scores
-                                iso_score = calculate_isolation_deviation(doc_features, self.baseline_stats, self.G, self.relevant_documents)
-                                coup_score = calculate_coupling_deviation(doc_features, self.baseline_stats)
-                                neigh_score = calculate_neighborhood_deviation(doc_features, self.baseline_stats)
-                                adv_score = calculate_advanced_score(doc_features, relevant_ratio)
-                                temp_score = calculate_temporal_score(doc_features, self.baseline_stats)
-                                eff_score = calculate_efficiency_score(doc_features, self.baseline_stats)
-                                
-                                # Apply scaling factors
-                                coup_score = min(1.0, coup_score * coupling_scaling)
-                                iso_score = min(1.0, iso_score * isolation_scaling)
-                                
-                                # Data-driven score adjustments based on sparsity
-                                if sparsity_factor > 0.7:  # Very sparse dataset
-                                    if doc_features.get('relevant_connections', 0) > 0:
-                                        mean_ratio = self.baseline_stats.get('mean_relevant_ratio', 0.2)
-                                        if mean_ratio > 0:
-                                            ratio_factor = min(1.5, doc_features.get('relevant_ratio', 0) / mean_ratio)
-                                            coup_score = min(0.95, coup_score * ratio_factor)
-                                
-                                # Store component scores
-                                all_scores['isolation'].append(iso_score)
-                                all_scores['coupling'].append(coup_score)
-                                all_scores['neighborhood'].append(neigh_score)
-                                all_scores['advanced'].append(adv_score)
-                                all_scores['temporal'].append(temp_score)
-                                all_scores['efficiency'].append(eff_score)
-                                
-                                # Store raw combined score
-                                raw_scores[doc_id] = (
-                                    weights['isolation'] * iso_score + 
-                                    weights['coupling'] * coup_score + 
-                                    weights['neighborhood'] * neigh_score +
-                                    weights['temporal'] * temp_score +
-                                    weights['efficiency'] * eff_score
-                                )
-                            
-                            completed += 1
-                            progress = (completed / len(batches)) * 100
-                            print(f"  Completed scoring batch {completed}/{len(batches)} ({progress:.1f}%)")
-                            
-                        except Exception as exc:
-                            print(f"Scoring batch {batch_idx} generated an exception: {exc}")
-                            # Add zero scores for failed batch
-                            failed_batch = batches[batch_idx]
-                            for doc_id in failed_batch:
-                                raw_scores[doc_id] = 0.0
-                                feature_cache[doc_id] = get_zero_features(doc_id)
-                
-                print(f"Shared memory scoring completed: {len(raw_scores)} documents processed")
-                
-            except Exception as e:
-                print(f"Multiprocessing scoring failed: {e}, falling back to single-threaded")
-                # Fallback to single-threaded processing
-                return self._process_single_threaded(target_documents, weights, coupling_scaling, isolation_scaling, sparsity_factor, relevant_ratio)
-            
-            finally:
-                # Clean up shared memory
-                try:
-                    shm_adjacency.close()
-                    shm_adjacency.unlink()
-                    shm_node_mapping.close()
-                    shm_node_mapping.unlink()
-                    shm_relevant_docs.close()
-                    shm_relevant_docs.unlink()
-                    print("Shared memory cleaned up")
-                except:
-                    pass
-        
+        # Use efficient single-threaded processing for all datasets
+        if search_pool_size > 500:
+            print(f"Processing {search_pool_size} documents (optimized single-threaded scoring)...")
         else:
-            # Single-threaded processing for smaller datasets
             print(f"Processing {search_pool_size} documents in single-threaded mode...")
-            return self._process_single_threaded(target_documents, weights, coupling_scaling, isolation_scaling, sparsity_factor, relevant_ratio)
         
-        # Normalize and post-process scores
-        scores = self._normalize_scores(raw_scores, all_scores, feature_cache, sparsity_factor)
-        return scores
+        return self._process_single_threaded(target_documents, weights, coupling_scaling, isolation_scaling, sparsity_factor, relevant_ratio)
     
     def _process_single_threaded(self, target_documents, weights, coupling_scaling, isolation_scaling, sparsity_factor, relevant_ratio):
-        """Single-threaded processing fallback."""
+        """Single-threaded processing with optimized progress reporting."""
         batch_size = 200
         all_scores = {'isolation': [], 'coupling': [], 'neighborhood': [], 'advanced': [], 'temporal': [], 'efficiency': []}
         raw_scores = {}
         feature_cache = {}
         
-        # Process in batches
+        # Process in batches with progress reporting
         for batch_start in range(0, len(target_documents), batch_size):
             batch_end = min(batch_start + batch_size, len(target_documents))
             batch_docs = target_documents[batch_start:batch_end]
             
-            # Get features for this batch
+            # Get features for this batch efficiently
             features_df = self.get_citation_features(batch_docs)
             
             # Calculate scores for each document in batch
@@ -822,9 +666,9 @@ class CitationNetworkModel:
                     weights['efficiency'] * eff_score
                 )
             
-            # Report progress
-            if len(target_documents) > 500:
-                print(f"Processed batch {batch_start+1}-{batch_end} of {len(target_documents)}")
+            # Progress reporting
+            progress = (batch_end / len(target_documents)) * 100
+            print(f"  Scored {batch_end}/{len(target_documents)} documents ({progress:.1f}%)")
         
         # Normalize and post-process scores
         scores = self._normalize_scores(raw_scores, all_scores, feature_cache, sparsity_factor)
