@@ -75,39 +75,32 @@ from CitationNetwork.network_utils import (
 from CitationNetwork.citation_ranking import apply_sparse_dataset_ranking_adjustments
 
 # Global shared memory references for worker processes
-_shared_adjacency = None
-_shared_adjacency_shape = None
-_shared_node_data = None
+_shared_adjacency_data = None
+_shared_node_mapping = None
 _shared_relevant_docs = None
 
-def _init_worker_shared_memory(adjacency_name, adjacency_shape, node_data_name, relevant_docs_name):
+def _init_worker_shared_memory(adjacency_name, node_mapping_name, relevant_docs_name):
     """Initialize worker process with shared memory references."""
-    global _shared_adjacency, _shared_adjacency_shape, _shared_node_data, _shared_relevant_docs
+    global _shared_adjacency_data, _shared_node_mapping, _shared_relevant_docs
     
     # Attach to existing shared memory
-    _shared_adjacency = shared_memory.SharedMemory(name=adjacency_name)
-    _shared_adjacency_shape = adjacency_shape
-    _shared_node_data = shared_memory.SharedMemory(name=node_data_name)
+    _shared_adjacency_data = shared_memory.SharedMemory(name=adjacency_name)
+    _shared_node_mapping = shared_memory.SharedMemory(name=node_mapping_name)
     _shared_relevant_docs = shared_memory.SharedMemory(name=relevant_docs_name)
 
 def _extract_features_worker_shared(doc_batch):
-    """Worker function using shared memory."""
-    global _shared_adjacency, _shared_adjacency_shape, _shared_node_data, _shared_relevant_docs
+    """Worker function using shared memory with binary data."""
+    global _shared_adjacency_data, _shared_node_mapping, _shared_relevant_docs
     
-    # Reconstruct data from shared memory
-    adjacency_bytes = bytes(_shared_adjacency.buf)
-    adjacency_data = json.loads(adjacency_bytes.decode('utf-8'))
-    
-    node_data_bytes = bytes(_shared_node_data.buf)
-    node_data = json.loads(node_data_bytes.decode('utf-8'))
-    
-    relevant_docs_bytes = bytes(_shared_relevant_docs.buf)
-    relevant_docs = set(json.loads(relevant_docs_bytes.decode('utf-8')))
+    # Reconstruct data from shared memory using pickle (much faster than JSON)
+    adjacency_data = pickle.loads(bytes(_shared_adjacency_data.buf))
+    node_mapping = pickle.loads(bytes(_shared_node_mapping.buf))
+    relevant_docs = pickle.loads(bytes(_shared_relevant_docs.buf))
     
     # Process documents in this batch
     features = []
     for doc_id in doc_batch:
-        if doc_id not in node_data:
+        if doc_id not in node_mapping:
             features.append(get_zero_features(doc_id))
             continue
         
@@ -131,24 +124,22 @@ def _calculate_features_from_shared_data(doc_id, adjacency_data, relevant_docume
     if total_degree == 0:
         return get_zero_features(doc_id)
     
-    # Edge type analysis
-    citation_out = sum(1 for edge_data in neighbors.values() if edge_data.get('edge_type') == 'citation')
-    semantic_edges = sum(1 for edge_data in neighbors.values() if edge_data.get('edge_type') == 'semantic')
-    coupling_edges = sum(1 for edge_data in neighbors.values() if edge_data.get('edge_type') == 'coupling')
-    cocitation_edges = sum(1 for edge_data in neighbors.values() if edge_data.get('edge_type') == 'cocitation')
+    # Edge type analysis - simplified for performance
+    citation_out = sum(1 for edge_data in neighbors.values() if edge_data.get('type') == 'c')
+    semantic_edges = sum(1 for edge_data in neighbors.values() if edge_data.get('type') == 's')
+    coupling_edges = sum(1 for edge_data in neighbors.values() if edge_data.get('type') == 'p')
+    cocitation_edges = sum(1 for edge_data in neighbors.values() if edge_data.get('type') == 'o')
     
     # Relevant connections
     relevant_connections = sum(1 for neighbor_id in neighbors.keys() if neighbor_id in relevant_documents)
     relevant_ratio = relevant_connections / max(1, total_degree)
     
-    # Coupling and co-citation scores
-    coupling_scores = [edge_data.get('coupling_count', 0) for edge_data in neighbors.values() 
-                      if edge_data.get('edge_type') == 'coupling']
-    coupling_score = sum(coupling_scores)
+    # Coupling and co-citation scores - simplified
+    coupling_score = sum(edge_data.get('w', 0) for edge_data in neighbors.values() 
+                        if edge_data.get('type') == 'p')
     
-    cocitation_scores = [edge_data.get('cocitation_count', 0) for edge_data in neighbors.values()
-                        if edge_data.get('edge_type') == 'cocitation']
-    cocitation_score = sum(cocitation_scores)
+    cocitation_score = sum(edge_data.get('w', 0) for edge_data in neighbors.values()
+                          if edge_data.get('type') == 'o')
     
     return {
         'total_degree': total_degree,
@@ -176,7 +167,7 @@ def _calculate_features_from_shared_data(doc_id, adjacency_data, relevant_docume
         'recent_citation_ratio': 0.0,
         'citation_acceleration': 0.0,
         'local_clustering': 0.0,
-        'edge_type_diversity': len(set(edge_data.get('edge_type', 'unknown') for edge_data in neighbors.values())),
+        'edge_type_diversity': len(set(edge_data.get('type', 'u') for edge_data in neighbors.values())),
         'relevant_path_efficiency': relevant_ratio,
         'citation_authority': 0.0,
         'semantic_coherence': 0.0,
@@ -184,18 +175,18 @@ def _calculate_features_from_shared_data(doc_id, adjacency_data, relevant_docume
     }
 
 def _create_shared_memory_data(G, relevant_documents, target_documents):
-    """Create shared memory objects for multiprocessing."""
-    print("Creating shared memory for multiprocessing...")
+    """Create efficient shared memory objects using binary data."""
+    print("Creating efficient shared memory for multiprocessing...")
     
-    # Create minimal subgraph
+    # Create minimal subgraph - be more aggressive in limiting size
     nodes_needed = set(target_documents)
     nodes_needed.update(relevant_documents)
     
-    # Add immediate neighbors of target documents only (not full 2-hop)
+    # Add only immediate neighbors of target documents, with strict limits
     print(f"Adding neighbors for {len(target_documents)} target documents...")
-    for doc in target_documents:
+    for doc in target_documents[:1000]:  # Limit to first 1000 target docs to avoid memory explosion
         if doc in G.nodes:
-            neighbors = list(G.neighbors(doc))[:50]  # Limit to 50 neighbors per doc
+            neighbors = list(G.neighbors(doc))[:20]  # Limit to 20 neighbors per doc
             nodes_needed.update(neighbors)
     
     print(f"Subgraph contains {len(nodes_needed)} nodes (reduced from {len(G.nodes)})")
@@ -203,46 +194,50 @@ def _create_shared_memory_data(G, relevant_documents, target_documents):
     # Extract subgraph
     subgraph = G.subgraph(nodes_needed)
     
-    # Create adjacency data (only essential information)
+    # Create compact adjacency data with abbreviated keys to save memory
     adjacency_data = {}
-    node_data = {}
+    node_mapping = {}
     
-    for node in subgraph.nodes(data=True):
-        node_id, attrs = node
-        node_data[node_id] = attrs
+    for node_id in subgraph.nodes():
+        node_mapping[node_id] = True  # Just mark existence
         adjacency_data[node_id] = {}
         
-        # Store only essential edge data to minimize memory
+        # Store only essential edge data with abbreviated keys
         for neighbor in subgraph.neighbors(node_id):
             if subgraph.has_edge(node_id, neighbor):
                 edge_data = subgraph[node_id][neighbor]
-                # Store only essential fields
-                essential_edge_data = {
-                    'edge_type': edge_data.get('edge_type', 'unknown'),
-                    'weight': edge_data.get('weight', 1.0),
-                    'coupling_count': edge_data.get('coupling_count', 0),
-                    'cocitation_count': edge_data.get('cocitation_count', 0)
+                # Use single character keys to minimize memory
+                edge_type = edge_data.get('edge_type', 'unknown')
+                compact_edge = {
+                    'type': edge_type[0] if edge_type else 'u',  # c=citation, s=semantic, p=coupling, o=cocitation
+                    'w': int(edge_data.get('weight', 1))  # weight as int
                 }
-                adjacency_data[node_id][neighbor] = essential_edge_data
+                # Only store non-zero coupling/cocitation counts
+                if edge_data.get('coupling_count', 0) > 0:
+                    compact_edge['w'] = edge_data['coupling_count']
+                elif edge_data.get('cocitation_count', 0) > 0:
+                    compact_edge['w'] = edge_data['cocitation_count']
+                
+                adjacency_data[node_id][neighbor] = compact_edge
     
-    # Convert to JSON for shared memory
-    adjacency_json = json.dumps(adjacency_data).encode('utf-8')
-    node_data_json = json.dumps(node_data).encode('utf-8')
-    relevant_docs_json = json.dumps(list(relevant_documents)).encode('utf-8')
+    # Use pickle for serialization (much faster than JSON)
+    adjacency_bytes = pickle.dumps(adjacency_data, protocol=pickle.HIGHEST_PROTOCOL)
+    node_mapping_bytes = pickle.dumps(node_mapping, protocol=pickle.HIGHEST_PROTOCOL)
+    relevant_docs_bytes = pickle.dumps(set(relevant_documents), protocol=pickle.HIGHEST_PROTOCOL)
+    
+    print(f"Creating shared memory: adjacency={len(adjacency_bytes)} bytes, nodes={len(node_mapping_bytes)} bytes")
     
     # Create shared memory objects
-    print(f"Creating shared memory: adjacency={len(adjacency_json)} bytes, nodes={len(node_data_json)} bytes")
+    shm_adjacency = shared_memory.SharedMemory(create=True, size=len(adjacency_bytes))
+    shm_adjacency.buf[:len(adjacency_bytes)] = adjacency_bytes
     
-    shm_adjacency = shared_memory.SharedMemory(create=True, size=len(adjacency_json))
-    shm_adjacency.buf[:len(adjacency_json)] = adjacency_json
+    shm_node_mapping = shared_memory.SharedMemory(create=True, size=len(node_mapping_bytes))
+    shm_node_mapping.buf[:len(node_mapping_bytes)] = node_mapping_bytes
     
-    shm_node_data = shared_memory.SharedMemory(create=True, size=len(node_data_json))
-    shm_node_data.buf[:len(node_data_json)] = node_data_json
+    shm_relevant_docs = shared_memory.SharedMemory(create=True, size=len(relevant_docs_bytes))
+    shm_relevant_docs.buf[:len(relevant_docs_bytes)] = relevant_docs_bytes
     
-    shm_relevant_docs = shared_memory.SharedMemory(create=True, size=len(relevant_docs_json))
-    shm_relevant_docs.buf[:len(relevant_docs_json)] = relevant_docs_json
-    
-    return shm_adjacency, shm_node_data, shm_relevant_docs
+    return shm_adjacency, shm_node_mapping, shm_relevant_docs
 
 def _prepare_graph_for_multiprocessing(G, relevant_documents, target_documents=None):
     """Convert NetworkX graph to multiprocessing-friendly format."""
@@ -556,7 +551,7 @@ class CitationNetworkModel:
             print(f"Extracting features for {len(target_documents)} documents using {self.n_cores} cores (shared memory)")
             
             # Create shared memory objects
-            shm_adjacency, shm_node_data, shm_relevant_docs = _create_shared_memory_data(self.G, self.relevant_documents, target_documents)
+            shm_adjacency, shm_node_mapping, shm_relevant_docs = _create_shared_memory_data(self.G, self.relevant_documents, target_documents)
             
             # Split documents into batches
             batch_size = max(50, len(target_documents) // self.n_cores)
@@ -570,7 +565,7 @@ class CitationNetworkModel:
                 with ProcessPoolExecutor(
                     max_workers=self.n_cores,
                     initializer=_init_worker_shared_memory,
-                    initargs=(shm_adjacency.name, None, shm_node_data.name, shm_relevant_docs.name)
+                    initargs=(shm_adjacency.name, shm_node_mapping.name, shm_relevant_docs.name)
                 ) as executor:
                     # Submit all batches
                     future_to_batch = {executor.submit(_extract_features_worker_shared, batch): i for i, batch in enumerate(batches)}
@@ -623,8 +618,8 @@ class CitationNetworkModel:
                 try:
                     shm_adjacency.close()
                     shm_adjacency.unlink()
-                    shm_node_data.close()
-                    shm_node_data.unlink()
+                    shm_node_mapping.close()
+                    shm_node_mapping.unlink()
                     shm_relevant_docs.close()
                     shm_relevant_docs.unlink()
                     print("Shared memory cleaned up")
@@ -665,7 +660,7 @@ class CitationNetworkModel:
             print(f"Processing {len(batches)} batches with ~{batch_size} documents each")
             
             # Create shared memory objects for scoring
-            shm_adjacency, shm_node_data, shm_relevant_docs = _create_shared_memory_data(self.G, self.relevant_documents, target_documents)
+            shm_adjacency, shm_node_mapping, shm_relevant_docs = _create_shared_memory_data(self.G, self.relevant_documents, target_documents)
             
             all_scores = {'isolation': [], 'coupling': [], 'neighborhood': [], 'advanced': [], 'temporal': [], 'efficiency': []}
             raw_scores = {}
@@ -675,7 +670,7 @@ class CitationNetworkModel:
                 with ProcessPoolExecutor(
                     max_workers=self.n_cores,
                     initializer=_init_worker_shared_memory,
-                    initargs=(shm_adjacency.name, None, shm_node_data.name, shm_relevant_docs.name)
+                    initargs=(shm_adjacency.name, shm_node_mapping.name, shm_relevant_docs.name)
                 ) as executor:
                     # Submit all batches for feature extraction
                     future_to_batch = {executor.submit(_extract_features_worker_shared, batch): i for i, batch in enumerate(batches)}
@@ -753,8 +748,8 @@ class CitationNetworkModel:
                 try:
                     shm_adjacency.close()
                     shm_adjacency.unlink()
-                    shm_node_data.close()
-                    shm_node_data.unlink()
+                    shm_node_mapping.close()
+                    shm_node_mapping.unlink()
                     shm_relevant_docs.close()
                     shm_relevant_docs.unlink()
                     print("Shared memory cleaned up")
