@@ -11,7 +11,7 @@ import sys
 import os
 import time
 import json
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
 
 # Add the current directory to Python path for imports
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
