@@ -151,13 +151,11 @@ class CitationNetworkModel:
             
             # Transform metadata to have the expected structure
             if 'documents' in metadata_raw:
-                # Extract openalex_ids from documents array
+                # Extract openalex_ids from documents array (keep full URL format)
                 openalex_ids = []
                 for doc in metadata_raw['documents']:
                     openalex_id = doc.get('openalex_id', '')
-                    # Remove the OpenAlex URL prefix if present
-                    if openalex_id.startswith('https://openalex.org/'):
-                        openalex_id = openalex_id.replace('https://openalex.org/', '')
+                    # Keep the full URL format to match simulation data
                     openalex_ids.append(openalex_id)
                 
                 metadata = {
