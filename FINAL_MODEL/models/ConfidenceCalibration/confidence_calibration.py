@@ -489,26 +489,33 @@ class ConfidenceCalibrationModel:
         # Extract features
         features_df = self.extract_features(target_documents)
         
-        # Calculate relevance scores
+        # Calculate relevance scores focused on prediction difficulty
         scores = {}
         for _, row in features_df.iterrows():
             doc_id = row['openalex_id']
             
-            # Primary score is based on overconfidence
-            primary_score = row.get('overconfidence_score', 0.0)
-            
-            # Secondary indicators
+            # Focus on prediction difficulty rather than just overconfidence
+            overconfidence = row.get('overconfidence_score', 0.0)
             uncertainty = row.get('uncertainty_indicator', 0.0)
             disagreement = row.get('ensemble_disagreement', 0.0)
+            confidence_variance = row.get('confidence_variance', 0.0)
             
-            # Combine scores with adaptive weighting
-            confidence_weight = 0.6
-            uncertainty_weight = 0.3
-            disagreement_weight = 0.1
+            # Rebalanced weighting for outlier detection
+            # High disagreement and uncertainty are strong outlier indicators
+            disagreement_weight = 0.4  # Increased - ensemble disagreement is key
+            uncertainty_weight = 0.3   # Increased - prediction uncertainty matters
+            overconfidence_weight = 0.2  # Decreased - less important for outliers
+            variance_weight = 0.1      # Prediction variance
             
-            final_score = (confidence_weight * primary_score + 
-                          uncertainty_weight * min(1.0, uncertainty) + 
-                          disagreement_weight * min(1.0, disagreement * 2.0))
+            # Normalize scores to 0-1 range with better scaling
+            disagreement_score = min(1.0, disagreement * 2.5)  # More sensitive
+            uncertainty_score = min(1.0, uncertainty / 2.0)    # Less extreme
+            variance_score = min(1.0, confidence_variance * 3.0)
+            
+            final_score = (disagreement_weight * disagreement_score + 
+                          uncertainty_weight * uncertainty_score + 
+                          overconfidence_weight * overconfidence + 
+                          variance_weight * variance_score)
             
             scores[doc_id] = float(max(0.0, min(1.0, final_score)))
         

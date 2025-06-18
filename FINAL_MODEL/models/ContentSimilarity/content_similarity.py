@@ -669,13 +669,13 @@ class ContentSimilarityModel:
         # Technical term density (highly technical documents may be outliers)
         technical_density = features.get('technical_term_density', 0.0)
         
-        # Adaptive weighting based on available features
+        # Adaptive weighting based on available features (optimized for outlier detection)
         weights = {
-            'specificity': 0.25,
-            'methodology': 0.2,
-            'diversity': 0.2,
-            'semantic': 0.25,
-            'technical': 0.1
+            'specificity': 0.2,    # Decreased slightly
+            'methodology': 0.15,   # Decreased - less reliable
+            'diversity': 0.2,      # Unchanged
+            'semantic': 0.35,      # Increased - semantic isolation is key for outliers
+            'technical': 0.1       # Unchanged
         }
         
         # Combine components

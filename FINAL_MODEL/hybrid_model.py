@@ -46,9 +46,9 @@ class ModelConfiguration:
 @dataclass
 class ModelWeights:
     """Weights for combining different models in the hybrid system."""
-    citation_network: float = 0.4
-    confidence_calibration: float = 0.3
-    content_similarity: float = 0.3
+    citation_network: float = 0.5  # Increased from 0.4 - most consistent performer
+    confidence_calibration: float = 0.2  # Decreased from 0.3 - too variable
+    content_similarity: float = 0.3  # Unchanged - steady performance
 
 
 class HybridOutlierDetector:
