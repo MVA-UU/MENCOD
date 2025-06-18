@@ -72,6 +72,12 @@ class CitationNetworkModel:
         self.is_fitted = False
         self.simulation_data = None
         
+        # Pre-computed centrality measures
+        self.pagerank_values = {}
+        self.betweenness_values = {}
+        self.closeness_values = {}
+        self.eigenvector_values = {}
+        
         # Load dataset configuration
         self.datasets_config = self._load_datasets_config()
         if dataset_name and dataset_name not in self.datasets_config:
@@ -149,7 +155,9 @@ class CitationNetworkModel:
                 openalex_ids = []
                 for doc in metadata_raw['documents']:
                     openalex_id = doc.get('openalex_id', '')
-                    # Keep the full URL format to match simulation data
+                    # Remove the OpenAlex URL prefix if present
+                    if openalex_id.startswith('https://openalex.org/'):
+                        openalex_id = openalex_id.replace('https://openalex.org/', '')
                     openalex_ids.append(openalex_id)
                 
                 metadata = {
@@ -385,12 +393,70 @@ class CitationNetworkModel:
             edge_types[data.get('edge_type', 'unknown')] += 1
         return edge_types
     
+    def _precompute_centrality_measures(self):
+        """Pre-compute expensive centrality measures once for the entire graph."""
+        logger.info("Pre-computing centrality measures...")
+        
+        try:
+            if self.enable_gpu and self.gpu_graph is not None:
+                # Use GPU acceleration for centrality measures
+                logger.info("Computing centrality measures on GPU...")
+                
+                # PageRank on GPU
+                try:
+                    pr_df = cx.pagerank(self.gpu_graph, max_iter=50)
+                    self.pagerank_values = dict(zip(pr_df['vertex'].to_pandas(), pr_df['pagerank'].to_pandas()))
+                except Exception as e:
+                    logger.warning(f"GPU PageRank failed, using CPU: {e}")
+                    self.pagerank_values = nx.pagerank(self.G, max_iter=50)
+                
+                # Betweenness centrality on GPU (if available)
+                try:
+                    bc_df = cx.betweenness_centrality(self.gpu_graph, k=min(100, len(self.G.nodes)))
+                    self.betweenness_values = dict(zip(bc_df['vertex'].to_pandas(), bc_df['betweenness_centrality'].to_pandas()))
+                except Exception as e:
+                    logger.warning(f"GPU betweenness centrality failed, using CPU: {e}")
+                    self.betweenness_values = nx.betweenness_centrality(self.G, k=min(100, len(self.G.nodes)))
+                
+                # Other measures on CPU (GPU versions may not be available)
+                self.closeness_values = nx.closeness_centrality(self.G)
+                self.eigenvector_values = nx.eigenvector_centrality(self.G, max_iter=100)
+                
+            else:
+                # Use CPU for all measures
+                logger.info("Computing centrality measures on CPU...")
+                self.pagerank_values = nx.pagerank(self.G, max_iter=50)
+                
+                # Only compute expensive measures for smaller graphs
+                if len(self.G.nodes) < 10000:
+                    self.betweenness_values = nx.betweenness_centrality(self.G, k=min(100, len(self.G.nodes)))
+                    self.closeness_values = nx.closeness_centrality(self.G)
+                    self.eigenvector_values = nx.eigenvector_centrality(self.G, max_iter=100)
+                else:
+                    # For large graphs, set default values
+                    self.betweenness_values = {node: 0.0 for node in self.G.nodes}
+                    self.closeness_values = {node: 0.0 for node in self.G.nodes}
+                    self.eigenvector_values = {node: 0.0 for node in self.G.nodes}
+                    
+        except Exception as e:
+            logger.error(f"Failed to compute centrality measures: {e}")
+            # Fallback to zero values
+            self.pagerank_values = {node: 0.0 for node in self.G.nodes}
+            self.betweenness_values = {node: 0.0 for node in self.G.nodes}
+            self.closeness_values = {node: 0.0 for node in self.G.nodes}
+            self.eigenvector_values = {node: 0.0 for node in self.G.nodes}
+        
+        logger.info("Centrality measures pre-computed successfully!")
+
     def _calculate_baseline_stats(self) -> Dict[str, float]:
         """Calculate baseline statistics from relevant documents."""
         if not self.relevant_documents:
             return {}
         
         logger.info("Calculating baseline statistics...")
+        
+        # Pre-compute centrality measures once
+        self._precompute_centrality_measures()
         
         # Sample for efficiency
         sample_size = min(50, len(self.relevant_documents))
@@ -464,26 +530,14 @@ class CitationNetworkModel:
     def _get_advanced_features(self, doc_id: str) -> Dict[str, float]:
         """Get advanced network features for a document."""
         try:
-            # Clustering coefficient
+            # Clustering coefficient (this is relatively fast to compute per node)
             clustering = nx.clustering(self.G, doc_id)
             
-            # Centrality measures (expensive, so sample if needed)
-            if len(self.G.nodes) < 10000:
-                betweenness = nx.betweenness_centrality(self.G, k=min(100, len(self.G.nodes)))
-                closeness = nx.closeness_centrality(self.G)
-                eigenvector = nx.eigenvector_centrality(self.G, max_iter=100)
-                
-                betweenness_val = betweenness.get(doc_id, 0.0)
-                closeness_val = closeness.get(doc_id, 0.0)
-                eigenvector_val = eigenvector.get(doc_id, 0.0)
-            else:
-                betweenness_val = 0.0
-                closeness_val = 0.0
-                eigenvector_val = 0.0
-            
-            # Page rank
-            pagerank = nx.pagerank(self.G, max_iter=50)
-            pagerank_val = pagerank.get(doc_id, 0.0)
+            # Use pre-computed centrality measures
+            betweenness_val = getattr(self, 'betweenness_values', {}).get(doc_id, 0.0)
+            closeness_val = getattr(self, 'closeness_values', {}).get(doc_id, 0.0)
+            eigenvector_val = getattr(self, 'eigenvector_values', {}).get(doc_id, 0.0)
+            pagerank_val = getattr(self, 'pagerank_values', {}).get(doc_id, 0.0)
             
         except Exception as e:
             logger.debug(f"Failed to compute advanced features for {doc_id}: {e}")
