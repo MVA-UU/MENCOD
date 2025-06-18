@@ -106,6 +106,72 @@ def create_model_config(args) -> ModelConfiguration:
     )
 
 
+def _get_detailed_score_breakdown(doc_id: str, hybrid_model) -> Dict[str, Dict[str, Any]]:
+    """
+    Get detailed score breakdown from each sub-model for a specific document.
+    
+    Args:
+        doc_id: Document ID to analyze
+        hybrid_model: The fitted hybrid model
+    
+    Returns:
+        Dictionary with detailed breakdown from each model
+    """
+    breakdown = {}
+    
+    # Get individual model scores
+    if hybrid_model.citation_model and hybrid_model.model_config.enable_citation_network:
+        try:
+            citation_scores = hybrid_model.citation_model.predict_relevance_scores([doc_id])
+            citation_score = citation_scores.get(doc_id, 0.0)
+            citation_weight = hybrid_model.model_weights.citation_network
+            
+            # Get additional details from citation model
+            citation_analysis = hybrid_model.citation_model.analyze_document(doc_id)
+            details = f"Degree: {citation_analysis['features'].get('degree', 0)}, PageRank: {citation_analysis['features'].get('pagerank', 0):.6f}"
+            
+            breakdown['Citation Network'] = {
+                'score': citation_score,
+                'weight': citation_weight,
+                'contribution': citation_score * citation_weight,
+                'details': details
+            }
+        except Exception as e:
+            breakdown['Citation Network'] = {'score': 0.0, 'weight': hybrid_model.model_weights.citation_network, 'contribution': 0.0, 'details': f'Error: {e}'}
+    
+    if hybrid_model.confidence_model and hybrid_model.model_config.enable_confidence_calibration:
+        try:
+            confidence_scores = hybrid_model.confidence_model.predict_relevance_scores([doc_id])
+            confidence_score = confidence_scores.get(doc_id, 0.0)
+            confidence_weight = hybrid_model.model_weights.confidence_calibration
+            
+            breakdown['Confidence Calibration'] = {
+                'score': confidence_score,
+                'weight': confidence_weight,
+                'contribution': confidence_score * confidence_weight,
+                'details': 'Overconfidence detection'
+            }
+        except Exception as e:
+            breakdown['Confidence Calibration'] = {'score': 0.0, 'weight': hybrid_model.model_weights.confidence_calibration, 'contribution': 0.0, 'details': f'Error: {e}'}
+    
+    if hybrid_model.content_model and hybrid_model.model_config.enable_content_similarity:
+        try:
+            content_scores = hybrid_model.content_model.predict_relevance_scores([doc_id])
+            content_score = content_scores.get(doc_id, 0.0)
+            content_weight = hybrid_model.model_weights.content_similarity
+            
+            breakdown['Content Similarity'] = {
+                'score': content_score,
+                'weight': content_weight,
+                'contribution': content_score * content_weight,
+                'details': 'Text pattern analysis'
+            }
+        except Exception as e:
+            breakdown['Content Similarity'] = {'score': 0.0, 'weight': hybrid_model.model_weights.content_similarity, 'contribution': 0.0, 'details': f'Error: {e}'}
+    
+    return breakdown
+
+
 def _evaluate_outlier_ranking(scores: Dict[str, float], dataset_name: str, datasets_config: Dict[str, Any]) -> List[Dict[str, Any]]:
     """
     Evaluate how well known outliers are ranked by the model.
