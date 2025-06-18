@@ -704,8 +704,10 @@ class CitationNetworkModel:
         if self.embeddings is not None and self.embeddings_metadata is not None:
             semantic_similarities = self._compute_semantic_similarities_batch(target_documents)
         
-        # Process documents in batches to manage memory
-        batch_size = 1000
+        # Process documents in batches to manage memory (adaptive batch size)
+        batch_size = max(50, min(500, len(target_documents) // 10))  # 10% of dataset, min 50, max 500
+        logger.info(f"Using batch size: {batch_size} for {len(target_documents)} documents")
+        
         for i in tqdm(range(0, len(target_documents), batch_size), desc="Batch scoring"):
             batch_docs = target_documents[i:i+batch_size]
             
