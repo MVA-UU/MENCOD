@@ -89,7 +89,7 @@ class CitationNetworkOutlierDetector:
         
         # Initialize outlier detection algorithms
         self.lof = LocalOutlierFactor(
-            n_neighbors=50,  # Increased for more stable density estimation
+            n_neighbors=20,  # Keep original for better sensitivity to subtle outliers
             contamination=contamination,
             metric='euclidean',
             novelty=False,  # For direct prediction on training data
@@ -144,36 +144,16 @@ class CitationNetworkOutlierDetector:
         # Store dataset name for synergy data loading
         self._current_dataset_name = dataset_name
         
-        # Calculate dynamic contamination for RANKING - more liberal than binary classification
+        # Calculate dynamic contamination for better discrimination
         n_docs = len(simulation_df)
-        # For ranking: use higher contamination to ensure good recall at top ranks
-        dynamic_contamination = max(0.15, min(0.25, 10.0 / n_docs))  # 15-25% range for ranking
-        logger.info(f"Using dynamic contamination for ranking: {dynamic_contamination:.4f}")
+        # Keep contamination low for individual algorithms for better discrimination
+        dynamic_contamination = max(0.05, min(0.15, 3.0 / n_docs))  # 5-15% range
+        logger.info(f"Using dynamic contamination: {dynamic_contamination:.4f}")
         
         # Update contamination for all algorithms
         self.lof.contamination = dynamic_contamination
         self.isolation_forest.contamination = dynamic_contamination
         self.one_class_svm.nu = dynamic_contamination
-        
-        # FIXED: Better DBSCAN parameter selection using k-distance method principles
-        # Use much smaller eps values and data-driven min_samples
-        if n_docs < 100:
-            eps, min_samples = 0.5, max(3, int(np.log2(n_docs)))
-        elif n_docs < 500:
-            eps, min_samples = 0.7, max(5, int(np.log2(n_docs)))
-        elif n_docs < 2000:
-            eps, min_samples = 0.9, max(8, int(np.log2(n_docs)))
-        else:
-            # For large datasets: much more conservative eps, higher min_samples
-            eps, min_samples = 1.2, max(12, int(np.log2(n_docs) * 1.5))
-        
-        self.dbscan = DBSCAN(
-            eps=eps,
-            min_samples=min_samples,
-            metric='euclidean',
-            n_jobs=-1
-        )
-        logger.info(f"DBSCAN parameters: eps={eps}, min_samples={min_samples}")
         
         # Build citation network
         G = self._build_citation_network(simulation_df)
@@ -192,6 +172,28 @@ class CitationNetworkOutlierDetector:
         
         # Handle missing values
         feature_matrix = np.nan_to_num(feature_matrix, nan=0.0, posinf=0.0, neginf=0.0)
+        
+        # FIXED: Research-based DBSCAN parameter selection for high-dimensional data
+        # Now we can access the actual number of features (21 in this case)
+        n_features = feature_matrix.shape[1]
+        
+        if n_docs < 100:
+            eps, min_samples = 0.1, max(6, int(1.5 * n_features))
+        elif n_docs < 500:
+            eps, min_samples = 0.15, max(8, int(1.8 * n_features))
+        elif n_docs < 2000:
+            eps, min_samples = 0.2, max(12, int(2.0 * n_features))
+        else:
+            # For large datasets with many features: very conservative parameters
+            eps, min_samples = 0.25, max(15, int(2.2 * n_features))
+        
+        self.dbscan = DBSCAN(
+            eps=eps,
+            min_samples=min_samples,
+            metric='euclidean',
+            n_jobs=-1
+        )
+        logger.info(f"DBSCAN parameters for {n_features} features: eps={eps}, min_samples={min_samples}")
         
         # Scale features for different algorithms
         features_standard = self.standard_scaler.fit_transform(feature_matrix)
@@ -468,7 +470,7 @@ class CitationNetworkOutlierDetector:
         doc_embeddings = np.array(doc_embeddings)
         
         # Configure LOF for embedding space
-        n_neighbors = min(50, max(10, len(doc_embeddings) // 20))  # More conservative neighborhood
+        n_neighbors = min(20, max(5, len(doc_embeddings) // 10))  # Back to original sensitive settings
         
         # Use cosine similarity for high-dimensional embeddings unless UMAP reduced
         metric = 'euclidean' if self.use_umap else 'cosine'
@@ -778,14 +780,14 @@ class CitationNetworkOutlierDetector:
         return scores
     
     def _compute_ensemble_scores(self, results: Dict[str, np.ndarray]) -> np.ndarray:
-        """Compute ensemble scores with rank-based normalization and data-driven weighting."""
+        """Compute ensemble scores with data-driven weighting and robust normalization."""
         
-        # Use rank-based normalization instead of min-max to avoid pollution from bad methods
-        lof_embedding_scores_norm = self._rank_normalize_scores(results['lof_scores'])
-        lof_mixed_scores_norm = self._rank_normalize_scores(results['lof_mixed_scores'])
-        if_scores_norm = self._rank_normalize_scores(results['isolation_forest_scores'])
-        svm_scores_norm = self._rank_normalize_scores(results['one_class_svm_scores'])
-        dbscan_scores_norm = self._rank_normalize_scores(results['dbscan_scores'])
+        # Use min-max normalization for now (test if rank normalization was the issue)
+        lof_embedding_scores_norm = self._normalize_scores(results['lof_scores'])
+        lof_mixed_scores_norm = self._normalize_scores(results['lof_mixed_scores'])
+        if_scores_norm = self._normalize_scores(results['isolation_forest_scores'])
+        svm_scores_norm = self._normalize_scores(results['one_class_svm_scores'])
+        dbscan_scores_norm = self._normalize_scores(results['dbscan_scores'])
         
         # Calculate variance-based weights to emphasize methods with better discrimination
         score_arrays = {
@@ -845,7 +847,7 @@ class CitationNetworkOutlierDetector:
                    f"LOF-MIX={weights['lof_mixed']:.3f}, IF={weights['isolation_forest']:.3f}, "
                    f"SVM={weights['one_class_svm']:.3f}, DBSCAN={weights['dbscan']:.3f}")
         
-        # Compute weighted ensemble with rank-normalized scores
+        # Compute weighted ensemble with normalized scores
         ensemble_scores = (
             weights['lof_embedding'] * lof_embedding_scores_norm +
             weights['lof_mixed'] * lof_mixed_scores_norm +
@@ -855,21 +857,6 @@ class CitationNetworkOutlierDetector:
         )
         
         return ensemble_scores
-    
-    def _rank_normalize_scores(self, scores: np.ndarray) -> np.ndarray:
-        """Normalize scores using rank-based method for better discrimination."""
-        scores = np.array(scores)
-        
-        # Get ranks (higher score = higher rank)
-        ranks = len(scores) - np.argsort(np.argsort(scores))  # Convert to ranks from 1 to n
-        
-        # Normalize ranks to [0, 1] range
-        if len(scores) > 1:
-            normalized = (ranks - 1) / (len(scores) - 1)
-        else:
-            normalized = np.zeros_like(ranks, dtype=float)
-        
-        return normalized
     
     def _normalize_scores(self, scores: np.ndarray) -> np.ndarray:
         """Normalize scores to [0, 1] range using min-max."""
