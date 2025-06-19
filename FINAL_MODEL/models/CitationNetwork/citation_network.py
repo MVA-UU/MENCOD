@@ -26,6 +26,7 @@ from sklearn.preprocessing import StandardScaler, RobustScaler
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
+import umap
 
 # Graph analysis
 import networkx as nx
@@ -33,6 +34,19 @@ from scipy.spatial.distance import cosine
 from scipy import sparse
 import warnings
 warnings.filterwarnings('ignore')
+
+# Add models directory to path to import synergy_dataset
+current_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_dir)))
+models_dir = os.path.join(project_root, 'models')
+if models_dir not in sys.path:
+    sys.path.insert(0, models_dir)
+
+try:
+    from synergy_dataset import Dataset
+except ImportError:
+    logger.warning("synergy_dataset not available - citation edges will not be added")
+    Dataset = None
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -54,6 +68,8 @@ class CitationNetworkOutlierDetector:
     def __init__(self, 
                  contamination: float = 0.1,
                  enable_semantic: bool = True,
+                 use_umap: bool = True,
+                 umap_components: int = 50,
                  random_state: int = 42):
         """
         Initialize the outlier detector.
@@ -61,10 +77,14 @@ class CitationNetworkOutlierDetector:
         Args:
             contamination: Initial contamination value (will be dynamically calculated as 1/n_docs during fit_predict_outliers)
             enable_semantic: Whether to use semantic embeddings if available
+            use_umap: Whether to use UMAP for dimensionality reduction of embeddings
+            umap_components: Number of UMAP components to reduce embeddings to
             random_state: Random state for reproducibility
         """
         self.contamination = contamination
         self.enable_semantic = enable_semantic
+        self.use_umap = use_umap
+        self.umap_components = umap_components
         self.random_state = random_state
         
         # Initialize outlier detection algorithms
@@ -101,6 +121,8 @@ class CitationNetworkOutlierDetector:
         self.feature_names = []
         self.embeddings = None
         self.embeddings_metadata = None
+        self.umap_reducer = None
+        self.reduced_embeddings = None
         
     def fit_predict_outliers(self, 
                            simulation_df: pd.DataFrame,
@@ -111,7 +133,7 @@ class CitationNetworkOutlierDetector:
         
         Args:
             simulation_df: DataFrame with paper data and citation information
-            dataset_name: Optional dataset name for loading embeddings
+            dataset_name: Optional dataset name for loading embeddings and synergy data
             
         Returns:
             Dictionary with outlier scores and predictions from all methods
@@ -119,9 +141,12 @@ class CitationNetworkOutlierDetector:
         logger.info(f"Starting on-the-fly outlier detection for {len(simulation_df)} documents")
         start_time = time.time()
         
+        # Store dataset name for synergy data loading
+        self._current_dataset_name = dataset_name
+        
         # Calculate dynamic contamination based on number of documents (1 outlier expected)
         n_docs = len(simulation_df)
-        dynamic_contamination = 1.0 / n_docs if n_docs > 0 else self.contamination
+        dynamic_contamination = max(0.05, min(0.15, 3.0 / n_docs))  # 5-15% range
         logger.info(f"Using dynamic contamination: {dynamic_contamination:.4f} (1/{n_docs} documents)")
         
         # Update contamination for all algorithms
@@ -172,28 +197,34 @@ class CitationNetworkOutlierDetector:
         # Apply all outlier detection methods
         outlier_results = {}
         
-        # 1. Local Outlier Factor (LOF)
-        logger.info("Applying Local Outlier Factor (LOF)...")
+        # 1. Local Outlier Factor (LOF) on mixed features
+        logger.info("Applying Local Outlier Factor (LOF) on mixed features...")
         lof_scores = self.lof.fit_predict(features_standard)
         lof_negative_scores = self.lof.negative_outlier_factor_
-        outlier_results['lof_predictions'] = lof_scores
-        outlier_results['lof_scores'] = -lof_negative_scores  # Convert to positive scores
+        outlier_results['lof_mixed_predictions'] = lof_scores
+        outlier_results['lof_mixed_scores'] = -lof_negative_scores  # Convert to positive scores
         
-        # 2. Isolation Forest
+        # 2. Local Outlier Factor (LOF) on embeddings for subtopic detection
+        logger.info("Applying Local Outlier Factor (LOF) directly on embeddings...")
+        embedding_lof_results = self._apply_lof_to_embeddings(simulation_df, dynamic_contamination)
+        outlier_results['lof_predictions'] = embedding_lof_results['embedding_lof_predictions']
+        outlier_results['lof_scores'] = embedding_lof_results['embedding_lof_scores']
+        
+        # 3. Isolation Forest
         logger.info("Applying Isolation Forest...")
         if_predictions = self.isolation_forest.fit_predict(features_standard)
         if_scores = self.isolation_forest.decision_function(features_standard)
         outlier_results['isolation_forest_predictions'] = if_predictions
         outlier_results['isolation_forest_scores'] = -if_scores  # Convert to anomaly scores
         
-        # 3. One-Class SVM
+        # 4. One-Class SVM
         logger.info("Applying One-Class SVM...")
         svm_predictions = self.one_class_svm.fit_predict(features_robust)
         svm_scores = self.one_class_svm.decision_function(features_robust)
         outlier_results['one_class_svm_predictions'] = svm_predictions
         outlier_results['one_class_svm_scores'] = -svm_scores  # Convert to anomaly scores
         
-        # 4. DBSCAN (cluster-based outliers)
+        # 5. DBSCAN (cluster-based outliers)
         logger.info("Applying DBSCAN clustering...")
         dbscan_labels = self.dbscan.fit_predict(features_standard)
         dbscan_predictions = (dbscan_labels == -1).astype(int) * 2 - 1  # Convert noise to -1, clusters to 1
@@ -202,7 +233,7 @@ class CitationNetworkOutlierDetector:
         outlier_results['dbscan_predictions'] = dbscan_predictions
         outlier_results['dbscan_scores'] = dbscan_scores
         
-        # 5. Ensemble scoring
+        # 6. Ensemble scoring
         logger.info("Computing ensemble scores...")
         ensemble_scores = self._compute_ensemble_scores(outlier_results)
         outlier_results['ensemble_scores'] = ensemble_scores
@@ -227,8 +258,8 @@ class CitationNetworkOutlierDetector:
         return outlier_results
         
     def _build_citation_network(self, simulation_df: pd.DataFrame) -> nx.Graph:
-        """Build citation network from simulation data."""
-        G = nx.Graph()
+        """Build citation network from simulation data using Synergy dataset for citations."""
+        G = nx.DiGraph()  # Use directed graph for proper citation representation
         
         # Add all documents as nodes
         for _, row in simulation_df.iterrows():
@@ -237,63 +268,101 @@ class CitationNetworkOutlierDetector:
                       year=row.get('year', 0),
                       label=row.get('label_included', 0))
         
-        # Add citation edges
-        citation_count = 0
-        for _, row in tqdm(simulation_df.iterrows(), desc="Building citation network", total=len(simulation_df)):
-            doc_id = row['openalex_id']
-            
-            # Process different reference formats
-            references = self._extract_references(row)
-            
-            for ref_id in references:
-                if ref_id in G.nodes and ref_id != doc_id:
-                    G.add_edge(doc_id, ref_id, edge_type='citation')
-                    citation_count += 1
+        logger.info(f"Created graph with {len(G.nodes)} nodes")
+        
+        # Load synergy dataset for citation information
+        synergy_data = self._load_synergy_dataset()
+        
+        # Add citation edges from synergy dataset
+        citation_count = self._add_citation_edges(G, simulation_df, synergy_data)
         
         logger.info(f"Added {citation_count} citation edges")
         return G
     
-    def _extract_references(self, row: pd.Series) -> List[str]:
-        """Extract references from different possible columns."""
-        references = []
+    def _load_synergy_dataset(self) -> Optional[Dict]:
+        """Load synergy dataset configuration and data."""
+        if Dataset is None:
+            logger.warning("synergy_dataset package not available")
+            return None
+            
+        try:
+            # Load datasets configuration to get synergy dataset name
+            project_root = self._get_project_root()
+            config_path = os.path.join(project_root, 'data', 'datasets.json')
+            
+            if not os.path.exists(config_path):
+                logger.error(f"Datasets configuration not found: {config_path}")
+                return None
+                
+            with open(config_path, 'r') as f:
+                datasets_config = json.load(f)
+            
+            # Get the dataset name that was passed to fit_predict_outliers
+            dataset_name = getattr(self, '_current_dataset_name', None)
+            if not dataset_name:
+                logger.warning("No dataset name available for synergy data loading")
+                return None
+                
+            if dataset_name not in datasets_config:
+                logger.warning(f"Dataset '{dataset_name}' not found in configuration")
+                return None
+                
+            synergy_name = datasets_config[dataset_name]['synergy_dataset_name']
+            logger.info(f"Loading Synergy dataset: {synergy_name}")
+            
+            # Load the synergy dataset
+            dataset = Dataset(synergy_name)
+            synergy_data = dataset.to_dict(["id", "title", "referenced_works"])
+            
+            logger.info(f"Loaded {len(synergy_data)} documents from Synergy dataset")
+            return synergy_data
+            
+        except Exception as e:
+            logger.error(f"Error loading synergy dataset: {e}")
+            return None
+    
+    def _add_citation_edges(self, G: nx.DiGraph, simulation_df: pd.DataFrame, synergy_data: Optional[Dict]) -> int:
+        """Add direct citation edges from synergy dataset."""
+        if synergy_data is None:
+            logger.warning("No synergy data available - cannot add citation edges")
+            return 0
         
-        # Try different reference column names
-        ref_columns = ['references', 'cited_by', 'cites', 'references_list']
+        # Create mapping from openalex_id in simulation to check what documents we have
+        simulation_ids = set(simulation_df['openalex_id'].tolist())
         
-        for col in ref_columns:
-            if col in row and row[col] is not None:
-                try:
-                    # Handle different formats
-                    if isinstance(row[col], str):
-                        if row[col].startswith('['):
-                            refs = json.loads(row[col])
-                        else:
-                            refs = [ref.strip() for ref in row[col].replace(';', ',').split(',') if ref.strip()]
-                    elif isinstance(row[col], list):
-                        refs = row[col]
-                    else:
-                        continue
-                    
-                    # Clean and validate references
-                    for ref_id in refs:
-                        if isinstance(ref_id, str) and ref_id.strip():
-                            ref_id = ref_id.strip()
-                            # Ensure proper OpenAlex URL format
-                            if not ref_id.startswith('https://openalex.org/'):
-                                if ref_id.startswith('W'):
-                                    ref_id = f'https://openalex.org/{ref_id}'
-                                else:
-                                    continue
-                            references.append(ref_id)
-                    
-                    if references:  # If we found references, return them
-                        return references
-                        
-                except Exception as e:
-                    logger.debug(f"Failed to parse {col} for {row.get('openalex_id', 'unknown')}: {e}")
-                    continue
+        citation_count = 0
+        total_papers = len(simulation_df)
+        processed_papers = 0
         
-        return references
+        for _, row in tqdm(simulation_df.iterrows(), desc="Building citation network", total=len(simulation_df)):
+            citing_paper = row['openalex_id']
+            
+            # Get referenced works from synergy data
+            if citing_paper in synergy_data:
+                referenced_works = synergy_data[citing_paper].get('referenced_works', [])
+                
+                if referenced_works and isinstance(referenced_works, list):
+                    for ref_id in referenced_works:
+                        # Check if the referenced paper is in our simulation dataset
+                        if ref_id in simulation_ids and ref_id != citing_paper and ref_id in G.nodes:
+                            # Add directed edge from citing to cited paper
+                            if G.has_edge(citing_paper, ref_id):
+                                # Increase weight if edge already exists
+                                G[citing_paper][ref_id]['weight'] += 1
+                                G[citing_paper][ref_id]['citation_count'] += 1
+                            else:
+                                # Add new citation edge
+                                G.add_edge(citing_paper, ref_id, 
+                                         edge_type='citation', 
+                                         weight=2.0,  # Higher weight for direct citations
+                                         citation_count=1)
+                            citation_count += 1
+            
+            processed_papers += 1
+            if processed_papers % 500 == 0:
+                logger.info(f"Processed {processed_papers}/{total_papers} papers, found {citation_count} citation edges")
+        
+        return citation_count
     
     def _load_embeddings(self, dataset_name: str):
         """Load SPECTER2 embeddings if available."""
@@ -315,12 +384,112 @@ class CitationNetworkOutlierDetector:
                     self.embeddings_metadata = metadata_raw
                 
                 logger.info(f"Loaded embeddings: {self.embeddings.shape}")
+                
+                # Apply UMAP dimensionality reduction if enabled
+                self._prepare_embeddings_for_outlier_detection()
+                
             except Exception as e:
                 logger.warning(f"Failed to load embeddings: {e}")
                 self.embeddings = None
                 self.embeddings_metadata = None
         else:
             logger.info(f"No embeddings found for {dataset_name}")
+    
+    def _prepare_embeddings_for_outlier_detection(self):
+        """Prepare embeddings for outlier detection with optional UMAP reduction."""
+        if self.embeddings is None:
+            return
+            
+        if self.use_umap and self.embeddings.shape[1] > self.umap_components:
+            try:
+                logger.info(f"Reducing embeddings from {self.embeddings.shape[1]} to {self.umap_components} dimensions using UMAP")
+                
+                # Configure UMAP for outlier detection
+                self.umap_reducer = umap.UMAP(
+                    n_components=self.umap_components,
+                    n_neighbors=15,  # Preserve local structure
+                    min_dist=0.1,   # Allow for tighter clusters
+                    metric='cosine', # Better for high-dimensional embeddings
+                    random_state=self.random_state,
+                    verbose=False
+                )
+                
+                self.reduced_embeddings = self.umap_reducer.fit_transform(self.embeddings)
+                logger.info(f"UMAP reduction completed: {self.reduced_embeddings.shape}")
+                
+            except Exception as e:
+                logger.warning(f"UMAP reduction failed: {e}. Using original embeddings.")
+                self.reduced_embeddings = self.embeddings
+                self.umap_reducer = None
+        else:
+            logger.info("Using original embeddings (UMAP disabled or unnecessary)")
+            self.reduced_embeddings = self.embeddings
+    
+    def _apply_lof_to_embeddings(self, simulation_df: pd.DataFrame, dynamic_contamination: float) -> Dict[str, np.ndarray]:
+        """Apply LOF directly to embeddings for subtopic outlier detection."""
+        
+        if self.reduced_embeddings is None or self.embeddings_metadata is None:
+            logger.warning("No embeddings available for LOF analysis")
+            n_docs = len(simulation_df)
+            return {
+                'embedding_lof_scores': np.zeros(n_docs),
+                'embedding_lof_predictions': np.ones(n_docs)  # All normal
+            }
+        
+        # Create mapping from openalex_id to embedding index
+        id_to_idx = {doc_id: idx for idx, doc_id in enumerate(self.embeddings_metadata['openalex_id'])}
+        
+        # Get embeddings for documents in simulation_df
+        doc_embeddings = []
+        doc_indices = []
+        
+        for idx, row in simulation_df.iterrows():
+            doc_id = row['openalex_id']
+            if doc_id in id_to_idx:
+                embedding_idx = id_to_idx[doc_id]
+                doc_embeddings.append(self.reduced_embeddings[embedding_idx])
+                doc_indices.append(idx)
+        
+        if len(doc_embeddings) == 0:
+            logger.warning("No embeddings found for simulation documents")
+            n_docs = len(simulation_df)
+            return {
+                'embedding_lof_scores': np.zeros(n_docs),
+                'embedding_lof_predictions': np.ones(n_docs)
+            }
+        
+        doc_embeddings = np.array(doc_embeddings)
+        
+        # Configure LOF for embedding space
+        n_neighbors = min(20, max(5, len(doc_embeddings) // 10))  # Adaptive neighborhood size
+        
+        embedding_lof = LocalOutlierFactor(
+            n_neighbors=n_neighbors,
+            contamination=dynamic_contamination,
+            metric='euclidean' if self.use_umap else 'cosine',  # Euclidean for UMAP, cosine for original
+            novelty=False,
+            n_jobs=-1
+        )
+        
+        logger.info(f"Applying LOF to embeddings: {doc_embeddings.shape} with {n_neighbors} neighbors")
+        
+        # Apply LOF
+        embedding_predictions = embedding_lof.fit_predict(doc_embeddings)
+        embedding_scores = -embedding_lof.negative_outlier_factor_
+        
+        # Map results back to full simulation dataframe
+        n_docs = len(simulation_df)
+        full_scores = np.zeros(n_docs)
+        full_predictions = np.ones(n_docs)
+        
+        for i, sim_idx in enumerate(doc_indices):
+            full_scores[sim_idx] = embedding_scores[i]
+            full_predictions[sim_idx] = embedding_predictions[i]
+        
+        return {
+            'embedding_lof_scores': full_scores,
+            'embedding_lof_predictions': full_predictions
+        }
     
     def _get_project_root(self) -> str:
         """Get the project root directory."""
@@ -364,16 +533,28 @@ class CitationNetworkOutlierDetector:
             doc_features = {'openalex_id': doc_id}
             
             if doc_id in G.nodes:
-                # Basic connectivity features
-                degree = G.degree(doc_id)
-                neighbors = list(G.neighbors(doc_id))
+                # Basic connectivity features for directed graph
+                in_degree = G.in_degree(doc_id) if hasattr(G, 'in_degree') else G.degree(doc_id)
+                out_degree = G.out_degree(doc_id) if hasattr(G, 'out_degree') else G.degree(doc_id)
+                total_degree = in_degree + out_degree
+                
+                # Get all neighbors (both incoming and outgoing)
+                neighbors = set()
+                if hasattr(G, 'predecessors'):
+                    neighbors.update(G.predecessors(doc_id))
+                if hasattr(G, 'successors'):
+                    neighbors.update(G.successors(doc_id))
+                neighbors = list(neighbors)
+                
                 relevant_neighbors = len([n for n in neighbors if n in relevant_docs])
                 
                 doc_features.update({
-                    'degree': float(degree),
+                    'degree': float(total_degree),
+                    'in_degree': float(in_degree),
+                    'out_degree': float(out_degree),
                     'relevant_neighbors': float(relevant_neighbors),
-                    'relevant_ratio': float(relevant_neighbors / max(1, degree)),
-                    'clustering': float(nx.clustering(G, doc_id)),
+                    'relevant_ratio': float(relevant_neighbors / max(1, len(neighbors))),
+                    'clustering': float(nx.clustering(G.to_undirected(), doc_id) if hasattr(G, 'to_undirected') else nx.clustering(G, doc_id)),
                     'pagerank': float(pagerank.get(doc_id, 0.0)),
                     'betweenness': float(betweenness.get(doc_id, 0.0)),
                     'closeness': float(closeness.get(doc_id, 0.0)),
@@ -414,6 +595,8 @@ class CitationNetworkOutlierDetector:
                 # Zero features for nodes not in graph
                 doc_features.update({
                     'degree': 0.0,
+                    'in_degree': 0.0,
+                    'out_degree': 0.0,
                     'relevant_neighbors': 0.0,
                     'relevant_ratio': 0.0,
                     'clustering': 0.0,
@@ -500,6 +683,54 @@ class CitationNetworkOutlierDetector:
         
         return features
     
+    def _extract_references(self, row: pd.Series) -> List[str]:
+        """Extract reference information from paper metadata."""
+        references = []
+        
+        # Check common fields that might contain reference information
+        possible_ref_fields = [
+            'referenced_works', 'references', 'cited_by', 'bibliography',
+            'reference_list', 'citations', 'refs'
+        ]
+        
+        for field in possible_ref_fields:
+            if field in row and pd.notna(row[field]):
+                ref_data = row[field]
+                
+                if isinstance(ref_data, str):
+                    # Try to parse as JSON if it looks like a JSON string
+                    if ref_data.startswith('[') or ref_data.startswith('{'):
+                        try:
+                            import json
+                            parsed_refs = json.loads(ref_data)
+                            if isinstance(parsed_refs, list):
+                                references.extend([str(ref) for ref in parsed_refs if ref])
+                            elif isinstance(parsed_refs, dict):
+                                references.extend([str(v) for v in parsed_refs.values() if v])
+                        except (json.JSONDecodeError, ValueError):
+                            # If JSON parsing fails, split by common delimiters
+                            references.extend([ref.strip() for ref in ref_data.split(',') if ref.strip()])
+                    else:
+                        # Split by common delimiters
+                        references.extend([ref.strip() for ref in ref_data.split(',') if ref.strip()])
+                        
+                elif isinstance(ref_data, list):
+                    references.extend([str(ref) for ref in ref_data if ref])
+                    
+                elif isinstance(ref_data, (int, float)) and ref_data > 0:
+                    # If it's a number, assume it's a count of references
+                    references.extend([f"ref_{i}" for i in range(int(ref_data))])
+        
+        # Remove duplicates while preserving order
+        seen = set()
+        unique_references = []
+        for ref in references:
+            if ref not in seen:
+                seen.add(ref)
+                unique_references.append(ref)
+        
+        return unique_references
+    
     def _compute_dbscan_scores(self, features: np.ndarray, labels: np.ndarray) -> np.ndarray:
         """Compute outlier scores for DBSCAN (distance to nearest cluster center)."""
         scores = np.zeros(len(features))
@@ -538,22 +769,25 @@ class CitationNetworkOutlierDetector:
     
     def _compute_ensemble_scores(self, results: Dict[str, np.ndarray]) -> np.ndarray:
         """Compute ensemble scores by combining multiple methods."""
-        # Normalize individual scores
-        lof_scores_norm = self._normalize_scores(results['lof_scores'])
+        # Normalize individual scores - prioritize embedding-based LOF for subtopic detection
+        lof_embedding_scores_norm = self._normalize_scores(results['lof_scores'])  # Embedding-based LOF
+        lof_mixed_scores_norm = self._normalize_scores(results['lof_mixed_scores'])  # Mixed features LOF
         if_scores_norm = self._normalize_scores(results['isolation_forest_scores'])
         svm_scores_norm = self._normalize_scores(results['one_class_svm_scores'])
         dbscan_scores_norm = self._normalize_scores(results['dbscan_scores'])
         
-        # Weighted ensemble (can be tuned based on method performance)
+        # Weighted ensemble - heavily favor embedding-based LOF for subtopic outlier detection
         weights = {
-            'lof': 0.3,           # Good for local outliers
-            'isolation_forest': 0.3,  # Good for global outliers
-            'one_class_svm': 0.2,     # Good for boundary outliers
-            'dbscan': 0.2,            # Good for cluster-based outliers
+            'lof_embedding': 0.5,     # Primary method for subtopic outliers
+            'lof_mixed': 0.15,        # Secondary LOF on mixed features
+            'isolation_forest': 0.15, # Global outliers
+            'one_class_svm': 0.1,     # Boundary outliers
+            'dbscan': 0.1,            # Cluster-based outliers
         }
         
         ensemble_scores = (
-            weights['lof'] * lof_scores_norm +
+            weights['lof_embedding'] * lof_embedding_scores_norm +
+            weights['lof_mixed'] * lof_mixed_scores_norm +
             weights['isolation_forest'] * if_scores_norm +
             weights['one_class_svm'] * svm_scores_norm +
             weights['dbscan'] * dbscan_scores_norm
@@ -632,7 +866,7 @@ class CitationNetworkOutlierDetector:
         if not self.is_fitted:
             raise ValueError("Model must be fitted before comparing methods")
         
-        methods = ['lof', 'isolation_forest', 'one_class_svm', 'dbscan', 'ensemble']
+        methods = ['lof', 'lof_mixed', 'isolation_forest', 'one_class_svm', 'dbscan', 'ensemble']
         comparison = []
         
         for method in methods:
@@ -647,8 +881,18 @@ class CitationNetworkOutlierDetector:
             else:
                 num_outliers = sum(predictions == -1)
             
+            # Create friendly method names
+            method_names = {
+                'lof': 'LOF (Embeddings)',
+                'lof_mixed': 'LOF (Mixed Features)',
+                'isolation_forest': 'Isolation Forest',
+                'one_class_svm': 'One-Class SVM',
+                'dbscan': 'DBSCAN',
+                'ensemble': 'Ensemble'
+            }
+            
             comparison.append({
-                'method': method,
+                'method': method_names.get(method, method),
                 'num_outliers': num_outliers,
                 'outlier_percentage': num_outliers / len(predictions) * 100,
                 'mean_score': np.mean(scores),
@@ -682,14 +926,16 @@ class CitationNetworkOutlierDetector:
         analysis = {
             'document_id': doc_id,
             'scores': {
-                'lof': float(self.outlier_results['lof_scores'][idx]),
+                'lof_embeddings': float(self.outlier_results['lof_scores'][idx]),
+                'lof_mixed': float(self.outlier_results['lof_mixed_scores'][idx]),
                 'isolation_forest': float(self.outlier_results['isolation_forest_scores'][idx]),
                 'one_class_svm': float(self.outlier_results['one_class_svm_scores'][idx]),
                 'dbscan': float(self.outlier_results['dbscan_scores'][idx]),
                 'ensemble': float(self.outlier_results['ensemble_scores'][idx]),
             },
             'predictions': {
-                'lof': bool(self.outlier_results['lof_predictions'][idx] == -1),
+                'lof_embeddings': bool(self.outlier_results['lof_predictions'][idx] == -1),
+                'lof_mixed': bool(self.outlier_results['lof_mixed_predictions'][idx] == -1),
                 'isolation_forest': bool(self.outlier_results['isolation_forest_predictions'][idx] == -1),
                 'one_class_svm': bool(self.outlier_results['one_class_svm_predictions'][idx] == -1),
                 'dbscan': bool(self.outlier_results['dbscan_predictions'][idx] == -1),
@@ -840,9 +1086,16 @@ def main():
         
         # Step 3: Initialize and Run Model
         print(f"\nStep 3: Running Citation Network Outlier Detection...")
+        print("Configuration:")
+        print("  - UMAP dimensionality reduction: Enabled (50 components)")
+        print("  - LOF on embeddings: Primary method for subtopic detection")
+        print("  - Ensemble weighting: 50% embedding-LOF, 50% other methods")
+        
         detector = CitationNetworkOutlierDetector(
             contamination=0.1,
             enable_semantic=True,
+            use_umap=True,  # Enable UMAP for dimensionality reduction
+            umap_components=50,  # Reduce to 50 dimensions
             random_state=42
         )
         
@@ -889,10 +1142,19 @@ def main():
                 analysis = detector.analyze_document(result['outlier_id'])
                 
                 print(f"    Individual Method Scores:")
+                method_display_names = {
+                    'lof_embeddings': 'LOF-EMBEDDINGS',
+                    'lof_mixed': 'LOF-MIXED',
+                    'isolation_forest': 'ISOLATION-FOREST',
+                    'one_class_svm': 'ONE-CLASS-SVM',
+                    'dbscan': 'DBSCAN',
+                    'ensemble': 'ENSEMBLE'
+                }
                 for method, score in analysis['scores'].items():
                     prediction = analysis['predictions'][method]
                     status = "OUTLIER" if prediction else "normal"
-                    print(f"      {method.upper()}: {score:.4f} ({status})")
+                    display_name = method_display_names.get(method, method.upper())
+                    print(f"      {display_name}: {score:.4f} ({status})")
                 
                 print(f"\n    Network Features:")
                 features = analysis.get('features', {})
@@ -923,9 +1185,17 @@ def main():
                 analysis = detector.analyze_document(doc_id)
                 print(f"   Method Scores: ", end="")
                 method_scores = []
+                method_abbrev = {
+                    'lof_embeddings': 'LOF-EMB',
+                    'lof_mixed': 'LOF-MIX',
+                    'isolation_forest': 'IF',
+                    'one_class_svm': 'SVM',
+                    'dbscan': 'DBSCAN'
+                }
                 for method, score_val in analysis['scores'].items():
                     if method != 'ensemble':
-                        method_scores.append(f"{method.upper()}: {score_val:.3f}")
+                        abbrev = method_abbrev.get(method, method.upper())
+                        method_scores.append(f"{abbrev}: {score_val:.3f}")
                 print(" | ".join(method_scores))
         
         # Step 7: Method Comparison
