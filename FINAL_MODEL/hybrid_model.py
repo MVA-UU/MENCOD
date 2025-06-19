@@ -41,6 +41,7 @@ class ModelConfiguration:
     enable_content_similarity: bool = True
     enable_gpu_acceleration: bool = True
     enable_semantic_embeddings: bool = True
+    outlier_mode: bool = False  # Enable outlier detection mode for citation network
 
 
 @dataclass
@@ -95,7 +96,8 @@ class HybridOutlierDetector:
                 dataset_name=dataset_name,
                 enable_gpu=self.model_config.enable_gpu_acceleration,
                 enable_semantic=self.model_config.enable_semantic_embeddings,
-                baseline_sample_size=baseline_sample_size
+                baseline_sample_size=baseline_sample_size,
+                outlier_mode=self.model_config.outlier_mode
             )
         
         if self.model_config.enable_confidence_calibration:

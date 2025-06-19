@@ -53,10 +53,18 @@ def _process_document_chunk(worker_data: Dict[str, Any], doc_chunk: List[str]) -
     pagerank_values = worker_data['pagerank_values']
     relevant_documents = worker_data['relevant_documents']
     semantic_similarities = worker_data['semantic_similarities']
+    outlier_mode = worker_data.get('outlier_mode', False)
     
     # Create a temporary graph from edges (only for degree/neighbor calculations)
     temp_graph = nx.Graph()
     temp_graph.add_edges_from([(u, v) for u, v, data in worker_data['graph_edges']])
+    
+    # Pre-calculate max degree for outlier mode
+    if outlier_mode and temp_graph.nodes:
+        all_degrees = [temp_graph.degree(node) for node in temp_graph.nodes()]
+        max_degree = max(all_degrees) if all_degrees else 1.0
+    else:
+        max_degree = 100.0
     
     chunk_scores = {}
     
@@ -75,25 +83,56 @@ def _process_document_chunk(worker_data: Dict[str, Any], doc_chunk: List[str]) -
             # Pre-computed semantic similarity
             semantic_isolation = 1.0 - semantic_similarities.get(doc_id, 0.0)
             
-            # Fast relevance score calculation
-            degree_score = min(1.0, degree / 10.0)
-            clustering_score = clustering
-            pagerank_score = min(1.0, pagerank * 1000)
-            semantic_score = 1.0 - semantic_isolation
-            
-            # Adaptive weighting
-            if relevant_documents:
-                relevant_ratio_dataset = len(relevant_documents) / len(temp_graph.nodes) if temp_graph.nodes else 0
-                sparsity_factor = 1 - min(0.9, max(0.1, relevant_ratio_dataset * 10))
-                network_weight = 0.4 + sparsity_factor * 0.3
-                semantic_weight = 0.6 - sparsity_factor * 0.3
+            # Score calculation based on mode
+            if outlier_mode:
+                # Outlier scoring - inverted logic
+                if degree == 0:
+                    degree_score = 1.0
+                else:
+                    normalized_degree = degree / max(max_degree, 1.0)
+                    degree_score = 1.0 / (1.0 + np.exp(5 * (normalized_degree - 0.5)))
+                
+                relevant_ratio_score = 1.0 - relevant_ratio
+                clustering_score = 1.0 - clustering
+                pagerank_score = 1.0 - min(1.0, pagerank * 1000)
+                semantic_score = semantic_isolation
+                
+                # Adaptive weighting for outlier detection
+                if relevant_documents:
+                    relevant_ratio_dataset = len(relevant_documents) / len(temp_graph.nodes) if temp_graph.nodes else 0
+                    if relevant_ratio_dataset > 0.1:  # Dense network
+                        network_weight = 0.3
+                        semantic_weight = 0.7
+                    else:  # Sparse network
+                        network_weight = 0.6
+                        semantic_weight = 0.4
+                else:
+                    network_weight = 0.5
+                    semantic_weight = 0.5
+                
+                # Combine scores - emphasizing isolation patterns
+                network_component = (degree_score * 0.4 + relevant_ratio_score * 0.3 + 
+                                   clustering_score * 0.2 + pagerank_score * 0.1)
             else:
-                network_weight = 0.5
-                semantic_weight = 0.5
-            
-            # Combine scores
-            network_component = (degree_score * 0.3 + relevant_ratio * 0.4 + 
-                               clustering_score * 0.2 + pagerank_score * 0.1)
+                # Original relevance scoring
+                degree_score = min(1.0, degree / 10.0)
+                clustering_score = clustering
+                pagerank_score = min(1.0, pagerank * 1000)
+                semantic_score = 1.0 - semantic_isolation
+                
+                # Adaptive weighting
+                if relevant_documents:
+                    relevant_ratio_dataset = len(relevant_documents) / len(temp_graph.nodes) if temp_graph.nodes else 0
+                    sparsity_factor = 1 - min(0.9, max(0.1, relevant_ratio_dataset * 10))
+                    network_weight = 0.4 + sparsity_factor * 0.3
+                    semantic_weight = 0.6 - sparsity_factor * 0.3
+                else:
+                    network_weight = 0.5
+                    semantic_weight = 0.5
+                
+                # Combine scores
+                network_component = (degree_score * 0.3 + relevant_ratio * 0.4 + 
+                                   clustering_score * 0.2 + pagerank_score * 0.1)
             
             score = network_weight * network_component + semantic_weight * semantic_score
             chunk_scores[doc_id] = float(max(0.0, min(1.0, score)))
@@ -114,7 +153,8 @@ class CitationNetworkModel:
     def __init__(self, dataset_name: Optional[str] = None, 
                  enable_gpu: bool = True,
                  enable_semantic: bool = True,
-                 baseline_sample_size: Optional[int] = None):
+                 baseline_sample_size: Optional[int] = None,
+                 outlier_mode: bool = False):
         """
         Initialize the citation network model.
         
@@ -123,11 +163,13 @@ class CitationNetworkModel:
             enable_gpu: Whether to use GPU acceleration if available
             enable_semantic: Whether to include semantic similarity features
             baseline_sample_size: Optional sample size for baseline calculation (None = use all)
+            outlier_mode: Whether to score for outlier detection (inverted logic)
         """
         self.dataset_name = dataset_name
         self.enable_gpu = enable_gpu and CUGRAPH_AVAILABLE
         self.enable_semantic = enable_semantic
         self.baseline_sample_size = baseline_sample_size
+        self.outlier_mode = outlier_mode
         
         # Initialize state
         self.G = None
@@ -780,7 +822,8 @@ class CitationNetworkModel:
                     'relevant_documents': self.relevant_documents,
                     'semantic_similarities': semantic_similarities,
                     'graph_edges': list(self.G.edges(data=True)),  # Serialize graph data
-                    'graph_nodes': list(self.G.nodes(data=True))
+                    'graph_nodes': list(self.G.nodes(data=True)),
+                    'outlier_mode': self.outlier_mode
                 }
                 
                 # Process chunks in parallel
@@ -796,12 +839,12 @@ class CitationNetworkModel:
                 for chunk_scores in chunk_results:
                     scores.update(chunk_scores)
         
-        # DISABLE NORMALIZATION FOR DEBUGGING - using raw scores
-        # if scores:
-        #     score_values = np.array(list(scores.values()))
-        #     if score_values.std() > 0:  # Avoid division by zero
-        #         score_values = (score_values - score_values.min()) / (score_values.max() - score_values.min())
-        #         scores = dict(zip(scores.keys(), score_values))
+        # Normalize scores using vectorized operations
+        if scores:
+            score_values = np.array(list(scores.values()))
+            if score_values.std() > 0:  # Avoid division by zero
+                score_values = (score_values - score_values.min()) / (score_values.max() - score_values.min())
+                scores = dict(zip(scores.keys(), score_values))
         
         return scores
     
@@ -834,6 +877,10 @@ class CitationNetworkModel:
     
     def _calculate_relevance_score_fast(self, features: Dict[str, float]) -> float:
         """Fast relevance score calculation with essential features only."""
+        if self.outlier_mode:
+            return self._calculate_outlier_score_fast(features)
+        
+        # Original relevance scoring logic
         # Connectivity-based scoring
         degree_score = min(1.0, features['degree'] / 10.0)
         relevant_ratio_score = features['relevant_ratio']
@@ -857,6 +904,62 @@ class CitationNetworkModel:
         
         # Combine scores
         network_component = (degree_score * 0.3 + relevant_ratio_score * 0.4 + 
+                           clustering_score * 0.2 + pagerank_score * 0.1)
+        
+        score = network_weight * network_component + semantic_weight * semantic_score
+        
+        return float(max(0.0, min(1.0, score)))
+    
+    def _calculate_outlier_score_fast(self, features: Dict[str, float]) -> float:
+        """Fast outlier score calculation - inverted logic for outlier detection."""
+        # For outliers, we want LOW connectivity, LOW similarity to relevant docs
+        
+        # Get statistics for adaptive scaling
+        if hasattr(self, 'G') and self.G.nodes:
+            # Calculate percentile-based degree score for better discrimination
+            all_degrees = [self.G.degree(node) for node in self.G.nodes()]
+            degree_percentile = np.percentile(all_degrees, 75) if all_degrees else 10.0
+            max_degree = max(all_degrees) if all_degrees else 1.0
+        else:
+            degree_percentile = 10.0
+            max_degree = 100.0
+        
+        # Inverted connectivity scoring - outliers have low connectivity
+        if features['degree'] == 0:
+            degree_score = 1.0  # Maximum outlier score for isolated documents
+        else:
+            # Use sigmoid-based inverse scoring for better discrimination
+            normalized_degree = features['degree'] / max(max_degree, 1.0)
+            degree_score = 1.0 / (1.0 + np.exp(5 * (normalized_degree - 0.5)))
+        
+        # Inverted relevant ratio - outliers have few relevant neighbors
+        relevant_ratio_score = 1.0 - features['relevant_ratio']
+        
+        # Inverted clustering - outliers are less clustered
+        clustering_score = 1.0 - features['clustering']
+        
+        # Inverted PageRank - outliers have lower centrality
+        pagerank_score = 1.0 - min(1.0, features['pagerank'] * 1000)
+        
+        # Semantic isolation score - outliers are semantically isolated
+        semantic_score = features['semantic_isolation']
+        
+        # Adaptive weighting for outlier detection
+        if hasattr(self, 'relevant_documents') and self.relevant_documents:
+            relevant_ratio = len(self.relevant_documents) / len(self.G.nodes) if self.G.nodes else 0
+            # For outlier detection, emphasize isolation more in dense networks
+            if relevant_ratio > 0.1:  # Dense network
+                network_weight = 0.3
+                semantic_weight = 0.7
+            else:  # Sparse network
+                network_weight = 0.6
+                semantic_weight = 0.4
+        else:
+            network_weight = 0.5
+            semantic_weight = 0.5
+        
+        # Combine scores - emphasizing isolation patterns
+        network_component = (degree_score * 0.4 + relevant_ratio_score * 0.3 + 
                            clustering_score * 0.2 + pagerank_score * 0.1)
         
         score = network_weight * network_component + semantic_weight * semantic_score
