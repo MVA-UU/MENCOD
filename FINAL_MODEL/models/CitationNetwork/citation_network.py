@@ -325,9 +325,9 @@ class CitationNetworkOutlierDetector:
         elif n_docs < 500:
             min_samples = max(8, int(1.8 * n_features))
         elif n_docs < 2000:
-            min_samples = max(40, int(2.0 * n_features))
+            min_samples = max(10, int(2.0 * n_features))
         else:
-            min_samples = max(50, int(2.2 * n_features))
+            min_samples = max(15, int(2.2 * n_features))
         
         # Find optimal eps using k-distance with automatic knee detection
         optimal_eps = self._find_optimal_eps_auto(features_standard, min_samples)

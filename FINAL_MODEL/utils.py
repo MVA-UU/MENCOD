@@ -697,7 +697,7 @@ def normalize_scores(scores: np.ndarray, method: str = 'minmax') -> np.ndarray:
     
     Args:
         scores: Array of scores to normalize
-        method: Normalization method ('minmax', 'zscore', 'rank')
+        method: Normalization method ('minmax', 'zscore', 'rank', 'percentile', 'quantile')
     
     Returns:
         Normalized scores
@@ -720,8 +720,27 @@ def normalize_scores(scores: np.ndarray, method: str = 'minmax') -> np.ndarray:
         from scipy.stats import rankdata
         return rankdata(scores) / len(scores)
     
+    elif method == 'percentile':
+        # Convert scores to percentile ranks (0-100 scale)
+        from scipy.stats import rankdata
+        percentiles = rankdata(scores, method='average') / len(scores) * 100
+        return percentiles / 100  # Normalize to 0-1 range
+    
+    elif method == 'quantile':
+        # Quantile transformation to uniform distribution [0,1]
+        try:
+            from sklearn.preprocessing import QuantileTransformer
+            qt = QuantileTransformer(output_distribution='uniform', random_state=42)
+            return qt.fit_transform(scores.reshape(-1, 1)).flatten()
+        except ImportError:
+            # Fallback to percentile method if sklearn not available
+            print("Warning: sklearn not available for quantile transformation, using percentile method")
+            from scipy.stats import rankdata
+            percentiles = rankdata(scores, method='average') / len(scores)
+            return percentiles
+    
     else:
-        raise ValueError(f"Unknown normalization method: {method}")
+        raise ValueError(f"Unknown normalization method: {method}. Available methods: 'minmax', 'zscore', 'rank', 'percentile', 'quantile'")
 
 
 def compute_ensemble_weights(score_arrays: Dict[str, np.ndarray], 
