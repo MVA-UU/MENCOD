@@ -48,6 +48,7 @@ def _process_document_chunk(worker_data: Dict[str, Any], doc_chunk: List[str]) -
     This function runs in separate processes for multiprocessing.
     """
     import networkx as nx
+    import numpy as np
     
     # Reconstruct minimal graph data for this worker
     pagerank_values = worker_data['pagerank_values']
