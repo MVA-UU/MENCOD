@@ -796,12 +796,12 @@ class CitationNetworkModel:
                 for chunk_scores in chunk_results:
                     scores.update(chunk_scores)
         
-        # Normalize scores using vectorized operations
-        if scores:
-            score_values = np.array(list(scores.values()))
-            if score_values.std() > 0:  # Avoid division by zero
-                score_values = (score_values - score_values.min()) / (score_values.max() - score_values.min())
-                scores = dict(zip(scores.keys(), score_values))
+        # DISABLE NORMALIZATION FOR DEBUGGING - using raw scores
+        # if scores:
+        #     score_values = np.array(list(scores.values()))
+        #     if score_values.std() > 0:  # Avoid division by zero
+        #         score_values = (score_values - score_values.min()) / (score_values.max() - score_values.min())
+        #         scores = dict(zip(scores.keys(), score_values))
         
         return scores
     
@@ -1008,8 +1008,10 @@ class CitationNetworkModel:
         if not self.is_fitted:
             raise ValueError("Model must be fitted before analyzing documents")
         
-        features = self._extract_single_document_features(doc_id)
-        score = self._calculate_relevance_score(pd.Series(features))
+        # Use the same method as batch processing for consistency
+        semantic_similarities = self._compute_semantic_similarities_gpu_batch([doc_id])
+        features = self._get_features_fast(doc_id, semantic_similarities)
+        score = self._calculate_relevance_score_fast(features)
         
         analysis = {
             'document_id': doc_id,
