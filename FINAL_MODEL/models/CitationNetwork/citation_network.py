@@ -59,7 +59,6 @@ class CitationNetworkOutlierDetector:
     """
     
     def __init__(self, 
-                 contamination: float = 0.1,
                  use_umap: bool = False,
                  umap_components: int = 50,
                  random_state: int = 42):
@@ -67,12 +66,10 @@ class CitationNetworkOutlierDetector:
         Initialize the outlier detector.
         
         Args:
-            contamination: Initial contamination value (dynamically adjusted during fitting)
             use_umap: Whether to use UMAP for dimensionality reduction of embeddings
             umap_components: Number of UMAP components to reduce embeddings to
             random_state: Random state for reproducibility
         """
-        self.contamination = contamination
         self.use_umap = use_umap
         self.umap_components = umap_components
         self.random_state = random_state
@@ -104,10 +101,9 @@ class CitationNetworkOutlierDetector:
         logger.info(f"Starting outlier detection for {len(simulation_df)} documents")
         start_time = time.time()
         
-        # Calculate dynamic contamination
+        # Get dataset size for method configuration
         n_docs = len(simulation_df)
-        dynamic_contamination = max(0.05, min(0.15, 3.0 / n_docs))
-        logger.info(f"Using dynamic contamination: {dynamic_contamination:.4f}")
+        logger.info(f"Processing {n_docs} documents for outlier scoring")
         
         # Build citation network
         G = self._build_citation_network(simulation_df, dataset_name)
@@ -133,34 +129,30 @@ class CitationNetworkOutlierDetector:
         
         # 1. LOF on embeddings for semantic outlier detection
         logger.info("Applying LOF on embeddings for semantic outlier detection...")
-        lof_results = self._apply_lof_to_embeddings(simulation_df, dynamic_contamination)
-        outlier_results['lof_predictions'] = lof_results['predictions']
+        lof_results = self._apply_lof_to_embeddings(simulation_df)
         outlier_results['lof_scores'] = lof_results['scores']
         
         # 2. Isolation Forest
         logger.info("Applying Isolation Forest...")
         isolation_forest = IsolationForest(
             n_estimators=100,
-            contamination=dynamic_contamination,
+            contamination='auto',  # Use auto for scoring without predefined thresholds
             random_state=self.random_state,
             n_jobs=-1
         )
-        if_predictions = isolation_forest.fit_predict(features_standard)
+        isolation_forest.fit(features_standard)
         if_scores = isolation_forest.decision_function(features_standard)
-        outlier_results['isolation_forest_predictions'] = if_predictions
         outlier_results['isolation_forest_scores'] = -if_scores  # Convert to anomaly scores
         
         # 3. DBSCAN with automatic eps tuning
         logger.info("Applying DBSCAN with automatic eps tuning...")
         dbscan_results = self._apply_dbscan_with_auto_eps(features_standard, n_docs)
-        outlier_results['dbscan_predictions'] = dbscan_results['predictions']
         outlier_results['dbscan_scores'] = dbscan_results['scores']
         
         # 4. Ensemble scoring
         logger.info("Computing ensemble scores...")
         ensemble_scores = self._compute_ensemble_scores(outlier_results)
         outlier_results['ensemble_scores'] = ensemble_scores
-        outlier_results['ensemble_predictions'] = (ensemble_scores > np.percentile(ensemble_scores, 100 * (1 - dynamic_contamination))).astype(int) * 2 - 1
         
         # Add document IDs to results
         outlier_results['openalex_ids'] = features_df['openalex_id'].values
@@ -174,9 +166,8 @@ class CitationNetworkOutlierDetector:
         
         # Log summary
         total_time = time.time() - start_time
-        num_outliers_ensemble = sum(outlier_results['ensemble_predictions'] == -1)
-        logger.info(f"Outlier detection completed in {total_time:.2f}s")
-        logger.info(f"Detected {num_outliers_ensemble} outliers ({num_outliers_ensemble/len(simulation_df)*100:.1f}%) using ensemble method")
+        logger.info(f"Outlier scoring completed in {total_time:.2f}s")
+        logger.info(f"Generated outlier scores for all {len(simulation_df)} documents using ensemble method")
         
         return outlier_results
         
@@ -259,15 +250,14 @@ class CitationNetworkOutlierDetector:
             else:
                 self.reduced_embeddings = self.embeddings
     
-    def _apply_lof_to_embeddings(self, simulation_df: pd.DataFrame, dynamic_contamination: float) -> Dict[str, np.ndarray]:
+    def _apply_lof_to_embeddings(self, simulation_df: pd.DataFrame) -> Dict[str, np.ndarray]:
         """Apply LOF directly to embeddings for semantic outlier detection."""
         
         if self.reduced_embeddings is None or self.embeddings_metadata is None:
             logger.warning("No embeddings available for LOF analysis")
             n_docs = len(simulation_df)
             return {
-                'scores': np.zeros(n_docs),
-                'predictions': np.ones(n_docs)  # All normal
+                'scores': np.zeros(n_docs)
             }
         
         # Create mapping from openalex_id to embedding index
@@ -291,8 +281,7 @@ class CitationNetworkOutlierDetector:
             logger.warning("No embeddings found for simulation documents")
             n_docs = len(simulation_df)
             return {
-                'scores': np.zeros(n_docs),
-                'predictions': np.ones(n_docs)
+                'scores': np.zeros(n_docs)
             }
         
         doc_embeddings = np.array(doc_embeddings)
@@ -303,30 +292,26 @@ class CitationNetworkOutlierDetector:
         
         lof = LocalOutlierFactor(
             n_neighbors=n_neighbors,
-            contamination=dynamic_contamination,
-            metric=metric,
             novelty=False,
+            metric=metric,
             n_jobs=-1
         )
         
         logger.info(f"Applying LOF to embeddings: {doc_embeddings.shape} with {n_neighbors} neighbors, metric={metric}")
         
-        # Apply LOF
-        predictions = lof.fit_predict(doc_embeddings)
+        # Apply LOF to get scores only (no predictions with contamination)
+        lof.fit_predict(doc_embeddings)
         scores = -lof.negative_outlier_factor_
         
         # Map results back to full simulation dataframe
         n_docs = len(simulation_df)
         full_scores = np.zeros(n_docs)
-        full_predictions = np.ones(n_docs)
         
         for i, sim_idx in enumerate(doc_indices):
             full_scores[sim_idx] = scores[i]
-            full_predictions[sim_idx] = predictions[i]
         
         return {
-            'scores': full_scores,
-            'predictions': full_predictions
+            'scores': full_scores
         }
     
     def _apply_dbscan_with_auto_eps(self, features_standard: np.ndarray, n_docs: int) -> Dict[str, np.ndarray]:
@@ -336,13 +321,13 @@ class CitationNetworkOutlierDetector:
         n_features = features_standard.shape[1]
         
         if n_docs < 100:
-            min_samples = max(6, int(1.5 * n_features))
+            min_samples = max(2, int(1.5 * n_features))
         elif n_docs < 500:
             min_samples = max(8, int(1.8 * n_features))
         elif n_docs < 2000:
-            min_samples = max(12, int(2.0 * n_features))
+            min_samples = max(40, int(2.0 * n_features))
         else:
-            min_samples = max(15, int(2.2 * n_features))
+            min_samples = max(50, int(2.2 * n_features))
         
         # Find optimal eps using k-distance with automatic knee detection
         optimal_eps = self._find_optimal_eps_auto(features_standard, min_samples)
@@ -358,7 +343,6 @@ class CitationNetworkOutlierDetector:
         logger.info(f"DBSCAN parameters: eps={optimal_eps:.4f}, min_samples={min_samples}")
         
         labels = dbscan.fit_predict(features_standard)
-        predictions = (labels == -1).astype(int) * 2 - 1  # Convert noise to -1, clusters to 1
         scores = self._compute_dbscan_scores(features_standard, labels)
         
         # Log DBSCAN performance
@@ -366,7 +350,6 @@ class CitationNetworkOutlierDetector:
         logger.info(f"DBSCAN flagged {outlier_pct:.1f}% as outliers")
         
         return {
-            'predictions': predictions,
             'scores': scores
         }
     
@@ -706,13 +689,11 @@ class CitationNetworkOutlierDetector:
             raise ValueError("Model must be fitted before getting outlier documents")
         
         score_key = f'{method}_scores'
-        pred_key = f'{method}_predictions'
         
         if score_key not in self.outlier_results:
             raise ValueError(f"Unknown method: {method}")
         
         scores = self.outlier_results[score_key]
-        predictions = self.outlier_results[pred_key]
         doc_ids = self.outlier_results['openalex_ids']
         
         # Get individual sub-model scores for all documents
@@ -721,18 +702,20 @@ class CitationNetworkOutlierDetector:
         dbscan_scores = self.outlier_results.get('dbscan_scores', np.zeros(len(doc_ids)))
         ensemble_scores = self.outlier_results.get('ensemble_scores', np.zeros(len(doc_ids)))
         
-        # Create results DataFrame
+        # Create results DataFrame - rank by score for top_k selection
+        score_rank_pairs = list(zip(scores, range(len(scores))))
+        score_rank_pairs.sort(key=lambda x: x[0], reverse=True)  # Sort by score, highest first
+        
         results = []
-        for i, (doc_id, score, pred) in enumerate(zip(doc_ids, scores, predictions)):
-            is_outlier = pred == -1 if method != 'ensemble' else pred == 1
-            
-            if top_k is None or is_outlier or len(results) < top_k:
+        for rank, (score, i) in enumerate(score_rank_pairs):
+            if top_k is None or rank < top_k:
+                doc_id = doc_ids[i]
                 doc_features = self.features_df[self.features_df['openalex_id'] == doc_id].iloc[0]
                 
                 result = {
                     'document_id': doc_id,
                     'outlier_score': float(score),
-                    'is_outlier': bool(is_outlier),
+                    'rank': rank + 1,
                     # Individual sub-model scores
                     'lof_score': float(lof_scores[i]),
                     'isolation_forest_score': float(isolation_forest_scores[i]),
@@ -765,16 +748,12 @@ class CitationNetworkOutlierDetector:
         comparison = []
         
         for method in methods:
-            pred_key = f'{method}_predictions'
             score_key = f'{method}_scores'
             
-            predictions = self.outlier_results[pred_key]
+            if score_key not in self.outlier_results:
+                continue
+                
             scores = self.outlier_results[score_key]
-            
-            if method == 'ensemble':
-                num_outliers = sum(predictions == 1)
-            else:
-                num_outliers = sum(predictions == -1)
             
             method_names = {
                 'lof': 'LOF (Embeddings)',
@@ -785,11 +764,11 @@ class CitationNetworkOutlierDetector:
             
             comparison.append({
                 'method': method_names.get(method, method),
-                'num_outliers': num_outliers,
-                'outlier_percentage': num_outliers / len(predictions) * 100,
                 'mean_score': np.mean(scores),
                 'std_score': np.std(scores),
+                'min_score': np.min(scores),
                 'max_score': np.max(scores),
+                'score_range': np.max(scores) - np.min(scores),
             })
         
         return pd.DataFrame(comparison)
@@ -888,7 +867,6 @@ def main():
         print("Methods: LOF (embeddings), Isolation Forest, DBSCAN with auto eps tuning")
         
         detector = CitationNetworkOutlierDetector(
-            contamination=0.1,
             use_umap=False,
             umap_components=50,
             random_state=42
@@ -947,10 +925,10 @@ def main():
         print("=" * 50)
         
         comparison = detector.get_method_comparison()
-        print(f"{'Method':<20} {'Outliers':<10} {'Percentage':<12} {'Mean Score':<12}")
+        print(f"{'Method':<20} {'Mean Score':<12} {'Std Score':<12} {'Score Range':<12}")
         print("-" * 60)
         for _, row in comparison.iterrows():
-            print(f"{row['method']:<20} {row['num_outliers']:<10} {row['outlier_percentage']:<12.1f} {row['mean_score']:<12.4f}")
+            print(f"{row['method']:<20} {row['mean_score']:<12.4f} {row['std_score']:<12.4f} {row['score_range']:<12.4f}")
         
         print(f"\n" + "=" * 60)
         print("ANALYSIS COMPLETED SUCCESSFULLY!")
