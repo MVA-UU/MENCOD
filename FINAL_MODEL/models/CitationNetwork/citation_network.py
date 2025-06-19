@@ -698,53 +698,234 @@ class CitationNetworkOutlierDetector:
         return analysis
 
 
+def _load_datasets_config() -> Dict[str, Any]:
+    """Load datasets configuration from JSON file."""
+    # Navigate up to project root from FINAL_MODEL/models/CitationNetwork/
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_dir)))
+    config_path = os.path.join(project_root, 'data', 'datasets.json')
+    
+    if not os.path.exists(config_path):
+        raise FileNotFoundError(f"Datasets configuration not found: {config_path}")
+    
+    with open(config_path, 'r') as f:
+        return json.load(f)
+
+
+def _get_available_datasets() -> List[str]:
+    """Get list of available dataset names."""
+    config = _load_datasets_config()
+    return list(config.keys())
+
+
+def _load_simulation_data(dataset_name: str) -> pd.DataFrame:
+    """Load simulation data for a specific dataset."""
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_dir)))
+    simulation_path = os.path.join(project_root, 'data', 'simulations', f'{dataset_name}.csv')
+    
+    if not os.path.exists(simulation_path):
+        raise FileNotFoundError(f"Simulation file not found: {simulation_path}")
+    
+    df = pd.read_csv(simulation_path)
+    logger.info(f"Loaded simulation data for {dataset_name}: {len(df)} documents")
+    
+    return df
+
+
+def _prompt_dataset_selection() -> str:
+    """Prompt user to select a dataset from available options."""
+    datasets = _get_available_datasets()
+    
+    print("\nAvailable datasets:")
+    for i, dataset in enumerate(datasets, 1):
+        print(f"{i}. {dataset}")
+    
+    while True:
+        try:
+            selection = int(input("\nSelect dataset (enter number): "))
+            if 1 <= selection <= len(datasets):
+                return datasets[selection-1]
+            else:
+                print(f"Please enter a number between 1 and {len(datasets)}")
+        except ValueError:
+            print("Please enter a valid number")
+
+
+def _evaluate_outlier_ranking(scores: Dict[str, float], dataset_name: str, datasets_config: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """Evaluate how well known outliers are ranked by the model."""
+    if dataset_name not in datasets_config:
+        return []
+    
+    # Get known outlier record IDs
+    outlier_record_ids = datasets_config[dataset_name].get('outlier_ids', [])
+    
+    # Load simulation data to map record_id to openalex_id
+    simulation_df = _load_simulation_data(dataset_name)
+    record_to_openalex = dict(zip(simulation_df['record_id'], simulation_df['openalex_id']))
+    
+    # Convert record IDs to OpenAlex IDs
+    outlier_openalex_ids = []
+    for record_id in outlier_record_ids:
+        if record_id in record_to_openalex:
+            outlier_openalex_ids.append(record_to_openalex[record_id])
+    
+    # Sort all documents by score (highest first)
+    sorted_docs = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+    
+    # Create ranking lookup
+    doc_to_rank = {doc_id: rank + 1 for rank, (doc_id, _) in enumerate(sorted_docs)}
+    
+    results = []
+    for outlier_id in outlier_openalex_ids:
+        if outlier_id in scores:
+            rank = doc_to_rank[outlier_id]
+            score = scores[outlier_id]
+            total_docs = len(scores)
+            percentile = ((total_docs - rank + 1) / total_docs) * 100
+            
+            results.append({
+                'outlier_id': outlier_id,
+                'rank': rank,
+                'score': score,
+                'total_documents': total_docs,
+                'percentile': percentile
+            })
+    
+    return results
+
+
 def main():
-    """Example usage of the CitationNetworkOutlierDetector."""
-    print("Citation Network Outlier Detection - Example Usage")
-    print("=" * 50)
+    """Standalone Citation Network Outlier Detection with Dataset Selection and Ranking Analysis."""
+    print("=" * 60)
+    print("CITATION NETWORK OUTLIER DETECTION - STANDALONE MODE")
+    print("=" * 60)
     
-    # This would typically load your actual dataset
-    # For demonstration, we'll show the expected interface
-    
-    # Load your simulation data
-    # simulation_df = pd.read_csv('path/to/your/simulation_data.csv')
-    
-    print("Expected usage:")
-    print("""
-    # Initialize detector
-    detector = CitationNetworkOutlierDetector(
-        contamination=0.1,  # Expect 10% outliers
-        enable_semantic=True
-    )
-    
-    # Run outlier detection (everything happens here)
-    results = detector.fit_predict_outliers(simulation_df, dataset_name='your_dataset')
-    
-    # Get outlier documents
-    outliers = detector.get_outlier_documents(method='ensemble', top_k=20)
-    print(outliers)
-    
-    # Compare methods
-    comparison = detector.get_method_comparison()
-    print(comparison)
-    
-    # Analyze specific document
-    analysis = detector.analyze_document('https://openalex.org/W12345')
-    print(analysis)
-    """)
-    
-    print("\nFeatures extracted:")
-    print("- Network features: degree, clustering, centrality measures")
-    print("- Citation features: references, publication patterns")
-    print("- Semantic features: similarity to relevant papers (if embeddings available)")
-    print("- Path features: distance to relevant papers in citation network")
-    
-    print("\nOutlier detection methods applied:")
-    print("- LOF: Local density-based outlier detection")
-    print("- Isolation Forest: Global anomaly detection")
-    print("- One-Class SVM: Boundary-based anomaly detection") 
-    print("- DBSCAN: Cluster-based outlier identification")
-    print("- Ensemble: Weighted combination of all methods")
+    try:
+        # Step 1: Dataset Selection
+        print("\nStep 1: Dataset Selection")
+        dataset_name = _prompt_dataset_selection()
+        
+        # Load datasets configuration
+        datasets_config = _load_datasets_config()
+        
+        # Step 2: Load Data
+        print(f"\nStep 2: Loading dataset '{dataset_name}'...")
+        simulation_df = _load_simulation_data(dataset_name)
+        print(f"Loaded {len(simulation_df)} documents")
+        
+        # Step 3: Initialize and Run Model
+        print(f"\nStep 3: Running Citation Network Outlier Detection...")
+        detector = CitationNetworkOutlierDetector(
+            contamination=0.1,
+            enable_semantic=True,
+            random_state=42
+        )
+        
+        start_time = time.time()
+        results = detector.fit_predict_outliers(simulation_df, dataset_name=dataset_name)
+        runtime = time.time() - start_time
+        
+        print(f"Model completed in {runtime:.2f} seconds")
+        
+        # Step 4: Create Score Dictionary for Ranking
+        doc_ids = results['openalex_ids']
+        ensemble_scores = results['ensemble_scores']
+        scores_dict = dict(zip(doc_ids, ensemble_scores))
+        
+        # Step 5: Evaluate Known Outliers
+        print(f"\n" + "=" * 50)
+        print("OUTLIER RANKING PERFORMANCE")
+        print("=" * 50)
+        
+        outlier_ranking_results = _evaluate_outlier_ranking(scores_dict, dataset_name, datasets_config)
+        
+        if outlier_ranking_results:
+            for result in outlier_ranking_results:
+                print(f"\nKnown Outlier: {result['outlier_id']}")
+                print(f"  Rank: {result['rank']} out of {result['total_documents']}")
+                print(f"  Ensemble Score: {result['score']:.4f}")
+                print(f"  Percentile: {result['percentile']:.1f}% (higher is better)")
+                
+                # Performance assessment
+                if result['percentile'] >= 95:
+                    performance = "Excellent ✓"
+                elif result['percentile'] >= 90:
+                    performance = "Very Good ✓"
+                elif result['percentile'] >= 80:
+                    performance = "Good"
+                elif result['percentile'] >= 70:
+                    performance = "Fair"
+                else:
+                    performance = "Poor"
+                print(f"  Performance: {performance}")
+                
+                # Show detailed score breakdown for the known outlier
+                print(f"\n  DETAILED SCORE BREAKDOWN:")
+                analysis = detector.analyze_document(result['outlier_id'])
+                
+                print(f"    Individual Method Scores:")
+                for method, score in analysis['scores'].items():
+                    prediction = analysis['predictions'][method]
+                    status = "OUTLIER" if prediction else "normal"
+                    print(f"      {method.upper()}: {score:.4f} ({status})")
+                
+                print(f"\n    Network Features:")
+                features = analysis.get('features', {})
+                print(f"      Degree: {features.get('degree', 0)}")
+                print(f"      PageRank: {features.get('pagerank', 0):.6f}")
+                print(f"      Clustering Coefficient: {features.get('clustering', 0):.4f}")
+                print(f"      Relevant Neighbors: {features.get('relevant_neighbors', 0)}")
+                print(f"      Relevant Ratio: {features.get('relevant_ratio', 0):.4f}")
+                print(f"      Min Distance to Relevant: {features.get('min_distance_to_relevant', 0):.4f}")
+                if 'semantic_similarity_to_relevant' in features:
+                    print(f"      Semantic Similarity: {features['semantic_similarity_to_relevant']:.4f}")
+        else:
+            print("No known outliers defined for this dataset.")
+        
+        # Step 6: Show Top Documents by Ensemble Score
+        print(f"\n" + "=" * 50)
+        print("TOP SCORING DOCUMENTS (by Ensemble Score)")
+        print("=" * 50)
+        
+        top_docs = sorted(scores_dict.items(), key=lambda x: x[1], reverse=True)[:10]
+        
+        for i, (doc_id, score) in enumerate(top_docs, 1):
+            print(f"\n{i}. Document: {doc_id}")
+            print(f"   Ensemble Score: {score:.4f}")
+            
+            # Show abbreviated breakdown for top 5
+            if i <= 5:
+                analysis = detector.analyze_document(doc_id)
+                print(f"   Method Scores: ", end="")
+                method_scores = []
+                for method, score_val in analysis['scores'].items():
+                    if method != 'ensemble':
+                        method_scores.append(f"{method.upper()}: {score_val:.3f}")
+                print(" | ".join(method_scores))
+        
+        # Step 7: Method Comparison
+        print(f"\n" + "=" * 50)
+        print("METHOD COMPARISON")
+        print("=" * 50)
+        
+        comparison = detector.get_method_comparison()
+        print(f"{'Method':<20} {'Outliers':<10} {'Percentage':<12} {'Mean Score':<12} {'Max Score':<10}")
+        print("-" * 70)
+        for _, row in comparison.iterrows():
+            print(f"{row['method']:<20} {row['num_outliers']:<10} {row['outlier_percentage']:<12.1f} {row['mean_score']:<12.4f} {row['max_score']:<10.4f}")
+        
+        print(f"\n" + "=" * 60)
+        print("CITATION NETWORK ANALYSIS COMPLETED SUCCESSFULLY!")
+        print("=" * 60)
+        
+    except KeyboardInterrupt:
+        print("\nAnalysis interrupted by user.")
+    except Exception as e:
+        print(f"\nError during analysis: {e}")
+        import traceback
+        traceback.print_exc()
+
 
 
 if __name__ == "__main__":

@@ -5,6 +5,6 @@ This module provides citation-based features for identifying outlier documents
 using GPU-accelerated graph processing and semantic embeddings.
 """
 
-from .citation_network import CitationNetworkModel
+from .citation_network import CitationNetworkOutlierDetector as CitationNetworkModel
 
 __all__ = ['CitationNetworkModel'] 
