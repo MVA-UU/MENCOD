@@ -89,12 +89,8 @@ class CitationNetworkOutlierDetector:
             nu=contamination  # nu parameter controls the fraction of outliers
         )
         
-        self.dbscan = DBSCAN(
-            eps=0.5,
-            min_samples=5,
-            metric='euclidean',
-            n_jobs=-1
-        )
+        # DBSCAN parameters will be set dynamically based on dataset size
+        self.dbscan = None
         
         # Scalers for different feature types
         self.standard_scaler = StandardScaler()
@@ -132,6 +128,24 @@ class CitationNetworkOutlierDetector:
         self.lof.contamination = dynamic_contamination
         self.isolation_forest.contamination = dynamic_contamination
         self.one_class_svm.nu = dynamic_contamination
+        
+        # Initialize DBSCAN with adaptive parameters based on dataset size
+        if n_docs < 100:
+            eps, min_samples = 0.3, 3
+        elif n_docs < 500:
+            eps, min_samples = 0.5, 5
+        elif n_docs < 2000:
+            eps, min_samples = 0.8, int(np.log(n_docs))
+        else:
+            eps, min_samples = 1.0, int(np.log(n_docs))
+        
+        self.dbscan = DBSCAN(
+            eps=eps,
+            min_samples=min_samples,
+            metric='euclidean',
+            n_jobs=-1
+        )
+        logger.info(f"DBSCAN parameters: eps={eps}, min_samples={min_samples}")
         
         # Build citation network
         G = self._build_citation_network(simulation_df)
