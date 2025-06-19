@@ -89,7 +89,7 @@ class CitationNetworkOutlierDetector:
         
         # Initialize outlier detection algorithms
         self.lof = LocalOutlierFactor(
-            n_neighbors=20,
+            n_neighbors=50,  # Increased for more stable density estimation
             contamination=contamination,
             metric='euclidean',
             novelty=False,  # For direct prediction on training data
@@ -144,25 +144,28 @@ class CitationNetworkOutlierDetector:
         # Store dataset name for synergy data loading
         self._current_dataset_name = dataset_name
         
-        # Calculate dynamic contamination based on number of documents (1 outlier expected)
+        # Calculate dynamic contamination for RANKING - more liberal than binary classification
         n_docs = len(simulation_df)
-        dynamic_contamination = max(0.05, min(0.15, 3.0 / n_docs))  # 5-15% range
-        logger.info(f"Using dynamic contamination: {dynamic_contamination:.4f} (1/{n_docs} documents)")
+        # For ranking: use higher contamination to ensure good recall at top ranks
+        dynamic_contamination = max(0.15, min(0.25, 10.0 / n_docs))  # 15-25% range for ranking
+        logger.info(f"Using dynamic contamination for ranking: {dynamic_contamination:.4f}")
         
         # Update contamination for all algorithms
         self.lof.contamination = dynamic_contamination
         self.isolation_forest.contamination = dynamic_contamination
         self.one_class_svm.nu = dynamic_contamination
         
-        # Initialize DBSCAN with adaptive parameters based on dataset size
+        # FIXED: Better DBSCAN parameter selection using k-distance method principles
+        # Use much smaller eps values and data-driven min_samples
         if n_docs < 100:
-            eps, min_samples = 0.3, 3
+            eps, min_samples = 0.5, max(3, int(np.log2(n_docs)))
         elif n_docs < 500:
-            eps, min_samples = 0.5, 5
+            eps, min_samples = 0.7, max(5, int(np.log2(n_docs)))
         elif n_docs < 2000:
-            eps, min_samples = 0.8, int(np.log(n_docs))
+            eps, min_samples = 0.9, max(8, int(np.log2(n_docs)))
         else:
-            eps, min_samples = 1.0, int(np.log(n_docs))
+            # For large datasets: much more conservative eps, higher min_samples
+            eps, min_samples = 1.2, max(12, int(np.log2(n_docs) * 1.5))
         
         self.dbscan = DBSCAN(
             eps=eps,
@@ -233,7 +236,11 @@ class CitationNetworkOutlierDetector:
         outlier_results['dbscan_predictions'] = dbscan_predictions
         outlier_results['dbscan_scores'] = dbscan_scores
         
-        # 6. Ensemble scoring
+        # Log DBSCAN performance
+        dbscan_outlier_pct = (dbscan_labels == -1).sum() / len(dbscan_labels) * 100
+        logger.info(f"DBSCAN flagged {dbscan_outlier_pct:.1f}% as outliers")
+        
+        # 6. Ensemble scoring with improved methods
         logger.info("Computing ensemble scores...")
         ensemble_scores = self._compute_ensemble_scores(outlier_results)
         outlier_results['ensemble_scores'] = ensemble_scores
@@ -461,17 +468,20 @@ class CitationNetworkOutlierDetector:
         doc_embeddings = np.array(doc_embeddings)
         
         # Configure LOF for embedding space
-        n_neighbors = min(20, max(5, len(doc_embeddings) // 10))  # Adaptive neighborhood size
+        n_neighbors = min(50, max(10, len(doc_embeddings) // 20))  # More conservative neighborhood
+        
+        # Use cosine similarity for high-dimensional embeddings unless UMAP reduced
+        metric = 'euclidean' if self.use_umap else 'cosine'
         
         embedding_lof = LocalOutlierFactor(
             n_neighbors=n_neighbors,
             contamination=dynamic_contamination,
-            metric='euclidean' if self.use_umap else 'cosine',  # Euclidean for UMAP, cosine for original
+            metric=metric,
             novelty=False,
             n_jobs=-1
         )
         
-        logger.info(f"Applying LOF to embeddings: {doc_embeddings.shape} with {n_neighbors} neighbors")
+        logger.info(f"Applying LOF to embeddings: {doc_embeddings.shape} with {n_neighbors} neighbors, metric={metric}")
         
         # Apply LOF
         embedding_predictions = embedding_lof.fit_predict(doc_embeddings)
@@ -768,23 +778,74 @@ class CitationNetworkOutlierDetector:
         return scores
     
     def _compute_ensemble_scores(self, results: Dict[str, np.ndarray]) -> np.ndarray:
-        """Compute ensemble scores by combining multiple methods."""
-        # Normalize individual scores - prioritize embedding-based LOF for subtopic detection
-        lof_embedding_scores_norm = self._normalize_scores(results['lof_scores'])  # Embedding-based LOF
-        lof_mixed_scores_norm = self._normalize_scores(results['lof_mixed_scores'])  # Mixed features LOF
-        if_scores_norm = self._normalize_scores(results['isolation_forest_scores'])
-        svm_scores_norm = self._normalize_scores(results['one_class_svm_scores'])
-        dbscan_scores_norm = self._normalize_scores(results['dbscan_scores'])
+        """Compute ensemble scores with rank-based normalization and data-driven weighting."""
         
-        # Weighted ensemble - heavily favor embedding-based LOF for subtopic outlier detection
-        weights = {
-            'lof_embedding': 0.5,     # Primary method for subtopic outliers
-            'lof_mixed': 0.15,        # Secondary LOF on mixed features
-            'isolation_forest': 0.15, # Global outliers
-            'one_class_svm': 0.1,     # Boundary outliers
-            'dbscan': 0.1,            # Cluster-based outliers
+        # Use rank-based normalization instead of min-max to avoid pollution from bad methods
+        lof_embedding_scores_norm = self._rank_normalize_scores(results['lof_scores'])
+        lof_mixed_scores_norm = self._rank_normalize_scores(results['lof_mixed_scores'])
+        if_scores_norm = self._rank_normalize_scores(results['isolation_forest_scores'])
+        svm_scores_norm = self._rank_normalize_scores(results['one_class_svm_scores'])
+        dbscan_scores_norm = self._rank_normalize_scores(results['dbscan_scores'])
+        
+        # Calculate variance-based weights to emphasize methods with better discrimination
+        score_arrays = {
+            'lof_embedding': lof_embedding_scores_norm,
+            'lof_mixed': lof_mixed_scores_norm,
+            'isolation_forest': if_scores_norm,
+            'one_class_svm': svm_scores_norm,
+            'dbscan': dbscan_scores_norm,
         }
         
+        # Compute weights based on score variance (higher variance = better discrimination)
+        variances = {method: np.var(scores) for method, scores in score_arrays.items()}
+        total_variance = sum(variances.values())
+        
+        if total_variance > 0:
+            # Base weights on variance, but with minimum thresholds
+            base_weights = {method: var / total_variance for method, var in variances.items()}
+            
+            # Apply constraints: LOF methods get at least 30% each, others get remaining
+            lof_emb_weight = max(0.30, base_weights['lof_embedding'])
+            lof_mixed_weight = max(0.25, base_weights['lof_mixed'])
+            
+            # Renormalize remaining weight for other methods
+            remaining_weight = 1.0 - lof_emb_weight - lof_mixed_weight
+            other_methods = ['isolation_forest', 'one_class_svm', 'dbscan']
+            other_total_base = sum(base_weights[m] for m in other_methods)
+            
+            if other_total_base > 0:
+                other_scale = remaining_weight / other_total_base
+                weights = {
+                    'lof_embedding': lof_emb_weight,
+                    'lof_mixed': lof_mixed_weight,
+                    'isolation_forest': base_weights['isolation_forest'] * other_scale,
+                    'one_class_svm': base_weights['one_class_svm'] * other_scale,
+                    'dbscan': base_weights['dbscan'] * other_scale,
+                }
+            else:
+                # Fallback if other methods have no variance
+                weights = {
+                    'lof_embedding': 0.45,
+                    'lof_mixed': 0.35,
+                    'isolation_forest': 0.10,
+                    'one_class_svm': 0.05,
+                    'dbscan': 0.05,
+                }
+        else:
+            # Fallback weights if no variance detected
+            weights = {
+                'lof_embedding': 0.40,
+                'lof_mixed': 0.30,
+                'isolation_forest': 0.15,
+                'one_class_svm': 0.10,
+                'dbscan': 0.05,
+            }
+        
+        logger.info(f"Data-driven ensemble weights: LOF-EMB={weights['lof_embedding']:.3f}, "
+                   f"LOF-MIX={weights['lof_mixed']:.3f}, IF={weights['isolation_forest']:.3f}, "
+                   f"SVM={weights['one_class_svm']:.3f}, DBSCAN={weights['dbscan']:.3f}")
+        
+        # Compute weighted ensemble with rank-normalized scores
         ensemble_scores = (
             weights['lof_embedding'] * lof_embedding_scores_norm +
             weights['lof_mixed'] * lof_mixed_scores_norm +
@@ -795,8 +856,23 @@ class CitationNetworkOutlierDetector:
         
         return ensemble_scores
     
+    def _rank_normalize_scores(self, scores: np.ndarray) -> np.ndarray:
+        """Normalize scores using rank-based method for better discrimination."""
+        scores = np.array(scores)
+        
+        # Get ranks (higher score = higher rank)
+        ranks = len(scores) - np.argsort(np.argsort(scores))  # Convert to ranks from 1 to n
+        
+        # Normalize ranks to [0, 1] range
+        if len(scores) > 1:
+            normalized = (ranks - 1) / (len(scores) - 1)
+        else:
+            normalized = np.zeros_like(ranks, dtype=float)
+        
+        return normalized
+    
     def _normalize_scores(self, scores: np.ndarray) -> np.ndarray:
-        """Normalize scores to [0, 1] range."""
+        """Normalize scores to [0, 1] range using min-max."""
         scores = np.array(scores)
         if scores.max() - scores.min() > 1e-8:
             return (scores - scores.min()) / (scores.max() - scores.min())
