@@ -729,31 +729,8 @@ class CitationNetworkModel:
         
         logger.info(f"Computing relevance scores for {len(target_documents)} documents")
         
-        # Use optimized batch scoring for large document lists
-        if len(target_documents) > 500:
-            return self._predict_relevance_scores_batch(target_documents)
-        else:
-            # Use regular method for smaller lists
-            features_df = self.extract_features(target_documents)
-            
-            # Calculate deviation scores
-            scores = {}
-            for _, row in features_df.iterrows():
-                doc_id = row['openalex_id']
-                score = self._calculate_relevance_score(row)
-                scores[doc_id] = score
-            
-            # Normalize scores to 0-1 range
-            if scores:
-                max_score = max(scores.values())
-                min_score = min(scores.values())
-                score_range = max_score - min_score
-                
-                if score_range > 0:
-                    for doc_id in scores:
-                        scores[doc_id] = (scores[doc_id] - min_score) / score_range
-            
-            return scores
+        # Always use batch scoring for consistency regardless of dataset size
+        return self._predict_relevance_scores_batch(target_documents)
     
     def _predict_relevance_scores_batch(self, target_documents: List[str]) -> Dict[str, float]:
         """
@@ -781,36 +758,43 @@ class CitationNetworkModel:
             scores[doc_id] = 0.0
         
         if docs_in_network:
-            # Use multiprocessing for CPU-intensive graph operations
-            num_workers = min(mp.cpu_count(), 15)  # Use up to 15 cores as you mentioned
-            batch_size = max(20, len(docs_in_network) // (num_workers * 4))  # Smaller batches for better parallelization
-            
-            logger.info(f"Using {num_workers} workers with batch size {batch_size}")
-            
-            # Split documents into chunks for parallel processing
-            doc_chunks = [docs_in_network[i:i+batch_size] for i in range(0, len(docs_in_network), batch_size)]
-            
-            # Prepare shared data for workers
-            worker_data = {
-                'pagerank_values': self.pagerank_values,
-                'relevant_documents': self.relevant_documents,
-                'semantic_similarities': semantic_similarities,
-                'graph_edges': list(self.G.edges(data=True)),  # Serialize graph data
-                'graph_nodes': list(self.G.nodes(data=True))
-            }
-            
-            # Process chunks in parallel
-            with ProcessPoolExecutor(max_workers=num_workers) as executor:
-                worker_func = partial(_process_document_chunk, worker_data)
-                chunk_results = list(tqdm(
-                    executor.map(worker_func, doc_chunks),
-                    total=len(doc_chunks),
-                    desc="Parallel scoring"
-                ))
-            
-            # Combine results
-            for chunk_scores in chunk_results:
-                scores.update(chunk_scores)
+            # For small datasets, use single-threaded processing to avoid overhead
+            if len(docs_in_network) < 100:
+                logger.info("Using single-threaded processing for small dataset")
+                for doc_id in tqdm(docs_in_network, desc="Computing scores"):
+                    features = self._get_features_fast(doc_id, semantic_similarities)
+                    scores[doc_id] = self._calculate_relevance_score_fast(features)
+            else:
+                # Use multiprocessing for CPU-intensive graph operations on larger datasets
+                num_workers = min(mp.cpu_count(), 15)  # Use up to 15 cores
+                batch_size = max(20, len(docs_in_network) // (num_workers * 4))  # Smaller batches for better parallelization
+                
+                logger.info(f"Using {num_workers} workers with batch size {batch_size}")
+                
+                # Split documents into chunks for parallel processing
+                doc_chunks = [docs_in_network[i:i+batch_size] for i in range(0, len(docs_in_network), batch_size)]
+                
+                # Prepare shared data for workers
+                worker_data = {
+                    'pagerank_values': self.pagerank_values,
+                    'relevant_documents': self.relevant_documents,
+                    'semantic_similarities': semantic_similarities,
+                    'graph_edges': list(self.G.edges(data=True)),  # Serialize graph data
+                    'graph_nodes': list(self.G.nodes(data=True))
+                }
+                
+                # Process chunks in parallel
+                with ProcessPoolExecutor(max_workers=num_workers) as executor:
+                    worker_func = partial(_process_document_chunk, worker_data)
+                    chunk_results = list(tqdm(
+                        executor.map(worker_func, doc_chunks),
+                        total=len(doc_chunks),
+                        desc="Parallel scoring"
+                    ))
+                
+                # Combine results
+                for chunk_scores in chunk_results:
+                    scores.update(chunk_scores)
         
         # Normalize scores using vectorized operations
         if scores:
