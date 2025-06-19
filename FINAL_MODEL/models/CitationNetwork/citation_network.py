@@ -688,7 +688,7 @@ class CitationNetworkModel:
             doc_id = row['openalex_id']
             
             # Extract citations from references column if available
-            if 'references' in row and pd.notna(row['references']):
+            if 'references' in row and row['references'] is not None:
                 try:
                     # Try to parse references as JSON list
                     if isinstance(row['references'], str):
@@ -722,7 +722,7 @@ class CitationNetworkModel:
             
             # Alternative: Check for other citation columns
             for col in ['cited_by', 'cites', 'references_list']:
-                if col in row and pd.notna(row[col]):
+                if col in row and row[col] is not None:
                     try:
                         # Handle different formats
                         if isinstance(row[col], str):
