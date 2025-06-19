@@ -701,7 +701,7 @@ class CitationNetworkOutlierDetector:
     def get_outlier_documents(self, 
                             method: str = 'ensemble',
                             top_k: int = None) -> pd.DataFrame:
-        """Get outlier documents with detailed information."""
+        """Get outlier documents with detailed information including individual sub-model scores."""
         if not self.is_fitted:
             raise ValueError("Model must be fitted before getting outlier documents")
         
@@ -715,6 +715,12 @@ class CitationNetworkOutlierDetector:
         predictions = self.outlier_results[pred_key]
         doc_ids = self.outlier_results['openalex_ids']
         
+        # Get individual sub-model scores for all documents
+        lof_scores = self.outlier_results.get('lof_scores', np.zeros(len(doc_ids)))
+        isolation_forest_scores = self.outlier_results.get('isolation_forest_scores', np.zeros(len(doc_ids)))
+        dbscan_scores = self.outlier_results.get('dbscan_scores', np.zeros(len(doc_ids)))
+        ensemble_scores = self.outlier_results.get('ensemble_scores', np.zeros(len(doc_ids)))
+        
         # Create results DataFrame
         results = []
         for i, (doc_id, score, pred) in enumerate(zip(doc_ids, scores, predictions)):
@@ -727,6 +733,12 @@ class CitationNetworkOutlierDetector:
                     'document_id': doc_id,
                     'outlier_score': float(score),
                     'is_outlier': bool(is_outlier),
+                    # Individual sub-model scores
+                    'lof_score': float(lof_scores[i]),
+                    'isolation_forest_score': float(isolation_forest_scores[i]),
+                    'dbscan_score': float(dbscan_scores[i]),
+                    'ensemble_score': float(ensemble_scores[i]),
+                    # Graph features
                     'degree': doc_features['degree'],
                     'relevant_neighbors': doc_features['relevant_neighbors'],
                     'relevant_ratio': doc_features['relevant_ratio'],
@@ -781,6 +793,78 @@ class CitationNetworkOutlierDetector:
             })
         
         return pd.DataFrame(comparison)
+    
+    def get_detailed_outlier_breakdown(self, top_k: int = 10) -> pd.DataFrame:
+        """
+        Get a detailed breakdown of outlier scores showing all sub-model contributions.
+        
+        Args:
+            top_k: Number of top outliers to show
+            
+        Returns:
+            DataFrame with detailed score breakdown
+        """
+        if not self.is_fitted:
+            raise ValueError("Model must be fitted before getting outlier breakdown")
+        
+        doc_ids = self.outlier_results['openalex_ids']
+        lof_scores = self.outlier_results.get('lof_scores', np.zeros(len(doc_ids)))
+        isolation_forest_scores = self.outlier_results.get('isolation_forest_scores', np.zeros(len(doc_ids)))
+        dbscan_scores = self.outlier_results.get('dbscan_scores', np.zeros(len(doc_ids)))
+        ensemble_scores = self.outlier_results.get('ensemble_scores', np.zeros(len(doc_ids)))
+        
+        # Create detailed breakdown
+        breakdown = []
+        for i, doc_id in enumerate(doc_ids):
+            breakdown.append({
+                'document_id': doc_id,
+                'lof_score': float(lof_scores[i]),
+                'isolation_forest_score': float(isolation_forest_scores[i]),
+                'dbscan_score': float(dbscan_scores[i]),
+                'ensemble_score': float(ensemble_scores[i]),
+                'rank_by_ensemble': 0  # Will be filled after sorting
+            })
+        
+        # Convert to DataFrame and sort by ensemble score
+        breakdown_df = pd.DataFrame(breakdown)
+        breakdown_df = breakdown_df.sort_values('ensemble_score', ascending=False)
+        breakdown_df['rank_by_ensemble'] = range(1, len(breakdown_df) + 1)
+        
+        # Return top_k results
+        return breakdown_df.head(top_k)
+    
+    def print_outlier_score_summary(self, top_k: int = 10):
+        """
+        Print a formatted summary of outlier scores for easy reading.
+        
+        Args:
+            top_k: Number of top outliers to display
+        """
+        if not self.is_fitted:
+            raise ValueError("Model must be fitted before printing summary")
+        
+        breakdown_df = self.get_detailed_outlier_breakdown(top_k)
+        
+        print(f"\n" + "=" * 80)
+        print(f"TOP {top_k} OUTLIERS - DETAILED SCORE BREAKDOWN")
+        print("=" * 80)
+        print(f"{'Rank':<5} {'Document ID':<20} {'LOF':<8} {'IsolFor':<8} {'DBSCAN':<8} {'Ensemble':<10}")
+        print("-" * 80)
+        
+        for _, row in breakdown_df.iterrows():
+            print(f"{row['rank_by_ensemble']:<5} "
+                  f"{row['document_id']:<20} "
+                  f"{row['lof_score']:<8.4f} "
+                  f"{row['isolation_forest_score']:<8.4f} "
+                  f"{row['dbscan_score']:<8.4f} "
+                  f"{row['ensemble_score']:<10.4f}")
+        
+        print("=" * 80)
+        print("LOF = Local Outlier Factor (Embeddings)")
+        print("IsolFor = Isolation Forest") 
+        print("DBSCAN = Density-Based Clustering")
+        print("Ensemble = Weighted combination of all methods")
+        print("=" * 80)
 
 
 def main():
@@ -849,15 +933,13 @@ def main():
         else:
             print("No known outliers defined for this dataset.")
         
-        # Show Top Documents
+        # Show Top Documents with Detailed Scores
         print(f"\n" + "=" * 50)
-        print("TOP OUTLIER DOCUMENTS")
+        print("TOP OUTLIER DOCUMENTS - DETAILED BREAKDOWN")
         print("=" * 50)
         
-        top_docs = sorted(scores_dict.items(), key=lambda x: x[1], reverse=True)[:10]
-        
-        for i, (doc_id, score) in enumerate(top_docs, 1):
-            print(f"{i}. Document: {doc_id} | Score: {score:.4f}")
+        # Use the new detailed breakdown method
+        detector.print_outlier_score_summary(top_k=10)
         
         # Method Comparison
         print(f"\n" + "=" * 50)
