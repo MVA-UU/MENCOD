@@ -173,31 +173,34 @@ class CitationNetworkOutlierDetector:
         # Handle missing values
         feature_matrix = np.nan_to_num(feature_matrix, nan=0.0, posinf=0.0, neginf=0.0)
         
-        # FIXED: Research-based DBSCAN parameter selection for high-dimensional data
-        # Now we can access the actual number of features (21 in this case)
+        # FIXED: Use k-distance method to find optimal eps for DBSCAN
+        # First determine min_samples based on dimensionality
         n_features = feature_matrix.shape[1]
         
         if n_docs < 100:
-            eps, min_samples = 0.1, max(6, int(1.5 * n_features))
+            min_samples = max(6, int(1.5 * n_features))
         elif n_docs < 500:
-            eps, min_samples = 0.15, max(8, int(1.8 * n_features))
+            min_samples = max(8, int(1.8 * n_features))
         elif n_docs < 2000:
-            eps, min_samples = 0.2, max(12, int(2.0 * n_features))
+            min_samples = max(12, int(2.0 * n_features))
         else:
             # For large datasets with many features: very conservative parameters
-            eps, min_samples = 0.25, max(15, int(2.2 * n_features))
-        
-        self.dbscan = DBSCAN(
-            eps=eps,
-            min_samples=min_samples,
-            metric='euclidean',
-            n_jobs=-1
-        )
-        logger.info(f"DBSCAN parameters for {n_features} features: eps={eps}, min_samples={min_samples}")
+            min_samples = max(15, int(2.2 * n_features))
         
         # Scale features for different algorithms
         features_standard = self.standard_scaler.fit_transform(feature_matrix)
         features_robust = self.robust_scaler.fit_transform(feature_matrix)
+        
+        # Use k-distance graph to find optimal eps on scaled features
+        optimal_eps = self._find_optimal_eps_kdistance(features_standard, min_samples)
+        
+        self.dbscan = DBSCAN(
+            eps=optimal_eps,
+            min_samples=min_samples,
+            metric='euclidean',
+            n_jobs=-1
+        )
+        logger.info(f"DBSCAN parameters for {n_features} features: eps={optimal_eps:.4f} (k-distance), min_samples={min_samples}")
         
         # Apply all outlier detection methods
         outlier_results = {}
@@ -1029,6 +1032,116 @@ class CitationNetworkOutlierDetector:
             }
         
         return analysis
+    
+    def _find_optimal_eps_kdistance(self, features: np.ndarray, k: int) -> float:
+        """
+        Find optimal eps parameter using k-distance graph method.
+        
+        Args:
+            features: Scaled feature matrix
+            k: Number of nearest neighbors (min_samples)
+            
+        Returns:
+            Optimal eps value based on elbow detection
+        """
+        from sklearn.neighbors import NearestNeighbors
+        
+        # Compute k-nearest neighbors
+        logger.info(f"Computing {k}-distance graph for eps optimization...")
+        nbrs = NearestNeighbors(n_neighbors=k, metric='euclidean', n_jobs=-1)
+        nbrs.fit(features)
+        
+        # Get distances to k-th nearest neighbor for all points
+        distances, indices = nbrs.kneighbors(features)
+        k_distances = distances[:, k-1]  # Distance to k-th neighbor (0-indexed)
+        
+        # Sort distances in ascending order
+        k_distances_sorted = np.sort(k_distances)
+        
+        # Find elbow using knee detection algorithm
+        optimal_eps = self._detect_knee_point(k_distances_sorted)
+        
+        logger.info(f"K-distance analysis: min={k_distances_sorted.min():.4f}, "
+                   f"max={k_distances_sorted.max():.4f}, "
+                   f"optimal_eps={optimal_eps:.4f}")
+        
+        return optimal_eps
+    
+    def _detect_knee_point(self, distances: np.ndarray) -> float:
+        """
+        Detect knee/elbow point in k-distance curve using the knee detection algorithm.
+        
+        Args:
+            distances: Sorted k-distances array
+            
+        Returns:
+            Distance value at the knee point
+        """
+        # Simple knee detection: find point of maximum curvature
+        n_points = len(distances)
+        
+        if n_points < 10:
+            # If too few points, return median
+            return np.median(distances)
+        
+        # Create x-axis (point indices normalized to [0,1])
+        x = np.arange(n_points) / (n_points - 1)
+        y = distances
+        
+        # Normalize y to [0,1] for consistent comparison
+        y_norm = (y - y.min()) / (y.max() - y.min()) if y.max() > y.min() else y
+        
+        # Find point with maximum distance from line connecting start and end points
+        # This is a simple but effective knee detection method
+        start_point = np.array([x[0], y_norm[0]])
+        end_point = np.array([x[-1], y_norm[-1]])
+        
+        max_distance = 0
+        knee_idx = 0
+        
+        for i in range(1, n_points - 1):
+            # Distance from point to line
+            point = np.array([x[i], y_norm[i]])
+            distance = self._point_to_line_distance(point, start_point, end_point)
+            
+            if distance > max_distance:
+                max_distance = distance
+                knee_idx = i
+        
+        # Return the actual distance value at the knee point
+        optimal_eps = distances[knee_idx]
+        
+        # Apply bounds check: eps should be reasonable
+        # Not too small (< 1st percentile) or too large (> 95th percentile)
+        min_eps = np.percentile(distances, 1)
+        max_eps = np.percentile(distances, 95)
+        
+        optimal_eps = max(min_eps, min(optimal_eps, max_eps))
+        
+        return optimal_eps
+    
+    def _point_to_line_distance(self, point: np.ndarray, line_start: np.ndarray, line_end: np.ndarray) -> float:
+        """Calculate perpendicular distance from point to line."""
+        # Vector from line_start to line_end
+        line_vec = line_end - line_start
+        # Vector from line_start to point
+        point_vec = point - line_start
+        
+        # Length of line
+        line_len = np.linalg.norm(line_vec)
+        if line_len == 0:
+            return np.linalg.norm(point_vec)
+        
+        # Normalized line vector
+        line_unitvec = line_vec / line_len
+        
+        # Projection of point vector onto line
+        proj_length = np.dot(point_vec, line_unitvec)
+        proj = proj_length * line_unitvec
+        
+        # Perpendicular distance
+        perp_vec = point_vec - proj
+        return np.linalg.norm(perp_vec)
 
 
 def _load_datasets_config() -> Dict[str, Any]:
