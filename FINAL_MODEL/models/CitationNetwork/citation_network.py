@@ -599,10 +599,15 @@ class CitationNetworkModel:
             self.dataset_name = dataset_name
             self.dataset_config = self.datasets_config[dataset_name]
         
-        if not self.dataset_name:
+        # Handle case where simulation data is provided without dataset name (for testing)
+        if not self.dataset_name and simulation_df is not None:
+            logger.info("Using provided simulation data without dataset configuration (testing mode)")
+            self.dataset_name = "synthetic_test_data"
+            self.dataset_config = {}
+        elif not self.dataset_name:
             raise ValueError("Dataset name must be provided either in constructor or fit method")
-        
-        logger.info(f"Fitting citation network model for dataset: {self.dataset_name}")
+        else:
+            logger.info(f"Fitting citation network model for dataset: {self.dataset_name}")
         
         # Load simulation data if not provided
         if simulation_df is None:
@@ -610,9 +615,12 @@ class CitationNetworkModel:
         
         self.simulation_data = simulation_df.copy()
         
-        # Load embeddings if semantic features are enabled
-        if self.enable_semantic:
+        # Load embeddings if semantic features are enabled and not in testing mode
+        if self.enable_semantic and self.dataset_name != "synthetic_test_data":
             self.embeddings, self.embeddings_metadata = self._load_embeddings(self.dataset_name)
+        elif self.enable_semantic and self.dataset_name == "synthetic_test_data":
+            logger.info("Semantic features disabled for synthetic test data (no embeddings available)")
+            self.embeddings, self.embeddings_metadata = None, None
         
         # Build citation network
         self.G = self._build_comprehensive_network(simulation_df)
@@ -1726,7 +1734,7 @@ class CitationNetworkModel:
             'features': features,
             'in_network': doc_id in self.G.nodes,
             'has_embeddings': (self.embeddings_metadata and 
-                             doc_id in self.embeddings_metadata.get('openalex_ids', [])),
+                             doc_id in self.embeddings_metadata.get('openalex_id', [])),
         }
         
         if doc_id in self.G.nodes:

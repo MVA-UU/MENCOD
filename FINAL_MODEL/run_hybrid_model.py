@@ -54,7 +54,6 @@ Examples:
     parser.add_argument('--disable-gpu', action='store_true', help='Disable GPU acceleration')
     parser.add_argument('--disable-semantic', action='store_true', help='Disable semantic embeddings')
     parser.add_argument('--disable-adaptive', action='store_true', help='Disable adaptive weighting')
-    parser.add_argument('--outlier-mode', action='store_true', help='Enable outlier detection mode for citation network')
     
     # Model weights (manual override)
     parser.add_argument('--citation-weight', type=float, help='Manual weight for citation network')
@@ -103,8 +102,7 @@ def create_model_config(args) -> ModelConfiguration:
         enable_confidence_calibration=not args.disable_confidence,
         enable_content_similarity=not args.disable_content,
         enable_gpu_acceleration=not args.disable_gpu,
-        enable_semantic_embeddings=not args.disable_semantic,
-        outlier_mode=args.outlier_mode
+        enable_semantic_embeddings=not args.disable_semantic
     )
 
 

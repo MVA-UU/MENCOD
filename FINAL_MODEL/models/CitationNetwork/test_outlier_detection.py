@@ -33,7 +33,7 @@ def test_outlier_detection():
     model = CitationNetworkModel(
         dataset_name=None,  # Use simulation data
         enable_gpu=False,   # Disable for testing
-        enable_semantic=True,
+        enable_semantic=False,  # Disable semantic features for testing (no embeddings)
         outlier_contamination=0.1  # Expect 10% outliers
     )
     
