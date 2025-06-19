@@ -59,7 +59,7 @@ class CitationNetworkOutlierDetector:
         Initialize the outlier detector.
         
         Args:
-            contamination: Expected proportion of outliers (0.05 to 0.2)
+            contamination: Initial contamination value (will be dynamically calculated as 1/n_docs during fit_predict_outliers)
             enable_semantic: Whether to use semantic embeddings if available
             random_state: Random state for reproducibility
         """
@@ -123,6 +123,16 @@ class CitationNetworkOutlierDetector:
         logger.info(f"Starting on-the-fly outlier detection for {len(simulation_df)} documents")
         start_time = time.time()
         
+        # Calculate dynamic contamination based on number of documents (1 outlier expected)
+        n_docs = len(simulation_df)
+        dynamic_contamination = 1.0 / n_docs if n_docs > 0 else self.contamination
+        logger.info(f"Using dynamic contamination: {dynamic_contamination:.4f} (1/{n_docs} documents)")
+        
+        # Update contamination for all algorithms
+        self.lof.contamination = dynamic_contamination
+        self.isolation_forest.contamination = dynamic_contamination
+        self.one_class_svm.nu = dynamic_contamination
+        
         # Build citation network
         G = self._build_citation_network(simulation_df)
         logger.info(f"Built citation network: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")
@@ -182,7 +192,7 @@ class CitationNetworkOutlierDetector:
         logger.info("Computing ensemble scores...")
         ensemble_scores = self._compute_ensemble_scores(outlier_results)
         outlier_results['ensemble_scores'] = ensemble_scores
-        outlier_results['ensemble_predictions'] = (ensemble_scores > np.percentile(ensemble_scores, 100 * (1 - self.contamination))).astype(int) * 2 - 1
+        outlier_results['ensemble_predictions'] = (ensemble_scores > np.percentile(ensemble_scores, 100 * (1 - dynamic_contamination))).astype(int) * 2 - 1
         
         # Add document IDs to results
         outlier_results['openalex_ids'] = features_df['openalex_id'].values
