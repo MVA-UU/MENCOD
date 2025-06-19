@@ -30,7 +30,7 @@ def load_datasets_config() -> Dict[str, Any]:
     if not os.path.exists(config_path):
         raise FileNotFoundError(f"Datasets configuration not found: {config_path}")
     
-    with open(config_path, 'r') as f:
+    with open(config_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
@@ -82,7 +82,7 @@ def load_embeddings(dataset_name: str) -> Tuple[Optional[np.ndarray], Optional[D
     
     try:
         embeddings = np.load(embeddings_path)
-        with open(metadata_path, 'r') as f:
+        with open(metadata_path, 'r', encoding='utf-8') as f:
             metadata = json.load(f)
         
         logger.info(f"Loaded embeddings for {dataset_name}: {embeddings.shape}")
@@ -90,6 +90,56 @@ def load_embeddings(dataset_name: str) -> Tuple[Optional[np.ndarray], Optional[D
     except Exception as e:
         logger.error(f"Failed to load embeddings for {dataset_name}: {e}")
         return None, None
+
+
+def load_synergy_dataset(dataset_name: str = None) -> Optional[Dict]:
+    """
+    Load synergy dataset for citation information.
+    
+    Args:
+        dataset_name: Name of the dataset to load synergy data for
+        
+    Returns:
+        Dictionary with synergy dataset data or None if not available
+    """
+    try:
+        # Try to import synergy_dataset
+        import sys
+        project_root = get_project_root()
+        models_dir = os.path.join(project_root, 'models')
+        if models_dir not in sys.path:
+            sys.path.insert(0, models_dir)
+        
+        from synergy_dataset import Dataset
+    except ImportError:
+        logger.warning("synergy_dataset not available - citation edges will not be added")
+        return None
+        
+    try:
+        if not dataset_name:
+            logger.warning("No dataset name provided for synergy data loading")
+            return None
+            
+        # Load datasets configuration to get synergy dataset name
+        datasets_config = load_datasets_config()
+        
+        if dataset_name not in datasets_config:
+            logger.warning(f"Dataset '{dataset_name}' not found in configuration")
+            return None
+            
+        synergy_name = datasets_config[dataset_name]['synergy_dataset_name']
+        logger.info(f"Loading Synergy dataset: {synergy_name}")
+        
+        # Load the synergy dataset
+        dataset = Dataset(synergy_name)
+        synergy_data = dataset.to_dict(["id", "title", "referenced_works"])
+        
+        logger.info(f"Loaded {len(synergy_data)} documents from Synergy dataset")
+        return synergy_data
+        
+    except Exception as e:
+        logger.error(f"Error loading synergy dataset: {e}")
+        return None
 
 
 def prompt_dataset_selection() -> str:
@@ -244,6 +294,69 @@ def find_optimal_threshold(y_true: List[int], y_scores: List[float],
     return best_threshold, best_score
 
 
+def evaluate_outlier_ranking(scores: Dict[str, float], 
+                           dataset_name: str, 
+                           datasets_config: Dict[str, Any] = None) -> List[Dict[str, Any]]:
+    """
+    Evaluate how well known outliers are ranked by the model.
+    
+    Args:
+        scores: Dictionary mapping document IDs to outlier scores
+        dataset_name: Name of the dataset
+        datasets_config: Optional pre-loaded datasets configuration
+    
+    Returns:
+        List of dictionaries with ranking analysis for each known outlier
+    """
+    if datasets_config is None:
+        datasets_config = load_datasets_config()
+        
+    if dataset_name not in datasets_config:
+        logger.warning(f"Dataset {dataset_name} not found in configuration")
+        return []
+    
+    # Get known outlier record IDs
+    outlier_record_ids = datasets_config[dataset_name].get('outlier_ids', [])
+    
+    if not outlier_record_ids:
+        logger.info(f"No known outliers defined for dataset {dataset_name}")
+        return []
+    
+    # Load simulation data to map record_id to openalex_id
+    simulation_df = load_simulation_data(dataset_name)
+    record_to_openalex = dict(zip(simulation_df['record_id'], simulation_df['openalex_id']))
+    
+    # Convert record IDs to OpenAlex IDs
+    outlier_openalex_ids = []
+    for record_id in outlier_record_ids:
+        if record_id in record_to_openalex:
+            outlier_openalex_ids.append(record_to_openalex[record_id])
+    
+    # Sort all documents by score (highest first)
+    sorted_docs = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+    
+    # Create ranking lookup
+    doc_to_rank = {doc_id: rank + 1 for rank, (doc_id, _) in enumerate(sorted_docs)}
+    
+    results = []
+    for outlier_id in outlier_openalex_ids:
+        if outlier_id in scores:
+            rank = doc_to_rank[outlier_id]
+            score = scores[outlier_id]
+            total_docs = len(scores)
+            percentile = ((total_docs - rank + 1) / total_docs) * 100
+            
+            results.append({
+                'outlier_id': outlier_id,
+                'rank': rank,
+                'score': score,
+                'total_documents': total_docs,
+                'percentile': percentile
+            })
+    
+    return results
+
+
 def analyze_score_distribution(scores: Dict[str, float], 
                              labels: Dict[str, int]) -> Dict[str, Any]:
     """
@@ -305,6 +418,70 @@ def analyze_score_distribution(scores: Dict[str, float],
     return analysis
 
 
+def calculate_outlier_detection_metrics(y_true: np.ndarray, 
+                                      outlier_scores: np.ndarray,
+                                      contamination: float = 0.1) -> Dict[str, float]:
+    """
+    Calculate metrics specifically for outlier detection tasks.
+    
+    Args:
+        y_true: True labels (1 for outliers, 0 for normal)
+        outlier_scores: Outlier scores (higher = more anomalous)
+        contamination: Expected fraction of outliers
+        
+    Returns:
+        Dictionary with outlier detection metrics
+    """
+    # Convert to binary predictions using percentile threshold
+    threshold = np.percentile(outlier_scores, 100 * (1 - contamination))
+    y_pred = (outlier_scores >= threshold).astype(int)
+    
+    metrics = {}
+    
+    try:
+        # Standard classification metrics
+        metrics['precision'] = precision_score(y_true, y_pred, zero_division=0)
+        metrics['recall'] = recall_score(y_true, y_pred, zero_division=0)
+        metrics['f1_score'] = f1_score(y_true, y_pred, zero_division=0)
+        
+        # Ranking-based metrics
+        if len(np.unique(y_true)) > 1:
+            metrics['auc_roc'] = roc_auc_score(y_true, outlier_scores)
+        else:
+            metrics['auc_roc'] = 0.0
+        
+        # Outlier-specific metrics
+        true_outliers = np.sum(y_true == 1)
+        detected_outliers = np.sum(y_pred == 1)
+        
+        metrics.update({
+            'true_outliers': int(true_outliers),
+            'detected_outliers': int(detected_outliers),
+            'contamination_used': contamination,
+            'threshold_used': float(threshold),
+            'mean_outlier_score': float(np.mean(outlier_scores[y_true == 1])) if true_outliers > 0 else 0.0,
+            'mean_normal_score': float(np.mean(outlier_scores[y_true == 0])) if np.sum(y_true == 0) > 0 else 0.0
+        })
+        
+    except Exception as e:
+        logger.error(f"Error calculating outlier detection metrics: {e}")
+        # Return default metrics
+        metrics = {
+            'precision': 0.0,
+            'recall': 0.0,
+            'f1_score': 0.0,
+            'auc_roc': 0.0,
+            'true_outliers': int(np.sum(y_true == 1)),
+            'detected_outliers': 0,
+            'contamination_used': contamination,
+            'threshold_used': 0.0,
+            'mean_outlier_score': 0.0,
+            'mean_normal_score': 0.0
+        }
+    
+    return metrics
+
+
 def save_results(results: Dict[str, Any], output_path: str):
     """
     Save results to a JSON file.
@@ -351,7 +528,7 @@ def load_results(input_path: str) -> Dict[str, Any]:
     if not os.path.exists(input_path):
         raise FileNotFoundError(f"Results file not found: {input_path}")
     
-    with open(input_path, 'r') as f:
+    with open(input_path, 'r', encoding='utf-8') as f:
         results = json.load(f)
     
     logger.info(f"Results loaded from {input_path}")
@@ -377,6 +554,29 @@ def print_evaluation_summary(metrics: Dict[str, float]):
     print(f"Mean Score (Relevant): {metrics.get('mean_score_relevant', 0.0):.3f}")
     print(f"Mean Score (Irrelevant): {metrics.get('mean_score_irrelevant', 0.0):.3f}")
     print("="*50)
+
+
+def print_outlier_evaluation_summary(metrics: Dict[str, float]):
+    """
+    Print a formatted summary of outlier detection metrics.
+    
+    Args:
+        metrics: Dictionary with outlier detection metrics
+    """
+    print("\n" + "="*60)
+    print("OUTLIER DETECTION EVALUATION SUMMARY")
+    print("="*60)
+    print(f"Contamination Used: {metrics.get('contamination_used', 0.1):.3f}")
+    print(f"Threshold Used: {metrics.get('threshold_used', 0.0):.4f}")
+    print(f"True Outliers: {metrics.get('true_outliers', 0)}")
+    print(f"Detected Outliers: {metrics.get('detected_outliers', 0)}")
+    print(f"Precision: {metrics.get('precision', 0.0):.3f}")
+    print(f"Recall: {metrics.get('recall', 0.0):.3f}")
+    print(f"F1-Score: {metrics.get('f1_score', 0.0):.3f}")
+    print(f"AUC-ROC: {metrics.get('auc_roc', 0.0):.3f}")
+    print(f"Mean Outlier Score: {metrics.get('mean_outlier_score', 0.0):.3f}")
+    print(f"Mean Normal Score: {metrics.get('mean_normal_score', 0.0):.3f}")
+    print("="*60)
 
 
 def create_sample_documents(simulation_df: pd.DataFrame, 
@@ -488,4 +688,140 @@ def validate_dataset(dataset_name: str) -> bool:
         
     except Exception as e:
         logger.error(f"Validation failed for {dataset_name}: {e}")
-        return False 
+        return False
+
+
+def normalize_scores(scores: np.ndarray, method: str = 'minmax') -> np.ndarray:
+    """
+    Normalize scores using specified method.
+    
+    Args:
+        scores: Array of scores to normalize
+        method: Normalization method ('minmax', 'zscore', 'rank')
+    
+    Returns:
+        Normalized scores
+    """
+    scores = np.array(scores)
+    
+    if method == 'minmax':
+        if scores.max() - scores.min() > 1e-8:
+            return (scores - scores.min()) / (scores.max() - scores.min())
+        else:
+            return np.zeros_like(scores)
+    
+    elif method == 'zscore':
+        if scores.std() > 1e-8:
+            return (scores - scores.mean()) / scores.std()
+        else:
+            return np.zeros_like(scores)
+    
+    elif method == 'rank':
+        from scipy.stats import rankdata
+        return rankdata(scores) / len(scores)
+    
+    else:
+        raise ValueError(f"Unknown normalization method: {method}")
+
+
+def compute_ensemble_weights(score_arrays: Dict[str, np.ndarray], 
+                           method: str = 'variance') -> Dict[str, float]:
+    """
+    Compute weights for ensemble methods based on score characteristics.
+    
+    Args:
+        score_arrays: Dictionary mapping method names to score arrays
+        method: Weighting method ('variance', 'uniform', 'custom')
+    
+    Returns:
+        Dictionary with weights for each method
+    """
+    if method == 'uniform':
+        n_methods = len(score_arrays)
+        return {method_name: 1.0 / n_methods for method_name in score_arrays.keys()}
+    
+    elif method == 'variance':
+        # Higher variance indicates better discrimination
+        variances = {method: np.var(scores) for method, scores in score_arrays.items()}
+        total_variance = sum(variances.values())
+        
+        if total_variance > 0:
+            return {method: var / total_variance for method, var in variances.items()}
+        else:
+            # Fallback to uniform if no variance
+            n_methods = len(score_arrays)
+            return {method: 1.0 / n_methods for method in score_arrays.keys()}
+    
+    elif method == 'custom':
+        # Custom weights for citation network methods
+        default_weights = {
+            'lof_embedding': 0.40,
+            'lof_mixed': 0.30,
+            'isolation_forest': 0.15,
+            'one_class_svm': 0.10,
+            'dbscan': 0.05,
+        }
+        
+        # Only return weights for methods that exist in score_arrays
+        weights = {}
+        for method_name in score_arrays.keys():
+            weights[method_name] = default_weights.get(method_name, 1.0 / len(score_arrays))
+        
+        # Normalize weights to sum to 1
+        total_weight = sum(weights.values())
+        if total_weight > 0:
+            weights = {method: w / total_weight for method, w in weights.items()}
+        
+        return weights
+    
+    else:
+        raise ValueError(f"Unknown weighting method: {method}")
+
+
+def get_outlier_ids_for_dataset(dataset_name: str) -> List[str]:
+    """
+    Get known outlier IDs for a specific dataset.
+    
+    Args:
+        dataset_name: Name of the dataset
+    
+    Returns:
+        List of known outlier record IDs
+    """
+    try:
+        datasets_config = load_datasets_config()
+        if dataset_name in datasets_config:
+            return datasets_config[dataset_name].get('outlier_ids', [])
+        else:
+            return []
+    except Exception as e:
+        logger.error(f"Error getting outlier IDs for {dataset_name}: {e}")
+        return []
+
+
+def convert_record_ids_to_openalex(record_ids: List[str], 
+                                 simulation_df: pd.DataFrame) -> List[str]:
+    """
+    Convert record IDs to OpenAlex IDs using simulation data.
+    
+    Args:
+        record_ids: List of record IDs to convert
+        simulation_df: DataFrame with simulation data containing the mapping
+    
+    Returns:
+        List of corresponding OpenAlex IDs
+    """
+    if 'record_id' not in simulation_df.columns or 'openalex_id' not in simulation_df.columns:
+        logger.warning("Required columns not found for ID conversion")
+        return []
+    
+    record_to_openalex = dict(zip(simulation_df['record_id'], simulation_df['openalex_id']))
+    
+    openalex_ids = []
+    for record_id in record_ids:
+        if record_id in record_to_openalex:
+            openalex_ids.append(record_to_openalex[record_id])
+        else:
+            logger.warning(f"Record ID {record_id} not found in simulation data")
+    
+    return openalex_ids 
