@@ -26,7 +26,12 @@ from sklearn.preprocessing import StandardScaler, RobustScaler
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
-import umap
+try:
+    from umap import UMAP
+    UMAP_AVAILABLE = True
+except ImportError:
+    UMAP_AVAILABLE = False
+    UMAP = None
 
 # Graph analysis
 import networkx as nx
@@ -400,12 +405,12 @@ class CitationNetworkOutlierDetector:
         if self.embeddings is None:
             return
             
-        if self.use_umap and self.embeddings.shape[1] > self.umap_components:
+        if self.use_umap and UMAP_AVAILABLE and self.embeddings.shape[1] > self.umap_components:
             try:
                 logger.info(f"Reducing embeddings from {self.embeddings.shape[1]} to {self.umap_components} dimensions using UMAP")
                 
                 # Configure UMAP for outlier detection
-                self.umap_reducer = umap.UMAP(
+                self.umap_reducer = UMAP(
                     n_components=self.umap_components,
                     n_neighbors=15,  # Preserve local structure
                     min_dist=0.1,   # Allow for tighter clusters
@@ -422,7 +427,10 @@ class CitationNetworkOutlierDetector:
                 self.reduced_embeddings = self.embeddings
                 self.umap_reducer = None
         else:
-            logger.info("Using original embeddings (UMAP disabled or unnecessary)")
+            if self.use_umap and not UMAP_AVAILABLE:
+                logger.warning("UMAP not available - install with 'pip install umap-learn'. Using original embeddings.")
+            else:
+                logger.info("Using original embeddings (UMAP disabled or unnecessary)")
             self.reduced_embeddings = self.embeddings
     
     def _apply_lof_to_embeddings(self, simulation_df: pd.DataFrame, dynamic_contamination: float) -> Dict[str, np.ndarray]:
