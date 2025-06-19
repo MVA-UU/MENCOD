@@ -51,6 +51,92 @@ class ModelWeights:
     content_similarity: float = 0.3  # Unchanged - steady performance
 
 
+class CitationNetworkModelWrapper:
+    """
+    Wrapper class to adapt the new CitationNetworkOutlierDetector to the hybrid model interface.
+    """
+    
+    def __init__(self, **kwargs):
+        self.detector = CitationNetworkModel(**kwargs)
+        self.is_fitted = False
+        self.outlier_results = None
+        self.simulation_data = None
+        self.dataset_name = None
+        
+    def fit_predict_outliers(self, simulation_df: pd.DataFrame, dataset_name: str = None):
+        """Fit the model and predict outliers."""
+        self.simulation_data = simulation_df
+        self.dataset_name = dataset_name
+        self.outlier_results = self.detector.fit_predict_outliers(simulation_df, dataset_name)
+        self.is_fitted = True
+        return self.outlier_results
+    
+    def extract_features(self, target_documents: List[str]) -> pd.DataFrame:
+        """Extract features for target documents."""
+        if not self.is_fitted:
+            raise ValueError("Model must be fitted before extracting features")
+        
+        # Filter the features dataframe for target documents
+        features_df = self.detector.features_df
+        target_features = features_df[features_df['openalex_id'].isin(target_documents)]
+        return target_features
+    
+    def predict_relevance_scores(self, target_documents: List[str]) -> Dict[str, float]:
+        """Predict relevance scores for target documents."""
+        if not self.is_fitted:
+            raise ValueError("Model must be fitted before predicting scores")
+        
+        # Get ensemble scores from the outlier results
+        doc_ids = self.outlier_results['openalex_ids']
+        ensemble_scores = self.outlier_results['ensemble_scores']
+        
+        # Create mapping from doc_id to score
+        score_dict = dict(zip(doc_ids, ensemble_scores))
+        
+        # Return scores for target documents
+        return {doc_id: score_dict.get(doc_id, 0.0) for doc_id in target_documents}
+    
+    def analyze_document(self, doc_id: str) -> Dict[str, Any]:
+        """Analyze a specific document."""
+        if not self.is_fitted:
+            raise ValueError("Model must be fitted before analyzing documents")
+        
+        # Get document features and scores
+        features_df = self.detector.features_df
+        doc_features = features_df[features_df['openalex_id'] == doc_id]
+        
+        if doc_features.empty:
+            return {'error': f'Document {doc_id} not found'}
+        
+        doc_features = doc_features.iloc[0]
+        
+        # Get scores
+        doc_ids = self.outlier_results['openalex_ids']
+        doc_idx = list(doc_ids).index(doc_id) if doc_id in doc_ids else -1
+        
+        if doc_idx == -1:
+            return {'error': f'Document {doc_id} not found in results'}
+        
+        analysis = {
+            'document_id': doc_id,
+            'scores': {
+                'lof': float(self.outlier_results['lof_scores'][doc_idx]),
+                'isolation_forest': float(self.outlier_results['isolation_forest_scores'][doc_idx]),
+                'dbscan': float(self.outlier_results['dbscan_scores'][doc_idx]),
+                'ensemble': float(self.outlier_results['ensemble_scores'][doc_idx])
+            },
+            'features': {
+                'degree': float(doc_features['degree']),
+                'pagerank': float(doc_features['pagerank']),
+                'clustering': float(doc_features['clustering']),
+                'relevant_neighbors': float(doc_features['relevant_neighbors']),
+                'semantic_similarity': float(doc_features.get('semantic_similarity_to_relevant', 0.0))
+            }
+        }
+        
+        return analysis
+
+
 class HybridOutlierDetector:
     """
     Hybrid system combining multiple approaches for outlier detection.
@@ -91,11 +177,10 @@ class HybridOutlierDetector:
         self.content_model = None
         
         if self.model_config.enable_citation_network:
-            self.citation_model = CitationNetworkModel(
-                dataset_name=dataset_name,
-                enable_gpu=self.model_config.enable_gpu_acceleration,
-                enable_semantic=self.model_config.enable_semantic_embeddings,
-                baseline_sample_size=baseline_sample_size
+            self.citation_model = CitationNetworkModelWrapper(
+                use_umap=False,  # Disable UMAP by default for speed
+                umap_components=50,
+                random_state=42
             )
         
         if self.model_config.enable_confidence_calibration:
@@ -209,7 +294,7 @@ class HybridOutlierDetector:
             logger.info("\n" + "="*40)
             logger.info("FITTING CITATION NETWORK MODEL")
             logger.info("="*40)
-            self.citation_model.fit(simulation_df, self.dataset_name)
+            self.citation_model.fit_predict_outliers(simulation_df, dataset_name=self.dataset_name)
             fitted_models.append("Citation Network")
         
         if self.confidence_model:
