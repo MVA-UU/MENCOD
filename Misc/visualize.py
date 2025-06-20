@@ -36,8 +36,13 @@ from ECINOD import CitationNetworkOutlierDetector
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# Set matplotlib backend to avoid GUI issues
+import matplotlib
+matplotlib.use('Agg')  # Use non-GUI backend
+
 # Set professional plotting style
-plt.style.use('seaborn-v0_8-whitegrid')
+plt.style.use('default')  # Use default style instead of seaborn
+sns.set_style("whitegrid")
 sns.set_palette("husl")
 
 class ECINODVisualizer:
@@ -93,6 +98,9 @@ class ECINODVisualizer:
                 'linewidth': 3
             }
         }
+        
+        # Debug: Print available result keys
+        logger.info(f"Available result keys: {list(results.keys())}")
         
         # Create output directory
         self.output_dir = os.path.join(project_root, 'Misc', 'visualization_output')
@@ -193,35 +201,53 @@ class ECINODVisualizer:
         """Create a single plot comparing all methods."""
         fig, ax = plt.subplots(1, 1, figsize=(14, 10))
         
+        plotted_methods = 0
+        
         # Plot KDEs for all methods
         for method_key, method_info in self.method_info.items():
             if method_key in self.results:
                 scores = self.results[method_key]
+                logger.info(f"Plotting {method_key}: {len(scores)} scores, std={np.std(scores):.4f}")
                 
                 # Create KDE
                 if len(scores) > 1 and np.std(scores) > 0:
-                    kde = stats.gaussian_kde(scores)
-                    x_range = np.linspace(scores.min(), scores.max(), 1000)
-                    density = kde(x_range)
-                    
-                    linewidth = method_info.get('linewidth', 2)
-                    if method_key == 'ensemble_scores':
-                        alpha = 1.0
-                        zorder = 10
-                    else:
-                        alpha = 0.7
-                        zorder = 5
-                    
-                    ax.plot(x_range, density, 
-                           color=method_info['color'],
-                           linestyle=method_info['linestyle'],
-                           linewidth=linewidth,
-                           alpha=alpha,
-                           label=f"{method_info['name']}\n{method_info['description']}",
-                           zorder=zorder)
+                    try:
+                        kde = stats.gaussian_kde(scores)
+                        x_range = np.linspace(scores.min(), scores.max(), 1000)
+                        density = kde(x_range)
+                        
+                        linewidth = method_info.get('linewidth', 2)
+                        if method_key == 'ensemble_scores':
+                            alpha = 1.0
+                            zorder = 10
+                        else:
+                            alpha = 0.7
+                            zorder = 5
+                        
+                        ax.plot(x_range, density, 
+                               color=method_info['color'],
+                               linestyle=method_info['linestyle'],
+                               linewidth=linewidth,
+                               alpha=alpha,
+                               label=f"{method_info['name']}\n{method_info['description']}",
+                               zorder=zorder)
+                        
+                        plotted_methods += 1
+                        logger.info(f"Successfully plotted {method_key}")
+                        
+                    except Exception as e:
+                        logger.error(f"Error plotting KDE for {method_key}: {e}")
+                else:
+                    logger.warning(f"Skipping {method_key}: insufficient variation in scores")
         
-        # Highlight outlier position
-        self._add_outlier_indicators(ax)
+        if plotted_methods == 0:
+            # If no methods were plotted, create a placeholder
+            ax.text(0.5, 0.5, 'No methods with sufficient\nscore variation for KDE', 
+                   ha='center', va='center', transform=ax.transAxes,
+                   fontsize=16, bbox=dict(boxstyle='round', facecolor='lightgray'))
+        else:
+            # Highlight outlier position
+            self._add_outlier_indicators(ax)
         
         ax.set_xlabel('Outlier Score', fontsize=12, fontweight='bold')
         ax.set_ylabel('Density', fontsize=12, fontweight='bold')
@@ -230,8 +256,9 @@ class ECINODVisualizer:
                     fontsize=14, fontweight='bold', pad=20)
         
         # Professional legend
-        ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', 
-                 frameon=True, fancybox=True, shadow=True)
+        if plotted_methods > 0:
+            ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', 
+                     frameon=True, fancybox=True, shadow=True)
         
         # Grid and styling
         ax.grid(True, alpha=0.3)
@@ -243,6 +270,8 @@ class ECINODVisualizer:
         output_path = os.path.join(self.output_dir, f'{self.dataset_name}_comparative_kde.png')
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
         plt.close()
+        
+        logger.info(f"Saved comparative KDE plot with {plotted_methods} methods to {output_path}")
     
     def _create_correlation_heatmap(self) -> None:
         """Create correlation heatmap between different methods."""
@@ -252,8 +281,20 @@ class ECINODVisualizer:
             if method_key in self.results:
                 score_data[method_info['name']] = self.results[method_key]
         
+        logger.info(f"Score data for correlation: {list(score_data.keys())}")
+        
         if len(score_data) < 2:
             logger.warning("Not enough methods for correlation analysis")
+            # Create a placeholder plot
+            fig, ax = plt.subplots(1, 1, figsize=(10, 8))
+            ax.text(0.5, 0.5, f'Correlation analysis requires\nat least 2 methods\n\nFound: {len(score_data)} methods', 
+                   ha='center', va='center', transform=ax.transAxes,
+                   fontsize=16, bbox=dict(boxstyle='round', facecolor='lightgray'))
+            ax.set_title(f'Method Correlation Matrix - {self.dataset_name.title()} Dataset', 
+                        fontsize=14, fontweight='bold')
+            output_path = os.path.join(self.output_dir, f'{self.dataset_name}_correlation_heatmap.png')
+            plt.savefig(output_path, dpi=300, bbox_inches='tight')
+            plt.close()
             return
         
         df_scores = pd.DataFrame(score_data)
@@ -264,25 +305,33 @@ class ECINODVisualizer:
         
         mask = np.triu(np.ones_like(correlation_matrix, dtype=bool))
         
-        sns.heatmap(correlation_matrix, 
-                   mask=mask,
-                   annot=True, 
-                   cmap='RdYlBu_r', 
-                   center=0,
-                   square=True,
-                   fmt='.3f',
-                   cbar_kws={"shrink": .8},
-                   ax=ax)
-        
-        ax.set_title(f'Method Correlation Matrix - {self.dataset_name.title()} Dataset\n'
-                    f'Pearson Correlation Between Outlier Detection Methods', 
-                    fontsize=14, fontweight='bold', pad=20)
+        try:
+            sns.heatmap(correlation_matrix, 
+                       mask=mask,
+                       annot=True, 
+                       cmap='RdYlBu_r', 
+                       center=0,
+                       square=True,
+                       fmt='.3f',
+                       cbar_kws={"shrink": .8},
+                       ax=ax)
+            
+            ax.set_title(f'Method Correlation Matrix - {self.dataset_name.title()} Dataset\n'
+                        f'Pearson Correlation Between Outlier Detection Methods', 
+                        fontsize=14, fontweight='bold', pad=20)
+        except Exception as e:
+            logger.error(f"Error creating heatmap: {e}")
+            ax.text(0.5, 0.5, f'Error creating correlation heatmap:\n{str(e)}', 
+                   ha='center', va='center', transform=ax.transAxes,
+                   fontsize=12, bbox=dict(boxstyle='round', facecolor='lightcoral'))
         
         plt.tight_layout()
         
         output_path = os.path.join(self.output_dir, f'{self.dataset_name}_correlation_heatmap.png')
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
         plt.close()
+        
+        logger.info(f"Saved correlation heatmap to {output_path}")
     
     def _create_outlier_ranking_analysis(self) -> None:
         """Create visualization showing outlier ranking performance."""
@@ -290,19 +339,25 @@ class ECINODVisualizer:
         
         # Left plot: Outlier ranks across methods
         outlier_ranks = self._calculate_outlier_ranks()
+        logger.info(f"Outlier ranks: {outlier_ranks}")
         
-        methods = list(outlier_ranks.keys())
-        ranks = list(outlier_ranks.values())
-        colors = [self.method_info[k]['color'] for k in self.method_info.keys() 
-                 if k in outlier_ranks]
-        
-        bars = ax1.barh(methods, ranks, color=colors, alpha=0.8)
-        
-        # Add rank annotations
-        for bar, rank in zip(bars, ranks):
-            width = bar.get_width()
-            ax1.text(width + max(ranks) * 0.01, bar.get_y() + bar.get_height()/2,
-                    f'#{rank}', ha='left', va='center', fontweight='bold')
+        if not outlier_ranks:
+            # No outlier ranking data available
+            ax1.text(0.5, 0.5, 'No outlier ranking\ndata available', 
+                    ha='center', va='center', transform=ax1.transAxes,
+                    fontsize=12, bbox=dict(boxstyle='round', facecolor='lightgray'))
+        else:
+            methods = [self.method_info[k]['name'] for k in outlier_ranks.keys()]
+            ranks = list(outlier_ranks.values())
+            colors = [self.method_info[k]['color'] for k in outlier_ranks.keys()]
+            
+            bars = ax1.barh(methods, ranks, color=colors, alpha=0.8)
+            
+            # Add rank annotations
+            for bar, rank in zip(bars, ranks):
+                width = bar.get_width()
+                ax1.text(width + max(ranks) * 0.01, bar.get_y() + bar.get_height()/2,
+                        f'#{rank}', ha='left', va='center', fontweight='bold')
         
         ax1.set_xlabel('Outlier Rank', fontsize=12, fontweight='bold')
         ax1.set_title(f'Known Outlier Ranking Performance\n{self.dataset_name.title()} Dataset', 
@@ -311,19 +366,25 @@ class ECINODVisualizer:
         
         # Right plot: Score percentiles
         outlier_percentiles = self._calculate_outlier_percentiles()
+        logger.info(f"Outlier percentiles: {outlier_percentiles}")
         
-        methods = list(outlier_percentiles.keys())
-        percentiles = list(outlier_percentiles.values())
-        colors = [self.method_info[k]['color'] for k in self.method_info.keys() 
-                 if k in outlier_percentiles]
-        
-        bars = ax2.barh(methods, percentiles, color=colors, alpha=0.8)
-        
-        # Add percentile annotations
-        for bar, percentile in zip(bars, percentiles):
-            width = bar.get_width()
-            ax2.text(width + 1, bar.get_y() + bar.get_height()/2,
-                    f'{percentile:.1f}%', ha='left', va='center', fontweight='bold')
+        if not outlier_percentiles:
+            # No percentile data available
+            ax2.text(0.5, 0.5, 'No outlier percentile\ndata available', 
+                    ha='center', va='center', transform=ax2.transAxes,
+                    fontsize=12, bbox=dict(boxstyle='round', facecolor='lightgray'))
+        else:
+            methods = [self.method_info[k]['name'] for k in outlier_percentiles.keys()]
+            percentiles = list(outlier_percentiles.values())
+            colors = [self.method_info[k]['color'] for k in outlier_percentiles.keys()]
+            
+            bars = ax2.barh(methods, percentiles, color=colors, alpha=0.8)
+            
+            # Add percentile annotations
+            for bar, percentile in zip(bars, percentiles):
+                width = bar.get_width()
+                ax2.text(width + 1, bar.get_y() + bar.get_height()/2,
+                        f'{percentile:.1f}%', ha='left', va='center', fontweight='bold')
         
         ax2.set_xlabel('Score Percentile', fontsize=12, fontweight='bold')
         ax2.set_title(f'Known Outlier Score Percentiles\n{self.dataset_name.title()} Dataset', 
@@ -336,6 +397,8 @@ class ECINODVisualizer:
         output_path = os.path.join(self.output_dir, f'{self.dataset_name}_outlier_ranking.png')
         plt.savefig(output_path, dpi=300, bbox_inches='tight')
         plt.close()
+        
+        logger.info(f"Saved outlier ranking analysis to {output_path}")
     
     def _create_score_distribution_analysis(self) -> None:
         """Create detailed score distribution analysis."""
