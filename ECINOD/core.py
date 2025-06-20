@@ -60,10 +60,16 @@ class CitationNetworkOutlierDetector:
                            simulation_df: pd.DataFrame,
                            dataset_name: str = None) -> Dict[str, np.ndarray]:
         """
-        Main method: takes simulation dataset and returns outlier scores.
+        Main method: takes simulation dataset and returns outlier scores using Multi-LOF approach.
         
         Now builds citation network from FULL synergy dataset for better connectivity
         while ensuring only simulation papers are eligible for outlier ranking.
+        
+        Uses Multi-LOF approach:
+        - LOF on embeddings (semantic outliers)
+        - LOF on network features (structural outliers)  
+        - LOF on mixed features (hybrid outliers)
+        - Isolation Forest (global anomalies)
         
         Args:
             simulation_df: DataFrame with simulation paper data (eligible for ranking)
@@ -72,7 +78,7 @@ class CitationNetworkOutlierDetector:
         Returns:
             Dictionary with outlier scores and predictions for simulation papers only
         """
-        logger.info(f"Starting outlier detection for {len(simulation_df)} simulation papers")
+        logger.info(f"Starting Multi-LOF outlier detection for {len(simulation_df)} simulation papers")
         logger.info("Using full synergy dataset for network construction with simulation-only ranking")
         start_time = time.time()
         
@@ -109,22 +115,36 @@ class CitationNetworkOutlierDetector:
         self.feature_matrix = self.features_df.drop('openalex_id', axis=1).values
         features_scaled = self.outlier_detector.scale_features(self.feature_matrix)
         
-        # Apply outlier detection methods to simulation papers only
+        # Apply Multi-LOF outlier detection methods to simulation papers only
         self.outlier_results = {}
         
-        # 1. LOF on embeddings for simulation papers
-        logger.info("Applying LOF on embeddings for semantic outlier detection...")
-        lof_results = self.outlier_detector.apply_lof_to_embeddings(
+        # 1. LOF on embeddings for semantic outlier detection
+        logger.info("=== MULTI-LOF METHOD 1: LOF on Embeddings ===")
+        lof_embedding_results = self.outlier_detector.apply_lof_to_embeddings(
             simulation_df, self.embeddings, self.embeddings_metadata
         )
-        self.outlier_results['lof_scores'] = lof_results['scores']
+        self.outlier_results['lof_embeddings_scores'] = lof_embedding_results['scores']
         
-        # 2. Isolation Forest on simulation papers
+        # 2. LOF on network features for structural outlier detection
+        logger.info("=== MULTI-LOF METHOD 2: LOF on Network Features ===")
+        lof_network_scores = self.outlier_detector.apply_lof_to_network_features(features_scaled)
+        self.outlier_results['lof_network_scores'] = lof_network_scores
+        
+        # 3. LOF on mixed features for hybrid outlier detection
+        logger.info("=== MULTI-LOF METHOD 3: LOF on Mixed Features ===")
+        lof_mixed_scores = self.outlier_detector.apply_lof_to_mixed_features(
+            simulation_df, self.embeddings, self.embeddings_metadata, features_scaled
+        )
+        self.outlier_results['lof_mixed_scores'] = lof_mixed_scores
+        
+        # 4. Isolation Forest on network features for global anomaly detection
+        logger.info("=== MULTI-LOF METHOD 4: Isolation Forest ===")
         if_scores = self.outlier_detector.apply_isolation_forest(features_scaled)
         self.outlier_results['isolation_forest_scores'] = if_scores
         
-        # 3. Ensemble scoring
-        ensemble_scores = self.outlier_detector.compute_ensemble_scores(self.outlier_results)
+        # 5. Multi-LOF ensemble scoring
+        logger.info("=== MULTI-LOF ENSEMBLE ===")
+        ensemble_scores = self.outlier_detector.compute_multi_lof_ensemble_scores(self.outlier_results)
         self.outlier_results['ensemble_scores'] = ensemble_scores
         
         # Add document IDs to results
@@ -138,8 +158,13 @@ class CitationNetworkOutlierDetector:
         
         # Log summary
         total_time = time.time() - start_time
-        logger.info(f"Enhanced outlier detection completed in {total_time:.2f}s")
-        logger.info(f"Generated outlier scores for {len(simulation_df)} simulation papers using full network connectivity")
+        logger.info(f"Multi-LOF outlier detection completed in {total_time:.2f}s")
+        logger.info("Methods applied:")
+        logger.info("  1. LOF on Embeddings (semantic outliers)")
+        logger.info("  2. LOF on Network Features (structural outliers)")
+        logger.info("  3. LOF on Mixed Features (hybrid outliers)")
+        logger.info("  4. Isolation Forest (global anomalies)")
+        logger.info("  5. Multi-LOF Ensemble (weighted combination)")
         
         return self.outlier_results
     
