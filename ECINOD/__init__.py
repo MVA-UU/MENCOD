@@ -21,7 +21,7 @@ from .detection import OutlierDetector
 from .evaluation import ResultsAnalyzer
 
 __version__ = "1.0.0"
-__author__ = "ADS Thesis Project"
+__author__ = "M.V.A. van Angeren"
 
 __all__ = [
     'CitationNetworkOutlierDetector',

@@ -50,14 +50,24 @@ def load_simulation_data(dataset_name: str) -> pd.DataFrame:
     Returns:
         DataFrame with simulation data
     """
+    # Load datasets configuration to get the correct simulation file name
+    datasets_config = load_datasets_config()
+    
+    if dataset_name not in datasets_config:
+        raise ValueError(f"Dataset '{dataset_name}' not found in configuration")
+    
+    simulation_filename = datasets_config[dataset_name].get('simulation_file')
+    if not simulation_filename:
+        raise ValueError(f"No simulation file specified for dataset '{dataset_name}'")
+    
     project_root = get_project_root()
-    simulation_path = os.path.join(project_root, 'data', 'simulations', f'{dataset_name}.csv')
+    simulation_path = os.path.join(project_root, 'data', 'simulations', simulation_filename)
     
     if not os.path.exists(simulation_path):
         raise FileNotFoundError(f"Simulation file not found: {simulation_path}")
     
     df = pd.read_csv(simulation_path)
-    logger.info(f"Loaded simulation data for {dataset_name}: {len(df)} documents")
+    logger.info(f"Loaded simulation data for {dataset_name} from {simulation_filename}: {len(df)} documents")
     
     return df
 
