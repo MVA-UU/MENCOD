@@ -17,6 +17,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from typing import Dict, List, Tuple, Optional
 import logging
+import argparse
 from scipy import stats
 import warnings
 warnings.filterwarnings('ignore')
@@ -865,17 +866,21 @@ class ECINODVisualizer:
         return percentiles
 
 
-def run_ecinod_analysis(dataset_name: str) -> Tuple[Dict, pd.DataFrame, Dict]:
+def run_ecinod_analysis(dataset_name: str, use_robust: bool = False) -> Tuple[Dict, pd.DataFrame, Dict]:
     """
     Run ECINOD analysis on the specified dataset.
     
     Args:
         dataset_name: Name of the dataset to analyze
+        use_robust: Whether to use robust ensemble methods
         
     Returns:
         Tuple of (results, simulation_df, outlier_info)
     """
-    logger.info(f"🔬 Running ECINOD analysis on {dataset_name} dataset...")
+    if use_robust:
+        logger.info(f"🔬 Running ECINOD analysis on {dataset_name} dataset using ROBUST ENSEMBLE...")
+    else:
+        logger.info(f"🔬 Running ECINOD analysis on {dataset_name} dataset using TRADITIONAL ENSEMBLE...")
     
     # Load data
     simulation_df = load_simulation_data(dataset_name)
@@ -884,8 +889,8 @@ def run_ecinod_analysis(dataset_name: str) -> Tuple[Dict, pd.DataFrame, Dict]:
     
     logger.info(f"📊 Loaded {len(simulation_df)} documents for analysis")
     
-    # Run ECINOD
-    detector = CitationNetworkOutlierDetector(random_state=42)
+    # Run ECINOD with robust parameter
+    detector = CitationNetworkOutlierDetector(random_state=42, use_robust_ensemble=use_robust)
     results = detector.fit_predict_outliers(simulation_df, dataset_name=dataset_name)
     
     logger.info("✅ ECINOD analysis completed successfully")
@@ -895,8 +900,19 @@ def run_ecinod_analysis(dataset_name: str) -> Tuple[Dict, pd.DataFrame, Dict]:
 
 def main():
     """Main function for the visualization script."""
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description="ECINOD Visualization Suite - Generate professional visualizations")
+    parser.add_argument("--robust", action="store_true", 
+                       help="Use robust ensemble methods (SOTA rank aggregation)")
+    parser.add_argument("--dataset", type=str, 
+                       help="Dataset name (if not provided, will prompt for selection)")
+    
+    args = parser.parse_args()
+    
     print("=" * 70)
     print("🎨 ECINOD VISUALIZATION SUITE - MASTER THESIS QUALITY")
+    if args.robust:
+        print("                ROBUST ENSEMBLE MODE ENABLED")
     print("=" * 70)
     print("Extended Citation Network Outlier Detection Visualizations")
     print("Author: M.V.A. van Angeren")
@@ -904,18 +920,25 @@ def main():
     
     try:
         # Dataset selection
-        print("\n📁 Available datasets:")
-        available_datasets = get_available_datasets()
-        for i, dataset in enumerate(available_datasets, 1):
-            print(f"  {i}. {dataset}")
+        if args.dataset:
+            dataset_name = args.dataset
+            print(f"\n🔬 Selected dataset: {dataset_name}")
+        else:
+            print("\n📁 Available datasets:")
+            available_datasets = get_available_datasets()
+            for i, dataset in enumerate(available_datasets, 1):
+                print(f"  {i}. {dataset}")
+            
+            dataset_name = prompt_dataset_selection()
+            print(f"\n🔬 Selected dataset: {dataset_name}")
         
-        dataset_name = prompt_dataset_selection()
-        
-        print(f"\n🔬 Selected dataset: {dataset_name}")
-        print("🚀 Starting analysis and visualization generation...")
+        if args.robust:
+            print("🚀 Starting analysis and visualization generation using ROBUST ENSEMBLE...")
+        else:
+            print("🚀 Starting analysis and visualization generation using TRADITIONAL ENSEMBLE...")
         
         # Run analysis
-        results, simulation_df, outlier_info = run_ecinod_analysis(dataset_name)
+        results, simulation_df, outlier_info = run_ecinod_analysis(dataset_name, use_robust=args.robust)
         
         # Create visualizations
         print("\n🎨 Generating professional visualizations...")
@@ -931,6 +954,7 @@ def main():
         print(f"📝 Documents analyzed: {len(simulation_df)}")
         print(f"🎯 Known outliers: {len(outlier_info.get('outlier_ids', []))}")
         print(f"🔍 Methods visualized: {len([k for k in results.keys() if k.endswith('_scores')])}")
+        print(f"⚙️  Ensemble method: {'Robust (rank aggregation)' if args.robust else 'Traditional (score averaging)'}")
         print(f"📁 Output directory: {visualizer.output_dir}")
         print("\n🎨 Generated visualizations:")
         print("  • Individual KDE plots for each method (improved layout)")
