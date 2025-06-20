@@ -152,6 +152,45 @@ def load_synergy_dataset(dataset_name: str = None) -> Optional[Dict]:
         return None
 
 
+def load_full_synergy_csv(dataset_name: str) -> Optional[pd.DataFrame]:
+    """
+    Load the full synergy dataset from CSV file for verification and analysis.
+    
+    Args:
+        dataset_name: Name of the dataset
+        
+    Returns:
+        DataFrame with full synergy dataset or None if not found
+    """
+    try:
+        # Load datasets configuration to get synergy dataset name
+        datasets_config = load_datasets_config()
+        
+        if dataset_name not in datasets_config:
+            logger.warning(f"Dataset '{dataset_name}' not found in configuration")
+            return None
+            
+        synergy_name = datasets_config[dataset_name]['synergy_dataset_name']
+        
+        # Construct path to synergy CSV file
+        project_root = get_project_root()
+        synergy_csv_path = os.path.join(project_root, 'data', 'synergy_dataset', f'{synergy_name}.csv')
+        
+        if not os.path.exists(synergy_csv_path):
+            logger.warning(f"Synergy CSV file not found: {synergy_csv_path}")
+            return None
+        
+        # Load the CSV
+        df = pd.read_csv(synergy_csv_path)
+        logger.info(f"Loaded full synergy CSV for {dataset_name}: {len(df)} papers from {synergy_csv_path}")
+        
+        return df
+        
+    except Exception as e:
+        logger.error(f"Error loading synergy CSV for {dataset_name}: {e}")
+        return None
+
+
 def prompt_dataset_selection() -> str:
     """
     Prompt user to select a dataset from available options.

@@ -39,22 +39,28 @@ class OutlierDetector:
         """
         Apply LOF directly to embeddings for semantic outlier detection.
         
+        This method processes only simulation-eligible papers for outlier ranking,
+        ensuring that background papers from the full dataset are not considered
+        as potential outliers.
+        
         Args:
-            simulation_df: DataFrame with simulation documents
-            embeddings: SPECTER2 embeddings array
+            simulation_df: DataFrame with simulation documents (eligible for ranking)
+            embeddings: SPECTER2 embeddings array 
             embeddings_metadata: Embeddings metadata
             
         Returns:
-            Dictionary with LOF scores
+            Dictionary with LOF scores for simulation papers only
         """
         if embeddings is None or embeddings_metadata is None:
             logger.warning("No embeddings available for LOF analysis")
             return {'scores': np.zeros(len(simulation_df))}
         
+        logger.info(f"Applying LOF to {len(simulation_df)} simulation papers for outlier detection")
+        
         # Create mapping from openalex_id to embedding index
         id_to_idx = self._create_id_to_index_mapping(embeddings_metadata)
         
-        # Get embeddings for documents in simulation_df
+        # Get embeddings for documents in simulation_df (eligible papers only)
         doc_embeddings, doc_indices = self._get_document_embeddings(
             simulation_df, id_to_idx, embeddings
         )
@@ -63,7 +69,9 @@ class OutlierDetector:
             logger.warning("No embeddings found for simulation documents")
             return {'scores': np.zeros(len(simulation_df))}
         
-        # Apply LOF
+        logger.info(f"Found embeddings for {len(doc_embeddings)} out of {len(simulation_df)} simulation papers")
+        
+        # Apply LOF to simulation papers only
         lof_scores = self._compute_lof_scores(doc_embeddings)
         
         # Map results back to full simulation dataframe

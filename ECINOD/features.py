@@ -34,31 +34,44 @@ class FeatureExtractor:
     def extract_network_features(self, G: nx.DiGraph, 
                                simulation_df: pd.DataFrame) -> pd.DataFrame:
         """
-        Extract comprehensive network and semantic features.
+        Extract comprehensive network and semantic features for simulation-eligible papers only.
+        
+        This method now works with the full citation network but only extracts features
+        for papers in the simulation dataset that are eligible for outlier detection.
         
         Args:
-            G: Citation network graph
-            simulation_df: DataFrame with simulation data
+            G: Citation network graph (includes full dataset with marked eligibility)
+            simulation_df: DataFrame with simulation data (eligible papers only)
             
         Returns:
-            DataFrame with extracted features
+            DataFrame with extracted features for simulation papers only
         """
         features = []
         relevant_docs = set(
             simulation_df[simulation_df['label_included'] == 1]['openalex_id'].tolist()
         )
         
-        # Pre-compute centrality measures
+        # Get simulation-eligible nodes from the graph
+        simulation_eligible_nodes = set(self._get_simulation_eligible_nodes(G))
+        logger.info(f"Found {len(simulation_eligible_nodes)} simulation-eligible nodes in the network")
+        
+        # Verify that simulation_df papers are in the eligible set
+        simulation_df_ids = set(simulation_df['openalex_id'].tolist())
+        missing_ids = simulation_df_ids - simulation_eligible_nodes
+        if missing_ids:
+            logger.warning(f"Found {len(missing_ids)} simulation papers not marked as eligible in network")
+        
+        # Pre-compute centrality measures on the full network for better connectivity
         centrality_measures = self._compute_centrality_measures(G)
         
-        # Extract features for each document
+        # Extract features for each simulation document
         for _, row in tqdm(simulation_df.iterrows(), 
-                          desc="Extracting features", 
+                          desc="Extracting features for simulation papers", 
                           total=len(simulation_df)):
             doc_id = row['openalex_id']
             doc_features = {'openalex_id': doc_id}
             
-            # Network features
+            # Network features (leveraging full network connectivity)
             network_features = self._get_network_features(
                 G, doc_id, relevant_docs, centrality_measures
             )
@@ -74,6 +87,7 @@ class FeatureExtractor:
             
             features.append(doc_features)
         
+        logger.info(f"Extracted features for {len(features)} simulation papers using full network connectivity")
         return pd.DataFrame(features)
     
     def _compute_centrality_measures(self, G: nx.DiGraph) -> Dict[str, Dict]:
@@ -257,4 +271,8 @@ class FeatureExtractor:
         return {
             'publication_year': float(row.get('year', 0)),
             'title_length': float(len(str(row.get('title', '')))),
-        } 
+        }
+    
+    def _get_simulation_eligible_nodes(self, G: nx.DiGraph) -> list:
+        """Get list of node IDs that are eligible for outlier detection."""
+        return [n for n in G.nodes if G.nodes[n].get('simulation_eligible', False)] 

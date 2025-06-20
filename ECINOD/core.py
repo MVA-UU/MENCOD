@@ -60,22 +60,33 @@ class CitationNetworkOutlierDetector:
                            simulation_df: pd.DataFrame,
                            dataset_name: str = None) -> Dict[str, np.ndarray]:
         """
-        Main method: takes dataset and immediately returns outlier scores.
+        Main method: takes simulation dataset and returns outlier scores.
+        
+        Now builds citation network from FULL synergy dataset for better connectivity
+        while ensuring only simulation papers are eligible for outlier ranking.
         
         Args:
-            simulation_df: DataFrame with paper data and citation information
-            dataset_name: Optional dataset name for loading embeddings and synergy data
+            simulation_df: DataFrame with simulation paper data (eligible for ranking)
+            dataset_name: Dataset name for loading full synergy data and embeddings
             
         Returns:
-            Dictionary with outlier scores and predictions from all methods
+            Dictionary with outlier scores and predictions for simulation papers only
         """
-        logger.info(f"Starting outlier detection for {len(simulation_df)} documents")
+        logger.info(f"Starting outlier detection for {len(simulation_df)} simulation papers")
+        logger.info("Using full synergy dataset for network construction with simulation-only ranking")
         start_time = time.time()
         
-        # Build citation network
+        # Build citation network from FULL dataset but mark simulation eligibility
         self.graph = self.network_builder.build_citation_network(simulation_df, dataset_name)
-        logger.info(f"Built citation network: {self.graph.number_of_nodes()} nodes, "
-                   f"{self.graph.number_of_edges()} edges")
+        
+        # Log enhanced network stats
+        network_stats = self.network_builder.get_network_stats(self.graph)
+        logger.info(f"Enhanced network built:")
+        logger.info(f"  - Total nodes: {network_stats['nodes']}")
+        logger.info(f"  - Total edges: {network_stats['edges']}")
+        logger.info(f"  - Simulation eligible: {network_stats['simulation_eligible_nodes']}")
+        logger.info(f"  - Background nodes: {network_stats['background_nodes']}")
+        logger.info(f"  - Network density: {network_stats['density']:.6f}")
         
         # Load embeddings if available
         if dataset_name:
@@ -87,28 +98,28 @@ class CitationNetworkOutlierDetector:
             embeddings_metadata=self.embeddings_metadata
         )
         
-        # Extract features
+        # Extract features for simulation papers using enhanced network
         self.features_df = self.feature_extractor.extract_network_features(
             self.graph, simulation_df
         )
         logger.info(f"Extracted features: {self.features_df.shape[1]-1} features "
-                   f"for {self.features_df.shape[0]} documents")
+                   f"for {self.features_df.shape[0]} simulation papers")
         
         # Prepare feature matrix
         self.feature_matrix = self.features_df.drop('openalex_id', axis=1).values
         features_scaled = self.outlier_detector.scale_features(self.feature_matrix)
         
-        # Apply outlier detection methods
+        # Apply outlier detection methods to simulation papers only
         self.outlier_results = {}
         
-        # 1. LOF on embeddings
+        # 1. LOF on embeddings for simulation papers
         logger.info("Applying LOF on embeddings for semantic outlier detection...")
         lof_results = self.outlier_detector.apply_lof_to_embeddings(
             simulation_df, self.embeddings, self.embeddings_metadata
         )
         self.outlier_results['lof_scores'] = lof_results['scores']
         
-        # 2. Isolation Forest
+        # 2. Isolation Forest on simulation papers
         if_scores = self.outlier_detector.apply_isolation_forest(features_scaled)
         self.outlier_results['isolation_forest_scores'] = if_scores
         
@@ -127,8 +138,8 @@ class CitationNetworkOutlierDetector:
         
         # Log summary
         total_time = time.time() - start_time
-        logger.info(f"Outlier scoring completed in {total_time:.2f}s")
-        logger.info(f"Generated outlier scores for all {len(simulation_df)} documents")
+        logger.info(f"Enhanced outlier detection completed in {total_time:.2f}s")
+        logger.info(f"Generated outlier scores for {len(simulation_df)} simulation papers using full network connectivity")
         
         return self.outlier_results
     
