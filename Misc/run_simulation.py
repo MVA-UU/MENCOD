@@ -17,7 +17,7 @@ import logging
 import argparse
 
 # Add project root to path for imports
-project_root = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, project_root)
 
 from utils import (
@@ -150,7 +150,7 @@ class ASReviewSimulationRunner:
             logger.error(f"Failed to load dataset {synergy_name}: {e}")
             raise
     
-    def setup_simulation_config(self, classifier_type: str = 'nb', random_state: int = 42):
+    def setup_simulation_config(self, classifier_type: str = 'svm', random_state: int = 42):
         """
         Set up the simulation configuration with models and stopping rule.
         
@@ -190,7 +190,7 @@ class ASReviewSimulationRunner:
         
         return config
     
-    def run_simulation(self, dataset_name: str, classifier_type: str = 'nb', 
+    def run_simulation(self, dataset_name: str, classifier_type: str = 'svm', 
                       random_state: int = 42):
         """
         Run an ASReview simulation on the specified dataset.
@@ -697,11 +697,11 @@ class ASReviewSimulationRunner:
             logger.error(f"Error exporting found documents: {e}")
             raise
     
-    def get_outlier_original_rank(self, dataset_name: str, classifier_type: str = 'nb', 
-                                random_state: int = 42) -> int:
+    def get_outlier_original_rank(self, dataset_name: str, classifier_type: str = 'svm', 
+                                random_state: int = 42) -> dict:
         """
-        Get the rank of the known outlier in the original ASReview ranking.
-        Runs a full simulation without stopping rule to get complete ranking.
+        Get the rank of the known outlier in both full dataset and leftover data.
+        Runs simulations to get both rankings with comprehensive statistics.
         
         Args:
             dataset_name: Name of the dataset
@@ -709,7 +709,7 @@ class ASReviewSimulationRunner:
             random_state: Random state for reproducibility
             
         Returns:
-            Rank of the outlier in original ranking (1-based), or -1 if not found
+            Dictionary with both rankings and statistics
         """
         # Get known outlier IDs for this dataset
         if dataset_name not in self.datasets_config:
@@ -722,102 +722,226 @@ class ASReviewSimulationRunner:
             return -1
         
         # For simplicity, use the first outlier ID
-        target_outlier_id = outlier_record_ids[0]
-        logger.info(f"Looking for outlier with record_id: {target_outlier_id}")
+        target_outlier_record_id = outlier_record_ids[0]
+        logger.info(f"Looking for outlier with record_id: {target_outlier_record_id}")
         
         try:
             # Load dataset
             dataset = self.load_synergy_dataset(dataset_name)
             dataset_df = dataset.get_df()
             
-            # Load simulation data to map record_id to dataset indices
-            simulation_data = load_simulation_data(dataset_name)
+            # Prepare data - find the correct label column
+            label_column = None
+            for col in ['included', 'label_included', 'label', 'relevant']:
+                if col in dataset_df.columns:
+                    label_column = col
+                    break
             
-            # Find the dataset index for the target outlier
-            outlier_rows = simulation_data[simulation_data['record_id'] == target_outlier_id]
-            if outlier_rows.empty:
-                logger.error(f"Outlier with record_id {target_outlier_id} not found in simulation data")
-                return -1
+            if label_column is None:
+                logger.error(f"No suitable label column found in dataset. Available columns: {list(dataset_df.columns)}")
+                return {"error": "No suitable label column found"}
             
-            # Get the dataset index of the outlier (in the original simulation data)
-            outlier_sim_index = outlier_rows.index[0]
+            logger.info(f"Using label column: {label_column}")
+            labels_binary = dataset_df[label_column].astype(int)
             
-            # Find the corresponding row in the ASReview dataset by matching OpenAlex ID
-            target_openalex_id = simulation_data.iloc[outlier_sim_index]['openalex_id']
-            logger.info(f"Target outlier OpenAlex ID: {target_openalex_id}")
+            # Set up simulation components
+            classifier_map = {
+                'nb': NaiveBayes(),
+                'svm': SVM(random_state=random_state),
+                'rf': RandomForest(random_state=random_state),
+                'logistic': Logistic(random_state=random_state)
+            }
             
-            # Reset index to get positional indices
-            dataset_df_reset = dataset_df.reset_index(drop=True)
+            if classifier_type not in classifier_map:
+                logger.warning(f"Unknown classifier type '{classifier_type}', using SVM")
+                classifier_type = 'svm'
             
-            # Find the outlier in the ASReview dataset using OpenAlex ID or other identifier
-            # Since ASReview dataset might not have openalex_id, we'll use record_id mapping
-            # or fall back to title matching
-            outlier_asreview_index = None
-            
-            # Try to find by record position if datasets are aligned
-            if outlier_sim_index < len(dataset_df_reset):
-                outlier_asreview_index = outlier_sim_index
-                logger.info(f"Using position-based mapping: ASReview index {outlier_asreview_index}")
-            else:
-                logger.error(f"Outlier simulation index {outlier_sim_index} out of range for ASReview dataset")
-                return -1
-            
-            logger.info(f"Running full simulation to get complete ranking...")
-            
-            # Set up simulation configuration WITHOUT stopping rule
-            config = self.setup_simulation_config(classifier_type, random_state)
-            config['stopper'] = None  # Remove stopping rule
-            
-            # Prepare data
-            label_column = 'included'
-            if label_column not in dataset_df.columns:
-                logger.error(f"Label column '{label_column}' not found in dataset")
-                return -1
-            
-            # Add initial priors
+            # Common initial priors
             relevant_indices = dataset_df[dataset_df[label_column] == 1].index[:2].tolist()
             irrelevant_indices = dataset_df[dataset_df[label_column] == 0].index[:3].tolist()
             initial_indices = relevant_indices + irrelevant_indices
             
-            # Create ActiveLearningCycle without stopper
-            cycle = asr.ActiveLearningCycle(
-                querier=config['querier'],
-                classifier=config['classifier'],
-                feature_extractor=config['feature_extractor'],
-                balancer=config['balancer']
+            # ============================================================================
+            # 1. RUN FULL SIMULATION (NO STOPPING RULE) FOR FULL DATASET RANKING
+            # ============================================================================
+            logger.info("="*60)
+            logger.info("RUNNING FULL SIMULATION (NO STOPPING RULE)")
+            logger.info("="*60)
+            
+            cycle_full = asr.ActiveLearningCycle(
+                querier=Max(),
+                classifier=classifier_map[classifier_type],
+                feature_extractor=Tfidf(),
+                balancer=Balanced()
             )
             
-            # Initialize simulation without stopper - run until all documents reviewed
-            simulation = asr.Simulate(
+            simulation_full = asr.Simulate(
                 dataset_df,
-                dataset_df[label_column],
-                [cycle]
+                labels_binary,
+                cycle_full,
+                stopper=-1  # Force review of ALL documents
             )
             
-            # Label initial documents
-            simulation.label(initial_indices)
-            logger.info(f"Added {len(initial_indices)} initial labels")
-            
-            # Run simulation without stopping rule
+            simulation_full.label(initial_indices)
+            logger.info(f"Added {len(initial_indices)} initial labels for full simulation")
             logger.info("Running full simulation to completion...")
-            simulation.review()
+            simulation_full.review()
             
-            # Get query order
-            query_order = simulation._results.query_order
-            
-            # Find the outlier in the query order
-            if outlier_asreview_index in query_order:
-                # The outlier was found during simulation
-                rank = np.where(query_order == outlier_asreview_index)[0][0] + 1
-                logger.info(f"Outlier found at rank: {rank}")
-                return rank
+            # Process full simulation results
+            full_results = simulation_full._results
+            if 'time' in full_results.columns:
+                full_ordered = full_results.sort_values('time').reset_index(drop=True)
             else:
-                logger.error(f"Outlier not found in simulation results")
-                return -1
+                full_ordered = full_results.reset_index(drop=True)
+            
+            # Export full simulation to CSV
+            export_path_full = os.path.join(project_root, "log_full_simulation.csv")
+            full_ordered.to_csv(export_path_full, index=True)
+            
+            # Find outlier in full simulation
+            full_outlier_mask = full_ordered['record_id'] == target_outlier_record_id
+            full_outlier_positions = full_ordered[full_outlier_mask].index
+            
+            if len(full_outlier_positions) > 0:
+                full_rank = full_outlier_positions[0] + 1
+                logger.info(f"Full dataset: Outlier found at rank {full_rank} out of {len(full_ordered)}")
+            else:
+                full_rank = -1
+                logger.error(f"Outlier not found in full simulation")
+            
+            # ============================================================================
+            # 2. RUN NORMAL SIMULATION (WITH STOPPING RULE) FOR LEFTOVER DATA RANKING
+            # ============================================================================
+            logger.info("="*60)
+            logger.info("RUNNING NORMAL SIMULATION (WITH STOPPING RULE)")
+            logger.info("="*60)
+            
+            cycle_normal = asr.ActiveLearningCycle(
+                querier=Max(),
+                classifier=classifier_map[classifier_type],
+                feature_extractor=Tfidf(),
+                balancer=Balanced()
+            )
+            
+            simulation_normal = asr.Simulate(
+                dataset_df,
+                labels_binary,
+                cycle_normal,
+                stopper=NConsecutiveIrrelevant(100)  # Normal stopping rule
+            )
+            
+            simulation_normal.label(initial_indices)
+            logger.info(f"Added {len(initial_indices)} initial labels for normal simulation")
+            logger.info("Running normal simulation with stopping rule...")
+            simulation_normal.review()
+            
+            # Process normal simulation results
+            normal_results = simulation_normal._results
+            if 'time' in normal_results.columns:
+                normal_ordered = normal_results.sort_values('time').reset_index(drop=True)
+            else:
+                normal_ordered = normal_results.reset_index(drop=True)
+            
+            # Identify reviewed and leftover documents
+            reviewed_record_ids = set(normal_ordered['record_id'].tolist())
+            all_record_ids = set(range(len(dataset_df)))  # Assuming record_ids are 0-based indices
+            leftover_record_ids = all_record_ids - reviewed_record_ids
+            
+            logger.info(f"Normal simulation: Reviewed {len(reviewed_record_ids)} documents, {len(leftover_record_ids)} left over")
+            
+            # Export normal simulation to CSV
+            export_path_normal = os.path.join(project_root, "log_normal_simulation.csv")
+            normal_ordered.to_csv(export_path_normal, index=True)
+            
+            # Find outlier rank in leftover data
+            leftover_rank = -1
+            leftover_total = len(leftover_record_ids)
+            
+            if target_outlier_record_id in leftover_record_ids:
+                # Get ranking of leftover documents from full simulation
+                leftover_mask = full_ordered['record_id'].isin(leftover_record_ids)
+                leftover_from_full = full_ordered[leftover_mask].reset_index(drop=True)
+                
+                # Find outlier position in leftover data
+                leftover_outlier_mask = leftover_from_full['record_id'] == target_outlier_record_id
+                leftover_outlier_positions = leftover_from_full[leftover_outlier_mask].index
+                
+                if len(leftover_outlier_positions) > 0:
+                    leftover_rank = leftover_outlier_positions[0] + 1
+                    logger.info(f"Leftover data: Outlier found at rank {leftover_rank} out of {leftover_total}")
+                else:
+                    logger.error(f"Outlier not found in leftover data (unexpected)")
+            else:
+                logger.info(f"Outlier was already reviewed in normal simulation (not in leftover data)")
+                # Find where it was reviewed
+                outlier_in_normal = normal_ordered[normal_ordered['record_id'] == target_outlier_record_id]
+                if not outlier_in_normal.empty:
+                    reviewed_rank = outlier_in_normal.index[0] + 1
+                    logger.info(f"Outlier was reviewed at rank {reviewed_rank} in normal simulation")
+            
+            # ============================================================================
+            # 3. COMPILE RESULTS AND STATISTICS
+            # ============================================================================
+            
+            results = {
+                'dataset_name': dataset_name,
+                'outlier_record_id': target_outlier_record_id,
+                'classifier_type': classifier_type,
+                'random_state': random_state,
+                
+                # Full dataset statistics
+                'full_dataset_total_docs': len(dataset_df),
+                'full_dataset_reviewed_docs': len(full_ordered),
+                'full_dataset_outlier_rank': full_rank,
+                'full_dataset_outlier_found': full_rank != -1,
+                
+                # Normal simulation statistics
+                'normal_sim_total_docs': len(dataset_df),
+                'normal_sim_reviewed_docs': len(reviewed_record_ids),
+                'normal_sim_leftover_docs': len(leftover_record_ids),
+                'normal_sim_outlier_in_leftover': target_outlier_record_id in leftover_record_ids,
+                
+                # Leftover data statistics
+                'leftover_total_docs': leftover_total,
+                'leftover_outlier_rank': leftover_rank,
+                'leftover_outlier_found': leftover_rank != -1,
+                
+                # Export paths
+                'full_simulation_export': export_path_full,
+                'normal_simulation_export': export_path_normal
+            }
+            
+            # Print summary
+            logger.info("="*60)
+            logger.info("OUTLIER RANKING SUMMARY")
+            logger.info("="*60)
+            logger.info(f"Dataset: {dataset_name}")
+            logger.info(f"Outlier Record ID: {target_outlier_record_id}")
+            logger.info(f"Classifier: {classifier_type}")
+            logger.info("")
+            logger.info("FULL DATASET RANKING:")
+            logger.info(f"  Total documents: {results['full_dataset_total_docs']:,}")
+            logger.info(f"  Outlier rank: {results['full_dataset_outlier_rank']:,}" + (" (FOUND)" if results['full_dataset_outlier_found'] else " (NOT FOUND)"))
+            logger.info("")
+            logger.info("NORMAL SIMULATION:")
+            logger.info(f"  Documents reviewed: {results['normal_sim_reviewed_docs']:,}")
+            logger.info(f"  Documents left over: {results['normal_sim_leftover_docs']:,}")
+            logger.info(f"  Outlier in leftover: {results['normal_sim_outlier_in_leftover']}")
+            logger.info("")
+            logger.info("LEFTOVER DATA RANKING:")
+            logger.info(f"  Total leftover documents: {results['leftover_total_docs']:,}")
+            logger.info(f"  Outlier rank in leftover: {results['leftover_outlier_rank']:,}" + (" (FOUND)" if results['leftover_outlier_found'] else " (NOT FOUND)"))
+            logger.info("")
+            logger.info("EXPORTED FILES:")
+            logger.info(f"  Full simulation: {results['full_simulation_export']}")
+            logger.info(f"  Normal simulation: {results['normal_simulation_export']}")
+            logger.info("="*60)
+            
+            return results
                 
         except Exception as e:
-            logger.error(f"Error computing outlier original rank: {e}")
-            return -1
+            logger.error(f"Error computing outlier rankings: {e}")
+            return {"error": str(e)}
 
 
 def main():
@@ -864,8 +988,8 @@ Examples:
         '--classifier',
         type=str,
         choices=['nb', 'svm', 'rf', 'logistic'],
-        default='nb',
-        help='Classifier type (default: nb)'
+        default='svm',
+        help='Classifier type (default: svm)'
     )
     
     parser.add_argument(
@@ -927,12 +1051,18 @@ Examples:
                     print(f"Found documents exported to: {found_file}")
             
             if args.get_original_rank:
-                print(f"\nGetting original outlier rank...")
-                outlier_rank = runner.get_outlier_original_rank(dataset_name, classifier_type, random_state)
-                if outlier_rank != -1:
-                    print(f"Outlier original rank: {outlier_rank}")
+                print(f"\nGetting outlier rankings...")
+                outlier_results = runner.get_outlier_original_rank(dataset_name, classifier_type, random_state)
+                
+                if "error" in outlier_results:
+                    print(f"Error: {outlier_results['error']}")
                 else:
-                    print("Could not determine outlier original rank")
+                    print("\n" + "="*60)
+                    print("FINAL RESULTS SUMMARY")
+                    print("="*60)
+                    print(f"Full Dataset Outlier Rank: {outlier_results['full_dataset_outlier_rank']:,}")
+                    print(f"Leftover Data Outlier Rank: {outlier_results['leftover_outlier_rank']:,}")
+                    print("="*60)
             
             return
         
