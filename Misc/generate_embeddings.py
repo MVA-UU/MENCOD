@@ -321,9 +321,23 @@ def get_synergy_datasets() -> List[Tuple[str, str]]:
     Returns:
         List of tuples (dataset_name, file_path)
     """
-    synergy_dir = "data/synergy_dataset"
-    if not os.path.exists(synergy_dir):
-        print(f"Error: Synergy dataset directory '{synergy_dir}' not found")
+    # Try different possible paths for the synergy dataset directory
+    possible_paths = [
+        "data/synergy_dataset",  # From project root
+        "../data/synergy_dataset",  # From Misc/ directory
+        os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "synergy_dataset")  # Relative to script location
+    ]
+    
+    synergy_dir = None
+    for path in possible_paths:
+        if os.path.exists(path):
+            synergy_dir = path
+            break
+    
+    if synergy_dir is None:
+        print(f"Error: Synergy dataset directory not found in any of these locations:")
+        for path in possible_paths:
+            print(f"  - {path}")
         return []
     
     # Get all CSV files in the synergy dataset directory
