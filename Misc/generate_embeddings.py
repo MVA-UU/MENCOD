@@ -240,6 +240,59 @@ def load_csv_documents(csv_path: str, doc_limit: Optional[int] = None) -> List[D
         raise
 
 
+def load_synergy_dataset(synergy_name: str, doc_limit: Optional[int] = None) -> List[Dict[str, Any]]:
+    """
+    Load a synergy dataset by name using the synergy-dataset package.
+    
+    Args:
+        synergy_name: Name of the synergy dataset (e.g., 'Muthu_2021')
+        doc_limit: Maximum number of documents to load (None for no limit)
+        
+    Returns:
+        List of document dictionaries including openalex_id
+    """
+    try:
+        # Import synergy_dataset package
+        from synergy_dataset import Dataset
+        
+        # Load dataset using synergy_dataset package
+        print(f"Loading synergy dataset: {synergy_name}")
+        synergy_dataset = Dataset(synergy_name)
+        df = synergy_dataset.to_frame()
+        
+        # Get the OpenAlex IDs from the synergy dataset
+        synergy_dict = synergy_dataset.to_dict()
+        openalex_ids = list(synergy_dict.keys())
+        
+        # Add record_id and openalex_id columns to the DataFrame
+        df['record_id'] = range(len(df))
+        df['openalex_id'] = openalex_ids
+        
+        total_docs = len(df)
+        
+        # Apply document limit if specified
+        if doc_limit is not None and doc_limit > 0:
+            df = df.head(doc_limit)
+            print(f"✓ Loaded {len(df)} documents from {synergy_name} (limited from {total_docs} total)")
+        else:
+            print(f"✓ Loaded {len(df)} documents from {synergy_name}")
+        
+        print(f"Dataset columns: {list(df.columns)}")
+        print(f"Sample OpenAlex IDs: {openalex_ids[:3]}")
+        
+        # Convert to list of dictionaries
+        documents = df.to_dict('records')
+        
+        return documents
+        
+    except ImportError:
+        print("Error: synergy_dataset package not found. Please install it with: pip install synergy-dataset")
+        raise
+    except Exception as e:
+        print(f"Failed to load dataset {synergy_name}: {e}")
+        raise
+
+
 def save_embeddings(embeddings: np.ndarray, documents: List[Dict[str, Any]], 
                    output_dir: str, filename_prefix: str = "specter2"):
     """
@@ -319,9 +372,9 @@ def get_synergy_datasets() -> List[Tuple[str, str]]:
     Get list of available synergy datasets.
     
     Returns:
-        List of tuples (dataset_name, file_path)
+        List of tuples (dataset_name, dataset_name) - using dataset name as both identifier and value
     """
-    # Try different possible paths for the synergy dataset directory
+    # Try different possible paths for the synergy dataset directory (fallback for CSV files)
     possible_paths = [
         "data/synergy_dataset",  # From project root
         "../data/synergy_dataset",  # From Misc/ directory
@@ -347,7 +400,7 @@ def get_synergy_datasets() -> List[Tuple[str, str]]:
     datasets = []
     for file_path in sorted(csv_files):
         dataset_name = os.path.basename(file_path).replace('.csv', '')
-        datasets.append((dataset_name, file_path))
+        datasets.append((dataset_name, dataset_name))  # Use dataset name for both display and loading
     
     return datasets
 
@@ -357,7 +410,7 @@ def select_synergy_dataset() -> Optional[str]:
     Interactive selection of synergy dataset.
     
     Returns:
-        Path to selected dataset CSV file, or None if cancelled
+        Selected dataset name, or None if cancelled
     """
     datasets = get_synergy_datasets()
     
@@ -369,18 +422,8 @@ def select_synergy_dataset() -> Optional[str]:
     print("AVAILABLE SYNERGY DATASETS")
     print("=" * 60)
     
-    for i, (dataset_name, file_path) in enumerate(datasets, 1):
-        # Get file size for display
-        try:
-            file_size = os.path.getsize(file_path)
-            if file_size > 1024 * 1024:  # > 1MB
-                size_str = f"{file_size / (1024 * 1024):.1f}MB"
-            else:
-                size_str = f"{file_size / 1024:.1f}KB"
-        except:
-            size_str = "Unknown"
-        
-        print(f"{i:2d}. {dataset_name:<30} ({size_str})")
+    for i, (dataset_name, _) in enumerate(datasets, 1):
+        print(f"{i:2d}. {dataset_name}")
     
     print("=" * 60)
     
@@ -396,7 +439,7 @@ def select_synergy_dataset() -> Optional[str]:
             if 1 <= choice_num <= len(datasets):
                 selected_dataset = datasets[choice_num - 1]
                 print(f"\n✓ Selected: {selected_dataset[0]}")
-                return selected_dataset[1]
+                return selected_dataset[0]  # Return dataset name, not file path
             else:
                 print(f"Please enter a number between 1 and {len(datasets)}")
                 
@@ -484,24 +527,25 @@ Examples:
     
     args = parser.parse_args()
     
-    # Determine input CSV file
+    # Determine input source
     input_csv_path = None
+    synergy_dataset_name = None
     dataset_name = None
     
     if args.synergy_dataset:
-        input_csv_path = select_synergy_dataset()
-        if input_csv_path is None:
+        synergy_dataset_name = select_synergy_dataset()
+        if synergy_dataset_name is None:
             return 1
         # Extract dataset name for auto-naming
-        dataset_name = os.path.basename(input_csv_path).replace('.csv', '').lower().replace('-', '_')
+        dataset_name = synergy_dataset_name.lower().replace('-', '_')
     else:
         input_csv_path = args.input_csv
         dataset_name = os.path.basename(input_csv_path).replace('.csv', '').lower().replace('-', '_')
-    
-    # Validate input file
-    if not os.path.exists(input_csv_path):
-        print(f"Error: Input CSV file '{input_csv_path}' does not exist")
-        return 1
+        
+        # Validate input file
+        if not os.path.exists(input_csv_path):
+            print(f"Error: Input CSV file '{input_csv_path}' does not exist")
+            return 1
     
     # Set filename prefix
     filename_prefix = args.filename_prefix if args.filename_prefix else dataset_name
@@ -516,13 +560,19 @@ Examples:
         print("=" * 60)
         print("SPECTER2 Embedding Generation")
         print("=" * 60)
-        print(f"Input file: {input_csv_path}")
+        if synergy_dataset_name:
+            print(f"Synergy dataset: {synergy_dataset_name}")
+        else:
+            print(f"Input file: {input_csv_path}")
         print(f"Output directory: {args.output_dir}")
         print(f"Filename prefix: {filename_prefix}")
         
         # Load documents
         print("\n1. Loading documents...")
-        documents = load_csv_documents(input_csv_path, doc_limit=args.doc_limit)
+        if synergy_dataset_name:
+            documents = load_synergy_dataset(synergy_dataset_name, doc_limit=args.doc_limit)
+        else:
+            documents = load_csv_documents(input_csv_path, doc_limit=args.doc_limit)
         
         # Initialize embedding generator
         print("\n2. Initializing SPECTER2 model...")
