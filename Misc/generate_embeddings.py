@@ -6,10 +6,14 @@ This script loads a CSV file containing scientific documents with 'title' and 'a
 generates embeddings using SPECTER2 (proximity adapter), and saves the embeddings for later use.
 
 Usage:
+    # Using a direct CSV file
     python generate_specter2_embeddings.py --input_csv path/to/documents.csv --output_dir embeddings/
+    
+    # Using a synergy dataset (interactive selection)
+    python generate_specter2_embeddings.py --synergy-dataset --output_dir embeddings/
 
 The script will:
-1. Load documents from the specified CSV file
+1. Load documents from the specified CSV file or synergy dataset
 2. Concatenate title and abstract fields (handling missing values)
 3. Generate embeddings using SPECTER2 with the proximity adapter
 4. Save embeddings to numpy files and metadata to JSON
@@ -24,9 +28,10 @@ import json
 import pandas as pd
 import numpy as np
 import torch
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Tuple
 from tqdm import tqdm
 import warnings
+import glob
 
 # Suppress some warnings for cleaner output
 warnings.filterwarnings("ignore", category=UserWarning)
@@ -309,6 +314,85 @@ def save_embeddings(embeddings: np.ndarray, documents: List[Dict[str, Any]],
     print(f"✓ Saved summary to {summary_path}")
 
 
+def get_synergy_datasets() -> List[Tuple[str, str]]:
+    """
+    Get list of available synergy datasets.
+    
+    Returns:
+        List of tuples (dataset_name, file_path)
+    """
+    synergy_dir = "data/synergy_dataset"
+    if not os.path.exists(synergy_dir):
+        print(f"Error: Synergy dataset directory '{synergy_dir}' not found")
+        return []
+    
+    # Get all CSV files in the synergy dataset directory
+    csv_files = glob.glob(os.path.join(synergy_dir, "*.csv"))
+    
+    # Extract dataset names (remove path and .csv extension)
+    datasets = []
+    for file_path in sorted(csv_files):
+        dataset_name = os.path.basename(file_path).replace('.csv', '')
+        datasets.append((dataset_name, file_path))
+    
+    return datasets
+
+
+def select_synergy_dataset() -> Optional[str]:
+    """
+    Interactive selection of synergy dataset.
+    
+    Returns:
+        Path to selected dataset CSV file, or None if cancelled
+    """
+    datasets = get_synergy_datasets()
+    
+    if not datasets:
+        print("No synergy datasets found!")
+        return None
+    
+    print("\n" + "=" * 60)
+    print("AVAILABLE SYNERGY DATASETS")
+    print("=" * 60)
+    
+    for i, (dataset_name, file_path) in enumerate(datasets, 1):
+        # Get file size for display
+        try:
+            file_size = os.path.getsize(file_path)
+            if file_size > 1024 * 1024:  # > 1MB
+                size_str = f"{file_size / (1024 * 1024):.1f}MB"
+            else:
+                size_str = f"{file_size / 1024:.1f}KB"
+        except:
+            size_str = "Unknown"
+        
+        print(f"{i:2d}. {dataset_name:<30} ({size_str})")
+    
+    print("=" * 60)
+    
+    while True:
+        try:
+            choice = input(f"\nSelect dataset (1-{len(datasets)}) or 'q' to quit: ").strip()
+            
+            if choice.lower() == 'q':
+                print("Selection cancelled.")
+                return None
+            
+            choice_num = int(choice)
+            if 1 <= choice_num <= len(datasets):
+                selected_dataset = datasets[choice_num - 1]
+                print(f"\n✓ Selected: {selected_dataset[0]}")
+                return selected_dataset[1]
+            else:
+                print(f"Please enter a number between 1 and {len(datasets)}")
+                
+        except ValueError:
+            print("Please enter a valid number or 'q' to quit")
+        except KeyboardInterrupt:
+            print("\nSelection cancelled.")
+            return None
+
+
 def main():
     """Main function."""
     parser = argparse.ArgumentParser(
@@ -316,8 +400,11 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-    # Basic usage
+    # Using a direct CSV file
     python generate_specter2_embeddings.py --input_csv data/papers.csv --output_dir embeddings/
+
+    # Using synergy dataset (interactive selection)
+    python generate_specter2_embeddings.py --synergy-dataset --output_dir embeddings/
 
     # With custom batch size and device
     python generate_specter2_embeddings.py --input_csv data/papers.csv --output_dir embeddings/ --batch_size 32 --device cuda
@@ -330,11 +417,19 @@ Examples:
         """
     )
     
-    parser.add_argument(
+    # Create mutually exclusive group for input source
+    input_group = parser.add_mutually_exclusive_group(required=True)
+    
+    input_group.add_argument(
         '--input_csv',
         type=str,
-        required=True,
         help='Path to input CSV file containing documents with title and abstract columns'
+    )
+    
+    input_group.add_argument(
+        '--synergy-dataset',
+        action='store_true',
+        help='Select from available synergy datasets interactively'
     )
     
     parser.add_argument(
@@ -362,8 +457,8 @@ Examples:
     parser.add_argument(
         '--filename_prefix',
         type=str,
-        default='specter2',
-        help='Prefix for output filenames (default: specter2)'
+        default=None,
+        help='Prefix for output filenames (default: auto-generated from dataset name)'
     )
     
     parser.add_argument(
@@ -375,10 +470,27 @@ Examples:
     
     args = parser.parse_args()
     
-    # Validate arguments
-    if not os.path.exists(args.input_csv):
-        print(f"Error: Input CSV file '{args.input_csv}' does not exist")
+    # Determine input CSV file
+    input_csv_path = None
+    dataset_name = None
+    
+    if args.synergy_dataset:
+        input_csv_path = select_synergy_dataset()
+        if input_csv_path is None:
+            return 1
+        # Extract dataset name for auto-naming
+        dataset_name = os.path.basename(input_csv_path).replace('.csv', '').lower().replace('-', '_')
+    else:
+        input_csv_path = args.input_csv
+        dataset_name = os.path.basename(input_csv_path).replace('.csv', '').lower().replace('-', '_')
+    
+    # Validate input file
+    if not os.path.exists(input_csv_path):
+        print(f"Error: Input CSV file '{input_csv_path}' does not exist")
         return 1
+    
+    # Set filename prefix
+    filename_prefix = args.filename_prefix if args.filename_prefix else dataset_name
     
     if args.doc_limit is not None and args.doc_limit <= 0:
         print(f"Error: --doc_limit must be a positive integer (got {args.doc_limit})")
@@ -390,10 +502,13 @@ Examples:
         print("=" * 60)
         print("SPECTER2 Embedding Generation")
         print("=" * 60)
+        print(f"Input file: {input_csv_path}")
+        print(f"Output directory: {args.output_dir}")
+        print(f"Filename prefix: {filename_prefix}")
         
         # Load documents
         print("\n1. Loading documents...")
-        documents = load_csv_documents(args.input_csv, doc_limit=args.doc_limit)
+        documents = load_csv_documents(input_csv_path, doc_limit=args.doc_limit)
         
         # Initialize embedding generator
         print("\n2. Initializing SPECTER2 model...")
@@ -409,11 +524,15 @@ Examples:
         
         # Save results
         print("\n5. Saving results...")
-        save_embeddings(embeddings, documents, args.output_dir, args.filename_prefix)
+        save_embeddings(embeddings, documents, args.output_dir, filename_prefix)
         
         print("\n" + "=" * 60)
         print("✓ Embedding generation completed successfully!")
         print(f"✓ Results saved to: {args.output_dir}")
+        print(f"✓ Files created:")
+        print(f"  - {filename_prefix}_embeddings.npy")
+        print(f"  - {filename_prefix}_metadata.json")
+        print(f"  - {filename_prefix}_summary.txt")
         print("=" * 60)
         
         return 0
