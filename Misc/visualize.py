@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-ECINOD Visualization Suite - Master Thesis Quality Visualizations
+MENCOD Visualization Suite - Master Thesis Quality Visualizations
 
 This script generates comprehensive visualizations for the Extended Citation Network 
-Outlier Detection (ECINOD) system, showcasing the performance of different outlier 
+Outlier Detection (MENCOD) system, showcasing the performance of different outlier 
 detection methods through professional KDE plots and comparative analyses.
 
 Author: M.V.A. van Angeren
@@ -34,7 +34,7 @@ from utils import (
     prompt_dataset_selection, load_simulation_data, 
     load_datasets_config, get_available_datasets
 )
-from ECINOD import CitationNetworkOutlierDetector
+from MENCOD import CitationNetworkOutlierDetector
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -50,8 +50,8 @@ plt.rcParams.update({
     'savefig.dpi': 300
 })
 
-class ECINODVisualizer:
-    """Professional visualization suite for ECINOD outlier detection results."""
+class MENCODVisualizer:
+    """Professional visualization suite for MENCOD outlier detection results."""
     
     def __init__(self, results: Dict, simulation_df: pd.DataFrame, 
                  dataset_name: str, outlier_info: Dict):
@@ -59,7 +59,7 @@ class ECINODVisualizer:
         Initialize the visualizer with detection results.
         
         Args:
-            results: Dictionary with outlier scores from ECINOD
+            results: Dictionary with outlier scores from MENCOD
             simulation_df: Original simulation DataFrame
             dataset_name: Name of the dataset
             outlier_info: Information about known outliers
@@ -210,7 +210,7 @@ class ECINODVisualizer:
         for idx in range(plot_idx, len(axes)):
             fig.delaxes(axes[idx])
         
-        plt.suptitle(f'ECINOD Individual Method Analysis - {self.dataset_name.title()} Dataset', 
+        plt.suptitle(f'MENCOD Individual Method Analysis - {self.dataset_name.title()} Dataset', 
                     fontsize=18, fontweight='bold', y=0.96)
         plt.tight_layout(rect=[0, 0, 1, 0.94])  # Leave space for suptitle
         
@@ -300,7 +300,7 @@ class ECINODVisualizer:
         
         ax1.set_xlabel('Outlier Score', fontsize=12, fontweight='bold')
         ax1.set_ylabel('Density', fontsize=12, fontweight='bold')
-        ax1.set_title(f'ECINOD Methods Comparison - {self.dataset_name.title()} Dataset\n'
+        ax1.set_title(f'MENCOD Methods Comparison - {self.dataset_name.title()} Dataset\n'
                      f'Density Distributions with Overlap Visualization', 
                      fontsize=14, fontweight='bold', pad=20)
         
@@ -866,9 +866,9 @@ class ECINODVisualizer:
         return percentiles
 
 
-def run_ecinod_analysis(dataset_name: str, use_robust: bool = False) -> Tuple[Dict, pd.DataFrame, Dict]:
+def run_MENCOD_analysis(dataset_name: str, use_robust: bool = False) -> Tuple[Dict, pd.DataFrame, Dict]:
     """
-    Run ECINOD analysis on the specified dataset.
+    Run MENCOD analysis on the specified dataset.
     
     Args:
         dataset_name: Name of the dataset to analyze
@@ -878,9 +878,9 @@ def run_ecinod_analysis(dataset_name: str, use_robust: bool = False) -> Tuple[Di
         Tuple of (results, simulation_df, outlier_info)
     """
     if use_robust:
-        logger.info(f"🔬 Running ECINOD analysis on {dataset_name} dataset using ROBUST ENSEMBLE...")
+        logger.info(f"🔬 Running MENCOD analysis on {dataset_name} dataset using ROBUST ENSEMBLE...")
     else:
-        logger.info(f"🔬 Running ECINOD analysis on {dataset_name} dataset using TRADITIONAL ENSEMBLE...")
+        logger.info(f"🔬 Running MENCOD analysis on {dataset_name} dataset using TRADITIONAL ENSEMBLE...")
     
     # Load data
     simulation_df = load_simulation_data(dataset_name)
@@ -889,11 +889,11 @@ def run_ecinod_analysis(dataset_name: str, use_robust: bool = False) -> Tuple[Di
     
     logger.info(f"📊 Loaded {len(simulation_df)} documents for analysis")
     
-    # Run ECINOD with robust parameter
+    # Run MENCOD with robust parameter
     detector = CitationNetworkOutlierDetector(random_state=42, use_robust_ensemble=use_robust)
     results = detector.fit_predict_outliers(simulation_df, dataset_name=dataset_name)
     
-    logger.info("✅ ECINOD analysis completed successfully")
+    logger.info("✅ MENCOD analysis completed successfully")
     
     return results, simulation_df, outlier_info
 
@@ -901,7 +901,7 @@ def run_ecinod_analysis(dataset_name: str, use_robust: bool = False) -> Tuple[Di
 def main():
     """Main function for the visualization script."""
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description="ECINOD Visualization Suite - Generate professional visualizations")
+    parser = argparse.ArgumentParser(description="MENCOD Visualization Suite - Generate professional visualizations")
     parser.add_argument("--robust", action="store_true", 
                        help="Use robust ensemble methods (SOTA rank aggregation)")
     parser.add_argument("--dataset", type=str, 
@@ -910,7 +910,7 @@ def main():
     args = parser.parse_args()
     
     print("=" * 70)
-    print("🎨 ECINOD VISUALIZATION SUITE - MASTER THESIS QUALITY")
+    print("🎨 MENCOD VISUALIZATION SUITE - MASTER THESIS QUALITY")
     if args.robust:
         print("                ROBUST ENSEMBLE MODE ENABLED")
     print("=" * 70)
@@ -938,11 +938,11 @@ def main():
             print("🚀 Starting analysis and visualization generation using TRADITIONAL ENSEMBLE...")
         
         # Run analysis
-        results, simulation_df, outlier_info = run_ecinod_analysis(dataset_name, use_robust=args.robust)
+        results, simulation_df, outlier_info = run_MENCOD_analysis(dataset_name, use_robust=args.robust)
         
         # Create visualizations
         print("\n🎨 Generating professional visualizations...")
-        visualizer = ECINODVisualizer(results, simulation_df, dataset_name, outlier_info)
+        visualizer = MENCODVisualizer(results, simulation_df, dataset_name, outlier_info)
         
         visualizer.create_all_visualizations()
         

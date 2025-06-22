@@ -2,12 +2,12 @@
 Standalone Citation Network Outlier Detection Script
 
 Provides the same main functionality as the original citation_network.py
-for running ECINOD as a standalone application.
+for running MENCOD as a standalone application.
 """
 
 import time
 import logging
-from ECINOD import CitationNetworkOutlierDetector
+from MENCOD import CitationNetworkOutlierDetector
 from utils import (
     prompt_dataset_selection, load_simulation_data, 
     load_datasets_config, evaluate_outlier_ranking
@@ -19,9 +19,9 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    """Standalone execution of ECINOD."""
+    """Standalone execution of MENCOD."""
     print("=" * 60)
-    print("ECINOD - EXTENDED CITATION NETWORK OUTLIER DETECTION")
+    print("MENCOD - EXTENDED CITATION NETWORK OUTLIER DETECTION")
     print("=" * 60)
     
     try:

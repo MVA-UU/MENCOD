@@ -1,10 +1,10 @@
-# ECINOD - Extended CItation Network Outlier Detector
+# MENCOD - Extended CItation Network Outlier Detector
 
 A streamlined outlier detection system for citation networks using Local Outlier Factor (LOF) on SPECTER2 embeddings and Isolation Forest for comprehensive anomaly detection.
 
 ## Overview
 
-ECINOD combines semantic similarity analysis with network structure analysis to identify outlier documents in citation networks. It uses:
+MENCOD combines semantic similarity analysis with network structure analysis to identify outlier documents in citation networks. It uses:
 
 - **LOF on SPECTER2 embeddings** for semantic outlier detection
 - **Isolation Forest** on network features for structural anomaly detection  
@@ -13,7 +13,7 @@ ECINOD combines semantic similarity analysis with network structure analysis to 
 ## Package Structure
 
 ```
-ECINOD/
+MENCOD/
 ├── __init__.py          # Package initialization and public interface
 ├── core.py              # Main CitationNetworkOutlierDetector class
 ├── network.py           # Citation network construction (NetworkBuilder)
@@ -29,7 +29,7 @@ ECINOD/
 ### As a Package
 
 ```python
-from ECINOD import CitationNetworkOutlierDetector
+from MENCOD import CitationNetworkOutlierDetector
 import pandas as pd
 
 # Load your simulation data
@@ -48,7 +48,7 @@ outliers = detector.get_outlier_documents(method='ensemble', top_k=10)
 ### Convenience Function
 
 ```python
-from ECINOD import detect_outliers
+from MENCOD import detect_outliers
 
 # Quick detection
 results = detect_outliers(simulation_df, dataset_name='your_dataset')
@@ -57,7 +57,7 @@ results = detect_outliers(simulation_df, dataset_name='your_dataset')
 ### Standalone Script
 
 ```bash
-python -m ECINOD.main
+python -m MENCOD.main
 ```
 
 ## Features

@@ -1,5 +1,5 @@
 """
-Utility functions for the ECINOD project
+Utility functions for the MENCOD project
 
 This module provides common utilities for data loading, configuration management,
 and evaluation metrics.

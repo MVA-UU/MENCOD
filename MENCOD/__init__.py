@@ -1,5 +1,5 @@
 """
-ECINOD - Extended Citation Network Outlier Detector
+MENCOD - Multi-modal ENsemble Citation Outlier Detector
 
 A streamlined outlier detection system for citation networks using:
 - LOF on embeddings for semantic outlier detection

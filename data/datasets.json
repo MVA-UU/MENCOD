@@ -20,40 +20,15 @@
         "embeddings_filename": "appenzeller.npy",
         "embeddings_metadata_filename": "appenzeller_metadata.json"
     },
-    "valk": {
-        "outlier_ids": [
-            21
-        ],
-        "simulation_file": "valk.csv",
-        "synergy_dataset_name": "van_der_Valk_2021",
-        "embeddings_filename": "valk.npy",
-        "embeddings_metadata_filename": "valk_metadata.json"
-    },
     "hall": {
         "outlier_ids": [
             5647
         ],
+        "original_rank": 5600,
+        "original_leftover_rank": 5102,
         "simulation_file": "hall.csv",
         "synergy_dataset_name": "Hall_2012",
         "embeddings_filename": "hall.npy",
         "embeddings_metadata_filename": "hall_metadata.json"
-    },
-    "sep": {
-        "outlier_ids": [
-            176
-        ],
-        "simulation_file": "sep.csv",
-        "synergy_dataset_name": "Sep_2021",
-        "embeddings_filename": "sep.npy",
-        "embeddings_metadata_filename": "sep_metadata.json"
-    },
-    "muthu": {
-        "outlier_ids": [
-            2597
-        ],
-        "simulation_file": "muthu.csv",
-        "synergy_dataset_name": "Muthu_2021",
-        "embeddings_filename": "muthu.npy",
-        "embeddings_metadata_filename": "muthu_metadata.json"
     }
 }
