@@ -17,7 +17,7 @@ from sklearn.neighbors import LocalOutlierFactor
 from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 
-from utils import normalize_scores, compute_ensemble_weights
+from utils import normalize_scores, compute_ensemble_weights, robust_reciprocal_rank_fusion
 
 logger = logging.getLogger(__name__)
 
@@ -25,14 +25,16 @@ logger = logging.getLogger(__name__)
 class OutlierDetector:
     """Handles outlier detection algorithms and ensemble methods."""
     
-    def __init__(self, random_state: int = 42):
+    def __init__(self, random_state: int = 42, use_rrf: bool = False):
         """
         Initialize outlier detector.
         
         Args:
             random_state: Random state for reproducibility
+            use_rrf: Whether to use Robust Reciprocal Rank Fusion for ensemble scoring
         """
         self.random_state = random_state
+        self.use_rrf = use_rrf
         self.scaler = StandardScaler()
     
     def apply_lof_to_embeddings(self, simulation_df: pd.DataFrame, 
@@ -180,39 +182,61 @@ class OutlierDetector:
         Returns:
             Array of ensemble scores
         """
-        logger.info("Computing Multi-LOF ensemble scores...")
-        
-        # Normalize all scores
-        normalized_scores = {}
-        for method_key in results.keys():
-            if method_key.endswith('_scores') and method_key != 'ensemble_scores':
-                normalized_scores[method_key] = normalize_scores(results[method_key])
-        
-        # Create score arrays for weight calculation
-        score_arrays = {
-            method_key.replace('_scores', ''): scores 
-            for method_key, scores in normalized_scores.items()
-        }
-        
-        # Calculate weights using variance-based method
-        weights = compute_ensemble_weights(score_arrays, method='variance')
-        
-        # Apply method-specific adjustments for Multi-LOF
-        weights = self._adjust_multi_lof_weights(weights)
-        
-        logger.info("Multi-LOF ensemble weights:")
-        for method, weight in weights.items():
-            logger.info(f"  {method}: {weight:.3f}")
-        
-        # Compute weighted ensemble
-        ensemble_scores = np.zeros(len(list(normalized_scores.values())[0]))
-        
-        for method_key, scores in normalized_scores.items():
-            method_name = method_key.replace('_scores', '')
-            if method_name in weights:
-                ensemble_scores += weights[method_name] * scores
-        
-        return ensemble_scores
+        if self.use_rrf:
+            logger.info("Computing Multi-LOF ensemble scores using Robust Reciprocal Rank Fusion...")
+            
+            # Extract raw scores for RRF (no normalization needed for RRF)
+            score_arrays = {}
+            for method_key in results.keys():
+                if method_key.endswith('_scores') and method_key != 'ensemble_scores':
+                    method_name = method_key.replace('_scores', '')
+                    score_arrays[method_name] = results[method_key]
+            
+            # Debug: Check if methods produce different rankings
+            logger.info("Score distribution analysis:")
+            for method_name, scores in score_arrays.items():
+                unique_scores = len(np.unique(scores))
+                logger.info(f"  {method_name}: min={np.min(scores):.4f}, max={np.max(scores):.4f}, "
+                           f"unique_values={unique_scores}")
+            
+            # Apply pure RRF (no weights - let RRF handle it automatically)
+            ensemble_scores = robust_reciprocal_rank_fusion(score_arrays)
+            
+            return ensemble_scores
+        else:
+            logger.info("Computing Multi-LOF ensemble scores using variance-weighted combination...")
+            
+            # Normalize all scores
+            normalized_scores = {}
+            for method_key in results.keys():
+                if method_key.endswith('_scores') and method_key != 'ensemble_scores':
+                    normalized_scores[method_key] = normalize_scores(results[method_key])
+            
+            # Create score arrays for weight calculation
+            score_arrays = {
+                method_key.replace('_scores', ''): scores 
+                for method_key, scores in normalized_scores.items()
+            }
+            
+            # Calculate weights using variance-based method
+            weights = compute_ensemble_weights(score_arrays, method='variance')
+            
+            # Apply method-specific adjustments for Multi-LOF
+            #weights = self._adjust_multi_lof_weights(weights)
+            
+            logger.info("Multi-LOF ensemble weights:")
+            for method, weight in weights.items():
+                logger.info(f"  {method}: {weight:.3f}")
+            
+            # Compute weighted ensemble
+            ensemble_scores = np.zeros(len(list(normalized_scores.values())[0]))
+            
+            for method_key, scores in normalized_scores.items():
+                method_name = method_key.replace('_scores', '')
+                if method_name in weights:
+                    ensemble_scores += weights[method_name] * scores
+            
+            return ensemble_scores
     
     def _adjust_multi_lof_weights(self, weights: Dict[str, float]) -> Dict[str, float]:
         """Adjust weights for Multi-LOF ensemble with domain knowledge."""

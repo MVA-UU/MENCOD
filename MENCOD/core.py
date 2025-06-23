@@ -30,18 +30,20 @@ class CitationNetworkOutlierDetector:
     - NetworkX-based citation network analysis
     """
     
-    def __init__(self, random_state: int = 42):
+    def __init__(self, random_state: int = 42, use_rrf: bool = False):
         """
         Initialize the outlier detector.
         
         Args:
             random_state: Random state for reproducibility
+            use_rrf: Whether to use Robust Reciprocal Rank Fusion for ensemble scoring
         """
         self.random_state = random_state
+        self.use_rrf = use_rrf
         
         # Initialize components
         self.network_builder = NetworkBuilder()
-        self.outlier_detector = OutlierDetector(random_state=random_state)
+        self.outlier_detector = OutlierDetector(random_state=random_state, use_rrf=use_rrf)
         
         # State variables
         self.is_fitted = False

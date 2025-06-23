@@ -109,7 +109,7 @@ class FeatureExtractor:
         
         # Dynamic sample size for betweenness (use full computation for better accuracy)
         # Only use sampling if absolutely necessary for very large graphs
-        betweenness_k = n_nodes if n_nodes <= 1000 else max(500, int(n_nodes * 0.1))
+        betweenness_k = n_nodes #if n_nodes <= 1000 else max(500, int(n_nodes * 0.1))
         
         logger.info(f"Computing centralities for {n_nodes} nodes with max_iter={max_iter}")
         

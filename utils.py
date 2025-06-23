@@ -142,7 +142,7 @@ def load_synergy_dataset(dataset_name: str = None) -> Optional[Dict]:
         
         # Load the synergy dataset
         dataset = Dataset(synergy_name)
-        synergy_data = dataset.to_dict(["id", "title", "referenced_works"])
+        synergy_data = dataset.to_dict(["id", "title", "referenced_works", "publication_year"])
         
         logger.info(f"Loaded {len(synergy_data)} documents from Synergy dataset")
         return synergy_data
@@ -892,4 +892,61 @@ def convert_record_ids_to_openalex(record_ids: List[str],
         else:
             logger.warning(f"Record ID {record_id} not found in simulation data")
     
-    return openalex_ids 
+    return openalex_ids
+
+
+def robust_reciprocal_rank_fusion(score_arrays: Dict[str, np.ndarray], 
+                                  k: int = 60) -> np.ndarray:
+    """
+    Apply Robust Reciprocal Rank Fusion (RRF) - fresh implementation.
+    
+    Args:
+        score_arrays: Dictionary mapping method names to score arrays
+        k: RRF parameter for rank smoothing (default 60)
+    
+    Returns:
+        Combined RRF scores
+    """
+    if not score_arrays:
+        raise ValueError("score_arrays cannot be empty")
+    
+    from scipy.stats import rankdata
+    
+    n_docs = len(list(score_arrays.values())[0])
+    
+    logger.info(f"Computing RRF with k={k}, methods: {list(score_arrays.keys())}")
+    
+    # Debug: Let's examine the first two methods in detail
+    method_names = list(score_arrays.keys())
+    if len(method_names) >= 2:
+        method1, method2 = method_names[0], method_names[1]
+        scores1, scores2 = score_arrays[method1], score_arrays[method2]
+        
+        # Check if they're actually different
+        logger.info(f"Method comparison:")
+        logger.info(f"  {method1}: min={np.min(scores1):.4f}, max={np.max(scores1):.4f}")
+        logger.info(f"  {method2}: min={np.min(scores2):.4f}, max={np.max(scores2):.4f}")
+        logger.info(f"  Arrays equal? {np.array_equal(scores1, scores2)}")
+        logger.info(f"  Correlation: {np.corrcoef(scores1, scores2)[0,1]:.4f}")
+    
+    # Apply RRF to each method
+    all_rrf_contributions = []
+    
+    for method_name, scores in score_arrays.items():
+        # Convert to ranks (lower is better)
+        ranks = rankdata(-scores, method='ordinal')  # Higher scores = lower ranks
+        
+        # RRF contribution
+        rrf_contrib = 1.0 / (k + ranks)
+        all_rrf_contributions.append(rrf_contrib)
+        
+        logger.info(f"  {method_name}: rank_range=[{np.min(ranks)}, {np.max(ranks)}], "
+                   f"rrf_range=[{np.min(rrf_contrib):.6f}, {np.max(rrf_contrib):.6f}], "
+                   f"rrf_mean={np.mean(rrf_contrib):.6f}")
+    
+    # Sum all contributions 
+    final_rrf = np.sum(all_rrf_contributions, axis=0)
+    
+    logger.info(f"Final RRF: mean={np.mean(final_rrf):.6f}, std={np.std(final_rrf):.6f}")
+    
+    return final_rrf 

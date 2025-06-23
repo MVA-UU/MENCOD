@@ -7,6 +7,7 @@ for running MENCOD as a standalone application.
 
 import time
 import logging
+import argparse
 from MENCOD import CitationNetworkOutlierDetector
 from utils import (
     prompt_dataset_selection, load_simulation_data, 
@@ -18,11 +19,27 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 
+def parse_arguments():
+    """Parse command line arguments."""
+    parser = argparse.ArgumentParser(description='MENCOD - Citation Network Outlier Detection')
+    parser.add_argument('--RRF', '--rrf', action='store_true', 
+                       help='Use Robust Reciprocal Rank Fusion for ensemble scoring')
+    return parser.parse_args()
+
+
 def main():
     """Standalone execution of MENCOD."""
+    # Parse command line arguments
+    args = parse_arguments()
+    
     print("=" * 60)
     print("MENCOD - EXTENDED CITATION NETWORK OUTLIER DETECTION")
     print("=" * 60)
+    
+    if args.RRF:
+        print("Using Robust Reciprocal Rank Fusion (RRF) for ensemble scoring")
+    else:
+        print("Using default variance-weighted ensemble scoring")
     
     try:
         # Dataset Selection
@@ -38,7 +55,7 @@ def main():
         print(f"\nStep 3: Running Citation Network Outlier Detection...")
         print("Methods: LOF (embeddings), Isolation Forest")
         
-        detector = CitationNetworkOutlierDetector(random_state=42)
+        detector = CitationNetworkOutlierDetector(random_state=42, use_rrf=args.RRF)
         
         start_time = time.time()
         results = detector.fit_predict_outliers(simulation_df, dataset_name=dataset_name)
