@@ -221,9 +221,6 @@ class OutlierDetector:
             # Calculate weights using variance-based method
             weights = compute_ensemble_weights(score_arrays, method='variance')
             
-            # Apply method-specific adjustments for Multi-LOF
-            #weights = self._adjust_multi_lof_weights(weights)
-            
             logger.info("Multi-LOF ensemble weights:")
             for method, weight in weights.items():
                 logger.info(f"  {method}: {weight:.3f}")
@@ -237,38 +234,6 @@ class OutlierDetector:
                     ensemble_scores += weights[method_name] * scores
             
             return ensemble_scores
-    
-    def _adjust_multi_lof_weights(self, weights: Dict[str, float]) -> Dict[str, float]:
-        """Adjust weights for Multi-LOF ensemble with domain knowledge."""
-        
-        # Ensure semantic methods (embeddings-based) get reasonable weight
-        semantic_methods = ['lof_embeddings', 'lof_mixed']
-        structural_methods = ['lof_network', 'isolation_forest']
-        
-        # Boost semantic weight if it's too low (embeddings are high quality)
-        semantic_weight = sum(weights.get(method, 0) for method in semantic_methods)
-        structural_weight = sum(weights.get(method, 0) for method in structural_methods)
-        
-        if semantic_weight < 0.4 and 'lof_embeddings' in weights:
-            # Redistribute some weight to semantic methods
-            boost = min(0.15, (0.4 - semantic_weight) / 2)
-            if 'lof_embeddings' in weights:
-                weights['lof_embeddings'] += boost
-            if 'lof_mixed' in weights:
-                weights['lof_mixed'] += boost
-            
-            # Reduce other weights proportionally
-            reduction_per_method = (2 * boost) / len([m for m in structural_methods if m in weights])
-            for method in structural_methods:
-                if method in weights:
-                    weights[method] = max(0.05, weights[method] - reduction_per_method)
-        
-        # Normalize weights to sum to 1
-        total_weight = sum(weights.values())
-        if total_weight > 0:
-            weights = {method: w / total_weight for method, w in weights.items()}
-        
-        return weights
     
     def _create_mixed_feature_matrix(self, doc_embeddings: np.ndarray, 
                                    doc_indices: list, 
