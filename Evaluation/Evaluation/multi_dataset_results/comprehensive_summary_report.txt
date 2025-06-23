@@ -1,0 +1,24 @@
+MENCOD Multi-Dataset Analysis Report
+==================================================
+
+Dataset Overview:
+--------------------
+• jeyaraman: 883 documents (96 relevant)
+• appenzeller: 2503 documents (25 relevant)
+• hall: 8397 documents (102 relevant)
+
+Rank Improvements Summary:
+------------------------------
+
+Top Important Features (across all datasets):
+---------------------------------------------
+• title_length: 0.2011
+• max_neighbor_degree: 0.1407
+• pagerank: 0.1097
+• clustering: 0.0930
+• closeness: 0.0927
+• degree: 0.0808
+• std_neighbor_degree: 0.0484
+• relevant_ratio: 0.0460
+• mean_neighbor_degree: 0.0414
+• eigenvector: 0.0246
