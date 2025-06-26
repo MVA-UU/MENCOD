@@ -15,7 +15,7 @@ import logging
 from typing import Dict, Optional
 from sklearn.neighbors import LocalOutlierFactor
 from sklearn.ensemble import IsolationForest
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, RobustScaler
 
 from utils import normalize_scores, compute_ensemble_weights, robust_reciprocal_rank_fusion
 

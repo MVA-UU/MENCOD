@@ -4,21 +4,24 @@ MENCOD Multi-Dataset Analysis Report
 Dataset Overview:
 --------------------
 • jeyaraman: 883 documents (96 relevant)
-• appenzeller: 2503 documents (25 relevant)
-• hall: 8397 documents (102 relevant)
+• appenzeller: 2680 documents (26 relevant)
+• hall: 4089 documents (104 relevant)
 
 Rank Improvements Summary:
 ------------------------------
+• jeyaraman outlier https://openalex.org/W2408000122: 244 ranks (87.5% improvement)
+• appenzeller outlier https://openalex.org/W2415851885: 1834 ranks (90.1% improvement)
+• hall outlier https://openalex.org/W4243127898: 5079 ranks (99.5% improvement)
 
 Top Important Features (across all datasets):
 ---------------------------------------------
-• title_length: 0.1870
-• max_neighbor_degree: 0.1506
-• pagerank: 0.1164
-• clustering: 0.1076
-• closeness: 0.0972
-• degree: 0.0700
-• relevant_ratio: 0.0471
-• std_neighbor_degree: 0.0442
-• mean_neighbor_degree: 0.0419
-• eigenvector: 0.0264
+• semantic_isolation_score: 0.1647
+• max_neighbor_degree: 0.1298
+• closeness: 0.1284
+• pagerank: 0.0874
+• degree: 0.0770
+• std_neighbor_degree: 0.0619
+• max_semantic_similarity: 0.0584
+• relevant_ratio: 0.0467
+• semantic_similarity_to_relevant: 0.0416
+• title_length: 0.0408

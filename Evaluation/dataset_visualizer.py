@@ -64,75 +64,109 @@ class DatasetVisualizer:
         print(f"Analysis complete. Results will be saved to: {self.output_dir}")
     
     def create_score_kde_plots(self):
-        """Create KDE plots for each outlier detection score."""
-        print("Creating individual KDE plots for each scoring method...")
+        """Create smooth histogram-style KDE plots for each outlier detection score."""
+        print("Creating smooth histogram-style KDE plots for each scoring method...")
         
-        # Score methods and their display names (FIXED: LOF capitalization)
+        # Score methods and their display names (simplified)
         score_methods = {
-            'lof_embeddings_scores': 'LOF embeddings score',
-            'lof_network_scores': 'LOF network features score',
-            'lof_mixed_scores': 'LOF mixed features score',
-            'isolation_forest_scores': 'Isolation forest score',
-            'ensemble_scores': 'Ensemble score'
+            'lof_network_scores': 'LOF network',
+            'lof_mixed_scores': 'LOF mixed',
+            'isolation_forest_scores': 'Isolation forest',
+            'ensemble_scores': 'Ensemble'
         }
         
-        fig, axes = plt.subplots(2, 3, figsize=(18, 12))
-        axes = axes.flatten()
+        # Check if LOF embeddings has valid data
+        valid_methods = dict(score_methods)
+        if 'lof_embeddings_scores' in self.results:
+            scores = self.results['lof_embeddings_scores'].copy()
+            zero_count = np.sum(scores == 0)
+            if zero_count == 0 or len(scores[scores > 0]) > 10:
+                valid_methods['lof_embeddings_scores'] = 'LOF embeddings'
         
-        for idx, (score_key, score_name) in enumerate(score_methods.items()):
+        # Calculate grid size
+        n_methods = len(valid_methods)
+        if n_methods <= 4:
+            nrows, ncols = 2, 2
+        elif n_methods == 5:
+            nrows, ncols = 2, 3
+        else:
+            nrows, ncols = 2, 3
+            
+        fig, axes = plt.subplots(nrows, ncols, figsize=(18, 12))
+        if nrows * ncols == 1:
+            axes = [axes]
+        else:
+            axes = axes.flatten()
+        
+        doc_ids = [str(doc_id) for doc_id in self.results['openalex_ids']]
+        colors = sns.color_palette("viridis", len(valid_methods))  # Different palette for distinction
+        
+        plot_idx = 0
+        for idx, (score_key, score_name) in enumerate(valid_methods.items()):
             if score_key not in self.results:
                 continue
                 
-            ax = axes[idx]
-            scores = self.results[score_key]
-            doc_ids = [str(doc_id) for doc_id in self.results['openalex_ids']]
+            ax = axes[plot_idx]
+            scores = self.results[score_key].copy()
+            current_doc_ids = doc_ids.copy()
+            color = colors[plot_idx]
             
-            # Handle zero-scores issue for LOF embeddings (exclude rather than impute)
+            # Handle zero-scores issue for LOF embeddings
             if score_key == 'lof_embeddings_scores':
                 zero_count = np.sum(scores == 0)
-                total_count = len(scores)
                 if zero_count > 0:
-                    print(f"  Warning: {zero_count}/{total_count} ({zero_count/total_count*100:.1f}%) zero scores in LOF embeddings")
-                    print(f"  This suggests missing embeddings - excluding zero values from visualization")
-                    # Filter out zero scores and corresponding doc_ids for this method
+                    print(f"  {score_name}: Excluding {zero_count} documents without embeddings")
                     non_zero_mask = scores > 0
                     scores = scores[non_zero_mask]
                     current_doc_ids = [doc_ids[i] for i in range(len(doc_ids)) if non_zero_mask[i]]
-                    print(f"  Using {len(scores)} documents with valid embeddings for LOF embeddings plot")
-                else:
-                    current_doc_ids = doc_ids
-            else:
-                current_doc_ids = doc_ids
+                    
+                    if len(scores) < 10:
+                        print(f"  {score_name}: Too few valid scores ({len(scores)}), skipping")
+                        continue
             
-            # Create KDE plot with filled area
-            sns.histplot(scores, kde=True, ax=ax, alpha=0.6, color='lightblue', bins=30, stat='density')
+            # Handle any NaN or infinite values
+            scores = np.nan_to_num(scores, nan=np.median(scores), 
+                                 posinf=np.max(scores[np.isfinite(scores)]), 
+                                 neginf=np.min(scores[np.isfinite(scores)]))
             
-            # Highlight known outliers (use current_doc_ids for this method)
+            # Create smooth histogram using KDE with fill
+            sns.histplot(scores, kde=True, ax=ax, alpha=0.4, color=color, 
+                        bins=25, stat='density', edgecolor='none')
+            
+            # Add a prominent KDE line on top
+            sns.kdeplot(scores, ax=ax, color=color, linewidth=3, alpha=0.9, bw_adjust=0.8)
+            
+            # Highlight known outliers
             outlier_scores = [scores[i] for i, doc_id in enumerate(current_doc_ids) 
                             if doc_id in self.known_outliers]
             
             if outlier_scores:
                 for score in outlier_scores:
-                    ax.axvline(score, color='red', linestyle='--', linewidth=2, alpha=0.8)
-                    ax.text(score, ax.get_ylim()[1] * 0.9, 'Outlier', 
-                           rotation=90, color='red', fontweight='bold')
+                    ax.axvline(score, color='darkred', linestyle='--', linewidth=2.5, alpha=0.9)
+                    # Add star marker
+                    y_max = ax.get_ylim()[1]
+                    ax.text(score, y_max * 0.95, '★', color='darkred', 
+                           fontsize=14, ha='center', va='top', fontweight='bold')
             
-            # FIXED: Title capitalization (sentence case) and dataset name capitalization
+            # Improved styling
             ax.set_title(f'{score_name}\n({self.dataset_name.capitalize()} dataset)', 
-                        fontsize=12, fontweight='bold')
-            ax.set_xlabel('Score', fontsize=10)
-            ax.set_ylabel('Density', fontsize=10)
+                        fontsize=14, fontweight='bold', pad=20)
+            ax.set_xlabel('Score', fontsize=12, fontweight='bold')
+            ax.set_ylabel('Density', fontsize=12, fontweight='bold')
             ax.grid(True, alpha=0.3)
+            ax.set_facecolor('#f8f8f8')  # Slightly different background
+            
+            plot_idx += 1
         
-        # Remove empty subplot
-        if len(score_methods) < len(axes):
-            fig.delaxes(axes[-1])
+        # Remove empty subplots
+        for i in range(plot_idx, len(axes)):
+            fig.delaxes(axes[i])
         
         plt.tight_layout()
         plt.savefig(os.path.join(self.output_dir, 'kde_plots_individual.png'), 
-                   dpi=300, bbox_inches='tight')
+                   dpi=300, bbox_inches='tight', facecolor='white')
         plt.close()
-        print(f"✓ Individual KDE plots saved")
+        print(f"✓ Smooth histogram-style KDE plots saved ({plot_idx} methods plotted)")
     
     def create_feature_importance_plot(self):
         """Create feature importance visualization using Random Forest."""
@@ -201,67 +235,112 @@ class DatasetVisualizer:
         return feature_importance_df
     
     def create_individual_kde_plots(self):
-        """Create individual KDE plots for each scoring method."""
-        print("Creating individual KDE plots for each scoring method...")
+        """Create individual smooth KDE plots for each scoring method with distinct colors."""
+        print("Creating individual smooth KDE plots for each scoring method...")
         
-        # Score methods and their display names
+        # Score methods and their display names (consistent with combined plot)
         score_methods = {
-            'lof_embeddings_scores': 'LOF embeddings',
             'lof_network_scores': 'LOF network',
-            'lof_mixed_scores': 'LOF mixed',
+            'lof_mixed_scores': 'LOF mixed', 
             'isolation_forest_scores': 'Isolation forest',
             'ensemble_scores': 'Ensemble'
         }
         
-        fig, axes = plt.subplots(2, 3, figsize=(18, 12))
-        axes = axes.flatten()
+        # Check if LOF embeddings has valid data
+        valid_methods = dict(score_methods)
+        if 'lof_embeddings_scores' in self.results:
+            scores = self.results['lof_embeddings_scores'].copy()
+            zero_count = np.sum(scores == 0)
+            if zero_count == 0 or len(scores[scores > 0]) > 10:  # Only include if we have enough valid data
+                valid_methods['lof_embeddings_scores'] = 'LOF embeddings'
+        
+        # Calculate grid size based on number of methods
+        n_methods = len(valid_methods)
+        if n_methods <= 4:
+            nrows, ncols = 2, 2
+        elif n_methods == 5:
+            nrows, ncols = 2, 3
+        else:
+            nrows, ncols = 2, 3
+            
+        fig, axes = plt.subplots(nrows, ncols, figsize=(18, 12))
+        if nrows * ncols == 1:
+            axes = [axes]
+        else:
+            axes = axes.flatten()
         
         doc_ids = [str(doc_id) for doc_id in self.results['openalex_ids']]
+        colors = sns.color_palette("husl", len(valid_methods))  # Consistent with combined plot
         
-        for idx, (score_key, method_name) in enumerate(score_methods.items()):
+        plot_idx = 0
+        for idx, (score_key, method_name) in enumerate(valid_methods.items()):
             if score_key not in self.results:
                 continue
                 
-            ax = axes[idx]
+            ax = axes[plot_idx]
             scores = self.results[score_key].copy()
             current_doc_ids = doc_ids.copy()
+            color = colors[plot_idx]
             
             # Handle zero-scores issue for LOF embeddings
             if score_key == 'lof_embeddings_scores':
                 zero_count = np.sum(scores == 0)
                 if zero_count > 0:
+                    print(f"  {method_name}: Excluding {zero_count} documents without embeddings")
                     non_zero_mask = scores > 0
                     scores = scores[non_zero_mask]
                     current_doc_ids = [doc_ids[i] for i in range(len(doc_ids)) if non_zero_mask[i]]
+                    
+                    if len(scores) < 10:  # Skip if too few valid scores
+                        print(f"  {method_name}: Too few valid scores ({len(scores)}), skipping")
+                        continue
             
-            # Create filled KDE plot
-            sns.kdeplot(scores, ax=ax, fill=True, alpha=0.6, color='lightblue', linewidth=2)
+            # Handle any NaN or infinite values
+            scores = np.nan_to_num(scores, nan=np.median(scores), 
+                                 posinf=np.max(scores[np.isfinite(scores)]), 
+                                 neginf=np.min(scores[np.isfinite(scores)]))
             
-            # Highlight known outliers with better visibility
+            # Create smooth filled KDE plot with method-specific color
+            sns.kdeplot(scores, ax=ax, fill=True, alpha=0.6, color=color, 
+                       linewidth=2.5, bw_adjust=0.8)
+            
+            # Add a subtle unfilled KDE line for better definition
+            sns.kdeplot(scores, ax=ax, fill=False, alpha=0.9, color=color, 
+                       linewidth=3, bw_adjust=0.8)
+            
+            # Highlight known outliers with consistent style
             outlier_scores = [scores[i] for i, doc_id in enumerate(current_doc_ids) 
                             if doc_id in self.known_outliers]
             
             if outlier_scores:
                 for score in outlier_scores:
-                    ax.axvline(score, color='darkred', linestyle='--', linewidth=3, alpha=0.9)
-                    ax.text(score, ax.get_ylim()[1] * 0.9, '★ Outlier', 
-                           rotation=90, color='darkred', fontweight='bold', fontsize=10)
+                    ax.axvline(score, color='darkred', linestyle='--', linewidth=2.5, alpha=0.9)
+                    # Position star marker better
+                    y_max = ax.get_ylim()[1]
+                    ax.text(score, y_max * 0.95, '★', color='darkred', 
+                           fontsize=14, ha='center', va='top', fontweight='bold')
             
+            # Improved styling
             ax.set_title(f'{method_name}\n({self.dataset_name.capitalize()} dataset)', 
-                        fontsize=12, fontweight='bold')
-            ax.set_xlabel('Score', fontsize=10)
-            ax.set_ylabel('Density', fontsize=10)
+                        fontsize=14, fontweight='bold', pad=20)
+            ax.set_xlabel('Score', fontsize=12, fontweight='bold')
+            ax.set_ylabel('Density', fontsize=12, fontweight='bold')
             ax.grid(True, alpha=0.3)
+            
+            # Add subtle background color
+            ax.set_facecolor('#fafafa')
+            
+            plot_idx += 1
         
-        # Remove empty subplot
-        if len(score_methods) < len(axes):
-            fig.delaxes(axes[-1])
+        # Remove empty subplots
+        for i in range(plot_idx, len(axes)):
+            fig.delaxes(axes[i])
         
         plt.tight_layout()
         plt.savefig(os.path.join(self.output_dir, 'individual_kde_plots.png'), 
-                   dpi=300, bbox_inches='tight')
+                   dpi=300, bbox_inches='tight', facecolor='white')
         plt.close()
-        print(f"✓ Individual KDE plots saved")
+        print(f"✓ Individual smooth KDE plots saved ({plot_idx} methods plotted)")
 
     def create_combined_kde_plot(self):
         """Create a combined KDE plot using rank-based normalization for consistent outlier positioning."""
@@ -269,7 +348,6 @@ class DatasetVisualizer:
         
         # Score methods and their display names
         score_methods = {
-            'lof_embeddings_scores': 'LOF embeddings',
             'lof_network_scores': 'LOF network',
             'lof_mixed_scores': 'LOF mixed',
             'isolation_forest_scores': 'Isolation forest',
@@ -279,63 +357,121 @@ class DatasetVisualizer:
         fig, ax = plt.subplots(figsize=(14, 8))
         
         doc_ids = [str(doc_id) for doc_id in self.results['openalex_ids']]
-        colors = sns.color_palette("Set2", len(score_methods))  # Better color palette
+        colors = sns.color_palette("husl", len(score_methods))  # Better distinct colors
         
-        # Store outlier percentiles for consistent positioning
-        outlier_percentiles = []
+        # Store all data for consistent outlier marking
+        all_method_data = {}
+        outlier_positions = {}
         
+        # First pass: collect all data and calculate percentiles
         for idx, (score_key, method_name) in enumerate(score_methods.items()):
             if score_key not in self.results:
                 continue
                 
             scores = self.results[score_key].copy()
-            current_doc_ids = doc_ids.copy()
             
-            # Handle zero-scores issue for LOF embeddings
-            if score_key == 'lof_embeddings_scores':
-                zero_count = np.sum(scores == 0)
-                if zero_count > 0:
-                    print(f"  Excluding {zero_count} documents without embeddings from {method_name}")
-                    non_zero_mask = scores > 0
-                    scores = scores[non_zero_mask]
-                    current_doc_ids = [doc_ids[i] for i in range(len(doc_ids)) if non_zero_mask[i]]
+            # Handle any NaN or infinite values
+            scores = np.nan_to_num(scores, nan=np.median(scores), posinf=np.max(scores[np.isfinite(scores)]), neginf=np.min(scores[np.isfinite(scores)]))
             
-            # Convert to percentile ranks (0-100)
+            # Convert to percentile ranks (0-100) using scipy's rankdata
             from scipy.stats import rankdata
             percentile_ranks = rankdata(scores, method='average') / len(scores) * 100
             
-            # Create filled KDE plot with transparency
-            sns.kdeplot(percentile_ranks, ax=ax, label=method_name, 
-                       color=colors[idx], linewidth=2.5, fill=True, alpha=0.3)
+            # Store data for this method
+            all_method_data[method_name] = {
+                'percentiles': percentile_ranks,
+                'color': colors[idx],
+                'doc_ids': doc_ids
+            }
             
-            # Find outlier percentiles for this method
-            for i, doc_id in enumerate(current_doc_ids):
+            # Find outlier positions for this method
+            for i, doc_id in enumerate(doc_ids):
                 if doc_id in self.known_outliers:
-                    outlier_percentile = percentile_ranks[i]
-                    outlier_percentiles.append((outlier_percentile, colors[idx], method_name))
+                    if doc_id not in outlier_positions:
+                        outlier_positions[doc_id] = {}
+                    outlier_positions[doc_id][method_name] = percentile_ranks[i]
         
-        # Mark outliers with consistent positioning and better visibility
-        for percentile, color, method in outlier_percentiles:
-            ax.axvline(percentile, color=color, linestyle='--', linewidth=3, alpha=0.8)
-            ax.text(percentile, ax.get_ylim()[1] * 0.95, '★', color=color, 
-                   fontsize=14, ha='center', va='bottom', fontweight='bold')
+        # Handle LOF embeddings separately (may have missing data)
+        if 'lof_embeddings_scores' in self.results:
+            scores = self.results['lof_embeddings_scores'].copy()
+            zero_count = np.sum(scores == 0)
+            
+            if zero_count > 0:
+                print(f"  LOF embeddings: {zero_count}/{len(scores)} documents without embeddings")
+                non_zero_mask = scores > 0
+                scores_filtered = scores[non_zero_mask]
+                doc_ids_filtered = [doc_ids[i] for i in range(len(doc_ids)) if non_zero_mask[i]]
+                
+                if len(scores_filtered) > 0:  # Only proceed if we have data
+                    from scipy.stats import rankdata
+                    percentile_ranks = rankdata(scores_filtered, method='average') / len(scores_filtered) * 100
+                    
+                    all_method_data['LOF embeddings'] = {
+                        'percentiles': percentile_ranks,
+                        'color': colors[len(score_methods) % len(colors)],  # Use next available color
+                        'doc_ids': doc_ids_filtered
+                    }
+                    
+                    # Find outlier positions for LOF embeddings
+                    for i, doc_id in enumerate(doc_ids_filtered):
+                        if doc_id in self.known_outliers:
+                            if doc_id not in outlier_positions:
+                                outlier_positions[doc_id] = {}
+                            outlier_positions[doc_id]['LOF embeddings'] = percentile_ranks[i]
         
-        # Add a legend entry for outliers
-        ax.axvline(-10, color='black', linestyle='--', linewidth=3, alpha=0.8, label='Known outliers')
+        # Second pass: create the plots
+        for method_name, data in all_method_data.items():
+            percentiles = data['percentiles']
+            color = data['color']
+            
+            # Create filled KDE plot with better parameters
+            sns.kdeplot(percentiles, ax=ax, label=method_name, 
+                       color=color, linewidth=2.5, fill=True, alpha=0.4)
+        
+        # Mark outliers with consistent style
+        outlier_marker_plotted = False
+        for outlier_id, method_percentiles in outlier_positions.items():
+            for method_name, percentile in method_percentiles.items():
+                if method_name in all_method_data:
+                    color = all_method_data[method_name]['color']
+                    ax.axvline(percentile, color=color, linestyle='--', linewidth=2, alpha=0.9)
+                    
+                    # Add star marker at the top
+                    if not outlier_marker_plotted:
+                        ax.text(percentile, ax.get_ylim()[1] * 0.95, '★', 
+                               color='darkred', fontsize=16, ha='center', va='bottom', fontweight='bold')
+                        outlier_marker_plotted = True
         
         ax.set_title(f'Combined score distributions (percentile ranks)\n({self.dataset_name.capitalize()} dataset)', 
                     fontsize=16, fontweight='bold')
         ax.set_xlabel('Percentile rank (0=lowest, 100=highest outlier score)', fontsize=12, fontweight='bold')
         ax.set_ylabel('Density', fontsize=12, fontweight='bold')
-        ax.legend(loc='upper left', fontsize=10)
+        ax.legend(loc='upper left', fontsize=11, framealpha=0.9)
         ax.grid(True, alpha=0.3)
         ax.set_xlim(0, 100)
+        
+        # Add outlier legend manually if outliers exist
+        if outlier_positions:
+            from matplotlib.lines import Line2D
+            legend_elements = ax.get_legend().legend_handles.copy()
+            legend_labels = [t.get_text() for t in ax.get_legend().get_texts()]
+            legend_elements.append(Line2D([0], [0], color='darkred', linestyle='--', linewidth=2, alpha=0.9))
+            legend_labels.append('Known outliers')
+            ax.legend(legend_elements, legend_labels, loc='upper left', fontsize=11, framealpha=0.9)
         
         plt.tight_layout()
         plt.savefig(os.path.join(self.output_dir, 'combined_kde_plot.png'), 
                    dpi=300, bbox_inches='tight')
         plt.close()
         print(f"✓ Combined KDE plot saved")
+        
+        # Return flattened outlier percentiles for backward compatibility
+        outlier_percentiles = []
+        for outlier_id, method_percentiles in outlier_positions.items():
+            for method_name, percentile in method_percentiles.items():
+                if method_name in all_method_data:
+                    color = all_method_data[method_name]['color']
+                    outlier_percentiles.append((percentile, color, method_name))
         
         return outlier_percentiles
     

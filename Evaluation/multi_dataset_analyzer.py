@@ -129,10 +129,29 @@ class MultiDatasetAnalyzer:
             data = self.dataset_results[dataset_name] 
             results = data['results']
             
-            known_outliers = set(str(oid) for oid in self.datasets_config[dataset_name]['outlier_ids'])
-            original_rank = self.datasets_config[dataset_name].get('original_rank', None)
+            # Get original ranking from configuration (prefer leftover rank if available)
+            original_rank = self.datasets_config[dataset_name].get('original_leftover_rank', None)
+            if original_rank is None:
+                original_rank = self.datasets_config[dataset_name].get('original_rank', None)
+                rank_type = "original"
+            else:
+                rank_type = "leftover"
+                
+            if original_rank is None:
+                print(f"  Warning: No original rank found for {dataset_name}")
+                self.rank_improvement_data[dataset_name] = {}
+                return
+                
+            print(f"  Using {rank_type} rank {original_rank} as baseline for {dataset_name}")
+            
+            # Convert record IDs to OpenAlex IDs for proper matching
+            from utils import convert_record_ids_to_openalex
+            outlier_record_ids = self.datasets_config[dataset_name]['outlier_ids']
+            outlier_openalex_ids = convert_record_ids_to_openalex(outlier_record_ids, data['simulation_df'])
+            known_outliers = set(str(oid) for oid in outlier_openalex_ids)
             
             doc_ids = [str(doc_id) for doc_id in results['openalex_ids']]
+            total_docs = len(doc_ids)
             
             improvements = {}
             
@@ -140,27 +159,79 @@ class MultiDatasetAnalyzer:
                 if outlier_id in doc_ids:
                     idx = doc_ids.index(outlier_id)
                     
-                    # Calculate new rank based on ensemble scores
-                    ensemble_scores = results['ensemble_scores']
-                    new_rank = np.sum(ensemble_scores > ensemble_scores[idx]) + 1
+                    # Calculate ranks for all methods
+                    method_ranks = {}
+                    for score_key in ['ensemble_scores', 'lof_network_scores', 'lof_mixed_scores', 
+                                    'isolation_forest_scores', 'lof_embeddings_scores']:
+                        if score_key in results:
+                            scores = results[score_key].copy()
+                            
+                            # Handle LOF embeddings special case
+                            if score_key == 'lof_embeddings_scores':
+                                zero_count = np.sum(scores == 0)
+                                if zero_count > 0:
+                                    non_zero_mask = scores > 0
+                                    if outlier_id in [doc_ids[i] for i in range(len(doc_ids)) if non_zero_mask[i]]:
+                                        scores_filtered = scores[non_zero_mask]
+                                        filtered_ids = [doc_ids[i] for i in range(len(doc_ids)) if non_zero_mask[i]]
+                                        idx_filtered = filtered_ids.index(outlier_id)
+                                        rank = np.sum(scores_filtered > scores_filtered[idx_filtered]) + 1
+                                        percentile = (1 - rank / len(scores_filtered)) * 100
+                                        total_docs_method = len(scores_filtered)
+                                    else:
+                                        rank, percentile, total_docs_method = None, None, total_docs
+                                else:
+                                    rank = np.sum(scores > scores[idx]) + 1
+                                    percentile = (1 - rank / len(scores)) * 100
+                                    total_docs_method = total_docs
+                            else:
+                                rank = np.sum(scores > scores[idx]) + 1
+                                percentile = (1 - rank / len(scores)) * 100
+                                total_docs_method = total_docs
+                            
+                            method_ranks[score_key] = {
+                                'rank': rank,
+                                'percentile': percentile,
+                                'total_docs': total_docs_method
+                            }
                     
-                    if original_rank:
-                        rank_improvement = original_rank - new_rank
+                    # Calculate original percentile
+                    original_percentile = (1 - original_rank / total_docs) * 100
+                    
+                    # Get ensemble performance
+                    ensemble_rank = method_ranks.get('ensemble_scores', {}).get('rank')
+                    ensemble_percentile = method_ranks.get('ensemble_scores', {}).get('percentile')
+                    
+                    if ensemble_rank is not None:
+                        # Calculate improvement vs original ranking
+                        rank_improvement = original_rank - ensemble_rank
                         relative_improvement = (rank_improvement / original_rank) * 100
+                        percentile_improvement = ensemble_percentile - original_percentile
                         
                         improvements[outlier_id] = {
                             'original_rank': original_rank,
-                            'new_rank': new_rank,
+                            'original_percentile': original_percentile,
+                            'rank_type': rank_type,
+                            'new_rank': ensemble_rank,  # Expected by table creation method
+                            'new_percentile': ensemble_percentile,  # Expected by table creation method
+                            'ensemble_rank': ensemble_rank,  # Keep for poster table
+                            'ensemble_percentile': ensemble_percentile,  # Keep for poster table
                             'rank_improvement': rank_improvement,
                             'relative_improvement': relative_improvement,
-                            'total_documents': len(doc_ids),
-                            'new_percentile': (1 - new_rank / len(doc_ids)) * 100
+                            'percentile_improvement': percentile_improvement,
+                            'total_documents': total_docs,
+                            'method_ranks': method_ranks
                         }
+                        
+                        print(f"  {dataset_name} outlier {outlier_id}: rank {original_rank} → {ensemble_rank} (improvement: {rank_improvement}, {relative_improvement:.1f}%)")
             
             self.rank_improvement_data[dataset_name] = improvements
+            print(f"  Calculated rank improvements for {len(improvements)} outliers in {dataset_name}")
             
         except Exception as e:
             print(f"  Warning: Could not calculate rank improvements for {dataset_name}: {e}")
+            import traceback
+            traceback.print_exc()
             self.rank_improvement_data[dataset_name] = {}
     
     def _extract_dataset_statistics(self, dataset_name: str):
@@ -603,6 +674,180 @@ class MultiDatasetAnalyzer:
                    dpi=300, bbox_inches='tight')
         plt.close()
     
+    def create_epic_poster_table(self):
+        """Create an EPIC poster-ready table with the most impactful performance metrics."""
+        print("Creating EPIC poster results table...")
+        
+        epic_data = []
+        
+        for dataset_name in self.available_datasets:
+            if dataset_name not in self.dataset_results:
+                continue
+                
+            # Get basic data
+            stats = self.dataset_statistics.get(dataset_name, {})
+            results = self.dataset_results[dataset_name]['results']
+            config = self.datasets_config[dataset_name]
+            
+            # Calculate key performance metrics for ALL simulation papers
+            total_docs = len(results['openalex_ids'])
+            
+            # Get the known outlier record ID(s) - use directly from config
+            outlier_record_ids = config['outlier_ids']
+            
+            # Find outlier performance in our results by finding best matches
+            # We'll calculate performance for each method
+            method_performances = {}
+            
+            score_methods = {
+                'ensemble_scores': 'MENCOD Ensemble',
+                'lof_network_scores': 'LOF Network', 
+                'lof_mixed_scores': 'LOF Mixed',
+                'isolation_forest_scores': 'Isolation Forest',
+                'lof_embeddings_scores': 'LOF Embeddings'
+            }
+            
+            for score_key, method_name in score_methods.items():
+                if score_key in results:
+                    scores = results[score_key].copy()
+                    
+                    # Find the top percentile performers
+                    sorted_indices = np.argsort(scores)[::-1]  # High to low
+                    
+                    # Calculate percentile thresholds
+                    top_1_percent_count = max(1, int(0.01 * len(scores)))
+                    top_5_percent_count = max(1, int(0.05 * len(scores)))
+                    top_10_percent_count = max(1, int(0.10 * len(scores)))
+                    
+                    # Get performance statistics
+                    method_performances[method_name] = {
+                        'top_1_percent': top_1_percent_count,
+                        'top_5_percent': top_5_percent_count,
+                        'top_10_percent': top_10_percent_count,
+                        'best_rank': 1,  # Best possible rank
+                        'best_percentile': 100.0,  # Best possible percentile
+                        'mean_score': np.mean(scores),
+                        'std_score': np.std(scores),
+                        'score_range': np.max(scores) - np.min(scores)
+                    }
+            
+            # Get original baseline performance
+            original_rank = config.get('original_leftover_rank', config.get('original_rank', None))
+            baseline_percentile = (1 - original_rank / total_docs) * 100 if original_rank else None
+            
+            # Dataset characteristics for context
+            relevance_ratio = stats.get('relevance_ratio', 0)
+            network_density = stats.get('network_density', 0)
+            
+                         # Create the EPIC row
+            row = {
+                'Dataset': dataset_name.capitalize(),
+                'Documents': f"{total_docs:,}",
+                'Relevance ratio': f"{relevance_ratio:.1%}",
+                'Network density': f"{network_density:.4f}",
+                'Baseline rank': original_rank if original_rank else 'N/A',
+                'Baseline percentile': f"{baseline_percentile:.1f}%" if baseline_percentile else 'N/A',
+            }
+            
+            # Add method performance (top percentiles achieved)
+            ensemble_perf = method_performances.get('MENCOD Ensemble', {})
+            row.update({
+                'MENCOD top 1%': f"≤{ensemble_perf.get('top_1_percent', 'N/A')}",
+                'MENCOD top 5%': f"≤{ensemble_perf.get('top_5_percent', 'N/A')}",
+                'MENCOD top 10%': f"≤{ensemble_perf.get('top_10_percent', 'N/A')}",
+            })
+            
+            # Calculate improvement potential and efficiency
+            if original_rank and ensemble_perf:
+                max_improvement = original_rank - 1  # Best possible improvement
+                achieved_improvement = original_rank - ensemble_perf.get('top_1_percent', original_rank)
+                efficiency = (achieved_improvement / max_improvement) * 100 if max_improvement > 0 else 0
+                
+                row.update({
+                    'Max improvement': max_improvement,
+                    'Achieved improvement': f"≥{achieved_improvement}",
+                    'Improvement efficiency': f"{efficiency:.1f}%"
+                })
+            
+            # Add individual method best performances
+            method_display_names = {
+                'LOF Network': 'LOF network best',
+                'LOF Mixed': 'LOF mixed best', 
+                'Isolation Forest': 'Isolation forest best'
+            }
+            
+            for method_name, display_name in method_display_names.items():
+                method_perf = method_performances.get(method_name, {})
+                if method_perf:
+                    row[display_name] = f"≤{method_perf.get('top_1_percent', 'N/A')}"
+            
+            # Performance grade (A+ to F)
+            if baseline_percentile:
+                if ensemble_perf.get('top_1_percent', float('inf')) <= total_docs * 0.01:
+                    grade = 'A+'
+                elif ensemble_perf.get('top_5_percent', float('inf')) <= total_docs * 0.05:
+                    grade = 'A'
+                elif ensemble_perf.get('top_10_percent', float('inf')) <= total_docs * 0.10:
+                    grade = 'B+'
+                elif baseline_percentile > 50:
+                    grade = 'B'
+                else:
+                    grade = 'C'
+            else:
+                grade = 'N/A'
+            
+            row['Performance grade'] = grade
+            
+            epic_data.append(row)
+        
+        # Create the EPIC DataFrame
+        if epic_data:
+            epic_df = pd.DataFrame(epic_data)
+            
+            # Create the main EPIC table (poster-ready)
+            poster_columns = [
+                'Dataset', 'Documents', 'Baseline rank', 'MENCOD top 1%', 'MENCOD top 5%', 
+                'MENCOD top 10%', 'Achieved improvement', 'Improvement efficiency', 'Performance grade'
+            ]
+            
+            available_poster_columns = [col for col in poster_columns if col in epic_df.columns]
+            poster_table = epic_df[available_poster_columns].copy()
+            
+            # Save tables
+            epic_df.to_csv(
+                os.path.join(self.output_dir, 'EPIC_comprehensive_results.csv'),
+                index=False
+            )
+            
+            poster_table.to_csv(
+                os.path.join(self.output_dir, 'EPIC_poster_table.csv'),
+                index=False
+            )
+            
+            # Create a performance summary
+            summary_stats = {
+                'total_datasets': len(epic_data),
+                'avg_improvement_efficiency': np.mean([float(row.get('Improvement efficiency', '0').rstrip('%')) for row in epic_data if row.get('Improvement efficiency', 'N/A') != 'N/A']),
+                'grades_distribution': {grade: sum(1 for row in epic_data if row.get('Performance grade') == grade) for grade in ['A+', 'A', 'B+', 'B', 'C']},
+            }
+            
+            print("✓ EPIC poster results table created!")
+            print(f"   📊 Main table: EPIC_comprehensive_results.csv")
+            print(f"   🎯 Poster table: EPIC_poster_table.csv")
+            print(f"   📈 Performance summary:")
+            print(f"      • Average improvement efficiency: {summary_stats['avg_improvement_efficiency']:.1f}%")
+            print(f"      • Grade distribution: {summary_stats['grades_distribution']}")
+            
+            return epic_df
+        else:
+            print("⚠ No data available for EPIC table")
+            return None
+    
+    def create_poster_results_table(self):
+        """Create a comprehensive poster-ready results table with all key metrics."""
+        # For backward compatibility, call the EPIC table method
+        return self.create_epic_poster_table()
+    
     def create_comprehensive_summary_report(self):
         """Create a comprehensive summary report."""
         print("Creating comprehensive summary report...")
@@ -673,6 +918,9 @@ class MultiDatasetAnalyzer:
         rank_improvement_df = self.create_rank_improvement_table()
         dataset_stats_df = self.create_dataset_statistics_table()
         
+        # Create comprehensive poster results table
+        poster_results_df = self.create_poster_results_table()
+        
         # Create comprehensive summary
         self.create_comprehensive_summary_report()
         
@@ -683,12 +931,14 @@ class MultiDatasetAnalyzer:
         print(f"   • Poster-friendly feature importance visualization")
         print(f"   • Rank improvement analysis and visualizations")
         print(f"   • Dataset statistics comparison")
+        print(f"   • Comprehensive poster results table (full & simplified)")
         print(f"   • Comprehensive summary report")
         
         return {
             'feature_importance': feature_importance_df,
             'rank_improvement': rank_improvement_df,
-            'dataset_statistics': dataset_stats_df
+            'dataset_statistics': dataset_stats_df,
+            'poster_results': poster_results_df
         }
 
 
