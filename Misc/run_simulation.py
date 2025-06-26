@@ -1295,22 +1295,44 @@ class ASReviewSimulationRunner:
         
         # The column is already named 'label_included' in the synergy dataset
         
+        # Debug: Check what's actually in results_df
+        logger.info(f"Results DataFrame analysis:")
+        logger.info(f"   Results DataFrame shape: {results_df.shape}")
+        logger.info(f"   Results DataFrame columns: {list(results_df.columns)}")
+        if len(results_df) > 0:
+            logger.info(f"   Sample results_df record_ids: {results_df['record_id'].head().tolist()}")
+            logger.info(f"   Results record_id min: {results_df['record_id'].min()}")
+            logger.info(f"   Results record_id max: {results_df['record_id'].max()}")
+        
         # Get reviewed document IDs from simulation results
         reviewed_record_ids = set(results_df['record_id'].tolist())
         logger.info(f"ASReview reviewed {len(reviewed_record_ids)} documents")
+        logger.info(f"Expected vs actual reviewed: 579 vs {len(reviewed_record_ids)}")
         
         # Initialize ASReview columns
         complete_dataset['asreview_label'] = None
         complete_dataset['asreview_time'] = None
         
-        # Add ASReview results for reviewed documents
+        # Add ASReview results for reviewed documents using proper DataFrame indexing
+        mapped_count = 0
+        out_of_range_count = 0
+        
+        # Reset index to ensure we can use integer-based indexing
+        complete_dataset = complete_dataset.reset_index(drop=True)
+        
         for _, row in results_df.iterrows():
-            record_id = row['record_id']
-            if record_id < len(complete_dataset):
-                complete_dataset.loc[record_id, 'asreview_label'] = row['label']
-                complete_dataset.loc[record_id, 'asreview_time'] = row.get('time', None)
+            record_id = int(row['record_id'])  # Ensure it's an integer
+            if 0 <= record_id < len(complete_dataset):
+                # Use iloc for guaranteed integer-based indexing to avoid pandas creating new rows
+                complete_dataset.iloc[record_id, complete_dataset.columns.get_loc('asreview_label')] = row['label']
+                complete_dataset.iloc[record_id, complete_dataset.columns.get_loc('asreview_time')] = row.get('time', None)
+                mapped_count += 1
             else:
                 logger.warning(f"Record ID {record_id} is out of range for dataset of size {len(complete_dataset)}")
+                out_of_range_count += 1
+        
+        logger.info(f"Mapping results: {mapped_count} mapped, {out_of_range_count} out of range")
+        logger.info(f"Dataset size after mapping: {len(complete_dataset)} (should still be 1175)")
         
         # Debug: Check for any issues with record_id before filtering
         logger.info(f"Dataset size check:")
