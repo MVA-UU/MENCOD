@@ -260,12 +260,12 @@ class ASReviewSimulationRunner:
             # Create TWO cycles exactly like the frontend
             cycles = [
                 # Cycle 1: TopDown querier with IsFittable stopper (seeding phase)
-                asr.ActiveLearningCycle(
+                ActiveLearningCycle(
                     querier=TopDown(),
                     stopper=IsFittable(),  # Stops after finding 1 relevant + 1 irrelevant
                 ),
                 # Cycle 2: Machine learning cycle (main active learning phase)  
-                asr.ActiveLearningCycle(
+                ActiveLearningCycle(
                     querier=config['querier'],
                     classifier=config['classifier'],
                     feature_extractor=config['feature_extractor'],
@@ -275,7 +275,7 @@ class ASReviewSimulationRunner:
             
             # Initialize simulation with two cycles and main stopper
             logger.info("Creating two-cycle simulation (TopDown seeding + ML active learning)")
-            simulation = asr.Simulate(
+            simulation = Simulate(
                 dataset_df,  # Pass the full dataset DataFrame
                 labels_binary,  # Pass the binary labels
                 cycles,  # Pass the TWO cycles
@@ -773,14 +773,14 @@ class ASReviewSimulationRunner:
             logger.info("RUNNING FULL SIMULATION (NO STOPPING RULE)")
             logger.info("="*60)
             
-            cycle_full = asr.ActiveLearningCycle(
+            cycle_full = ActiveLearningCycle(
                 querier=Max(),
                 classifier=classifier_map[classifier_type],
                 feature_extractor=Tfidf(),
                 balancer=Balanced()
             )
             
-            simulation_full = asr.Simulate(
+            simulation_full = Simulate(
                 dataset_df,
                 labels_binary,
                 cycle_full,
@@ -821,14 +821,14 @@ class ASReviewSimulationRunner:
             logger.info("RUNNING NORMAL SIMULATION (WITH STOPPING RULE)")
             logger.info("="*60)
             
-            cycle_normal = asr.ActiveLearningCycle(
+            cycle_normal = ActiveLearningCycle(
                 querier=Max(),
                 classifier=classifier_map[classifier_type],
                 feature_extractor=Tfidf(),
                 balancer=Balanced()
             )
             
-            simulation_normal = asr.Simulate(
+            simulation_normal = Simulate(
                 dataset_df,
                 labels_binary,
                 cycle_normal,
@@ -918,28 +918,60 @@ class ASReviewSimulationRunner:
             
             # Print summary
             logger.info("="*60)
-            logger.info("OUTLIER RANKING SUMMARY")
+            logger.info("OUTLIER RANK ANALYSIS RESULTS")
             logger.info("="*60)
-            logger.info(f"Dataset: {dataset_name}")
-            logger.info(f"Outlier Record ID: {target_outlier_record_id}")
-            logger.info(f"Classifier: {classifier_type}")
+            logger.info(f"📊 Dataset: {dataset_name}")
+            logger.info(f"🎯 Outlier Record ID: {target_outlier_record_id}")
             logger.info("")
-            logger.info("FULL DATASET RANKING:")
-            logger.info(f"  Total documents: {results['full_dataset_total_docs']:,}")
-            logger.info(f"  Outlier rank: {results['full_dataset_outlier_rank']:,}" + (" (FOUND)" if results['full_dataset_outlier_found'] else " (NOT FOUND)"))
+            
+            # Full dataset ranking
+            logger.info("🌍 FULL DATASET RANKING (without stopping rule):")
+            print(f"   📈 Total documents: {results['full_dataset_total_docs']:,}")
+            if results['full_dataset_outlier_rank'] != -1:
+                print(f"   🎯 Outlier rank: {results['full_dataset_outlier_rank']:,}")
+                if results['full_dataset_outlier_found']:
+                    percentile = (results['full_dataset_outlier_rank'] / results['full_dataset_total_docs']) * 100
+                    print(f"   📊 Outlier percentile: {percentile:.1f}%")
+                else:
+                    print("   ❌ Outlier not found in full ranking")
+            else:
+                print("   ⏭️  Full ranking not computed (using ELAS u4 simulation only)")
+            print()
+            
+            # Normal simulation with stopping rule
+            logger.info("🛑 NORMAL SIMULATION (with 100 consecutive irrelevant stopping rule):")
+            logger.info(f"   �� Documents reviewed: {results['normal_sim_reviewed_docs']:,}")
+            logger.info(f"   📄 Documents left over: {results['normal_sim_leftover_docs']:,}")
+            logger.info(f"   🎯 Outlier in leftover: {'Yes' if results['normal_sim_outlier_in_leftover'] else 'No'}")
             logger.info("")
-            logger.info("NORMAL SIMULATION:")
-            logger.info(f"  Documents reviewed: {results['normal_sim_reviewed_docs']:,}")
-            logger.info(f"  Documents left over: {results['normal_sim_leftover_docs']:,}")
-            logger.info(f"  Outlier in leftover: {results['normal_sim_outlier_in_leftover']}")
+            
+            # Leftover dataset ranking (key for MENCOD)
+            if results['normal_sim_outlier_in_leftover']:
+                logger.info("📋 LEFTOVER DATASET RANKING (for MENCOD improvement measurement):")
+                logger.info(f"   📄 Total leftover documents: {results['leftover_total_docs']:,}")
+                logger.info(f"   🎯 Outlier rank in leftover: {results['leftover_outlier_rank']:,}")
+                if results['leftover_outlier_found']:
+                    percentile = (results['leftover_outlier_rank'] / results['leftover_total_docs']) * 100
+                    logger.info(f"   📊 Outlier percentile in leftover: {percentile:.1f}%")
+                    logger.info("")
+                    logger.info("🚀 MENCOD PERFORMANCE MEASUREMENT:")
+                    logger.info(f"   📏 Baseline rank: {results['leftover_outlier_rank']:,} out of {results['leftover_total_docs']:,}")
+                    logger.info(f"   🎯 MENCOD goal: Move outlier to top ranks")
+                    logger.info(f"   📈 Success metric: (Baseline rank - MENCOD rank) / Baseline rank")
+                    logger.info(f"   💡 Example: If MENCOD ranks outlier at position 10:")
+                    improvement = ((results['leftover_outlier_rank'] - 10) / results['leftover_outlier_rank']) * 100
+                    logger.info(f"       Improvement = ({results['leftover_outlier_rank']} - 10) / {results['leftover_outlier_rank']} = {improvement:.1f}%")
+                else:
+                    logger.info("   ❌ Outlier not found in leftover ranking")
+            else:
+                logger.info("⚠️  OUTLIER WAS ALREADY FOUND:")
+                logger.info("   The outlier was discovered during the normal ASReview simulation")
+                logger.info("   No leftover documents contain the outlier for MENCOD to rerank")
+            
             logger.info("")
-            logger.info("LEFTOVER DATA RANKING:")
-            logger.info(f"  Total leftover documents: {results['leftover_total_docs']:,}")
-            logger.info(f"  Outlier rank in leftover: {results['leftover_outlier_rank']:,}" + (" (FOUND)" if results['leftover_outlier_found'] else " (NOT FOUND)"))
-            logger.info("")
-            logger.info("EXPORTED FILES:")
-            logger.info(f"  Full simulation: {results['full_simulation_export']}")
-            logger.info(f"  Normal simulation: {results['normal_simulation_export']}")
+            logger.info("📁 EXPORTED FILES:")
+            logger.info(f"   📄 Full simulation: {results['full_simulation_export']}")
+            logger.info(f"   🛑 Normal simulation: {results['normal_simulation_export']}")
             logger.info("="*60)
             
             return results
@@ -1006,12 +1038,12 @@ class ASReviewSimulationRunner:
             # Create EXACT frontend cycles
             cycles = [
                 # Cycle 1: TopDown seeding (stops after finding 1 relevant + 1 irrelevant)
-                asr.ActiveLearningCycle(
+                ActiveLearningCycle(
                     querier=TopDown(),
                     stopper=IsFittable(),
                 ),
                 # Cycle 2: Main ML cycle (no individual stopper)
-                asr.ActiveLearningCycle(
+                ActiveLearningCycle(
                     classifier=config['classifier'],
                     querier=config['querier'],
                     balancer=config['balancer'],
@@ -1021,7 +1053,7 @@ class ASReviewSimulationRunner:
             
             # Create simulation with NO main stopper (defaults to LastRelevant)
             logger.info("Creating simulation with LastRelevant() stopper...")
-            simulation = asr.Simulate(
+            simulation = Simulate(
                 dataset_df,
                 labels_binary,
                 cycles,  
@@ -1137,12 +1169,12 @@ class ASReviewSimulationRunner:
             # Create EXACT frontend cycles
             cycles = [
                 # Cycle 1: TopDown seeding (stops after finding 1 relevant + 1 irrelevant)
-                asr.ActiveLearningCycle(
+                ActiveLearningCycle(
                     querier=TopDown(),
                     stopper=IsFittable(),
                 ),
                 # Cycle 2: Main ML cycle (no individual stopper)
-                asr.ActiveLearningCycle(
+                ActiveLearningCycle(
                     classifier=config['classifier'],
                     querier=config['querier'],
                     balancer=config['balancer'],
@@ -1152,7 +1184,7 @@ class ASReviewSimulationRunner:
             
             # Create simulation with STOPPING RULE (should find 95/96)
             logger.info(f"Creating simulation with NConsecutiveIrrelevant({stopping_rule}) stopper...")
-            simulation = asr.Simulate(
+            simulation = Simulate(
                 dataset_df,
                 labels_binary,
                 cycles,  
@@ -1225,42 +1257,47 @@ class ASReviewSimulationRunner:
 
     def export_leftover_documents_for_mencod(self, results: dict, dataset_name: str) -> str:
         """
-        Export ALL documents with ASReview results for MENCOD analysis.
+        Export leftover documents + found relevant documents for MENCOD analysis.
         
         This includes:
-        - All 95 relevant documents that were found by ASReview
-        - All 596 leftover documents (including the 1 outlier)
+        - Relevant documents that were found by ASReview during simulation
+        - Leftover documents that were NOT reviewed (including potential outliers)
         - ASReview labeling information and timing
+        
+        This is the dataset that MENCOD will rerank to prioritize outliers.
         
         Args:
             results: Dictionary with simulation results
             dataset_name: Name of the dataset
             
         Returns:
-            Path to the exported complete dataset file
+            Path to the exported leftover + relevant documents CSV file
         """
         results_df = results['results_df']
         stats = results['stats']
         data_store = results['data_store']
         
-        # Get the original dataset DataFrame with OpenAlex IDs
-        if hasattr(self, '_synergy_df_with_openalex'):
-            # Use the stored DataFrame with OpenAlex IDs
-            original_df = self._synergy_df_with_openalex.copy()
-            logger.info(f"Using stored DataFrame with OpenAlex IDs: {len(original_df)} documents")
-        else:
-            # Fallback to regular dataset
-            original_df = data_store.get_df()
-            logger.warning("No stored DataFrame with OpenAlex IDs found, using regular dataset")
+        # FIXED: Use consistent data source - the stored synergy DataFrame with OpenAlex IDs
+        if not hasattr(self, '_synergy_df_with_openalex'):
+            raise ValueError("Synergy dataset with OpenAlex IDs not loaded. Run load_synergy_dataset first.")
         
-        # Create a complete dataset with all documents
-        complete_dataset = original_df.copy()
+        # Use the original synergy DataFrame which already has all the correct columns
+        complete_dataset = self._synergy_df_with_openalex.copy()
+        logger.info(f"Using stored synergy DataFrame: {len(complete_dataset)} documents")
+        logger.info(f"Synergy DataFrame columns: {list(complete_dataset.columns)}")
         
-        # Ensure record_id and label_included are properly set
-        if 'record_id' not in complete_dataset.columns:
-            complete_dataset['record_id'] = range(len(complete_dataset))
-        if 'label_included' not in complete_dataset.columns:
-            complete_dataset['label_included'] = data_store["included"]
+        # Debug: Check if we have the required columns
+        required_columns = ['record_id', 'openalex_id', 'title', 'abstract', 'label_included']
+        missing_columns = [col for col in required_columns if col not in complete_dataset.columns]
+        if missing_columns:
+            logger.error(f"Missing required columns: {missing_columns}")
+            raise ValueError(f"Missing required columns in synergy dataset: {missing_columns}")
+        
+        # The column is already named 'label_included' in the synergy dataset
+        
+        # Get reviewed document IDs from simulation results
+        reviewed_record_ids = set(results_df['record_id'].tolist())
+        logger.info(f"ASReview reviewed {len(reviewed_record_ids)} documents")
         
         # Initialize ASReview columns
         complete_dataset['asreview_label'] = None
@@ -1269,27 +1306,65 @@ class ASReviewSimulationRunner:
         # Add ASReview results for reviewed documents
         for _, row in results_df.iterrows():
             record_id = row['record_id']
-            complete_dataset.loc[record_id, 'asreview_label'] = row['label']
-            complete_dataset.loc[record_id, 'asreview_time'] = row['time']
+            if record_id < len(complete_dataset):
+                complete_dataset.loc[record_id, 'asreview_label'] = row['label']
+                complete_dataset.loc[record_id, 'asreview_time'] = row.get('time', None)
+            else:
+                logger.warning(f"Record ID {record_id} is out of range for dataset of size {len(complete_dataset)}")
         
-        # Create the specific columns you requested
-        export_columns = {
-            'record_id': complete_dataset['record_id'].fillna(0).astype(int),  # Fill NaN with 0, then convert to int
-            'openalex_id': complete_dataset.get('openalex_id', ''),  # Use empty string if not available
-            'doi': complete_dataset.get('doi', ''),
-            'title': complete_dataset.get('title', ''),
-            'abstract': complete_dataset.get('abstract', ''),
-            'label_included': complete_dataset['label_included'].fillna(0).astype(int),  # Fill NaN with 0, then convert to int
-            'asreview_label': complete_dataset['asreview_label'],
-            'asreview_time': complete_dataset['asreview_time']
-        }
+        # Debug: Check for any issues with record_id before filtering
+        logger.info(f"Dataset size check:")
+        logger.info(f"   Complete dataset size: {len(complete_dataset)}")
+        logger.info(f"   Record_id data type: {complete_dataset['record_id'].dtype}")
+        logger.info(f"   Record_id min: {complete_dataset['record_id'].min()}")
+        logger.info(f"   Record_id max: {complete_dataset['record_id'].max()}")
+        logger.info(f"   Record_id null count: {complete_dataset['record_id'].isnull().sum()}")
         
-        # Create final export DataFrame
-        export_df = pd.DataFrame(export_columns)
+        # Remove any rows with invalid record_ids before filtering
+        valid_records = complete_dataset.dropna(subset=['record_id'])
+        if len(valid_records) != len(complete_dataset):
+            logger.warning(f"Dropped {len(complete_dataset) - len(valid_records)} rows with invalid record_ids")
+            complete_dataset = valid_records
         
-        # Export complete dataset
+        # Filter to include only:
+        # 1. Documents found relevant during simulation (asreview_label == 1)
+        # 2. Documents NOT reviewed during simulation (asreview_label is None)
+        relevant_found = complete_dataset[complete_dataset['asreview_label'] == 1]
+        leftover_unreviewed = complete_dataset[complete_dataset['asreview_label'].isna()]
+        
+        # Debug information
+        logger.info(f"Filtering analysis:")
+        logger.info(f"   Total original documents: {len(complete_dataset)}")
+        logger.info(f"   Documents with asreview_label == 1 (relevant found): {len(relevant_found)}")
+        logger.info(f"   Documents with asreview_label is None (unreviewed): {len(leftover_unreviewed)}")
+        logger.info(f"   Documents with asreview_label == 0 (reviewed irrelevant): {len(complete_dataset[complete_dataset['asreview_label'] == 0])}")
+        
+        # Combine relevant found + leftover unreviewed
+        filtered_dataset = pd.concat([relevant_found, leftover_unreviewed], ignore_index=True)
+        
+        logger.info(f"Filtered dataset: {len(relevant_found)} relevant found + {len(leftover_unreviewed)} leftover = {len(filtered_dataset)} total")
+        
+        # Debug: Check filtered dataset for NaN values
+        logger.info(f"Filtered dataset record_id check:")
+        logger.info(f"   Record_id null count: {filtered_dataset['record_id'].isnull().sum()}")
+        logger.info(f"   Record_id min: {filtered_dataset['record_id'].min()}")
+        logger.info(f"   Record_id max: {filtered_dataset['record_id'].max()}")
+        
+        # Create the export DataFrame with explicit column selection and proper NaN handling
+        export_df = pd.DataFrame({
+            'record_id': filtered_dataset['record_id'].fillna(-1).astype(int),  # Fill NaN with -1 before converting
+            'openalex_id': filtered_dataset['openalex_id'].fillna(''),
+            'doi': filtered_dataset.get('doi', '').fillna(''),
+            'title': filtered_dataset['title'].fillna(''),
+            'abstract': filtered_dataset['abstract'].fillna(''),
+            'label_included': filtered_dataset['label_included'].fillna(0).astype(int),
+            'asreview_label': filtered_dataset['asreview_label'],
+            'asreview_time': filtered_dataset['asreview_time']
+        })
+        
+        # Export filtered dataset
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"{dataset_name}_complete_with_asreview_{timestamp}.csv"
+        filename = f"{dataset_name}_leftover_with_asreview_{timestamp}.csv"
         filepath = os.path.join(self.output_dir, filename)
         
         export_df.to_csv(filepath, index=False)
@@ -1301,11 +1376,11 @@ class ASReviewSimulationRunner:
         relevant_reviewed = export_df[export_df['asreview_label'] == 1].shape[0] if reviewed_documents > 0 else 0
         relevant_leftover = export_df[(export_df['asreview_label'].isna()) & (export_df['label_included'] == 1)].shape[0]
         
-        print(f"📤 Exported COMPLETE dataset to: {filename}")
-        print(f"   📊 Total documents: {total_documents}")
-        print(f"   ✅ Reviewed by ASReview: {reviewed_documents} (found {relevant_reviewed} relevant)")
-        print(f"   📋 Leftover documents: {leftover_documents} (contains {relevant_leftover} relevant including outlier)")
-        print(f"   🎯 Ready for MENCOD analysis!")
+        logger.info(f"Exported LEFTOVER + RELEVANT dataset to: {filename}")
+        logger.info(f"   Total documents: {total_documents}")
+        logger.info(f"   Relevant found by ASReview: {relevant_reviewed}")
+        logger.info(f"   Leftover unreviewed documents: {leftover_documents} (contains {relevant_leftover} relevant including outliers)")
+        logger.info(f"   Ready for MENCOD reranking!")
         
         return filepath
 
@@ -1324,7 +1399,7 @@ class ASReviewSimulationRunner:
         Returns:
             Dictionary with simulation results and statistics
         """
-        print(f"🎯 Running EXACT FRONTEND (ELAS u4) SIMULATION")
+        print(f"Running EXACT FRONTEND (ELAS u4) SIMULATION")
         print(f"   Dataset: {dataset_name}")
         print(f"   Stopping rule: {stopping_rule} consecutive irrelevant")
         print(f"   Random state: {random_state}")
@@ -1350,7 +1425,7 @@ class ASReviewSimulationRunner:
             'stopper': NConsecutiveIrrelevant(stopping_rule)
         }
         
-        print(f"🔧 EXACT ELAS u4 Configuration:")
+        print(f"EXACT ELAS u4 Configuration:")
         print(f"   Classifier: SVM(C=0.11, loss='squared_hinge')")
         print(f"   Balancer: Balanced(ratio=9.8)")
         print(f"   Feature Extractor: TF-IDF(ngram_range=(1,2), sublinear_tf=True, min_df=1, max_df=0.95)")
@@ -1384,7 +1459,7 @@ class ASReviewSimulationRunner:
         # For simulation, we might not have specific priors
         
         # Run simulation
-        print("🚀 Starting simulation...")
+        print("Starting simulation...")
         start_time = time.time()
         sim.review()
         end_time = time.time()
@@ -1397,7 +1472,7 @@ class ASReviewSimulationRunner:
         stats['simulation_time'] = end_time - start_time
         stats['model_config'] = 'ELAS u4 (exact frontend)'
         
-        print(f"✅ Simulation completed in {stats['simulation_time']:.2f} seconds")
+        print(f"Simulation completed in {stats['simulation_time']:.2f} seconds")
         
         return {
             'results_df': results_df,
@@ -1493,12 +1568,8 @@ class ASReviewSimulationRunner:
         return stats
 
 
-def main():
-    runner = ASReviewSimulationRunner()
-    
-    print("="*70)
-    print("ASReview EXACT FRONTEND SIMULATION (ELAS u4)")
-    print("="*70)
+def get_dataset_selection(runner) -> str:
+    """Get dataset selection from user."""
     print("Choose a Synergy dataset to simulate:")
     print()
     
@@ -1526,17 +1597,241 @@ def main():
             
             if choice == 'q':
                 print("Exiting...")
-                return
+                return None
                 
             if choice in available_datasets:
                 dataset_name, synergy_name, outlier_info = available_datasets[choice]
-                break
+                return dataset_name
             else:
                 print("Invalid choice. Please enter 1, 2, 3, or 'q' to quit.")
                 
         except KeyboardInterrupt:
             print("\nExiting...")
+            return None
+
+
+def print_outlier_rank_results(results: dict):
+    """Print detailed outlier rank analysis results."""
+    print("\n" + "="*70)
+    print("OUTLIER RANK ANALYSIS RESULTS")
+    print("="*70)
+    
+    dataset_name = results['dataset_name']
+    outlier_id = results['outlier_record_id']
+    
+    print(f"📊 Dataset: {dataset_name}")
+    print(f"🎯 Outlier Record ID: {outlier_id}")
+    print()
+    
+    # Full dataset ranking
+    print("🌍 FULL DATASET RANKING (without stopping rule):")
+    print(f"   📈 Total documents: {results['full_dataset_total_docs']:,}")
+    if results['full_dataset_outlier_rank'] != -1:
+        print(f"   🎯 Outlier rank: {results['full_dataset_outlier_rank']:,}")
+        if results['full_dataset_outlier_found']:
+            percentile = (results['full_dataset_outlier_rank'] / results['full_dataset_total_docs']) * 100
+            print(f"   📊 Outlier percentile: {percentile:.1f}%")
+        else:
+            print("   ❌ Outlier not found in full ranking")
+    else:
+        print("   ⏭️  Full ranking not computed (using ELAS u4 simulation only)")
+    print()
+    
+    # Normal simulation with stopping rule
+    print("🛑 NORMAL SIMULATION (with 100 consecutive irrelevant stopping rule):")
+    print(f"   📋 Documents reviewed: {results['normal_sim_reviewed_docs']:,}")
+    print(f"   📄 Documents left over: {results['normal_sim_leftover_docs']:,}")
+    print(f"   🎯 Outlier in leftover: {'Yes' if results['normal_sim_outlier_in_leftover'] else 'No'}")
+    print()
+    
+    # Leftover dataset ranking (key for MENCOD)
+    if results['normal_sim_outlier_in_leftover']:
+        print("📋 LEFTOVER DATASET RANKING (for MENCOD improvement measurement):")
+        print(f"   📄 Total leftover documents: {results['leftover_total_docs']:,}")
+        print(f"   🎯 Outlier rank in leftover: {results['leftover_outlier_rank']:,}")
+        if results['leftover_outlier_found']:
+            percentile = (results['leftover_outlier_rank'] / results['leftover_total_docs']) * 100
+            print(f"   📊 Outlier percentile in leftover: {percentile:.1f}%")
+            print()
+            print("🚀 MENCOD PERFORMANCE MEASUREMENT:")
+            print(f"   📏 Baseline rank: {results['leftover_outlier_rank']:,} out of {results['leftover_total_docs']:,}")
+            print(f"   🎯 MENCOD goal: Move outlier to top ranks")
+            print(f"   📈 Success metric: (Baseline rank - MENCOD rank) / Baseline rank")
+            print(f"   💡 Example: If MENCOD ranks outlier at position 10:")
+            improvement = ((results['leftover_outlier_rank'] - 10) / results['leftover_outlier_rank']) * 100
+            print(f"       Improvement = ({results['leftover_outlier_rank']} - 10) / {results['leftover_outlier_rank']} = {improvement:.1f}%")
+        else:
+            print("   ❌ Outlier not found in leftover ranking")
+    else:
+        print("⚠️  OUTLIER WAS ALREADY FOUND:")
+        print("   The outlier was discovered during the normal ASReview simulation")
+        print("   No leftover documents contain the outlier for MENCOD to rerank")
+    
+    print()
+    print(f"🔧 SIMULATION METHOD: {results.get('simulation_method', 'Unknown')}")
+    print(f"🛑 STOPPING RULE: {results.get('stopping_rule', 'Unknown')}")
+    print("="*70)
+
+
+def main():
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description='ASReview EXACT FRONTEND SIMULATION (ELAS u4)')
+    parser.add_argument('--get-original-rank', action='store_true', 
+                       help='Get the original rank of the outlier in the leftover dataset for MENCOD performance measurement')
+    parser.add_argument('--dataset', type=str, choices=['jeyaraman', 'hall', 'appenzeller'],
+                       help='Specify dataset directly (skip interactive selection)')
+    args = parser.parse_args()
+    
+    runner = ASReviewSimulationRunner()
+        
+    if args.get_original_rank:
+        # Special mode: Get outlier rank in leftover dataset
+        print("="*70)
+        print("OUTLIER RANK ANALYSIS FOR MENCOD PERFORMANCE MEASUREMENT")
+        print("="*70)
+        
+        # Get dataset selection
+        if args.dataset:
+            dataset_name = args.dataset
+            print(f"Using specified dataset: {dataset_name}")
+        else:
+            dataset_name = get_dataset_selection(runner)
+            if not dataset_name:
+                return
+        
+        print(f"\n🎯 Analyzing outlier rank for dataset: {dataset_name}")
+        print("This will:")
+        print("1. Run ASReview simulation with stopping rule")
+        print("2. Identify leftover documents after stopping")
+        print("3. Find outlier's rank in leftover documents")
+        print("4. Provide baseline measurement for MENCOD improvement")
+        print()
+        
+        try:
+            # Run the EXACT same simulation as normal mode
+            print("🚀 Running EXACT FRONTEND simulation to get baseline...")
+            results = runner.run_exact_frontend_simulation(
+                    dataset_name=dataset_name,
+                random_state=42,
+                stopping_rule=100
+            )
+            
+            stats = results['stats']
+            results_df = results['results_df']
+            data_store = results['data_store']
+            
+            # Get outlier information
+            outlier_id = runner.datasets_config[dataset_name]['outlier_ids'][0]
+            total_docs = stats['total_documents']
+            reviewed_docs = stats['documents_reviewed']
+            leftover_docs = total_docs - reviewed_docs
+            
+            # Check if outlier was found during simulation
+            outlier_found_during_sim = False
+            outlier_review_rank = -1
+            
+            # Check simulation results for the outlier
+            for idx, row in results_df.iterrows():
+                if row.get('record_id') == outlier_id:
+                    outlier_found_during_sim = True
+                    outlier_review_rank = row.get('review_order', -1) + 1  # Convert to 1-based
+                    break
+            
+            # If outlier wasn't found during simulation, find its rank in leftover documents
+            outlier_leftover_rank = -1
+            if not outlier_found_during_sim:
+                # Get all document records
+                all_docs_df = data_store.get_df()
+                
+                # Create a list of all documents with their records IDs
+                all_doc_records = []
+                for idx, row in all_docs_df.iterrows():
+                    all_doc_records.append({
+                        'record_id': idx,
+                        'title': row.get('title', ''),
+                        'abstract': row.get('abstract', ''),
+                        'included': row.get('included', 0)
+                    })
+                
+                # Get reviewed document IDs from simulation results
+                reviewed_ids = set(results_df['record_id'].tolist())
+                
+                # Find leftover documents (not reviewed)
+                leftover_records = []
+                for doc in all_doc_records:
+                    if doc['record_id'] not in reviewed_ids:
+                        leftover_records.append(doc)
+                
+                # Find outlier position in leftover documents (ranked by original order)
+                for idx, doc in enumerate(leftover_records):
+                    if doc['record_id'] == outlier_id:
+                        outlier_leftover_rank = idx + 1  # Convert to 1-based
+                        break
+            
+            # Create results dictionary in same format as original method
+            rank_results = {
+                'dataset_name': dataset_name,
+                'outlier_record_id': outlier_id,
+                'classifier_type': 'ELAS u4 (exact frontend)',
+                'random_state': 42,
+                
+                # Full dataset statistics (simulated - we don't run full sim)
+                'full_dataset_total_docs': total_docs,
+                'full_dataset_reviewed_docs': total_docs,  # Would be all if no stopping
+                'full_dataset_outlier_rank': -1,  # We don't compute this
+                'full_dataset_outlier_found': True,
+                
+                # Normal simulation statistics (this IS our simulation)
+                'normal_sim_total_docs': total_docs,
+                'normal_sim_reviewed_docs': reviewed_docs,
+                'normal_sim_leftover_docs': leftover_docs,
+                'normal_sim_outlier_in_leftover': not outlier_found_during_sim,
+                
+                # Leftover data statistics
+                'leftover_total_docs': leftover_docs,
+                'leftover_outlier_rank': outlier_leftover_rank,
+                'leftover_outlier_found': outlier_leftover_rank != -1,
+                
+                # Additional info
+                'outlier_found_during_simulation': outlier_found_during_sim,
+                'outlier_review_rank': outlier_review_rank,
+                'simulation_method': 'ELAS u4 (exact frontend)',
+                'stopping_rule': '100 consecutive irrelevant'
+            }
+            
+            if 'error' in rank_results:
+                print(f"❌ Error: {rank_results['error']}")
             return
+        
+            # Print detailed results
+            print_outlier_rank_results(rank_results)
+            
+        except Exception as e:
+            print(f"❌ Error during outlier rank analysis: {e}")
+            import traceback
+            traceback.print_exc()
+        
+        return
+    
+    # Normal simulation mode
+    print("="*70)
+    print("ASReview EXACT FRONTEND SIMULATION (ELAS u4)")
+    print("="*70)
+    
+    # Get dataset selection
+    if args.dataset:
+        dataset_name = args.dataset
+        synergy_name = runner.datasets_config[dataset_name]['synergy_dataset_name']
+        outlier_id = runner.datasets_config[dataset_name]['outlier_ids'][0]
+        print(f"Using specified dataset: {dataset_name} ({synergy_name})")
+        print(f"Known outlier: record_id {outlier_id}")
+    else:
+        dataset_name = get_dataset_selection(runner)
+        if not dataset_name:
+            return
+    
+        synergy_name = runner.datasets_config[dataset_name]['synergy_dataset_name']
+        outlier_id = runner.datasets_config[dataset_name]['outlier_ids'][0]
     
     print("="*70)
     print(f"RUNNING EXACT FRONTEND SIMULATION (ELAS u4)")
