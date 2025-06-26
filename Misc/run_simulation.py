@@ -1443,16 +1443,23 @@ class ASReviewSimulationRunner:
                 sublinear_tf=True,
                 min_df=1,
                 max_df=0.95
-            ),
-            'stopper': NConsecutiveIrrelevant(stopping_rule)
+            )
         }
+        
+        # Handle stopping rule: -1 means no stopping rule (process all documents)
+        if stopping_rule == -1:
+            # Use a very large number to force processing of ALL documents
+            elas_u4_config['stopper'] = NConsecutiveIrrelevant(9999)  # Effectively no stopping
+            print(f"   Stopper: 9999 consecutive irrelevant (process ALL documents)")
+        else:
+            elas_u4_config['stopper'] = NConsecutiveIrrelevant(stopping_rule)
+            print(f"   Stopper: {stopping_rule} consecutive irrelevant")
         
         print(f"EXACT ELAS u4 Configuration:")
         print(f"   Classifier: SVM(C=0.11, loss='squared_hinge')")
         print(f"   Balancer: Balanced(ratio=9.8)")
         print(f"   Feature Extractor: TF-IDF(ngram_range=(1,2), sublinear_tf=True, min_df=1, max_df=0.95)")
         print(f"   Querier: Maximum")
-        print(f"   Stopper: {stopping_rule} consecutive irrelevant")
         
         # Two-cycle approach as used by frontend (_tasks.py:105-115)
         cycles = [
@@ -1465,7 +1472,7 @@ class ASReviewSimulationRunner:
                 classifier=elas_u4_config['classifier'],
                 balancer=elas_u4_config['balancer'],
                 feature_extractor=elas_u4_config['feature_extractor'],
-                stopper=elas_u4_config['stopper']
+                stopper=elas_u4_config.get('stopper')  # May be None for no stopping rule
             )
         ]
         
@@ -1645,29 +1652,16 @@ def print_outlier_rank_results(results: dict):
     print(f"🎯 Outlier Record ID: {outlier_id}")
     print()
     
-    # Full dataset ranking
-    print("🌍 FULL DATASET RANKING (without stopping rule):")
-    print(f"   📈 Total documents: {results['full_dataset_total_docs']:,}")
-    if results['full_dataset_outlier_rank'] != -1:
-        print(f"   🎯 Outlier rank: {results['full_dataset_outlier_rank']:,}")
-        if results['full_dataset_outlier_found']:
-            percentile = (results['full_dataset_outlier_rank'] / results['full_dataset_total_docs']) * 100
-            print(f"   📊 Outlier percentile: {percentile:.1f}%")
-        else:
-            print("   ❌ Outlier not found in full ranking")
-    else:
-        print("   ⏭️  Full ranking not computed (using ELAS u4 simulation only)")
-    print()
-    
-    # Normal simulation with stopping rule
-    print("🛑 NORMAL SIMULATION (with 100 consecutive irrelevant stopping rule):")
-    print(f"   📋 Documents reviewed: {results['normal_sim_reviewed_docs']:,}")
-    print(f"   📄 Documents left over: {results['normal_sim_leftover_docs']:,}")
-    print(f"   🎯 Outlier in leftover: {'Yes' if results['normal_sim_outlier_in_leftover'] else 'No'}")
+    # Simulation results (single simulation matching export mode)
+    print("🔬 SIMULATION RESULTS (matches export mode exactly):")
+    print(f"   📈 Total documents: {results['simulation_total_docs']:,}")
+    print(f"   📋 Documents reviewed: {results['simulation_reviewed_docs']:,}")
+    print(f"   📄 Documents left over: {results['simulation_leftover_docs']:,}")
+    print(f"   🎯 Outlier in leftover: {'Yes' if results['simulation_outlier_in_leftover'] else 'No'}")
     print()
     
     # Leftover dataset ranking (key for MENCOD)
-    if results['normal_sim_outlier_in_leftover']:
+    if results['simulation_outlier_in_leftover']:
         print("📋 LEFTOVER DATASET RANKING (for MENCOD improvement measurement):")
         print(f"   📄 Total leftover documents: {results['leftover_total_docs']:,}")
         print(f"   🎯 Outlier rank in leftover: {results['leftover_outlier_rank']:,}")
@@ -1686,8 +1680,9 @@ def print_outlier_rank_results(results: dict):
             print("   ❌ Outlier not found in leftover ranking")
     else:
         print("⚠️  OUTLIER WAS ALREADY FOUND:")
-        print("   The outlier was discovered during the normal ASReview simulation")
+        print("   The outlier was discovered during the ASReview simulation")
         print("   No leftover documents contain the outlier for MENCOD to rerank")
+        print("   💡 MENCOD won't improve this case since outlier was already found")
     
     print()
     print(f"🔧 SIMULATION METHOD: {results.get('simulation_method', 'Unknown')}")
@@ -1730,100 +1725,132 @@ def main():
         print()
         
         try:
-            # Run the EXACT same simulation as normal mode
-            print("🚀 Running EXACT FRONTEND simulation to get baseline...")
-            results = runner.run_exact_frontend_simulation(
-                    dataset_name=dataset_name,
+            # IMPORTANT: Only run the stopped simulation to match the export behavior exactly
+            # We can't run two simulations with the same random state - they will differ!
+            print("🚀 Running EXACT FRONTEND simulation WITH stopping rule (matches export behavior)...")
+            stopped_results = runner.run_exact_frontend_simulation(
+                dataset_name=dataset_name,
                 random_state=42,
-                stopping_rule=100
+                stopping_rule=100  # Same as export mode
             )
             
-            stats = results['stats']
-            results_df = results['results_df']
-            data_store = results['data_store']
+            # We'll calculate the baseline ranking using the stopped simulation results
+            # This matches exactly what happens when you export leftover documents
             
             # Get outlier information
             outlier_id = runner.datasets_config[dataset_name]['outlier_ids'][0]
-            total_docs = stats['total_documents']
-            reviewed_docs = stats['documents_reviewed']
-            leftover_docs = total_docs - reviewed_docs
+            
+            # Analyze simulation results (this is the EXACT same simulation as export mode)
+            stopped_stats = stopped_results['stats']
+            stopped_results_df = stopped_results['results_df']
+            
+            print(f"📊 Simulation results (EXACT match with export mode):")
+            print(f"   Documents reviewed: {stopped_stats['documents_reviewed']}")
+            print(f"   Documents leftover: {stopped_stats['total_documents'] - stopped_stats['documents_reviewed']}")
+            print(f"   Relevant documents found: {stopped_stats['relevant_found']}/{stopped_stats['total_relevant']}")
+            
+            # Get reviewed document IDs from simulation
+            reviewed_ids = set(stopped_results_df['record_id'].tolist())
+            total_docs = stopped_stats['total_documents']
             
             # Check if outlier was found during simulation
-            outlier_found_during_sim = False
-            outlier_review_rank = -1
+            outlier_found_during_simulation = outlier_id in reviewed_ids
+            if outlier_found_during_simulation:
+                print(f"   🎯 Outlier WAS found during simulation")
+                print(f"   ⚠️  This means the outlier is NOT in the leftover data")
+                outlier_leftover_rank = -1  # Not in leftover
+            else:
+                print(f"   🎯 Outlier was NOT found during simulation (in leftover)")
+                
+                # CORRECT APPROACH: Use ASReview's actual ranking from simulation time
+                # Need to simulate what the ranking would be if ASReview continued
+                
+                # To get the true ranking, we need to run the export function and use its logic
+                print(f"   🔄 Calculating true ASReview ranking for leftover documents...")
+                
+                # Use the same export logic to get the ranking
+                try:
+                    # Create a mock results structure to use the export function
+                    mock_results = {
+                        'results_df': stopped_results_df,
+                        'stats': stopped_stats,
+                        'data_store': stopped_results['data_store']
+                    }
+                    
+                    # Run the export function to get the proper ranking
+                    export_file = runner.export_leftover_documents_for_mencod(mock_results, dataset_name)
+                    
+                    # Read the exported file to get the true ranking
+                    import pandas as pd
+                    export_df = pd.read_csv(export_file)
+                    
+                    # Filter to only leftover documents (asreview_label is None/NaN)
+                    leftover_docs = export_df[export_df['asreview_label'].isna()].copy()
+                    
+                    # The rank is simply the position in this DataFrame (which is ordered correctly)
+                    outlier_row = leftover_docs[leftover_docs['record_id'] == outlier_id]
+                    
+                    if not outlier_row.empty:
+                        outlier_leftover_rank = outlier_row.index[0] + 1  # Convert to 1-based
+                        print(f"   📊 Outlier rank in leftover documents (true ASReview ranking): {outlier_leftover_rank} out of {len(leftover_docs)}")
+                    else:
+                        outlier_leftover_rank = -1
+                        print(f"   ❌ Error: Outlier not found in leftover documents")
+                        
+                except Exception as e:
+                    print(f"   ⚠️  Error calculating true ranking: {e}")
+                    # Fallback to simple method
+                    leftover_record_ids = []
+                    for record_id in range(total_docs):
+                        if record_id not in reviewed_ids:
+                            leftover_record_ids.append(record_id)
+                    
+                    if outlier_id in leftover_record_ids:
+                        outlier_leftover_rank = leftover_record_ids.index(outlier_id) + 1
+                        print(f"   📊 Outlier rank in leftover documents (fallback method): {outlier_leftover_rank} out of {len(leftover_record_ids)}")
+                    else:
+                        outlier_leftover_rank = -1
             
-            # Check simulation results for the outlier
-            for idx, row in results_df.iterrows():
-                if row.get('record_id') == outlier_id:
-                    outlier_found_during_sim = True
-                    outlier_review_rank = row.get('review_order', -1) + 1  # Convert to 1-based
-                    break
+            # Create results dictionary for MENCOD baseline measurement
+            leftover_docs_count = total_docs - stopped_stats['documents_reviewed']
             
-            # If outlier wasn't found during simulation, find its rank in leftover documents
-            outlier_leftover_rank = -1
-            if not outlier_found_during_sim:
-                # Get all document records
-                all_docs_df = data_store.get_df()
-                
-                # Create a list of all documents with their records IDs
-                all_doc_records = []
-                for idx, row in all_docs_df.iterrows():
-                    all_doc_records.append({
-                        'record_id': idx,
-                        'title': row.get('title', ''),
-                        'abstract': row.get('abstract', ''),
-                        'included': row.get('included', 0)
-                    })
-                
-                # Get reviewed document IDs from simulation results
-                reviewed_ids = set(results_df['record_id'].tolist())
-                
-                # Find leftover documents (not reviewed)
-                leftover_records = []
-                for doc in all_doc_records:
-                    if doc['record_id'] not in reviewed_ids:
-                        leftover_records.append(doc)
-                
-                # Find outlier position in leftover documents (ranked by original order)
-                for idx, doc in enumerate(leftover_records):
-                    if doc['record_id'] == outlier_id:
-                        outlier_leftover_rank = idx + 1  # Convert to 1-based
-                        break
-            
-            # Create results dictionary in same format as original method
             rank_results = {
                 'dataset_name': dataset_name,
                 'outlier_record_id': outlier_id,
                 'classifier_type': 'ELAS u4 (exact frontend)',
                 'random_state': 42,
                 
-                # Full dataset statistics (simulated - we don't run full sim)
-                'full_dataset_total_docs': total_docs,
-                'full_dataset_reviewed_docs': total_docs,  # Would be all if no stopping
-                'full_dataset_outlier_rank': -1,  # We don't compute this
-                'full_dataset_outlier_found': True,
+                # Simulation statistics (matches export mode exactly)
+                'simulation_total_docs': stopped_stats['total_documents'],
+                'simulation_reviewed_docs': stopped_stats['documents_reviewed'],
+                'simulation_leftover_docs': leftover_docs_count,
+                'simulation_outlier_in_leftover': not outlier_found_during_simulation,
                 
-                # Normal simulation statistics (this IS our simulation)
-                'normal_sim_total_docs': total_docs,
-                'normal_sim_reviewed_docs': reviewed_docs,
-                'normal_sim_leftover_docs': leftover_docs,
-                'normal_sim_outlier_in_leftover': not outlier_found_during_sim,
-                
-                # Leftover data statistics
-                'leftover_total_docs': leftover_docs,
+                # Leftover data ranking (key for MENCOD baseline measurement)
+                'leftover_total_docs': leftover_docs_count,
                 'leftover_outlier_rank': outlier_leftover_rank,
                 'leftover_outlier_found': outlier_leftover_rank != -1,
                 
                 # Additional info
-                'outlier_found_during_simulation': outlier_found_during_sim,
-                'outlier_review_rank': outlier_review_rank,
-                'simulation_method': 'ELAS u4 (exact frontend)',
-                'stopping_rule': '100 consecutive irrelevant'
+                'outlier_found_during_simulation': outlier_found_during_simulation,
+                'simulation_method': 'ELAS u4 (exact frontend - single simulation)',
+                'stopping_rule': '100 consecutive irrelevant (matches export mode)'
             }
+            
+            print(f"\n🎯 MENCOD BASELINE MEASUREMENT:")
+            if outlier_leftover_rank != -1:
+                print(f"   📊 Outlier rank in leftover: {outlier_leftover_rank} out of {leftover_docs_count}")
+                print(f"   📈 Baseline for MENCOD improvement measurement")
+                print(f"   🎯 If MENCOD ranks outlier at position 10:")
+                improvement = ((outlier_leftover_rank - 10) / outlier_leftover_rank) * 100
+                print(f"       Improvement = ({outlier_leftover_rank} - 10) / {outlier_leftover_rank} = {improvement:.1f}%")
+            else:
+                print(f"   ⚠️  Outlier was found during simulation - no baseline measurement possible")
+                print(f"   💡 MENCOD won't improve this case since outlier was already found")
             
             if 'error' in rank_results:
                 print(f"❌ Error: {rank_results['error']}")
-            return
+                return
         
             # Print detailed results
             print_outlier_rank_results(rank_results)
