@@ -152,8 +152,9 @@ class CitationNetworkOutlierDetector:
         # Add document IDs to results
         self.outlier_results['openalex_ids'] = self.features_df['openalex_id'].values
         
-        # Initialize results analyzer
-        self.results_analyzer = ResultsAnalyzer(self.outlier_results, self.features_df)
+        # Initialize results analyzer with ensemble weights
+        ensemble_weights = self.outlier_detector.get_ensemble_weights()
+        self.results_analyzer = ResultsAnalyzer(self.outlier_results, self.features_df, ensemble_weights)
         
         # Mark as fitted
         self.is_fitted = True
@@ -205,6 +206,61 @@ class CitationNetworkOutlierDetector:
             raise ValueError("Model must be fitted before printing comparison")
         
         self.results_analyzer.print_method_comparison()
+    
+    def get_document_subscores(self, document_id: str) -> Dict[str, float]:
+        """
+        Get individual method subscores for a specific document.
+        
+        Args:
+            document_id: OpenAlex ID of the document
+            
+        Returns:
+            Dictionary with individual method scores for the document
+        """
+        if not self.is_fitted:
+            raise ValueError("Model must be fitted before getting document subscores")
+        
+        return self.results_analyzer.get_document_subscores(document_id)
+    
+    def print_document_subscores(self, document_id: str):
+        """
+        Print formatted individual method subscores for a specific document.
+        
+        Args:
+            document_id: OpenAlex ID of the document
+        """
+        if not self.is_fitted:
+            raise ValueError("Model must be fitted before printing document subscores")
+        
+        self.results_analyzer.print_document_subscores(document_id)
+    
+    def get_comprehensive_document_analysis(self, document_id: str) -> Dict:
+        """
+        Get comprehensive analysis for a specific document including ranks, percentiles, and ensemble weights.
+        
+        Args:
+            document_id: OpenAlex ID of the document
+            
+        Returns:
+            Dictionary with comprehensive analysis including ranks, percentiles, and weights
+        """
+        if not self.is_fitted:
+            raise ValueError("Model must be fitted before getting comprehensive analysis")
+        
+        return self.results_analyzer.get_comprehensive_document_analysis(document_id)
+    
+    def print_thesis_analysis(self, document_id: str):
+        """
+        Print comprehensive thesis-level analysis showing detailed score decomposition.
+        Perfect for academic thesis documentation showing how ensemble scores are constructed.
+        
+        Args:
+            document_id: OpenAlex ID of the document
+        """
+        if not self.is_fitted:
+            raise ValueError("Model must be fitted before printing thesis analysis")
+        
+        self.results_analyzer.print_thesis_analysis(document_id)
     
     def _load_embeddings(self, dataset_name: str):
         """Load embeddings for semantic analysis."""

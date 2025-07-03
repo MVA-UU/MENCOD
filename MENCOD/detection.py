@@ -36,6 +36,9 @@ class OutlierDetector:
         self.random_state = random_state
         self.use_rrf = use_rrf
         self.scaler = StandardScaler()
+        
+        # Store ensemble weights for analysis
+        self.ensemble_weights = None
     
     def apply_lof_to_embeddings(self, simulation_df: pd.DataFrame, 
                                embeddings: Optional[np.ndarray],
@@ -202,6 +205,10 @@ class OutlierDetector:
             # Apply pure RRF (no weights - let RRF handle it automatically)
             ensemble_scores = robust_reciprocal_rank_fusion(score_arrays)
             
+            # For RRF, weights are determined automatically by the algorithm
+            # Store equal weights for display purposes (RRF handles the actual weighting internally)
+            self.ensemble_weights = {method: 1.0/len(score_arrays) for method in score_arrays.keys()}
+            
             return ensemble_scores
         else:
             logger.info("Computing Multi-LOF ensemble scores using variance-weighted combination...")
@@ -220,6 +227,9 @@ class OutlierDetector:
             
             # Calculate weights using variance-based method
             weights = compute_ensemble_weights(score_arrays, method='variance')
+            
+            # Store weights for analysis
+            self.ensemble_weights = weights.copy()
             
             logger.info("Multi-LOF ensemble weights:")
             for method, weight in weights.items():
@@ -334,4 +344,15 @@ class OutlierDetector:
         """Scale feature matrix using StandardScaler."""
         # Handle NaN and infinite values
         feature_matrix = np.nan_to_num(feature_matrix, nan=0.0, posinf=0.0, neginf=0.0)
-        return self.scaler.fit_transform(feature_matrix) 
+        return self.scaler.fit_transform(feature_matrix)
+    
+    def get_ensemble_weights(self) -> Dict[str, float]:
+        """
+        Get the ensemble weights used in the last scoring computation.
+        
+        Returns:
+            Dictionary with ensemble weights for each method
+        """
+        if self.ensemble_weights is None:
+            return {}
+        return self.ensemble_weights.copy() 

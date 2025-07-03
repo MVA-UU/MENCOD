@@ -84,6 +84,27 @@ def main():
                 print(f"  Ensemble Score: {result['score']:.4f}")
                 print(f"  Percentile: {result['percentile']:.1f}%")
                 
+                # Display individual method subscores for this outlier
+                outlier_id = result['outlier_id']
+                try:
+                    # Find the index of this document in the results
+                    doc_index = list(doc_ids).index(outlier_id)
+                    
+                    # Extract individual subscores
+                    lof_emb_score = results.get('lof_embeddings_scores', [0] * len(doc_ids))[doc_index]
+                    lof_net_score = results.get('lof_network_scores', [0] * len(doc_ids))[doc_index]  
+                    lof_mix_score = results.get('lof_mixed_scores', [0] * len(doc_ids))[doc_index]
+                    isolation_score = results.get('isolation_forest_scores', [0] * len(doc_ids))[doc_index]
+                    
+                    print(f"  Individual Method Scores:")
+                    print(f"    LOF-Embeddings:    {lof_emb_score:.4f}")
+                    print(f"    LOF-Network:       {lof_net_score:.4f}")
+                    print(f"    LOF-Mixed:         {lof_mix_score:.4f}")
+                    print(f"    Isolation Forest:  {isolation_score:.4f}")
+                    
+                except (ValueError, IndexError):
+                    print(f"  Individual scores not available for {outlier_id}")
+                
                 if result['percentile'] >= 95:
                     performance = "Excellent ✓"
                 elif result['percentile'] >= 90:
@@ -93,6 +114,13 @@ def main():
                 else:
                     performance = "Poor ✗"
                 print(f"  Performance: {performance}")
+                
+                # Show comprehensive thesis-level analysis for the first known outlier
+                if result == outlier_ranking_results[0]:
+                    print(f"\n" + "=" * 60)
+                    print("DETAILED THESIS ANALYSIS FOR FIRST KNOWN OUTLIER")
+                    print("=" * 60)
+                    detector.print_thesis_analysis(outlier_id)
         else:
             print("No known outliers defined for this dataset.")
         
