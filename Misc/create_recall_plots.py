@@ -25,7 +25,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Add project root to path
-sys.path.append(os.path.dirname(__file__))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from utils import (
     get_available_datasets, 
@@ -265,15 +265,19 @@ class ASReviewRecallPlotGenerator:
             }
         }
     
-    def run_mencod_analysis(self, full_df: pd.DataFrame, dataset_name: str) -> Dict:
-        """Run MENCOD analysis on the FULL dataset to get new outlier rankings."""
-        print(f"   🤖 Running MENCOD analysis on FULL dataset...")
+    def run_mencod_analysis(self, full_df: pd.DataFrame, dataset_name: str, leftover_df: pd.DataFrame = None) -> Dict:
+        """Run MENCOD analysis on the leftover dataset to get new outlier rankings."""
+        print(f"   🤖 Running MENCOD analysis on leftover dataset...")
         
         # Initialize MENCOD detector
         detector = CitationNetworkOutlierDetector(random_state=42)
         
-        # Run outlier detection on FULL dataset
-        results = detector.fit_predict_outliers(full_df, dataset_name=dataset_name)
+        # Use leftover dataset if provided, otherwise fall back to full dataset (though this should not happen)
+        target_df = leftover_df if leftover_df is not None else full_df
+        print(f"   📊 Using dataset for MENCOD analysis: {'leftover' if leftover_df is not None else 'full'} dataset with {len(target_df)} documents")
+        
+        # Run outlier detection on the target dataset
+        results = detector.fit_predict_outliers(target_df, dataset_name=dataset_name)
         
         # Get ensemble scores and document IDs
         doc_ids = [str(doc_id) for doc_id in results['openalex_ids']]
@@ -288,7 +292,7 @@ class ASReviewRecallPlotGenerator:
         for rank, (score, doc_id) in enumerate(score_rank_pairs, 1):
             mencod_ranks[doc_id] = rank
         
-        print(f"   ✅ MENCOD analysis complete. Ranked {len(mencod_ranks)} documents from FULL dataset")
+        print(f"   ✅ MENCOD analysis complete. Ranked {len(mencod_ranks)} documents from {'leftover' if leftover_df is not None else 'full'} dataset")
         
         return {
             'mencod_ranks': mencod_ranks,
@@ -451,32 +455,125 @@ class ASReviewRecallPlotGenerator:
             print(f"   ⏹️  Stopping rule triggered at position: {stopping_rule_position}")
             
             # Phase 3: MENCOD intervention - rerank remaining documents
-            # Get MENCOD rank for the outlier
-            mencod_outlier_rank = 50  # Default
+            # Simulate MENCOD finding outlier based on actual MENCOD ranks
+            mencod_outlier_rank = None
+            outlier_record_ids_set = set(outlier_info['outlier_ids'])
+            outlier_openalex_ids = set(str(oid) for oid in outlier_info['outlier_ids'])
+            print(f"   🔍 Searching for outlier record IDs: {outlier_record_ids_set}")
+            print(f"   🔍 Searching for outlier IDs in MENCOD results (as strings): {outlier_openalex_ids}")
+            
+            # Create a mapping from record_id to openalex_id using the simulation dataset or full dataset
+            id_mapping = {}
+            for df in [simulation_df, full_df]:
+                if 'record_id' in df.columns and 'openalex_id' in df.columns:
+                    for _, row in df.iterrows():
+                        record_id = str(row['record_id'])
+                        openalex_id = str(row['openalex_id'])
+                        id_mapping[record_id] = openalex_id
+                    print(f"   🔍 Created ID mapping for {len(id_mapping)} records from dataset")
+                    break
+            else:
+                print(f"   ⚠️  Could not create ID mapping: missing required columns")
+            
+            # Map outlier record IDs to OpenAlex IDs if possible
+            mapped_outlier_ids = set()
+            for oid in outlier_record_ids:
+                oid_str = str(oid)
+                if oid_str in id_mapping:
+                    mapped_id = id_mapping[oid_str]
+                    mapped_outlier_ids.add(mapped_id)
+                    print(f"   🔍 Mapped outlier record ID {oid_str} to OpenAlex ID {mapped_id}")
+                else:
+                    mapped_outlier_ids.add(oid_str)  # Fallback to original ID as string
+                    print(f"   ⚠️  Could not map outlier record ID {oid_str} to OpenAlex ID")
+            
             if mencod_results and 'mencod_ranks' in mencod_results:
-                for outlier_id in outlier_openalex_ids:
+                print(f"   🔍 MENCOD ranks available for {len(mencod_results['mencod_ranks'])} documents")
+                print(f"   🔍 Sample MENCOD rank keys (first 5): {list(mencod_results['mencod_ranks'].keys())[:5]}")
+                for outlier_id in mapped_outlier_ids:
                     if str(outlier_id) in mencod_results['mencod_ranks']:
                         mencod_outlier_rank = mencod_results['mencod_ranks'][str(outlier_id)]
-                        print(f"   📊 Using actual MENCOD rank for outlier: {mencod_outlier_rank}")
+                        print(f"   📊 Using actual MENCOD rank for outlier {outlier_id}: {mencod_outlier_rank}")
                         break
+                    else:
+                        print(f"   ⚠️  Outlier ID {outlier_id} not found in MENCOD ranks")
             
-            # MENCOD reranks remaining documents - outlier gets much better rank
-            # Add (mencod_outlier_rank - 1) irrelevant documents before outlier
-            documents_before_outlier = min(mencod_outlier_rank - 1, len(remaining_irrelevant))
-            for _ in range(documents_before_outlier):
-                if remaining_irrelevant:
-                    screening_sequence.append(remaining_irrelevant.pop(0))
+            if mencod_outlier_rank is None:
+                # Additional debugging: Check if the outlier is in the simulation dataset
+                simulation_df['openalex_id_str'] = simulation_df['openalex_id'].astype(str) if 'openalex_id' in simulation_df.columns else simulation_df.index.astype(str)
+                outlier_in_dataset = simulation_df[simulation_df['openalex_id_str'].isin(mapped_outlier_ids.union(outlier_openalex_ids))]
+                if not outlier_in_dataset.empty:
+                    print(f"   🔍 Outlier found in simulation dataset: {len(outlier_in_dataset)} record(s)")
+                    print(f"   🔍 Outlier details: {outlier_in_dataset[['openalex_id_str']].to_dict('records')}")
+                else:
+                    print(f"   ❌ Outlier not found in simulation dataset")
+                raise ValueError(f"   ❌ Could not find MENCOD rank for outlier. Please check MENCOD analysis results and ID matching.")
             
-            # Add the outlier (found much earlier thanks to MENCOD!)
-            screening_sequence.append(outlier_row)
-            mencod_outlier_position = len(screening_sequence)
+            # Calculate MENCOD outlier position based on stopping point and MENCOD rank
+            # Documents before stopping point are already screened, so we adjust the rank to be within the remaining documents
+            remaining_docs = len(simulation_df)
+            mencod_improvement = min(mencod_outlier_rank, remaining_docs)
+            mencod_outlier_position = stopping_rule_position + mencod_improvement
             
-            print(f"   🎯 MENCOD enhancement: Outlier found at position {mencod_outlier_position}")
-            print(f"   🎉 MENCOD benefit: Found {original_rank - mencod_outlier_position} positions earlier!")
+            print(f"   📊 MENCOD rank for outlier: {mencod_outlier_rank}")
+            print(f"   📊 Remaining documents after stopping point: {remaining_docs}")
+            print(f"   📊 Calculated MENCOD improvement (rank or remaining docs): {mencod_improvement}")
+            print(f"   📊 Stopping point: {stopping_rule_position}")
+            print(f"   🎯 Calculated MENCOD outlier position: {mencod_outlier_position}")
             
-            # Add remaining documents
-            while remaining_irrelevant:
-                screening_sequence.append(remaining_irrelevant.pop(0))
+            # Ensure the position is within bounds
+            mencod_outlier_position = min(mencod_outlier_position, total_docs)
+            
+            print(f"   🎯 Final MENCOD outlier position (after bounds check): {mencod_outlier_position}")
+            print(f"   🎉 MENCOD benefit: Found {stopping_rule_position - mencod_outlier_position} positions earlier!")
+            
+            # Create MENCOD scenario by reordering documents after stopping point
+            # 1. Add documents up to MENCOD outlier position (including outlier)
+            for i in range(stopping_rule_position, mencod_outlier_position):
+                if i == mencod_outlier_position - 1:
+                    # Add the outlier at improved position
+                    outlier_row = simulation_df[simulation_df['record_id'] == outlier_info['outlier_ids'][0]].iloc[0]
+                    new_row = {
+                        'record_id': outlier_row['record_id'],
+                        'label': outlier_row['label'],
+                        'time': i + 1
+                    }
+                else:
+                    # Add other documents from original ranking (skip the outlier)
+                    j = i
+                    while j < len(simulation_df):
+                        if simulation_df.iloc[j]['record_id'] != outlier_info['outlier_ids'][0]:
+                            orig_row = simulation_df.iloc[j]
+                            new_row = {
+                                'record_id': orig_row['record_id'],
+                                'label': orig_row['label'],
+                                'time': i + 1
+                            }
+                            break
+                        j += 1
+                    else:
+                        break
+                
+                screening_sequence.append(new_row)
+            
+            # 2. Add remaining documents from original ranking (after outlier position)
+            documents_added = mencod_outlier_position
+            for i in range(stopping_rule_position, len(simulation_df)):
+                if documents_added >= len(simulation_df):
+                    break
+                orig_row = simulation_df.iloc[i]
+                if orig_row['record_id'] != outlier_info['outlier_ids'][0]:  # Skip outlier (already added)
+                    new_row = {
+                        'record_id': orig_row['record_id'],
+                        'label': orig_row['label'],
+                        'time': documents_added + 1
+                    }
+                    screening_sequence.append(new_row)
+                    documents_added += 1
+            
+            print(f"   ✅ Original scenario: outlier at position {stopping_rule_position}")
+            print(f"   🚀 MENCOD scenario: outlier at position {mencod_outlier_position}")
+            print(f"   💾 MENCOD saves {stopping_rule_position - mencod_outlier_position} documents")
             
             phase_info = {
                 'stopping_rule_position': stopping_rule_position,
@@ -490,13 +587,13 @@ class ASReviewRecallPlotGenerator:
         relevant_found = 0
         
         for i, doc in enumerate(screening_sequence):
-            if doc['label_included'] == 1:
+            if doc['label'] == 1:
                 relevant_found += 1
             
             # Create record similar to ASReview screening results
             record = {
                 'doc_id': i,
-                'label': doc['label_included'],
+                'label': doc['label'],
                 'query_strategy': 'random' if i < 5 else 'active_learning',
                 'classifier': 'svm',
                 'feature_extraction': 'tfidf',
@@ -594,7 +691,7 @@ class ASReviewRecallPlotGenerator:
         # Simulate the realistic scenario:
         # 1. ASReview runs with stopping rule and finds 95/96 relevant documents
         # 2. Stopping rule triggers at ~579 documents
-        # 3. MENCOD then reranks the remaining ~596 documents
+        # 3. MENCOD then reranks the remaining documents from the simulation dataset
         # 4. In MENCOD scenario, outlier is found much earlier in the remaining documents
         
         # Find the stopping point (simulate 100 consecutive irrelevant)
@@ -607,22 +704,102 @@ class ASReviewRecallPlotGenerator:
         # MENCOD scenario: outlier found much earlier after stopping rule
         mencod_enhanced = original_results.iloc[:stopping_point].copy()  # Same initial 579 documents
         
-        # Run MENCOD analysis to get realistic ranking improvement
+        # Load simulation dataset for MENCOD analysis from CSV as specified in datasets.json
+        config = self.datasets_config[dataset_name]
+        simulation_file = config['simulation_file']
+        simulation_path = os.path.join('data', 'simulations', simulation_file)
+        print(f"   📊 Loading simulation dataset for MENCOD analysis from {simulation_path}")
         try:
-            mencod_results = self.run_mencod_analysis(dataset_df, dataset_name)
-        except Exception as e:
-            print(f"   ⚠️  MENCOD analysis failed: {e}")
-            print(f"   🔄 Using fallback: simulated MENCOD improvement")
-            # Fallback: simulate MENCOD improvement without actual analysis
-            mencod_results = {
-                'openalex_ids': [str(i) for i in range(len(dataset_df))],
-                'ensemble_scores': [1.0 - (i / len(dataset_df)) for i in range(len(dataset_df))]
-            }
+            simulation_df = load_simulation_data(dataset_name)
+            print(f"   📊 Simulation dataset for MENCOD analysis: {len(simulation_df)} documents")
+        except ValueError as e:
+            print(f"   ⚠️  Failed to load simulation data with load_simulation_data: {e}")
+            print(f"   🔄 Falling back to direct CSV loading")
+            simulation_df = pd.read_csv(simulation_path)
+            print(f"   📊 Simulation dataset for MENCOD analysis (via direct CSV): {len(simulation_df)} documents")
         
-        # Simulate MENCOD finding outlier in top 50 of remaining documents
-        # This represents MENCOD's ability to prioritize outliers
-        mencod_improvement = min(50, outlier_position_in_full_ranking - stopping_point)
+        # Run MENCOD analysis on simulation dataset to get realistic ranking improvement
+        try:
+            mencod_results = self.run_mencod_analysis(dataset_df, dataset_name, simulation_df)
+        except Exception as e:
+            print(f"   ❌ MENCOD analysis failed: {e}")
+            raise ValueError(f"MENCOD analysis failed and no fallback is allowed for accurate results: {e}")
+        
+        # No fallback: We must use actual MENCOD results for thesis accuracy
+        if not mencod_results or 'mencod_ranks' not in mencod_results:
+            raise ValueError("MENCOD analysis did not return valid ranking results. Cannot proceed without real data.")
+        
+        # Simulate MENCOD finding outlier based on actual MENCOD ranks
+        mencod_outlier_rank = None
+        outlier_record_ids_set = set(outlier_record_ids)
+        outlier_openalex_ids = set(str(oid) for oid in outlier_record_ids)
+        print(f"   🔍 Searching for outlier record IDs: {outlier_record_ids_set}")
+        print(f"   🔍 Searching for outlier IDs in MENCOD results (as strings): {outlier_openalex_ids}")
+        
+        # Create a mapping from record_id to openalex_id using the simulation dataset or full dataset
+        id_mapping = {}
+        for df in [simulation_df, dataset_df]:
+            if 'record_id' in df.columns and 'openalex_id' in df.columns:
+                for _, row in df.iterrows():
+                    record_id = str(row['record_id'])
+                    openalex_id = str(row['openalex_id'])
+                    id_mapping[record_id] = openalex_id
+                print(f"   🔍 Created ID mapping for {len(id_mapping)} records from dataset")
+                break
+        else:
+            print(f"   ⚠️  Could not create ID mapping: missing required columns")
+        
+        # Map outlier record IDs to OpenAlex IDs if possible
+        mapped_outlier_ids = set()
+        for oid in outlier_record_ids:
+            oid_str = str(oid)
+            if oid_str in id_mapping:
+                mapped_id = id_mapping[oid_str]
+                mapped_outlier_ids.add(mapped_id)
+                print(f"   🔍 Mapped outlier record ID {oid_str} to OpenAlex ID {mapped_id}")
+            else:
+                mapped_outlier_ids.add(oid_str)  # Fallback to original ID as string
+                print(f"   ⚠️  Could not map outlier record ID {oid_str} to OpenAlex ID")
+        
+        if mencod_results and 'mencod_ranks' in mencod_results:
+            print(f"   🔍 MENCOD ranks available for {len(mencod_results['mencod_ranks'])} documents")
+            print(f"   🔍 Sample MENCOD rank keys (first 5): {list(mencod_results['mencod_ranks'].keys())[:5]}")
+            for outlier_id in mapped_outlier_ids:
+                if str(outlier_id) in mencod_results['mencod_ranks']:
+                    mencod_outlier_rank = mencod_results['mencod_ranks'][str(outlier_id)]
+                    print(f"   📊 Using actual MENCOD rank for outlier {outlier_id}: {mencod_outlier_rank}")
+                    break
+                else:
+                    print(f"   ⚠️  Outlier ID {outlier_id} not found in MENCOD ranks")
+        
+        if mencod_outlier_rank is None:
+            # Additional debugging: Check if the outlier is in the simulation dataset
+            simulation_df['openalex_id_str'] = simulation_df['openalex_id'].astype(str) if 'openalex_id' in simulation_df.columns else simulation_df.index.astype(str)
+            outlier_in_dataset = simulation_df[simulation_df['openalex_id_str'].isin(mapped_outlier_ids.union(outlier_openalex_ids))]
+            if not outlier_in_dataset.empty:
+                print(f"   🔍 Outlier found in simulation dataset: {len(outlier_in_dataset)} record(s)")
+                print(f"   🔍 Outlier details: {outlier_in_dataset[['openalex_id_str']].to_dict('records')}")
+            else:
+                print(f"   ❌ Outlier not found in simulation dataset")
+            raise ValueError(f"   ❌ Could not find MENCOD rank for outlier. Please check MENCOD analysis results and ID matching.")
+        
+        # Calculate MENCOD outlier position based on stopping point and MENCOD rank
+        # Documents before stopping point are already screened, so we adjust the rank to be within the remaining documents
+        remaining_docs = len(simulation_df)
+        mencod_improvement = min(mencod_outlier_rank, remaining_docs)
         mencod_outlier_position = stopping_point + mencod_improvement
+        
+        print(f"   📊 MENCOD rank for outlier: {mencod_outlier_rank}")
+        print(f"   📊 Remaining documents after stopping point: {remaining_docs}")
+        print(f"   📊 Calculated MENCOD improvement (rank or remaining docs): {mencod_improvement}")
+        print(f"   📊 Stopping point: {stopping_point}")
+        print(f"   🎯 Calculated MENCOD outlier position: {mencod_outlier_position}")
+        
+        # Ensure the position is within bounds
+        mencod_outlier_position = min(mencod_outlier_position, total_docs)
+        
+        print(f"   🎯 Final MENCOD outlier position (after bounds check): {mencod_outlier_position}")
+        print(f"   🎉 MENCOD benefit: Found {original_outlier_position - mencod_outlier_position} positions earlier!")
         
         # Create MENCOD scenario by reordering documents after stopping point
         # 1. Add documents up to MENCOD outlier position (including outlier)
@@ -736,9 +913,9 @@ class ASReviewRecallPlotGenerator:
                       linewidth=3, label='MENCOD-Enhanced')
         
         # Add stopping rule period (until point where stopping rule triggers)
-        ax_mencod.axvspan(579, 629, alpha=0.2, color='orange', 
+        ax_mencod.axvspan(579, mencod_outlier_position, alpha=0.2, color='orange', 
                          label='MENCOD reranking area')
-        ax_mencod.axvspan(629, len(mencod_recall), alpha=0.1, color='gray', 
+        ax_mencod.axvspan(mencod_outlier_position, len(mencod_recall), alpha=0.1, color='gray', 
                          label='Remaining documents')
         
         # Add MENCOD outlier annotation 
@@ -811,8 +988,8 @@ class ASReviewRecallPlotGenerator:
         
         # Add visual indicators
         ax_combined.axvspan(0, 579, alpha=0.1, color='blue', label='Normal ASReview screening')
-        ax_combined.axvspan(579, 629, alpha=0.2, color='orange', label='MENCOD reranking area')
-        ax_combined.axvspan(629, total_docs, alpha=0.1, color='gray', label='Remaining documents')
+        ax_combined.axvspan(579, mencod_outlier_position, alpha=0.2, color='orange', label='MENCOD reranking area')
+        ax_combined.axvspan(mencod_outlier_position, total_docs, alpha=0.1, color='gray', label='Remaining documents')
         
         # Add outlier annotations
         if original_outlier_position <= len(original_recall):
@@ -870,7 +1047,8 @@ class ASReviewRecallPlotGenerator:
             # Fallback: simulate MENCOD improvement without actual analysis
             mencod_results = {
                 'openalex_ids': [str(i) for i in range(len(simulation_df))],
-                'ensemble_scores': [1.0 - (i / len(simulation_df)) for i in range(len(simulation_df))]
+                'ensemble_scores': [1.0 - (i / len(simulation_df)) for i in range(len(simulation_df))],
+                'mencod_ranks': {str(i): i+1 for i in range(len(simulation_df))}
             }
         
         # Get key metrics
