@@ -1,4 +1,4 @@
-# MENCOD: Machine Learning-Enhanced Network-based Citation Outlier Detection
+# MENCOD: Multi-modal ENsemble Citation Outlier Detection
 Master thesis project by Marco van Angeren  
 Utrecht University - Applied Data Science  
 In collaboration with ASReview - https://www.asreview.nl
